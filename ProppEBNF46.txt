@@ -216,8 +216,11 @@ complication        = FloatingT MoveOpener FloatingT
 # parser must commit the first F to a group before any fixed lookahead
 # can see past a run of any length. This is the obstruction ruling 48
 # named: a symbol in two unguarded slots. Removing it means merging the
-# father's agent and the donor's into one group, or changing the narrow
-# reading; step 5 left that to the owner.
+# father's agent and the donor's into one group. Changing the reading of
+# p.108 alone does not: on a broad reading, an F before the departure
+# whether or not one follows, A C F G still has its F in two slots, and a
+# single F directly before the departure needs two tokens of lookahead.
+# Step 5 left the merge to the owner.
 
 AgentBeforeDeparture
                     = receiptOfMagicalAgent FloatingT

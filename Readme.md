@@ -49,7 +49,7 @@ Of the twelve still failing, eight carry licenses not yet built in (the pre-depa
 
 **What the target cost in LL(1).** The domestic agent puts F in two places, and one token after C cannot tell whether a departure will follow, so F joins J as a conflict. Ruling 48 named this obstruction.
 Step 5 removed the J conflict, which was a true ambiguity, by the repair v44's own comment names.
-The F conflict cannot be removed while the father's agent and the donor's stay separate groups, for any lookahead: a run of F's belongs to one or the other depending on whether a departure follows the whole run. Merging the groups or changing the narrow reading would remove it; that is the owner's choice.
+The F conflict cannot be removed while the father's agent and the donor's stay separate groups, for any lookahead: a run of F's belongs to one or the other depending on whether a departure follows the whole run. Only merging the two groups would remove it; changing the reading of p.108 alone would not. That is the owner's choice.
 
 Moves are sequential for now, separated by `/`; embedding is a later step.
 The separator is editorial and follows Appendix III's layout of one row per move. It was adopted when step 2's frozen LL(1) test failed: without it, a move opening on B could not be told from a B inside the move before.
