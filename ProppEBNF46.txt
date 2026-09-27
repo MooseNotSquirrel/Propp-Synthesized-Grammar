@@ -1,11 +1,16 @@
-# SYNTHESIZED PROPP GRAMMAR, STEP 1: v44 REGROUPED
+# PROPP GRAMMAR v46
 # ============================================================================
-# The first step of SynthesizedProppGrammar. It regroups v44 into the pairs
-# and groups Propp names, and ADDS NO STRING: the language is v44's,
-# symbol for symbol. That is not asserted but tested, by StepTests.txt
-# step 1, which was written before this file:
+# The grammar of SynthesizedProppGrammar, built from v44 one step at a
+# time. v44's language is the invariant and v43 a source of shapes: each
+# step is labeled language-preserving or language-changing, and its tests
+# are frozen in StepTests.txt before it is built. Each step is tagged in
+# git; run the tests for the current step with
 #
-#   python runSteps.py 1
+#   python runSteps.py N
+#
+# STATE: STEP 1. v44 regrouped into the pairs and groups Propp names. It
+# ADDS NO STRING: the language is v44's, symbol for symbol, which step 1's
+# tests prove rather than assert.
 #
 # What the step adds is STRUCTURE. v44 is a flat slot sequence, so every
 # move-string has one shape; here each move parses into constituents a
@@ -36,17 +41,17 @@
 # p.92: a move is any development proceeding from villainy or lack,
 # through intermediary functions, to a denouement.
 #
-# THE MOVE TYPE IS DECIDED AT MoveOpener, NOT AT THE ROOT. v43 splits at
-# the root, move = VillainyMove | LackMove, and the owner proposed keeping
-# that. It was not kept, for one reason: Propp names exactly one group in
-# this span, the complication, "(ABC↑)" at pp.64-65, and a root split
-# would have to copy it, and the arc containing it, once per opener, since
-# a context-free grammar cannot pass the opener down to a shared
-# production. With the choice at MoveOpener, the type is still read off
-# every tree, as the child of MoveOpener, and the complication is one
-# production. The root-split form accepts the same strings and is equally
-# LL(1) at its top; if it is preferred, it can be written and proved
-# equivalent to this file with equivCheck.py.
+# THE MOVE TYPE IS DECIDED AT MoveOpener, NOT AT THE ROOT, by the owner's
+# decision. v43 splits at the root, move = VillainyMove | LackMove, and
+# that was considered and set aside for one reason: Propp names exactly
+# one group in this span, the complication, "(ABC↑)" at pp.64-65, and a
+# root split would have to copy it, and the arc containing it, once per
+# opener, since a context-free grammar cannot pass the opener down to a
+# shared production. With the choice at MoveOpener, the type is still
+# read off every tree, as the child of MoveOpener, and the complication
+# is one production. The root-split form accepts the same strings and is
+# equally LL(1) at its top, so nothing but the tree's shape rides on the
+# choice.
 
 move                = CrisisToLiquidation AfterLiquidation
 

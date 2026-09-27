@@ -4,10 +4,13 @@ runSteps.py -- run the frozen step tests of SynthesizedProppGrammar.
 
   python runSteps.py STEP
 
-Reads StepTests.txt. Every test names the step from which it binds. Tests
-for steps up to STEP are run; tests for later steps are counted as pending
-and cannot fail the run. A test is written, with its source, BEFORE the
-step it tests is built, and is never edited to fit a result.
+Reads StepTests.txt. Every test names the steps over which it binds: N
+means step N onward, N-M steps N to M. The grammar is one file that every
+step changes, so a test a later step is planned to break is written with
+a closing step when it is frozen, not retired after it fails. Tests for
+later steps are counted as pending and tests already closed are counted
+as closed; neither can fail the run. A test is written, with its source,
+BEFORE the step it tests is built, and is never edited to fit a result.
 
 Kinds, one test per line as  step | kind | arguments | source :
 
@@ -136,14 +139,19 @@ def main(argv):
         if not line.strip() or line.lstrip().startswith('#'):
             continue
         cells = [c.strip() for c in line.split(' | ')]
-        if len(cells) != 4 or not cells[0].isdigit():
+        span = cells[0].split('-') if len(cells) == 4 else []
+        if not span or len(span) > 2 or not all(s.isdigit() for s in span):
             print('%s line %d: not  step | kind | arguments | source' % (TESTS, n))
             return 2
-        tests.append((n, int(cells[0]), cells[1], shlex.split(cells[2]), cells[3]))
-    failed = pending = 0
-    for n, step, kind, args, source in tests:
+        first, last = int(span[0]), int(span[-1]) if len(span) == 2 else None
+        tests.append((n, first, last, cells[1], shlex.split(cells[2]), cells[3]))
+    failed = pending = closed = 0
+    for n, step, last, kind, args, source in tests:
         if step > upto:
             pending += 1
+            continue
+        if last is not None and last < upto:
+            closed += 1
             continue
         try:
             ok, detail = run(kind, args)
@@ -158,8 +166,9 @@ def main(argv):
         if not ok:
             print('                         source: %s' % source)
     print()
-    print('%d binding, %d failed, %d pending for later steps'
-          % (len(tests) - pending, failed, pending))
+    print('%d binding, %d failed, %d pending for later steps, '
+          '%d closed by an earlier step'
+          % (len(tests) - pending - closed, failed, pending, closed))
     return 1 if failed else 0
 
 

@@ -7,15 +7,22 @@ Its question is what structure and meaning a grammar of Propp's folktale can car
 **It began on 2026-09-27 from Propp Grammar Test Cases at commit 0f27783.**
 Six files were copied unchanged: `ProppEBNF44.txt`, `ProppEBNF43.txt`, `ProppMidLevelGroupsEbnf.txt`, `parse.py`, `equivCheck.py` and `regression.py`.
 Others are copied when a step needs them, and each copy is recorded here.
+`ProppMidLevelGroupsEbnf.txt` was refreshed on 2026-09-27, after the first project's ruling 104 let an absentation be told after the interdiction, as both whole tales Propp analyzes in Ch. IX tell it.
 
 ## Method: test first, one step at a time
+
+**The grammar is one file, `ProppEBNF46.txt`, and every step changes it.**
+It follows v43, v44 and v45C in the project's numbering.
+v44's language is the invariant and v43 is a source of shapes: a name or grouping is borrowed from v43 only when the regrouped grammar is proved to keep v44's strings.
+Each finished step is tagged in git, `step1`, `step2` and so on, so any earlier state can be recovered and rerun.
 
 **Every step is labeled language-preserving or language-changing before it is built.**
 A language-preserving step adds structure and no strings, and its test is equivalence to the grammar before it.
 A language-changing step adds or removes strings, and its tests are written and frozen first, each citing the page it rests on.
 
 **The tests live in `StepTests.txt`, and `runSteps.py` runs them.**
-`python runSteps.py N` runs every test for steps 1 to N, and counts the tests for later steps as pending.
+`python runSteps.py N` runs every test that binds at step N, and counts the tests for later steps as pending.
+A test binds from its step onward, or over a range such as `1-2` when a later step is planned to break it; the range is written when the test is frozen, not after it fails.
 A test is never edited to fit a result: a test found wrong is commented out with a dated reason, and its correction is added below it.
 
 **`equivCheck.py` is the proof instrument.**
@@ -24,17 +31,17 @@ It handles grammars whose productions do not refer back to themselves, which cov
 
 ## Steps
 
-| step | kind | grammar | state |
-|---|---|---|---|
-| 1 | language-preserving: v44 regrouped into Propp's pairs and groups | `SynthesizedGrammar01.txt` | built; 2 of 2 tests pass |
-| 2 | language-changing: the tale layer, a preparatory section and then sequential moves | `SynthesizedGrammar02.txt` | tests frozen; two questions open for the owner |
-| 3 | language-changing: p.108's exchange of recognition, exposure, marriage and punishment | `SynthesizedGrammar03.txt` | tests frozen on FN's reading |
+| step | kind | state |
+|---|---|---|
+| 1 | language-preserving: v44 regrouped into Propp's pairs and groups | built and tagged `step1`; 2 of 2 tests pass |
+| 2 | language-changing: the tale layer, a preparatory section and then sequential moves | tests frozen; two questions open for the owner |
+| 3 | language-changing: p.108's exchange of recognition, exposure, marriage and punishment | tests frozen on FN's reading |
 
 Moves are sequential for now; embedding is a later step.
 
 ## Files
 
-- `SynthesizedGrammar01.txt`: step 1.
+- `ProppEBNF46.txt`: the grammar, at its latest step.
 - `StepTests.txt`: the frozen tests for every step written so far.
 - `runSteps.py`: runs them.
 - The six copied files listed above.

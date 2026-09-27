@@ -120,7 +120,9 @@ preparatoryGroup
               etaLambdaThetaGroup
 
 gammaDeltaPair
-            = {'γ'}             # II, interdiction
+            = [ 'γ' {'γ'}       # II, interdiction
+                {'β'} ]         # I, absentation, told after the
+                                #   interdiction: point 5 below
               {'δ'}             # III, violation                  # p.80
 
 epsilonZetaPair
@@ -296,6 +298,29 @@ pursuitRescuePair
 #    the corpus can neither confirm nor refute, and it is the one place
 #    where this file goes beyond v44, which omits the section
 #    deliberately for the same reason.
+#    The corpus is not Propp's only printed evidence, though. His two
+#    worked analyses in Ch. IX print preparatory functions, and the
+#    production accepts both, as point 5 records. Before point 5's
+#    change it rejected both.
+#
+# 5. ABSENTATION MAY BE TOLD ON EITHER SIDE OF THE INTERDICTION. p.26
+#    says the tale generally mentions an absentation first and then an
+#    interdiction, while the events themselves run in reverse, and
+#    p.108 says the preparatory functions show the enumeration's
+#    sequence "in general". Both whole tales Propp analyzes in Ch. IX
+#    tell the interdiction first. Tale 113 at pp.96-97, items 1 to 6,
+#    runs initial situation, interdiction, departure of the elders,
+#    motivation, violation, villainy. The wolf and the kids has the
+#    printed scheme γ¹β¹δ¹A¹B⁴C↑I⁶K¹↓ at p.101. Table II's headings run
+#    in the same order: interdictions, absentations, violation.
+#    gammaDeltaPair therefore admits an absentation after the
+#    interdiction as well as before it. The second place opens only
+#    once an interdiction has occurred, so a lone β has one place to go
+#    and the production stays LL(1). The absentation nests inside the
+#    γ-δ pair rather than crossing it. The production also admits β on
+#    both sides, as in β γ β δ, which no page licenses and none
+#    forbids; it declines to forbid it, as this file declines to forbid
+#    any repetition Propp does not forbid.
 #
 # NO EXCLUSION IS ENCODED. p.108 reports that all seven preparatory
 # functions never co-occur. p.109 explains it by economy, and economy is
