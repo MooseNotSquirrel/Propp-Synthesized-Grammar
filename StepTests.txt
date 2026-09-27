@@ -57,14 +57,19 @@
 2 | accept | ProppEBNF46.txt "θ A" | complicity without trickery, p.30 (catalog 6.1)
 2 | accept | ProppEBNF46.txt "A K a K" | moves may follow one another, p.92; each new villainy or lack creates a new move
 2 | reject | ProppEBNF46.txt "β γ δ" | a tale is a development proceeding from villainy or lack, p.92: a preparatory section with no move is not a tale
+2 | reject | ProppEBNF46.txt "A K γ δ a K" | the preparatory section stands before the first move only, by the owner's decision: p.86 says second moves begin with a given situation, and Appendix I Table VI, p.125, begins the second move from a new villainy; neither names a preparatory function
 #
-# OPEN, FOR THE OWNER BEFORE STEP 2 IS BUILT:
-#   p.108: "all seven functions of this section are never encountered
-#   within one tale". Written as  reject "β γ δ ε ζ η θ A"  it would turn
-#   Propp's observation into a rule of the grammar. FO point 3 warns that
-#   this may overstate him.
-#   Whether a preparatory function may stand before a second move, as in
-#   "A K γ δ a K". No test is written until a page is found either way.
+# DECIDED BY THE OWNER, 2026-09-27, BEFORE STEP 2 WAS BUILT:
+#   p.108's "all seven functions of this section are never encountered
+#   within one tale" is LEFT OUT. No test encodes it, and the grammar does
+#   not forbid the seven together.
+#   A preparatory function before a later move is NOT PERMITTED, since
+#   Propp never mentions one; the reject test above encodes it. Admitting
+#   one later would be a small edit to the tale production.
+# STILL OPEN: p.86's "given situation" at the head of a second move is
+#   about who stands where, not a function, and no test says whether an
+#   initial situation α may stand before a later move. The grammar does
+#   not admit one.
 
 
 # ---------------------------------------------------------------------------

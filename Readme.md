@@ -34,7 +34,7 @@ It handles grammars whose productions do not refer back to themselves, which cov
 | step | kind | state |
 |---|---|---|
 | 1 | language-preserving: v44 regrouped into Propp's pairs and groups | built and tagged `step1`; 2 of 2 tests pass |
-| 2 | language-changing: the tale layer, a preparatory section and then sequential moves | tests frozen; two questions open for the owner |
+| 2 | language-changing: the tale layer, a preparatory section and then sequential moves | built, NOT tagged: 12 of 13 tests pass; the frozen LL(1) test fails on a B conflict the tale layer introduces, awaiting the owner |
 | 3 | language-changing: p.108's exchange of recognition, exposure, marriage and punishment | tests frozen on FN's reading |
 
 Moves are sequential for now; embedding is a later step.

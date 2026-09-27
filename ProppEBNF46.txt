@@ -8,14 +8,18 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 1. v44 regrouped into the pairs and groups Propp names. It
-# ADDS NO STRING: the language is v44's, symbol for symbol, which step 1's
-# tests prove rather than assert.
-#
-# What the step adds is STRUCTURE. v44 is a flat slot sequence, so every
-# move-string has one shape; here each move parses into constituents a
-# meaning can attach to. In the terms of finding FO, the weak generative
-# capacity is unchanged and the strong generative capacity is added.
+# STATE: STEP 2.
+# Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
+# STRING: the move layer is v44's, symbol for symbol, which the tests
+# prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
+# sequence, so every move-string has one shape; here each move parses into
+# constituents a meaning can attach to. In the terms of finding FO, the
+# weak generative capacity is unchanged and the strong generative
+# capacity is added.
+# Step 2 adds the tale above the move: an optional initial situation, the
+# preparatory section, then one or more moves in sequence. It CHANGES THE
+# LANGUAGE, adding tale-level strings, and leaves the move layer as it
+# was.
 #
 # Notation is v44's: A = x a production, 'x' a terminal, [X] optional,
 # {X} zero or more, X Y concatenation, | alternation, # a comment.
@@ -33,6 +37,86 @@
 # Every group, lower or upper, cites the page that warrants the grouping
 # where Propp gives one. An upper-case group with no page is a grouping
 # for reading only, and claims nothing about Propp.
+
+
+# ----------------------------------------------------------------------------
+# THE TALE  (step 2)
+# ----------------------------------------------------------------------------
+# p.92: morphologically, a tale is any development proceeding from
+# villainy or lack; each new villainy or lack creates a new move, and
+# moves may follow one another. So a tale holds at least one move, and a
+# preparatory section with no move is not a tale.
+#
+# MOVES ARE SEQUENTIAL ONLY, for now. p.92 also lets moves interweave;
+# interruption is a later step.
+#
+# THE PREPARATORY SECTION STANDS BEFORE THE FIRST MOVE ONLY, by the
+# owner's decision, because Propp never places one before a later move.
+# p.86 says second moves begin with a given situation, meaning who stands
+# where, and Appendix I Table VI, p.125, begins the second move from a new
+# villainy. Admitting one later would move preparatorySection inside the
+# repetition.
+#
+# THE INITIAL SITUATION, α, is not a function and precedes the functions
+# (p.25). It takes [ ] and not { }: it is optional and it is not
+# repeated. Whether one may stand before a later move is left open.
+#
+# NO EXCLUSION IS ENCODED among the preparatory functions. p.108 observes
+# that all seven never occur within one tale; by the owner's decision the
+# grammar does not forbid it.
+#
+# A MOVE MAY OPEN ON B, and B may also follow an opener inside a move.
+# So a tale string such as A B C parses two ways: one move, villainy then
+# mediation then counteraction, or the move A followed by the move B C.
+# The ambiguity arises only when a move consisting of nothing but its
+# opener precedes a move opened on B. No tale in the corpus does that:
+# the one later move opened on B, 133 II, follows a move ending D E F.
+# It is recorded here, and StepTests.txt's LL(1) test reports it.
+
+tale                = [initialSituation] preparatorySection move {move}
+
+preparatorySection  = {absentation} interdictionViolation
+                      reconnaissanceDelivery trickeryComplicity
+                                            # Appendix I Table II, p.121, is
+                                            #   titled The Preparatory
+                                            #   Section; p.80 writes it as
+                                            #   (β, γ-δ, ε-ζ, η-θ)
+
+interdictionViolation
+                    = [ interdiction {interdiction} {absentation} ]
+                      {violation}           # p.80 γ-δ; p.64's pairs list,
+                                            #   prohibition-violation.
+                                            #   An absentation may be told
+                                            #   after the interdiction:
+                                            #   p.26 says the tale
+                                            #   generally tells it first,
+                                            #   and both whole tales Propp
+                                            #   analyzes in Ch. IX tell it
+                                            #   after, 113 at pp.96-97 and
+                                            #   the wolf and the kids at
+                                            #   p.101. The second place
+                                            #   opens only after an
+                                            #   interdiction, so a lone
+                                            #   absentation has one place
+                                            #   and the production stays
+                                            #   LL(1). v43's RuleViolation.
+
+reconnaissanceDelivery
+                    = {reconnaissance} {delivery}
+                                            # p.80 ε-ζ; p.64's pairs list.
+                                            #   v43's InformationGathering.
+
+trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
+                                            # p.80 η-θ. λ is inserted on
+                                            #   Table II item 44's wording,
+                                            #   which confines the
+                                            #   preliminary misfortune to
+                                            #   the deceptive agreement.
+                                            #   v43's DeceptionTrap.
+
+# The preparatory section is borrowed whole from the first project's
+# ProppMidLevelGroupsEbnf.txt, whose preparatoryGroup it accepts string
+# for string; only the names differ.
 
 
 # ----------------------------------------------------------------------------
@@ -138,6 +222,15 @@ Resolution          = {punishment} {wedding}
 # THE FUNCTIONS, by Propp's definitions in Ch. III
 # ----------------------------------------------------------------------------
 
+initialSituation       = 'α'                # not a function, p.25
+absentation            = 'β'                # I
+interdiction           = 'γ'                # II
+violation              = 'δ'                # III
+reconnaissance         = 'ε'                # IV
+delivery               = 'ζ'                # V
+trickery               = 'η'                # VI
+preliminaryMisfortune  = 'λ'                # Table II item 44
+complicity             = 'θ'                # VII
 villainy               = 'A'                # VIII
 lack                   = 'a'                # VIIIa
 mediation              = 'B'                # IX, the connective incident
