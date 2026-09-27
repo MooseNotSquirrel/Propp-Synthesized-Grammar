@@ -16,6 +16,8 @@ Kinds, one test per line as  step | kind | arguments | source :
 
   equivalent A B [options]  equivCheck.py finds A and B equivalent; any
                             options are passed to it unchanged
+  includes A B [options]    every string A accepts, B accepts too
+                            (equivCheck.py; options passed unchanged)
   accept G "x y z"          G accepts the string
   reject G "x y z"          G rejects the string
   ll1 G T1 T2 ...           G's LL(1) conflicts fall on exactly the listed
@@ -123,6 +125,12 @@ def run(kind, args):
         last = [x for x in p.stdout.split('\n') if x.strip()]
         detail = ' / '.join(x.strip() for x in last[-3:]) if p.returncode else last[-1]
         return p.returncode == 0, detail
+    if kind == 'includes':
+        p = subprocess.run([sys.executable, 'equivCheck.py'] + args,
+                           capture_output=True, encoding='utf-8', env=ENV)
+        ok = p.returncode == 0 or 'every string A accepts, B accepts too.' in p.stdout
+        last = [x.strip() for x in p.stdout.splitlines() if x.strip()]
+        return ok, ' / '.join(last[-2:])
     if kind in ('accept', 'reject'):
         got = accepts(args[0], args[1].split())
         return got == (kind == 'accept'), 'accepted' if got else 'rejected'

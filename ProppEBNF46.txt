@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 3.
+# STATE: STEP 4.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -25,6 +25,12 @@
 # among themselves. It CHANGES THE MOVE LAYER, which now accepts exactly
 # the language of Step3Spec.txt, a flat statement of v44 with those two
 # licenses, written before the step was built.
+# Step 4 builds in the three licenses left: the domestic agent before the
+# departure (p.108), the fight after pursuit (p.107) and the humorous
+# inversion of rescue and pursuit (p.147). It CHANGES THE MOVE LAYER, only
+# adding strings. Over the 84 resolved move-strings it accepts 80, and
+# the four it refuses are the genuine counterexamples. It costs a second
+# LL(1) conflict, on F.
 #
 # Notation is v44's: A = x a production, 'x' a terminal, [X] optional,
 # {X} zero or more, X Y concatenation, | alternation, # a comment.
@@ -183,11 +189,29 @@ CrisisToLiquidation = complication Development {liquidation FloatingT}
 complication        = FloatingT MoveOpener FloatingT
                       {mediation FloatingT}
                       {beginningCounteraction FloatingT}
+                      [AgentBeforeDeparture]
                       {departure FloatingT}
                                             # pp.64-65: villainy, dispatch,
                                             #   decision for counteraction
                                             #   and departure "(ABC↑),
                                             #   constitute the complication"
+
+# --- the domestic agent: p.108 (step 4) ---
+# p.108: "the transference of a magical agent sometimes occurs before the
+# hero leaves home. These are the cudgels, ropes, maces, and so forth,
+# given by the father." NARROW READING: the agent given at home is
+# followed by the departure, since the page defines it by leaving home,
+# so the production carries the departure with it. With no departure
+# following, an F is the donor's, in Vetting.
+# A SECOND LL(1) CONFLICT, ON F, IS THE PRICE. After C, one token cannot
+# tell whether a run of F's will be followed by a departure, which makes
+# it this production, or not, which makes it Vetting's. This is the
+# obstruction ruling 48 named: a symbol in two unguarded slots.
+
+AgentBeforeDeparture
+                    = receiptOfMagicalAgent FloatingT
+                      {receiptOfMagicalAgent FloatingT}
+                      departure FloatingT
 
 MoveOpener          = villainy              # p.92
                     | lack                  # p.92
@@ -220,9 +244,34 @@ AfterLiquidation    = ReturnJourney Ordeal Endgame
 ReturnJourney       = {return FloatingT} Evasion
                                             # v43's name
 
-Evasion             = {pursuit FloatingT}
-                      {rescue FloatingT}    # pursuit-rescue, a pair in
+Evasion             = [ PursuitFirst | RescueFirst ]
+                                            # pursuit-rescue, a pair in
                                             #   p.64's list. v43's name.
+
+# --- two licenses on the pursuit (step 4) ---
+# p.107: "In tales 93 and 159 the fight with the villain takes place
+# only after pursuit." CombatAfterPursuit lets the struggle group stand
+# after a pursuit, and only after one.
+# p.147, on tale 150: "Humorous inversion: the villain runs away instead
+# of the hero; the hero pursues [Rs-Pr]." RescueFirst lets the rescue
+# precede the pursuit. Built into the grammar, it holds for every tale,
+# not only the humorous ones Propp names: that is the cost of
+# internalizing a license, and the page is its defense.
+# The two openings differ in their first symbol, so the choice between
+# them adds no conflict. CombatAfterPursuit's J is a third J slot and
+# joins the J conflict already carried.
+
+PursuitFirst        = pursuit FloatingT {pursuit FloatingT}
+                      {rescue FloatingT}
+                      CombatAfterPursuit
+
+RescueFirst         = rescue FloatingT {rescue FloatingT}
+                      [ pursuit FloatingT {pursuit FloatingT}
+                        CombatAfterPursuit ]
+
+CombatAfterPursuit  = {struggle FloatingT}
+                      {branding FloatingT}
+                      {victory FloatingT}   # p.107; H J I as in Combat
 
 Ordeal              = FraudPosture TaskCycle
                                             # v43's name, less its closing

@@ -109,8 +109,15 @@
 3 | accept | ProppEBNF46.txt "A K W U" | p.108: marriage and punishment exchange; holds on either reading
 3 | accept | ProppEBNF46.txt "A K U Q W" | p.108 on FN's reading: 139 II ends U Q W
 3 | reject | ProppEBNF46.txt "A U K" | the exchange is among the four closing functions only; punishment before liquidation stays out of order, p.22
-3 | equivalent | Step3Spec.txt ProppEBNF46.txt --start-b move | the move layer is exactly v44's with T free to stand anywhere and the four closing functions free to exchange, both p.108; tested whole against a flat specification written before the build
-3 | ll1 | ProppEBNF46.txt J | neither T's freedom nor the exchange may introduce a conflict; J stays the only one
+# 2026-09-27, BEFORE STEP 4 WAS BUILT: this test and the LL(1) test below
+#   were frozen as binding from step 3 onward, but step 4 is planned to
+#   change the move layer and to add a conflict, so both should have
+#   closed at step 3. Corrected here before step 4 was built, not after
+#   it failed; the originals are kept, commented out.
+# 3 | equivalent | Step3Spec.txt ProppEBNF46.txt --start-b move | (original, binding onward)
+# 3 | ll1 | ProppEBNF46.txt J | (original, binding onward)
+3-3 | equivalent | Step3Spec.txt ProppEBNF46.txt --start-b move | the move layer is exactly v44's with T free to stand anywhere and the four closing functions free to exchange, both p.108; tested whole against a flat specification written before the build
+3-3 | ll1 | ProppEBNF46.txt J | neither T's freedom nor the exchange may introduce a conflict; J stays the only one
 3 | accept | ProppEBNF46.txt "T A K" | T before the opener: p.108, T anywhere, the owner's decision
 3 | accept | ProppEBNF46.txt "A K U T W" | p.108 names T's most appropriate positions: before or after the punishment, or before the wedding
 3 | accept | ProppEBNF46.txt "A B T C up" | T anywhere, early in the move
@@ -127,3 +134,29 @@
 
 3 | corpusfails | ProppEBNF44.txt move "93 II,93 III,105 I,126 II,127 I,132 II,137 II,138 III,139 II,141 I,143 I,150 II,159 IV,164 II,166 II" | CALIBRATION: with v44 the runner must fail exactly falsify44.py's fifteen, FalsificationResult.md, so that its derivation is shown to be falsify44.py's
 3-3 | corpusfails | ProppEBNF46.txt move "93 II,93 III,105 I,126 II,127 I,132 II,137 II,138 III,141 I,143 I,150 II,159 IV" | PREDICTION: step 3's two licenses free exactly 139 II (the exchange) and 164 II and 166 II (T's instability), as ProppPermittedDeviations.md assigns them; the other twelve keep failing, their licenses not yet built in. Closes at step 3 because later steps are planned to build more licenses in
+
+
+# ---------------------------------------------------------------------------
+# STEP 4. Build in the three remaining licenses. LANGUAGE-CHANGING.
+# Frozen 2026-09-27 before step 4 was built.
+#   p.108, the domestic agent: "the transference of a magical agent
+#   sometimes occurs before the hero leaves home". NARROW READING: an F
+#   may stand before the departure only when a departure follows.
+#   p.107, fight after pursuit: "In tales 93 and 159 the fight with the
+#   villain takes place only after pursuit." The struggle group may stand
+#   after a pursuit, and only after one.
+#   p.147, the humorous inversion, on tale 150: "the villain runs away
+#   instead of the hero; the hero pursues [Rs-Pr]". Rescue may precede
+#   pursuit. Built in, it holds for every tale, not only humorous ones.
+# ---------------------------------------------------------------------------
+
+4 | includes | Step3Spec.txt ProppEBNF46.txt --start-b move | step 4 only adds: every move step 3 accepts stays accepted
+4 | ll1 | ProppEBNF46.txt F J | PREDICTED: the domestic agent puts F in two places, and one token after C cannot tell whether a departure will follow a run of F's; J inherited. This is the obstruction ruling 48 named: a symbol in two unguarded slots
+4 | accept | ProppEBNF46.txt "A B C F up K down" | p.108, the domestic agent: the shape of 105 I
+4 | accept | ProppEBNF46.txt "a B F up D E F" | p.108: an agent at home and a donor on the road, the shape of 93 II
+4 | reject | ProppEBNF46.txt "A C F D E" | p.108 on the narrow reading: with no departure following, the F is the donor's and D after it stays out of order
+4 | accept | ProppEBNF46.txt "A up Pr Rs H I W" | p.107, the fight after pursuit: the shape of 93 III
+4 | accept | ProppEBNF46.txt "A K down Pr H I" | p.107: the fight after a pursuit with no rescue
+4 | reject | ProppEBNF46.txt "A K down Rs H I" | p.107 moves the fight to after a pursuit only; after a rescue alone it stays out of order
+4 | accept | ProppEBNF46.txt "a B C up H I K down Rs Pr U W" | p.147, the humorous inversion [Rs-Pr]: the shape of 150 II
+4-4 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: 80 of 84, ruling 48's target. The six domestic-agent moves, 93 III and 150 II pass; only the four genuine counterexamples fail
