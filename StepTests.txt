@@ -376,3 +376,13 @@
 8-8 | talefails | ProppEBNF46.txt "126,127,137,138" | PREDICTION: unchanged, 41 of 45; 125 and 155 already passed as sequences and pass in their new shape
 8 | under | ProppEBNF46.txt "A K / a K" 3 LaterMoves | p.93 method 1: a move that follows another lies in LaterMoves
 8 | notunder | ProppEBNF46.txt "A K / a K" 0 LaterMoves | the first move of a tale lies outside it
+
+# ---------------------------------------------------------------------------
+# THE FUNCTIONS IN THE CATALOG, by the owner's decision. Frozen 2026-09-27
+# before the section was written. Propp's thirty-one functions of Ch. III,
+# pp.26-63, in his order, with lack as VIIIa (p.35): thirty-two entries,
+# each naming its page. The catalog test above already requires each to
+# name one of the grammar's single-function productions.
+# ---------------------------------------------------------------------------
+
+8 | catalogfunctions | SemanticCatalog46.md "absentation,interdiction,violation,reconnaissance,delivery,trickery,complicity,villainy,lack,mediation,beginningCounteraction,departure,firstDonorFunction,heroReaction,receiptOfMagicalAgent,spatialTransference,struggle,branding,victory,liquidation,return,pursuit,rescue,unrecognizedArrival,unfoundedClaims,difficultTask,solution,recognition,exposure,transfiguration,punishment,wedding" | Ch. III, pp.26-63: the thirty-one functions in Propp's order, lack as VIIIa

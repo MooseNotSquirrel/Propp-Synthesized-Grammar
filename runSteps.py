@@ -32,6 +32,9 @@ Kinds, one test per line as  step | kind | arguments | source :
                             tree test in the test file T; and C's section
                             "Functions", when there is one, names only G's
                             single-terminal productions
+  catalogfunctions C "n,..." the catalog C's section "Functions" has
+                            exactly the listed entries, in that order,
+                            and every entry gives a page
   derivation                embedCorpus.py's tale derivation calibrates
                             against resolve.py
   talefails G "t,..."       parsed by embedCorpus.py over the 45 whole
@@ -218,6 +221,23 @@ def run(kind, args):
         return got == (kind == 'under'), '%s: %s' % (tok, ' > '.join(chain))
     if kind == 'catalog':
         return catalog(*args)
+    if kind == 'catalogfunctions':
+        text = open(args[0], encoding='utf-8').read()
+        m = re.search(r'^## Functions\s*$(.*?)(?=^## |\Z)', text, re.M | re.S)
+        body = m.group(1) if m else ''
+        blocks = re.split(r'^(?=### `)', body, flags=re.M)[1:]
+        names = [re.match(r'### `(\w+)`', b).group(1) for b in blocks]
+        want = [x.strip() for x in args[1].split(',')]
+        nopage = [n for n, b in zip(names, blocks) if not re.search(r'\*\*Page:\*\*\s*pp?\.\d', b)]
+        problems = []
+        if names != want:
+            problems.append('missing: %s; extra: %s; order differs: %s' % (
+                ' '.join(x for x in want if x not in names) or 'none',
+                ' '.join(x for x in names if x not in want) or 'none',
+                'yes' if sorted(names) == sorted(want) and names != want else 'no'))
+        if nopage:
+            problems.append('no page: ' + ' '.join(nopage))
+        return not problems, '%d function entries' % len(names) + ('; ' + '; '.join(problems) if problems else '')
     if kind == 'derivation':
         return embedCorpus.calibrate()
     if kind == 'talefails':

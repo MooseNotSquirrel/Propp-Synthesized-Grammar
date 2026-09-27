@@ -81,7 +81,7 @@ It embeds moves: over the 45 whole tales of `embedCorpus.py`'s derivation it acc
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 8` prints `104 binding, 0 failed, 0 pending for later steps, 23 closed by an earlier step`.
+- `python runSteps.py 8` prints `105 binding, 0 failed, 0 pending for later steps, 23 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
@@ -101,7 +101,7 @@ It is the raw material for the catalog `SemanticBundling.md` was meant to become
 **1a. The semantic catalog: BUILT on 2026-09-27, as `SemanticCatalog46.md`.**
 It has one entry for each of v46's groups and pairs, 26 since step 7, each giving its kind, level, contents, page, name source, corpus count, tree test and meaning, plus the J-Q dependency and what the catalog teaches.
 A frozen `catalog` test keeps it in step with the grammar: one entry per group, a tree test for every group, and no entry for a group the grammar lacks. It was shown to fail on a missing entry and on a false function entry.
-THE FUNCTIONS COME NEXT IN IT, by the owner's decision: the 31 functions, in the reserved "Functions" section at the end, since each function carries meaning of its own. The check already requires each such entry to name one of the grammar's single-function productions.
+THE FUNCTIONS ARE IN IT, added on 2026-09-27 by the owner's decision: Propp's thirty-one of Ch. III, pp.26-63, with lack as VIIIa, thirty-two entries, each with its number and sign, page, Propp's name, a paraphrase of what happens, its group in v46, its pairs, its corpus count and its meaning; and the two elements Propp names but does not number, α and λ. A frozen `catalogfunctions` test requires exactly those entries in Propp's order, each with a page.
 Whether the first project's `SemanticBundling.md` then points to this catalog, or is replaced by it, is the owner's call; that file is part of the first project's publication.
 
 **2. Embedded moves: DONE on 2026-09-27, step 7.**
