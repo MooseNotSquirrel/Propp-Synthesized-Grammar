@@ -1,0 +1,31 @@
+# STEP 3 SPECIFICATION: THE MOVE LANGUAGE ProppEBNF46.txt MUST ACCEPT
+# ============================================================================
+# Written before step 3 was built, and deliberately FLAT: v44's slot
+# sequence, with no groups, so that it shares no structure with the
+# grammar it tests. StepTests.txt requires ProppEBNF46.txt's move to be
+# equivalent to this file. The grammar is ambiguous and not LL(1) by
+# design: it states a language, not a parse.
+#
+# It is v44's move with two licenses of p.108 built in:
+#
+#   T ANYWHERE. p.108: T is "the most unstable function in relation to
+#   its position". By the owner's decision T may stand at any position in
+#   a move, before its opener included. Every slot therefore also admits
+#   T, and a leading {'T'} admits it before the opener.
+#
+#   THE FOUR CLOSING FUNCTIONS EXCHANGE. p.108: "Recognition and
+#   exposure, marriage and punishment may also exchange positions." On
+#   FN's reading, the one the first project has always used, the four
+#   may exchange among themselves, so they share one slot in any order.
+#
+# Nothing else moves: every other function keeps v44's order, and the
+# move still opens on A, a or B, T aside.
+# ============================================================================
+
+move = {'T'} ( 'A' | 'a' | 'B' )
+       {'B' | 'T'} {'C' | 'T'} {'up' | 'T'}
+       {'D' | 'T'} {'E' | 'T'} {'F' | 'T'} {'G' | 'T'}
+       {'H' | 'T'} {'J' | 'T'} {'I' | 'T'} {'K' | 'T'}
+       {'down' | 'T'} {'Pr' | 'T'} {'Rs' | 'T'}
+       {'o' | 'T'} {'L' | 'T'} {'M' | 'T'} {'J' | 'T'} {'N' | 'T'}
+       {'Q' | 'Ex' | 'U' | 'W' | 'T'}

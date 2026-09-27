@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 2.
+# STATE: STEP 3.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -20,6 +20,11 @@
 # preparatory section, then one or more moves in sequence. It CHANGES THE
 # LANGUAGE, adding tale-level strings, and leaves the move layer as it
 # was.
+# Step 3 builds two licenses of p.108 into the move: T may stand
+# anywhere, and recognition, exposure, marriage and punishment exchange
+# among themselves. It CHANGES THE MOVE LAYER, which now accepts exactly
+# the language of Step3Spec.txt, a flat statement of v44 with those two
+# licenses, written before the step was built.
 #
 # Notation is v44's: A = x a production, 'x' a terminal, [X] optional,
 # {X} zero or more, X Y concatenation, | alternation, # a comment.
@@ -145,8 +150,21 @@ trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
 # is one production. The root-split form accepts the same strings and is
 # equally LL(1) at its top, so nothing but the tree's shape rides on the
 # choice.
+#
+# T STANDS ANYWHERE (step 3). p.108: T is "the most unstable function in
+# relation to its position"; its most appropriate places are before or
+# after the punishment, or before the wedding, where it is most often
+# found. By the owner's decision T may stand at any position in a move,
+# before its opener included, and it has no slot of its own. FloatingT
+# follows every function and leads every move, so any run of T's between
+# two functions, or before the opener, has exactly one place to go, and
+# no LL(1) conflict arises. WHERE A T HANGS IN THE TREE IS WHERE THE
+# PARSER MEETS IT, NOT A GROUPING: attaching a T to the function before
+# it claims nothing about Propp.
 
 move                = CrisisToLiquidation AfterLiquidation
+
+FloatingT           = {transfiguration}     # p.108; the owner's decision
 
 
 # --- from the crisis to its liquidation: the A-K pair as a constituent ---
@@ -158,15 +176,18 @@ move                = CrisisToLiquidation AfterLiquidation
 # J-Q IS NOT A CONSTITUENT, AND CANNOT BE IN THE SAME TREE. Branding (J,
 # XVII) falls inside this span and recognition (Q, XXVII) outside it, so
 # the two spans cross (finding FP). J-Q is carried as a dependency only:
-# the J in Combat marks the hero whom the Q in IdentityReveal recognizes.
+# the J in Combat marks the hero whom the Q in Endgame recognizes.
 
-CrisisToLiquidation = complication Development {liquidation}
+CrisisToLiquidation = complication Development {liquidation FloatingT}
 
-complication        = MoveOpener {mediation} {beginningCounteraction} {departure}
+complication        = FloatingT MoveOpener FloatingT
+                      {mediation FloatingT}
+                      {beginningCounteraction FloatingT}
+                      {departure FloatingT}
                                             # pp.64-65: villainy, dispatch,
-                                            #   decision for counteraction and
-                                            #   departure "(ABC↑), constitute
-                                            #   the complication"
+                                            #   decision for counteraction
+                                            #   and departure "(ABC↑),
+                                            #   constitute the complication"
 
 MoveOpener          = villainy              # p.92
                     | lack                  # p.92
@@ -175,14 +196,17 @@ MoveOpener          = villainy              # p.92
                                             #   incident opens the move
                                             #   (133 II)
 
-Development         = Vetting {spatialTransference} Combat
+Development         = Vetting {spatialTransference FloatingT} Combat
 
-Vetting             = {firstDonorFunction} {heroReaction} {receiptOfMagicalAgent}
+Vetting             = {firstDonorFunction FloatingT}
+                      {heroReaction FloatingT}
+                      {receiptOfMagicalAgent FloatingT}
                                             # p.65: DEF "also form something
                                             #   of a whole". v43's name.
 
-Combat              = {struggle} {branding} {victory}
-                                            # p.104, the struggle scheme
+Combat              = {struggle FloatingT}
+                      {branding FloatingT}
+                      {victory FloatingT}   # p.104, the struggle scheme
                                             #   H J I; H-I a pair, p.64
 
 
@@ -191,40 +215,59 @@ Combat              = {struggle} {branding} {victory}
 # v44's order; v43's obligations are not carried, every function staying
 # optional and repeatable as in v44.
 
-AfterLiquidation    = ReturnJourney Ordeal {transfiguration} Resolution
+AfterLiquidation    = ReturnJourney Ordeal Endgame
 
-ReturnJourney       = {return} Evasion      # v43's name
+ReturnJourney       = {return FloatingT} Evasion
+                                            # v43's name
 
-Evasion             = {pursuit} {rescue}    # pursuit-rescue, a pair in
+Evasion             = {pursuit FloatingT}
+                      {rescue FloatingT}    # pursuit-rescue, a pair in
                                             #   p.64's list. v43's name.
 
-Ordeal              = FraudPosture TaskCycle IdentityReveal
-                                            # v43's name. No page groups
-                                            #   the six; for reading only.
+Ordeal              = FraudPosture TaskCycle
+                                            # v43's name, less its closing
+                                            #   recognition, which now
+                                            #   exchanges in Endgame. No
+                                            #   page groups these; for
+                                            #   reading only.
 
-FraudPosture        = {unrecognizedArrival} {unfoundedClaims}
+FraudPosture        = {unrecognizedArrival FloatingT}
+                      {unfoundedClaims FloatingT}
                                             # v43's name; o and L shift
                                             #   between the two summed
                                             #   schemes together, p.104
 
-TaskCycle           = {difficultTask} {branding} {solution}
-                                            # p.104, the task scheme M J N,
+TaskCycle           = {difficultTask FloatingT}
+                      {branding FloatingT}
+                      {solution FloatingT}  # p.104, the task scheme M J N,
                                             #   set in the position H J I
                                             #   holds in the other. p.64's
                                             #   pairs list does not name
-                                            #   M-N. v43's name. THE SECOND J SLOT, and
-                                            #   the source of the one LL(1)
-                                            #   conflict: a J after Combat's
-                                            #   own J cannot be assigned by
-                                            #   one token of lookahead.
+                                            #   M-N. v43's name.
+                                            #   THE SECOND J SLOT, and the
+                                            #   source of the one LL(1)
+                                            #   conflict: a J after
+                                            #   Combat's own J cannot be
+                                            #   assigned by one token of
+                                            #   lookahead.
 
-IdentityReveal      = {recognition} {exposure}
-                                            # v43's name; the pair p.108
-                                            #   lets exchange with
-                                            #   Resolution's (step 3)
+# --- the endgame: p.108's exchange (step 3) ---
+# p.108: "Recognition and exposure, marriage and punishment may also
+# exchange positions." On FN's reading, the one the first project has
+# always used, the four exchange among themselves, so they share one
+# repetition in any order: 139 II's U Q W is accepted. On the narrow
+# reading, swaps only within each named pair, U Q W would be refused.
+#
+# THE STEP 2 GROUPS IdentityReveal (Q Ex) AND Resolution (U W) ARE GONE.
+# Once U Q W is admitted, recognition can stand between punishment and
+# wedding, so the two pairs are no longer contiguous in every tale and
+# cannot both be constituents. Endgame is v44's own word for this span.
 
-Resolution          = {punishment} {wedding}
-                                            # v43's name
+Endgame             = { ( recognition       # XXVII
+                        | exposure          # XXVIII
+                        | punishment        # XXX
+                        | wedding           # XXXI
+                        ) FloatingT }
 
 
 # ----------------------------------------------------------------------------

@@ -96,6 +96,12 @@
 # "A K U Q W" would be a reject, and the step must name its reading.
 # Where T stands relative to the four is not settled by p.108's exchange
 # sentence and is left to the step.
+# DECIDED BY THE OWNER, 2026-09-27, BEFORE STEP 3 WAS BUILT: T may stand
+# anywhere, per p.108, which calls T the most unstable function in
+# relation to its position. That includes before a move's opener, as the
+# first project's ruling 101 already admits. T licenses nothing else.
+# Step3Spec.txt states the whole move language the step must produce,
+# written flat and independently of the grammar's groups.
 # ---------------------------------------------------------------------------
 
 3 | accept | ProppEBNF46.txt "A K Q Ex T U W" | the canonical order stays accepted, pp.62-63
@@ -103,3 +109,11 @@
 3 | accept | ProppEBNF46.txt "A K W U" | p.108: marriage and punishment exchange; holds on either reading
 3 | accept | ProppEBNF46.txt "A K U Q W" | p.108 on FN's reading: 139 II ends U Q W
 3 | reject | ProppEBNF46.txt "A U K" | the exchange is among the four closing functions only; punishment before liquidation stays out of order, p.22
+3 | equivalent | Step3Spec.txt ProppEBNF46.txt --start-b move | the move layer is exactly v44's with T free to stand anywhere and the four closing functions free to exchange, both p.108; tested whole against a flat specification written before the build
+3 | ll1 | ProppEBNF46.txt J | neither T's freedom nor the exchange may introduce a conflict; J stays the only one
+3 | accept | ProppEBNF46.txt "T A K" | T before the opener: p.108, T anywhere, the owner's decision
+3 | accept | ProppEBNF46.txt "A K U T W" | p.108 names T's most appropriate positions: before or after the punishment, or before the wedding
+3 | accept | ProppEBNF46.txt "A B T C up" | T anywhere, early in the move
+3 | accept | ProppEBNF46.txt "γ δ T A / T a K" | T before the opener of the first move and of a later one
+3 | reject | ProppEBNF46.txt "A T K H" | T licenses nothing else: struggle after liquidation stays out of order, p.22
+3 | reject | ProppEBNF46.txt "T" | T alone is not a move: a move opens on villainy or lack, p.92, or on the connective incident, p.37
