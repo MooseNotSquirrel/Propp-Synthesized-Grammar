@@ -1,0 +1,601 @@
+# Propp, Appendix III -- tale token streams   [UTF-8 -- PARSER MASTER: order + provenance]
+# ALL FOUR PAGE PAIRS (pp. 136-143): 45 tales.
+#   pp. 136-139, tales 93-139  : VERIFIED against the printed page
+#   pp. 140-143, tales 140-167 : VERIFIED against the printed page
+# Edit this file. Nothing generates it; ResolvedMoves.txt is generated FROM it
+# by resolve.py.
+# Provenance: THE PRINTED PAGE IS THE AUTHORITY. Structure -- column, base
+# symbol, sign, order, arrows, braces, brackets, prefixes -- and varieties were
+# read and confirmed against the printed page for all four page pairs. The
+# 300-dpi scan was the first reading only; where the two differ, the page
+# governs. VERIFIED.
+#
+# ROLE. This is the PARSER master and the record of order-as-printed. resolve.py
+# and check45c.py read it directly. It alone preserves Propp's printed sequence
+# (e.g. tale 93 III's H-I after Pr-Rs) and the per-tale provenance comments; a
+# left-to-right read of the grid would restore canonical order and lose these.
+# The PUBLICATION master is PublicationGridMaster.txt (2-D positional layout).
+#
+# AUGMENTATION FROM THE BOOK'S TEXT. Appendix III is the primary source and the
+# table governs wherever it speaks. Where a move is NOT PRINTED in the table and
+# Propp gives its scheme in the running text -- the Notes on Individual Schemes,
+# or a chapter footnote -- that scheme is transcribed here and the cell records
+# the page it came from. Such a cell is a TWO-SOURCE record and says so in its
+# own comment. This is not an inference from the table and not a reconstruction:
+# it is Propp's own formula, read from the printed page, for a move his layout
+# could not hold. Ch. IX n.3 gives the reason the layout cannot hold it -- a move
+# carrying both H-I and M-N needs two columns the table shares.
+# ONE CELL IS SO AUGMENTED: 136 IV, from p.147, documented at that tale.
+# ANY FURTHER AUGMENTATION IS A RULING, not a transcription decision, because it
+# widens the corpus's source beyond the appendix the file is named for.
+# Neither file is generated from the other. DO NOT DELETE this file.
+#
+# ---------------------------------------------------------------------------
+# NOTATION -- Propp's own, Ch. IX n.4, quoted rather than invented
+# ---------------------------------------------------------------------------
+#   { X / Y }   REPETITION, not trebling. Propp: "For technical reasons
+#               trebling cannot be shown here. If functions, or a group of
+#               them, are repeated in various aspects, such a repetition is
+#               designated by the addition of repetitive elements, one under
+#               another." The count is however many are stacked. In this
+#               Propp does NOT close every brace, so one braced run can hold
+#               several moves; those are split at their crisis cells.
+#               A SECOND SENSE, NOT PROPP'S NOTATION BUT THIS FILE'S
+#               READING: a BRANCHING, two alternative continuations of
+#               one move, of which the tale takes one. Ruling 68. The
+#               encoding does not distinguish the two senses and no
+#               program reads the difference. 136 IV is the only cell
+#               read against the printed page and it is a branching.
+#   [ x ]       Propp: "A lack, if it is not underscored by a tale (the hero
+#               is not married, for example), is put into brackets."
+#               NOT a repetition marker.
+#   <N>         an interrupting move -- "an indication of just which move
+#               breaks the thread" (Ch. IX n.4).
+#   ...         Propp's interruption dots, from the same note. He defines them
+#               as marking the interruption of a move, "together with an
+#               indication of just which move breaks the thread" -- but the
+#               indication is ABSENT in tale 155 AND IN TALE 167, whose run
+#               sits inside a glued cell. The corpus body holds three
+#               unnumbered dot runs in all: 155 III, 155 IV and 167 I. No
+#               commentary covers either tale, so no source settles them;
+#               both readings stand, a different use of the same dots or an
+#               interruption whose label was lost. RECORDED, NOT GUESSED.
+#   overflow:   cells printed in the columns LEFT of A. These are a PARKING
+#               AREA, not a position: Propp's own footnote to tale 105 II says
+#               its parked cells belong "between Pr-Rs". Their order is
+#               UNDETERMINED BY THE TABLE and must be excluded from any test
+#               of the sequence thesis.
+#   < Y         road marker and signalling object: the two-seekers apparatus
+#               (Ch. IX, combination method 6). Propp writes the marker "<".
+#   *X          structural mark (Propp prints it: *N, *A, *D)
+#   X-          negative result. Appendix IV: "pos. or +, neg. or -,
+#               positive and negative result for a function".
+#
+# ---------------------------------------------------------------------------
+# WHAT THIS CORPUS CAN AND CANNOT FALSIFY
+# ---------------------------------------------------------------------------
+# THE PREPARATORY SECTION IS UNTESTABLE HERE. Propp, Ch. IX n.4: "Functions of
+# the preparatory section were not included in the scheme due to lack of space."
+# So alpha-theta are absent from EVERY row, and that absence is a fact about the
+# TABLE, not about the tales. His commentary gives them in full for only four
+# tales (93, 104 II, 127, 150). Adding those four and not the rest would make
+# absence mean two different things in one corpus -- the precise contamination
+# that produced v43's false axioms. They are therefore NOT added here.
+#
+# THE TABLE IS LOSSY EVEN WHERE IT PRINTS. Propp's commentary on tale 127
+# describes THREE pursuit-rescue pairs; the table prints one. His note on 125
+# says "two insignificant episodes are not included in the scheme".
+#
+# CONSEQUENCE: this corpus falsifies a grammar against PROPP'S TABLE, which is
+# a compressed record of his analysis -- not against the analysis itself. An
+# element absent from a row may be absent from the tale, or merely unprinted.
+# Only what IS printed can count as evidence.
+# ---------------------------------------------------------------------------
+#
+# Superscripts/subscripts are Propp's variety numbers. They are carried for
+# the record; the reducer discards them.
+# ---------------------------------------------------------------------------
+
+tale: 93
+name: The Witch and the Sun's Sister
+move: I   | Aˣᵛⁱⁱ B³ ↑ d⁷ E₋⁷ F₋
+move: II  | a⁶ B³ F¹ ↑ d⁷ E₊⁷ F₊¹
+move: III | Aˣᵛⁱⁱ ↑ Pr¹ Rs² H⁴ I⁴ w*
+# footnote 1: "Elements H-I (struggle) and Pr-Rs (pursuit) are transposed."
+# The cells are PRINTED transposed; the reading above is the printed order.
+
+tale: 95
+name: Jack Frost
+move: I   | A⁹ B⁵ D¹ E¹ f¹ ↓
+move: II  | [ a⁶ ] B₂⁵ C ↑ D¹ E₋¹ F₋ ↓
+
+tale: 98
+name: Daughter and Stepdaughter
+move: I   | A⁹ B⁵ ↑ { D⁷ E⁷ f⁹ / D¹ E¹ f¹ } ↓
+move: II  | a⁶ B₂⁵ C ↑ { D⁷ E₋⁷ F₋⁹ / D¹ E₋¹ F₋ } ↓
+
+tale: 100
+name: Little Bitty Khavroshechka
+move: I   | Aⁱⁱ D³ E³ Fᵛⁱ M N W*
+
+tale: 101
+name: The Little Red Cow
+move: II  | A₁₂¹¹ B⁷ C ↑ K⁸ M N Ex U w²
+# Move I is not printed. Propp's note: "101. I = 100ᴵ." (cross-reference)
+
+tale: 104
+name: Vasilisa the Beautiful
+move: I   | overflow[ F¹ ] a⁶ B² C ↑ D¹ E¹ F¹ ↓ U
+move: II  | [ a¹ ] { F³ *N / F⁴ *N / M N } W**
+# the only THREE-fold repetition in the corpus. Propp's commentary: "spinning,
+# weaving, and sewing is a trebling of one element", and "the third task is
+# resolved without the preliminary receipt of any sort of means" -- which is
+# why the third repetition has no F.
+
+tale: 105
+name: Baba Yaga and the Midget
+move: I   | A³ B⁴ C F₄³ ↑ K⁷ ↓
+move: II  | overflow[ D⁸ E⁸ F⁸ ] a¹ C ↑ D⁸ E⁸ F⁸ ↓ Pr¹ Rs²
+# footnote 2 (translator): "F²? Cf. the tale itself. [L.A.W.]"
+# D-E-F sits in the overflow columns LEFT of A and belongs between Pr and Rs.
+
+tale: 106
+name: Baba Yaga and the Nimble Youth
+move: I, II | A¹ B⁴ C ↑ K¹ ↓
+move: III   | A¹ B⁴ ↑ D⁸ E⁸ ↓
+# "I, II" is PROPP'S OWN LABEL: one scheme serving TWO moves. Read from the ink
+# -- stroke gaps 2.8 / 4.9 / 3.1 with a below-baseline mark in the
+# wide gap, against the uniform ~3.1pt gaps of a true numeral. It is the only
+# such label in the 24 tales; every other is evenly spaced.
+# Propp Ch. IX: "In the event of the trebling of entire moves. A dragon abducts
+# a girl. First and second moves: elder brothers set out, in turn, to look for
+# her and become stuck. Third move: the youngest brother sets out and rescues
+# the girl and his brothers."
+# THIRD repetition mechanism, distinct from the other two:
+#   { X / Y }         repetition WITHIN a move (Ch. IX n.4). The same
+#                     brace also carries a BRANCHING, ruling 68, which
+#                     is not a repetition mechanism and is not one of
+#                     these three.
+#   "I, II" label     repetition of an ENTIRE move -- no brace is used
+#   "101. I = 100ᴵ"   cross-reference to another TALE's move
+# All three are combination-layer economies, not move-grammar structure.
+
+tale: 108
+name: Ivashko and the Witch
+move: I   | A¹ ↑ D⁸ E⁸ ↓ { Pr⁷ Rs¹⁰ / Pr⁷ Rs¹ }
+# Pr⁷ = "attempt to gnaw through a tree"; Rs¹⁰ = "leap to another tree";
+# Rs¹ = "he is carried through the air". Two gnawings, two different escapes.
+
+tale: 113
+name: The Swan-Geese
+move: I   | A¹ C ↑ { D¹ E₋¹ F₋ / d⁷ E⁷ F⁹ } G⁴ K¹ ↓ Pr¹ Rs⁴
+# footnote 3: "D¹E¹F⁸ is inverted between Pr-Rs." -- the leading
+
+tale: 114
+name: Prince Danila Govorila
+move: I   | Aˣᵛⁱ { d⁷ E⁷ F₃² Pr Rs⁴ / ↑ D⁸ E⁸ F⁸ ↓ Pr¹ Rs² } o Q W*
+
+tale: 115
+name: The Truth and the Lie
+move: I   | A⁶ ↑ E⁷ F² K⁵
+move: II  | A¹⁸ B⁴ C D¹ E¹ F¹ I⁶ W*
+
+tale: 125
+name: Ivan Tsarevich and Marfa Tsarevna
+move: I   | overflow[ D⁴ E⁴ F⁹ ] A⁹ ↑ o <<shared>>
+move: II  | F₇¹ A¹⁶ C ↑ H¹ J¹ I¹ K⁴ ↓ Pr Rs <<shared>>
+shared:   | L Q Ex U W*
+# PROPP'S COMBINATION METHOD 5: "Two moves may have a common ending."
+# Verified on the page: a SINGLE CLOSING brace in the
+# column between Rs and L, spanning both moves, with L Q Ex U W* to its
+# right. Not a repetition -- a convergence.
+# This is the DAG case: one node, two parents. Not expressible as a tree.
+# For falsification, unfold: parse each move with the shared tail appended.
+
+tale: 126
+name: The Little Copper Man
+move: I   | A³ B² C ↑ K⁷ ↓
+move: II  | overflow[ *D⁴ E⁴ F⁹ ] A¹⁹ B³ C F¹ H¹ J¹ I¹ ↓ K³ T² Q W*
+# GENUINE ORDER FINDING (verified on the page): the ↓
+# (return, XX) is squarely in Move II's row and precedes K³ (liquidation, XIX).
+# - Column check: K is in the K column; the ↓ is in an unmarked column that
+#   only tales 126 and 153 use (153 puts an X there) -- a real, rarely-used
+#   column, NOT a parking/overflow area, so the ↓ is not quarantinable.
+# - Consequences check: K³ -> T² Q W* is the tail of Propp's Table VII,
+#   "Continuation of the Second Move" (p.126): a second move resolving
+#   through recognition to wedding. This places the late K in the endgame but
+#   does NOT license the order.
+# - K³ = "acquisition achieved with the help of an enticement or decoys"
+#   (Appendix IV, authoritative legend; corrected from an earlier mis-read of
+#   the XIX prose list). Still NOT a return-completing form (unlike K1/K7/K10),
+#   so the late position is not motivated by the variety.
+# CONCLUSION: a true deviation from canonical order in Propp's own table, and
+# NOT among his named permitted position-changes (T, fight/pursuit, recog/
+# marriage; K is not listed, p.107-108). v44 correctly flags it. It stands as a
+# genuine counterexample, booked honestly -- not explained away.
+
+tale: 127
+name: The Merchant’s Daughter and Her Maid
+move: I   | A⁶ o F₄³ K³ T² Pr⁶ Rs⁶ Q Ex U W*
+# GLYPH-COLUMN NOTE (confirmed on the page): the printed glyph IS o (unrecognized arrival,
+# XXIII), Propp's own -- NOT a transcription error and NOT a mis-read F♦. It sits
+# in the unheaded column right before ↑ (the one 5 F-functions also use), and
+# "the agent is made on order".
+# Two earlier dispositions this session were WRONG and are retracted: (a) "o is a
+# transcription artifact" -- false, it is on the page; (b) "o is a permitted F♦
+# agent" -- false, the consequences test does not support it.
+# CONSEQUENCES TEST (Propp p.67): the o-cell is followed by F₄³ = "the
+# agent is sold and purchased" (F4, XIV, p.41), a genuine receipt. "o
+# then F" is neither the dispatch->departure that makes a cell B (cf 163/164)
+# nor a test->receipt that makes it D. The test does not convert it.
+# CONCLUSION: o(23) before F₄³(14) is a GENUINE ORDER DEVIATION, like 126 -- not
+# in Propp's named-permitted set (p.107-108). Separately, T²(29) before Pr⁶(21)
+# is T-instability, PERMITTED (p.108). So 127 carries ONE genuine finding
+# (o before F) plus one permitted deviation (T before Pr).
+
+tale: 128
+name: The Three Tsardoms-Copper, Silver, and Gold
+move: I   | a¹ B² C ↑ D¹ E¹ F⁵ G⁵ w¹
+move: II  | overflow[ J² ] *A¹ C ↑ F¹ G¹ K¹ W*
+
+tale: 131
+name: Frolka the Dropout
+move: I   | A¹ B¹ C ↑ H¹ I¹ K⁴ ↓ w⁰
+
+tale: 132
+name: The Norka Beast
+move: I   | A⁵ B¹ C ↑ K₋⁷ ↓
+move: II  | [ a⁶ ] C F³ ↑ D¹ E¹ { G⁵ / F⁵ G² / F₇¹ } I⁵ ↓
+move: III | *A¹ C ↑ d⁷ E⁷ F⁹ G¹ o L M N Q Ex U W*
+# Move II's stack: G occupies the top two rows, F the bottom two, so the two
+# columns are OFFSET. Verified on the page; recorded as
+# printed. Each repetition is an F? G? sequence -- the Law of Omission applies
+# INSIDE a repetition, not only between moves.
+# Also in Move II: F³ sits in the pre-departure F column; I⁵ fires with
+# no H; and there is no K.
+# K₋⁷ (Move I) is a NEGATIVE liquidation. First one in the corpus.
+
+tale: 133
+name: Rollingpea
+move: I   | A¹ C ↑ D¹ E₋¹ F₋
+move: II  | B⁴ C ↑ D¹ E¹ H¹ I¹ K⁴ ↓
+# Move II opens on B, NOT on a crisis cell -- and this is Propp's own mechanism,
+# not an anomaly. p.37: "If this is not accomplished by means of some form
+# of villainy, then the tale employs the connective incident [B] to this end."
+# Move I's villainy (A1) persists unliquidated -- the brothers fail (E-1 F-).
+# Move II dispatches a NEW seeker-hero (Rollingpea) against that same villainy;
+# B "brings the hero into the tale" (p.36). So B substitutes for A as the
+# opener of a continuation move.
+# REPRESENTATION: the shared villainy is a COMBINATION-LAYER edge (Move II's
+# opening villainy = Move I's A1) -- the head-sharing dual of tale 125's shared
+# ending (125 shares a tail; 133 shares a head; both are DAG edges).
+# CONSEQUENCE FOR v44: the move grammar needs exactly one more legal opener:
+#   a move opens on  A | a | B.  No shared-villainy machinery in the clause
+#   grammar; that lives entirely in the graph.
+# Move II has no crisis cell of its own: it inherits Move I's villainy.
+
+tale: 135
+name: Ivan Popialov
+move: I   | A⁴ C F³ H¹ I¹ K⁴ ↓ { Pr⁴ Rs⁷ / Pr¹ Rs⁵ }
+
+tale: 136
+name: Stonn-Bogatyr, Ivan the Cow’s Son
+move: I   | a⁶ B¹ C D² E² KF²
+move: II  | A¹ B² C KF⁵
+move: III | A¹ C H¹ I¹ K¹ ↓ { Pr⁴ Rs⁷ / Pr² Rs⁵ }
+move: IV  | a¹ C [ H¹ I¹ ] { M N W* / M N U w² }
+# KF = "liquidation in form F" (Appendix IV). Two instances, both here.
+# CORRECTION (confirmed on the page): Move II reads KF⁵, not KF⁶. The corpus
+# carried KF⁶ from an earlier transcription; PublicationGridMaster.txt and
+# PublicationGridOpenIssues.md §5 both had KF⁵ throughout, and grid2streams.py
+# reported the pair as [DRIFT] 136 II. The grid was right. Ranking is unaffected
+# either way -- KF ranks as KF regardless of variety -- so no result changes.
+# MOVE IV IS NOT IN THE TABLE. It is AUGMENTED FROM THE BOOK'S TEXT under the
+# augmentation policy in this file's preamble. Propp, Notes on Individual
+# Schemes, p.147: "136. The fourth move contains both H-I and M-N according to
+# the scheme:", then a display formula reading a¹C[H¹-I¹]³ followed by a left
+# brace joining M-N W* above and M-NUw² below; then "Here, a¹ has assimilated
+# with A¹⁶. The hero claims the princess with a threat, as a dragon usually
+# does." READ FROM THE PRINTED PAGE, rasterised at 300 dpi; the PDF text layer
+# drops the prefix entirely.
+# THE EARLIER TRANSCRIPTION HERE WAS TRUNCATED at the brace and carried only the
+# two braced lines, which is why this cell used to open on M. Completing it moves
+# falsify44.py from 68/16 to 69/15. See ProppFindings.md DL and DU.
+# WHAT THE CELL WRITES. a¹ C [ H¹ I¹ ] before the brace. Propp's bracket here
+# GROUPS the struggle pair so that his superscript can attach to it, which is a
+# fifth sense of [ ] this file's legend does not carry; the reducer strips
+# brackets, so the group boundary does not survive into the token stream. It does
+# not need to: the pair's order is the same either way.
+# WHAT THE CELL DOES NOT WRITE: THE TREBLING. Propp's superscript 3 marks the
+# bracketed pair as trebled. This file has NO FORM FOR TREBLING. The
+# REPETITION sense of { X / Y } in the legend above is repetition in
+# various aspects, which Propp distinguishes from trebling in the same
+# note; the BRANCHING sense the legend also carries is no form for
+# trebling either. Writing the pair three times
+# would flatten a trebling onto the horizontal axis, which Ch. IX n.4 and ruling
+# 57's fourth reading rule both forbid. The trebling is therefore recorded HERE,
+# in prose, and not in the token stream. See ProppFindings.md DP.
+# THE BRACE IS A BRANCHING, two alternative endings, not a repetition. The
+# encoding does not distinguish the two senses and no program reads the
+# difference; ProppProjectConventions.md §4 admits both.
+# Ch. IX n.3 explains the omission: moves holding BOTH H-I and M-N cannot be
+# printed, because the table SHARES those columns. Propp lists the affected
+# moves as 123, 156 (IV), 136 (IV), 171 (III) -- and excluded tale 123 outright
+# "since inclusion of tales containing H-I and M-N in one move creates a motley".
+# SOURCE: commentary, not the table. Flagged so it can be held out if wanted.
+
+tale: 137
+name: Ivan the Bull’s Son
+move: I   | overflow[ ↑ D¹ E¹ F⁵ ] A¹⁹ C H¹ I¹ ↓ Pr⁴ Rs⁷
+move: II  | a¹ B² C F₂¹ ↑ ᴱ[K¹⁰] F₉⁶ { M N K⁴ ↓ / M N U W* }
+# Move I's leading ↑ D E F sit in the OVERFLOW columns, left of A: material
+# printed out of position (cf. 113's footnote 3, unverified -- NOT 105 II,
+# which carries no such footnote).
+# ᴱ[K¹⁰] -- NOT a liquidation, and its bracket is NOT the note 4 sense. The cell
+# stands in the E column: function XIII discharged in an assimilated K-form, K
+# its FORM and E its SLOT, with the bracket reading in the p. 11 sense because
+# content and column disagree. It RANKS AS E 13, not K 19, and is written with
+# the leading column tag that carries that.
+# The full ruling is in PublicationGridMaster.txt's preamble, under [ ].
+# The repetition has DIVERGENT tails: K⁴ ↓ in the first, U W* in the
+# second. Propp: repetition may be "a uniform distribution", "an accumulation",
+# or "may twice produce negative results before the third, successful outcome".
+
+tale: 138
+name: Ivan the Peasant’s Son and the Little Man the Size of a Finger with Moustaches Seven Versts Long
+move: I   | a³ B¹ C ↑ D² E² F₄² G² H¹ I¹ K⁴ ↓ { Pr⁴ Rs⁷ / Pr⁴ Rs⁷ }
+move: II  | A² C ↑ D¹ E² F₉³ G¹ <III> K⁴ ↓ W*
+move: III | a¹ C ↑ M N K¹ ↓
+# GENUINE ORDER FINDING (page-verified).
+# - The cell between N and K¹ is EMPTY and its column is headerless: it
+#   contributes nothing. The content sequence really is M N K ↓.
+# - M is in the H/M column, N in the I/N column (shared columns: the struggle
+#   branch H-I and the task branch M-N are alternatives at one slot -- which is
+#   why Propp EXCLUDED tale 123, whose move used both, "creating a motley").
+# - M/N keep their function numbers XXV/XXVI. The o and L columns that precede
+#   them on Propp's pages are HEADED and canonical (o=XXIII, L=XXIV), not
+#   parking -- verified on the page -- so no re-ranking is warranted.
+# => K(XIX) genuinely follows N(XXVI). A task-branch move borrowing the struggle
+#    branch's K/↓ columns, which sit physically right but rank lower. NOT in
+#    Propp's named-permitted set (p.107-108). v44 correctly flags it.
+# The same shape appears in 137 II ({ M N K⁴ ↓ / ... }), also with an empty
+# headerless cell between N and K -- so this is a recurring pattern, not a
+# one-off.
+
+tale: 139
+name: Ivan Suchenko and the Belyi Polianin
+move: I   | overflow[ ↑ D⁹ E⁹ F⁹ G₅⁶ ] A¹ B¹ C ↑ H¹ I¹ K⁴ park[ J² ] w¹↓
+# COLUMN FACT (confirmed on the page): J² is NOT in the J column (which sits between H/M
+# and I/N). It is in an UNMARKED column between T and U -- the SAME column that
+# holds X ("unclear or alien forms", App. IV) in Move II.
+# No canonical function lies between T (XXIX) and U (XXX): they are adjacent. So
+# an unheaded column there corresponds to no function slot. Holding both a J and
+# an X, it is a RIGHT-HAND PARKING AREA -- the mirror of the D₀E₀F₀ overflow left
+# of A. Parked cells are position-undetermined and are EXCLUDED from the order
+# test (logic doc S9). Marked park[ ] accordingly.
+# => 139 I is NOT an order finding. The apparent "J after K" is a parked cell.
+# NOTE on Propp's order, against a common misreading, SCOPED: in the STRUGGLE
+# run p.104 gives XVI struggle (H), XVII branding (J), XVIII victory (I),
+# XIX liquidation (K), so J falls BETWEEN H and I there, not after K.
+# THAT IS NOT THE WHOLE OF XVII. Ruling 29 gives function XVII two slots and
+# v44 carries both: XVII.1 the combat wound in the struggle run, and XVII.2
+# the ring or towel in the TASK run, which p.104 writes as M J N.
+# J² = "hero receives a ring or a towel" is XVII.2, the TASK-run variety, so
+# this cell is not an instance of the struggle-run order the note opens with.
+# 139 I carries no M and no N, and v44's second J slot is independently
+# optional, so v44 WOULD ADMIT THIS CELL UNPARKED -- see its own comment that
+# K J and Pr Rs J are admitted though Propp licenses J in neither place.
+# THE PARKING RESTS ON COLUMN POSITION AND SURVIVES ON THAT ALONE, not on the
+# order argument above. Finding AQ.
+# The trailing w¹↓ is ONE GLUED CELL in the W column (confirmed on the page) -- the ↓ is a
+# modifier on the wedding cell, not a separate return function. Same as tale 167.
+# With J² parked and w¹↓ read as one cell, Move I is FULLY CANONICAL:
+#   A¹ B¹ C ↑ H¹ I¹ K⁴ w¹↓   -- A B C ↑ H I K W. No deviation.
+move: II  | *A¹ C ↑ D⁹ E⁹ F₇¹ G¹ o L M N Q₋ T¹ X U Q W*
+# X = "unclear or alien forms" (Appendix IV). Q₋ = a negative recognition.
+
+# ==========================================================================
+# pp. 140-143: tales 140-167.
+# Varieties, names and sequence hand-verified against the page.
+# ==========================================================================
+
+tale: 140
+name: Dawn, Evening, and Midnight
+move: I | A¹ B¹ C ↑ D⁹ E⁹ G⁶ park[ F⁷ ] I⁵ K⁴ ↓ W*
+# COLUMN FACT (confirmed on the page): G⁶ is in the G column; F⁷ is in an UNMARKED column
+# between G and o -- the headerless slot right of G. That column holds mixed
+# content across the corpus: F⁷ here, F² in 141, K⁸ in 101. Mixed content in a
+# headerless column is the PARKING signature (cf. the T–U parking column holding
+# J² and X in 139). So F⁷ is parked: position-undetermined, EXCLUDED from the
+# order test (logic doc S9).
+# => With F⁷ parked, Move I reads A¹ B¹ C ↑ D⁹ E⁹ G⁶ I⁵ K⁴ ↓ W* -- FULLY
+# CANONICAL. Not an order finding.
+# NOTE against a common misreading: F⁷ = "the agent is eaten or drunk" (XIV.7),
+# NOT a purchased agent (that is F⁴, "sold and purchased"). Any account resting
+# on the hero travelling to a market to BUY the agent misreads the variety.
+
+tale: 141
+name: The Bear, Moustaches, Mountain Man, and Oakman Bogatyrs
+move: I  | A⁹ F¹ ↑ { F₉⁶ / D⁹ E⁹ F⁹ } G⁶ park[ F² ] I⁵ K⁴ ↓
+move: II | *A¹ C ↑ F⁶ G⁵ K⁴ U W*
+# F² in Move I is PARKED: the same headerless column right of G that holds 140's
+# F⁷ -- see the COLUMN FACT note at tale 140, which cites this cell as evidence.
+
+tale: 143
+name: Nodei, the Priest’s Grandson
+move: I  | A³ C F¹ ↑ H¹ I¹ K⁷ ↓
+move: II | A⁹ ↑ F₉⁶ H¹ I¹ K¹ ↓ W*
+
+tale: 144
+name: The Flying Ship
+move: I | [a¹] ᴮM C ↑ F²F₉⁶ G¹ M N T³ W*
+# ASSIMILATION (Propp S IV, p.65), the third instance of this pattern
+# after 163 and 164. COLUMN FACT (confirmed on the page): the first M is genuinely an
+# M-glyph, but it sits in the B COLUMN. CONSEQUENCES RULE (p.67): "If a
+# dispatch gives rise to a departure ... we have a complicational element
+# (a, B)." Here the cell is followed by C ↑ -- counteraction then departure --
+# so it FUNCTIONS as B, the connective incident, in an assimilated M-form.
+# Ranked B (pos 9). ᴮM records both: function B, printed glyph M.
+# F²F₉⁶ is ONE GLUED CELL in the F column (confirmed on the page) -- a compound receipt,
+# not two cells. Ranks once, as F.
+# => Move I reads a(8) B(9) C(10) ↑(11) F(14) G(15) M(25) N(26) T(29) W(31):
+#    FULLY CANONICAL. Not an order finding. The second M-N is the genuine
+#    difficult-task pair in its proper late position.
+# 'F2F96' is two cells run together; needs splitting.
+
+tale: 145
+name: The Seven Simeons
+move: I | a¹ B² C ↑ F³ G¹ K² ↓
+
+tale: 148
+name:  Nikita the Tanner
+move: I | A¹ B₂⁴ C ↑ H¹ I¹ K⁴ ↓ W₋*
+# W-* : a NEGATIVE wedding.
+
+tale: 149
+name: The Serpent and the Gypsy
+move: I | A¹⁷ B⁴ C ↑ H² { I² ↓ / I₂⁶ K⁴ w° } 
+
+tale: 150
+name: The Hired Hand
+move: I  | overflow[ D E X ] a⁶ B² C ↑ K⁷ ↓
+move: II | a⁵ B² C ↑ H² I² K¹ ↓ Rs Pr U w°
+# X in the F column. Pr and Rs appear in REVERSED order in move II.
+
+tale: 151
+name: Shabarsha
+move: I | a⁵ B⁴ C ↑ H² I² K¹ ↓
+
+tale: 152
+name: Ivan the Bear’s Son
+move: I | A⁹ ↑ H² I² K¹ ↓
+
+tale: 153
+name: A Soldier Rescues a Tsarevna
+move: I | A¹⁸ C ↑ F¹ H³ I³ X Uw°↓X
+# X = 'unclear or alien forms' (Appendix IV).
+
+tale: 154
+name: A Fugitive Soldier and the Devil 
+move: I | overflow[ ↑ D E⁷ F⁹₋ G¹ T⁴ ] A¹⁸ C ↑ F¹ H³ I³ K⁴ W*
+# The leading up-arrow, D, E, F, G, T sit in the OVERFLOW columns left of A.
+
+tale: 155
+name: The Two Ivans, a Soldier’s Sons
+move: I-II | a² B³ C ↑ D² E² F¹ K ↓
+move: III  | overflow[ ↑ < Y G² W* F⁵ ] ... A¹⁴ B⁴ C ↑ G² I⁵ K⁹ U₋ <<shared>>
+move: IV   | ... A¹⁸ B⁴ C ↑ H¹ J¹ I¹ K¹ L Q Ex U W* <<shared>>
+shared:    | ↓X
+# PROPP'S COMBINATION METHOD 6, TWO SEEKERS -- and this is the tale he names
+# for it. Move III opens with  < Y  : the ROAD MARKER and the SIGNALLING OBJECT.
+# Propp: "The heroes part in the middle of the first move ... at a road marker
+# ... which we shall designate by the sign <. On parting, the heroes often give
+# one another an object: a signaller ... designated with the sign Y."
+# His scheme is a BRANCH:        III.
+#                        I-II. <Y
+#                                 IV.
+# So Move I-II is the shared trunk; Moves III and IV diverge after the parting.
+# That is a DAG in the other direction from tale 125's shared ending.
+# '...' is Propp's interruption mark (Ch. IX n.4: "the interruption of a move
+# is designated by dots").
+# footnote 1 (translator): "Cf. p. 58, footnote. [L.A.W.]"
+# ?? THE TWO '...' MARKS ARE UNRESOLVED. Propp defines the dots as marking a
+# move's interruption "together with an indication of just which move breaks
+# the thread" -- and here no indication is printed. There is NO commentary for
+# tale 155 in Propp's "Notes on Individual Schemes" either. Left as printed.
+
+tale: 156
+name: Koshchei the Deathless
+move: I   | A¹ B³ C ↑ { D² E² F² G² / D¹ E¹ F⁶ G⁵ } K⁴
+move: II  | a⁴ B⁴ C ↑ *D⁴ E⁴ F₉⁶ G⁵ K² ↓ U w¹
+move: III | overflow[ F² ] *A⁷ C ↑ G¹ o L M N U { w* / w* }
+# PROPP'S Ch. IX n.3 NAMES "156 (IV)" as a move containing both H-I and M-N.
+# SETTLED, ruling pending: THE THIRD PRINTED MOVE IS III AND A FOURTH IS MISSING.
+# Read from printed p.116, where the note lists "123, 156 (IV), and 136 (IV), and
+# 171 (III)". Propp designates it by NUMBER as a fourth. The table prints three
+# moves for 156, labelled I, II and III on the page. Move III above carries M and
+# N and NO H-I, so it cannot be the move the note describes. The same pattern
+# holds for 136: the note names 136 (IV), the table prints I, II and III, and the
+# fourth is recovered from the commentary at p.147 where it does carry both. Tale
+# 123 was excluded outright for the same reason. A both-branch move cannot be
+# printed in a table whose columns are shared, so 156's fourth was omitted as
+# 136's was. IT CANNOT BE RECOVERED: no commentary exists for 156, and the
+# translator's bracket in that note points to the commentary for 136 and not for
+# 156. Bears on v45C's both-branch rate, which scores against Propp's 3-per-100.
+
+tale: 159
+name: Mar’ia Morevna
+move: I   | A¹ C ↑ <II> K⁴
+move: II  | overflow[ W* ] A¹ C ↑ F⁹ K⁴ ↓ Pr¹ Rs¹
+move: III | A₁¹⁴ B⁴ { C ↑ K⁹ / C ↑ K⁴ <IV> ↓ Pr¹ Rs¹ }
+move: IV  | a² C F¹ ↑ { *D E F⁹ / D¹ E¹ F⁸ } KF⁸ ↓ Pr¹ Rs²
+# footnote 2. "H¹-I¹ follows. Move IV is inserted between K⁴ and ↓.
+# ONE TALE SPLIT ACROSS THE PAGE BREAK (pp. 140-141 and 142-143). Confirmed on
+# printed page; the halves are merged here.
+# <II> and <IV> mark interrupting moves -- Propp's combination methods 2 and 3
+# ("an episode may also be interrupted in its turn").
+# Propp Ch. IX names this tale with 93: "in tales 93 and 159 the fight with the
+# villain takes place only after pursuit".
+
+tale: 161
+name: Ivan Tsarevich and the Belyi Polianin
+move: I   | A¹⁹ B² C ↑ H¹ I¹ K⁴ ↓
+move: II  | a¹ C ↑ F¹ G³ H¹ I¹ KF⁹
+move: III | a¹ C ↑ D⁹ E⁹ { G⁶ / F⁴ G⁵ } I⁵ K⁴
+move: IV  | a¹ C ↑ G² H¹ I¹ W*
+
+tale: 162
+name: The Crystal Mountain
+move: I  | overflow[ D⁶ E⁶ F¹ ] A¹¹ <II> H¹ I¹ K⁸ ↓ W*
+move: II | A¹ B³ C ↑ H¹ I¹ K⁴
+
+tale: 163
+name: Bukhtan Bukhtanovich
+move: I | { a¹ ᴮF₆⁹ C ↑ G³ T⁴ W*↓ / I⁵ W* }
+# ASSIMILATION (Propp S IV, p.65, "Cases of the Double Morphological
+# Meaning of a Single Function"). The printed glyph is an F-form (receipt of a
+# magical agent), but it occupies the B column. Propp's decision rule is to
+# define a function BY ITS CONSEQUENCES (p.67): "If a dispatch gives rise
+# to a departure ... we have a complicational element (a, B)." Here the cell is
+# followed by C ↑ (dispatch -> the hero sets out), so by Propp's own criterion
+# it FUNCTIONS as B, the connective incident, in an assimilated F-form. Ranked B
+# (pos 9); a¹ B C ↑ ... is canonical. The column IS Propp's verdict, not our
+# fiat. ᴮF records both: function B, assimilated glyph F.
+# T⁴ before W = T-instability, permitted (p.108).
+
+tale: 164
+name: Kozma Quickrich
+move: I  | A⁵ C ↑ K⁷ ↓
+move: II | { [a¹] ᴮF⁹ C ↑ T⁴ G³ W*↓ / T⁴ I⁵ W* }
+# ASSIMILATION, same as 163: an F-form in the B column, followed by C ↑
+# (dispatch -> departure), so it FUNCTIONS as B by Propp's consequences rule
+# (p.67). Ranked B; [a¹] B C ↑ ... canonical. Separately, T⁴ precedes G
+# and W -- T-instability, permitted (p.108). ᴮF: function B, glyph F.
+
+tale: 166
+name: Emelia the Fool
+move: I  | overflow[ *D⁴ E⁴ F⁹ ] A⁸ ↑ G¹ W*
+move: II | A¹⁰ G² T² Q
+# *D⁴ is clear on the printed page. Propp's prose assigns this episode to D⁵
+# instead -- "The hero catches a pike which begs him to let it go (166)", p.41 --
+# and 166 is his only exemplar for that variety. The two are not independent:
+# *D⁴ is D⁴ (a prisoner begs for his freedom) with the donor's preliminary
+# imprisonment, and Propp calls D⁵ "a subclass of the preceding one", occurring
+# "either after capture or while the hero takes aim". The pike is caught and
+# then begs. The table records the superordinate form, the prose the subclass.
+# The table is followed here; the divergence is recorded, not resolved.
+
+tale: 167
+name: At the Pike’s Command
+move: I   | a⁵ D E F⁹ K⁶ T...U W*
+move: II  | overflow[ W* ] A¹⁰ B³ C ↑ G²
+move: III | a¹ B³ C M N W*↓
+# 'T...U' contains Propp's interruption dots -- but with NO move numeral, so
+# what breaks the thread here is not stated. Move II's leading W* is parked in
+# the overflow columns and is NOT a claim that W precedes A.
+# SETTLED FROM THE PAGE: the W* is Move II's, and it stands in column .1, the
+# same column as 128 II's J². Move II therefore reaches a named terminal
+# function and is not one of the moves that stop short. The cell is wrapped
+# overflow[ ] in the token stream so that it is excluded from order tests, as
+# 128 II's J² is; whether .1 is a quarantinable column has not been ruled on
+# (ColumnLayout.md).

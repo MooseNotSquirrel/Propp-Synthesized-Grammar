@@ -40,6 +40,7 @@ It handles grammars whose productions do not refer back to themselves, which cov
 | 4 | language-changing: the three licenses left, the domestic agent (p.108), the fight after pursuit (p.107) and the humorous inversion (p.147) | built and tagged `step4`; 36 of 36 binding tests pass; **80 of 84 corpus moves**, only the four genuine counterexamples refused; LL(1) conflicts on F and J |
 | 5 | language-changing: the J conflict removed by letting the task-run J come only after a task, as v44's own comment proposes | built and tagged `step5`; 42 of 42 binding tests pass; 80 of 84 unchanged; F the only LL(1) conflict |
 | 6 | language-changing, by the owner's decision: the F groups merged, the tested agent (after D or E, Propp's DEF) against the untested agent (every other F, the father's gift included) | built and tagged `step6`; 47 of 47 binding tests pass; 80 of 84 unchanged; **LL(1), no conflict**, and `regression.py` passes outright |
+| 7 | language-changing: embedded moves, a move pausing after any function for a whole inserted move, bracketed ⟨ ... ⟩, to any depth (p.93 methods 2 and 3) | built and tagged `step7`; 93 of 93 binding tests pass; context-free and still LL(1); with the pause removed, proved exactly step 6; **41 of 45 whole tales**, the four refused holding the genuine counterexamples |
 
 **At step 4 the grammar accepts 80 of the 84 move-strings, ruling 48's target, and refuses only the four genuine counterexamples: 126 II, 127 I, 137 II and 138 III.**
 The corpus was first met at step 3: 72 of 84, against v44's 69.
@@ -53,7 +54,7 @@ Step 5 removed the J conflict, which was a true ambiguity, by the repair v44's o
 The F conflict cannot be removed while the father's agent and the donor's stay separate groups, for any lookahead: a run of F's belongs to one or the other depending on whether a departure follows the whole run. Only merging the two groups would remove it; changing the reading of p.108 alone would not.
 **Step 6 made the merge, by the owner's decision, and the grammar is LL(1).** The split is now drawn at the test instead of at the departure: an F after D or E is the tested agent, the reward of the donor episode, and every other F is the untested agent, the father's gift or an agent that comes to hand on the road. The token before each F decides its group. The untested agent sits in the complication, on either side of the departure. The cost is a small widening: an untested agent may now be followed by a test, as in `A F D E`, which no page licenses and none forbids. No corpus verdict moves.
 
-Moves are sequential for now, separated by `/`; embedding is a later step.
+Moves are separated by `/`, and since step 7 a move may hold an inserted move, bracketed ⟨ ... ⟩.
 The separator is editorial and follows Appendix III's layout of one row per move. It was adopted when step 2's frozen LL(1) test failed: without it, a move opening on B could not be told from a B inside the move before.
 
 ## Files
@@ -66,21 +67,24 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `parseTree.py`: parses with the LL(1) table and reports where each function lands; `--corpus` writes the group counts.
 - `CorpusGroups.txt`: those counts for the 80 accepted moves.
 - `SemanticCatalog46.md`: the catalog of v46's groups and pairs, checked against the grammar.
+- `embedCorpus.py`: the whole-tale derivation with interruptions embedded, and its runner.
 - The copied files listed above.
 
 ## Next session: start here
 
-**State at the close of 2026-09-27: step 6, tagged `step6`, and nothing is half-done.**
+**State at the close of 2026-09-27: step 7, tagged `step7`, and nothing is half-done.**
+ALL THREE OF RULING 48'S TARGETS ARE MET.
 v46 accepts 80 of the 84 resolved move-strings, refusing only the four genuine counterexamples, 126 II, 127 I, 137 II and 138 III.
 It is LL(1) with no conflict, and `regression.py` passes it outright.
-Of ruling 48's three targets, two are met, 80 of 84 and LL(1); embedded moves are not begun.
+It embeds moves: over the 45 whole tales of `embedCorpus.py`'s derivation it accepts 41, refusing the four tales that hold those counterexamples.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 6` prints `88 binding, 0 failed, 0 pending for later steps, 12 closed by an earlier step`.
+- `python runSteps.py 7` prints `93 binding, 0 failed, 0 pending for later steps, 20 closed by an earlier step`.
+- `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
 - `python regression.py ProppEBNF46.txt` prints `RESULT: ALL PASS`.
-- `git tag` lists `step1` to `step6`.
+- `git tag` lists `step1` to `step7`.
 
 ### The work, in the owner's order
 
@@ -93,17 +97,16 @@ The tool was checked to fail on false claims and on rejected strings.
 It is the raw material for the catalog `SemanticBundling.md` was meant to become.
 
 **1a. The semantic catalog: BUILT on 2026-09-27, as `SemanticCatalog46.md`.**
-It has one entry for each of v46's 24 groups and pairs, each giving its kind, level, contents, page, name source, corpus count, tree test and meaning, plus the J-Q dependency and what the catalog teaches.
+It has one entry for each of v46's groups and pairs, 26 since step 7, each giving its kind, level, contents, page, name source, corpus count, tree test and meaning, plus the J-Q dependency and what the catalog teaches.
 A frozen `catalog` test keeps it in step with the grammar: one entry per group, a tree test for every group, and no entry for a group the grammar lacks. It was shown to fail on a missing entry and on a false function entry.
 THE FUNCTIONS COME NEXT IN IT, by the owner's decision: the 31 functions, in the reserved "Functions" section at the end, since each function carries meaning of its own. The check already requires each such entry to name one of the grammar's single-function productions.
 Whether the first project's `SemanticBundling.md` then points to this catalog, or is replaced by it, is the owner's call; that file is part of the first project's publication.
 
-**2. Embedded moves, ruling 48's third target. A full-budget session, not a small step.**
-It needs three things this project does not yet have.
-- **A second derivation of the corpus that keeps Propp's interruption markers.** `resolve.py` strips them. `ColumnLayout.md` in the first project lists the seven marker sites: 138 II, 155 III, 155 IV, 159 I, 159 III, 162 I and 167 I.
-- **A grammar in which a move can contain a move.** That is self-embedding, so the language is context-free and no longer regular.
-- **A new proof instrument.** `equivCheck.py` refuses recursive grammars by design.
-Finding FO point 4 argues that the markers make an LL(1) grammar plausible, since they tell the parser where an interrupting move begins.
+**2. Embedded moves: DONE on 2026-09-27, step 7.**
+- **The derivation, `embedCorpus.py`.** Whole tales, moves separated by `/`, each numbered interruption <N> replaced by move N itself, bracketed ⟨ ... ⟩. The four are 138 II's <III>, 159 I's <II>, 159 III's <IV> inside a brace row, and 162 I's <II>. The dots with no numeral, in 155 III, 155 IV and 167 I, name no move and are removed. A shared ending is attached once, to the last move sharing it. Its rules were frozen before its first run, and a calibration test shows it reproduces `resolve.py`'s 84 move strings once its markers are removed.
+- **The grammar.** After any function, never before the opener, a move may pause for a whole inserted move, to any depth. `Between` holds a T or an `InterruptingMove`; `FloatingT` now holds only the T before an opener. The grammar is context-free, and still LL(1) because the markers bracket every inserted move.
+- **The proof.** `equivCheck.py` now takes `--drop-a` and `--drop-b`; with `InterruptingMove` dropped, v46 is proved exactly step 6. Membership tests on a recursive grammar fall back to the LL(1) parser. This copy of `equivCheck.py` therefore differs from the first project's.
+- **The corpus.** 41 of 45 tales, exactly as predicted before the run.
 
 **3. Small open items.**
 - Whether an initial situation α may stand before a later move. The owner reads p.86 as the tale's initial situation, and admitting one later would be a small edit.

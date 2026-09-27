@@ -306,3 +306,37 @@
 6 | under | ProppEBNF46.txt "A K o L M N" 4 Ordeal | v43's name: the false hero's contest and the task
 6 | notunder | ProppEBNF46.txt "A K o L M N Q" 6 Ordeal | p.108: since step 3 recognition exchanges in Endgame, outside Ordeal
 6 | under | ProppEBNF46.txt "A K o L" 3 FraudPosture | p.104: unrecognized arrival and unfounded claims shift between the two schemes together
+
+# ---------------------------------------------------------------------------
+# STEP 7. Embedded moves, ruling 48's third target. LANGUAGE-CHANGING.
+# Frozen 2026-09-27 before step 7 was built.
+#
+# p.93: "a development which has begun pauses, and a new move is
+# inserted" (method 2), and "an episode may also be interrupted in its
+# turn" (method 3). Ch. IX n.4: the interruption is designated by dots
+# with an indication of which move breaks the thread.
+# An inserted move is written ⟨ ... ⟩ in a tale string; ⟨ and ⟩ are this
+# grammar's, since Propp's < is his road marker. After any function, never
+# before the opener, a move may pause for an inserted move, and the
+# inserted move is a full move, so a move can hold a move to any depth.
+# The grammar is no longer regular. T's free place shares the same slot.
+#
+# PREDICTED: still LL(1), since the markers show where an inserted move
+# begins and ends (finding FO point 4). With the interruption removed the
+# grammar is exactly step 6's. Over the 45 tales, 41 accepted, failing
+# exactly the tales holding the four genuine counterexamples.
+# ---------------------------------------------------------------------------
+
+7 | derivation | - | the tale derivation, frozen in embedCorpus.py's docstring, reproduces resolve.py's 84 move strings once its markers are removed
+7-7 | equivalent | step6:ProppEBNF46.txt ProppEBNF46.txt --drop-b InterruptingMove | with the interruption removed, the grammar is exactly step 6's: the step adds embedding and nothing else
+7-7 | ll1 | ProppEBNF46.txt - | the markers keep the grammar LL(1): the parser sees where an inserted move begins and ends
+7 | accept | ProppEBNF46.txt "A C up ⟨ A C up F K down Pr Rs ⟩ K" | p.93 method 2: a development pauses and a new move is inserted; the shape of 159 I
+7 | accept | ProppEBNF46.txt "A ⟨ A B C up H I K ⟩ H I K down W" | p.93: the shape of 162 I, paused just after the villainy
+7 | accept | ProppEBNF46.txt "A ⟨ a ⟨ A K ⟩ K ⟩ K" | p.93 method 3: an episode may also be interrupted in its turn
+7 | reject | ProppEBNF46.txt "A ⟨ K ⟩ K" | an inserted move is a move: it opens on villainy or lack, p.92, or on the connective incident, p.37
+7 | reject | ProppEBNF46.txt "⟨ A K ⟩ A K" | p.93: a development that has begun pauses; nothing pauses before a move begins
+7 | reject | ProppEBNF46.txt "A ⟨ A K K" | an inserted move is closed before the interrupted one resumes
+7 | under | ProppEBNF46.txt "A ⟨ a K ⟩ K" 2 InterruptingMove | the inserted move's functions lie inside the interruption
+7 | notunder | ProppEBNF46.txt "A ⟨ a K ⟩ K" 5 InterruptingMove | the interrupted move resumes outside it: its K is the outer move's
+7 | under | ProppEBNF46.txt "A K T" 2 Between | p.108: a T after a function stands in the slot between functions, which it shares with an interruption
+7-7 | talefails | ProppEBNF46.txt "126,127,137,138" | PREDICTION: 41 of 45 tales, failing exactly those holding 126 II, 127 I, 137 II and 138 III; 138 III is the move inserted in 138 II

@@ -32,6 +32,10 @@ Kinds, one test per line as  step | kind | arguments | source :
                             tree test in the test file T; and C's section
                             "Functions", when there is one, names only G's
                             single-terminal productions
+  derivation                embedCorpus.py's tale derivation calibrates
+                            against resolve.py
+  talefails G "t,..."       parsed by embedCorpus.py over the 45 whole
+                            tales, G fails exactly the listed tales
   corpusfails G S "t m,..." run over ResolvedMoves.txt by runCorpus.py
                             with start symbol S, G fails exactly the listed
                             moves; '-' means it fails none
@@ -52,6 +56,7 @@ import tempfile
 
 import equivCheck
 import parse
+import embedCorpus
 import parseTree
 import runCorpus
 
@@ -120,7 +125,15 @@ def conflicts(path):
 
 
 def accepts(path, toks):
-    ast, start = equivCheck.read(path, None, False, {})
+    """Membership. A regular grammar is decided by equivCheck.py's automaton;
+    a grammar in which a production refers back to itself, which the
+    automaton refuses, is decided by parse.py's LL(1) parser, and must then
+    be LL(1)."""
+    try:
+        ast, start = equivCheck.read(path, None, False, {})
+    except SystemExit:
+        bnf, first, table = parse.build(open(path, encoding='utf-8').read())
+        return parse.accept(list(toks), bnf, first, table)[0]
     sigma = sorted(set().union(*(equivCheck.walk(v, 'term', set())
                                  for v in ast.values())))
     if any(t not in sigma for t in toks):
@@ -205,6 +218,16 @@ def run(kind, args):
         return got == (kind == 'under'), '%s: %s' % (tok, ' > '.join(chain))
     if kind == 'catalog':
         return catalog(*args)
+    if kind == 'derivation':
+        return embedCorpus.calibrate()
+    if kind == 'talefails':
+        want = set() if args[1] == '-' else {x.strip() for x in args[1].split(',')}
+        got = {r[0] for r in embedCorpus.run(args[0]) if not r[1]}
+        detail = 'tales failing %d of 45' % len(got)
+        if got != want:
+            detail += '; unexpected: %s; expected but passing: %s' % (
+                ', '.join(sorted(got - want)) or 'none', ', '.join(sorted(want - got)) or 'none')
+        return got == want, detail
     if kind == 'corpusfails':
         want = set() if args[2] == '-' else {x.strip() for x in args[2].split(',')}
         got = {'%s %s' % (r[0], r[1]) for r in runCorpus.run(args[0], args[1]) if not r[3]}

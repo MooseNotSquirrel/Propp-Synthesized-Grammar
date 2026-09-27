@@ -35,7 +35,7 @@ ProppEBNF46.txt: groups in the 80 accepted moves
   solution                  9
   FraudPosture              7
   recognition               7
-  FloatingT                 6
+  Between                   6
   transfiguration           6
   unfoundedClaims           6
   exposure                  5

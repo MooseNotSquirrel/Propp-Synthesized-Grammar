@@ -75,10 +75,26 @@ Individual functions carry meaning too, or they would not be in the model, so th
 ### `FloatingT`
 
 - **Kind:** notation. **Level:** move.
-- **Holds:** any number of T.
+- **Holds:** any number of T, before the move's opener.
 - **Warrant:** p.108: T is the most unstable function in relation to its position. By the owner's decision, T may stand anywhere in a move.
-- **Name:** this grammar's. **Corpus:** 6. **Tree test:** `T A K`, the T under `FloatingT`.
-- **Meaning:** none claimed. `FloatingT` follows every function so that a T has one place to go, and where a T hangs in the tree is only where the parser meets it. T's own meaning, transfiguration, belongs to the functions section when it is written.
+- **Name:** this grammar's. **Corpus:** 0; no T stands before an opener in the corpus. **Tree test:** `T A K`, the T under `FloatingT`.
+- **Meaning:** none claimed. Since step 7 it holds only the T before a move's opener; after a function, a T stands in `Between`. Where a T hangs in the tree is only where the parser meets it. T's own meaning, transfiguration, belongs to the functions section when it is written.
+
+### `Between`
+
+- **Kind:** notation. **Level:** move.
+- **Holds:** any number of T and of interrupting moves, in any order, after any function.
+- **Warrant:** p.108 for T; p.93 for the pause, methods 2 and 3.
+- **Name:** this grammar's. **Corpus:** 6, all of them T's; the move-level corpus has no interruption, since its derivation removes the markers. **Tree test:** `A K T`, the T under `Between`.
+- **Meaning:** none claimed of its own. It is the slot between two functions where the two things that can come between them stand: a transfiguration, whose place is free, and another move.
+
+### `InterruptingMove`
+
+- **Kind:** group, the one recursive production. **Level:** move, inside a move.
+- **Holds:** a whole move, bracketed ⟨ ... ⟩, which may itself hold interrupting moves to any depth.
+- **Warrant:** p.93: "a development which has begun pauses, and a new move is inserted" (method 2), and "an episode may also be interrupted in its turn" (method 3). Ch. IX n.4 designates the interruption by dots with an indication of which move breaks the thread.
+- **Name:** this grammar's. **Corpus:** 4 interruptions in 3 of the 45 tales, from `embedCorpus.py`: move III inside 138 II, move II inside 159 I, move IV inside 159 III, and move II inside 162 I. **Tree test:** `A ⟨ a K ⟩ K`, the `a` under `InterruptingMove` and the last K not.
+- **Meaning:** a story told inside a story. The hero's first undertaking stops, a new misfortune is met and resolved in full, and the first undertaking resumes where it stopped. It is the one place the grammar is not regular: a move can hold a move.
 
 ### `CrisisToLiquidation`
 
@@ -243,6 +259,12 @@ They make the tree readable, and they are candidates for testing against Propp's
 
 **T is the one function the tree cannot place.**
 Its position is free by p.108, so its place in the tree carries no meaning.
+
+**A move can hold a move, and the markers keep it readable.**
+Since step 7, a move may pause after any function for a whole inserted move, to any depth, as p.93's methods 2 and 3 describe.
+That makes the grammar context-free rather than regular, yet it stays LL(1), because each inserted move is bracketed by its own markers.
+Without the pause, the grammar is exactly step 6's.
+The corpus has four such insertions, in tales 138, 159 and 162; three further sites carry Propp's dots with no numeral, 155 III, 155 IV and 167 I, and name no move to insert.
 
 ## Functions
 

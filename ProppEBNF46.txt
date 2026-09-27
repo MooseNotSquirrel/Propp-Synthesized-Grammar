@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 6. THE GRAMMAR IS LL(1), with no conflict.
+# STATE: STEP 7. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -43,6 +43,11 @@
 # its group, and the F conflict is gone. It CHANGES THE MOVE LAYER, only
 # adding strings: an untested agent may now be followed by a test, which
 # the narrow reading of step 4 refused. The corpus stays 80 of 84.
+# Step 7 embeds moves: after any function a move may pause for another
+# move, bracketed ⟨ ... ⟩, to any depth. The grammar is no longer regular,
+# and is still LL(1). With the pause removed it is exactly step 6. Over
+# the 45 whole tales of embedCorpus.py's derivation it accepts 41, the
+# four refused being the tales that hold the four genuine counterexamples.
 #
 # Notation is v44's:
 #   A = x    a production: the nonterminal A is defined as x.
@@ -111,6 +116,9 @@ tale                = [initialSituation] preparatorySection move
 moveBoundary        = '/'                   # editorial: one row per move,
                                             #   as in Appendix III
 
+interruptionBegins  = '⟨'                   # editorial: where Propp prints
+interruptionEnds    = '⟩'                   #   <N>, move N stands here
+
 preparatorySection  = {absentation} interdictionViolation
                       reconnaissanceDelivery trickeryComplicity
                                             # Appendix I Table II, p.121, is
@@ -178,15 +186,41 @@ trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
 # after the punishment, or before the wedding, where it is most often
 # found. By the owner's decision T may stand at any position in a move,
 # before its opener included, and it has no slot of its own. FloatingT
-# follows every function and leads every move, so any run of T's between
-# two functions, or before the opener, has exactly one place to go, and
-# no LL(1) conflict arises. WHERE A T HANGS IN THE TREE IS WHERE THE
-# PARSER MEETS IT, NOT A GROUPING: attaching a T to the function before
+# leads every move and Between follows every function, so any run of T's
+# between two functions, or before the opener, has exactly one place to
+# go, and no LL(1) conflict arises. WHERE A T HANGS IN THE TREE IS WHERE
+# THE PARSER MEETS IT, NOT A GROUPING: attaching a T to the function before
 # it claims nothing about Propp.
+#
+# A MOVE MAY PAUSE FOR ANOTHER MOVE (step 7). p.93: "a development which
+# has begun pauses, and a new move is inserted" (method 2), and "an
+# episode may also be interrupted in its turn" (method 3). Ch. IX n.4
+# designates the interruption by dots with an indication of which move
+# breaks the thread. Between, the slot after every function, holds a T or
+# an InterruptingMove; FloatingT, before the opener, holds only a T, since
+# nothing pauses before it has begun. The inserted move is a full move, so
+# a move can hold a move to any depth, and THE GRAMMAR IS NO LONGER
+# REGULAR: move refers to itself through InterruptingMove.
+# IT STAYS LL(1). The inserted move is bracketed by its own markers, ⟨ and
+# ⟩, so one token shows where it begins and where the interrupted move
+# resumes (finding FO point 4). The markers are this grammar's, not
+# Propp's: his < is the road marker of method 6. Where he prints <III> in
+# a move's row, the tale string carries move III itself, bracketed, at that
+# point (embedCorpus.py).
+# WITH InterruptingMove REMOVED, THE GRAMMAR IS EXACTLY STEP 6'S, which
+# equivCheck.py proves with --drop-b InterruptingMove.
 
 move                = CrisisToLiquidation AfterLiquidation
 
-FloatingT           = {transfiguration}     # p.108; the owner's decision
+FloatingT           = {transfiguration}     # p.108; before the opener only
+
+Between             = { transfiguration | InterruptingMove }
+                                            # p.108 for T; p.93 for the
+                                            #   pause. Editorial name.
+
+InterruptingMove    = interruptionBegins move interruptionEnds
+                                            # p.93 methods 2 and 3;
+                                            #   Ch. IX n.4
 
 
 # --- from the crisis to its liquidation: the A-K pair as a constituent ---
@@ -200,13 +234,13 @@ FloatingT           = {transfiguration}     # p.108; the owner's decision
 # the two spans cross (finding FP). J-Q is carried as a dependency only:
 # the J in Combat marks the hero whom the Q in Endgame recognizes.
 
-CrisisToLiquidation = complication Development {liquidation FloatingT}
+CrisisToLiquidation = complication Development {liquidation Between}
 
-complication        = FloatingT MoveOpener FloatingT
-                      {mediation FloatingT}
-                      {beginningCounteraction FloatingT}
+complication        = FloatingT MoveOpener Between
+                      {mediation Between}
+                      {beginningCounteraction Between}
                       [UntestedAcquisition]
-                      [ departure FloatingT {departure FloatingT}
+                      [ departure Between {departure Between}
                         [UntestedAcquisition] ]
                                             # pp.64-65: villainy, dispatch,
                                             #   decision for counteraction
@@ -242,8 +276,8 @@ complication        = FloatingT MoveOpener FloatingT
 # reading with LL(1) would mean taking ↑ out of the complication, which
 # is the one group in this span Propp names.
 
-UntestedAcquisition = receiptOfMagicalAgent FloatingT
-                      {receiptOfMagicalAgent FloatingT}
+UntestedAcquisition = receiptOfMagicalAgent Between
+                      {receiptOfMagicalAgent Between}
                                             # p.108; v43's name
 
 MoveOpener          = villainy              # p.92
@@ -253,16 +287,16 @@ MoveOpener          = villainy              # p.92
                                             #   incident opens the move
                                             #   (133 II)
 
-Development         = [TestedAcquisition] {spatialTransference FloatingT}
+Development         = [TestedAcquisition] {spatialTransference Between}
                       Combat
 
-TestedAcquisition   = firstDonorFunction FloatingT
-                      {firstDonorFunction FloatingT}
-                      {heroReaction FloatingT}
-                      {receiptOfMagicalAgent FloatingT}
-                    | heroReaction FloatingT
-                      {heroReaction FloatingT}
-                      {receiptOfMagicalAgent FloatingT}
+TestedAcquisition   = firstDonorFunction Between
+                      {firstDonorFunction Between}
+                      {heroReaction Between}
+                      {receiptOfMagicalAgent Between}
+                    | heroReaction Between
+                      {heroReaction Between}
+                      {receiptOfMagicalAgent Between}
                                             # p.65: DEF "also form something
                                             #   of a whole". v43's name;
                                             #   before step 6, Vetting.
@@ -270,9 +304,9 @@ TestedAcquisition   = firstDonorFunction FloatingT
                                             #   or on the hero's reaction,
                                             #   E, when D is omitted.
 
-Combat              = {struggle FloatingT}
-                      {branding FloatingT}
-                      {victory FloatingT}   # p.104, the struggle scheme
+Combat              = {struggle Between}
+                      {branding Between}
+                      {victory Between}   # p.104, the struggle scheme
                                             #   H J I; H-I a pair, p.64
 
 
@@ -283,7 +317,7 @@ Combat              = {struggle FloatingT}
 
 AfterLiquidation    = ReturnJourney Ordeal Endgame
 
-ReturnJourney       = {return FloatingT} Evasion
+ReturnJourney       = {return Between} Evasion
                                             # v43's name
 
 Evasion             = [ PursuitFirst | RescueFirst ]
@@ -304,17 +338,17 @@ Evasion             = [ PursuitFirst | RescueFirst ]
 # pursuit, and since step 5 the task-run J only after a task, so its J
 # conflicts with neither.
 
-PursuitFirst        = pursuit FloatingT {pursuit FloatingT}
-                      {rescue FloatingT}
+PursuitFirst        = pursuit Between {pursuit Between}
+                      {rescue Between}
                       CombatAfterPursuit
 
-RescueFirst         = rescue FloatingT {rescue FloatingT}
-                      [ pursuit FloatingT {pursuit FloatingT}
+RescueFirst         = rescue Between {rescue Between}
+                      [ pursuit Between {pursuit Between}
                         CombatAfterPursuit ]
 
-CombatAfterPursuit  = {struggle FloatingT}
-                      {branding FloatingT}
-                      {victory FloatingT}   # p.107; H J I as in Combat
+CombatAfterPursuit  = {struggle Between}
+                      {branding Between}
+                      {victory Between}   # p.107; H J I as in Combat
 
 Ordeal              = FraudPosture TaskCycle
                                             # v43's name, less its closing
@@ -323,15 +357,15 @@ Ordeal              = FraudPosture TaskCycle
                                             #   page groups these; for
                                             #   reading only.
 
-FraudPosture        = {unrecognizedArrival FloatingT}
-                      {unfoundedClaims FloatingT}
+FraudPosture        = {unrecognizedArrival Between}
+                      {unfoundedClaims Between}
                                             # v43's name; o and L shift
                                             #   between the two summed
                                             #   schemes together, p.104
 
-TaskCycle           = [ difficultTask FloatingT {difficultTask FloatingT}
-                        {branding FloatingT} ]
-                      {solution FloatingT}  # p.104, the task scheme M J N,
+TaskCycle           = [ difficultTask Between {difficultTask Between}
+                        {branding Between} ]
+                      {solution Between}  # p.104, the task scheme M J N,
                                             #   set in the position H J I
                                             #   holds in the other. p.64's
                                             #   pairs list does not name
@@ -365,7 +399,7 @@ Endgame             = { ( recognition       # XXVII
                         | exposure          # XXVIII
                         | punishment        # XXX
                         | wedding           # XXXI
-                        ) FloatingT }
+                        ) Between }
 
 
 # ----------------------------------------------------------------------------

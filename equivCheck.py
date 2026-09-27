@@ -11,6 +11,9 @@ equivCheck.py -- decide whether two Propp EBNF grammars accept the same strings.
                    e.g. --map "↑=up,↓=down" to read v43's arrows as v44's
   --optional-a     make every item of A optional before comparing
   --optional-b     the same for B
+  --drop-a N,...   treat A's productions named N as matching nothing, so
+                   every alternative that needs one falls away
+  --drop-b N,...   the same for B
   --probe "X Y Z"  also report whether each grammar accepts this string;
                    may be given more than once
 
@@ -41,6 +44,11 @@ the two agree on every string with no preparatory function in it.
 --optional-a and --optional-b wrap every item of every sequence in [ ],
 nonterminals and terminals alike. They model "every item made optional",
 and nothing subtler.
+
+--drop-a and --drop-b remove a production from a grammar before it is
+compared. A grammar that refers back to itself only through a dropped
+production is no longer recursive, so it can be compared: v46's step 7 is
+proved to be step 6 plus embedding by dropping InterruptingMove.
 
 --probe answers membership without parse.py's LL(1) table, which v44 cannot
 build because of its conflict on J. --map applies to probes too. A probe
@@ -77,7 +85,7 @@ def walk(node, kind, out):
     return out
 
 
-def read(path, start, optional, rename):
+def read(path, start, optional, rename, drop=()):
     try:
         text = open(path, encoding='utf-8').read()
     except OSError as e:
@@ -94,9 +102,12 @@ def read(path, start, optional, rename):
         fail("%s: no production named %s" % (path, start))
 
     graph = {n: walk(ast[n], 'nt', set()) for n in ast}
-    undef = sorted({r for rs in graph.values() for r in rs if r not in ast})
+    undef = sorted({r for rs in graph.values() for r in rs if r not in ast}
+                   | {d for d in drop if d not in ast})
     if undef:
         fail("%s: undefined nonterminals: %s" % (path, ', '.join(undef)))
+    # A dropped production is not entered, so it cannot close a cycle.
+    graph = {n: {m for m in rs if m not in drop} for n, rs in graph.items()}
 
     # Only what the start symbol reaches is the grammar being compared.
     # A reference cycle among those productions is recursion; refuse it.
@@ -120,7 +131,7 @@ def read(path, start, optional, rename):
         if k == 'term':
             return ('term', rename.get(node[1], node[1]))
         if k == 'nt':
-            return node
+            return ('void',) if node[1] in drop else node
         if k == 'alt':
             return ('alt', [rewrite(x) for x in node[1]])
         if k == 'seq':
@@ -148,6 +159,8 @@ class NFA:
         """Thompson construction, expanding each nonterminal in place."""
         k = node[0]
         s, e = self.state(), self.state()
+        if k == 'void':
+            return s, e                      # matches nothing: no path s to e
         if k == 'term':
             self.sym[s].append((node[1], e))
         elif k == 'nt':
@@ -222,7 +235,8 @@ def minimal_size(trans, accept, sigma):
 
 
 def main(argv):
-    opts = {'--start-a': None, '--start-b': None, '--map': ''}
+    opts = {'--start-a': None, '--start-b': None, '--map': '',
+            '--drop-a': '', '--drop-b': ''}
     flags = {'--shared': False, '--optional-a': False, '--optional-b': False}
     pos, probes = [], []
     i = 0
@@ -256,8 +270,9 @@ def main(argv):
         x, y = pair.split('=', 1)
         rename[x.strip()] = y.strip()
 
-    A, sa = read(pos[0], opts['--start-a'], flags['--optional-a'], rename)
-    B, sb = read(pos[1], opts['--start-b'], flags['--optional-b'], rename)
+    drops = {g: set(filter(None, opts['--drop-' + g].split(','))) for g in 'ab'}
+    A, sa = read(pos[0], opts['--start-a'], flags['--optional-a'], rename, drops['a'])
+    B, sb = read(pos[1], opts['--start-b'], flags['--optional-b'], rename, drops['b'])
     ta = set().union(*(walk(v, 'term', set()) for v in A.values()))
     tb = set().union(*(walk(v, 'term', set()) for v in B.values()))
 
