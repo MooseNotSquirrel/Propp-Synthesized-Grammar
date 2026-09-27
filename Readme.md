@@ -64,3 +64,72 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `runSteps.py`: runs them.
 - `runCorpus.py`: runs a grammar over the resolved move-strings.
 - The copied files listed above.
+
+## Next session: start here
+
+**State at the close of 2026-09-27: step 6, tagged `step6`, and nothing is half-done.**
+v46 accepts 80 of the 84 resolved move-strings, refusing only the four genuine counterexamples, 126 II, 127 I, 137 II and 138 III.
+It is LL(1) with no conflict, and `regression.py` passes it outright.
+Of ruling 48's three targets, two are met, 80 of 84 and LL(1); embedded moves are not begun.
+
+**Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
+- `python runSteps.py 6` prints `47 binding, 0 failed, 0 pending for later steps, 12 closed by an earlier step`.
+- `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
+- `python regression.py ProppEBNF46.txt` prints `RESULT: ALL PASS`.
+- `git tag` lists `step1` to `step6`.
+
+### The work, in the owner's order
+
+**1. Tree-level tests: test the groups, not only the strings.**
+Every test so far checks which strings a grammar accepts.
+None checks where a function lands in the tree, and the groups are the product the semantic bundling needs.
+Now that v46 is LL(1), `parse.py`'s table builds: `parse.build` on `ProppEBNF46.txt` gives start `tale` and 108 nonterminals, and `parse.accept` parses whole tales.
+But `parse.accept` returns a verdict only.
+- **The tool.** Write a tree-building version of the predictive parser in a new file, leaving the copied `parse.py` unchanged. For each consumed token it records the chain of named ancestors. The helper nonterminals `parse.py` makes when it expands EBNF carry `#` in their names, such as `Combat_star#23`, and are dropped from the chain.
+- **The test kind.** Add one to `runSteps.py`, for instance `under G "tokens" INDEX NAME`, passing when the token at INDEX has NAME among its ancestors, with a `notunder` counterpart.
+- **Freeze the tests before building the tool**, each with its page, as every step has. First candidates:
+  - an F after D lands in `TestedAcquisition`, and an F with no test before it in `UntestedAcquisition` inside `complication`, both before and after the departure (p.65, p.108, step 6);
+  - A and K both lie under `CrisisToLiquidation` (p.53), and A B C ↑ under `complication` (pp.64-65);
+  - the child of `MoveOpener` names the move type, `villainy`, `lack` or `mediation` (p.92, p.37);
+  - the fight's J lands in `Combat`, the task's J in `TaskCycle`, and a J after a pursuit in `CombatAfterPursuit` (p.104, p.107);
+  - Q, Ex, U and W land in `Endgame` (p.108);
+  - in `γ β δ`, the β lands inside `interdictionViolation`, and in `β γ δ` it does not (p.26, pp.96-97, p.101).
+- **One caution.** A T hangs under `FloatingT` attached to the function before it, which is where the parser meets it and claims nothing. Test only that a T is under `FloatingT`.
+- **Then a corpus report.** For each of the 80 accepted moves, list the groups its parse contains. That is the raw material for the catalog `SemanticBundling.md` was meant to become.
+
+**2. Embedded moves, ruling 48's third target. A full-budget session, not a small step.**
+It needs three things this project does not yet have.
+- **A second derivation of the corpus that keeps Propp's interruption markers.** `resolve.py` strips them. `ColumnLayout.md` in the first project lists the seven marker sites: 138 II, 155 III, 155 IV, 159 I, 159 III, 162 I and 167 I.
+- **A grammar in which a move can contain a move.** That is self-embedding, so the language is context-free and no longer regular.
+- **A new proof instrument.** `equivCheck.py` refuses recursive grammars by design.
+Finding FO point 4 argues that the markers make an LL(1) grammar plausible, since they tell the parser where an interrupting move begins.
+
+**3. Small open items.**
+- Whether an initial situation α may stand before a later move. The owner reads p.86 as the tale's initial situation, and admitting one later would be a small edit.
+- p.108's "all seven functions of this section are never encountered within one tale", left out by the owner's decision.
+- Step 6's widening: an untested agent followed by a test, as in `A F D E`, is a cost of the merge and not a license.
+- The exchange of p.108 is built on finding FN's reading, the four exchanging among themselves; on the narrow reading, `U Q W` would be refused.
+
+**4. Housekeeping.**
+- This project has no remote. If the owner wants it on GitHub beside the first, the owner creates the repository.
+- `SemanticBundling.md`, in the first project, does not yet point at v46's groups.
+- The first project's publication items for SourceForge are on hold by the owner's decision.
+
+### Conventions and traps this session learned
+
+**Tests first, always.** Write a step's tests, run them red, then build.
+A test is never edited to fit a result: a wrong one is commented out with a dated reason and its correction added below.
+
+**A test describing a step's own change closes at that step, written `N-N`.** That covers an equivalence, an inclusion, an LL(1) expectation, or a reject the step's reading decides.
+Only tests of what Propp's pages fix bind onward.
+Three onward-binding tests broke at the next step before this rule was written.
+
+**An argument written `TAG:FILE` names a file as it stood at a git tag**, so a test can compare the grammar with its own earlier step, as `step5:ProppEBNF46.txt`.
+
+**The corpus runner must read the corpus exactly as `falsify44.py` does.** Its first run missed `falsify44.py`'s alias table, KF as K and w as W, and failed eleven moves it should have passed. The frozen calibration caught it. Keep the calibration test binding.
+
+**A formal claim needs checking before it is written down.** Step 5's note said changing the reading of p.108 would also remove the F conflict. It would not, and the note was corrected before the close.
+
+**Tool traps on this machine.**
+- Git rewrites line endings after a commit, and the Edit tool then reports the file modified since it was read. Re-read it before editing.
+- Escapes inside a bash heredoc, such as `\\n`, arrive mangled. Write a script to a file and run it instead.
