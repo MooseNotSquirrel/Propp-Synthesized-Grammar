@@ -24,15 +24,23 @@ THE DERIVATION RULES, frozen before the first run.
      no move to insert. They are removed, as resolve.py removes them, and
      stay unresolved: Propp prints no indication of which move breaks the
      thread there.
-  4. A shared ending (125 and 155, p.93 method 5) is attached once, to the
-     last move that shares it, which is where Propp prints it. resolve.py
-     copies it onto every sharing move so each can be parsed alone; a tale
-     string needs it only once.
+  4. A shared ending (125 and 155, p.93 method 5) is written once, after
+     Propp's closing brace }, following the moves that share it, which in
+     both tales are the tale's last. resolve.py copies it onto every
+     sharing move so each can be parsed alone; a tale string needs it
+     once. (Until step 8 it was attached to the last sharing move.)
   5. Everything else is read exactly as runCorpus.py reads a move, which is
      falsify44.py's reading: its tokenizer, reducer and alias table,
      overflow and parked cells dropped, parked pre-crisis cells dropped, a
      brace passing only if every expansion passes, and a brace's rows
      sharing the move's opener.
+
+  6. A road marker < in a move's parked cells (155 III; pp.93-94, method
+     6) marks that move as the first of two branches and the next move as
+     the second. The marker, and a signaller Y in the same cell, are
+     lifted out and written before the branches, as Propp's scheme for 155
+     writes "I-II. <Y". The rest of the cell stays dropped as parked.
+     (Added at step 8.)
 
 CALIBRATION (--check): every move of the 84 appears exactly once, at top
 level or embedded, and each move's string, with its markers removed and the
@@ -60,8 +68,6 @@ def move_strings(tale):
     for mv in tale['moves']:
         s = mv['raw'].replace('<<shared>>', ' ')
         s = re.sub(r'\.\.\.', ' ', s)                          # rule 3
-        if tale['shared'] and sharers and mv['label'] == sharers[-1]:
-            s += ' ' + tale['shared']                           # rule 4
         canon, _full = resolve.split_overflow(re.sub(r'\s+', ' ', s).strip())
         out[mv['label']] = canon
     return out
@@ -128,8 +134,20 @@ def elements(canon):
     return out
 
 
+def parting(tale):
+    """(label, has signaller) for the move whose parked cells hold a road
+    marker <, or None (rule 6)."""
+    for mv in tale['moves']:
+        for cell in re.findall(r'(?:overflow|park)\[([^\]]*)\]', mv['raw']):
+            toks = cell.replace('<', ' < ').replace('Y', ' Y ').split()
+            if '<' in toks:
+                return mv['label'], 'Y' in toks
+    return None
+
+
 def derive():
-    """[(tale, [top-level labels], {label: elements}, {label: canonical})]"""
+    """[(tale, [top-level labels], {label: elements}, {label: canonical},
+    parting or None, shared-ending keys or None)]"""
     out = []
     for tale in resolve.parse_corpus(TOKENS):
         strings = move_strings(tale)
@@ -137,7 +155,9 @@ def derive():
         embedded = {m.group(1) for s in strings.values() for m in
                     (MARK.match(t) for t in F.tokenize(s)) if m}
         top = [lab for lab in strings if lab not in embedded]
-        out.append((tale['tale'], top, elems, strings))
+        tail = ([k for k in elements(tale['shared']) if isinstance(k, str)]
+                if tale['shared'] else None)                    # rule 4
+        out.append((tale['tale'], top, elems, strings, parting(tale), tail))
     return out
 
 
@@ -152,19 +172,25 @@ def expand_move(label, elems):
     return [sum(choice, []) for choice in itertools.product(*[options(e) for e in elems[label]])]
 
 
-def expand_tale(top, elems):
+def expand_tale(top, elems, part=None, tail=None):
     per = [expand_move(lab, elems) for lab in top]
     for choice in itertools.product(*per):
         toks = []
-        for n, part in enumerate(choice):
-            toks += ([SEP] if n else []) + part
+        for n, move in enumerate(choice):
+            if part and top[n] == part[0]:                      # rule 6
+                toks += ['<'] + (['Y'] if part[1] else [])
+            elif n:
+                toks.append(SEP)
+            toks += move
+        if tail is not None:                                    # rule 4
+            toks += ['}'] + tail
         yield toks
 
 
 def calibrate():
     """(ok, detail): the derivation against resolve.py."""
     problems, nmoves, nembedded = [], 0, 0
-    for tale, top, elems, strings in derive():
+    for tale, top, elems, strings, _part, _tail in derive():
         refs = [m.group(1) for s in strings.values() for m in
                 (MARK.match(t) for t in F.tokenize(s)) if m]
         for r in refs:
@@ -180,7 +206,7 @@ def calibrate():
         for lab, s in strings.items():
             mine = re.sub(r'\s+', ' ', re.sub(r'<[IVX]+>', ' ', s)).strip()
             theirs = flat[lab]
-            if lab in sharers[:-1] and src['shared']:
+            if lab in sharers and src['shared']:
                 theirs = resolve.split_overflow(theirs[:len(theirs) - len(src['shared'])].strip())[0]
             if mine != theirs:
                 problems.append('%s %s: %r differs from resolve.py %r' % (tale, lab, mine, theirs))
@@ -195,8 +221,8 @@ def run(path):
     import parse
     bnf, start, table = parse.build(open(path, encoding='utf-8').read())
     out = []
-    for tale, top, elems, _s in derive():
-        bad = next((x for x in expand_tale(top, elems)
+    for tale, top, elems, _s, part, tail in derive():
+        bad = next((x for x in expand_tale(top, elems, part, tail)
                     if not parse.accept(x, bnf, start, table)[0]), None)
         out.append((tale, bad is None, bad))
     return out

@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 7. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
+# STATE: STEP 8. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -48,6 +48,11 @@
 # and is still LL(1). With the pause removed it is exactly step 6. Over
 # the 45 whole tales of embedCorpus.py's derivation it accepts 41, the
 # four refused being the tales that hold the four genuine counterexamples.
+# Step 8 adds two more of p.93's methods of combining moves, at the tale
+# level: a common ending shared by two moves (method 5) and two seekers
+# parting at a road marker into two branch moves (method 6), written with
+# Propp's own signs } < Y. With both removed it is exactly step 7, and it
+# is still LL(1); the tale corpus stays 41 of 45.
 #
 # Notation is v44's:
 #   A = x    a production: the nonterminal A is defined as x.
@@ -111,13 +116,50 @@
 # 133 II, follows a move ending D E F.
 
 tale                = [initialSituation] preparatorySection move
-                      {moveBoundary move}
+                      LaterMoves
+
+# --- how the moves of a tale combine: p.93, methods 1, 5 and 6 (step 8) ---
+# p.93 lists six methods of combining moves. Methods 2 and 3, interruption,
+# live inside the move (InterruptingMove). Method 1, one move after
+# another, is the repetition below. Methods 5 and 6 are tale-level:
+#   METHOD 5: "Two moves may have a common ending." Propp draws one closing
+#   brace across both moves with the ending to its right (125, 155). The
+#   tale string writes it once, after }, and CommonEnding holds it, a
+#   sibling of the moves it closes, so the tree says it belongs to them
+#   jointly. CAVEAT: the grammar checks that the ending fits the tale's
+#   last move; that it fits the other sharer is checked at the move level,
+#   where each sharer is parsed with the ending unfolded.
+#   METHOD 6: two seekers "part in the middle of the first move ... at a
+#   road marker", designated <, and "often give one another an object: a
+#   signaller", designated Y (pp.93-94; tale 155, whose scheme Propp
+#   writes "I-II. <Y" with III and IV after it). Parting holds the marker,
+#   the signaller if there is one, and the two branch moves.
+# The glyphs < Y } are Propp's own. After the first move, either more
+# moves follow in sequence or a parting does; after two or more moves, or
+# after the branches, a common ending may close the tale. One token
+# decides each choice, so the grammar stays LL(1).
+# Method 4, two villainies at once, is not built: its two A-K spans cross,
+# and no corpus case has been identified.
+
+LaterMoves          = [ moveBoundary move {moveBoundary move}
+                        [Parting] [CommonEnding]
+                      | Parting [CommonEnding] ]
+
+Parting             = roadMarker [signaller] move moveBoundary move
+                                            # pp.93-94, method 6
+
+CommonEnding        = commonEnding AfterLiquidation
+                                            # p.93, method 5
 
 moveBoundary        = '/'                   # editorial: one row per move,
                                             #   as in Appendix III
 
 interruptionBegins  = '⟨'                   # editorial: where Propp prints
 interruptionEnds    = '⟩'                   #   <N>, move N stands here
+roadMarker          = '<'                   # Propp's sign, p.93
+signaller           = 'Y'                   # Propp's sign, p.94
+commonEnding        = '}'                   # Propp's closing brace, as
+                                            #   drawn in 125 and 155
 
 preparatorySection  = {absentation} interdictionViolation
                       reconnaissanceDelivery trickeryComplicity

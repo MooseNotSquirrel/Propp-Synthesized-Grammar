@@ -32,6 +32,30 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** Propp's. **Corpus:** not measured; the corpus is move-strings. **Tree test:** `A K / a K`, the second move's `a` under `tale`.
 - **Meaning:** the story as a whole. A misfortune or a want sets it going, and every new one begins a new move inside it.
 
+### `LaterMoves`
+
+- **Kind:** group. **Level:** tale.
+- **Holds:** the moves after the first, in sequence, then optionally a parting and a common ending; or a parting straight after the first move.
+- **Warrant:** p.93, method 1: "one move directly follows another".
+- **Name:** this grammar's. **Corpus:** 26 of the 45 tales, counting the tale strings of `embedCorpus.py`, where 162's second move sits inside its first. **Tree test:** `A K / a K`, the `a` under `LaterMoves` and the first A not.
+- **Meaning:** a reading aid: how a tale goes on after its first move. It holds the three ways p.93 lets it go on at tale level.
+
+### `Parting`
+
+- **Kind:** group, a fork. **Level:** tale.
+- **Holds:** the road marker <, the signaller Y if there is one, and two branch moves.
+- **Warrant:** pp.93-94, method 6: two seekers "part in the middle of the first move ... at a road marker", which Propp designates <, and "often give one another an object: a signaller", which he designates Y. His scheme for tale 155 is "I-II. <Y", with III and IV after it.
+- **Name:** Propp's word. **Corpus:** 1 tale, 155. **Tree test:** `A K < Y a K / A K }`, the `a` under `Parting` and the first A not.
+- **Meaning:** two heroes set out together and part, each to his own adventure, often leaving the other a token by which to know his fate. The tree holds the two branches side by side.
+
+### `CommonEnding`
+
+- **Kind:** group. **Level:** tale.
+- **Holds:** Propp's closing brace }, then what follows a liquidation: return, the false hero's contest, the task and the endgame.
+- **Warrant:** p.93, method 5: "Two moves may have a common ending." Propp draws a single closing brace across both moves, with the ending to its right, in 125 and 155.
+- **Name:** Propp's words. **Corpus:** 2 tales, 125 and 155; 155's ending, ↓X, reduces to nothing, so its common ending is empty. **Tree test:** `A up o / A K } L Q W`, the L under `CommonEnding` and the first move's o not.
+- **Meaning:** one resolution for two undertakings. The tree makes the ending a sibling of the moves it closes, so it belongs to them jointly. The grammar checks that it fits the last of them; that it fits the other is checked at the move level.
+
 ### `preparatorySection`
 
 - **Kind:** group of groups. **Level:** tale, before the first move only.
@@ -259,6 +283,9 @@ They make the tree readable, and they are candidates for testing against Propp's
 
 **T is the one function the tree cannot place.**
 Its position is free by p.108, so its place in the tree carries no meaning.
+
+**Three of p.93's six methods of combining moves are tale-level, and two of them are forks and joins.**
+Method 1 is sequence. Method 6 is a fork, two branches from one trunk, and a tree holds it naturally. Method 5 is a join, one ending for two moves, which no tree can share; the grammar makes the ending a sibling of both moves, which is the nearest a tree comes. Method 4, two villainies at once, is not built: its two A-K spans cross.
 
 **A move can hold a move, and the markers keep it readable.**
 Since step 7, a move may pause after any function for a whole inserted move, to any depth, as p.93's methods 2 and 3 describe.

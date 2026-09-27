@@ -340,3 +340,39 @@
 7 | notunder | ProppEBNF46.txt "A ⟨ a K ⟩ K" 5 InterruptingMove | the interrupted move resumes outside it: its K is the outer move's
 7 | under | ProppEBNF46.txt "A K T" 2 Between | p.108: a T after a function stands in the slot between functions, which it shares with an interruption
 7-7 | talefails | ProppEBNF46.txt "126,127,137,138" | PREDICTION: 41 of 45 tales, failing exactly those holding 126 II, 127 I, 137 II and 138 III; 138 III is the move inserted in 138 II
+
+# ---------------------------------------------------------------------------
+# STEP 8. Two more of p.93's methods of combining moves. LANGUAGE-CHANGING.
+# Frozen 2026-09-27 before step 8 was built.
+#
+# Method 5, p.93: "Two moves may have a common ending." Propp draws a
+# single closing brace across both moves, the ending to its right (125,
+# 155). The tale string writes the ending once, after } at the tale's end.
+# Method 6, pp.93-94: two seekers part at a road marker, <, often
+# exchanging a signaller, Y; Propp's scheme for 155 is I-II. <Y, then III
+# and IV. The tale string writes < [Y] before the two branch moves.
+# The glyphs are Propp's own. After the first move, either more moves
+# follow or a parting does; after two or more moves, or after the
+# branches, a common ending may close the tale.
+# CAVEAT: the grammar checks that the ending fits the tale's last move;
+# that it fits the other sharer is checked at the move level, where
+# runCorpus.py parses each sharer with the ending unfolded.
+#
+# PREDICTED: still LL(1); with Parting and CommonEnding dropped, exactly
+# step 7; the tale corpus unchanged at 41 of 45.
+# ---------------------------------------------------------------------------
+
+8-8 | equivalent | step7:ProppEBNF46.txt ProppEBNF46.txt --drop-a InterruptingMove --drop-b InterruptingMove,Parting,CommonEnding | the step adds the parting and the common ending and nothing else
+8-8 | ll1 | ProppEBNF46.txt - | Propp's glyphs mark where a parting and a common ending begin, so the grammar stays LL(1)
+8 | accept | ProppEBNF46.txt "A up o / A C up H J I K down Pr Rs } L Q Ex U W" | p.93 method 5: the shape of 125, one ending for two moves
+8 | accept | ProppEBNF46.txt "a B C up D E F K down < Y A B C up G I K U / A B C up H J I K L Q Ex U W }" | pp.93-94 method 6 with method 5: the shape of 155, trunk, parting, two branches, and a shared ending that reduces to nothing
+8 | accept | ProppEBNF46.txt "A K < a K / A K" | p.94: the heroes often exchange a signaller, so Y may be absent
+8 | reject | ProppEBNF46.txt "A K } L Q W" | p.93 method 5: a common ending belongs to two moves; one move has no common ending
+8 | reject | ProppEBNF46.txt "A K < Y a K" | pp.93-94 method 6: two seekers part, so a parting has two branches
+8 | under | ProppEBNF46.txt "A K < Y a K / A K }" 4 Parting | method 6: a branch move lies inside the parting
+8 | notunder | ProppEBNF46.txt "A K < Y a K / A K }" 1 Parting | the trunk move lies before the parting, outside it
+8 | under | ProppEBNF46.txt "A up o / A K } L Q W" 7 CommonEnding | method 5: the shared ending lies in the common ending
+8 | notunder | ProppEBNF46.txt "A up o / A K } L Q W" 2 CommonEnding | the first move's own functions lie outside it
+8-8 | talefails | ProppEBNF46.txt "126,127,137,138" | PREDICTION: unchanged, 41 of 45; 125 and 155 already passed as sequences and pass in their new shape
+8 | under | ProppEBNF46.txt "A K / a K" 3 LaterMoves | p.93 method 1: a move that follows another lies in LaterMoves
+8 | notunder | ProppEBNF46.txt "A K / a K" 0 LaterMoves | the first move of a tale lies outside it

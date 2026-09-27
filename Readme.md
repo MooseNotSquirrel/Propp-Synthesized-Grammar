@@ -41,6 +41,7 @@ It handles grammars whose productions do not refer back to themselves, which cov
 | 5 | language-changing: the J conflict removed by letting the task-run J come only after a task, as v44's own comment proposes | built and tagged `step5`; 42 of 42 binding tests pass; 80 of 84 unchanged; F the only LL(1) conflict |
 | 6 | language-changing, by the owner's decision: the F groups merged, the tested agent (after D or E, Propp's DEF) against the untested agent (every other F, the father's gift included) | built and tagged `step6`; 47 of 47 binding tests pass; 80 of 84 unchanged; **LL(1), no conflict**, and `regression.py` passes outright |
 | 7 | language-changing: embedded moves, a move pausing after any function for a whole inserted move, bracketed ⟨ ... ⟩, to any depth (p.93 methods 2 and 3) | built and tagged `step7`; 93 of 93 binding tests pass; context-free and still LL(1); with the pause removed, proved exactly step 6; **41 of 45 whole tales**, the four refused holding the genuine counterexamples |
+| 8 | language-changing: two more of p.93's methods at tale level, a common ending shared by two moves (method 5) and two seekers parting into two branches (method 6), in Propp's own signs } < Y | built and tagged `step8`; 104 of 104 binding tests pass; still LL(1); with both removed, proved exactly step 7; 41 of 45 tales unchanged |
 
 **At step 4 the grammar accepts 80 of the 84 move-strings, ruling 48's target, and refuses only the four genuine counterexamples: 126 II, 127 I, 137 II and 138 III.**
 The corpus was first met at step 3: 72 of 84, against v44's 69.
@@ -72,19 +73,20 @@ The separator is editorial and follows Appendix III's layout of one row per move
 
 ## Next session: start here
 
-**State at the close of 2026-09-27: step 7, tagged `step7`, and nothing is half-done.**
+**State at the close of 2026-09-27: step 8, tagged `step8`, and nothing is half-done.**
 ALL THREE OF RULING 48'S TARGETS ARE MET.
 v46 accepts 80 of the 84 resolved move-strings, refusing only the four genuine counterexamples, 126 II, 127 I, 137 II and 138 III.
 It is LL(1) with no conflict, and `regression.py` passes it outright.
 It embeds moves: over the 45 whole tales of `embedCorpus.py`'s derivation it accepts 41, refusing the four tales that hold those counterexamples.
+Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 7` prints `93 binding, 0 failed, 0 pending for later steps, 20 closed by an earlier step`.
+- `python runSteps.py 8` prints `104 binding, 0 failed, 0 pending for later steps, 23 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
 - `python regression.py ProppEBNF46.txt` prints `RESULT: ALL PASS`.
-- `git tag` lists `step1` to `step7`.
+- `git tag` lists `step1` to `step8`.
 
 ### The work, in the owner's order
 
@@ -107,6 +109,9 @@ Whether the first project's `SemanticBundling.md` then points to this catalog, o
 - **The grammar.** After any function, never before the opener, a move may pause for a whole inserted move, to any depth. `Between` holds a T or an `InterruptingMove`; `FloatingT` now holds only the T before an opener. The grammar is context-free, and still LL(1) because the markers bracket every inserted move.
 - **The proof.** `equivCheck.py` now takes `--drop-a` and `--drop-b`; with `InterruptingMove` dropped, v46 is proved exactly step 6. Membership tests on a recursive grammar fall back to the LL(1) parser. This copy of `equivCheck.py` therefore differs from the first project's.
 - **The corpus.** 41 of 45 tales, exactly as predicted before the run.
+
+**2a. Two more methods of combining moves: DONE on 2026-09-27, step 8.**
+The common ending (p.93 method 5, tales 125 and 155) and the parting of two seekers (pp.93-94 method 6, tale 155), written with Propp's own signs. The derivation now writes a shared ending once after }, and lifts a road marker and signaller out of a parked cell as the parting; it still calibrates against `resolve.py`. The caveat: the grammar checks that a common ending fits the tale's last move, and the move-level runner checks that it fits each sharer. Method 4 is not built.
 
 **3. Small open items.**
 - Whether an initial situation α may stand before a later move. The owner reads p.86 as the tale's initial situation, and admitting one later would be a small edit.
