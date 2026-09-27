@@ -25,6 +25,13 @@ Kinds, one test per line as  step | kind | arguments | source :
   under G "x y z" I NAME    in G's LL(1) parse, token I (from 0) has the
                             group NAME among its ancestors (parseTree.py)
   notunder G "x y z" I NAME the reverse; both fail if G rejects the string
+  catalog G C T             the catalog C and grammar G agree: C's section
+                            "Groups and pairs" has exactly one entry per
+                            group of G, a group being any production that
+                            is not a single terminal; every group has a
+                            tree test in the test file T; and C's section
+                            "Functions", when there is one, names only G's
+                            single-terminal productions
   corpusfails G S "t m,..." run over ResolvedMoves.txt by runCorpus.py
                             with start symbol S, G fails exactly the listed
                             moves; '-' means it fails none
@@ -142,6 +149,31 @@ def tagged(args):
     return out
 
 
+def catalog(gpath, cpath, tpath):
+    prods, order = parse.load(open(gpath, encoding='utf-8').read())
+    single = {n for n in order if re.fullmatch(r"\s*'[^']*'\s*", prods[n])}
+    groups = [n for n in order if n not in single]
+    text = open(cpath, encoding='utf-8').read()
+
+    def entries(section):
+        m = re.search(r'^## %s\s*$(.*?)(?=^## |\Z)' % re.escape(section), text, re.M | re.S)
+        return re.findall(r'^### `(\w+)`', m.group(1), re.M) if m else []
+
+    listed, funcs = entries('Groups and pairs'), entries('Functions')
+    tested = set(re.findall(r'\|\s*(?:not)?under\s*\|.*?"\s+\d+\s+(\w+)\s*\|',
+                            open(tpath, encoding='utf-8').read()))
+    problems = []
+    for label, names in (('no entry', [g for g in groups if g not in listed]),
+                         ('entry for no group', [x for x in listed if x not in groups]),
+                         ('listed twice', sorted({x for x in listed if listed.count(x) > 1})),
+                         ('no tree test', [g for g in groups if g not in tested]),
+                         ('function entry for no function', [x for x in funcs if x not in single])):
+        if names:
+            problems.append('%s: %s' % (label, ' '.join(names)))
+    detail = '%d groups, %d entries, %d function entries' % (len(groups), len(listed), len(funcs))
+    return not problems, detail + ('; ' + '; '.join(problems) if problems else '')
+
+
 def run(kind, args):
     """Return (passed, detail)."""
     args = tagged(args)
@@ -171,6 +203,8 @@ def run(kind, args):
         tok, chain = res[int(args[2])]
         got = args[3] in chain
         return got == (kind == 'under'), '%s: %s' % (tok, ' > '.join(chain))
+    if kind == 'catalog':
+        return catalog(*args)
     if kind == 'corpusfails':
         want = set() if args[2] == '-' else {x.strip() for x in args[2].split(',')}
         got = {'%s %s' % (r[0], r[1]) for r in runCorpus.run(args[0], args[1]) if not r[3]}

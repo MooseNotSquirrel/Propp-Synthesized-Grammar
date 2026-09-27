@@ -65,6 +65,7 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `runCorpus.py`: runs a grammar over the resolved move-strings.
 - `parseTree.py`: parses with the LL(1) table and reports where each function lands; `--corpus` writes the group counts.
 - `CorpusGroups.txt`: those counts for the 80 accepted moves.
+- `SemanticCatalog46.md`: the catalog of v46's groups and pairs, checked against the grammar.
 - The copied files listed above.
 
 ## Next session: start here
@@ -75,7 +76,7 @@ It is LL(1) with no conflict, and `regression.py` passes it outright.
 Of ruling 48's three targets, two are met, 80 of 84 and LL(1); embedded moves are not begun.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 6` prints `74 binding, 0 failed, 0 pending for later steps, 12 closed by an earlier step`.
+- `python runSteps.py 6` prints `88 binding, 0 failed, 0 pending for later steps, 12 closed by an earlier step`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
 - `python regression.py ProppEBNF46.txt` prints `RESULT: ALL PASS`.
@@ -90,7 +91,12 @@ They cover the tested and untested agent, the A-K span, the complication, the mo
 The tool was checked to fail on false claims and on rejected strings.
 `CorpusGroups.txt` counts, for each named group, how many of the 80 accepted moves use it: for instance the tested agent 32, the untested agent 17, Combat 32, TaskCycle 9, and the two step-4 licenses once each.
 It is the raw material for the catalog `SemanticBundling.md` was meant to become.
-NEXT FROM IT, when the owner wants it: a per-move listing of groups, and the catalog itself.
+
+**1a. The semantic catalog: BUILT on 2026-09-27, as `SemanticCatalog46.md`.**
+It has one entry for each of v46's 24 groups and pairs, each giving its kind, level, contents, page, name source, corpus count, tree test and meaning, plus the J-Q dependency and what the catalog teaches.
+A frozen `catalog` test keeps it in step with the grammar: one entry per group, a tree test for every group, and no entry for a group the grammar lacks. It was shown to fail on a missing entry and on a false function entry.
+THE FUNCTIONS COME NEXT IN IT, by the owner's decision: the 31 functions, in the reserved "Functions" section at the end, since each function carries meaning of its own. The check already requires each such entry to name one of the grammar's single-function productions.
+Whether the first project's `SemanticBundling.md` then points to this catalog, or is replaced by it, is the owner's call; that file is part of the first project's publication.
 
 **2. Embedded moves, ruling 48's third target. A full-budget session, not a small step.**
 It needs three things this project does not yet have.

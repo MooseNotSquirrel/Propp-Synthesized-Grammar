@@ -282,3 +282,27 @@
 6 | under | ProppEBNF46.txt "α A" 0 initialSituation | p.25: not a function, and outside every move
 6 | notunder | ProppEBNF46.txt "α A" 0 move | p.25
 6 | under | ProppEBNF46.txt "T A K" 0 FloatingT | p.108: T's place in the tree is where the parser meets it and claims nothing, so only this is tested
+
+# ---------------------------------------------------------------------------
+# THE CATALOG, SemanticCatalog46.md. Frozen 2026-09-27 before it was
+# written, with a tree test for each of the eleven groups that had none.
+# The catalog check binds onward: whatever later steps do to the
+# grammar, catalog and grammar must stay in step.
+# ---------------------------------------------------------------------------
+
+6 | catalog | ProppEBNF46.txt SemanticCatalog46.md StepTests.txt | every group of the grammar has one catalog entry and a tree test; every entry names a group; a Functions section, when added, names only functions
+6 | under | ProppEBNF46.txt "A K / a K" 3 tale | p.92: a tale is a development from villainy or lack, and each new one a new move within it
+6 | under | ProppEBNF46.txt "ε ζ A" 1 reconnaissanceDelivery | p.80 writes ε-ζ as a pair; p.64 lists reconnaissance-delivery
+6 | under | ProppEBNF46.txt "η λ θ A" 1 trickeryComplicity | p.80 writes η-θ as a pair; λ inside it on Appendix I Table II item 44
+6 | under | ProppEBNF46.txt "A D E F G H I K" 4 Development | editorial: the span between the complication and the liquidation, for reading only
+6 | notunder | ProppEBNF46.txt "A D E F G H I K" 7 Development | p.53: the liquidation closes the A-K span, outside Development
+6 | under | ProppEBNF46.txt "A K down" 2 AfterLiquidation | editorial: everything after the liquidation
+6 | under | ProppEBNF46.txt "A K down Pr Rs" 3 ReturnJourney | v43's name: the return and what befalls it
+6 | under | ProppEBNF46.txt "A K down Pr Rs" 4 Evasion | p.64 lists pursuit-deliverance as a pair
+# 6 | under | ProppEBNF46.txt "A K Pr Rs" 1 PursuitFirst | p.64: pursuit, then rescue
+#   2026-09-27: written with the wrong index; token 1 is K, not Pr. Corrected below.
+6 | under | ProppEBNF46.txt "A K Pr Rs" 2 PursuitFirst | p.64: pursuit, then rescue
+6 | under | ProppEBNF46.txt "A K Rs Pr" 2 RescueFirst | p.147: the humorous inversion [Rs-Pr]
+6 | under | ProppEBNF46.txt "A K o L M N" 4 Ordeal | v43's name: the false hero's contest and the task
+6 | notunder | ProppEBNF46.txt "A K o L M N Q" 6 Ordeal | p.108: since step 3 recognition exchanges in Endgame, outside Ordeal
+6 | under | ProppEBNF46.txt "A K o L" 3 FraudPosture | p.104: unrecognized arrival and unfounded claims shift between the two schemes together
