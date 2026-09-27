@@ -96,10 +96,34 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** Propp's. **Corpus:** 80. **Tree test:** `α A`, where the α is *not* under `move`.
 - **Meaning:** one episode of misfortune and its undoing. A tale has as many moves as it has new villainies or lacks.
 
+### `BeforeTheCrisis`
+
+- **Kind:** group. **Level:** move, before the opener.
+- **Holds:** a T, then a departure, then a donor sequence, each optional.
+- **Warrant:** p.107: elements DEF often stand before A, which is "not a new, but rather an inverted sequence".
+- **Name:** this grammar's. **Corpus:** 0; the corpus derivation drops the parked cells left of A, by the owner's decision, so the corpus does not exercise it. **Tree test:** `up D E F A K`, the ↑ under `BeforeTheCrisis`.
+- **Meaning:** what the hero has or does before the misfortune strikes. It lies outside the A-K span, since the crisis has not yet come.
+
+### `LeavingFirst`
+
+- **Kind:** group. **Level:** move, before the opener.
+- **Holds:** one or more departures.
+- **Warrant:** p.107: the exit from home comes first, the hero learning of the misfortune when already on the road.
+- **Name:** this grammar's. **Corpus:** 0, as above. **Tree test:** `up D E F A K`, the ↑ under `LeavingFirst`.
+- **Meaning:** the hero already on the road, setting out aimlessly, when the misfortune finds him.
+
+### `HelperFirst`
+
+- **Kind:** group. **Level:** move, before the opener.
+- **Holds:** a donor sequence: tested when it opens on D or E, untested when it is F alone.
+- **Warrant:** p.107: the receipt of a helper first, and then the misfortune the helper liquidates.
+- **Name:** this grammar's, from Propp's wording. **Corpus:** 0, as above; the parked regions it would cover are 104 I, 105 II, 125 I, 126 II, 137 I, 156 III, 162 I and 166 I. **Tree test:** `D E F A K`, the F under `HelperFirst` and not under `CrisisToLiquidation`.
+- **Meaning:** the hero equipped before he is needed. The helper is in hand when the misfortune comes, and the move is shorter for it.
+
 ### `FloatingT`
 
 - **Kind:** notation. **Level:** move.
-- **Holds:** any number of T, before the move's opener.
+- **Holds:** any number of T, at the head of a move, inside `BeforeTheCrisis` since step 9.
 - **Warrant:** p.108: T is the most unstable function in relation to its position. By the owner's decision, T may stand anywhere in a move.
 - **Name:** this grammar's. **Corpus:** 0; no T stands before an opener in the corpus. **Tree test:** `T A K`, the T under `FloatingT`.
 - **Meaning:** none claimed. Since step 7 it holds only the T before a move's opener; after a function, a T stands in `Between`. Where a T hangs in the tree is only where the parser meets it. T's own meaning, transfiguration, belongs to the functions section when it is written.
@@ -281,6 +305,9 @@ The pairing survives as meaning, and the order is free.
 `Development`, `AfterLiquidation`, `ReturnJourney` and `Ordeal` have no page behind them.
 They make the tree readable, and they are candidates for testing against Propp's text rather than claims about it.
 
+**Every license of pp.107-108 is now in the grammar.**
+The last, p.107's inverted sequence, lets the departure or the donor sequence come before the crisis. The corpus does not exercise it, because its reading still drops the cells Propp parks left of A; the grammar states what Propp allows, and the corpus test is unchanged.
+
 **T is the one function the tree cannot place.**
 Its position is free by p.108, so its place in the tree carries no meaning.
 
@@ -382,28 +409,28 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XI, ↑. **Page:** p.39. **Propp's name:** departure.
 - **What happens:** the hero leaves home.
-- **Group:** `complication`, which it closes. **Pairs:** none named, though it faces the return. **Corpus:** 66.
+- **Group:** `complication`, which it closes; or `LeavingFirst`, before the crisis (p.107). **Pairs:** none named, though it faces the return. **Corpus:** 66.
 - **Meaning:** setting out. With villainy, dispatch and counteraction it completes the complication (pp.64-65).
 
 ### `firstDonorFunction`
 
 - **Number and sign:** XII, D. **Page:** p.39. **Propp's name:** the first function of the donor.
 - **What happens:** the hero is tested, questioned or attacked, which prepares the way for his receiving a magical agent or helper.
-- **Group:** `TestedAcquisition`, which it opens. **Pairs:** its forms are bound to the forms of F (pp.46-47). **Corpus:** 31.
+- **Group:** `TestedAcquisition`, which it opens; or `HelperFirst`, before the crisis (p.107). **Pairs:** its forms are bound to the forms of F (pp.46-47). **Corpus:** 31.
 - **Meaning:** the test. The donor probes whether the hero is worthy of help.
 
 ### `heroReaction`
 
 - **Number and sign:** XIII, E. **Page:** p.42. **Propp's name:** the hero's reaction.
 - **What happens:** the hero reacts to the actions of the future donor, well or badly.
-- **Group:** `TestedAcquisition`, which it opens when the test is omitted. **Pairs:** with the test it answers. **Corpus:** 32.
+- **Group:** `TestedAcquisition`, which it opens when the test is omitted; or `HelperFirst`, before the crisis (p.107). **Pairs:** with the test it answers. **Corpus:** 32.
 - **Meaning:** the hero's answer to the test, which decides whether help is given.
 
 ### `receiptOfMagicalAgent`
 
 - **Number and sign:** XIV, F. **Page:** p.43. **Propp's name:** provision or receipt of a magical agent.
 - **What happens:** the hero acquires the use of a magical agent: an animal, an object, a quality.
-- **Group:** `TestedAcquisition` after a test or reaction; `UntestedAcquisition` otherwise, in the complication (step 6). **Pairs:** its forms are bound to the forms of D (pp.46-47). **Corpus:** 40; the tested agent appears in 32 moves and the untested in 17.
+- **Group:** `TestedAcquisition` after a test or reaction; `UntestedAcquisition` otherwise, in the complication (step 6); or `HelperFirst`, before the crisis (p.107). **Pairs:** its forms are bound to the forms of D (pp.46-47). **Corpus:** 40; the tested agent appears in 32 moves and the untested in 17.
 - **Meaning:** the means of undoing the misfortune. Earned from a donor, it is a reward; received without a test, from a father or by finding, it comes with the setting out.
 
 ### `spatialTransference`

@@ -38,6 +38,8 @@ doing and not the derivation's.
 
 Exit 0 always: a failing move is a finding, not an error.
 """
+import contextlib
+import io
 import itertools
 import sys
 
@@ -117,13 +119,28 @@ def expansions(elems):
 
 
 class Grammar:
+    """Membership by equivCheck.py's automaton for a regular grammar, and by
+    parse.py's LL(1) parser for one that refers back to itself, which the
+    automaton refuses. Since step 7 v46 is the second kind."""
+
     def __init__(self, path, start=None):
-        ast, self.start = equivCheck.read(path, start, False, {})
+        self.table = None
+        try:
+            with contextlib.redirect_stdout(io.StringIO()):
+                ast, self.start = equivCheck.read(path, start, False, {})
+        except SystemExit:
+            import parse
+            self.bnf, first, self.table = parse.build(open(path, encoding='utf-8').read())
+            self.start = start or first
+            return
         self.sigma = sorted(set().union(*(equivCheck.walk(v, 'term', set())
                                           for v in ast.values())))
         self.trans, self.accept = equivCheck.dfa(ast, self.start, self.sigma)
 
     def accepts(self, keys):
+        if self.table is not None:
+            import parse
+            return parse.accept(list(keys), self.bnf, self.start, self.table)[0]
         q = 1
         for k in keys:
             if k not in self.trans[q]:

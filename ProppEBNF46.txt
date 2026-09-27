@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 8. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
+# STATE: STEP 9. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -53,6 +53,11 @@
 # parting at a road marker into two branch moves (method 6), written with
 # Propp's own signs } < Y. With both removed it is exactly step 7, and it
 # is still LL(1); the tale corpus stays 41 of 45.
+# Step 9 builds in p.107's inverted sequence, the last license of
+# pp.107-108: the departure, the donor sequence, or both, before the
+# crisis. With it removed the grammar is exactly step 8, and it is still
+# LL(1). The corpus derivation still drops the parked cells left of A, so
+# no verdict moves: 80 of 84 moves, 41 of 45 tales.
 #
 # Notation is v44's:
 #   A = x    a production: the nonterminal A is defined as x.
@@ -252,9 +257,42 @@ trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
 # WITH InterruptingMove REMOVED, THE GRAMMAR IS EXACTLY STEP 6'S, which
 # equivCheck.py proves with --drop-b InterruptingMove.
 
-move                = CrisisToLiquidation AfterLiquidation
+move                = BeforeTheCrisis CrisisToLiquidation AfterLiquidation
 
 FloatingT           = {transfiguration}     # p.108; before the opener only
+
+# --- before the crisis: p.107's inverted sequence (step 9) ---
+# p.107: elements DEF often stand before A, and this is "not a new, but
+# rather an inverted sequence": the receipt of a helper first and then the
+# misfortune he liquidates; and the exit from home first, the hero learning
+# of the misfortune when already on the road. It is the last license of
+# pp.107-108 to be built in.
+# BeforeTheCrisis holds, before the opener, a T, then the departure
+# (LeavingFirst), then the donor sequence (HelperFirst). When both
+# inversions occur the corpus's parked regions show the departure first
+# (137 I, 139 I, 154 I); p.107 gives them separately, so that order is this
+# grammar's choice. HelperFirst is tested when it opens on D or E and
+# untested when it is F alone, as step 6 splits agents after the opener.
+# A T may follow each of these functions, but not an interruption, since
+# nothing pauses before a move begins (step 7). The opener separates all of
+# it from the crisis, so the grammar stays LL(1).
+# THE CORPUS DOES NOT EXERCISE IT. By the owner's decision (option 1) the
+# derivation still drops the parked cells left of A, as position-undetermined;
+# the grammar states the license, and the corpus verdicts do not move.
+
+BeforeTheCrisis     = FloatingT [LeavingFirst] [HelperFirst]
+                                            # p.107; editorial name
+
+LeavingFirst        = departure FloatingT {departure FloatingT}
+                                            # p.107: the exit from home first
+
+HelperFirst         = firstDonorFunction FloatingT {firstDonorFunction FloatingT}
+                      {heroReaction FloatingT} {receiptOfMagicalAgent FloatingT}
+                    | heroReaction FloatingT {heroReaction FloatingT}
+                      {receiptOfMagicalAgent FloatingT}
+                    | receiptOfMagicalAgent FloatingT
+                      {receiptOfMagicalAgent FloatingT}
+                                            # p.107: the helper received first
 
 Between             = { transfiguration | InterruptingMove }
                                             # p.108 for T; p.93 for the
@@ -278,7 +316,7 @@ InterruptingMove    = interruptionBegins move interruptionEnds
 
 CrisisToLiquidation = complication Development {liquidation Between}
 
-complication        = FloatingT MoveOpener Between
+complication        = MoveOpener Between
                       {mediation Between}
                       {beginningCounteraction Between}
                       [UntestedAcquisition]

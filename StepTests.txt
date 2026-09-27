@@ -386,3 +386,43 @@
 # ---------------------------------------------------------------------------
 
 8 | catalogfunctions | SemanticCatalog46.md "absentation,interdiction,violation,reconnaissance,delivery,trickery,complicity,villainy,lack,mediation,beginningCounteraction,departure,firstDonorFunction,heroReaction,receiptOfMagicalAgent,spatialTransference,struggle,branding,victory,liquidation,return,pursuit,rescue,unrecognizedArrival,unfoundedClaims,difficultTask,solution,recognition,exposure,transfiguration,punishment,wedding" | Ch. III, pp.26-63: the thirty-one functions in Propp's order, lack as VIIIa
+
+# ---------------------------------------------------------------------------
+# STEP 9. p.107's inverted sequence, the last license of pp.107-108.
+# LANGUAGE-CHANGING. Frozen 2026-09-27 before step 9 was built; option 1,
+# by the owner's decision: the grammar states the license, and the corpus
+# derivation is unchanged, so parked cells left of A stay dropped.
+#
+# p.107: elements DEF often stand before A, which is "not a new, but
+# rather an inverted sequence": the helper received first and then the
+# misfortune; and the exit from home first, the hero learning of the
+# misfortune on the road. The corpus's parked regions show the departure
+# before the donor sequence when both occur (137 I, 139 I, 154 I).
+# BeforeTheCrisis holds, before the opener, a T, then a departure
+# (LeavingFirst), then a donor sequence (HelperFirst), tested when it
+# opens on D or E and untested when it is F alone. T only follows these
+# functions, never an interruption, since nothing pauses before a move
+# begins. FloatingT moves from the complication into BeforeTheCrisis.
+#
+# PREDICTED: still LL(1), the opener separating what comes before the
+# crisis from the crisis; with LeavingFirst and HelperFirst dropped,
+# exactly step 8; the corpus unchanged, 80 of 84 moves and 41 of 45 tales,
+# since the derivation still drops the parked cells.
+# ---------------------------------------------------------------------------
+
+9-9 | equivalent | step8:ProppEBNF46.txt ProppEBNF46.txt --drop-a InterruptingMove --drop-b InterruptingMove,LeavingFirst,HelperFirst | the step adds the inverted sequence and nothing else
+9-9 | ll1 | ProppEBNF46.txt - | the opener separates the inverted sequence from the crisis, so the grammar stays LL(1)
+9 | accept | ProppEBNF46.txt "D E F A K" | p.107: the helper received first and then the misfortune; the shape of 162 I
+9 | accept | ProppEBNF46.txt "up D E F A K" | p.107: both inversions, the departure first; the shape of 137 I
+9 | accept | ProppEBNF46.txt "up A B C up K" | p.107: the exit from home first, the hero learning of the misfortune on the road
+9 | accept | ProppEBNF46.txt "F A C up K" | p.107: an agent received before the misfortune, untested; the shape of 104 I and 125 II
+9 | accept | ProppEBNF46.txt "T D E F A K" | p.108: T anywhere, before the inverted sequence too
+9 | reject | ProppEBNF46.txt "D E F G A K" | p.107 inverts DEF and the departure only; G before A is licensed nowhere (the first project's ruling 101)
+9-9 | reject | ProppEBNF46.txt "D E F up A K" | design, not a page: p.107 gives the two inversions separately, and the corpus shows the departure first when both occur
+9 | reject | ProppEBNF46.txt "D ⟨ A K ⟩ A K" | p.93: nothing pauses before a move begins, and the inverted sequence comes before the crisis
+9 | under | ProppEBNF46.txt "D E F A K" 2 HelperFirst | p.107: the helper received first
+9 | notunder | ProppEBNF46.txt "D E F A K" 2 CrisisToLiquidation | p.53 and p.107: what comes before the villainy lies outside the A-K span
+9 | under | ProppEBNF46.txt "up D E F A K" 0 LeavingFirst | p.107: the exit from home first
+9 | under | ProppEBNF46.txt "up D E F A K" 0 BeforeTheCrisis | p.107: the inverted sequence as one group before the crisis
+9-9 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: unchanged at 80 of 84, the parked cells still dropped (option 1); this also shows runCorpus.py working again on a recursive grammar
+9-9 | talefails | ProppEBNF46.txt "126,127,137,138" | PREDICTION: unchanged at 41 of 45
