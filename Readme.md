@@ -7,7 +7,7 @@ Its question is what structure and meaning a grammar of Propp's folktale can car
 **It began on 2026-09-27 from Propp Grammar Test Cases at commit 0f27783.**
 Six files were copied unchanged: `ProppEBNF44.txt`, `ProppEBNF43.txt`, `ProppMidLevelGroupsEbnf.txt`, `parse.py`, `equivCheck.py` and `regression.py`.
 Others are copied when a step needs them, and each copy is recorded here.
-`falsify44.py` and `ResolvedMoves.txt` were copied on 2026-09-27 from the first project at 8d38129, for the corpus runner.
+`falsify44.py` and `ResolvedMoves.txt` were copied on 2026-09-27 from the first project at 8d38129, for the corpus runner. `TaleTokenStreamsV4Utf8.txt` and `resolve.py` were copied on 2026-09-27 from the first project at 0979f9f, for the whole-tale derivation.
 `ProppMidLevelGroupsEbnf.txt` was refreshed on 2026-09-27, after the first project's ruling 104 let an absentation be told after the interdiction, as both whole tales Propp analyzes in Ch. IX tell it.
 
 ## Method: test first, one step at a time
