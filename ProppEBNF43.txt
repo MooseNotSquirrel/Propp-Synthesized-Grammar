@@ -1119,19 +1119,27 @@ reward           = 'w°'  # Reward or compensation in place of marriage
 # tale sequences not strictly defined as minimal pairs in Dundes
 # (1964).
 
-# DundesMove        = Event [attemptedEscape] consequence
+# DundesMove        = Event consequence [attemptedEscape]
+
+# CORRECTED: this rule formerly read Event [attemptedEscape]
+# consequence, putting the escape before the consequence. Dundes
+# (1964) orders Consequence before Attempted Escape, the escape being
+# from the consequence, in his four-motifeme sequence Interdiction /
+# Violation / Consequence / Attempted Escape.
 
 # Event             = RuleViolation | irreversibleAct
                        # RuleViolation reused from preparatoryPart:
                        # interdiction and violation reuse γ and δ
 
-# DUNDES EXTENSION: EDITORIAL ADDITIONS
-# The following functions are editorial extensions to the grammar to
-# capture specific tale behaviors not explicitly defined as
-# canonical motifemes in Dundes's 1964 morphology.
+# DUNDES EXTENSION: DUNDES'S MOTIFEME AND TWO EDITORIAL ADDITIONS
+# attemptedEscape is Dundes's own motifeme, Attempted Escape, not an
+# editorial addition as this note once said. irreversibleAct and
+# environmentalShift below are editorial extensions to the grammar
+# to capture tale behaviors not defined as motifemes in Dundes's
+# 1964 morphology.
 
 # attemptedEscape   = 'Ae'  # The actor attempts to flee or evade the
-                          # impending blowback of the violation. The
+                          # consequence of the violation. The
                           # case selection is to match the style of
                           # Pr, Rs, Ex,...
 
