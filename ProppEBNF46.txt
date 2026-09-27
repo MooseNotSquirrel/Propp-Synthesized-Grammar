@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 4.
+# STATE: STEP 5.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -31,6 +31,12 @@
 # adding strings. Over the 84 resolved move-strings it accepts 80, and
 # the four it refuses are the genuine counterexamples. It costs a second
 # LL(1) conflict, on F.
+# Step 5 removes the J conflict by letting the task-run J come only after
+# a task, the repair v44's own comment names. It CHANGES THE MOVE LAYER,
+# only removing strings, all of them task-run J's with no task, and the
+# corpus verdict stays 80 of 84. The F conflict stays: no lookahead
+# removes it while the father's agent and the donor's are separate
+# groups, and the choice is the owner's.
 #
 # Notation is v44's: A = x a production, 'x' a terminal, [X] optional,
 # {X} zero or more, X Y concatenation, | alternation, # a comment.
@@ -203,10 +209,15 @@ complication        = FloatingT MoveOpener FloatingT
 # followed by the departure, since the page defines it by leaving home,
 # so the production carries the departure with it. With no departure
 # following, an F is the donor's, in Vetting.
-# A SECOND LL(1) CONFLICT, ON F, IS THE PRICE. After C, one token cannot
-# tell whether a run of F's will be followed by a departure, which makes
-# it this production, or not, which makes it Vetting's. This is the
-# obstruction ruling 48 named: a symbol in two unguarded slots.
+# AN LL(1) CONFLICT ON F IS THE PRICE, AND NO LOOKAHEAD REMOVES IT WHILE
+# THE TWO F'S STAY IN DIFFERENT GROUPS. After C, a run of F's is this
+# production's if a departure follows and Vetting's if not. The tokens
+# F F ... F are the same either way until the run ends, and a top-down
+# parser must commit the first F to a group before any fixed lookahead
+# can see past a run of any length. This is the obstruction ruling 48
+# named: a symbol in two unguarded slots. Removing it means merging the
+# father's agent and the donor's into one group, or changing the narrow
+# reading; step 5 left that to the owner.
 
 AgentBeforeDeparture
                     = receiptOfMagicalAgent FloatingT
@@ -258,8 +269,9 @@ Evasion             = [ PursuitFirst | RescueFirst ]
 # not only the humorous ones Propp names: that is the cost of
 # internalizing a license, and the page is its defense.
 # The two openings differ in their first symbol, so the choice between
-# them adds no conflict. CombatAfterPursuit's J is a third J slot and
-# joins the J conflict already carried.
+# them adds no conflict. CombatAfterPursuit's J is reachable only after a
+# pursuit, and since step 5 the task-run J only after a task, so its J
+# conflicts with neither.
 
 PursuitFirst        = pursuit FloatingT {pursuit FloatingT}
                       {rescue FloatingT}
@@ -286,19 +298,25 @@ FraudPosture        = {unrecognizedArrival FloatingT}
                                             #   between the two summed
                                             #   schemes together, p.104
 
-TaskCycle           = {difficultTask FloatingT}
-                      {branding FloatingT}
+TaskCycle           = [ difficultTask FloatingT {difficultTask FloatingT}
+                        {branding FloatingT} ]
                       {solution FloatingT}  # p.104, the task scheme M J N,
                                             #   set in the position H J I
                                             #   holds in the other. p.64's
                                             #   pairs list does not name
                                             #   M-N. v43's name.
-                                            #   THE SECOND J SLOT, and the
-                                            #   source of the one LL(1)
-                                            #   conflict: a J after
-                                            #   Combat's own J cannot be
-                                            #   assigned by one token of
-                                            #   lookahead.
+
+# THE TASK-RUN J COMES ONLY AFTER A TASK (step 5). Before step 5 the
+# second J slot was reachable with no M before it, so A J N parsed two
+# ways, the fight's branding then a solution or the task run J N, and a
+# J after the fight could not be assigned by one token of lookahead. That
+# was the J conflict. v44's own comment names this repair,
+# { 'M' {'J'} } {'N'}, and calls K J and Pr Rs J over-generation Propp
+# licenses in neither place; it was held back only because falsify44.py
+# could not read nested productions. A J with no task before it is now
+# the fight's, in Combat or CombatAfterPursuit, or out of order. The
+# solution still stands without a task, as the preliminary solution *N
+# does (commentary p.145).
 
 # --- the endgame: p.108's exchange (step 3) ---
 # p.108: "Recognition and exposure, marriage and punishment may also

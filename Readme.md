@@ -38,6 +38,7 @@ It handles grammars whose productions do not refer back to themselves, which cov
 | 2 | language-changing: the tale layer, a preparatory section and then sequential moves separated by `/` | built and tagged `step2`; 16 of 16 binding tests pass, J still the only LL(1) conflict |
 | 3 | language-changing: p.108's licenses in the move, T anywhere and the exchange of recognition, exposure, marriage and punishment on FN's reading | built and tagged `step3`; the move layer proved equal to `Step3Spec.txt`, J still the only LL(1) conflict; 72 of 84 corpus moves |
 | 4 | language-changing: the three licenses left, the domestic agent (p.108), the fight after pursuit (p.107) and the humorous inversion (p.147) | built and tagged `step4`; 36 of 36 binding tests pass; **80 of 84 corpus moves**, only the four genuine counterexamples refused; LL(1) conflicts on F and J |
+| 5 | language-changing: the J conflict removed by letting the task-run J come only after a task, as v44's own comment proposes | built and tagged `step5`; 42 of 42 binding tests pass; 80 of 84 unchanged; F the only LL(1) conflict |
 
 **At step 4 the grammar accepts 80 of the 84 move-strings, ruling 48's target, and refuses only the four genuine counterexamples: 126 II, 127 I, 137 II and 138 III.**
 The corpus was first met at step 3: 72 of 84, against v44's 69.
@@ -46,7 +47,9 @@ It was calibrated first: with v44 it fails exactly `falsify44.py`'s 15.
 Step 3 frees exactly the three moves predicted before the run, 139 II by the exchange and 164 II and 166 II by T's instability.
 Of the twelve still failing, eight carry licenses not yet built in (the pre-departure donor F in six, fight after pursuit in 93 III, the humorous inversion in 150 II) and four are genuine counterexamples; step 4 built the eight in, as predicted before its run.
 
-**What the target cost in LL(1).** The domestic agent puts F in two places, and one token after C cannot tell whether a departure will follow, so F joins J as a conflict. Ruling 48 named this obstruction; resolving it without losing the constituents is open.
+**What the target cost in LL(1).** The domestic agent puts F in two places, and one token after C cannot tell whether a departure will follow, so F joins J as a conflict. Ruling 48 named this obstruction.
+Step 5 removed the J conflict, which was a true ambiguity, by the repair v44's own comment names.
+The F conflict cannot be removed while the father's agent and the donor's stay separate groups, for any lookahead: a run of F's belongs to one or the other depending on whether a departure follows the whole run. Merging the groups or changing the narrow reading would remove it; that is the owner's choice.
 
 Moves are sequential for now, separated by `/`; embedding is a later step.
 The separator is editorial and follows Appendix III's layout of one row per move. It was adopted when step 2's frozen LL(1) test failed: without it, a move opening on B could not be told from a B inside the move before.

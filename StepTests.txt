@@ -150,8 +150,16 @@
 #   pursuit. Built in, it holds for every tale, not only humorous ones.
 # ---------------------------------------------------------------------------
 
-4 | includes | Step3Spec.txt ProppEBNF46.txt --start-b move | step 4 only adds: every move step 3 accepts stays accepted
-4 | ll1 | ProppEBNF46.txt F J | PREDICTED: the domestic agent puts F in two places, and one token after C cannot tell whether a departure will follow a run of F's; J inherited. This is the obstruction ruling 48 named: a symbol in two unguarded slots
+# 2026-09-27, BEFORE STEP 5 WAS BUILT: the two tests below were frozen as
+#   binding from step 4 onward, and step 5 is planned to break both: it
+#   removes the J conflict, and in doing so removes strings step 3
+#   accepted, such as A I J. That was not foreseen when they were frozen.
+#   Both are closed at step 4 here, before step 5 was built; the
+#   originals are kept, commented out.
+# 4 | includes | Step3Spec.txt ProppEBNF46.txt --start-b move | (original, binding onward)
+# 4 | ll1 | ProppEBNF46.txt F J | (original, binding onward)
+4-4 | includes | Step3Spec.txt ProppEBNF46.txt --start-b move | step 4 only adds: every move step 3 accepts stays accepted
+4-4 | ll1 | ProppEBNF46.txt F J | PREDICTED: the domestic agent puts F in two places, and one token after C cannot tell whether a departure will follow a run of F's; J inherited. This is the obstruction ruling 48 named: a symbol in two unguarded slots
 4 | accept | ProppEBNF46.txt "A B C F up K down" | p.108, the domestic agent: the shape of 105 I
 4 | accept | ProppEBNF46.txt "a B F up D E F" | p.108: an agent at home and a donor on the road, the shape of 93 II
 4 | reject | ProppEBNF46.txt "A C F D E" | p.108 on the narrow reading: with no departure following, the F is the donor's and D after it stays out of order
@@ -160,3 +168,33 @@
 4 | reject | ProppEBNF46.txt "A K down Rs H I" | p.107 moves the fight to after a pursuit only; after a rescue alone it stays out of order
 4 | accept | ProppEBNF46.txt "a B C up H I K down Rs Pr U W" | p.147, the humorous inversion [Rs-Pr]: the shape of 150 II
 4-4 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: 80 of 84, ruling 48's target. The six domestic-agent moves, 93 III and 150 II pass; only the four genuine counterexamples fail
+
+
+# ---------------------------------------------------------------------------
+# STEP 5. Remove the LL(1) conflicts without losing the groups.
+# Frozen 2026-09-27 before step 5 was built.
+#
+# J: a true ambiguity. A J N parses two ways, the fight's branding then a
+# solution, or the task run J N with no fight. v44's own comment names the
+# repair, { 'M' {'J'} } {'N'}: the task-run J comes only after a task,
+# and K J and Pr Rs J are over-generation Propp licenses in neither place.
+# It was held back only because falsify44.py could not read nested
+# productions. LANGUAGE-CHANGING, removing only unlicensed task-run J's.
+#
+# F: NOT REMOVABLE WITHOUT LOSING A GROUP, for any lookahead. After A C, a
+# run of F's is the father's agent if a departure follows and the donor's
+# if not; the tokens F F ... F are the same either way until the run
+# ends, so a top-down parser must commit the first F to a group before
+# any fixed lookahead can show which. The conflict stays, and the tests
+# say so, until the owner decides.
+# ---------------------------------------------------------------------------
+
+5 | includes | ProppEBNF46.txt step4:ProppEBNF46.txt --start-a move --start-b move | step 5 only removes strings: every move it accepts, step 4 accepted
+5 | ll1 | ProppEBNF46.txt F | PREDICTED: J is gone; F remains, for the reason above
+5 | accept | ProppEBNF46.txt "A M J N" | p.104, the task run M J N
+5 | accept | ProppEBNF46.txt "A J N" | branding in the fight, then a solution: the J is the fight's
+5 | accept | ProppEBNF46.txt "A H J I K M J N" | both J slots of p.104 in one move
+5 | accept | ProppEBNF46.txt "A K down Pr J" | p.107: the fight after pursuit may carry its branding
+5 | reject | ProppEBNF46.txt "A K J N" | a task-run J with no task: v44's comment names K J as over-generation Propp licenses nowhere
+5 | reject | ProppEBNF46.txt "A o L J N" | the same, after unfounded claims
+5-5 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: unchanged, no corpus move carries a task-run J without a task

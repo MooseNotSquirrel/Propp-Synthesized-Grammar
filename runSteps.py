@@ -27,14 +27,18 @@ Kinds, one test per line as  step | kind | arguments | source :
                             moves; '-' means it fails none
 
 A grammar's start symbol is its first production. A token outside a
-grammar's alphabet makes the string rejected.
+grammar's alphabet makes the string rejected. An argument written
+TAG:FILE names FILE as it stood at git tag TAG, so a test can compare the
+grammar with an earlier step of itself, e.g. step4:ProppEBNF46.txt.
 
 Exit 0 every binding test passes, 1 otherwise, 2 on a malformed test file.
 """
 import os
+import re
 import shlex
 import subprocess
 import sys
+import tempfile
 
 import equivCheck
 import parse
@@ -117,8 +121,26 @@ def accepts(path, toks):
     return accept[q]
 
 
+def tagged(args):
+    """Replace each TAG:FILE argument with a temporary copy of that version."""
+    out = []
+    for a in args:
+        m = re.match(r'^(step\d+):(.+)$', a)
+        if not m:
+            out.append(a)
+            continue
+        text = subprocess.run(['git', 'show', '%s:%s' % m.groups()], capture_output=True,
+                              check=True).stdout
+        fd, path = tempfile.mkstemp(suffix='_' + m.group(1) + '.txt')
+        with os.fdopen(fd, 'wb') as fh:
+            fh.write(text)
+        out.append(path)
+    return out
+
+
 def run(kind, args):
     """Return (passed, detail)."""
+    args = tagged(args)
     if kind == 'equivalent':
         p = subprocess.run([sys.executable, 'equivCheck.py'] + args,
                            capture_output=True, encoding='utf-8', env=ENV)
