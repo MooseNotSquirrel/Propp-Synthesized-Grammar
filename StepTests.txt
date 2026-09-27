@@ -117,3 +117,13 @@
 3 | accept | ProppEBNF46.txt "γ δ T A / T a K" | T before the opener of the first move and of a later one
 3 | reject | ProppEBNF46.txt "A T K H" | T licenses nothing else: struggle after liquidation stays out of order, p.22
 3 | reject | ProppEBNF46.txt "T" | T alone is not a move: a move opens on villainy or lack, p.92, or on the connective incident, p.37
+
+
+# ---------------------------------------------------------------------------
+# THE CORPUS, MET FOR THE FIRST TIME AT STEP 3. Frozen 2026-09-27 before
+# runCorpus.py was first run. Its derivation rules are in its docstring
+# and follow falsify44.py exactly.
+# ---------------------------------------------------------------------------
+
+3 | corpusfails | ProppEBNF44.txt move "93 II,93 III,105 I,126 II,127 I,132 II,137 II,138 III,139 II,141 I,143 I,150 II,159 IV,164 II,166 II" | CALIBRATION: with v44 the runner must fail exactly falsify44.py's fifteen, FalsificationResult.md, so that its derivation is shown to be falsify44.py's
+3-3 | corpusfails | ProppEBNF46.txt move "93 II,93 III,105 I,126 II,127 I,132 II,137 II,138 III,141 I,143 I,150 II,159 IV" | PREDICTION: step 3's two licenses free exactly 139 II (the exchange) and 164 II and 166 II (T's instability), as ProppPermittedDeviations.md assigns them; the other twelve keep failing, their licenses not yet built in. Closes at step 3 because later steps are planned to build more licenses in

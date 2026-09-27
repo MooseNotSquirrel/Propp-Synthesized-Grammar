@@ -7,6 +7,7 @@ Its question is what structure and meaning a grammar of Propp's folktale can car
 **It began on 2026-09-27 from Propp Grammar Test Cases at commit 0f27783.**
 Six files were copied unchanged: `ProppEBNF44.txt`, `ProppEBNF43.txt`, `ProppMidLevelGroupsEbnf.txt`, `parse.py`, `equivCheck.py` and `regression.py`.
 Others are copied when a step needs them, and each copy is recorded here.
+`falsify44.py` and `ResolvedMoves.txt` were copied on 2026-09-27 from the first project at 8d38129, for the corpus runner.
 `ProppMidLevelGroupsEbnf.txt` was refreshed on 2026-09-27, after the first project's ruling 104 let an absentation be told after the interdiction, as both whole tales Propp analyzes in Ch. IX tell it.
 
 ## Method: test first, one step at a time
@@ -37,6 +38,12 @@ It handles grammars whose productions do not refer back to themselves, which cov
 | 2 | language-changing: the tale layer, a preparatory section and then sequential moves separated by `/` | built and tagged `step2`; 16 of 16 binding tests pass, J still the only LL(1) conflict |
 | 3 | language-changing: p.108's licenses in the move, T anywhere and the exchange of recognition, exposure, marriage and punishment on FN's reading | built and tagged `step3`; 27 of 27 binding tests pass, the move layer proved equal to `Step3Spec.txt`, J still the only LL(1) conflict |
 
+**The corpus, first met at step 3: 72 of 84 move-strings pass**, against v44's 69.
+`runCorpus.py` runs a grammar over `ResolvedMoves.txt` with `falsify44.py`'s own derivation, so a changed verdict is the grammar's doing.
+It was calibrated first: with v44 it fails exactly `falsify44.py`'s 15.
+Step 3 frees exactly the three moves predicted before the run, 139 II by the exchange and 164 II and 166 II by T's instability.
+Of the twelve still failing, eight carry licenses not yet built in (the pre-departure donor F in six, fight after pursuit in 93 III, the humorous inversion in 150 II) and four are genuine counterexamples; building the eight in would reach ruling 48's target of 80.
+
 Moves are sequential for now, separated by `/`; embedding is a later step.
 The separator is editorial and follows Appendix III's layout of one row per move. It was adopted when step 2's frozen LL(1) test failed: without it, a move opening on B could not be told from a B inside the move before.
 
@@ -46,4 +53,5 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `StepTests.txt`: the frozen tests for every step written so far.
 - `Step3Spec.txt`: the flat specification of step 3's move language, which the grammar is proved equal to.
 - `runSteps.py`: runs them.
-- The six copied files listed above.
+- `runCorpus.py`: runs a grammar over the resolved move-strings.
+- The copied files listed above.

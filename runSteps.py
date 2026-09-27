@@ -20,6 +20,9 @@ Kinds, one test per line as  step | kind | arguments | source :
   reject G "x y z"          G rejects the string
   ll1 G T1 T2 ...           G's LL(1) conflicts fall on exactly the listed
                             terminals; '-' means G must be LL(1)
+  corpusfails G S "t m,..." run over ResolvedMoves.txt by runCorpus.py
+                            with start symbol S, G fails exactly the listed
+                            moves; '-' means it fails none
 
 A grammar's start symbol is its first production. A token outside a
 grammar's alphabet makes the string rejected.
@@ -33,6 +36,7 @@ import sys
 
 import equivCheck
 import parse
+import runCorpus
 
 TESTS = 'StepTests.txt'
 ENV = dict(os.environ, PYTHONIOENCODING='utf-8', PYTHONUTF8='1')
@@ -126,6 +130,15 @@ def run(kind, args):
         want = set() if args[1:] == ['-'] else set(args[1:])
         got = conflicts(args[0])
         return got == want, 'conflicts on: %s' % (' '.join(sorted(got)) or 'none')
+    if kind == 'corpusfails':
+        want = set() if args[2] == '-' else {x.strip() for x in args[2].split(',')}
+        got = {'%s %s' % (r[0], r[1]) for r in runCorpus.run(args[0], args[1]) if not r[3]}
+        detail = 'fails %d' % len(got)
+        if got != want:
+            detail += '; unexpected: %s; expected but passing: %s' % (
+                ', '.join(sorted(got - want)) or 'none',
+                ', '.join(sorted(want - got)) or 'none')
+        return got == want, detail
     raise ValueError('unknown kind %r' % kind)
 
 
