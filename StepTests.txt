@@ -55,9 +55,15 @@
 2 | accept | ProppEBNF46.txt "δ A" | the second half of a preparatory pair stands alone: violation without interdiction, p.27 (catalog 6.1)
 2 | accept | ProppEBNF46.txt "ζ A" | delivery without reconnaissance, p.29 (catalog 6.1)
 2 | accept | ProppEBNF46.txt "θ A" | complicity without trickery, p.30 (catalog 6.1)
-2 | accept | ProppEBNF46.txt "A K a K" | moves may follow one another, p.92; each new villainy or lack creates a new move
+# 2 | accept | ProppEBNF46.txt "A K a K" | moves may follow one another, p.92; each new villainy or lack creates a new move
+#   2026-09-27, after step 2 was first built: rewritten with the move
+#   separator the owner adopted to remove the B ambiguity; see below.
+2 | accept | ProppEBNF46.txt "A K / a K" | moves may follow one another, p.92; each new villainy or lack creates a new move; the separator marks the boundary, as Propp prints each move on its own row in Appendix III
+2 | accept | ProppEBNF46.txt "A C up D E F / B C up D E F" | a later move may open on the connective incident where no fresh villainy occurs, p.37: the shape of 133 I and II
+2 | reject | ProppEBNF46.txt "A K a K" | by the owner's decision, moves are separated; two moves written without a separator are not a tale string
 2 | reject | ProppEBNF46.txt "β γ δ" | a tale is a development proceeding from villainy or lack, p.92: a preparatory section with no move is not a tale
-2 | reject | ProppEBNF46.txt "A K γ δ a K" | the preparatory section stands before the first move only, by the owner's decision: p.86 says second moves begin with a given situation, and Appendix I Table VI, p.125, begins the second move from a new villainy; neither names a preparatory function
+# 2 | reject | ProppEBNF46.txt "A K γ δ a K" | rewritten with the separator, 2026-09-27; without it the string would be rejected for the missing separator and test nothing
+2 | reject | ProppEBNF46.txt "A K / γ δ a K" | the preparatory section stands before the first move only, by the owner's decision: p.86 says second moves begin with a given situation, and Appendix I Table VI, p.125, begins the second move from a new villainy; neither names a preparatory function
 #
 # DECIDED BY THE OWNER, 2026-09-27, BEFORE STEP 2 WAS BUILT:
 #   p.108's "all seven functions of this section are never encountered
@@ -66,10 +72,18 @@
 #   A preparatory function before a later move is NOT PERMITTED, since
 #   Propp never mentions one; the reject test above encodes it. Admitting
 #   one later would be a small edit to the tale production.
-# STILL OPEN: p.86's "given situation" at the head of a second move is
-#   about who stands where, not a function, and no test says whether an
-#   initial situation α may stand before a later move. The grammar does
-#   not admit one.
+# DECIDED BY THE OWNER, 2026-09-27: p.86's "given situation" at the head
+#   of a second move is read as the initial situation at the beginning of
+#   the tale, so α stands before the first move only. Admitting [α] before
+#   a later move would be a small edit, if it is ever needed.
+2 | reject | ProppEBNF46.txt "A K / α a K" | the initial situation stands at the beginning of the tale only, by the owner's reading of p.86
+#
+# DECIDED BY THE OWNER, 2026-09-27, AFTER STEP 2 WAS FIRST BUILT AND ITS
+#   LL(1) TEST FAILED: moves are separated by '/'. Without a separator a
+#   move may open on B while B may also follow an opener, so A B C parsed
+#   as one move or as two, a true ambiguity and a conflict on B. The
+#   separator removes it. THE LL(1) TEST WAS NOT EDITED: it now passes as
+#   frozen, J the only conflict.
 
 
 # ---------------------------------------------------------------------------

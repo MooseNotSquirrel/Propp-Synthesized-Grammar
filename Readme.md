@@ -34,10 +34,11 @@ It handles grammars whose productions do not refer back to themselves, which cov
 | step | kind | state |
 |---|---|---|
 | 1 | language-preserving: v44 regrouped into Propp's pairs and groups | built and tagged `step1`; 2 of 2 tests pass |
-| 2 | language-changing: the tale layer, a preparatory section and then sequential moves | built, NOT tagged: 12 of 13 tests pass; the frozen LL(1) test fails on a B conflict the tale layer introduces, awaiting the owner |
+| 2 | language-changing: the tale layer, a preparatory section and then sequential moves separated by `/` | built and tagged `step2`; 16 of 16 binding tests pass, J still the only LL(1) conflict |
 | 3 | language-changing: p.108's exchange of recognition, exposure, marriage and punishment | tests frozen on FN's reading |
 
-Moves are sequential for now; embedding is a later step.
+Moves are sequential for now, separated by `/`; embedding is a later step.
+The separator is editorial and follows Appendix III's layout of one row per move. It was adopted when step 2's frozen LL(1) test failed: without it, a move opening on B could not be told from a B inside the move before.
 
 ## Files
 

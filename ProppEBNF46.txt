@@ -59,21 +59,30 @@
 #
 # THE INITIAL SITUATION, α, is not a function and precedes the functions
 # (p.25). It takes [ ] and not { }: it is optional and it is not
-# repeated. Whether one may stand before a later move is left open.
+# repeated. It stands at the beginning of the tale only, by the owner's
+# reading of p.86's "given situation" as the tale's initial situation.
+# Admitting [initialSituation] before a later move would be a small edit.
 #
 # NO EXCLUSION IS ENCODED among the preparatory functions. p.108 observes
 # that all seven never occur within one tale; by the owner's decision the
 # grammar does not forbid it.
 #
-# A MOVE MAY OPEN ON B, and B may also follow an opener inside a move.
-# So a tale string such as A B C parses two ways: one move, villainy then
-# mediation then counteraction, or the move A followed by the move B C.
-# The ambiguity arises only when a move consisting of nothing but its
-# opener precedes a move opened on B. No tale in the corpus does that:
-# the one later move opened on B, 133 II, follows a move ending D E F.
-# It is recorded here, and StepTests.txt's LL(1) test reports it.
+# MOVES ARE SEPARATED BY '/', by the owner's decision. A move may open on
+# B (p.37), and B may also follow an opener inside a move, so without a
+# separator a string such as A B C parsed two ways: one move, villainy
+# then mediation then counteraction, or the move A followed by the move
+# B C. That was a true ambiguity and an LL(1) conflict on B. With the
+# separator, A B C is one move and A / B C is two, and J is again the
+# only conflict. The separator is editorial, not Propp's symbol, but it
+# follows his layout: Appendix III prints each move on its own row. No
+# corpus tale was ambiguous without it; the one later move opened on B,
+# 133 II, follows a move ending D E F.
 
-tale                = [initialSituation] preparatorySection move {move}
+tale                = [initialSituation] preparatorySection move
+                      {moveBoundary move}
+
+moveBoundary        = '/'                   # editorial: one row per move,
+                                            #   as in Appendix III
 
 preparatorySection  = {absentation} interdictionViolation
                       reconnaissanceDelivery trickeryComplicity
