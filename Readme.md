@@ -63,6 +63,8 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `Step3Spec.txt`: the flat specification of step 3's move language, which the grammar is proved equal to.
 - `runSteps.py`: runs them.
 - `runCorpus.py`: runs a grammar over the resolved move-strings.
+- `parseTree.py`: parses with the LL(1) table and reports where each function lands; `--corpus` writes the group counts.
+- `CorpusGroups.txt`: those counts for the 80 accepted moves.
 - The copied files listed above.
 
 ## Next session: start here
@@ -73,29 +75,22 @@ It is LL(1) with no conflict, and `regression.py` passes it outright.
 Of ruling 48's three targets, two are met, 80 of 84 and LL(1); embedded moves are not begun.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 6` prints `47 binding, 0 failed, 0 pending for later steps, 12 closed by an earlier step`.
+- `python runSteps.py 6` prints `74 binding, 0 failed, 0 pending for later steps, 12 closed by an earlier step`.
+- `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
 - `python regression.py ProppEBNF46.txt` prints `RESULT: ALL PASS`.
 - `git tag` lists `step1` to `step6`.
 
 ### The work, in the owner's order
 
-**1. Tree-level tests: test the groups, not only the strings.**
-Every test so far checks which strings a grammar accepts.
-None checks where a function lands in the tree, and the groups are the product the semantic bundling needs.
-Now that v46 is LL(1), `parse.py`'s table builds: `parse.build` on `ProppEBNF46.txt` gives start `tale` and 108 nonterminals, and `parse.accept` parses whole tales.
-But `parse.accept` returns a verdict only.
-- **The tool.** Write a tree-building version of the predictive parser in a new file, leaving the copied `parse.py` unchanged. For each consumed token it records the chain of named ancestors. The helper nonterminals `parse.py` makes when it expands EBNF carry `#` in their names, such as `Combat_star#23`, and are dropped from the chain.
-- **The test kind.** Add one to `runSteps.py`, for instance `under G "tokens" INDEX NAME`, passing when the token at INDEX has NAME among its ancestors, with a `notunder` counterpart.
-- **Freeze the tests before building the tool**, each with its page, as every step has. First candidates:
-  - an F after D lands in `TestedAcquisition`, and an F with no test before it in `UntestedAcquisition` inside `complication`, both before and after the departure (p.65, p.108, step 6);
-  - A and K both lie under `CrisisToLiquidation` (p.53), and A B C ↑ under `complication` (pp.64-65);
-  - the child of `MoveOpener` names the move type, `villainy`, `lack` or `mediation` (p.92, p.37);
-  - the fight's J lands in `Combat`, the task's J in `TaskCycle`, and a J after a pursuit in `CombatAfterPursuit` (p.104, p.107);
-  - Q, Ex, U and W land in `Endgame` (p.108);
-  - in `γ β δ`, the β lands inside `interdictionViolation`, and in `β γ δ` it does not (p.26, pp.96-97, p.101).
-- **One caution.** A T hangs under `FloatingT` attached to the function before it, which is where the parser meets it and claims nothing. Test only that a T is under `FloatingT`.
-- **Then a corpus report.** For each of the 80 accepted moves, list the groups its parse contains. That is the raw material for the catalog `SemanticBundling.md` was meant to become.
+**1. Tree-level tests: DONE on 2026-09-27.**
+`parseTree.py` parses with `parse.py`'s LL(1) table, unchanged, and records the named groups above every token.
+`runSteps.py` has two new kinds, `under` and `notunder`, and 27 tree tests were frozen before the tool was written, run red, then passed.
+They cover the tested and untested agent, the A-K span, the complication, the move type at the opener, the three J's, the endgame, β in the interdiction pair, α outside every move, and T under `FloatingT` only.
+The tool was checked to fail on false claims and on rejected strings.
+`CorpusGroups.txt` counts, for each named group, how many of the 80 accepted moves use it: for instance the tested agent 32, the untested agent 17, Combat 32, TaskCycle 9, and the two step-4 licenses once each.
+It is the raw material for the catalog `SemanticBundling.md` was meant to become.
+NEXT FROM IT, when the owner wants it: a per-move listing of groups, and the catalog itself.
 
 **2. Embedded moves, ruling 48's third target. A full-budget session, not a small step.**
 It needs three things this project does not yet have.

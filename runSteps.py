@@ -22,6 +22,9 @@ Kinds, one test per line as  step | kind | arguments | source :
   reject G "x y z"          G rejects the string
   ll1 G T1 T2 ...           G's LL(1) conflicts fall on exactly the listed
                             terminals; '-' means G must be LL(1)
+  under G "x y z" I NAME    in G's LL(1) parse, token I (from 0) has the
+                            group NAME among its ancestors (parseTree.py)
+  notunder G "x y z" I NAME the reverse; both fail if G rejects the string
   corpusfails G S "t m,..." run over ResolvedMoves.txt by runCorpus.py
                             with start symbol S, G fails exactly the listed
                             moves; '-' means it fails none
@@ -42,6 +45,7 @@ import tempfile
 
 import equivCheck
 import parse
+import parseTree
 import runCorpus
 
 TESTS = 'StepTests.txt'
@@ -160,6 +164,13 @@ def run(kind, args):
         want = set() if args[1:] == ['-'] else set(args[1:])
         got = conflicts(args[0])
         return got == want, 'conflicts on: %s' % (' '.join(sorted(got)) or 'none')
+    if kind in ('under', 'notunder'):
+        res = parseTree.ancestors(args[1].split(), parseTree.build(args[0]))
+        if res is None:
+            return False, 'rejected'
+        tok, chain = res[int(args[2])]
+        got = args[3] in chain
+        return got == (kind == 'under'), '%s: %s' % (tok, ' > '.join(chain))
     if kind == 'corpusfails':
         want = set() if args[2] == '-' else {x.strip() for x in args[2].split(',')}
         got = {'%s %s' % (r[0], r[1]) for r in runCorpus.run(args[0], args[1]) if not r[3]}

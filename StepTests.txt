@@ -244,3 +244,41 @@
 6 | reject | ProppEBNF46.txt "A D F E" | within the test the order stays D E F, p.65
 6-6 | accept | ProppEBNF46.txt "A F D E" | THE MERGE'S CONSEQUENCE, not a license: an untested agent before a test. Closes at step 6 so that a later step may decide otherwise
 6-6 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: unchanged, 80 of 84
+
+# ---------------------------------------------------------------------------
+# TREE-LEVEL TESTS: where a function lands, not only whether a string is
+# accepted. Frozen 2026-09-27 before parseTree.py was written.
+# under G "tokens" I NAME passes when token I, counting from 0, has NAME
+# among its ancestors; notunder is the reverse. The helper nonterminals
+# parse.py makes when it expands EBNF carry # and are not ancestors.
+# Groups a page fixes bind onward; the step 6 placement of the untested
+# agent is the owner's decision and closes at step 6.
+# ---------------------------------------------------------------------------
+
+6 | under | ProppEBNF46.txt "A D E F" 3 TestedAcquisition | p.65: DEF also form something of a whole; the F after the test is the tested agent
+6 | notunder | ProppEBNF46.txt "A D E F" 3 UntestedAcquisition | p.65: the same F is not the untested agent
+6-6 | under | ProppEBNF46.txt "A C F up K" 2 UntestedAcquisition | p.108, the father's gift before the departure, an agent received without a test: step 6's merge
+6-6 | under | ProppEBNF46.txt "A C F up K" 2 complication | step 6: the untested agent belongs to the setting out
+6-6 | under | ProppEBNF46.txt "A up F G" 2 UntestedAcquisition | step 6: an agent that comes to hand on the road with no test
+6-6 | under | ProppEBNF46.txt "A up F G" 2 complication | step 6: the untested agent after the departure stays with the setting out
+6 | under | ProppEBNF46.txt "A B C up D E F G H I K" 0 CrisisToLiquidation | p.53: liquidation together with villainy constitutes a pair; the villainy opens the span
+6 | under | ProppEBNF46.txt "A B C up D E F G H I K" 10 CrisisToLiquidation | p.53: the liquidation closes it
+6 | notunder | ProppEBNF46.txt "A K down Pr Rs" 2 CrisisToLiquidation | p.53: the return falls after the liquidation, outside the A-K span
+6 | under | ProppEBNF46.txt "A B C up" 1 complication | pp.64-65: (ABC↑) constitute the complication
+6 | under | ProppEBNF46.txt "A B C up" 3 complication | pp.64-65: the departure closes the complication
+6 | under | ProppEBNF46.txt "A K" 0 villainy | p.92: the move type is read at the opener
+6 | under | ProppEBNF46.txt "a K" 0 lack | p.92
+6 | under | ProppEBNF46.txt "B C up" 0 MoveOpener | p.37: the connective incident opens a move where no villainy occurs
+6 | notunder | ProppEBNF46.txt "A B C" 1 MoveOpener | p.37 and p.64: a B after the opener is the dispatch inside the complication, not an opener
+6 | under | ProppEBNF46.txt "A H J I K" 2 Combat | p.104: the fight's branding, H J I
+6 | under | ProppEBNF46.txt "A K M J N" 3 TaskCycle | p.104: the task's branding, M J N
+6 | notunder | ProppEBNF46.txt "A K M J N" 3 Combat | p.104: the task's J is not the fight's
+6 | under | ProppEBNF46.txt "A K down Pr J" 4 CombatAfterPursuit | p.107: the fight after pursuit carries its branding
+6 | under | ProppEBNF46.txt "A K U Q W" 2 Endgame | p.108: the four closing functions exchange within one group
+6 | under | ProppEBNF46.txt "A K U Q W" 3 Endgame | p.108
+6 | under | ProppEBNF46.txt "γ β δ A" 1 interdictionViolation | pp.96-97, p.101: an absentation told after the interdiction nests in the pair
+6 | notunder | ProppEBNF46.txt "β γ δ A" 0 interdictionViolation | p.26: an absentation told first stands outside the pair
+6 | under | ProppEBNF46.txt "β γ δ A" 0 preparatorySection | Appendix I Table II, p.121: The Preparatory Section
+6 | under | ProppEBNF46.txt "α A" 0 initialSituation | p.25: not a function, and outside every move
+6 | notunder | ProppEBNF46.txt "α A" 0 move | p.25
+6 | under | ProppEBNF46.txt "T A K" 0 FloatingT | p.108: T's place in the tree is where the parser meets it and claims nothing, so only this is tested
