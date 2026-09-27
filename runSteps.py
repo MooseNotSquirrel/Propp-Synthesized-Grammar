@@ -50,6 +50,8 @@ grammar with an earlier step of itself, e.g. step4:ProppEBNF46.txt.
 
 Exit 0 every binding test passes, 1 otherwise, 2 on a malformed test file.
 """
+import contextlib
+import io
 import os
 import re
 import shlex
@@ -133,7 +135,8 @@ def accepts(path, toks):
     automaton refuses, is decided by parse.py's LL(1) parser, and must then
     be LL(1)."""
     try:
-        ast, start = equivCheck.read(path, None, False, {})
+        with contextlib.redirect_stdout(io.StringIO()):
+            ast, start = equivCheck.read(path, None, False, {})
     except SystemExit:
         bnf, first, table = parse.build(open(path, encoding='utf-8').read())
         return parse.accept(list(toks), bnf, first, table)[0]
