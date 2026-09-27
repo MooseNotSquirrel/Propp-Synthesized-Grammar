@@ -1,0 +1,1146 @@
+#-----------------------------------------------------------------------
+# EBNF Specification of the Production Rules for Propp's Morphology
+#
+# This grammar formalizes Propp's Morphology of the Folktale (1928)
+# as an EBNF catalog of culturally connected production rules.
+#
+# With formatting to match a particular EBNF compiler it should
+# compile without errors.
+#
+# Naming convention:
+#
+#   lowerCamelCase  = a concept the primary morphologist (Propp/Dundes)
+#                     names or identifies as a unit in their own text,
+#                     whether that's a single atomic function
+#                     (terminal) or a larger grouping that they
+#                     explicitly treat as a named category (like the
+#                     preparatory part).
+#   UpperCamelCase  = Editorial scaffolding: production rules that
+#                     bundle functions for cultural interpretation.
+#                     These names are not direct vocabulary from the
+#                     primary source. They are a grouping this grammar
+#                     invents for its own structural convenience,
+#                     bundling functions discussed individually but
+#                     never named as a combined unit.
+#   Editorial atomic terminals (E-, F-, N-): single-slot functions
+#                     this grammar introduces that Propp/Dundes do
+#                     NOT name. They keep lowerCamelCase, matching
+#                     the canonical function they negate, because
+#                     they are atomic terminals, not the multi-
+#                     function bundles that UpperCamelCase denotes.
+#                     Each is flagged "(Proposed Extension)" at its
+#                     definition to mark its non-canonical status.
+#
+# Notation:
+#
+#   A = x   = production: the nonterminal A is defined as x.
+#   'x'     = a terminal: one of Propp's function symbols, matched
+#             literally (e.g. 'H', 'K', 'Ex', '↑'). The grammar
+#             consumes a stream of these symbol-tokens, not raw text
+#             characters.
+#   x y     = concatenation: x followed by y, in that order. This is
+#             the fundamental sequencing operator; a production is read
+#             left to right.
+#   x | y   = x or y (exclusive choice).
+#   [x]     = x is optional.
+#             - Atomic functions: Optionality follows Propp's Law of
+#               Omission (functions may be dropped without disrupting
+#               the sequence).
+#             - Composite/Structural production rules: Optionality is
+#               architecturally imposed to reflect variability in
+#               narrative composition.
+#   {x}     = x repeated zero or more times.
+#   x {x}   = x repeated one or more times (at least one required).
+#   ( ... ) = grouping: parentheses bind a sub-expression so that |,
+#             [ ], and { } apply to the whole group rather than a
+#             single symbol, e.g. difficultTask (solution |
+#             taskFailure).
+#   # ...  = a comment to end of line; not part of the grammar.
+#
+#   In comments, X→Y is shorthand for "Y depends on or is licensed by
+#   a prior X" (a cross-function dependency), not a grammar operator.
+#
+#   Note: some terminals are non-ASCII (↑ ↓ and the Greek letters
+#   α β γ δ ε ζ η θ). A UTF-8 capable tool reads them directly; an
+#   ASCII-only tool needs them transliterated.
+#
+#   The terminal ';' at the end of a production that is used by EBNF
+#   compilers has been omitted for readability. There is no
+#   ambiguity in the specification, and the ';' can easily be put
+#   back in to permit compiling this specification if the compiler
+#   requires it.
+#-----------------------------------------------------------------------
+
+#-----------------------------------------------------------------------
+# FUNCTION LEGEND (symbol : Propp no. : name)
+#
+#   Preparatory section (Propp's initial section):
+#     α   -    initial situation
+#     β   1    absentation
+#     γ   2    interdiction
+#     δ   3    violation
+#     ε   4    reconnaissance
+#     ζ   5    delivery of information
+#     η   6    trickery
+#     θ   7    complicity
+#
+#   Main sequence (functions 8 to 31):
+#     A   8    villainy
+#     a   8a   lack
+#     B   9    mediation / connective incident
+#     C   10   beginning counteraction
+#     ↑   11   departure
+#     D   12   first function of the donor
+#     E   13   hero's reaction
+#     F   14   provision / receipt of the magical agent
+#     G   15   spatial transference
+#     H   16   struggle
+#     J   17   branding
+#     I   18   victory
+#     K   19   liquidation
+#     ↓   20   return
+#     Pr  21   pursuit
+#     Rs  22   rescue
+#     o   23   unrecognized arrival
+#     L   24   unfounded claims (false hero)
+#     M   25   difficult task
+#     N   26   solution
+#     Q   27   recognition
+#     Ex  28   exposure
+#     T   29   transfiguration
+#     U   30   punishment
+#     W   31   wedding
+#     w°  -    reward (compensation in place of marriage; Propp w°)
+#
+#   Editorial terminals (introduced by this grammar, no Propp number,
+#   gated off by default):
+#     N-  task failure
+#     E-  donor test failure (negative reaction)
+#     F-  agent withheld (donor retaliation)
+#-----------------------------------------------------------------------
+
+#-----------------------------------------------------------------------
+# SECTION ROADMAP
+#
+#   Header      notation, naming conventions, and the legend above
+#   Root        Tale (the two tale types) and the move backbone
+#               (move, VillainyMove, LackMove)
+#   1  PREPARATION      the genesis of interpersonal conflict
+#   2  SYSTEMIC CRISIS  backbone opening (villainy A / lack a)
+#   3  THE JOURNEY      vetting and transference (donor, departure)
+#   4  CONFRONTATION AND LIQUIDATION  the shared Outcome and its
+#               combat / non-combat / tragic branches, and K
+#   5  THE RETURN       symmetrical homeward transit
+#   6  THE ORDEAL       systemic verification and fraud management
+#   7  THE RESOLUTION   systemic outcome (reward, wedding, punishment)
+#   8  THE DUNDES EXTENSION  consequence tale type (gated)
+#
+#   Optional toggles, enabled by comment swaps: Task-as-Liquidation and
+#   Tragedy (both in Section 4), and the Dundes consequence-tale
+#   extension (Section 8). Tragedy and Dundes are the two genre
+#   extensions described just below; Task-as-Liquidation is a
+#   structural variant, not a genre.
+#-----------------------------------------------------------------------
+
+# Tale is the root production. Two structurally distinct tale types
+# are separated at this level to prevent genre mixing within a single
+# narrative string.
+#
+# There are two proposed extensions of Propp's grammar to cover
+# tragedy and what Dundes calls consequence tales of the North
+# American Indian folktales. The most important thing to note here
+# is that they are both just proposals of what might be possible,
+# but unlike Propp's grammar, these extensions do not have hard data
+# behind them. The intent is simply to point in the right direction
+# and generate thought about how Propp's grammar might cover other
+# genres directly. It would be a good project for a graduate student
+# to look at a body of texts for each proposal to validate, fix, or
+# falsify this speculation.
+#
+# A third toggle, Task-as-Liquidation, is different in kind: it is a
+# structural variant, not a genre extension. It repositions the
+# difficult-task pair (M-N) as a pre-K liquidating core, a deliberate
+# and documented departure from Propp's invariant ordering rather than
+# a bid to cover a new genre. See its extension block in Section 4.
+#
+# All three are placed within comments, but each can be toggled into
+# the grammar by simple edits of the pairs of comments.
+#
+# GENRE BOUNDARY NOTE: Ambiguity exists for sequences like γ-δ-U.
+# A magicTale requires a crisis-liquidation backbone (A/a...K).
+# Tales consisting solely of interdiction/violation/consequence that
+# lack this backbone do not satisfy Propp's morphological requirements
+# and are categorized as consequenceTales.
+
+Tale             = magicTale
+
+# DUNDES EXTENSION: TALE ROOT (uncomment to enable)
+# Tale             = magicTale | consequenceTale
+
+# NOTE: preparatoryPart is now bracketed because it has been refactored
+# to be internally non-nullable. It guarantees at least one terminal
+# if invoked, completely removing the epsilon ambiguity.
+
+magicTale        = [initialSituation] [preparatoryPart] StoryArc
+
+# initialSituation is not a function in Propp's numbering. It
+# precedes the sequence and establishes the domestic status quo:
+# family members, their roles, and the existing social order.
+# Its presence is optional; many tales begin directly with a
+# preparatory function or the crisis itself.
+
+initialSituation = 'α'   # The baseline structure, roles,
+                         # and domestic status quo
+
+#-----------------------------------------------------------------------
+# TOP LEVEL (with a TOGGLE system to account for potential extensions)
+#
+# The two extensions that have proposed production rules are
+# (1) a consequenceMove to account for North American Indian tales that
+# are etiological tales - North American Indian tales with the
+# Lack-Liquidation structural pair are already covered in Propp's
+# model, and
+# (2) the simplest extension of Propp's model that would cover
+# tragedy, which needs a new character role of FailedHero, and ends
+# with punishment rather than a wedding.
+#
+# StoryArc is recursive: a tale may contain multiple moves in
+# sequence, each initiated by a new Crisis. Propp calls each
+# self-contained crisis-to-liquidation unit a "move." The recursion
+# here captures multi-move tales (e.g. the hero solves one problem,
+# then faces another) without imposing a maximum.
+#
+# SEQUENTIAL VS. EMBEDDED MOVES: this rule generates only sequential
+# moves: move 1 completes fully before move 2 begins. Propp's
+# Chapter VIII ("Methods of Amalgamation") acknowledges
+# a form of embedding, but it is more limited than true recursive
+# nesting: the primary mechanism is the connective incident (B),
+# where one character recounts a prior villainy to the hero, and
+# that recounted story functions as the B-element that launches
+# the outer move. This is narrative framing, not a full Proppian
+# move pausing mid-sequence while another move runs to completion
+# and resumes. Gervás (2013) confirms that Propp addresses embedded
+# stories through the connective incident and the false hero
+# sequence, neither of which requires deep arbitrary nesting.
+# True mid-sequence interruption of one move by another is not
+# described in Propp's text and is not generated by this grammar.
+# The formal cost depends on the shape: a complete move nested between
+# two functions of another (proper LIFO nesting) is still context-free
+# and is merely absent here; only genuine cross-serial interleaving of
+# simultaneously-open moves would leave CFG territory (the mildly
+# context-sensitive case). Propp documents neither, so this is an
+# absence, not a gap.
+# For the purposes of cultural interpretation this grammar's
+# sequential recursion is sufficient: most multi-move tales in
+# Propp's corpus connect moves sequentially via B rather than
+# through true structural embedding.
+
+StoryArc         = move {move}
+                   # PURE PROPP CANONICAL
+
+# NOTE: Mixing Proppian moves and DundesMoves within a single recursive
+# StoryArc risks generating structurally incoherent sequences: a magic
+# tale (A...K) followed immediately by a consequence tale (Ad...Td) is
+# not a coherent oral tradition sequence. Genre separation is now
+# enforced at the root level via Tale = magicTale | consequenceTale.
+# consequenceTale has its own root in Section 8.
+
+#-----------------------------------------------------------------------
+# THE BACKBONE: A/a and K are the founding pairs of every move.
+# Everything between them exists because of the opening Crisis and
+# is validated by Liquidation.
+#
+# IMPORTANT: VillainyMove and LackMove are structurally identical
+# downstream. Both open with their crisis, allow the same optional
+# preamble [SystemicResponse] [Journey], and then hand off to a shared
+# Outcome (defined in Section 4). The split exists solely to make the
+# two backbone pairs (A...K and a...K) visually explicit as the
+# organizing principle of every move, not to enforce different
+# resolution paths. Propp treats A and a as alternative occupants
+# of the same structural slot (function VIII / VIIIa) that open
+# the same sequence (Propp p. 102; Gervás 2013).
+#
+# The association between villainy and combat (the CombatOutcome
+# branch) or lack and tasks (the Ordeal) is a statistical tendency
+# observed in Propp's corpus, not a grammatical constraint. Either
+# move type may resolve through any Outcome the grammar allows.
+#
+# The four Proppian move varieties fall out naturally from either
+# move type. The combat axis is the struggle branch of Outcome
+# (struggle...CombatOutcome, pre-K); the task axis lives in the
+# Ordeal (post-K):
+#   Struggle only:  combat branch taken, [Ordeal] absent
+#   Task only:      NonCombatResolution taken, [Ordeal] present
+#   Both:           combat branch taken and [Ordeal] present
+#   Neither:        NonCombatResolution taken and [Ordeal] absent
+#
+# (With the TASK-AS-LIQUIDATION EXTENSION enabled, see Section 4, the
+# task axis may also occupy NonCombatResolution as a pre-K liquidating
+# core, so a "task only" move can be realized pre-K, where the task
+# fills the lack, or post-K, where it verifies the hero. That
+# extension's note gives the criterion for telling them apart.)
+#
+# Journey is optional in both move types. When Journey, combat, and
+# Ordeal are all absent from LackMove (Outcome taken as a bare
+# NonCombatResolution), the result is the absolute minimum parse:
+# lack (a) followed immediately by liquidation (K), nothing between.
+#
+# PROPP/DUNDES BOUNDARY: this minimum parse (a...K) is permitted by
+# the Law of Omission but sits at the edge of Propp's canonical fairy
+# tale morphology. Propp's model describes an elaborated structure
+# where Journey, donor encounter, and return are the characteristic
+# backbone of the magic tale; when he says functions can be dropped
+# he means individual functions within phases, not entire phases
+# wholesale. A tale consisting only of a...K with no transitional
+# content resembles Dundes's minimal two-motifeme sequence
+# (Lack / Lack Liquidated) more than it resembles Propp's canonical
+# morphology. The grammar permits this parse under the Law of Omission
+# but any cultural interpretation should treat it as the boundary
+# case between the two models, not as a representative Proppian tale.
+# See Section 8 (Dundes Extension) for the complementary treatment
+# of minimal tales that fall entirely outside the Proppian framework.
+#
+# NOTE: Propp allows A and a to co-occur in the same move (page 102),
+# but treats it as a secondary case: one is always primary. Each move
+# keeps its defining crisis as the primary opener and admits the other
+# as an optional secondary; VillainyMove = villainy [lack] (emits A or
+# A a); LackMove = lack [villainy] (emits a or a A).
+#
+# ORDERING vs. PROPP'S NUMBERING: when both fire, the string orders
+# them by structural primacy (primary first), so LackMove co-occurrence
+# yields a A, i.e. VIIIa before VIII. Read as a strict linear sequence,
+# Propp's numbering (VIII then VIIIa) would put A first, so a A is a
+# deliberate departure. It rests on reading VIIIa as a variant occupant
+# of slot VIII (the 'a' marks a villainy-equivalent, not a function
+# that must follow VIII), for which co-occurrence order is
+# underdetermined in Propp. The grammar resolves that
+# underdetermination in favor of each move's organizing principle (a
+# move opens with the crisis that names it) rather than strict numeric
+# order.
+#
+# The structural alternatives all cost more than they save: collapsing
+# the VillainyMove/LackMove split into one opener would force
+# A-before-a but destroy the move distinction the cultural reading
+# relies on; forcing A-first inside LackMove would make a lack-primary
+# move open on A, breaking the a...K backbone and hiding primacy from
+# the string; and forbidding co-occurrence would delete a case Propp
+# documents. So the a A ordering stands as a defended choice, recorded
+# here.
+#-----------------------------------------------------------------------
+
+move             = VillainyMove | LackMove
+
+# TRAGEDY EXTENSION now lives at the combat outcome, not the move root.
+# After left-factoring, a tragedy is no longer a separate move type but
+# the failure branch of CombatOutcome (struggle [branding] exposure
+# punishment). This keeps the grammar LL(1): warrior and tragic tales
+# share every token through struggle [branding] and diverge only at the
+# outcome (victory vs exposure), so no distinct move production can be
+# chosen at the crisis. See CombatOutcome in Section 4 to enable it.
+
+# In VillainyMove, an external agent causes the harm that drives
+# the narrative. The preamble is optional and the move hands off to
+# the shared Outcome: the grammar imposes no preferred resolution path
+# for villainy. Combat (the struggle branch of Outcome) is typical but
+# not structurally required. Journey is optional: localized or direct-
+# action tales resolve the crisis within the domestic sphere without
+# travel or a donor encounter.
+
+VillainyMove     = villainy [lack]   # A: contract opens (harm)
+                                     # [a]: optional secondary lack
+                   [SystemicResponse]
+                   [Journey]         # absent in localized tales
+                   Outcome           # shared resolution (Section 4):
+                                     # combat or non-combat, success or
+                                     # (with tragedy enabled) downfall
+
+# In LackMove, the crisis is internal: a need or absence within
+# the community rather than an external attack. The preamble is
+# optional and the move hands off to the shared Outcome: the grammar
+# imposes no preferred resolution path for lack. The Ordeal (task
+# branch) is typical in the corpus but not structurally required.
+# Journey is optional: localized tales resolve the lack within the
+# domestic sphere. When Journey and combat are absent and Outcome is a
+# bare NonCombatResolution with an empty Ordeal, this produces the
+# minimum parse (a...K); see the Propp/Dundes Boundary note in the
+# backbone comment above for the interpretive significance of this
+# edge case.
+
+LackMove         = lack [villainy]   # a: contract opens (need)
+                                     # [A]: optional secondary villainy
+                   [SystemicResponse]
+                   [Journey]         # absent in localized tales
+                   Outcome           # shared resolution (Section 4)
+
+#-----------------------------------------------------------------------
+# 1. PREPARATION (The Genesis of Interpersonal Conflict)
+
+# The preparatory functions (β through θ) establish the conditions
+# that make the Crisis possible. A tale may have any combination.
+# To prevent epsilon ambiguity, the rule is structured as a non-empty
+# cascade: if preparatoryPart fires, it must contain at least one
+# function. Its optionality is handled at the magicTale root.
+
+preparatoryPart  = absentation [RuleViolation]
+                     [InformationGathering] [DeceptionTrap]
+                   | RuleViolation
+                     [InformationGathering] [DeceptionTrap]
+                   | InformationGathering [DeceptionTrap]
+                   | DeceptionTrap
+
+# β: The withdrawal creates the vulnerability that the villain
+# will exploit.
+# NOTE ON OVER-GENERATION: Propp distinguishes between β1 (family
+# member leaves, creating vulnerability) and β2 (the hero's own
+# departure). To avoid redundant parsing where β2 and ↑ (departure)
+# coincide as the same narrative event, cultural interpretation
+# should treat β in the preparatory phase as exclusively β1 (the
+# vulnerability-creating withdrawal).
+
+absentation      = 'β'   # A member of the family/group
+                         # withdraws or leaves
+
+# γ-δ pair: Interdiction and Violation are causally linked:
+# a rule exists to be broken, but interdiction is not always
+# stated explicitly. Violation (δ) is the structurally operative
+# function; the interdiction (γ) is its logical presupposition,
+# which may be implied rather than enacted.
+
+RuleViolation    = [interdiction] violation
+interdiction     = 'γ'   # A boundary, rule, or warning is
+                         # addressed to the member
+violation        = 'δ'   # The boundary is broken; the rule
+                         # is ignored or transgressed
+
+# ε-ζ pair: The villain probes for information (ε) and receives
+# it (ζ). Either can occur without the other: the villain may
+# receive information without active reconnaissance (an informant
+# volunteers it), or may spy without the information being
+# surrendered. Propp names these as a pair but does not require
+# strict co-occurrence.
+# Allows ε alone, ε followed by ζ, or ζ alone.
+
+InformationGathering = reconnaissance [deliveryOfInfo]
+                       | deliveryOfInfo
+reconnaissance   = 'ε'   # An attempt is made to spy on or
+                         # probe the member for leverage
+deliveryOfInfo   = 'ζ'   # Information or vulnerability
+                         # about the member is surrendered
+
+# η-θ pair: Trickery is the active deployment of a ruse;
+# complicity is the victim's passive acceptance of it. Either
+# can occur without the other: a ruse may be deployed but
+# penetrated (η without θ), or a victim may capitulate to an
+# implicit deception with no explicit ruse named (θ without η).
+# Allows η alone, η followed by θ, or θ alone.
+
+DeceptionTrap    = trickery [complicity]
+                         | complicity
+trickery         = 'η'   # A ruse, false front, or
+                         # manipulation is deployed to deceive
+complicity       = 'θ'   # The member buys into the ruse,
+                         # unknowingly helping the manipulator
+
+#-----------------------------------------------------------------------
+# 2. SYSTEMIC CRISIS (Backbone Opening)
+
+# NOTE: villainy (A) and lack (a) are defined here as atomic terminals
+# but their structural role as the opening of the backbone pair A/a...K
+# is declared at the move level above.
+
+villainy         = 'A'   # An act of harm, injury, or disruption
+                         # inflicted upon a family member or
+                         # community (e.g., abduction, theft,
+                         # or expulsion).
+lack             = 'a'   # A member of the family desires to have
+                         # something
+                         # A broader interpretation might include
+                         # that an internal ecological, systemic, or
+                         # resource need emerges
+
+# B and C are the bridge between the crisis and the hero's
+# departure. B (connectiveIncident) makes the crisis known to
+# the group and signals the need for action; C
+# (beginningCounteraction) is the hero's explicit decision to
+# respond. Either may occur without the other: the hero may
+# act without a formal dispatch (C without B), or a dispatch
+# may occur without a named decision moment (B without C).
+# Allows B alone, B followed by C, or C alone.
+
+SystemicResponse = connectiveIncident [beginningCounteraction]
+                   | beginningCounteraction
+connectiveIncident     = 'B'   # The crisis is formally recognized
+                               # and signaled to the group
+beginningCounteraction = 'C'   # The hero's decision to act, or the
+                               # authorization/consent for the quest
+                               # to proceed.
+
+#-----------------------------------------------------------------------
+# 3. THE JOURNEY (Vetting and Transference)
+
+# The Journey covers everything from the hero leaving home to
+# arriving at the site of the Crisis. Two separate constraints
+# operate here and must not be confused:
+
+#   CONSTRAINT 1, move-level optionality: Journey is wrapped in
+#   brackets at the move level ([Journey]) in both VillainyMove
+#   and LackMove. Propp explicitly cataloged localized and direct-
+#   action tales where the crisis occurs within the domestic sphere
+#   and is resolved without travel, departure, or a donor encounter.
+#   In such tales the entire Journey phase is absent. This is
+#   consistent with Propp's Law of Omission: any function, including
+#   all of ↑, D, E, F, and G, may be cleanly dropped.
+
+#   CONSTRAINT 2, Internal non-emptiness: when Journey does fire,
+#   it cannot produce an empty string. At least one of departure (↑),
+#   Vetting, or spatialTransference must be present. Some tales
+#   have a named departure but no donor encounter; others have a
+#   donor encounter without a named departure (the donor is found
+#   within the domestic sphere before the hero leaves). But a Journey
+#   with none of these elements is not a journey; it is nothing.
+
+# SEQUENCE INVERSION NOTE: Propp documents cases where the donor
+# encounter (D-E-F) fires at home before departure (↑), producing
+# the order D-E-F-↑-G rather than the standard ↑-D-E-F-G. This is a
+# bounded reordering, not a context-sensitive phenomenon: a CFG can
+# express both orders by listing them as alternatives. It is omitted
+# because doing so interacts with the optionality of D, E, F, and ↑ to
+# reintroduce ambiguity (several of the collapsed cases become
+# indistinguishable), a legibility cost rather than an expressive
+# limit. The current rule treats the domestic donor encounter as
+# Vetting without departure, which parses the functions present but
+# does not encode their inverted order relative to ↑. Note this in any
+# cultural interpretation that relies on sequential order in the
+# Journey.
+#
+# NOTE ON β2/↑ REDUNDANCY: As noted in the Preparation section,
+# β2 (the hero's departure) and ↑ (departure) can refer to the
+# same event. This grammar treats β as prep-phase absentation only.
+# Any hero-departure occurring before the official ↑ should be
+# parsed as the hero's initial exit, while ↑ remains the
+# threshold crossing into the secondary arena.
+
+Journey          = departure [Vetting] [spatialTransference]
+                   | Vetting [spatialTransference]
+                   | spatialTransference
+
+departure        = '↑'   # Leaving the stabilized domestic zone
+
+# The Vetting phase models how the hero acquires the magical agent or
+# helper. By default it preserves Propp's D-E-F triad as a success
+# block: the hero reacts positively (E) and receives the agent (F).
+# UntestedAcquisition (F alone) covers the spontaneous gift variant:
+# the agent is simply given without a test.
+#
+# The negative donor outcome (E-/F-) is NOT part of the canonical
+# default; see the DONOR-FAILURE EXTENSION below for what it adds and
+# why it is toggle-gated rather than active.
+
+Vetting             = TestedAcquisition | UntestedAcquisition
+
+TestedAcquisition   = firstFunctionOfDonor ChallengeResponse
+
+ChallengeResponse   = heroReaction provisionOfMagicalAgent
+                      # PURE PROPP CANONICAL: a positive reaction (E)
+                      # earns the agent (F). Success only.
+
+# =====================================================================
+# DONOR-FAILURE EXTENSION (uncomment to enable)
+#
+# To enable: comment out the ChallengeResponse rule above, uncomment
+# the two-alternative ChallengeResponse immediately below, AND
+# uncomment the negativeReaction and donorRetaliation terminals
+# further down.
+#
+# ChallengeResponse = heroReaction provisionOfMagicalAgent
+#                     | negativeReaction [donorRetaliation]
+#
+# WHAT IT ADDS
+#   A donor encounter that ends in failure: the hero (or imposter)
+#   reacts wrongly (E-) and the agent is withheld or punishment
+#   follows (F-), with no agent acquired.
+#
+# WHY IT IS GATED (AND N- IS NOT)
+#   E-/F- are editorial failure terminals; Propp's 1928 inventory has
+#   no discrete function cards for donor-test failure. Unlike task-
+#   Failure (N-), which earns its place in the active grammar by
+#   routing to a real consequence (exposure of the false hero in
+#   ContestedLitigation), a negative donor reaction has NO consequence
+#   in the move: nothing downstream consumes the failure. With it
+#   enabled, a hero can fail the donor test, acquire no agent, and
+#   still reach the mandatory liquidation (K), a tale Propp's causal
+#   structure forbids (positive reaction → agent → resolution; a
+#   negative reaction marks a foil or false hero who does NOT then
+#   succeed). It is quarantined here rather than deleted so the
+#   failure case stays available for experiments that pair it with a
+#   false-hero or tragic reading, where the failure is given a
+#   narrative consequence this grammar does not itself tie to the
+#   move's outcome; that link is a bounded dependency left to the
+#   interpretive layer.
+# =====================================================================
+
+UntestedAcquisition = provisionOfMagicalAgent
+                      # Spontaneous/unearned agent variant:
+                      # F received without a prior D-E test
+
+firstFunctionOfDonor = 'D'  # Encounter with an external
+                            # gatekeeper, ancestor, or tester
+heroReaction        = 'E'   # Demonstrating appropriate
+                            # alignment, respect, or
+                            # competence under test
+# DONOR-FAILURE EXTENSION terminal (uncomment with the rule above):
+# negativeReaction    = 'E-'  # Structural failure of the donor test
+provisionOfMagicalAgent = 'F' # Acquisition of the critical
+                              # asset - an enabling tool, ally,
+                              # or helper
+# DONOR-FAILURE EXTENSION terminal (uncomment with the rule above):
+# donorRetaliation    = 'F-'  # Agent withheld or punishment enacted
+
+spatialTransference = 'G'   # Transfer of the hero to the location
+                            # of the sought object (magical guidance).
+
+#-----------------------------------------------------------------------
+# 4. CONFRONTATION AND LIQUIDATION (External Achievement)
+
+# Outcome is the shared resolution of a move: everything after the
+# optional [SystemicResponse] [Journey] preamble. It is where the two
+# extension toggles (task liquidation and tragedy) attach, and it is
+# left-factored so the grammar stays LL(1): a move commits to combat
+# vs non-combat on a single token (struggle H vs the rest) and, if it
+# fights, commits to warrior vs tragic outcome on a single token
+# (victory I vs exposure Ex). Warrior and tragic tales are therefore
+# character-for-character identical through struggle [branding] and
+# diverge only at CombatOutcome, mirroring the reversal (peripeteia)
+# the audience itself cannot see coming.
+
+Outcome          = NonCombatResolution
+                 | struggle [branding] CombatOutcome
+
+# NonCombatResolution: the move resolves without a struggle. By default
+# it is just the success tail (direct liquidation, or a post-K Ordeal
+# task). The TASK-AS-LIQUIDATION EXTENSION adds a pre-K task core here.
+
+NonCombatResolution = SuccessTail
+
+# =====================================================================
+# TASK-AS-LIQUIDATION EXTENSION (uncomment to enable)
+#
+# To enable: comment out the NonCombatResolution rule above, uncomment
+# the NonCombatResolution rule immediately below, AND uncomment the
+# TaskLiquidation rule further down. Touches only this one rule; it is
+# independent of the tragedy toggle, which lives at CombatOutcome.
+#
+# NonCombatResolution = [TaskLiquidation] SuccessTail
+#
+# WHAT IT CHANGES
+#   Adds a core in which a difficult task and its solution (M-N) ARE
+#   the resolving act of the move, sitting BEFORE liquidation (K)
+#   rather than only in the post-K Ordeal.
+#
+# WHY THIS VIOLATES PROPP (AND WHY THE VIOLATION IS DELIBERATE)
+#   Propp fixes the difficult task and its solution at positions 25-26,
+#   AFTER liquidation (19). The invariant linear ordering of functions
+#   is one of his central empirical claims, so placing M-N before K is
+#   a genuine departure, not a cosmetic one. It is fenced behind this
+#   toggle for exactly that reason: with the extension OFF the grammar
+#   asserts nothing Propp did not.
+#
+#   The departure answers a real asymmetry in the canonical form.
+#   Propp gives combat (H-I) a pre-liquidation core but treats the
+#   difficult task only as post-liquidation verification, credentialing
+#   the true hero. Yet in a large class of tales the task is not a
+#   credential check: solving it IS how the lack is filled. The object
+#   is won by meeting a set condition; the seeker's craft, endurance,
+#   or cunning is the achievement itself, not evidence of desert.
+#   Confining every M-N to verification silently reinstates the
+#   warrior's combat axis as the only "real" resolution and demotes
+#   the seeker's task axis to a downstream formality, cutting against
+#   the parallel seeker/warrior move architecture this grammar is built
+#   on. Restoring the task as a co-equal core is the formal expression
+#   of the two traditions carrying equal structural weight (the
+#   hunter-gatherer / Indo-European strata distinction that motivates
+#   the seeker/warrior move split).
+#
+#   It also lets labor and quest cycles parse without a phantom K in
+#   front of every task, e.g. the Greek sequences (Herakles' labors,
+#   Jason's tasks for the fleece, Psyche's tasks), where performing
+#   the task is the heroic achievement rather than a post-hoc check.
+#
+# INTERPRETIVE BURDEN THIS INTRODUCES
+#   With the extension on, an M-N occurrence is no longer automatically
+#   "verification"; the analyst must adjudicate each case. Working
+#   criterion: if solving the task FILLS the original lack, it is a
+#   TaskLiquidation (pre-K core); if it establishes credit AFTER the
+#   lack is already filled, it is an Ordeal task (post-K verification).
+#   Position in the parse encodes the decision: M-N before K
+#   liquidates, M-N after K verifies. Document the adjudication so the
+#   ambiguity stays principled rather than loose. This trades a false
+#   certainty (every task is verification) for an honest one (tasks do
+#   two different cultural jobs); the ambiguity was always latent in
+#   the tales, the canonical grammar merely hid it behind a default.
+#
+# WHY IT STAYS UNAMBIGUOUS
+#   The task core opens on M and the combat branch opens on H, so the
+#   Outcome choice is disjoint; and the mandatory K separates a pre-K
+#   task core from any post-K Ordeal task. No parse is ambiguous.
+# =====================================================================
+
+# CombatOutcome: given that a struggle occurred (struggle [branding]
+# already consumed by Outcome), how does it end? By default the hero
+# prevails (victory I) and the tale continues into the success tail.
+# The TRAGEDY EXTENSION adds the failure branch.
+
+CombatOutcome    = victory SuccessTail
+
+# =====================================================================
+# TRAGEDY EXTENSION (uncomment to enable)
+#
+# To enable: comment out the CombatOutcome rule above, uncomment the
+# CombatOutcome rule immediately below, AND uncomment the TragicFall
+# rule further down. Touches only this one rule; it is independent of
+# the task-liquidation toggle, which lives at NonCombatResolution.
+#
+# CombatOutcome    = victory SuccessTail | TragicFall
+#
+# WHAT IT ADDS
+#   A combat that ends in the hero's downfall rather than victory. The
+#   struggle is engaged (and possibly branded) exactly as in a warrior
+#   tale, but culminates in exposure (Ex) and collapses directly into
+#   punishment (U). No liquidation (K), no return, no transfiguration:
+#   the broken protagonist does not complete a triumphant Proppian arc.
+#
+# WHY exposure (Ex) IS REUSED
+#   Ex is morphologically conserved. In IdentityReveal it unmasks a
+#   false hero; here it is turned on the true hero, whose defeat is his
+#   unmasking. In a warrior ethos status is contingent on the outcome
+#   of force, so to lose the direct conflict is to be revealed as not
+#   the hero one claimed. Same token, inverted target; the two senses
+#   are told apart by the parent node, not by a new symbol.
+#
+# CULTURAL READING
+#   Tragedy is not a separate genre with its own machinery but the
+#   shadow of the warrior tale: identical rising action, force applied
+#   and force failing. The grammar encodes that claim structurally by
+#   making tragedy the failure branch of the same combat, reachable
+#   only after the shared struggle [branding] spine.
+#
+# AVAILABILITY: because VillainyMove and LackMove share Outcome,
+#   enabling tragedy makes a seeker tragedy (lack ... struggle ...
+#   exposure punishment) derivable too, not only a warrior one. This
+#   is deliberate: tragedy attaches to the combat outcome, not to the
+#   crisis that opened the move.
+# =====================================================================
+
+# SuccessTail: the triumphant remainder shared by every non-tragic
+# outcome. Liquidation (K) closes the contract; the rest is the
+# optional post-K arc. transfiguration (T, XXIX) sits here, so a fallen
+# tragic hero is never transfigured.
+
+SuccessTail      = liquidation [ReturnJourney] [Ordeal]
+                   [transfiguration] [Resolution]
+
+# struggle [branding] is the shared combat spine, consumed in Outcome
+# before the CombatOutcome fork. H (struggle) and I (victory) are
+# Propp's named pair; J (branding) is optional between them. J is not
+# merely cosmetic: it creates a state token that licenses recognition
+# (Q) later in the Ordeal. See the J→Q dependency note at recognition
+# below.
+
+# TASK-AS-LIQUIDATION EXTENSION: RULE DEFINITION (uncomment to enable)
+# Places the difficult-task pair (M-N) as a resolving core.
+# Success-only by construction: the move's crisis MUST close at the
+# mandatory K that follows, so a failed liquidating task would be
+# incoherent. No branding (J is specifically the combat wound) and no
+# taskFailure here.
+# TaskLiquidation  = difficultTask solution
+
+# TRAGEDY EXTENSION: RULE DEFINITION (uncomment to enable)
+# The failure branch of a combat: the struggle culminates not in
+# victory but in exposure, collapsing directly into punishment. No
+# liquidation, no return, no transfiguration.
+# TragicFall       = exposure punishment
+
+struggle         = 'H'   # Engaging the external threat in
+                         # direct conflict
+branding         = 'J'   # Receiving a permanent physical
+                         # token, scar, or mark of the conflict
+victory          = 'I'   # Achieving tactical dominance over
+                         # the threat
+
+# NOTE: liquidation (K) is the backbone close: the structural answer
+# to villainy (A) or lack (a). Paired with 8/8a per Propp's own
+# function cards. Defined here as an atomic terminal; its backbone
+# role is declared at the move level. K is mandatory in every move:
+# no tale closes without the opening crisis being resolved. This is
+# Propp's most fundamental structural claim.
+
+liquidation      = 'K'   # The core objective is achieved:
+                         # the crime is undone or the
+                         # resource secured
+
+#-----------------------------------------------------------------------
+# 5. THE RETURN (Symmetrical Homeward Transit)
+
+
+# ReturnJourney is the structural mirror of the outbound Journey.
+# Two separate constraints operate here and must not be confused:
+
+#   CONSTRAINT 1, move-level optionality: ReturnJourney is wrapped
+#   in brackets at the move level ([ReturnJourney]) in both
+#   VillainyMove and LackMove. This means the entire return phase
+#   may be absent: a hero who marries the princess and ascends the
+#   throne in the secondary kingdom never returns at all, and the
+#   tale is complete without any ↓ or Pr. Propp explicitly
+#   acknowledges this case.
+
+#   CONSTRAINT 2, Internal non-emptiness: when ReturnJourney does
+#   fire, it cannot produce an empty string. At least one of return
+#   (↓) or Evasion (Pr) must be present. A ReturnJourney with
+#   neither ↓ nor Pr is not a return phase; it is nothing.
+#   The alternation rule enforces this: both branches require
+#   at least one terminal.
+#
+# SPATIAL DEPENDENCY NOTE (GHOST PARSE): this grammar threads no
+# cross-function state, so the parser may invoke return (↓) even if the
+# hero never left home (↑ and G skipped in the Journey phase). The
+# dependency is bounded (one move-internal bit: departed or not) and
+# could be folded in by splitting the affected nonterminals, but that
+# trades away the legibility this grammar is built for. As a binding
+# (def-use) constraint rather than an ordering one, it is left to the
+# interpretive layer: ↓ presupposes a prior departure (↑ / G).
+
+ReturnJourney    = return [Evasion]
+                   | Evasion
+
+return           = '↓'   # Disengaging from the operational
+                         # arena and turning homeward
+
+# Pr (pursuit) and Rs (rescue) are Propp's named pair.
+# Pursuit is mandatory when Evasion fires: there is no rescue
+# without a prior pursuit. Rescue (Rs) is optional because not
+# every pursuit results in a successful evasion via an explicit
+# rescue mechanism; some heroes simply outrun the threat.
+
+Evasion          = pursuit [rescue]
+
+pursuit          = 'Pr'  # Facing an aggressive retaliatory
+                         # pursuit or systemic backlash
+rescue           = 'Rs'  # Evading or neutralizing the
+                         # blowback via a tactical pivot
+
+#-----------------------------------------------------------------------
+# 6. THE ORDEAL (Systemic Verification and Fraud Management)
+
+# The Ordeal is the post-liquidation verification layer. It does
+# not resolve the opening crisis (K already did that) but
+# establishes who gets credit for the resolution. Three branches
+# differ in how verification is achieved and whether a false
+# claimant is present:
+#
+# NOTE: the tasks here are VERIFICATION tasks (post-K). With the
+# TASK-AS-LIQUIDATION EXTENSION (Section 4) a task may also appear
+# pre-K as a LIQUIDATING core; that task resolves the crisis,
+# whereas an Ordeal task only credits the hero after the fact.
+#
+#   DirectValidation:   true hero is tested via task(s) and recognized
+#   ContestedLitigation: a false hero has staked a prior claim;
+#                        the true hero must displace it
+#   TokenRecognition:  recognition fires via the branding token (J)
+#                      alone, no task cycle, no false hero present.
+#                      The classic case is the Odyssey: the hero is
+#                      recognized by the scar (J) without proposing
+#                      or solving any formal task.
+#
+# LINEAR AXIS NOTE: Propp's functions 23-29 (o L M N Q Ex T) form
+# a single invariant linear sequence. Any subset may appear, in
+# that order. This means a tale can contain functions from multiple
+# branches simultaneously, e.g. a false hero is present (L), tasks
+# are performed (M-N), AND the branding token (J) also anchors
+# recognition (Q). The EBNF alternation (|) makes the branches
+# appear mutually exclusive, but they are not mutually exclusive in
+# Propp's corpus: they represent the dominant verification mechanism
+# present in a given tale, not exhaustive structural alternatives.
+# This grammar is a rhetorical catalog for cultural interpretation,
+# not a generative parser of all valid Proppian sequences. A tale
+# that combines mechanisms from multiple branches is valid Propp
+# and should be interpreted as such, even if the grammar cannot
+# express it in a single branch parse.
+
+Ordeal           = DirectValidation | ContestedLitigation
+                   | TokenRecognition
+
+# DirectValidation requires at least one TaskCycle before recognition.
+# recognition (Q) here is the structural answer to the TaskCycle(s):
+# the work done (M-N) and the being-credited-for-it (Q) are distinct.
+# This distinction is the grammatical seam between genuine achievement
+# and performed achievement. Task-based only: the J-only recognition
+# path is handled by TokenRecognition, keeping this branch clean.
+
+DirectValidation = TaskCycle {TaskCycle} recognition
+
+# TokenRecognition covers recognition via the branding token (J)
+# established earlier in the combat spine (struggle [branding]). No
+# task is proposed or solved; the physical mark is sufficient to verify
+# identity. (transfiguration, if any, attaches inside SuccessTail after
+# the Ordeal, so this branch closes at recognition.)
+# NOTE: this branch presupposes branding (J) having fired in the combat
+# spine, the same J→Q dependency noted at recognition below.
+# GHOST PARSE WARNING: this grammar threads no cross-function state, so
+# the parser may invoke this branch even if the combat spine and (J)
+# were skipped in the move. This is not a limit of context-free power:
+# the dependency is bounded (one move-internal bit, J-seen or not) and
+# could be folded in by splitting SuccessTail/Ordeal into J-seen and
+# J-clear copies, at the cost of the legibility this grammar exists
+# for. Being a binding (def-use) constraint rather than an ordering
+# one, it is left to the interpretive layer: token recognition
+# presupposes J.
+
+TokenRecognition = recognition
+
+# MINIMUM PARSE: A ContestedLitigation must contain an IdentityReveal
+# to close the fraud contract. FraudPosture optionally opens it (o/L),
+# and IdentityReveal is structurally required to resolve it (Q/Ex).
+# This enforces semantic closure and natively prevents a parse
+# consisting solely of {TaskAttempt}.
+# Making FraudPosture mandatory guarantees at least one of {o, L}
+# opens the branch, but it does NOT guarantee L specifically:
+# FraudPosture = o alone is legal, so a parse like o ... Ex (arrival,
+# then exposure, with no false claim) remains derivable. The L→Ex
+# dependency is bounded (one bit within the litigation) and unenforced
+# here only because this grammar carries no such state; see the GHOST
+# PARSE WARNING at IdentityReveal below.
+
+ContestedLitigation = FraudPosture {TaskAttempt} IdentityReveal
+
+# o (unrecognizedArrival) and L (falseHeroClaim) are sequentially
+# adjacent in Propp's numbering (23, 24) and frequently co-occur,
+# but they are independent functions subject to the Law of Omission:
+#
+#   o alone: the true hero arrives incognito but no false hero
+#     stakes a claim; the incognito arrival creates tension that
+#     resolves without a formal counter-claimant.
+#
+#   L alone: the false hero stakes a claim before the true hero
+#     has arrived at all. In the oral tradition, impostors
+#     regularly run back to court and present false claims while
+#     the true hero is still absent, trapped, or en route.
+#     L does not presuppose o having fired.
+#
+#   o then L: the classic sequence: the hero arrives incognito,
+#     creating the power vacuum the false hero then exploits.
+#
+# NOTE: whichever of o and L are present open the fraud contract;
+# exposure (Ex) in IdentityReveal closes it. The semantic pairing
+# spans the full ContestedLitigation regardless of which
+# combination is present.
+# Allows o alone, o followed by L, or L alone.
+
+FraudPosture     = unrecognizedArrival [falseHeroClaim]
+                   | falseHeroClaim
+
+# TaskCycle = M + N: the task and its successful outcome are an
+# inseparable causal pair. A proposed task (M) requires a resolution.
+# DirectValidation uses TaskCycle (success only): recognition (Q)
+# credits completed work, so the task the parser routes to
+# recognition must succeed. A "task failed, then recognized" parse
+# (M N- Q) is therefore excluded from DirectValidation by construction.
+#
+# TaskAttempt = M + (N | N-): the same pair, but admitting failure.
+# Used only in ContestedLitigation, where a failed task (M N-) is
+# resolved by exposure (Ex). Confining N- to this branch is what
+# prevents the incoherent DirectValidation parse noted above.
+#
+# PROPOSED EXTENSION NOTE: The terminal N- (task failure) is an
+# editorial extension; Propp treats failure merely as the absence of
+# N leading directly to Ex. It is introduced to satisfy EBNF routing.
+
+TaskCycle        = difficultTask solution
+TaskAttempt      = difficultTask (solution | taskFailure)
+
+# NOTE: recognition (Q) is the same function in both DirectValidation
+# and IdentityReveal: definitive verification of the true agent.
+# The narrative context differs (task-based vs. fraud-resolution)
+# but the function is identical.
+#
+# Q and Ex are sequentially adjacent in Propp's numbering (27, 28)
+# and frequently co-occur, but they are independent functions
+# subject to the Law of Omission:
+#
+#   Q alone: the true hero is recognized: by task performance,
+#     by the branding token (J), or by other means, but the
+#     false hero quietly withdraws or is simply absent. No formal
+#     public unmasking fires.
+#
+#   Ex alone: the false hero or imposter is exposed and cast out
+#     before the true hero's identity has been formally verified.
+#     The fraud is refuted without the positive recognition of
+#     the true claimant being separately enacted.
+#
+#   Q then Ex: the classic sequence: the hero is identified
+#     and the false hero is unmasked in the same resolution event.
+#
+# Allows Q alone, Q followed by Ex, or Ex alone.
+#
+# GHOST PARSE WARNING: this grammar threads no cross-function state, so
+# the parser may invoke exposure (Ex) here even if the false hero claim
+# (L) was skipped in the FraudPosture phase. The dependency is bounded
+# (one bit within the litigation: claim-seen or not) and could be
+# folded in by splitting IdentityReveal on that flag, at the cost of
+# legibility. As a binding (def-use) constraint it is left to the
+# interpretive layer: Ex is only semantically valid if a prior false
+# claim (L) has occurred.
+
+IdentityReveal   = recognition [exposure]
+                   | exposure
+
+# Atomic Ordeal Components (Propp Canon)
+
+unrecognizedArrival = 'o'  # The hero, unrecognized, arrives home or
+                           # in another country
+falseHeroClaim   = 'L'    # A parasitic actor asserts an unearned
+                          # claim credit for the deed
+difficultTask    = 'M'    # An institutional challenge or problem
+                          # deployed to test validity
+solution         = 'N'    # The successful execution or
+                          # accomplishment of the challenge
+taskFailure      = 'N-'   # Failure to solve the proposed task
+                          # (Proposed Extension)
+
+recognition      = 'Q'    # Definitive verification of the true
+                          # asset-creator. Anchors either the
+                          # M-N chain or the J token (branding).
+                          # NOTE: J→Q is a cross-sequence dependency:
+                          # Q is only semantically valid if a prior
+                          # TaskCycle (M-N) or branding (J) has
+                          # occurred.
+
+# exposure (Ex) is a context-dependent terminal:
+#   1. In IdentityReveal: the explicit unmasking and expulsion of the
+#      imposter or false hero.
+#   2. In CombatOutcome (tragedy enabled): the structural failure and
+#      downfall of the Warrior Hero, whose defeat is his exposure.
+# Parser note: Ex is morphologically conserved deliberately. Do not
+# assign a new symbol; differentiate the two senses by the parent node.
+exposure         = 'Ex'   # (context-dependent; see note above)
+
+transfiguration  = 'T'    # XXIX: permanent, visible upgrade in
+                          # organizational, social, or physical
+                          # status (new appearance, palace,
+                          # garments). Now an independently
+                          # omissible function attached at the move
+                          # level (after [Ordeal], before
+                          # [Resolution]) rather than gated behind
+                          # recognition; Propp's T does not
+                          # presuppose Q. It typically follows a
+                          # recognition when one is present, but a
+                          # tale may be transfigured with no
+                          # recognition subplot (e.g. ...K [↓] T W).
+
+#-----------------------------------------------------------------------
+# 7. THE RESOLUTION (Systemic Outcome)
+
+# punishment (U) and integration are the negative and positive faces of
+# the same structural closure: the fraudulent or hostile element is
+# expelled (U) while the legitimate hero is integrated, either by a
+# wedding or by a reward given in place of marriage.
+#
+# The two integration terminals follow Propp's function 31. wedding (W)
+# absorbs all of his wedding forms: W** (bride and kingdom), W*
+# (marriage or throne alone), w* (rudimentary form of marriage),
+# w¹ (promised marriage) and w² (resumed marriage). Note that lowercase
+# w* and uppercase W* are DIFFERENT forms, not a casing slip; p.154.
+# reward (w°) is his distinct lowercase w°: a monetary reward or
+# compensation IN PLACE OF marriage. The reducer sends every wedding
+# form to W and only w° to reward.
+
+Resolution       = punishment [SuccessIntegration]
+                   | SuccessIntegration
+
+SuccessIntegration = wedding | reward
+
+punishment       = 'U'   # Formal termination or banishment of
+                         # the fraudulent, hostile, or failed element
+wedding          = 'W'   # Marriage and/or ascension to the throne;
+                         # Propp's W / W* / W** / w* / w¹ / w² wedding
+                         # forms. Lowercase w* is his rudimentary
+                         # marriage and is NOT uppercase W*; p.154
+reward           = 'w°'  # Reward or compensation in place of marriage
+                         # (Propp's lowercase w°)
+
+#-----------------------------------------------------------------------
+# 8. THE DUNDES EXTENSION: consequence TALE TYPE (uncomment to enable)
+#    (Tales outside the Proppian crisis-resolution structure:
+#     consequence and transformational tales where no Lack or
+#     Villainy drives the action and no hero resolves a deficit)
+#
+# Dundes (1964) identified a two-motifeme nuclear sequence,
+# Lack / Lack Liquidated, as the minimal structural unit in
+# North American Indian tales. When such tales contain that
+# pair (a...K) they are already parsed by LackMove above.
+# This extension covers the Interdiction-Violation-consequence
+# sequence, or tales in which an Event alone causes permanent
+# change to the world.
+#
+# SYMBOL NOTE: the prior version used η* (starred eta) for
+# irreversibleAct, borrowing the Greek letter because η (trickery)
+# is adjacent in the preparatory sequence. This was a forced
+# alphabetical borrowing rather than a structural one. An act that
+# permanently alters the world without prior rule violation functions
+# structurally more like an unliquidated villainy (A without K) than
+# a variant of trickery. irreversibleAct is now assigned the symbol
+# 'Ad' (A-dundes): A because the act is structurally analogous to
+# villainy as a world-disrupting event; the d marks it as
+# belonging to the consequence register rather than the Proppian one.
+# 'Td' (T-dundes) is also used to be parallel to the 'Ad' since both
+# are part of the Dundes extension and it signals an extension of
+# transfiguration's logic (a permanent visible change) without claiming
+# to be Propp's T.
+#
+# Genre separation: consequenceTale is a separate root from magicTale.
+# The two tale types do not recurse into each other.
+#-----------------------------------------------------------------------
+
+# consequenceTale   = [initialSituation] DundesMove {DundesMove}
+
+# DUNDES EXTENSION: EDITORIAL RECURSION
+# The repetition {DundesMove} is an editorial extension to account for
+# tale sequences not strictly defined as minimal pairs in Dundes
+# (1964).
+
+# DundesMove        = Event [attemptedEscape] consequence
+
+# Event             = RuleViolation | irreversibleAct
+                       # RuleViolation reused from preparatoryPart:
+                       # interdiction and violation reuse γ and δ
+
+# DUNDES EXTENSION: EDITORIAL ADDITIONS
+# The following functions are editorial extensions to the grammar to
+# capture specific tale behaviors not explicitly defined as
+# canonical motifemes in Dundes's 1964 morphology.
+
+# attemptedEscape   = 'Ae'  # The actor attempts to flee or evade the
+                          # impending blowback of the violation. The
+                          # case selection is to match the style of
+                          # Pr, Rs, Ex,...
+
+# irreversibleAct   = 'Ad'  # A world-disrupting act with no prior
+                              # interdiction and no resolution:
+                              # structurally analogous to villainy (A)
+                              # but in the consequence register where
+                              # no hero liquidates the outcome.
+                              # Ad = A-dundes: same disruptive
+                              # force, consequence not Proppian.
+
+# consequence       = punishment | environmentalShift
+                       # punishment (U) is reused: the same
+                       # structural slot covers banishment of a
+                       # character or destruction of a condition.
+
+# environmentalShift = 'Td' # A permanent transformation of the world
+                              # itself: a landscape, species, or
+                              # condition comes into being.
+                              # Distinct from transfiguration (T),
+                              # which transforms the hero's status.
+                              # Td correctly signals extension of T's
+                              # logic (permanent visible change) in
+                              # the consequence register.

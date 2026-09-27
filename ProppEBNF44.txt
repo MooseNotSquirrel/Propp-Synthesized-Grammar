@@ -1,0 +1,276 @@
+# PROPP GRAMMAR v44
+# ============================================================================
+# FROZEN. This grammar is written from Propp's TEXT ALONE. It HAD NOT been run
+# against the corpus WHEN IT WAS FROZEN, and that is the claim this header
+# makes: nothing below was induced from the tales, and every constraint cites
+# Propp by page (2nd ed., Scott trans.). The corpus is the FALSIFIER, applied
+# only after this file is frozen -- see ProppGrammarLogic.md, rules of
+# evidence.
+# IT HAS SINCE BEEN RUN, and the freeze is unaffected because no production
+# changed. falsify44.py applies it to the 84 resolved move-strings and
+# FalsificationResult.md carries the verdict. regression.py audits this file
+# under runChecks.py's grammar44 case, whose FAILING exit, one LL(1) conflict
+# on J in all four toggle states, is pinned in CheckGolden.txt.
+#
+# The prediction on record (logic doc, rule 8): running the 84 resolved
+# move-strings will justify ZERO new constraints. Any move that fails to parse
+# is either (a) a reading error in the corpus, or (b) evidence that a rule
+# written here is not actually Propp's. It is NOT a licence to add a constraint.
+# ============================================================================
+
+
+# ----------------------------------------------------------------------------
+# LAYER SEPARATION
+# ----------------------------------------------------------------------------
+# Propp separates the internal structure of a move from the combination of
+# moves (p.94: "the method of combining moves does not exert any influence
+# whatever"). This grammar describes ONE MOVE. Combination -- interruption,
+# shared endings, two-seekers, shared villainy -- is resolved BEFORE parsing,
+# by stage 1 (resolve.py), and never appears here. The parser sees only a flat
+# move-string with combination markers already discharged.
+
+
+# ----------------------------------------------------------------------------
+# NOTATION
+# ----------------------------------------------------------------------------
+# The typographic conventions of this file. The operators themselves, and
+# Propp's warrant for each, are set out in the section that follows.
+#
+#   A = x    a production: the nonterminal A is defined as x.
+#   'x'      a terminal: one of Propp's function symbols, matched literally
+#            (e.g. 'H', 'K', 'Ex'). The grammar consumes a stream of these
+#            symbol-tokens, not raw text characters.
+#   # ...    a comment to end of line; not part of the grammar.
+#
+# The terminal ';' that an EBNF compiler expects at the end of a production has
+# been omitted for readability. There is no ambiguity in the specification, and
+# the ';' can easily be put back in to permit compiling it.
+#
+# These are the conventions of the METALANGUAGE, the notation this grammar is
+# written in. Propp's own printed punctuation belongs to the OBJECT LANGUAGE,
+# the move-strings this grammar describes, and is set out under CORPUS NOTATION
+# below.
+
+
+# ----------------------------------------------------------------------------
+# THE THREE OPERATORS  (and nothing else)
+# ----------------------------------------------------------------------------
+#   concatenation      X Y      X precedes Y.
+#                               Thesis III, p.22: "The sequence of
+#                               functions is always identical." Gloss, p.22:
+#                               "Theft cannot take place before the
+#                               door is forced."
+#
+#   optional           [X]      X may be absent without disturbing the order
+#                               of the rest.
+#                               Law of Omission, p.22: "The absence of
+#                               certain functions does not change the order of
+#                               the rest." Corroborated p.114.
+#
+#   repetition         {X}      X zero or more times. The absence is the Law
+#                               of Omission above; the recurrence is Propp's
+#                               own, p.116 (Ch. IX n.4). The braced stack Propp
+#                               PRINTS is a different thing at a different
+#                               level -- see CORPUS NOTATION below.
+#
+# Concatenation supplies ORDER only, never OBLIGATION. This is the whole
+# correction over v43: v43's comma imposed both, manufacturing constraints
+# Propp denies (logic doc S5). Here obligation is carried by NOTHING except the
+# single opener rule below; every other element is optional.
+
+
+# ----------------------------------------------------------------------------
+# THE MOVE
+# ----------------------------------------------------------------------------
+# A move is a flat, ordered, regular sequence: an opener followed by the
+# canonical functions in Propp's order, every one optional, each optionally
+# repeated. The grammar is REGULAR by construction -- no nesting, no
+# constituency -- because constituency is what introduced v43's false
+# structure (logic doc S10).
+
+move        = opener tail
+
+# --- the opener: the ONE obligation Propp asserts ---
+# p.92: "any development proceeding from villainy (A) or a lack (a) ...
+#   Each new act of villainy, each new lack creates a new move."
+# p.37: where no fresh villainy occurs, "the tale employs the connective
+#   incident [B] to this end" -- B opens a continuation move (tale 133).
+opener      = 'A' | 'a' | 'B'
+
+# A move must open on one of these. This is the sole surviving axiom (logic doc
+# S12), confirmed as the only obligation Propp states. Everything after the
+# opener is optional.
+
+# --- the tail: canonical order, all optional, all repeatable ---
+# Order is Propp's function sequence III-XXXI (p.26-66), by designation.
+# Preparatory functions alpha-theta (I-VII) are NOT included: they never appear
+# in the scheme (p.116, "not included ... due to lack of space") and so
+# cannot be falsified here (logic doc S9). Their slots are deliberately absent,
+# not forgotten.
+
+tail        = {'B'}            # mediation (IX) -- may also follow the opener
+              {'C'}            # X, beginning counteraction
+              {'up'}           # XI, departure          (up-arrow)
+              {'D'}            # XII, first donor function
+              {'E'}            # XIII, hero's reaction  (E, pos. or neg.)
+              {'F'}            # XIV, receipt of agent
+              {'G'}            # XV, spatial transference
+              {'H'}            # XVI, struggle
+              {'J'}            # XVII, branding
+              {'I'}            # XVIII, victory
+              {'K'}            # XIX, liquidation
+              {'down'}         # XX, return             (down-arrow)
+              {'Pr'}           # XXI, pursuit
+              {'Rs'}           # XXII, rescue
+              {'o'}            # XXIII, unrecognized arrival
+              {'L'}            # XXIV, unfounded claims
+              {'M'}            # XXV, difficult task
+              {'J'}            # XVII, branding again -- p.104 writes the
+                               #   task run as M J N. Function XVII holds two
+                               #   slots: XVII.1 the combat wound in the
+                               #   struggle run, XVII.2 the ring or towel here.
+                               #
+                               #   THIS SLOT OVER-GENERATES, AND THE COST IS
+                               #   STATED RATHER THAN REPAIRED. Every slot in
+                               #   this tail is independently optional, so
+                               #   nothing requires M to have been consumed
+                               #   before this slot is reached: K J and
+                               #   Pr Rs J are admitted, though Propp licenses
+                               #   J in neither place. A J before XVI is still
+                               #   refused, so the widening is bounded to the
+                               #   span XVII through XXV.
+                               #
+                               #   It is NOT inexpressible. { 'M' {'J'} } {'N'}
+                               #   states the dependency, stays regular, and
+                               #   still admits M without N. It is not written
+                               #   that way because falsify44.py reads this
+                               #   file by harvesting terminals in production
+                               #   order and walking a flat slot sequence; it
+                               #   does not parse nested structure. Writing the
+                               #   nested form here would make this file claim
+                               #   what its runner does not enforce, which is
+                               #   the divergence the run-time read exists to
+                               #   prevent. Tightening it means rebuilding the
+                               #   recognizer, not editing this line.
+                               #
+                               #   The grammar is a FALSIFIER: over-generation
+                               #   costs discriminating power and cannot
+                               #   produce a false failure. All 84 move-strings
+                               #   hold their verdict. What it weakens is the
+                               #   one claim this grammar makes, which is
+                               #   order, for one function, across nine slots.
+              {'N'}            # XXVI, solution
+              {'Q'}            # XXVII, recognition
+              {'Ex'}           # XXVIII, exposure
+              {'T'}            # XXIX, transfiguration
+              {'U'}            # XXX, punishment
+              {'W'}            # XXXI, wedding / reward
+
+
+# ----------------------------------------------------------------------------
+# THE ALPHABET  (harvested from the corpus; not a source of constraints)
+# ----------------------------------------------------------------------------
+# Base symbols, from Appendix IV and confirmed present in the corpus. Case is
+# significant (Propp: capital = full form, lower = weakened/rudimentary).
+#   crisis      A  a           (villainy / lack)
+#   connectors  B  C
+#   arrows      up = departure(XI)   down = return(XX)   [OCR-invisible; ink]
+#   donor       D  E  F
+#   transfer    G           (XV, spatial transference)
+#   struggle    H  J  I
+#   liquidation K
+#   pursuit     Pr Rs
+#   arrival     o  L
+#   task        M  N
+#   endgame     Q  Ex T  U  W
+#
+# G IS NOT IN THE DONOR GROUP. p.65 gives Propp's donor functions as
+# D E F. This block formerly listed G among them. No production was
+# affected -- v44's tail braces each function independently -- but the
+# set held one file saying DEFG and one saying DEF. Finding AD.
+#
+# ANNOTATIONS on a base (harvested, carried, NOT constrained):
+#   superscript variety digit        A⁹, D¹         (Propp's type index)
+#   subscript                        F₄, B₂
+#   sign  + / -                      E₋, K₋         (pos./neg. result, p.116)
+#   bracket  [X]                     a lack/element not underscored (p.116)
+#   prefix  *                        *N *A *D       (Propp's structural mark)
+#   compound sub+super               F₉⁶            (licensed for F, App. IV)
+#   KF                               liquidation in form F (App. IV; tales 136,161)
+#
+# The parser reduces every annotated token to its base symbol before checking
+# order (runTale). Annotations are validated for legality, never for sequence.
+
+
+# ----------------------------------------------------------------------------
+# CORPUS NOTATION  (Propp's printed punctuation, not operators of this grammar)
+# ----------------------------------------------------------------------------
+# The move-strings this grammar describes carry punctuation Propp himself
+# printed. It belongs to the object language, not to the EBNF above. Stage 1
+# does NOT discharge it: resolve.py's own note records that a brace "stays for
+# the parser to handle", and the braces survive into ResolvedMoves.txt, where
+# falsify44.py consumes them.
+#
+#   { A / B }   marked repetition: a function or group, repeated "in various
+#               aspects", set one under another.
+#               p.116 (Ch. IX n.4): "If functions, or a group of them, are
+#               repeated in various aspects, such a repetition is designated
+#               by the addition of repetitive elements, one under another."
+#               The order check reads each alternative from the current floor
+#               and afterwards takes the floor to the highest rank the brace
+#               reached. A brace is therefore what licenses a later-numbered
+#               function to precede an earlier one.
+#               The Law of Omission applies INSIDE a repetition too: the
+#               repeated blocks need not be identical and each may omit
+#               elements (tale 132 II, 137 II).
+#
+#   [ X ]       a lack or element not underscored (p.116), listed among the
+#               annotations above and named here because it is punctuation of
+#               the same class.
+#
+# Both glyphs also appear in the EBNF above, where { } is zero-or-more and [ ]
+# is optional. Nothing is ambiguous, because no program reads both levels:
+# regression.py and parse.py read this file, falsify44.py reads the
+# move-strings.
+
+
+# ----------------------------------------------------------------------------
+# DELIBERATELY NOT ASSERTED
+# ----------------------------------------------------------------------------
+# The following were axioms in v43. Each was falsified (logic doc S5) and is
+# OMITTED ON PURPOSE. Their absence is a decision, recorded here so it cannot be
+# mistaken for an oversight, and so that no future edit reintroduces them
+# without confronting this list.
+#
+#   1. K is mandatory.                 NO. p.92 lists W, K, Rs, F as
+#                                      ALTERNATIVE denouements. Rejected 15/20.
+#   2. At most one donor cycle.        NO. Repetition is Propp's own, p.116.
+#   3. E- / F- are not real functions. NO. E is defined "positive or negative",
+#                                      App. IV p.151.
+#   4. D must precede E.               NO order-pairing is obligatory (Omission).
+#   5. E must be followed by F.        NO.
+#   6. H must precede I.               NO. (H-I is a pair, but the SECOND half
+#                                      may stand alone: p.29.)
+#   7. M must precede N.               NO. Propp documents preliminary solution
+#                                      *N with no M: commentary p.145.
+#   8. Ex must be preceded by o or L.  NO.
+#
+# The paired-function tendency (p.29: "the second half of the paired
+# function can exist without the first") is DIRECTIONAL and HEDGED ("usually").
+# It is therefore NOT encoded as a constraint. It is a candidate the corpus may
+# test (logic doc S4), not a rule the grammar enforces.
+
+
+# ----------------------------------------------------------------------------
+# WHAT THIS GRAMMAR CAN BE WRONG ABOUT
+# ----------------------------------------------------------------------------
+# Being regular with a single obligation, this grammar rejects a move-string in
+# exactly one way: a token appears OUT OF CANONICAL ORDER (a later-numbered
+# function preceding an earlier one, with no repetition brace to license it),
+# or a move does not open on A/a/B.
+#
+# That is the entire falsifiable content. If a PRINTED, non-overflow move-string
+# is rejected, then either its reading is wrong, or Propp's order thesis does
+# not hold for that move -- and the latter would be a finding about Propp, not
+# a bug to patch. Overflow cells are excluded from the order check (they are
+# position-undetermined, p.145 footnote; logic doc S9).

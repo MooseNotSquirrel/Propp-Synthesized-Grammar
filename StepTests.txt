@@ -1,0 +1,71 @@
+# StepTests.txt -- the frozen tests of SynthesizedProppGrammar
+#
+# Every test is written BEFORE the step it tests is built, and names its
+# source. A test binds from its step onward; runSteps.py runs the tests for
+# the steps built so far and counts the rest as pending.
+#
+# A TEST IS NEVER EDITED TO FIT A RESULT. A test found to be wrong is
+# commented out with a dated line saying why, and its correction is added
+# below it, so the record shows what was believed before the run.
+#
+# Format:   step | kind | arguments | source
+# Kinds:    equivalent, accept, reject, ll1  (see runSteps.py)
+# Tokens:   v44's terminals, with up and down for Propp's arrows and the
+#           Greek glyphs for the preparatory functions. Varieties and signs
+#           are dropped: the tests are about order, not variety.
+
+
+# ---------------------------------------------------------------------------
+# STEP 1. Regroup v44 into Propp's pairs and groups.  LANGUAGE-PRESERVING.
+# Grammar: SynthesizedGrammar01.txt, start move.
+# ---------------------------------------------------------------------------
+
+1 | equivalent | ProppEBNF44.txt SynthesizedGrammar01.txt | the step adds structure and no strings: FO point 1, FQ adjustment 1
+1 | ll1 | SynthesizedGrammar01.txt J | v44's one conflict, the two J slots of p.104 (XVII.1 struggle, XVII.2 task), is inherited; regrouping may not introduce another
+
+
+# ---------------------------------------------------------------------------
+# STEP 2. Add the tale layer: the preparatory section, then sequential
+# moves.  LANGUAGE-CHANGING, so these tests are frozen now.
+# Grammar: SynthesizedGrammar02.txt, start tale.
+# Nothing here is testable against Appendix III, which prints no
+# preparatory function (p.116). The sources are Propp's text.
+# ---------------------------------------------------------------------------
+
+2 | equivalent | ProppEBNF44.txt SynthesizedGrammar02.txt --start-b move | the move layer still accepts exactly v44's strings: FQ adjustment 3
+2 | accept | SynthesizedGrammar02.txt "A" | a tale may open on the villainy with no preparatory section: every Appendix III scheme does, and p.108 says an absence here is never an omission
+2 | accept | SynthesizedGrammar02.txt "α A" | the initial situation is not a function but precedes the tale's functions, p.25
+2 | accept | SynthesizedGrammar02.txt "α γ β δ A" | tale 113 as Propp analyzes it, pp.96-97, items 1 to 6: initial situation, interdiction, departure of the elders, motivation, violation, villainy
+2 | accept | SynthesizedGrammar02.txt "γ β δ A B C up I K down" | the wolf and the kids, Propp's printed scheme at p.101: γ¹β¹δ¹A¹B⁴C↑I⁶K¹↓
+2 | accept | SynthesizedGrammar02.txt "α β γ δ A" | p.26: the tale generally mentions an absentation first and then an interdiction
+2 | accept | SynthesizedGrammar02.txt "δ A" | the second half of a preparatory pair stands alone: violation without interdiction, p.27 (catalog 6.1)
+2 | accept | SynthesizedGrammar02.txt "ζ A" | delivery without reconnaissance, p.29 (catalog 6.1)
+2 | accept | SynthesizedGrammar02.txt "θ A" | complicity without trickery, p.30 (catalog 6.1)
+2 | accept | SynthesizedGrammar02.txt "A K a K" | moves may follow one another, p.92; each new villainy or lack creates a new move
+2 | reject | SynthesizedGrammar02.txt "β γ δ" | a tale is a development proceeding from villainy or lack, p.92: a preparatory section with no move is not a tale
+#
+# OPEN, FOR THE OWNER BEFORE STEP 2 IS BUILT:
+#   p.108: "all seven functions of this section are never encountered
+#   within one tale". Written as  reject "β γ δ ε ζ η θ A"  it would turn
+#   Propp's observation into a rule of the grammar. FO point 3 warns that
+#   this may overstate him.
+#   Whether a preparatory function may stand before a second move, as in
+#   "A K γ δ a K". No test is written until a page is found either way.
+
+
+# ---------------------------------------------------------------------------
+# STEP 3. Internalize p.108's exchange of the four closing functions.
+# LANGUAGE-CHANGING. Grammar: SynthesizedGrammar03.txt, start move.
+# The reading is FN's, the one the set has always used: recognition,
+# exposure, marriage and punishment may exchange positions among themselves.
+# On the narrow reading, swaps only within each named pair, the test on
+# "A K U Q W" would be a reject, and the step must name its reading.
+# Where T stands relative to the four is not settled by p.108's exchange
+# sentence and is left to the step.
+# ---------------------------------------------------------------------------
+
+3 | accept | SynthesizedGrammar03.txt "A K Q Ex T U W" | the canonical order stays accepted, pp.62-63
+3 | accept | SynthesizedGrammar03.txt "A K Ex Q" | p.108: recognition and exposure exchange; holds on either reading
+3 | accept | SynthesizedGrammar03.txt "A K W U" | p.108: marriage and punishment exchange; holds on either reading
+3 | accept | SynthesizedGrammar03.txt "A K U Q W" | p.108 on FN's reading: 139 II ends U Q W
+3 | reject | SynthesizedGrammar03.txt "A U K" | the exchange is among the four closing functions only; punishment before liquidation stays out of order, p.22

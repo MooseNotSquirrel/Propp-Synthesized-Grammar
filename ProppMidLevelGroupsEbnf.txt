@@ -1,0 +1,349 @@
+# PROPP MID-LEVEL GROUPS GRAMMAR
+# ============================================================================
+# Written from Propp's TEXT ALONE. Nothing here is induced from the
+# tales. Every grouping below cites Propp by page (2nd ed., trans.
+# Laurence Scott, Austin: University of Texas Press, 1968);
+# CitationIndex.md gives what stands on each page.
+#
+# This file adds NO constraint to ProppEBNF44.txt. It names the
+# groupings Propp himself asserts and leaves the language unchanged, so
+# it inherits v44's verdict on the corpus -- 69 of 84 -- rather than
+# earning a separate one. The single exception is the preparatory
+# production, which v44 does not carry and which this corpus cannot
+# test: the Greek glyphs occur zero times in Appendix III, and Propp
+# gives his reason at p.116.
+#
+# ON THE FREEZE. This file was written AFTER v44 met the corpus, so it
+# is not frozen in the sense the two grammars are. The discipline is
+# met in substance instead: it adds no constraint, so there is nothing
+# here that a corpus result could have suggested. That is checkable
+# rather than asserted -- expand every nonterminal and the terminal
+# sequence is v44's, symbol for symbol, as set out at the foot.
+#
+# WHY IT EXISTS. The semantic bundling argument needs a formal object to
+# point at. v44 is a flat regular language with no constituency at all;
+# v45C is a competence grammar of pairs, linkage and succession. Neither
+# states, in one place, which functions Propp groups and where he says so.
+# This file does that and nothing else.
+# ============================================================================
+
+
+# ----------------------------------------------------------------------------
+# NOTATION -- THE BRACES HERE ARE EBNF, NOT PROPP'S
+# ----------------------------------------------------------------------------
+# Four distinct senses of { } sit side by side in this project: Propp's
+# printed brace, the corpus delimiter, the EBNF operator, and the
+# project's prose use. They are not the same sign twice.
+#
+# In THIS file:
+#
+#   A = x    a production: the nonterminal A is defined as x.
+#   'x'      a terminal: one of Propp's function symbols, matched
+#            literally. The grammar consumes symbol-tokens, not text
+#            characters.
+#   [ X ]    EBNF optional: zero or one.
+#   { X }    EBNF repetition: zero or more.
+#   X Y      concatenation: X precedes Y.
+#   # ...    a comment to end of line; not part of the grammar.
+#
+# Terminals take SINGLE quotes. Matter quoted from the printed book
+# appears only behind a # marker and takes DOUBLE quotes.
+#
+# The ';' an EBNF compiler expects at the end of a production is omitted
+# for readability, as in v44. There is no ambiguity, and it can be put
+# back to compile the file.
+
+
+# ----------------------------------------------------------------------------
+# WHAT THIS FILE CLAIMS, AND WHAT IT DOES NOT
+# ----------------------------------------------------------------------------
+# IT CLAIMS: that the nine combination productions below are groupings
+# Propp asserts, each at the page cited on its line. The other two
+# productions, move and opener, are carried unchanged from v44 and
+# claim nothing this file has not already claimed.
+#
+# IT DOES NOT CLAIM ORDER BEYOND v44's. The sequence written in the top
+# production is Propp's own function numbering, III-XXXI at pp.26-66,
+# which v44 already carries. The permitted deviations at pp.107-108 --
+# H-I after Pr-Rs, the Q/Ex against W/U exchange, T anywhere -- are
+# claims about ORDER. They are v44's business and are restated in
+# ProppCompetence45C.txt's permit block. This file neither asserts nor
+# denies them.
+#
+# IT DOES NOT CLAIM EXCLUSIVITY BETWEEN THE TWO DEVELOPMENT RUNS. See
+# THE BRANCH below.
+#
+# IT IS BOUND TO THE COMPETENCE LAYER. Where this file and v44 differ
+# about a linear order, ProppCompetence45C.txt and its derived spec
+# ProppCompetence45CDagEbnf.txt govern. v44 is the performance grammar
+# and a secondary constraint here.
+
+
+# ----------------------------------------------------------------------------
+# THE PRODUCTIONS
+# ----------------------------------------------------------------------------
+
+move        = [ 'α' ]           # tale-level, not a function, and NOT
+                                #   braced. See THE PREPARATORY SECTION
+              preparatoryGroup  #   β   γ δ   ε ζ   η λ θ
+              complicationGroup #   A|a|B   B   C   up
+              donorGroup        #   D   E   F
+              {'G'}             # XV, spatial transference -- loose
+              struggleGroup     #   H   J   I
+              {'K'}             # XIX, liquidation -- loose
+              {'down'}          # XX, return -- loose
+              pursuitRescuePair #   Pr   Rs
+              {'o'}             # XXIII, unrecognized arrival -- loose
+              {'L'}             # XXIV, unfounded claims -- loose
+              taskGroup         #   M   J   N
+              {'Q'}             # XXVII, recognition -- loose
+              {'Ex'}            # XXVIII, exposure -- loose
+              {'T'}             # XXIX, transfiguration -- loose
+              {'U'}             # XXX, punishment -- loose
+              {'W'}             # XXXI, wedding / reward -- loose
+
+
+# --- the preparatory section: p.80 and Appendix I Table II, p.121 ---
+# p.80 gives the section in a parenthesis, in Propp's own notation, as
+# (β, γ-δ, ε-ζ, η-θ): one single function and three hyphenated pairs.
+# Appendix I Table II is TITLED The Preparatory Section. That is Propp
+# grouping groups, which is why this is the one nested object in an
+# otherwise flat file. See THE PREPARATORY SECTION below for what each
+# of the two warrants does and does not carry.
+
+preparatoryGroup
+            = {'β'}             # I, absentation -- the one member
+                                #   of the section belonging to no
+                                #   pair (p.65)
+              gammaDeltaPair
+              epsilonZetaPair
+              etaLambdaThetaGroup
+
+gammaDeltaPair
+            = {'γ'}             # II, interdiction
+              {'δ'}             # III, violation                  # p.80
+
+epsilonZetaPair
+            = {'ε'}             # IV, reconnaissance
+              {'ζ'}             # V, delivery                     # p.80
+
+etaLambdaThetaGroup
+            = {'η'}             # VI, trickery
+              {'λ'}             # preliminary misfortune # Table II item 44
+              {'θ'}             # VII, complicity
+
+
+# --- the complication: Propp's ABC-up, pp.64-65 ---
+# The opener is the ONE obligation Propp asserts (p.92, p.37) and is
+# carried unchanged from v44.
+
+complicationGroup
+            = opener
+              {'B'}             # IX, mediation -- may also follow the opener
+              {'C'}             # X, beginning counteraction
+              {'up'}            # XI, departure           # pp.64-65
+
+opener      = 'A' | 'a' | 'B'
+
+
+# --- the donor sequence: Propp's DEF, p.65 ---
+# G is NOT a member. p.65's group is D E F. G is a function with
+# connective behaviour, not a connective in Propp's technical sense, and
+# it carries no connective sign; it stands loose in the top production.
+
+donorGroup  = {'D'}             # XII, first donor function
+              {'E'}             # XIII, hero's reaction
+              {'F'}             # XIV, receipt of agent   # p.65
+
+
+# --- the two development runs: p.104 ---
+# p.104 sums the two schemes as H J I and M J N. Function XVII is seated
+# in both: XVII.1 is the combat wound, XVII.2 the ring or towel. The
+# Group naming follows the convention -- two members take namePair,
+# three or more take nameGroup -- and is what keeps the label honest,
+# since the grammar cannot call J a member of Propp's pair at p.64.
+
+struggleGroup
+            = {'H'}             # XVI, struggle
+              {'J'}             # XVII.1, branding
+              {'I'}             # XVIII, victory          # p.104, p.64
+
+taskGroup   = {'M'}             # XXV, difficult task
+              {'J'}             # XVII.2, branding
+              {'N'}             # XXVI, solution          # p.104, p.62
+
+
+# --- pursuit and rescue: Propp's pair, p.64 ---
+# 'down' (XX, return) is NOT a member. It stands loose on the same p.65
+# sentence that makes absentation individual.
+
+pursuitRescuePair
+            = {'Pr'}            # XXI, pursuit
+              {'Rs'}            # XXII, rescue            # p.64
+
+
+# ----------------------------------------------------------------------------
+# THE LOOSE FUNCTIONS
+# ----------------------------------------------------------------------------
+# Ten functions belong to no grouping Propp asserts:
+#
+#   G   K   down   o   L   Q   Ex   T   U   W
+#
+# This is not a residue. p.65 names the category himself: alongside the
+# combinations there are individual functions, and the examples he gives
+# are absentations, punishment and marriage -- U and W by their
+# designations. A function standing alone here is a function Propp says
+# stands alone.
+#
+# They are written into the top production at their canonical positions
+# and nowhere else. No container is placed round them. An earlier draft
+# proposed one, under the name closure, for Ex T U W; it was declined
+# because it would have asserted a grouping with no page, and because
+# p.65 says the opposite for two of its four members.
+
+
+# ----------------------------------------------------------------------------
+# TWO PAIRS THIS NOTATION CANNOT CARRY
+# ----------------------------------------------------------------------------
+# ABSENT AND ABSENT-BUT-IMPLIED ARE THE SAME STRING HERE. p.27 is the
+# case: an interdiction may be inferable from the violation that follows
+# it without being told. A grammar over token streams cannot separate a
+# gamma that is absent-but-implied from a gamma that is simply absent,
+# because both produce the same string. {'γ'} {'δ'} above is right for
+# p.27 and says nothing whatever about why a gamma is missing. It is NOT
+# a claim that the interdiction is dispensable. Propp's own distinction
+# is sharper than the notation: inside a pair, omission -- absence that
+# leaves a trace; between pairs, substitution -- absence because one
+# phenomenon can be elicited by several means and another pair did the
+# work. Neither is expressible in a brace.
+#
+# A AND K ARE A PAIR, AND IT SPANS THE MOVE. p.53 states that
+# liquidation constitutes a pair with villainy. The two are not adjacent
+# and cannot be bracketed together here: A opens the move inside
+# complicationGroup and K stands loose fourteen positions later, placed
+# POSITIONALLY and not by its pairing. The binding is carried by
+# ProppCompetence45C.txt, which states it as a pair and predicts that
+# its linkage fails at a nonzero rate increasing with the distance from
+# A to K. That is a competence claim about linkage, not an order claim,
+# and it belongs there rather than here.
+#
+# Neither omission is an oversight. Both are cases where Propp says more
+# than this notation can hold, and saying so in prose is the only
+# honest way to carry them.
+
+
+# ----------------------------------------------------------------------------
+# TREBLING, AND WHY EVERY FUNCTION IS BRACED
+# ----------------------------------------------------------------------------
+# Trebling is treated in Propp as a general property of the tale, not as a
+# property of particular functions. At p.74 he declines to elaborate on it,
+# referring the reader to existing scholarship, and names the levels at
+# which it occurs: attributive details, individual functions, pairs of
+# functions, groups of functions, and entire moves. He exempts no function.
+# Every function is therefore braced here. { X } declines to forbid a
+# repetition Propp nowhere forbids; it asserts no repetition, and for most
+# functions the corpus shows none. At p.75 trebling receives its own sign,
+# three vertically stacked dots, ⋮ (U+22EE), glossed in Appendix IV at p.155 as
+# connectives trebled. That sign occurs in no body cell of this corpus, so
+# no brace in this file is exercised by Appendix III.
+
+
+# ----------------------------------------------------------------------------
+# THE PREPARATORY SECTION -- FOUR THINGS A READER MUST BE TOLD
+# ----------------------------------------------------------------------------
+# 1. THERE ARE TWO WARRANTS, AND NEITHER IS A FREESTANDING ACT OF
+#    GROUPING. p.80 gives the section as (β, γ-δ, ε-ζ, η-θ), but the
+#    sentence it sits in is about how the preparatory functions are
+#    distributed among the seven dramatis personae, and the grouping is
+#    carried inside the parenthesis. A reader who looks p.80 up will
+#    find it in passing, in a chapter on spheres of action, and should
+#    be told so here rather than discover it there. The second warrant
+#    is the stronger of the two: Appendix I Table II, p.121, is TITLED
+#    The Preparatory Section and tabulates items 24 to 45 under that
+#    heading, which is Propp naming the unit rather than notating it.
+#    Table II does NOT pair the members -- its headings are single
+#    functions, and absentations stand between interdictions and
+#    violation -- so the pairing rests on p.80 alone and the title
+#    rests on Table II alone. No other grouping in this file has two
+#    warrants, which is why the preparatory production is the one place
+#    where a group contains groups.
+#
+# 2. p.80 GIVES eta-theta AS A PAIR, AND THIS FILE INSERTS LAMBDA. The
+#    unit written above is eta, lambda, theta. The warrant is Table II
+#    item 44's own wording, which confines the preliminary misfortune to
+#    the deceptive agreement, plus the sense argument: the misfortune is
+#    what compels the assent, so it cannot follow it. It is NOT the
+#    consecutiveness of Table II items 43, 44 and 45. A reader
+#    collating p.80 against this file will find a difference, and this
+#    is it, stated rather than concealed.
+#
+# 3. ALPHA IS OUTSIDE EVERYTHING. Propp formalises the initial situation
+#    as Appendix I Table I, whose first item is temporal-spatial
+#    determination, but writes at p.25 that a tale USUALLY begins with
+#    one, and on that page that although it is not a function it is an
+#    important morphological element. It is therefore outside
+#    preparatoryGroup and outside every grouping here, and it takes
+#    [ ] and not { }: it is optional and it is not trebled.
+#    Second ground: this grammar describes ONE MOVE, alpha is
+#    tale-level, and a required alpha would reject every move after the
+#    first in every multi-move tale.
+#
+# 4. THE SECTION IS UNTESTABLE FROM THIS CORPUS. The Greek glyphs occur
+#    zero times in PublicationGridMaster.txt, TaleTokenStreamsV4Utf8.txt
+#    and ResolvedMoves.txt. Propp's reason is at p.116: the preparatory
+#    functions are "not included ... due to lack of space". The
+#    preparatory production is therefore the one claim in this file that
+#    the corpus can neither confirm nor refute, and it is the one place
+#    where this file goes beyond v44, which omits the section
+#    deliberately for the same reason.
+#
+# NO EXCLUSION IS ENCODED. p.108 reports that all seven preparatory
+# functions never co-occur. p.109 explains it by economy, and economy is
+# a fact about how tellers behave, not about what the structure permits;
+# p.109 concedes several pairs together and Propp hedges the absolute in
+# the next sentence. The datum is recorded here; the grammar declines to
+# encode it.
+
+
+# ----------------------------------------------------------------------------
+# THE BRANCH -- WHY THERE IS NO branch NONTERMINAL
+# ----------------------------------------------------------------------------
+# The warrant for one exists. It is not the reason it is absent.
+#
+# p.102 gives four classes of development: through H-I, through M-N,
+# through both, and through neither. ColumnLayout.md records that
+# Propp's own table in Appendix III shares the H/M and I/N columns, so a
+# move using both runs cannot be printed at all.
+#
+# Neither is a claim this notation can carry. Written as an alternation,
+# branch = struggleGroup | taskGroup admits two of Propp's four classes
+# and forbids the other two. Written correctly as two independent
+# optionals it constrains nothing, and a nonterminal round it would be a
+# name over an empty constraint. The four classes are a DISTRIBUTION
+# claim -- Propp attaches rates, H-I 41, M-N 33, both 3 per hundred --
+# and ProppCompetence45C.txt already states it as an expectation, with
+# the both-branch path permitted and marked rather than rejected. That
+# is the right layer and the right modality.
+#
+# The column sharing is a fact about Propp's NOTATION, not his language.
+# Its consequence is recorded: the both-branch rate is zero across the
+# 84 resolved moves of this corpus because Appendix III cannot represent
+# the cases, and Ch.IX n.3 names the moves Propp set aside for that
+# reason. Reading a constituent out of the limits of his table would be
+# inferring structure from an artifact.
+
+
+# ----------------------------------------------------------------------------
+# CORRESPONDENCE WITH v44
+# ----------------------------------------------------------------------------
+# Expand every nonterminal above and the terminal sequence is v44's,
+# symbol for symbol and in the same order:
+#
+#   A|a|B  B  C  up  D  E  F  G  H  J  I  K  down  Pr  Rs  o  L  M  J
+#   N  Q  Ex  T  U  W
+#
+# with the preparatory terminals and alpha prefixed, which v44 does not
+# carry. 'up' and 'down' are spelled as v44 spells them so the two files
+# compare directly. Nothing else differs: this file introduces no
+# terminal v44 lacks, removes none it has, and changes no optionality.
+# It is v44's language with Propp's groupings named.
