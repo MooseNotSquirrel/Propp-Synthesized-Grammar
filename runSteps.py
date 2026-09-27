@@ -35,6 +35,10 @@ Kinds, one test per line as  step | kind | arguments | source :
   catalogfunctions C "n,..." the catalog C's section "Functions" has
                             exactly the listed entries, in that order,
                             and every entry gives a page
+  catalogmeanings C         every entry of the catalog C's sections
+                            "Groups and pairs" and "Functions" gives a
+                            literal meaning and a cultural meaning, and
+                            none gives a bare meaning
   derivation                embedCorpus.py's tale derivation calibrates
                             against resolve.py
   talefails G "t,..."       parsed by embedCorpus.py over the 45 whole
@@ -254,6 +258,21 @@ def run(kind, args):
         return got == (kind == 'under'), '%s: %s' % (tok, ' > '.join(chain))
     if kind == 'catalog':
         return catalog(*args)
+    if kind == 'catalogmeanings':
+        text = open(args[0], encoding='utf-8').read()
+        missing, bare, n = [], [], 0
+        for section in ('Groups and pairs', 'Functions'):
+            m = re.search(r'^## %s\s*$(.*?)(?=^## |\Z)' % section, text, re.M | re.S)
+            for block in re.split(r'^(?=### `)', m.group(1) if m else '', flags=re.M)[1:]:
+                n += 1
+                name = re.match(r'### `(\w+)`', block).group(1)
+                if '**Literal meaning:**' not in block or '**Cultural meaning:**' not in block:
+                    missing.append(name)
+                if '**Meaning:**' in block:
+                    bare.append(name)
+        problems = (['without both: ' + ' '.join(missing)] if missing else []) + \
+                   (['bare Meaning: ' + ' '.join(bare)] if bare else [])
+        return not problems, '%d entries' % n + ('; ' + '; '.join(problems) if problems else '')
     if kind == 'catalogfunctions':
         text = open(args[0], encoding='utf-8').read()
         m = re.search(r'^## Functions\s*$(.*?)(?=^## |\Z)', text, re.M | re.S)

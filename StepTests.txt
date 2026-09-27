@@ -472,3 +472,13 @@
 10 | reject | ProppEBNF46.txt+dundes@consequenceTale "γ U" | v43: the event is a violation, so an interdiction alone is none
 10 | reject | ProppEBNF46.txt+dundes@consequenceTale "A K" | v43: genres are separate; a magic move is not a consequence tale
 10 | reject | ProppEBNF46.txt+dundes "γ δ U" | the magic-tale root does not take a consequence tale
+
+# ---------------------------------------------------------------------------
+# LITERAL AND CULTURAL MEANING, by the owner's decision. Frozen 2026-09-27
+# before the catalog was relabeled. Each entry's meaning becomes its
+# literal meaning, what a reader first takes it to say, and gains a
+# cultural meaning, what it does for the people who tell and hear the
+# tale. The cultural meanings are drafts for the owner's review.
+# ---------------------------------------------------------------------------
+
+10 | catalogmeanings | SemanticCatalog46.md | every group, pair and function carries a literal and a cultural meaning
