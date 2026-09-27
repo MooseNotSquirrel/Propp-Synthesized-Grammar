@@ -47,6 +47,10 @@ A grammar's start symbol is its first production. A token outside a
 grammar's alphabet makes the string rejected. An argument written
 TAG:FILE names FILE as it stood at git tag TAG, so a test can compare the
 grammar with an earlier step of itself, e.g. step4:ProppEBNF46.txt.
+An argument written FILE+NAME,... names FILE with its commented-out
+extensions NAME switched on: lines beginning '#+NAME ' are uncommented and
+lines ending '#-NAME' are commented out. FILE@START parses from START
+instead of the first production. The two combine: FILE+dundes@consequenceTale.
 
 Exit 0 every binding test passes, 1 otherwise, 2 on a malformed test file.
 """
@@ -151,10 +155,36 @@ def accepts(path, toks):
     return accept[q]
 
 
+def switched(path, on, start):
+    """A temporary copy of path with extensions switched on and a start."""
+    lines = []
+    for ln in open(path, encoding='utf-8').read().split('\n'):
+        body = ln.rstrip('\r')
+        for name in on:
+            if body.lstrip().startswith('#+%s ' % name):
+                body = body.lstrip()[len('#+%s ' % name):]
+            elif body.rstrip().endswith('#-%s' % name):
+                body = '# ' + body
+        lines.append(body)
+    text = '\n'.join(lines)
+    if start:
+        text = 'startHere = %s\n' % start + text
+    fd, tmp = tempfile.mkstemp(suffix='_switched.txt')
+    with os.fdopen(fd, 'w', encoding='utf-8') as fh:
+        fh.write(text)
+    return tmp
+
+
 def tagged(args):
-    """Replace each TAG:FILE argument with a temporary copy of that version."""
+    """Replace each TAG:FILE argument with a temporary copy of that version,
+    and each FILE+NAME,...@START with a copy switched as it names."""
     out = []
     for a in args:
+        s = re.match(r'^(?P<file>[^+@]+?)(?:\+(?P<on>[\w,]+))?(?:@(?P<start>\w+))?$', a)
+        if s and (s.group('on') or s.group('start')) and os.path.exists(s.group('file')):
+            out.append(switched(s.group('file'), (s.group('on') or '').split(',') if s.group('on') else [],
+                                s.group('start')))
+            continue
         m = re.match(r'^(step\d+):(.+)$', a)
         if not m:
             out.append(a)

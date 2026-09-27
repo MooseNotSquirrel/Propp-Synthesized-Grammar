@@ -426,3 +426,49 @@
 9 | under | ProppEBNF46.txt "up D E F A K" 0 BeforeTheCrisis | p.107: the inverted sequence as one group before the crisis
 9-9 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: unchanged at 80 of 84, the parked cells still dropped (option 1); this also shows runCorpus.py working again on a recursive grammar
 9-9 | talefails | ProppEBNF46.txt "126,127,137,138" | PREDICTION: unchanged at 41 of 45
+
+# ---------------------------------------------------------------------------
+# STEP 10. v43's two genre extensions, overlaid and COMMENTED OUT, by the
+# owner's decision. Frozen 2026-09-27 before step 10 was built.
+# They ship commented out, as in v43, and switch on by editing: lines
+# beginning #+tragedy or #+dundes are the extension, lines ending #-tragedy
+# the default it replaces. FILE+NAME switches them on in a copy.
+#
+# TRAGEDY, v43: the combat ends not in victory but in a fall, exposure
+# then punishment, with no liquidation after it. ADAPTED: v46 no longer
+# makes K compulsory, so H Ex U would also read as a fight followed by
+# the false hero's exposure and punishment, a true ambiguity. The defeat
+# therefore takes its own sign, I-, after v43's own editorial negatives
+# E- F- N-, and the grammar stays LL(1).
+# DUNDES, v43: a consequence tale, its own genre, with no lack or
+# villainy: an event, an interdiction broken or an irreversible act Ad,
+# then a consequence, punishment or an environmental shift Td. CORRECTED
+# FROM v43: Dundes orders Consequence before Attempted Escape, the escape
+# being from the consequence, and Attempted Escape is his motifeme, not an
+# editorial one (first project, finding FH). v43 had the escape first.
+# ADAPTED: a separate root, consequenceTale, since a magic tale and a
+# consequence tale can both begin with α γ δ and one token cannot choose.
+#
+# PREDICTED: commented out, nothing changes; switched on, singly or
+# together, still LL(1); switching on only adds.
+# ---------------------------------------------------------------------------
+
+10-10 | equivalent | step9:ProppEBNF46.txt ProppEBNF46.txt --drop-a InterruptingMove --drop-b InterruptingMove | commented out, the extensions change nothing
+10 | ll1 | ProppEBNF46.txt+tragedy - | switched on, the tragic fall keeps the grammar LL(1): its defeat sign decides it
+10 | ll1 | ProppEBNF46.txt+dundes - | switched on, the consequence tale keeps the grammar LL(1): it is its own root
+10 | ll1 | ProppEBNF46.txt+tragedy,dundes - | both switched on, still LL(1)
+10 | equivalent | ProppEBNF46.txt ProppEBNF46.txt+tragedy --drop-a InterruptingMove --drop-b InterruptingMove,TragicFall | with the fall dropped, tragedy on is the shipped grammar: it only adds
+10 | accept | ProppEBNF46.txt+tragedy "A H J I- Ex U" | v43's tragic fall: the combat ends in defeat, exposure and punishment
+10 | accept | ProppEBNF46.txt+tragedy "a H I- Ex U" | v43: a seeker's tragedy too, the fall attaching to the combat, not the crisis
+10 | reject | ProppEBNF46.txt+tragedy "A H I- U" | v43: the fall is exposure then punishment, both required
+10 | reject | ProppEBNF46.txt "A H J I- Ex U" | commented out, the defeat sign is not in the grammar
+10 | under | ProppEBNF46.txt+tragedy "A H I- Ex U" 3 TragicFall | v43: in a tragedy the exposure is the hero's own, inside the fall
+10 | notunder | ProppEBNF46.txt+tragedy "A H I- Ex U" 3 Endgame | the tragic exposure is not the endgame's exposure of a false hero
+10 | accept | ProppEBNF46.txt+dundes@consequenceTale "γ δ U" | Dundes 1964: interdiction, violation, consequence
+10 | accept | ProppEBNF46.txt+dundes@consequenceTale "γ δ U Ae" | Dundes: consequence, then attempted escape from it
+10 | accept | ProppEBNF46.txt+dundes@consequenceTale "Ad Td" | v43: an irreversible act and a permanent change to the world
+10 | accept | ProppEBNF46.txt+dundes@consequenceTale "α δ U γ δ Td Ae" | v43: consequence moves in sequence, the interdiction optional before the violation
+10 | reject | ProppEBNF46.txt+dundes@consequenceTale "γ δ Ae U" | Dundes orders Consequence before Attempted Escape; v43's order is refused
+10 | reject | ProppEBNF46.txt+dundes@consequenceTale "γ U" | v43: the event is a violation, so an interdiction alone is none
+10 | reject | ProppEBNF46.txt+dundes@consequenceTale "A K" | v43: genres are separate; a magic move is not a consequence tale
+10 | reject | ProppEBNF46.txt+dundes "γ δ U" | the magic-tale root does not take a consequence tale

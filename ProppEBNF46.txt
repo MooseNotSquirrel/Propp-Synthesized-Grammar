@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 9. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
+# STATE: STEP 10. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -58,6 +58,11 @@
 # crisis. With it removed the grammar is exactly step 8, and it is still
 # LL(1). The corpus derivation still drops the parked cells left of A, so
 # no verdict moves: 80 of 84 moves, 41 of 45 tales.
+# Step 10 overlays v43's two genre extensions, tragedy and the Dundes
+# consequence tale, and ships them COMMENTED OUT, by the owner's decision.
+# Switched on, singly or together, they keep the grammar LL(1) and only add;
+# commented out, the grammar is exactly step 9. Each block says how to
+# switch it on and what was adapted or corrected from v43.
 #
 # Notation is v44's:
 #   A = x    a production: the nonterminal A is defined as x.
@@ -384,10 +389,35 @@ TestedAcquisition   = firstDonorFunction Between
                                             #   or on the hero's reaction,
                                             #   E, when D is omitted.
 
-Combat              = {struggle Between}
-                      {branding Between}
-                      {victory Between}   # p.104, the struggle scheme
+Combat              = {struggle Between}      #-tragedy
+                      {branding Between}      #-tragedy
+                      {victory Between}       #-tragedy
+                                            # p.104, the struggle scheme
                                             #   H J I; H-I a pair, p.64
+
+# --- TRAGEDY EXTENSION, from v43: COMMENTED OUT (step 10) ---
+# To switch it on: uncomment the four #+tragedy lines below, removing the
+# '#+tragedy ' prefix, and comment out the three Combat lines above that
+# end in #-tragedy. runSteps.py does both in a copy for ProppEBNF46.txt+tragedy.
+# WHAT IT ADDS, from v43: a combat that ends in the hero's downfall rather
+# than victory. The struggle is engaged, and perhaps branded, as in a warrior
+# tale, but ends in defeat, exposure and punishment. v43's cultural reading:
+# tragedy is not a separate genre but the shadow of the warrior tale, the
+# same rising action with force failing.
+# ADAPTED FOR v46: v43 kept the fall apart from the endgame by making K
+# compulsory. v46 does not, so H Ex U would also read as a fight followed by
+# the false hero's exposure and punishment, a true ambiguity. The defeat
+# therefore takes its own sign, I-, after v43's editorial negatives E- F-
+# N-, and the grammar stays LL(1). v43 also ended the move at the fall;
+# here nothing stops K or the return after it, since that would need the
+# fall to carry the rest of the move and cost the A-K span as a group.
+# THIS IS v43's PROPOSAL, NOT PROPP'S: no page licenses it, and no corpus
+# tests it. Switched on and tested, then commented out, by the owner's
+# decision.
+#+tragedy Combat              = {struggle Between} {branding Between} CombatEnd
+#+tragedy CombatEnd           = {victory Between} | TragicFall
+#+tragedy TragicFall          = defeat Between exposure Between punishment Between
+#+tragedy defeat              = 'I-'        # editorial, after v43's E- F- N-
 
 
 # --- after the liquidation ---
@@ -520,3 +550,43 @@ exposure               = 'Ex'               # XXVIII
 transfiguration        = 'T'                # XXIX
 punishment             = 'U'                # XXX
 wedding                = 'W'                # XXXI
+
+
+# ----------------------------------------------------------------------------
+# DUNDES EXTENSION, from v43: COMMENTED OUT (step 10)
+# ----------------------------------------------------------------------------
+# To switch it on: uncomment the #+dundes lines below, removing the
+# '#+dundes ' prefix. It adds a second root, consequenceTale; parse from it
+# to read a consequence tale. runSteps.py does both for
+# ProppEBNF46.txt+dundes@consequenceTale.
+# WHAT IT ADDS, from v43: a consequence tale, the genre Dundes (1964) found
+# in North American Indian tales where no lack or villainy drives the action
+# and no hero undoes it. An event, a violated interdiction or an
+# irreversible act, is followed by a consequence, a punishment or a
+# permanent change to the world. Tales holding Dundes's nuclear pair, lack
+# and lack liquidated, are already Propp's lack moves and need nothing here.
+# CORRECTED FROM v43, which wrote DundesMove = Event [attemptedEscape]
+# consequence and called attempted escape editorial. It is Dundes's own
+# motifeme, and he orders Consequence before Attempted Escape, the escape
+# being from the consequence (the first project's finding FH records his
+# ten motifemes and their order).
+# ADAPTED FOR v46: a separate root rather than an alternative at the top.
+# A magic tale and a consequence tale can both begin with α γ δ, so one
+# token cannot choose between them; the genre is chosen as a collection
+# chooses it, before the tale is read. v43 separated the genres at the root
+# for the same reason of coherence.
+# Ad and Td are v43's editorial signs, Ad for an act that disrupts the world
+# as villainy does but that no hero undoes, Td for a permanent change to
+# the world as transfiguration changes the hero.
+# THIS IS v43's PROPOSAL AND DUNDES'S SEQUENCE, NOT PROPP'S. No corpus tests
+# it; finding FH records why no Dundes corpus exists and why his pairs,
+# floating freely against one another, forbid little. Switched on and
+# tested, then commented out, by the owner's decision.
+#+dundes consequenceTale      = [initialSituation] DundesMove {DundesMove}
+#+dundes DundesMove           = DundesEvent consequence [attemptedEscape]
+#+dundes DundesEvent          = [interdiction] violation | irreversibleAct
+#+dundes consequence          = punishment | environmentalShift
+#+dundes attemptedEscape      = 'Ae'        # Dundes's Attempted Escape
+#+dundes irreversibleAct      = 'Ad'        # editorial, v43
+#+dundes environmentalShift   = 'Td'        # editorial, v43
+

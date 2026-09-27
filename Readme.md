@@ -43,6 +43,7 @@ It handles grammars whose productions do not refer back to themselves, which cov
 | 7 | language-changing: embedded moves, a move pausing after any function for a whole inserted move, bracketed ⟨ ... ⟩, to any depth (p.93 methods 2 and 3) | built and tagged `step7`; 93 of 93 binding tests pass; context-free and still LL(1); with the pause removed, proved exactly step 6; **41 of 45 whole tales**, the four refused holding the genuine counterexamples |
 | 8 | language-changing: two more of p.93's methods at tale level, a common ending shared by two moves (method 5) and two seekers parting into two branches (method 6), in Propp's own signs } < Y | built and tagged `step8`; 104 of 104 binding tests pass; still LL(1); with both removed, proved exactly step 7; 41 of 45 tales unchanged |
 | 9 | language-changing: p.107's inverted sequence, the departure or the donor sequence before the crisis, the last license of pp.107-108 | built and tagged `step9`; 118 of 118 binding tests pass; still LL(1); with it removed, proved exactly step 8; by the owner's decision (option 1) the corpus derivation still drops the parked cells left of A, so no verdict moves |
+| 10 | v43's two genre extensions overlaid and COMMENTED OUT, by the owner's decision: tragedy (a combat ending in defeat, exposure and punishment, with its own defeat sign I-) and the Dundes consequence tale (its own root, Dundes's order of Consequence before Attempted Escape, correcting v43) | built and tagged `step10`; 132 of 132 binding tests pass; commented out, proved exactly step 9; switched on in a copy (`ProppEBNF46.txt+tragedy`, `+dundes@consequenceTale`), still LL(1) and only adding |
 
 **At step 4 the grammar accepts 80 of the 84 move-strings, ruling 48's target, and refuses only the four genuine counterexamples: 126 II, 127 I, 137 II and 138 III.**
 The corpus was first met at step 3: 72 of 84, against v44's 69.
@@ -74,7 +75,7 @@ The separator is editorial and follows Appendix III's layout of one row per move
 
 ## Next session: start here
 
-**State at the close of 2026-09-27: step 9, tagged `step9`, and nothing is half-done.**
+**State at the close of 2026-09-27: step 10, tagged `step10`, and nothing is half-done.**
 ALL THREE OF RULING 48'S TARGETS ARE MET.
 v46 accepts 80 of the 84 resolved move-strings, refusing only the four genuine counterexamples, 126 II, 127 I, 137 II and 138 III.
 It is LL(1) with no conflict, and `regression.py` passes it outright.
@@ -83,12 +84,12 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 9` prints `118 binding, 0 failed, 0 pending for later steps, 26 closed by an earlier step`.
+- `python runSteps.py 10` prints `132 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
 - `python regression.py ProppEBNF46.txt` prints `RESULT: ALL PASS`.
-- `git tag` lists `step1` to `step9`.
+- `git tag` lists `step1` to `step10`.
 
 ### The work, in the owner's order
 
