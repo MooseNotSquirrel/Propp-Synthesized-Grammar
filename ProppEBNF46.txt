@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 5.
+# STATE: STEP 6. THE GRAMMAR IS LL(1), with no conflict.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -37,9 +37,19 @@
 # corpus verdict stays 80 of 84. The F conflict stays: no lookahead
 # removes it while the father's agent and the donor's are separate
 # groups, and the choice is the owner's.
+# Step 6, by the owner's decision, merges the F groups: an F after the
+# donor's test is the tested agent, and every other F, the father's gift
+# included, is the untested agent. The token before each F now decides
+# its group, and the F conflict is gone. It CHANGES THE MOVE LAYER, only
+# adding strings: an untested agent may now be followed by a test, which
+# the narrow reading of step 4 refused. The corpus stays 80 of 84.
 #
-# Notation is v44's: A = x a production, 'x' a terminal, [X] optional,
-# {X} zero or more, X Y concatenation, | alternation, # a comment.
+# Notation is v44's:
+#   A = x    a production: the nonterminal A is defined as x.
+#   'x'      a terminal, one of Propp's function symbols.
+#   [X]      optional.     {X}  zero or more.
+#   X Y      concatenation.  X | Y  alternation.
+#   # ...    a comment to end of line; not part of the grammar.
 # The ';' an EBNF compiler expects is omitted for readability, as in v44.
 # ============================================================================
 
@@ -195,37 +205,46 @@ CrisisToLiquidation = complication Development {liquidation FloatingT}
 complication        = FloatingT MoveOpener FloatingT
                       {mediation FloatingT}
                       {beginningCounteraction FloatingT}
-                      [AgentBeforeDeparture]
-                      {departure FloatingT}
+                      [UntestedAcquisition]
+                      [ departure FloatingT {departure FloatingT}
+                        [UntestedAcquisition] ]
                                             # pp.64-65: villainy, dispatch,
                                             #   decision for counteraction
                                             #   and departure "(ABC↑),
                                             #   constitute the complication"
 
-# --- the domestic agent: p.108 (step 4) ---
-# p.108: "the transference of a magical agent sometimes occurs before the
-# hero leaves home. These are the cudgels, ropes, maces, and so forth,
-# given by the father." NARROW READING: the agent given at home is
-# followed by the departure, since the page defines it by leaving home,
-# so the production carries the departure with it. With no departure
-# following, an F is the donor's, in Vetting.
-# AN LL(1) CONFLICT ON F IS THE PRICE, AND NO LOOKAHEAD REMOVES IT WHILE
-# THE TWO F'S STAY IN DIFFERENT GROUPS. After C, a run of F's is this
-# production's if a departure follows and Vetting's if not. The tokens
-# F F ... F are the same either way until the run ends, and a top-down
-# parser must commit the first F to a group before any fixed lookahead
-# can see past a run of any length. This is the obstruction ruling 48
-# named: a symbol in two unguarded slots. Removing it means merging the
-# father's agent and the donor's into one group. Changing the reading of
-# p.108 alone does not: on a broad reading, an F before the departure
-# whether or not one follows, A C F G still has its F in two slots, and a
-# single F directly before the departure needs two tokens of lookahead.
-# Step 5 left the merge to the owner.
+# --- the agent, tested or untested (step 6) ---
+# EVERY F IS ONE OF TWO KINDS, AND THE TOKEN BEFORE IT SAYS WHICH. An F
+# that follows the donor's test, D or E, is the TESTED agent, the reward
+# of the donor episode, in Propp's DEF group (p.65). Every other F is the
+# UNTESTED agent, received with no test: the father's gift before the
+# departure, "cudgels, ropes, maces, and so forth, given by the father"
+# (p.108), or an agent that comes to hand on the road with no donor.
+# v43 names the two TestedAcquisition and UntestedAcquisition.
+#
+# WHY THE GROUPS ARE DRAWN HERE. Step 4 split the F's by whether a
+# departure followed a run of them, the father's agent against the
+# donor's. No lookahead can see past a run of any length, so that split
+# cost an LL(1) conflict on F. The owner chose to merge (step 6). With
+# the split drawn at the test instead, the D or E before an F decides its
+# group, and the grammar is LL(1).
+#
+# WHAT THE TREE NOW SAYS. The untested agent belongs to the setting out:
+# it stands inside the complication, before the departure and, once a
+# departure has been read, after it, which is the only place one token
+# can assign it. Propp's complication, ABC↑, thereby holds an optional
+# untested agent on either side of the ↑. The tested agent belongs to the
+# donor episode, in Development.
+#
+# WHAT IT COSTS. The language widens: an untested agent may be followed
+# by a test, as in A F D E, which step 4's narrow reading of p.108
+# refused. No page licenses it and none forbids it. Keeping the narrow
+# reading with LL(1) would mean taking ↑ out of the complication, which
+# is the one group in this span Propp names.
 
-AgentBeforeDeparture
-                    = receiptOfMagicalAgent FloatingT
+UntestedAcquisition = receiptOfMagicalAgent FloatingT
                       {receiptOfMagicalAgent FloatingT}
-                      departure FloatingT
+                                            # p.108; v43's name
 
 MoveOpener          = villainy              # p.92
                     | lack                  # p.92
@@ -234,13 +253,22 @@ MoveOpener          = villainy              # p.92
                                             #   incident opens the move
                                             #   (133 II)
 
-Development         = Vetting {spatialTransference FloatingT} Combat
+Development         = [TestedAcquisition] {spatialTransference FloatingT}
+                      Combat
 
-Vetting             = {firstDonorFunction FloatingT}
+TestedAcquisition   = firstDonorFunction FloatingT
+                      {firstDonorFunction FloatingT}
+                      {heroReaction FloatingT}
+                      {receiptOfMagicalAgent FloatingT}
+                    | heroReaction FloatingT
                       {heroReaction FloatingT}
                       {receiptOfMagicalAgent FloatingT}
                                             # p.65: DEF "also form something
-                                            #   of a whole". v43's name.
+                                            #   of a whole". v43's name;
+                                            #   before step 6, Vetting.
+                                            #   It opens on the test, D,
+                                            #   or on the hero's reaction,
+                                            #   E, when D is omitted.
 
 Combat              = {struggle FloatingT}
                       {branding FloatingT}

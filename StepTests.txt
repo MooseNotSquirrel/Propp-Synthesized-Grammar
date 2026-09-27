@@ -13,6 +13,11 @@
 #           The grammar is one file, ProppEBNF46.txt, that every step
 #           changes, with a git tag per step. A test a later step is
 #           planned to break is given its closing step when it is frozen.
+# RULE, ADDED 2026-09-27 AFTER THE SAME SLIP THREE TIMES: a test that
+#           describes a step's own change, an equivalence, an inclusion,
+#           an LL(1) expectation, or a reject that the step's reading
+#           decides, is written N-N, closing at its own step. Only tests
+#           of what Propp's pages fix bind onward.
 # Kinds:    equivalent, accept, reject, ll1  (see runSteps.py)
 # Tokens:   v44's terminals, with up and down for Propp's arrows and the
 #           Greek glyphs for the preparatory functions. Varieties and signs
@@ -162,7 +167,11 @@
 4-4 | ll1 | ProppEBNF46.txt F J | PREDICTED: the domestic agent puts F in two places, and one token after C cannot tell whether a departure will follow a run of F's; J inherited. This is the obstruction ruling 48 named: a symbol in two unguarded slots
 4 | accept | ProppEBNF46.txt "A B C F up K down" | p.108, the domestic agent: the shape of 105 I
 4 | accept | ProppEBNF46.txt "a B F up D E F" | p.108: an agent at home and a donor on the road, the shape of 93 II
-4 | reject | ProppEBNF46.txt "A C F D E" | p.108 on the narrow reading: with no departure following, the F is the donor's and D after it stays out of order
+# 2026-09-27, BEFORE STEP 6 WAS BUILT: closed at step 5, since step 6's
+#   merge of the F groups admits an untested agent before a test. The
+#   original is kept, commented out.
+# 4 | reject | ProppEBNF46.txt "A C F D E" | (original, binding onward)
+4-5 | reject | ProppEBNF46.txt "A C F D E" | p.108 on the narrow reading: with no departure following, the F is the donor's and D after it stays out of order
 4 | accept | ProppEBNF46.txt "A up Pr Rs H I W" | p.107, the fight after pursuit: the shape of 93 III
 4 | accept | ProppEBNF46.txt "A K down Pr H I" | p.107: the fight after a pursuit with no rescue
 4 | reject | ProppEBNF46.txt "A K down Rs H I" | p.107 moves the fight to after a pursuit only; after a rescue alone it stays out of order
@@ -189,8 +198,13 @@
 # say so, until the owner decides.
 # ---------------------------------------------------------------------------
 
-5 | includes | ProppEBNF46.txt step4:ProppEBNF46.txt --start-a move --start-b move | step 5 only removes strings: every move it accepts, step 4 accepted
-5 | ll1 | ProppEBNF46.txt F | PREDICTED: J is gone; F remains, for the reason above
+# 2026-09-27, BEFORE STEP 6 WAS BUILT: this test and the LL(1) test below
+#   bound onward; step 6 adds strings and removes the F conflict, so both
+#   are closed at step 5. Originals kept, commented out.
+# 5 | includes | ProppEBNF46.txt step4:ProppEBNF46.txt --start-a move --start-b move | (original, binding onward)
+# 5 | ll1 | ProppEBNF46.txt F | (original, binding onward)
+5-5 | includes | ProppEBNF46.txt step4:ProppEBNF46.txt --start-a move --start-b move | step 5 only removes strings: every move it accepts, step 4 accepted
+5-5 | ll1 | ProppEBNF46.txt F | PREDICTED: J is gone; F remains, for the reason above
 5 | accept | ProppEBNF46.txt "A M J N" | p.104, the task run M J N
 5 | accept | ProppEBNF46.txt "A J N" | branding in the fight, then a solution: the J is the fight's
 5 | accept | ProppEBNF46.txt "A H J I K M J N" | both J slots of p.104 in one move
@@ -198,3 +212,35 @@
 5 | reject | ProppEBNF46.txt "A K J N" | a task-run J with no task: v44's comment names K J as over-generation Propp licenses nowhere
 5 | reject | ProppEBNF46.txt "A o L J N" | the same, after unfounded claims
 5-5 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: unchanged, no corpus move carries a task-run J without a task
+
+
+# ---------------------------------------------------------------------------
+# STEP 6. Merge the F groups, by the owner's decision, 2026-09-27.
+# Frozen before step 6 was built.
+#
+# Every F that follows the donor's test, D or E, is the TESTED agent, in
+# Propp's DEF group (p.65). Every other F, at home before the departure or
+# on the road with no test, is the UNTESTED agent, one group. v43 names
+# the two TestedAcquisition and UntestedAcquisition. The father's gift of
+# p.108 is an untested agent.
+#
+# PREDICTED CONSEQUENCES, frozen here:
+#   The grammar becomes LL(1): no conflict at all.
+#   The untested group sits inside the complication, before the departure
+#   and, once a departure has been read, after it; that is the only place
+#   one token can assign it.
+#   The language only widens: an untested agent may now be followed by a
+#   test, which step 4's narrow reading refused. No page licenses it and
+#   none forbids it. The shortest string added is predicted to be A F D.
+#   The corpus verdict stays 80 of 84.
+# ---------------------------------------------------------------------------
+
+6-6 | ll1 | ProppEBNF46.txt - | the merge removes the F conflict: every F is assigned by the token before it, a D or E making it tested
+6-6 | includes | step5:ProppEBNF46.txt ProppEBNF46.txt --start-a move --start-b move | step 6 only adds strings: every move step 5 accepts stays accepted
+6 | accept | ProppEBNF46.txt "A B C F up K down" | the father's gift before the departure, p.108: the shape of 105 I
+6 | accept | ProppEBNF46.txt "a B F up D E F" | an untested agent at home, then a tested one on the road: the shape of 93 II
+6 | accept | ProppEBNF46.txt "A C F G" | an untested agent with no departure at all
+6 | accept | ProppEBNF46.txt "A up F G" | an untested agent on the road
+6 | reject | ProppEBNF46.txt "A D F E" | within the test the order stays D E F, p.65
+6-6 | accept | ProppEBNF46.txt "A F D E" | THE MERGE'S CONSEQUENCE, not a license: an untested agent before a test. Closes at step 6 so that a later step may decide otherwise
+6-6 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: unchanged, 80 of 84
