@@ -571,3 +571,10 @@
 # HEALTH CHECKS FOR STEP 11, re-frozen as the close of 2026-09-27 requires.
 11-11 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | health check: runCorpus.py still reads the corpus with the step 11 grammar
 11-11 | talefails | ProppEBNF46.txt "126,127,137,138" | health check: embedCorpus.py still parses the 45 tales with the step 11 grammar
+
+# THE HERO, 2026-09-27. Frozen before heroType.py was written. The figures
+# are PREDICTED from the first project's findings BM and BO, which read the
+# hero type from B's variety digit by p.37 (B1-B4 seeker, B5-B7 victim);
+# heroType.py must reproduce them independently.
+11 | herotype | "B with departure 37: seeker 30 (C 27), victim 4 (C 3), undigited 3 (C 3); tales with B 32: seeker 26, victim 3 (95 98 101), undigited 3, mixed 0" | pp.36-38: the tale follows a seeker or a victimized hero, never both; B's variety digit tells which, and C belongs to the seeker
+11 | catalogmeasured | SemanticCatalog46.md "hero" | the hero's entry carries its measurement, apart from the speculative meanings

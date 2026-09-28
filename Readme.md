@@ -71,6 +71,7 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `parseTree.py`: parses with the LL(1) table and reports where each function lands; `--corpus` writes the group counts.
 - `CorpusGroups.txt`: those counts for the 80 accepted moves.
 - `villainy.py`: the forms of villainy and what becomes of the villain, pinned by a test and cited in the catalog.
+- `heroType.py`: which hero the tale follows, seeker or victim, read from B's variety digit by p.37, pinned by a test and cited in the catalog.
 - `falseHero.py`: how the tales treat the false hero, pinned by a test and cited in the catalog.
 - `agentForms.py`: how the hero receives the agent, tested or untested, by Propp's nine forms; its figures are pinned by a test and cited in the catalog's Measured lines.
 - `SemanticCatalog46.md`: the catalog of v46's groups and pairs, checked against the grammar.
@@ -88,7 +89,7 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 11` prints `154 binding, 0 failed, 0 pending for later steps, 34 closed by an earlier step`.
+- `python runSteps.py 11` prints `156 binding, 0 failed, 0 pending for later steps, 34 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
@@ -99,8 +100,8 @@ Of p.93's six methods of combining moves it expresses five: sequence, interrupti
 
 **1. Review of the drafted meanings, continued.**
 `SemanticCatalog46.md` separates three kinds of claim: **From Propp** (a page), **Measured** (counted by a program here and pinned by a test), and a **Cultural meaning** marked *Draft*, resting on a speculative reading set out in the catalog's section "A speculative reading, not from Propp".
-Discussed on 2026-09-27, with the catalog revised to match: the princess and her father (the king assigns and grants, the princess chooses, the outcome is never in doubt), the donor, the helper, the false hero (the liar and scapegoat) and the villain.
-NOT YET DISCUSSED: the hero and the dispatcher among the roles, and the drafted cultural meanings of the groups and functions generally.
+Discussed on 2026-09-27, with the catalog revised to match: the princess and her father (the king assigns and grants, the princess chooses, the outcome is never in doubt), the donor, the helper, the false hero (the liar and scapegoat), the villain, and the hero (the one whose fortunes the tale follows, usually but not always the chooser).
+NOT YET DISCUSSED: the dispatcher among the roles, and the drafted cultural meanings of the groups and functions generally.
 
 **2. The parked area left of A.**
 Step 9 built p.107's inverted sequence into the grammar but, under option 1, as decided, left the corpus derivation dropping the cells Propp parks left of A. Were they read in place, the eight regions the license fully covers would pass, and 139 I, 154 I and 155 III, each carrying an unlicensed G or W* beside licensed cells, would newly fail: 77 of 84 moves and 38 of 45 tales. The quarantine rests on a reading of Propp's table, not on a page. Still to be decided.
@@ -125,6 +126,7 @@ Each finding is counted by a program here and pinned by a frozen test; the catal
 - `agentForms.py --helper`: transference follows a received agent (37% against 22%); nothing else of the helper's does, and the corpus records no performers.
 - `falseHero.py`: in all 5 tales where the false hero appears, his claim stands in the tale's last move, he is punished, and the tale ends in the wedding.
 - `villainy.py`: abduction of a person is a third of all villainies and expulsion the second form; in villainy moves the harm is undone in 65% but punishment stands in only 20%. Propp gives punishment to the princess and her father as "punishment of a second villain" (pp.79-80).
+- `heroType.py`: of the 32 tales carrying B, 26 follow a seeker and 3 a victimized hero (95, 98, 101), none both, as p.36 says; C stands in 27 of 30 seeker moves and 3 of 4 victim moves, less cleanly than p.38 says. It reproduces the first project's findings BM and BO.
 - Of Propp's 31 function headings, 18 name the hero or the seeker and none the princess, her father or the king; p.81 defines characters by their deeds' meaning for the hero.
 
 ### Decided, so not re-opened
@@ -135,9 +137,9 @@ The move type is read at the opener, not the root. Moves are separated by `/`. T
 
 - Steps 1 to 11, tagged, in the table above: all three of ruling 48's targets met, every license of pp.107-108 stated, five of p.93's six methods of combining moves expressed, v43's two genre extensions overlaid, tested and commented out, and a second tragic variant, the fall after success, likewise.
 - `parseTree.py` and 55 tree tests; `CorpusGroups.txt`.
-- `SemanticCatalog46.md`: 32 groups and pairs, 32 functions, 2 unnumbered elements, the extensions, and 7 dramatis personae, each with literal and cultural meaning, and eight entries with measured findings; kept in step with the grammar and the corpus by frozen tests (`catalog`, `catalogfunctions`, `catalogmeanings`, `catalogspheres`, `catalogmeasured`, and the pinned figures of `agentforms`, `helperafteragent`, `falsehero`, `villainy`).
+- `SemanticCatalog46.md`: 32 groups and pairs, 32 functions, 2 unnumbered elements, the extensions, and 7 dramatis personae, each with literal and cultural meaning, and nine entries with measured findings; kept in step with the grammar and the corpus by frozen tests (`catalog`, `catalogfunctions`, `catalogmeanings`, `catalogspheres`, `catalogmeasured`, and the pinned figures of `agentforms`, `helperafteragent`, `falsehero`, `villainy`, `herotype`).
 - `embedCorpus.py`, the whole-tale derivation, calibrated against `resolve.py`.
-- `agentForms.py`, `falseHero.py` and `villainy.py`, the measuring programs.
+- `agentForms.py`, `falseHero.py`, `villainy.py` and `heroType.py`, the measuring programs.
 - `equivCheck.py` gained `--drop-a` and `--drop-b`, so this copy differs from the first project's; `runSteps.py` reads `TAG:FILE`, `FILE+NAME` and `FILE@START`; `runCorpus.py` and `runSteps.py` fall back to the LL(1) parser for a recursive grammar.
 - In the first project, from this work: findings FR to FZ, ruling 104, two corrections to v43's comments, and the published files cleared of any mention of a person.
 
