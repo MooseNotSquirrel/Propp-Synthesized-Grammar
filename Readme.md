@@ -44,6 +44,7 @@ It handles grammars whose productions do not refer back to themselves, which cov
 | 8 | language-changing: two more of p.93's methods at tale level, a common ending shared by two moves (method 5) and two seekers parting into two branches (method 6), in Propp's own signs } < Y | built and tagged `step8`; 104 of 104 binding tests pass; still LL(1); with both removed, proved exactly step 7; 41 of 45 tales unchanged |
 | 9 | language-changing: p.107's inverted sequence, the departure or the donor sequence before the crisis, the last license of pp.107-108 | built and tagged `step9`; 118 of 118 binding tests pass; still LL(1); with it removed, proved exactly step 8; under option 1, as decided, the corpus derivation still drops the parked cells left of A, so no verdict moves |
 | 10 | v43's two genre extensions overlaid and COMMENTED OUT, as decided: tragedy (a combat ending in defeat, exposure and punishment, with its own defeat sign I-) and the Dundes consequence tale (its own root, Dundes's order of Consequence before Attempted Escape, correcting v43) | built and tagged `step10`; 132 of 132 binding tests pass; commented out, proved exactly step 9; switched on in a copy (`ProppEBNF46.txt+tragedy`, `+dundes@consequenceTale`), still LL(1) and only adding |
+| 11 | a second tragic variant, the fall after success, COMMENTED OUT: a reversal Rv closing a move, then recognition, exposure or punishment turned on the hero, as Prometheus and Oedipus fall; Aristotle's warrant, not Propp's | built and tagged `step11`; 154 of 154 binding tests pass; commented out, proved exactly step 10; switched on (`+reversal`), alone or with the others, still LL(1) and only adding |
 
 **At step 4 the grammar accepts 80 of the 84 move-strings, ruling 48's target, and refuses only the four genuine counterexamples: 126 II, 127 I, 137 II and 138 III.**
 The corpus was first met at step 3: 72 of 84, against v44's 69.
@@ -78,7 +79,7 @@ The separator is editorial and follows Appendix III's layout of one row per move
 
 ## Next session: start here
 
-**State at the close of 2026-09-27: step 10, tagged `step10`, and nothing is half-done.**
+**State at the close of 2026-09-27: step 11, tagged `step11`, and nothing is half-done.**
 ALL THREE OF RULING 48'S TARGETS ARE MET.
 v46 accepts 80 of the 84 resolved move-strings, refusing only the four genuine counterexamples, 126 II, 127 I, 137 II and 138 III.
 It is LL(1) with no conflict, and `regression.py` passes it outright.
@@ -87,12 +88,12 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 10` prints `144 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
+- `python runSteps.py 11` prints `154 binding, 0 failed, 0 pending for later steps, 34 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
 - `python regression.py ProppEBNF46.txt` prints `RESULT: ALL PASS`.
-- `git tag` lists `step1` to `step10`.
+- `git tag` lists `step1` to `step11`.
 
 ### What is open, in order
 
@@ -111,7 +112,7 @@ Step 9 built p.107's inverted sequence into the grammar but, under option 1, as 
 - Varieties, negative forms and variety binding, such as A¹ with a matching K: attribute-level, and v45C's territory rather than an order grammar's.
 - The three interruption sites with dots and no numeral, 155 III, 155 IV and 167 I: a question for the page, since Propp prints no indication.
 - Method 4, two villainies at once, set aside as an odd case: its A-K spans cross.
-- A SECOND TRAGIC VARIANT, discussed on 2026-09-27: the fall after success. The tragedy extension as built replaces victory in the combat, but Prometheus and Oedipus both succeed, liquidating the lack or solving the task and winning the queen, and fall afterward. v46 already accepts such strings but reads the punishment as the villain's, since Propp's U does not say who is punished; a fall after the liquidation would need its own sign, as the combat fall needed I-. Aristotle's reversal is the natural name.
+- A SECOND TRAGIC VARIANT, the fall after success: BUILT as step 11, commented out. Discussed on 2026-09-27: The tragedy extension as built replaces victory in the combat, but Prometheus and Oedipus both succeed, liquidating the lack or solving the task and winning the queen, and fall afterward. v46 already accepts such strings but reads the punishment as the villain's, since Propp's U does not say who is punished; a fall after the liquidation would need its own sign, as the combat fall needed I-. Aristotle's reversal is the natural name.
 - A TALE GENERATOR, discussed on 2026-09-27. Skeletons are easy, by sampling v46 with weights from `CorpusGroups.txt` and a depth limit on interruption. Proppian skeletons need what v46 omits on purpose, since it is a permissive falsifier: v45C's pairs and dependencies, `AKCorrespondence.txt` and the D-F bindings for varieties, Appendix IV's inventory of what each variety means, and Appendix I with Ch. VI-VIII for the cast. Prose is a separate problem, by templates or a language model given the skeleton as a plan; Gervás's PropperWryter (2013) is prior work.
 
 **5. Housekeeping.** This project has no remote; one can be created if wanted. The first project's publication for SourceForge is on hold.
@@ -150,7 +151,7 @@ Three onward-binding tests broke at the next step before this rule was written.
 - Git rewrites line endings after a commit, and the Edit tool then reports the file modified since it was read. Re-read it before editing.
 - Escapes inside a bash heredoc, such as `\\n`, arrive mangled. Write a script to a file and run it instead.
 
-**A tool that no binding test exercises can break silently.** `runCorpus.py` failed on v46 from step 7 to step 9, and this handoff claimed it printed `PASS: 80`, because the move-level corpus tests had closed at step 6. Now the two corpus runners have health-check tests binding at step 10, which must be re-frozen at each new step. `regression.py` and `parseTree.py --corpus` have no test: check them by hand, as the checklist says.
+**A tool that no binding test exercises can break silently.** `runCorpus.py` failed on v46 from step 7 to step 9, and this handoff claimed it printed `PASS: 80`, because the move-level corpus tests had closed at step 6. Now the two corpus runners have health-check tests binding at step 11, which must be re-frozen at each new step. `regression.py` and `parseTree.py --corpus` have no test: check them by hand, as the checklist says.
 
 **Check that a new test can fail.** Each new test kind this session was run against a deliberately broken copy before it was trusted.
 

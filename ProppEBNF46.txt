@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 10. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
+# STATE: STEP 11. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -63,6 +63,10 @@
 # Switched on, singly or together, they keep the grammar LL(1) and only add;
 # commented out, the grammar is exactly step 9. Each block says how to
 # switch it on and what was adapted or corrected from v43.
+# Step 11 adds a second tragic variant, also COMMENTED OUT: the fall after
+# success, a reversal Rv closing a move, then recognition, exposure or
+# punishment turned on the hero, as Prometheus and Oedipus fall. Switched
+# on, alone or with the others, it keeps the grammar LL(1) and only adds.
 #
 # Notation is v44's:
 #   A = x    a production: the nonterminal A is defined as x.
@@ -262,7 +266,30 @@ trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
 # WITH InterruptingMove REMOVED, THE GRAMMAR IS EXACTLY STEP 6'S, which
 # equivCheck.py proves with --drop-b InterruptingMove.
 
-move                = BeforeTheCrisis CrisisToLiquidation AfterLiquidation
+move                = BeforeTheCrisis CrisisToLiquidation AfterLiquidation  #-reversal
+
+# --- REVERSAL EXTENSION, the fall after success: COMMENTED OUT (step 11) ---
+# To switch it on: uncomment the three #+reversal lines below, removing the
+# '#+reversal ' prefix, and comment out the move line above, which ends in
+# #-reversal. runSteps.py does both in a copy for ProppEBNF46.txt+reversal.
+# WHAT IT ADDS: the second tragic variant. The tragedy extension (step 10)
+# replaces victory in the combat, the hero fighting and losing. Prometheus
+# and Oedipus do not lose a fight: Prometheus takes the fire and gives it,
+# the lack liquidated, and is then punished; Oedipus solves the riddle and
+# marries the queen, and falls afterward. LateFall closes a move after
+# everything else, even the wedding: a reversal, then at least one of
+# recognition, exposure and punishment, now turned on the hero.
+# WHY A SIGN: Propp's U does not say who is punished, and v46 already accepts
+# Prometheus's string, reading the punishment as a villain's in the endgame.
+# The reversal sign Rv, like the combat fall's I-, lets the tree say that
+# what follows is the hero's own fall, and keeps the grammar LL(1).
+# WARRANT: Aristotle's reversal and recognition (peripeteia and anagnorisis,
+# Poetics), not Propp. The grammar does not require a success before the
+# reversal: that would need the fall to see the whole move, at the cost of
+# the groups. Switched on and tested, then commented out, as decided.
+#+reversal move                = BeforeTheCrisis CrisisToLiquidation AfterLiquidation [LateFall]
+#+reversal LateFall            = reversal Between ( recognition | exposure | punishment ) Between { ( recognition | exposure | punishment ) Between }
+#+reversal reversal            = 'Rv'        # editorial: Aristotle's peripeteia
 
 FloatingT           = {transfiguration}     # p.108; before the opener only
 

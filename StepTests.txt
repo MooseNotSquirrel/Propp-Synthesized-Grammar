@@ -535,3 +535,39 @@
 # the catalog text was written.
 10 | villainy | "villainy 55: 1:19 2:1 3:3 4:1 5:2 6:2 7:1 8:1 9:6 10:2 11:2 14:2 16:1 17:1 18:4 19:3 roman 4; outcomes H 19 I 23 K 36 Pr 11 U 11 W 25; lack 28: H 6 I 10 K 14 Pr 4 U 6 W 12" | pp.30-34: the forms of villainy, and what follows in moves opened by villainy and by lack
 10 | catalogmeasured | SemanticCatalog46.md "villain,villainy" | the villain and villainy entries carry their measurement
+
+# ---------------------------------------------------------------------------
+# STEP 11. A second tragic variant: the fall after success. COMMENTED OUT,
+# like the tragedy and Dundes extensions. Frozen 2026-09-27 before step 11
+# was built.
+#
+# Step 10's tragic fall replaces victory in the combat: the hero fights and
+# loses. Prometheus and Oedipus do not lose a fight. Prometheus takes the
+# fire and gives it, the lack liquidated, and is then punished; Oedipus
+# solves the riddle and marries the queen, and falls afterward. v46 already
+# accepts such strings but reads the punishment as the villain's, since
+# Propp's U does not say who is punished. LateFall closes a move after
+# everything else, even the wedding: a reversal, sign Rv, then at least
+# one of recognition, exposure and punishment turned on the hero.
+# Aristotle's peripeteia and anagnorisis (Poetics) are its warrant, not
+# Propp. The grammar does not require a success before the reversal.
+#
+# PREDICTED: commented out, nothing changes; switched on, still LL(1),
+# alone and with the other extensions, and it only adds.
+# ---------------------------------------------------------------------------
+
+11-11 | equivalent | step10:ProppEBNF46.txt ProppEBNF46.txt --drop-a InterruptingMove --drop-b InterruptingMove | commented out, the reversal changes nothing
+11 | ll1 | ProppEBNF46.txt+reversal - | switched on, the reversal sign keeps the grammar LL(1)
+11 | ll1 | ProppEBNF46.txt+tragedy,reversal,dundes - | all three extensions on together, still LL(1)
+11 | equivalent | ProppEBNF46.txt ProppEBNF46.txt+reversal --drop-a InterruptingMove --drop-b InterruptingMove,LateFall | with the fall dropped, reversal on is the shipped grammar: it only adds
+11 | accept | ProppEBNF46.txt+reversal "a F K Rv U" | Prometheus: a lack, the fire seized and given, the lack liquidated, then the reversal and the hero punished
+11 | accept | ProppEBNF46.txt+reversal "A M N W Rv Q Ex U" | Oedipus: the riddle set and solved, the queen married, then the reversal, recognition, exposure and punishment of the hero
+11 | reject | ProppEBNF46.txt+reversal "a F K Rv" | a reversal must bring the fall: at least one of recognition, exposure or punishment follows it
+11 | reject | ProppEBNF46.txt "a F K Rv U" | commented out, the reversal sign is not in the grammar
+11 | under | ProppEBNF46.txt+reversal "a F K Rv U" 4 LateFall | the punishment after the reversal is the hero's, inside the fall
+11 | notunder | ProppEBNF46.txt+reversal "a F K Rv U" 4 Endgame | it is not the endgame's punishment of a villain
+11 | accept | ProppEBNF46.txt+tragedy,reversal "A H I- Ex U" | the combat fall of step 10 still works beside the fall after success
+
+# HEALTH CHECKS FOR STEP 11, re-frozen as the close of 2026-09-27 requires.
+11-11 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | health check: runCorpus.py still reads the corpus with the step 11 grammar
+11-11 | talefails | ProppEBNF46.txt "126,127,137,138" | health check: embedCorpus.py still parses the 45 tales with the step 11 grammar
