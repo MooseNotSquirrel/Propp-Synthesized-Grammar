@@ -23,6 +23,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name.** Whether the name is Propp's term, v43's, or this grammar's.
 - **Corpus.** How many of the 80 accepted move-strings use the group, from `CorpusGroups.txt`. The preparatory groups show 0 because Appendix III prints no preparatory function (p.116), not because the tales lack them.
 - **Tree test.** One string from `StepTests.txt` whose parse puts a function in this group.
+- **Measured.** Where an entry has one: a finding counted from the corpus by a program in this project, reproducible, and pinned by a test. It is data, not speculation, and it is kept apart from the cultural meaning for that reason.
 - **Literal meaning.** What the group or function says on its surface, the sense a reader first takes from it.
 - **Cultural meaning.** The conduct the tale teaches its young listener, and the value that conduct encodes, read relative to the hero. THE CULTURAL MEANINGS REST ON A SPECULATIVE READING, NOT ON PROPP; it is set out in the section "A speculative reading, not from Propp", below. Unlike the functions and groups, they have no tokens in the corpus to cling to. All but the task cycle's are marked *Draft*.
 
@@ -212,6 +213,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** a run of F with no donor's test before it.
 - **Warrant:** p.108: the transference of a magical agent sometimes occurs before the hero leaves home, "cudgels, ropes, maces, and so forth, given by the father". Step 6's merge adds the agent that comes to hand on the road with no test.
 - **Name:** v43's. **Corpus:** 17. **Tree test:** `A C F up K`, the F under `UntestedAcquisition` and under `complication`.
+- **Measured:** Counted by `agentForms.py` and pinned by a test. At home, before the departure, 12 cells in 11 moves: transferred 6, prepared 5, bought 1; none found, appearing, seized or offering service. On the road, 10 cells in 10 moves: transferred 4, appears 3, pointed out 1, prepared 1, offers service 1. The agent at home comes by ordinary human means; on the road, fortune may bring it.
 - **Literal meaning:** an agent received without being earned. It is a father's gift or a find, and it belongs to setting out rather than to a donor episode.
 - **Cultural meaning:** *Draft.* Accept a father's gift or the favor of fortune, and honor it. Not every advantage must be earned, but every one must be used rightly.
 
@@ -230,6 +232,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** the donor's test D, the hero's reaction E, and the agent F they earn.
 - **Warrant:** p.65: DEF "also form something of a whole".
 - **Name:** v43's; before step 6, Vetting. **Corpus:** 32. **Tree test:** `A D E F`, the F under `TestedAcquisition` and not under `UntestedAcquisition`.
+- **Measured:** Counted by `agentForms.py` and pinned by a test. 35 cells in 28 moves: transferred 8, offers service 7, pointed out 4, seized 3, appears 3, found 2, prepared 1, bought 1, and 6 with no form marked. Every seizure in the corpus falls here, 3 of 3, and 7 of the 8 offers of service.
 - **Literal meaning:** the agent earned. A donor tests the hero, the hero responds, and the agent is his reward. It opens on the test, or on the hero's reaction when the test is omitted.
 - **Cultural meaning:** *Draft.* Honor the donor. Courtesy, kindness and a kept word earn the power to succeed, and the hero never cheats a friendly donor of what was agreed. Against a hostile or deceitful donor guile is allowed, since Propp binds the seizure of an agent to hostile tests (pp.46-47): good faith is owed to good faith.
 
@@ -359,6 +362,9 @@ In the corpus, the tested agent appears in 32 moves and the untested in 17.
 Recognition with exposure, and punishment with wedding, were groups until step 3 let the four exchange.
 Once U Q W is allowed, the pairs are no longer next to each other in every tale, so the grammar keeps one group of four.
 The pairing survives as meaning, and the order is free.
+
+**How the hero receives the agent carries meaning, and it is measured, not read in.**
+Sorting every agent in the corpus by step 6's split, which the grammar's own LL(1) constraint forced, gives three findings (`agentForms.py`). An agent received at home is always given, made or bought, never found or appearing or seized. Seizure comes only after a test, where Propp binds it to a hostile donor. And an offer of service comes after a test 7 times in 8, the donor repaying the hero's kindness. Meaning falls out of the form here, which is the kind of evidence an answer to the charge that Propp's structure is empty needs.
 
 **Four groups are reading aids only.**
 `Development`, `AfterLiquidation`, `ReturnJourney` and `Ordeal` have no page behind them.
@@ -504,6 +510,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 - **Number and sign:** XIV, F. **Page:** p.43. **Propp's name:** provision or receipt of a magical agent.
 - **What happens:** the hero acquires the use of a magical agent: an animal, an object, a quality.
 - **Group:** `TestedAcquisition` after a test or reaction; `UntestedAcquisition` otherwise, in the complication (step 6); or `HelperFirst`, before the crisis (p.107). **Pairs:** its forms are bound to the forms of D (pp.46-47). **Corpus:** 40; the tested agent appears in 32 moves and the untested in 17.
+- **Measured:** Counted by `agentForms.py` over the 84 move-strings, the parked cells left of A excluded, and pinned by a test. Of 57 F cells, 35 are tested (after a D or E), 12 untested before the departure, and 10 untested on the road. THREE FINDINGS: (1) an agent received at home never comes by chance or by magic: all 12 are transferred (6), prepared (5) or bought (1), and none is found, appears, is seized or offers service; (2) seizure follows a test every time, 3 of 3, as Propp binds seizure to a hostile preparation (pp.46-47); (3) an offer of service follows a test 7 times in 8, the grateful creature repaying the hero's mercy. On the road, 3 of 10 untested agents appear of their own accord. The counts are small, and "tested" means a D or E came earlier in the move.
 - **Literal meaning:** the means of undoing the misfortune. Earned from a donor, it is a reward; received without a test, from a father or by finding, it comes with the setting out.
 - **Cultural meaning:** *Draft.* Help earned is power. Those who behave rightly are equipped by others, and what was promised in return is paid.
 
@@ -695,6 +702,7 @@ Each entry gives Propp's sphere and page, the functions he assigns it, the group
 - **Propp's sphere:** 2, p.79. **Functions:** `firstDonorFunction` (D), `receiptOfMagicalAgent` (F).
 - **Acts in:** `TestedAcquisition`, `HelperFirst`, and, when the agent comes with no test, `UntestedAcquisition`. **Corpus:** 45.
 - **Place in the social order:** *Draft.* Fourth. The elder or the outsider of power who judges the hero and endows him.
+- **Measured:** From the donor's side, counted by `agentForms.py` and pinned by a test: the tested agent is the donor's gift, 35 cells in 28 moves. The father's gift at home, where the father is dispatcher and donor at once (p.81), is always given, made or bought, 12 of 12. Seizure, 3 of 3, comes only after a test, which is where Propp binds it to a hostile donor (pp.46-47). An offer of service comes after a test 7 times in 8: the donor repays the hero's kindness.
 - **Literal meaning:** the one who tests the hero and provides the magical agent.
 - **Cultural meaning:** *Draft.* The test of character. Honor the donor and keep the bargain: the hero never cheats a friendly donor of what was agreed. Against a hostile or deceitful donor guile is allowed, good faith being owed to good faith (pp.46-47). The father's gift, where the father is dispatcher and donor at once (p.81), comes by right of family and not by test.
 

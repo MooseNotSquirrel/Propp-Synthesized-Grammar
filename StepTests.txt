@@ -509,3 +509,13 @@
 
 # 2026-09-27: every mention of a decision-maker above was reworded to "as decided" or
 #   its like, on request; no test's expectation changed.
+
+# ---------------------------------------------------------------------------
+# MEASURED FINDINGS IN THE CATALOG. Frozen 2026-09-27 before the catalog text
+# was written. How the hero receives the agent, tested or untested, counted
+# by agentForms.py; the catalog's Measured lines cite these figures, so the
+# test binds onward: if a later step moves them, the catalog must move too.
+# ---------------------------------------------------------------------------
+
+10 | agentforms | "tested 35/28 1:8 2:4 3:1 4:1 5:2 6:3 8:3 9:7 -:6; home 12/11 1:6 3:5 4:1; road 10/10 1:4 2:1 3:1 6:3 9:1" | the forms of receipt, pp.44-45, sorted by step 6's tested and untested agent
+10 | catalogmeasured | SemanticCatalog46.md "receiptOfMagicalAgent,UntestedAcquisition,TestedAcquisition,donor" | the entries that rest on the measurement carry it, marked apart from the speculative meanings

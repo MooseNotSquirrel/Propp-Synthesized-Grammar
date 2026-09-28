@@ -45,6 +45,12 @@ Kinds, one test per line as  step | kind | arguments | source :
                             exactly the functions f, each a function of
                             the grammar G; each gives a literal and a
                             cultural meaning
+  agentforms "summary"      agentForms.py --summary prints exactly this:
+                            the forms of receipt of the agent, tested and
+                            untested, counted from the corpus
+  catalogmeasured C "n,..." each named entry of the catalog C carries a
+                            **Measured:** line, a finding counted from the
+                            corpus and pinned by a test
   derivation                embedCorpus.py's tale derivation calibrates
                             against resolve.py
   talefails G "t,..."       parsed by embedCorpus.py over the 45 whole
@@ -75,6 +81,7 @@ import tempfile
 
 import equivCheck
 import parse
+import agentForms
 import embedCorpus
 import parseTree
 import runCorpus
@@ -301,6 +308,16 @@ def run(kind, args):
             if '**Literal meaning:**' not in b or '**Cultural meaning:**' not in b:
                 problems.append('%s lacks a meaning' % role)
         return not problems, '%d roles' % len(names) + ('; ' + '; '.join(problems) if problems else '')
+    if kind == 'agentforms':
+        got = agentForms.summary()
+        return got == args[0], got
+    if kind == 'catalogmeasured':
+        text = open(args[0], encoding='utf-8').read()
+        blocks = {re.match(r'### `(\w+)`', b).group(1): b
+                  for b in re.split(r'^(?=### `)', text, flags=re.M)[1:]}
+        want = [x.strip() for x in args[1].split(',')]
+        missing = [w for w in want if '**Measured:**' not in blocks.get(w, '')]
+        return not missing, 'missing a Measured line: %s' % (' '.join(missing) or 'none')
     if kind == 'catalogfunctions':
         text = open(args[0], encoding='utf-8').read()
         m = re.search(r'^## Functions\s*$(.*?)(?=^## |\Z)', text, re.M | re.S)

@@ -69,6 +69,7 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `runCorpus.py`: runs a grammar over the resolved move-strings.
 - `parseTree.py`: parses with the LL(1) table and reports where each function lands; `--corpus` writes the group counts.
 - `CorpusGroups.txt`: those counts for the 80 accepted moves.
+- `agentForms.py`: how the hero receives the agent, tested or untested, by Propp's nine forms; its figures are pinned by a test and cited in the catalog's Measured lines.
 - `SemanticCatalog46.md`: the catalog of v46's groups and pairs, checked against the grammar.
 - `embedCorpus.py`: the whole-tale derivation with interruptions embedded, and its runner.
 - The copied files listed above.
@@ -84,7 +85,7 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 10` prints `136 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
+- `python runSteps.py 10` prints `138 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
@@ -111,6 +112,8 @@ Step 9 built p.107's inverted sequence into the grammar but, under option 1, as 
 - A TALE GENERATOR, discussed on 2026-09-27. Skeletons are easy, by sampling v46 with weights from `CorpusGroups.txt` and a depth limit on interruption. Proppian skeletons need what v46 omits on purpose, since it is a permissive falsifier: v45C's pairs and dependencies, `AKCorrespondence.txt` and the D-F bindings for varieties, Appendix IV's inventory of what each variety means, and Appendix I with Ch. VI-VIII for the cast. Prose is a separate problem, by templates or a language model given the skeleton as a plan; Gervás's PropperWryter (2013) is prior work.
 
 **5. Housekeeping.** This project has no remote; one can be created if wanted. The first project's publication for SourceForge is on hold.
+
+**Measured findings in the catalog, 2026-09-27.** Four entries (receipt of the agent, the untested and tested acquisition, the donor) carry a **Measured:** line from `agentForms.py`: an agent at home is always given, made or bought; seizure comes only after a test; an offer of service follows a test 7 times in 8. These are data, pinned by a test, kept apart from the speculative cultural meanings.
 
 ### Decided, so not re-opened
 
