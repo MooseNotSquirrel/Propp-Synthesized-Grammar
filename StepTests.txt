@@ -529,3 +529,9 @@
 # written; the catalog test was written first.
 10 | falsehero | "tales 5 (125 132 139 155 156): last move 5, U 5, W 5, Q 4, Ex 3; o with L in 4 of 6 move-strings" | p.80: the false hero's claim L; he appears in the last move, is always punished, and the tale always ends in the wedding
 10 | catalogmeasured | SemanticCatalog46.md "falseHero" | the false hero's entry carries its measurement, apart from the speculative meanings
+
+# THE VILLAIN, 2026-09-27. The figures were measured in discussion before this
+# test was written; the two catalog tests below were frozen and run red before
+# the catalog text was written.
+10 | villainy | "villainy 55: 1:19 2:1 3:3 4:1 5:2 6:2 7:1 8:1 9:6 10:2 11:2 14:2 16:1 17:1 18:4 19:3 roman 4; outcomes H 19 I 23 K 36 Pr 11 U 11 W 25; lack 28: H 6 I 10 K 14 Pr 4 U 6 W 12" | pp.30-34: the forms of villainy, and what follows in moves opened by villainy and by lack
+10 | catalogmeasured | SemanticCatalog46.md "villain,villainy" | the villain and villainy entries carry their measurement

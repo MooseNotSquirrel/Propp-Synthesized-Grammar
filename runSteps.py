@@ -50,6 +50,7 @@ Kinds, one test per line as  step | kind | arguments | source :
                             untested, counted from the corpus
   helperafteragent "line"   agentForms.py --helper prints exactly this
   falsehero "line"          falseHero.py --summary prints exactly this
+  villainy "line"           villainy.py --summary prints exactly this
   catalogmeasured C "n,..." each named entry of the catalog C carries a
                             **Measured:** line, a finding counted from the
                             corpus and pinned by a test
@@ -86,6 +87,7 @@ import parse
 import agentForms
 import embedCorpus
 import falseHero
+import villainy
 import parseTree
 import runCorpus
 
@@ -316,6 +318,9 @@ def run(kind, args):
         return got == args[0], got
     if kind == 'helperafteragent':
         got = agentForms.helper_summary()
+        return got == args[0], got
+    if kind == 'villainy':
+        got = villainy.summary()
         return got == args[0], got
     if kind == 'falsehero':
         got = falseHero.summary()
