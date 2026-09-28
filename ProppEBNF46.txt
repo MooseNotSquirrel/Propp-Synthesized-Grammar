@@ -284,9 +284,19 @@ move                = BeforeTheCrisis CrisisToLiquidation AfterLiquidation  #-re
 # The reversal sign Rv, like the combat fall's I-, lets the tree say that
 # what follows is the hero's own fall, and keeps the grammar LL(1).
 # WARRANT: Aristotle's reversal and recognition (peripeteia and anagnorisis,
-# Poetics), not Propp. The grammar does not require a success before the
-# reversal: that would need the fall to see the whole move, at the cost of
-# the groups. Switched on and tested, then commented out, as decided.
+# Poetics), not Propp.
+# SUCCESS IS A MATTER OF PERSPECTIVE, NOT A FUNCTION, which is why the
+# grammar does not require one before the reversal. Propp defines each
+# function by its meaning for the hero (p.81). Told from Prometheus's side,
+# taking the fire liquidates humanity's lack and the punishment is a tragic
+# reversal; told from Zeus's side, the same events are a villainy and the
+# villain's punishment, an ordinary Proppian tale that v46 accepts as it
+# stands. The reversal sign marks the choice to tell the fallen figure's tale.
+# SCOPE, UNTESTED: with the combat fall of step 10, this is meant to cover
+# the endings of Greek myth, of myth generally, and of any genre not bound
+# to a happy ending, Proppian at the core with the ending turned. That is
+# speculation until a corpus of such tales is transcribed and run.
+# Switched on and tested, then commented out, as decided.
 #+reversal move                = BeforeTheCrisis CrisisToLiquidation AfterLiquidation [LateFall]
 #+reversal LateFall            = reversal Between ( recognition | exposure | punishment ) Between { ( recognition | exposure | punishment ) Between }
 #+reversal reversal            = 'Rv'        # editorial: Aristotle's peripeteia
