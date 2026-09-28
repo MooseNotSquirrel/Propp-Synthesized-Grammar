@@ -524,3 +524,8 @@
 # written, as the donor's figures were; the catalog test was written first.
 10 | helperafteragent | "with F 43: G 16 K 24 Rs 8 N 6 T 5 any 33; without F 41: G 9 K 27 Rs 7 N 5 T 3 any 39" | p.82: helpers and agents function alike; only transference is markedly more common where an agent is received
 10 | catalogmeasured | SemanticCatalog46.md "helper" | the helper entry carries its measurement, apart from the speculative meanings
+
+# THE FALSE HERO, 2026-09-27. Measured in discussion before this test was
+# written; the catalog test was written first.
+10 | falsehero | "tales 5 (125 132 139 155 156): last move 5, U 5, W 5, Q 4, Ex 3; o with L in 4 of 6 move-strings" | p.80: the false hero's claim L; he appears in the last move, is always punished, and the tale always ends in the wedding
+10 | catalogmeasured | SemanticCatalog46.md "falseHero" | the false hero's entry carries its measurement, apart from the speculative meanings

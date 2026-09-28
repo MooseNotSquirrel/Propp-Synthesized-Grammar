@@ -69,6 +69,7 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `runCorpus.py`: runs a grammar over the resolved move-strings.
 - `parseTree.py`: parses with the LL(1) table and reports where each function lands; `--corpus` writes the group counts.
 - `CorpusGroups.txt`: those counts for the 80 accepted moves.
+- `falseHero.py`: how the tales treat the false hero, pinned by a test and cited in the catalog.
 - `agentForms.py`: how the hero receives the agent, tested or untested, by Propp's nine forms; its figures are pinned by a test and cited in the catalog's Measured lines.
 - `SemanticCatalog46.md`: the catalog of v46's groups and pairs, checked against the grammar.
 - `embedCorpus.py`: the whole-tale derivation with interruptions embedded, and its runner.
@@ -85,7 +86,7 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 10` prints `140 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
+- `python runSteps.py 10` prints `142 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
@@ -109,11 +110,12 @@ Step 9 built p.107's inverted sequence into the grammar but, under option 1, as 
 - Varieties, negative forms and variety binding, such as A¹ with a matching K: attribute-level, and v45C's territory rather than an order grammar's.
 - The three interruption sites with dots and no numeral, 155 III, 155 IV and 167 I: a question for the page, since Propp prints no indication.
 - Method 4, two villainies at once, set aside as an odd case: its A-K spans cross.
+- A SECOND TRAGIC VARIANT, discussed on 2026-09-27: the fall after success. The tragedy extension as built replaces victory in the combat, but Prometheus and Oedipus both succeed, liquidating the lack or solving the task and winning the queen, and fall afterward. v46 already accepts such strings but reads the punishment as the villain's, since Propp's U does not say who is punished; a fall after the liquidation would need its own sign, as the combat fall needed I-. Aristotle's reversal is the natural name.
 - A TALE GENERATOR, discussed on 2026-09-27. Skeletons are easy, by sampling v46 with weights from `CorpusGroups.txt` and a depth limit on interruption. Proppian skeletons need what v46 omits on purpose, since it is a permissive falsifier: v45C's pairs and dependencies, `AKCorrespondence.txt` and the D-F bindings for varieties, Appendix IV's inventory of what each variety means, and Appendix I with Ch. VI-VIII for the cast. Prose is a separate problem, by templates or a language model given the skeleton as a plan; Gervás's PropperWryter (2013) is prior work.
 
 **5. Housekeeping.** This project has no remote; one can be created if wanted. The first project's publication for SourceForge is on hold.
 
-**Measured findings in the catalog, 2026-09-27.** Four entries (receipt of the agent, the untested and tested acquisition, the donor) carry a **Measured:** line from `agentForms.py`: an agent at home is always given, made or bought; seizure comes only after a test; an offer of service follows a test 7 times in 8. These are data, pinned by a test, kept apart from the speculative cultural meanings. The helper carries one more, from `agentForms.py --helper`: transference follows a received agent (37% against 22%), and nothing else clearly does; the corpus records functions, not performers. The hero and helper entries cite Propp's p.81 and p.82.
+**Measured findings in the catalog, 2026-09-27.** Four entries (receipt of the agent, the untested and tested acquisition, the donor) carry a **Measured:** line from `agentForms.py`: an agent at home is always given, made or bought; seizure comes only after a test; an offer of service follows a test 7 times in 8. These are data, pinned by a test, kept apart from the speculative cultural meanings. The helper carries one more, from `agentForms.py --helper`: transference follows a received agent (37% against 22%), and nothing else clearly does; the corpus records functions, not performers. The hero and helper entries cite Propp's p.81 and p.82. The false hero carries a table from `falseHero.py`: in all 5 tales where he appears, his claim stands in the tale's last move, he is punished, and the tale ends in the wedding; his drafted cultural meaning is the hero's counterfeit, told apart by the mark.
 
 ### Decided, so not re-opened
 
