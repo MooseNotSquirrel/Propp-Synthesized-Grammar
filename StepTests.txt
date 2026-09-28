@@ -81,7 +81,7 @@
 #   of a second move is read as the initial situation at the beginning of
 #   the tale, so α stands before the first move only. Admitting [α] before
 #   a later move would be a small edit, if it is ever needed.
-2 | reject | ProppEBNF46.txt "A K / α a K" | the initial situation stands at the beginning of the tale only, by the owner's reading of p.86
+2 | reject | ProppEBNF46.txt "A K / α a K" | the initial situation stands at the beginning of the tale only, on the reading of p.86 adopted at step 2
 #
 # DECIDED BY THE OWNER, 2026-09-27, AFTER STEP 2 WAS FIRST BUILT AND ITS
 #   LL(1) TEST FAILED: moves are separated by '/'. Without a separator a
@@ -487,11 +487,11 @@
 # THE DRAMATIS PERSONAE IN THE CATALOG, by the owner's decision. Frozen
 # 2026-09-27 before the section was written. Propp's seven spheres of
 # action, pp.79-80, as roles, each with exactly the functions Propp assigns
-# it, IN THE OWNER'S ORDER OF SOCIAL RANK: hero, princess and her father,
+# it, IN AN ORDER OF SOCIAL RANK THAT IS SPECULATION, NOT PROPP'S: hero, princess and her father,
 # dispatcher, donor, helper, false hero, villain.
 # ---------------------------------------------------------------------------
 
-10 | catalogspheres | SemanticCatalog46.md ProppEBNF46.txt "hero=beginningCounteraction,departure,heroReaction,wedding;princessAndFather=difficultTask,branding,exposure,recognition,punishment,wedding;dispatcher=mediation;donor=firstDonorFunction,receiptOfMagicalAgent;helper=spatialTransference,liquidation,rescue,solution,transfiguration;falseHero=beginningCounteraction,departure,heroReaction,unfoundedClaims;villain=villainy,struggle,pursuit" | pp.79-80: the seven spheres of action and their functions, ordered by the owner's reading of social rank
+10 | catalogspheres | SemanticCatalog46.md ProppEBNF46.txt "hero=beginningCounteraction,departure,heroReaction,wedding;princessAndFather=difficultTask,branding,exposure,recognition,punishment,wedding;dispatcher=mediation;donor=firstDonorFunction,receiptOfMagicalAgent;helper=spatialTransference,liquidation,rescue,solution,transfiguration;falseHero=beginningCounteraction,departure,heroReaction,unfoundedClaims;villain=villainy,struggle,pursuit" | pp.79-80: the seven spheres of action and their functions, ordered by rank on a speculative reading, not Propp's
 
 # ---------------------------------------------------------------------------
 # HEALTH CHECKS AT THE CLOSE OF 2026-09-27. Not predictions: the corpus
@@ -503,3 +503,6 @@
 
 10-10 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | health check: runCorpus.py still reads the corpus with the step 10 grammar
 10-10 | talefails | ProppEBNF46.txt "126,127,137,138" | health check: embedCorpus.py still parses the 45 tales with the step 10 grammar
+
+# 2026-09-27: the wording of two sources and one comment above was changed so that no
+#   interpretive reading is attributed to a person; no test's expectation changed.

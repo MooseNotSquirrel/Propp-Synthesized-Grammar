@@ -94,8 +94,8 @@ Of p.93's six methods of combining moves it expresses five: sequence, interrupti
 ### What is open, in order
 
 **1. The owner's review of the drafted meanings.**
-`SemanticCatalog46.md` gives every group, pair and function a literal meaning and a cultural meaning. Sixty-three cultural meanings are marked *Draft*; the task cycle's is the owner's own wording.
-The seven dramatis personae, in the owner's order of social rank, each carry a drafted place in the social order and a drafted cultural meaning; both readings of the princess and her father are kept, by the owner's decision.
+`SemanticCatalog46.md` gives every group, pair and function a literal meaning and a cultural meaning. Sixty-three cultural meanings are marked *Draft*; the task cycle's is settled. Since 2026-09-27 they rest on a speculative reading, not on Propp, set out in the catalog's section "A speculative reading, not from Propp": the tale as a guide for the young, the hero as chooser and leader, and a family order that is fractal and cyclical. The catalog attributes that reading to no one, by the owner's wish.
+The seven dramatis personae, ordered by rank on that speculative reading, each carry a drafted place in the social order and a drafted cultural meaning; both readings of the princess and her father are kept, by the owner's decision.
 Five points were put to the owner for discussion: the donor's tested and untested agent as favor earned from outside against favor inherited from within; the helper doing much of what the hero is credited with; the false hero's small corpus count; the villain from inside the family; and the wedding belonging to two spheres.
 
 **2. The parked area left of A.**
@@ -114,7 +114,7 @@ Step 9 built p.107's inverted sequence into the grammar but, by the owner's choi
 
 ### Decided, so not re-opened
 
-The move type is read at the opener, not the root. Moves are separated by `/`. The F groups are merged into the tested and the untested agent (step 6). α stands at the start of a tale only, on the owner's reading of p.86. p.108's seven-never-together is left out. Step 6's widening, an untested agent before a test, is accepted as the cost of the merge. p.108's exchange follows finding FN's reading. The inverted sequence follows option 1. Tragedy and the Dundes consequence tale ship commented out. The dramatis personae are roles for now, in the owner's order.
+The move type is read at the opener, not the root. Moves are separated by `/`. The F groups are merged into the tested and the untested agent (step 6). α stands at the start of a tale only, on the reading of p.86 adopted at step 2. p.108's seven-never-together is left out. Step 6's widening, an untested agent before a test, is accepted as the cost of the merge. p.108's exchange follows finding FN's reading. The inverted sequence follows option 1. Tragedy and the Dundes consequence tale ship commented out. The dramatis personae are roles for now, ordered by rank on a speculative reading.
 
 ### Done on 2026-09-27
 
