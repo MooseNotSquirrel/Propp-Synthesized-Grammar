@@ -36,8 +36,8 @@
 # only removing strings, all of them task-run J's with no task, and the
 # corpus verdict stays 80 of 84. The F conflict stays: no lookahead
 # removes it while the father's agent and the donor's are separate
-# groups, and the choice is the owner's.
-# Step 6, by the owner's decision, merges the F groups: an F after the
+# groups, and the choice was left open until step 6.
+# Step 6, as decided, merges the F groups: an F after the
 # donor's test is the tested agent, and every other F, the father's gift
 # included, is the untested agent. The token before each F now decides
 # its group, and the F conflict is gone. It CHANGES THE MOVE LAYER, only
@@ -59,7 +59,7 @@
 # LL(1). The corpus derivation still drops the parked cells left of A, so
 # no verdict moves: 80 of 84 moves, 41 of 45 tales.
 # Step 10 overlays v43's two genre extensions, tragedy and the Dundes
-# consequence tale, and ships them COMMENTED OUT, by the owner's decision.
+# consequence tale, and ships them COMMENTED OUT, as decided.
 # Switched on, singly or together, they keep the grammar LL(1) and only add;
 # commented out, the grammar is exactly step 9. Each block says how to
 # switch it on and what was adapted or corrected from v43.
@@ -97,8 +97,8 @@
 # MOVES ARE SEQUENTIAL ONLY, for now. p.92 also lets moves interweave;
 # interruption is a later step.
 #
-# THE PREPARATORY SECTION STANDS BEFORE THE FIRST MOVE ONLY, by the
-# owner's decision, because Propp never places one before a later move.
+# THE PREPARATORY SECTION STANDS BEFORE THE FIRST MOVE ONLY, as
+# decided, because Propp never places one before a later move.
 # p.86 says second moves begin with a given situation, meaning who stands
 # where, and Appendix I Table VI, p.125, begins the second move from a new
 # villainy. Admitting one later would move preparatorySection inside the
@@ -106,15 +106,15 @@
 #
 # THE INITIAL SITUATION, α, is not a function and precedes the functions
 # (p.25). It takes [ ] and not { }: it is optional and it is not
-# repeated. It stands at the beginning of the tale only, by the owner's
-# reading of p.86's "given situation" as the tale's initial situation.
+# repeated. It stands at the beginning of the tale only, on the reading
+# of p.86's "given situation" as the tale's initial situation adopted at step 2.
 # Admitting [initialSituation] before a later move would be a small edit.
 #
 # NO EXCLUSION IS ENCODED among the preparatory functions. p.108 observes
-# that all seven never occur within one tale; by the owner's decision the
+# that all seven never occur within one tale; as decided the
 # grammar does not forbid it.
 #
-# MOVES ARE SEPARATED BY '/', by the owner's decision. A move may open on
+# MOVES ARE SEPARATED BY '/', as decided. A move may open on
 # B (p.37), and B may also follow an opener inside a move, so without a
 # separator a string such as A B C parsed two ways: one move, villainy
 # then mediation then counteraction, or the move A followed by the move
@@ -221,8 +221,8 @@ trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
 # p.92: a move is any development proceeding from villainy or lack,
 # through intermediary functions, to a denouement.
 #
-# THE MOVE TYPE IS DECIDED AT MoveOpener, NOT AT THE ROOT, by the owner's
-# decision. v43 splits at the root, move = VillainyMove | LackMove, and
+# THE MOVE TYPE IS DECIDED AT MoveOpener, NOT AT THE ROOT, a choice made
+# at step 1. v43 splits at the root, move = VillainyMove | LackMove, and
 # that was considered and set aside for one reason: Propp names exactly
 # one group in this span, the complication, "(ABC↑)" at pp.64-65, and a
 # root split would have to copy it, and the arc containing it, once per
@@ -236,7 +236,7 @@ trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
 # T STANDS ANYWHERE (step 3). p.108: T is "the most unstable function in
 # relation to its position"; its most appropriate places are before or
 # after the punishment, or before the wedding, where it is most often
-# found. By the owner's decision T may stand at any position in a move,
+# found. As decided, T may stand at any position in a move,
 # before its opener included, and it has no slot of its own. FloatingT
 # leads every move and Between follows every function, so any run of T's
 # between two functions, or before the opener, has exactly one place to
@@ -281,7 +281,7 @@ FloatingT           = {transfiguration}     # p.108; before the opener only
 # A T may follow each of these functions, but not an interruption, since
 # nothing pauses before a move begins (step 7). The opener separates all of
 # it from the crisis, so the grammar stays LL(1).
-# THE CORPUS DOES NOT EXERCISE IT. By the owner's decision (option 1) the
+# THE CORPUS DOES NOT EXERCISE IT. Under option 1, as decided, the
 # derivation still drops the parked cells left of A, as position-undetermined;
 # the grammar states the license, and the corpus verdicts do not move.
 
@@ -344,7 +344,7 @@ complication        = MoveOpener Between
 # WHY THE GROUPS ARE DRAWN HERE. Step 4 split the F's by whether a
 # departure followed a run of them, the father's agent against the
 # donor's. No lookahead can see past a run of any length, so that split
-# cost an LL(1) conflict on F. The owner chose to merge (step 6). With
+# cost an LL(1) conflict on F. The merge was chosen (step 6). With
 # the split drawn at the test instead, the D or E before an F decides its
 # group, and the grammar is LL(1).
 #
@@ -412,8 +412,8 @@ Combat              = {struggle Between}      #-tragedy
 # here nothing stops K or the return after it, since that would need the
 # fall to carry the rest of the move and cost the A-K span as a group.
 # THIS IS v43's PROPOSAL, NOT PROPP'S: no page licenses it, and no corpus
-# tests it. Switched on and tested, then commented out, by the owner's
-# decision.
+# tests it. Switched on and tested, then commented out, as
+# decided.
 #+tragedy Combat              = {struggle Between} {branding Between} CombatEnd
 #+tragedy CombatEnd           = {victory Between} | TragicFall
 #+tragedy TragicFall          = defeat Between exposure Between punishment Between
@@ -581,7 +581,7 @@ wedding                = 'W'                # XXXI
 # THIS IS v43's PROPOSAL AND DUNDES'S SEQUENCE, NOT PROPP'S. No corpus tests
 # it; finding FH records why no Dundes corpus exists and why his pairs,
 # floating freely against one another, forbid little. Switched on and
-# tested, then commented out, by the owner's decision.
+# tested, then commented out, as decided.
 #+dundes consequenceTale      = [initialSituation] DundesMove {DundesMove}
 #+dundes DundesMove           = DundesEvent consequence [attemptedEscape]
 #+dundes DundesEvent          = [interdiction] violation | irreversibleAct

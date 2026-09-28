@@ -9,7 +9,7 @@
 # It is v44's move with two licenses of p.108 built in:
 #
 #   T ANYWHERE. p.108: T is "the most unstable function in relation to
-#   its position". By the owner's decision T may stand at any position in
+#   its position". As decided, T may stand at any position in
 #   a move, before its opener included. Every slot therefore also admits
 #   T, and a leading {'T'} admits it before the opener.
 #

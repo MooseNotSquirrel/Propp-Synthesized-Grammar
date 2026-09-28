@@ -11,7 +11,7 @@ Run `python runSteps.py 6` to check.
 
 **The dramatis personae close the catalog**: Propp's seven spheres of action as roles, ordered by rank on a speculative reading that is not Propp's, each with a literal and a cultural meaning.
 
-**The functions follow the groups, by the owner's decision.**
+**The functions follow the groups, as decided.**
 Individual functions carry meaning too, or they would not be in the model, so the section "Functions" at the end gives each of Propp's thirty-one, with lack as VIIIa, and a second short section gives the two elements Propp names but does not number.
 
 ## How to read an entry
@@ -130,7 +130,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Kind:** group. **Level:** move, before the opener.
 - **Holds:** a T, then a departure, then a donor sequence, each optional.
 - **Warrant:** p.107: elements DEF often stand before A, which is "not a new, but rather an inverted sequence".
-- **Name:** this grammar's. **Corpus:** 0; the corpus derivation drops the parked cells left of A, by the owner's decision, so the corpus does not exercise it. **Tree test:** `up D E F A K`, the ↑ under `BeforeTheCrisis`.
+- **Name:** this grammar's. **Corpus:** 0; the corpus derivation drops the parked cells left of A, as decided, so the corpus does not exercise it. **Tree test:** `up D E F A K`, the ↑ under `BeforeTheCrisis`.
 - **Literal meaning:** what the hero has or does before the misfortune strikes. It lies outside the A-K span, since the crisis has not yet come.
 - **Cultural meaning:** *Draft.* Readiness. A hero who has already set out, or already won help, is prepared when misfortune comes.
 
@@ -156,7 +156,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 
 - **Kind:** notation. **Level:** move.
 - **Holds:** any number of T, at the head of a move, inside `BeforeTheCrisis` since step 9.
-- **Warrant:** p.108: T is the most unstable function in relation to its position. By the owner's decision, T may stand anywhere in a move.
+- **Warrant:** p.108: T is the most unstable function in relation to its position. As decided, T may stand anywhere in a move.
 - **Name:** this grammar's. **Corpus:** 0; no T stands before an opener in the corpus. **Tree test:** `T A K`, the T under `FloatingT`.
 - **Literal meaning:** none claimed. Since step 7 it holds only the T before a move's opener; after a function, a T stands in `Between`. Where a T hangs in the tree is only where the parser meets it. T's own meaning, transfiguration, belongs to the functions section when it is written.
 - **Cultural meaning:** *Draft.* None of its own; this is notation. Transfiguration's cultural meaning is given under `transfiguration`.
@@ -192,7 +192,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 
 - **Kind:** group. **Level:** move.
 - **Holds:** the opener, dispatch B, counteraction C and departure ↑, and an untested agent on either side of the departure.
-- **Warrant:** pp.64-65: villainy, dispatch, decision for counteraction and departure "(ABC↑), constitute the complication". The untested agent inside it is step 6's placement, by the owner's decision.
+- **Warrant:** pp.64-65: villainy, dispatch, decision for counteraction and departure "(ABC↑), constitute the complication". The untested agent inside it is step 6's placement, as decided.
 - **Name:** Propp's. **Corpus:** 80. **Tree test:** `A B C up`, both B and ↑ under `complication`.
 - **Literal meaning:** the misfortune made known and the hero setting out. Since step 6 it also holds what the hero takes with him, or picks up on the road, without earning it.
 - **Cultural meaning:** *Draft.* Answering the call. When the household's loss is made known, the worthy young accept the task and leave home to set it right; the hero chooses to act, and does not wait to be led.
@@ -202,7 +202,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Kind:** choice. **Level:** move.
 - **Holds:** one of A, a or B.
 - **Warrant:** p.92 for villainy and lack; p.37: where no villainy occurs, the connective incident opens the move.
-- **Name:** this grammar's; v43 split at the root instead, and the owner kept the choice here. **Corpus:** 80: villainy in 53, lack in 26, the connective incident in one, 133 II. **Tree test:** `B C up`, the B under `MoveOpener`, and `A B C`, where the later B is not.
+- **Name:** this grammar's; v43 split at the root instead, and the choice is kept here. **Corpus:** 80: villainy in 53, lack in 26, the connective incident in one, 133 II. **Tree test:** `B C up`, the B under `MoveOpener`, and `A B C`, where the later B is not.
 - **Literal meaning:** the kind of move. A villainy is harm done from outside; a lack is something missing from within. The type is read off every tree as this group's child.
 - **Cultural meaning:** *Draft.* The two summonses to action: a wrong done to the family by an enemy, and a want the young feel for themselves that sends them out.
 
@@ -341,7 +341,7 @@ Its meaning is the thread across the move: the wound or ring of the fight is the
 
 ## Extensions, commented out
 
-Two extensions from v43 are overlaid on v46 and shipped commented out, by the owner's decision (step 10). They are not part of the grammar as it stands, so they have no entries above; switched on, they add these.
+Two extensions from v43 are overlaid on v46 and shipped commented out, as decided (step 10). They are not part of the grammar as it stands, so they have no entries above; switched on, they add these.
 
 - **`TragicFall`, with `CombatEnd` and the defeat sign I-.** *Literal meaning:* the combat ends not in victory but in the hero's defeat, exposure and punishment. *Cultural meaning, v43's reading:* tragedy is not a separate genre but the shadow of the warrior tale, the same rising action with force failing; to lose the conflict is to be revealed as not the hero one claimed. *Warrant:* v43's proposal, not Propp's; no page licenses it and no corpus tests it.
 - **`consequenceTale`, with `DundesMove`, `DundesEvent` and `consequence`.** *Literal meaning:* a tale of another genre, in which no lack or villainy drives the action and no hero undoes it: a prohibition broken or an irreversible act, then a consequence, a punishment or a permanent change to the world, and perhaps an attempted escape from it. *Cultural meaning, draft:* the explanation of how things came to be as they are, and a warning that some acts cannot be undone. *Warrant:* Dundes (1964) for Interdiction, Violation, Consequence and Attempted Escape, in that order; the irreversible act and the environmental shift are v43's editorial additions.
@@ -654,7 +654,7 @@ The six remaining terminals, `/`, `⟨`, `⟩`, `<`, `Y` and `}`, are signs of h
 
 ## Dramatis personae
 
-**Propp's seven spheres of action, entered as roles, by the owner's decision for now.**
+**Propp's seven spheres of action, entered as roles, as decided for now.**
 p.79: many functions "logically join together into certain spheres", which "correspond to their respective performers"; p.80 concludes that the tale has seven dramatis personae.
 A sphere is a role, not a person: one character may fill several spheres, and one sphere may be spread across several characters (pp.80-81). The father who dispatches his son and gives him a cudgel is dispatcher and donor at once (p.81).
 The preparatory functions are distributed among the same characters, but too unequally to define them (p.80), so they appear in no entry below.
