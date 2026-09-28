@@ -84,7 +84,7 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 10` prints `133 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
+- `python runSteps.py 10` prints `134 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
@@ -106,7 +106,7 @@ It has one entry for each of v46's groups and pairs, 26 since step 7, each givin
 A frozen `catalog` test keeps it in step with the grammar: one entry per group, a tree test for every group, and no entry for a group the grammar lacks. It was shown to fail on a missing entry and on a false function entry.
 THE FUNCTIONS ARE IN IT, added on 2026-09-27 by the owner's decision: Propp's thirty-one of Ch. III, pp.26-63, with lack as VIIIa, thirty-two entries, each with its number and sign, page, Propp's name, a paraphrase of what happens, its group in v46, its pairs, its corpus count and its meaning; and the two elements Propp names but does not number, α and λ. A frozen `catalogfunctions` test requires exactly those entries in Propp's order, each with a page.
 EACH ENTRY NOW GIVES A LITERAL MEANING AND A CULTURAL MEANING, by the owner's decision of 2026-09-27; a frozen `catalogmeanings` test requires both. The cultural meanings are drafts for the owner's review, except the task cycle's, which is the owner's wording. The two commented-out extensions have a short section of their own.
-NEXT IN IT, TO BE DISCUSSED WITH THE OWNER FIRST: the characters and their spheres of action (Ch. VI), where the owner expects the two of us may read their meaning differently.
+THE DRAMATIS PERSONAE ARE IN IT, 2026-09-27: Propp's seven spheres of action (pp.79-80) as roles, in the owner's order of social rank, hero, princess and her father, dispatcher, donor, helper, false hero, villain. On the owner's reading the order outlines the social hierarchy of Indo-European culture, recursive from the state down to the family group, the state cast as a family. Both readings of the princess and her father are kept. A frozen `catalogspheres` test checks the roles, their order and Propp's functions for each. The places in the order and the cultural meanings are drafts for discussion with the owner.
 Whether the first project's `SemanticBundling.md` then points to this catalog, or is replaced by it, is the owner's call; that file is part of the first project's publication.
 
 **2. Embedded moves: DONE on 2026-09-27, step 7.**
