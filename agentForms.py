@@ -4,6 +4,8 @@ agentForms.py -- how the hero receives the magical agent, tested or not.
 
   python agentForms.py            the table
   python agentForms.py --summary  one line, as StepTests.txt pins it
+  python agentForms.py --helper   the helper's functions in moves with and
+                                  without a received agent, one line
 
 Counts every F cell in ResolvedMoves.txt and sorts it three ways:
   tested                     a D or an E stands earlier in the move, which
@@ -21,6 +23,14 @@ tokenizer, reducer and alias table, parked cells left of A dropped (so p.107's
 pre-crisis donor sequences are not counted), and reading starting where
 falsify44.py starts. Each row of a brace is read on its own, with what came
 before the brace as its context, and every F in every row is counted.
+
+--helper asks whether the helper is the donor's gift at work: Propp holds
+that magical helpers and magical agents function alike (p.82). It counts,
+over all 84 moves and every expansion of their braces, the moves holding
+each of the helper's five functions (p.79: G, K, Rs, N, T), among the moves
+where an agent is received (an F anywhere) and among those where none is.
+APPENDIX III RECORDS FUNCTIONS, NOT PERFORMERS, so this cannot say who
+performed a function, only whether it occurs.
 
 CAUTIONS: the counts are small; "tested" means a D or E came earlier in the
 move, which does not always mean that test earned this agent.
@@ -114,7 +124,23 @@ def summary():
     return '; '.join(parts)
 
 
+def helper_summary(moves='ResolvedMoves.txt'):
+    rows = []
+    for m in F.load(moves):
+        rows.append(set(k for x in R.expansions(R.elements(m['canon'])) for k in x))
+    parts = []
+    for label, group in (('with F', [k for k in rows if 'F' in k]),
+                         ('without F', [k for k in rows if 'F' not in k])):
+        counts = ' '.join('%s %d' % (f, sum(f in k for k in group)) for f in ('G', 'K', 'Rs', 'N', 'T'))
+        anyh = sum(bool(k & {'G', 'K', 'Rs', 'N', 'T'}) for k in group)
+        parts.append('%s %d: %s any %d' % (label, len(group), counts, anyh))
+    return '; '.join(parts)
+
+
 def main(argv):
+    if argv == ['--helper']:
+        print(helper_summary())
+        return 0
     if argv == ['--summary']:
         print(summary())
         return 0

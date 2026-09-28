@@ -48,6 +48,7 @@ Kinds, one test per line as  step | kind | arguments | source :
   agentforms "summary"      agentForms.py --summary prints exactly this:
                             the forms of receipt of the agent, tested and
                             untested, counted from the corpus
+  helperafteragent "line"   agentForms.py --helper prints exactly this
   catalogmeasured C "n,..." each named entry of the catalog C carries a
                             **Measured:** line, a finding counted from the
                             corpus and pinned by a test
@@ -310,6 +311,9 @@ def run(kind, args):
         return not problems, '%d roles' % len(names) + ('; ' + '; '.join(problems) if problems else '')
     if kind == 'agentforms':
         got = agentForms.summary()
+        return got == args[0], got
+    if kind == 'helperafteragent':
+        got = agentForms.helper_summary()
         return got == args[0], got
     if kind == 'catalogmeasured':
         text = open(args[0], encoding='utf-8').read()

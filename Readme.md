@@ -85,7 +85,7 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 10` prints `138 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
+- `python runSteps.py 10` prints `140 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
@@ -113,7 +113,7 @@ Step 9 built p.107's inverted sequence into the grammar but, under option 1, as 
 
 **5. Housekeeping.** This project has no remote; one can be created if wanted. The first project's publication for SourceForge is on hold.
 
-**Measured findings in the catalog, 2026-09-27.** Four entries (receipt of the agent, the untested and tested acquisition, the donor) carry a **Measured:** line from `agentForms.py`: an agent at home is always given, made or bought; seizure comes only after a test; an offer of service follows a test 7 times in 8. These are data, pinned by a test, kept apart from the speculative cultural meanings.
+**Measured findings in the catalog, 2026-09-27.** Four entries (receipt of the agent, the untested and tested acquisition, the donor) carry a **Measured:** line from `agentForms.py`: an agent at home is always given, made or bought; seizure comes only after a test; an offer of service follows a test 7 times in 8. These are data, pinned by a test, kept apart from the speculative cultural meanings. The helper carries one more, from `agentForms.py --helper`: transference follows a received agent (37% against 22%), and nothing else clearly does; the corpus records functions, not performers. The hero and helper entries cite Propp's p.81 and p.82.
 
 ### Decided, so not re-opened
 
