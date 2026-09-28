@@ -472,8 +472,9 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 - **Number and sign:** IX, B. **Page:** p.36. **Propp's name:** mediation, the connective incident.
 - **What happens:** the misfortune or lack is made known; the hero is asked or commanded, and is allowed to go or is sent.
 - **Group:** `complication`, as the dispatch; `MoveOpener`, where no villainy occurs and it opens the move (p.37). **Pairs:** none. **Corpus:** 41, one of them, 133 II, as an opener.
+- **Measured:** Counted by `dispatch.py` and pinned by a test. Of the 43 moves carrying B, the hero is called in 6 (B1), sent in 9 (B2), allowed to go in 8 (B3) and told of the misfortune in 12 (B4); the victimized hero is transported from home in 4 (B5) and lamented in 1 (B7), and never secretly freed (B6). Three more carry B in another function's form, at 144 I, 163 I and 164 II (p.67). Only B2, 9 of the 40 moves with a form, is plain sending by command or request. The Corpus figure of 41 counts the moves v46 accepts; the other two, 126 II and 137 II, are among the four it rejects.
 - **Literal meaning:** the hero is drawn in. It connects the misfortune to the one who will act on it.
-- **Cultural meaning:** *Draft.* The summons: the family's need is made known, and the worthy answer it.
+- **Cultural meaning:** *Draft.* The need is made known and the way out is opened; the answering is the hero's. In most forms the one who brings the news or gives leave does not command, and the young one volunteers.
 
 ### `beginningCounteraction`
 
@@ -699,9 +700,11 @@ Each entry gives Propp's sphere and page, the functions he assigns it, the group
 
 - **Propp's sphere:** 5, p.80. **Functions:** `mediation` (B), the dispatch.
 - **Acts in:** `complication`, and `MoveOpener` when the connective incident opens a move. **Corpus:** 41.
-- **Place in the social order:** *Draft.* Third. Authority within the family, the king or a parent, sending the young out.
-- **Literal meaning:** the one who makes the misfortune known and sends the hero out, or allows the hero to go.
-- **Cultural meaning:** *Draft.* The call of family authority. The young are sent, and going when sent is the first act of worth; what matters is that the hero answers.
+- **From Propp:** the dispatcher's sphere holds the dispatch alone (p.80), and its seven forms name who fills it (pp.36-38). The call for help usually comes from the tsar (B1). With leave to depart the initiative often comes from the hero, not from a dispatcher, and the parents bless (B3). The misfortune is announced more often by old women or persons met by chance than by parents (B4). The banished daughter is taken to the forest by her father, whose act Propp calls logically unnecessary: the tale demands parent-senders (B5, p.37). The hero condemned to death is freed by a cook or an archer (B6), and the lament is sung by a surviving brother (B7).
+- **Measured:** Counted by `dispatch.py` and pinned by a test; the forms are tallied under `mediation`. In 31 of the 40 moves where B carries a form, the dispatcher calls, permits, announces, transports or laments; only in 9 is the hero sent outright, by command or request.
+- **Place in the social order:** *Draft.* Third as a role, but mixed in rank as a person. The sphere is filled by the tsar, by parents, by old women and strangers met on the road, by a cook or an archer, and by a brother. A role filled from so wide a range of rank marks the dispatcher as a minor character: a role defined by one moment, the push out of the door, rather than by who performs it.
+- **Literal meaning:** the one who makes the need known and opens the way out: calls for help, sends, permits, announces, transports or frees. Only the direct dispatch is plain sending; in most forms the dispatcher informs or permits, and the hero decides.
+- **Cultural meaning:** *Draft.* Authority opens the way, and the young one chooses to take it. The elder proclaims, announces or blesses, and the hero volunteers, as with the king who assigns and grants. The tale wants the push to come from home, since Propp finds it demanding parent-senders even where the action needs none (p.37); yet the news comes more often from strangers than from parents. What matters is less who sends than that the hero answers.
 
 ### `donor`
 

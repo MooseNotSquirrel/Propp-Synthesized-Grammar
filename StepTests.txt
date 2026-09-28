@@ -578,3 +578,10 @@
 # heroType.py must reproduce them independently.
 11 | herotype | "B with departure 37: seeker 30 (C 27), victim 4 (C 3), undigited 3 (C 3); tales with B 32: seeker 26, victim 3 (95 98 101), undigited 3, mixed 0" | pp.36-38: the tale follows a seeker or a victimized hero, never both; B's variety digit tells which, and C belongs to the seeker
 11 | catalogmeasured | SemanticCatalog46.md "hero" | the hero's entry carries its measurement, apart from the speculative meanings
+
+# THE DISPATCHER, 2026-09-27. Frozen before dispatch.py was written. The
+# form counts were measured in discussion with heroType.py's reading rules,
+# so this freeze is not blind for them; the reconciliation with the
+# catalog's 41 (moves v46 accepts) was found by parseTree.py --corpus.
+11 | dispatch | "B in 43 moves: called 6, sent 9, allowed 8, told 12, transported 4, freed 0, lamented 1, in another form 3 (144 I, 163 I, 164 II); v46 accepts 41, rejecting 126 II, 137 II" | pp.36-38: the seven forms of mediation; the catalog's Corpus figure counts only the moves v46 accepts
+11 | catalogmeasured | SemanticCatalog46.md "dispatcher,mediation" | the dispatcher and mediation entries carry their measurement

@@ -52,6 +52,7 @@ Kinds, one test per line as  step | kind | arguments | source :
   falsehero "line"          falseHero.py --summary prints exactly this
   villainy "line"           villainy.py --summary prints exactly this
   herotype "line"           heroType.py --summary prints exactly this
+  dispatch "line"           dispatch.py --summary prints exactly this
   catalogmeasured C "n,..." each named entry of the catalog C carries a
                             **Measured:** line, a finding counted from the
                             corpus and pinned by a test
@@ -90,6 +91,7 @@ import embedCorpus
 import falseHero
 import villainy
 import heroType
+import dispatch
 import parseTree
 import runCorpus
 
@@ -323,6 +325,9 @@ def run(kind, args):
         return got == args[0], got
     if kind == 'villainy':
         got = villainy.summary()
+        return got == args[0], got
+    if kind == 'dispatch':
+        got = dispatch.summary()
         return got == args[0], got
     if kind == 'herotype':
         got = heroType.summary()
