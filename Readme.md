@@ -97,40 +97,49 @@ Of p.93's six methods of combining moves it expresses five: sequence, interrupti
 
 ### What is open, in order
 
-**1. Review of the drafted meanings.**
-`SemanticCatalog46.md` gives every group, pair and function a literal meaning and a cultural meaning. Sixty-three cultural meanings are marked *Draft*; the task cycle's is settled. Since 2026-09-27 they rest on a speculative reading, not on Propp, set out in the catalog's section "A speculative reading, not from Propp": the tale as a guide for the young, the hero as chooser and leader, and a family order that is fractal and cyclical. The catalog attributes that reading to no one.
-The seven dramatis personae, ordered by rank on that speculative reading, each carry a drafted place in the social order and a drafted cultural meaning; both readings of the princess and her father are kept, as decided.
-Five points were raised for discussion: the donor's tested and untested agent as favor earned from outside against favor inherited from within; the helper doing much of what the hero is credited with; the false hero's small corpus count; the villain from inside the family; and the wedding belonging to two spheres.
+**1. Review of the drafted meanings, continued.**
+`SemanticCatalog46.md` separates three kinds of claim: **From Propp** (a page), **Measured** (counted by a program here and pinned by a test), and a **Cultural meaning** marked *Draft*, resting on a speculative reading set out in the catalog's section "A speculative reading, not from Propp".
+Discussed on 2026-09-27, with the catalog revised to match: the princess and her father (the king assigns and grants, the princess chooses, the outcome is never in doubt), the donor, the helper, the false hero (the liar and scapegoat) and the villain.
+NOT YET DISCUSSED: the hero and the dispatcher among the roles, and the drafted cultural meanings of the groups and functions generally.
 
 **2. The parked area left of A.**
 Step 9 built p.107's inverted sequence into the grammar but, under option 1, as decided, left the corpus derivation dropping the cells Propp parks left of A. Were they read in place, the eight regions the license fully covers would pass, and 139 I, 154 I and 155 III, each carrying an unlicensed G or W* beside licensed cells, would newly fail: 77 of 84 moves and 38 of 45 tales. The quarantine rests on a reading of Propp's table, not on a page. Still to be decided.
 
 **3. `SemanticBundling.md`, in the first project.** Whether it points to this catalog or is replaced by it. It is part of the first project's publication, so a decision still to make.
 
-**4. Optional extensions, none begun.**
+**4. Optional work, none begun.**
+- A TEST OF THE TRAGIC VARIANTS ON MYTH OR TRAGEDY. The 32 surviving Greek tragedies are a fixed corpus. Transcribe their function schemes and run v46 with `+tragedy,reversal`, freezing the prediction first. Fix in the derivation rules, before transcribing, WHOSE TALE each one is: Prometheus, Oedipus and Medea read differently depending on whose deeds count "for the hero" (p.81), and Prometheus is a punished villain from Zeus's side. Ideally the schemes are written by someone who has not seen the grammar.
+- The Russian behind "various tempters" among Propp's partial helpers (p.82): the helper entry says it may mean skilled or wonder-working people, to be checked against the Russian.
 - Propp's braces, repetition and branching, as grammar structure; today the runner expands them.
 - Varieties, negative forms and variety binding, such as A¹ with a matching K: attribute-level, and v45C's territory rather than an order grammar's.
 - The three interruption sites with dots and no numeral, 155 III, 155 IV and 167 I: a question for the page, since Propp prints no indication.
 - Method 4, two villainies at once, set aside as an odd case: its A-K spans cross.
-- A SECOND TRAGIC VARIANT, the fall after success: BUILT as step 11, commented out. Discussed on 2026-09-27: The tragedy extension as built replaces victory in the combat, but Prometheus and Oedipus both succeed, liquidating the lack or solving the task and winning the queen, and fall afterward. v46 already accepts such strings but reads the punishment as the villain's, since Propp's U does not say who is punished; a fall after the liquidation would need its own sign, as the combat fall needed I-. Aristotle's reversal is the natural name.
 - A TALE GENERATOR, discussed on 2026-09-27. Skeletons are easy, by sampling v46 with weights from `CorpusGroups.txt` and a depth limit on interruption. Proppian skeletons need what v46 omits on purpose, since it is a permissive falsifier: v45C's pairs and dependencies, `AKCorrespondence.txt` and the D-F bindings for varieties, Appendix IV's inventory of what each variety means, and Appendix I with Ch. VI-VIII for the cast. Prose is a separate problem, by templates or a language model given the skeleton as a plan; Gervás's PropperWryter (2013) is prior work.
 
 **5. Housekeeping.** This project has no remote; one can be created if wanted. The first project's publication for SourceForge is on hold.
 
-**Measured findings in the catalog, 2026-09-27.** Four entries (receipt of the agent, the untested and tested acquisition, the donor) carry a **Measured:** line from `agentForms.py`: an agent at home is always given, made or bought; seizure comes only after a test; an offer of service follows a test 7 times in 8. These are data, pinned by a test, kept apart from the speculative cultural meanings. The helper carries one more, from `agentForms.py --helper`: transference follows a received agent (37% against 22%), and nothing else clearly does; the corpus records functions, not performers. The hero and helper entries cite Propp's p.81 and p.82. The false hero carries a table from `falseHero.py`: in all 5 tales where he appears, his claim stands in the tale's last move, he is punished, and the tale ends in the wedding; his drafted cultural meaning is the liar and scapegoat: the counterfeit told apart by the mark, whose exposure turns anger into derision. The villain and the villainy function carry a table from `villainy.py`: abduction of a person is a third of all villainies and expulsion the second form, and in villainy moves the harm is undone in 65% while the villain is punished in only 20%. Propp gives punishment to the sphere of the princess and her father as "punishment of a second villain", the false hero (pp.79-80), so the first villain is defeated in combat and the liar is judged by the head of the house.
+### What the catalog now measures
+
+Each finding is counted by a program here and pinned by a frozen test; the catalog carries it as a **Measured:** line.
+- `agentForms.py`: an agent received at home is always given, made or bought (12 of 12); seizure comes only after a test (3 of 3), where Propp binds it to a hostile donor; an offer of service follows a test 7 times in 8.
+- `agentForms.py --helper`: transference follows a received agent (37% against 22%); nothing else of the helper's does, and the corpus records no performers.
+- `falseHero.py`: in all 5 tales where the false hero appears, his claim stands in the tale's last move, he is punished, and the tale ends in the wedding.
+- `villainy.py`: abduction of a person is a third of all villainies and expulsion the second form; in villainy moves the harm is undone in 65% but punishment stands in only 20%. Propp gives punishment to the princess and her father as "punishment of a second villain" (pp.79-80).
+- Of Propp's 31 function headings, 18 name the hero or the seeker and none the princess, her father or the king; p.81 defines characters by their deeds' meaning for the hero.
 
 ### Decided, so not re-opened
 
-The move type is read at the opener, not the root. Moves are separated by `/`. The F groups are merged into the tested and the untested agent (step 6). α stands at the start of a tale only, on the reading of p.86 adopted at step 2. p.108's seven-never-together is left out. Step 6's widening, an untested agent before a test, is accepted as the cost of the merge. p.108's exchange follows finding FN's reading. The inverted sequence follows option 1. Tragedy and the Dundes consequence tale ship commented out. The dramatis personae are roles for now, ordered by rank on a speculative reading.
+The move type is read at the opener, not the root. Moves are separated by `/`. The F groups are merged into the tested and the untested agent (step 6). α stands at the start of a tale only, on the reading of p.86 adopted at step 2. p.108's seven-never-together is left out. Step 6's widening, an untested agent before a test, is accepted as the cost of the merge. p.108's exchange follows finding FN's reading. The inverted sequence follows option 1. Tragedy, the Dundes consequence tale and the fall after success ship commented out; success before a reversal is a matter of perspective and is not required. The dramatis personae are roles for now, ordered by rank on a speculative reading. No interpretive reading, and no decision, is attributed to a person in this project's files.
 
 ### Done on 2026-09-27
 
-- Steps 1 to 10, tagged, in the table above: all three of ruling 48's targets met, every license of pp.107-108 stated, five of p.93's six methods of combining moves expressed, and v43's two genre extensions overlaid, tested and commented out.
+- Steps 1 to 11, tagged, in the table above: all three of ruling 48's targets met, every license of pp.107-108 stated, five of p.93's six methods of combining moves expressed, v43's two genre extensions overlaid, tested and commented out, and a second tragic variant, the fall after success, likewise.
 - `parseTree.py` and 55 tree tests; `CorpusGroups.txt`.
-- `SemanticCatalog46.md`: 32 groups and pairs, 32 functions, 2 unnumbered elements, the extensions, and 7 dramatis personae, each with literal and cultural meaning, kept in step with the grammar by four frozen tests (`catalog`, `catalogfunctions`, `catalogmeanings`, `catalogspheres`).
-- `embedCorpus.py`, the whole-tale derivation, calibrated against `resolve.py`: interruptions embedded, a shared ending written once after }, 155's road marker and signaller lifted out as the parting.
+- `SemanticCatalog46.md`: 32 groups and pairs, 32 functions, 2 unnumbered elements, the extensions, and 7 dramatis personae, each with literal and cultural meaning, and eight entries with measured findings; kept in step with the grammar and the corpus by frozen tests (`catalog`, `catalogfunctions`, `catalogmeanings`, `catalogspheres`, `catalogmeasured`, and the pinned figures of `agentforms`, `helperafteragent`, `falsehero`, `villainy`).
+- `embedCorpus.py`, the whole-tale derivation, calibrated against `resolve.py`.
+- `agentForms.py`, `falseHero.py` and `villainy.py`, the measuring programs.
 - `equivCheck.py` gained `--drop-a` and `--drop-b`, so this copy differs from the first project's; `runSteps.py` reads `TAG:FILE`, `FILE+NAME` and `FILE@START`; `runCorpus.py` and `runSteps.py` fall back to the LL(1) parser for a recursive grammar.
-- In the first project, from this work: findings FR to FY, ruling 104, and two corrections to v43's comments on combining moves and on Dundes.
+- In the first project, from this work: findings FR to FZ, ruling 104, two corrections to v43's comments, and the published files cleared of any mention of a person.
 
 ### Conventions and traps this session learned
 
@@ -158,3 +167,9 @@ Three onward-binding tests broke at the next step before this rule was written.
 **Extensions switch on in a copy.** Lines beginning `#+NAME ` are an extension and lines ending `#-NAME` the default it replaces; `FILE+NAME` in a test switches them on in a temporary copy, and `FILE@START` parses from another root.
 
 **A stray `cat` with no input blocks a Bash command until it times out.** Stop it and confirm nothing was half-applied before retrying.
+
+**Write a catalog test and its text in separate steps, and run the test red in between.** Twice on 2026-09-27 a test and its text went in one script, so the test was never seen failing; each was then checked against a broken copy, but the order was not test-first.
+
+**Do not chain unrelated commands before an environment setting.** A failing `git stash` ended a chain before `PYTHONIOENCODING` was exported, and the run crashed on printing, which looked like a test failure until it was read.
+
+**Keep the three kinds of claim apart in the catalog.** From Propp, Measured, and a drafted cultural meaning are labeled differently, and only the first two are evidence.
