@@ -9,6 +9,8 @@ A frozen test in `StepTests.txt` requires one entry here for every group in the 
 Each tree test shows the group where the parse puts it, so an entry's claim about what a group holds is tested against the grammar itself.
 Run `python runSteps.py 6` to check.
 
+**The dramatis personae close the catalog**: Propp's seven spheres of action as roles, in the owner's order of social rank, each with a literal and a cultural meaning.
+
 **The functions follow the groups, by the owner's decision.**
 Individual functions carry meaning too, or they would not be in the model, so the section "Functions" at the end gives each of Propp's thirty-one, with lack as VIIIa, and a second short section gives the two elements Propp names but does not number.
 
@@ -633,3 +635,75 @@ Two terminals of v46 are elements Propp names but does not number, so they stand
 - **`preliminaryMisfortune`, λ.** Appendix I Table II item 44, p.121: a misfortune that compels the victim's assent within the deceitful agreement. In v46 it stands inside `trickeryComplicity`, between trickery and complicity. **Corpus:** 0.
 
 The six remaining terminals, `/`, `⟨`, `⟩`, `<`, `Y` and `}`, are signs of how moves combine, and their meaning is given under `tale`, `LaterMoves`, `InterruptingMove`, `Parting` and `CommonEnding`.
+
+## Dramatis personae
+
+**Propp's seven spheres of action, entered as roles, by the owner's decision for now.**
+p.79: many functions "logically join together into certain spheres", which "correspond to their respective performers"; p.80 concludes that the tale has seven dramatis personae.
+A sphere is a role, not a person: one character may fill several spheres, and one sphere may be spread across several characters (pp.80-81). The father who dispatches his son and gives him a cudgel is dispatcher and donor at once (p.81).
+The preparatory functions are distributed among the same characters, but too unequally to define them (p.80), so they appear in no entry below.
+
+**THE ORDER IS THE OWNER'S, AND IT IS AN ORDER OF SOCIAL RANK.**
+Highest status goes to the hero, then the princess and her father, the dispatcher, the donor, the helper, the false hero, and the villain.
+Propp does not say so, but on the owner's reading he has outlined the social hierarchy of Indo-European culture, and it is recursive from the state down to the family group; in fact the state is cast as a family group.
+Each entry's "place in the social order" line applies that reading, and the cultural meanings are drafted with it in mind. Both are drafts for discussion.
+
+Each entry gives Propp's sphere and page, the functions he assigns it, the groups of v46 where they act, how many of the 80 accepted move-strings use at least one of them, its place in the social order, and its literal and cultural meaning.
+
+### `hero`
+
+- **Propp's sphere:** 6, p.80. **Functions:** `beginningCounteraction` (C), `departure` (↑), `heroReaction` (E), `wedding` (W*). Propp: C is characteristic of the seeker-hero; the victim-hero performs only the rest.
+- **Acts in:** `complication`, `TestedAcquisition` and `HelperFirst`, `Endgame`. **Corpus:** 79.
+- **Place in the social order:** *Draft.* Highest. The hero ends at the head of a new household and of the state, marrying and ascending the throne, and every other role acts for or against that rise.
+- **Literal meaning:** the one who decides to act and sets out, answers the donor's test, and is married at the end; a seeker, or a victim who suffers the villainy.
+- **Cultural meaning:** *Draft.* The member of the household who proves fitness to rule. The hero often begins low, the youngest son, the stepdaughter, the fool, is tested, and ends at the head of a family and a kingdom. The tale legitimizes succession by proven worth within the family order, the state being the family written large.
+
+### `princessAndFather`
+
+- **Propp's sphere:** 4, pp.79-80. **Functions:** `difficultTask` (M), `branding` (J), `exposure` (Ex), `recognition` (Q), `punishment` (U), `wedding` (W). Propp: the princess and her father "cannot be exactly delineated from each other according to functions"; most often the father assigns the tasks, from hostility to the suitor, and punishes the false hero.
+- **Acts in:** `TaskCycle`, `Combat` for the branding, `Endgame`. **Corpus:** 38.
+- **Place in the social order:** *Draft.* Second. The ruling house: the father as head of both state and family, the princess as the one through whom rule passes.
+- **Literal meaning:** the sought-for person and her father, who set the hard task, mark the hero, recognize the true hero and expose the false one, punish the impostor, and give the marriage.
+- **Cultural meaning:** *Draft.* TWO READINGS ARE KEPT, BY THE OWNER'S DECISION.
+  - *Succession and exchange.* The father, as sovereign and head of the family, controls who marries into the house and so who inherits. The princess is the reward and the channel of succession, the tasks screen the suitor, and the wedding transfers rule to the hero.
+  - *Judgment and agency.* The princess is the tale's judge. She sets or shares in the tasks, marks the hero, recognizes him and exposes the impostor. The true hero is known through her discernment, so the order is restored by her choice and not only by her father's grant.
+
+### `dispatcher`
+
+- **Propp's sphere:** 5, p.80. **Functions:** `mediation` (B), the dispatch.
+- **Acts in:** `complication`, and `MoveOpener` when the connective incident opens a move. **Corpus:** 41.
+- **Place in the social order:** *Draft.* Third. The authority that sends: a king, a father, a parent within the household.
+- **Literal meaning:** the one who makes the misfortune known and sends the hero out, or allows the hero to go.
+- **Cultural meaning:** *Draft.* The head of the household delegating the family's task to one of its members. Authority acts through commission, and the hierarchy is enacted in the act of sending.
+
+### `donor`
+
+- **Propp's sphere:** 2, p.79. **Functions:** `firstDonorFunction` (D), `receiptOfMagicalAgent` (F).
+- **Acts in:** `TestedAcquisition`, `HelperFirst`, and, when the agent comes with no test, `UntestedAcquisition`. **Corpus:** 45.
+- **Place in the social order:** *Draft.* Fourth. The elder or the outsider of power, a witch, an old man, a grateful animal, who is not of the household but can endow it: a patron.
+- **Literal meaning:** the one who tests the hero and provides the magical agent.
+- **Cultural meaning:** *Draft.* The patron who judges worth and grants power. Step 6 of the grammar gives this a sharper edge: an agent earned from a donor is tested and comes from outside the household, while the father's gift of p.108, where the father is dispatcher and donor at once (p.81), is untested and comes by right of family. Favor from outside is earned by conduct; favor from within is inherited.
+
+### `helper`
+
+- **Propp's sphere:** 3, p.79. **Functions:** `spatialTransference` (G), `liquidation` (K), `rescue` (Rs), `solution` (N), `transfiguration` (T).
+- **Acts in:** `Development`, `CrisisToLiquidation`, `Evasion`, `TaskCycle`, and `FloatingT` or `Between` for T. **Corpus:** 68.
+- **Place in the social order:** *Draft.* Fifth. The servant or ally who acts at the hero's command: power in service. Grateful animals begin as donors and become helpers (pp.80-81).
+- **Literal meaning:** the one who carries the hero, undoes the misfortune, rescues from pursuit, solves the tasks and transforms the hero. The horse that does all of these is Propp's pure helper (p.80).
+- **Cultural meaning:** *Draft.* The loyal servant whose power is exercised on the master's behalf. Much of what the hero is credited with, the helper does, and the order assigns the credit upward; the hero commands, the helper accomplishes.
+
+### `falseHero`
+
+- **Propp's sphere:** 7, p.80. **Functions:** `beginningCounteraction` (C), `departure` (↑), `heroReaction` (E), and, as his specific function, `unfoundedClaims` (L).
+- **Acts in:** `complication`, `TestedAcquisition`, `FraudPosture`. **Corpus:** 6 by his specific function L; the rest he shares with the hero, and 77 moves hold one of C, ↑ or E.
+- **Place in the social order:** *Draft.* Sixth. The rival claimant inside the order: elder brothers, a general, a courtier.
+- **Literal meaning:** the one who sets out as the hero does and meets the donor, but claims the hero's deed without right.
+- **Cultural meaning:** *Draft.* Illegitimate ambition within the family or the court: a claimant who seeks rank without merit. Exposure and punishment defend the order's rule that rank follows proven worth, and the false hero's likeness to the hero is the point: the order must tell the two apart.
+
+### `villain`
+
+- **Propp's sphere:** 1, p.79. **Functions:** `villainy` (A), `struggle` (H), `pursuit` (Pr).
+- **Acts in:** `MoveOpener`, `Combat` and `CombatAfterPursuit`, `Evasion`. **Corpus:** 62.
+- **Place in the social order:** *Draft.* Lowest. The enemy of the order, usually outside it, a dragon, Koshchei, a witch; sometimes inside it, a stepmother or envious sisters.
+- **Literal meaning:** the one who does harm, fights the hero, and pursues.
+- **Cultural meaning:** *Draft.* The threat to the household and the state that the order exists to repel; the hero's rise is its defeat. When the villain comes from inside the family, the tale shows where the recursive order is weakest: the household itself.

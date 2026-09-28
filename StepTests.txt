@@ -482,3 +482,13 @@
 # ---------------------------------------------------------------------------
 
 10 | catalogmeanings | SemanticCatalog46.md | every group, pair and function carries a literal and a cultural meaning
+
+# ---------------------------------------------------------------------------
+# THE DRAMATIS PERSONAE IN THE CATALOG, by the owner's decision. Frozen
+# 2026-09-27 before the section was written. Propp's seven spheres of
+# action, pp.79-80, as roles, each with exactly the functions Propp assigns
+# it, IN THE OWNER'S ORDER OF SOCIAL RANK: hero, princess and her father,
+# dispatcher, donor, helper, false hero, villain.
+# ---------------------------------------------------------------------------
+
+10 | catalogspheres | SemanticCatalog46.md ProppEBNF46.txt "hero=beginningCounteraction,departure,heroReaction,wedding;princessAndFather=difficultTask,branding,exposure,recognition,punishment,wedding;dispatcher=mediation;donor=firstDonorFunction,receiptOfMagicalAgent;helper=spatialTransference,liquidation,rescue,solution,transfiguration;falseHero=beginningCounteraction,departure,heroReaction,unfoundedClaims;villain=villainy,struggle,pursuit" | pp.79-80: the seven spheres of action and their functions, ordered by the owner's reading of social rank

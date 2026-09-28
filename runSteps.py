@@ -39,6 +39,12 @@ Kinds, one test per line as  step | kind | arguments | source :
                             "Groups and pairs" and "Functions" gives a
                             literal meaning and a cultural meaning, and
                             none gives a bare meaning
+  catalogspheres C G "r=f,..;..." the catalog C's section "Dramatis
+                            personae" lists exactly the roles r, in that
+                            order; each entry's Functions line names
+                            exactly the functions f, each a function of
+                            the grammar G; each gives a literal and a
+                            cultural meaning
   derivation                embedCorpus.py's tale derivation calibrates
                             against resolve.py
   talefails G "t,..."       parsed by embedCorpus.py over the 45 whole
@@ -273,6 +279,28 @@ def run(kind, args):
         problems = (['without both: ' + ' '.join(missing)] if missing else []) + \
                    (['bare Meaning: ' + ' '.join(bare)] if bare else [])
         return not problems, '%d entries' % n + ('; ' + '; '.join(problems) if problems else '')
+    if kind == 'catalogspheres':
+        text = open(args[0], encoding='utf-8').read()
+        prods, order = parse.load(open(args[1], encoding='utf-8').read())
+        single = {n for n in order if re.fullmatch(r"\s*'[^']*'\s*", prods[n])}
+        want = [(r.split('=')[0].strip(), set(x.strip() for x in r.split('=')[1].split(',')))
+                for r in args[2].split(';') if r.strip()]
+        m = re.search(r'^## Dramatis personae\s*$(.*?)(?=^## |\Z)', text, re.M | re.S)
+        blocks = re.split(r'^(?=### `)', m.group(1) if m else '', flags=re.M)[1:]
+        names = [re.match(r'### `(\w+)`', b).group(1) for b in blocks]
+        problems = []
+        if names != [w[0] for w in want]:
+            problems.append('roles or order differ: %s' % ' '.join(names))
+        for (role, fs), b in zip(want, blocks):
+            fl = re.search(r'\*\*Functions:\*\*(.*)', b)
+            got = set(re.findall(r'`(\w+)`', fl.group(1))) if fl else set()
+            if got != fs:
+                problems.append('%s functions differ' % role)
+            if got - single:
+                problems.append('%s names no such function: %s' % (role, ' '.join(sorted(got - single))))
+            if '**Literal meaning:**' not in b or '**Cultural meaning:**' not in b:
+                problems.append('%s lacks a meaning' % role)
+        return not problems, '%d roles' % len(names) + ('; ' + '; '.join(problems) if problems else '')
     if kind == 'catalogfunctions':
         text = open(args[0], encoding='utf-8').read()
         m = re.search(r'^## Functions\s*$(.*?)(?=^## |\Z)', text, re.M | re.S)
