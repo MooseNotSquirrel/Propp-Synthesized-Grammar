@@ -84,55 +84,46 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 10` prints `134 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
+- `python runSteps.py 10` prints `136 binding, 0 failed, 0 pending for later steps, 31 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
 - `python regression.py ProppEBNF46.txt` prints `RESULT: ALL PASS`.
 - `git tag` lists `step1` to `step10`.
 
-### The work, in the owner's order
+### What is open, in order
 
-**1. Tree-level tests: DONE on 2026-09-27.**
-`parseTree.py` parses with `parse.py`'s LL(1) table, unchanged, and records the named groups above every token.
-`runSteps.py` has two new kinds, `under` and `notunder`, and 27 tree tests were frozen before the tool was written, run red, then passed.
-They cover the tested and untested agent, the A-K span, the complication, the move type at the opener, the three J's, the endgame, β in the interdiction pair, α outside every move, and T under `FloatingT` only.
-The tool was checked to fail on false claims and on rejected strings.
-`CorpusGroups.txt` counts, for each named group, how many of the 80 accepted moves use it: for instance the tested agent 32, the untested agent 17, Combat 32, TaskCycle 9, and the two step-4 licenses once each.
-It is the raw material for the catalog `SemanticBundling.md` was meant to become.
+**1. The owner's review of the drafted meanings.**
+`SemanticCatalog46.md` gives every group, pair and function a literal meaning and a cultural meaning. Sixty-three cultural meanings are marked *Draft*; the task cycle's is the owner's own wording.
+The seven dramatis personae, in the owner's order of social rank, each carry a drafted place in the social order and a drafted cultural meaning; both readings of the princess and her father are kept, by the owner's decision.
+Five points were put to the owner for discussion: the donor's tested and untested agent as favor earned from outside against favor inherited from within; the helper doing much of what the hero is credited with; the false hero's small corpus count; the villain from inside the family; and the wedding belonging to two spheres.
 
-**1a. The semantic catalog: BUILT on 2026-09-27, as `SemanticCatalog46.md`.**
-It has one entry for each of v46's groups and pairs, 26 since step 7, each giving its kind, level, contents, page, name source, corpus count, tree test and meaning, plus the J-Q dependency and what the catalog teaches.
-A frozen `catalog` test keeps it in step with the grammar: one entry per group, a tree test for every group, and no entry for a group the grammar lacks. It was shown to fail on a missing entry and on a false function entry.
-THE FUNCTIONS ARE IN IT, added on 2026-09-27 by the owner's decision: Propp's thirty-one of Ch. III, pp.26-63, with lack as VIIIa, thirty-two entries, each with its number and sign, page, Propp's name, a paraphrase of what happens, its group in v46, its pairs, its corpus count and its meaning; and the two elements Propp names but does not number, α and λ. A frozen `catalogfunctions` test requires exactly those entries in Propp's order, each with a page.
-EACH ENTRY NOW GIVES A LITERAL MEANING AND A CULTURAL MEANING, by the owner's decision of 2026-09-27; a frozen `catalogmeanings` test requires both. The cultural meanings are drafts for the owner's review, except the task cycle's, which is the owner's wording. The two commented-out extensions have a short section of their own.
-THE DRAMATIS PERSONAE ARE IN IT, 2026-09-27: Propp's seven spheres of action (pp.79-80) as roles, in the owner's order of social rank, hero, princess and her father, dispatcher, donor, helper, false hero, villain. On the owner's reading the order outlines the social hierarchy of Indo-European culture, recursive from the state down to the family group, the state cast as a family. Both readings of the princess and her father are kept. A frozen `catalogspheres` test checks the roles, their order and Propp's functions for each. The places in the order and the cultural meanings are drafts for discussion with the owner.
-Whether the first project's `SemanticBundling.md` then points to this catalog, or is replaced by it, is the owner's call; that file is part of the first project's publication.
+**2. The parked area left of A.**
+Step 9 built p.107's inverted sequence into the grammar but, by the owner's choice of option 1, left the corpus derivation dropping the cells Propp parks left of A. Were they read in place, the eight regions the license fully covers would pass, and 139 I, 154 I and 155 III, each carrying an unlicensed G or W* beside licensed cells, would newly fail: 77 of 84 moves and 38 of 45 tales. The quarantine rests on a reading of Propp's table, not on a page. The owner's decision.
 
-**2. Embedded moves: DONE on 2026-09-27, step 7.**
-- **The derivation, `embedCorpus.py`.** Whole tales, moves separated by `/`, each numbered interruption <N> replaced by move N itself, bracketed ⟨ ... ⟩. The four are 138 II's <III>, 159 I's <II>, 159 III's <IV> inside a brace row, and 162 I's <II>. The dots with no numeral, in 155 III, 155 IV and 167 I, name no move and are removed. A shared ending is attached once, to the last move sharing it. Its rules were frozen before its first run, and a calibration test shows it reproduces `resolve.py`'s 84 move strings once its markers are removed.
-- **The grammar.** After any function, never before the opener, a move may pause for a whole inserted move, to any depth. `Between` holds a T or an `InterruptingMove`; `FloatingT` now holds only the T before an opener. The grammar is context-free, and still LL(1) because the markers bracket every inserted move.
-- **The proof.** `equivCheck.py` now takes `--drop-a` and `--drop-b`; with `InterruptingMove` dropped, v46 is proved exactly step 6. Membership tests on a recursive grammar fall back to the LL(1) parser. This copy of `equivCheck.py` therefore differs from the first project's.
-- **The corpus.** 41 of 45 tales, exactly as predicted before the run.
+**3. `SemanticBundling.md`, in the first project.** Whether it points to this catalog or is replaced by it. It is part of the first project's publication, so the owner's call.
 
-**2a. Two more methods of combining moves: DONE on 2026-09-27, step 8.**
-The common ending (p.93 method 5, tales 125 and 155) and the parting of two seekers (pp.93-94 method 6, tale 155), written with Propp's own signs. The derivation now writes a shared ending once after }, and lifts a road marker and signaller out of a parked cell as the parting; it still calibrates against `resolve.py`. The caveat: the grammar checks that a common ending fits the tale's last move, and the move-level runner checks that it fits each sharer. Method 4 is not built.
+**4. Optional extensions, none begun.**
+- Propp's braces, repetition and branching, as grammar structure; today the runner expands them.
+- Varieties, negative forms and variety binding, such as A¹ with a matching K: attribute-level, and v45C's territory rather than an order grammar's.
+- The three interruption sites with dots and no numeral, 155 III, 155 IV and 167 I: a question for the page, since Propp prints no indication.
+- Method 4, two villainies at once, set aside by the owner as an odd case: its A-K spans cross.
+- A TALE GENERATOR, discussed on 2026-09-27. Skeletons are easy, by sampling v46 with weights from `CorpusGroups.txt` and a depth limit on interruption. Proppian skeletons need what v46 omits on purpose, since it is a permissive falsifier: v45C's pairs and dependencies, `AKCorrespondence.txt` and the D-F bindings for varieties, Appendix IV's inventory of what each variety means, and Appendix I with Ch. VI-VIII for the cast. Prose is a separate problem, by templates or a language model given the skeleton as a plan; Gervás's PropperWryter (2013) is prior work.
 
-**2b. p.107's inverted sequence: DONE on 2026-09-27, step 9, option 1.**
-`BeforeTheCrisis` holds, before the opener, a T, the departure (`LeavingFirst`) and the donor sequence (`HelperFirst`). The corpus derivation still drops the parked cells left of A, so the corpus does not exercise it and no verdict moved.
-OPEN FOR THE OWNER, AS A SEPARATE QUESTION: whether the parked area left of A should stay quarantined. If the derivation kept those cells, the eight regions the license fully covers would parse in place, and three moves carrying an unlicensed G or W* beside licensed cells would newly fail: 139 I, 154 I and 155 III, taking the corpus to 77 of 84 moves and 38 of 45 tales. The quarantine rests on a reading of Propp's table, not on a page.
-A TOOL FIX CAME WITH IT. `runCorpus.py` had failed on v46 since step 7, because its automaton refuses a recursive grammar, and this list's claim that it printed `PASS: 80` was wrong for two steps without any test noticing, the move-level corpus tests having closed at step 6. It now falls back to the LL(1) parser, and a move-level corpus test binds at step 9.
+**5. Housekeeping.** This project has no remote; the owner creates one if wanted. The first project's publication for SourceForge is on hold by the owner's decision.
 
-**3. Small open items.**
-- Whether an initial situation α may stand before a later move. The owner reads p.86 as the tale's initial situation, and admitting one later would be a small edit.
-- p.108's "all seven functions of this section are never encountered within one tale", left out by the owner's decision.
-- Step 6's widening: an untested agent followed by a test, as in `A F D E`, is a cost of the merge and not a license.
-- The exchange of p.108 is built on finding FN's reading, the four exchanging among themselves; on the narrow reading, `U Q W` would be refused.
+### Decided, so not re-opened
 
-**4. Housekeeping.**
-- This project has no remote. If the owner wants it on GitHub beside the first, the owner creates the repository.
-- `SemanticBundling.md`, in the first project, does not yet point at v46's groups.
-- The first project's publication items for SourceForge are on hold by the owner's decision.
+The move type is read at the opener, not the root. Moves are separated by `/`. The F groups are merged into the tested and the untested agent (step 6). α stands at the start of a tale only, on the owner's reading of p.86. p.108's seven-never-together is left out. Step 6's widening, an untested agent before a test, is accepted as the cost of the merge. p.108's exchange follows finding FN's reading. The inverted sequence follows option 1. Tragedy and the Dundes consequence tale ship commented out. The dramatis personae are roles for now, in the owner's order.
+
+### Done on 2026-09-27
+
+- Steps 1 to 10, tagged, in the table above: all three of ruling 48's targets met, every license of pp.107-108 stated, five of p.93's six methods of combining moves expressed, and v43's two genre extensions overlaid, tested and commented out.
+- `parseTree.py` and 55 tree tests; `CorpusGroups.txt`.
+- `SemanticCatalog46.md`: 32 groups and pairs, 32 functions, 2 unnumbered elements, the extensions, and 7 dramatis personae, each with literal and cultural meaning, kept in step with the grammar by four frozen tests (`catalog`, `catalogfunctions`, `catalogmeanings`, `catalogspheres`).
+- `embedCorpus.py`, the whole-tale derivation, calibrated against `resolve.py`: interruptions embedded, a shared ending written once after }, 155's road marker and signaller lifted out as the parting.
+- `equivCheck.py` gained `--drop-a` and `--drop-b`, so this copy differs from the first project's; `runSteps.py` reads `TAG:FILE`, `FILE+NAME` and `FILE@START`; `runCorpus.py` and `runSteps.py` fall back to the LL(1) parser for a recursive grammar.
+- In the first project, from this work: findings FR to FY, ruling 104, and two corrections to v43's comments on combining moves and on Dundes.
 
 ### Conventions and traps this session learned
 
@@ -152,3 +143,11 @@ Three onward-binding tests broke at the next step before this rule was written.
 **Tool traps on this machine.**
 - Git rewrites line endings after a commit, and the Edit tool then reports the file modified since it was read. Re-read it before editing.
 - Escapes inside a bash heredoc, such as `\\n`, arrive mangled. Write a script to a file and run it instead.
+
+**A tool that no binding test exercises can break silently.** `runCorpus.py` failed on v46 from step 7 to step 9, and this handoff claimed it printed `PASS: 80`, because the move-level corpus tests had closed at step 6. Now the two corpus runners have health-check tests binding at step 10, which must be re-frozen at each new step. `regression.py` and `parseTree.py --corpus` have no test: check them by hand, as the checklist says.
+
+**Check that a new test can fail.** Each new test kind this session was run against a deliberately broken copy before it was trusted.
+
+**Extensions switch on in a copy.** Lines beginning `#+NAME ` are an extension and lines ending `#-NAME` the default it replaces; `FILE+NAME` in a test switches them on in a temporary copy, and `FILE@START` parses from another root.
+
+**A stray `cat` with no input blocks a Bash command until it times out.** Stop it and confirm nothing was half-applied before retrying.

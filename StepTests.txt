@@ -492,3 +492,14 @@
 # ---------------------------------------------------------------------------
 
 10 | catalogspheres | SemanticCatalog46.md ProppEBNF46.txt "hero=beginningCounteraction,departure,heroReaction,wedding;princessAndFather=difficultTask,branding,exposure,recognition,punishment,wedding;dispatcher=mediation;donor=firstDonorFunction,receiptOfMagicalAgent;helper=spatialTransference,liquidation,rescue,solution,transfiguration;falseHero=beginningCounteraction,departure,heroReaction,unfoundedClaims;villain=villainy,struggle,pursuit" | pp.79-80: the seven spheres of action and their functions, ordered by the owner's reading of social rank
+
+# ---------------------------------------------------------------------------
+# HEALTH CHECKS AT THE CLOSE OF 2026-09-27. Not predictions: the corpus
+# runners must keep working on the grammar as it stands. Step 9's corpus
+# tests closed at step 9, so at step 10 neither runner had a binding test,
+# the gap that once let runCorpus.py fail unseen for two steps. RE-FREEZE
+# THESE AT EACH NEW STEP.
+# ---------------------------------------------------------------------------
+
+10-10 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | health check: runCorpus.py still reads the corpus with the step 10 grammar
+10-10 | talefails | ProppEBNF46.txt "126,127,137,138" | health check: embedCorpus.py still parses the 45 tales with the step 10 grammar
