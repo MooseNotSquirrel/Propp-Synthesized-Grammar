@@ -60,3 +60,27 @@ The audit, of fidelity and of relevance, has not been done.
 
 **It tests fables against Propp's order, not against a fable's own.**
 The measures ask whether fables sample Propp's sequence; they do not ask what sequence fables follow instead.
+
+## Exploratory: the order the fables follow
+
+**Everything in this section was measured after the verdict and revises nothing.**
+`fableShapes.py` computes it on the primary reading, and its output is `FableShapes.txt`.
+
+**The fables keep a stable order of their own, only loosely Propp's.**
+Placing each function by its mean position within its fable, the two transcribers agree on the outline: a want or a departure early (a at 0.20 to 0.24); trickery, mediation and villainy in the middle (0.41 to 0.52); complicity, help received and the hero's reaction after them (0.58 to 0.73); victory and liquidation late (0.74 to 0.81); punishment and exposure last (0.83 to 0.99).
+The rank correlation of this order with Propp's numbering is 0.26 for transcriber A and 0.47 for B: positive, and weak.
+
+**A fable opens on a want and often closes on a harm.**
+A want opens 36% and 43% of the fables and a villainy 22% and 23%; a villainy closes 26% of them, a liquidation 13% and 16%, an exposure 13% and 8%.
+
+**Propp's local pairs are the transitions most above chance.**
+Test to reaction (37 times chance, transcriber A), false claim to exposure (26 times), trickery to complicity (19 and 17 times), then want to help received (5 times), want to decision to act (7 times, B), want to liquidation (2 to 3 times) and complicity to villainy (2 to 3 times).
+
+**A speculative reading, not from Propp: many fables are the villain's move, told from the villain's side.**
+The recurring shape is a want, a trick, the victim's complicity and a harm: a, η, θ, A.
+In Propp's order trickery and complicity stand before the villainy as preparation, and the villain's own want is not told; the fable tells that want first and ends at the harm, so its hero is often the trickster.
+Read this way, a fable is Propp's preparatory section with the villainy, told whole, with the moral in place of the rest of the tale.
+
+**The tragedy extensions found nothing to work on.**
+The hero loses a fight twice in each transcription, and no move has the hero punished, recognized or exposed after a liquidation or wedding, the fall after success.
+A fable's ruin is a harm done to the foolish, not a defeat in combat or a fall from success, so both grammars accept the same moves.
