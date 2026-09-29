@@ -1,0 +1,345 @@
+L2-047 | I | 1 | ev 1 | 2.5.11 | D⁸ | Busiris | Hercules | ? | "So Hercules also was seized and haled to the altars"; a hostile figure tries to destroy the hero (D8, like the witch who tries to put the hero in the oven); perhaps A¹⁵ (detention). No agent follows.
+L2-047 | I | 2 | ev 2 | 2.5.11 | E⁹ | Hercules | Busiris, Amphidamas | ? | "he burst his bonds and slew both Busiris and his son Amphidamas"; the hero's reaction: he frees himself and vanquishes the adversary; the bursting of the bonds is taken as part of the same reaction. If ev 1 is read as A, then K¹⁰ and I⁵ or U.
+L2-047 | I | 3 | ev 3 | 2.5.11 | X | Hercules | - |   | "traversing Asia he put in to Thermydrae, the harbor of the Lindians"; travel only.
+L2-047 | I | 4 | ev 4 | 2.5.11 | X | Hercules | the cowherd | ? | "having loosed one of the bullocks from the cart of a cowherd, he sacrificed it and feasted"; X, perhaps A⁵ (plunder). Nothing follows but the curse and an etiology; no lack is stated.
+L2-047 | I | 5 | ev 5 | 2.5.11 | X | the cowherd | Hercules |   | "the cowherd, unable to protect himself, stood on a certain mountain and cursed"; leads only to the etiology of cursing at the sacrifice.
+L2-047 | I | 6 | ev 6 | 2.5.11 | X | Hercules | Emathion | ? | "passing by Arabia he slew Emathion, son of Tithonus"; unmotivated killing with no consequence; X, perhaps I⁵.
+L2-047 | I | 7 | ev 7 | 2.5.11 | F¹ | the Sun | Hercules | ? | "journeying through Libya to the outer sea he received the goblet from the Sun"; directly transferred; its use is only implied by "having crossed to the opposite mainland" in the next clause.
+L2-047 | I | 8 | ev 8 | 2.5.11 | D⁷ | the eagle | Prometheus | ? | "the eagle, offspring of Echidna and Typhon, that was devouring the liver of Prometheus"; act told as the reason for the shooting. A helpless sufferer without a request (Propp's d7 case), who later gives advice (ev 11). Perhaps A⁶ (bodily injury, with Prometheus as victim). The crossing ("having crossed to the opposite mainland") gets no entry: it is not a transfer to the object sought.
+L2-047 | I | 9 | ev 8 | 2.5.11 | E⁷ | Hercules | the eagle | ? | "he shot on the Caucasus the eagle"; a service to the sufferer; perhaps I⁵ if ev 8's first act is A.
+L2-047 | I | 10 | ev 9 | 2.5.11 | E⁴ | Hercules | Prometheus |   | "he released Prometheus, after choosing for himself the bond of olive"; frees a captive. Advice follows (ev 11), so this is the donor-type freeing, not K¹⁰ (Propp p.55).
+L2-047 | I | 11 | ev 10 | 2.5.11 | X | Hercules | Chiron, Zeus | ? | "to Zeus he presented Chiron, who, though immortal, consented to die in his stead"; X, perhaps part of E⁴ (the price of the release).
+L2-047 | I | 12 | ev 11 | 2.5.11 | F² | Prometheus | Hercules | ? | "Prometheus had told Hercules not to go himself after the apples but to send Atlas, first relieving him of the burden of the sphere"; flashback, told where it stands. Prometheus points out the one through whom the object can be had (like F2, where an old man points out a peasant from whom a steed may be had); perhaps G⁴.
+L2-047 | I | 13 | ev 12 | 2.5.11 | E⁷ | Hercules | Atlas | ? | "when he was come to Atlas in the land of the Hyperboreans, he took the advice and relieved Atlas"; taking the sky from Atlas is a service to him. The arrival is plain walking, so G is not singled out (Propp p.51). The apples are "on Atlas among the Hyperboreans".
+L2-047 | I | 14 | ev 13 | 2.5.11 | X | Atlas | the Hesperides | ? | "when Atlas had received three apples from the Hesperides"; the object sought reaches Atlas, not the hero; X, perhaps K (obtained by a helper).
+L2-047 | I | 15 | ev 14 | 2.5.11 | X | Atlas | Hercules | ? | "not wishing to support the sphere" ... "he said that he would himself carry the apples to Eurystheus, and bade Hercules hold up the sky in his stead"; leaving Hercules under the sky is only intended and is not carried out; X, perhaps η¹ or A.
+L2-047 | I | 16 | ev 15 | 2.5.11 | η¹ | Hercules | Atlas | ? | "Hercules promised to do so, but succeeded by craft in putting it on Atlas instead" ... "he begged Atlas to hold up the sky till he should" ... "put a pad on his head"; a deceitful persuasion aimed at getting the apples. The promise is feigned, so it gets no θ.
+L2-047 | I | 17 | ev 16 | 2.5.11 | θ¹ | Atlas | - |   | "he laid the apples down on the ground and took the sphere from Hercules"; the deceived party accepts the proposal.
+L2-047 | I | 18 | ev 17 | 2.5.11 | K¹ | Hercules | Atlas |   | "Hercules picked up the apples"; the object is seized by cleverness.
+L2-047 | I | 19 | ev 17 | 2.5.11 | ↓ | Hercules | - | ? | "and departed"; the return begins.
+L2-047 | I | 20 | ev 18 | 2.5.11 | N | Hercules | Eurystheus | ? | "having brought the apples he gave them to Eurystheus"; resolves the eleventh labour ("Eurystheus ordered Hercules, as an eleventh labour, to fetch golden apples from the Hesperides"), which was set before this episode began; perhaps only the end of ↓.
+L2-047 | I | 21 | ev 19 | 2.5.11 | X | Eurystheus | Hercules | ? | "on receiving them, bestowed them on Hercules"; X, perhaps w° (reward).
+L2-047 | I | 22 | ev 20 | 2.5.11 | X | Athena | Hercules |   | "Athena got them and conveyed them back again"; a restoration with no consequence.
+L2-047 | I | 23 | ev 21 | 2.5.12 | M | (unnamed; the labours are Eurystheus's) | Hercules | ? | "A twelfth labour imposed on Hercules was to bring Cerberus from Hades"; a task of supply. Perhaps a with B² (dispatch); since it is not A or a, no new move is opened.
+L2-047 | I | 24 | ev 22 | 2.5.12 | X | Hercules | Eumolpus | ? | "he went to Eumolpus at Eleusis, wishing to be initiated"; X, perhaps D (a preparation). "about to depart" is an intention, so it gets no ↑.
+L2-047 | I | 25 | ev 23 | 2.5.12 | X | Eumolpus | Hercules | ? | "he was cleansed by Eumolpus and then initiated"; no use of the initiation is narrated; X, perhaps F.
+L2-047 | I | 26 | ev 24 | 2.5.12 | G⁵ | Hercules | - |   | "having come to Taenarum in Laconia, where is the mouth of the descent to Hades, he descended through it"; a stationary means of passage (G5, the underground passage).
+L2-047 | I | 27 | ev 25 | 2.5.12 | X | the souls | Hercules |   | "when the souls saw him, they fled, save Meleager and the Gorgon Medusa"
+L2-047 | I | 28 | ev 26 | 2.5.12 | X | Hercules | the Gorgon | ? | "Hercules drew his sword against the Gorgon, as if she were alive"; X, perhaps H; there is no adversary.
+L2-047 | I | 29 | ev 27 | 2.5.12 | X | Hermes | Hercules |   | "he learned from Hermes that she was an empty phantom"
+L2-047 | I | 30 | ev 28 | 2.5.12 | X | Hercules | Theseus, Pirithous | ? | "he found Theseus and Pirithous, him who wooed Persephone in wedlock and was therefore bound fast"; the binding is a state told in passing; X, perhaps A¹⁵.
+L2-047 | I | 31 | ev 29 | 2.5.12 | D⁴ | Theseus, Pirithous | Hercules | ? | "they stretched out their hands as if they should be raised from the dead by his might"; prisoners beg for freedom. No gift follows.
+L2-047 | I | 32 | ev 30 | 2.5.12 | E⁴ | Hercules | Theseus |   | "Theseus, indeed, he took by the hand and raised up"; frees a captive.
+L2-047 | I | 33 | ev 31 | 2.5.12 | E⁴− | Hercules | Pirithous | ? | "when he would have brought up Pirithous, the earth quaked and he let go"; negative result, though it is caused by the quake and not by the hero's conduct.
+L2-047 | I | 34 | ev 32 | 2.5.12 | X | Hercules | Ascalaphus | ? | "he rolled away also the stone of Ascalaphus"; X, perhaps E⁴; nothing follows from it for Hercules.
+L2-047 | I | 35 | ev 33 | 2.5.12 | X | Hercules | the kine of Hades | ? | "wishing to provide the souls with blood, he slaughtered one of the kine of Hades"; X, perhaps A⁵ (against Hades's herd) or E⁷ (a service to the souls); Menoetes's challenge follows.
+L2-047 | I | 36 | ev 34 | 2.5.12 | D⁹ | Menoetes | Hercules | ? | "Menoetes, son of Ceuthonymus, who tended the king, challenged Hercules to wrestle"; a hostile figure engages the hero in combat. No agent follows; perhaps H.
+L2-047 | I | 37 | ev 34 | 2.5.12 | E⁹ | Hercules | Menoetes | ? | "being seized round the middle, had his ribs broken"; the hero vanquishes the adversary; perhaps I¹.
+L2-047 | I | 38 | ev 35 | 2.5.12 | X | Persephone | Menoetes | ? | "he was let off at the request of Persephone"; X, perhaps U− (pardon).
+L2-047 | I | 39 | ev 36 | 2.5.12 | X | Hercules | Pluto |   | "Hercules asked Pluto for Cerberus"
+L2-047 | I | 40 | ev 37 | 2.5.12 | X | Pluto | Hercules | ? | "Pluto ordered him to take the animal provided he mastered him without the use of the weapons which he carried"; a condition; X, perhaps M or D¹ (a test), or γ (the ban on weapons, which is kept).
+L2-047 | I | 41 | ev 38 | 2.5.12 | H¹ | Hercules | Cerberus | ? | "cased in his cuirass and covered by the lion's skin, he flung his arms round the head of the brute"; a struggle. Through the victory the hero gets the very object of his quest, so this is H and not D (Propp pp.51-52).
+L2-047 | I | 42 | ev 39 | 2.5.12 | I¹ | Hercules | Cerberus | ? | "though the dragon in its tail bit him, he never relaxed his grip and pressure till it yielded"; victory. The bite gets no entry: it is a wound in the fight (the J¹ form), and nothing follows from it.
+L2-047 | I | 43 | ev 40 | 2.5.12 | K | Hercules | Cerberus |   | "So he carried it off"; obtained as the result of the victory (perhaps K⁴).
+L2-047 | I | 44 | ev 40 | 2.5.12 | ↓ | Hercules | - |   | "and ascended through Troezen"
+L2-047 | I | 45 | ev 41 | 2.5.12 | X | Demeter | Ascalaphus |   | "Demeter turned Ascalaphus into a short-eared owl"
+L2-047 | I | 46 | ev 42 | 2.5.12 | N | Hercules | Eurystheus |   | "after showing Cerberus to Eurystheus"; the twelfth labour is resolved.
+L2-047 | I | 47 | ev 43 | 2.5.12 | X | Hercules | Cerberus |   | "carried him back to Hades"
+L2-047 | I | 48 | ev 44 | 2.6.1 | X | Hercules | Iolaus, Megara |   | "After his labours Hercules went to Thebes and gave Megara to Iolaus"
+L2-047 | I | 49 | ev 45 | 2.6.1 | a¹ | Hercules | - |   | "wishing himself to wed"; lack of a bride. This is the episode's first lack, so the events before it belong to move I.
+L2-047 | I | 50 | ev 45 | 2.6.1 | M | Eurytus | suitors (Hercules) | ? | "Eurytus, prince of Oechalia, had proposed the hand of his daughter Iole as a prize to him who should vanquish himself and his sons in archery"; told as already proposed. A bride-winning contest; perhaps H² (competition).
+L2-047 | I | 51 | ev 46 | 2.6.1 | ↑ | Hercules | - | ? | "So he came to Oechalia"; the departure is told only through the arrival.
+L2-047 | I | 52 | ev 46 | 2.6.1 | N | Hercules | Eurytus and his sons |   | "he proved himself better than them at archery"
+L2-047 | I | 53 | ev 47 | 2.6.1 | X | Iphitus | - |   | "Iphitus, the elder of Eurytus's sons, said that Iole should be given to Hercules"
+L2-047 | I | 54 | ev 48 | 2.6.1 | W− | Eurytus and the others | Hercules | ? | "yet he did not get the bride" ... "Eurytus and the others refused"; negative result of the wedding. Perhaps A (the prize withheld), but nothing in this episode develops from it as a villainy.
+L2-047 | II | 1 | ev 49 | 2.6.2 | A⁵ | Autolycus | owners of the cattle |   | "some cattle were stolen from Euboea by Autolycus"; a theft; new move.
+L2-047 | II | 2 | ev 50 | 2.6.2 | X | Eurytus | Hercules |   | "Eurytus supposed that it was done by Hercules"; a false suspicion from which nothing develops.
+L2-047 | II | 3 | ev 51 | 2.6.2 | ↑ | Iphitus | - | ? | "Iphitus did not believe it and went to Hercules"; Iphitus sets out, in effect as seeker of the cattle; perhaps C.
+L2-047 | II | 4 | ev 52 | 2.6.2 | X | Hercules | Alcestis, Admetus | ? | "as he came from Pherae after saving the dead Alcestis for Admetus"; flashback told in passing; X, perhaps K⁹.
+L2-047 | II | 5 | ev 53 | 2.6.2 | B² | Iphitus | Hercules | ? | "he invited him to seek the kine with him"; the hero is asked to go.
+L2-047 | II | 6 | ev 54 | 2.6.2 | C | Hercules | - | ? | "Hercules promised to do so and entertained him"; he agrees to act. The entertaining gets no entry.
+L2-047 | III | 1 | ev 55 | 2.6.2 | A¹⁴ | Hercules | Iphitus |   | "going mad again he threw him from the walls of Tiryns"; murder by the hero; new move. Move II breaks off here and is not resumed.
+L2-047 | IV | 1 | ev 56 | 2.6.2 | a⁶ | Hercules | - | ? | "Wishing to be purified of the murder"; a desire, realized from within, and so a new move. Perhaps a consequence of move III and not a new lack.
+L2-047 | IV | 2 | ev 56 | 2.6.2 | ↑ | Hercules | - | ? | "he repaired to Neleus, who was prince of the Pylians"
+L2-047 | IV | 3 | ev 57 | 2.6.2 | X | Neleus | Hercules | ? | "Neleus rejected his request on the score of his friendship with Eurytus"; X, perhaps F−. What is refused is purification, not a magical agent.
+L2-047 | IV | 4 | ev 58 | 2.6.2 | K | Deiphobus | Hercules | ? | "he went to Amyclae and was purified by Deiphobus, son of Hippolytus"; the lack is liquidated as a gift (the KF¹ form).
+L2-047 | V | 1 | ev 59 | 2.6.2 | A | (unnamed) | Hercules | ? | "being afflicted with a dire disease on account of the murder of Iphitus"; misfortune with no performer named and no form in Propp's list; new move.
+L2-047 | V | 2 | ev 59 | 2.6.2 | ↑ | Hercules | - | ? | "he went to Delphi and inquired how he might be rid of the disease"
+L2-047 | V | 3 | ev 60 | 2.6.2 | F− | the Pythian priestess | Hercules | ? | "As the Pythian priestess answered him not by oracles"; nothing is given. The plunder ("he was fain to plunder the temple, and, carrying off the tripod, to institute an oracle of his own") is told as intended, so it gets no entry of its own: X, perhaps F⁸ or A⁵.
+L2-047 | V | 4 | ev 61 | 2.6.2 | D⁹ | Apollo | Hercules | ? | "Apollo fought him"; hostile combat, after which the oracle is given (ev 63); perhaps H.
+L2-047 | V | 5 | ev 62 | 2.6.2 | X | Zeus | Hercules, Apollo | ? | "Zeus threw a thunderbolt between them"; the fight is broken off undecided; X, perhaps E⁹ with no result.
+L2-047 | V | 6 | ev 63 | 2.6.2 | M | the oracle | Hercules | ? | "the remedy for his disease was for him to be sold, and to serve for three years, and to pay compensation for the murder to Eurytus"; a task of endurance (compare the seven years in the tin kingdom); perhaps F² (a remedy pointed out) or D¹ (three years' service).
+L2-047 | V | 7 | ev 64 | 2.6.3 | X | Hermes | Hercules |   | "Hermes sold Hercules"
+L2-047 | V | 8 | ev 65 | 2.6.3 | X | Omphale | Hercules |   | "he was bought by Omphale"
+L2-047 | V | 9 | ev 66 | 2.6.3 | X | Eurytus | Hercules | ? | "Eurytus did not accept the compensation when it was presented to him"; X, perhaps N− for one term of the task.
+L2-047 | V | 10 | ev 67 | 2.6.3 | N | Hercules | Omphale | ? | "Hercules served Omphale as a slave"; the service is performed.
+L2-047 | V | 11 | ev 68 | 2.6.3 | X | Hercules | the Cercopes |   | "he seized and bound the Cercopes at Ephesus"; no offence of theirs is told.
+L2-047 | VI | 1 | ev 69 | 2.6.3 | A | Syleus | passing strangers | ? | "as for Syleus in Aulis, who compelled passing strangers to dig"; told only as the reason for the killing, with no form in Propp's list (perhaps A¹⁵). New move; move V breaks off here. The burning of the vines gets no entry of its own and is taken with ev 70.
+L2-047 | VI | 2 | ev 70 | 2.6.3 | U | Hercules | Syleus, Xenodoce | ? | "Hercules killed him with his daughter Xenodoce, after burning the vines with the roots"; perhaps I⁵.
+L2-047 | VI | 3 | ev 71 | 2.6.3 | E³ | Hercules | Icarus (dead) | ? | "he saw the body of Icarus washed ashore and buried it"; a service to the dead, given unasked.
+L2-047 | VI | 4 | ev 72 | 2.6.3 | X | Daedalus | Hercules | ? | "In return Daedalus made a portrait statue of Hercules at Pisa"; a return for the service, but nothing is transferred to the hero; X, perhaps F (a reward).
+L2-047 | VI | 5 | ev 73 | 2.6.3 | X | Hercules | the statue |   | "which Hercules mistook at night for living and threw a stone and hit it"
+L2-047 | V | 12 | ev 74 | 2.6.4 | K | - | Hercules |   | "After his servitude, being rid of his disease"; move V resumes and its misfortune is liquidated.
+L2-047 | V | 13 | ev 74 | 2.6.4 | ↑ | Hercules | - | ? | "he mustered an army of noble volunteers and sailed for Ilium with eighteen ships of fifty oars each"; no motive is told in this episode. Placed in the resumed move V.
+L2-047 | V | 14 | ev 75 | 2.6.4 | X | Hercules | Oicles |   | "he left the guard of the ships to Oicles and himself with the rest of the champions set out to attack the city"
+L2-047 | V | 15 | ev 76 | 2.6.4 | H¹ | Laomedon | Hercules's force | ? | "Laomedon marched against the ships with the multitude and slew Oicles in battle"; battle.
+L2-047 | V | 16 | ev 77 | 2.6.4 | X | Hercules's troops | Laomedon | ? | "being repulsed by the troops of Hercules, he was besieged"; X, perhaps I¹; the decisive victory is ev 82.
+L2-047 | V | 17 | ev 78 | 2.6.4 | X | Telamon, Hercules | - |   | "Telamon was the first to breach the wall and enter the city, and after him Hercules"
+L2-047 | V | 18 | ev 79 | 2.6.4 | X | Hercules | Telamon | ? | "he drew his sword and rushed at him, loath that anybody should be reputed a better man than himself"; the attack is begun but not carried out; X, perhaps A.
+L2-047 | V | 19 | ev 80 | 2.6.4 | X | Telamon | Hercules | ? | "he said he was building an altar to Hercules the Glorious Victor"; X, perhaps η (a ruse that averts the attack).
+L2-047 | V | 20 | ev 81 | 2.6.4 | X | Hercules | Telamon |   | "Hercules thanked him"
+L2-047 | V | 21 | ev 82 | 2.6.4 | I¹ | Hercules | Laomedon and his sons |   | "when he had taken the city and shot down Laomedon and his sons, except Podarces"; victory. The killing is taken as part of the victory, since the villain is killed in the battle.
+L2-047 | V | 22 | ev 83 | 2.6.4 | X | Hercules | Telamon, Hesione | ? | "he assigned Laomedon's daughter Hesione as a prize to Telamon and allowed her to take with her whomsoever of the captives she would"; X, perhaps w° (a reward to Telamon).
+L2-047 | V | 23 | ev 84 | 2.6.4 | X | Hesione | Podarces |   | "she chose her brother Podarces"
+L2-047 | V | 24 | ev 85 | 2.6.4 | X | Hercules | Hesione, Podarces | ? | "Hercules said that he must first be a slave and then be ransomed by her"; X, perhaps M (set to Hesione).
+L2-047 | V | 25 | ev 86 | 2.6.4 | X | Hesione | Podarces | ? | "she took the veil from her head and gave it as a ransom"; X, perhaps N.
+L2-047 | VII | 1 | ev 87 | 2.7.1 | A | Hera | Hercules | ? | "When Hercules was sailing from Troy, Hera sent grievous storms"; harm of no listed form; new move.
+L2-047 | VII | 2 | ev 88 | 2.7.1 | U | Zeus | Hera | ? | "which so vexed Zeus that he hung her from Olympus"
+L2-047 | VII | 3 | ev 89 | 2.7.1 | H¹ | the Coans | Hercules | ? | "Hercules sailed to Cos, and the Coans, thinking he was leading a piratical squadron, endeavored to prevent his approach by a shower of stones"; the fight begins. Perhaps A or D⁹.
+L2-047 | VII | 4 | ev 90 | 2.7.1 | I¹ | Hercules | the Coans, Eurypylus |   | "he forced his way in and took the city by night, and slew the king, Eurypylus"
+L2-047 | VII | 5 | ev 91 | 2.7.1 | X | Chalcedon | Hercules | ? | "Hercules was wounded in the battle by Chalcedon"; told after the victory, and so a flashback within the battle. X, perhaps J¹ (a wound in the fight, though nothing is recognized by it) or A⁶.
+L2-047 | VII | 6 | ev 92 | 2.7.1 | X | Zeus | Hercules | ? | "Zeus snatched him away, so that he took no harm"; X, perhaps Rs¹ (carried off through the air), though there is no pursuit.
+L2-047 | VII | 7 | ev 93 | 2.7.1 | X | Athena | Hercules | ? | "having laid waste Cos, he came through Athena's agency to Phlegra"; X, perhaps G; Phlegra is not the place of anything sought.
+L2-047 | VII | 8 | ev 94 | 2.7.1 | X | Hercules | the giants | ? | "sided with the gods in their victorious war on the giants"; X, perhaps H and I; no stake of his own is told.
+L2-047 | VII | 9 | ev 95 | 2.7.2 | ↑ | Hercules | - | ? | "he collected an Arcadian army, and being joined by volunteers from the first men in Greece he marched against Augeas"; the setting out on a campaign whose cause is not told here.
+L2-047 | VII | 10 | ev 96 | 2.7.2 | X | Augeas | the Molionides |   | "Augeas, hearing of the war that Hercules was levying, appointed Eurytus and Cteatus generals of the Eleans"
+L2-047 | VII | 11 | ev 97 | 2.7.2 | X | - | Hercules | ? | "on the expedition Hercules fell sick; hence he concluded a truce with the Molionides"; X, perhaps λ (a difficult situation that the enemy later uses).
+L2-047 | VIII | 1 | ev 98 | 2.7.2 | ζ | (unnamed) | the Molionides | ? | "being apprized of his illness"; the enemy receives information about his victim. It is placed in move VIII with the villainy of the same event, which follows it in the text.
+L2-047 | VIII | 2 | ev 98 | 2.7.2 | A | the Molionides | Hercules's army | ? | "they attacked the army and slew many"; the truce is broken; new move. Perhaps H (the war goes on).
+L2-047 | VIII | 3 | ev 99 | 2.7.2 | X | Hercules | - | ? | "Hercules beat a retreat"; X, perhaps I−.
+L2-047 | VIII | 4 | ev 100 | 2.7.2 | I⁵ | Hercules | the Molionides |   | "Hercules waylaid and killed them at Cleonae"; killed without a preliminary fight, from ambush.
+L2-047 | VIII | 5 | ev 101 | 2.7.2 | I¹ | Hercules | the Eleans | ? | "marching on Elis took the city"
+L2-047 | VIII | 6 | ev 102 | 2.7.2 | I⁵ | Hercules | Augeas and his sons | ? | "having killed Augeas and his sons"; perhaps U.
+L2-047 | VIII | 7 | ev 103 | 2.7.2 | X | Hercules | Phyleus | ? | "he restored Phyleus and bestowed on him the kingdom"; X, perhaps W³ (for Phyleus) or K.
+L2-047 | VIII | 8 | ev 104 | 2.7.3 | ↑ | Hercules | - | ? | "he marched against Pylus"
+L2-047 | VIII | 9 | ev 104 | 2.7.3 | I¹ | Hercules | the Pylians | ? | "having taken the city"
+L2-047 | VIII | 10 | ev 105 | 2.7.3 | I¹ | Hercules | Periclymenus | ? | "he slew Periclymenus, the most valiant of the sons of Neleus, who used to change his shape in battle"
+L2-047 | VIII | 11 | ev 106 | 2.7.3 | I¹ | Hercules | Neleus and his sons | ? | "he slew Neleus and his sons, except Nestor"
+L2-047 | VIII | 12 | ev 107 | 2.7.3 | X | Hercules | Hades | ? | "In the fight he also wounded Hades, who was siding with the Pylians"; X, perhaps part of I.
+L2-047 | IX | 1 | ev 108 | 2.7.3 | ↑ | Hercules | - | ? | "he marched against Lacedaemon"; placed in move IX together with the villainy that the same event tells after it.
+L2-047 | IX | 2 | ev 108 | 2.7.3 | C | Hercules | the sons of Hippocoon | ? | "wishing to punish the sons of Hippocoon"; the decision to counteract.
+L2-047 | IX | 3 | ev 108 | 2.7.3 | A¹⁴ | the sons of Hippocoon | the son of Licymnius |   | "still angrier because they had killed the son of Licymnius"; told as a reason, and as a flashback ("the Hippocoontids darted out and despatched him with blows of their cudgels"); new move.
+L2-050 | I | 1 | ev 1 | 2.7.3 | X | Hercules | Cepheus | ? | "having come to Arcadia he begged Cepheus to join him with his sons, of whom he had twenty"; X, perhaps D (a request by the hero) or B.
+L2-050 | I | 2 | ev 2 | 2.7.3 | X | Cepheus | Hercules | ? | "fearing lest, if he quitted Tegea, the Argives would march against it, Cepheus refused to join the expedition"; X, perhaps F−. The Argive attack is only feared.
+L2-050 | I | 3 | ev 3 | 2.7.3 | F¹ | Athena | Hercules | ? | "Hercules had received from Athena a lock of the Gorgon's hair in a bronze jar"; flashback: a magical agent directly transferred.
+L2-050 | I | 4 | ev 3 | 2.7.3 | F¹ | Hercules | Sterope | ? | "gave it to Sterope, daughter of Cepheus, saying that if an army advanced against the city, she was to hold up the lock of hair thrice from the walls"; the agent is passed to Sterope. The ban in "provided she did not look before her, the enemy would be turned to flight" gets no entry: it is never tested.
+L2-050 | I | 5 | ev 4 | 2.7.3 | X | Cepheus and his sons | Hercules | ? | "Cepheus and his sons took the field"; X, perhaps F⁹ (characters place themselves at the hero's disposal).
+L2-050 | I | 6 | ev 5 | 2.7.3 | H¹ | Hercules's side | the Lacedaemonians | ? | "in the battle he and his sons perished, and besides them Iphicles, the brother of Hercules"; the battle, with the deaths of allies.
+L2-050 | I | 7 | ev 6 | 2.7.3 | I¹ | Hercules | Hippocoon and his sons | ? | "Having killed Hippocoon and his sons and subjugated the city"; victory. The killing may be the U sought in L2-047 ev 108.
+L2-050 | I | 8 | ev 7 | 2.7.3 | X | Hercules | Tyndareus | ? | "Hercules restored Tyndareus and entrusted the kingdom to him"; X, perhaps W³ (for Tyndareus) or K.
+L2-054 | I | 1 | ev 1 | 2.7.5 | a¹ | Hercules | Deianira |   | "having come to Calydon, Hercules wooed Deianira, daughter of Oeneus"; lack of a bride, shown by the wooing.
+L2-054 | I | 2 | ev 2 | 2.7.5 | H¹ | Hercules, Achelous | - | ? | "He wrestled for her hand with Achelous, who assumed the likeness of a bull"; a fight with a rival. Perhaps M (Propp's task list has defeating a rival) or D⁹.
+L2-054 | I | 3 | ev 3 | 2.7.5 | I¹ | Hercules | Achelous | ? | "Hercules broke off one of his horns"
+L2-054 | I | 4 | ev 4 | 2.7.5 | W² | Hercules | Deianira |   | "So Hercules married Deianira"; a marriage with no throne.
+L2-054 | I | 5 | ev 5 | 2.7.5 | X | Achelous | Hercules |   | "Achelous recovered the horn by giving the horn of Amalthea in its stead"
+L2-054 | I | 6 | ev 6 | 2.7.6 | ↑ | Hercules | - | ? | "Hercules marched with the Calydonians against the Thesprotians"; no cause is told.
+L2-054 | I | 7 | ev 6 | 2.7.6 | I¹ | Hercules | the Thesprotians | ? | "having taken the city of Ephyra, of which Phylas was king"
+L2-054 | I | 8 | ev 7 | 2.7.6 | X | Hercules | Astyoche |   | "he had intercourse with the king's daughter Astyoche, and became the father of Tlepolemus"
+L2-054 | I | 9 | ev 8 | 2.7.6 | X | Hercules | Thespius |   | "he sent word to Thespius to keep seven of his sons"
+L2-054 | II | 1 | ev 9 | 2.7.6 | A¹⁴ | Hercules | the son of Architeles |   | "he killed with a blow of his knuckles endeavored, son of Architeles, when the lad was pouring water on his hands"; an accidental killing that leads to exile; new move.
+L2-054 | II | 2 | ev 10 | 2.7.6 | U− | the lad's father | Hercules | ? | "Seeing that it was an accident, the lad's father pardoned Hercules"; a magnanimous pardon (Propp's U neg.).
+L2-054 | II | 3 | ev 11 | 2.7.6 | ↑ | Hercules | - | ? | "Hercules wished, in accordance with the law, to suffer the penalty of exile, and resolved to depart to Ceyx at Trachis"; a self-chosen exile, carried out in ev 12; perhaps A⁹, suffered by the hero on his own choice.
+L2-054 | II | 4 | ev 12 | 2.7.6 | X | Hercules | - | ? | "taking Deianira with him, he came to the river Evenus, at which the centaur Nessus sat and ferried passengers across for hire, alleging that he had received the ferry from the gods for his righteousness"; X; Nessus's claim to righteousness is perhaps η (a guise).
+L2-054 | II | 5 | ev 13 | 2.7.6 | X | Hercules | - |   | "Hercules crossed the river by himself"
+L2-054 | II | 6 | ev 14 | 2.7.6 | X | Hercules | Deianira, Nessus | ? | "on being asked to pay the fare he entrusted Deianira to Nessus to carry over"; X, perhaps θ. It makes the assault possible, but no deception by Nessus is told as an act.
+L2-054 | III | 1 | ev 15 | 2.7.6 | A | Nessus | Deianira | ? | "in ferrying her across, attempted to violate her"; an assault begun but not completed. The nearest form is A¹⁶, which is Propp's threat of forced matrimony. New move.
+L2-054 | III | 2 | ev 16 | 2.7.6 | B¹ | Deianira | Hercules | ? | "She cried out, Hercules heard her"; a call for help.
+L2-054 | III | 3 | ev 17 | 2.7.6 | I⁵ | Hercules | Nessus |   | "shot Nessus to the heart when he emerged from the river"; killed without a fight. Perhaps U; Deianira is freed by it (K⁴), but it is one act.
+L2-054 | III | 4 | ev 18 | 2.7.6 | η¹ | Nessus | Deianira | ? | "Nessus called Deianira to him and said that if she would have a love charm to operate on Hercules she should mix the seed he had dropped on the ground with the blood that flowed from the wound inflicted by the barb"; a deceitful persuasion, as ev 38 shows.
+L2-054 | III | 5 | ev 19 | 2.7.6 | θ¹ | Deianira | - |   | "She did so and kept it by her."
+L2-054 | IV | 1 | ev 20 | 2.7.7 | a⁵ | Hercules | - |   | "being in lack of food"; lack of the means of living; new move.
+L2-054 | IV | 2 | ev 20 | 2.7.7 | K¹ | Hercules | Thiodamas | ? | "he unloosed and slaughtered one of the bullocks and feasted"; the lack is liquidated by force. Against Thiodamas the same act is perhaps A⁵.
+L2-054 | IV | 3 | ev 21 | 2.7.7 | X | Ceyx | Hercules |   | "when he came to Ceyx at Trachis he was received by him"
+L2-054 | IV | 4 | ev 22 | 2.7.7 | I¹ | Hercules | the Dryopes | ? | "conquered the Dryopes"; no struggle and no cause are told.
+L2-054 | V | 1 | ev 23 | 2.7.7 | A¹⁹ | the Lapiths under Coronus | Aegimius |   | "the Lapiths, commanded by Coronus, made war on him in a dispute about the boundaries of the country"; war; new move.
+L2-054 | V | 2 | ev 24 | 2.7.7 | B¹ | Aegimius | Hercules |   | "being besieged he called in the help of Hercules, offering him a share of the country"; a call for help with a promise.
+L2-054 | V | 3 | ev 25 | 2.7.7 | ↑ | Hercules | - | ? | "So Hercules came to his help"; the decision (C) is implicit and gets no entry.
+L2-054 | V | 4 | ev 25 | 2.7.7 | I¹ | Hercules | Coronus |   | "slew Coronus and others"
+L2-054 | V | 5 | ev 25 | 2.7.7 | K | Hercules | Aegimius | ? | "handed the whole country over to Aegimius free"; the misfortune of the siege is undone. The offered share is not taken.
+L2-054 | V | 6 | ev 26 | 2.7.7 | I⁵ | Hercules | Laogoras and his children | ? | "He slew also Laogoras, king of the Dryopes, with his children, as he was banqueting in a precinct of Apollo" ... "for the king was a wanton fellow and an ally of the Lapiths"; killed without a fight; perhaps U.
+L2-054 | V | 7 | ev 27 | 2.7.7 | D⁹ | Cycnus | Hercules | ? | "he was challenged to single combat by Cycnus a son of Ares and Pelopia"; a hostile figure engages the hero in combat; perhaps H.
+L2-054 | V | 8 | ev 27 | 2.7.7 | E⁹ | Hercules | Cycnus | ? | "closing with him Hercules slew him also"; perhaps I¹.
+L2-054 | V | 9 | ev 28 | 2.7.7 | D⁹ | Amyntor | Hercules | ? | "king Amyntor took arms and forbade him to march through"; hostile engagement. The forbidding is perhaps γ.
+L2-054 | V | 10 | ev 28 | 2.7.7 | E⁹ | Hercules | Amyntor | ? | "when he would have hindered his passage, Hercules slew him also"
+L2-054 | V | 11 | ev 29 | 2.7.7 | C | Hercules | Eurytus | ? | "he mustered an army to attack Oechalia, wishing to punish Eurytus"; the offence is not told in this episode.
+L2-054 | V | 12 | ev 30 | 2.7.7 | I¹ | Hercules | Eurytus and his sons | ? | "Being joined by Arcadians, Melians from Trachis, and Epicnemidian Locrians, he slew Eurytus and his sons and took the city"; victory. The allies' joining gets no entry (perhaps F⁹), and the killing is perhaps U.
+L2-054 | V | 13 | ev 31 | 2.7.7 | X | Hercules | his own dead |   | "burying those of his own side who had fallen"
+L2-054 | VI | 1 | ev 32 | 2.7.7 | A¹ | Hercules | Iole | ? | "he pillaged the city and led Iole captive"; an abduction whose consequence is Deianira's fear (ev 36); new move. The pillage gets no entry of its own.
+L2-054 | VI | 2 | ev 33 | 2.7.7 | X | Hercules | - |   | "he built an altar of Cenaean Zeus"
+L2-054 | VI | 3 | ev 34 | 2.7.7 | X | Hercules | Lichas |   | "he sent the herald Lichas to Trachis to fetch fine raiment"
+L2-054 | VI | 4 | ev 35 | 2.7.7 | ζ | Lichas | Deianira | ? | "From him Deianira learned about Iole"; the one who will do the harm receives the information.
+L2-054 | VI | 5 | ev 36 | 2.7.7 | η² | Deianira | Hercules | ? | "she supposed that the spilt blood of Nessus was in truth a love-charm, and with it she smeared the tunic"; a magical means applied to the victim without his knowledge. Its motive ("fearing that Hercules might love that damsel more than herself") gets no entry (perhaps a).
+L2-054 | VI | 6 | ev 37 | 2.7.7 | θ² | Hercules | - | ? | "So Hercules put it on and proceeded to offer sacrifice"
+L2-054 | VII | 1 | ev 38 | 2.7.7 | A⁶ | the poison (Nessus's blood, put on by Deianira) | Hercules |   | "no sooner was the tunic warmed than the poison of the hydra began to corrode his skin"; bodily injury; new move.
+L2-054 | VII | 2 | ev 39 | 2.7.7 | X | Hercules | Lichas | ? | "he lifted Lichas by the feet, hurled him down from the headland"; X, perhaps U, but Lichas is only the bearer.
+L2-054 | VII | 3 | ev 40 | 2.7.7 | X | Hercules | - | ? | "tore off the tunic, which clung to his body, so that his flesh was torn away with it"; a failed attempt to rid himself of the harm; X, perhaps K−.
+L2-054 | VII | 4 | ev 41 | 2.7.7 | ↓ | (unnamed) | Hercules | ? | "he was carried on shipboard to Trachis"; a return to his place of residence.
+L2-054 | VII | 5 | ev 42 | 2.7.7 | U | Deianira | Deianira | ? | "Deianira, on learning what had happened, hanged herself"; suicide of the one who did the harm, one of Propp's forms of punishment.
+L2-054 | VII | 6 | ev 43 | 2.7.7 | X | Hercules | Hyllus |   | "after charging Hyllus his elder son by Deianira, to marry Iole when he came of age"
+L2-054 | VII | 7 | ev 44 | 2.7.7 | D³ | Hercules | the bystanders | ? | "proceeded to Mount Oeta, in the Trachinian territory, and there constructed a pyre, mounted it, and gave orders to kindle it"; a dying man requests a service.
+L2-054 | VII | 8 | ev 45 | 2.7.7 | E³ | Poeas | Hercules | ? | "When no one would do so, Poeas, passing by to look for his flocks, set a light to it"; the service is rendered. The others' refusal gets no entry.
+L2-054 | VII | 9 | ev 46 | 2.7.7 | F¹ | Hercules | Poeas | ? | "On him Hercules bestowed his bow"; a direct transfer, as a reward.
+L2-054 | VII | 10 | ev 47 | 2.7.7 | K | - | Hercules | ? | "Thereafter he obtained immortality"; the dying is undone; perhaps T. The ascent in the cloud is told only as "it is said" and is not a census event.
+L2-054 | VII | 11 | ev 48 | 2.7.7 | X | Hercules, Hera | - | ? | "being reconciled to Hera"; X, perhaps U− (pardon).
+L2-054 | VII | 12 | ev 49 | 2.7.7 | W² | Hercules | Hebe |   | "he married her daughter Hebe"
+L2-055 | I | 1 | ev 1 | 2.8.1 | ↑ | the sons of Hercules | - | ? | "his sons fled from Eurystheus and came to Ceyx"; a flight whose cause is not told as an act.
+L2-055 | I | 2 | ev 2 | 2.8.1 | A⁸ | Eurystheus | the sons of Hercules | ? | "Eurystheus demanded their surrender and threatened war"; the villain demands his victims. Perhaps Pr² (the pursuer demands the guilty); the war is only threatened.
+L2-055 | I | 3 | ev 3 | 2.8.1 | ↑ | the sons of Hercules | - |   | "quitting Trachis, fled through Greece"; departure as flight.
+L2-055 | I | 4 | ev 4 | 2.8.1 | Pr | Eurystheus | the sons of Hercules | ? | "Being pursued, they came to Athens, and sitting down on the altar of Mercy, claimed protection"; pursuit. The claim of protection gets no entry of its own and leads to the rescue in ev 5.
+L2-055 | I | 5 | ev 5 | 2.8.1 | Rs⁵ | the Athenians | the sons of Hercules | ? | "Refusing to surrender them"; protectors refuse the pursuer's demand and take on the fight, like the blacksmiths of Rs5.
+L2-055 | I | 6 | ev 5 | 2.8.1 | H¹ | the Athenians | Eurystheus | ? | "the Athenians bore the brunt of war with Eurystheus"
+L2-055 | I | 7 | ev 6 | 2.8.1 | I¹ | the Athenians | the sons of Eurystheus | ? | "slew his sons, Alexander, Iphimedon, Eurybius, Mentor and Perimedes"
+L2-055 | I | 8 | ev 7 | 2.8.1 | Pr | Hyllus | Eurystheus | ? | "Eurystheus himself fled in a chariot, but was pursued"; pursuit, here by the hero's side.
+L2-055 | I | 9 | ev 7 | 2.8.1 | I⁵ | Hyllus | Eurystheus | ? | "and slain by Hyllus just as he was driving past the Scironian cliffs"; perhaps U.
+L2-055 | I | 10 | ev 8 | 2.8.1 | X | Hyllus | Alcmena | ? | "Hyllus cut off his head and gave it to Alcmena"; X, perhaps part of U.
+L2-055 | I | 11 | ev 9 | 2.8.1 | U | Alcmena | Eurystheus (his head) | ? | "she gouged out his eyes with weaving-pins"; punishment done on the dead villain.
+L2-055 | I | 12 | ev 10 | 2.8.2 | ↓ | the Heraclids | - | ? | "the Heraclids came to attack Peloponnese"; the text calls this "their return" ("a year had elapsed from their return").
+L2-055 | I | 13 | ev 10 | 2.8.2 | I¹ | the Heraclids | the Peloponnesians | ? | "and they captured all the cities"
+L2-055 | II | 1 | ev 11 | 2.8.2 | A | (unnamed) | the Peloponnese, the Heraclids | ? | "a plague visited the whole of Peloponnese"; harm with no performer named; new move.
+L2-055 | II | 2 | ev 12 | 2.8.2 | B⁴ | the oracle | the Heraclids | ? | "an oracle declared that this happened on account of the Heraclids, because they had returned before the proper time"; the misfortune is made known, and it causes their departure.
+L2-055 | II | 3 | ev 13 | 2.8.2 | ↑ | the Heraclids | - |   | "they quitted Peloponnese and retired to Marathon and dwelt there"; no end of the plague is told.
+L2-058 | I | 1 | ev 1 | 2.8.2 | a⁶ | Hyllus | the Heraclids | ? | "sought to effect the return of the Heraclids"; a desire to return. The inquiry ("So he went to Delphi and inquired how they should return") gets no entry of its own.
+L2-058 | I | 2 | ev 2 | 2.8.2 | γ¹ | the god | Hyllus | ? | "the god said that they should await the third crop before returning"; an interdiction on returning early; perhaps F² (an instruction).
+L2-058 | I | 3 | ev 3 | 2.8.2 | δ | Hyllus | - | ? | "Hyllus supposed that the third crop signified three years; and having waited that time he returned with his army"; the return breaks the interdiction unwittingly, as ev 8 shows; perhaps ↑.
+L2-058 | I | 4 | ev 4 | 2.8.2 | I− | the Peloponnesians | the Heraclids | ? | "in another battle the Peloponnesians were victorious, and Aristomachus was slain"; the hero's side loses the fight.
+L2-058 | I | 5 | ev 5 | 2.8.2 | X | the sons of Cleodaeus | the oracle | ? | "they inquired of the oracle concerning their return"; X; perhaps a renewed a.
+L2-058 | I | 6 | ev 6 | 2.8.2 | X | the god | the sons of Cleodaeus | ? | "the god having given the same answer as before"; X, perhaps γ repeated.
+L2-058 | I | 7 | ev 7 | 2.8.2 | X | Temenus | the god |   | "Temenus blamed him, saying that when they had obeyed the oracle they had been unfortunate"
+L2-058 | I | 8 | ev 8 | 2.8.2 | G⁴ | the god | Temenus | ? | "not a crop of the earth, but a crop of a generation" ... "by the narrows he meant the broad-bellied sea on the right of the Isthmus"; the route is shown, and ships are built in response (ev 9); perhaps F².
+L2-058 | I | 9 | ev 9 | 2.8.2 | X | Temenus | - | ? | "Temenus made ready the army and built ships in Locris"; X, perhaps ↑.
+L2-058 | I | 10 | ev 10 | 2.8.2 | X | (unnamed) | Aristodemus | ? | "Aristodemus was killed by a thunderbolt"; X, perhaps A; nothing follows from it.
+L2-058 | I | 11 | ev 11 | 2.8.3 | X | the soothsayer; the army | - |   | "there appeared to them a soothsayer reciting oracles in a fine frenzy, whom they took for a magician sent by the Peloponnesians to be the ruin of the army"; a mistaken belief.
+L2-058 | II | 1 | ev 12 | 2.8.3 | A¹⁴ | Hippotes | the soothsayer | ? | "Hippotes, son of Phylas, son of Antiochus, son of Hercules, threw a javelin at him, and hit and killed him"; a murder by a Heraclid, which brings the calamity. New move; move I breaks off here.
+L2-058 | III | 1 | ev 13 | 2.8.3 | A | (unnamed; the god says the soothsayer) | the Heraclids' army | ? | "In consequence of that, the naval force perished with the destruction of the fleet"; harm to the heroes; new move. Move II breaks off here.
+L2-058 | III | 2 | ev 14 | 2.8.3 | X | (unnamed) | the land force | ? | "the land force suffered from famine"; the same calamity; X, perhaps a further A.
+L2-058 | III | 3 | ev 15 | 2.8.3 | X | the army | - | ? | "the army disbanded"; the consequence of the calamity.
+L2-058 | III | 4 | ev 16 | 2.8.3 | B² | the god | Temenus | ? | "the god said that these things were done by the soothsayer and he ordered him to banish the slayer for ten years and to take for his guide the Three-Eyed One"; the misfortune is explained and orders are given. One act, so one entry.
+L2-058 | II | 2 | ev 17 | 2.8.3 | U | the Heraclids | Hippotes | ? | "So they banished Hippotes"; the slayer of move II is punished, so move II resumes here.
+L2-058 | III | 5 | ev 18 | 2.8.3 | ↑ | the Heraclids | - | ? | "sought for the Three-Eyed One"; they set out on a search; perhaps C.
+L2-058 | III | 6 | ev 19 | 2.8.3 | F⁵ | - | the Heraclids | ? | "they chanced to light on Oxylus, son of Andraemon, a man sitting on a one-eyed horse"; the helper is found by chance.
+L2-058 | III | 7 | ev 20 | 2.8.3 | G³ | Oxylus | the Heraclids | ? | "guessing the purport of the oracle, they made him their guide"; the leading is implied, not told.
+L2-058 | III | 8 | ev 21 | 2.8.3 | H¹ | the Heraclids | the Peloponnesians |   | "having engaged the enemy"
+L2-058 | III | 9 | ev 21 | 2.8.3 | I¹ | the Heraclids | the Peloponnesians, Tisamenus |   | "they got the better of him both by land and sea, and slew Tisamenus"
+L2-058 | III | 10 | ev 22 | 2.8.3 | X | (the enemy) | Pamphylus, Dymas |   | "Their allies, Pamphylus and Dymas, the sons of Aegimius, also fell in the fight"
+L2-058 | I | 12 | ev 23 | 2.8.4 | K | the Heraclids | the Peloponnese | ? | "When they had made themselves masters of Peloponnese, they set up three altars of Paternal Zeus, and sacrificed upon them"; the lack of move I (the return) is liquidated, so move I resumes here. The altars and sacrifice get no entry.
+L2-058 | I | 13 | ev 24 | 2.8.4 | X | the Heraclids | - |   | "cast lots for the cities"
+L2-058 | I | 14 | ev 25 | 2.8.4 | X | the Heraclids | - |   | "they brought a pitcher of water, and resolved that each should cast in a lot"
+L2-058 | IV | 1 | ev 26 | 2.8.4 | a⁶ | Cresphontes | - | ? | "Cresphontes, wishing to have Messene allotted to him"; a desire; new move.
+L2-058 | IV | 2 | ev 26 | 2.8.4 | η³ | Cresphontes | Temenus, the sons of Aristodemus | ? | "threw in a clod of earth"; deception by other means.
+L2-058 | IV | 3 | ev 27 | 2.8.4 | K¹ | Cresphontes | - | ? | "As the clod was dissolved in the water, it could not be but that the other two lots should turn up" ... "Cresphontes got Messene"; obtained by cleverness.
+L2-058 | IV | 4 | ev 28 | 2.8.5 | X | - | the Heraclids |   | "on the altars on which they sacrificed they found signs lying"
+L2-058 | IV | 5 | ev 29 | 2.8.5 | X | the seers | - |   | "the seers said"; interpretation only.
+L3-001 | I | 1 | ev 1 | 3.1.1 | a¹ | Zeus | Europa |   | "Zeus loved her"; a desire for a bride.
+L3-001 | I | 2 | ev 2 | 3.1.1 | η | Zeus | Europa | ? | "turning himself into a tame bull"; a disguise, which Propp gives as the first step of trickery; the persuasion itself is not told.
+L3-001 | I | 3 | ev 3 | 3.1.1 | K¹ | Zeus | Europa | ? | "he mounted her on his back"; the object sought is seized by cunning. The same act is the A¹ of L3-002.
+L3-001 | I | 4 | ev 4 | 3.1.1 | X | Zeus | Europa | ? | "conveyed her through the sea to Crete"; X, perhaps G² or ↓.
+L3-001 | I | 5 | ev 5 | 3.1.1 | X | Zeus | Europa | ? | "There Zeus bedded with her"; X, perhaps W² (a union, not a marriage).
+L3-002/1 | I | 1 | ev 1 | 3.1.1 | A¹ | Zeus | Europa |   | "On the disappearance of Europa"; the abduction told in L3-001, given here as the reason for the dispatch. Hero: Cadmus.
+L3-002/1 | I | 2 | ev 1 | 3.1.1 | B² | Agenor | Cadmus, Phoenix, Cilix |   | "her father Agenor sent out his sons in search of her, telling them not to return until they had found Europa"; direct dispatch, with a threat.
+L3-002/1 | I | 3 | ev 2 | 3.1.1 | ↑ | Cadmus, Phoenix, Cilix, Telephassa, Thasus | - |   | "went forth in search of her"
+L3-002/1 | I | 4 | ev 3 | 3.1.1 | K− | the searchers | - | ? | "after diligent search, they could not find Europa"; the misfortune is not liquidated.
+L3-002/1 | I | 5 | ev 4 | 3.1.1 | X | the searchers | - | ? | "they gave up the thought of returning home"; X, perhaps ↓−, held back by the dispatcher's condition.
+L3-002/1 | I | 6 | ev 5 | 3.1.1 | X | Phoenix | - |   | "Phoenix settled in Phoenicia"
+L3-002/1 | I | 7 | ev 6 | 3.1.1 | X | Cilix | - | ? | "Cilix settled near Phoenicia, and all the country subject to himself near the river Pyramus he called Cilicia"; X, perhaps W³.
+L3-002/1 | I | 8 | ev 7 | 3.1.1 | X | Cadmus, Telephassa | - |   | "Cadmus and Telephassa took up their abode in Thrace"; the hero's settlement.
+L3-002/1 | I | 9 | ev 8 | 3.1.1 | X | Thasus | - |   | "Thasus founded a city Thasus in an island off Thrace and dwelt there"
+L3-002/2 | I | 1 | ev 1 | 3.1.1 | A¹ | Zeus | Europa |   | "On the disappearance of Europa"; the abduction told in L3-001, given here as the reason for the dispatch. Hero: Phoenix.
+L3-002/2 | I | 2 | ev 1 | 3.1.1 | B² | Agenor | Cadmus, Phoenix, Cilix |   | "her father Agenor sent out his sons in search of her, telling them not to return until they had found Europa"; direct dispatch, with a threat.
+L3-002/2 | I | 3 | ev 2 | 3.1.1 | ↑ | Cadmus, Phoenix, Cilix, Telephassa, Thasus | - |   | "went forth in search of her"
+L3-002/2 | I | 4 | ev 3 | 3.1.1 | K− | the searchers | - | ? | "after diligent search, they could not find Europa"; the misfortune is not liquidated.
+L3-002/2 | I | 5 | ev 4 | 3.1.1 | X | the searchers | - | ? | "they gave up the thought of returning home"; X, perhaps ↓−, held back by the dispatcher's condition.
+L3-002/2 | I | 6 | ev 5 | 3.1.1 | X | Phoenix | - |   | "Phoenix settled in Phoenicia"; the hero's settlement.
+L3-002/2 | I | 7 | ev 6 | 3.1.1 | X | Cilix | - | ? | "Cilix settled near Phoenicia, and all the country subject to himself near the river Pyramus he called Cilicia"; X, perhaps W³.
+L3-002/2 | I | 8 | ev 7 | 3.1.1 | X | Cadmus, Telephassa | - |   | "Cadmus and Telephassa took up their abode in Thrace"
+L3-002/2 | I | 9 | ev 8 | 3.1.1 | X | Thasus | - |   | "Thasus founded a city Thasus in an island off Thrace and dwelt there"
+L3-002/3 | I | 1 | ev 1 | 3.1.1 | A¹ | Zeus | Europa |   | "On the disappearance of Europa"; the abduction told in L3-001, given here as the reason for the dispatch. Hero: Cilix.
+L3-002/3 | I | 2 | ev 1 | 3.1.1 | B² | Agenor | Cadmus, Phoenix, Cilix |   | "her father Agenor sent out his sons in search of her, telling them not to return until they had found Europa"; direct dispatch, with a threat.
+L3-002/3 | I | 3 | ev 2 | 3.1.1 | ↑ | Cadmus, Phoenix, Cilix, Telephassa, Thasus | - |   | "went forth in search of her"
+L3-002/3 | I | 4 | ev 3 | 3.1.1 | K− | the searchers | - | ? | "after diligent search, they could not find Europa"; the misfortune is not liquidated.
+L3-002/3 | I | 5 | ev 4 | 3.1.1 | X | the searchers | - | ? | "they gave up the thought of returning home"; X, perhaps ↓−, held back by the dispatcher's condition.
+L3-002/3 | I | 6 | ev 5 | 3.1.1 | X | Phoenix | - |   | "Phoenix settled in Phoenicia"
+L3-002/3 | I | 7 | ev 6 | 3.1.1 | X | Cilix | - | ? | "Cilix settled near Phoenicia, and all the country subject to himself near the river Pyramus he called Cilicia"; the hero's settlement and rule; X, perhaps W³ (accession only).
+L3-002/3 | I | 8 | ev 7 | 3.1.1 | X | Cadmus, Telephassa | - |   | "Cadmus and Telephassa took up their abode in Thrace"
+L3-002/3 | I | 9 | ev 8 | 3.1.1 | X | Thasus | - |   | "Thasus founded a city Thasus in an island off Thrace and dwelt there"
+L3-003 | I | 1 | ev 1 | 3.1.2 | X | Asterius | Europa's children |   | "Asterius, prince of the Cretans, married Europa and brought up her children"
+L3-003 | I | 2 | ev 2 | 3.1.2 | a¹ | Minos, Sarpedon, Rhadamanthys | Miletus | ? | "they loved a boy called Miletus"; the lack of a beloved (Propp's a1 includes a friend). Told in the text as the reason for the quarrel.
+L3-003 | I | 3 | ev 3 | 3.1.2 | X | the brothers | - | ? | "they quarrelled with each other"; X, perhaps H.
+L3-003 | II | 1 | ev 4 | 3.1.2 | A¹⁹ | Minos | Sarpedon and Rhadamanthys | ? | "As the boy was more friendly to Sarpedon, Minos went to war"; war on the hero; new move.
+L3-003 | II | 2 | ev 5 | 3.1.2 | I− | Minos | Sarpedon | ? | "and had the better of it"; the hero's side loses.
+L3-003 | II | 3 | ev 6 | 3.1.2 | ↑ | Sarpedon and the others | - | ? | "and the others fled"; departure as flight.
+L3-003 | II | 4 | ev 7 | 3.1.2 | X | Miletus | - |   | "Miletus landed in Caria and there founded a city"
+L3-003 | II | 5 | ev 8 | 3.1.2 | X | Sarpedon | Cilix | ? | "Sarpedon allied himself with Cilix, who was at war with the Lycians, and having stipulated for a share of the country"; X, perhaps E (a service for a reward). No fighting is told.
+L3-003 | II | 6 | ev 9 | 3.1.2 | W³ | Sarpedon | - | ? | "he became king of Lycia"; accession to the throne only.
+L3-003 | II | 7 | ev 10 | 3.1.2 | X | Zeus | Sarpedon | ? | "Zeus granted him to live for three generations"; X, perhaps F¹ (a quality given, never used) or w°.
+L3-006 | I | 1 | ev 1 | 3.1.2 | X | Minos | - |   | "Minos, residing in Crete, passed laws"
+L3-006 | I | 2 | ev 2 | 3.1.3 | β² | Asterius | - | ? | "Asterius dying childless"; the death of an elder, which leaves the throne open.
+L3-006 | I | 3 | ev 3 | 3.1.3 | a⁶ | Minos | - |   | "Minos wished to reign over Crete"; a desire for the kingdom.
+L3-006 | I | 4 | ev 4 | 3.1.3 | X | (unnamed) | Minos | ? | "his claim was opposed"; X, perhaps A.
+L3-006 | I | 5 | ev 5 | 3.1.3 | X | Minos | - | ? | "he alleged that he had received the kingdom from the gods"; X, perhaps L; the text does not say the claim is false.
+L3-006 | I | 6 | ev 6 | 3.1.3 | X | Minos | - |   | "in proof of it he said that whatever he prayed for would be done"
+L3-006 | I | 7 | ev 7 | 3.1.3 | E⁷ | Minos | Poseidon | ? | "in sacrificing to Poseidon he prayed that a bull might appear from the depths"; a service of a religious kind (Propp puts prayer under E7). No D precedes it.
+L3-006 | I | 8 | ev 8 | 3.1.3 | X | Minos | Poseidon | ? | "promising to sacrifice it when it appeared"; X, perhaps γ, since this undertaking is later broken.
+L3-006 | I | 9 | ev 9 | 3.1.3 | F | Poseidon | Minos | ? | "Poseidon did send him up a fine bull"; the agent by which the claim is proved.
+L3-006 | I | 10 | ev 10 | 3.1.3 | K | Minos | - | ? | "Minos obtained the kingdom"; the lack is liquidated; perhaps W³.
+L3-006 | I | 11 | ev 11 | 3.1.3 | δ | Minos | Poseidon | ? | "he sent the bull to the herds"; the broken promise. Poseidon's anger follows from it (ev 14).
+L3-006 | I | 12 | ev 12 | 3.1.3 | X | Minos | - |   | "and sacrificed another"
+L3-006 | I | 13 | ev 13 | 3.1.3 | X | Minos | the islands |   | "he extended his rule over almost all the islands"
+L3-006 | II | 1 | ev 14 | 3.1.4 | A | Poseidon | Minos (his bull) | ? | "angry at him for not sacrificing the bull, Poseidon made the animal savage"; new move; perhaps A¹¹ (a spell cast on something).
+L3-007 | I | 1 | ev 1 | 3.1.4 | A¹¹ | Poseidon | Pasiphae | ? | "contrived that Pasiphae should conceive a passion for it"; a spell cast on a person. Perhaps a, since what follows is the pursuit of the desire and not a breaking of the spell.
+L3-007 | I | 2 | ev 2 | 3.1.4 | F | Daedalus | Pasiphae | ? | "In her love for the bull she found an accomplice in Daedalus"; a helper is acquired (F⁹ or F⁵).
+L3-007 | I | 3 | ev 3 | 3.1.4 | X | (unnamed) | Daedalus |   | "who had been banished from Athens for murder"; a flashback told in passing.
+L3-007 | I | 4 | ev 4 | 3.1.4 | F³ | Daedalus | Pasiphae |   | "He constructed a wooden cow on wheels, took it, hollowed it out in the inside, sewed it up in the hide of a cow which he had skinned"; the agent is prepared.
+L3-007 | I | 5 | ev 5 | 3.1.4 | X | Daedalus | - | ? | "set it in the meadow in which the bull used to graze"; X, perhaps G.
+L3-007 | I | 6 | ev 6 | 3.1.4 | G | Daedalus | Pasiphae | ? | "Then he introduced Pasiphae into it"; the hero is delivered, inside the agent, to where the object of her desire is. Perhaps η (a disguise).
+L3-007 | I | 7 | ev 7 | 3.1.4 | K | the bull | Pasiphae | ? | "the bull came and coupled with it, as if it were a real cow"; her desire is fulfilled. Perhaps θ (the bull deceived). It does not answer ev 1 as the breaking of a spell.
+L3-007 | I | 8 | ev 8 | 3.1.4 | X | Pasiphae | - |   | "she gave birth to Asterius, who was called the Minotaur"
+L3-010 | I | 1 | ev 1 | 3.2.1 | B⁴ | (unnamed) | Althaemenes | ? | "Catreus hid the oracles, but Althaemenes heard of them"; a misfortune (foretold: "he would die by the hand of one of his children") is made known and causes the departure. No A or a is told.
+L3-010 | I | 2 | ev 2 | 3.2.1 | X | Althaemenes | - |   | "fearing to be his father's murderer"; a motive.
+L3-010 | I | 3 | ev 3 | 3.2.1 | ↑ | Althaemenes | Apemosyne |   | "he set out from Crete with his sister Apemosyne"
+L3-010 | I | 4 | ev 4 | 3.2.1 | X | Althaemenes | - |   | "put in at a place in Rhodes"
+L3-010 | I | 5 | ev 5 | 3.2.1 | X | Althaemenes | - | ? | "having taken possession of it he called it Cretinia"; X, perhaps W³.
+L3-010 | I | 6 | ev 6 | 3.2.1 | X | Althaemenes | - |   | "having ascended the mountain called Atabyrium"
+L3-010 | I | 7 | ev 7 | 3.2.1 | X | Althaemenes | - |   | "he beheld the islands round about; and descrying Crete also"
+L3-010 | I | 8 | ev 8 | 3.2.1 | X | Althaemenes | - | ? | "calling to mind the gods of his fathers he founded an altar of Atabyrian Zeus"; X, perhaps E⁷ (a religious service), from which nothing follows.
+L3-011 | I | 1 | ev 1 | 3.2.1 | a¹ | Hermes | Apemosyne | ? | "Hermes loved her"; the desire is the god's.
+L3-011 | I | 2 | ev 2 | 3.2.1 | Pr | Hermes | Apemosyne | ? | "she fled from him"; her flight implies his pursuit, which ev 3 confirms.
+L3-011 | I | 3 | ev 3 | 3.2.1 | Rs¹ | Apemosyne | Hermes | ? | "he could not catch her, because she excelled him in speed of foot"; saved by swift flight.
+L3-011 | I | 4 | ev 4 | 3.2.1 | η³ | Hermes | Apemosyne |   | "he spread fresh hides on the path"; deception by other means (like the knives set at the window).
+L3-011 | I | 5 | ev 5 | 3.2.1 | θ³ | Apemosyne | - |   | "returning from the spring, she slipped"; she reacts mechanically to the device.
+L3-011 | II | 1 | ev 6 | 3.2.1 | A | Hermes | Apemosyne | ? | "and so was deflowered"; the harm, of no listed form; new move. For Hermes it is also the end of his lack (K).
+L3-011 | II | 2 | ev 7 | 3.2.1 | B⁴ | Apemosyne | Althaemenes | ? | "She revealed to her brother what had happened"; the misfortune is made known. It is followed by no counteraction.
+L3-011 | III | 1 | ev 8 | 3.2.1 | A¹⁴ | Althaemenes | Apemosyne | ? | "deeming the god a mere pretext, kicked her to death"; murder; new move. Perhaps U, as he takes it.
+L3-012 | I | 1 | ev 1 | 3.2.2 | A⁹ | Catreus | Aerope, Clymene | ? | "Catreus gave Aerope and Clymene to Nauplius to sell into foreign lands"; expulsion, by the hero. Nothing further follows from it in this episode.
+L3-012 | II | 1 | ev 2 | 3.2.2 | a⁶ | Catreus | - |   | "in the grip of old age Catreus yearned to transmit the kingdom to his son Althaemenes"; a desire; new move.
+L3-012 | II | 2 | ev 3 | 3.2.2 | ↑ | Catreus | - |   | "went for that purpose to Rhodes"
+L3-012 | II | 3 | ev 4 | 3.2.2 | o | Catreus | - | ? | "having landed from the ship with the heroes at a desert place of the island"; an arrival in another country, where he is not recognized (ev 5).
+L3-012 | II | 4 | ev 5 | 3.2.2 | Pr | the cowherds | Catreus | ? | "he was chased by the cowherds, who imagined that they were pirates on a raid"
+L3-012 | II | 5 | ev 6 | 3.2.2 | X | Catreus | the cowherds | ? | "He told them the truth"; X, perhaps Q (an attempt at recognition that fails).
+L3-012 | II | 6 | ev 7 | 3.2.2 | X | the dogs | the cowherds |   | "they could not hear him for the barking of the dogs"
+L3-012 | II | 7 | ev 8 | 3.2.2 | Pr⁶ | the cowherds | Catreus | ? | "while they pelted him"; the pursuers try to kill him.
+L3-012 | II | 8 | ev 9 | 3.2.2 | X | Althaemenes | - |   | "Althaemenes arrived"
+L3-012 | III | 1 | ev 10 | 3.2.2 | A¹⁴ | Althaemenes | Catreus |   | "killed him with the cast of a javelin, not knowing him to be Catreus"; murder; new move.
+L3-014 | I | 1 | ev 1 | 3.3.1 | X | Glaucus | a mouse |   | "in chasing a mouse"
+L3-014 | I | 2 | ev 2 | 3.3.1 | X | Glaucus | - | ? | "fell into a jar of honey"; X, perhaps θ (the hero's own mishap).
+L3-014 | I | 3 | ev 3 | 3.3.1 | A¹⁴ | - | Glaucus | ? | "and was drowned"; a death by accident with no performer. A¹⁴ is Propp's murder, and it is answered by revival (ev 17).
+L3-014 | I | 4 | ev 4 | 3.3.1 | C | Minos | - | ? | "On his disappearance Minos made a great search"; counteraction; perhaps ↑.
+L3-014 | I | 5 | ev 5 | 3.3.1 | X | Minos | the diviners | ? | "consulted diviners as to how he should find him"; X, perhaps B¹ (a call for help).
+L3-014 | I | 6 | ev 6 | 3.3.1 | M | the Curetes | Minos, the diviners | ? | "the man who could best describe that cow's color would also restore his son to him alive"; a riddle-like ordeal.
+L3-014 | I | 7 | ev 7 | 3.3.1 | N | Polyidus | - |   | "Polyidus, son of Coeranus, compared the color of the cow to the fruit of the bramble"; the task is solved.
+L3-014 | I | 8 | ev 8 | 3.3.1 | B² | Minos | Polyidus | ? | "being compelled to seek for the child"; dispatch by command.
+L3-014 | I | 9 | ev 8 | 3.3.1 | G | - | Polyidus | ? | "he found him by means of a sort of divination"; led to where the object of search is. Perhaps K, but the child is found dead.
+L3-014 | I | 10 | ev 9 | 3.3.1 | M | Minos | Polyidus | ? | "Minos declaring that he must recover him alive"; a task.
+L3-014 | I | 11 | ev 10 | 3.3.1 | X | Minos | Polyidus | ? | "he was shut up with the dead body"; the task is enforced; X, perhaps A¹⁵.
+L3-014 | I | 12 | ev 11 | 3.3.1 | X | a serpent | Glaucus's body |   | "he saw a serpent going towards the corpse"
+L3-014 | I | 13 | ev 12 | 3.3.1 | X | Polyidus | the serpent | ? | "He threw a stone and killed it, fearing to be killed himself if any harm befell the body"; X, perhaps I⁵ or E. It leads to the showing of the herb.
+L3-014 | I | 14 | ev 13 | 3.3.1 | X | a second serpent | - |   | "another serpent came, and, seeing the former one dead, departed"
+L3-014 | I | 15 | ev 14 | 3.3.1 | F | the second serpent | Polyidus | ? | "returned, bringing a herb, and placed it on the whole body of the other"; the agent appears and is shown, unintentionally (perhaps F² or F⁶).
+L3-014 | I | 16 | ev 15 | 3.3.1 | X | the herb | the dead serpent | ? | "the dead serpent came to life"; it shows what the agent does; X, perhaps K⁹ for the serpent.
+L3-014 | I | 17 | ev 16 | 3.3.1 | X | Polyidus | Glaucus | ? | "Polyidus applied the same herb to the body of Glaucus"; the agent is used; X, perhaps N.
+L3-014 | I | 18 | ev 17 | 3.3.1 | K⁹ | Polyidus | Glaucus |   | "raised him from the dead"; a slain person is revived. This also solves the task of ev 9 (N), but it is one act.
+L3-014 | I | 19 | ev 18 | 3.3.2 | X | Minos | Glaucus |   | "Minos had now got back his son"; a restatement of ev 17.
+L3-014 | II | 1 | ev 19 | 3.3.2 | A¹⁵ | Minos | Polyidus | ? | "he did not suffer Polyidus to depart to Argos until he had taught Glaucus the art of divination"; detention; new move. Perhaps M (a task).
+L3-014 | II | 2 | ev 20 | 3.3.2 | F¹ | Polyidus | Glaucus | ? | "Polyidus taught him on compulsion"; a capacity directly given to the hero (Propp's fourth class of agents).
+L3-014 | II | 3 | ev 21 | 3.3.2 | η¹ | Polyidus | Glaucus | ? | "when he was sailing away he bade Glaucus spit into his mouth"; a persuasion that hides its purpose.
+L3-014 | II | 4 | ev 22 | 3.3.2 | θ¹ | Glaucus | - |   | "Glaucus did so"
+L3-014 | III | 1 | ev 23 | 3.3.2 | A² | Polyidus | Glaucus | ? | "forgot the art of divination"; the magical capacity is taken away; new move.

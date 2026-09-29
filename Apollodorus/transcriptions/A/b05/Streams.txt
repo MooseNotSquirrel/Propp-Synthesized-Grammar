@@ -1,0 +1,118 @@
+tale: L3-015
+name: 3.4.1-3.4.2, Cadmus
+move: I   | X X X γ² X δ X X A¹⁴ I X X X X E¹ W W X X
+
+tale: L3-019
+name: 3.4.3, Zeus
+move: I   | a¹ K X η θ X X
+move: II  | A¹⁴ X X X X X
+
+tale: L3-020
+name: 3.4.3, Ino
+move: I   | X X A
+move: II  | A¹⁴
+move: III | A¹⁴ X
+
+tale: L3-025
+name: 3.5.1-3.5.3, Dionysus
+move: I   | X A ↑ X X K X X ↑ X
+move: II  | A⁹ X
+move: III | A¹⁵ K¹⁰ U X X
+move: IV  | a B X U X X X
+move: V   | A X ε U Q U X X X
+move: VI  | A¹ X X X X U Q K X
+
+tale: L3-026
+name: 3.5.4, Cadmus
+move: I   | ↑ A¹⁹ X B I W X X
+
+tale: L3-029
+name: 3.5.5, Lycus
+move: I   | A⁵
+move: II  | A¹⁴ ↑ X X X X X
+
+tale: L3-030
+name: 3.5.5, Antiope
+move: I   | X X ↑ W X X A¹⁹
+move: II  | A¹⁴
+move: III | A¹ X
+
+tale: L3-031
+name: 3.5.5, Amphion
+move: I   | A X X X X F¹
+move: II  | A¹⁵ K¹⁰ B Q U U X W
+move: III | A⁹
+
+tale: L3-033
+name: 3.5.6, Niobe
+move: I   | X A
+move: II  | A¹⁴
+move: III | A¹⁴ X ↑ X X
+
+tale: L3-036
+name: 3.5.7, Oedipus
+move: I   | A⁶ K
+move: II  | A
+move: III | A X X X X
+move: IV  | a X γ¹ ↑ X γ² δ
+move: V   | A I δ
+
+tale: L3-038
+name: 3.5.8, the Sphinx
+move: I   | X X M X N− A X B¹ N U
+
+tale: L3-039
+name: 3.5.8-3.5.9, Oedipus
+move: I   | W W Ex X X X A⁹ X X X X
+
+tale: L3-040
+name: 3.6.1, Polynices
+move: I   | X X X A⁹ ↑ X D⁹ X X X X W W F⁹
+
+tale: L3-043
+name: 3.6.2, Amphiaraus
+move: I   | X X X ε ζ γ¹ η¹ X δ A⁸ B²
+
+tale: L3-045
+name: 3.6.5, Tydeus
+move: I   | B² X H¹ I¹ Pr Rs ↓
+
+tale: L3-048
+name: 3.6.7, Tiresias
+move: I   | X A⁶ X B X
+
+tale: L3-051
+name: 3.6.7-3.6.8, the Argives
+move: I   | H¹ X X X I− X H¹ X H¹ I− I− I−
+
+tale: L3-053
+name: 3.6.8, Tydeus
+move: I   | A⁶ X X X X I X E− F−
+
+tale: L3-056
+name: 3.7.1, Antigone
+move: I   | A γ¹ X δ K ζ
+move: II  | A
+
+tale: L3-060
+name: 3.7.2-3.7.3, Alcmaeon
+move: I   | C X X C X A⁸ B ↑
+move: II  | A X H¹ I− I¹
+
+tale: L3-061
+name: 3.7.3, the Thebans
+move: I   | I− B X ↑ X X
+
+tale: L3-062
+name: 3.7.4-3.7.5, Alcmaeon
+move: I   | X X X X X B⁴ A X U
+move: II  | A X ↑ X X W X
+move: III | a B² ↑ X X K W X X
+move: IV  | A⁹
+move: V   | a³ B² ↑ η¹ θ K ζ
+move: VI  | A¹³
+move: VII | A¹⁴
+
+tale: L3-066
+name: 3.7.6-3.7.7, the sons of Alcmaeon
+move: I   | B⁴ F ↑ X U X U Pr Rs X X X X X

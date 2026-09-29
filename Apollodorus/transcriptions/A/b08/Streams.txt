@@ -1,0 +1,124 @@
+tale: E-026
+name: E.3.1-E.3.4, Alexander
+move: I   | X X X X X ↑ X β¹ A X X X X ↓
+
+tale: E-029
+name: E.3.6-E.3.8, Ulysses
+move: I   | B X X X ↑ X X X X A¹³
+
+tale: E-030
+name: E.3.9, Cinyras
+move: I   | B² X X X X
+
+tale: E-032
+name: E.3.11-E.3.19, the Greeks
+move: I   | X X X X X A¹⁹ X H¹ I− H¹ I¹ X ↓
+move: II  | a
+
+tale: E-033
+name: E.3.20, Telephus
+move: I   | a B ↑ X K G⁴ X
+
+tale: E-035
+name: E.3.21-E.3.22, Iphigenia
+move: I   | A X η¹ θ¹ X B⁶ X
+
+tale: E-038
+name: E.3.23-E.3.26, Tenes
+move: I   | A¹⁰ X X X X X X Ex U U H¹ I− γ¹
+
+tale: E-040
+name: E.3.28-E.3.29, the Greeks
+move: I   | G² X X X X C γ¹ H¹
+
+tale: E-041
+name: E.3.30, Protesilaus
+move: I   | I I− a¹ K⁹ Q
+move: II  | A X
+
+tale: E-044
+name: E.3.32-E.4.1, Achilles
+move: I   | X X X X X X X X X β X
+
+tale: E-050
+name: E.4.5, the Greeks
+move: I   | H¹ I− X X A
+
+tale: E-051
+name: E.4.6-E.4.7, Patroclus
+move: I   | A B² F¹ X H¹ I I− H¹
+
+tale: E-052
+name: E.4.7, Achilles
+move: I   | X K F¹ ↑ H¹ I H¹ I¹ H¹ I¹ U X X X X
+
+tale: E-053
+name: E.5.1, Penthesilia
+move: I   | X X I¹ I− X U
+
+tale: E-058
+name: E.5.3-E.5.6, Achilles
+move: I   | I H¹ I− H¹ I X X X X X X X X
+
+tale: E-059
+name: E.5.6-E.5.7, Ajax
+move: I   | H² I− X A¹¹ X K⁸ X X X
+
+tale: E-060
+name: E.5.8, Philoctetes
+move: I   | a² ↑ K¹ B² ↑ K I
+
+tale: E-061
+name: E.5.9-E.5.11, Helenus
+move: I   | H² I− ↑ ζ A¹ ζ X
+
+tale: E-062
+name: E.5.11-E.5.12, Neoptolemus
+move: I   | X B³ ↑ F¹ I X X I
+
+tale: E-063
+name: E.5.13-E.5.15, Ulysses
+move: I   | ↑ X o Q K¹ I ↓ X X X X X
+
+tale: E-065
+name: E.5.16-E.5.18, the Trojans
+move: I   | X θ X X X X X X
+
+tale: E-066
+name: E.5.19-E.5.23, the Greeks
+move: I   | θ G⁴ η X X X G⁵ X I⁵ I⁵ X X X I K⁴ K X A X X X X X X X Ex X U−
+
+tale: E-068
+name: E.6.1, Menelaus
+move: I   | X ↓ X X X
+
+tale: E-069
+name: E.6.2-E.6.4, Calchas
+move: I   | ↑ X X X H² X X X X X I−
+
+tale: E-073
+name: E.6.6, the Locrian Ajax
+move: I   | A X X U X X
+
+tale: E-077
+name: E.6.12-E.6.14, Neoptolemus
+move: I   | ↑ X X I¹ W³ X X A⁹ W³
+move: II  | A¹ U
+
+tale: E-094
+name: E.6.15b, Philoctetes
+move: I   | X X X X X
+
+tale: E-096
+name: E.6.16-E.6.17, Demophon
+move: I   | X X W¹ X ↑ X γ¹ X A X δ¹ X X X
+
+tale: E-103
+name: E.6.24-E.6.28, Orestes
+move: I   | X X A¹⁴ B³ ↑ I⁵
+move: II  | A¹¹ Pr X Rs X B X ↑ K¹ X ↓ X
+move: III | A¹⁵ X Q K
+
+tale: E-105
+name: E.6.29, Menelaus
+move: I   | X X X X X X ↓ W³ X X

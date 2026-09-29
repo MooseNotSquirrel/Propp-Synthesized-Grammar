@@ -1,0 +1,304 @@
+L1-060 | I | 1 | ev 1 | 1.9.11 | E | Melampus | the dead snakes | ? | "His servants killed the snakes, but Melampus gathered wood and burnt the reptiles"; an unrequested service to dead creatures, defined by its consequence, the young snakes' gift in ev 3; no D precedes; variety unclear between E³ (service to a dead person) and E⁷ (other service), so bare letter
+L1-060 | I | 2 | ev 2 | 1.9.11 | E⁷ | Melampus | the young snakes |   | "and reared the young ones"; service to helpless creatures without a request (Propp's d⁷/E⁷); the young repay it in ev 3
+L1-060 | I | 3 | ev 3 | 1.9.11 | F¹ | the young snakes | Melampus |   | "they stood beside him at each of his shoulders as he slept, and they purged his ears with their tongues"; a capacity given directly (Propp's fourth kind of agent, qualities given directly), shown in ev 4
+L1-060 | I | 4 | ev 4 | 1.9.11 | X | Melampus | - |   | "He started up in a great fright, but understood the voices of the birds flying overhead"; the fright, and the first use of the capacity received in ev 3; no separate function
+L1-060 | I | 5 | ev 5 | 1.9.11 | X | Melampus | men |   | "from what he learned from them he foretold to men what should come to pass"; use of the capacity; no misfortune or lack is liquidated
+L1-060 | I | 6 | ev 6 | 1.9.11 | F | - | Melampus | ? | "He acquired besides the art of taking the auspices"; a capacity acquired; no giver and no form of transmission named, so bare letter; X if an art is not a magical agent
+L1-060 | I | 7 | ev 7 | 1.9.11 | F | Apollo (implied) | Melampus | ? | "having fallen in with Apollo at the Alpheus he was ever after an excellent soothsayer"; a meeting with a god followed by lasting power; the transfer is not narrated, so bare letter; X is the alternative
+L1-062 | I | 1 | ev 1 | 1.9.12 | a | - | Bias | ? | "Unable to steal these kine"; Bias lacks the kine he needs to win Pero; narrated as the reason for the request; bare letter because the lacking object (kine as the price of a bride) fits no single form
+L1-062 | I | 2 | ev 1 | 1.9.12 | B¹ | Bias | Melampus |   | "Bias invited his brother to help him"; a call for help
+L1-062 | I | 3 | ev 2 | 1.9.12 | C | Melampus | - |   | "Melampus promised to do so"; agrees to counteraction
+L1-062 | I | 4 | ev 3 | 1.9.12 | X | Melampus | - |   | "foretold that he should be detected in the act of stealing them, and that he should get the kine after being kept in bondage for a year"; a prophecy; no function
+L1-062 | I | 5 | ev 4 | 1.9.12 | ↑ | Melampus | - |   | "he repaired to Phylace"; departure
+L1-062 | I | 6 | ev 5 | 1.9.12 | X | Melampus; the keepers | Melampus | ? | "he was detected in the theft"; a failed attempt to seize the kine (an unsuccessful K¹, for which the rules give no minus) and his detection; move I breaks off here for move II
+L1-062 | II | 1 | ev 6 | 1.9.12 | A¹⁵ | Phylacus (text passive) | Melampus | ? | "kept a prisoner in a cell"; imprisonment of the hero, judged by what it is although he is a caught thief; liquidated in ev 11
+L1-062 | II | 2 | ev 7 | 1.9.12 | X | the worms | Melampus |   | "he heard the worms in the hidden part of the roof, one of them asking how much of the beam had been already gnawed through, and others answering that very little of it was left"; use of his capacity
+L1-062 | II | 3 | ev 8 | 1.9.12 | X | Melampus | the keepers |   | "At once he bade them transfer him to another cell"; X, perhaps Rs (saves himself; there is no pursuit)
+L1-062 | II | 4 | ev 9 | 1.9.12 | X | - | - |   | "not long after that had been done the cell fell in"; no act of a character
+L1-062 | II | 5 | ev 10 | 1.9.12 | X | Phylacus | Melampus | ? | "Phylacus marvelled, and perceiving that he was an excellent soothsayer"; X, perhaps Q (the hero known for what he is by a feat), but no marking and no task precede
+L1-062 | II | 6 | ev 11 | 1.9.12 | K¹⁰ | Phylacus | Melampus |   | "he released him"; a captive is freed, liquidating ev 6
+L1-062 | III | 1 | ev 12 | 1.9.12 | a | - | Iphiclus; Phylacus | ? | "how his son Iphiclus might get children"; Iphiclus lacks children; a lack in another family, which the hero is asked to liquidate; opens move III
+L1-062 | III | 2 | ev 12 | 1.9.12 | B | Phylacus | Melampus | ? | "invited him to say how his son Iphiclus might get children"; the hero is approached with a request; M (a task such as "to supply a medicine") is the alternative; bare letter
+L1-062 | III | 3 | ev 13 | 1.9.12 | C | Melampus | Phylacus | ? | "Melampus promised to tell him, provided he got the kine"; agrees to counteraction; the condition ties it to the kine of move I
+L1-062 | III | 4 | ev 14 | 1.9.12 | X | Melampus | - |   | "having sacrificed two bulls and cut them in pieces"; X, perhaps E (a religious service) as the bait that brings the vulture
+L1-062 | III | 5 | ev 15 | 1.9.12 | X | Melampus | the birds |   | "he summoned the birds"; the hero calls on his capacity
+L1-062 | III | 6 | ev 16 | 1.9.12 | X | the vulture | Melampus |   | "when a vulture came, he learned from it"; X, perhaps F⁹ (a creature appears and serves); what it tells is entered at ev 21
+L1-062 | III | 7 | ev 17 | 1.9.12 | X | Phylacus | Iphiclus | ? | "when Phylacus was gelding rams, he laid down the knife, still bloody, beside Iphiclus"; flashback; X, perhaps A, since the fright is implied to cause the childlessness but the text does not say so
+L1-062 | III | 8 | ev 18 | 1.9.12 | X | Iphiclus | - |   | "the child was frightened and ran away"; flashback
+L1-062 | III | 9 | ev 19 | 1.9.12 | X | Phylacus | the knife |   | "he stuck the knife on the sacred oak"; flashback
+L1-062 | III | 10 | ev 20 | 1.9.12 | X | - | the knife |   | "the bark encompassed the knife and hid it"; flashback; no act of a character
+L1-062 | III | 11 | ev 21 | 1.9.12 | F² | the vulture | Melampus |   | "if the knife were found, and he scraped off the rust, and gave it to Iphiclus to drink for ten days, he would beget a son"; the agent (the rust of the hidden knife) is pointed out, as Propp's old woman points out the oak with the flying ship
+L1-062 | III | 12 | ev 22 | 1.9.12 | X | Melampus | the knife |   | "Melampus found the knife"; completes the indication of ev 21; perhaps F⁵ (found), but one F is already entered
+L1-062 | III | 13 | ev 23 | 1.9.12 | K | Melampus | Iphiclus | ? | "scraped the rust, and gave it to Iphiclus for ten days to drink"; the agent applied to liquidate the lack; bare letter; whether K belongs here or on the birth in ev 24 is unclear
+L1-062 | III | 14 | ev 24 | 1.9.12 | X | - | Iphiclus | ? | "a son Podarces was born to him"; the outcome of the K entered at ev 23
+L1-062 | I | 7 | ev 25 | 1.9.12 | ↓ | Melampus | the kine | ? | "But he drove the kine to Pylus"; move I resumes here; return with the kine; how he got the kine is not narrated as an act; N (delivery to Neleus) is an alternative, but Neleus's condition is not a census event
+L1-062 | I | 8 | ev 26 | 1.9.12 | K | Neleus | Melampus; Bias | ? | "having received the daughter of Neleus he gave her to his brother"; the receipt liquidates Bias's lack; the handing over to Bias is not entered separately (X, perhaps W, but the wedding is not the hero's)
+L1-062 | IV | 1 | ev 27 | 1.9.12 | A¹¹ | Dionysus | the women of Argos | ? | "when Dionysus drove the women of Argos mad"; madness read as a spell cast
+L1-062 | IV | 2 | ev 28 | 1.9.12 | K⁸ | Melampus | the women of Argos |   | "he healed them on condition of receiving part of the kingdom"; the spell is broken; the condition is part of the same act and not entered separately
+L1-062 | IV | 3 | ev 29 | 1.9.12 | X | Melampus; Bias | - |   | "settled down there with Bias"; X, perhaps W (a share of the kingdom implied, not narrated)
+L1-067 | I | 1 | ev 1 | 1.9.15 | F⁹ | Apollo | Admetus | ? | "Apollo served him as his thrall"; a character places himself at the hero's disposal, and does the task in ev 4
+L1-067 | I | 2 | ev 2 | 1.9.15 | a¹ | - | Admetus |   | "Admetus wooed Alcestis, daughter of Pelias"; lack of a bride
+L1-067 | I | 3 | ev 3 | 1.9.15 | M | Pelias | the suitors, Admetus |   | "Pelias had promised to give his daughter to him who should yoke a lion and a boar to a car"; a difficult task; flashback (pluperfect)
+L1-067 | I | 4 | ev 4 | 1.9.15 | N | Apollo | Admetus |   | "Apollo yoked and gave them to Admetus"; the task solved by the helper; the handing over is part of the same act
+L1-067 | I | 5 | ev 5 | 1.9.15 | X | Admetus | Pelias |   | "who brought them to Pelias"; X, perhaps part of N (presenting the solution)
+L1-067 | I | 6 | ev 6 | 1.9.15 | W | Pelias | Admetus | ? | "and so obtained Alcestis"; the bride won, and the marriage is named in ev 7; K (lack liquidated) is the alternative for the same act
+L1-067 | I | 7 | ev 7 | 1.9.15 | δ | Admetus | Artemis | ? | "in offering a sacrifice at his marriage, he forgot to sacrifice to Artemis"; a violation whose interdiction is unstated (Propp allows the second half without the first); it brings the snakes of ev 8
+L1-067 | II | 1 | ev 8 | 1.9.15 | A | Artemis (implied by "therefore") | Admetus | ? | "when he opened the marriage chamber he found it full of coiled snakes"; harm; no form in Propp's list, so bare letter
+L1-067 | II | 2 | ev 9 | 1.9.15 | X | Apollo | Admetus |   | "Apollo bade him appease the goddess"; advice; the appeasing is not narrated
+L1-067 | II | 3 | ev 10 | 1.9.15 | F | Apollo; the Fates | Admetus | ? | "obtained as a favour of the Fates that, when Admetus should be about to die, he might be released from death if someone should choose voluntarily to die for him"; a power obtained for the hero by the helper; form unclear
+L1-067 | II | 4 | ev 11 | 1.9.15 | X | his father and mother | Admetus |   | "when the day of his death came neither his father nor his mother would die for him"; a refusal by others; X, perhaps a failed test, but they are not the hero
+L1-067 | II | 5 | ev 12 | 1.9.15 | X | Alcestis | Admetus | ? | "Alcestis died in his stead"; one act with two readings, K (Admetus released from death) or harm (loss of a wife, but by no villain); X
+L1-067 | II | 6 | ev 13 | 1.9.15 | K⁹ | the Maiden | Alcestis | ? | "But the Maiden sent her up again"; a dead person revived; no A precedes it in this move
+L1-070 | I | 1 | ev 1 | 1.9.16 | X | Pelias | Jason | ? | "he sent for Jason, among many others, to participate in it"; X, perhaps γ² (a summons whose fulfillment brings Jason before Pelias)
+L1-070 | I | 2 | ev 2 | 1.9.16 | X | Jason | - | ? | "he hastened to the sacrifice"; X, perhaps δ (fulfilled order)
+L1-070 | I | 3 | ev 3 | 1.9.16 | X | Jason | - | ? | "in crossing the river Anaurus he lost a sandal in the stream and landed with only one"; X, perhaps J (a mark by which he is known) or the careless act that gives the villain information
+L1-070 | I | 4 | ev 4 | 1.9.16 | ζ | Pelias | Jason | ? | "When Pelias saw him, he bethought him of the oracle"; Pelias learns that Jason is the man the oracle warned of
+L1-070 | I | 5 | ev 5 | 1.9.16 | η | Pelias | Jason | ? | "asked him what, supposing he had the power, he would do if he had received an oracle that he should be murdered by one of the citizens"; a question that hides its purpose; not ε, since it seeks no whereabouts; form unclear
+L1-070 | I | 6 | ev 6 | 1.9.16 | θ | Jason | Pelias | ? | "“ I would command him,” said he, “ to bring the Golden Fleece. ”"; Jason unwittingly names his own errand; the text leaves open whether "at haphazard or instigated by the angry Hera"
+L1-070 | I | 7 | ev 7 | 1.9.16 | B² | Pelias | Jason | ? | "he bade him go in quest of the fleece"; direct dispatch by command; no villainy or lack is narrated in the episode; alternatives M (a task of supply) or A⁹ (a sending away), the text stating no intent to destroy him
+L1-070 | I | 8 | ev 8 | 1.9.16 | X | Jason | Argus son of Phrixus |   | "Jason called in the help of Argus, son of Phrixus"; X, perhaps F⁹
+L1-070 | I | 9 | ev 9 | 1.9.16 | F³ | Argus son of Phrixus; Athena (advice) | Jason |   | "Argus, by Athena's advice, built a ship of fifty oars named Argo"; the agent is prepared for the hero
+L1-070 | I | 10 | ev 10 | 1.9.16 | X | Athena | the Argo |   | "at the prow Athena fitted in a speaking timber from the oak of Dodona"; X, perhaps F; completes the agent of ev 9
+L1-070 | I | 11 | ev 11 | 1.9.16 | X | Jason | the oracle |   | "he inquired of the oracle"
+L1-070 | I | 12 | ev 12 | 1.9.16 | B³ | the god | Jason |   | "the god gave him leave to assemble the nobles of Greece and sail away"; the hero is allowed to depart
+L1-070 | I | 13 | ev 13 | 1.9.17 | ↑ | Jason; the Argonauts | - |   | "These with Jason as admiral put to sea"; departure
+L1-070 | I | 14 | ev 14 | 1.9.17 | X | the Argonauts | - |   | "touched at Lemnos"; move I breaks off after ev 15-16 for the Lemnian flashback
+L1-070 | I | 15 | ev 15 | 1.9.17 | δ | the Lemnian women | Aphrodite | ? | "The Lemnian women did not honor Aphrodite"; flashback; an offense against a god, interdiction unstated
+L1-070 | I | 16 | ev 16 | 1.9.17 | A | Aphrodite | the Lemnian women | ? | "she visited them with a noisome smell"; flashback; harm; no form in Propp's list; first villainy of the episode, so it stays in move I
+L1-070 | II | 1 | ev 17 | 1.9.17 | A | the Lemnian husbands | the Lemnian women | ? | "their spouses took captive women from the neighboring country of Thrace and bedded with them"; flashback; harm to the wives ("Thus dishonored"), and a seizure of the Thracian women; bare letter
+L1-070 | III | 1 | ev 18 | 1.9.17 | A¹⁴ | the Lemnian women | their fathers and husbands | ? | "the Lemnian women murdered their fathers and husbands"; flashback; murder; U (punishment of the husbands) is the alternative, but the fathers are killed too
+L1-070 | III | 2 | ev 19 | 1.9.17 | X | Hypsipyle | Thoas |   | "Hypsipyle alone saved her father Thoas by hiding him"; flashback; X, perhaps Rs⁴ (hiding), with no pursuit
+L1-070 | I | 17 | ev 20 | 1.9.17 | X | the Argonauts | the Lemnian women |   | "the Argonauts had intercourse with the women"; move I resumes here
+L1-070 | I | 18 | ev 21 | 1.9.17 | X | Hypsipyle | Jason |   | "Hypsipyle bedded with Jason"; X, perhaps W, but no marriage is stated
+L1-070 | I | 19 | ev 22 | 1.9.18 | X | the Argonauts | - |   | "they landed among the Doliones"
+L1-070 | I | 20 | ev 23 | 1.9.18 | X | Cyzicus | the Argonauts |   | "He received them kindly"; X, perhaps D² (greeting), but nothing is given
+L1-070 | I | 21 | ev 24 | 1.9.18 | X | - | the Argonauts |   | "having put to sea from there by night and met with contrary winds"
+L1-070 | I | 22 | ev 25 | 1.9.18 | X | the Argonauts | - |   | "they lost their bearings and landed again among the Doliones"
+L1-070 | I | 23 | ev 26 | 1.9.18 | H¹ | the Doliones; the Argonauts | the Argonauts; the Doliones | ? | "the Doliones, taking them for a Pelasgian army ... joined battle with them by night in mutual ignorance of each other"; combat, entered in mistaken identity
+L1-070 | I | 24 | ev 27 | 1.9.18 | I¹ | the Argonauts | the Doliones; Cyzicus |   | "The Argonauts slew many and among the rest Cyzicus"; victory in combat
+L1-070 | I | 25 | ev 28 | 1.9.18 | X | the Argonauts | - |   | "when they knew what they had done, they mourned and cut off their hair"
+L1-070 | I | 26 | ev 29 | 1.9.18 | X | the Argonauts | Cyzicus |   | "gave Cyzicus a costly burial"; X, perhaps E³ (service to the dead), but nothing follows from it
+L1-070 | I | 27 | ev 30 | 1.9.18 | X | the Argonauts | - |   | "after the burial they sailed away and touched at Mysia"
+L1-071 | I | 1 | ev 1 | 1.9.19 | X | the Argonauts | Hercules; Polyphemus |   | "There they left Hercules and Polyphemus"; a summary told ahead of ev 6, where the leaving happens
+L1-071 | I | 2 | ev 2 | 1.9.19 | β | (unnamed sender) | Hylas | ? | "Hylas, son of Thiodamas, a minion of Hercules, had been sent to draw water"; flashback; absentation of a younger member; γ² (an order whose fulfillment exposes him) is the alternative
+L1-071 | I | 3 | ev 3 | 1.9.19 | A¹ | the nymphs | Hylas |   | "was ravished away by nymphs on account of his beauty"; flashback; abduction
+L1-071 | I | 4 | ev 4 | 1.9.19 | B | Hylas | Polyphemus | ? | "Polyphemus heard him cry out"; the misfortune made known by the victim's cry; form unclear (B¹ call for help, B⁴ announcement), so bare letter
+L1-071 | I | 5 | ev 4 | 1.9.19 | C | Polyphemus | - |   | "drawing his sword"; decides on counteraction
+L1-071 | I | 6 | ev 4 | 1.9.19 | ↑ | Polyphemus | - |   | "gave chase in the belief that he was being carried off by robbers"; departure in search
+L1-071 | I | 7 | ev 5 | 1.9.19 | X | Polyphemus | Hercules |   | "Falling in with Hercules, he told him"; X, perhaps F⁹ (a companion joins)
+L1-071 | I | 8 | ev 6 | 1.9.19 | X | the Argonauts | Hercules; Polyphemus |   | "while the two were seeking for Hylas, the ship put to sea"; the search goes on and they are stranded; X, perhaps A, but the leaving is not narrated as intended
+L1-071 | I | 9 | ev 7 | 1.9.19 | W | Polyphemus | - | ? | "Polyphemus founded a city Cius in Mysia and reigned as king"; accession to a throne only; the lack of ev 3 is never liquidated
+L1-071 | I | 10 | ev 8 | 1.9.19 | X | Hercules | - |   | "but Hercules returned to Argos"; X, perhaps ↓, performed by a figure other than the hero and of no consequence for the hero's course
+L1-076 | I | 1 | ev 1 | 1.9.20 | X | the Argonauts | - |   | "From Mysia they departed to the land of the Bebryces"
+L1-076 | I | 2 | ev 2 | 1.9.20 | A¹⁴ | Amycus | strangers | ? | "he compelled the strangers that landed to box and in that way made an end of them"; habitual killing, narrated as the reason for ev 3 (like the ravages that prompt a hunt)
+L1-076 | I | 3 | ev 3 | 1.9.20 | X | Amycus | the crew |   | "going to the Argo as usual, he challenged the best man of the crew to a boxing match"; a challenge only; X, perhaps H
+L1-076 | I | 4 | ev 4 | 1.9.20 | H | Pollux; Amycus | Amycus; Pollux |   | "Pollux undertook to box against him"; struggle; bare letter because a boxing match may be H¹ (fight) or H² (competition)
+L1-076 | I | 5 | ev 4 | 1.9.20 | I | Pollux | Amycus |   | "and killed him with a blow on the elbow"; victory
+L1-076 | I | 6 | ev 5 | 1.9.20 | H¹ | the Bebryces | Pollux; the chiefs | ? | "When the Bebryces made a rush at him"; the attack opens a fight with an army
+L1-076 | I | 7 | ev 6 | 1.9.20 | I¹ | the chiefs | the Bebryces |   | "the chiefs snatched up their arms and put them to flight with great slaughter"; victory
+L1-076 | I | 8 | ev 7 | 1.9.21 | X | the Argonauts | - |   | "Thence they put to sea and came to land at Salmydessus in Thrace, where dwelt Phineus"
+L1-076 | II | 1 | ev 8 | 1.9.21 | A⁶ | the gods | Phineus | ? | "he is variously alleged to have been blinded by the gods"; flashback; bodily injury; the census takes the first of several versions
+L1-076 | II | 2 | ev 9 | 1.9.21 | δ | Phineus | the gods | ? | "for foretelling men the future"; flashback, told after its punishment; an offense against the gods, interdiction unstated
+L1-076 | II | 3 | ev 10 | 1.9.21 | X | the gods | Phineus | ? | "The gods also sent the Harpies to him"; X, perhaps A; the sending of the agents whose harm is entered at ev 11
+L1-076 | III | 1 | ev 11 | 1.9.21 | A⁵ | the Harpies | Phineus |   | "they flew down from the sky and snatched up most of the victuals, and what little they left stank so that nobody could touch it"; plunder
+L1-076 | III | 2 | ev 12 | 1.9.21 | X | the Argonauts | Phineus |   | "When the Argonauts would have consulted him about the voyage"; an intended consultation; X, perhaps a (want of guidance)
+L1-076 | III | 3 | ev 13 | 1.9.21 | D⁷ | Phineus | the Argonauts | ? | "he said that he would advise them about it if they would rid him of the Harpies"; a request by the future giver; it is also a request to liquidate his own misfortune (B)
+L1-076 | III | 4 | ev 14 | 1.9.21 | X | the Argonauts | the Harpies |   | "the Argonauts laid a table of viands beside him"; a lure
+L1-076 | III | 5 | ev 15 | 1.9.21 | X | the Harpies | Phineus | ? | "the Harpies with a shriek suddenly pounced down and snatched away the food"; X, perhaps A⁵; a repetition of the villainy of ev 11, provoked by the lure
+L1-076 | III | 6 | ev 16 | 1.9.21 | C | Zetes; Calais | - |   | "they drew their swords"; decide on counteraction
+L1-076 | III | 7 | ev 16 | 1.9.21 | H | Zetes; Calais | the Harpies | ? | "being winged, pursued them through the air"; combat in the form of a chase; the same acts are also the service Phineus asked for (E)
+L1-076 | III | 8 | ev 17 | 1.9.21 | I | Zetes; Calais | a Harpy | ? | "one of them fell into the river Tigres in Peloponnese"; the villain perishes; form unclear
+L1-076 | III | 9 | ev 18 | 1.9.21 | X | the other Harpy | - |   | "the other ... fled by the Propontis till she came to the Echinadian Islands"
+L1-076 | III | 10 | ev 19 | 1.9.21 | I | Zetes or Calais | the other Harpy | ? | "she turned (estraphe) and being at the shore fell for very weariness with her pursuer"; she falls, but so does her pursuer
+L1-076 | III | 11 | ev 20 | 1.9.22 | K | Zetes; Calais | Phineus | ? | "Being rid of the Harpies"; the plunder liquidated, narrated only as the ground of what follows
+L1-076 | III | 12 | ev 20 | 1.9.22 | G⁴ | Phineus | the Argonauts |   | "Phineus revealed to the Argonauts the course of their voyage, and advised them about the Clashing Rocks"; the route is shown, as he promised in ev 13
+L1-076 | III | 13 | ev 21 | 1.9.22 | X | Phineus | the Argonauts |   | "he told them to let fly a dove between the rocks ... but if they saw it perish, then not to force a passage"; X, perhaps γ (a conditional prohibition, not violated)
+L1-076 | III | 14 | ev 22 | 1.9.22 | X | the Argonauts | - |   | "they put to sea"
+L1-076 | III | 15 | ev 23 | 1.9.22 | X | the Argonauts | the dove |   | "on nearing the rocks let fly a dove from the prow"
+L1-076 | III | 16 | ev 24 | 1.9.22 | X | the rocks | the dove |   | "the clash of the rocks nipped off the tip of her tail"
+L1-076 | III | 17 | ev 25 | 1.9.22 | X | the Argonauts; Hera | - |   | "waiting till the rocks had recoiled, with hard rowing and the help of Hera, they passed through, the extremity of the ship's ornamented poop being shorn away right round"; X, perhaps G (passage with help)
+L1-076 | III | 18 | ev 26 | 1.9.22 | X | - | the rocks |   | "Henceforth the Clashing Rocks stood still"
+L1-076 | III | 19 | ev 27 | 1.9.23 | X | the Argonauts | - |   | "The Argonauts now arrived among the Mariandynians"
+L1-076 | III | 20 | ev 28 | 1.9.23 | X | Lycus | the Argonauts |   | "King Lycus received them kindly"
+L1-076 | III | 21 | ev 29 | 1.9.23 | X | a boar | Idmon |   | "There died Idmon the seer of a wound inflicted by a boar"; X, perhaps A, but nothing follows from it
+L1-076 | III | 22 | ev 30 | 1.9.23 | X | - | Tiphys |   | "there too died Tiphys"
+L1-076 | III | 23 | ev 31 | 1.9.23 | X | Ancaeus | the Argonauts |   | "Ancaeus undertook to steer the ship"; X, perhaps F⁹
+L1-076 | III | 24 | ev 32 | 1.9.23 | G² | the Argonauts | - | ? | "having sailed past the Thermodon and the Caucasus they came to the river Phasis, which is in the Colchian land"; the hero reaches the place of the object by ship; could be the plain journey Propp does not single out
+L1-076 | IV | 1 | ev 33 | 1.9.23 | a³ | - | Jason | ? | "setting forth the charge laid on him by Pelias invited him to give him the fleece"; the desire for the fleece, a wondrous object, stated in a request; opens move IV
+L1-076 | IV | 2 | ev 34 | 1.9.23 | M | Aeetes | Jason |   | "The other promised to give it if single-handed he would yoke the brazen-footed bulls"; difficult task
+L1-076 | IV | 3 | ev 35 | 1.9.23 | M | Aeetes | Jason | ? | "These creatures Aeetes ordered him to yoke and to sow dragon's teeth"; restates the task of ev 34 and adds the sowing; perhaps X as a restatement
+L1-076 | IV | 4 | ev 36 | 1.9.23 | X | Athena | Aeetes |   | "he had got from Athena half of the dragon's teeth"; flashback
+L1-076 | IV | 5 | ev 37 | 1.9.23 | X | Cadmus | - |   | "which Cadmus sowed in Thebes"; flashback
+L1-076 | IV | 6 | ev 38 | 1.9.23 | X | Medea | Jason |   | "Medea conceived a passion for him"
+L1-076 | IV | 7 | ev 39 | 1.9.23 | D⁷ | Medea | Jason | ? | "she, keeping the thing from her father, promised to help him to yoke the bulls and to deliver to him the fleece, if he would swear to have her to wife and would take her with him on the voyage to Greece"; a request (the oath) set by the future giver; the offer of help in the same act could be read as F⁹
+L1-076 | IV | 8 | ev 40 | 1.9.23 | E | Jason | Medea |   | "When Jason swore to do so"; the hero's positive reaction; no variety fits an oath
+L1-076 | IV | 9 | ev 41 | 1.9.23 | F¹ | Medea | Jason |   | "she gave him a drug with which she bade him anoint his shield, spear, and body"; the agent transferred
+L1-076 | IV | 10 | ev 42 | 1.9.23 | X | Medea | Jason |   | "when the teeth were sown, armed men would spring up from the ground against him; and when he saw a knot of them he was to throw stones into their midst from a distance"; instruction; perhaps part of F¹
+L1-076 | IV | 11 | ev 43 | 1.9.23 | X | Jason | - |   | "Jason anointed himself with the drug"; use of the agent
+L1-076 | IV | 12 | ev 44 | 1.9.23 | X | Jason | the bulls |   | "being come to the grove of the temple he sought the bulls"
+L1-076 | IV | 13 | ev 45 | 1.9.23 | N | Jason | the bulls |   | "though they charged him with a flame of fire, he yoked them"; the task solved
+L1-076 | IV | 14 | ev 46 | 1.9.23 | N | Jason | - | ? | "when he had sowed the teeth"; the second part of the task solved
+L1-076 | IV | 15 | ev 47 | 1.9.23 | X | the armed men | - |   | "there rose armed men from the ground"
+L1-076 | IV | 16 | ev 48 | 1.9.23 | H | Jason | the armed men | ? | "he pelted them unseen with stones"; struggle won by cleverness; H and M-N here fall in one move
+L1-076 | IV | 17 | ev 49 | 1.9.23 | I | Jason | the armed men | ? | "when they fought each other he drew near and slew them"; victory
+L1-076 | IV | 18 | ev 50 | 1.9.23 | X | Aeetes | Jason; the crew | ? | "Aeetes did not give the fleece; for he wished to burn down the Argo and kill the crew"; the burning and killing are intended only; the withholding is X, perhaps F− or A
+L1-076 | IV | 19 | ev 51 | 1.9.23 | G³ | Medea | Jason |   | "Medea brought Jason by night to the fleece"; the hero is led to the object
+L1-076 | IV | 20 | ev 52 | 1.9.23 | X | Medea | the dragon |   | "having lulled to sleep by her drugs the dragon that guarded it"; part of the seizure in ev 53
+L1-076 | IV | 21 | ev 53 | 1.9.23 | K¹ | Medea | the fleece |   | "she possessed herself of the fleece and in Jason's company came to the Argo"; the object seized by cleverness
+L1-076 | IV | 22 | ev 54 | 1.9.23 | ↓ | the Argonauts | - | ? | "with them the Argonauts put to sea by night"; the homeward departure, in the nature of flight; the arrival at Iolcus (ev 90) is written X
+L1-076 | IV | 23 | ev 55 | 1.9.24 | X | Aeetes | Medea |   | "When Aeetes discovered the daring deeds done by Medea"
+L1-076 | IV | 24 | ev 56 | 1.9.24 | Pr | Aeetes | the Argonauts |   | "he started off in pursuit of the ship"; pursuit; form (by ship) not among Propp's varieties
+L1-076 | IV | 25 | ev 57 | 1.9.24 | Rs² | Medea | Aeetes; Apsyrtus | ? | "Medea murdered her brother and cutting him limb from limb threw the pieces into the deep"; defined by its immediate consequence (ev 58), an obstacle thrown in the pursuer's path; the murder also brings Zeus's anger (ev 62), so A¹⁴ is the alternative
+L1-076 | IV | 26 | ev 58 | 1.9.24 | X | Aeetes | - |   | "Gathering the child's limbs, Aeetes fell behind in the pursuit"; result of ev 57
+L1-076 | IV | 27 | ev 59 | 1.9.24 | X | Aeetes | Apsyrtus |   | "he turned back, and, having buried the rescued limbs of his child"
+L1-076 | IV | 28 | ev 60 | 1.9.24 | Pr | Aeetes; the Colchians | the Argonauts; Medea | ? | "he sent out many of the Colchians to search for the Argo, threatening that, if they did not bring Medea to him, they should suffer the punishment due to her"; pursuit renewed by others
+L1-076 | IV | 29 | ev 61 | 1.9.24 | X | the Colchians | - |   | "they separated and pursued the search in divers places"; move IV breaks off after this for move V
+L1-076 | V | 1 | ev 62 | 1.9.24 | A | Zeus | the Argonauts | ? | "Zeus sent a furious storm upon them, and drove them out of their course, because he was angry at the murder of Apsyrtus"; harm; no form in Propp's list
+L1-076 | V | 2 | ev 63 | 1.9.24 | B | the ship | the Argonauts | ? | "the ship spoke, saying that the wrath of Zeus would not cease unless they journeyed to Ausonia and were purified by Circe"; the misfortune made known and the journey laid on them; F² or G⁴ are the alternatives
+L1-076 | V | 3 | ev 64 | 1.9.24 | G² | the Argonauts | - | ? | "they skirted Tyrrhenia and came to Aeaea"; by ship to the place where the misfortune can be liquidated
+L1-076 | V | 4 | ev 65 | 1.9.24 | K | Circe | the Argonauts | ? | "they supplicated Circe and were purified"; the wrath is liquidated by the purification the ship named; bare letter
+L1-076 | IV | 30 | ev 66 | 1.9.25 | X | Orpheus | the Argonauts |   | "Orpheus restrained the Argonauts by chanting a counter-melody"; move IV (the return and the Colchian pursuit) resumes here; X, perhaps Rs⁷ (resisting an enticement), with no pursuit by the Sirens
+L1-076 | IV | 31 | ev 67 | 1.9.25 | X | Butes | - |   | "Butes alone swam off to the Sirens"
+L1-076 | IV | 32 | ev 68 | 1.9.25 | X | Aphrodite | Butes |   | "Aphrodite carried him away and settled him in Lilybaeum"; X, perhaps Rs¹
+L1-076 | IV | 33 | ev 69 | 1.9.25 | X | - | the ship |   | "the ship encountered Charybdis and Scylla and the Wandering Rocks"
+L1-076 | IV | 34 | ev 70 | 1.9.25 | X | Thetis; the Nereids; Hera | the Argonauts |   | "Thetis with the Nereids steered the ship through them at the summons of Hera"; X, perhaps G
+L1-076 | IV | 35 | ev 71 | 1.9.25 | X | the Argonauts | - |   | "they came to Corcyra, the island of the Phaeacians"
+L1-076 | IV | 36 | ev 72 | 1.9.25 | X | the Colchians | - |   | "some of them settled at the Ceraunian mountains, and some journeyed to Illyria and colonized the Apsyrtides Islands"; the pursuit lapses for these
+L1-076 | IV | 37 | ev 73 | 1.9.25 | Pr² | the Colchians | Medea; the Argonauts |   | "finding the Argo there, they demanded of Alcinous that he should give up Medea"; the pursuer demands the guilty person
+L1-076 | IV | 38 | ev 74 | 1.9.25 | X | Alcinous | the Colchians |   | "if she already knew Jason, he would give her to him, but that if she were still a maid he would send her away to her father"
+L1-076 | IV | 39 | ev 75 | 1.9.25 | Rs | Arete | Medea; Jason | ? | "Arete, wife of Alcinous, anticipated matters by marrying Medea to Jason"; defined by its consequence, the end of the pursuit (ev 76); it is also the hero's wedding (W); no Rs variety fits
+L1-076 | IV | 40 | ev 76 | 1.9.25 | X | the Colchians | - |   | "hence the Colchians settled down among the Phaeacians"
+L1-076 | IV | 41 | ev 77 | 1.9.25 | X | the Argonauts | - |   | "the Argonauts put to sea with Medea"
+L1-076 | IV | 42 | ev 78 | 1.9.26 | X | - | the Argonauts |   | "Sailing by night they encountered a violent storm"; no agent named
+L1-076 | IV | 43 | ev 79 | 1.9.26 | X | Apollo | the Argonauts | ? | "Apollo, taking his stand on the Melantian ridges, flashed lightning down, shooting a shaft into the sea"; X, perhaps Rs or K (rescue from the storm)
+L1-076 | IV | 44 | ev 80 | 1.9.26 | X | the Argonauts | - |   | "they perceived an island close at hand, and anchoring there"
+L1-076 | IV | 45 | ev 81 | 1.9.26 | X | the Argonauts | Apollo |   | "they founded an altar of Radiant Apollo, and having offered sacrifice they betook them to feasting"
+L1-076 | IV | 46 | ev 82 | 1.9.26 | X | Arete | Medea |   | "twelve handmaids, whom Arete had given to Medea"; flashback
+L1-076 | IV | 47 | ev 83 | 1.9.26 | X | the handmaids | the chiefs |   | "jested merrily with the chiefs"
+L1-076 | IV | 48 | ev 84 | 1.9.26 | X | Talos | the Argonauts |   | "they were hindered from touching at Crete by Talos"; X, perhaps A; a summary of ev 86
+L1-076 | IV | 49 | ev 85 | 1.9.26 | X | Talos | - |   | "This Talos kept guard, running round the island thrice every day"
+L1-076 | IV | 50 | ev 86 | 1.9.26 | H | Talos | the Argonauts | ? | "when he saw the Argo standing inshore, he pelted it as usual with stones"; the attack opens a struggle; A is the alternative
+L1-076 | IV | 51 | ev 87 | 1.9.26 | I | Medea | Talos | ? | "His death was brought about by the wiles of Medea, whether, as some say, she drove him mad by drugs"; the adversary killed by cunning
+L1-076 | IV | 52 | ev 88 | 1.9.26 | X | the Argonauts | - |   | "After tarrying a single night there they put in to Aegina to draw water"
+L1-076 | IV | 53 | ev 89 | 1.9.26 | X | the Argonauts | - |   | "a contest arose among them concerning the drawing of the water"
+L1-076 | IV | 54 | ev 90 | 1.9.26 | X | the Argonauts | - | ? | "Thence they sailed betwixt Euboea and Locris and came to Iolcus"; the arrival that completes the return entered as ↓ at ev 54; X, perhaps ↓
+L1-076 | IV | 55 | ev 91 | 1.9.27 | X | Pelias | Aeson |   | "Pelias, despairing of the return of the Argonauts, would have killed Aeson"; intended only; X, perhaps A¹⁴; placed in move IV as the move current before the villainy of ev 93
+L1-076 | IV | 56 | ev 92 | 1.9.27 | X | Aeson | Pelias |   | "he requested to be allowed to take his own life"
+L1-076 | VI | 1 | ev 93 | 1.9.27 | A¹⁴ | Pelias (by compulsion); Aeson | Aeson | ? | "in offering a sacrifice drank freely of the bull's blood and died"; a death forced by Pelias, carried out by the victim; its consequence is the vengeance of ev 99-103
+L1-076 | VI | 2 | ev 94 | 1.9.27 | X | Jason's mother | Pelias |   | "Jason's mother cursed Pelias"; X, perhaps B⁷ (lament)
+L1-076 | VI | 3 | ev 95 | 1.9.27 | X | Jason's mother | - |   | "and hanged herself"
+L1-076 | VII | 1 | ev 96 | 1.9.27 | A¹⁴ | Pelias | Promachus |   | "Pelias slew even the son whom she had left behind"; murder
+L1-076 | VII | 2 | ev 97 | 1.9.27 | X | Jason | Pelias |   | "On his return Jason surrendered the fleece"; X, perhaps N (the charge of L1-070 fulfilled)
+L1-076 | VII | 3 | ev 98 | 1.9.27 | X | Jason; the chiefs | Poseidon |   | "he sailed with the chiefs to the Isthmus and dedicated the ship to Poseidon"
+L1-076 | VII | 4 | ev 99 | 1.9.27 | C | Jason | Medea | ? | "he exhorted Medea to devise how he could punish Pelias"; the hero decides on counteraction and sets his helper to it
+L1-076 | VII | 5 | ev 100 | 1.9.27 | X | Medea | - |   | "she repaired to the palace of Pelias"
+L1-076 | VII | 6 | ev 101 | 1.9.27 | η¹ | Medea | the daughters of Pelias |   | "persuaded his daughters to make mince meat of their father and boil him, promising to make him young again by her drugs"; deceitful persuasion
+L1-076 | VII | 7 | ev 102 | 1.9.27 | X | Medea | the daughters of Pelias |   | "to win their confidence she cut up a ram and made it into a lamb by boiling it"; part of the deception of ev 101
+L1-076 | VII | 8 | ev 103 | 1.9.27 | θ | the daughters of Pelias | Medea |   | "So they believed her"; the victims of the deceit submit to it
+L1-076 | VII | 9 | ev 103 | 1.9.27 | U | the daughters of Pelias (deceived by Medea) | Pelias | ? | "made mince meat of their father and boiled him"; the punishment Jason sought in ev 99; performed unwittingly
+L1-076 | VII | 10 | ev 104 | 1.9.27 | X | Acastus | Pelias |   | "Acastus buried his father with the help of the inhabitants of Iolcus"
+L1-076 | VIII | 1 | ev 105 | 1.9.27 | A⁹ | Acastus | Jason; Medea |   | "he expelled Jason and Medea from Iolcus"; expulsion
+L1-076 | VIII | 2 | ev 106 | 1.9.28 | X | Jason; Medea | - |   | "They went to Corinth, and lived there happily for ten years"; X, perhaps ↑
+L1-076 | VIII | 3 | ev 107 | 1.9.28 | X | Creon | Jason; Glauce | ? | "Creon, king of Corinth, betrothed his daughter Glauce to Jason"; X, perhaps W (betrothal), the wedding itself following in ev 108
+L1-076 | VIII | 4 | ev 108 | 1.9.28 | W | Jason | Glauce | ? | "who married her"; marriage
+L1-076 | IX | 1 | ev 108 | 1.9.28 | A | Jason | Medea | ? | "and divorced Medea"; a harmful act by the hero against his wife, judged like any other; no form in Propp's list (A⁹ expulsion is near); last event of the episode
+L1-082 | I | 1 | ev 1 | 1.9.28 | X | Medea | the gods |   | "she invoked the gods by whom Jason had sworn"; X, perhaps B⁷ or C
+L1-082 | I | 2 | ev 2 | 1.9.28 | X | Medea | Jason |   | "after often upbraiding him with his ingratitude"
+L1-082 | I | 3 | ev 3 | 1.9.28 | η¹ | Medea | Glauce | ? | "she sent the bride a robe steeped in poison"; a deceitful gift to be accepted, like Propp's witch who "tries to have a ring accepted"
+L1-082 | I | 4 | ev 4 | 1.9.28 | θ | Glauce | Medea |   | "which when Glauce had put on"; the victim accepts the gift
+L1-082 | I | 5 | ev 4 | 1.9.28 | A¹⁴ | Medea | Glauce | ? | "she was consumed with fierce fire"; murder; U (vengeance on Jason's new bride) is the alternative; the wrong to Medea lies in another episode (L1-076)
+L1-082 | I | 6 | ev 5 | 1.9.28 | X | Creon; Medea | Creon |   | "along with her father, who went to her rescue"; X, perhaps A¹⁴; the same burning as ev 4
+L1-082 | II | 1 | ev 6 | 1.9.28 | A¹⁴ | Medea | Mermerus; Pheres |   | "But Mermerus and Pheres, the children whom Medea had by Jason, she killed"; murder
+L1-082 | II | 2 | ev 7 | 1.9.28 | F¹ | the Sun | Medea | ? | "having got from the Sun a car drawn by winged dragons"; the agent transferred; the manner of getting it is not narrated
+L1-082 | II | 3 | ev 8 | 1.9.28 | ↑ | Medea | - | ? | "she fled on it to Athens"; departure as flight; G¹ (flight through the air) or Rs¹ are the alternatives, but Athens is not a place of search and no pursuit is narrated
+L1-082 | II | 4 | ev 9 | 1.9.28 | X | Medea | - |   | "Medea came to Athens"
+L1-082 | II | 5 | ev 10 | 1.9.28 | X | Medea | Theseus |   | "plotting against Theseus"; a plot, not narrated as carried out; X, perhaps A
+L1-082 | III | 1 | ev 11 | 1.9.28 | A⁹ | (unnamed Athenians) | Medea; Medus | ? | "she was driven a fugitive from Athens with her son"; expulsion; U (for her plot) is the alternative
+L1-082 | III | 2 | ev 12 | 1.9.28 | X | Medus | barbarians |   | "he conquered many barbarians"
+L1-082 | III | 3 | ev 13 | 1.9.28 | X | - | Medus |   | "marching against the Indians he met his death"
+L1-082 | III | 4 | ev 14 | 1.9.28 | o | Medea | - |   | "Medea came unknown to Colchis"; unrecognized arrival
+L1-082 | IV | 1 | ev 15 | 1.9.28 | A | Perses | Aeetes | ? | "finding that Aeetes had been deposed by his brother Perses"; flashback; usurpation of a kingdom; bare letter; the "finding" could be B⁴ but is entered with the deposition as one event
+L1-082 | IV | 2 | ev 16 | 1.9.28 | I | Medea | Perses | ? | "she killed Perses"; the villain killed; I⁵ (killed without a fight) or U are near
+L1-082 | IV | 3 | ev 17 | 1.9.28 | K | Medea | Aeetes |   | "restored the kingdom to her father"; the misfortune liquidated
+L2-002 | I | 1 | ev 1 | 2.1.2 | A¹⁹ | the bull | Arcadia |   | "the bull that ravaged Arcadia"; ravaging narrated as the reason for the killing; Propp lists "a dragon ravages kingdoms" under A¹⁹; entered before the killing though the relative clause follows it in the words
+L2-002 | I | 2 | ev 1 | 2.1.2 | I | Argus the All-seeing | the bull | ? | "being exceedingly strong he killed the bull"; the adversary killed; no fight narrated (I⁵ is near)
+L2-002 | I | 3 | ev 2 | 2.1.2 | X | Argus the All-seeing | - |   | "clad himself in its hide"; X, perhaps T
+L2-002 | II | 1 | ev 3 | 2.1.2 | A⁵ | a satyr | the Arcadians |   | "a satyr wronged the Arcadians and robbed them of their cattle"; plunder
+L2-002 | II | 2 | ev 4 | 2.1.2 | H¹ | Argus the All-seeing | the satyr |   | "Argus withstood"; struggle
+L2-002 | II | 3 | ev 4 | 2.1.2 | I¹ | Argus the All-seeing | the satyr |   | "and killed him"; victory
+L2-002 | III | 1 | ev 5 | 2.1.2 | A¹⁴ | the guilty | Apis | ? | "avenged the murder of Apis"; flashback; the murder is named only as the reason for the vengeance; it is narrated in 2.1.1, outside this episode
+L2-002 | III | 2 | ev 5 | 2.1.2 | U | Argus the All-seeing | the guilty |   | "by putting the guilty to death"; punishment
+L2-003 | I | 1 | ev 1 | 2.1.3 | X | Zeus | Io | ? | "Zeus seduced her while she held the priesthood of Hera"; X, perhaps A (no form in Propp's list) or δ (a priestess of Hera)
+L2-003 | I | 2 | ev 2 | 2.1.3 | ζ | Hera | Zeus; Io | ? | "being detected by Hera"; the future villain learns of her victim
+L2-003 | I | 3 | ev 3 | 2.1.3 | A¹¹ | Zeus | Io |   | "he by a touch turned Io into a white cow"; a spell; liquidated in ev 17
+L2-003 | I | 4 | ev 4 | 2.1.3 | X | Zeus | Hera |   | "swore that he had not known her"; X, perhaps η, but it deceives Hera, not the victim
+L2-003 | II | 1 | ev 5 | 2.1.3 | A⁸ | Hera | Io | ? | "Hera requested the cow from Zeus for herself"; the villain demands the victim; the handing over is implied, not narrated
+L2-003 | III | 1 | ev 6 | 2.1.3 | A¹⁵ | Hera; Argus the All-seeing | Io | ? | "set Argus the All-seeing to guard it"; detention
+L2-003 | III | 2 | ev 7 | 2.1.3 | X | Argus the All-seeing | Io |   | "He tethered her to the olive tree which was in the grove of the Mycenaeans"; the manner of the detention of ev 6
+L2-003 | III | 3 | ev 8 | 2.1.3 | B² | Zeus | Hermes |   | "Zeus ordered Hermes to steal the cow"; a helper dispatched; Io is the hero, Hermes the one sent
+L2-003 | III | 4 | ev 9 | 2.1.3 | ζ | Hierax | Hermes | ? | "Hermes could not do it secretly because Hierax had blabbed"; information given to the other side; Hermes's failure is not a function
+L2-003 | III | 5 | ev 10 | 2.1.3 | I | Hermes | Argus the All-seeing | ? | "he killed Argus by the cast of a stone"; the guard killed; the freeing of Io that follows from it is not narrated
+L2-003 | IV | 1 | ev 11 | 2.1.3 | A | Hera | Io | ? | "Hera next sent a gadfly to infest the cow"; harm that drives her away; A⁹ (expulsion) or A¹⁸ (torment) are near
+L2-003 | IV | 2 | ev 12 | 2.1.3 | ↑ | Io | - | ? | "the animal came first to what is called after her the Ionian gulf"; the victim's departure on a journey without search
+L2-003 | IV | 3 | ev 13 | 2.1.3 | X | Io | - |   | "she journeyed through Illyria and having traversed Mount Haemus"
+L2-003 | IV | 4 | ev 14 | 2.1.3 | X | Io | - |   | "she crossed what was then called the Thracian Straits"
+L2-003 | IV | 5 | ev 15 | 2.1.3 | X | Io | - |   | "having gone away to Scythia and the Cimmerian land she wandered over great tracts of land and swam wide stretches of sea both in Europe and Asia"
+L2-003 | IV | 6 | ev 16 | 2.1.3 | X | Io | - |   | "until at last she came to Egypt"
+L2-003 | I | 5 | ev 17 | 2.1.3 | K⁸ | (unnamed) | Io | ? | "where she recovered her original form"; the spell of ev 3 broken; move I resumes here; T (new appearance) is the alternative
+L2-003 | I | 6 | ev 18 | 2.1.3 | X | Io | Epaphus |   | "gave birth to a son Epaphus beside the river Nile"
+L2-003 | V | 1 | ev 19 | 2.1.3 | A¹³ | Hera | Epaphus; Io | ? | "Him Hera besought the Curetes to make away with"; the villain orders a killing
+L2-003 | V | 2 | ev 20 | 2.1.3 | X | the Curetes | Epaphus | ? | "make away with him they did"; the order of ev 19 carried out; the child is later found alive, so perhaps A¹ rather than a killing
+L2-003 | V | 3 | ev 21 | 2.1.3 | U | Zeus | the Curetes |   | "When Zeus learned of it, he slew the Curetes"; punishment
+L2-003 | V | 4 | ev 22 | 2.1.3 | ↑ | Io | - |   | "Io set out in search of the child"; departure on a quest; the decision (C) is not narrated as an act of its own
+L2-003 | V | 5 | ev 23 | 2.1.3 | X | Io | - |   | "She roamed all over Syria"
+L2-003 | V | 6 | ev 24 | 2.1.3 | G⁴ | (unnamed) | Io | ? | "there it was revealed to her that the wife of the king of Byblus was nursing her son"; the whereabouts of the sought one shown; the revealer is not named
+L2-003 | V | 7 | ev 25 | 2.1.3 | K | Io | Epaphus |   | "having found Epaphus"; the sought one recovered; K⁴ (result of a guided journey) is near
+L2-003 | V | 8 | ev 26 | 2.1.3 | ↓ | Io | - |   | "she came to Egypt"; return
+L2-005 | I | 1 | ev 1 | 2.1.4 | α | Belus | Danaus; Egyptus | ? | "Danaus was settled by Belus in Libya, and Egyptus in Arabia"; the hero's initial situation; X if α is not to be written for an act
+L2-005 | I | 2 | ev 2 | 2.1.4 | X | Egyptus | the Melampods |   | "Egyptus subjugated the country of the Melampods"
+L2-005 | I | 3 | ev 3 | 2.1.4 | X | Danaus; Egyptus | - |   | "they afterwards quarrelled concerning the kingdom"; X, perhaps A; a mutual quarrel
+L2-005 | I | 4 | ev 4 | 2.1.4 | F | Danaus; Athena (advice) | Danaus | ? | "Danaus feared the sons of Egyptus, and by the advice of Athena he built a ship, being the first to do so"; the means of escape made on a god's advice; F³ (prepared) or F² (indicated) both partly fit, so bare letter; the fear is motive, not an act
+L2-005 | I | 5 | ev 5 | 2.1.4 | ↑ | Danaus | his daughters |   | "having put his daughters on board he fled"; departure as flight
+L2-005 | I | 6 | ev 6 | 2.1.4 | X | Danaus | - |   | "touching at Rhodes ... Thence he came to Argos"
+L2-005 | I | 7 | ev 7 | 2.1.4 | W | Gelanor | Danaus | ? | "the reigning king Gelanor surrendered the kingdom to him"; accession to a throne only
+L2-005 | I | 8 | ev 8 | 2.1.4 | A | Poseidon | the country (Argos) | ? | "Poseidon had dried up even the springs out of anger at Inachus"; flashback; harm to the land; no form in Propp's list; the want of water is its result
+L2-005 | I | 9 | ev 9 | 2.1.4 | B² | Danaus | his daughters |   | "Danaus sent his daughters to draw water"; dispatch
+L2-006 | I | 1 | ev 1 | 2.1.4 | a | - | Amymone | ? | "in her search for water"; the lack of water narrated in the search; the dart and the hit on the satyr are not entered (X, they rouse the satyr)
+L2-006 | II | 1 | ev 2 | 2.1.4 | A¹⁶ | the satyr | Amymone | ? | "he, starting up, desired to force her"; an attempt not carried out; entered under Propp's threat form A¹⁶ (forced matrimony) as the nearest, otherwise X
+L2-006 | II | 2 | ev 3 | 2.1.4 | X | Poseidon | - |   | "Poseidon appearing on the scene"; X, perhaps F⁹ (a helper appears)
+L2-006 | II | 3 | ev 4 | 2.1.4 | I | Poseidon | the satyr | ? | "the satyr fled"; the villain driven off; I⁶ (banished directly) is near
+L2-006 | I | 2 | ev 5 | 2.1.4 | X | Amymone; Poseidon | - |   | "Amymone lay with Poseidon"; move I resumes here; X, perhaps W or E
+L2-006 | I | 3 | ev 6 | 2.1.4 | K | Poseidon | Amymone | ? | "he revealed to her the springs at Lerna"; the lack of water liquidated by indication (Propp's KF²)
+L2-007 | I | 1 | ev 1 | 2.1.5 | X | the sons of Egyptus | Danaus; his daughters | ? | "the sons of Egyptus came to Argos, and exhorted Danaus to lay aside his enmity, and begged to marry his daughters"; a suit; X, perhaps η (Danaus distrusts it, the text does not confirm deceit) or A¹⁶
+L2-007 | I | 2 | ev 2 | 2.1.5 | X | Danaus | the sons of Egyptus |   | "Danaus distrusted their professions and bore them a grudge on account of his exile; nevertheless he consented to the marriage"
+L2-007 | I | 3 | ev 3 | 2.1.5 | X | Danaus | his daughters |   | "allotted the damsels among them"
+L2-007 | I | 4 | ev 4 | 2.1.5 | F¹ | Danaus | his daughters | ? | "Danaus made a feast and gave his daughters daggers"; means handed over by the father, as Propp notes of cudgels and maces given before the hero sets out; no command is stated
+L2-007 | I | 5 | ev 5 | 2.1.5 | A¹⁴ | the daughters of Danaus | the sons of Egyptus | ? | "they slew their bridegrooms as they slept, all but Hypermnestra; for she saved Lynceus because he had respected her virginity"; murder; I⁵ (killed asleep) if the grooms are adversaries, but the purification of ev 8 treats it as a pollution; Hypermnestra's sparing is not entered (X, perhaps E⁵)
+L2-007 | II | 1 | ev 6 | 2.1.5 | A¹⁵ | Danaus | Hypermnestra |   | "Danaus shut her up and kept her under ward"; imprisonment
+L2-007 | II | 2 | ev 7 | 2.1.5 | X | the daughters of Danaus | the sons of Egyptus |   | "the rest of the daugters of Danaus buried the heads of their bridegrooms in Lerna and paid funeral honors to their bodies in front of the city"
+L2-007 | II | 3 | ev 8 | 2.1.5 | X | Athena; Hermes; Zeus | the daughters of Danaus |   | "Athena and Hermes purified them at the command of Zeus"; X, perhaps K; no harm to them is narrated
+L2-007 | II | 4 | ev 9 | 2.1.5 | W | Danaus | Hypermnestra; Lynceus | ? | "Danaus afterwards united Hypermnestra to Lynceus"; marriage; her release from ward is implied, not narrated
+L2-007 | II | 5 | ev 10 | 2.1.5 | W | Danaus | the other daughters | ? | "bestowed his other daughters on the victors in an athletic contest"; marriage
+L2-009 | I | 1 | ev 1 | 2.2.1 | X | Acrisius; Proetus | - |   | "These two quarrelled with each other while they were still in the womb"
+L2-009 | I | 2 | ev 2 | 2.2.1 | H¹ | Acrisius; Proetus | Proetus; Acrisius | ? | "when they were grown up they waged war for the kingdom"; war between the two; A¹⁹ (declaring war) is the alternative, but the war is mutual
+L2-009 | I | 3 | ev 3 | 2.2.1 | I− | Acrisius | Proetus |   | "Acrisius gained the mastery"; the hero loses the fight
+L2-009 | I | 4 | ev 3 | 2.2.1 | A⁹ | Acrisius | Proetus |   | "and drove Proetus from Argos"; expulsion
+L2-009 | I | 5 | ev 4 | 2.2.1 | ↑ | Proetus | - |   | "Proetus went to Lycia to the court of Iobates"; the banished hero's departure
+L2-009 | I | 6 | ev 5 | 2.2.1 | ↓ | Iobates | Proetus | ? | "His in-law restored him to his own land with an army of Lycians"; return, which Propp says replaces liquidation for banishment; the army could be read as F⁹, not entered separately
+L2-009 | I | 7 | ev 6 | 2.2.1 | X | Proetus; the Cyclopes | Tiryns |   | "he occupied Tiryns, which the Cyclopes had fortified for him"; X, perhaps W or T² (a marvelous building)
+L2-009 | I | 8 | ev 7 | 2.2.1 | W | Acrisius; Proetus | Proetus | ? | "They divided the whole of the Argive territory between them and settled in it, Acrisius reigning over Argos and Proetus over Tiryns"; accession to a throne only
+L2-010 | I | 1 | ev 1 | 2.2.2 | δ | the daughters of Proetus | Dionysus | ? | "because they would not accept the rites of Dionysus"; an offense against a god, interdiction unstated; narrated as the reason for ev 2
+L2-010 | I | 2 | ev 2 | 2.2.2 | A¹¹ | Dionysus (implied by the cause) | the daughters of Proetus | ? | "When these damsels were grown up, they went mad"; madness read as a spell; the text names no agent
+L2-010 | I | 3 | ev 3 | 2.2.2 | ↑ | the daughters of Proetus | - | ? | "In their madness they roamed over the whole Argive land"; the victims' departure, driven by the spell
+L2-010 | I | 4 | ev 4 | 2.2.2 | X | the daughters of Proetus | - |   | "passing through Arcadia and the Peloponnese, they ran through the desert in the most disorderly fashion"
+L2-010 | I | 5 | ev 5 | 2.2.2 | X | Melampus | Proetus |   | "promised to cure the maidens if he should receive the third part of the sovereignty"; an offer on terms; X, perhaps D¹⁰ (an offer for exchange) or C
+L2-010 | I | 6 | ev 6 | 2.2.2 | X | Proetus | Melampus |   | "When Proetus refused to pay so high a fee for the cure"; X, perhaps E−, but Proetus is not the hero
+L2-010 | I | 7 | ev 7 | 2.2.2 | X | - | the daughters of Proetus; the other women |   | "the maidens raved more than ever, and besides that, the other women raved with them"; X, perhaps A; no agent named
+L2-010 | II | 1 | ev 8 | 2.2.2 | A¹⁴ | the women | their children | ? | "they also abandoned their houses, destroyed their own children, and flocked to the desert"; murder of family members; the move is never liquidated
+L2-010 | I | 8 | ev 9 | 2.2.2 | X | Proetus | Melampus |   | "did Proetus consent to pay the stipulated fee"; move I resumes here; X, perhaps B
+L2-010 | I | 9 | ev 10 | 2.2.2 | X | Melampus | Proetus |   | "Melampus promised to effect a cure whenever his brother Bias should receive just so much land as himself"
+L2-010 | I | 10 | ev 11 | 2.2.2 | X | Proetus | Melampus |   | "Proetus agreed to let the physician proceed on these terms"; X, perhaps B
+L2-010 | I | 11 | ev 12 | 2.2.2 | X | Melampus; the young men | the women | ? | "chased the women in a bevy from the mountains to Sicyon with shouts and a sort of frenzied dance"; X, perhaps Pr; a chase of the heroes, but as the means of their cure
+L2-010 | I | 12 | ev 13 | 2.2.2 | X | - | Iphinoe |   | "In the pursuit Iphinoe, the eldest of the daughters, expired"
+L2-010 | I | 13 | ev 14 | 2.2.2 | K⁸ | Melampus | the daughters of Proetus |   | "the others were lucky enough to be purified and so to recover their wits"; the spell broken
+L2-010 | I | 14 | ev 15 | 2.2.2 | W | Proetus | the daughters of Proetus; Melampus; Bias |   | "Proetus gave them in marriage to Melampus and Bias"; marriage

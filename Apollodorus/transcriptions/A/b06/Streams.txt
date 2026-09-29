@@ -1,0 +1,137 @@
+tale: L3-068
+name: 3.8.1, Zeus
+move: I   | D¹ X A¹⁴ X E¹− X U X
+
+tale: L3-070/1
+name: 3.8.2, Callisto
+move: I   | X a¹ η
+move: II  | A
+move: III | A¹¹
+move: IV  | A¹³ A¹⁴ X X X T
+
+tale: L3-070/2
+name: 3.8.2, Zeus
+move: I   | X a¹ η
+move: II  | A
+move: III | A¹¹
+move: IV  | A¹³ A¹⁴ X X X X
+
+tale: L3-073
+name: 3.9.1, Auge
+move: I   | X δ A³ X X
+move: II  | A¹³ W
+
+tale: L3-074
+name: 3.9.1, Telephus
+move: I   | A⁹ X X
+move: II  | a¹ ↑ G⁴ K W
+
+tale: L3-075
+name: 3.9.2, Atalanta
+move: I   | A⁹ X X X X I X X Q X X M N−
+move: II  | a¹ F Pr Rs² N W X δ
+move: III | A¹¹
+
+tale: L3-078
+name: 3.10.2, Hermes
+move: I   | α ↑ X A⁵ X X X X X X X ↓ X X X F³ X X X X X Pr² X X X X X G³ K X F³ X
+move: II  | a D¹⁰ K
+move: III | a K X
+
+tale: L3-081
+name: 3.10.3, Apollo
+move: I   | a¹ K
+move: II  | A B⁴ U X X
+
+tale: L3-082
+name: 3.10.3-3.10.4, Aesculapius
+move: I   | F¹ X X F¹ X A¹⁴
+
+tale: L3-084
+name: 3.10.5, Tyndareus
+move: I   | A⁹ ↑ X W I⁵ ↓ W
+
+tale: L3-092
+name: 3.10.9, Tyndareus
+move: I   | X D⁷ E⁷ F X X X
+
+tale: L3-093
+name: 3.11.2, Pollux
+move: I   | a¹ K¹ W X η X
+move: II  | A⁵ ↑ K¹ X ε ζ
+move: III | A¹⁴ I I− U X X K
+
+tale: L3-098
+name: 3.12.3, Ilus
+move: I   | ↑ E¹ F¹ F¹ B² G³ X X E⁷ F⁶
+
+tale: L3-099
+name: 3.12.3, Athena
+move: I   | α X X X A¹⁴ X X X
+
+tale: L3-104
+name: 3.12.5, Priam
+move: I   | X X X X X A¹³
+
+tale: L3-105
+name: 3.12.5, Paris
+move: I   | A⁹ X B⁶ X X X Q
+
+tale: L3-107
+name: 3.12.6, Oenone
+move: I   | F¹ γ¹ X δ A⁶ B C− X C ↑ K−
+
+tale: L3-108
+name: 3.12.6, Zeus
+move: I   | A¹ ↑ X Pr Rs X X
+move: II  | a¹ K
+
+tale: L3-109
+name: 3.12.6, Aeacus
+move: I   | X X A³ η B E⁷ K X
+move: II  | A¹⁴ X
+
+tale: L3-110
+name: 3.12.6-3.12.7, Telamon
+move: I   | X X A¹⁴ X Ex
+move: II  | A⁹ ↑ W I W X W
+move: III | A¹⁹
+
+tale: L3-111
+name: 3.13.1-3.13.7, Peleus
+move: I    | ↑ X W X A¹⁴ ↑ X X
+move: II   | a¹ X η θ η η X L Ex θ U X
+move: III  | A U
+move: IV   | A⁵ X K
+move: V    | A¹⁵ K¹⁰
+move: VI   | a¹ X X F K¹ Rs⁶− X W X F¹ F¹
+move: VII  | a X X X δ X
+move: VIII | A⁷ X X X
+
+tale: L3-114
+name: 3.13.8, Achilles
+move: I   | B X γ¹ X ζ ε Q ↑ X
+
+tale: L3-115
+name: 3.13.8, Phoenix
+move: I   | η A⁶ G³ K W
+
+tale: L3-116
+name: 3.13.8, Patroclus
+move: I   | X A¹⁴ ↑ X X
+
+tale: L3-117
+name: 3.14.1, Poseidon
+move: I   | a ↑ X X X X H X X I−
+move: II  | A
+
+tale: L3-120
+name: 3.14.2, Ares
+move: I   | Ex A¹⁴ Pr² X X
+
+tale: L3-129
+name: 3.14.6, Athena
+move: I   | ↑ a
+move: II  | A⁷
+move: III | a¹ Pr X X X X X X
+move: IV  | a γ¹

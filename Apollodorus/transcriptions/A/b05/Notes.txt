@@ -1,0 +1,301 @@
+L3-015 | I | 1 | ev 1 | 3.4.1 | X | Telephassa; Cadmus | Telephassa | ? | "When Telephassa died, Cadmus buried her"; X, perhaps β² (death of a parent, p.26); no harm is prepared by it in this text, and the burial is no function.
+L3-015 | I | 2 | ev 2 | 3.4.1 | X | the Thracians | Cadmus |   | "after being hospitably received by the Thracians"; X, perhaps D² (greeting), but no test follows and nothing is given.
+L3-015 | I | 3 | ev 3 | 3.4.1 | X | Cadmus | the god at Delphi | ? | "he came to Delphi to inquire about Europa"; X, perhaps a¹ (the lack of Europa, created in an earlier episode, restated here only as the purpose of the inquiry) or D (approach to a consultant).
+L3-015 | I | 4 | ev 4 | 3.4.1 | γ² | the god at Delphi | Cadmus | ? | "The god told him not to trouble about Europa, but to be guided by a cow, and to found a city wherever she should fall down for weariness"; an order addressed to the hero (inverted interdiction, p.27); perhaps B² (dispatch by command), but no misfortune or lack is made known.
+L3-015 | I | 5 | ev 5 | 3.4.1 | X | Cadmus | - |   | "After receiving such an oracle he journeyed through Phocis"; X, perhaps ↑.
+L3-015 | I | 6 | ev 6 | 3.4.1 | δ | Cadmus | the god's order | ? | "falling in with a cow among the herds of Pelagon, he followed it behind"; the order of ev 4 fulfilled (a fulfilled order corresponds to a violated interdiction, p.27); perhaps G³ (he is led); the chance finding of the cow (perhaps F⁵) is given no entry of its own.
+L3-015 | I | 7 | ev 7 | 3.4.1 | X | the cow | - |   | "after traversing Boeotia, it sank down where is now the city of Thebes"; X, perhaps G (arrival at the place sought).
+L3-015 | I | 8 | ev 8 | 3.4.1 | X | Cadmus | his companions | ? | "Wishing to sacrifice the cow to Athena, he sent some of his companions to draw water from the spring of Ares"; X, perhaps γ² (an order whose fulfilment exposes those sent to harm), but it is addressed to the companions, not to the hero.
+L3-015 | I | 9 | ev 9 | 3.4.1 | A¹⁴ | the dragon | Cadmus's companions |   | "a dragon ... guarded the spring and destroyed most of those that were sent"; murder of the hero's companions; "which some said was the offspring of Ares" is a report of authorities and is not transcribed.
+L3-015 | I | 10 | ev 10 | 3.4.1 | I | Cadmus | the dragon | ? | "In his indignation Cadmus killed the dragon"; the villain killed; no fight narrated, so no H and no variety number (perhaps I⁵, killed without a preliminary fight); perhaps U.
+L3-015 | I | 11 | ev 11 | 3.4.1 | X | Athena; Cadmus | the dragon's teeth | ? | "by the advice of Athena sowed its teeth"; X, perhaps F² (agent pointed out) or F³ (agent prepared); what grows from the teeth gives the hero no help in this text.
+L3-015 | I | 12 | ev 12 | 3.4.1 | X | the Sparti | - | ? | "there rose from the ground armed men whom they called Sparti"; X, perhaps F⁶ (agents sprouting out of the ground, p.45), but they serve the hero in nothing.
+L3-015 | I | 13 | ev 13 | 3.4.1 | X | the Sparti | the Sparti |   | "These slew each other, some in a chance brawl, and some in ignorance"; X; Pherecydes's version is a report of an authority and is not transcribed.
+L3-015 | I | 14 | ev 14 | 3.4.1 | X | - | five of the Sparti |   | "five of them survived"; X.
+L3-015 | I | 15 | ev 15 | 3.4.2 | E¹ | Cadmus | Ares | ? | "Cadmus, to atone for the slaughter, served Ares for an eternal year"; a term of service (a form of test, p.39-40, service for three years) completed and followed by reward (ev 16); no D narrated; perhaps X (penance) or U.
+L3-015 | I | 16 | ev 16 | 3.4.2 | W | Athena | Cadmus |   | "After his servitude Athena procured for him the kingdom"; accession to the throne only (Propp's third form of W); bare W because Propp's forms of W carry no numbers.
+L3-015 | I | 17 | ev 17 | 3.4.2 | W | Zeus | Cadmus; Harmonia |   | "Zeus gave him to wife Harmonia"; marriage (Propp's second form of W); bare W as at ev 16.
+L3-015 | I | 18 | ev 18 | 3.4.2 | X | all the gods | Cadmus; Harmonia |   | "all the gods quitted the sky, and feasting in the Cadmea celebrated the marriage with hymns"; X, part of the wedding already entered.
+L3-015 | I | 19 | ev 19 | 3.4.2 | X | Cadmus | Harmonia |   | "Cadmus gave her a robe and the necklace wrought by Hephaestus"; X, perhaps F¹, but given by the hero and not used in this episode; the "some say" and Pherecydes on the necklace's origin are not transcribed.
+L3-019 | I | 1 | ev 1 | 3.4.3 | a¹ | Zeus | Semele | ? | "Zeus loved Semele"; desire for a woman (lack of a bride or of a human being generally, a¹, p.35); perhaps X.
+L3-019 | I | 2 | ev 2 | 3.4.3 | K | Zeus | Semele | ? | "and bedded with her unknown to Hera"; the desire of ev 1 satisfied; no variety number; perhaps X.
+L3-019 | I | 3 | ev 3 | 3.4.3 | X | Zeus | Semele | ? | "Zeus had agreed to do for her whatever she asked"; X (told as prior, a flashback); perhaps λ (an agreement later turned to harm), but it is not a deceitful agreement made by the villain.
+L3-019 | I | 4 | ev 4 | 3.4.3 | η | Hera | Semele |   | "deceived by Hera"; trickery by the villain; the form of the deceit is not told, so no variety number.
+L3-019 | I | 5 | ev 4 | 3.4.3 | θ | Semele | Zeus | ? | "she asked that he would come to her as he came when he was wooing Hera"; the victim acts on the deceit and unwittingly brings on her own harm; no variety number.
+L3-019 | I | 6 | ev 5 | 3.4.3 | X | Zeus | Semele | ? | "Unable to refuse, Zeus came to her bridal chamber in a chariot, with lightnings and thunderings"; X, perhaps θ (Zeus too is bound into the deceit by his agreement).
+L3-019 | I | 7 | ev 6 | 3.4.3 | X | Zeus | - | ? | "and launched a thunderbolt"; X; the villainy is entered at ev 7, where the harm is done; perhaps it belongs here, as the act that causes the death.
+L3-019 | II | 1 | ev 7 | 3.4.3 | A¹⁴ | Hera, through Zeus's thunder | Semele | ? | "But Semele expired of fright"; the death Hera's deceit contrived; performer uncertain (Hera contrives it, Zeus's thunder is the means, the text says she died "of fright").
+L3-019 | II | 2 | ev 8 | 3.4.3 | X | Zeus | the unborn child | ? | "Zeus, snatching the sixth-month abortive child from the fire"; X, perhaps Rs or K (part of the misfortune averted).
+L3-019 | II | 3 | ev 9 | 3.4.3 | X | Zeus | the child |   | "sewed it in his thigh"; X.
+L3-019 | II | 4 | ev 10 | 3.4.3 | X | the other daughters of Cadmus | Semele | ? | "the other daughters of Cadmus spread a report that Semele had bedded with a mortal man, and had falsely accused Zeus"; X, perhaps A (slander) or L; nothing follows from it in this episode.
+L3-019 | II | 5 | ev 11 | 3.4.3 | X | Zeus | Dionysus | ? | "at the proper time Zeus undid the stitches and gave birth to Dionysus"; X, perhaps K (the child saved from the misfortune).
+L3-019 | II | 6 | ev 12 | 3.4.3 | X | Zeus | Dionysus; Hermes |   | "and entrusted him to Hermes"; X.
+L3-020 | I | 1 | ev 1 | 3.4.3 | X | Hermes | Dionysus; Ino; Athamas |   | "he conveyed him to Ino and Athamas"; X.
+L3-020 | I | 2 | ev 2 | 3.4.3 | X | Hermes | Ino; Athamas | ? | "and persuaded them to rear him as a girl"; X, perhaps γ² (a suggestion whose fulfilment brings Hera's anger) or D⁷ (a request).
+L3-020 | I | 3 | ev 3 | 3.4.3 | A | Hera | Ino; Athamas |   | "But Hera indignantly drove them mad"; harm by maddening; no variety number (perhaps A¹¹, a spell).
+L3-020 | II | 1 | ev 4 | 3.4.3 | A¹⁴ | Athamas | Learchus | ? | "Athamas hunted his elder son Learchus as a deer and killed him"; murder of a member of the family; a new villainy and so a new move by the rule, though it is the working-out of the madness of ev 3 (compare Propp's combined forms, p.33).
+L3-020 | III | 1 | ev 5 | 3.4.3 | A¹⁴ | Ino | Melicertes | ? | "Ino threw Melicertes into a boiling cauldron"; murder; a new villainy, with the same doubt as ev 4.
+L3-020 | III | 2 | ev 6 | 3.4.3 | X | Ino | Ino; Melicertes | ? | "then carrying it with the dead child she sprang into the deep"; X, perhaps U (self-destruction); the sailors' names and the Isthmian games that follow are etiology and are not transcribed.
+L3-025 | I | 1 | ev 1 | 3.5.1 | X | Dionysus | the vine | ? | "Dionysus discovered the vine"; X, perhaps F⁵ (agent found), but the vine is not used as an agent in this episode.
+L3-025 | I | 2 | ev 2 | 3.5.1 | A | Hera | Dionysus |   | "being driven mad by Hera"; harm by maddening; no variety number (perhaps A¹¹).
+L3-025 | I | 3 | ev 3 | 3.5.1 | ↑ | Dionysus | - | ? | "he roamed about Egypt and Syria"; the victim's journey without search that follows the harm (p.39); perhaps X.
+L3-025 | I | 4 | ev 4 | 3.5.1 | X | Proteus | Dionysus |   | "At first he was received by Proteus, king of Egypt"; X, perhaps D² (greeting), but no test and no gift.
+L3-025 | I | 5 | ev 5 | 3.5.1 | X | Dionysus | - |   | "afterwards he arrived at Cybela in Phrygia"; X, perhaps G.
+L3-025 | I | 6 | ev 6 | 3.5.1 | K | Rhea | Dionysus | ? | "after he had been purified by Rhea"; the madness of ev 2 is not mentioned again, so the purification is taken as its liquidation; no variety number (perhaps K⁸, spell broken); perhaps X.
+L3-025 | I | 7 | ev 7 | 3.5.1 | X | Dionysus; Rhea | Dionysus | ? | "and learned the rites of initiation"; X, perhaps F (a capacity given), but no use of it as an agent is narrated.
+L3-025 | I | 8 | ev 8 | 3.5.1 | X | Rhea | Dionysus | ? | "he received from her the costume"; X, perhaps F¹ (agent directly transferred), but the costume has no power or use in this text.
+L3-025 | I | 9 | ev 9 | 3.5.1 | ↑ | Dionysus | - | ? | "and hastened through Thrace against the Indians"; departure on an expedition; perhaps X.
+L3-025 | I | 10 | ev 10 | 3.5.1 | X | Lycurgus | Dionysus | ? | "he was the first who insulted"; X, perhaps A (the insult), but no harm is done by it; the expulsion is entered at ev 11.
+L3-025 | II | 1 | ev 11 | 3.5.1 | A⁹ | Lycurgus | Dionysus |   | "and expelled him"; expulsion.
+L3-025 | II | 2 | ev 12 | 3.5.1 | X | Dionysus; Thetis | Dionysus | ? | "Dionysus took refuge in the sea with Thetis, daughter of Nereus"; X, perhaps Rs⁴ (the hero hides), but no pursuit is narrated.
+L3-025 | III | 1 | ev 13 | 3.5.1 | A¹⁵ | Lycurgus (implied) | the Bacchanals; the Satyrs |   | "the Bacchanals were taken prisoners together with the multitude of Satyrs that attended him"; imprisonment of the hero's company; performer not named (passive).
+L3-025 | III | 2 | ev 14 | 3.5.1 | K¹⁰ | - | the Bacchanals |   | "afterwards the Bacchanals were suddenly released"; the captives freed; the agent is not named.
+L3-025 | III | 3 | ev 15 | 3.5.1 | U | Dionysus | Lycurgus | ? | "and Dionysus drove Lycurgus mad"; punishment of the one who insulted, expelled and imprisoned; it answers the villainies of moves II and III, and is written in III, the move then under way; perhaps A (a harm by the hero, judged by what follows, ev 16).
+L3-025 | III | 4 | ev 16 | 3.5.1 | X | Lycurgus | Dryas | ? | "in his madness he struck his son Dryas dead with an axe, imagining that he was lopping a branch of a vine"; X, perhaps A¹⁴; taken as the working of the punishment of ev 15; nothing is said to follow from the killing itself.
+L3-025 | III | 5 | ev 17 | 3.5.1 | X | Lycurgus | Dryas |   | "when he had cut off his son's extremities, he recovered his senses"; X.
+L3-025 | IV | 1 | ev 18 | 3.5.1 | a | - | the Edonians' land | ? | "But the land remaining barren"; a lack (of fruit, the means of existence; perhaps a⁵); no agent named, so not A.
+L3-025 | IV | 2 | ev 19 | 3.5.1 | B | the god | the Edonians | ? | "the god declared oracularly that it would bear fruit if Lycurgus were put to death"; the remedy made known and the deed demanded, which sends the Edonians to act; no variety number; perhaps X.
+L3-025 | IV | 3 | ev 20 | 3.5.1 | X | the Edonians | Lycurgus | ? | "On hearing that, the Edonians led him to Mount Pangaeum and bound him"; X, perhaps U (the punishment begun).
+L3-025 | IV | 4 | ev 21 | 3.5.1 | U | Dionysus (by his will); horses | Lycurgus |   | "there by the will of Dionysus he died, destroyed by horses"; punishment of Lycurgus; the land's recovery (K) is not narrated.
+L3-025 | IV | 5 | ev 22 | 3.5.2 | X | Dionysus | - |   | "Having traversed Thrace and the whole of India"; X, perhaps ↑.
+L3-025 | IV | 6 | ev 23 | 3.5.2 | X | Dionysus | - |   | "and set up pillars there"; X.
+L3-025 | IV | 7 | ev 24 | 3.5.2 | X | Dionysus | - | ? | "he came to Thebes"; X, perhaps o (the Thebans are later shown he is a god, ev 29), but the text does not say he came unrecognized.
+L3-025 | V | 1 | ev 25 | 3.5.2 | A | Dionysus | the women of Thebes | ? | "forced the women to abandon their houses and rave in Bacchic frenzy on Cithaeron"; a harm by the hero, no reason given; no variety number (perhaps A¹¹ or A⁹).
+L3-025 | V | 2 | ev 26 | 3.5.2 | X | Pentheus | the Bacchanals | ? | "he attempted to put a stop to these proceedings"; X, perhaps C (counteraction) by Pentheus; an attempt, not carried through.
+L3-025 | V | 3 | ev 27 | 3.5.2 | ε | Pentheus | the Bacchanals | ? | "coming to Cithaeron to spy on the Bacchanals"; reconnaissance by the hero's opponent; no variety number; perhaps X.
+L3-025 | V | 4 | ev 28 | 3.5.2 | U | Agave (maddened by Dionysus) | Pentheus | ? | "he was torn limb from limb by his mother Agave in a fit of madness; for she thought he was a wild beast"; the opponent's death, which ends the Theban events and shows Dionysus a god (ev 29), taken as punishment; perhaps A¹⁴.
+L3-025 | V | 5 | ev 29 | 3.5.2 | Q | Dionysus | the Thebans | ? | "having shown the Thebans that he was a god"; recognition of the hero; the coming to Argos in the same event is no function; perhaps X.
+L3-025 | V | 6 | ev 30 | 3.5.2 | U | Dionysus | the women of Argos | ? | "because they did not honor him, he drove the women mad"; punishment for the dishonour; the not honouring, told as the reason, is given no entry (perhaps A, or δ of an unstated interdiction); perhaps A.
+L3-025 | V | 7 | ev 31 | 3.5.2 | X | the women of Argos | their infants | ? | "they on the mountains devoured the flesh of the infants whom they carried at their breasts"; X, perhaps A¹⁴; the working of the punishment of ev 30; nothing follows from it.
+L3-025 | V | 8 | ev 32 | 3.5.3 | X | Dionysus | the Tyrrhenian pirates |   | "wishing to be ferried across from Icaria to Naxos he hired a pirate ship of Tyrrhenians"; X, perhaps a (a wish) or F⁴ (a vessel purchased).
+L3-025 | V | 9 | ev 33 | 3.5.3 | X | the pirates | Dionysus | ? | "when they had put him on board"; X, perhaps η or θ, but no deceit is narrated.
+L3-025 | VI | 1 | ev 34 | 3.5.3 | A¹ | the pirates | Dionysus |   | "they sailed past Naxos and made for Asia, intending to sell him"; abduction of the hero; the intended sale is not carried out.
+L3-025 | VI | 2 | ev 35 | 3.5.3 | X | Dionysus | the pirates' ship | ? | "he turned the mast and oars into snakes"; X, perhaps H or I (the hero's magic turned against the abductors).
+L3-025 | VI | 3 | ev 36 | 3.5.3 | X | Dionysus | the pirates' ship |   | "and filled the vessel with ivy and the sound of flutes"; X.
+L3-025 | VI | 4 | ev 37 | 3.5.3 | X | - | the pirates | ? | "And the pirates went mad"; X, perhaps U (punishment begun) or I.
+L3-025 | VI | 5 | ev 38 | 3.5.3 | X | the pirates | the pirates | ? | "and leaped into the sea"; X, perhaps I or K (the abductors gone, the hero free), but neither defeat nor freeing is narrated as such.
+L3-025 | VI | 6 | ev 39 | 3.5.3 | U | Dionysus (implied) | the pirates |   | "and were turned into dolphins"; punishment of the abductors by transformation; no fight or pursuit precedes (p.63).
+L3-025 | VI | 7 | ev 40 | 3.5.3 | Q | men | Dionysus | ? | "Thus men perceived that he was a god and honored him"; recognition of the hero; perhaps X.
+L3-025 | VI | 8 | ev 41 | 3.5.3 | K | Dionysus | Semele (Thyone) | ? | "having brought up his mother from Hades and named her Thyone"; a dead person brought back (perhaps K⁹, revival); the death was narrated in another episode (L3-019), not in this one.
+L3-025 | VI | 9 | ev 42 | 3.5.3 | X | Dionysus | Dionysus; Thyone | ? | "he ascended up with her to heaven"; X, perhaps T (transfiguration) or W.
+L3-026 | I | 1 | ev 1 | 3.5.4 | ↑ | Cadmus; Harmonia | - | ? | "Cadmus and Harmonia quitted Thebes and went to the Encheleans"; the hero leaves home; no reason is given and no harm precedes it; perhaps X.
+L3-026 | I | 2 | ev 2 | 3.5.4 | A¹⁹ | the Illyrians | the Encheleans |   | "the Encheleans were being attacked by the Illyrians"; war made on the hero's hosts.
+L3-026 | I | 3 | ev 3 | 3.5.4 | X | the god | the Encheleans | ? | "the god declared by an oracle that they would get the better of the Illyrians if they had Cadmus and Harmonia as their leaders"; X, perhaps B (the means made known); the call to the hero is entered at ev 4.
+L3-026 | I | 4 | ev 4 | 3.5.4 | B | the Encheleans | Cadmus; Harmonia | ? | "They believed him, and made them their leaders against the Illyrians"; the hero is called to meet the misfortune; no variety number (perhaps B¹, call for help); the hero's own agreement (C) is not narrated.
+L3-026 | I | 5 | ev 5 | 3.5.4 | I | the Encheleans (under Cadmus and Harmonia) | the Illyrians |   | "and got the better of them"; victory over the attackers; no fight described, so no H and no variety number.
+L3-026 | I | 6 | ev 6 | 3.5.4 | W | Cadmus | the Illyrians |   | "And Cadmus reigned over the Illyrians"; accession to a throne only (Propp's third form of W), bare W; the birth of Illyrius is genealogy.
+L3-026 | I | 7 | ev 7 | 3.5.4 | X | - | Cadmus; Harmonia | ? | "he was, along with Harmonia, turned into a serpent"; X, perhaps T (a new appearance), but not as Propp's forms of T give it.
+L3-026 | I | 8 | ev 8 | 3.5.4 | X | Zeus | Cadmus; Harmonia |   | "and sent away by Zeus to the Elysian Fields"; X.
+L3-029 | I | 1 | ev 1 | 3.5.5 | A⁵ | Lycus | Laius | ? | "the government was usurped by Lycus, brother of Nycteus, so long as Laius was a child"; seizure of the child king's throne (plunder in other forms, A⁵); perhaps W (the hero gains power), since no harm to Laius follows in this episode.
+L3-029 | II | 1 | ev 2 | 3.5.5 | A¹⁴ | Lycus; Nycteus | Phlegyas |   | "they had killed Phlegyas, son of Ares and Dotis the Boeotian"; flashback, told as the reason for the flight; murder; a new move by the rule.
+L3-029 | II | 2 | ev 3 | 3.5.5 | ↑ | Lycus; Nycteus | - | ? | "Both of them had fled [ from Euboea]"; flashback; departure in the form of flight (p.39); perhaps X.
+L3-029 | II | 3 | ev 4 | 3.5.5 | X | Lycus; Nycteus | - |   | "they took up their abode at Hyria"; flashback; X.
+L3-029 | II | 4 | ev 5 | 3.5.5 | X | Lycus; Nycteus | - |   | "thence having come to Thebes"; flashback; X.
+L3-029 | II | 5 | ev 6 | 3.5.5 | X | the Thebans | Lycus; Nycteus |   | "they were enrolled as citizens through their friendship with Pentheus"; flashback ends here; X.
+L3-029 | II | 6 | ev 7 | 3.5.5 | X | the Thebans; Lycus | Lycus | ? | "after being chosen commander-in-chief by the Thebans, Lycus compassed the supreme power"; X; the same usurpation already entered at ev 1, told again after the flashback; the narrative returns here to the time of move I, but the rule keeps it in move II; perhaps A⁵ or W.
+L3-029 | II | 7 | ev 8 | 3.5.5 | X | Lycus | - |   | "and reigned for twenty years"; X, perhaps W; his murder by Zethus and Amphion, announced here, is narrated in L3-031.
+L3-030 | I | 1 | ev 1 | 3.5.5 | X | Zeus | Antiope | ? | "Zeus had intercourse with her"; X, perhaps A (seduction), but nothing harmful is said of it.
+L3-030 | I | 2 | ev 2 | 3.5.5 | X | Nycteus | Antiope | ? | "When she was with child, and her father threatened her"; a threat, not carried out, and not a form Propp lists; X, perhaps A.
+L3-030 | I | 3 | ev 3 | 3.5.5 | ↑ | Antiope | - | ? | "she ran away to Epopeus at Sicyon"; departure as flight (p.39); perhaps X, as no villainy precedes it.
+L3-030 | I | 4 | ev 4 | 3.5.5 | W | Epopeus | Antiope |   | "and was married to him"; marriage (Propp's second form of W), bare W.
+L3-030 | I | 5 | ev 5 | 3.5.5 | X | Nycteus | Nycteus |   | "In a fit of despondency Nycteus killed himself"; X.
+L3-030 | I | 6 | ev 6 | 3.5.5 | X | Nycteus | Lycus | ? | "after charging Lycus to punish Epopeus and Antiope"; X, perhaps A¹³ (an order to harm the hero) or B² (a dispatch by command, with Lycus as the one sent).
+L3-030 | I | 7 | ev 7 | 3.5.5 | A¹⁹ | Lycus | Sicyon; Epopeus; Antiope |   | "Lycus marched against Sicyon, subdued it"; war on the hero's new home.
+L3-030 | II | 1 | ev 8 | 3.5.5 | A¹⁴ | Lycus | Epopeus | ? | "slew Epopeus"; murder of the hero's husband; a new villainy and so a new move by the rule, though Propp would combine forms done at once (p.33).
+L3-030 | III | 1 | ev 9 | 3.5.5 | A¹ | Lycus | Antiope | ? | "and led Antiope away captive"; abduction of the hero; new move, with the same doubt as ev 8.
+L3-030 | III | 2 | ev 10 | 3.5.5 | X | Antiope | - |   | "On the way she gave birth to two sons at Eleurethae in Boeotia"; X.
+L3-031 | I | 1 | ev 1 | 3.5.5 | A | not named | the twins, Zethus and Amphion |   | "The infants were exposed"; exposure of the hero; performer not named (passive); no variety number (nearest A⁹, expulsion, or A¹⁰).
+L3-031 | I | 2 | ev 2 | 3.5.5 | X | a neatherd | the twins | ? | "but a neatherd found and reared them"; X, perhaps Rs or K (the exposed children saved).
+L3-031 | I | 3 | ev 3 | 3.5.5 | X | the neatherd | the twins |   | "he called the one Zethus and the other Amphion"; X.
+L3-031 | I | 4 | ev 4 | 3.5.5 | X | Zethus | - |   | "Zethus paid attention to cattle-breeding"; X.
+L3-031 | I | 5 | ev 5 | 3.5.5 | X | Amphion | - |   | "but Amphion practised minstrelsy"; X.
+L3-031 | I | 6 | ev 6 | 3.5.5 | F¹ | Hermes | Amphion |   | "for Hermes had given him a lyre"; flashback; the lyre is directly given and is later used to wondrous effect (ev 14).
+L3-031 | II | 1 | ev 7 | 3.5.5 | A¹⁵ | Lycus; Dirce | Antiope |   | "Lycus and his wife Dirce imprisoned Antiope and treated her despitefully"; imprisonment of the hero's mother.
+L3-031 | II | 2 | ev 8 | 3.5.5 | K¹⁰ | - | Antiope |   | "one day her bonds were loosed of themselves"; the captive freed.
+L3-031 | II | 3 | ev 9 | 3.5.5 | B | Antiope | the twins | ? | "unknown to her keepers she came to her sons cottage, begging that they would take her in"; the one wronged comes to the hero with a request, which brings the hero into the action; no variety number; perhaps o (arrival unrecognized), but Antiope is not the hero.
+L3-031 | II | 4 | ev 10 | 3.5.5 | Q | the twins | Antiope |   | "They recognized their mother"; recognition of parent and children after separation (p.62).
+L3-031 | II | 5 | ev 11 | 3.5.5 | U | the twins | Lycus | ? | "and slew Lycus"; the villain killed after the misfortune is already undone, taken as punishment; perhaps I (killed without a fight).
+L3-031 | II | 6 | ev 12 | 3.5.5 | U | the twins | Dirce |   | "but Dirce they tied to a bull"; punishment of the villain ("tied to the tail of a horse", p.63).
+L3-031 | II | 7 | ev 13 | 3.5.5 | X | the twins | Dirce |   | "and flung her dead body into the spring that is called Dirce after her"; X; the naming is etiology.
+L3-031 | II | 8 | ev 14 | 3.5.5 | W | the twins | Thebes |   | "having succeeded to the sovereignty they fortified the city, the stones following Amphion's lyre"; accession to the throne (Propp's third form of W), bare W; the fortifying with the lyre, the use of the agent of ev 6, is given no entry (perhaps T², a marvellous building).
+L3-031 | III | 1 | ev 15 | 3.5.5 | A⁹ | the twins | Laius |   | "and they expelled Laius"; expulsion, a harm by the hero; its sequel (Laius in the Peloponnese) lies outside this episode.
+L3-033 | I | 1 | ev 1 | 3.5.6 | X | Niobe | Latona | ? | "Niobe said that she was more blessed with children than Latona"; X, perhaps δ (a transgression without a stated interdiction, p.27).
+L3-033 | I | 2 | ev 2 | 3.5.6 | A | Latona | Niobe's children | ? | "Stung by the taunt, Latona incited Artemis and Apollo against them"; the villainy ordered; no variety number, since the text says "incited", not "ordered to kill" (perhaps A¹³).
+L3-033 | II | 1 | ev 3 | 3.5.6 | A¹⁴ | Artemis | Niobe's daughters | ? | "Artemis shot down the females in the house"; murder; the carrying-out of ev 2, but a new villainy by the rule, so a new move.
+L3-033 | III | 1 | ev 4 | 3.5.6 | A¹⁴ | Apollo | Niobe's sons | ? | "Apollo killed all the males together as they were hunting on Cithaeron"; murder; a new move, with the same doubt as ev 3.
+L3-033 | III | 2 | ev 5 | 3.5.6 | X | - | Amphion; Chloris |   | "Of the males Amphion alone was saved, and of the females Chloris the elder"; X; the marriage of Chloris is genealogy and Telesilla's version is a report of an authority.
+L3-033 | III | 3 | ev 6 | 3.5.6 | ↑ | Niobe | - | ? | "Niobe herself quitted Thebes and went to her father Tantalus at Sipylus"; the hero leaves home after the misfortune; perhaps X.
+L3-033 | III | 4 | ev 7 | 3.5.6 | X | Niobe | Zeus | ? | "on praying to Zeus"; X, perhaps E⁷ (a prayer, p.43), but no donor acts first.
+L3-033 | III | 5 | ev 8 | 3.5.6 | X | Zeus (implied) | Niobe | ? | "she was transformed into a stone"; X, perhaps T or F (the prayer answered); the flowing tears are description.
+L3-036 | I | 1 | ev 1 | 3.5.7 | A⁶ | Laius | the infant Oedipus |   | "he pierced the child's ankles with brooches"; bodily injury; the oracle to Laius and his begetting the child come before the census's first event and are not transcribed.
+L3-036 | II | 1 | ev 2 | 3.5.7 | A | Laius | the infant Oedipus | ? | "and gave it to a herdsman to expose"; exposure ordered; a new villainy by the rule, though done at once with ev 1; no variety number (perhaps A¹³, the ordering of a death).
+L3-036 | III | 1 | ev 3 | 3.5.7 | A | the herdsman | the infant Oedipus | ? | "But the herdsman exposed it on Cithaeron"; the exposure carried out; a harmful act by a figure told of in passing, so a new villainy and a new move by the rule; no variety number (nearest A⁹ or A¹⁰).
+L3-036 | III | 2 | ev 4 | 3.5.7 | X | the neatherds of Polybus | the infant Oedipus | ? | "the neatherds of Polybus, king of Corinth, found the infant and brought it to his wife Periboea"; X, perhaps Rs or K (the exposed child saved).
+L3-036 | III | 3 | ev 5 | 3.5.7 | X | Periboea | Oedipus |   | "She adopted him and passed him off as her own"; X.
+L3-036 | I | 2 | ev 6 | 3.5.7 | K | Periboea | Oedipus | ? | "after she had healed his ankles she called him Oedipus"; the injury of ev 1 healed; move I, broken off after ev 1 by moves II and III, resumes here; no variety number; the naming is no function.
+L3-036 | III | 4 | ev 7 | 3.5.7 | X | Oedipus | his fellows |   | "When the boy grew up and excelled his fellows in strength"; X; back in move III after the resumption of move I at ev 6.
+L3-036 | III | 5 | ev 8 | 3.5.7 | X | his fellows | Oedipus | ? | "they spitefully twitted him with being supposititious"; X, perhaps A (an insult), though what follows is his search to know his parents.
+L3-036 | IV | 1 | ev 9 | 3.5.7 | a | Oedipus | Periboea | ? | "He inquired of Periboea, but could learn nothing"; a lack realized from within, knowledge of his parentage, which provokes the quest to Delphi; no variety number (perhaps a⁶, other forms); perhaps X.
+L3-036 | IV | 2 | ev 10 | 3.5.7 | X | Oedipus | the god at Delphi | ? | "so he went to Delphi and inquired about his true parents"; X, perhaps ↑ (departure on a quest); the departure is entered at ev 12.
+L3-036 | IV | 3 | ev 11 | 3.5.7 | γ¹ | the god at Delphi | Oedipus |   | "The god told him not to go to his native land, because he would murder his father and lie with his mother"; interdiction.
+L3-036 | IV | 4 | ev 12 | 3.5.7 | ↑ | Oedipus | - | ? | "believing himself to be the son of his nominal parents, he left Corinth"; the hero leaves home; perhaps X.
+L3-036 | IV | 5 | ev 13 | 3.5.7 | X | Oedipus; Laius | - |   | "riding in a chariot through Phocis he fell in with Laius driving in a chariot in a certain narrow road"; X.
+L3-036 | IV | 6 | ev 14 | 3.5.7 | γ² | Polyphontes | Oedipus | ? | "Polyphontes, the herald of Laius, ordered him to make way"; an order addressed to the hero (inverted interdiction); perhaps X, as it comes from a hostile stranger, not from a protector.
+L3-036 | IV | 7 | ev 15 | 3.5.7 | δ | Oedipus | Polyphontes's order | ? | "because he disobeyed and delayed"; the order of ev 14 broken; told as the reason for the harm that follows in the same event.
+L3-036 | V | 1 | ev 15 | 3.5.7 | A | Polyphontes | Oedipus | ? | "and killed one of his horses"; harm to the hero's property; no variety number (perhaps A⁵).
+L3-036 | V | 2 | ev 16 | 3.5.7 | I | Oedipus | Polyphontes; Laius | ? | "Oedipus in a rage killed both Polyphontes and Laius"; the attackers killed; no fight narrated, so no H and no variety number; perhaps A¹⁴ (the killing of his father, whose consequences come in another episode) or U.
+L3-036 | V | 3 | ev 17 | 3.5.7 | δ | Oedipus | the god's interdiction | ? | "and arrived in Thebes"; he enters his native land, against the interdiction of ev 11; perhaps o (arrival home unrecognized), but the text does not say he came unrecognized.
+L3-038 | I | 1 | ev 1 | 3.5.8 | X | Hera | the Sphinx; the Thebans | ? | "In his reign a heavy calamity befell Thebes. For Hera sent the Sphinx"; X, perhaps A (the calamity) or B² (the Sphinx, who is the hero, dispatched); taken as the arrival of the one who harms (an arrival is not a function, p.27-28); the harm itself is entered at ev 5; the Sphinx's parentage and form are description.
+L3-038 | I | 2 | ev 2 | 3.5.8 | X | the Muses | the Sphinx | ? | "having learned a riddle from the Muses"; X, perhaps F¹ (a thing given, later the means of her hold on Thebes), but the riddle is no magical agent.
+L3-038 | I | 3 | ev 3 | 3.5.8 | M | the Sphinx | the Thebans |   | "she sat on Mount Phicium, and propounded it to the Thebans"; a riddle to be guessed, a difficult task (p.60).
+L3-038 | I | 4 | ev 4 | 3.5.8 | X | the Thebans | - | ? | "the Thebans were in possession of an oracle which declared that they should be rid of the Sphinx whenever they had read her riddle; so they often met and discussed the answer"; X, perhaps C (counteraction decided).
+L3-038 | I | 5 | ev 5 | 3.5.8 | N− | the Thebans | the Sphinx's riddle | ? | "when they could not find it"; the task not solved, told as the reason for what follows; minus as for Propp's negative results (p.117, note 4); perhaps X.
+L3-038 | I | 6 | ev 5 | 3.5.8 | A | the Sphinx | the Thebans |   | "the Sphinx used to snatch away one of them and gobble him up"; the first harm narrated in the episode, so move I's villainy; no variety number (nearest A¹⁷, cannibalism, which Propp lists as a threat, or A¹⁴).
+L3-038 | I | 7 | ev 6 | 3.5.8 | X | the Sphinx | many Thebans; Haemon |   | "When many had perished, and last of all Creon's son Haemon"; X, the villainy of ev 5 repeated.
+L3-038 | I | 8 | ev 7 | 3.5.8 | B¹ | Creon | whoever should read the riddle |   | "Creon made proclamation that to him who should read the riddle he would give both the kingdom and the wife of Laius"; a call for help from the king, with promises (p.37).
+L3-038 | I | 9 | ev 8 | 3.5.8 | N | Oedipus | the Sphinx's riddle |   | "On hearing that, Oedipus found the solution, declaring that the riddle of the Sphinx referred to man"; the task solved.
+L3-038 | I | 10 | ev 9 | 3.5.8 | U | the Sphinx | the Sphinx | ? | "So the Sphinx threw herself from the citadel"; the one who harmed takes her own life (suicide is among Propp's forms of punishment, p.63), though she is the census's hero; perhaps I.
+L3-039 | I | 1 | ev 1 | 3.5.8 | W | Oedipus | Thebes |   | "Oedipus both succeeded to the kingdom"; accession to the throne, as promised at L3-038 ev 7 (Propp's third form of W), bare W.
+L3-039 | I | 2 | ev 2 | 3.5.8 | W | Oedipus | Jocasta | ? | "and unwittingly married his mother"; marriage (Propp's second form of W), bare W; the marriage is later the ground of disaster, so perhaps δ of the oracle of L3-036 ev 11; the children are genealogy and Eurygania is a "some say".
+L3-039 | I | 3 | ev 3 | 3.5.9 | Ex | - | Oedipus | ? | "When the secret afterwards came to light"; the deeds are exposed, and what follows (death, blinding, expulsion) is ruin for the one exposed; perhaps Q (recognition of parent and child).
+L3-039 | I | 4 | ev 4 | 3.5.9 | X | Jocasta | Jocasta | ? | "Jocasta hanged herself in a noose"; X, perhaps U.
+L3-039 | I | 5 | ev 5 | 3.5.9 | X | Oedipus | Oedipus | ? | "after he had put out his eyes"; X, perhaps U (self-punishment) or A⁶ (bodily injury).
+L3-039 | I | 6 | ev 6 | 3.5.9 | X | Oedipus | his sons | ? | "and cursed his sons, who saw him cast out of the city without lifting a hand to help him"; X, perhaps A¹¹ (a curse as a spell), but no effect of the curse is narrated; the sons' failure to help is no function.
+L3-039 | I | 7 | ev 7 | 3.5.9 | A⁹ | not named | Oedipus | ? | "Oedipus was driven from Thebes"; expulsion of the hero; the first villainy, so still move I; perhaps U (banishment after exposure).
+L3-039 | I | 8 | ev 8 | 3.5.9 | X | Oedipus; Antigone | - | ? | "having come with Antigone to Colonus in Attica"; X, perhaps ↑ or G.
+L3-039 | I | 9 | ev 9 | 3.5.9 | X | Oedipus | the Eumenides' precinct |   | "he sat down there as a suppliant"; X.
+L3-039 | I | 10 | ev 10 | 3.5.9 | X | Theseus | Oedipus | ? | "was kindly received by Theseus"; X, perhaps K (banishment has no specific liquidation, p.111) or D².
+L3-039 | I | 11 | ev 11 | 3.5.9 | X | Oedipus | - |   | "and died not long afterwards"; X.
+L3-040 | I | 1 | ev 1 | 3.6.1 | X | Eteocles; Polynices | the kingdom |   | "Eteocles and Polynices made a compact with each other concerning the kingdom and resolved that each should rule alternately for a year at a time"; X.
+L3-040 | I | 2 | ev 2 | 3.6.1 | X | Polynices | Thebes |   | "Polynices was the first to rule"; X (the first of the two versions, which the census takes).
+L3-040 | I | 3 | ev 3 | 3.6.1 | X | Polynices | Eteocles |   | "after a year he handed over the kingdom to Eteocles"; X.
+L3-040 | I | 4 | ev 4 | 3.6.1 | A⁹ | Eteocles (implied) | Polynices |   | "So, being banished from Thebes"; expulsion of the hero; performer not named.
+L3-040 | I | 5 | ev 5 | 3.6.1 | ↑ | Polynices | - | ? | "Polynices came to Argos, taking with him the necklace and the robe"; the banished hero's departure (p.111, banishment motivating departure); perhaps X; he already holds the necklace and robe, so no F.
+L3-040 | I | 6 | ev 6 | 3.6.1 | X | Polynices | Adrastus's palace |   | "Polynices went up to his palace by night"; X.
+L3-040 | I | 7 | ev 7 | 3.6.1 | D⁹ | Polynices; Tydeus | Polynices; Tydeus | ? | "and engaged in a fight with Tydeus"; a brawl at night with a stranger, which ends in a bride, an ally and a promise of help (ev 11-14), not in the object of the hero's quest (p.51-52); perhaps H; the outcome (E) is not narrated.
+L3-040 | I | 8 | ev 8 | 3.6.1 | X | Tydeus | - |   | "who had fled from Calydon"; flashback, told in passing; X.
+L3-040 | I | 9 | ev 9 | 3.6.1 | X | Adrastus | Polynices; Tydeus | ? | "At the sudden outcry Adrastus appeared and parted them"; X, perhaps the undecided end of the fight of ev 7.
+L3-040 | I | 10 | ev 10 | 3.6.1 | X | Adrastus | - |   | "remembering the words of a certain seer who told him to yoke his daughters in marriage to a boar and a lion"; X; the seer's words are a flashback.
+L3-040 | I | 11 | ev 11 | 3.6.1 | X | Adrastus | Polynices; Tydeus | ? | "he accepted them both as bridegrooms, because they had on their shields, the one the forepart of a boar, and the other the forepart of a lion"; X, perhaps Q (recognized by a mark) or a betrothal; the weddings are entered at ev 12-13.
+L3-040 | I | 12 | ev 12 | 3.6.1 | W | Tydeus | Deipyle | ? | "Tydeus married Deipyle"; a marriage (Propp's second form of W), bare W, performed by a figure other than the census's hero.
+L3-040 | I | 13 | ev 13 | 3.6.1 | W | Polynices | Argia |   | "Polynices married Argia"; marriage (Propp's second form of W), bare W.
+L3-040 | I | 14 | ev 14 | 3.6.1 | F⁹ | Adrastus | Polynices; Tydeus | ? | "Adrastus promised that he would restore them both to their native lands"; a promise of service (Propp counts a helper's bare promise as F⁹, p.45); perhaps X (an act only intended); the mustering that follows lies outside the census's events.
+L3-043 | I | 1 | ev 1 | 3.6.2 | X | Amphiaraus | - |   | "being a seer and foreseeing that all who joined in the expedition except Adrastus were destined to perish"; X.
+L3-043 | I | 2 | ev 2 | 3.6.2 | X | Amphiaraus | the expedition |   | "shrank from it himself"; X.
+L3-043 | I | 3 | ev 3 | 3.6.2 | X | Amphiaraus | the other chiefs | ? | "and discouraged the rest"; X, perhaps γ (an interdiction, but not one whose breach harms the one who gave it).
+L3-043 | I | 4 | ev 4 | 3.6.2 | ε | Polynices | Iphis (asked); Amphiaraus (asked about) | ? | "Polynices went to Iphis, son of Alector, and begged to know how Amphiaraus could be compelled to go to the war"; reconnaissance about the victim, through a third person; no variety number (perhaps ε³).
+L3-043 | I | 5 | ev 5 | 3.6.2 | ζ | Iphis | Polynices |   | "He answered that it could be done if Eriphyle got the necklace"; the one seeking receives the information.
+L3-043 | I | 6 | ev 6 | 3.6.2 | γ¹ | Amphiaraus | Eriphyle |   | "Amphiaraus had forbidden Eriphyle to accept gifts from Polynices"; interdiction (told as prior, a flashback).
+L3-043 | I | 7 | ev 7 | 3.6.2 | η¹ | Polynices | Eriphyle |   | "Polynices gave her the necklace and begged her to persuade Amphiaraus to go to the war"; persuasion by a gift to be accepted (p.29, "a witch tries to have a ring accepted").
+L3-043 | I | 8 | ev 8 | 3.6.2 | X | Amphiaraus | Adrastus; Eriphyle | ? | "he had made it up with him and sworn to let Eriphyle decide any future dispute he might have with Adrastus"; flashback, told in passing; X, perhaps λ (the agreement that compels assent, p.30), but it was not made by deceit.
+L3-043 | I | 9 | ev 9 | 3.6.2 | δ | Eriphyle | Amphiaraus's interdiction | ? | "Eriphyle accepted the necklace"; the interdiction of ev 6 broken; perhaps θ (acceptance of the persuasion of ev 7), but she is not deceived.
+L3-043 | I | 10 | ev 10 | 3.6.2 | A⁸ | Eriphyle | Amphiaraus |   | "and persuaded him to march with Adrastus"; the victim demanded and sent to his fate, through the binding agreement of ev 8 (p.32-33).
+L3-043 | I | 11 | ev 11 | 3.6.2 | B² | Amphiaraus | his sons | ? | "Thus forced to go to the war, Amphiaraus laid his commands on his sons, that, when they were grown up, they should slay their mother and march against Thebes"; dispatch by command (the command is carried out in L3-062); perhaps γ²; "forced to go" restates ev 10 and his departure itself is not narrated.
+L3-045 | I | 1 | ev 1 | 3.6.5 | B² | the army (the chiefs) | Tydeus | ? | "they sent Tydeus to tell Eteocles in advance that he must cede the kingdom to Polynices"; the hero dispatched directly; the misfortune behind it lies in other episodes.
+L3-045 | I | 2 | ev 2 | 3.6.5 | X | Eteocles | Tydeus's message | ? | "Eteocles paid no heed to the message"; X, perhaps A (the kingdom withheld).
+L3-045 | I | 3 | ev 3 | 3.6.5 | H¹ | Tydeus | the Thebans | ? | "Tydeus, by way of putting the Thebans to the proof, challenged them to single combat"; struggle; perhaps D⁹ (combat that tests), but nothing is gained from it but the victory.
+L3-045 | I | 4 | ev 3 | 3.6.5 | I¹ | Tydeus | the Thebans | ? | "and was victorious in every encounter"; victory in combat.
+L3-045 | I | 5 | ev 4 | 3.6.5 | Pr | the Thebans | Tydeus | ? | "the Thebans set fifty armed men to lie in wait for him as he went away"; an attempt to kill the hero on his way back (nearest Pr⁶), no variety number because no chase is narrated; perhaps A¹³ (a murder ordered).
+L3-045 | I | 6 | ev 5 | 3.6.5 | Rs | Tydeus | the fifty men | ? | "he slew them all but Maeon"; the hero saves himself from the attempt on his life (nearest Rs⁹); perhaps I.
+L3-045 | I | 7 | ev 6 | 3.6.5 | ↓ | Tydeus | - |   | "and then came to the camp"; return.
+L3-048 | I | 1 | ev 1 | 3.6.7 | X | Tiresias | the gods' secrets | ? | "some say that he was blinded by the gods because he revealed their secrets to men"; X, perhaps δ (a transgression, with no interdiction narrated); told only as the reason for ev 2; the census takes this first of the versions.
+L3-048 | I | 2 | ev 2 | 3.6.7 | A⁶ | the gods | Tiresias | ? | "he was blinded by the gods"; bodily injury; perhaps U (punishment); Pherecydes's and Hesiod's versions are not transcribed.
+L3-048 | I | 3 | ev 3 | 3.6.7 | X | the Thebans | Tiresias |   | "when the Thebans sought counsel of him"; X.
+L3-048 | I | 4 | ev 4 | 3.6.7 | B | Tiresias | the Thebans; Menoeceus | ? | "he said that they should be victorious if Menoeceus, son of Creon, would offer himself freely as a sacrifice to Ares"; the means to overcome the misfortune made known, with a demand that sends Menoeceus to act; the war behind it lies in other episodes; no variety number; perhaps X or M.
+L3-048 | I | 5 | ev 5 | 3.6.7 | X | Menoeceus | Menoeceus | ? | "On hearing that, Menoeceus, son of Creon, slew himself before the gates"; X, perhaps N (the demand fulfilled).
+L3-051 | I | 1 | ev 1 | 3.6.7 | H¹ | the Argives | the Cadmeans |   | "But a battle having taken place"; struggle in open battle.
+L3-051 | I | 2 | ev 2 | 3.6.7 | X | the Argives | the Cadmeans | ? | "the Cadmeans were chased in a crowd as far as the walls"; X, perhaps I (a passing advantage; the battle's outcome is entered at ev 5).
+L3-051 | I | 3 | ev 3 | 3.6.7 | X | Capaneus | the walls |   | "Capaneus, seizing a ladder, was climbing up it to the walls"; X.
+L3-051 | I | 4 | ev 4 | 3.6.7 | X | Zeus | Capaneus | ? | "Zeus smote him with a thunderbolt"; X, perhaps A¹⁴ or I− (the blow that turns the battle); Zeus is not a combatant.
+L3-051 | I | 5 | ev 5 | 3.6.8 | I− | the Cadmeans | the Argives |   | "When that befell, the Argives turned to flee"; the hero loses the battle of ev 1.
+L3-051 | I | 6 | ev 6 | 3.6.8 | X | - | the Argives |   | "as many fell"; X, part of the defeat.
+L3-051 | I | 7 | ev 7 | 3.6.8 | H¹ | Polynices; Eteocles | Eteocles; Polynices | ? | "Eteocles and Polynices, by the resolution of both armies, fought a single combat for the kingdom"; struggle, Polynices fighting for the Argives' side.
+L3-051 | I | 8 | ev 8 | 3.6.8 | X | Eteocles; Polynices | Polynices; Eteocles | ? | "and slew each other"; X; each both wins and loses, and Propp gives no form for this; perhaps I or I−.
+L3-051 | I | 9 | ev 9 | 3.6.8 | H¹ | the Argives; the sons of Astacus | the sons of Astacus; the Argives |   | "In another fierce battle the sons of Astacus did doughty deeds"; struggle.
+L3-051 | I | 10 | ev 9 | 3.6.8 | I− | Ismarus | Hippomedon | ? | "for Ismarus slew Hippomedon"; an Argive chief loses his fight; the killing taken as the outcome of a struggle, not as a new villainy.
+L3-051 | I | 11 | ev 10 | 3.6.8 | I− | Leades | Eteoclus | ? | "Leades slew Eteoclus"; as ev 9.
+L3-051 | I | 12 | ev 11 | 3.6.8 | I− | Amphidicus | Parthenopaeus | ? | "and Amphidicus slew Parthenopaeus"; as ev 9; Euripides's version is a report of an authority.
+L3-053 | I | 1 | ev 1 | 3.6.8 | A⁶ | Melanippus | Tydeus | ? | "Melanippus, the remaining one of the sons of Astacus, wounded Tydeus in the belly"; bodily injury, the hero left "half dead"; perhaps J¹ (a wound in the skirmish, p.52), but no recognition follows from it.
+L3-053 | I | 2 | ev 2 | 3.6.8 | X | Athena | Tydeus | ? | "Athena brought a medicine which she had begged of Zeus, and by which she intended to make him immortal"; X, perhaps D (the approach of a donor) or F (a gift only intended, withheld at ev 9); the begging from Zeus is a flashback.
+L3-053 | I | 3 | ev 3 | 3.6.8 | X | Amphiaraus; Tydeus | Tydeus; Amphiaraus | ? | "Amphiaraus hated Tydeus for thwarting him by persuading the Argives to march to Thebes"; X; the thwarting, a flashback told as the reason for the hatred, perhaps A, but it harms no one in this episode.
+L3-053 | I | 4 | ev 4 | 3.6.8 | X | Amphiaraus | Melanippus |   | "when he perceived the intention of the goddess he cut off the head of Melanippus"; X.
+L3-053 | I | 5 | ev 5 | 3.6.8 | X | Amphiaraus | Tydeus | ? | "and gave it to Tydeus"; X, perhaps η (a gift meant to spoil the goddess's intention); no deceit is stated.
+L3-053 | I | 6 | ev 6 | 3.6.8 | I | Tydeus | Melanippus | ? | "who, wounded though he was, had killed him"; flashback, told in passing; the one who wounded him killed; no fight described, so no H and no variety number; perhaps U.
+L3-053 | I | 7 | ev 7 | 3.6.8 | X | Tydeus | Melanippus's head |   | "And Tydeus split open the head"; X; the act completed at ev 8.
+L3-053 | I | 8 | ev 8 | 3.6.8 | E− | Tydeus | Athena | ? | "and gulped up the brains"; the hero's act that loses him the gift (a negative reaction, p.42-43), though Athena sets no test; perhaps θ (the hero unwittingly serves Amphiaraus's aim) or X.
+L3-053 | I | 9 | ev 9 | 3.6.8 | F− | Athena | Tydeus |   | "when Athena saw that, in disgust she grudged and withheld the intended benefit"; nothing is given; the flight and vanishing of Amphiaraus that follow belong to another episode.
+L3-056 | I | 1 | ev 1 | 3.7.1 | A | Creon | the Argive dead (Polynices among them) | ? | "Having succeeded to the kingdom of Thebes, Creon cast out the Argive dead unburied"; a harm to the dead, the hero's brother among them; no variety number.
+L3-056 | I | 2 | ev 2 | 3.7.1 | γ¹ | Creon | all (Antigone among them) |   | "issued a proclamation that none should bury them"; interdiction.
+L3-056 | I | 3 | ev 3 | 3.7.1 | X | Creon | the dead |   | "and set watchmen"; X.
+L3-056 | I | 4 | ev 4 | 3.7.1 | δ | Antigone | Creon's interdiction | ? | "But Antigone, one of the daughters of Oedipus, stole the body of Polynices"; the proclamation and the watch defied; perhaps K¹ (the object seized by cleverness).
+L3-056 | I | 5 | ev 5 | 3.7.1 | K | Antigone | Polynices's body | ? | "and secretly buried it"; the harm of ev 1 undone for her brother; no variety number; perhaps δ (the burial is the very thing forbidden), with the violation then falling here rather than at ev 4.
+L3-056 | I | 6 | ev 6 | 3.7.1 | ζ | Creon | Antigone | ? | "having been detected by Creon himself"; the villain gets knowledge of his victim; perhaps Ex.
+L3-056 | II | 1 | ev 7 | 3.7.1 | A | Creon (implied) | Antigone | ? | "she was interred alive in the grave"; a harm to the hero; no variety number (perhaps A¹⁴ or A¹⁵); perhaps U, if she is read as the one punished for violating the interdiction; nothing follows in this episode.
+L3-060 | I | 1 | ev 1 | 3.7.2 | C | the Epigoni (Alcmaeon among them) | Thebes |   | "the sons of the fallen, called the Epigoni, purposed to march against Thebes to avenge the death of their fathers"; decision on counteraction; the fathers' deaths are named, not narrated, here and get no entry.
+L3-060 | I | 2 | ev 2 | 3.7.2 | X | the Epigoni | the oracle |   | "when they consulted the oracle"; X.
+L3-060 | I | 3 | ev 3 | 3.7.2 | X | the god | the Epigoni; Alcmaeon | ? | "the god predicted victory under the leadership of Alcmaeon"; X, perhaps B (the hero designated); the call is entered at ev 7.
+L3-060 | I | 4 | ev 4 | 3.7.2 | C | Alcmaeon | - | ? | "So Alcmaeon joined the expedition, though he was loath to lead the army till he had punished his mother"; the hero's own agreement to counteraction; his wish to punish his mother is an intention only; perhaps X, as ev 1 already holds C.
+L3-060 | I | 5 | ev 5 | 3.7.2 | X | Thersander; Eriphyle | Eriphyle | ? | "for Eriphyle had received the robe from Thersander, son of Polynices"; flashback, told in passing; X, perhaps η or θ (a bribe given and accepted).
+L3-060 | I | 6 | ev 6 | 3.7.2 | A⁸ | Eriphyle | her sons (Alcmaeon among them) | ? | "and had persuaded her sons also to go to the war"; flashback; the victims enticed to their danger (it is called his "undoing" at L3-062 ev 6); the first villainy, so still move I.
+L3-060 | I | 7 | ev 7 | 3.7.2 | B | the Epigoni | Alcmaeon | ? | "Having chosen Alcmaeon as their leader"; the hero called to lead; no variety number.
+L3-060 | I | 8 | ev 8 | 3.7.2 | ↑ | the Epigoni | Thebes | ? | "they made war on Thebes"; the setting out of the expedition; perhaps X or H; the list of the men is a list of names.
+L3-060 | II | 1 | ev 9 | 3.7.3 | A | the Epigoni | the villages round Thebes | ? | "They first laid waste the surrounding villages"; a harm by the hero's side (pillage); no variety number (perhaps A⁵); a new move by the rule.
+L3-060 | II | 2 | ev 10 | 3.7.3 | X | the Thebans; Laodamas | the Epigoni |   | "when the Thebans advanced against them, led by Laodamas, son of Eteocles"; X.
+L3-060 | II | 3 | ev 11 | 3.7.3 | H¹ | the Epigoni; the Thebans | the Thebans; the Epigoni |   | "they fought bravely"; struggle in open battle.
+L3-060 | II | 4 | ev 12 | 3.7.3 | I− | Laodamas | Aegialeus | ? | "though Laodamas killed Aegialeus"; one of the hero's side loses his fight.
+L3-060 | II | 5 | ev 13 | 3.7.3 | I¹ | Alcmaeon | Laodamas |   | "he was himself killed by Alcmaeon"; the enemy leader beaten in battle.
+L3-061 | I | 1 | ev 1 | 3.7.3 | I− | the Epigoni | the Thebans | ? | "after his death the Thebans fled in a body within the walls"; the hero loses the battle; perhaps X (the battle's struggle lies in L3-060).
+L3-061 | I | 2 | ev 2 | 3.7.3 | B | Tiresias | the Thebans | ? | "Tiresias told them to send a herald to treat with the Argives, and themselves to take to flight"; command that sends the hero away from home; no variety number (perhaps B²); perhaps γ².
+L3-061 | I | 3 | ev 3 | 3.7.3 | X | the Thebans | the Argives |   | "they did send a herald to the enemy"; X.
+L3-061 | I | 4 | ev 4 | 3.7.3 | ↑ | the Thebans | - |   | "mounting their children and women on the wagons, themselves fled from the city"; departure in the form of flight.
+L3-061 | I | 5 | ev 5 | 3.7.3 | X | Tiresias | Tiresias |   | "When they had come by night to the spring called Tilphussa, Tiresias drank of it and expired"; X.
+L3-061 | I | 6 | ev 6 | 3.7.3 | X | the Thebans | Hestiaea | ? | "After travelling far the Thebans built the city of Hestiaea and took up their abode there"; X, perhaps W or T².
+L3-062 | I | 1 | ev 1 | 3.7.4 | X | the Argives | Thebes |   | "the Argives, on learning afterwards the flight of the Thebans, entered the city"; X.
+L3-062 | I | 2 | ev 2 | 3.7.4 | X | the Argives | Thebes | ? | "and collected the booty"; X, perhaps A⁵ (plunder) or K.
+L3-062 | I | 3 | ev 3 | 3.7.4 | X | the Argives | Thebes | ? | "and pulled down the walls"; X, perhaps U or A.
+L3-062 | I | 4 | ev 4 | 3.7.4 | X | the Argives | Apollo; Manto |   | "they sent a portion of the booty to Apollo at Delphi and with it Manto, daughter of Tiresias"; X.
+L3-062 | I | 5 | ev 5 | 3.7.4 | X | the Argives | Apollo |   | "for they had vowed that, if they took Thebes, they would dedicate to him the fairest of the spoils"; flashback, told in passing; X.
+L3-062 | I | 6 | ev 6 | 3.7.5 | B⁴ | - | Alcmaeon | ? | "when Alcmaeon learned"; the misfortune made known to the hero; the teller is not named; entered before the villainy it reveals because the text narrates the learning first.
+L3-062 | I | 7 | ev 6 | 3.7.5 | A | Eriphyle (and her briber) | Alcmaeon | ? | "that his mother Eriphyle had been bribed to his undoing also"; flashback, told as what he learns; a harm to the hero; the first villainy of the episode, so still move I; no variety number (compare L3-060 ev 6, A⁸).
+L3-062 | I | 8 | ev 7 | 3.7.5 | X | Alcmaeon | - | ? | "he was more incensed than ever"; X, perhaps C.
+L3-062 | I | 9 | ev 8 | 3.7.5 | U | Alcmaeon | Eriphyle | ? | "in accordance with an oracle given to him by Apollo he killed his mother"; the one who harmed him punished; the oracle, told as the authority for the deed, gets no entry (perhaps B² or γ²); perhaps δ or A¹⁴, since the Fury follows (ev 9); the "some say" on Amphilochus is not transcribed.
+L3-062 | II | 1 | ev 9 | 3.7.5 | A | the Fury | Alcmaeon |   | "Alcmaeon was visited by the Fury of his mother's murder"; harm to the hero; no variety number (perhaps A¹¹ or A¹⁸).
+L3-062 | II | 2 | ev 10 | 3.7.5 | X | - | Alcmaeon |   | "and going mad"; X, the content of the harm of ev 9.
+L3-062 | II | 3 | ev 11 | 3.7.5 | ↑ | Alcmaeon | - | ? | "he first repaired to Oicles in Arcadia"; the victim's wandering after the harm; perhaps X.
+L3-062 | II | 4 | ev 12 | 3.7.5 | X | Alcmaeon | Phegeus |   | "and thence to Phegeus at Psophis"; X.
+L3-062 | II | 5 | ev 13 | 3.7.5 | X | Phegeus | Alcmaeon | ? | "having been purified by him"; X, perhaps K; not a liquidation by its consequences, since the barrenness of ev 16 falls on him after it.
+L3-062 | II | 6 | ev 14 | 3.7.5 | W | Alcmaeon | Arsinoe |   | "he married Arsinoe, daughter of Phegeus"; marriage (Propp's second form of W), bare W.
+L3-062 | II | 7 | ev 15 | 3.7.5 | X | Alcmaeon | Arsinoe |   | "and gave her the necklace and the robe"; X.
+L3-062 | III | 1 | ev 16 | 3.7.5 | a | - | the land; Alcmaeon | ? | "afterwards the ground became barren on his account"; a lack (of fruit), with no agent named; no variety number; perhaps A (from the pollution of ev 8-9).
+L3-062 | III | 2 | ev 17 | 3.7.5 | B² | the god | Alcmaeon | ? | "the god bade him in an oracle to depart to Achelous and to stand another trial on the river bank"; dispatch by command; perhaps D¹ ("another trial"), but no trial is then narrated.
+L3-062 | III | 3 | ev 18 | 3.7.5 | ↑ | Alcmaeon; Oeneus | Alcmaeon | ? | "At first he repaired to Oeneus at Calydon and was entertained by him"; departure after dispatch; the entertainment is no function (perhaps D²).
+L3-062 | III | 4 | ev 19 | 3.7.5 | X | Alcmaeon | - |   | "then he went to the Thesprotians"; X.
+L3-062 | IV | 1 | ev 20 | 3.7.5 | A⁹ | the Thesprotians | Alcmaeon | ? | "but was driven away from the country"; expulsion; a new villainy and a new move by the rule; move III breaks off here and resumes at ev 21.
+L3-062 | III | 5 | ev 21 | 3.7.5 | X | Alcmaeon | - | ? | "and finally he went to the springs of Achelous"; move III resumes (the journey ordered at ev 17); X, perhaps G (arrival at the place named).
+L3-062 | III | 6 | ev 22 | 3.7.5 | K | Achelous | Alcmaeon | ? | "and was purified by him"; the pollution of ev 8-9 and 16 ended, as the oracle of ev 17 directed; no variety number; perhaps X.
+L3-062 | III | 7 | ev 23 | 3.7.5 | W | Achelous | Alcmaeon; Callirrhoe |   | "and received Callirrhoe, his daughter, to wife"; marriage (Propp's second form of W), bare W.
+L3-062 | III | 8 | ev 24 | 3.7.5 | X | Alcmaeon | the new land |   | "he colonized the land which the Achelous had formed by its silt"; X.
+L3-062 | III | 9 | ev 25 | 3.7.5 | X | Alcmaeon | - |   | "and he took up his abode there"; X.
+L3-062 | V | 1 | ev 26 | 3.7.5 | a³ | Callirrhoe | the necklace and robe | ? | "afterwards Callirrhoe coveted the necklace and robe"; desire for wondrous objects (a³, p.35); perhaps a² if the necklace wrought by Hephaestus counts as magical.
+L3-062 | V | 2 | ev 27 | 3.7.5 | B² | Callirrhoe | Alcmaeon |   | "and said she would not live with him if she did not get them"; dispatch by command, with a threat (p.37).
+L3-062 | V | 3 | ev 28 | 3.7.5 | ↑ | Alcmaeon | - |   | "So away Alcmaeon hied to Psophis"; departure.
+L3-062 | V | 4 | ev 29 | 3.7.5 | η¹ | Alcmaeon | Phegeus | ? | "told Phegeus how it had been predicted that he should be rid of his madness when he had brought the necklace and the robe to Delphi and dedicated them"; deceit by persuasion to get another's belongings, performed by the hero.
+L3-062 | V | 5 | ev 30 | 3.7.5 | θ | Phegeus | Alcmaeon | ? | "Phegeus believed him"; the deceived one submits.
+L3-062 | V | 6 | ev 30 | 3.7.5 | K | Phegeus | Alcmaeon | ? | "and gave them to him"; the objects of the lack of ev 26 obtained (a gift, the form Propp writes KF¹, p.55); no variety number.
+L3-062 | V | 7 | ev 31 | 3.7.5 | ζ | a servant | Phegeus |   | "a servant having let out that he was taking the things to Callirrhoe"; information delivered by a careless act (p.29).
+L3-062 | VI | 1 | ev 32 | 3.7.5 | A¹³ | Phegeus | his sons; Alcmaeon | ? | "Phegeus commanded his sons"; a murder ordered (the content of the command is shown by ev 33).
+L3-062 | VII | 1 | ev 33 | 3.7.5 | A¹⁴ | the sons of Phegeus | Alcmaeon | ? | "and they lay in wait and killed him"; murder of the hero; the carrying-out of ev 32, but a new villainy and a new move by the rule; the fate of Arsinoe that follows lies outside the census's events.
+L3-066 | I | 1 | ev 1 | 3.7.6 | B⁴ | - | Callirrhoe | ? | "Being apprized of Alcmaeon's untimely end and courted by Zeus, Callirrhoe requested that the sons she had by Alcmaeon might be full grown in order to avenge their father's murder"; the misfortune made known, which starts the vengeance; the death is named, not narrated, and gets no entry; the request to Zeus is given no entry (perhaps D or C).
+L3-066 | I | 2 | ev 2 | 3.7.6 | F | Zeus (implied) | the sons of Alcmaeon | ? | "And being suddenly full-grown"; a quality given directly (p.44), the means of the vengeance; no variety number; perhaps T (a new appearance).
+L3-066 | I | 3 | ev 3 | 3.7.6 | ↑ | the sons of Alcmaeon | - |   | "the sons went forth to right their father's wrong"; departure on the quest (the decision, C, is implied, not narrated).
+L3-066 | I | 4 | ev 4 | 3.7.6 | X | Pronous; Agenor; the sons of Alcmaeon | - | ? | "Pronous and Agenor, the sons of Phegeus, carrying the necklace and robe to Delphi to dedicate them, turned in at the house of Agapenor at the same time as Amphoterus and Acarnan"; X, perhaps G (the hero brought to the one sought).
+L3-066 | I | 5 | ev 5 | 3.7.6 | U | the sons of Alcmaeon | Pronous; Agenor | ? | "the sons of Alcmaeon killed their father's murderers"; punishment of the murderers (vengeance, which undoes nothing, so not K); perhaps I (killed without a fight).
+L3-066 | I | 6 | ev 6 | 3.7.6 | X | the sons of Alcmaeon | - |   | "going to Psophis and entering the palace"; X.
+L3-066 | I | 7 | ev 7 | 3.7.6 | U | the sons of Alcmaeon | Phegeus; his wife | ? | "they slew both Phegeus and his wife"; punishment of the one who ordered the murder; his wife did no harm in this text, so perhaps A¹⁴ for her.
+L3-066 | I | 8 | ev 8 | 3.7.6 | Pr | the Psophidians | the sons of Alcmaeon |   | "They were pursued as far as Tegea"; pursuit; no variety number.
+L3-066 | I | 9 | ev 9 | 3.7.6 | Rs | the Tegeans; some Argives | the sons of Alcmaeon |   | "but saved by the intervention of the Tegeans and some Argives"; rescue from pursuit; no variety number.
+L3-066 | I | 10 | ev 10 | 3.7.6 | X | the Psophidians | - | ? | "and the Psophidians took to flight"; X, perhaps I.
+L3-066 | I | 11 | ev 11 | 3.7.7 | X | the sons of Alcmaeon | Callirrhoe | ? | "Having acquainted their mother with these things"; X, perhaps ↓ (a return implied, not narrated).
+L3-066 | I | 12 | ev 12 | 3.7.7 | X | the sons of Alcmaeon | Apollo at Delphi | ? | "they went to Delphi and dedicated the necklace and robe according to the injunction of Achelous"; X, perhaps E⁷ (a religious service); the injunction is a flashback not narrated before.
+L3-066 | I | 13 | ev 13 | 3.7.7 | X | the sons of Alcmaeon | - |   | "Then they journeyed to Epirus"; X.
+L3-066 | I | 14 | ev 14 | 3.7.7 | X | the sons of Alcmaeon | Acarnania | ? | "collected settlers, and colonized Acarnania"; X, perhaps W; Euripides's version that follows is a report of an authority.
