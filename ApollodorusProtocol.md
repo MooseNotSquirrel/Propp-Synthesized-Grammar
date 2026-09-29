@@ -185,9 +185,24 @@ The two transcribers had divided on the last point, one placing such events in t
 **The keeper's derivation rules are fixed here, before any transcription is read.**
 They turn the streams and notes into the strings the grammar reads, by the same derivation `runCorpus.py` and `embedCorpus.py` apply to the Russian corpus.
 
+**`Apollodorus/scoreApollodorus.py` carries the derivation, and it was committed before any transcription was read.**
+Its `check` mode validates a transcription's form without parsing it; its `score` mode runs the test.
+
+**The preparatory section is read as v46 reads it.**
+Propp's Russian move schemes leave out the preparatory functions, and v46 places them at the tale's head, before the first move.
+Preparatory entries in move I that stand before its first villainy, lack or mediation are therefore removed from the move string and counted.
+A preparatory entry anywhere else stays in the string, and the move grammar judges it.
+
+**Nothing standing before the opener is dropped.**
+In the Russian corpus, cells Propp's table parks before A are dropped, because the park answers the table's layout.
+A Greek transcription's order is the text's order, so every entry is kept where it is told.
+
+**Every other entry is reduced as the Russian moves are.**
+Varieties and signs are stripped, and KF is read as K and w as W, by `runCorpus.py`'s own reduction.
+
 **Doubt produces two corpora.**
 One keeps the entries marked as doubtful, and one drops them.
-Both are scored and both are reported.
+Both are scored and both are reported; the verdict is read on the corpus that keeps them, the transcriber's best reading.
 
 **X is removed before parsing, and counted.**
 The grammar's alphabet has no X.
