@@ -40,3 +40,7 @@ Transcriber B kept its working script in a scratch folder outside the repository
 **Events stage, P03, Oedipus at Colonus: in form.**
 115 events, 21 told as past, listed in the order of telling as the clarified rule requires (no event cited before the one listed ahead of it); hero Oedipus, well ahead of Theseus.
 The lister listed an event told more than once only where the play first states it clearly.
+
+**P03, Oedipus at Colonus, from `master` at 73ade1d: both transcriptions in form.**
+Transcriber A: 119 entries; transcriber B: 121 entries in 10 moves; all 115 events covered.
+The reports show judgment calls at gaps, not departures; the recurring one is again whether an order is an interdiction (γ) or a demand read as a lack, and how far "the want was stated before" reaches.

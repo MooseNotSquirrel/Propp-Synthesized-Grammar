@@ -57,3 +57,29 @@ The second order, with events told as past first, is the same as the order as to
 Coverage 43.7% for A and 43.0% for B; acceptance 35.7% of 14 moves for A and 12.5% of 8 for B, the same with the extensions; about 44% to 49% of pairs backward against Propp, against about 50% shuffled.
 Interdiction followed by violation holds in both plays (88% and 82% against 63% and 53% shuffled); villainy or lack followed by liquidation holds in the pooled figures only because of Heracleidae.
 The transcribers agree on 77.8% of events' symbols, share a function on 92.8% of the events both gave one, and agree on 85.4% of relevance marks.
+
+## P03, Oedipus at Colonus (Sophocles; Jebb)
+
+**The third play falls short of every threshold; it sets its harms right, but its order is no closer to Propp's than a shuffle.**
+Hero, by the counting rule: Oedipus, well ahead of Theseus.
+
+| Measure | Transcriber A | Transcriber B | Threshold |
+|---|---|---|---|
+| Coverage, functions marked as mattering | 50.4% | 42.6% | 80% |
+| Acceptance, as shipped and with the extensions | 3 of 10 moves | 5 of 10 moves | 85.2% |
+| Function pairs backward against Propp, as told | 46.5% | 49.0% | reported |
+| The same, events told as past first | 48.1% | 48.8% | reported |
+| Function entries marked incidental | 4 of 65 | 9 of 63 | reported |
+| A villainy or lack followed by its liquidation | 13 of 15 | 11 of 13 | reported |
+| An interdiction followed by its violation | 1 of 8 | 1 of 9 | reported |
+
+**Its harms are undone, as in Heracleidae, and its orders are kept, unlike either earlier play.**
+Oedipus finds his resting place, his daughters are recovered and protected; nearly every villainy or lack is liquidated.
+But here an interdiction is almost never followed by its violation: the play's orders and prohibitions are obeyed, so the one pair that held in Rhesus and Heracleidae does not hold.
+
+## Pooled, P01 to P03
+
+**Three plays of 32, interim.**
+Coverage 46.5% for A and 42.9% for B; acceptance 33.3% of 24 moves for A and 33.3% of 18 for B, the same with the extensions; about 46% to 49% of pairs backward against Propp, against about 50% shuffled, with no change when events told as past come first.
+Villainy or lack followed by liquidation now holds pooled (63% against about 44% shuffled); interdiction followed by violation no longer does (50% against 53% to 56%).
+The transcribers agree on 77.7% of events' symbols, share a function on 89.3% of the events both gave one, and agree on 86.1% of relevance marks.
