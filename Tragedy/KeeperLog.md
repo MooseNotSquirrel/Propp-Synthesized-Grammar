@@ -63,3 +63,9 @@ Both changes were committed to the transcriber repository before any P05 stage r
 The cast rule left one gap, which the lister reported and resolved one way: whether the addressee of a plea or prayer takes part in the event, so "Powers below" and "The gods" are in the cast.
 One other name, "daughter of Tyndareus", stands among the other names of both Helen and Agamemnon's wife, as the text uses it for each; the transcribers name characters by the first field, which is unique.
 The rules are not amended mid-run; both points are kept for the rules' next revision, if one is made.
+
+**P05, Hecuba, from `master` at db08d17: both transcriptions in form; sealed, not scored.**
+Both cover all 97 events, with 105 entries each; the form check finds no problems, and every performer and undergoer in both is a name from `Cast.txt`.
+The reports show judgment calls at gaps, not departures. The recurring ones are those of earlier plays: whether a request or order is a, γ or B; whether a repeated want is a new one; and whether a later harm opens a new move or continues an earlier one. Transcriber B's reading of the last produced twelve moves, and it names the contestable move openings.
+New to this play: the vengeance plot, where the blinding and the killing of the children could each be U, K, I or A, and the rule to choose by what an act causes does not decide between them.
+Transcriber A asked whether "matters" is judged by the act or by the telling of it, for events told only in passing.
