@@ -16,3 +16,9 @@ It reports it did not open them; the lists make no use of Propp and cover differ
 Transcriber A: 74 entries, 14 marked N; transcriber B: 73 entries, 19 marked N; every event covered.
 Both reported four shared gaps, and the rules were amended at each, stated generally: a villainy or lack marked N opens no move; the request rule holds whatever harm came before; help that meets the want itself is K and not F; an oracle matters when a later event fulfils it or is done because of it.
 The pilot is kept as a record and is not scored.
+
+**P01, first run, set aside unread: it ran under the unamended rules.**
+The cloud session that ran P01 was the pilot's, and it kept the pilot's branch, which lacked the rule amendments pushed to `master` after the pilot.
+The protocol applies the amendments before the first corpus play, so the run is kept in `superseded/P01-unamended/` and not scored, and P01 is transcribed again.
+RUN.md now requires the runner to start from the latest `master` and report the commit it started from.
+The scoring program was committed before this branch was fetched.
