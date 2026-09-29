@@ -11,3 +11,8 @@ The rule stands as frozen, so the play is read as Hector's tale.
 
 **The two listers ran at once, and the pilot lister saw P01's new files named in `git status`.**
 It reports it did not open them; the lists make no use of Propp and cover different plays, so nothing that bears on the test was exposed.
+
+**Pilot stage, Cyclops, in a cloud session: both transcriptions in form, not parsed.**
+Transcriber A: 74 entries, 14 marked N; transcriber B: 73 entries, 19 marked N; every event covered.
+Both reported four shared gaps, and the rules were amended at each, stated generally: a villainy or lack marked N opens no move; the request rule holds whatever harm came before; help that meets the want itself is K and not F; an oracle matters when a later event fulfils it or is done because of it.
+The pilot is kept as a record and is not scored.
