@@ -1,0 +1,59 @@
+Plays scored: 1 of 32 (interim: reported, not judged)
+Plays: P01
+
+TRANSCRIBER A
+  function entries marked N (incidental): 10 of 51 (19.6%)
+  reading primary: coverage 45.8% (threshold 80%)
+  reading secondary: coverage 53.0% (threshold 80%)
+  reading nodoubt: coverage 34.9% (threshold 80%)
+  order as told: 54.4% of function pairs backward against Propp, shuffled 49.5%
+  past events first: 51.8% of function pairs backward against Propp, shuffled 49.5%
+  pairs (primary):
+    interdiction, violation          n=  6.0 follow  83.3% shuffled  66.9%
+    reconnaissance, delivery         n=  1.0 follow 100.0% shuffled  57.5%
+    trickery, complicity             n=  2.0 follow  50.0% shuffled  51.5%
+    struggle, victory                n=  1.0 follow   0.0% shuffled  69.5%
+    pursuit, rescue                  n=  1.0 follow 100.0% shuffled  52.5%
+    villainy or lack, liquidation    n= 12.0 follow   0.0% shuffled   0.0%
+    departure, return                n=  2.0 follow   0.0% shuffled   0.0%
+  v46 as shipped: acceptance 50.0% of 10 moves (threshold 85.2%)
+    1-4  n=  8 real  62.5% shuffled  71.1% gap  -8.6 (Russian gap 85.7) (too few, not judged)
+    5-6  n=  1 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 97.9) (too few, not judged)
+    10+  n=  1 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 82.4) (too few, not judged)
+    VERDICT (interim, not judged): the claim does not hold
+  v46 with extensions: acceptance 50.0% of 10 moves (threshold 85.2%)
+    1-4  n=  8 real  62.5% shuffled  71.1% gap  -8.6 (Russian gap 85.7) (too few, not judged)
+    5-6  n=  1 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 97.9) (too few, not judged)
+    10+  n=  1 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 82.4) (too few, not judged)
+    VERDICT (interim, not judged): the claim does not hold
+
+TRANSCRIBER B
+  function entries marked N (incidental): 12 of 60 (20.0%)
+  reading primary: coverage 48.2% (threshold 80%)
+  reading secondary: coverage 59.0% (threshold 80%)
+  reading nodoubt: coverage 28.9% (threshold 80%)
+  order as told: 52.2% of function pairs backward against Propp, shuffled 50.7%
+  past events first: 53.4% of function pairs backward against Propp, shuffled 49.9%
+  pairs (primary):
+    interdiction, violation          n=  9.0 follow 100.0% shuffled  67.9%
+    trickery, complicity             n=  3.0 follow  33.3% shuffled  50.7%
+    struggle, victory                n=  3.0 follow   0.0% shuffled   0.0%
+    pursuit, rescue                  n=  1.0 follow 100.0% shuffled  52.0%
+    villainy or lack, liquidation    n=  7.0 follow   0.0% shuffled   0.0%
+    departure, return                n=  2.0 follow   0.0% shuffled   0.0%
+  v46 as shipped: acceptance 20.0% of 5 moves (threshold 85.2%)
+    1-4  n=  1 real 100.0% shuffled 100.0% gap   0.0 (Russian gap 85.7) (too few, not judged)
+    7-9  n=  1 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 97.5) (too few, not judged)
+    10+  n=  3 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 82.4) (too few, not judged)
+    VERDICT (interim, not judged): the claim does not hold
+  v46 with extensions: acceptance 20.0% of 5 moves (threshold 85.2%)
+    1-4  n=  1 real 100.0% shuffled 100.0% gap   0.0 (Russian gap 85.7) (too few, not judged)
+    7-9  n=  1 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 97.5) (too few, not judged)
+    10+  n=  3 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 82.4) (too few, not judged)
+    VERDICT (interim, not judged): the claim does not hold
+
+AGREEMENT
+  events given the same symbols: 64 of 83 (77.1%)
+  events both gave a function, sharing one: 38 of 42 (90.5%)
+  events given the same relevance mark: 68 of 83 (81.9%)
+exit 0

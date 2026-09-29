@@ -22,3 +22,7 @@ The cloud session that ran P01 was the pilot's, and it kept the pilot's branch, 
 The protocol applies the amendments before the first corpus play, so the run is kept in `superseded/P01-unamended/` and not scored, and P01 is transcribed again.
 RUN.md now requires the runner to start from the latest `master` and report the commit it started from.
 The scoring program was committed before this branch was fetched.
+
+**P01, second run, from `master` at 2f1176e: both transcriptions in form, under the amended rules.**
+Transcriber A: 98 entries in 10 moves; transcriber B: 96 entries in 5 moves; every one of the 83 events covered.
+The reports show judgment calls at gaps, not departures; the recurring ones are whether an order is γ or B, where a repeated harm ends and a new one begins (which accounts for the difference in move counts), and how to mark whether an act told as past matters.
