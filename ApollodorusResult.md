@@ -109,3 +109,23 @@ A villainy or lack is followed by its liquidation in only 22% and 28% of Greek m
 A departure is followed by a return in 18% and 13% (Russian 55%).
 Pursuit and rescue hold for transcriber A and not for B; branding and recognition, and false claim and exposure, are too rare to judge.
 Propp's move schemes omit the preparatory functions, so the Russian corpus cannot show the preparatory pairs.
+
+## The audit
+
+**The transcribers read the text faithfully: 91 of 98 answered entries are supported.**
+Fifty function entries were drawn from each transcription by a seed committed first, mixed, and shown without the transcriber's name, the move or any parse result; the auditor judged whether the quoted words say what the symbol claims.
+Transcriber A: 45 supported, 3 not supported, 1 unsure, 1 unanswered.
+Transcriber B: 46 supported, 0 not supported, 3 unsure, 1 unanswered.
+The key was held back until the answers were in; its SHA-256 matches the value committed before the audit.
+The answers are `Apollodorus/AuditAnswers.json` and the key `Apollodorus/AuditKey.txt`.
+
+**The audit found a second problem its question could not score: most supported entries matter little to any tale.**
+Each entry could be labeled as it was, but most are acts out of context: Hercules slaying someone on his way somewhere else is a victory, yet it does little in the story beyond showing his prowess.
+Propp defines a function by its significance for the course of the action (p.21), and an act incidental to the course of the action fails that definition even when the words show it.
+The episodes read as some of Propp's pairs intermixed with gossip and side statements, which is a judgment on the handbook as a corpus: it is not written as tales.
+Two recurring doubts in the comments point the same way: a wedding that is a reward rather than an ending, and an act that is villainy or punishment depending on whose side is taken.
+
+**What the audit changes.**
+Fidelity is high, so the failure is not an artifact of misreading.
+Relevance is low, so many entries the transcribers counted as functions are incidental acts that a stricter reading of p.21 would write as X; that would lower coverage further and would also remove noise from the moves.
+A corpus of real tales, and a rule that asks for significance to the course of the action and not only for the act, are the lessons for the next test.

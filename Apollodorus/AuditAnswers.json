@@ -1,0 +1,492 @@
+{
+ "Q001": {
+  "at": "2026-09-29T05:09:02.499Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q002": {
+  "at": "2026-09-29T05:10:12.441Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q003": {
+  "at": "2026-09-29T05:11:21.464Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q004": {
+  "at": "2026-09-29T05:12:09.982Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q005": {
+  "at": "2026-09-29T05:12:51.570Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q006": {
+  "at": "2026-09-29T05:14:39.423Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q007": {
+  "at": "2026-09-29T05:15:39.761Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q008": {
+  "at": "2026-09-29T05:16:44.840Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q009": {
+  "at": "2026-09-29T05:17:24.788Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q010": {
+  "at": "2026-09-29T05:18:55.354Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q011": {
+  "at": "2026-09-29T05:19:12.815Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q012": {
+  "at": "2026-09-29T05:21:42.747Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q013": {
+  "at": "2026-09-29T05:23:33.075Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q014": {
+  "at": "2026-09-29T05:23:53.715Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q015": {
+  "at": "2026-09-29T05:26:19.913Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q016": {
+  "at": "2026-09-29T05:27:40.490Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q017": {
+  "at": "2026-09-29T05:29:11.215Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q018": {
+  "at": "2026-09-29T05:29:48.402Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q019": {
+  "at": "2026-09-29T05:31:15.585Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q021": {
+  "at": "2026-09-29T05:33:43.266Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q022": {
+  "at": "2026-09-29T05:35:09.599Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q023": {
+  "at": "2026-09-29T05:35:34.181Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q024": {
+  "at": "2026-09-29T05:35:53.083Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q025": {
+  "at": "2026-09-29T05:36:43.147Z",
+  "comment": "This is more of a reward than a wedding, but it does fit the final function in that regard.",
+  "verdict": "unsure"
+ },
+ "Q026": {
+  "at": "2026-09-29T05:37:06.197Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q027": {
+  "at": "2026-09-29T05:37:13.832Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q028": {
+  "at": "2026-09-29T05:38:29.574Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q029": {
+  "at": "2026-09-29T05:38:53.636Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q030": {
+  "at": "2026-09-29T05:39:49.006Z",
+  "comment": "It is not clear if this is a victory or just a slaughter on the way somewhere else.",
+  "verdict": "unsure"
+ },
+ "Q031": {
+  "at": "2026-09-29T05:40:08.076Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q032": {
+  "at": "2026-09-29T05:40:29.993Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q033": {
+  "at": "2026-09-29T05:41:04.477Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q034": {
+  "at": "2026-09-29T05:41:43.388Z",
+  "comment": "Again it is more of a reward, but it is part of the final function.",
+  "verdict": "supported"
+ },
+ "Q035": {
+  "at": "2026-09-29T05:42:09.325Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q036": {
+  "at": "2026-09-29T05:42:41.536Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q037": {
+  "at": "2026-09-29T05:43:46.990Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q038": {
+  "at": "2026-09-29T05:44:04.192Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q039": {
+  "at": "2026-09-29T05:44:56.284Z",
+  "comment": "It is not the end of the story, as W is, but it is starting a new family.",
+  "verdict": "supported"
+ },
+ "Q040": {
+  "at": "2026-09-29T05:46:10.396Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q041": {
+  "at": "2026-09-29T05:46:29.205Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q042": {
+  "at": "2026-09-29T05:48:11.556Z",
+  "comment": "It looks more to me like a violation of an interdiction, not accepting the rites of Dionysus and disparaging the wooden image of Hera. But it could go either way.",
+  "verdict": "supported"
+ },
+ "Q043": {
+  "at": "2026-09-29T05:48:27.510Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q044": {
+  "at": "2026-09-29T05:49:48.789Z",
+  "comment": "But it also is a punishment. This is the example that depends on the viewpoint. And can go either way.",
+  "verdict": "supported"
+ },
+ "Q045": {
+  "at": "2026-09-29T05:50:22.894Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q046": {
+  "at": "2026-09-29T05:50:36.823Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q047": {
+  "at": "2026-09-29T05:51:04.699Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q048": {
+  "at": "2026-09-29T05:52:02.367Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q049": {
+  "at": "2026-09-29T05:56:44.277Z",
+  "comment": "",
+  "verdict": "unsure"
+ },
+ "Q050": {
+  "at": "2026-09-29T05:57:00.759Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q051": {
+  "at": "2026-09-29T05:57:19.987Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q052": {
+  "at": "2026-09-29T05:57:44.537Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q053": {
+  "at": "2026-09-29T05:57:54.091Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q054": {
+  "at": "2026-09-29T05:58:07.929Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q055": {
+  "at": "2026-09-29T05:58:53.512Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q056": {
+  "at": "2026-09-29T05:59:05.254Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q057": {
+  "at": "2026-09-29T06:00:16.548Z",
+  "comment": "It is tenuous because it is a liquidation with awful consequences.",
+  "verdict": "supported"
+ },
+ "Q058": {
+  "at": "2026-09-29T06:00:23.326Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q059": {
+  "at": "2026-09-29T06:01:19.274Z",
+  "comment": "I would have picked Victory.",
+  "verdict": "not"
+ },
+ "Q060": {
+  "at": "2026-09-29T06:01:29.872Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q061": {
+  "at": "2026-09-29T06:02:41.251Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q062": {
+  "at": "2026-09-29T06:02:48.537Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q063": {
+  "at": "2026-09-29T06:03:11.719Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q064": {
+  "at": "2026-09-29T06:03:33.763Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q065": {
+  "at": "2026-09-29T06:04:00.315Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q066": {
+  "at": "2026-09-29T06:04:19.288Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q067": {
+  "at": "2026-09-29T06:04:57.636Z",
+  "comment": "Could also be punishment U.",
+  "verdict": "supported"
+ },
+ "Q068": {
+  "at": "2026-09-29T06:05:21.578Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q069": {
+  "at": "2026-09-29T06:05:43.531Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q070": {
+  "at": "2026-09-29T06:06:44.479Z",
+  "comment": "This is not an exposure of a false hero.",
+  "verdict": "not"
+ },
+ "Q071": {
+  "at": "2026-09-29T06:06:59.193Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q072": {
+  "at": "2026-09-29T06:07:08.665Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q073": {
+  "at": "2026-09-29T06:07:39.765Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q074": {
+  "at": "2026-09-29T06:07:48.394Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q075": {
+  "at": "2026-09-29T06:08:20.145Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q076": {
+  "at": "2026-09-29T06:08:28.873Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q077": {
+  "at": "2026-09-29T06:08:48.871Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q078": {
+  "at": "2026-09-29T06:08:59.721Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q079": {
+  "at": "2026-09-29T06:09:26.484Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q080": {
+  "at": "2026-09-29T06:09:36.480Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q081": {
+  "at": "2026-09-29T06:10:03.876Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q082": {
+  "at": "2026-09-29T06:10:10.874Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q083": {
+  "at": "2026-09-29T06:10:23.096Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q084": {
+  "at": "2026-09-29T06:10:46.956Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q086": {
+  "at": "2026-09-29T06:11:34.718Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q087": {
+  "at": "2026-09-29T06:13:11.611Z",
+  "comment": "This is ambiguous in the way other Weddings are marked. It could be a reward (W) rather than K. And they could not find Europa, so there was no liquidation.",
+  "verdict": "unsure"
+ },
+ "Q088": {
+  "at": "2026-09-29T06:13:23.055Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q089": {
+  "at": "2026-09-29T06:14:19.087Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q090": {
+  "at": "2026-09-29T06:14:36.852Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q091": {
+  "at": "2026-09-29T06:14:56.720Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q092": {
+  "at": "2026-09-29T06:15:18.736Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q093": {
+  "at": "2026-09-29T06:15:32.750Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q094": {
+  "at": "2026-09-29T06:15:53.452Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q095": {
+  "at": "2026-09-29T06:16:27.904Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q096": {
+  "at": "2026-09-29T06:17:32.329Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q097": {
+  "at": "2026-09-29T06:18:31.787Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q098": {
+  "at": "2026-09-29T06:19:24.110Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q099": {
+  "at": "2026-09-29T06:19:37.231Z",
+  "comment": "",
+  "verdict": "supported"
+ },
+ "Q100": {
+  "at": "2026-09-29T06:21:16.210Z",
+  "comment": "This does not look like a departure.",
+  "verdict": "not"
+ }
+}
