@@ -1,0 +1,53 @@
+# TragedyPrediction.txt -- fixed before any play is drawn, fetched or
+# transcribed, in parts, each committed before the stage it bears on.
+# Read with TragedyProtocol.md.
+#
+# ---------------------------------------------------------------------------
+# PART 1. THE CORPUS AND ITS ORDER
+# ---------------------------------------------------------------------------
+# The 32 surviving Greek tragedies, as the PerseusDL canonical-greekLit
+# repository numbers them, each in its author's one translator there:
+#   Aeschylus (Smyth): tlg0085.tlg001-tlg007, Agamemnon as eng3.
+#   Sophocles (Jebb): tlg0011.tlg001-tlg007 (tlg008, Ichneutae, a satyr-play
+#     fragment, excluded).
+#   Euripides (Coleridge): tlg0006.tlg002-tlg019, Rhesus as eng3 (tlg001,
+#     Cyclops, a satyr play, excluded from the corpus and used as the pilot).
+# Order: the 32 identifiers sorted, then random.Random(3201).shuffle; the plays
+# are transcribed one per session in that order.
+#
+# ---------------------------------------------------------------------------
+# PART 2. THE THRESHOLDS
+# ---------------------------------------------------------------------------
+# The claim is the Apollodorus claim tested on myth told at length: Greek
+# tragedy follows Propp's morphology as well as the Russian wondertale does.
+# The Apollodorus thresholds are kept, on the primary reading (function
+# entries marked as mattering, doubtful entries kept), pooled over the plays:
+#   COVERAGE        at least 80% of events have an entry that is a function
+#                   marked as mattering.
+#   ACCEPTANCE      ProppEBNF46.txt accepts at `move` at least 85.2% of moves,
+#                   10 points below the Russian 95.2%.
+#   DISCRIMINATION  in each length band (1-4, 5-6, 7-9, 10+ functions) holding
+#                   at least 10 moves, real acceptance minus opener-fixed
+#                   shuffled acceptance (1000 shuffles per move, seed 46) is at
+#                   least the Russian gap in that band.
+# Both grammars are judged, as shipped and with +tragedy,reversal, with a
+# verdict for each and neither privileged; the claim holds for a grammar only
+# if all three are met on both transcriptions.
+# The verdict is given once all 32 plays are transcribed; results for each
+# play, and pooled results as plays accrue, are reported and not judged.
+# Reported and not judged: order against Propp's numbering and Propp's pairs,
+# against a within-play shuffle, as in the Aesop test; the share of entries
+# marked incidental; a second order in which events told as past are moved
+# before events told as present; agreement between the transcribers.
+#
+# ---------------------------------------------------------------------------
+# PART 3. THE KEEPER'S GUESSES, FROZEN WITH THE THRESHOLDS
+# ---------------------------------------------------------------------------
+#   Coverage will fall well short of 80%, about 50%: most of a tragedy is
+#   speech that deliberates, laments and argues, which no function names.
+#   Acceptance will be low, under 40%, for both grammars.
+#   The extensions will raise acceptance in the plays that end in a fall,
+#   since tragedy's reversal is what they were built for; by about 5 points
+#   pooled.
+#   Events told as past will be common in the opening scenes, and the
+#   second order will be closer to Propp's than the order as performed.
