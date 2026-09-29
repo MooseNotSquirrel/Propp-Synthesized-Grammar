@@ -1,0 +1,5 @@
+episode versions with identical entry sequences: 3 of 176
+mean normalized edit distance per episode: 0.40
+moves: A 378, B 338; identical move strings shared: 19
+events with the same set of symbols: 1510 of 2506 (60.3%)
+events both gave a function: 1301; of those, sharing a symbol: 986 (75.8%)
