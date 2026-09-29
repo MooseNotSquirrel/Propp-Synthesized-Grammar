@@ -31,3 +31,8 @@ The reports show judgment calls at gaps, not departures; the recurring ones are 
 75 events, 16 told as past; hero Iolaus, in about 29 events against about 16 for Eurystheus.
 The lister put the past events in the order they happened, where the P01 and pilot listers had put each event where it is told; in practice two events, 5 and 6, told late, stand among the prologue's past events, and the battle report keeps the order of telling.
 The list is kept; the rule now states the order of telling, from P03 on.
+
+**P02, Heracleidae, from `master` at aadf9d1: both transcriptions in form.**
+Transcriber A: 86 entries in 4 moves. The reports show judgment calls at gaps, not departures: a demand read as a lack or an order; where a repeated harm stops opening moves; the oracle's demand for a maiden's sacrifice read as a lack (a) or a difficult task (M).
+Transcriber A noticed the P02 event list's order, logged at the events stage, and followed the list as given.
+Transcriber B kept its working script in a scratch folder outside the repository, against its prompt, which asked for working files inside its own folder and deleted; the script was not committed, and transcriber A was forbidden any folder but its own.

@@ -32,3 +32,28 @@ They gave the same symbols to 77.1% of events, shared a function on 90.5% of the
 
 **Against the keeper's frozen guesses, after one play of 32.**
 Coverage near 50%: so far, yes. Acceptance under 40%: yes for B, no for A. The extensions adding about 5 points: no, none. The backstory-first order closer to Propp's: not for this play.
+
+## P02, Heracleidae (Euripides; Coleridge)
+
+**The second play also falls short of every threshold, but unlike Rhesus it sets its harms right.**
+Hero, by the counting rule: Iolaus, in about 29 events against about 16 for Eurystheus.
+
+| Measure | Transcriber A | Transcriber B | Threshold |
+|---|---|---|---|
+| Coverage, functions marked as mattering | 41.3% | 37.3% | 80% |
+| Acceptance, as shipped and with the extensions | 0 of 4 moves | 0 of 3 moves | 85.2% |
+| Function pairs backward against Propp, as told | 30.9% | 39.0% | reported |
+| Function entries marked incidental | 1 of 37 | 3 of 33 | reported |
+| A villainy or lack followed by its liquidation | 11 of 11 | 6 of 7 | reported |
+
+**Its order is closer to Propp's than Rhesus's, and its harms are undone.**
+About a third of pairs run backward, against half in Rhesus and in a shuffle; every villainy or lack but one is followed by its liquidation, where in Rhesus none was.
+The suppliants are threatened, protected, and avenged, the shape of a Proppian tale; the moves are long, 3 or 4 in the play, and the grammar accepts none of them.
+The second order, with events told as past first, is the same as the order as told here, because this play's event list already put its backstory first.
+
+## Pooled, P01 and P02
+
+**Two plays of 32, interim.**
+Coverage 43.7% for A and 43.0% for B; acceptance 35.7% of 14 moves for A and 12.5% of 8 for B, the same with the extensions; about 44% to 49% of pairs backward against Propp, against about 50% shuffled.
+Interdiction followed by violation holds in both plays (88% and 82% against 63% and 53% shuffled); villainy or lack followed by liquidation holds in the pooled figures only because of Heracleidae.
+The transcribers agree on 77.8% of events' symbols, share a function on 92.8% of the events both gave one, and agree on 85.4% of relevance marks.
