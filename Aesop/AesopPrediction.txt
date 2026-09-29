@@ -1,0 +1,47 @@
+# AesopPrediction.txt -- fixed before any fable is transcribed, in parts, each
+# committed before the stage it bears on. Read with AesopProtocol.md.
+#
+# ---------------------------------------------------------------------------
+# PART 1. THE DRAW
+# ---------------------------------------------------------------------------
+# Population: the 313 fables of Fables.txt in the Aesop repository, as
+# extract.py writes them, identifiers F001-F313.
+# Sample: sorted(random.Random(2109).sample(ids, 100)).
+# Pilot: sorted(random.Random(2110).sample(ids outside the sample, 3)).
+#
+# ---------------------------------------------------------------------------
+# PART 2. THE THRESHOLDS
+# ---------------------------------------------------------------------------
+# The claim: short tales are samples of Propp's production rules. It holds
+# only if all three measures are met on both transcriptions, A and B, on the
+# primary derivation (entries marked Y only; doubtful entries kept).
+#   COVERAGE  at least 60% of events have an entry that is a function marked Y.
+#   ORDER     within fables, at most 15% of ordered pairs of functions run
+#             backward against Propp's numbering (beta 1 ... W 31, A and a 8;
+#             the Russian corpus: 1.5%), and at least 20 points fewer than
+#             the same entries shuffled within each fable (200 shuffles,
+#             random.Random(46)).
+#   PAIRS     every one of Propp's pairs (interdiction-violation,
+#             reconnaissance-delivery, trickery-complicity, test-reaction,
+#             struggle-victory, pursuit-rescue, task-solution, branding-
+#             recognition, false claim-exposure, villainy or lack-liquidation,
+#             departure-return) whose first function occurs at least 10 times
+#             in a transcription is followed by its second within the fable
+#             at least 20 points more often than when shuffled.
+# Reported and not judged: the share of entries marked N; the share of
+# fables holding a villainy or lack followed by its liquidation; ProppEBNF46.txt
+# acceptance at `move`, as shipped and with +tragedy,reversal, against the
+# opener-fixed shuffle by length band; agreement between A and B.
+#
+# ---------------------------------------------------------------------------
+# PART 3. THE KEEPER'S GUESSES, FROZEN WITH THE THRESHOLDS
+# ---------------------------------------------------------------------------
+# Guesses, not thresholds; recorded so that surprise can be measured.
+#   Coverage will fall short of 60%: fables turn on speech, argument and
+#   boasting that no function names; about 50%.
+#   Order will be met: when fables use Propp's functions, they will mostly use
+#   them in his order; about 10% of pairs backward.
+#   Trickery-complicity and struggle-victory will reach ten occurrences and
+#   hold; few other pairs will reach ten.
+#   The share of entries marked N will be low, under 15%.
+#   So the claim will fail on coverage alone, with order and pairs holding.
