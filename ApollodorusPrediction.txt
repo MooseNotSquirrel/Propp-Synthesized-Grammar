@@ -61,3 +61,9 @@
 # grammars are scored, ProppEBNF46.txt as shipped and with +tragedy,reversal,
 # against the same three thresholds, and the report gives a verdict for each
 # side by side. Neither is privileged.
+#
+# TIED HEROES, fixed after the census and before any transcription. Three
+# scored episodes name more than one hero: L1-001 (Sky; Cronus), L3-002
+# (Cadmus; Phoenix; Cilix) and L3-070 (Callisto; Zeus). Each hero's version
+# is transcribed and parsed, and the versions share one episode's weight
+# equally, so that no episode counts more than once in any figure.

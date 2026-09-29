@@ -1,0 +1,412 @@
+L1-001 | 1.1.2-1.1.4 | Sky and Cronus (tied) | 6 | hero: Sky; Cronus | connected: - | variant of: -
+L1-002 | 1.1.4-1.1.5 | Cronus | 5 | hero: Cronus | connected: - | variant of: -
+L1-003 | 1.1.6-1.2.5 | Zeus | 20 | hero: Zeus | connected: L1-011 | variant of: -
+L1-004 | 1.3.2 | Linus and Hercules (tied) | 1 | hero: Linus; Hercules | connected: - | variant of: -
+L1-005 | 1.3.2 | Orpheus | 8 | hero: Orpheus | connected: - | variant of: -
+L1-006 | 1.3.3 | Clio | 2 | hero: Clio | connected: - | variant of: -
+L1-007 | 1.3.3 | Hyacinth | 3 | hero: Hyacinth | connected: - | variant of: -
+L1-008 | 1.3.3 | Thamyris and the Muses (tied) | 3 | hero: Thamyris; the Muses | connected: - | variant of: -
+L1-009 | 1.3.4 | Rhesus and Diomedes (tied) | 1 | hero: Rhesus; Diomedes | connected: - | variant of: -
+L1-010 | 1.3.5 | Hephaestus | 7 | hero: Hephaestus | connected: - | variant of: -
+L1-011 | 1.3.6 | Zeus | 6 | hero: Zeus | connected: L1-003 | variant of: -
+L1-012 | 1.3.6 | Zeus and Hephaestus (tied) | 1 | hero: Zeus; Hephaestus | connected: - | variant of: L1-011
+L1-013 | 1.4.1 | Asteria | 1 | hero: Asteria | connected: - | variant of: -
+L1-014 | 1.4.1 | Latona | 4 | hero: Latona | connected: - | variant of: -
+L1-015 | 1.4.1-1.4.2 | Apollo | 21 | hero: Apollo | connected: - | variant of: -
+L1-016 | 1.4.3-1.4.5 | Orion | 18 | hero: Orion | connected: - | variant of: -
+L1-017 | 1.4.5 | Orion | 2 | hero: Orion | connected: - | variant of: L1-016
+L1-018 | 1.5.1 | Persephone and Pluto (tied) | 2 | hero: Persephone; Pluto | connected: - | variant of: -
+L1-019 | 1.5.1-1.5.3 | Demeter | 22 | hero: Demeter | connected: - | variant of: -
+L1-020 | 1.6.1-1.6.2 | the Giants | 31 | hero: the Giants | connected: - | variant of: -
+L1-021 | 1.6.3 | Typhon | 24 | hero: Typhon | connected: - | variant of: -
+L1-022 | 1.7.1 | Prometheus | 8 | hero: Prometheus | connected: - | variant of: -
+L1-023 | 1.7.2 | Deucalion | 12 | hero: Deucalion | connected: - | variant of: -
+L1-024 | 1.7.3 | Hellen and his sons (tied) | 1 | hero: Hellen; his sons | connected: - | variant of: -
+L1-025 | 1.7.4 | Ceyx and Alcyone (tied) | 3 | hero: Ceyx; Alcyone | connected: - | variant of: -
+L1-026 | 1.7.4 | Iphimedia | 2 | hero: Iphimedia | connected: - | variant of: -
+L1-027 | 1.7.4 | the Aloads (Otus and Ephialtes) | 9 | hero: the Aloads | connected: - | variant of: -
+L1-028 | 1.7.5 | Endymion | 4 | hero: Endymion | connected: - | variant of: -
+L1-029 | 1.7.6 | Aetolus | 3 | hero: Aetolus | connected: - | variant of: -
+L1-030 | 1.7.8 | Marpessa and Apollo (tied) | 1 | hero: Marpessa; Apollo | connected: - | variant of: -
+L1-031 | 1.7.8-1.7.9 | Idas | 10 | hero: Idas | connected: - | variant of: -
+L1-032 | 1.8.1 | Oeneus and Toxeus (tied) | 3 | hero: Toxeus | connected: L1-043 | variant of: -
+L1-033 | 1.8.1 | Hercules, Achelous and Deianira (tied) | 1 | hero: Hercules; Achelous; Deianira | connected: - | variant of: -
+L1-034 | 1.8.2-1.8.3 | Meleager | 24 | hero: Meleager | connected: - | variant of: -
+L1-035 | 1.8.3 | Meleager | 10 | hero: Meleager | connected: - | variant of: L1-034
+L1-036 | 1.8.4 | Oeneus and Periboea (tied) | 2 | hero: Oeneus; Periboea | connected: - | variant of: -
+L1-037 | 1.8.4 | Periboea | 2 | hero: Periboea | connected: - | variant of: L1-036
+L1-038 | 1.8.5 | Periboea | 3 | hero: Periboea | connected: - | variant of: L1-036
+L1-039 | 1.8.5 | Oeneus, Zeus and Gorge (tied) | 1 | hero: Oeneus; Zeus; Gorge | connected: - | variant of: L1-036
+L1-040 | 1.8.5 | Tydeus | 7 | hero: Tydeus | connected: - | variant of: -
+L1-041 | 1.8.5 | the sons of Melas | 2 | hero: the sons of Melas | connected: - | variant of: L1-040
+L1-042 | 1.8.5 | Tydeus and Olenias (tied) | 1 | hero: Tydeus; Olenias | connected: - | variant of: L1-040
+L1-043 | 1.8.6 | Oeneus and the sons of Agrius (tied) | 2 | hero: Oeneus; the sons of Agrius | connected: L1-032 | variant of: -
+L1-044 | 1.8.6 | Diomedes | 8 | hero: Diomedes | connected: - | variant of: -
+L1-045 | 1.9.1 | Phrixus | 16 | hero: Phrixus | connected: - | variant of: -
+L1-046 | 1.9.2 | Athamas | 10 | hero: Athamas | connected: - | variant of: -
+L1-047 | 1.9.3 | Sisyphus | 1 | hero: Sisyphus | connected: L1-049 | variant of: -
+L1-048 | 1.9.3 | Bellerophon and the Chimera (tied) | 1 | hero: Bellerophon; the Chimera | connected: - | variant of: -
+L1-049 | 1.9.3 | Sisyphus | 3 | hero: Sisyphus | connected: L1-047 | variant of: -
+L1-050 | 1.9.4 | Cephalus and Dawn (tied) | 2 | hero: Cephalus; Dawn | connected: - | variant of: -
+L1-051 | 1.9.5 | Perieres | 1 | hero: Perieres | connected: - | variant of: -
+L1-052 | 1.9.6 | Polydectes and Dictys (tied) | 1 | hero: Polydectes; Dictys | connected: - | variant of: -
+L1-053 | 1.9.7 | Salmoneus | 7 | hero: Salmoneus | connected: - | variant of: -
+L1-054 | 1.9.8 | Tyro | 6 | hero: Tyro | connected: - | variant of: -
+L1-055 | 1.9.8-1.9.9 | Pelias | 9 | hero: Pelias | connected: L1-069 | variant of: -
+L1-056 | 1.9.9 | Neleus | 3 | hero: Neleus | connected: - | variant of: -
+L1-057 | 1.9.9 | Periclymenus | 5 | hero: Periclymenus | connected: - | variant of: -
+L1-058 | 1.9.11 | Cretheus | 1 | hero: Cretheus | connected: - | variant of: -
+L1-059 | 1.9.11 | Melampus's servants and the snakes (tied) | 1 | hero: Melampus's servants; the snakes | connected: - | variant of: -
+L1-060 | 1.9.11 | Melampus | 7 | hero: Melampus | connected: L1-062 | variant of: -
+L1-061 | 1.9.12 | Pero | 2 | hero: Pero | connected: - | variant of: -
+L1-062 | 1.9.12 | Melampus | 29 | hero: Melampus | connected: L1-060 | variant of: -
+L1-063 | 1.9.13 | Promachus son of Parthenopaeus | 1 | hero: Promachus son of Parthenopaeus | connected: - | variant of: -
+L1-064 | 1.9.13 | Euryalus | 1 | hero: Euryalus | connected: - | variant of: -
+L1-065 | 1.9.14 | Pheres | 1 | hero: Pheres | connected: - | variant of: -
+L1-066 | 1.9.14 | Lycurgus son of Pheres | 1 | hero: Lycurgus son of Pheres | connected: - | variant of: -
+L1-067 | 1.9.15 | Admetus | 13 | hero: Admetus | connected: - | variant of: -
+L1-068 | 1.9.15 | Hercules | 2 | hero: Hercules | connected: - | variant of: L1-067
+L1-069 | 1.9.16 | Pelias | 2 | hero: Pelias | connected: L1-055 | variant of: -
+L1-070 | 1.9.16-1.9.18 | Jason | 30 | hero: Jason | connected: L1-076 | variant of: -
+L1-071 | 1.9.19 | Polyphemus | 8 | hero: Polyphemus | connected: - | variant of: -
+L1-072 | 1.9.19 | Hercules | 1 | hero: Hercules | connected: - | variant of: L1-071
+L1-073 | 1.9.19 | Hercules | 2 | hero: Hercules | connected: - | variant of: L1-071
+L1-074 | 1.9.19 | Hercules | 1 | hero: Hercules | connected: - | variant of: L1-071
+L1-075 | 1.9.19 | Hercules | 1 | hero: Hercules | connected: - | variant of: L1-071
+L1-076 | 1.9.20-1.9.28 | Jason | 108 | hero: Jason | connected: L1-070 | variant of: -
+L1-077 | 1.9.21 | Phineus | 2 | hero: Phineus | connected: - | variant of: L1-076
+L1-078 | 1.9.21 | Phineus | 2 | hero: Phineus | connected: - | variant of: L1-076
+L1-079 | 1.9.21 | the Harpies | 2 | hero: the Harpies | connected: - | variant of: L1-076
+L1-080 | 1.9.26 | Talos | 3 | hero: Talos | connected: - | variant of: L1-076
+L1-081 | 1.9.26 | Poeas and Talos (tied) | 1 | hero: Poeas; Talos | connected: - | variant of: L1-076
+L1-082 | 1.9.28 | Medea | 17 | hero: Medea | connected: - | variant of: -
+L1-083 | 1.9.28 | Medea's children | 2 | hero: Medea's children | connected: - | variant of: L1-082
+L2-001 | 2.1.1 | Apis | 2 | hero: Apis | connected: - | variant of: -
+L2-002 | 2.1.2 | Argus the All-seeing | 5 | hero: Argus the All-seeing | connected: - | variant of: -
+L2-003 | 2.1.3 | Io | 26 | hero: Io | connected: - | variant of: -
+L2-004 | 2.1.4 | Agenor | 1 | hero: Agenor | connected: continues into next part | variant of: -
+L2-005 | 2.1.4 | Danaus | 9 | hero: Danaus | connected: L2-007 | variant of: -
+L2-006 | 2.1.4 | Amymone | 6 | hero: Amymone | connected: - | variant of: -
+L2-007 | 2.1.5 | the daughters of Danaus | 10 | hero: the daughters of Danaus | connected: L2-005 | variant of: -
+L2-008 | 2.1.5 | Nauplius | 1 | hero: Nauplius | connected: - | variant of: -
+L2-009 | 2.2.1 | Proetus | 7 | hero: Proetus | connected: - | variant of: -
+L2-010 | 2.2.2 | the daughters of Proetus | 15 | hero: the daughters of Proetus | connected: - | variant of: -
+L2-011 | 2.2.2 | the daughters of Proetus | 2 | hero: the daughters of Proetus | connected: - | variant of: L2-010
+L2-012 | 2.3.1-2.3.2 | Bellerophon | 19 | hero: Bellerophon | connected: - | variant of: -
+L2-013 | 2.4.1 | Acrisius | 4 | hero: Acrisius | connected: - | variant of: -
+L2-014 | 2.4.1 | Zeus; Danae (tie) | 1 | hero: Zeus; Danae | connected: - | variant of: L2-013
+L2-015 | 2.4.1-2.4.3 | Perseus | 24 | hero: Perseus | connected: L2-018 | variant of: -
+L2-016 | 2.4.3 | the Nereids | 3 | hero: the Nereids | connected: - | variant of: -
+L2-017 | 2.4.3 | Andromeda | 2 | hero: Andromeda | connected: - | variant of: -
+L2-018 | 2.4.3 | Perseus | 14 | hero: Perseus | connected: L2-015, L2-022 | variant of: -
+L2-019 | 2.4.3 | Hermes | 1 | hero: Hermes | connected: - | variant of: -
+L2-020 | 2.4.3 | Athena | 1 | hero: Athena | connected: - | variant of: -
+L2-021 | 2.4.3 | Medusa; Athena (tie) | 2 | hero: Medusa; Athena | connected: - | variant of: L2-015
+L2-022 | 2.4.4 | Perseus | 8 | hero: Perseus | connected: L2-018 | variant of: -
+L2-023 | 2.4.5 | Poseidon | 3 | hero: Poseidon | connected: - | variant of: -
+L2-024 | 2.4.5 | Zeus | 1 | hero: Zeus | connected: - | variant of: -
+L2-025 | 2.4.5 | Hera | 2 | hero: Hera | connected: - | variant of: -
+L2-026 | 2.4.6 | Electryon | 5 | hero: Electryon | connected: - | variant of: -
+L2-027 | 2.4.6-2.4.8 | Amphitryon | 30 | hero: Amphitryon | connected: - | variant of: -
+L2-028 | 2.4.8-2.4.11 | Hercules | 19 | hero: Hercules | connected: L2-032 | variant of: -
+L2-029 | 2.4.8 | Iphicles | 4 | hero: Iphicles | connected: - | variant of: L2-028
+L2-030 | 2.4.11 | Clymenus | 1 | hero: Clymenus | connected: - | variant of: -
+L2-031 | 2.4.11 | Erginus | 3 | hero: Erginus | connected: - | variant of: -
+L2-032 | 2.4.11-2.5.1 | Hercules | 30 | hero: Hercules | connected: L2-028, L2-034 | variant of: -
+L2-033 | 2.5.1 | Copreus | 4 | hero: Copreus | connected: - | variant of: -
+L2-034 | 2.5.2-2.5.4 | Hercules | 33 | hero: Hercules | connected: L2-032, L2-038 | variant of: -
+L2-035 | 2.5.4 | Chiron | 4 | hero: Chiron | connected: - | variant of: -
+L2-036 | 2.5.4 | the centaurs | 2 | hero: the centaurs | connected: - | variant of: -
+L2-037 | 2.5.4 | Pholus | 2 | hero: Pholus | connected: - | variant of: -
+L2-038 | 2.5.4-2.5.7 | Hercules | 29 | hero: Hercules | connected: L2-034, L2-041 | variant of: -
+L2-039 | 2.5.7 | Poseidon | 4 | hero: Poseidon | connected: - | variant of: L2-038
+L2-040 | 2.5.7 | the Cretan bull | 3 | hero: the Cretan bull | connected: - | variant of: -
+L2-041 | 2.5.8 | Hercules | 9 | hero: Hercules | connected: L2-038, L2-043 | variant of: -
+L2-042 | 2.5.8 | the mares of Diomedes | 3 | hero: the mares of Diomedes | connected: - | variant of: -
+L2-043 | 2.5.9 | Hercules | 15 | hero: Hercules | connected: L2-041, L2-045 | variant of: -
+L2-044 | 2.5.9 | Laomedon | 8 | hero: Laomedon | connected: - | variant of: -
+L2-045 | 2.5.9-2.5.11 | Hercules | 50 | hero: Hercules | connected: L2-043, L2-047 | variant of: -
+L2-046 | 2.5.11 | Phrasius | 2 | hero: Phrasius | connected: - | variant of: -
+L2-047 | 2.5.11-2.7.3 | Hercules | 108 | hero: Hercules | connected: L2-045, L2-050 | variant of: -
+L2-048 | 2.5.11 | Hercules | 2 | hero: Hercules | connected: - | variant of: L2-047
+L2-049 | 2.7.3 | the son of Licymnius | 3 | hero: the son of Licymnius | connected: - | variant of: -
+L2-050 | 2.7.3 | Hercules | 7 | hero: Hercules | connected: L2-047, L2-054 | variant of: -
+L2-051 | 2.7.4 | Auge | 3 | hero: Auge | connected: L2-053 | variant of: -
+L2-052 | 2.7.4 | Telephus | 3 | hero: Telephus | connected: - | variant of: -
+L2-053 | 2.7.4 | Auge | 2 | hero: Auge | connected: L2-051 | variant of: -
+L2-054 | 2.7.5-2.7.7 | Hercules | 49 | hero: Hercules | connected: L2-050 | variant of: -
+L2-055 | 2.8.1-2.8.2 | the Heraclids | 13 | hero: the Heraclids | connected: L2-058 | variant of: -
+L2-056 | 2.8.2 | Tlepolemus | 2 | hero: Tlepolemus | connected: - | variant of: -
+L2-057 | 2.8.2 | Hyllus | 1 | hero: Hyllus | connected: - | variant of: -
+L2-058 | 2.8.2-2.8.5 | the Heraclids | 29 | hero: the Heraclids | connected: L2-055 | variant of: -
+L2-059 | 2.8.5 | Temenus | 4 | hero: Temenus | connected: - | variant of: -
+L2-060 | 2.8.5 | Cresphontes | 1 | hero: Cresphontes | connected: - | variant of: -
+L2-061 | 2.8.5 | Polyphontes | 2 | hero: Polyphontes | connected: - | variant of: -
+L2-062 | 2.8.5 | Aepytus | 4 | hero: Aepytus | connected: - | variant of: -
+L3-001 | 3.1.1 | Zeus | 5 | hero: Zeus | connected: - | variant of: -
+L3-002 | 3.1.1 | tie: Cadmus, Phoenix, Cilix | 8 | hero: Cadmus; Phoenix; Cilix | connected: L3-015, L3-026 | variant of: -
+L3-003 | 3.1.2 | Sarpedon | 10 | hero: Sarpedon | connected: - | variant of: -
+L3-004 | 3.1.2 | the sons of Europa (Minos, Sarpedon, Rhadamanthys) | 2 | hero: the sons of Europa | connected: - | variant of: L3-003
+L3-005 | 3.1.2 | Rhadamanthys | 3 | hero: Rhadamanthys | connected: - | variant of: -
+L3-006 | 3.1.2-3.1.4 | Minos | 14 | hero: Minos | connected: L3-008, L3-151 | variant of: -
+L3-007 | 3.1.4 | tie: Pasiphae, Daedalus | 8 | hero: Pasiphae | connected: L3-153 | variant of: -
+L3-008 | 3.1.4 | tie: Minos, the Minotaur | 3 | hero: Minos; the Minotaur | connected: L3-006, L3-151 | variant of: -
+L3-009 | 3.2.1 | Catreus | 3 | hero: Catreus | connected: L3-012 | variant of: -
+L3-010 | 3.2.1 | Althaemenes | 8 | hero: Althaemenes | connected: L3-013 | variant of: -
+L3-011 | 3.2.1 | Apemosyne | 8 | hero: Apemosyne | connected: - | variant of: -
+L3-012 | 3.2.2 | Catreus | 10 | hero: Catreus | connected: L3-009 | variant of: -
+L3-013 | 3.2.2 | Althaemenes | 3 | hero: Althaemenes | connected: L3-010 | variant of: -
+L3-014 | 3.3.1-3.3.2 | Glaucus, son of Minos | 23 | hero: Glaucus | connected: - | variant of: -
+L3-015 | 3.4.1-3.4.2 | Cadmus | 19 | hero: Cadmus | connected: L3-002, L3-026 | variant of: -
+L3-016 | 3.4.1 | the Sparti | 3 | hero: the Sparti | connected: - | variant of: L3-015
+L3-017 | 3.4.2 | tie: Hephaestus, Cadmus | 1 | hero: Hephaestus; Cadmus | connected: - | variant of: L3-015
+L3-018 | 3.4.2 | Europa | 2 | hero: Europa | connected: - | variant of: L3-015
+L3-019 | 3.4.3 | Zeus | 12 | hero: Zeus | connected: L3-021 | variant of: -
+L3-020 | 3.4.3 | Ino | 6 | hero: Ino | connected: - | variant of: -
+L3-021 | 3.4.3 | tie: Zeus, Dionysus, the nymphs of Nysa | 3 | hero: Zeus; the nymphs of Nysa | connected: L3-019 | variant of: -
+L3-022 | 3.4.4 | Actaeon | 4 | hero: Actaeon | connected: - | variant of: -
+L3-023 | 3.4.4 | tie: Actaeon, Artemis | 4 | hero: Actaeon | connected: - | variant of: L3-022
+L3-024 | 3.4.4 | Actaeon's dogs | 3 | hero: Actaeon's dogs | connected: - | variant of: -
+L3-025 | 3.5.1-3.5.3 | Dionysus | 42 | hero: Dionysus | connected: - | variant of: -
+L3-026 | 3.5.4 | Cadmus | 8 | hero: Cadmus | connected: L3-002, L3-015 | variant of: -
+L3-027 | 3.5.5 | Polydorus | 1 | hero: Polydorus | connected: - | variant of: -
+L3-028 | 3.5.5 | Labdacus | 1 | hero: Labdacus | connected: - | variant of: -
+L3-029 | 3.5.5 | Lycus | 8 | hero: Lycus | connected: - | variant of: -
+L3-030 | 3.5.5 | Antiope | 10 | hero: Antiope | connected: - | variant of: -
+L3-031 | 3.5.5 | Amphion | 15 | hero: Amphion | connected: - | variant of: -
+L3-032 | 3.5.5 | Laius | 4 | hero: Laius | connected: L3-035 | variant of: -
+L3-033 | 3.5.6 | Niobe | 8 | hero: Niobe | connected: - | variant of: -
+L3-034 | 3.5.6 | tie: Amyclas and Meliboea, Amphion, Artemis and Apollo | 2 | hero: Amphion; Artemis and Apollo | connected: - | variant of: L3-033
+L3-035 | 3.5.7 | Laius | 3 | hero: Laius | connected: L3-032 | variant of: -
+L3-036 | 3.5.7 | Oedipus | 17 | hero: Oedipus | connected: L3-039 | variant of: -
+L3-037 | 3.5.8 | tie: Damasistratus, Laius, Creon | 2 | hero: Creon | connected: L3-056 | variant of: -
+L3-038 | 3.5.8 | the Sphinx | 9 | hero: the Sphinx | connected: - | variant of: -
+L3-039 | 3.5.8-3.5.9 | Oedipus | 11 | hero: Oedipus | connected: L3-036 | variant of: -
+L3-040 | 3.6.1 | Polynices | 14 | hero: Polynices | connected: - | variant of: -
+L3-041 | 3.6.1 | Eteocles | 2 | hero: Eteocles | connected: - | variant of: L3-040
+L3-042 | 3.6.1 | Adrastus | 2 | hero: Adrastus | connected: L3-044, L3-055, L3-057 | variant of: -
+L3-043 | 3.6.2 | Amphiaraus | 11 | hero: Amphiaraus | connected: L3-054 | variant of: -
+L3-044 | 3.6.3-3.6.4 | Adrastus | 14 | hero: Adrastus | connected: L3-042, L3-055, L3-057 | variant of: -
+L3-045 | 3.6.5 | Tydeus | 6 | hero: Tydeus | connected: L3-053 | variant of: -
+L3-046 | 3.6.6 | the Argives | 2 | hero: the Argives | connected: L3-051 | variant of: -
+L3-047 | 3.6.6 | Eteocles | 4 | hero: Eteocles | connected: - | variant of: -
+L3-048 | 3.6.7 | Tiresias | 5 | hero: Tiresias | connected: - | variant of: -
+L3-049 | 3.6.7 | Tiresias | 7 | hero: Tiresias | connected: - | variant of: L3-048
+L3-050 | 3.6.7 | Tiresias | 10 | hero: Tiresias | connected: - | variant of: L3-048
+L3-051 | 3.6.7-3.6.8 | the Argives | 11 | hero: the Argives | connected: L3-046 | variant of: -
+L3-052 | 3.6.8 | tie: Periclymenus, Parthenopaeus | 1 | hero: Periclymenus; Parthenopaeus | connected: - | variant of: L3-051
+L3-053 | 3.6.8 | Tydeus | 9 | hero: Tydeus | connected: L3-045 | variant of: -
+L3-054 | 3.6.8 | Amphiaraus | 4 | hero: Amphiaraus | connected: L3-043 | variant of: -
+L3-055 | 3.6.8 | tie: Adrastus, the horse Arion | 1 | hero: Adrastus; Arion | connected: L3-042, L3-044, L3-057 | variant of: -
+L3-056 | 3.7.1 | tie: Creon, Antigone | 7 | hero: Antigone | connected: L3-037 | variant of: -
+L3-057 | 3.7.1 | Adrastus | 2 | hero: Adrastus | connected: L3-042, L3-044, L3-055 | variant of: -
+L3-058 | 3.7.1 | Theseus | 3 | hero: Theseus | connected: L3-089, L3-154 | variant of: -
+L3-059 | 3.7.1 | Evadne | 2 | hero: Evadne | connected: - | variant of: -
+L3-060 | 3.7.2-3.7.3 | Alcmaeon | 13 | hero: Alcmaeon | connected: L3-062 | variant of: -
+L3-061 | 3.7.3 | the Thebans | 6 | hero: the Thebans | connected: - | variant of: -
+L3-062 | 3.7.4-3.7.5 | Alcmaeon | 33 | hero: Alcmaeon | connected: L3-060 | variant of: -
+L3-063 | 3.7.5 | tie: Alcmaeon, Amphilochus, Eriphyle | 1 | hero: Alcmaeon; Amphilochus; Eriphyle | connected: - | variant of: L3-062
+L3-064 | 3.7.5 | tie: Alcmaeon, Eriphyle | 1 | hero: Alcmaeon; Eriphyle | connected: - | variant of: L3-062
+L3-065 | 3.7.5 | tie: Arsinoe, the sons of Phegeus | 4 | hero: Arsinoe; the sons of Phegeus | connected: - | variant of: -
+L3-066 | 3.7.6-3.7.7 | the sons of Alcmaeon (Amphoterus and Acarnan) | 14 | hero: the sons of Alcmaeon | connected: - | variant of: -
+L3-067 | 3.7.7 | tie: Alcmaeon, Tisiphone, Amphilochus | 5 | hero: Amphilochus | connected: - | variant of: L3-062
+L3-068 | 3.8.1 | tie: Zeus, the sons of Lycaon | 8 | hero: Zeus | connected: - | variant of: -
+L3-069 | 3.8.2 | Nyctimus | 2 | hero: Nyctimus | connected: - | variant of: -
+L3-070 | 3.8.2 | tie: Callisto, Zeus | 10 | hero: Callisto; Zeus | connected: - | variant of: -
+L3-071 | 3.8.2 | tie: Zeus, Callisto | 1 | hero: Zeus; Callisto | connected: - | variant of: L3-070
+L3-072 | 3.8.2 | tie: Artemis, Callisto | 1 | hero: Artemis; Callisto | connected: - | variant of: L3-070
+L3-073 | 3.9.1 | Auge | 7 | hero: Auge | connected: - | variant of: -
+L3-074 | 3.9.1 | Telephus | 7 | hero: Telephus | connected: - | variant of: -
+L3-075 | 3.9.2 | Atalanta | 20 | hero: Atalanta | connected: - | variant of: -
+L3-076 | 3.9.2 | tie: Hippomenes, Atalanta | 1 | hero: Hippomenes; Atalanta | connected: - | variant of: L3-075
+L3-077 | 3.10.1 | tie: Poseidon, Lycus | 1 | hero: Poseidon; Lycus | connected: - | variant of: -
+L3-078 | 3.10.2 | Hermes | 37 | hero: Hermes | connected: - | variant of: -
+L3-079 | 3.10.3 | tie: Apollo, Hyacinth | 2 | hero: Apollo; Hyacinth | connected: - | variant of: -
+L3-080 | 3.10.3 | tie: the Dioscuri, the daughters of Leucippus | 1 | hero: the Dioscuri; the daughters of Leucippus | connected: L3-090, L3-093 | variant of: -
+L3-081 | 3.10.3 | Apollo | 7 | hero: Apollo | connected: L3-083 | variant of: -
+L3-082 | 3.10.3-3.10.4 | Aesculapius | 6 | hero: Aesculapius | connected: - | variant of: -
+L3-083 | 3.10.4 | Apollo | 6 | hero: Apollo | connected: L3-081 | variant of: -
+L3-084 | 3.10.5 | Tyndareus | 7 | hero: Tyndareus | connected: L3-092, L3-094 | variant of: -
+L3-085 | 3.10.6 | tie: Artemis, Phylonoe | 1 | hero: Artemis; Phylonoe | connected: - | variant of: -
+L3-086 | 3.10.7 | Leda | 2 | hero: Leda | connected: - | variant of: -
+L3-087 | 3.10.7 | Nemesis | 5 | hero: Nemesis | connected: - | variant of: L3-086
+L3-088 | 3.10.7 | Leda | 5 | hero: Leda | connected: - | variant of: L3-086
+L3-089 | 3.10.7 | tie: Theseus, Helen | 2 | hero: Theseus; Helen | connected: L3-058, L3-154 | variant of: -
+L3-090 | 3.10.7 | the Dioscuri (Pollux and Castor) | 4 | hero: the Dioscuri | connected: L3-080, L3-093 | variant of: -
+L3-091 | 3.10.8 | the suitors of Helen | 1 | hero: the suitors of Helen | connected: - | variant of: -
+L3-092 | 3.10.9 | Tyndareus | 7 | hero: Tyndareus | connected: L3-084, L3-094 | variant of: -
+L3-093 | 3.11.2 | Pollux | 16 | hero: Pollux | connected: L3-080, L3-090 | variant of: -
+L3-094 | 3.11.2 | Tyndareus | 2 | hero: Tyndareus | connected: L3-084, L3-092 | variant of: -
+L3-095 | 3.12.1 | Iasion | 2 | hero: Iasion | connected: - | variant of: -
+L3-096 | 3.12.1 | Dardanus | 4 | hero: Dardanus | connected: - | variant of: -
+L3-097 | 3.12.2 | tie: Zeus, Ganymede | 2 | hero: Zeus; Ganymede | connected: - | variant of: -
+L3-098 | 3.12.3 | Ilus | 9 | hero: Ilus | connected: L3-100 | variant of: -
+L3-099 | 3.12.3 | Athena | 8 | hero: Athena | connected: - | variant of: -
+L3-100 | 3.12.3 | tie: Electra, Zeus, Ilus | 3 | hero: Ilus | connected: L3-098 | variant of: -
+L3-101 | 3.12.4 | tie: Dawn, Tithonus | 2 | hero: Dawn; Tithonus | connected: - | variant of: -
+L3-102 | 3.12.5 | Priam | 1 | hero: Priam | connected: L3-104 | variant of: -
+L3-103 | 3.12.5 | Aesacus | 2 | hero: Aesacus | connected: - | variant of: -
+L3-104 | 3.12.5 | Priam | 6 | hero: Priam | connected: L3-102 | variant of: -
+L3-105 | 3.12.5 | Paris | 7 | hero: Paris | connected: L3-107 | variant of: -
+L3-106 | 3.12.5 | Cassandra | 4 | hero: Cassandra | connected: - | variant of: -
+L3-107 | 3.12.6 | tie: Oenone, Alexander (Paris) | 10 | hero: Oenone | connected: L3-105 | variant of: -
+L3-108 | 3.12.6 | Zeus | 8 | hero: Zeus | connected: - | variant of: -
+L3-109 | 3.12.6 | Aeacus | 9 | hero: Aeacus | connected: - | variant of: -
+L3-110 | 3.12.6-3.12.7 | Telamon | 11 | hero: Telamon | connected: - | variant of: -
+L3-111 | 3.13.1-3.13.7 | Peleus | 47 | hero: Peleus | connected: - | variant of: -
+L3-112 | 3.13.5 | tie: Prometheus, Zeus | 1 | hero: Prometheus; Zeus | connected: - | variant of: L3-111
+L3-113 | 3.13.5 | tie: Thetis, Zeus | 2 | hero: Thetis; Zeus | connected: - | variant of: L3-111
+L3-114 | 3.13.8 | Achilles | 8 | hero: Achilles | connected: - | variant of: -
+L3-115 | 3.13.8 | Phoenix, son of Amyntor | 5 | hero: Phoenix | connected: - | variant of: -
+L3-116 | 3.13.8 | Patroclus | 5 | hero: Patroclus | connected: - | variant of: -
+L3-117 | 3.14.1 | tie: Athena, Poseidon | 11 | hero: Poseidon | connected: - | variant of: -
+L3-118 | 3.14.1 | tie: Zeus, Cecrops, Cranaus | 1 | hero: Zeus; Cecrops; Cranaus | connected: - | variant of: L3-117
+L3-119 | 3.14.1 | tie: Zeus, Erysichthon | 1 | hero: Zeus; Erysichthon | connected: - | variant of: L3-117
+L3-120 | 3.14.2 | Ares | 5 | hero: Ares | connected: - | variant of: -
+L3-121 | 3.14.3 | tie: Dawn, Cephalus | 2 | hero: Dawn; Cephalus | connected: - | variant of: -
+L3-122 | 3.14.3 | Sandocus | 2 | hero: Sandocus | connected: - | variant of: -
+L3-123 | 3.14.3 | Cinyras | 2 | hero: Cinyras | connected: - | variant of: -
+L3-124 | 3.14.3 | the daughters of Cinyras | 2 | hero: the daughters of Cinyras | connected: - | variant of: -
+L3-125 | 3.14.4 | tie: Adonis, the boar, Artemis | 1 | hero: Adonis; the boar; Artemis | connected: - | variant of: -
+L3-126 | 3.14.4 | Smyrna | 6 | hero: Smyrna | connected: - | variant of: L3-125
+L3-127 | 3.14.4 | Adonis | 8 | hero: Adonis | connected: - | variant of: L3-125
+L3-128 | 3.14.5-3.14.6 | Cranaus | 3 | hero: Cranaus | connected: - | variant of: -
+L3-129 | 3.14.6 | Athena | 11 | hero: Athena | connected: - | variant of: -
+L3-130 | 3.14.6 | the sisters of Pandrosus | 3 | hero: the sisters of Pandrosus | connected: - | variant of: -
+L3-131 | 3.14.6 | the sisters of Pandrosus | 2 | hero: the sisters of Pandrosus | connected: - | variant of: L3-130
+L3-132 | 3.14.6 | Erichthonius | 4 | hero: Erichthonius | connected: - | variant of: -
+L3-133 | 3.14.7 | tie: Erichthonius, Pandion | 1 | hero: Erichthonius; Pandion | connected: - | variant of: -
+L3-134 | 3.14.7 | Demeter | 2 | hero: Demeter | connected: - | variant of: -
+L3-135 | 3.14.7 | Icarius | 10 | hero: Icarius | connected: - | variant of: -
+L3-136 | 3.14.8 | Tereus | 8 | hero: Tereus | connected: - | variant of: -
+L3-137 | 3.14.8 | Procne | 11 | hero: Procne | connected: - | variant of: -
+L3-138 | 3.15.1 | tie: Erechtheus, Butes | 1 | hero: Erechtheus; Butes | connected: L3-145 | variant of: -
+L3-139 | 3.15.1 | Procris | 13 | hero: Procris | connected: - | variant of: -
+L3-140 | 3.15.2 | tie: Boreas, Orithyia | 2 | hero: Boreas; Orithyia | connected: - | variant of: -
+L3-141 | 3.15.2 | Zetes and Calais | 2 | hero: Zetes and Calais | connected: - | variant of: -
+L3-142 | 3.15.2 | tie: Hercules, Zetes and Calais | 1 | hero: Hercules; Zetes and Calais | connected: - | variant of: L3-141
+L3-143 | 3.15.3 | Phineus | 4 | hero: Phineus | connected: - | variant of: -
+L3-144 | 3.15.4 | Eumolpus | 17 | hero: Eumolpus | connected: - | variant of: -
+L3-145 | 3.15.4-3.15.5 | Erechtheus | 6 | hero: Erechtheus | connected: L3-138 | variant of: -
+L3-146 | 3.15.5 | Cecrops, son of Erechtheus | 1 | hero: Cecrops | connected: - | variant of: -
+L3-147 | 3.15.5 | tie: Pandion, Pylas | 6 | hero: Pylas | connected: - | variant of: -
+L3-148 | 3.15.5 | tie: Pandion, Aegeus | 1 | hero: Pandion; Aegeus | connected: - | variant of: -
+L3-149 | 3.15.6-3.15.7 | Aegeus | 19 | hero: Aegeus | connected: - | variant of: -
+L3-150 | 3.15.7 | Androgeus | 2 | hero: Androgeus | connected: - | variant of: L3-149
+L3-151 | 3.15.7-3.15.8 | Minos | 14 | hero: Minos | connected: L3-006, L3-008 | variant of: -
+L3-152 | 3.15.8 | the Athenians | 7 | hero: the Athenians | connected: - | variant of: -
+L3-153 | 3.15.8 | Daedalus | 8 | hero: Daedalus | connected: L3-007 | variant of: -
+L3-154 | 3.16.1-3.16.2 | Theseus | 8 | hero: Theseus | connected: L3-058, L3-089, continues into next part | variant of: -
+E-001 | E.1.1-E.1.9 | Theseus | 33 | hero: Theseus | connected: continues from previous part, E-004, E-008, E-014, E-016 | variant of: -
+E-002 | E.1.7 | Theseus | 1 | hero: Theseus | connected: - | variant of: E-001
+E-003 | E.1.9 | Dionysus, Ariadne (tie) | 3 | hero: Dionysus; Ariadne | connected: - | variant of: -
+E-004 | E.1.10-E.1.11 | Theseus | 7 | hero: Theseus | connected: E-001, E-008, E-014, E-016 | variant of: -
+E-005 | E.1.12-E.1.13 | Daedalus, Icarus (tie) | 6 | hero: Daedalus | connected: E-006 | variant of: -
+E-006 | E.1.14-E.1.15 | Minos | 12 | hero: Minos | connected: E-005 | variant of: -
+E-007 | E.1.15 | Minos | 1 | hero: Minos | connected: - | variant of: E-006
+E-008 | E.1.16-E.1.17 | Theseus | 7 | hero: Theseus | connected: E-001, E-004, E-014, E-016, E-054 | variant of: -
+E-009 | E.1.17 | Theseus, the Amazon (tie) | 1 | hero: Theseus; the Amazon | connected: - | variant of: E-008
+E-010 | E.1.18-E.1.19 | Phaedra, Hippolytus (tie) | 12 | hero: Phaedra | connected: - | variant of: -
+E-011 | E.1.20 | Ixion | 6 | hero: Ixion | connected: - | variant of: -
+E-012 | E.1.21 | the centaurs | 6 | hero: the centaurs | connected: E-013 | variant of: -
+E-013 | E.1.22 | Caeneus | 4 | hero: Caeneus | connected: E-012 | variant of: -
+E-014 | E.1.23 | Theseus, Pirithous (tie) | 3 | hero: Theseus; Pirithous | connected: E-001, E-004, E-008, E-016 | variant of: -
+E-015 | E.1.23 | the Dioscuri | 5 | hero: the Dioscuri | connected: - | variant of: -
+E-016 | E.1.24 | Theseus | 8 | hero: Theseus | connected: E-001, E-004, E-008, E-014 | variant of: -
+E-017 | E.2.1 | Tantalus | 5 | hero: Tantalus | connected: - | variant of: -
+E-018 | E.2.2 | Broteas | 4 | hero: Broteas | connected: - | variant of: -
+E-019 | E.2.3 | Pelops | 4 | hero: Pelops | connected: E-022 | variant of: -
+E-020 | E.2.4-E.2.5 | Oenomaus | 5 | hero: Oenomaus | connected: - | variant of: -
+E-021 | E.2.4 | Oenomaus | 1 | hero: Oenomaus | connected: - | variant of: E-020
+E-022 | E.2.6-E.2.9 | Pelops | 15 | hero: Pelops | connected: E-019 | variant of: -
+E-023 | E.2.7 | Pelops, Oenomaus (tie) | 1 | hero: Pelops; Oenomaus | connected: - | variant of: E-022
+E-024 | E.2.10-E.2.14 | Atreus | 26 | hero: Atreus | connected: - | variant of: -
+E-025 | E.2.15-E.2.16 | Agamemnon | 8 | hero: Agamemnon | connected: E-028, E-070 | variant of: -
+E-026 | E.3.1-E.3.4 | Alexander | 14 | hero: Alexander | connected: - | variant of: -
+E-027 | E.3.5 | Hermes, Helen (tie) | 3 | hero: Hermes; Helen | connected: - | variant of: E-026
+E-028 | E.3.6 | Agamemnon | 3 | hero: Agamemnon | connected: E-025, E-070 | variant of: -
+E-029 | E.3.6-E.3.8 | Ulysses | 10 | hero: Ulysses | connected: E-049, E-063, E-107 | variant of: -
+E-030 | E.3.9 | Cinyras | 5 | hero: Cinyras | connected: - | variant of: -
+E-031 | E.3.10 | Dionysus, the daughters of Anius (tie) | 1 | hero: Dionysus; the daughters of Anius | connected: - | variant of: -
+E-032 | E.3.11-E.3.19 | the Greeks | 13 | hero: the Greeks | connected: E-033, E-034, E-037, E-040, E-043, E-048, E-050, E-064, E-066, E-072, E-074, E-079 | variant of: -
+E-033 | E.3.20 | Telephus | 6 | hero: Telephus | connected: E-032 | variant of: -
+E-034 | E.3.21 | the Greeks | 1 | hero: the Greeks | connected: E-032, E-037, E-040, E-043, E-048, E-050, E-064, E-066, E-072, E-074, E-079 | variant of: -
+E-035 | E.3.21-E.3.22 | Iphigenia | 7 | hero: Iphigenia | connected: E-103 | variant of: -
+E-036 | E.3.22 | Artemis, Iphigenia (tie) | 1 | hero: Artemis; Iphigenia | connected: - | variant of: E-035
+E-037 | E.3.23 | the Greeks | 1 | hero: the Greeks | connected: E-032, E-034, E-040, E-043, E-048, E-050, E-064, E-066, E-072, E-074, E-079 | variant of: -
+E-038 | E.3.23-E.3.26 | Tenes | 13 | hero: Tenes | connected: - | variant of: -
+E-039 | E.3.27 | Philoctetes | 3 | hero: Philoctetes | connected: E-060, E-082, E-094 | variant of: -
+E-040 | E.3.28-E.3.29 | the Greeks | 8 | hero: the Greeks | connected: E-032, E-034, E-037, E-043, E-048, E-050, E-064, E-066, E-072, E-074, E-079 | variant of: -
+E-041 | E.3.30 | Protesilaus | 7 | hero: Protesilaus | connected: - | variant of: -
+E-042 | E.3.31 | Achilles | 3 | hero: Achilles | connected: E-044, E-052, E-058 | variant of: -
+E-043 | E.3.31 | the Greeks | 3 | hero: the Greeks | connected: E-032, E-034, E-037, E-040, E-048, E-050, E-064, E-066, E-072, E-074, E-079 | variant of: -
+E-044 | E.3.32-E.4.1 | Achilles | 11 | hero: Achilles | connected: E-042, E-052, E-058 | variant of: -
+E-045 | E.4.1 | Alexander, Menelaus (tie) | 3 | hero: Menelaus | connected: E-026, E-068, E-105 | variant of: -
+E-046 | E.4.2 | Diomedes | 2 | hero: Diomedes | connected: - | variant of: -
+E-047 | E.4.2 | Hector | 4 | hero: Hector | connected: - | variant of: -
+E-048 | E.4.3 | the Greeks | 3 | hero: the Greeks | connected: E-032, E-034, E-037, E-040, E-043, E-050, E-064, E-066, E-072, E-074, E-079 | variant of: -
+E-049 | E.4.4 | Ulysses, Diomedes (tie) | 4 | hero: Ulysses; Diomedes | connected: E-029, E-063, E-107 | variant of: -
+E-050 | E.4.5 | the Greeks | 5 | hero: the Greeks | connected: E-032, E-034, E-037, E-040, E-043, E-048, E-064, E-066, E-072, E-074, E-079 | variant of: -
+E-051 | E.4.6-E.4.7 | Patroclus | 5 | hero: Patroclus | connected: - | variant of: -
+E-052 | E.4.7 | Achilles | 13 | hero: Achilles | connected: E-042, E-044, E-058 | variant of: -
+E-053 | E.5.1 | Penthesilia | 6 | hero: Penthesilia | connected: E-054 | variant of: -
+E-054 | E.5.2 | Hippolyte | 4 | hero: Hippolyte | connected: E-008, E-053 | variant of: -
+E-055 | E.5.2 | Theseus, Hippolyte (tie) | 1 | hero: Theseus; Hippolyte | connected: - | variant of: E-054
+E-056 | E.5.2 | Theseus's men, Hippolyte (tie) | 1 | hero: Theseus's men; Hippolyte | connected: - | variant of: E-054
+E-057 | E.5.3 | Memnon | 2 | hero: Memnon | connected: - | variant of: -
+E-058 | E.5.3-E.5.6 | Achilles | 12 | hero: Achilles | connected: E-042, E-044, E-052 | variant of: -
+E-059 | E.5.6-E.5.7 | Ajax | 9 | hero: Ajax | connected: - | variant of: -
+E-060 | E.5.8 | Philoctetes | 7 | hero: Philoctetes | connected: E-039, E-082, E-094 | variant of: -
+E-061 | E.5.9-E.5.11 | Helenus | 7 | hero: Helenus | connected: - | variant of: -
+E-062 | E.5.11-E.5.12 | Neoptolemus | 7 | hero: Neoptolemus | connected: E-071, E-077 | variant of: -
+E-063 | E.5.13-E.5.15 | Ulysses | 12 | hero: Ulysses | connected: E-029, E-049, E-107 | variant of: -
+E-064 | E.5.15 | the Greeks | 4 | hero: the Greeks | connected: E-032, E-034, E-037, E-040, E-043, E-048, E-050, E-066, E-072, E-074, E-079 | variant of: -
+E-065 | E.5.16-E.5.18 | the Trojans | 8 | hero: the Trojans | connected: - | variant of: -
+E-066 | E.5.19-E.5.23 | the Greeks | 28 | hero: the Greeks | connected: E-032, E-034, E-037, E-040, E-043, E-048, E-050, E-064, E-072, E-074, E-079 | variant of: -
+E-067 | E.5.23 | Hecuba | 4 | hero: Hecuba | connected: - | variant of: E-066
+E-068 | E.6.1 | Menelaus | 5 | hero: Menelaus | connected: E-045, E-105 | variant of: -
+E-069 | E.6.2-E.6.4 | Calchas | 11 | hero: Calchas | connected: - | variant of: -
+E-070 | E.6.5 | Agamemnon | 1 | hero: Agamemnon | connected: E-025, E-028 | variant of: -
+E-071 | E.6.5 | Neoptolemus | 2 | hero: Neoptolemus | connected: E-062, E-077 | variant of: -
+E-072 | E.6.5 | the Greeks | 3 | hero: the Greeks | connected: E-032, E-034, E-037, E-040, E-043, E-048, E-050, E-064, E-066, E-074, E-079 | variant of: -
+E-073 | E.6.6 | the Locrian Ajax | 6 | hero: the Locrian Ajax | connected: - | variant of: -
+E-074 | E.6.7 | the Greeks | 4 | hero: the Greeks | connected: E-032, E-034, E-037, E-040, E-043, E-048, E-050, E-064, E-066, E-072, E-079 | variant of: -
+E-075 | E.6.8-E.6.9 | Nauplius | 4 | hero: Nauplius | connected: - | variant of: -
+E-076 | E.6.10 | Leucus | 3 | hero: Leucus | connected: - | variant of: -
+E-077 | E.6.12-E.6.14 | Neoptolemus | 11 | hero: Neoptolemus | connected: E-062, E-071 | variant of: -
+E-078 | E.6.14 | Neoptolemus | 4 | hero: Neoptolemus | connected: - | variant of: E-077
+E-079 | E.6.15 | the Greeks | 2 | hero: the Greeks | connected: E-032, E-034, E-037, E-040, E-043, E-048, E-050, E-064, E-066, E-072, E-074 | variant of: -
+E-080 | E.6.15 | Guneus | 1 | hero: Guneus | connected: E-085 | variant of: -
+E-081 | E.6.15 | Antiphus | 1 | hero: Antiphus | connected: E-088 | variant of: -
+E-082 | E.6.15 | Philoctetes | 1 | hero: Philoctetes | connected: E-039, E-060, E-094 | variant of: -
+E-083 | E.6.15 | Phidippus | 1 | hero: Phidippus | connected: E-089 | variant of: -
+E-084 | E.6.15 | Agapenor | 1 | hero: Agapenor | connected: - | variant of: -
+E-085 | E.6.15a | Guneus | 2 | hero: Guneus | connected: E-080 | variant of: -
+E-086 | E.6.15a | Prothous, the Magnesians (tie) | 3 | hero: the Magnesians | connected: - | variant of: -
+E-087 | E.6.15b | Menestheus | 3 | hero: Menestheus | connected: - | variant of: -
+E-088 | E.6.15b | Antiphus | 1 | hero: Antiphus | connected: E-081 | variant of: -
+E-089 | E.6.15b | Phidippus | 2 | hero: Phidippus | connected: E-083 | variant of: -
+E-090 | E.6.15b | Elephenor | 1 | hero: Elephenor | connected: - | variant of: -
+E-091 | E.6.15b | the people of Elephenor | 2 | hero: the people of Elephenor | connected: - | variant of: -
+E-092 | E.6.15b | the people of Tlepolemus | 3 | hero: the people of Tlepolemus | connected: - | variant of: -
+E-093 | E.6.15b | the people of Protesilaus | 1 | hero: the people of Protesilaus | connected: - | variant of: -
+E-094 | E.6.15b | Philoctetes | 5 | hero: Philoctetes | connected: E-039, E-060, E-082 | variant of: -
+E-095 | E.6.15c | the captive Trojan women, the Greeks with them (tie) | 2 | hero: the captive Trojan women; the Greeks with them | connected: - | variant of: -
+E-096 | E.6.16-E.6.17 | Demophon | 14 | hero: Demophon | connected: - | variant of: -
+E-097 | E.6.18 | Podalirius | 3 | hero: Podalirius | connected: - | variant of: -
+E-098 | E.6.19 | Amphilochus | 4 | hero: Amphilochus | connected: - | variant of: -
+E-099 | E.6.20 | the Locrians | 4 | hero: the Locrians | connected: E-100, E-101 | variant of: -
+E-100 | E.6.21 | the maidens | 3 | hero: the maidens | connected: E-099, E-101 | variant of: -
+E-101 | E.6.22 | the Locrians | 4 | hero: the Locrians | connected: E-099, E-100 | variant of: -
+E-102 | E.6.23 | Aegisthus, Clytaemnestra (tie) | 4 | hero: Aegisthus; Clytaemnestra | connected: - | variant of: -
+E-103 | E.6.24-E.6.28 | Orestes | 20 | hero: Orestes | connected: E-035 | variant of: -
+E-104 | E.6.27 | Orestes | 2 | hero: Orestes | connected: - | variant of: E-103
+E-105 | E.6.29 | Menelaus | 9 | hero: Menelaus | connected: E-045, E-068 | variant of: -
+E-106 | E.6.29 | Menelaus, Helen (tie) | 1 | hero: Menelaus; Helen | connected: - | variant of: E-105
+E-107 | E.7.1-E.7.37 | Ulysses | 143 | hero: Ulysses | connected: E-029, E-049, E-063 | variant of: -
+E-108 | E.7.1 | Ulysses | 1 | hero: Ulysses | connected: - | variant of: E-107
+E-109 | E.7.1 | Ulysses | 1 | hero: Ulysses | connected: - | variant of: E-107
+E-110 | E.7.1 | Ulysses | 1 | hero: Ulysses | connected: - | variant of: E-107
+E-111 | E.7.38 | Penelope | 3 | hero: Penelope | connected: - | variant of: E-107
+E-112 | E.7.39 | Penelope | 2 | hero: Penelope | connected: - | variant of: E-107
+E-113 | E.7.40 | Ulysses | 5 | hero: Ulysses | connected: - | variant of: E-107

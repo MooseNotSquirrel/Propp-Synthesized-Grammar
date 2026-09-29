@@ -6,6 +6,6 @@ Your task is Stage 3, transcription, for these episodes only: {EPISODES}. For ea
 
 Obey the rules' section "Where you may look, and where you may not". Do not open any folder but the work folder and the one Propp file, do not search the web, and do not use any published analysis of these myths in Propp's terms. You are transcriber {LINEAGE}; another transcriber works independently, and you must not open the folder of any transcriber but yourself.
 
-Write two files, and nothing else, in C:\Users\Steve1\Desktop\Story Language\ApollodorusWork\transcriber{LINEAGE}\{BATCH}\ (create it): Streams.txt and Notes.txt, in the formats of the rules' section "Transcription formats". Every note quotes the words of the text its entry rests on.
+Keep every working or scratch file you make inside your own folder, named below, and nowhere else: not in any shared scratch or temporary folder, where another transcriber could see it. Write two files, and nothing else, in C:\Users\Steve1\Desktop\Story Language\ApollodorusWork\transcriber{LINEAGE}\{BATCH}\ (create it): Streams.txt and Notes.txt, in the formats of the rules' section "Transcription formats". Every note quotes the words of the text its entry rests on.
 
 Then reply with the report the rules' last section asks for: every place where a rule left you unsure what to write, with the episode and event. Do not summarize results or comment on how well Propp fits.

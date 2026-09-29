@@ -87,6 +87,18 @@ The files are `ApollodorusCensus.txt` and `ApollodorusEvents.txt`, committed bef
 **Every listed episode is transcribed, and no sample is drawn.**
 The protocol allowed a random sample if the corpus proved too large to transcribe; with model transcribers it is not too large.
 
+**The census as taken: 412 episodes, 3,066 events, and 175 episodes to transcribe.**
+Four fresh instances took it, one per part, and the keeper merged the parts with `Apollodorus/keeper.py merge`, which checks that every episode's count equals its listed events.
+The 175 are the episodes of five events or more that are not variants, holding 2,513 events: 31 from the *Library*'s first book, 26 from its second, 72 from its third, and 46 from the *Epitome*.
+Twenty-three sections yield no events; each is genealogy or a list, as the instance that took it reported.
+
+**The four instances judged some unsettled points differently, and the census is kept as taken.**
+All four treated groups acting together as figures, and all four let a short aside stay inside an episode, but their tolerance differed, from one event to about three.
+Two counted a report introduced by "some say" as an event when it is the only account given, and two did not.
+Where the first version of a story is genealogy only, they chose differently which version to list.
+These choices change where episodes begin and end and how many events some hold.
+The census makes no use of Propp's functions, so the differences add noise but cannot favor the grammar, and taking it again would itself be a choice made after seeing it.
+
 ## Stage 2: whose tale
 
 **The hero is the character whose fortunes the episode follows.**
