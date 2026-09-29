@@ -604,10 +604,11 @@
 # reaction, so it does not break the claim. Not yet checked on the page.
 11 | reaction | "E- 6: F+ 0 F 0 F- 6 F= 0 none 0; E+ 1: F+ 1 F 0 F- 0 F= 0 none 0; E unsigned 40: F+ 0 F 31 F- 1 F= 0 none 8" | p.46: the sign on E carries over to F; every negative reaction is followed by F-
 
-# THE RUSSIAN SHUFFLE BASELINE, for ApollodorusProtocol.md. Frozen, with
-# the parameters in ApollodorusPrediction.txt, before shuffleBaseline.py
+# THE RUSSIAN SHUFFLE BASELINE, for ApollodorusProtocol.md, now in the
+# Apollodorus repository. Frozen, with the parameters in
+# ApollodorusPrediction.txt, there too, before shuffleBaseline.py
 # was written. The prediction is a guess: both nulls accept under 20%.
 11 | shufflebelow | 20 | the grammar discriminates: shuffled Russian moves pass under 20% of the time, full and opener-fixed
 # The figures, pinned AFTER the run, so not blind; only the shufflebelow
 # line above was predicted, and it held.
-11 | shuffle | "real 80/84 = 95.2%; shuffled full 0.8%, opener-fixed 1.7%" | the Russian baseline for ApollodorusProtocol.md: real acceptance against shuffled
+11 | shuffle | "real 80/84 = 95.2%; shuffled full 0.8%, opener-fixed 1.7%" | the Russian baseline for the Apollodorus test: real acceptance against shuffled

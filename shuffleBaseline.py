@@ -9,7 +9,8 @@ functions are put in random order?
 
 A grammar that accepts 80 of 84 real moves says something about their
 order only if it refuses most orderings of the same functions. This is the
-baseline ApollodorusProtocol.md requires, with the parameters frozen in
+baseline the Apollodorus test requires (its ApollodorusProtocol.md, now in
+the Apollodorus repository), with the parameters frozen in its
 ApollodorusPrediction.txt before it was written: ProppEBNF46.txt at
 `move`, the 84 moves of ResolvedMoves.txt derived as runCorpus.py derives
 them, 1000 shuffles per move from one random.Random(46) drawn in corpus
