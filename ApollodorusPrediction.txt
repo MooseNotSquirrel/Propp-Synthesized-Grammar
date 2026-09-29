@@ -67,3 +67,15 @@
 # (Cadmus; Phoenix; Cilix) and L3-070 (Callisto; Zeus). Each hero's version
 # is transcribed and parsed, and the versions share one episode's weight
 # equally, so that no episode counts more than once in any figure.
+#
+# ---------------------------------------------------------------------------
+# PART 3. THE AUDIT DRAW, COMMITTED BEFORE THE DRAW
+# ---------------------------------------------------------------------------
+# From each transcription, 50 entries are drawn from the scored episodes'
+# Notes.txt lines whose symbol is a function, not X: X claims only that no
+# function fits, which the audit's question, whether the cited words say
+# what the symbol claims, cannot test. The lines are sorted by transcriber,
+# episode, move, position; random.Random(4646).sample(lines, 50) per
+# transcriber, A drawn first. The auditor sees the 100 entries in one order
+# shuffled by random.Random(4647), without the transcriber's name, the move,
+# or any parse result, and answers: supported, not supported, or unsure.
