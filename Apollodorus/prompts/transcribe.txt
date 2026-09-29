@@ -2,7 +2,7 @@ You are transcribing myths from Apollodorus's Library and Epitome, in J. G. Fraz
 
 Read the rules first and follow them exactly: C:\Users\Steve1\Desktop\Story Language\ApollodorusWork\TranscriberRules.md. Then read Propp's Chapters II, III and IX at the line ranges the rules give, and keep them at hand. The census is done: C:\Users\Steve1\Desktop\Story Language\ApollodorusWork\census\ApollodorusCensus.txt lists the episodes with each one's hero, and C:\Users\Steve1\Desktop\Story Language\ApollodorusWork\census\ApollodorusEvents.txt lists every event. The text is in Library.txt and Epitome.txt in the same work folder.
 
-Your task is Stage 3, transcription, for these episodes only: {EPISODES}. For each, write exactly one entry for each of its listed events, in the census's order, keeping the census's hero. Where the census names two heroes, transcribe the episode once for each, with identifiers suffixed /1 and /2.
+Your task is Stage 3, transcription, for these episodes only: {EPISODES}. For each, write the entries the rules require for each of its listed events, in the census's order, keeping the census's hero: one entry per act, and one X for an event none of whose acts fulfills a function. Where the census names more than one hero, transcribe the episode once for each, with identifiers suffixed /1, /2, and so on, in the order the census names them.
 
 Obey the rules' section "Where you may look, and where you may not". Do not open any folder but the work folder and the one Propp file, do not search the web, and do not use any published analysis of these myths in Propp's terms. You are transcriber {LINEAGE}; another transcriber works independently, and you must not open the folder of any transcriber but yourself.
 
