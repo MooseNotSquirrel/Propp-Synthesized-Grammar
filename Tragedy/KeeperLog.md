@@ -36,3 +36,7 @@ The list is kept; the rule now states the order of telling, from P03 on.
 Transcriber A: 86 entries in 4 moves. The reports show judgment calls at gaps, not departures: a demand read as a lack or an order; where a repeated harm stops opening moves; the oracle's demand for a maiden's sacrifice read as a lack (a) or a difficult task (M).
 Transcriber A noticed the P02 event list's order, logged at the events stage, and followed the list as given.
 Transcriber B kept its working script in a scratch folder outside the repository, against its prompt, which asked for working files inside its own folder and deleted; the script was not committed, and transcriber A was forbidden any folder but its own.
+
+**Events stage, P03, Oedipus at Colonus: in form.**
+115 events, 21 told as past, listed in the order of telling as the clarified rule requires (no event cited before the one listed ahead of it); hero Oedipus, well ahead of Theseus.
+The lister listed an event told more than once only where the play first states it clearly.
