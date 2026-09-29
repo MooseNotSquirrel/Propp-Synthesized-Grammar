@@ -70,3 +70,10 @@ The share of entries marked N; the share of fables that hold a villainy or lack 
 4. The pilot transcriptions, and any rule amended at a gap they report.
 5. The two transcriptions.
 6. The run, the audit and the report.
+
+## The pilot
+
+**The pilot was F044, F082 and F183, transcribed in a cloud session, and it changed seven rules.**
+Both transcribers reported where the rules left them unsure; the keeper checked the files' form and did not parse the strings.
+Each amendment answers a reported gap and is stated generally in `AesopRules.md`: a request or demand is the asker's want until harm is done; the same want or harm repeated toward the same end opens no new move, since p.92 opens a move only at a new villainy or lack; the hero's request for help is a or X, and its answer F or F−; mediation needs someone who might act, so a lament to no one is X; an event that narrates an act is never α; the return is to where the hero set out from; and a closing speech that the fable's point turns on matters.
+Three of these clarify the definitions card and were put to its approver before the main run.
