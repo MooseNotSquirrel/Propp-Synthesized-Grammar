@@ -79,3 +79,7 @@
 # transcriber, A drawn first. The auditor sees the 100 entries in one order
 # shuffled by random.Random(4647), without the transcriber's name, the move,
 # or any parse result, and answers: supported, not supported, or unsure.
+#
+# THE DRAW, made after the commit above: 100 items in Apollodorus/AuditItems.json.
+# The key, Apollodorus/AuditKey.txt, is held back until the audit is done;
+# its SHA-256 is abe9b2f1f1293e49b3256c84ca7bee2675843f45f90922ac0c87c852e232a00b
