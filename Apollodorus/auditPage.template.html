@@ -1,0 +1,247 @@
+<title>Apollodorus Transcription Audit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+:root {
+  --bg: #F2F3EF; --paper: #FAFAF7; --ink: #1C2320; --muted: #5B6560; --rule: #CDD1C8;
+  --accent: #2D3F6E; --accent-soft: #E3E7F0; --mark: #F3E3A6;
+  --yes: #2E6B4A; --yes-soft: #DDEEE3; --no: #9A3B2E; --no-soft: #F4DEDA; --maybe: #7A5A12; --maybe-soft: #F2E8CF;
+  --serif: "Literata", Georgia, serif; --display: "Spectral", Georgia, serif; --mono: "JetBrains Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141719; --paper: #1B1F22; --ink: #E3E6E0; --muted: #9AA39D; --rule: #333A3D;
+    --accent: #9DB0E4; --accent-soft: #232B3D; --mark: #4A4020;
+    --yes: #7FC49B; --yes-soft: #1C3226; --no: #E39A8C; --no-soft: #3A2320; --maybe: #E2C27A; --maybe-soft: #3A3120;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141719; --paper: #1B1F22; --ink: #E3E6E0; --muted: #9AA39D; --rule: #333A3D;
+  --accent: #9DB0E4; --accent-soft: #232B3D; --mark: #4A4020;
+  --yes: #7FC49B; --yes-soft: #1C3226; --no: #E39A8C; --no-soft: #3A2320; --maybe: #E2C27A; --maybe-soft: #3A3120;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--serif); font-size: 17px; line-height: 1.6; padding-inline: 16px; padding-block: 0 48px; }
+.wrap { max-width: 860px; margin: 0 auto; }
+header { padding-block: 36px 16px; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(28px, 5vw, 38px); line-height: 1.1; margin: 0 0 12px; text-wrap: balance; }
+.lede { margin: 0 0 8px; max-width: 66ch; }
+details.how { margin: 8px 0 18px; }
+details.how summary { cursor: pointer; color: var(--accent); }
+details.how p { margin: 8px 0; max-width: 66ch; }
+.status { font-family: var(--mono); font-size: 13px; color: var(--muted); margin: 6px 0 14px; min-height: 1.2em; }
+.status.warn { color: var(--no); }
+.progress { display: flex; align-items: center; gap: 12px; margin: 0 0 14px; }
+.bar { flex: 1; height: 8px; background: var(--rule); border-radius: 4px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+.count { font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(34px, 1fr)); gap: 4px; margin: 0 0 22px; }
+.grid button { font-family: var(--mono); font-size: 11px; padding: 5px 0; border: 1px solid var(--rule); background: var(--paper); color: var(--muted); border-radius: 3px; cursor: pointer; }
+.grid button.cur { outline: 2px solid var(--accent); outline-offset: 1px; color: var(--ink); }
+.grid button.supported { background: var(--yes-soft); color: var(--yes); border-color: transparent; }
+.grid button.not { background: var(--no-soft); color: var(--no); border-color: transparent; }
+.grid button.unsure { background: var(--maybe-soft); color: var(--maybe); border-color: transparent; }
+.card { background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 20px 22px; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 18px; font-family: var(--mono); font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+.claim { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; padding: 12px 14px; background: var(--accent-soft); border-radius: 4px; margin: 0 0 16px; }
+.sym { font-family: var(--mono); font-weight: 600; font-size: 28px; color: var(--accent); }
+.fname { font-family: var(--display); font-size: 20px; font-weight: 600; }
+.who { width: 100%; font-size: 15px; color: var(--ink); }
+.who b { font-weight: 600; }
+.neg { font-family: var(--mono); font-size: 12px; color: var(--no); }
+.label { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+.quote { font-style: italic; margin: 0 0 14px; padding-left: 12px; border-left: 3px solid var(--accent); }
+.text { margin: 0 0 18px; max-height: 40vh; overflow-y: auto; padding-right: 6px; }
+mark { background: var(--mark); color: inherit; padding: 0 1px; border-radius: 2px; }
+.answers { display: flex; flex-wrap: wrap; gap: 10px; margin: 4px 0 12px; }
+.answers button { font-family: var(--serif); font-size: 16px; padding: 10px 16px; border-radius: 5px; border: 1px solid var(--rule); background: var(--bg); color: var(--ink); cursor: pointer; flex: 1 1 140px; }
+.answers button kbd { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-left: 6px; }
+.answers button[data-v="supported"].on { background: var(--yes-soft); border-color: var(--yes); color: var(--yes); }
+.answers button[data-v="not"].on { background: var(--no-soft); border-color: var(--no); color: var(--no); }
+.answers button[data-v="unsure"].on { background: var(--maybe-soft); border-color: var(--maybe); color: var(--maybe); }
+.answers button:disabled { opacity: .5; cursor: not-allowed; }
+textarea { width: 100%; min-height: 64px; font-family: var(--serif); font-size: 15px; padding: 8px 10px; border: 1px solid var(--rule); border-radius: 4px; background: var(--bg); color: var(--ink); resize: vertical; }
+.nav { display: flex; justify-content: space-between; gap: 10px; margin-top: 14px; }
+.nav button { font-family: var(--mono); font-size: 13px; padding: 8px 14px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper); color: var(--accent); cursor: pointer; }
+button:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+footer { margin-top: 26px; font-size: 14px; color: var(--muted); max-width: 66ch; }
+@media (prefers-reduced-motion: reduce) { .bar i { transition: none; } }
+</style>
+
+<div class="wrap">
+<header>
+  <p class="eyebrow">Apollodorus in Propp's notation</p>
+  <h1>Apollodorus Transcription Audit</h1>
+  <p class="lede">One hundred entries drawn at random from the two transcriptions, mixed, with nothing to say which transcriber wrote which. For each, read the section and decide whether the quoted words say what the symbol claims.</p>
+  <details class="how">
+    <summary>How to judge an entry</summary>
+    <p><b>Supported:</b> the words show the act the symbol names, done and undergone by the figures named, read as Propp defines the function.</p>
+    <p><b>Not supported:</b> the words do not show that act, or show it with the wrong figures, or the symbol names a function the act plainly is not.</p>
+    <p><b>Unsure:</b> the reading is defensible but doubtful, or turns on something the section does not settle.</p>
+    <p>Judge the reading of the text only. Not whether the tale fits Propp, not whether you would have chosen differently among readings that are both defensible, and not what other tellings of the myth say.</p>
+    <p>Keys: <b>S</b> supported, <b>N</b> not supported, <b>U</b> unsure, arrow keys to move. Each answer saves as you give it, and you can change it.</p>
+  </details>
+  <div class="status" id="status">Connecting to the answer store...</div>
+  <div class="progress"><div class="bar"><i id="barfill"></i></div><span class="count" id="count">0 of 100</span></div>
+  <div class="grid" id="grid" aria-label="Entries"></div>
+</header>
+
+<main class="card" id="card" aria-live="polite">
+  <div class="meta"><span id="m-id"></span><span id="m-cite"></span></div>
+  <div class="claim">
+    <span class="sym" id="c-sym"></span><span class="fname" id="c-name"></span><span class="neg" id="c-neg"></span>
+    <div class="who">Performed by <b id="c-perf"></b>, undergone by <b id="c-und"></b></div>
+  </div>
+  <p class="label">The words the entry rests on</p>
+  <p class="quote" id="c-quote"></p>
+  <p class="label">The whole section, Frazer's translation</p>
+  <div class="text" id="c-text"></div>
+  <div class="answers" id="answers">
+    <button type="button" data-v="supported" id="b-yes">Supported<kbd>S</kbd></button>
+    <button type="button" data-v="not" id="b-no">Not supported<kbd>N</kbd></button>
+    <button type="button" data-v="unsure" id="b-maybe">Unsure<kbd>U</kbd></button>
+  </div>
+  <label class="label" for="comment">Comment, optional</label>
+  <textarea id="comment" placeholder="Why, if it is worth saying"></textarea>
+  <div class="nav"><button type="button" id="prev">&larr; Previous</button><button type="button" id="next">Next &rarr;</button></div>
+</main>
+
+<footer>The text is J. G. Frazer's 1921 translation, from the Perseus Digital Library under a Creative Commons Attribution-ShareAlike licence. Which transcriber wrote each entry is kept apart from this page until the audit is done.</footer>
+</div>
+
+<script type="application/json" id="items">__DATA__</script>
+<script>
+(function () {
+  var items = JSON.parse(document.getElementById('items').textContent);
+  var answers = {};
+  var cur = 0;
+  var db = null, canWrite = false;
+  try { var saved = parseInt(localStorage.getItem('audit-cur') || '0', 10); if (saved >= 0 && saved < items.length) cur = saved; } catch (e) {}
+  var $ = function (id) { return document.getElementById(id); };
+  var status = $('status');
+
+  var grid = $('grid');
+  items.forEach(function (it, i) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.textContent = String(i + 1);
+    b.setAttribute('aria-label', 'Entry ' + it.id);
+    b.addEventListener('click', function () { go(i); });
+    grid.appendChild(b);
+  });
+
+  function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return {'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]; }); }
+  function highlight(text, quote) {
+    var t = esc(text);
+    if (!quote) return t;
+    var q = esc(quote.replace(/\s*(\.\.\.|…)\s*/g, ' ').trim());
+    var k = t.indexOf(q);
+    if (k < 0 && q.length > 40) { q = q.slice(0, 40); k = t.indexOf(q); }
+    return k < 0 ? t : t.slice(0, k) + '<mark>' + t.slice(k, k + q.length) + '</mark>' + t.slice(k + q.length);
+  }
+
+  function render() {
+    var it = items[cur];
+    $('m-id').textContent = 'Entry ' + (cur + 1) + ' of ' + items.length + ' (' + it.id + ')';
+    $('m-cite').textContent = (it.cite.charAt(0) === 'E' ? 'Epitome ' : 'Library ') + it.cite;
+    $('c-sym').textContent = it.symbol;
+    $('c-name').textContent = it.name;
+    $('c-neg').textContent = it.negative ? 'negative result' : '';
+    $('c-perf').textContent = it.performer && it.performer !== '-' ? it.performer : 'no one named';
+    $('c-und').textContent = it.undergoer && it.undergoer !== '-' ? it.undergoer : 'no one named';
+    $('c-quote').textContent = it.quote;
+    $('c-text').innerHTML = highlight(it.text, it.quote);
+    var a = answers[it.id] || {};
+    document.querySelectorAll('#answers button').forEach(function (b) {
+      b.classList.toggle('on', a.verdict === b.dataset.v);
+      b.disabled = !canWrite;
+      b.setAttribute('aria-pressed', a.verdict === b.dataset.v ? 'true' : 'false');
+    });
+    var c = $('comment');
+    if (document.activeElement !== c) c.value = a.comment || '';
+    c.disabled = !canWrite;
+    var kids = grid.children;
+    for (var i = 0; i < kids.length; i++) {
+      var v = (answers[items[i].id] || {}).verdict;
+      kids[i].className = (v || '') + (i === cur ? ' cur' : '');
+    }
+    var n = Object.keys(answers).filter(function (k) { return answers[k].verdict; }).length;
+    $('count').textContent = n + ' of ' + items.length;
+    $('barfill').style.width = (100 * n / items.length) + '%';
+  }
+
+  function go(i) {
+    cur = Math.max(0, Math.min(items.length - 1, i));
+    try { localStorage.setItem('audit-cur', String(cur)); } catch (e) {}
+    render();
+  }
+
+  var writing = {};
+  function save(id, body) {
+    if (!db || !canWrite) return;
+    answers[id] = Object.assign({}, answers[id] || {}, body);
+    render();
+    if (writing[id]) { writing[id].pending = true; return; }
+    writing[id] = {pending: false};
+    var run = function () {
+      writing[id].pending = false;
+      var doc = {verdict: answers[id].verdict || '', comment: answers[id].comment || '', at: new Date().toISOString()};
+      db.doc('answers/' + id).set(doc).then(function () {
+        status.className = 'status'; status.textContent = 'Saved entry ' + id + '.';
+        if (writing[id].pending) run(); else delete writing[id];
+      }).catch(function (e) {
+        delete writing[id];
+        status.className = 'status warn';
+        status.textContent = e && e.code === 'invalid_argument' ? 'Only the page owner can record answers.' : 'That answer was not saved (' + (e && e.code || 'error') + '). Try again.';
+        if (e && e.code === 'invalid_argument') { canWrite = false; render(); }
+      });
+    };
+    run();
+  }
+
+  document.querySelectorAll('#answers button').forEach(function (b) {
+    b.addEventListener('click', function () { save(items[cur].id, {verdict: b.dataset.v}); });
+  });
+  var timer = null;
+  $('comment').addEventListener('input', function (e) {
+    var id = items[cur].id, val = e.target.value;
+    clearTimeout(timer);
+    timer = setTimeout(function () { save(id, {comment: val}); }, 700);
+  });
+  $('prev').addEventListener('click', function () { go(cur - 1); });
+  $('next').addEventListener('click', function () { go(cur + 1); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target.tagName === 'TEXTAREA' || e.metaKey || e.ctrlKey || e.altKey) return;
+    var k = e.key.toLowerCase();
+    if (k === 's') save(items[cur].id, {verdict: 'supported'});
+    else if (k === 'n') save(items[cur].id, {verdict: 'not'});
+    else if (k === 'u') save(items[cur].id, {verdict: 'unsure'});
+    else if (e.key === 'ArrowRight') go(cur + 1);
+    else if (e.key === 'ArrowLeft') go(cur - 1);
+  });
+
+  render();
+
+  var use = window.claude && window.claude.use ? window.claude.use : null;
+  if (!use) { status.className = 'status warn'; status.textContent = 'The answer store is not available in this view, so answers cannot be saved here.'; return; }
+  Promise.all([use('db'), use('user')]).then(function (r) {
+    db = r[0];
+    var user = r[1];
+    if (!db) { status.className = 'status warn'; status.textContent = 'The answer store is not available in this view, so answers cannot be saved here.'; render(); return; }
+    canWrite = user && user.isOwner ? !!user.isOwner() : true;
+    status.className = canWrite ? 'status' : 'status warn';
+    status.textContent = canWrite ? 'Answers save as you give them.' : 'You can read the entries; only the page owner records answers.';
+    db.collection('answers').onSnapshot(function (snap) {
+      snap.docs.forEach(function (d) { if (d.exists) answers[d.id] = Object.assign({}, d.data()); });
+      render();
+    }, function (e) {
+      status.className = 'status warn';
+      status.textContent = 'Lost the connection to the answer store (' + (e && e.code || 'error') + '). Reload to continue.';
+    });
+    render();
+  });
+})();
+</script>
