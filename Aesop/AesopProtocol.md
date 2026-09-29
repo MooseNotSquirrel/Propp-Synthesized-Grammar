@@ -30,7 +30,7 @@ The Aesop repository holds only that material, and nothing of the grammar, its r
 
 **The definitions card replaces Propp's chapters.**
 Propp's text cannot be placed where cloud instances can read it, so the rules carry a card defining each function in plain words, close to his own.
-The card is reviewed and approved before any transcription begins.
+The card was reviewed and approved before any transcription began.
 Variety numbers are not written, since the card does not give Propp's lists of forms.
 
 **The keeper merges, checks and scores, and transcribes nothing.**
