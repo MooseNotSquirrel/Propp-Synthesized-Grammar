@@ -26,3 +26,8 @@ The scoring program was committed before this branch was fetched.
 **P01, second run, from `master` at 2f1176e: both transcriptions in form, under the amended rules.**
 Transcriber A: 98 entries in 10 moves; transcriber B: 96 entries in 5 moves; every one of the 83 events covered.
 The reports show judgment calls at gaps, not departures; the recurring ones are whether an order is γ or B, where a repeated harm ends and a new one begins (which accounts for the difference in move counts), and how to mark whether an act told as past matters.
+
+**Events stage, P02, Heracleidae: in form.**
+75 events, 16 told as past; hero Iolaus, in about 29 events against about 16 for Eurystheus.
+The lister put the past events in the order they happened, where the P01 and pilot listers had put each event where it is told; in practice two events, 5 and 6, told late, stand among the prologue's past events, and the battle report keeps the order of telling.
+The list is kept; the rule now states the order of telling, from P03 on.
