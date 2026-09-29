@@ -26,18 +26,22 @@ THE DERIVATION, fixed before any transcription was read:
      preparatory and X entries is removed. A preparatory entry anywhere
      else stays, and the move grammar judges it.
   3. X is removed and counted.
-  4. Every other entry is reduced to its key by runCorpus.py's own
+  4. Notation variants are read as the rules' notation: a variety number in
+     plain digits (A15) as a superscript, a superscript minus as the minus,
+     Propp's lowercase f as F, and C↑, Propp's combined sign in his own
+     analyses, as the two functions C and ↑.
+  5. Every other entry is reduced to its key by runCorpus.py's own
      reduction, varieties and signs stripped, KF read as K and w as W, as
      the Russian moves are. Nothing before the opener is dropped: in the
      Russian corpus that drop answers Propp's table layout, and Greek order
      is narrative order.
-  5. With the extensions on (+tragedy,reversal), I with a minus is the
+  6. With the extensions on (+tragedy,reversal), I with a minus is the
      defeat I-, and Rv is written before the first U, Q or Ex in a move
      whose undergoer names the hero and which follows a K or W in the same
      move.
-  6. Doubt: the primary corpus keeps the entries marked '?'; the second
+  7. Doubt: the primary corpus keeps the entries marked '?'; the second
      drops them. Both are scored; the verdict is read on the primary.
-  7. Weights: each episode weighs 1; an episode with k heroes is
+  8. Weights: each episode weighs 1; an episode with k heroes is
      transcribed k times and each version weighs 1/k. Within a version,
      every move counts, and coverage counts every census event.
 THE MEASUREMENTS, as ApollodorusPrediction.txt fixes them: coverage, the
@@ -68,8 +72,8 @@ import shuffleBaseline as SB  # noqa: E402
 
 PREP = set('αβγδεζηθλ')
 BASES = {'A', 'a', 'B', 'C', '↑', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', '↓', 'Pr', 'Rs', 'o', 'L',
-         'M', 'N', 'Q', 'Ex', 'T', 'U', 'W', 'X', 'KF', 'w'} | PREP
-MARKS = re.compile('[⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉ⁱᵛˣ*−₋₊+\\-]')
+         'M', 'N', 'Q', 'Ex', 'T', 'U', 'W', 'X', 'KF', 'w', 'f', 'C↑'} | PREP
+MARKS = re.compile(r'[⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉0-9ⁱᵛˣ*−₋₊⁻+\-]')
 GRAMMAR = 'ProppEBNF46.txt'
 BANDS = (('1-4', 1, 4), ('5-6', 5, 6), ('7-9', 7, 9), ('10+', 10, 10 ** 6))
 PILOT = {'L2-028', 'L3-044', 'L3-083'}
@@ -80,7 +84,7 @@ def base(sym):
 
 
 def negative(sym):
-    return any(c in sym for c in '−₋-')
+    return any(c in sym for c in '−₋⁻-')
 
 
 def scored_episodes():
@@ -102,6 +106,8 @@ def load_notes(work, lineage):
     entries = collections.defaultdict(list)
     streams = {}
     for d in sorted(glob.glob(os.path.join(work, 'transcriber' + lineage, 'b[0-9][0-9]'))):
+        if not (os.path.exists(os.path.join(d, 'Notes.txt')) and os.path.exists(os.path.join(d, 'Streams.txt'))):
+            continue
         for line in open(os.path.join(d, 'Notes.txt'), encoding='utf-8'):
             f = [x.strip() for x in line.rstrip('\n').split('|', 9)]
             if len(f) < 9 or not re.match(r'^(L[123]|E)-\d+', f[0]):
@@ -168,6 +174,9 @@ def derive(ents, hero, extended, drop_doubt):
                 continue
             if b in PREP:
                 keys.append(b)
+                continue
+            if b == 'C↑':
+                keys += ['C', 'up']
                 continue
             if extended and b == 'I' and negative(e['sym']):
                 keys.append('I-')
