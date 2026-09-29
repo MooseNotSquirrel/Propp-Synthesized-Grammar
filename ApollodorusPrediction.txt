@@ -56,3 +56,8 @@
 # shipped figure. Whether the claim requires the shipped grammar or the
 # extended one is STILL OPEN and is fixed here before any transcription is
 # parsed.
+#
+# THE GRAMMAR QUESTION, DECIDED BEFORE ANY TEXT WAS TRANSCRIBED: both
+# grammars are scored, ProppEBNF46.txt as shipped and with +tragedy,reversal,
+# against the same three thresholds, and the report gives a verdict for each
+# side by side. Neither is privileged.

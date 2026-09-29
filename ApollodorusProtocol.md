@@ -17,7 +17,9 @@ Citations take Perseus's form, book, chapter and section, such as 2.4.1 for the 
 
 **The transcriber reads Frazer's text and not Frazer's notes.**
 The notes compare Apollodorus with other ancient sources, and reading them would import other versions of the myth into the one being transcribed.
-The keeper takes the text from the Perseus project's TEI files, `tlg0548.tlg001.perseus-eng2.xml` for the *Library* and `tlg0548.tlg002.perseus-eng2.xml` for the *Epitome*, and strips the notes before the text reaches the transcribers, so the rule is enforced rather than asked.
+The keeper takes the text from the Perseus project's TEI files, `tlg0548.tlg001.perseus-eng2.xml` for the *Library* and `tlg0548.tlg002.perseus-eng2.xml` for the *Epitome*, from the PerseusDL `canonical-greekLit` repository, which licenses them under Creative Commons Attribution-ShareAlike 4.0.
+`Apollodorus/extract.py` strips the notes before the text reaches the transcribers, so the rule is enforced rather than asked.
+It yields 209 sections of the *Library*, 38,368 words, and 177 of the *Epitome*, 11,399 words, in `Apollodorus/Library.txt` and `Apollodorus/Epitome.txt`.
 
 **The *Library* is a handbook, and that shapes what the test can show.**
 Apollodorus summarizes; he does not tell tales at a storyteller's length.
@@ -32,10 +34,13 @@ The transcriber reads Propp's Chapters II, III and IX, where he defines the func
 The transcriber must not see `ProppEBNF46.txt`, `StepTests.txt`, `SemanticCatalog46.md`, `CorpusGroups.txt`, or any measurement made from them.
 Anyone who has worked on the grammar, a language model included, is disqualified as the transcriber for the same reason.
 
-**The transcribers are two fresh language-model instances, and a third takes the census.**
+**The transcribers are two fresh language-model instances, and others take the census.**
+The census is taken by four fresh instances, one for each part of the text: the *Library*'s three books and the *Epitome*.
 Each instance starts with no memory of this project and none of the conversation in which the grammar was built.
 The two transcribers run on different models, so that a shared habit of one model does not pass for agreement.
 Each is given only the transcriber's rules, the stripped text, and Propp's Chapters II, III and IX.
+They may not search the web or use any published analysis of Greek myth in Propp's terms.
+The rules they work from are `Apollodorus/TranscriberRules.md`, and the prompts they are given are in `Apollodorus/prompts/`, both committed before any instance runs.
 Their blindness rests on instruction: they run with access to the machine's files and are told not to open the project's.
 The results are reported as transcribed by two language-model instances without access to the grammar, which is a weaker claim of independence than human transcribers would give.
 
@@ -73,9 +78,11 @@ A figure who returns after an interval of other events begins a new episode, and
 None is excluded for any other reason.
 Episodes of fewer than five events are listed in the census and counted, but not transcribed.
 
-**The census is one line per episode.**
-Each line gives an identifier, the citation span, the central figure, and the number of events.
-The file is `ApollodorusCensus.txt`, and it is committed before Stage 2.
+**The census is one line per episode, with a second file listing the events.**
+Each census line gives an identifier, the citation span, the central figure, the number of events, and, from Stage 2, the hero.
+The events file gives one line per event: its episode, its number, its citation and a plain paraphrase without Propp's terms.
+The transcribers write exactly one entry for each listed event, so coverage has a fixed denominator and the two transcriptions can be compared event by event.
+The files are `ApollodorusCensus.txt` and `ApollodorusEvents.txt`, committed before any transcription.
 
 **Every listed episode is transcribed, and no sample is drawn.**
 The protocol allowed a random sample if the corpus proved too large to transcribe; with model transcribers it is not too large.
@@ -99,7 +106,7 @@ The transcriber records who performs and who undergoes each function, and does n
 
 ## Stage 3: transcription
 
-**Each event gets exactly one entry: a function symbol, or X.**
+**Each census event gets exactly one entry: a function symbol, or X.**
 Propp defines a function as "an act of a character, defined from the point of view of its significance for the course of the action" (p.21).
 Where the act's significance is unclear, the function is defined by its consequences, as Propp does himself (p.67).
 
@@ -197,7 +204,7 @@ The claim holds if all three are met.
 Acceptance is reported twice, as shipped and with the extensions, and the two results say different things.
 Passing as shipped would mean Greek myth follows Propp's syntax as he gave it.
 Passing only with the extensions would mean it follows that syntax with a turned ending, the fall that tragedy adds.
-Which of the two the claim requires is still open; it does not change how anything is transcribed, and it is fixed before the keeper parses any transcription.
+Neither is privileged: the claim is judged twice, once for each grammar, and the report sets the two verdicts side by side to show how much the extensions change.
 Each transcription is scored on its own, and the claim holds only if it holds on both.
 The run also reports where in the move the rejected strings fail, since failures clustered at one position would show a specific difference rather than a general one.
 
@@ -220,10 +227,10 @@ Low agreement does not stop the test, but every acceptance figure is then read w
 
 ## Decisions
 
-**Five decisions are made, and one is still open.**
+**Six decisions are made.**
 - The thresholds: coverage of at least 80%; acceptance, as shipped, within 10 points of the Russian figure; and a gap over shuffled strings at least as large as the Russian gap in each length band with enough Greek moves.
 - The *Epitome* is included, since it carries the Trojan cycle and the returns, Odysseus among them.
 - An episode needs five events or more.
 - Every listed episode is transcribed; no sample is drawn.
 - Two fresh language-model instances on different models transcribe, a third takes the census, and an auditor checks fifty entries from each transcription.
-- Still open: whether the claim requires the grammar as shipped or with the extensions. It is fixed before the keeper parses any transcription.
+- The grammar: both are scored, as shipped and with the extensions, with a verdict for each and neither privileged.
