@@ -1,0 +1,66 @@
+Plays scored: 4 of 32 (interim: reported, not judged)
+Plays: P01, P02, P03, P04
+
+TRANSCRIBER A
+  function entries marked N (incidental): 23 of 214 (10.7%)
+  reading primary: coverage 47.4% (threshold 80%)
+  reading secondary: coverage 52.3% (threshold 80%)
+  reading nodoubt: coverage 28.9% (threshold 80%)
+  order as told: 43.4% of function pairs backward against Propp, shuffled 50.0%
+  past events first: 44.3% of function pairs backward against Propp, shuffled 50.0%
+  pairs (primary):
+    interdiction, violation          n= 21.0 follow  57.1% shuffled  59.6%
+    reconnaissance, delivery         n=  1.0 follow 100.0% shuffled  48.0%
+    trickery, complicity             n=  4.0 follow  50.0% shuffled  37.8%
+    test, reaction                   n=  2.0 follow   0.0% shuffled   0.0%
+    struggle, victory                n=  2.0 follow  50.0% shuffled  66.0%
+    pursuit, rescue                  n=  4.0 follow 100.0% shuffled  72.2%
+    branding, recognition            n=  2.0 follow  50.0% shuffled  64.0%
+    villainy or lack, liquidation    n= 45.0 follow  68.9% shuffled  48.6%
+    departure, return                n=  8.0 follow  37.5% shuffled  24.9%
+  v46 as shipped: acceptance 35.5% of 31 moves (threshold 85.2%)
+    1-4  n= 18 real  61.1% shuffled  56.8% gap   4.4 (Russian gap 85.7)
+    5-6  n=  5 real   0.0% shuffled   1.0% gap  -1.0 (Russian gap 97.9) (too few, not judged)
+    7-9  n=  3 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 97.5) (too few, not judged)
+    10+  n=  5 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 82.4) (too few, not judged)
+    VERDICT (interim, not judged): the claim does not hold
+  v46 with extensions: acceptance 35.5% of 31 moves (threshold 85.2%)
+    1-4  n= 18 real  61.1% shuffled  56.8% gap   4.4 (Russian gap 85.7)
+    5-6  n=  5 real   0.0% shuffled   1.0% gap  -1.0 (Russian gap 97.9) (too few, not judged)
+    7-9  n=  3 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 97.5) (too few, not judged)
+    10+  n=  5 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 82.4) (too few, not judged)
+    VERDICT (interim, not judged): the claim does not hold
+
+TRANSCRIBER B
+  function entries marked N (incidental): 38 of 224 (17.0%)
+  reading primary: coverage 43.9% (threshold 80%)
+  reading secondary: coverage 51.5% (threshold 80%)
+  reading nodoubt: coverage 27.8% (threshold 80%)
+  order as told: 45.3% of function pairs backward against Propp, shuffled 50.3%
+  past events first: 46.7% of function pairs backward against Propp, shuffled 50.5%
+  pairs (primary):
+    interdiction, violation          n= 28.0 follow  57.1% shuffled  59.3%
+    trickery, complicity             n=  4.0 follow  25.0% shuffled  34.4%
+    test, reaction                   n=  1.0 follow 100.0% shuffled  50.0%
+    struggle, victory                n=  4.0 follow  25.0% shuffled  16.1%
+    pursuit, rescue                  n=  4.0 follow  75.0% shuffled  62.8%
+    task, solution                   n=  2.0 follow  50.0% shuffled  39.0%
+    branding, recognition            n=  2.0 follow  50.0% shuffled  58.0%
+    villainy or lack, liquidation    n= 32.0 follow  68.8% shuffled  43.6%
+    departure, return                n=  5.0 follow   0.0% shuffled   0.0%
+  v46 as shipped: acceptance 31.8% of 22 moves (threshold 85.2%)
+    1-4  n= 10 real  70.0% shuffled  71.6% gap  -1.6 (Russian gap 85.7)
+    7-9  n=  2 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 97.5) (too few, not judged)
+    10+  n= 10 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 82.4)
+    VERDICT (interim, not judged): the claim does not hold
+  v46 with extensions: acceptance 31.8% of 22 moves (threshold 85.2%)
+    1-4  n= 10 real  70.0% shuffled  71.6% gap  -1.6 (Russian gap 85.7)
+    7-9  n=  2 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 97.5) (too few, not judged)
+    10+  n= 10 real   0.0% shuffled   0.0% gap   0.0 (Russian gap 82.4)
+    VERDICT (interim, not judged): the claim does not hold
+
+AGREEMENT
+  events given the same symbols: 274 of 367 (74.7%)
+  events both gave a function, sharing one: 149 of 165 (90.3%)
+  events given the same relevance mark: 323 of 367 (88.0%)
+exit 0

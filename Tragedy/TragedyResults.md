@@ -83,3 +83,29 @@ But here an interdiction is almost never followed by its violation: the play's o
 Coverage 46.5% for A and 42.9% for B; acceptance 33.3% of 24 moves for A and 33.3% of 18 for B, the same with the extensions; about 46% to 49% of pairs backward against Propp, against about 50% shuffled, with no change when events told as past come first.
 Villainy or lack followed by liquidation now holds pooled (63% against about 44% shuffled); interdiction followed by violation no longer does (50% against 53% to 56%).
 The transcribers agree on 77.7% of events' symbols, share a function on 89.3% of the events both gave one, and agree on 86.1% of relevance marks.
+
+## P04, Ion (Euripides; Coleridge)
+
+**The fourth play falls short of every threshold; it sets every harm right, and its order is the closest to Propp's so far.**
+Hero, by the counting rule: Ion, in 65 events against 54 for Creusa.
+
+| Measure | Transcriber A | Transcriber B | Threshold |
+|---|---|---|---|
+| Coverage, functions marked as mattering | 50.0% | 46.8% | 80% |
+| Acceptance, as shipped and with the extensions | 3 of 7 moves | 1 of 4 moves | 85.2% |
+| Function pairs backward against Propp, as told | 38.7% | 38.7% | reported |
+| The same, events told as past first | 41.1% | 42.1% | reported |
+| Function entries marked incidental | 8 of 61 | 14 of 68 | reported |
+| A villainy or lack followed by its liquidation | 7 of 7 | 5 of 5 | reported |
+| An interdiction followed by its violation | 4 of 5 | 6 of 8 | reported |
+
+**A recognition play, with a restoration at the end.**
+The child exposed at birth is found, recognized and restored, and every villainy or lack is liquidated; interdictions are mostly violated, as in Rhesus and Heracleidae.
+Putting the events told as past first moves the order slightly further from Propp's, not closer.
+
+## Pooled, P01 to P04
+
+**Four plays of 32, interim.**
+Coverage 47.4% for A and 43.9% for B; acceptance 35.5% of 31 moves for A and 31.8% of 22 for B, the same with the extensions; about 43% to 45% of pairs backward against Propp, against 50% shuffled, and slightly more with events told as past first.
+Villainy or lack followed by liquidation holds pooled (69% against 44% to 49% shuffled); interdiction followed by violation does not (57% against 59%).
+The transcribers agree on 74.7% of events' symbols, share a function on 90.3% of the events both gave one, and agree on 88.0% of relevance marks.
