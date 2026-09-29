@@ -90,11 +90,28 @@ Paraphrase in plain words; do not use Propp's terms.
 
 ## Stage 3: transcription
 
-**Each census event gets exactly one entry: a function symbol, or X.**
+**Each act in a census event gets one entry: a function symbol, or X.**
 Propp's definition of a function: "an act of a character, defined from the point of view of its significance for the course of the action" (p.21).
-Where an act's significance is unclear, define it by its consequences, as Propp does himself (p.67).
+Most census events narrate one act and get one entry.
+Where an event's words narrate two or more distinct acts, such as a struggle and its outcome, or an arrival and a deed, give each act that fulfills a function its own entry, in the order the text narrates them.
+This includes an act the text narrates only as the reason for another, such as the ravages that prompt a hunt.
+A single act gets a single entry, even when it could be read two ways; where its significance is unclear, define it by its consequences, as Propp does himself (p.67).
+An event none of whose acts fulfills a function gets one X.
 Record who performs and who undergoes each function.
 Do not label anyone villain, donor or helper; roles follow from the functions.
+
+**Assign the function whoever performs it.**
+Propp: "Functions of characters serve as stable, constant elements in a tale, independent of how and by whom they are fulfilled" (p.21).
+A harmful act by the hero, or an act by a figure told of only in passing, is judged like any other, by what it is and what it causes in the course of the action.
+An act with no significance for the course of the action is X.
+
+**Judge each act by what it is and what follows it in this text, not by the sequence it would make.**
+Do not write X because a function's usual partner is absent from the episode.
+Do not assign a function because the surrounding entries seem to call for one.
+
+**An act only threatened or intended, and not carried out, is X.**
+The exception is a threat that Propp's own list of forms for a function includes, as some forms of villainy do.
+Put the candidate in the note.
 
 **When in doubt, write X.**
 An event that fits no function is written X, with the nearest candidate in your notes, such as "X, perhaps D".
@@ -109,6 +126,8 @@ A flashback is written where it is told, and marked as a flashback in your notes
 This is Propp's definition of the move (p.92).
 Number moves I, II, III within an episode.
 Events before the first villainy or lack belong to move I.
+A move exists only from its villainy or lack: "Each new act of villainy, each new lack creates a new move" (p.92).
+Events after a move has begun and before the next villainy or lack therefore belong to the move already begun.
 Where one move breaks off for another and later resumes, write each move separately, and mark in your notes where the break and the resumption fall.
 
 **The alphabet is Propp's, and X.**
@@ -165,6 +184,7 @@ L1-001 | I | 4 | ev 4 | 1.1.2 | X | <performer> | <undergoer> | ? | "<quoted wor
 ```
 
 The fields are: episode, move, position in the move, census event number, citation, symbol, performer, undergoer, a question mark if you are unsure, and a note that quotes the words of the text the entry rests on.
+Where one event has two or more entries, each has its own line, and they share the event number.
 Every entry quotes its words; an entry without them will be treated as unsupported.
 
 ## Your report

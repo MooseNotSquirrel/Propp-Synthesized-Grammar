@@ -118,7 +118,9 @@ The transcriber records who performs and who undergoes each function, and does n
 
 ## Stage 3: transcription
 
-**Each census event gets exactly one entry: a function symbol, or X.**
+**Each act in a census event gets one entry: a function symbol, or X.**
+Most events narrate one act; where an event's words narrate two or more distinct acts, each act that fulfills a function gets its own entry, in the order narrated.
+The pilot added this rule, since forcing one entry on an event that narrates a struggle and its outcome drops a function Propp's own tables would record.
 Propp defines a function as "an act of a character, defined from the point of view of its significance for the course of the action" (p.21).
 Where the act's significance is unclear, the function is defined by its consequences, as Propp does himself (p.67).
 
@@ -168,6 +170,16 @@ The rules in this stage are amended only at those reported gaps, and the amended
 The keeper does not parse the pilot, so no amendment can be made with the grammar's verdict in view.
 The three pilot episodes are then left out of the scored corpus, because they were transcribed under rules that changed.
 
+**The pilot was L2-028, L3-044 and L3-083, and it changed five rules.**
+Both transcribers reported where the rules left them unsure, and the keeper did not parse their strings.
+The amendments, each resting on a page of Propp, are in `Apollodorus/TranscriberRules.md`:
+- an event that narrates several distinct acts gets an entry for each act that fulfills a function (p.67 for a single act read two ways);
+- a function is assigned whoever performs it, the hero or a figure told of in passing (p.21);
+- an act is judged by what it is and what follows it, not by whether its usual partner appears;
+- an act only threatened or intended is X, unless Propp lists the threat as a form;
+- a move exists only from its villainy or lack, so events after a move has begun and before the next villainy belong to the move already begun (p.92).
+The two transcribers had divided on the last point, one placing such events in the earlier move and one in the later.
+
 ## From transcription to test
 
 **The keeper's derivation rules are fixed here, before any transcription is read.**
@@ -189,7 +201,7 @@ This is applied only in the run with the extensions switched on.
 ## The prediction
 
 **Three measurements decide the test, with thresholds fixed before the run.**
-- Coverage: the share of events that received a function rather than X.
+- Coverage: the share of census events at least one of whose entries is a function rather than X.
 - Acceptance: the share of moves `ProppEBNF46.txt` accepts, once as shipped and once with its commented extensions switched on (`+tragedy,reversal`).
 - Discrimination: acceptance of the real strings against acceptance of the same strings shuffled.
 
