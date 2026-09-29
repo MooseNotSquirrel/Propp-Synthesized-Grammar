@@ -35,6 +35,10 @@ Coverage at least 80%; acceptance at `move` at least 85.2%; and a gap over shuff
 Both grammars, as shipped and with the tragic extensions, are judged, with a verdict for each; the claim holds for a grammar only if all three are met on both transcriptions.
 The verdict is given once all 32 plays are transcribed; each play's results, and the pooled results as plays accrue, are reported and not judged.
 
+**From P05 on, results are sealed.**
+Each play from *Hecuba* on is checked for form and not scored until a tragedy grammar, built from the catalog's building blocks, is proposed and frozen on other material; P05 to P32 are then its held-out test, and are scored under this protocol's measures as well.
+From P05 on, the event lister also lists the cast, and the transcribers name performers and undergoers by it, so that each character's sphere of action can be read from the entries.
+
 ## Order of work for each play
 
 **Each stage is committed before the next begins.**

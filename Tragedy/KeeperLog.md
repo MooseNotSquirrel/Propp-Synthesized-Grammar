@@ -51,3 +51,9 @@ As in P03, an event told more than once is listed where it is first told, with a
 
 **P04, Ion, from `master` at c0083bc: both transcriptions in form, every event covered.**
 The reports show judgment calls at gaps, not departures; the recurring one remains how a request or order is read (a, γ or B), and whether a want held by a different character is a new want.
+
+**From P05, results are sealed, and each play has a cast list.**
+From *Hecuba* on, each play is checked for form and its transcribers' reports are logged, but it is not scored until the tragedy grammar the building-block plan calls for is proposed and frozen; P05 to P32 are then that grammar's held-out test, and scoring them earlier would let their results shape it.
+`tragedyScore.py score` is not run in the meantime, and `TragedyResults.md` stays at P01 to P04.
+The event lister now also writes `Cast.txt`, one name per character with the other names the text uses, and the transcribers must name performers and undergoers by it, so that character roles can be read from the performer and undergoer fields.
+Both changes were committed to the transcriber repository before any P05 stage ran; the rules for events, relevance and symbols are unchanged.
