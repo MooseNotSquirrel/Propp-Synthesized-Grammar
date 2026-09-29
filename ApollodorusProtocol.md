@@ -17,6 +17,7 @@ Citations take Perseus's form, book, chapter and section, such as 2.4.1 for the 
 
 **The transcriber reads Frazer's text and not Frazer's notes.**
 The notes compare Apollodorus with other ancient sources, and reading them would import other versions of the myth into the one being transcribed.
+The keeper takes the text from the Perseus project's TEI files, `tlg0548.tlg001.perseus-eng2.xml` for the *Library* and `tlg0548.tlg002.perseus-eng2.xml` for the *Epitome*, and strips the notes before the text reaches the transcribers, so the rule is enforced rather than asked.
 
 **The *Library* is a handbook, and that shapes what the test can show.**
 Apollodorus summarizes; he does not tell tales at a storyteller's length.
@@ -31,12 +32,24 @@ The transcriber reads Propp's Chapters II, III and IX, where he defines the func
 The transcriber must not see `ProppEBNF46.txt`, `StepTests.txt`, `SemanticCatalog46.md`, `CorpusGroups.txt`, or any measurement made from them.
 Anyone who has worked on the grammar, a language model included, is disqualified as the transcriber for the same reason.
 
+**The transcribers are two fresh language-model instances, and a third takes the census.**
+Each instance starts with no memory of this project and none of the conversation in which the grammar was built.
+The two transcribers run on different models, so that a shared habit of one model does not pass for agreement.
+Each is given only the transcriber's rules, the stripped text, and Propp's Chapters II, III and IX.
+Their blindness rests on instruction: they run with access to the machine's files and are told not to open the project's.
+The results are reported as transcribed by two language-model instances without access to the grammar, which is a weaker claim of independence than human transcribers would give.
+
+**An auditor checks a sample of the notes for fidelity to the text.**
+Fifty entries are drawn at random from each transcription, with the seed committed first.
+For each, the auditor asks only whether the cited clause says what the symbol claims.
+The audit needs no blindness, since it judges the reading of the text and not the fit to any grammar.
+
 **The keeper freezes the files, runs the programs, and transcribes nothing.**
 The keeper commits each stage's file to git before the next stage begins, so the history shows what was fixed when.
 The keeper also computes the Russian baselines and applies the derivation rules in the section "From transcription to test".
 
-**A second transcriber checks agreement on a random fifth of the corpus.**
-The second transcriber meets the same conditions as the first and works without seeing the first transcriber's work.
+**Both transcribers transcribe the whole corpus.**
+Each works without seeing the other's work, so agreement is measured on every episode.
 
 ## Stage 1: the census
 
@@ -64,9 +77,8 @@ Episodes of fewer than five events are listed in the census and counted, but not
 Each line gives an identifier, the citation span, the central figure, and the number of events.
 The file is `ApollodorusCensus.txt`, and it is committed before Stage 2.
 
-**If the corpus is too large to transcribe, a random sample is drawn.**
-The sample size and the random seed are committed before the draw.
-Every episode in the census has the same chance of entering the sample.
+**Every listed episode is transcribed, and no sample is drawn.**
+The protocol allowed a random sample if the corpus proved too large to transcribe; with model transcribers it is not too large.
 
 ## Stage 2: whose tale
 
@@ -132,7 +144,9 @@ The performers are recorded here so that questions such as whose punishment a U 
 
 **A pilot of three episodes comes first.**
 The keeper draws three episodes at random from the census.
-The transcriber transcribes them, the rules in this stage are amended where the pilot shows a gap, and the amended protocol is committed.
+Both transcribers transcribe them and report every place where a rule left them unsure what to write.
+The rules in this stage are amended only at those reported gaps, and the amended protocol is committed.
+The keeper does not parse the pilot, so no amendment can be made with the grammar's verdict in view.
 The three pilot episodes are then left out of the scored corpus, because they were transcribed under rules that changed.
 
 ## From transcription to test
@@ -174,7 +188,7 @@ Among Russian moves of four functions or fewer, 14.3% of opener-fixed shuffles p
 A handbook's summaries will be short, and a short string has few orderings for a grammar to refuse.
 The Greek gap between real and shuffled acceptance is therefore compared with the Russian gap in the same length bands, 1 to 4, 5 to 6, 7 to 9 and 10 or more functions, and never overall.
 
-**The thresholds are a decision still to be made, and these are recommended values.**
+**The thresholds are decided.**
 - Coverage of at least 80%.
 - Acceptance, as shipped, within 10 points of the Russian figure.
 - A gap between real and shuffled acceptance at least as large as the Russian gap, in each length band that holds enough Greek moves to measure.
@@ -183,15 +197,15 @@ The claim holds if all three are met.
 Acceptance is reported twice, as shipped and with the extensions, and the two results say different things.
 Passing as shipped would mean Greek myth follows Propp's syntax as he gave it.
 Passing only with the extensions would mean it follows that syntax with a turned ending, the fall that tragedy adds.
-Which of the two the claim requires is one of the decisions before Stage 1.
+Which of the two the claim requires is still open; it does not change how anything is transcribed, and it is fixed before the keeper parses any transcription.
+Each transcription is scored on its own, and the claim holds only if it holds on both.
 The run also reports where in the move the rejected strings fail, since failures clustered at one position would show a specific difference rather than a general one.
 
 **The prediction is committed as `ApollodorusPrediction.txt` before Stage 3 begins.**
 
 ## Agreement
 
-**The second transcriber's work measures how far the transcription depends on the transcriber.**
-A random fifth of the corpus is drawn, with the seed committed first, and transcribed independently.
+**The two transcriptions measure how far the result depends on the transcriber.**
 The report gives the share of moves on which the two transcribers wrote the same string, and the number of single-entry changes separating them where they differ.
 Low agreement does not stop the test, but every acceptance figure is then read with that doubt attached.
 
@@ -199,17 +213,17 @@ Low agreement does not stop the test, but every acceptance figure is then read w
 
 **Each file is committed before the stage after it begins.**
 1. `ApollodorusProtocol.md`, this file, and after the pilot its amended version.
-2. `ApollodorusCensus.txt`, with the sample size and seed if a sample is drawn.
+2. `ApollodorusCensus.txt`.
 3. `ApollodorusPrediction.txt`, with the thresholds and the Russian baselines.
-4. `ApollodorusStreams.txt` and `ApollodorusNotes.txt`, and the second transcriber's files.
+4. `ApollodorusStreams.txt` and `ApollodorusNotes.txt` from each transcriber, kept apart by a suffix, A and B.
 5. The run and its report.
 
-## Decisions before Stage 1
+## Decisions
 
-**Six decisions are open, and each has a recommendation but one.**
-- The thresholds in "The prediction": the recommended values above.
-- Which grammar the claim requires, as shipped or with the extensions: no recommendation, since it is the substance of the claim.
-- The *Epitome*: include it, since it carries the Trojan cycle and the returns, Odysseus among them.
-- The event threshold for an episode: five events.
-- The sample size, if the census is too large: set after the census, by how much transcription is feasible, and committed before the draw.
-- Who transcribes: someone who has not seen the grammar, and a second person for the agreement check.
+**Five decisions are made, and one is still open.**
+- The thresholds: coverage of at least 80%; acceptance, as shipped, within 10 points of the Russian figure; and a gap over shuffled strings at least as large as the Russian gap in each length band with enough Greek moves.
+- The *Epitome* is included, since it carries the Trojan cycle and the returns, Odysseus among them.
+- An episode needs five events or more.
+- Every listed episode is transcribed; no sample is drawn.
+- Two fresh language-model instances on different models transcribe, a third takes the census, and an auditor checks fifty entries from each transcription.
+- Still open: whether the claim requires the grammar as shipped or with the extensions. It is fixed before the keeper parses any transcription.

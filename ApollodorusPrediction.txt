@@ -37,3 +37,22 @@
 # its opener-fixed shuffles. A handbook's summaries will be short, so the
 # Greek gap must be compared with the Russian gap at matched lengths, not
 # overall. ApollodorusProtocol.md is amended to say so.
+#
+# ---------------------------------------------------------------------------
+# PART 2. THE THRESHOLDS, COMMITTED BEFORE THE TEXT IS FETCHED
+# ---------------------------------------------------------------------------
+# Each transcription, A and B, is scored on its own; the claim holds only if
+# it holds on both.
+#   COVERAGE        at least 80% of events receive a function rather than X.
+#   ACCEPTANCE      ProppEBNF46.txt as shipped, start `move`, accepts a share
+#                   of the Greek moves within 10 points of the Russian 95.2%,
+#                   so at least 85.2%.
+#   DISCRIMINATION  in each length band (1-4, 5-6, 7-9, 10+ functions) that
+#                   holds at least 10 Greek moves, real acceptance minus
+#                   opener-fixed shuffled acceptance is at least the Russian
+#                   gap in that band, the same 1000 shuffles per move and
+#                   seed 46.
+# Acceptance with the extensions (+tragedy,reversal) is reported beside the
+# shipped figure. Whether the claim requires the shipped grammar or the
+# extended one is STILL OPEN and is fixed here before any transcription is
+# parsed.
