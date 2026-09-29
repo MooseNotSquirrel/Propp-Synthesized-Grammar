@@ -1,0 +1,25 @@
+# ApollodorusPrediction.txt -- the prediction for the Apollodorus test, frozen
+# in stages as ApollodorusProtocol.md requires. Each part is committed before
+# the stage that depends on it.
+#
+# ---------------------------------------------------------------------------
+# PART 1. THE RUSSIAN SHUFFLE BASELINE: PARAMETERS, COMMITTED BEFORE THE RUN
+# ---------------------------------------------------------------------------
+# Program:   shuffleBaseline.py
+# Grammar:   ProppEBNF46.txt as shipped, start symbol `move`
+# Corpus:    ResolvedMoves.txt, all 84 moves, derived by runCorpus.py exactly
+#            as the corpus runs derive them (aliases, braces expanded)
+# Shuffles:  1000 per move
+# Seed:      46, one random.Random(46) drawn in corpus order
+# Rule:      a move's shuffle shuffles each of its brace expansions
+#            independently; the shuffled move is accepted when every shuffled
+#            expansion is, as a real move is.
+# Two nulls: FULL, every symbol shuffled; OPENER-FIXED, the move's first
+#            A, a or B kept first and the rest shuffled. The second is the
+#            harder test, since a string not opening on A, a or B fails
+#            trivially.
+# Reported:  the mean over moves of the share of shuffles accepted, for each
+#            null, beside the real acceptance of 80 of 84.
+#
+# PREDICTION, a guess frozen before the run: both nulls accept under 20%, so
+# the real acceptance of 95% stands well clear of chance ordering.
