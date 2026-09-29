@@ -1,0 +1,32 @@
+P01 | tlg0006.tlg019 | Euripides | Rhesus | eng3
+P02 | tlg0006.tlg004 | Euripides | Heracleidae | eng2
+P03 | tlg0011.tlg007 | Sophocles | Oedipus at Colonus | eng2
+P04 | tlg0006.tlg010 | Euripides | Ion | eng2
+P05 | tlg0006.tlg007 | Euripides | Hecuba | eng2
+P06 | tlg0011.tlg002 | Sophocles | Antigone | eng2
+P07 | tlg0085.tlg001 | Aeschylus | Suppliants | eng2
+P08 | tlg0006.tlg012 | Euripides | Electra | eng2
+P09 | tlg0006.tlg003 | Euripides | Medea | eng2
+P10 | tlg0006.tlg013 | Euripides | Iphigenia in Tauris | eng2
+P11 | tlg0006.tlg006 | Euripides | Andromache | eng2
+P12 | tlg0006.tlg016 | Euripides | Orestes | eng2
+P13 | tlg0011.tlg003 | Sophocles | Ajax | eng2
+P14 | tlg0011.tlg005 | Sophocles | Electra | eng2
+P15 | tlg0006.tlg008 | Euripides | Suppliants | eng2
+P16 | tlg0006.tlg014 | Euripides | Helen | eng2
+P17 | tlg0085.tlg005 | Aeschylus | Agamemnon | eng3
+P18 | tlg0006.tlg015 | Euripides | Phoenissae | eng2
+P19 | tlg0011.tlg001 | Sophocles | Trachiniae | eng3
+P20 | tlg0011.tlg004 | Sophocles | Oedipus Tyrannus | eng2
+P21 | tlg0085.tlg002 | Aeschylus | Persians | eng2
+P22 | tlg0006.tlg002 | Euripides | Alcestis | eng2
+P23 | tlg0085.tlg006 | Aeschylus | Libation Bearers | eng2
+P24 | tlg0006.tlg005 | Euripides | Hippolytus | eng2
+P25 | tlg0011.tlg006 | Sophocles | Philoctetes | eng2
+P26 | tlg0006.tlg009 | Euripides | Heracles | eng2
+P27 | tlg0085.tlg007 | Aeschylus | Eumenides | eng2
+P28 | tlg0085.tlg003 | Aeschylus | Prometheus Bound | eng2
+P29 | tlg0085.tlg004 | Aeschylus | Seven Against Thebes | eng2
+P30 | tlg0006.tlg017 | Euripides | Bacchae | eng2
+P31 | tlg0006.tlg011 | Euripides | The Trojan Women | eng2
+P32 | tlg0006.tlg018 | Euripides | Iphigenia in Aulis | eng2
