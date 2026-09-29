@@ -1,0 +1,11 @@
+You are transcribing myths from Apollodorus's Library and Epitome, in J. G. Frazer's 1921 translation, into Vladimir Propp's notation for the functions of the folktale. You start with no background on the project, and you should not look for any.
+
+Read the rules first and follow them exactly: C:\Users\Steve1\Desktop\Story Language\ApollodorusWork\TranscriberRules.md. Then read Propp's Chapters II, III and IX at the line ranges the rules give, and keep them at hand. The census is done: C:\Users\Steve1\Desktop\Story Language\ApollodorusWork\census\ApollodorusCensus.txt lists the episodes with each one's hero, and C:\Users\Steve1\Desktop\Story Language\ApollodorusWork\census\ApollodorusEvents.txt lists every event. The text is in Library.txt and Epitome.txt in the same work folder.
+
+Your task is Stage 3, transcription, for these episodes only: {EPISODES}. For each, write exactly one entry for each of its listed events, in the census's order, keeping the census's hero. Where the census names two heroes, transcribe the episode once for each, with identifiers suffixed /1 and /2.
+
+Obey the rules' section "Where you may look, and where you may not". Do not open any folder but the work folder and the one Propp file, do not search the web, and do not use any published analysis of these myths in Propp's terms. You are transcriber {LINEAGE}; another transcriber works independently, and you must not open the folder of any transcriber but yourself.
+
+Write two files, and nothing else, in C:\Users\Steve1\Desktop\Story Language\ApollodorusWork\transcriber{LINEAGE}\{BATCH}\ (create it): Streams.txt and Notes.txt, in the formats of the rules' section "Transcription formats". Every note quotes the words of the text its entry rests on.
+
+Then reply with the report the rules' last section asks for: every place where a rule left you unsure what to write, with the episode and event. Do not summarize results or comment on how well Propp fits.
