@@ -73,6 +73,7 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `villainy.py`: the forms of villainy and what becomes of the villain, pinned by a test and cited in the catalog.
 - `heroType.py`: which hero the tale follows, seeker or victim, read from B's variety digit by p.37, pinned by a test and cited in the catalog.
 - `dispatch.py`: the seven forms of mediation B and which moves carrying B v46 rejects, pinned by a test and cited in the catalog.
+- `reaction.py`: the sign on the hero's reaction E against the sign on the transmission F, testing p.46; pinned by two tests, not yet cited in the catalog.
 - `falseHero.py`: how the tales treat the false hero, pinned by a test and cited in the catalog.
 - `agentForms.py`: how the hero receives the agent, tested or untested, by Propp's nine forms; its figures are pinned by a test and cited in the catalog's Measured lines.
 - `SemanticCatalog46.md`: the catalog of v46's groups and pairs, checked against the grammar.
@@ -90,7 +91,7 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 11` prints `158 binding, 0 failed, 0 pending for later steps, 34 closed by an earlier step`.
+- `python runSteps.py 11` prints `160 binding, 0 failed, 0 pending for later steps, 34 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
@@ -102,6 +103,7 @@ Of p.93's six methods of combining moves it expresses five: sequence, interrupti
 **1. Review of the drafted meanings, continued.**
 `SemanticCatalog46.md` separates three kinds of claim: **From Propp** (a page), **Measured** (counted by a program here and pinned by a test), and a **Cultural meaning** marked *Draft*, resting on a speculative reading set out in the catalog's section "A speculative reading, not from Propp".
 Discussed on 2026-09-27, with the catalog revised to match: the princess and her father (the king assigns and grants, the princess chooses, the outcome is never in doubt), the donor, the helper, the false hero (the liar and scapegoat), the villain, the hero (the one whose fortunes the tale follows, usually but not always the chooser), and the dispatcher (mixed in rank, a minor character who opens the way rather than commands).
+WAITING ON THE CATALOG EDIT IN PROGRESS: `reaction.py`'s measurement has no Measured line yet; `heroReaction` and `receiptOfMagicalAgent` are the entries it belongs to.
 NOT YET DISCUSSED: the drafted cultural meanings of the groups and functions generally.
 
 **2. The parked area left of A.**
@@ -115,7 +117,7 @@ Step 9 built p.107's inverted sequence into the grammar but, under option 1, as 
 - Propp's braces, repetition and branching, as grammar structure; today the runner expands them.
 - Varieties, negative forms and variety binding, such as A¹ with a matching K: attribute-level, and v45C's territory rather than an order grammar's.
 - The three interruption sites with dots and no numeral, 155 III, 155 IV and 167 I: a question for the page, since Propp prints no indication.
-- Method 4, two villainies at once, set aside as an odd case: its A-K spans cross.
+- METHOD 4 QUEUED AS A TEST, 2026-09-28. Printed p.93: "a tale may begin with two villainies at once", the first liquidated completely before the other; Propp's example is a murder and a theft, the murder undone first. In order alone, A followed by two K's is regular and costs v46 nothing. The spans cross only if each K is bound to its own A, murder to revival and theft to recovery, which is the shape of the cross-serial dependencies Shieber (1985) used to show natural language is not context-free. THE TEST, with its prediction frozen before the corpus is searched: (a) find every Appendix III scheme Propp draws by method 4; (b) run v46 on each; (c) decide whether the pairing rests on variety binding, and if so whether the bindings cross or nest. If they cross in the corpus, the tale language needs more than a context-free grammar at that point.
 - A TALE GENERATOR, discussed on 2026-09-27. Skeletons are easy, by sampling v46 with weights from `CorpusGroups.txt` and a depth limit on interruption. Proppian skeletons need what v46 omits on purpose, since it is a permissive falsifier: v45C's pairs and dependencies, `AKCorrespondence.txt` and the D-F bindings for varieties, Appendix IV's inventory of what each variety means, and Appendix I with Ch. VI-VIII for the cast. Prose is a separate problem, by templates or a language model given the skeleton as a plan; Gervás's PropperWryter (2013) is prior work.
 
 **5. Housekeeping.** This project has no remote; one can be created if wanted. The first project's publication for SourceForge is on hold.
@@ -129,6 +131,7 @@ Each finding is counted by a program here and pinned by a frozen test; the catal
 - `villainy.py`: abduction of a person is a third of all villainies and expulsion the second form; in villainy moves the harm is undone in 65% but punishment stands in only 20%. Propp gives punishment to the princess and her father as "punishment of a second villain" (pp.79-80).
 - `heroType.py`: of the 32 tales carrying B, 26 follow a seeker and 3 a victimized hero (95, 98, 101), none both, as p.36 says; C stands in 27 of 30 seeker moves and 3 of 4 victim moves, less cleanly than p.38 says. It reproduces the first project's findings BM and BO.
 - `dispatch.py`: of 43 moves carrying B, the hero is sent outright in only 9 (B2); in the rest the dispatcher calls, permits, announces, transports or laments. The catalog's Corpus figure of 41 counts the moves v46 accepts; 126 II and 137 II carry B and are rejected.
+- `reaction.py`: p.46 holds, predicted blind: all 6 negative reactions (E-) are followed by F-, and no agent follows one. Only 7 of 47 reactions carry a sign; 31 of the 40 unsigned are followed by an unsigned F, and one, 154 I, by F-.
 - Of Propp's 31 function headings, 18 name the hero or the seeker and none the princess, her father or the king; p.81 defines characters by their deeds' meaning for the hero.
 
 ### Decided, so not re-opened
@@ -141,7 +144,7 @@ The move type is read at the opener, not the root. Moves are separated by `/`. T
 - `parseTree.py` and 55 tree tests; `CorpusGroups.txt`.
 - `SemanticCatalog46.md`: 32 groups and pairs, 32 functions, 2 unnumbered elements, the extensions, and 7 dramatis personae, each with literal and cultural meaning, and eleven entries with measured findings; kept in step with the grammar and the corpus by frozen tests (`catalog`, `catalogfunctions`, `catalogmeanings`, `catalogspheres`, `catalogmeasured`, and the pinned figures of `agentforms`, `helperafteragent`, `falsehero`, `villainy`, `herotype`, `dispatch`).
 - `embedCorpus.py`, the whole-tale derivation, calibrated against `resolve.py`.
-- `agentForms.py`, `falseHero.py`, `villainy.py`, `heroType.py` and `dispatch.py`, the measuring programs.
+- `agentForms.py`, `falseHero.py`, `villainy.py`, `heroType.py`, `dispatch.py` and `reaction.py`, the measuring programs.
 - `equivCheck.py` gained `--drop-a` and `--drop-b`, so this copy differs from the first project's; `runSteps.py` reads `TAG:FILE`, `FILE+NAME` and `FILE@START`; `runCorpus.py` and `runSteps.py` fall back to the LL(1) parser for a recursive grammar.
 - In the first project, from this work: findings FR to FZ, ruling 104, two corrections to v43's comments, and the published files cleared of any mention of a person.
 

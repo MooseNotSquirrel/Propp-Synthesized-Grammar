@@ -585,3 +585,21 @@
 # catalog's 41 (moves v46 accepts) was found by parseTree.py --corpus.
 11 | dispatch | "B in 43 moves: called 6, sent 9, allowed 8, told 12, transported 4, freed 0, lamented 1, in another form 3 (144 I, 163 I, 164 II); v46 accepts 41, rejecting 126 II, 137 II" | pp.36-38: the seven forms of mediation; the catalog's Corpus figure counts only the moves v46 accepts
 11 | catalogmeasured | SemanticCatalog46.md "dispatcher,mediation" | the dispatcher and mediation entries carry their measurement
+
+# THE ONE BINARY: THE SIGN ON E AND THE SIGN ON F, 2026-09-28. Frozen
+# before reaction.py was written and before any E-F pairing was looked
+# at; only the alphabet of E and F tokens had been listed. Printed p.46:
+# "in the face of a negative reaction on the part of the hero, one
+# encounters only F neg. ... or F contr." A universal claim, so the
+# prediction is Propp's own: no move gives the agent after a negative
+# reaction. Read over the FULL strings, parked and overflow cells kept,
+# since p.107's D E F before A is parked. Each signed E is paired with
+# the next F after it, before any further E; an unsigned F is a
+# transmission, since p.46's note on Appendix III marks only the
+# negative result (F-) and F contr. (F=).
+11 | efnegative | "-" | p.46: after a negative reaction only F neg or F contr; the moves where an agent follows E- (none predicted)
+# The full table, pinned AFTER the run, so not blind: only the efnegative
+# line above was predicted. The one unsigned E followed by F- is 154 I,
+# E7 F9- inside an overflow cell; p.46 speaks only of the negative
+# reaction, so it does not break the claim. Not yet checked on the page.
+11 | reaction | "E- 6: F+ 0 F 0 F- 6 F= 0 none 0; E+ 1: F+ 1 F 0 F- 0 F= 0 none 0; E unsigned 40: F+ 0 F 31 F- 1 F= 0 none 8" | p.46: the sign on E carries over to F; every negative reaction is followed by F-
