@@ -101,3 +101,11 @@ A difficult task is followed by its solution in the same move in 77% of transcri
 **Ulysses ends as a Proppian tale, and then goes on.**
 Both transcribers, working apart, wrote the suitors' villainy, the unrecognized arrival (o), a recognition, the task of the bow (M, N), the suitors' punishment (U), the liquidation (K) and the wedding (W).
 Apollodorus then tells a further war, a departure, Ulysses's death at Telegonus's hand and Telegonus's marriage to Penelope.
+
+**Propp's local pairs hold in Greek myth; the arcs that close a tale do not.**
+`Apollodorus/pairsApollodorus.py` measures, for each of Propp's pairs, how often the first function is followed by the second within a move, and sets it against the same entries shuffled; `Apollodorus/ApollodorusPairs.txt` holds the output, within moves and within whole episodes.
+Within a move, struggle is followed by victory in 90% of transcriber A's cases and 83% of B's (Russian 100%, shuffled 52% to 58%), a difficult task by its solution in 77% and 82% (Russian 100%, shuffled 46% to 55%), and a complicity is preceded by trickery in 88% and 76% (shuffled 46% to 50%); interdiction and violation, and the donor's test and the hero's reaction, hold more weakly but above chance.
+A villainy or lack is followed by its liquidation in only 22% and 28% of Greek moves (Russian 59%), and within a whole episode in 38% and 43%, scarcely above the shuffled 34% to 36%.
+A departure is followed by a return in 18% and 13% (Russian 55%).
+Pursuit and rescue hold for transcriber A and not for B; branding and recognition, and false claim and exposure, are too rare to judge.
+Propp's move schemes omit the preparatory functions, so the Russian corpus cannot show the preparatory pairs.
