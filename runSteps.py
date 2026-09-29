@@ -53,6 +53,8 @@ Kinds, one test per line as  step | kind | arguments | source :
   villainy "line"           villainy.py --summary prints exactly this
   herotype "line"           heroType.py --summary prints exactly this
   dispatch "line"           dispatch.py --summary prints exactly this
+  shufflebelow N            shuffleBaseline.py: both nulls accept under N%
+  shuffle "line"            shuffleBaseline.py --summary prints exactly this
   efnegative "list"         reaction.py --breaks prints exactly this: the
                             moves where an agent follows a negative reaction
   reaction "line"           reaction.py --summary prints exactly this
@@ -96,6 +98,7 @@ import villainy
 import heroType
 import dispatch
 import reaction
+import shuffleBaseline
 import parseTree
 import runCorpus
 
@@ -330,6 +333,14 @@ def run(kind, args):
     if kind == 'villainy':
         got = villainy.summary()
         return got == args[0], got
+    if kind in ('shufflebelow', 'shuffle'):
+        rows = shuffleBaseline.tally()
+        got = shuffleBaseline.summary(rows)
+        if kind == 'shuffle':
+            return got == args[0], got
+        n = len(rows)
+        worst = max(sum(r[3] for r in rows), sum(r[4] for r in rows)) / n
+        return 100 * worst < float(args[0]), got
     if kind == 'efnegative':
         got = ', '.join(reaction.tally()[1]) or '-'
         return got == args[0], got

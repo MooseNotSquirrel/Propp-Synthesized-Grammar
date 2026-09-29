@@ -91,7 +91,7 @@ It states every license Propp grants on pp.107-108, the last, p.107's inverted s
 Of p.93's six methods of combining moves it expresses five: sequence, interruption, nested interruption, the common ending and the parting of two seekers. Method 4, two villainies at once, is not built, since its two A-K spans cross and no corpus case is identified.
 
 **Run these first, with `PYTHONIOENCODING=utf-8` set, and check the figures.**
-- `python runSteps.py 11` prints `160 binding, 0 failed, 0 pending for later steps, 34 closed by an earlier step`.
+- `python runSteps.py 11` prints `162 binding, 0 failed, 0 pending for later steps, 34 closed by an earlier step`.
 - `python embedCorpus.py --check` prints `CALIBRATED: 84 moves, 4 embedded`, and `python embedCorpus.py ProppEBNF46.txt` prints `PASS 41, FAIL 4`.
 - `python parseTree.py ProppEBNF46.txt --corpus` reproduces `CorpusGroups.txt`.
 - `python runCorpus.py ProppEBNF46.txt --start move` prints `PASS: 80` and `FAIL: 4`.
@@ -112,7 +112,7 @@ Step 9 built p.107's inverted sequence into the grammar but, under option 1, as 
 **3. `SemanticBundling.md`, in the first project.** Whether it points to this catalog or is replaced by it. It is part of the first project's publication, so a decision still to make.
 
 **4. Optional work, none begun.**
-- A TEST ON GREEK MYTH FROM APOLLODORUS, PROTOCOL DRAFTED. `ApollodorusProtocol.md` sets out a census of every episode in Frazer's translation of the *Library* and *Epitome*, a rule for whose tale each is, blind transcription with performers recorded, and three measurements: coverage, acceptance and discrimination against shuffled strings. Six decisions are open before Stage 1, listed at its end; the Russian shuffle baseline is to be computed before Stage 3.
+- A TEST ON GREEK MYTH FROM APOLLODORUS, PROTOCOL DRAFTED. `ApollodorusProtocol.md` sets out a census of every episode in Frazer's translation of the *Library* and *Epitome*, a rule for whose tale each is, blind transcription with performers recorded, and three measurements: coverage, acceptance and discrimination against shuffled strings. Six decisions are open before Stage 1, listed at its end. The Russian shuffle baseline is computed by `shuffleBaseline.py`, parameters frozen first: real moves pass 95.2%, shuffled 0.8%, 1.7% with the opener fixed; but moves of four functions or fewer pass 14.3% of opener-fixed shuffles, so the Greek comparison is made in length bands.
 - A TEST OF THE TRAGIC VARIANTS ON MYTH OR TRAGEDY. The 32 surviving Greek tragedies are a fixed corpus. Transcribe their function schemes and run v46 with `+tragedy,reversal`, freezing the prediction first. Fix in the derivation rules, before transcribing, WHOSE TALE each one is: Prometheus, Oedipus and Medea read differently depending on whose deeds count "for the hero" (p.81), and Prometheus is a punished villain from Zeus's side. Ideally the schemes are written by someone who has not seen the grammar.
 - The Russian behind "various tempters" among Propp's partial helpers (p.82): the helper entry says it may mean skilled or wonder-working people, to be checked against the Russian.
 - Propp's braces, repetition and branching, as grammar structure; today the runner expands them.
@@ -145,7 +145,7 @@ The move type is read at the opener, not the root. Moves are separated by `/`. T
 - `parseTree.py` and 55 tree tests; `CorpusGroups.txt`.
 - `SemanticCatalog46.md`: 32 groups and pairs, 32 functions, 2 unnumbered elements, the extensions, and 7 dramatis personae, each with literal and cultural meaning, and eleven entries with measured findings; kept in step with the grammar and the corpus by frozen tests (`catalog`, `catalogfunctions`, `catalogmeanings`, `catalogspheres`, `catalogmeasured`, and the pinned figures of `agentforms`, `helperafteragent`, `falsehero`, `villainy`, `herotype`, `dispatch`).
 - `embedCorpus.py`, the whole-tale derivation, calibrated against `resolve.py`.
-- `agentForms.py`, `falseHero.py`, `villainy.py`, `heroType.py`, `dispatch.py` and `reaction.py`, the measuring programs.
+- `agentForms.py`, `falseHero.py`, `villainy.py`, `heroType.py`, `dispatch.py`, `reaction.py` and `shuffleBaseline.py`, the measuring programs.
 - `equivCheck.py` gained `--drop-a` and `--drop-b`, so this copy differs from the first project's; `runSteps.py` reads `TAG:FILE`, `FILE+NAME` and `FILE@START`; `runCorpus.py` and `runSteps.py` fall back to the LL(1) parser for a recursive grammar.
 - In the first project, from this work: findings FR to FZ, ruling 104, two corrections to v43's comments, and the published files cleared of any mention of a person.
 

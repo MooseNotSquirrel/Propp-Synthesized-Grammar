@@ -23,3 +23,17 @@
 #
 # PREDICTION, a guess frozen before the run: both nulls accept under 20%, so
 # the real acceptance of 95% stands well clear of chance ordering.
+#
+# RESULT, run after the commit above. The prediction held.
+#   real 80/84 = 95.2%; shuffled full 0.8%, opener-fixed 1.7%
+#
+# BY MOVE LENGTH, the shortest brace expansion, in functions:
+#   length  moves  real  full   opener-fixed
+#   1-4        7     7   5.4%   14.3%
+#   5-6       16    16   1.5%    2.1%
+#   7-9       44    43   0.1%    0.2%
+#   10+       17    14   0.0%    0.0%
+# Short moves pass shuffled far more often: 166 II, A G T Q, passes half
+# its opener-fixed shuffles. A handbook's summaries will be short, so the
+# Greek gap must be compared with the Russian gap at matched lengths, not
+# overall. ApollodorusProtocol.md is amended to say so.

@@ -608,3 +608,6 @@
 # the parameters in ApollodorusPrediction.txt, before shuffleBaseline.py
 # was written. The prediction is a guess: both nulls accept under 20%.
 11 | shufflebelow | 20 | the grammar discriminates: shuffled Russian moves pass under 20% of the time, full and opener-fixed
+# The figures, pinned AFTER the run, so not blind; only the shufflebelow
+# line above was predicted, and it held.
+11 | shuffle | "real 80/84 = 95.2%; shuffled full 0.8%, opener-fixed 1.7%" | the Russian baseline for ApollodorusProtocol.md: real acceptance against shuffled

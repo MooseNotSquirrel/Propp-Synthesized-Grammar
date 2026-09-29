@@ -165,14 +165,19 @@ Each move's entries are shuffled many times, keeping the same symbols in a rando
 If the shuffled strings pass nearly as often as the real ones, acceptance says little about Greek myth.
 The same shuffle is run on the Russian corpus, so the two gaps can be compared.
 
-**The keeper computes the Russian baselines before Stage 3.**
-As shipped, `ProppEBNF46.txt` accepts 80 of the 84 Russian moves.
-The keeper adds the Russian shuffle acceptance, with the number of shuffles and the random seed committed first.
+**The Russian baselines are computed, with their parameters committed before the run.**
+As shipped, `ProppEBNF46.txt` accepts 80 of the 84 Russian moves, 95.2%.
+Shuffled, 1000 times per move, the same moves pass 0.8% of the time with every symbol shuffled, and 1.7% with the opener kept first; `shuffleBaseline.py` computes this, and `ApollodorusPrediction.txt` records the parameters and the result.
+
+**Short moves pass shuffled far more often, so the comparison is made at matched lengths.**
+Among Russian moves of four functions or fewer, 14.3% of opener-fixed shuffles pass; among moves of seven or more, almost none do.
+A handbook's summaries will be short, and a short string has few orderings for a grammar to refuse.
+The Greek gap between real and shuffled acceptance is therefore compared with the Russian gap in the same length bands, 1 to 4, 5 to 6, 7 to 9 and 10 or more functions, and never overall.
 
 **The thresholds are a decision still to be made, and these are recommended values.**
 - Coverage of at least 80%.
 - Acceptance, as shipped, within 10 points of the Russian figure.
-- A gap between real and shuffled acceptance at least as large as the Russian gap.
+- A gap between real and shuffled acceptance at least as large as the Russian gap, in each length band that holds enough Greek moves to measure.
 
 The claim holds if all three are met.
 Acceptance is reported twice, as shipped and with the extensions, and the two results say different things.
