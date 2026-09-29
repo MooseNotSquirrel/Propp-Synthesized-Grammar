@@ -44,3 +44,7 @@ The lister listed an event told more than once only where the play first states 
 **P03, Oedipus at Colonus, from `master` at 73ade1d: both transcriptions in form.**
 Transcriber A: 119 entries; transcriber B: 121 entries in 10 moves; all 115 events covered.
 The reports show judgment calls at gaps, not departures; the recurring one is again whether an order is an interdiction (γ) or a demand read as a lack, and how far "the want was stated before" reaches.
+
+**Events stage, P04, Ion: in form.**
+94 events, 20 told as past, in the order of telling; hero Ion, in 65 events against 54 for Creusa and 24 for Xuthus.
+As in P03, an event told more than once is listed where it is first told, with a later telling listed only for what it adds.
