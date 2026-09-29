@@ -1,0 +1,324 @@
+E-026 | I | 1 | ev 1 | E.3.1 | A¹ | Alexander | Helen |   | "Alexander carried off Helen"; told before the events that lead to it (the judgment of Paris, ev 2-6, and the elopement itself, ev 9-11); flashback structure, flagged in report
+E-026 | I | 2 | ev 2 | E.3.2 | X | Strife | Hera, Athena, Aphrodite | ? | "Strife threw an apple as a prize of beauty to be contended for by Hera, Athena, and Aphrodite"; X, no function touches Alexander directly; nearest candidate perhaps α
+E-026 | I | 3 | ev 3 | E.3.2 | X | Zeus/Hermes | Alexander | ? | "Zeus commanded Hermes to lead them to Alexander on Ida in order to be judged by him"; X, perhaps B, but no misfortune or lack is announced to him
+E-026 | I | 4 | ev 4 | E.3.2 | D¹⁰ | Hera, Athena, Aphrodite | Alexander | ? | "they promised to give Alexander gifts. Hera said... she would give him the kingdom over all men; and Athena promised victory in war, and Aphrodite the hand of Helen"; read as an offer shown for exchange; the things offered are not magical agents in Propp's sense, flagged as uncertain
+E-026 | I | 5 | ev 5 | E.3.2 | E | Alexander | Alexander | ? | "he decided in favour of Aphrodite"; hero's reaction to the donor-like offers; nearest numbered subtype would be E¹⁰ (agrees to an exchange), marked uncertain
+E-026 | I | 6 | ev 6 | E.3.2 | ↑ | Alexander | — |   | "sailed away to Sparta with ships built by Phereclus"; departure toward the place where the promised prize is
+E-026 | I | 7 | ev 7 | E.3.3 | X | Menelaus | Alexander |   | "For nine days he was entertained by Menelaus"; X, hospitality, no test or interrogation narrated
+E-026 | I | 8 | ev 8 | E.3.3 | β | Menelaus | — |   | "on the tenth day, Menelaus having gone on a journey to Crete to perform the obsequies of his mother's father Catreus"; absentation of the husband, clearing the way for what follows
+E-026 | I | 9 | ev 9 | E.3.3 | η¹ | Alexander | Helen |   | "Alexander persuaded Helen to go off with him"; trickery by persuasion
+E-026 | I | 10 | ev 9 | E.3.3 | θ¹ | Helen | Helen |   | "Alexander persuaded Helen to go off with him"; the victim's submission to persuasion, read out of the same clause as the entry above
+E-026 | I | 11 | ev 10 | E.3.3 | X | Helen | Hermione |   | "she abandoned Hermione, then nine years old"; X, descriptive detail, no distinct function
+E-026 | I | 12 | ev 11 | E.3.3 | ↑ | Helen | — |   | "putting most of the property on board, she set sail with him by night"; departure with the hero
+E-026 | I | 13 | ev 12 | E.3.4 | X | Hera | Alexander, Helen | ? | "Hera sent them a heavy storm which forced them to put in at Sidon"; X, perhaps A, but it only delays rather than seriously harms, and no move appears to open from it
+E-026 | I | 14 | ev 13 | E.3.4 | X | Alexander | — | ? | "fearing lest he should be pursued, Alexander spent much time in Phoenicia and Cyprus"; X, perhaps Rs, but no pursuer actually appears in the text
+E-026 | I | 15 | ev 14 | E.3.4 | ↓ | Alexander | — |   | "when he thought that all chance of pursuit was over, he came to Troy with Helen"; return home
+E-029 | I | 1 | ev 1 | E.3.6 | B¹ | the kings | Ulysses |   | "some repaired also to Ulysses in Ithaca"; read as a call that draws the hero into the war
+E-029 | I | 2 | ev 2 | E.3.7 | X | Ulysses | Ulysses | ? | "not wishing to go to the war, he feigned madness"; X, no function matches evasion of a call; nearest candidate an inverted C
+E-029 | I | 3 | ev 3 | E.3.7 | D⁸ | Palamedes | Telemachus |   | "snatching Telemachus from Penelope's bosom, drew his sword as if he would kill him"; threat only, not carried out; read under D8's own form of attempt
+E-029 | I | 4 | ev 4 | E.3.7 | E⁻ | Ulysses | Ulysses |   | "in his fear for the child Ulysses confessed that his madness was pretended"; the hero does not withstand the test
+E-029 | I | 5 | ev 5 | E.3.7 | ↑ | Ulysses | — |   | "he went to the war"; departure
+E-029 | I | 6 | ev 6 | E.3.8 | η³ | Ulysses | Palamedes |   | "Ulysses compelled him to write a letter of treasonable purport ostensibly sent by Priam to Palamedes"; fabricated evidence, a means of deception
+E-029 | I | 7 | ev 7 | E.3.8 | η³ | Ulysses | Palamedes |   | "having buried gold in the quarters of Palamedes"; continuing the same deceptive stratagem
+E-029 | I | 8 | ev 8 | E.3.8 | η³ | Ulysses | Palamedes |   | "he dropped the letter in the camp"; continuing the same deceptive stratagem
+E-029 | I | 9 | ev 9 | E.3.8 | θ | Agamemnon | Agamemnon |   | "Agamemnon read the letter, found the gold"; submits to the deception, unwittingly furthering it
+E-029 | II | 1 | ev 10 | E.3.8 | A¹³ | Agamemnon, at Ulysses's instigation | Palamedes |   | "delivered up Palamedes to the allies to be stoned as a traitor"; villain orders a killing; new move opened by this act, though nothing follows it in the episode
+
+E-030 | I | 1 | ev 1 | E.3.9 | B¹ | Menelaus, Ulysses, Talthybius | Cinyras |   | "tried to persuade him to join the allies"; read as a call to join the expedition
+E-030 | I | 2 | ev 2 | E.3.9 | X | Cinyras | Agamemnon | ? | "He made a present of breastplates to the absent Agamemnon"; X, a token gesture, no clear function
+E-030 | I | 3 | ev 3 | E.3.9 | X | Cinyras | Cinyras | ? | "swore he would send fifty ships"; X, an oath; no clean fit, weakly resembles C
+E-030 | I | 4 | ev 4 | E.3.9 | X | Cinyras | Cinyras | ? | "he sent only one, commanded by the son of Mygdalion"; X, a broken undertaking; no interdiction was set to violate
+E-030 | I | 5 | ev 5 | E.3.9 | η³ | Cinyras | Agamemnon, the allies |   | "the rest he moulded out of earth and launched them in the sea"; deception by a false show
+
+E-032 | I | 1 | ev 1 | E.3.11 | α | the Greeks | — |   | "The armament mustered in Aulis"; initial situation
+E-032 | I | 2 | ev 2 | E.3.15 | X | the serpent | the sparrows | ? | "a serpent darted from the altar... and having consumed the eight sparrows in the nest, together with the mother bird... it was turned to stone"; X, a portent, not an act touching the Greeks as agents
+E-032 | I | 3 | ev 3 | E.3.15 | X | the serpent | — | ? | "it was turned to stone"; X, continuation of the same portent
+E-032 | I | 4 | ev 4 | E.3.15 | X | Calchas | the Greeks | ? | "Calchas said that this sign was given them by the will of Zeus, and he inferred... that Troy was destined to be taken in a period of ten years"; X, perhaps B⁴, but this is prophecy, not misfortune announced
+E-032 | I | 5 | ev 5 | E.3.15 | ↑ | the Greeks | — |   | "they made ready to sail against Troy"; departure
+E-032 | I | 6 | ev 6 | E.3.17 | A⁵ | the Greeks | the Mysians |   | "not knowing the course to steer for Troy, they put in to Mysia and ravaged it, supposing it to be Troy"; plundering by the hero, judged like any other act
+E-032 | I | 7 | ev 7 | E.3.17 | C | Telephus | — |   | "seeing the country pillaged, he armed the Mysians"; the wronged party's counteraction
+E-032 | I | 8 | ev 8 | E.3.17 | H¹ | Telephus | the Greeks |   | "chased the Greeks in a crowd to the ships, and killed many, among them Thersander, son of Polynices"; open combat
+E-032 | I | 9 | ev 9 | E.3.17 | H¹ | Achilles | Telephus |   | "when Achilles rushed at him, Telephus did not abide the onset and was pursued"; continuation of the struggle, turned
+E-032 | I | 10 | ev 10 | E.3.17 | I¹ | Achilles (the Greeks) | Telephus |   | "in the pursuit he was entangled in a vine-branch and wounded with a spear in the thigh"; the villain-role combatant defeated
+E-032 | I | 11 | ev 10 | E.3.17 | J¹ | Achilles (the Greeks) | Telephus |   | "wounded with a spear in the thigh"; a brand applied to the body, read again from the same clause; this wound is the mark later needed for healing (see E-033)
+E-032 | I | 12 | ev 11 | E.3.18 | ↑ | the Greeks | — |   | "Departing from Mysia, the Greeks put to sea"; departure
+E-032 | I | 13 | ev 12 | E.3.18 | X | — | the Greeks | ? | "a violent storm coming on, they were separated from each other and landed in their own countries"; X, perhaps A, but no performer/villain is identified
+E-032 | I | 14 | ev 13 | E.3.19 | C | the Greeks | — |   | "Having again assembled at Aulis after the aforesaid interval of eight years"; renewed decision to pursue the quest
+E-033 | I | 1 | ev 1 | E.3.20 | a | Apollo | Telephus |   | "his wound was unhealed, and Apollo had told him that he would be cured when the one who wounded him should turn physician"; the lack (a cure) restated, with its solution-condition
+E-033 | I | 2 | ev 2 | E.3.20 | o | Telephus | — |   | "came from Mysia to Argos, clad in rags"; arrival unrecognized, in humble disguise
+E-033 | I | 3 | ev 3 | E.3.20 | D⁷ | Telephus | Achilles |   | "begged the help of Achilles, promising to show the course to steer for Troy"; a request made to the donor, offering service in exchange, direction of the usual pairing reversed
+E-033 | I | 4 | ev 4 | E.3.20 | K | Achilles | Telephus |   | "Achilles healed him by scraping off the rust of his Pelian spear"; liquidation of the lack
+E-033 | I | 5 | ev 5 | E.3.20 | G⁴ | Telephus | the Greeks | ? | "Telephus showed the course to steer"; guidance to the place sought, though here the episode's hero is the one showing the way rather than being shown it
+E-033 | I | 6 | ev 6 | E.3.20 | X | Calchas | — | ? | "the accuracy of his information was confirmed by Calchas by means of his own art of divination"; X, perhaps N, but no M was set
+
+E-035 | I | 1 | ev 1 | E.3.21 | A¹⁷ | Artemis | Iphigenia |   | "they could not sail unless the fairest of Agamemnon's daughters were presented as a sacrifice to Artemis; for the goddess was angry with Agamemnon"; a demand of sacrifice, read as villainy's threat of ritual killing
+E-035 | I | 2 | ev 2 | E.3.21 | X | Agamemnon | — |   | "on shooting a deer, he had said, 'Artemis herself could not (do it better)'"; X, flashback explaining the goddess's anger
+E-035 | I | 3 | ev 3 | E.3.22 | η¹ | Agamemnon | Clytaemnestra, Iphigenia |   | "Agamemnon sent Ulysses and Talthybius to Clytaemnestra and asked for Iphigenia, alleging a promise of his to give her to Achilles to wife"; deception by persuasion
+E-035 | I | 4 | ev 4 | E.3.22 | θ | Clytaemnestra | Iphigenia |   | "Clytaemnestra sent her"; submission to the deception
+E-035 | I | 5 | ev 5 | E.3.22 | A¹⁷ | Agamemnon | Iphigenia |   | "Agamemnon set her beside the altar, and was about to slaughter her"; the sacrifice carried into act, up to the point of rescue
+E-035 | I | 6 | ev 6 | E.3.22 | Rs¹ | Artemis | Iphigenia |   | "Artemis carried her off to the Taurians and appointed her to be her priestess"; rescue, carried away
+E-035 | I | 7 | ev 7 | E.3.22 | Rs³ | Artemis | Iphigenia |   | "substituting a deer for her at the altar"; a substitute left in the rescued one's place, read with the rescue above
+
+E-038 | I | 1 | ev 1 | E.3.23 | A¹⁰ | Cycnus | Tenes |   | "he had been banished by his father"; told before the events that explain it (ev 2-5) and ahead of the chest's landing (ev 6); flashforward structure, flagged in report; matches Propp's own form of a person set adrift at sea
+E-038 | I | 2 | ev 2 | E.3.24 | X | Philonome | Tenes |   | "she fell in love with Tenes"; X, initial situation for the flashback that follows
+E-038 | I | 3 | ev 3 | E.3.24 | η³ | Philonome | Cycnus |   | "failing to seduce him, she falsely accused him to Cycnus of attempting to debauch her"; deception by other means
+E-038 | I | 4 | ev 4 | E.3.24 | η³ | Philonome | Cycnus |   | "in witness of it she produced a flute-player, by name Eumolpus"; continuing the same deception
+E-038 | I | 5 | ev 5 | E.3.25 | θ | Cycnus | Cycnus |   | "Cycnus believed her"; submission to the deception
+E-038 | I | 6 | ev 6 | E.3.25 | G² | Tenes | — |   | "The chest was washed up on the island of Leucophrys"; transference by water
+E-038 | I | 7 | ev 7 | E.3.25 | K | Tenes | — |   | "Tenes landed and settled in the island, and called it Tenedos after himself"; the banishment resolved with a new home
+E-038 | I | 8 | ev 8 | E.3.25 | Ex | Cycnus | Philonome |   | "Cycnus afterwards learning the truth"; the false accusation exposed
+E-038 | I | 9 | ev 9 | E.3.25 | U | Cycnus | Eumolpus |   | "stoned the flute-player to death"; punishment
+E-038 | I | 10 | ev 10 | E.3.25 | U | Cycnus | Philonome |   | "buried his wife alive in the earth"; punishment
+E-038 | I | 11 | ev 11 | E.3.26 | H¹ | Tenes | the Greeks |   | "Tenes saw them and tried to keep them off by throwing stones"; open combat
+E-038 | I | 12 | ev 12 | E.3.26 | δ | Achilles | Tenes |   | "was killed by Achilles with a sword-cut in the breast"; read as the violation of the interdiction given in ev 13, told before it; also a killing, but the text's own emphasis pairs it with Thetis's warning, so defined by that consequence; flagged as uncertain against A
+E-038 | I | 13 | ev 13 | E.3.26 | γ | Thetis | Achilles |   | "Thetis had forewarned Achilles not to kill Tenes, because he himself would die by the hand of Apollo if he slew Tenes"; interdiction, narrated after the violation it pairs with; flashback
+E-040 | I | 1 | ev 1 | E.3.28 | ↑ | the Greeks | — |   | "Putting to sea from Tenedos they made sail for Troy"; departure
+E-040 | I | 2 | ev 2 | E.3.28 | X | the Greeks | the Trojans | ? | "sent Ulysses and Menelaus to demand the restoration of Helen and the property"; X, perhaps a renewed B or C continuing the search first raised in E-026
+E-040 | I | 3 | ev 3 | E.3.28 | X | the Trojans | the Greeks | ? | "not only refused to restore Helen"; X, perhaps a continuing A, refusal to return what was taken
+E-040 | I | 4 | ev 4 | E.3.28 | X | the Trojans | the envoys | ? | "threatened to kill the envoys"; threat only, not carried out; no matching form in Propp's list
+E-040 | I | 5 | ev 5 | E.3.29 | Rs | Antenor | the envoys |   | "These were, however, saved by Antenor"; rescue
+E-040 | I | 6 | ev 6 | E.3.29 | C | the Greeks | — |   | "the Greeks, exasperated at the insolence of the barbarians, stood to arms"; decision for counteraction
+E-040 | I | 7 | ev 6 | E.3.29 | ↑ | the Greeks | — |   | "made sail against them"; departure, read from the same clause as the entry above
+E-040 | I | 8 | ev 7 | E.3.29 | γ | Thetis | Achilles |   | "Thetis charged Achilles not to be the first to land from the ships, because the first to land would be the first to die"; interdiction
+E-040 | I | 9 | ev 8 | E.3.29 | H¹ | the Trojans | the Greeks |   | "the barbarians marched in arms to the sea, and endeavored by throwing stones to prevent the landing"; open combat
+
+E-041 | I | 1 | ev 1 | E.3.30 | H¹ | Protesilaus | the barbarians |   | "having slain not a few of the barbarians"; open combat
+E-041 | I | 2 | ev 2 | E.3.30 | I⁻ | Hector | Protesilaus |   | "he fell by the hand of Hector"; the hero loses the fight
+E-041 | I | 3 | ev 3 | E.3.30 | X | Laodamia | — |   | "she made an image of him and consorted with it"; X, no function; an act of mourning
+E-041 | I | 4 | ev 4 | E.3.30 | K⁹ | Hermes | Protesilaus |   | "the gods had pity on her, and Hermes brought up Protesilaus from Hades"; a slain person revived
+E-041 | I | 5 | ev 5 | E.3.30 | X | Laodamia | — |   | "she thought it was himself returned from Troy, and she was glad"; X, no function; her belief and joy
+E-041 | I | 6 | ev 6 | E.3.30 | X | — | Protesilaus | ? | "when he was carried back to Hades"; X, perhaps a second loss, but no performer is named
+E-041 | I | 7 | ev 7 | E.3.30 | X | Laodamia | Laodamia |   | "she stabbed herself to death"; X, no function; her own death by her own hand
+
+E-044 | I | 1 | ev 1 | E.3.32 | A¹⁴ | Achilles | Troilus |   | "Achilles waylaid Troilus and slaughtered him in the sanctuary of Thymbraean Apollo"; a harmful act by the hero, judged like any other; murder
+E-044 | I | 2 | ev 2 | E.3.32 | A¹⁵ | Achilles | Lycaon |   | "coming by night to the city he captured Lycaon"; imprisons or detains
+E-044 | I | 3 | ev 3 | E.3.32 | A⁵ | Achilles | — |   | "taking some of the chiefs with him, Achilles laid waste the country"; plunder
+E-044 | I | 4 | ev 4 | E.3.32 | ↑ | Achilles | — |   | "made his way to Ida to lift the kine of Aeneas"; departure with a purpose
+E-044 | I | 5 | ev 5 | E.3.32 | Rs | Aeneas | Aeneas |   | "Aeneas fled"; self-rescue by flight
+E-044 | I | 6 | ev 6 | E.3.32 | A¹⁴ | Achilles | the herdsmen, Nestor |   | "Achilles killed the neatherds and Nestor, son of Priam"; murder
+E-044 | I | 7 | ev 7 | E.3.32 | A⁵ | Achilles | Aeneas |   | "drove away the kine"; plunder
+E-044 | I | 8 | ev 8 | E.3.33 | A⁵ | Achilles | — |   | "He also took Lesbos and Phocaea, then Colophon, and Smyrna... and many other cities"; plunder on a grand scale
+E-044 | I | 9 | ev 9 | E.3.34 | X | the allies | the Trojans | ? | "allies came to join the Trojans"; X, strengthens the Trojan side, not Achilles's own act
+E-044 | I | 10 | ev 10 | E.4.1 | β | Achilles | — |   | "Achilles did not go forth to the war, because he was angry on account of Briseis"; absentation
+E-044 | I | 11 | ev 11 | E.4.1 | X | the barbarians | — | ? | "the barbarians took heart of grace and sallied out of the city"; X, the opportunity created by the absentation, but a Trojan action, not Achilles's own
+E-050 | I | 1 | ev 1 | E.4.5 | H¹ | Hector, the Trojans | Agamemnon, Diomedes, Ulysses, Eurypylus, Machaon |   | "a fierce fight took place; Agamemnon and Diomedes, Ulysses, Eurypylus, and Machaon were wounded"; open combat
+E-050 | I | 2 | ev 2 | E.4.5 | I⁻ | Hector, the Trojans | the Greeks |   | "the Greeks were put to flight"; the hero's side loses the fight
+E-050 | I | 3 | ev 3 | E.4.5 | H¹ | Hector | the Greeks |   | "Hector made a breach in the wall and entered"; continuing the struggle
+E-050 | I | 4 | ev 4 | E.4.5 | X | Ajax | — | ? | "Ajax having retreated"; X, a tactical withdrawal, no clear function
+E-050 | II | 1 | ev 5 | E.4.5 | A⁵ | Hector | the Greeks |   | "he set fire to the ships"; a fresh act of destruction beyond the battle's outcome; opens a new move
+
+E-051 | I | 1 | ev 1 | E.4.6 | B² | Achilles | Patroclus |   | "Achilles sent out Patroclus with the Myrmidons"; the hero dispatched directly
+E-051 | I | 2 | ev 1 | E.4.6 | F¹ | Achilles | Patroclus |   | "arming him in his own arms and giving him his horses"; an agent directly transferred, read from the same clause as the entry above
+E-051 | I | 3 | ev 2 | E.4.6 | T⁴ | Patroclus | the Trojans |   | "Taking him for Achilles, the Trojans turned and fled"; false evidence of identity accepted as true
+E-051 | I | 4 | ev 3 | E.4.6 | H¹ | Patroclus | the Trojans |   | "having chased them within the wall, he killed many, amongst them Sarpedon, son of Zeus"; open combat
+E-051 | I | 5 | ev 4 | E.4.6 | J¹ | Euphorbus | Patroclus |   | "wounded first by Euphorbus"; a brand applied to the body, read as the first of two acts in the same clause
+E-051 | I | 6 | ev 4 | E.4.6 | I⁻ | Hector | Patroclus |   | "was himself killed by Hector"; the hero loses the fight
+E-051 | I | 7 | ev 5 | E.4.7 | Rs | Ajax | Patroclus |   | "a fierce fight taking place for the corpse, Ajax with difficulty, by performing feats of valor, rescued the body"; rescue
+
+E-052 | I | 1 | ev 1 | E.4.7 | X | Achilles | — | ? | "Achilles laid aside his anger"; X, ends the absentation begun in the previous episode; no specific function for its ending
+E-052 | I | 2 | ev 2 | E.4.7 | K | Achilles | — |   | "recovered Briseis"; liquidation of the lack
+E-052 | I | 3 | ev 3 | E.4.7 | F¹ | Hephaestus | Achilles |   | "a suit of armour having been brought him from Hephaestus"; an agent directly transferred
+E-052 | I | 4 | ev 4 | E.4.7 | ↑ | Achilles | — |   | "he donned the armour and went forth to the war"; departure
+E-052 | I | 5 | ev 5 | E.4.7 | H¹ | Achilles | the Trojans, Asteropaeus |   | "chased the Trojans in a crowd to the Scamander, and there killed many, and amongst them Asteropaeus"; open combat
+E-052 | I | 6 | ev 6 | E.4.7 | H¹ | the river | Achilles |   | "the river rushed at him in fury"; a new adversary joins the struggle
+E-052 | I | 7 | ev 7 | E.4.7 | I¹ | Hephaestus | the river |   | "Hephaestus dried up the streams of the river, after chasing them with a mighty flame"; the adversary defeated, though by a helper rather than the hero
+E-052 | I | 8 | ev 8 | E.4.7 | H¹ | Achilles | Hector |   | "Achilles slew Hector in single combat"; open combat
+E-052 | I | 9 | ev 8 | E.4.7 | I¹ | Achilles | Hector |   | "slew Hector in single combat"; victory, read from the same clause as the entry above
+E-052 | I | 10 | ev 9 | E.4.7 | U | Achilles | Hector |   | "fastening his ankles to his chariot dragged him to the ships"; punitive treatment of the defeated adversary
+E-052 | I | 11 | ev 10 | E.4.7 | X | Achilles | Patroclus | ? | "having buried Patroclus"; X, a funeral rite, no function
+E-052 | I | 12 | ev 11 | E.4.7 | X | Achilles | — | ? | "celebrated games in his honor, at which Diomedes was victorious in the chariot race, Epeus in boxing, and Ajax and Ulysses in wrestling"; X, funeral games, no antagonist involved
+E-052 | I | 13 | ev 12 | E.4.7 | X | Priam | Achilles | ? | "Priam came to Achilles and ransomed the body of Hector"; X, an exchange, but the beneficiary is Priam, not the episode's hero
+E-052 | I | 14 | ev 13 | E.4.7 | X | Priam | Hector | ? | "buried it"; X, Priam's act, not Achilles's
+E-053 | I | 1 | ev 1 | E.5.1 | A¹⁴ | Penthesilia | Hippolyte |   | "Penthesilia, daughter of Otrere and Ares, accidentally killed Hippolyte"; murder, judged like any other act though accidental
+E-053 | I | 2 | ev 2 | E.5.1 | X | Priam | Penthesilia | ? | "was purified by Priam"; X, ritual purification, no function
+E-053 | I | 3 | ev 3 | E.5.1 | H¹ | Penthesilia | Machaon, others |   | "In battle she slew many, and amongst them Machaon"; open combat
+E-053 | I | 4 | ev 4 | E.5.1 | I⁻ | Achilles | Penthesilia |   | "was afterwards herself killed by Achilles"; the hero loses the fight
+E-053 | I | 5 | ev 5 | E.5.1 | X | Achilles | — | ? | "Achilles fell in love with the Amazon after her death"; X, no function
+E-053 | I | 6 | ev 6 | E.5.1 | X | Achilles | Thersites | ? | "slew Thersites for jeering at him"; X, Achilles's own act after this episode's hero has died; no function relative to Penthesilia
+
+E-058 | I | 1 | ev 1 | E.5.3 | H¹ | Achilles | Memnon |   | "Achilles slays Memnon"; open combat
+E-058 | I | 2 | ev 1 | E.5.3 | I¹ | Achilles | Memnon |   | "Achilles slays Memnon"; victory, read from the same clause
+E-058 | I | 3 | ev 2 | E.5.3 | H¹ | Achilles | the Trojans |   | "Achilles chased the Trojans too"; continuing combat
+E-058 | II | 1 | ev 3 | E.5.3 | A⁶ | Alexander, Apollo | Achilles |   | "Achilles was shot with an arrow in the ankle by Alexander and Apollo at the Scaean gate"; bodily injury, a new villainy against this episode's hero; opens a new move
+E-058 | II | 2 | ev 4 | E.5.4 | H¹ | Ajax | Glaucus |   | "A fight taking place for the corpse, Ajax killed Glaucus"; open combat
+E-058 | II | 3 | ev 4 | E.5.4 | I¹ | Ajax | Glaucus |   | "Ajax killed Glaucus"; victory, read from the same clause
+E-058 | II | 4 | ev 5 | E.5.4 | X | Ajax | — | ? | "gave the arms to be conveyed to the ships"; X, recovery of equipment, no clean function
+E-058 | II | 5 | ev 6 | E.5.4 | Rs | Ajax | Achilles |   | "the body he carried, in a shower of darts, through the midst of the enemy"; rescue
+E-058 | II | 6 | ev 7 | E.5.4 | H¹ | Ulysses | the attackers |   | "Ulysses fought his assailants"; open combat
+E-058 | II | 7 | ev 8 | E.5.5 | X | — | the Greeks | ? | "The death of Achilles filled the army with dismay"; X, no function
+E-058 | II | 8 | ev 9 | E.5.5 | X | the Greeks | Achilles | ? | "they buried him with Patroclus in the White Isle, mixing the bones of the two together"; X, funeral rite
+E-058 | II | 9 | ev 10 | E.5.5 | X | Achilles | — | ? | "It is said that after death Achilles consorts with Medea in the Isles of the Blest"; X, no function, reported as a variant belief
+E-058 | II | 10 | ev 11 | E.5.5 | X | the Greeks | — | ? | "they held games in his honor, at which Eumelus won the chariot-race, Diomedes the footrace, Ajax the quoit match, and Teucer the competition in archery"; X, funeral games, no antagonist
+E-058 | II | 11 | ev 12 | E.5.6 | X | — | — | ? | "his arms were offered as a prize to the bravest"; X, sets up the next episode's contest; no function for this episode's hero, who is already dead
+
+E-059 | I | 1 | ev 1 | E.5.6 | H² | Ajax, Ulysses | — |   | "Ajax and Ulysses came forward as competitors"; a competition
+E-059 | I | 2 | ev 2 | E.5.6 | I²⁻ | the judges | Ajax |   | "The judges were the Trojans or, according to some, the allies, and Ulysses was preferred"; the hero defeated in the contest
+E-059 | I | 3 | ev 3 | E.5.6 | X | Ajax | the Greeks | ? | "Disordered by chagrin, Ajax planned a nocturnal attack on the army"; threat only, not carried out as intended
+E-059 | I | 4 | ev 4 | E.5.6 | A¹¹ | Athena | Ajax |   | "Athena drove him mad, and turned him, sword in hand, among the cattle"; a spell cast upon the hero
+E-059 | I | 5 | ev 5 | E.5.6 | A¹⁴ | Ajax | the cattle, the herdsmen |   | "in his frenzy he slaughtered the cattle with the herdsmen, taking them for the Achaeans"; a harmful act by the hero, judged like any other, though caused by the spell above
+E-059 | I | 6 | ev 6 | E.5.7 | K⁸ | Ajax | Ajax |   | "he came to his senses"; the spell is broken
+E-059 | I | 7 | ev 7 | E.5.7 | X | Ajax | Ajax | ? | "he slew also himself"; X, no function for a hero's suicide
+E-059 | I | 8 | ev 8 | E.5.7 | X | Agamemnon | Ajax | ? | "Agamemnon forbade his body to be burnt"; X, a further indignity, no clean function
+E-059 | I | 9 | ev 9 | E.5.7 | X | — | Ajax | ? | "he alone of all who fell at Ilium is buried, in a coffin"; X, burial, descriptive closure
+E-060 | I | 1 | ev 1 | E.5.8 | X | Calchas | the Greeks | ? | "Calchas prophesied to them that Troy could not be taken unless they had the bow and arrows of Hercules fighting on their side"; X, establishes the Greeks' lack, not this episode's hero's own lack; nearest candidate a
+E-060 | I | 2 | ev 2 | E.5.8 | B¹ | Ulysses, Diomedes | Philoctetes |   | "Ulysses went with Diomedes to Philoctetes in Lemnos"; a call that fetches the hero
+E-060 | I | 3 | ev 3 | E.5.8 | A² | Ulysses | Philoctetes |   | "having by craft got possession of the bow and arrows"; the villain seizes a magical agent
+E-060 | I | 4 | ev 4 | E.5.8 | η¹ | Ulysses | Philoctetes |   | "he persuaded him to sail to Troy"; trickery by persuasion
+E-060 | I | 5 | ev 5 | E.5.8 | θ | Philoctetes | Philoctetes |   | "So he went"; submission to the persuasion
+E-060 | I | 6 | ev 6 | E.5.8 | K | Podalirius | Philoctetes |   | "after being cured by Podalirius"; liquidation of his long-standing wound
+E-060 | I | 7 | ev 7 | E.5.8 | I⁵ | Philoctetes | Alexander |   | "he shot Alexander"; the adversary struck down without a described preliminary fight
+
+E-061 | I | 1 | ev 1 | E.5.9 | X | Helenus, Deiphobus | — | ? | "Helenus and Deiphobus quarrelled as to which of them should marry Helen"; X, a rivalry, no clean match
+E-061 | I | 2 | ev 2 | E.5.9 | I²⁻ | — | Helenus | ? | "Deiphobus was preferred"; the hero defeated in the rivalry, read as a contest
+E-061 | I | 3 | ev 3 | E.5.9 | β | Helenus | — |   | "Helenus left Troy and abode in Ida"; absentation
+E-061 | I | 4 | ev 4 | E.5.9 | ζ | Calchas | the Greeks |   | "Chalcas said that Helenus knew the oracles that protected the city"; delivery of information about the sought person
+E-061 | I | 5 | ev 5 | E.5.9 | A¹ | Ulysses | Helenus |   | "Ulysses waylaid and captured him and brought him to the camp"; abduction of a person
+E-061 | I | 6 | ev 6 | E.5.10 | θ | Helenus | Helenus |   | "Helenus was forced to tell how Ilium could be taken"; submission, forced compliance
+E-061 | I | 7 | ev 7 | E.5.11 | X | the Greeks | — | ? | "the Greeks caused the bones of Pelops to be fetched"; X, the Greeks' own later action, not Helenus's
+
+E-062 | I | 1 | ev 1 | E.5.11 | B¹ | the Greeks | Neoptolemus |   | "The Greeks sent Ulysses and Phoenix to Lycomedes at Scyros"; a call that fetches the hero
+E-062 | I | 2 | ev 2 | E.5.11 | B³ | Lycomedes | Neoptolemus |   | "these two persuaded him to let Neoptolemus go"; the hero allowed to depart, through his guardian's consent
+E-062 | I | 3 | ev 3 | E.5.11 | F¹ | Ulysses | Neoptolemus |   | "receiving his father's arms from Ulysses, who willingly resigned them"; an agent directly transferred
+E-062 | I | 4 | ev 4 | E.5.11 | H¹ | Neoptolemus | the Trojans |   | "Neoptolemus slew many of the Trojans"; open combat
+E-062 | I | 5 | ev 5 | E.5.12 | X | Eurypylus | the Trojans | ? | "Eurypylus, son of Telephus, arrived to fight for the Trojans, bringing a great force of Mysians"; X, introduces a new adversary, no function itself
+E-062 | I | 6 | ev 6 | E.5.12 | H¹ | Eurypylus | the Greeks |   | "He performed doughty deeds"; combat
+E-062 | I | 7 | ev 7 | E.5.12 | I¹ | Neoptolemus | Eurypylus |   | "was slain by Neoptolemus"; victory
+E-063 | I | 1 | ev 1 | E.5.13 | ↑ | Ulysses | — |   | "Ulysses went with Diomedes by night to the city, and there he let Diomedes wait"; departure
+E-063 | I | 2 | ev 2 | E.5.13 | X | Ulysses | Ulysses | ? | "after disfiguring himself and putting on mean attire"; X, preparation for the disguise completed in the entry below
+E-063 | I | 3 | ev 3 | E.5.13 | o | Ulysses | — |   | "he entered unknown into the city as a beggar"; unrecognized arrival
+E-063 | I | 4 | ev 4 | E.5.13 | Q | Helen | Ulysses |   | "being recognized by Helen"; recognition
+E-063 | I | 5 | ev 5 | E.5.13 | K¹ | Ulysses | — |   | "with her help stole away the Palladium"; the object of search seized with help
+E-063 | I | 6 | ev 6 | E.5.13 | H¹ | Ulysses | the guards |   | "after killing many of the guards"; combat
+E-063 | I | 7 | ev 7 | E.5.13 | ↓ | Ulysses | — |   | "brought it to the ships with the aid of Diomedes"; return
+E-063 | I | 8 | ev 8 | E.5.14 | X | Ulysses | Epeus | ? | "he invented the construction of the Wooden Horse and suggested it to Epeus"; X, devising a stratagem, no clean function
+E-063 | I | 9 | ev 9 | E.5.14 | F³ | Epeus | — |   | "Epeus felled timber on Ida, and constructed the horse with a hollow interior and an opening in the sides"; the agent prepared
+E-063 | I | 10 | ev 10 | E.5.14 | X | Ulysses | the fifty |   | "Ulysses persuaded fifty of the doughtiest to enter, while the rest were to burn their tents"; X, organizing his own side, not deception of a victim
+E-063 | I | 11 | ev 11 | E.5.15 | X | the Greeks | — | ? | "They followed the advice of Ulysses and introduced the doughtiest into the horse"; X, continuing the same organizational act
+E-063 | I | 12 | ev 12 | E.5.15 | X | the Greeks | Ulysses | ? | "appointing Ulysses their leader"; X, an appointment, no clean function; weak candidate Q
+E-065 | I | 1 | ev 1 | E.5.16 | θ | the Trojans | — |   | "the Trojans beheld the camp of the Greeks deserted and believed that they had fled"; submission to the deception
+E-065 | I | 2 | ev 2 | E.5.16 | θ | the Trojans | — |   | "with great joy dragged the horse, and stationing it beside the palace of Priam"; continuing submission to the deception
+E-065 | I | 3 | ev 3 | E.5.16 | X | the Trojans | — | ? | "deliberated what they should do"; X, deliberation, no action yet
+E-065 | I | 4 | ev 4 | E.5.17 | γ | Cassandra | the Trojans |   | "Cassandra said that there was an armed force in it"; a warning, read as an interdiction
+E-065 | I | 5 | ev 5 | E.5.17 | X | Laocoon | the Trojans | ? | "she was further confirmed by Laocoon, the seer"; X, confirms the warning already given, not a distinct function
+E-065 | I | 6 | ev 6 | E.5.17 | δ | the Trojans | — |   | "as most were in favour of sparing it as a votive offering sacred to a divinity"; the warning disregarded, read as violation
+E-065 | I | 7 | ev 7 | E.5.17 | θ | the Trojans | — |   | "they betook them to sacrifice and feasting"; continuing submission, off guard
+E-065 | II | 1 | ev 8 | E.5.18 | A¹⁴ | the serpents, Apollo | the sons of Laocoon |   | "two serpents swam through the sea from the neighboring islands and devoured the sons of Laocoon"; murder; a fresh villainy opening a new move
+E-066 | I | 1 | ev 1 | E.5.19 | ↑ | the Greeks | — |   | "the Greeks drew near by sea from Tenedos"; departure
+E-066 | I | 2 | ev 2 | E.5.19 | G | Sinon | the Greeks |   | "Sinon kindled the beacon on the grave of Achilles to guide them"; guidance to the place sought
+E-066 | I | 3 | ev 3 | E.5.19 | η³ | Helen | the Greeks in the horse |   | "Helen, going round the horse, called the chiefs, imitating the voices of each of their wives"; deception by impersonation
+E-066 | I | 4 | ev 4 | E.5.19 | E | Ulysses | Anticlus |   | "when Anticlus would have answered, Ulysses held fast his mouth"; the hero's reaction, resisting the deception on another's behalf
+E-066 | I | 5 | ev 5 | E.5.20 | ↑ | the Greeks in the horse | — |   | "they opened the horse and came forth with their arms"; departure, emerging to begin the assault
+E-066 | I | 6 | ev 6 | E.5.20 | X | — | Echion | ? | "The first, Echion, son of Portheus, was killed by leaping from it"; X, an accidental death, not combat
+E-066 | I | 7 | ev 7 | E.5.20 | G⁵ | the Greeks | — |   | "the rest let themselves down by a rope, and lighted on the walls"; stationary means of descent
+E-066 | I | 8 | ev 8 | E.5.20 | K | the Greeks | — |   | "having opened the gates they admitted their comrades who had landed from Tenedos"; the way to the object of the quest secured
+E-066 | I | 9 | ev 9 | E.5.21 | A¹⁴ | the Greeks | the Trojans |   | "marching, arms in hand, into the city, they entered the houses and slew the sleepers"; murder at scale
+E-066 | I | 10 | ev 10 | E.5.21 | A¹⁴ | Neoptolemus | Priam |   | "Neoptolemus slew Priam, who had taken refuge at the altar of Zeus of the Courtyard"; murder
+E-066 | I | 11 | ev 11 | E.5.21 | Q | Ulysses, Menelaus | Glaucus |   | "Ulysses and Menelaus recognized... him"; recognition
+E-066 | I | 12 | ev 11 | E.5.21 | Rs | Ulysses, Menelaus | Glaucus |   | "and rescued him by their armed intervention"; rescue, read from the same clause
+E-066 | I | 13 | ev 12 | E.5.21 | Rs | Aeneas | Anchises |   | "Aeneas took up his father Anchises and fled"; rescue by flight
+E-066 | I | 14 | ev 13 | E.5.21 | U⁻ | the Greeks | Aeneas |   | "the Greeks let him alone on account of his piety"; a magnanimous pardon
+E-066 | I | 15 | ev 14 | E.5.22 | I⁵ | Menelaus | Deiphobus |   | "Menelaus slew Deiphobus"; the one holding Helen struck down without a described fight
+E-066 | I | 16 | ev 15 | E.5.22 | K⁴ | Menelaus | Helen |   | "led away Helen to the ships"; the object of the whole quest obtained as the result of preceding action
+E-066 | I | 17 | ev 16 | E.5.22 | Rs | Demophon, Acamas | Aethra |   | "Aethra, mother of Theseus, was also led away by Demophon and Acamas, the sons of Theseus"; rescue
+E-066 | I | 18 | ev 17 | E.5.22 | X | Demophon, Acamas | — | ? | "they say that they afterwards went to Troy"; X, an explanatory aside
+E-066 | II | 1 | ev 18 | E.5.22 | A⁶ | the Locrian Ajax | Cassandra |   | "the Locrian Ajax, seeing Cassandra clinging to the wooden image of Athena, violated her"; bodily injury and violation; a fresh, distinct villainy, opening a new move that breaks off here and resumes at ev 26
+E-066 | I | 19 | ev 19 | E.5.23 | A⁵ | the Greeks | Troy |   | "having slain the Trojans, they set fire to the city"; plunder and destruction, resuming move I
+E-066 | I | 20 | ev 20 | E.5.23 | X | the Greeks | — | ? | "divided the spoil among them"; X, logistics
+E-066 | I | 21 | ev 21 | E.5.23 | X | the Greeks | — | ? | "having sacrificed to all the gods"; X, ritual
+E-066 | I | 22 | ev 22 | E.5.23 | A¹⁴ | the Greeks | Astyanax |   | "they threw Astyanax from the battlements"; murder
+E-066 | I | 23 | ev 23 | E.5.23 | A¹⁷ | the Greeks | Polyxena |   | "slaughtered Polyxena on the grave of Achilles"; a ritual killing, read under villainy's threat-of-sacrifice form
+E-066 | I | 24 | ev 24 | E.5.23 | X | the Greeks | Cassandra, Andromache, Hecuba | ? | "as special awards Agamemnon got Cassandra, Neoptolemus got Andromache, and Ulysses got Hecuba"; X, division of captives, no clean function
+E-066 | I | 25 | ev 25 | E.5.23 | X | — | Laodice | ? | "she was swallowed up by a chasm in the earth in the sight of all"; X, no function, an unexplained portent
+E-066 | II | 2 | ev 26 | E.5.23 | Pr² | Calchas, Athena | the Greeks |   | "they were detained by Calchas, who said that Athena was angry with them on account of the impiety of Ajax"; the guilty one demanded, resuming move II
+E-066 | II | 3 | ev 27 | E.5.23 | Rs | the Locrian Ajax | the Locrian Ajax |   | "he fled to the altar"; rescue, seeking sanctuary
+E-066 | II | 4 | ev 28 | E.5.23 | U⁻ | the Greeks | the Locrian Ajax |   | "they let him alone"; a magnanimous pardon
+E-068 | I | 1 | ev 1 | E.6.1 | X | Agamemnon, Menelaus | — | ? | "Agamemnon and Menelaus quarrelled, Menelaus advising that they should sail away, and Agamemnon insisting that they should stay and sacrifice to Athena"; X, a dispute, no clean function
+E-068 | I | 2 | ev 2 | E.6.1 | ↑ | Diomedes, Nestor, Menelaus | —   |   | "When they put to sea, Diomedes, Nestor, and Menelaus in company"; departure
+E-068 | I | 3 | ev 3 | E.6.1 | X | Diomedes, Nestor | — | ? | "the two former had a prosperous voyage"; X, concerns companions, not Menelaus's own fate
+E-068 | I | 4 | ev 4 | E.6.1 | X | — | Menelaus | ? | "Menelaus was overtaken by a storm, and after losing the rest of his vessels"; X, perhaps A, but no performer is identified
+E-068 | I | 5 | ev 5 | E.6.1 | G² | Menelaus | — |   | "arrived with five ships in Egypt"; transference by water
+E-069 | I | 1 | ev 1 | E.6.2 | ↑ | Amphilochus, Calchas, Leonteus, Podalirius, Polypoetes | — |   | "left their ships in Ilium and journeyed by land to Colophon"; departure
+E-069 | I | 2 | ev 2 | E.6.2 | X | — | Calchas | ? | "there buried Calchas the diviner"; told before the events that explain it (ev 3-10), flashforward, flagged in report; burial rite, no function
+E-069 | I | 3 | ev 3 | E.6.2 | γ | — | Calchas | ? | "it was foretold him that he would die if he met with a wiser diviner than himself"; read as an interdiction in the form of a fatal condition, uncertain
+E-069 | I | 4 | ev 4 | E.6.3 | X | Mopsus | Calchas | ? | "they were lodged by the diviner Mopsus, son of Apollo and Manto"; X, sets up the meeting; the contest itself begins below
+E-069 | I | 5 | ev 5 | E.6.3 | H² | Mopsus, Calchas | — |   | "he wrangled with Calchas about the art of divination"; a competition
+E-069 | I | 6 | ev 6 | E.6.3 | M | Calchas | Mopsus |   | "when Calchas asked, How many figs does it bear?"; a task posed, in the form of a riddle
+E-069 | I | 7 | ev 7 | E.6.3 | N | Mopsus | — |   | "Mopsus answered, Ten thousand, and a bushel, and one fig over, and they were found to be so"; the task solved
+E-069 | I | 8 | ev 8 | E.6.4 | M | Mopsus | Calchas |   | "Mopsus asked Calchas concerning a pregnant sow, How many pigs has she in her womb, and when will she farrow?"; a task posed
+E-069 | I | 9 | ev 9 | E.6.4 | N⁻ | Calchas | — |   | "Calchas answered, Eight"; a failed solution
+E-069 | I | 10 | ev 10 | E.6.4 | X | Mopsus | Calchas | ? | "I divine that the number of pigs in the womb is not eight, as Calchas says, but nine... and will be farrowed without fail tomorrow at the sixth hour"; X, a claim not yet confirmed; confirmation follows below
+E-069 | I | 11 | ev 11 | E.6.4 | I²⁻ | Mopsus | Calchas |   | "when these things turned out so, Calchas died of a broken heart and was buried at Notium"; the hero defeated in the contest
+
+E-073 | I | 1 | ev 1 | E.6.6 | A⁶ | Athena | Ajax |   | "Athena threw a thunderbolt at the ship of Ajax"; bodily harm, read as villainy against this episode's hero
+E-073 | I | 2 | ev 2 | E.6.6 | Rs | Ajax | Ajax |   | "when the ship went to pieces he made his way safe to a rock"; rescue, self-preservation
+E-073 | I | 3 | ev 3 | E.6.6 | X | Ajax | — | ? | "he declared that he was saved in spite of the intention of Athena"; X, a boast; sets up the further punishment that follows
+E-073 | I | 4 | ev 4 | E.6.6 | A⁶ | Poseidon | Ajax |   | "Poseidon smote the rock with his trident and split it"; continuing harm against the hero
+E-073 | I | 5 | ev 5 | E.6.6 | I⁻ | Poseidon | Ajax |   | "Ajax fell into the sea and perished"; the hero defeated
+E-073 | I | 6 | ev 6 | E.6.6 | X | Thetis | Ajax | ? | "his body, being washed up, was buried by Thetis in Myconos"; X, burial rite
+E-077 | I | 1 | ev 1 | E.6.12 | ↑ | Neoptolemus | — |   | "After remaining in Tenedos two days at the advice of Thetis, Neoptolemus set out for the country of the Molossians by land with Helenus"; departure
+E-077 | I | 2 | ev 2 | E.6.12 | X | Phoenix | Phoenix | ? | "on the way Phoenix died"; X, an unprovoked death, no performer
+E-077 | I | 3 | ev 3 | E.6.12 | X | Neoptolemus | Phoenix | ? | "Neoptolemus buried him"; X, funeral rite
+E-077 | I | 4 | ev 4 | E.6.12 | H¹ | Neoptolemus | the Molossians |   | "having vanquished the Molossians in battle"; open combat
+E-077 | I | 5 | ev 4 | E.6.12 | I¹ | Neoptolemus | the Molossians |   | "vanquished the Molossians in battle"; victory, read from the same clause
+E-077 | I | 6 | ev 5 | E.6.12 | W³ | Neoptolemus | — |   | "he reigned as king"; accession to the throne
+E-077 | I | 7 | ev 6 | E.6.13 | X | Helenus | — | ? | "Helenus founded a city in Molossia and inhabited it"; X, Helenus's own act
+E-077 | I | 8 | ev 7 | E.6.13 | X | Neoptolemus | Helenus, Deidamia | ? | "Neoptolemus gave him his mother Deidamia to wife"; X, arranging another's marriage, not the hero's own
+E-077 | II | 1 | ev 8 | E.6.13 | A⁹ | the sons of Acastus | Peleus |   | "Peleus was expelled from Phthia by the sons of Acastus and died"; expulsion of a family member; opens a new move
+E-077 | II | 2 | ev 9 | E.6.13 | W³ | Neoptolemus | — |   | "Neoptolemus succeeded to his father's kingdom"; accession, resolving the vacancy above
+E-077 | III | 1 | ev 10 | E.6.14 | A¹ | Neoptolemus | Hermione, Orestes |   | "when Orestes went mad, Neoptolemus carried off his wife Hermione, who had previously been betrothed to him in Troy"; a harmful act by the hero, judged like any other; abduction; opens a new move
+E-077 | III | 2 | ev 11 | E.6.14 | U | Orestes | Neoptolemus |   | "for that reason he was slain by Orestes at Delphi"; punishment following directly from the act above
+
+E-094 | I | 1 | ev 1 | E.6.15b | X | — | Philoctetes | ? | "Philoctetes was driven to Campania in Italy"; X, displacement, no performer identified
+E-094 | I | 2 | ev 2 | E.6.15b | A¹⁹ | Philoctetes | the Lucanians |   | "after making war on the Lucanians"; a harmful act by the hero, judged like any other; declaring war
+E-094 | I | 3 | ev 3 | E.6.15b | K | Philoctetes | — |   | "he settled in Crimissa, near Croton and Thurium"; his wandering resolved with a home
+E-094 | I | 4 | ev 4 | E.6.15b | X | Philoctetes | — | ? | "his wanderings over, he founded a sanctuary of Apollo the Wanderer"; X, a dedication, no function
+E-094 | I | 5 | ev 5 | E.6.15b | X | Philoctetes | — | ? | "to whom also he dedicated his bow, as Euphorion says"; X, a dedication, no function; attributed to a named source
+
+E-096 | I | 1 | ev 1 | E.6.16 | G² | Demophon | — |   | "Demophon with a few ships put in to the land of the Thracian Bisaltians"; transference by water
+E-096 | I | 2 | ev 2 | E.6.16 | X | Phyllis | Demophon | ? | "Phyllis, the king's daughter, falling in love with him"; X, no function
+E-096 | I | 3 | ev 3 | E.6.16 | W¹ | Phyllis's father | Demophon |   | "was given him in marriage by her father with the kingdom for her dower"; bride and kingdom awarded at once
+E-096 | I | 4 | ev 4 | E.6.16 | X | Demophon | — | ? | "after many entreaties and swearing to return, he did depart"; X, an oath; sets up the interdiction given below
+E-096 | I | 5 | ev 5 | E.6.16 | ↑ | Demophon | — |   | "he did depart"; departure
+E-096 | I | 6 | ev 6 | E.6.16 | X | Phyllis | — | ? | "Phyllis accompanied him as far as what are called the Nine Roads"; X, no distinct function
+E-096 | I | 7 | ev 7 | E.6.16 | F¹ | Phyllis | Demophon |   | "she gave him a casket, telling him that it contained a sacrament of Mother Rhea"; an agent directly transferred
+E-096 | I | 8 | ev 7 | E.6.16 | γ | Phyllis | Demophon |   | "he was not to open it until he should have abandoned all hope of returning to her"; interdiction, read from the same clause
+E-096 | I | 9 | ev 8 | E.6.17 | X | Demophon | — | ? | "Demophon went to Cyprus and dwelt there"; X, staying away; not yet the specific violation
+E-096 | II | 1 | ev 9 | E.6.17 | A¹¹ | Phyllis | Demophon |   | "Phyllis called down curses on Demophon"; a spell cast upon the hero; opens a new move
+E-096 | II | 2 | ev 10 | E.6.17 | X | Phyllis | Phyllis | ? | "killed herself"; X, not directly Demophon's own arc
+E-096 | II | 3 | ev 11 | E.6.17 | δ | Demophon | Demophon |   | "Demophon opened the casket, and, being struck with fear"; violation of the interdiction given above
+E-096 | II | 4 | ev 12 | E.6.17 | X | Demophon | — | ? | "he mounted his horse and galloping wildly"; X, a frantic reaction, not literal pursuit
+E-096 | II | 5 | ev 13 | E.6.17 | U | — | Demophon | ? | "the horse stumbling, he was thrown and fell on his sword"; the curse's fulfilment, read as punishment following the violation above
+E-096 | II | 6 | ev 14 | E.6.17 | X | his people | — | ? | "his people settled in Cyprus"; X, aftermath, not Demophon's own act
+E-103 | I | 1 | ev 1 | E.6.24 | B⁶ | Electra | Orestes |   | "Electra... smuggled away her brother Orestes and gave him to Strophius, the Phocian, to bring up"; the hero secretly freed from mortal danger
+E-103 | I | 2 | ev 2 | E.6.24 | X | Strophius | Orestes | ? | "he brought him up with Pylades, his own son"; X, upbringing, no function
+E-103 | I | 3 | ev 3 | E.6.24 | C | Orestes | — |   | "he repaired to Delphi and asked the god whether he should take vengeance on his father's murderers"; decision for counteraction
+E-103 | I | 4 | ev 4 | E.6.25 | B³ | the god | Orestes |   | "The god gave him leave"; the hero allowed to proceed
+E-103 | I | 5 | ev 5 | E.6.25 | ↑ | Orestes | — |   | "he departed secretly to Mycenae in company with Pylades"; departure
+E-103 | I | 6 | ev 6 | E.6.25 | I⁵ | Orestes | Clytaemnestra, Aegisthus |   | "killed both his mother and Aegisthus"; the original villains struck down, read without a described preliminary fight
+E-103 | II | 1 | ev 7 | E.6.25 | A¹¹ | the Furies | Orestes |   | "being afflicted with madness"; a spell/affliction cast upon the hero; opens a new move
+E-103 | II | 2 | ev 7 | E.6.25 | Pr¹ | the Furies | Orestes |   | "pursued by the Furies"; pursuit, read from the same clause
+E-103 | II | 3 | ev 8 | E.6.25 | Rs | Orestes | Orestes |   | "he repaired to Athens and was tried in the Areopagus"; rescue, seeking refuge from the pursuit
+E-103 | II | 4 | ev 9 | E.6.25 | Ex | the Areopagus | Orestes |   | "the votes at his trial being equal he was acquitted"; his justification established, read as exposure/vindication
+E-103 | II | 5 | ev 10 | E.6.26 | D⁷ | Orestes | the god |   | "he inquired how he should be rid of his disorder"; a request made of a donor
+E-103 | II | 6 | ev 11 | E.6.26 | M | the god | Orestes |   | "the god answered that he would be rid of it if he should fetch the wooden image that was in the land of the Taurians"; a difficult task set
+E-103 | II | 7 | ev 12 | E.6.26 | X | the Taurians | strangers | ? | "the Taurians... murder strangers and throw them into the sacred fire"; X, describes the danger of the place, not yet an act against Orestes
+E-103 | II | 8 | ev 13 | E.6.27 | G | Orestes | — |   | "Orestes was come with Pylades to the land of the Taurians"; guidance to the place of the task
+E-103 | II | 9 | ev 14 | E.6.27 | A¹⁵ | the Taurians, Thoas | Orestes |   | "he was detected, caught, and carried in bonds before Thoas the king"; the hero detained
+E-103 | II | 10 | ev 15 | E.6.27 | X | Thoas | Orestes, Pylades | ? | "who sent them both to the priestess"; X, a procedural transfer
+E-103 | II | 11 | ev 16 | E.6.27 | Q | Iphigenia | Orestes |   | "being recognized by his sister, who acted as priestess among the Taurians"; recognition
+E-103 | II | 12 | ev 17 | E.6.27 | N | Orestes | — |   | "carrying off the wooden image"; the task solved, read together with the flight below
+E-103 | II | 13 | ev 17 | E.6.27 | Rs | Orestes | Orestes, Iphigenia |   | "he fled with her"; rescue/escape, read from the same clause
+E-103 | II | 14 | ev 18 | E.6.27 | ↓ | Orestes | — |   | "It was conveyed to Athens"; return
+E-103 | II | 15 | ev 19 | E.6.28 | X | Orestes | Electra, Pylades | ? | "he united his sister Electra in marriage to Pylades"; X, arranging another's marriage, not the hero's own
+E-103 | II | 16 | ev 20 | E.6.28 | X | — | Orestes | ? | "was killed by the bite of a snake at Oresteum in Arcadia"; X, no performer identified, an incidental death
+
+E-105 | I | 1 | ev 1 | E.6.29 | G² | Menelaus | — |   | "Menelaus, with five ships in all under his command, put in at Sunium, a headland of Attica"; transference by water
+E-105 | I | 2 | ev 2 | E.6.29 | X | — | Menelaus | ? | "being again driven thence by winds to Crete"; X, no clear performer
+E-105 | I | 3 | ev 3 | E.6.29 | X | Menelaus | — | ? | "he drifted far away, and wandering up and down Libya, and Phoenicia, and Cyprus, and Egypt"; X, extended wandering, no clean function
+E-105 | I | 4 | ev 4 | E.6.29 | X | Menelaus | — | ? | "he collected much treasure"; X, gradual accumulation, no clear donor or agent
+E-105 | I | 5 | ev 5 | E.6.29 | G² | Menelaus | — |   | "after wandering for eight years he came to port at Mycenae"; transference by water
+E-105 | I | 6 | ev 6 | E.6.29 | X | Orestes | Menelaus | ? | "there found Orestes, who had avenged his father's murder"; X, an encounter conveying news, no clean function
+E-105 | I | 7 | ev 7 | E.6.29 | ↓ | Menelaus | — |   | "having come to Sparta he regained his own kingdom"; return
+E-105 | I | 8 | ev 7 | E.6.29 | K | Menelaus | — |   | "he regained his own kingdom"; liquidation, read from the same clause
+E-105 | I | 9 | ev 8 | E.6.29 | F¹ | Hera | Menelaus |   | "being made immortal by Hera"; a quality directly given
+E-105 | I | 10 | ev 9 | E.6.29 | X | Menelaus | — | ? | "he went to the Elysian Fields with Helen"; X, a final blissful translation, no precise function

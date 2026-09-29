@@ -1,0 +1,151 @@
+E-107 | I | 1 | ev 1 | E.7.1 | X | Ulysses | - | ? | "Ulysses wanders about Libya"; not a discrete act with a consequence in the action; perhaps α (initial situation), but α is not a function and the clause narrates ongoing wandering rather than a starting situation
+E-107 | I | 2 | ev 2 | E.7.2 | X | Ulysses | - | ? | "touches at Ismarus, a city of the Cicones"; mere arrival, no function; perhaps ↑
+E-107 | I | 3 | ev 3 | E.7.2 | A | Ulysses | Cicones of Ismarus | ? | "takes Ismarus in war and plunders it, sparing only Maro"; harmful act by the hero judged like any other; perhaps A⁵ (plunder in other forms)
+E-107 | I | 4 | ev 4 | E.7.2 | X | Cicones of the mainland | Ulysses | ? | "come in arms against him"; mobilization to attack, no combat yet narrated; no clean function, perhaps a precursor to Pr
+E-107 | I | 5 | ev 5 | E.7.2 | A | Cicones | Ulysses's men | ? | "Having lost six men from each ship"; the killing is narrated only as the reason for the fleeing that follows; perhaps A¹⁴; the fleeing itself ("puts to sea and flees") is not given its own entry since it fulfills no separate function
+E-107 | II | 1 | ev 6 | E.7.3 | X | Ulysses | - |   | "lands in the country of the Lotus-eaters"; arrival only
+E-107 | II | 2 | ev 7 | E.7.3 | X | Ulysses | - |   | "sends some men to learn who lives there"; scouts sent to learn about a country, not the villain's reconnaissance of a victim that ε defines
+E-107 | II | 3 | ev 8 | E.7.3 | A | lotus | the men | ? | "taste the lotus and stay there"; no personified villain acts on them, but the effect (loss of the party, forcing recovery) matches the shape of villainy; perhaps A⁷ (sudden disappearance)
+E-107 | II | 4 | ev 9 | E.7.3 | X | Ulysses | rest of the men | ? | "holds back the rest of his men"; preventive act, no clean function
+E-107 | II | 5 | ev 10 | E.7.3 | K¹ | Ulysses | the lotus-eating men |   | "drags those who had tasted the lotus by force to the ships"; object of search (his own men) recovered by force
+E-107 | III | 1 | ev 11 | E.7.3 | X | Ulysses | - |   | "sails to the land of the Cyclopes and stands in for the shore"; arrival only
+E-107 | III | 2 | ev 12 | E.7.4 | X | Ulysses | - |   | "goes in with one ship and lands with twelve companions"; travel detail
+E-107 | III | 3 | ev 13 | E.7.4 | X | Ulysses | - |   | "enters a cave by the sea, taking the skin of wine"; the wine was given earlier, off-page; carrying it now is not itself a transfer
+E-107 | III | 4 | ev 14 | E.7.5 | X | Ulysses and men | - |   | "light a fire, sacrifice some of the kids and feast"; ordinary action
+E-107 | III | 5 | ev 15 | E.7.5 | X | Polyphemus | - |   | "comes and drives in his flocks"; arrival of a new character, not itself a function
+E-107 | III | 6 | ev 16 | E.7.5 | A¹⁵ | Polyphemus | Ulysses and comrades |   | "puts a huge stone to the door"; villain detains the hero's party, matching Propp's form directly
+E-107 | III | 7 | ev 17 | E.7.5 | A | Polyphemus | some of the men | ? | "perceiving the men he ate some of them"; cannibalism carried out, not merely threatened; perhaps A¹⁴; treated as continuing the same villainy begun at ev.16, not a new move (see report)
+E-107 | III | 8 | ev 18 | E.7.6 | η | Ulysses | Polyphemus | ? | "gave him of Maro's wine to drink"; trickery's direction is reversed from Propp's usual villain-to-victim form, since here the hero deceives; perhaps η¹
+E-107 | III | 9 | ev 19 | E.7.6 | X | Polyphemus | Ulysses |   | "asked for another draught"; trebling detail, folded into the θ entry at ev.23
+E-107 | III | 10 | ev 20 | E.7.6 | ε¹ | Polyphemus | Ulysses |   | "he inquired his name"; villain seeks information about his victim
+E-107 | III | 11 | ev 21 | E.7.6 | ζ | Ulysses | Polyphemus | ? | "Ulysses said that he was called Nobody"; pairs with ε at ev.20, though the information delivered is false rather than genuine
+E-107 | III | 12 | ev 22 | E.7.6 | A¹⁷ | Polyphemus | Ulysses (as Nobody) |   | "threatened to devour Nobody last and the others first"; a threat of cannibalism, the form Propp's list of villainy includes, so kept despite not being carried out
+E-107 | III | 13 | ev 23 | E.7.6 | θ | Polyphemus | Polyphemus | ? | "being overcome by wine, he fell asleep"; mechanical submission to the trick, matching Propp's own noted pattern, though here it is the villain, not the hero, who succumbs
+E-107 | III | 14 | ev 24 | E.7.7 | X | Ulysses | - |   | "found a club lying there... sharpens it"; ordinary preparation, not a donor-given magical agent
+E-107 | III | 15 | ev 25 | E.7.7 | I | Ulysses and comrades | Polyphemus | ? | "heated it in the fire, he blinded him"; decisive act disabling the villain; perhaps I⁵, though he is blinded, not killed
+E-107 | III | 16 | ev 26 | E.7.7 | X | Polyphemus | - |   | "cried to the Cyclopes round about for help"; villain's call for aid, no matching function
+E-107 | III | 17 | ev 27 | E.7.7 | X | the Cyclopes | Polyphemus |   | "came and asked who was hurting him"; arrival and question, not a donor's test
+E-107 | III | 18 | ev 28 | E.7.7 | X | the Cyclopes | - | ? | "they thought he meant... and so they retired"; the trick's payoff; perhaps already covered by ζ/η above, no further function
+E-107 | III | 19 | ev 29 | E.7.8 | X | Polyphemus | - |   | "standing at the doorway... felt the sheep"; the villain's vigilance, sets up the escape trick
+E-107 | III | 20 | ev 30 | E.7.8 | X | Ulysses | - |   | "tied three rams together"; preparation
+E-107 | III | 21 | ev 31 | E.7.8 | K¹ | Ulysses | Ulysses | ? | "hiding under its belly, he passed out with the sheep"; misfortune of ev.16 liquidated by cleverness; the object of search here is the hero's own freedom, a stretch of K¹'s usual sense of a retrieved person or thing
+E-107 | III | 22 | ev 32 | E.7.8 | K¹⁰ | Ulysses | comrades |   | "released his comrades from the sheep"; a captive freed, matching Propp's form directly
+E-107 | III | 23 | ev 33 | E.7.8 | X | Ulysses | the animals |   | "drove the animals to the ships"; booty taken, not itself a function
+E-107 | III | 24 | ev 34 | E.7.8 | X | Ulysses | Polyphemus | ? | "shouted to the Cyclops that he was Ulysses"; self-revelation to an enemy after using a false name; no clean function, sets up ev.36 and the standing anger of ev.38
+E-107 | III | 25 | ev 35 | E.7.9 | X | a soothsayer | Polyphemus |   | "had been forewarned... that he should be blinded by Ulysses"; flashback; a prophecy, no Propp function fits
+E-107 | III | 26 | ev 36 | E.7.9 | Pr | Polyphemus | Ulysses | ? | "tore away rocks and hurled them into the sea"; pursuit-like attack on the fleeing ship; perhaps Pr⁶
+E-107 | III | 27 | ev 37 | E.7.9 | Rs | Ulysses | - | ? | "hardly did the ship evade the rocks"; narrow escape; no exact variety among Rs¹-¹⁰ fits a ship dodging thrown rocks
+E-107 | III | 28 | ev 38 | E.7.9 | X | Poseidon | Ulysses | ? | "From that time Poseidon was wroth with Ulysses"; states an enduring condition, not a discrete act; motivates later villainy at ev.90, ev.100, ev.106-107
+E-107 | IV | 1 | ev 39 | E.7.10 | X | Ulysses | - |   | "came to the island of Aeolia"; arrival, introduces the donor
+E-107 | IV | 2 | ev 40 | E.7.10 | X | Aeolus | Ulysses | ? | "entertained Ulysses"; hospitality only; perhaps D², but no test or interrogation is described
+E-107 | IV | 3 | ev 41 | E.7.10 | F¹ | Aeolus | Ulysses |   | "gave him an oxhide bag with the winds tied up in it"; direct transfer of a magical agent, given as a favor
+E-107 | IV | 4 | ev 41 | E.7.10 | γ | Aeolus | Ulysses | ? | "tied the bag fast in the ship"; an interdiction inferred from the act of tying it fast, not a stated verbal command
+E-107 | IV | 5 | ev 42 | E.7.10 | X | Ulysses | - |   | "had a good voyage"; ordinary progress
+E-107 | IV | 6 | ev 43 | E.7.10 | θ | Ulysses | Ulysses |   | "he fell asleep"; hero mechanically succumbs, matching Propp's own noted pattern of falling asleep unprompted to enable the coming mishap
+E-107 | IV | 7 | ev 44 | E.7.11 | δ | comrades | the interdiction of ev.41 |   | "his comrades... untie it and let the winds loose"; violation of the interdiction, paired with γ at ev.41
+E-107 | V | 1 | ev 45 | E.7.11 | a | - | Ulysses and comrades | ? | "being swept away by the blasts, they were driven back again"; a fresh lack (of the fair wind and safe return just gained); natural consequence of the violation rather than a personified villain's act
+E-107 | V | 2 | ev 46 | E.7.11 | C | Ulysses | Aeolus |   | "having come to Aeolus, Ulysses begged that he might be granted a fair wind"; decision to seek a remedy for the new lack
+E-107 | V | 3 | ev 47 | E.7.11 | F− | Aeolus | Ulysses |   | "Aeolus drove him from the island, saying that he could not save him"; nothing is given, the sanctioned negative form
+E-107 | VI | 1 | ev 48 | E.7.12 | X | Ulysses | - |   | "came to the land of the Laestrygones, mooring his own ship last"; arrival detail
+E-107 | VI | 2 | ev 49 | E.7.12 | X | Ulysses | - |   | "sent some men to inquire"; scouts sent to learn about a country, as at ev.7
+E-107 | VI | 3 | ev 50 | E.7.12 | X | king's daughter | the men | ? | "met them and led them to her father"; leads the scouts into danger; perhaps G³, but the purpose is entrapment, not guidance toward a sought object
+E-107 | VI | 4 | ev 51 | E.7.13 | A | Antiphates | one of the men | ? | "snatched up one of them and devoured him"; cannibalism, perhaps A¹⁴
+E-107 | VI | 5 | ev 52 | E.7.13 | Pr¹ | Antiphates | the fleeing men |   | "pursued them, shouting and calling together the rest of the Laestrygones"
+E-107 | VI | 6 | ev 53 | E.7.13 | A | the Laestrygones | the men and ships | ? | "broke the vessels and ate the men"; continuing the same villainy begun at ev.51, not treated as a new move
+E-107 | VI | 7 | ev 54 | E.7.13 | Rs | Ulysses | - | ? | "cut the cable of his ship and put to sea"; flight from the attack; no exact Rs variety names a cut cable
+E-107 | VI | 8 | ev 55 | E.7.13 | X | - | rest of the ships |   | "the rest of the ships perished with their crews"; reports the scale of the loss, not a further act
+E-107 | VII | 1 | ev 56 | E.7.14 | X | Ulysses | - |   | "put in to the Aeaean isle"; arrival, introduces Circe
+E-107 | VII | 2 | ev 57 | E.7.14 | β | Eurylochus and comrades | - | ? | "Eurylochus with two and twenty comrades repaired to Circe"; absentation of part of the company, opening them to misfortune; stretches "family" to shipmates
+E-107 | VII | 3 | ev 58 | E.7.15 | η | Circe | the comrades | ? | "At her call they all entered except Eurylochus"; the call as persuasion; perhaps η¹
+E-107 | VII | 4 | ev 58 | E.7.15 | θ | the comrades | - |   | "they all entered"; submission to the persuasion, paired with ev.58's η
+E-107 | VII | 5 | ev 59 | E.7.15 | η² | Circe | the comrades |   | "gave each a tankard... mixed with an enchantment"; direct application of a magical means
+E-107 | VII | 6 | ev 60 | E.7.15 | A¹¹ | Circe | the comrades |   | "touched them with a wand and changed their shapes"; casting a spell, matching Propp's form directly
+E-107 | VII | 7 | ev 61 | E.7.16 | B⁴ | Eurylochus | Ulysses |   | "Eurylochus saw these things and reported them to Ulysses"; misfortune made known by one casually present, not a parent
+E-107 | VII | 8 | ev 62 | E.7.16 | F¹ | Hermes | Ulysses | ? | "moly, which he had received from Hermes"; flashback to an off-page gift; not narrated as an event in its own right until recalled here
+E-107 | VII | 9 | ev 62 | E.7.16 | C | Ulysses | Circe |   | "Ulysses went to Circe"; decision to move against the source of the misfortune
+E-107 | VII | 10 | ev 63 | E.7.16 | X | Ulysses | Circe's enchantment | ? | "he drank and alone was not enchanted"; resisting the spell by the pre-given agent; no listed Propp function covers this directly; perhaps E¹
+E-107 | VII | 11 | ev 64 | E.7.16 | X | Ulysses | Circe | ? | "drawing his sword, he would have killed her"; only threatened, not carried out, and this is not a threat-form on Propp's lists as A¹⁷ is; perhaps H
+E-107 | VII | 12 | ev 65 | E.7.16 | X | Circe | Ulysses |   | "she appeased his wrath"; de-escalation, no Propp function fits
+E-107 | VII | 13 | ev 66 | E.7.16 | K⁸ | Circe | the comrades |   | "restored his comrades"; the spell of ev.60 is broken, matching Propp's form directly
+E-107 | VII | 14 | ev 67 | E.7.16 | X | Ulysses | Circe |   | "he had taken an oath of her that he should suffer no harm"; extracting a guarantee, no clean function
+E-107 | VII | 15 | ev 68 | E.7.16 | X | Ulysses | Circe |   | "Ulysses shared her bed"; not coded as marriage or any listed function
+E-107 | VII | 16 | ev 69 | E.7.17 | X | Ulysses | - |   | "Having tarried a year there, he sailed the ocean"; time passage and travel
+E-107 | VII | 17 | ev 70 | E.7.17 | X | Ulysses | - |   | "offered sacrifices to the souls"; ritual act
+E-107 | VII | 18 | ev 71 | E.7.17 | X | Ulysses | Tiresias |   | "consulted the soothsayer Tiresias"; seeking prophecy is not one of the 31 functions
+E-107 | VII | 19 | ev 72 | E.7.17 | X | Ulysses | - |   | "beheld the souls both of heroes and of heroines"; description
+E-107 | VII | 20 | ev 73 | E.7.17 | X | Ulysses | - |   | "looked on his mother Anticlia and Elpenor, who had died of a fall"; description; the manner of Elpenor's death is a flashback detail
+E-107 | VII | 21 | ev 74 | E.7.18 | X | Circe | Ulysses |   | "he was sent on his way by her"; departure/connective narration; Circe's specific sailing directions appear later at ev.77 and ev.84
+E-107 | VIII | 1 | ev 75 | E.7.18 | X | Ulysses | - |   | "put to sea, and sailed past the isle of the Sirens"; travel
+E-107 | VIII | 2 | ev 76 | E.7.18 | X | the Sirens | passing mariners | ? | "by these means they were fain to persuade passing mariners to linger"; general description of their method, not yet the specific attempt on Ulysses narrated at ev.79
+E-107 | VIII | 3 | ev 77 | E.7.19 | X | Ulysses | comrades |   | "stopped the ears of his comrades with wax"; preparatory countermeasure
+E-107 | VIII | 4 | ev 78 | E.7.19 | X | Ulysses | Ulysses |   | "ordered that he should himself be bound to the mast"; preparatory self-restraint, no listed function
+E-107 | VIII | 5 | ev 79 | E.7.19 | θ | Ulysses | Ulysses | ? | "being persuaded by the Sirens to linger, he begged to be released"; mechanical submission to the villain's persuasion; perhaps θ²
+E-107 | VIII | 6 | ev 80 | E.7.19 | Rs | comrades | Ulysses | ? | "they bound him the more"; the comrades, not the hero himself, effect the rescue; no exact variety among Rs¹-¹⁰ names a rescuer other than the hero
+E-107 | VIII | 7 | ev 81 | E.7.19 | X | - | the Sirens |   | "it was predicted of the Sirens that they should themselves die when a ship should pass them"; flashback prophecy, not an act
+E-107 | VIII | 8 | ev 82 | E.7.19 | I | - | the Sirens | ? | "so die they did"; villain defeated, though by fated consequence rather than combat; perhaps I⁵
+E-107 | IX | 1 | ev 83 | E.7.20 | X | Ulysses | - |   | "came to two ways"; geographic description
+E-107 | IX | 2 | ev 84 | E.7.21 | G⁴ | Circe | Ulysses |   | "By the advice of Circe he shunned the passage by the Wandering Rocks"; the route is shown to him
+E-107 | IX | 3 | ev 85 | E.7.21 | X | Ulysses | - |   | "stood fully armed on the poop"; defensive posture, not itself a struggle
+E-107 | IX | 4 | ev 86 | E.7.21 | A | Scylla | six comrades | ? | "Scylla appeared, snatched six of his comrades, and gobbled them up"; perhaps A¹⁴; no liquidation follows, the loss stands
+E-107 | X | 1 | ev 87 | E.7.22 | X | Ulysses | - |   | "being windbound, he tarried there"; circumstance; the operative lack is stated explicitly at ev.88
+E-107 | X | 2 | ev 88 | E.7.22 | a | - | the comrades |   | "for lack of food"; the text names the lack directly
+E-107 | X | 3 | ev 88 | E.7.22 | A | the comrades | the Sun's kine | ? | "slaughtered some of the kine and banqueted on them"; perhaps A³; the wrongdoers here are the hero's own comrades
+E-107 | X | 4 | ev 89 | E.7.22 | X | the Sun | Zeus |   | "the Sun reported it to Zeus"; an appeal for retribution, no clean Propp function
+E-107 | X | 5 | ev 90 | E.7.22 | A | Zeus | Ulysses | ? | "Zeus struck him with a thunderbolt"; retribution that creates fresh, severe complication rather than functioning as the tale-closing U; perhaps A⁶
+E-107 | X | 6 | ev 91 | E.7.23 | X | Ulysses | - |   | "clung to the mast and drifted to Charybdis"; consequence and coping action
+E-107 | X | 7 | ev 92 | E.7.23 | X | Charybdis | the mast | ? | "Charybdis sucked down the mast"; a personified hazard rather than a pursuer; perhaps A, marked X to avoid stretching to an environmental peril
+E-107 | X | 8 | ev 93 | E.7.23 | X | Ulysses | - | ? | "clutched an overhanging wild fig-tree and waited"; survival action; perhaps Rs⁴, but no pursuer is actively chasing
+E-107 | X | 9 | ev 94 | E.7.23 | X | Ulysses | - |   | "he cast himself on it"; survival action continuing
+E-107 | X | 10 | ev 95 | E.7.23 | X | Ulysses | - |   | "was carried across to the island of Ogygia"; arrival by chance drifting, not purposeful guidance toward a sought object
+E-107 | XI | 1 | ev 96 | E.7.24 | X | Calypso | Ulysses | ? | "Calypso... received him"; hospitality; perhaps D², no test described
+E-107 | XI | 2 | ev 97 | E.7.24 | X | Calypso | Ulysses |   | "bedding with him bore a son Latinus"; not coded, as at ev.68
+E-107 | XI | 3 | ev 98 | E.7.24 | X | Ulysses | - | ? | "He stayed with her five years"; a flat statement of duration; the text does not itself say he was held against his will, so A¹⁵ is not used without adding outside material
+E-107 | XI | 4 | ev 99 | E.7.24 | X | Ulysses | - | ? | "made a raft and sailed away"; departure; no explicit textual lack or villainy motivates it in this account; perhaps ↑
+E-107 | XI | 5 | ev 100 | E.7.24 | A | Poseidon | Ulysses |   | "the raft was broken in pieces by the wrath of Poseidon"; a clear, named act of harm
+E-107 | XI | 6 | ev 101 | E.7.24 | X | Ulysses | - |   | "washed up naked on the shore of the Phaeacians"; consequence, drifting again
+E-107 | XI | 7 | ev 102 | E.7.25 | X | Ulysses | Nausicaa | ? | "Ulysses implored her protection"; the hero, not a donor's usual suppliant, occupies the requesting role; nearest candidate D⁵, marked X to avoid stretching
+E-107 | XI | 8 | ev 103 | E.7.25 | G³ | Nausicaa | Ulysses |   | "she brought him to Alcinous"; he is led
+E-107 | XI | 9 | ev 104 | E.7.25 | X | Alcinous | Ulysses |   | "entertained him"; hospitality, as at ev.40 and ev.96
+E-107 | XI | 10 | ev 105 | E.7.25 | F¹ | Alcinous | Ulysses |   | "bestowing gifts on him"; direct transfer, in the character of a reward
+E-107 | XI | 11 | ev 105 | E.7.25 | G | Phaeacian escort | Ulysses | ? | "sent him away with a convoy to his native land"; guided transference home; perhaps G²
+E-107 | XI | 12 | ev 106 | E.7.25 | A¹¹ | Poseidon | the Phaeacian ship |   | "he turned the ship to stone"; casting a spell, matching Propp's form directly; the undergoer is the Phaeacians, not Ulysses
+E-107 | XI | 13 | ev 107 | E.7.25 | A | Poseidon | the Phaeacian city | ? | "enveloped the city with a mountain"; continuing the villainy of ev.106 against the Phaeacians, not treated as a new move
+E-107 | XII | 1 | ev 108 | E.7.26 | a | - | Ulysses | ? | "Ulysses found his substance wasted"; a lack discovered on return
+E-107 | XII | 2 | ev 109 | E.7.26 | A | the suitors | Penelope | ? | "believing that he was dead, suitors were wooing Penelope"; perhaps A¹⁶, though the wooing is opportunistic rather than stated as forced
+E-107 | XII | 3 | ev 110 | E.7.31 | A | the suitors | Ulysses's herds | ? | "consumed the herds of Ulysses at their feasts"; perhaps A³
+E-107 | XII | 4 | ev 111 | E.7.31 | A⁸ | the suitors | Penelope |   | "Penelope was compelled to promise that she would wed"; a deceitful/coerced agreement, matching Propp's form
+E-107 | XII | 5 | ev 112 | E.7.31 | η | Penelope | the suitors | ? | "weaving it by day and undoing it by night... the suitors were deceived"; trickery performed by the intended victim against her besiegers, reversing Propp's usual direction
+E-107 | XII | 6 | ev 113 | E.7.31 | X | the suitors | Penelope |   | "till she was detected"; the ruse's failure; not the villain/false-hero exposure that Ex addresses
+E-107 | XII | 7 | ev 114 | E.7.32 | o | Ulysses | Eumaeus |   | "came to his servant Eumaeus in the guise of a beggar"; unrecognized arrival, a direct match
+E-107 | XII | 8 | ev 115 | E.7.32 | Q | Ulysses | Telemachus |   | "made himself known to Telemachus"; recognition after separation
+E-107 | XII | 9 | ev 116 | E.7.32 | X | Ulysses | - |   | "arrived in the city"; travel
+E-107 | XII | 10 | ev 117 | E.7.32 | X | Melanthius | Ulysses and Eumaeus | ? | "met them, and scorned them"; scorn without stated consequence at this point; sets up ev.125
+E-107 | XII | 11 | ev 118 | E.7.32 | X | Ulysses | the suitors |   | "begged food of the suitors"; continuing the disguised-beggar situation, not a new act
+E-107 | XII | 12 | ev 119 | E.7.32 | H² | Ulysses | Irus |   | "finding a beggar called Irus he wrestled with him"; a competition, matching Propp's form; the text does not state who won, so no victory entry follows
+E-107 | XII | 13 | ev 120 | E.7.32 | Q | Ulysses | Eumaeus and Philoetius |   | "he revealed himself to Eumaeus and Philoetius"; recognition
+E-107 | XII | 14 | ev 121 | E.7.32 | C | Ulysses, Eumaeus, Philoetius, Telemachus | the suitors |   | "along with them and Telemachus he laid a plot for the suitors"; decision upon counteraction
+E-107 | XII | 15 | ev 122 | E.7.33 | M | Penelope | the suitors |   | "she said that she would marry him who bent the bow"; a difficult task set, a test of strength
+E-107 | XII | 16 | ev 123 | E.7.33 | X | the suitors | the bow | ? | "When none of them could bend it"; the task unsolved by the false claimants; Propp's rule for the minus sign is given only for E, F and I, not for N, so no N⁻ is used; perhaps N⁻
+E-107 | XII | 17 | ev 124 | E.7.33 | N | Ulysses | the bow |   | "Ulysses took it"; the task resolved, by the true hero
+E-107 | XII | 18 | ev 124 | E.7.33 | I | Ulysses | the suitors | ? | "shot down the suitors, with the help of Eumaeus, Philoetius, and Telemachus"; perhaps I⁵, a sudden killing rather than an open fight
+E-107 | XII | 19 | ev 125 | E.7.33 | U | Ulysses | Melanthius | ? | "He killed also Melanthius"; punishment of a complicit figure
+E-107 | XII | 20 | ev 126 | E.7.33 | U | Ulysses | the handmaids | ? | "the handmaids that bedded with the suitors"; punishment extended to complicit household members
+E-107 | XII | 21 | ev 127 | E.7.33 | Q | Ulysses | his wife and his father |   | "he made himself known to his wife and his father"; recognition after separation
+E-107 | XIII | 1 | ev 128 | E.7.34 | X | Ulysses | - |   | "journeyed on foot through Epirus"; ritual sacrifice and travel
+E-107 | XIII | 2 | ev 129 | E.7.34 | K | Ulysses | Poseidon | ? | "he propitiated Poseidon"; liquidates the standing enmity from ev.38, ev.100 and ev.106-107; no exact K-variety names appeasement of a god's anger
+E-107 | XIII | 3 | ev 130 | E.7.34 | X | Callidice | Ulysses |   | "urged him to stay and offered him the kingdom"; an invitation, not itself a function; sets up W¹ at ev.131
+E-107 | XIII | 4 | ev 131 | E.7.35 | W¹ | Ulysses | - |   | "Having married Callidice, he reigned over the Thesprotians"; bride and kingdom awarded at once
+E-107 | XIII | 5 | ev 132 | E.7.35 | A | neighboring peoples | Ulysses/Thesprotians | ? | "the neighboring peoples who attacked him"; perhaps A¹⁹
+E-107 | XIII | 6 | ev 132 | E.7.35 | I¹ | Ulysses | neighboring peoples |   | "defeated in battle"; open-field victory
+E-107 | XIII | 7 | ev 133 | E.7.35 | X | Ulysses | his son |   | "handed over the kingdom to his son"; succession, not a listed function
+E-107 | XIII | 8 | ev 134 | E.7.35 | ↓ | Ulysses | - |   | "repaired to Ithaca"; the hero returns, a direct match
+E-107 | XIII | 9 | ev 135 | E.7.35 | X | Ulysses | Poliporthes | ? | "there he found Poliporthes, whom Penelope had borne to him"; discovery of an unknown son; not the mark-based recognition that Q defines
+E-107 | XIV | 1 | ev 136 | E.7.36 | X | Telegonus | Ulysses | ? | "he sailed in search of him"; a second character's own quest-decision and departure; nearest candidate C, marked X since it is not counteraction against a villainy yet known within this move
+E-107 | XIV | 2 | ev 137 | E.7.36 | A³ | Telegonus | Ulysses's cattle |   | "he drove away some of the cattle"; pillage
+E-107 | XIV | 3 | ev 138 | E.7.36 | H | Ulysses | Telegonus | ? | "when Ulysses defended them"; struggle; no exact variety, as it is neither an open field war nor a contest
+E-107 | XIV | 4 | ev 138 | E.7.36 | A⁶ | Telegonus | Ulysses |   | "Telegonus wounded him with the spear... and Ulysses died of the wound"; bodily injury, judged by its fatal consequence rather than treated as a branding (J¹) that would enable later recognition
+E-107 | XIV | 5 | ev 139 | E.7.36 | X | - | Ulysses |   | "Ulysses died of the wound"; the hero's death falls outside Propp's functions, which presuppose his survival to the tale's end
+E-107 | XIV | 6 | ev 140 | E.7.37 | Q | Telegonus | Ulysses |   | "when Telegonus recognized him, he bitterly lamented"; recognition, tragically posthumous
+E-107 | XIV | 7 | ev 141 | E.7.37 | X | Telegonus | the corpse and Penelope | ? | "conveyed the corpse and Penelope to Circe"; conveyance by another, not the hero's own guided return that G presupposes
+E-107 | XIV | 8 | ev 142 | E.7.37 | X | Telegonus | Penelope | ? | "there he married Penelope"; a marriage, but not the episode's hero's own, so W is not used without stretching its definition
+E-107 | XIV | 9 | ev 143 | E.7.37 | X | Circe | Telegonus and Penelope |   | "Circe sent them both away to the Islands of the Blest"; final disposition of secondary characters, no function relative to the episode's hero

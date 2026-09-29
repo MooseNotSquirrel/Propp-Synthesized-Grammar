@@ -1,0 +1,100 @@
+tale: L2-047
+name: 2.5.11-2.7.3, Hercules
+move: I    | A K U X
+move: II   | A⁵ X
+move: III  | A¹⁴
+move: IV   | F¹ I⁵ K X X D E X η¹ E K¹ X ↓ X X
+move: V    | B² X X G⁵ X X ζ X D⁴ K¹⁰ E⁻ K¹⁰ A⁵ I¹ U⁻ X D¹ H¹ I¹ K¹ X X X
+move: VI   | X a¹ I² X A
+move: VII  | A⁵ A X X B¹ C
+move: VIII | A¹⁴ C X K
+move: IX   | A A² H¹ X M X X X D¹ X
+move: X    | A U
+move: IX   | E⁷ f¹ X N
+move: XI   | B³ X A¹⁴ H¹ I¹ X η³ θ¹ I¹ X X M N
+move: XII  | A U
+move: XIII | A I¹ J¹ Rs G⁴ I¹
+move: XIV  | C X A A E⁻ I⁵ I¹ U X
+move: XV   | I¹ I¹ U H¹
+move: XVI  | A¹⁴ C
+
+tale: L2-050
+name: 2.7.3, Hercules
+move: I    | X X F¹ X A¹⁴ U X
+
+tale: L2-054
+name: 2.7.5-2.7.7, Hercules
+move: I    | a¹ H¹ I¹ W² X
+move: II   | I¹ X X
+move: III  | A¹⁴ U⁻ ↑
+move: IV   | X X θ¹ A ζ I⁵ η¹ θ¹
+move: V    | A⁵ X I¹
+move: VI   | A¹⁹ B¹ I¹ X U
+move: VII  | H¹ I¹
+move: VIII | A I¹
+move: IX   | C I¹ X K¹
+move: X    | X X ζ A¹¹ θ² X A¹⁴ K⁸ ↓ U w¹
+move: XI   | X X F¹ T U⁻ W²
+
+tale: L2-055
+name: 2.8.1-2.8.2, the Heraclids
+move: I    | X A ↑ Pr¹ Rs⁴ C I¹ I¹ U U
+move: II   | I¹
+move: III  | A ζ X
+
+tale: L2-058
+name: 2.8.2-2.8.5, the Heraclids
+move: I    | C D E X I⁻
+move: II   | C D X ζ X A
+move: III  | X A¹⁴ U U X M N X F⁵ N G³
+move: IV   | I¹ X K
+move: V    | X X η³ K³
+move: VI   | X ζ
+
+tale: L3-001
+name: 3.1.1, Zeus
+move: I    | a¹ η² A¹ G² K
+
+tale: L3-002/1
+name: 3.1.1, Cadmus
+move: I    | a¹ B² C X X X X K X
+
+tale: L3-002/2
+name: 3.1.1, Phoenix
+move: I    | a¹ B² C X X K X X X
+
+tale: L3-002/3
+name: 3.1.1, Cilix
+move: I    | a¹ B² C X X X K X X
+
+tale: L3-003
+name: 3.1.2, Sarpedon
+move: I    | X X X A I⁻ ↑ X C W³ F¹
+
+tale: L3-006
+name: 3.1.2-3.1.4, Minos
+move: I    | X X a X X X X X F¹ K A² η² X U
+
+tale: L3-007
+name: 3.1.4, Pasiphae
+move: I    | A B¹ X F³ X X K³ K
+
+tale: L3-010
+name: 3.2.1, Althaemenes
+move: I    | ζ X ↑ X X X X X
+
+tale: L3-011
+name: 3.2.1, Apemosyne
+move: I    | X Rs Pr η³ θ² A ζ
+move: II   | A¹⁴
+
+tale: L3-012
+name: 3.2.2, Catreus
+move: I    | A
+move: II   | a ↑ X
+move: III  | Pr X X A⁶ X A¹⁴
+
+tale: L3-014
+name: 3.3.1-3.3.2, Glaucus
+move: I    | X X a C X M N K¹ M X X A X F¹ K⁹ E K⁹ K
+move: II   | M N η³ θ² F⁻

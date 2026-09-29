@@ -1,0 +1,16 @@
+tale: E-107
+name: E.7.1-E.7.37, Ulysses
+move: I    | X X A X A
+move: II   | X X A X K¹
+move: III  | X X X X X A¹⁵ A η X ε¹ ζ A¹⁷ θ X I X X X X X K¹ K¹⁰ X X X Pr Rs X
+move: IV   | X X F¹ γ X θ δ
+move: V    | a C F−
+move: VI   | X X X A Pr¹ A Rs X
+move: VII  | X β η θ η² A¹¹ B⁴ F¹ C X X X K⁸ X X X X X X X X X
+move: VIII | X X X X θ Rs X I
+move: IX   | X G⁴ X A
+move: X    | X a A X A X X X X X
+move: XI   | X X X X A X X G³ X F¹ G A¹¹ A
+move: XII  | a A A A⁸ η X o Q X X X H² Q C M X N I U U Q
+move: XIII | X K X W¹ A I¹ X ↓ X
+move: XIV  | X A³ H A⁶ X Q X X X

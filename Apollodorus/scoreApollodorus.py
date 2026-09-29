@@ -27,7 +27,7 @@ THE DERIVATION, fixed before any transcription was read:
      else stays, and the move grammar judges it.
   3. X is removed and counted.
   4. Notation variants are read as the rules' notation: a variety number in
-     plain digits (A15) as a superscript, a superscript minus as the minus,
+     plain digits (A15) or after a caret (A^15) as a superscript, a superscript minus as the minus,
      Propp's lowercase f as F, and C↑, Propp's combined sign in his own
      analyses, as the two functions C and ↑.
   5. Every other entry is reduced to its key by runCorpus.py's own
@@ -73,7 +73,7 @@ import shuffleBaseline as SB  # noqa: E402
 PREP = set('αβγδεζηθλ')
 BASES = {'A', 'a', 'B', 'C', '↑', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', '↓', 'Pr', 'Rs', 'o', 'L',
          'M', 'N', 'Q', 'Ex', 'T', 'U', 'W', 'X', 'KF', 'w', 'f', 'C↑'} | PREP
-MARKS = re.compile(r'[⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉0-9ⁱᵛˣ*−₋₊⁻+\-]')
+MARKS = re.compile(r'[⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉0-9ⁱᵛˣ*−₋₊⁻^+\-]')
 GRAMMAR = 'ProppEBNF46.txt'
 BANDS = (('1-4', 1, 4), ('5-6', 5, 6), ('7-9', 7, 9), ('10+', 10, 10 ** 6))
 PILOT = {'L2-028', 'L3-044', 'L3-083'}

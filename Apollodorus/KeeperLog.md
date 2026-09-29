@@ -45,9 +45,31 @@ Variety numbers were written in plain digits (A15), the minus as a superscript m
 The transcriber treated each order as opening a new move in place of a villainy or lack, which it reports as its own extension of the rule.
 Move numbering restarts in each episode, as the rules require, even where a connected episode's move is still open.
 
-**Streams and Notes differ in two moves: L2-047 move IX and L3-019 move I.**
+**Streams and Notes differ in six moves: L1-070 move I, L1-076 move V, L2-047 move IX, L3-019 move I, L3-111 move II and E-107 move VII.**
 The notes are the record the scoring reads, as the protocol fixes; the streams are not used.
 
 **b05: a census extract left in the shared scratch folder.**
 A file of the census events for batch b05, plain paraphrases with no symbols, was left in the shared scratch folder.
 It holds nothing the census does not already give every transcriber, so no transcription judgment was exposed.
+
+**b04: moves opened without a villainy or lack of their own.**
+Where an episode continues a move whose villainy or lack is told in a connected episode, the transcriber opened a move at that point without an A or a entry (L2-047 ev 7, 89, 94, 95, 97, 98, 104; L2-054 ev 29; L2-055 ev 10; L3-010 and L3-012), where the rules open a move only at a villainy or lack.
+Such a move lacks an opener, so the move grammar will refuse it; it is not corrected.
+
+**b09, E-107: a run of harmful acts by one aggressor kept as one move.**
+Where one aggressor harms in succession (Polyphemus, the Laestrygones, Circe, the Zeus and Poseidon sequence), the transcriber kept the run in a single move, where the rule opens a move at each new villainy and transcriber A applied it literally.
+The two transcriptions of E-107 therefore differ in their move count by construction.
+
+**b06: villainies within one scene kept in one move, and a move opened without a villainy or lack.**
+The transcriber kept villainies bound within one continuous scene in a single move (L3-093 events 2 to 16), as b09 did, where the rule opens a move at each new villainy.
+It opened a move for the Thetis courtship (L3-111 events 24 to 34) with no villainy or lack stated.
+L3-070/1 and /2 came out identical apart from the hero's name, which the transcriber reports as its reading of "assign the function whoever performs it".
+
+**b08: the first instance failed partway, on the account's spend limit, and the batch was run again.**
+The failed instance had written 143 note lines; its files were moved aside to `transcriberB/b08_failed`, which the scoring does not read, and a fresh instance was given the same committed prompt.
+
+**b08: runs of harmful acts kept as one move, and summary clauses given their own entry.**
+As in b06 and b09, a run of harmful acts with no liquidation between them was kept in one move (E-032, E-044, E-050, E-052, E-058, E-066).
+Where an episode opens with a one-clause summary of events it then narrates in full (E-026 ev 1, E-038 ev 1), the summary got its own entry, so the act may be entered twice.
+
+**Transcriber B is complete: nine batches, 176 episode versions.**

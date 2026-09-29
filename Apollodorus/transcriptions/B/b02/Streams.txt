@@ -1,0 +1,79 @@
+tale: L1-060
+name: 1.9.11, Melampus
+move: I | X E⁷ F¹ X X X F¹
+
+tale: L1-062
+name: 1.9.12, Melampus
+move: I   | B¹ C X ↑
+move: II  | X A¹⁵ X X X X K¹⁰
+move: III | B¹ C X X F¹ A⁶ X X X F¹ K⁴ K X KF¹ W²
+move: IV  | A¹¹ K⁸ W³
+
+tale: L1-067
+name: 1.9.15, Admetus
+move: I  | α a M F¹ N W² δ
+move: II | A X F¹ X K K⁹
+
+tale: L1-070
+name: 1.9.16-1.9.18, Jason
+move: I   | X β J ζ η θ A⁸ C F³ F¹ X B³ ↑ G² ⋯(break, see Notes) G² X X X
+move: II  | X A¹¹ X A¹⁴ Rs⁴ X W²
+move: III | A¹⁹ I¹ X X G²
+
+tale: L1-071
+name: 1.9.19, Polyphemus
+move: I | β β A¹ C B⁴ ↑ W³ ↓
+
+tale: L1-076
+name: 1.9.20-1.9.28, Jason
+move: I    | G²
+move: II   | A¹⁴ D⁹ H¹ I¹
+move: III  | A¹⁹ H¹ I¹
+move: IV   | G² A⁶ X X
+move: V    | A⁵ X D⁷ E⁷ X H¹ I⁵ X I⁵ F¹ M ↑ N X N X G² X X X X G² X M M X X X D⁷ E⁷ F¹ F¹ X G² N N X H¹ I¹ η X G³ I⁵ K¹ ↓ X Pr¹ A¹⁴ Rs² X X Pr² X ⋯(break, see Notes)
+move: VI   | A¹¹ M G² N Rs⁷ θ Rs¹ X Rs¹
+move: V (resumed) | G² X Pr² X W² X
+move: VII  | G² X G⁴ G² X F¹ X X X
+move: VIII | A⁵ I⁵
+move: IX   | G² X ↓ A¹⁴ X A¹⁴ X X A¹⁴ K X C ↑ η¹ η² θ U X
+move: X    | A⁹ G² X W²
+
+tale: L1-082
+name: 1.9.28, Medea
+move: I  | C X η² θ A¹⁴ A¹⁴ A¹⁴ F¹ Rs¹ G² X A⁹
+move: II | I¹ X
+move: III| o A U K
+
+tale: L2-002
+name: 2.1.2, Argus the All-seeing
+move: I   | I⁵ X
+move: II  | A³ H¹ I¹
+move: III | U
+
+tale: L2-003
+name: 2.1.3, Io
+move: I   | A¹ ζ A¹¹ X η¹ A¹⁵ X
+move: II  | B² ζ I⁵
+move: III | A¹⁸ G² G² G² G² G² K⁸ X
+move: IV  | A A¹ ζ U ↑ G² G⁴ K⁴ ↓
+
+tale: L2-005
+name: 2.1.4, Danaus
+move: I  | α X X F³ ↑ G² W³
+move: II | A¹¹ B²
+
+tale: L2-006
+name: 2.1.4, Amymone
+move: I | X A¹ X I⁶ W² K
+
+tale: L2-007
+name: 2.1.5, the daughters of Danaus
+move: I  | A¹⁶ X X C I⁵ X A¹⁵ X K⁸ K¹⁰ W²
+
+tale: L2-009
+name: 2.2.1, Proetus
+move: I | α A¹⁹ I− A⁹ ↑ F¹ K W³
+
+tale: L2-010
+name: 2.2.2, the daughters of Proetus
+move: I | δ A¹¹ X X D⁷ E− A¹¹ A¹⁴ E D⁷ E K X K⁸ W²

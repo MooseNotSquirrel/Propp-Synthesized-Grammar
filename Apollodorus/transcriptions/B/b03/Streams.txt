@@ -1,0 +1,68 @@
+tale: L2-012
+name: 2.3.1-2.3.2, Bellerophon
+move: I   | X X X X X X X A¹³
+move: II  | A I⁵ B² N B² I¹
+move: III | A I¹ Q W² W¹
+
+tale: L2-015
+name: 2.4.1-2.4.3, Perseus
+move: I   | X A¹⁰ X Rs X η θ X
+move: II  | A⁸ G³ D⁹ D G⁴ X G F¹ F¹ G¹ I⁵ X K¹ ↓ Pr¹ Rs⁴ B⁴
+
+tale: L2-018
+name: 2.4.3, Perseus
+move: I   | X C X H¹ I¹ K¹
+move: II  | A X I
+move: III | B⁴ C I⁵ X X X
+
+tale: L2-022
+name: 2.4.4, Perseus
+move: I | ↑ X X X A¹⁴ X U W³
+
+tale: L2-026
+name: 2.4.6, Electryon
+move: I | L X A⁵ H¹ X
+
+tale: L2-027
+name: 2.4.6-2.4.8, Amphitryon
+move: I   | K³ X γ X A¹⁴
+move: II  | A⁹ A⁵ X ↑ X M E M E F⁴ N H¹ F⁸ I⁵ K¹ U ↓ X
+move: III | η² η A¹² X ↓ ε ζ Ex
+
+tale: L2-032
+name: 2.4.11-2.5.1, Hercules
+move: I   | A⁶ X A¹⁹ F¹ I¹ I¹ K¹ X W² F¹ F³
+move: II  | A¹¹ A¹⁴ U X C B²
+move: III | ↑ M X X H¹ H¹ X H¹ I¹ K¹ X N Q
+
+tale: L2-034
+name: 2.5.2-2.5.4, Hercules
+move: I   | M G² X H¹ H¹ H¹ H¹ H¹ I¹ X F⁹ I¹ F¹ N⁻
+move: II  | M H¹ X I¹ K¹ X E N
+move: III | M X X X δ A¹⁹ H¹ I¹ X A⁶ E⁷
+
+tale: L2-038
+name: 2.5.4-2.5.7, Hercules
+move: I   | X H¹ I¹ N
+move: II  | M X X X N A F⁹ A⁹ X ↑ B⁴ I⁵ N⁻
+move: III | M X F¹ H¹ X I¹
+move: IV  | M X G² X N X
+
+tale: L2-041
+name: 2.5.8, Hercules
+move: I | M G² H¹ K¹ A¹⁹ X A¹⁴ H¹ I¹ N
+
+tale: L2-043
+name: 2.5.9, Hercules
+move: I | M G² A¹⁴ I¹ H¹ K³ X X I¹ K¹ D² η³ A¹ A¹⁴ K¹ H¹ G²
+
+tale: L2-044
+name: 2.5.9, Laomedon
+move: I | D¹ X E⁻ A A A B² A
+
+tale: L2-045
+name: 2.5.9-2.5.11, Hercules
+move: I   | C X I¹ K¹
+move: II  | A C X I⁵ I¹ K¹ H² I² N
+move: III | M I¹ G² E F¹ G² X H¹ I¹ H¹ I¹ ζ H¹ I¹ K¹ X G² A⁵ I¹ G² a X X C G⁴ M H² I² K¹ A⁵ K¹ U N X
+move: IV  | M X H¹ X X G² G⁴ D⁹ ζ G² A H¹ I¹ G²

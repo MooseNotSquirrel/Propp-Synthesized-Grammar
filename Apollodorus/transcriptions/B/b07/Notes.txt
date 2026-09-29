@@ -1,0 +1,317 @@
+L3-135 | I | 1 | ev 1 | 3.14.7 | α | Icarius | Dionysus |   | "Demeter was welcomed by Celeus at Eleusis, and Dionysus by Icarius"; taken as the initial, prosperous situation before misfortune.
+L3-135 | I | 2 | ev 2 | 3.14.7 | F¹ | Dionysus | Icarius |   | "received from him a branch of a vine and learned the process of making wine"; wondrous agent transferred directly, in the character of a reward for the welcome (ev 1).
+L3-135 | I | 3 | ev 3 | 3.14.7 | X | Icarius | Icarius | ? | "learned the process of making wine"; the knowledge itself fulfills no separate function beyond the receipt already entered at ev 2; X, perhaps F¹ continued.
+L3-135 | I | 4 | ev 4 | 3.14.7 | β | Icarius | Icarius |   | "wishing to bestow the god's boons on men, Icarius went to some shepherds"; a member of the family leaves home.
+L3-135 | I | 5 | ev 5 | 3.14.7 | X | shepherds | shepherds | ? | "having tasted the beverage and quaffed it copiously without water for the pleasure of it"; the shepherds' own excess, narrated only as the reason for ev 6; no trickery or complicity by Icarius is in the text.
+L3-135 | I | 6 | ev 6 | 3.14.7 | A¹⁴ | shepherds | Icarius |   | "imagined that they were bewitched and killed him"; villain(s) commit murder.
+L3-135 | I | 7 | ev 7 | 3.14.7 | X | shepherds | Icarius |   | "by day they understood how it was and buried him"; burial; no liquidating function found.
+L3-135 | II | 1 | ev 8 | 3.14.7 | a¹ | Erigone | Erigone |   | "his daughter Erigone was searching for her father"; lack of a person, felt by Erigone; opens a new move.
+L3-135 | II | 2 | ev 8 | 3.14.7 | G⁴ | the dog Maera | Erigone |   | "a domestic dog, named Maera, which had attended Icarius, discovered his dead body to her"; the route/place sought is shown by a helper.
+L3-135 | II | 3 | ev 9 | 3.14.7 | X | Erigone | Erigone | ? | "she bewailed her father"; grief; no function found. X, perhaps B⁷, but it follows rather than precedes the search, so it does not play the lament's usual role of provoking counteraction.
+L3-135 | II | 4 | ev 10 | 3.14.7 | X | Erigone | Erigone |   | "hanged herself"; suicide following grief; no function found.
+L3-136 | I | 1 | ev 1 | 3.14.8 | B¹ | Pandion | Tereus |   | "he called in the help of Tereus, son of Ares, from Thrace"; a call for help, with the resultant dispatch of the (episode's) hero.
+L3-136 | I | 2 | ev 2 | 3.14.8 | I¹ | Tereus | Labdacus | ? | "having with his help brought the war to a successful close"; the war is won; the struggle itself (H) is not narrated, only its outcome. ? on whether I alone, without a narrated H, is the right entry.
+L3-136 | I | 3 | ev 3 | 3.14.8 | W² | Pandion | Tereus/Procne |   | "he gave Tereus his own daughter Procne in marriage"; the hero marries, without a throne.
+L3-136 | I | 4 | ev 4 | 3.14.8 | X | Tereus | Tereus |   | "having fallen in love with Philomela"; motive for what follows; not itself a function.
+L3-136 | II | 1 | ev 5 | 3.14.8 | A¹⁵ | Tereus | Procne |   | "he concealed her in the country"; the villain detains someone.
+L3-136 | II | 2 | ev 6 | 3.14.8 | η¹ | Tereus | Philomela |   | "seduced her also saying that Procne was dead"; the villain uses persuasion, by a false claim.
+L3-136 | II | 3 | ev 6 | 3.14.8 | θ¹ | Philomela | Philomela | ? | "seduced her also saying that Procne was dead"; the victim submits to the persuasion. ? whether this and the entry above over-split one clause into two acts.
+L3-136 | II | 4 | ev 7 | 3.14.8 | X | Tereus | Philomela | ? | "he married Philomela and bedded with her"; reads as continuing the deception already entered at ev 6; no separate Propp function found. X, perhaps a further form of A.
+L3-136 | II | 5 | ev 8 | 3.14.8 | A⁶ | Tereus | Philomela |   | "cut out her tongue"; the villain causes bodily injury.
+L3-137 | I | 1 | ev 1 | 3.14.8 | B⁴ | Philomela | Procne |   | "by weaving characters in a robe she revealed thereby to Procne her own sorrows"; misfortune is made known to the (episode's) hero.
+L3-137 | I | 2 | ev 2 | 3.14.8 | C↑ | Procne | Procne |   | "having sought out her sister"; the seeker decides on and begins counteraction; decision and departure are narrated as one act.
+L3-137 | I | 3 | ev 3 | 3.14.8 | A¹⁴ | Procne | Itys |   | "Procne killed her son Itys"; villainy, judged by what the act is regardless of who commits it.
+L3-137 | I | 4 | ev 4 | 3.14.8 | X | Procne | Itys |   | "boiled him"; preparation for ev 5; no separate function found.
+L3-137 | I | 5 | ev 5 | 3.14.8 | η³ | Procne | Tereus |   | "served him up for supper to the unwitting Tereus"; the villain(-turned-avenger) uses another means of deception.
+L3-137 | I | 6 | ev 6 | 3.14.8 | ↓ | Procne/Philomela | Procne/Philomela |   | "fled with her sister in haste"; return, in the form of flight.
+L3-137 | I | 7 | ev 7 | 3.14.8 | Pr¹ | Tereus | Procne/Philomela |   | "he snatched up an axe and pursued them"; pursuit.
+L3-137 | I | 8 | ev 8 | 3.14.8 | X | Procne/Philomela | Procne/Philomela | ? | "being overtaken...they prayed the gods to be turned into birds"; the plea itself; X, perhaps the first part of Rs⁶, whose transformation is entered at ev 9-10.
+L3-137 | I | 9 | ev 9 | 3.14.8 | Rs⁶ | Procne | Procne |   | "Procne became a nightingale"; rescue from pursuit by transformation.
+L3-137 | I | 10 | ev 10 | 3.14.8 | Rs⁶ | Philomela | Philomela |   | "Philomela a swallow"; rescue from pursuit by transformation.
+L3-137 | I | 11 | ev 11 | 3.14.8 | U | (the gods) | Tereus | ? | "Tereus also was changed into a bird and became a hoopoe"; read as a punishment-form for the pursuer, by transformation. ? since Tereus is not elsewhere cast as this episode's villain by role, only by act.
+L3-139 | I | 1 | ev 1 | 3.15.1 | η¹ | Pteleon | Procris |   | "Bribed with a golden crown, Procris admits Pteleon to her bed"; the villain uses persuasion (bribery).
+L3-139 | I | 2 | ev 1 | 3.15.1 | θ¹ | Procris | Procris |   | "Procris admits Pteleon to her bed"; the victim agrees to the persuasion.
+L3-139 | I | 3 | ev 2 | 3.15.1 | X | Cephalus | Procris |   | "Cephalus finds her out"; discovery; no listed function fits cleanly. X, perhaps Ex.
+L3-139 | I | 4 | ev 3 | 3.15.1 | ↑ | Procris | Procris |   | "she fled to Minos"; departure.
+L3-139 | I | 5 | ev 4 | 3.15.1 | X | Minos | Minos |   | "he fell in love with her"; motive for what follows; not itself a function.
+L3-139 | I | 6 | ev 5 | 3.15.1 | η¹ | Minos | Procris |   | "tried to seduce her"; the villain uses persuasion; the attempt itself is what the function requires.
+L3-139 | I | 7 | ev 6 | 3.15.1 | A¹¹ | Pasiphae | Minos/other women | ? | "Pasiphae bewitched him, and whenever he took another woman to his bed, he discharged wild beasts at her joints"; the villain casts a spell. Marked as a flashback: this precedes the episode's own timeline. ? whether a flashback villainy told in passing opens its own move or stays inside move I.
+L3-139 | I | 8 | ev 7 | 3.15.1 | F⁴ | Minos | Procris |   | "in return for his swift dog and his straight-flying dart, Procris shares Minos's bed"; a magical agent transferred by a form of exchange.
+L3-139 | I | 9 | ev 8 | 3.15.1 | K⁸ | Procris | Procris |   | "first gives Minos the Circaean root to drink so that he cannot harm her"; the spell (A¹¹, ev 6) is broken, in its effect on her.
+L3-139 | I | 10 | ev 9 | 3.15.1 | ↓ | Procris | Procris |   | "fearing Minos's wife, Procris comes to Athens"; return.
+L3-139 | I | 11 | ev 10 | 3.15.1 | w² | Procris/Cephalus | Procris/Cephalus |   | "being reconciled to Cephalus"; a lost marriage is resumed.
+L3-139 | II | 1 | ev 11 | 3.15.1 | X | Procris/Cephalus | Procris/Cephalus |   | "she went forth with him to the chase; for she was fond of hunting"; sets the scene for ev 12; no function found.
+L3-139 | II | 2 | ev 12 | 3.15.1 | A¹⁴ | Cephalus | Procris |   | "Cephalus, not knowing she was there, threw a dart, hit and killed Procris"; villainy, judged by the act though it is unintended.
+L3-139 | II | 3 | ev 13 | 3.15.1 | U | (the Areopagus) | Cephalus |   | "being tried in the Areopagus, was condemned to perpetual banishment"; the villain (here, the unwitting killer) is punished.
+L3-144 | I | 1 | ev 1 | 3.15.4 | α | Chione | Eumolpus |   | "Chione had connexion with Poseidon, and having given birth to Eumolpus unknown to her father"; initial situation, introducing the hero by his birth.
+L3-144 | I | 2 | ev 2 | 3.15.4 | A¹⁰ | Chione | Eumolpus |   | "in order not to be detected, she flung the child into the deep"; the villain has someone thrown into the sea.
+L3-144 | I | 3 | ev 3 | 3.15.4 | K | Poseidon | Eumolpus |   | "Poseidon picked him up"; the misfortune (exposure at sea) is undone.
+L3-144 | I | 4 | ev 4 | 3.15.4 | G² | Poseidon | Eumolpus |   | "conveyed him to Ethiopia"; transference to another place.
+L3-144 | I | 5 | ev 5 | 3.15.4 | X | Poseidon | Eumolpus |   | "gave him to Benthesicyme...to bring up"; fostering; no listed function fits.
+L3-144 | I | 6 | ev 6 | 3.15.4 | W² | Benthesicyme's husband | Eumolpus |   | "When he was full grown, Benthesicyme's husband gave him one of his two daughters"; the hero marries, without a throne.
+L3-144 | II | 1 | ev 7 | 3.15.4 | A⁶ | Eumolpus | wife's sister | ? | "he tried to force his wife's sister"; taken as villainy, an act genuinely attempted (not merely voiced), though not completed. ? whether an attempt of this kind should instead be written X under the rule that a threatened, uncarried-out act is X.
+L3-144 | II | 2 | ev 8 | 3.15.4 | U | (unnamed authority) | Eumolpus |   | "being banished on that account"; the villain (here, Eumolpus himself) is punished.
+L3-144 | II | 3 | ev 9 | 3.15.4 | ↑ | Eumolpus | Eumolpus |   | "he went with his son Ismarus to Tegyrius, king of Thrace"; departure.
+L3-144 | II | 4 | ev 10 | 3.15.4 | W² | Tegyrius | Ismarus |   | "who gave his daughter in marriage to Eumolpus's son"; a marriage, without a throne.
+L3-144 | II | 5 | ev 11 | 3.15.4 | Ex | Tegyrius | Eumolpus | ? | "being afterwards detected in a plot against Tegyrius"; the villain's scheme is exposed. ? whether the plot itself (not separately narrated as an act) should also be entered, e.g. as X or A.
+L3-144 | II | 6 | ev 11 | 3.15.4 | ↑ | Eumolpus | Eumolpus |   | "he fled to the Eleusinians"; departure.
+L3-144 | II | 7 | ev 12 | 3.15.4 | X | Eumolpus | Eleusinians |   | "made friends with them"; no function found.
+L3-144 | II | 8 | ev 13 | 3.15.4 | B¹ | Tegyrius | Eumolpus |   | "on the death of Ismarus, he was sent for by Tegyrius"; a call, with the resultant dispatch of the hero.
+L3-144 | II | 9 | ev 14 | 3.15.4 | K | Eumolpus | Tegyrius |   | "went, composed his old feud with him"; the standing misfortune (the feud, ev 11) is liquidated.
+L3-144 | II | 10 | ev 15 | 3.15.4 | W³ | Eumolpus | Eumolpus |   | "succeeded to the kingdom"; accession to the throne alone.
+L3-144 | III | 1 | ev 16 | 3.15.4 | A¹⁹ | (the Athenians) | (the Eleusinians) |   | "war having broken out between the Athenians and the Eleusinians"; the villain declares war. This move is left open at the end of this episode; see L3-145, which continues it with a different hero.
+L3-144 | III | 2 | ev 17 | 3.15.4 | B¹ | Eleusinians | Eumolpus |   | "he was called in by the Eleusinians"; a call for help, with the resultant dispatch of the hero.
+L3-144 | III | 3 | ev 17 | 3.15.4 | H¹ | Eumolpus | (the Athenians) | ? | "fought on their side with a large force of Thracians"; struggle in the field. ? left without a matching I in this episode; the outcome is told under L3-145 (Erechtheus kills Eumolpus).
+L3-145 | I | 1 | ev 1 | 3.15.4 | C | Erechtheus | Erechtheus | ? | "Erechtheus asked the oracle how the Athenians might win"; taken as the seeker's decision to counteract the war (the villainy carried over from the connected episode, L3-144). ? whether consulting an oracle is better read as a form of C, or has no clean match.
+L3-145 | I | 2 | ev 2 | 3.15.4 | M | (the oracle) | Erechtheus |   | "the god answered that they would win the war if he would slaughter one of his daughters"; a difficult task is proposed.
+L3-145 | I | 3 | ev 3 | 3.15.4 | N | Erechtheus | (his daughter) | ? | "when he slaughtered his youngest, "; the task is resolved. ? this act is also, by what it is, a killing (A¹⁴); entered as N because that is its significance for the course of the action here (winning the war).
+L3-145 | I | 4 | ev 4 | 3.15.4 | X | (the other daughters) | (the other daughters) |   | "the others also slaughtered themselves"; beyond what the oracle's task required; no function found.
+L3-145 | I | 5 | ev 5 | 3.15.4 | H¹ | Erechtheus | Eumolpus |   | "In the battle which took place after the slaughter"; struggle in the field.
+L3-145 | I | 6 | ev 5 | 3.15.4 | I¹ | Erechtheus | Eumolpus |   | "Erechtheus killed Eumolpus"; the villain (of the war, carried over from L3-144) is defeated.
+L3-145 | II | 1 | ev 6 | 3.15.5 | A | Poseidon | Erechtheus | ? | "Poseidon having destroyed Erechtheus and his house"; villainy, of an unnamed form (destruction, not matching a single listed variety cleanly). This move is left unresolved at the end of the episode.
+L3-147 | I | 1 | ev 1 | 3.15.5 | A⁹ | the sons of Metion | Pandion |   | "Pandion, reigning after Cecrops, was expelled by the sons of Metion in a sedition"; the villain expels someone.
+L3-147 | I | 2 | ev 2 | 3.15.5 | ↑ | Pandion | Pandion |   | "going to Pylas at Megara"; departure.
+L3-147 | I | 3 | ev 3 | 3.15.5 | W² | Pandion | Pylia |   | "married his daughter Pylia"; the hero marries, without a throne.
+L3-147 | II | 1 | ev 4 | 3.15.5 | A¹⁴ | Pylas | Bias |   | "Pylas slew his father's brother Bias"; villainy, judged by the act though committed by this episode's hero.
+L3-147 | II | 2 | ev 5 | 3.15.5 | W³ | Pylas | Pandion |   | "gave the kingdom to Pandion"; accession to the throne alone (here, Pandion's).
+L3-147 | II | 3 | ev 6 | 3.15.5 | ↑ | Pylas | Pylas |   | "he himself repaired to Peloponnese with a body of people"; departure.
+L3-147 | II | 4 | ev 6 | 3.15.5 | W³ | Pylas | Pylas | ? | "founded the city of Pylus"; accession to a throne alone, at the new city. ? whether founding a city is fairly read as this function.
+L3-149 | I | 1 | ev 1 | 3.15.6 | C↑ | sons of Pandion | (Metionids/Athens) |   | "his sons marched against Athens"; decision and departure to counteract the earlier expulsion (L3-147, ev 1), narrated as one act.
+L3-149 | I | 2 | ev 2 | 3.15.6 | I⁶ | sons of Pandion | Metionids |   | "expelled the Metionids"; the villain is banished directly.
+L3-149 | I | 3 | ev 3 | 3.15.6 | X | sons of Pandion | sons of Pandion |   | "divided the government in four"; division of the reclaimed rule among the brothers; no function found.
+L3-149 | I | 4 | ev 4 | 3.15.6 | W³ | Aegeus | Aegeus |   | "Aegeus had the whole power"; accession to the throne alone.
+L3-149 | II | 1 | ev 5 | 3.15.6 | a | Aegeus | Aegeus |   | "As no child was born to him, he feared his brothers"; a lack is felt; opens a new move.
+L3-149 | II | 2 | ev 6 | 3.15.6 | C↑ | Aegeus | Aegeus |   | "he went to Pythia and consulted the oracle concerning the begetting of children"; decision and departure to seek a remedy for the lack.
+L3-149 | II | 3 | ev 7 | 3.15.6 | γ | (the god) | Aegeus |   | "Loose not [the wineskin's mouth] until thou hast reached the height of Athens"; an interdiction is addressed to the hero.
+L3-149 | II | 4 | ev 8 | 3.15.6 | ↑ | Aegeus | Aegeus |   | "he set out on his return to Athens"; departure.
+L3-149 | II | 5 | ev 9 | 3.15.7 | G² | Aegeus | Aegeus |   | "journeying by way of Troezen, he lodged with Pittheus"; travel by land.
+L3-149 | II | 6 | ev 10 | 3.15.7 | η² | Pittheus | Aegeus |   | "understanding the oracle, [Pittheus] made him drunk"; the villain acts by another (non-magical) means to overcome his victim.
+L3-149 | II | 7 | ev 11 | 3.15.7 | δ | Aegeus | Aethra | ? | "caused him to lie with his daughter Aethra"; read as violation of the interdiction of ev 7 (not to loose the wineskin's mouth before reaching Athens), brought about while he is still short of Athens. ? whether δ is right here given that Aegeus is drunk and manipulated rather than himself choosing to disobey.
+L3-149 | II | 8 | ev 12 | 3.15.7 | X | Poseidon | Aethra |   | "in the same night Poseidon also had connexion with her"; double-paternity motif; no separate function found.
+L3-149 | II | 9 | ev 13 | 3.15.7 | γ² | Aegeus | Aethra |   | "charged Aethra that...she should rear it, without telling whose it was"; an inverted (order-form) interdiction.
+L3-149 | II | 10 | ev 14 | 3.15.7 | J² | Aegeus | (the future Theseus) | ? | "left a sword and sandals under a certain rock...she was then to send him away with them"; tokens set aside for a future recognition. ? whether this is better read as a form of J (marking) or of F (an agent pointed out/prepared) for later use.
+L3-149 | II | 11 | ev 15 | 3.15.7 | ↓ | Aegeus | Aegeus |   | "he himself came to Athens"; return.
+L3-149 | II | 12 | ev 16 | 3.15.7 | X | Aegeus | Aegeus |   | "celebrated the games of the Panathenian festival"; sets the scene for ev 17; no function found.
+L3-149 | II | 13 | ev 17 | 3.15.7 | X | Androgeus | (all comers) | ? | "Androgeus, son of Minos, vanquished all comers"; a contest is won, but by a figure not cast as this episode's villain at this point; Propp's I is specifically the villain's defeat, which this is not. X, perhaps I².
+L3-149 | III | 1 | ev 18 | 3.15.7 | A⁸ | Aegeus | Androgeus | ? | "Aegeus sent him against the bull of Marathon"; the victim is sent into danger. ? the text does not state a malicious motive for the sending; read as villainy by its consequence (ev 19) alone.
+L3-149 | III | 2 | ev 19 | 3.15.7 | A¹⁴ | (the bull) | Androgeus |   | "by which he was destroyed"; villainy (murder), its instrument being the bull Aegeus sent him against. Left open at the end of this episode; continued in L3-151.
+L3-151 | I | 1 | ev 1 | 3.15.7 | B⁴ | (news) | Minos |   | "the tidings of his death were brought to Minos"; misfortune is made known to the hero.
+L3-151 | I | 2 | ev 2 | 3.15.7 | X | Minos | Minos |   | "he threw away the garland from his head"; grief gesture; no function found.
+L3-151 | I | 3 | ev 3 | 3.15.7 | X | Minos | Minos |   | "stopped the music of the flute"; grief gesture; no function found.
+L3-151 | I | 4 | ev 4 | 3.15.7 | X | Minos | Minos |   | "nevertheless completed the sacrifice"; no function found.
+L3-151 | I | 5 | ev 5 | 3.15.8 | H¹ | Minos | Athens/Nisus |   | "being master of the sea, he attacked Athens with a fleet"; struggle in the field, taken to begin here.
+L3-151 | I | 6 | ev 6 | 3.15.8 | I¹ | Minos | Nisus |   | "captured Megara, then ruled by king Nisus"; victory in the field.
+L3-151 | I | 7 | ev 7 | 3.15.8 | I¹ | Minos | Megareus |   | "he slew Megareus...who had come...to the help of Nisus"; a further kill within the same struggle.
+L3-151 | I | 8 | ev 8 | 3.15.8 | X | (Scylla) | Nisus |   | "Nisus perished through his daughter's treachery"; a summary of ev 9-12; not itself a distinct act.
+L3-151 | I | 9 | ev 9 | 3.15.8 | X | (the oracle) | Nisus | ? | "an oracle ran that when it was pulled out he should die"; flashback disclosing Nisus's magical vulnerability. ? no listed function matches cleanly (no act of the villain's reconnaissance, ε, is narrated).
+L3-151 | I | 10 | ev 10 | 3.15.8 | X | Scylla | Scylla |   | "his daughter Scylla fell in love with Minos"; motive for what follows; not itself a function.
+L3-151 | I | 11 | ev 11 | 3.15.8 | A² | Scylla | Nisus |   | "pulled out the hair"; the villain seizes/destroys a magical safeguard (the hair functioning as Nisus's protective agent).
+L3-151 | I | 12 | ev 12 | 3.15.8 | U | Minos | Scylla |   | "he tied the damsel by the feet to the stern of the ship and drowned her"; the villain (here, Scylla, for ev 11) is punished.
+L3-151 | I | 13 | ev 13 | 3.15.8 | X | Minos | Minos |   | "the war lingered on and he could not take Athens"; a stalled result; no function found.
+L3-151 | I | 14 | ev 14 | 3.15.8 | X | Minos | (Zeus) | ? | "he prayed to Zeus that he might be avenged on the Athenians"; left open at the end of this episode; continued in L3-152. ? whether this prayer is better read as a form of C.
+L3-152 | I | 1 | ev 1 | 3.15.8 | λ | (the gods, implicit) | Athens |   | "the city being visited with a famine and a pestilence"; a preliminary misfortune.
+L3-152 | I | 2 | ev 2 | 3.15.8 | X | the Athenians | (the daughters of Hyacinth) | ? | "in obedience to an ancient oracle, the Athenians slaughtered the daughters of Hyacinth"; an attempted remedy. Not marked K, since it is said to avail nothing (ev 4).
+L3-152 | I | 3 | ev 3 | 3.15.8 | X | Hyacinth | Hyacinth |   | "Hyacinth...had come from Lacedaemon and dwelt in Athens"; flashback; no function found.
+L3-152 | I | 4 | ev 4 | 3.15.8 | C | the Athenians | the Athenians |   | "when this was of no avail, they inquired of the oracle how they could be delivered"; renewed decision to seek a remedy.
+L3-152 | I | 5 | ev 5 | 3.15.8 | M | (the god) | the Athenians |   | "the god answered them that they should give Minos whatever satisfaction he might choose"; a costly condition is set.
+L3-152 | I | 6 | ev 6 | 3.15.8 | C | the Athenians | Minos | ? | "they sent to Minos and left it to him to claim satisfaction"; agreement to comply. ? whether this is better read as part of N, or as no function (X).
+L3-152 | II | 1 | ev 7 | 3.15.8 | A¹⁷ | Minos | the Athenians |   | "Minos ordered them to send seven youths and the same number of damsels...to be fodder for the Minotaur"; the villain makes a threat of cannibalism.
+L3-153 | I | 1 | ev 1 | 3.15.8 | A¹⁴ | Daedalus | Talos |   | "he had thrown down from the acropolis Talos, the son of his sister"; villainy (murder), judged by the act though committed by this episode's hero.
+L3-153 | I | 2 | ev 2 | 3.15.8 | X | Talos | Talos |   | "he had sawed a thin stick with a jawbone of a snake which he had found"; flashback explaining ev 1's motive; no separate act.
+L3-153 | I | 3 | ev 3 | 3.15.8 | Ex | (unnamed) | Daedalus |   | "the corpse was discovered"; the villain's act is exposed.
+L3-153 | I | 4 | ev 4 | 3.15.8 | X | (the Areopagus) | Daedalus |   | "Daedalus was tried in the Areopagus"; legal process; no separate function beyond ev 3 and ev 5.
+L3-153 | I | 5 | ev 5 | 3.15.8 | U | (the Areopagus) | Daedalus |   | "being condemned"; the villain is punished (sentenced).
+L3-153 | I | 6 | ev 5 | 3.15.8 | ↑ | Daedalus | Daedalus |   | "fled to Minos"; departure.
+L3-153 | I | 7 | ev 6 | 3.15.8 | X | Pasiphae | Pasiphae |   | "Pasiphae having fallen in love with the bull of Poseidon"; motive for what follows; not itself a function.
+L3-153 | I | 8 | ev 6 | 3.15.8 | F³ | Daedalus | Pasiphae |   | "Daedalus acted as her accomplice by contriving a wooden cow"; a wondrous agent is prepared.
+L3-153 | I | 9 | ev 7 | 3.15.8 | X | Daedalus | Daedalus | ? | "he constructed the labyrinth"; built for Minos's use; no clean function found. ? perhaps a continuation of the service entered as F³ at ev 6.
+L3-153 | II | 1 | ev 8 | 3.15.8 | A¹⁷ | Minos | the Athenians |   | "the Athenians every year sent seven youths and as many damsels to be fodder for the Minotaur"; the continuing execution of the villainy first entered at L3-152, ev 7.
+L3-154 | I | 1 | ev 1 | 3.16.1 | N | Theseus | Theseus |   | "he pushed away the rock"; the task set earlier (L3-149, ev 14) is resolved.
+L3-154 | I | 2 | ev 2 | 3.16.1 | F¹ | Theseus | Theseus |   | "took up the sandals and the sword"; agent(s) directly obtained.
+L3-154 | I | 3 | ev 3 | 3.16.1 | ↑ | Theseus | Theseus |   | "hastened on foot to Athens"; departure.
+L3-154 | I | 4 | ev 4 | 3.16.1 | H¹ | Theseus | Periphetes | ? | "he slew Periphetes, son of Hephaestus and Anticlia"; struggle in the field, taken together with I¹ below. ? no separate clause narrates the fight itself, only its result.
+L3-154 | I | 5 | ev 4 | 3.16.1 | I¹ | Theseus | Periphetes |   | "he slew Periphetes"; victory.
+L3-154 | I | 6 | ev 5 | 3.16.1 | A¹⁴ | Periphetes | (passers-by) |   | "being crazy on his legs he carried an iron club, with which he despatched the passers-by"; flashback disclosing the villain's habitual murders.
+L3-154 | I | 7 | ev 6 | 3.16.1 | F⁸ | Theseus | (Periphetes) |   | "That club Theseus wrested from him and continued to carry about"; a wondrous agent is seized from a defeated, hostile donor.
+L3-154 | II | 1 | ev 7 | 3.16.2 | H¹ | Theseus | Sinis | ? | "he killed Sinis, son of Polypemon and Sylea...by his own method"; struggle, taken together with I¹ below. ? as at ev 4, no separate clause narrates the fight itself.
+L3-154 | II | 2 | ev 7 | 3.16.2 | I¹ | Theseus | Sinis |   | "he killed Sinis...by his own method"; victory.
+L3-154 | II | 3 | ev 8 | 3.16.2 | A¹⁴ | Sinis | (passers-by) |   | "he used to force the passersby to keep bending pine trees...and being tossed up by the trees they perished miserably"; flashback disclosing the villain's habitual murders.
+E-001 | I | 1 | ev 1 | E.1.1 | H¹ | Theseus | Phaea | ? | "he slew at Crommyon the sow that was called Phaea"; struggle, taken with I¹ below. ? no separate clause narrates the fight itself.
+E-001 | I | 2 | ev 1 | E.1.1 | I¹ | Theseus | Phaea |   | "he slew...the sow...Phaea"; victory.
+E-001 | I | 3 | ev 2 | E.1.2 | H¹ | Theseus | Sciron | ? | "Theseus seized him by the feet and threw him into the sea"; struggle, taken with I¹ below.
+E-001 | I | 4 | ev 2 | E.1.2 | I¹ | Theseus | Sciron |   | "threw him into the sea"; victory, by the villain's own method.
+E-001 | I | 5 | ev 3 | E.1.2 | X | Sciron | (passers-by) |   | "compelled passers-by to wash his feet"; flashback; the coercion itself, preparatory to ev 4's killing.
+E-001 | I | 6 | ev 4 | E.1.2 | A¹⁴ | Sciron | (passers-by) |   | "kicked them into the deep to be the prey of a huge turtle"; flashback disclosing the villain's habitual murders.
+E-001 | I | 7 | ev 5 | E.1.3 | H¹ | Theseus | Cercyon | ? | "he lifted him up on high and dashed him to the ground"; struggle, taken with I¹ below.
+E-001 | I | 8 | ev 5 | E.1.3 | I¹ | Theseus | Cercyon |   | "dashed him to the ground"; victory.
+E-001 | I | 9 | ev 6 | E.1.3 | X | Cercyon | (passers-by) | ? | "compelled passers-by to wrestle"; flashback; the coerced contest, preparatory to ev 7. ? whether this is better read as a form of M.
+E-001 | I | 10 | ev 7 | E.1.3 | A¹⁴ | Cercyon | (passers-by) |   | "killed them in wrestling"; flashback disclosing the villain's habitual murders.
+E-001 | I | 11 | ev 8 | E.1.4 | H¹ | Theseus | Damastes | ? | "he slew Damastes, also called Polypemon"; struggle, taken with I¹ below.
+E-001 | I | 12 | ev 8 | E.1.4 | I¹ | Theseus | Damastes |   | "he slew Damastes"; victory.
+E-001 | I | 13 | ev 9 | E.1.4 | X | Damastes | Damastes |   | "made up two beds beside the road, one small and the other big"; flashback; preparation, sets up ev 10-11.
+E-001 | I | 14 | ev 10 | E.1.4 | A¹⁴ | Damastes | (short men) |   | "he laid the short men on the big bed and hammered them, to make them fit the bed"; flashback disclosing the villain's habitual murders.
+E-001 | I | 15 | ev 11 | E.1.4 | A¹⁴ | Damastes | (tall men) |   | "the tall men he laid on the little bed and sawed off the portions of the body that projected"; flashback disclosing the villain's habitual murders.
+E-001 | I | 16 | ev 12 | E.1.4 | ↓ | Theseus | Theseus |   | "having cleared the road, Theseus came to Athens"; return.
+E-001 | II | 1 | ev 13 | E.1.5 | X | Medea | Theseus | ? | "Medea...plotted against him"; an intention stated; the act itself follows at ev 14. ? whether "plots" already counts as a carried-out act rather than an unexecuted intention.
+E-001 | II | 2 | ev 14 | E.1.5 | η¹ | Medea | Aegeus |   | "persuaded Aegeus to beware of him as a traitor"; the villain uses persuasion, by a false claim.
+E-001 | II | 3 | ev 15 | E.1.5 | θ | Aegeus | Aegeus |   | "Aegeus...was afraid"; the victim (here, unwittingly, Aegeus) submits to the persuasion.
+E-001 | II | 4 | ev 15 | E.1.5 | A⁸ | Aegeus | Theseus |   | "sent him against the Marathonian bull"; the victim is sent into danger.
+E-001 | II | 5 | ev 16 | E.1.6 | H¹ | Theseus | (the bull) | ? | "Theseus had killed it"; struggle, taken with I¹ below.
+E-001 | II | 6 | ev 16 | E.1.6 | I¹ | Theseus | (the bull) |   | "Theseus had killed it"; victory; this is the same bull that killed Androgeus (L3-149, ev 19).
+E-001 | II | 7 | ev 17 | E.1.6 | η² | Aegeus | Theseus |   | "Aegeus presented to him a poison which he had received the selfsame day from Medea"; the villain(s) act by the direct application of a harmful (magical) means.
+E-001 | II | 8 | ev 18 | E.1.6 | J² | Theseus | Aegeus |   | "he gave his father the sword"; a token (planted at L3-149, ev 14) is shown, toward recognition.
+E-001 | II | 9 | ev 19 | E.1.6 | Q | Aegeus | Theseus |   | "on recognizing it Aegeus"; the hero is recognized, by a thing given to him.
+E-001 | II | 10 | ev 19 | E.1.6 | Rs⁹ | Aegeus | Theseus |   | "dashed the cup from his hands"; rescue from an attempt on his life, in the nick of time.
+E-001 | II | 11 | ev 20 | E.1.6 | X | Aegeus | Theseus | ? | "Theseus was thus made known to his father"; taken as a restatement of the recognition already entered at ev 19. ? whether this instead deserves its own Q.
+E-001 | II | 12 | ev 20 | E.1.6 | Ex | Aegeus | Medea |   | "informed of the plot"; the villain's scheme is exposed.
+E-001 | II | 13 | ev 21 | E.1.6 | U | Theseus | Medea |   | "he expelled Medea"; the villain is punished (banished).
+E-001 | III | 1 | ev 22 | E.1.7 | A¹⁷ | Minos | Theseus |   | "he was numbered among those who were to be sent as the third tribute to the Minotaur"; the continuing execution of the villainy first entered at L3-152, ev 7.
+E-001 | III | 2 | ev 23 | E.1.7 | γ² | Aegeus | Theseus |   | "Aegeus charged his son, if he returned alive, to spread white sails on the ship"; an inverted (order-form) interdiction, to be violated later (see E-004).
+E-001 | III | 3 | ev 24 | E.1.8 | G² | Theseus | Theseus |   | "when he came to Crete"; travel to the place sought.
+E-001 | III | 4 | ev 25 | E.1.8 | F⁹ | Ariadne | Theseus |   | "Ariadne...offered to help him if he would agree to carry her away to Athens and have her to wife"; a character places herself at the hero's disposal as a helper.
+E-001 | III | 5 | ev 26 | E.1.8 | E | Theseus | Theseus |   | "Theseus...agreed on oath to do so"; the hero's (positive) reaction.
+E-001 | III | 6 | ev 27 | E.1.8 | D⁷ | Ariadne | Daedalus |   | "she besought Daedalus to disclose the way out of the labyrinth"; another request made of a donor-figure.
+E-001 | III | 7 | ev 28 | E.1.9 | F¹ | Ariadne/Daedalus | Theseus |   | "at his suggestion she gave Theseus a clue when he went in"; a wondrous agent directly transferred.
+E-001 | III | 8 | ev 29 | E.1.9 | G³ | (the thread) | Theseus |   | "fastened it to the door, and, drawing it after him, entered in"; he is led (by the thread).
+E-001 | III | 9 | ev 30 | E.1.9 | X | Theseus | (the Minotaur) |   | "having found the Minotaur in the last part of the labyrinth"; arrival at the villain; sets up ev 31.
+E-001 | III | 10 | ev 31 | E.1.9 | H¹ | Theseus | (the Minotaur) | ? | "he killed him by smiting him with his fists"; struggle, taken with I¹ below.
+E-001 | III | 11 | ev 31 | E.1.9 | I¹ | Theseus | (the Minotaur) |   | "he killed him"; victory.
+E-001 | III | 12 | ev 32 | E.1.9 | ↓ | Theseus | Theseus |   | "drawing the clue after him made his way out again"; return.
+E-001 | III | 13 | ev 33 | E.1.9 | ↓ | Theseus | Theseus | ? | "by night he arrived with Ariadne and the children at Naxos"; return, continued. ? this move is left without a W; Ariadne's promised marriage (ev 25) is not kept, and this is not resolved within this episode (see E-004).
+E-004 | I | 1 | ev 1 | E.1.10 | δ | Theseus | Theseus |   | "Theseus forgot to spread white sails on his ship when he stood for port"; violation of the interdiction set at E-001, ev 23.
+E-004 | I | 2 | ev 2 | E.1.10 | X | Aegeus | Aegeus |   | "Aegeus, seeing from the acropolis the ship with a black sail, supposed that Theseus had perished"; consequence of ev 1; sets up ev 3.
+E-004 | I | 3 | ev 3 | E.1.10 | X | Aegeus | Aegeus | ? | "he cast himself down and died"; the tragic, self-inflicted consequence of ev 1's violation. ? no Propp function found for this beyond δ, already entered at ev 1.
+E-004 | I | 4 | ev 4 | E.1.11 | W³ | Theseus | Theseus |   | "Theseus succeeded to the sovereignty of Athens"; accession to the throne alone.
+E-004 | II | 1 | ev 5 | E.1.11 | A¹⁴ | Theseus | (sons of Pallas) | ? | "killed the sons of Pallas, fifty in number"; villainy, judged by the act; the text does not itself narrate a prior act of villainy by the Pallantids that this would instead liquidate. ? whether this and ev 6 are better read as I (victory over an established threat) rather than A.
+E-004 | II | 2 | ev 6 | E.1.11 | A¹⁴ | Theseus | (all who opposed him) | ? | "all who would oppose him were killed by him"; villainy, continued; same doubt as ev 5.
+E-004 | II | 3 | ev 7 | E.1.11 | W³ | Theseus | Theseus |   | "he got the whole government to himself"; accession to the throne, consolidated.
+E-005 | I | 1 | ev 1 | E.1.12 | A¹⁵ | Minos | Daedalus |   | "Minos shut up the guilty Daedalus in the labyrinth, along with his son Icarus"; the villain detains someone.
+E-005 | I | 2 | ev 2 | E.1.12 | F³ | Daedalus | Daedalus/Icarus |   | "Daedalus constructed wings for himself and his son"; a wondrous agent is prepared.
+E-005 | I | 3 | ev 3 | E.1.12 | γ | Daedalus | Icarus |   | "enjoined his son...neither to fly high...nor to fly near the sea"; an interdiction is addressed.
+E-005 | I | 4 | ev 4 | E.1.13 | δ | Icarus | Icarus |   | "the infatuated Icarus, disregarding his father's injunctions, soared ever higher"; violation of the interdiction.
+E-005 | I | 5 | ev 5 | E.1.13 | X | Icarus | Icarus |   | "the glue melting, he fell into the sea...and perished"; the consequence of ev 4's violation; no distinct function found beyond δ.
+E-005 | I | 6 | ev 6 | E.1.13 | ↓ | Daedalus | Daedalus |   | "Daedalus made his way safely to Camicus in Sicily"; return.
+E-006 | I | 1 | ev 1 | E.1.14 | Pr | Minos | Daedalus |   | "Minos pursued Daedalus"; pursuit.
+E-006 | I | 2 | ev 2 | E.1.14 | M | Minos | (whoever can pass the thread) |   | "he carried a spiral shell and promised to give a great reward to him who should pass a thread through the shell"; a difficult task is proposed, in effect aimed at drawing out Daedalus.
+E-006 | I | 3 | ev 3 | E.1.14 | G² | Minos | Minos |   | "having come to Camicus in Sicily, to the court of Cocalus"; travel to the place sought.
+E-006 | I | 4 | ev 4 | E.1.14 | X | Minos | Cocalus |   | "he showed the spiral shell"; presenting the task's object; continuation of M (ev 2).
+E-006 | I | 5 | ev 5 | E.1.14 | E | Cocalus | Cocalus |   | "Cocalus took it, and promised to thread it"; the (task's) recipient accepts.
+E-006 | I | 6 | ev 6 | E.1.14 | X | Cocalus | Daedalus | ? | "gave it to Daedalus"; passes the task along; no clean function found.
+E-006 | I | 7 | ev 7 | E.1.15 | N | Daedalus | Daedalus |   | "Daedalus fastened a thread to an ant, and...allowed the ant to pass through it"; the task is resolved.
+E-006 | I | 8 | ev 8 | E.1.15 | Q | Minos | Daedalus |   | "when Minos found the thread passed through the shell, he perceived that Daedalus was with Cocalus"; the hero (here, the sought-for Daedalus) is recognized/located by the accomplishment of the task.
+E-006 | I | 9 | ev 9 | E.1.15 | Pr² | Minos | Cocalus/Daedalus |   | "at once demanded his surrender"; he demands the guilty person.
+E-006 | I | 10 | ev 10 | E.1.15 | θ | Cocalus | Cocalus |   | "Cocalus promised to surrender him"; submission to the demand (in appearance only; see ev 11-12).
+E-006 | I | 11 | ev 11 | E.1.15 | η³ | Cocalus | Minos |   | "made an entertainment for Minos"; the villain (here, Cocalus) uses another means of deception, a trap disguised as hospitality.
+E-006 | I | 12 | ev 12 | E.1.15 | A¹⁴ | (the daughters of Cocalus) | Minos |   | "after his bath Minos was undone by the daughters of Cocalus"; villainy. Left unresolved at the end of this episode.
+E-008 | I | 1 | ev 1 | E.1.16 | C↑ | Theseus | Theseus |   | "Theseus joined Hercules in his expedition against the Amazons"; decision and departure, as one act.
+E-008 | I | 2 | ev 2 | E.1.16 | A¹ | Theseus | Antiope |   | "carried off Antiope"; villainy (abduction), judged by the act though committed by this episode's hero.
+E-008 | I | 3 | ev 3 | E.1.16 | Pr | (the Amazons) | Theseus/Antiope |   | "the Amazons marched against Athens"; pursuit, in the form of a punitive march.
+E-008 | I | 4 | ev 4 | E.1.16 | H¹ | Theseus | (the Amazons) | ? | "having taken up a position about the Areopagus they were vanquished by the Athenians under Theseus"; struggle, taken with I¹ below.
+E-008 | I | 5 | ev 4 | E.1.16 | I¹ | Theseus | (the Amazons) |   | "vanquished by the Athenians under Theseus"; victory.
+E-008 | II | 1 | ev 5 | E.1.17 | W² | Deucalion | Theseus/Phaedra |   | "Theseus afterwards received from Deucalion in marriage Phaedra, daughter of Minos"; the hero marries, without a throne mentioned.
+E-008 | II | 2 | ev 6 | E.1.17 | A¹⁹ | (the Amazon, Antiope) | (the wedding guests) | ? | "the Amazon that had before been married to him appeared in arms with her Amazons, and threatened to kill the assembled guests"; taken as a declared, armed hostility, not a mere spoken threat, since she appears armed and present. ? whether this instead belongs at X as a threat not carried out.
+E-008 | II | 3 | ev 7 | E.1.17 | I⁵ | (the guests) | (the Amazon) |   | "they hastily closed the doors and killed her"; the villain is killed, without a drawn-out fight.
+E-010 | I | 1 | ev 1 | E.1.18 | X | Phaedra | Phaedra |   | "Phaedra fell in love with Hippolytus"; motive; not itself a function.
+E-010 | I | 2 | ev 2 | E.1.18 | η¹ | Phaedra | Hippolytus |   | "Phaedra begged Hippolytus to lie with her"; the villain uses persuasion.
+E-010 | I | 3 | ev 3 | E.1.18 | θ⁻ | Hippolytus | Hippolytus |   | "Hippolytus...fled from her embraces"; the victim does not submit to the persuasion.
+E-010 | I | 4 | ev 4 | E.1.18 | η³ | Phaedra | Phaedra |   | "fearing he might accuse her to his father, Phaedra...cleft open the doors of her bed-chamber"; the villain stages other, deceptive evidence.
+E-010 | I | 5 | ev 5 | E.1.18 | X | Phaedra | Phaedra |   | "rent her garments"; part of the same staged deception as ev 4.
+E-010 | I | 6 | ev 6 | E.1.18 | η¹ | Phaedra | Theseus |   | "falsely charged Hippolytus with an assault"; the villain uses persuasion, by a false claim.
+E-010 | I | 7 | ev 7 | E.1.19 | θ | Theseus | Theseus |   | "Theseus believed her"; the victim submits to the persuasion.
+E-010 | I | 8 | ev 8 | E.1.19 | A | Theseus | Hippolytus |   | "prayed to Poseidon that Hippolytus might perish"; villainy (an unlisted form: a request for another's death), judged by the act though committed by a deceived party.
+E-010 | I | 9 | ev 9 | E.1.19 | A⁶ | Poseidon | Hippolytus |   | "Poseidon sent up a bull from the surf"; the instrument of the villainy of ev 8, causing bodily harm.
+E-010 | I | 10 | ev 10 | E.1.19 | X | (the horses) | Hippolytus |   | "the horses were frightened, the chariot dashed in pieces"; mechanical consequence; no separate function.
+E-010 | I | 11 | ev 11 | E.1.19 | A¹⁴ | (the reins/horses) | Hippolytus |   | "entangled in the reins, was dragged to death"; the villainy's culmination, a death.
+E-010 | I | 12 | ev 12 | E.1.19 | Ex | (the public) | Phaedra |   | "her passion was made public"; the villain (Phaedra) is exposed.
+E-010 | I | 13 | ev 12 | E.1.19 | U | Phaedra | Phaedra |   | "Phaedra hanged herself"; the villain is punished, by her own hand.
+E-011 | I | 1 | ev 1 | E.1.20 | X | Ixion | Ixion |   | "Ixion fell in love with Hera"; motive; not itself a function.
+E-011 | I | 2 | ev 2 | E.1.20 | A⁶ | Ixion | Hera | ? | "attempted to force her"; taken as villainy, an act genuinely attempted, though not completed; same doubt as at L3-144, ev 7.
+E-011 | I | 3 | ev 3 | E.1.20 | ζ | Hera | Zeus |   | "Hera reported it"; delivery of information (here, to the one who will judge it).
+E-011 | I | 4 | ev 4 | E.1.20 | D¹ | Zeus | Ixion |   | "wishing to know if the thing were so, Zeus made a cloud in the likeness of Hera and laid it beside him"; the donor(-investigator) tests the hero.
+E-011 | I | 5 | ev 5 | E.1.20 | E⁻ | Ixion | Ixion |   | "Ixion boasted that he had enjoyed the favours of Hera"; the hero does not withstand the test.
+E-011 | I | 6 | ev 6 | E.1.20 | U | Zeus | Ixion |   | "Zeus bound him to a wheel, on which he is whirled by winds through the air"; the villain (here, the tested and failed Ixion) is punished.
+E-012 | I | 1 | ev 1 | E.1.21 | C↑ | Theseus | Theseus |   | "Theseus allied himself with Pirithous, when he engaged in war against the centaurs"; decision and departure/alliance, as one act.
+E-012 | I | 2 | ev 2 | E.1.21 | X | Pirithous | (the centaurs) |   | "Pirithous...feasted the centaurs because they were her kinsmen"; hospitality; sets up ev 3-4.
+E-012 | I | 3 | ev 3 | E.1.21 | X | (the centaurs) | (the centaurs) |   | "being unaccustomed to wine, they made themselves drunk by swilling it greedily"; their own excess; sets up ev 4.
+E-012 | I | 4 | ev 4 | E.1.21 | A⁶ | (the centaurs) | Hippodamia |   | "when the bride was brought in, they attempted to violate her"; villainy, an act genuinely attempted.
+E-012 | I | 5 | ev 5 | E.1.21 | H¹ | Pirithous/Theseus | (the centaurs) |   | "Pirithous, fully armed, with Theseus, joined battle with them"; struggle.
+E-012 | I | 6 | ev 6 | E.1.21 | I¹ | Theseus | (the centaurs) |   | "Theseus killed many of them"; victory.
+E-015 | I | 1 | ev 1 | E.1.23 | I¹ | the Dioscuri | Athens |   | "the Dioscuri, with the Lacedaemonians and Arcadians, captured Athens"; victory (over the city that had held Helen; the abduction itself is told at E-014, outside this transcription).
+E-015 | I | 2 | ev 2 | E.1.23 | K¹ | the Dioscuri | Helen |   | "carried away Helen"; the object of the (Dioscuri's) quest is seized by force.
+E-015 | I | 3 | ev 2 | E.1.23 | A¹ | the Dioscuri | Aethra |   | "with her Aethra, daughter of Pittheus, into captivity"; a fresh villainy (abduction), against a party not previously cast as a wrongdoer.
+E-015 | I | 4 | ev 3 | E.1.23 | Rs | Demophon/Acamas | Demophon/Acamas |   | "Demophon and Acamas fled"; rescue by flight.
+E-015 | I | 5 | ev 4 | E.1.23 | K¹⁰ | the Dioscuri | Menestheus |   | "the Dioscuri also brought back Menestheus from exile"; a captive(-in-exile) is freed.
+E-015 | I | 6 | ev 5 | E.1.23 | W³ | the Dioscuri | Menestheus |   | "gave him the sovereignty of Athens"; accession to the throne.
+E-016 | I | 1 | ev 1 | E.1.24 | G² | Theseus | Theseus |   | "Theseus arrived with Pirithous in Hades"; transference to another place.
+E-016 | I | 2 | ev 2 | E.1.24 | η³ | Hades | Theseus/Pirithous |   | "on the pretence that they were about to partake of good cheer, Hades bade them first be seated on the Chair of Forgetfulness"; the villain deceives by disguised hospitality.
+E-016 | I | 3 | ev 3 | E.1.24 | θ | Theseus/Pirithous | Theseus/Pirithous |   | "to which they grew"; mechanical submission to the trick.
+E-016 | I | 4 | ev 3 | E.1.24 | A¹⁵ | (the chair/serpents) | Theseus/Pirithous |   | "held fast by coils of serpents"; the villain detains them.
+E-016 | I | 5 | ev 4 | E.1.24 | X | (unnamed) | Pirithous |   | "Pirithous...remained bound for ever"; not rescued; no further function beyond the detention (A¹⁵) already entered at ev 3.
+E-016 | I | 6 | ev 5 | E.1.24 | K¹⁰ | Hercules | Theseus |   | "Hercules brought Theseus up and sent him to Athens"; a captive is freed.
+E-016 | II | 1 | ev 6 | E.1.24 | A⁹ | Menestheus | Theseus |   | "Thence he was driven by Menestheus"; the villain expels someone.
+E-016 | II | 2 | ev 7 | E.1.24 | ↑ | Theseus | Theseus |   | "went to Lycomedes"; departure.
+E-016 | II | 3 | ev 8 | E.1.24 | A¹⁴ | Lycomedes | Theseus |   | "who threw him down an abyss and killed him"; villainy (murder). Left unresolved at the end of the episode.
+E-017 | I | 1 | ev 1 | E.2.1 | U | (the gods, implicit) | Tantalus |   | "Tantalus is punished in Hades by having a stone impending over him, by being perpetually in a lake"; the villain (here, Tantalus, by the reason given at ev 4-5) is punished. Note: the punishment is narrated before its stated cause, an inverted sequence.
+E-017 | I | 2 | ev 2 | E.2.1 | X | (the water) | Tantalus |   | "when he would take a draught of it, the water dries up"; further description of the punishment (ev 1); no separate function.
+E-017 | I | 3 | ev 3 | E.2.1 | X | (the trees) | Tantalus |   | "when he would partake of the fruits, the trees...are lifted by winds as high as the clouds"; further description of the punishment (ev 1); no separate function.
+E-017 | I | 4 | ev 4 | E.2.1 | δ | Tantalus | (the gods) | ? | "he blabbed to men the mysteries of the gods"; taken as violation of an implicit divine confidence. Flashback; one of two reported reasons for the punishment. ? whether this and ev 5 should both be entered, being alternative ("some say") reasons rather than two acts.
+E-017 | I | 5 | ev 5 | E.2.1 | A² | Tantalus | (the gods) | ? | "he attempted to share ambrosia with his fellows"; taken as an unauthorized taking/sharing of a divine agent. Flashback; the other reported reason. Same doubt as ev 4.
+E-020 | I | 1 | ev 1 | E.2.4 | η¹ | Oenomaus | Hippodamia | ? | "whether it was that he loved her...no man got her to wife; for her father could not persuade her to cohabit with him"; the villain's attempt at persuasion, unsuccessful.
+E-020 | I | 2 | ev 2 | E.2.5 | F¹ | Ares | Oenomaus |   | "he had arms and horses given him by Ares"; a wondrous agent directly transferred.
+E-020 | I | 3 | ev 3 | E.2.5 | M | Oenomaus | (suitors) |   | "each suitor was bound to take up Hippodamia on his own chariot and flee...and Oenomaus straightway pursued him"; a difficult (and deadly) task is proposed.
+E-020 | I | 4 | ev 4 | E.2.5 | A¹⁴ | Oenomaus | (suitors) |   | "in this way he slew many suitors, some say twelve"; villainy (murder).
+E-020 | I | 5 | ev 5 | E.2.5 | X | Oenomaus | (suitors) |   | "he cut off the heads of the suitors and nailed them to his house"; further mutilation/display; part of the same villainous pattern as ev 4; no additional distinct function.
+E-022 | I | 1 | ev 1 | E.2.6 | C↑ | Pelops | Pelops |   | "Pelops also came a-wooing"; decision and departure, entering the contest of L3/E-020.
+E-022 | I | 2 | ev 2 | E.2.6 | X | Hippodamia | Hippodamia |   | "when Hippodamia saw his beauty, she conceived a passion for him"; motive; not itself a function.
+E-022 | I | 3 | ev 3 | E.2.6 | D⁷ | Hippodamia | Myrtilus |   | "persuaded Myrtilus, son of Hermes, to help him"; a request made of a potential helper.
+E-022 | I | 4 | ev 4 | E.2.7 | F³ | Myrtilus | Pelops |   | "being in love with her...did not insert the linchpins in the boxes of the wheels"; the (helper's) agent/advantage is prepared.
+E-022 | I | 5 | ev 5 | E.2.7 | I¹ | Pelops/Myrtilus | Oenomaus |   | "caused Oenomaus to lose the race and to be entangled in the reins and dragged to death"; the villain of E-020 is defeated.
+E-022 | I | 6 | ev 6 | E.2.7 | X | Oenomaus | Myrtilus | ? | "in dying he cursed Myrtilus...praying that he might perish by the hand of Pelops"; a dying curse, foreshadowing ev 11-12; no listed function found for it.
+E-022 | I | 7 | ev 7 | E.2.8 | K⁴ | Pelops | Hippodamia |   | "Pelops, therefore, got Hippodamia"; the object of the quest is obtained as the direct result of the preceding victory.
+E-022 | II | 1 | ev 8 | E.2.8 | β | Pelops | Pelops |   | "he withdrew a little to fetch water for his wife, who was athirst"; a member of the party absents himself.
+E-022 | II | 2 | ev 9 | E.2.8 | A⁶ | Myrtilus | Hippodamia |   | "in the meantime Myrtilus tried to rape her"; villainy, an act genuinely attempted.
+E-022 | II | 3 | ev 10 | E.2.8 | ζ | Hippodamia | Pelops |   | "Pelops learned that from her"; delivery of information about the villainy.
+E-022 | II | 4 | ev 11 | E.2.8 | U | Pelops | Myrtilus |   | "he threw Myrtilus into the sea...at Cape Geraestus"; the villain is punished.
+E-022 | II | 5 | ev 12 | E.2.8 | X | Myrtilus | (the house of Pelops) | ? | "Myrtilus, as he was being thrown, uttered curses against the house of Pelops"; a curse, foreshadowing later episodes (cf. E-024); no listed function found for it.
+E-022 | III | 1 | ev 13 | E.2.9 | K⁸ | Hephaestus | Pelops |   | "when Pelops had reached the Ocean and been cleansed by Hephaestus"; a stain/curse is lifted.
+E-022 | III | 2 | ev 14 | E.2.9 | ↓ | Pelops | Pelops |   | "he returned to Pisa in Elis"; return.
+E-022 | III | 3 | ev 14 | E.2.9 | W³ | Pelops | Pelops |   | "succeeded to the kingdom of Oenomaus"; accession to the throne.
+E-022 | III | 4 | ev 15 | E.2.9 | I¹ | Pelops | (the land) |   | "he had subjugated what was formerly called Apia and Pelasgiotis"; victory/conquest.
+E-022 | III | 5 | ev 15 | E.2.9 | X | Pelops | (the land) | ? | "which he called Peloponnesus after himself"; no listed function found for the renaming.
+E-024 | I | 1 | ev 1 | E.2.10 | X | Atreus | Atreus |   | "Atreus once vowed to sacrifice to Artemis the finest of his flocks"; a vow; sets up ev 2's breach.
+E-024 | I | 2 | ev 2 | E.2.10 | δ | Atreus | Atreus |   | "when a golden lamb appeared, they say that he neglected to perform his vow"; violation, of an obligation he had himself set.
+E-024 | I | 3 | ev 3 | E.2.11 | A² | Atreus | (Artemis) | ? | "having choked the lamb, he deposited it in a box and kept it there"; taken as improperly seizing/hoarding a wondrous agent that should have been given up.
+E-024 | I | 4 | ev 4 | E.2.11 | A² | Aerope | Atreus |   | "Aerope gave it to Thyestes"; the agent is taken away (from Atreus) by another.
+E-024 | I | 5 | ev 5 | E.2.11 | η¹ | Thyestes | Aerope |   | "by whom she had been debauched"; flashback: the villain's persuasion, explaining ev 4's motive.
+E-024 | I | 6 | ev 6 | E.2.11 | B¹ | the Mycenaeans | Atreus/Thyestes |   | "the Mycenaeans had received an oracle which bade them choose a Pelopid for their king, and they had sent for Atreus and Thyestes"; a call, with the resultant dispatch.
+E-024 | I | 7 | ev 7 | E.2.11 | η¹ | Thyestes | Atreus/(the people) |   | "Thyestes declared to the multitude that the kingdom ought to belong to him who owned the golden lamb"; persuasion, by a proposal Thyestes already knows he can win by fraud.
+E-024 | I | 8 | ev 8 | E.2.11 | θ | Atreus | Atreus |   | "when Atreus agreed"; submission to the proposal.
+E-024 | I | 9 | ev 9 | E.2.11 | L | Thyestes | Thyestes |   | "Thyestes produced the lamb"; unfounded claim (to rightful possession), made good by stolen evidence.
+E-024 | I | 10 | ev 9 | E.2.11 | W³ | Thyestes | Thyestes |   | "was made king"; accession, achieved by the fraud.
+E-024 | I | 11 | ev 10 | E.2.12 | M | Zeus/Hermes | Atreus |   | "Zeus sent Hermes to Atreus and told him to stipulate with Thyestes that Atreus should be king if the sun should go backward"; a new, decisive condition is set.
+E-024 | I | 12 | ev 11 | E.2.12 | θ | Thyestes | Thyestes |   | "when Thyestes agreed"; submission to the (this time fatal) condition.
+E-024 | I | 13 | ev 12 | E.2.12 | N | (the sun) | (the sun) |   | "the sun set in the east"; the task/condition is resolved.
+E-024 | I | 14 | ev 13 | E.2.12 | Ex | (the deity) | Thyestes | ? | "the deity having plainly attested the usurpation of Thyestes"; Thyestes's earlier fraud (ev 9) is exposed. ? whether to enter this separately from ev 13's W³ below, since both rest on the same clause.
+E-024 | I | 15 | ev 13 | E.2.12 | W³ | Atreus | Atreus |   | "Atreus got the kingdom"; accession, now legitimately.
+E-024 | I | 16 | ev 14 | E.2.12 | U | Atreus | Thyestes |   | "banished Thyestes"; the villain is punished.
+E-024 | II | 1 | ev 15 | E.2.13 | ζ | (unnamed) | Atreus |   | "afterwards being apprized of the adultery"; delivery of information (the truth of ev 5, now surfacing) to the wronged party.
+E-024 | II | 2 | ev 16 | E.2.13 | η³ | Atreus | Thyestes |   | "he sent a herald to Thyestes with a proposal of accommodation; and...he had lured Thyestes by a pretence of friendship"; deception by a false show of reconciliation.
+E-024 | II | 3 | ev 17 | E.2.13 | A¹⁴ | Atreus | (the sons of Thyestes) |   | "he slaughtered the sons...though they had sat down as suppliants on the altar of Zeus"; villainy (murder), aggravated by the violation of sanctuary.
+E-024 | II | 4 | ev 18 | E.2.13 | η³ | Atreus | Thyestes |   | "having cut them limb from limb and boiled them, he served them up to Thyestes without the extremities"; deception, disguising the horror of the meal.
+E-024 | II | 5 | ev 19 | E.2.13 | θ | Thyestes | Thyestes |   | "when Thyestes had eaten heartily of them"; unwitting submission to the deception.
+E-024 | II | 6 | ev 20 | E.2.13 | Ex | Atreus | Thyestes | ? | "he showed him the extremities"; taken as a form of exposure (here, self-revelation of the villainy by the villain himself, to torment the victim). ? whether Ex is the right function for a villain's own unforced reveal.
+E-024 | II | 7 | ev 21 | E.2.13 | U | Atreus | Thyestes |   | "cast him out of the country"; the villain (here, the already-wronged Thyestes) is punished/banished further.
+E-024 | III | 1 | ev 22 | E.2.14 | C↑ | Thyestes | Thyestes |   | "seeking by all means to pay Atreus out, Thyestes inquired of the oracle on the subject"; decision and departure (to the oracle) to seek revenge.
+E-024 | III | 2 | ev 23 | E.2.14 | M | (the oracle) | Thyestes |   | "received an answer that it could be done if he were to beget a son by intercourse with his own daughter"; a costly condition/task is set.
+E-024 | III | 3 | ev 24 | E.2.14 | N | Thyestes | (his daughter) |   | "he did so accordingly, and begot Aegisthus by his daughter"; the task is resolved.
+E-024 | III | 4 | ev 25 | E.2.14 | Q | Aegisthus | Aegisthus |   | "when he was grown to manhood and had learned that he was a son of Thyestes"; recognition, of his true parentage.
+E-024 | III | 5 | ev 25 | E.2.14 | I¹ | Aegisthus | Atreus |   | "killed Atreus"; victory (avenging Thyestes).
+E-024 | III | 6 | ev 26 | E.2.14 | W³ | Aegisthus | Thyestes |   | "restored the kingdom to Thyestes"; accession, here awarded to another.
+E-025 | I | 1 | ev 1 | E.2.15 | Rs | (the nurse) | Agamemnon/Menelaus |   | "the nurse took Agamemnon and Menelaus to Polyphides, lord of Sicyon"; rescue, by being carried away (from the danger left standing at the end of E-024).
+E-025 | I | 2 | ev 2 | E.2.15 | G² | Polyphides | Agamemnon/Menelaus |   | "Polyphides sent them on to Oeneus, the Aetolian"; further transference.
+E-025 | I | 3 | ev 3 | E.2.15 | ↓ | Tyndareus | Agamemnon/Menelaus |   | "Tyndareus brought them back again"; return.
+E-025 | I | 4 | ev 4 | E.2.15 | X | Agamemnon/Menelaus | Thyestes | ? | "they had taken an oath of him at the altar of Hera, to which he had fled"; extracting an oath; preparatory to ev 5. ? no listed function found for this act itself.
+E-025 | I | 5 | ev 5 | E.2.15 | U | Agamemnon/Menelaus | Thyestes |   | "they drove away Thyestes to dwell in Cytheria"; the villain (restored to the throne at the end of E-024) is punished/banished.
+E-025 | II | 1 | ev 6 | E.2.16 | A¹⁴ | Agamemnon | Tantalus (son of Thyestes)/babe |   | "after he had slain her former husband Tantalus, the son of Thyestes, together with his newborn babe"; villainy (murder), judged by the act though committed by this episode's hero.
+E-025 | II | 2 | ev 7 | E.2.16 | W³ | Agamemnon | Agamemnon |   | "Agamemnon reigned over the Mycenaeans"; accession to the throne.
+E-025 | II | 3 | ev 8 | E.2.16 | W³ | Tyndareus | Menelaus |   | "Tyndareus having ceded the kingdom to him"; accession, here awarded to Menelaus.

@@ -1,0 +1,129 @@
+tale: L3-135
+name: 3.14.7, Icarius
+move: I   | α F¹ X β X A¹⁴ X
+move: II  | a¹ G⁴ X X
+
+tale: L3-136
+name: 3.14.8, Tereus
+move: I   | B¹ I¹ W² X
+move: II  | A¹⁵ η¹ θ¹ X A⁶
+
+tale: L3-137
+name: 3.14.8, Procne
+move: I   | B⁴ C↑ A¹⁴ X η³ ↓ Pr¹ X Rs⁶ Rs⁶ U
+
+tale: L3-139
+name: 3.15.1, Procris
+move: I   | η¹ θ¹ X ↑ X η¹ A¹¹ F⁴ K⁸ ↓ w²
+move: II  | X A¹⁴ U
+
+tale: L3-144
+name: 3.15.4, Eumolpus
+move: I   | α A¹⁰ K G² X W²
+move: II  | A⁶ U ↑ W² Ex ↑ X B¹ K W³
+move: III | A¹⁹ B¹ H¹
+
+tale: L3-145
+name: 3.15.4-3.15.5, Erechtheus
+move: I   | C M N X H¹ I¹
+move: II  | A
+
+tale: L3-147
+name: 3.15.5, Pylas
+move: I   | A⁹ ↑ W²
+move: II  | A¹⁴ W³ ↑ W³
+
+tale: L3-149
+name: 3.15.6-3.15.7, Aegeus
+move: I   | C↑ I⁶ X W³
+move: II  | a C↑ γ ↑ G² η² δ X γ² J² ↓ X X
+move: III | A⁸ A¹⁴
+
+tale: L3-151
+name: 3.15.7-3.15.8, Minos
+move: I   | B⁴ X X X H¹ I¹ I¹ X X X A² U X X
+
+tale: L3-152
+name: 3.15.8, the Athenians
+move: I   | λ X X C M C
+move: II  | A¹⁷
+
+tale: L3-153
+name: 3.15.8, Daedalus
+move: I   | A¹⁴ X Ex X U ↑ X F³ X
+move: II  | A¹⁷
+
+tale: L3-154
+name: 3.16.1-3.16.2, Theseus
+move: I   | N F¹ ↑ H¹ I¹ A¹⁴ F⁸
+move: II  | H¹ I¹ A¹⁴
+
+tale: E-001
+name: E.1.1-E.1.9, Theseus
+move: I   | H¹ I¹ H¹ I¹ X A¹⁴ H¹ I¹ X A¹⁴ H¹ I¹ X A¹⁴ A¹⁴ ↓
+move: II  | X η¹ θ A⁸ H¹ I¹ η² J² Q Rs⁹ X Ex U
+move: III | A¹⁷ γ² G² F⁹ E D⁷ F¹ G³ X H¹ I¹ ↓ ↓
+
+tale: E-004
+name: E.1.10-E.1.11, Theseus
+move: I   | δ X X W³
+move: II  | A¹⁴ A¹⁴ W³
+
+tale: E-005
+name: E.1.12-E.1.13, Daedalus
+move: I   | A¹⁵ F³ γ δ X ↓
+
+tale: E-006
+name: E.1.14-E.1.15, Minos
+move: I   | Pr M G² X E X N Q Pr² θ η³ A¹⁴
+
+tale: E-008
+name: E.1.16-E.1.17, Theseus
+move: I   | C↑ A¹ Pr H¹ I¹
+move: II  | W² A¹⁹ I⁵
+
+tale: E-010
+name: E.1.18-E.1.19, Phaedra
+move: I   | X η¹ θ⁻ η³ X η¹ θ A A⁶ X A¹⁴ Ex U
+
+tale: E-011
+name: E.1.20, Ixion
+move: I   | X A⁶ ζ D¹ E⁻ U
+
+tale: E-012
+name: E.1.21, the centaurs
+move: I   | C↑ X X A⁶ H¹ I¹
+
+tale: E-015
+name: E.1.23, the Dioscuri
+move: I   | I¹ K¹ A¹ Rs K¹⁰ W³
+
+tale: E-016
+name: E.1.24, Theseus
+move: I   | G² η³ θ A¹⁵ X K¹⁰
+move: II  | A⁹ ↑ A¹⁴
+
+tale: E-017
+name: E.2.1, Tantalus
+move: I   | U X X δ A²
+
+tale: E-020
+name: E.2.4-E.2.5, Oenomaus
+move: I   | η¹ F¹ M A¹⁴ X
+
+tale: E-022
+name: E.2.6-E.2.9, Pelops
+move: I   | C↑ X D⁷ F³ I¹ X K⁴
+move: II  | β A⁶ ζ U X
+move: III | K⁸ ↓ W³ I¹ X
+
+tale: E-024
+name: E.2.10-E.2.14, Atreus
+move: I   | X δ A² A² η¹ B¹ η¹ θ L W³ M θ N Ex W³ U
+move: II  | ζ η³ A¹⁴ η³ θ Ex U
+move: III | C↑ M N Q I¹ W³
+
+tale: E-025
+name: E.2.15-E.2.16, Agamemnon
+move: I   | Rs G² ↓ X U
+move: II  | A¹⁴ W³ W³

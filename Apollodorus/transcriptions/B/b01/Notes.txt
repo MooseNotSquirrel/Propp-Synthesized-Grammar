@@ -1,0 +1,339 @@
+L1-001/1 | I | 1 | ev 1 | 1.1.2 | A15 | Sky | the Cyclopes |   | "them Sky bound and cast into Tartarus"; imprisonment/detention of family members, opens the move
+L1-001/1 | I | 2 | ev 2 | 1.1.4 | X | Earth | the Titans | ? | "Earth...persuaded the Titans to attack their father"; no clean function for a third party inciting counteraction against the hero; nearest candidate B
+L1-001/1 | I | 3 | ev 3 | 1.1.4 | F1 | Earth | Cronus |   | "gave Cronus an adamantine sickle"; direct transference of an instrument enabling the deed
+L1-001/1 | I | 4 | ev 4 | 1.1.4 | H1 | the Titans | Sky |   | "they, all but Ocean, attacked him"; open combat
+L1-001/1 | I | 5 | ev 5 | 1.1.4 | I1 | Cronus | Sky |   | "Cronus cut off his father's genitals"; the decisive blow of the combat
+L1-001/1 | I | 6 | ev 6 | 1.1.4 | I | the Titans | Sky | ? | "having dethroned their father"; removal from power; no exact Propp subtype for dethronement, nearest is I (or I6, banishment)
+
+L1-001/2 | I | 1 | ev 1 | 1.1.2 | A15 | Sky | the Cyclopes |   | "them Sky bound and cast into Tartarus"; same act, transcribed again under Cronus as hero since the function is the same regardless of which tied figure is tracked
+L1-001/2 | I | 2 | ev 2 | 1.1.4 | X | Earth | the Titans | ? | "Earth...persuaded the Titans to attack their father"; see L1-001/1 ev2 note
+L1-001/2 | I | 3 | ev 3 | 1.1.4 | F1 | Earth | Cronus |   | "gave Cronus an adamantine sickle"
+L1-001/2 | I | 4 | ev 4 | 1.1.4 | H1 | the Titans | Sky |   | "they, all but Ocean, attacked him"
+L1-001/2 | I | 5 | ev 5 | 1.1.4 | I1 | Cronus | Sky |   | "Cronus cut off his father's genitals"
+L1-001/2 | I | 6 | ev 6 | 1.1.4 | I | the Titans | Sky | ? | "having dethroned their father"; see L1-001/1 ev6 note
+
+L1-002 | I | 1 | ev 1 | 1.1.4 | K10 | the Titans | their brethren |   | "they brought up their brethren who had been hurled down to Tartarus"; liberation of captives, precedes any local villainy so stands in move I
+L1-002 | I | 2 | ev 2 | 1.1.4 | W3 | the Titans | Cronus |   | "committed the sovereignty to Cronus"; accession to rule
+L1-002 | II | 1 | ev 3 | 1.1.5 | A15 | Cronus | his brethren |   | "he again bound and shut them up in Tartarus"; new act of villainy, opens move II
+L1-002 | II | 2 | ev 4 | 1.1.5 | X | Earth and Sky | Cronus | ? | "Earth and Sky foretold him that he would be dethroned by his own son"; a prophecy of future misfortune, not itself an act; no clear Propp function
+L1-002 | III | 1 | ev 5 | 1.1.5 | A7 | Cronus | his children |   | "he used to swallow his offspring at birth"; new act of villainy against different victims, opens move III
+
+L1-003 | I | 1 | ev 1 | 1.1.6 | α | Rhea | — |   | "Rhea repaired to Crete, when she was big with Zeus"; initial situation
+L1-003 | I | 2 | ev 2 | 1.1.6 | X | Rhea | Zeus | ? | "brought him forth in a cave of Dicte"; birth; Propp's scheme has no function for a birth itself
+L1-003 | I | 3 | ev 3 | 1.1.6 | B5 | Rhea | Zeus |   | "She gave him to the Curetes and to the nymphs...to nurse"; the endangered child transported away for safekeeping
+L1-003 | I | 4 | ev 4 | 1.1.7 | X | the nymphs | Zeus | ? | "nymphs fed the child on the milk of Amalthea"; ordinary nurture, no function
+L1-003 | I | 5 | ev 5 | 1.1.7 | X | the Curetes | — | ? | "the Curetes in arms guarded the babe...clashing their spears on their shields"; protective concealment with no pursuit yet under way; nearest candidate Rs
+L1-003 | I | 6 | ev 6 | 1.1.7 | B6 | Rhea | Cronus |   | "Rhea wrapped a stone in swaddling clothes and gave it to Cronus to swallow"; the hero is secretly spared via a substitute, as in Propp's B6
+L1-003 | I | 7 | ev 7 | 1.2.1 | F9 | Zeus | Metis |   | "he took Metis...to help him"; a helper joins the hero
+L1-003 | I | 8 | ev 8 | 1.2.1 | η2 | Metis | Cronus |   | "she gave Cronus a drug to swallow"; deception by magical means, here worked by a helper upon the villain rather than the reverse
+L1-003 | I | 9 | ev 9 | 1.2.1 | K | Cronus | the stone and the children |   | "forced him to disgorge first the stone and then the children whom he had swallowed"; liquidation of the swallowing (the villainy of L1-002); no exact Propp subtype for disgorging, so left bare
+L1-003 | I | 10 | ev 10 | 1.2.1 | C | Zeus | Cronus and the Titans |   | "with their aid Zeus waged the war against Cronus and the Titans"; the decision to counteract made open
+L1-003 | I | 11 | ev 11 | 1.2.1 | H1 | Zeus and the gods | Cronus and the Titans |   | "They fought for ten years"
+L1-003 | I | 12 | ev 12 | 1.2.1 | F2 | Earth | Zeus |   | "Earth prophesied victory to Zeus if he should have as allies those who had been hurled down to Tartarus"; the needed aid is pointed out
+L1-003 | I | 13 | ev 13 | 1.2.1 | I5 | Zeus | Campe |   | "he slew their jailoress Campe"; killed without a described fight
+L1-003 | I | 14 | ev 14 | 1.2.1 | K10 | Zeus | the Hundred-handers/Cyclopes |   | "loosed their bonds"; captives freed
+L1-003 | I | 15 | ev 15 | 1.2.1 | F1 | the Cyclopes | Zeus, Pluto, Poseidon |   | "the Cyclopes then gave Zeus thunder and lightning and a thunderbolt...on Pluto they bestowed a helmet and on Poseidon a trident"; direct gift of magical agents
+L1-003 | I | 16 | ev 16 | 1.2.1 | I1 | the gods | the Titans |   | "Armed with these weapons the gods overcame the Titans"
+L1-003 | I | 17 | ev 17 | 1.2.1 | U | the gods | the Titans |   | "shut them up in Tartarus, and appointed the Hundred-handers their guards"; punishment of the defeated
+L1-003 | I | 18 | ev 18 | 1.2.1 | W3 | the gods | Zeus, Poseidon, Pluto |   | "cast lots for the sovereignty, and to Zeus was allotted the dominion of the sky"; accession to rule
+L1-003 | I | 19 | ev 19 | 1.2.3 | I1 | Zeus | Menoetius | ? | "Zeus in the battle with the Titans smote with a thunderbolt"; flashback, an instance within the already-described battle, narrated out of chronological order
+L1-003 | I | 20 | ev 19 | 1.2.3 | U | Zeus | Menoetius | ? | "hurled down to Tartarus"; a second, distinct act in the same clause; flashback, see the entry above
+L1-003 | I | 21 | ev 20 | 1.2.5 | X | Zeus | Styx | ? | "Zeus caused oaths to be sworn by the water of Styx...bestowing this honor on her"; a reward/honor given by the hero to a helper; no corresponding Propp function
+
+L1-005 | I | 1 | ev 1 | 1.3.2 | A | the snake | Eurydice |   | "his wife Eurydice died, bitten by a snake"; opens the move
+L1-005 | I | 2 | ev 2 | 1.3.2 | ↑ | Orpheus | — |   | "he went down to Hades, being fain to bring her up"; departure on a quest
+L1-005 | I | 3 | ev 3 | 1.3.2 | X | Orpheus | Pluto | ? | "he persuaded Pluto to send her up"; a supplication to a hostile power; no exact Propp function, nearest is the request opening a donor sequence
+L1-005 | I | 4 | ev 4 | 1.3.2 | γ | Pluto | Orpheus |   | "if...Orpheus would not turn round until he should be come to his own house"; interdiction
+L1-005 | I | 5 | ev 5 | 1.3.2 | δ | Orpheus | — |   | "he disobeyed and turning round beheld his wife"; violation
+L1-005 | I | 6 | ev 6 | 1.3.2 | F− | Eurydice | Orpheus |   | "so she turned back"; the boon withdrawn after violation
+L1-005 | I | 7 | ev 7 | 1.3.2 | X | Orpheus | — | ? | "Orpheus also invented the mysteries of Dionysus"; unrelated to the Eurydice plot, no function
+L1-005 | II | 1 | ev 8 | 1.3.2 | A14 | the Maenads | Orpheus |   | "having been torn in pieces by the Maenads"; a new, unrelated act of villainy, opens move II
+
+L1-010 | I | 1 | ev 1 | 1.3.5 | A9 | Zeus | Hephaestus |   | "Him Zeus cast out of heaven"; opens the move (narrated first, though its cause follows as flashback)
+L1-010 | I | 2 | ev 2 | 1.3.5 | K10 | Hephaestus | Hera | ? | "he came to the rescue of Hera in her bonds"; flashback giving the cause of ev1; captive freed
+L1-010 | I | 3 | ev 3 | 1.3.5 | X | Hercules | — | ? | "Hercules had taken Troy and was at sea"; flashback, background to Hera's storm; no function
+L1-010 | I | 4 | ev 4 | 1.3.5 | A | Hera | Hercules |   | "Hera sent a storm after him"; flashback; villainy against a third party
+L1-010 | I | 5 | ev 5 | 1.3.5 | U | Zeus | Hera |   | "Zeus hung her from Olympus"; flashback; punishment
+L1-010 | I | 6 | ev 6 | 1.3.5 | A6 | — | Hephaestus |   | "Hephaestus fell on Lemnos and was lamed of his legs"; bodily injury following from ev1, resuming the forward narration after the flashback
+L1-010 | I | 7 | ev 7 | 1.3.5 | Rs | Thetis | Hephaestus |   | "Thetis saved him"
+
+L1-011 | I | 1 | ev 1 | 1.3.6 | X | Zeus | Metis | ? | "Zeus had intercourse with Metis"; no function
+L1-011 | I | 2 | ev 2 | 1.3.6 | X | Metis | — | ? | "who turned into many shapes in order to avoid his embraces"; the resisting party is not the hero of this transcription; nearest candidate Rs6
+L1-011 | I | 3 | ev 3 | 1.3.6 | X | Earth | — | ? | "Earth said that...Metis would bear a son who should be lord of heaven"; a prophecy, no function, as at L1-002 ev4
+L1-011 | I | 4 | ev 4 | 1.3.6 | A15 | Zeus | Metis |   | "Zeus swallowed her"; imprisonment/detention, opens the move
+L1-011 | I | 5 | ev 5 | 1.3.6 | X | Prometheus | Zeus | ? | "Prometheus...smote the head of Zeus with an axe"; the mechanical enabling act; nearest candidate K
+L1-011 | I | 6 | ev 6 | 1.3.6 | K10 | Athena | — |   | "Athena, fully armed, leaped up from the top of his head"; the one contained is freed
+
+L1-015 | I | 1 | ev 1 | 1.4.1 | F1 | Pan | Apollo |   | "Apollo learned the art of prophecy from Pan"; a capacity directly given
+L1-015 | I | 2 | ev 2 | 1.4.1 | G | Apollo | — |   | "he came to Delphi, where Themis at that time used to deliver oracles"; arrival at the place sought
+L1-015 | I | 3 | ev 3 | 1.4.1 | A | Python | Apollo |   | "the snake Python, which guarded the oracle, would have hindered him from approaching the chasm"; villainy, opens the move
+L1-015 | I | 4 | ev 4 | 1.4.1 | I1 | Apollo | Python |   | "he killed it"
+L1-015 | I | 5 | ev 5 | 1.4.1 | K4 | Apollo | — |   | "took over the oracle"; the goal obtained as the direct result of the preceding victory
+L1-015 | II | 1 | ev 6 | 1.4.1 | A | Zeus | Elare |   | "after he had debauched her"; villainy, opens move II
+L1-015 | II | 2 | ev 7 | 1.4.1 | X | Zeus | Elare | ? | "Zeus hid under the earth for fear of Hera"; concealment of the victim from a third party, not from the villain himself; nearest candidate Rs4
+L1-015 | II | 3 | ev 8 | 1.4.1 | X | Zeus | Tityus | ? | "brought forth to the light the son Tityus"; birth, no function
+L1-015 | II | 4 | ev 9 | 1.4.1 | G | Latona | — |   | "When Latona came to Pytho"
+L1-015 | III | 1 | ev 10 | 1.4.1 | A1 | Tityus | Latona |   | "Tityus beheld her, and overpowered by lust drew her to him"; new villainy, a fresh victim, opens move III
+L1-015 | III | 2 | ev 11 | 1.4.1 | B1 | Latona | Apollo and Artemis |   | "she called her children to her aid"
+L1-015 | III | 3 | ev 12 | 1.4.1 | I1 | Apollo and Artemis | Tityus |   | "they shot him down with their arrows"
+L1-015 | III | 4 | ev 13 | 1.4.1 | U | — | Tityus |   | "he is punished even after death; for vultures eat his heart in Hades"
+L1-015 | IV | 1 | ev 14 | 1.4.2 | X | Athena | — | ? | "Marsyas, having found the pipes which Athena had thrown away because they disfigured her face"; disposal act, no function; opens a new legend without a clear villainy or lack, see report
+L1-015 | IV | 2 | ev 15 | 1.4.2 | F5 | Marsyas | — |   | "having found the pipes"; the agent falls into the finder's hands by chance
+L1-015 | IV | 3 | ev 16 | 1.4.2 | H2 | Marsyas and Apollo | — |   | "engaged in a musical contest with Apollo"; a competition
+L1-015 | IV | 4 | ev 17 | 1.4.2 | X | Marsyas and Apollo | — | ? | "They agreed that the victor should work his will on the vanquished"; the terms of the wager; no function distinct from the contest itself
+L1-015 | IV | 5 | ev 18 | 1.4.2 | D1 | Apollo | Marsyas |   | "Apollo turned his lyre upside down...and bade Marsyas do the same"; the donor (here, the rival) sets a test
+L1-015 | IV | 6 | ev 19 | 1.4.2 | E− | Marsyas | — |   | "Marsyas could not"; the hero of this bout fails the test
+L1-015 | IV | 7 | ev 20 | 1.4.2 | I2 | Apollo | Marsyas |   | "Apollo was judged the victor"; defeated in a contest
+L1-015 | IV | 8 | ev 21 | 1.4.2 | U | Apollo | Marsyas |   | "despatched Marsyas by hanging him on a tall pine tree"; punishment
+L1-015 | IV | 9 | ev 21 | 1.4.2 | U | Apollo | Marsyas |   | "stripping off his skin"; a second, distinct punitive act in the same clause
+
+L1-016 | I | 1 | ev 1 | 1.4.3 | F1 | Poseidon | Orion |   | "Poseidon bestowed on him the power of striding across the sea"
+L1-016 | I | 2 | ev 2 | 1.4.3 | A15 | Hera | Side |   | "Hera cast into Hades because she rivalled herself in beauty"; villainy, opens the move
+L1-016 | I | 3 | ev 3 | 1.4.3 | ↑ | Orion | — |   | "he went to Chios"
+L1-016 | II | 1 | ev 4 | 1.4.3 | a1 | Orion | Merope |   | "wooed Merope, daughter of Oenopion"; lack of a bride pursued; opens move II
+L1-016 | II | 2 | ev 5 | 1.4.3 | η2 | Oenopion | Orion |   | "Oenopion made him drunk"; deception by direct means
+L1-016 | II | 3 | ev 6 | 1.4.3 | A6 | Oenopion | Orion |   | "put out his eyes as he slept"
+L1-016 | II | 4 | ev 7 | 1.4.3 | A9 | Oenopion | Orion |   | "cast him on the beach"
+L1-016 | II | 5 | ev 8 | 1.4.3 | ↑ | Orion | — |   | "he went to the smithy of Hephaestus"
+L1-016 | II | 6 | ev 9 | 1.4.3 | F8 | Orion | the lad |   | "snatching up a lad set him on his shoulders and bade him lead him"; a helper seized rather than freely given
+L1-016 | II | 7 | ev 10 | 1.4.3 | K | the sun | Orion |   | "he was healed by the sun's rays, and having recovered his sight"; liquidation of the blinding
+L1-016 | II | 8 | ev 11 | 1.4.3 | C | Orion | Oenopion |   | "hastened with all speed against Oenopion"
+L1-016 | II | 9 | ev 12 | 1.4.4 | Rs | Poseidon | Oenopion |   | "for him Poseidon had made ready a house under the earth"; Oenopion sheltered from Orion's approach
+L1-016 | III | 1 | ev 13 | 1.4.4 | X | Dawn | Orion | ? | "Dawn fell in love with Orion"; no function
+L1-016 | III | 2 | ev 14 | 1.4.4 | A1 | Dawn | Orion |   | "carried him off and brought him to Delos"; abduction, opens move III
+L1-016 | III | 3 | ev 15 | 1.4.4 | X | Aphrodite | Dawn | ? | "Aphrodite caused Dawn to be perpetually in love"; etiological aside, no function
+L1-016 | III | 4 | ev 16 | 1.4.4 | X | Dawn | Ares | ? | "because she had bedded with Ares"; flashback, further backstory, no function
+L1-016 | IV | 1 | ev 17 | 1.4.5 | H2 | Orion | Artemis |   | "Orion was killed, as some say, for challenging Artemis to a match at quoits"; a match/competition, opens move IV without a stated villainy, see report
+L1-016 | IV | 2 | ev 18 | 1.4.5 | I− | Artemis | Orion |   | "Orion was killed"; the hero of this episode loses
+
+L1-019 | I | 1 | ev 1 | 1.5.1 | ↑ | Demeter | — |   | "Demeter went about seeking her all over the earth with torches by night and day"
+L1-019 | I | 2 | ev 2 | 1.5.1 | B4 | the people of Hermion | Demeter |   | "learning from the people of Hermion that Pluto had carried her off"; misfortune announced, in inverted order after the departure, as Propp notes such inversions occur
+L1-019 | I | 3 | ev 3 | 1.5.1 | β | Demeter | — |   | "she was wroth with the gods and quitted heaven"
+L1-019 | I | 4 | ev 4 | 1.5.1 | G | Demeter | — |   | "came in the likeness of a woman to Eleusis"
+L1-019 | I | 5 | ev 5 | 1.5.1 | X | Demeter | — | ? | "she sat down on the rock...beside...the Well of the Fair Dances"; no function
+L1-019 | I | 6 | ev 6 | 1.5.1 | G | Demeter | — |   | "she made her way to Celeus, who at that time reigned over the Eleusinians"
+L1-019 | I | 7 | ev 7 | 1.5.1 | X | the women | Demeter | ? | "they bade her sit down beside them"; hospitality, no function
+L1-019 | I | 8 | ev 8 | 1.5.1 | D7 | Iambe | Demeter | ? | "Iambe joked the goddess and made her smile"; a friendly act by a host-figure, no test described; uncertain fit
+L1-019 | I | 9 | ev 9 | 1.5.1 | X | Demeter | the child of Metanira | ? | "Demeter received it to nurse"; no function
+L1-019 | I | 10 | ev 10 | 1.5.1 | T1 | Demeter | Demophon |   | "wishing to make it immortal she set the babe of nights on the fire and stripped off its mortal flesh"; an attempted magical transfiguration
+L1-019 | I | 11 | ev 11 | 1.5.1 | X | Demophon | — | ? | "grew marvelously by day"; consequence of the attempted rite, no separate function
+L1-019 | I | 12 | ev 12 | 1.5.1 | X | Praxithea | Demophon | ? | "Praxithea watched, and discovering him buried in the fire she cried out"; no stated interdiction was violated; nearest candidate δ
+L1-019 | I | 13 | ev 13 | 1.5.1 | X | — | Demophon | ? | "the babe was consumed by the fire"; the rite's failure; no exact function, nearest T
+L1-019 | I | 14 | ev 14 | 1.5.1 | Q | Demeter | Praxithea and the household |   | "the goddess revealed herself"; recognition, here self-disclosed
+L1-019 | I | 15 | ev 15 | 1.5.2 | F1 | Demeter | Triptolemus |   | "she made a chariot of winged dragons, and gave him wheat"
+L1-019 | I | 16 | ev 16 | 1.5.2 | G1 | Triptolemus | — |   | "wafted through the sky"; the hero flies
+L1-019 | I | 17 | ev 16 | 1.5.2 | K6 | Triptolemus | — |   | "he sowed the whole inhabited earth"; a second act in the same clause, want overcome by a magical agent
+L1-019 | I | 18 | ev 17 | 1.5.3 | B2 | Zeus | Pluto |   | "Zeus ordered Pluto to send up the Maid"
+L1-019 | I | 19 | ev 18 | 1.5.3 | η3 | Pluto | Persephone |   | "Pluto gave her a seed of a pomegranate to eat, in order that she might not tarry long with her mother"
+L1-019 | I | 20 | ev 19 | 1.5.3 | θ | Persephone | — |   | "Not foreseeing the consequence, she swallowed it"
+L1-019 | I | 21 | ev 20 | 1.5.3 | ζ | Ascalaphus | Persephone |   | "Ascalaphus...bore witness against her"
+L1-019 | I | 22 | ev 21 | 1.5.3 | U | Demeter | Ascalaphus |   | "Demeter laid a heavy rock on him in Hades"
+L1-019 | I | 23 | ev 22 | 1.5.3 | K | — | Persephone |   | "Persephone was compelled to remain a third of every year with Pluto and the rest of the time with the gods"; a partial/compromise liquidation of the original lack
+
+L1-020 | I | 1 | ev 1 | 1.6.1 | X | Earth | the giants | ? | "Earth...brought forth the giants, whom she had by Sky"; birth, no function
+L1-020 | I | 2 | ev 2 | 1.6.1 | A19 | the giants | the sky/gods |   | "they darted rocks and burning oaks at the sky"; opens the move
+L1-020 | I | 3 | ev 3 | 1.6.1 | A3 | Alcyoneus | the Sun |   | "drove away the cows of the Sun from Erythia"
+L1-020 | I | 4 | ev 4 | 1.6.1 | X | Earth | — | ? | "Earth sought for a simple to prevent the giants from being destroyed even by a mortal"; the villains' own counter-preparation; no function
+L1-020 | I | 5 | ev 5 | 1.6.1 | X | Zeus | Dawn, Moon, Sun | ? | "Zeus forbade the Dawn and the Moon and the Sun to shine"; a tactical act, no clear function
+L1-020 | I | 6 | ev 6 | 1.6.1 | F5 | Zeus | — |   | "before anybody else could get it, he culled the simple himself"
+L1-020 | I | 7 | ev 7 | 1.6.1 | B1 | Zeus (by Athena) | Hercules |   | "by means of Athena summoned Hercules to his help"
+L1-020 | I | 8 | ev 8 | 1.6.1 | H1 | Hercules | Alcyoneus |   | "Hercules first shot Alcyoneus with an arrow"
+L1-020 | I | 9 | ev 9 | 1.6.1 | I− | Hercules | Alcyoneus |   | "when the giant fell on the ground he somewhat revived"; the blow does not secure victory
+L1-020 | I | 10 | ev 10 | 1.6.1 | F2 | Athena | Hercules |   | "at Athena's advice"; the solution pointed out
+L1-020 | I | 11 | ev 10 | 1.6.1 | H1 | Hercules | Alcyoneus |   | "Hercules dragged him outside Pallene"; a second act in the same clause, continuing the struggle
+L1-020 | I | 12 | ev 11 | 1.6.1 | I1 | Hercules | Alcyoneus |   | "so the giant died"
+L1-020 | I | 13 | ev 12 | 1.6.2 | H1 | Porphyrion | Hercules and Hera |   | "Porphyrion attacked Hercules and Hera"
+L1-020 | I | 14 | ev 13 | 1.6.2 | X | Zeus | Porphyrion | ? | "Zeus inspired him with lust for Hera"; a third party's manipulation of the villain; nearest candidate η
+L1-020 | I | 15 | ev 14 | 1.6.2 | A16 | Porphyrion | Hera |   | "he tore her robes and would have forced her"
+L1-020 | I | 16 | ev 15 | 1.6.2 | B1 | Hera | Zeus and Hercules |   | "she called for help"
+L1-020 | I | 17 | ev 16 | 1.6.2 | I1 | Zeus | Porphyrion |   | "Zeus smote him with a thunderbolt"
+L1-020 | I | 18 | ev 17 | 1.6.2 | I1 | Hercules | Porphyrion |   | "Hercules shot him dead with an arrow"
+L1-020 | I | 19 | ev 18 | 1.6.2 | I1 | Apollo and Hercules | Ephialtes |   | "Ephialtes was shot by Apollo...in his left eye and by Hercules in his right"
+L1-020 | I | 20 | ev 19 | 1.6.2 | I5 | Dionysus | Eurytus |   | "Eurytus was killed by Dionysus with a thyrsus"
+L1-020 | I | 21 | ev 20 | 1.6.2 | I5 | Hecate | Clytius |   | "Clytius by Hecate with torches"
+L1-020 | I | 22 | ev 21 | 1.6.2 | I5 | Hephaestus | Mimas |   | "Mimas by Hephaestus with missiles of red-hot metal"
+L1-020 | I | 23 | ev 22 | 1.6.2 | I− | Enceladus | — |   | "Enceladus fled"; the giant-hero's side loses this bout
+L1-020 | I | 24 | ev 23 | 1.6.2 | I1 | Athena | Enceladus |   | "Athena threw on him in his flight the island of Sicily"
+L1-020 | I | 25 | ev 24 | 1.6.2 | I5 | Athena | Pallas |   | "she flayed Pallas"
+L1-020 | I | 26 | ev 24 | 1.6.2 | X | Athena | — | ? | "used his skin to shield her own body in the fight"; trophy-use, no clear function
+L1-020 | I | 27 | ev 25 | 1.6.2 | Pr1 | Poseidon | Polybotes |   | "Polybotes was chased through the sea by Poseidon...to Cos"
+L1-020 | I | 28 | ev 26 | 1.6.2 | I1 | Poseidon | Polybotes |   | "breaking off that piece of the island which is called Nisyrum, threw it on him"
+L1-020 | I | 29 | ev 27 | 1.6.2 | I5 | Hermes | Hippolytus |   | "Hermes, wearing the helmet of Hades, slew Hippolytus"
+L1-020 | I | 30 | ev 28 | 1.6.2 | I5 | Artemis | Gration |   | "Artemis slew Gration"
+L1-020 | I | 31 | ev 29 | 1.6.2 | I5 | the Fates | Agrius and Thoas |   | "the Fates, fighting with brazen clubs, killed Agrius and Thoas"
+L1-020 | I | 32 | ev 30 | 1.6.2 | I1 | Zeus | the other giants |   | "the other giants Zeus smote and destroyed with thunderbolts"
+L1-020 | I | 33 | ev 31 | 1.6.2 | U | Hercules | the giants |   | "all of them Hercules shot with arrows as they were dying"; a finishing/punitive act after defeat
+
+L1-021 | I | 1 | ev 1 | 1.6.3 | X | Earth | Typhon | ? | "Earth...brought forth Typhon in Cilicia"; birth, no function
+L1-021 | I | 2 | ev 2 | 1.6.3 | A19 | Typhon | the gods |   | "hurling kindled rocks, he made for the very heaven with hissings and shouts"; opens the move
+L1-021 | I | 3 | ev 3 | 1.6.3 | X | the gods | — | ? | "the gods...made for Egypt in flight"; preemptive flight, not yet an escape from an established pursuit; no clean fit
+L1-021 | I | 4 | ev 4 | 1.6.3 | Pr1 | Typhon | the gods |   | "being pursued"; first act in the clause
+L1-021 | I | 5 | ev 4 | 1.6.3 | Rs6 | the gods | — |   | "they changed their forms into those of animals"; second act, rescue by rapid transformation
+L1-021 | I | 6 | ev 5 | 1.6.3 | H1 | Zeus | Typhon |   | "Zeus pelted Typhon at a distance with thunderbolts"
+L1-021 | I | 7 | ev 6 | 1.6.3 | I1 | Zeus | Typhon |   | "at close quarters struck him down with an adamantine sickle"
+L1-021 | I | 8 | ev 7 | 1.6.3 | Pr1 | Zeus | Typhon |   | "Typhon flees and Zeus pursues him closely as far as Mount Casius"; hero of this transcription (Typhon) undergoes pursuit
+L1-021 | I | 9 | ev 8 | 1.6.3 | H1 | Zeus | Typhon |   | "seeing the monster sore wounded, he grappled with him"
+L1-021 | I | 10 | ev 9 | 1.6.3 | H1 | Typhon | Zeus |   | "Typhon twined about him and gripped him in his coils"
+L1-021 | I | 11 | ev 10 | 1.6.3 | I1 | Typhon | Zeus |   | "wresting the sickle from him severed the sinews of his hands and feet"; Typhon (hero) wins this bout
+L1-021 | II | 1 | ev 11 | 1.6.3 | A15 | Typhon | Zeus |   | "lifting him on his shoulders carried him through the sea to Cilicia and deposited him...in the Corycian cave"; new villainy, opens move II
+L1-021 | II | 2 | ev 12 | 1.6.3 | X | Typhon | — | ? | "he put away the sinews there also, hidden in a bearskin"; concealment of the seized power, no exact function
+L1-021 | II | 3 | ev 13 | 1.6.3 | X | Typhon | — | ? | "he set to guard them the she-dragon Delphyne"; a guardian set over the prize, no exact function
+L1-021 | III | 1 | ev 14 | 1.6.3 | A2 | Hermes and Aegipan | Typhon |   | "Hermes and Aegipan stole the sinews and fitted them unobserved to Zeus"; new villainy against the fixed hero Typhon, opens move III
+L1-021 | III | 2 | ev 15 | 1.6.3 | H1 | Zeus | Typhon |   | "having recovered his strength Zeus...pelted Typhon with thunderbolts"
+L1-021 | III | 3 | ev 16 | 1.6.3 | Pr1 | Zeus | Typhon |   | "pursued him to the mountain called Nysa"
+L1-021 | III | 4 | ev 17 | 1.6.3 | η3 | the Fates | Typhon |   | "the Fates beguiled the fugitive"
+L1-021 | III | 5 | ev 18 | 1.6.3 | θ | Typhon | — |   | "he tasted of the ephemeral fruits in the persuasion that he would be strengthened thereby"
+L1-021 | III | 6 | ev 19 | 1.6.3 | Pr1 | Zeus | Typhon | ? | "being again pursued he came to Thrace"; pursuer not restated in this clause
+L1-021 | III | 7 | ev 20 | 1.6.3 | H1 | Typhon | Zeus |   | "fighting at Mount Haemus he heaved whole mountains"
+L1-021 | III | 8 | ev 21 | 1.6.3 | I1 | Zeus | Typhon |   | "these recoiled on him through the force of the thunderbolt"
+L1-021 | III | 9 | ev 22 | 1.6.3 | X | — | — | ? | "a stream of blood gushed out on the mountain"; etiological aside, no function
+L1-021 | III | 10 | ev 23 | 1.6.3 | X | Typhon | — | ? | "he started to flee through the Sicilian sea"; continued flight, no pursuer restated; nearest candidate Pr
+L1-021 | III | 11 | ev 24 | 1.6.3 | U | Zeus | Typhon |   | "Zeus cast Mount Etna in Sicily upon him"; final, permanent punishment
+
+L1-022 | I | 1 | ev 1 | 1.7.1 | X | Prometheus | — | ? | "Prometheus moulded men out of water and earth"; no function
+L1-022 | I | 2 | ev 2 | 1.7.1 | F1 | Prometheus | men |   | "gave them also fire"
+L1-022 | I | 3 | ev 3 | 1.7.1 | η3 | Prometheus | Zeus | ? | "which, unknown to Zeus, he had hidden in a stalk of fennel"; flashback, deception of the eventual villain
+L1-022 | I | 4 | ev 4 | 1.7.1 | ζ | — | Zeus | ? | "when Zeus learned of it"; delivery, the fact reaches the villain; agent of discovery unspecified
+L1-022 | I | 5 | ev 5 | 1.7.1 | A13 | Zeus | Prometheus |   | "he ordered Hephaestus to nail his body to Mount Caucasus"; opens the move
+L1-022 | I | 6 | ev 6 | 1.7.1 | A15 | Hephaestus | Prometheus |   | "Prometheus was nailed there and kept bound for many years"
+L1-022 | I | 7 | ev 7 | 1.7.1 | A6 | the eagle | Prometheus |   | "an eagle swooped on him and devoured the lobes of his liver, which grew by night"
+L1-022 | I | 8 | ev 8 | 1.7.1 | K10 | Hercules | Prometheus |   | "Hercules afterwards released him"
+
+L1-023 | I | 1 | ev 1 | 1.7.2 | D2 | Prometheus | Deucalion |   | "on Prometheus's advice"; donor's counsel
+L1-023 | I | 2 | ev 1 | 1.7.2 | F3 | Deucalion | — |   | "Deucalion...constructed a chest"; a second act in the same clause, the agent prepared
+L1-023 | I | 3 | ev 2 | 1.7.2 | X | Deucalion | — | ? | "having stored it with provisions he embarked in it with Pyrrha"; preparation, no separate function
+L1-023 | I | 4 | ev 3 | 1.7.2 | A | Zeus | Greece/mankind |   | "Zeus by pouring heavy rain from heaven flooded the greater part of Greece"; opens the move; no exact Propp subtype for a flood, left bare
+L1-023 | I | 5 | ev 4 | 1.7.2 | Rs4 | the survivors | — |   | "all men were destroyed, except a few who fled to the high mountains"
+L1-023 | I | 6 | ev 5 | 1.7.2 | X | — | — | ? | "the mountains in Thessaly parted, and...all the world...was overwhelmed"; continuing description of the disaster, no distinct performer
+L1-023 | I | 7 | ev 6 | 1.7.2 | G2 | Deucalion | — |   | "floating in the chest over the sea for nine days...drifted to Parnassus"
+L1-023 | I | 8 | ev 7 | 1.7.2 | X | Deucalion | — | ? | "when the rain ceased, he landed"; completion of the same travel, no new function
+L1-023 | I | 9 | ev 8 | 1.7.2 | E7 | Deucalion | Zeus |   | "sacrificed to Zeus, the god of Escape"
+L1-023 | I | 10 | ev 9 | 1.7.2 | D2 | Zeus | Deucalion |   | "Zeus sent Hermes to him and allowed him to choose what he would"
+L1-023 | I | 11 | ev 10 | 1.7.2 | E | Deucalion | — |   | "he chose to get men"
+L1-023 | I | 12 | ev 11 | 1.7.2 | X | Deucalion | — | ? | "at the bidding of Zeus he took up stones and threw them over his head"; instrumental act, no separate function
+L1-023 | I | 13 | ev 12 | 1.7.2 | K | — | — |   | "the stones which Deucalion threw became men, and the stones which Pyrrha threw became women"; liquidation of mankind's near-destruction
+
+L1-027 | I | 1 | ev 1 | 1.7.4 | X | the Aloads | — | ? | "grew every year a cubit in breadth and a fathom in height"; no function
+L1-027 | I | 2 | ev 2 | 1.7.4 | A19 | the Aloads | the gods |   | "resolved to fight against the gods, and they set Ossa on Olympus...Pelion on Ossa"; opens the move
+L1-027 | I | 3 | ev 3 | 1.7.4 | X | the Aloads | — | ? | "they threatened...to ascend up to heaven...and the land they would make sea"; a threat not carried out; not among Propp's listed exception-forms
+L1-027 | I | 4 | ev 4 | 1.7.4 | A16 | Ephialtes | Hera |   | "Ephialtes wooed Hera"
+L1-027 | I | 5 | ev 5 | 1.7.4 | A16 | Otus | Artemis |   | "Otus wooed Artemis"
+L1-027 | I | 6 | ev 6 | 1.7.4 | A15 | the Aloads | Ares |   | "they put Ares in bonds"
+L1-027 | I | 7 | ev 7 | 1.7.4 | K10 | Hermes | Ares |   | "Hermes rescued Ares by stealth"
+L1-027 | I | 8 | ev 8 | 1.7.4 | η3 | Artemis | the Aloads |   | "she changed herself into a deer and leaped between them"
+L1-027 | I | 9 | ev 9 | 1.7.4 | θ | the Aloads | each other |   | "in their eagerness to hit the quarry they threw their darts at each other"
+L1-027 | I | 10 | ev 9 | 1.7.4 | I− | — | the Aloads |   | "and so are killed"; a second act in the same clause, the hero-figures' fatal defeat
+
+L1-031 | I | 1 | ev 1 | 1.7.8 | A1 | Idas | Marpessa |   | "carried her off in a winged chariot"; opens the move
+L1-031 | I | 2 | ev 2 | 1.7.8 | F1 | Poseidon | Idas | ? | "which he received from Poseidon"; flashback, the prior gift enabling the abduction
+L1-031 | I | 3 | ev 3 | 1.7.8 | Pr2 | Evenus | Idas |   | "Pursuing him in a chariot, Evenus came to the river Lycormas"
+L1-031 | I | 4 | ev 4 | 1.7.8 | X | Evenus | — | ? | "when he could not catch him he slaughtered his horses"; tangential to Idas's own fortunes, no function
+L1-031 | I | 5 | ev 5 | 1.7.8 | X | Evenus | — | ? | "threw himself into the river"; tangential, no function
+L1-031 | I | 6 | ev 6 | 1.7.9 | G | Idas | — |   | "Idas came to Messene"
+L1-031 | II | 1 | ev 7 | 1.7.9 | A1 | Apollo | Idas |   | "Apollo, falling in with him, would have robbed him of the damsel"; a new attempted seizure by a second party, opens move II
+L1-031 | II | 2 | ev 8 | 1.7.9 | H1 | Idas and Apollo | — |   | "As they fought for the girl's hand"
+L1-031 | II | 3 | ev 9 | 1.7.9 | X | Zeus | Idas and Apollo | ? | "Zeus parted them and allowed the maiden herself to choose"; the combat is interrupted and replaced by arbitration; no clean function
+L1-031 | II | 4 | ev 10 | 1.7.9 | W2 | Marpessa | Idas |   | "she...chose Idas for her husband"
+
+L1-034 | I | 1 | ev 1 | 1.8.2 | X | the Fates | Meleager | ? | "the Fates came and declared that Meleager should die when the brand burning on the hearth was burnt out"; a fated condition, no clean function
+L1-034 | I | 2 | ev 2 | 1.8.2 | Rs4 | Althaea | — |   | "Althaea snatched up the brand and deposited it in a chest"; protective concealment
+L1-034 | I | 3 | ev 3 | 1.8.2 | X | Meleager | — | ? | "grew up to be an invulnerable and gallant man"; no function
+L1-034 | I | 4 | ev 4 | 1.8.2 | δ | Oeneus | — |   | "In sacrificing the first fruits...to all the gods Oeneus forgot Artemis alone"; violation of an implicit due
+L1-034 | I | 5 | ev 5 | 1.8.2 | A3 | Artemis | Oeneus |   | "she in her wrath sent a boar of extraordinary size and strength"; opens the move proper
+L1-034 | I | 6 | ev 6 | 1.8.2 | A3 | the boar | the land and people |   | "which prevented the land from being sown and destroyed the cattle and the people"
+L1-034 | I | 7 | ev 7 | 1.8.2 | B1 | Oeneus | the noblest men of Greece |   | "called together all the noblest men of Greece, and promised...he would give the skin as a prize"
+L1-034 | I | 8 | ev 8 | 1.8.2 | X | Oeneus | the hunters | ? | "entertained them for nine days"; hospitality, no function
+L1-034 | I | 9 | ev 9 | 1.8.2 | X | Cepheus, Ancaeus, others | — | ? | "disdained to go hunting with a woman"; a trait/refusal, no clean function
+L1-034 | I | 10 | ev 10 | 1.8.2 | C | Meleager | Cepheus, Ancaeus, others |   | "Meleager compelled them to follow the chase with her"
+L1-034 | I | 11 | ev 11 | 1.8.2 | X | the hunters | the boar | ? | "When they surrounded the boar"; positioning, no function
+L1-034 | I | 12 | ev 12 | 1.8.2 | A14 | the boar | Hyleus and Ancaeus |   | "Hyleus and Ancaeus were killed by the brute"
+L1-034 | I | 13 | ev 13 | 1.8.2 | X | Peleus | Eurytion | ? | "Peleus struck down Eurytion undesignedly with a javelin"; an accident among the hunters, no function relative to the boar-hunt's structure
+L1-034 | I | 14 | ev 14 | 1.8.2 | H1 | Atalanta | the boar |   | "Atalanta was the first to shoot the boar in the back with an arrow"
+L1-034 | I | 15 | ev 15 | 1.8.2 | H1 | Amphiaraus | the boar |   | "Amphiaraus was the next to shoot it in the eye"
+L1-034 | I | 16 | ev 16 | 1.8.2 | I1 | Meleager | the boar |   | "Meleager killed it by a stab in the flank"
+L1-034 | I | 17 | ev 17 | 1.8.2 | K | Meleager | — |   | "on receiving the skin"; the prize obtained
+L1-034 | I | 18 | ev 17 | 1.8.2 | F1 | Meleager | Atalanta |   | "gave it to Atalanta"; a second act, the prize passed on
+L1-034 | II | 1 | ev 18 | 1.8.2 | A2 | the sons of Thestius | Atalanta |   | "the sons of Thestius...took the skin from her"; new villainy, opens move II
+L1-034 | II | 2 | ev 19 | 1.8.3 | I1 | Meleager | the sons of Thestius |   | "Meleager in a rage slew the sons of Thestius"
+L1-034 | II | 3 | ev 20 | 1.8.3 | K | Meleager | Atalanta |   | "gave the skin to Atalanta"; the prize restored
+L1-034 | III | 1 | ev 21 | 1.8.3 | A14 | Althaea | Meleager |   | "from grief at the slaughter of her brothers Althaea kindled the brand"; new villainy, opens move III
+L1-034 | III | 2 | ev 22 | 1.8.3 | I− | — | Meleager |   | "Meleager immediately expired"; the hero's final defeat
+L1-034 | III | 3 | ev 23 | 1.8.3 | U | Althaea and Cleopatra | — | ? | "Althaea and Cleopatra hanged themselves"; suicide is a listed form of punishment for a villain (Althaea); Cleopatra's part in the same clause has no clean function of its own
+L1-034 | III | 4 | ev 24 | 1.8.3 | T | — | the mourning women |   | "the women who mourned the dead man were turned into birds"
+
+L1-040 | I | 1 | ev 1 | 1.8.5 | X | Tydeus | — | ? | "grown to be a gallant man"; no function
+L1-040 | I | 2 | ev 2 | 1.8.5 | A9 | — | Tydeus |   | "he was banished"; opens the move; performer not named in this clause
+L1-040 | I | 3 | ev 3 | 1.8.5 | A14 | Tydeus | Alcathous | ? | "for killing...Alcathous, brother of Oeneus"; flashback, the cause of ev2, narrated after it
+L1-040 | I | 4 | ev 4 | 1.8.5 | Ex | Agrius | Tydeus |   | "Being arraigned by Agrius"
+L1-040 | I | 5 | ev 5 | 1.8.5 | G | Tydeus | — |   | "he fled to Argos and came to Adrastus"
+L1-040 | I | 6 | ev 6 | 1.8.5 | ↑ | Tydeus | — |   | "Tydeus marched against Thebes with Adrastus"
+L1-040 | I | 7 | ev 7 | 1.8.5 | I− | Melanippus | Tydeus |   | "died of a wound which he received at the hand of Melanippus"
+
+L1-044 | I | 1 | ev 1 | 1.8.6 | ↑ | Diomedes | — |   | "Diomedes afterwards came secretly with Alcmaeon from Argos"
+L1-044 | I | 2 | ev 2 | 1.8.6 | I1 | Diomedes | the sons of Agrius |   | "put to death all the sons of Agrius, except Onchestus and Thersites"
+L1-044 | I | 3 | ev 3 | 1.8.6 | X | Onchestus and Thersites | — | ? | "who had fled betimes to Peloponnese"; flashback, explains their survival, no function
+L1-044 | I | 4 | ev 4 | 1.8.6 | W3 | Diomedes | Andraemon |   | "as Oeneus was old, Diomedes gave the kingdom to Andraemon"
+L1-044 | I | 5 | ev 5 | 1.8.6 | Rs | Diomedes | Oeneus |   | "Oeneus himself he took with him to Peloponnese"
+L1-044 | II | 1 | ev 6 | 1.8.6 | A14 | Onchestus and Thersites | Oeneus |   | "the sons of Agrius...lay in wait for the old man at the hearth of Telephus in Arcadia, and killed him"; new villainy, opens move II
+L1-044 | II | 2 | ev 7 | 1.8.6 | X | Diomedes | — | ? | "conveyed the corpse to Argos and buried him"; funerary act, no function
+L1-044 | II | 3 | ev 8 | 1.8.6 | ↑ | Diomedes | — |   | "he went to the wars against Thebes and Troy"
+
+L1-045 | I | 1 | ev 1 | 1.9.1 | A | Ino | Phrixus and Helle |   | "Ino plotted against the children of Nephele"; opens the move
+L1-045 | I | 2 | ev 2 | 1.9.1 | η3 | Ino | the women |   | "persuaded the women to parch the wheat"
+L1-045 | I | 3 | ev 3 | 1.9.1 | θ | the women | — |   | "having got the wheat they did so without the knowledge of the men"
+L1-045 | I | 4 | ev 4 | 1.9.1 | A3 | — | the land |   | "the earth, being sown with parched wheat, did not yield its annual crops"
+L1-045 | I | 5 | ev 5 | 1.9.1 | C | Athamas | — |   | "Athamas sent to Delphi to inquire"
+L1-045 | I | 6 | ev 6 | 1.9.1 | η3 | Ino | the messengers |   | "Ino persuaded the messengers to say it was foretold that the infertility would cease if Phrixus were sacrificed"
+L1-045 | I | 7 | ev 7 | 1.9.1 | A13 | Athamas (compelled) | Phrixus |   | "forced by the inhabitants of the land to bring Phrixus to the altar"
+L1-045 | I | 8 | ev 8 | 1.9.1 | Rs1 | Nephele | Phrixus and Helle |   | "Nephele caught him and her daughter up"
+L1-045 | I | 9 | ev 8 | 1.9.1 | F1 | Nephele | Phrixus and Helle |   | "gave them a ram with a golden fleece"; a second act in the same clause
+L1-045 | I | 10 | ev 9 | 1.9.1 | F1 | Hermes | Nephele | ? | "which she had received from Hermes"; flashback, the prior gift enabling ev8
+L1-045 | I | 11 | ev 10 | 1.9.1 | G1 | — | Phrixus and Helle |   | "borne through the sky by the ram they crossed land and sea"
+L1-045 | I | 12 | ev 11 | 1.9.1 | X | — | Helle | ? | "Helle slipped into the deep and was drowned"; no personal villain acts here; an accident
+L1-045 | I | 13 | ev 12 | 1.9.1 | G | Phrixus | — |   | "Phrixus came to the Colchians, whose king was Aeetes"
+L1-045 | I | 14 | ev 13 | 1.9.1 | W2 | Aeetes | Phrixus |   | "He received Phrixus and gave him one of his daughters, Chalciope"
+L1-045 | I | 15 | ev 14 | 1.9.1 | E7 | Phrixus | Zeus |   | "Phrixus sacrificed the ram...to Zeus the god of Escape"
+L1-045 | I | 16 | ev 15 | 1.9.1 | F1 | Phrixus | Aeetes |   | "the fleece he gave to Aeetes"
+L1-045 | I | 17 | ev 16 | 1.9.1 | X | Aeetes | — | ? | "who nailed it to an oak in a grove of Ares"; storage/disposal, no function within this episode
+
+L1-046 | I | 1 | ev 1 | 1.9.2 | A11 | Hera | Athamas |   | "Athamas was bereft also of the children of Ino through the wrath of Hera; for he went mad"; opens the move, the villain casts a spell
+L1-046 | I | 2 | ev 2 | 1.9.2 | A14 | Athamas | Learchus |   | "shot Learchus with an arrow"
+L1-046 | I | 3 | ev 3 | 1.9.2 | X | Ino | herself and Melicertes | ? | "Ino cast herself and Melicertes into the sea"; tragic, no clear villain or function
+L1-046 | I | 4 | ev 4 | 1.9.2 | A9 | — | Athamas |   | "Being banished from Boeotia"; performer not named in this clause
+L1-046 | I | 5 | ev 5 | 1.9.2 | C | Athamas | — |   | "Athamas inquired of the god where he should dwell"
+L1-046 | I | 6 | ev 6 | 1.9.2 | M | the god | Athamas |   | "on receiving an oracle that he should dwell in whatever place he should be entertained by wild beasts"; a condition set as a task
+L1-046 | I | 7 | ev 7 | 1.9.2 | G | Athamas | — |   | "he traversed a great extent of country"
+L1-046 | I | 8 | ev 8 | 1.9.2 | X | Athamas | the wolves | ? | "he fell in with wolves that were devouring pieces of sheep"; encounter, no function
+L1-046 | I | 9 | ev 9 | 1.9.2 | N | the wolves | — |   | "when they saw him they abandoned their prey and fled"; the sign of the task fulfilled
+L1-046 | I | 10 | ev 10 | 1.9.2 | K | Athamas | — |   | "Athamas settled in that country"; the lack of a home resolved
+
+L1-053 | I | 1 | ev 1 | 1.9.7 | G | Salmoneus | — |   | "he came to Elis and there founded a city"
+L1-053 | I | 2 | ev 2 | 1.9.7 | L | Salmoneus | — |   | "he said that he was himself Zeus"; unfounded claim, opens the move
+L1-053 | I | 3 | ev 3 | 1.9.7 | A5 | Salmoneus | — |   | "he took away the sacrifices of the god and ordered them to be offered to himself"
+L1-053 | I | 4 | ev 4 | 1.9.7 | η3 | Salmoneus | — |   | "by dragging dried hides, with bronze kettles, at his chariot, he said that he thundered"
+L1-053 | I | 5 | ev 5 | 1.9.7 | η3 | Salmoneus | — |   | "by flinging lighted torches at the sky he said that he lightened"
+L1-053 | I | 6 | ev 6 | 1.9.7 | U | Zeus | Salmoneus |   | "Zeus struck him with a thunderbolt"
+L1-053 | I | 7 | ev 7 | 1.9.7 | U | Zeus | the city and its inhabitants |   | "wiped out the city he had founded with all its inhabitants"
+
+L1-054 | I | 1 | ev 1 | 1.9.8 | X | Cretheus | Tyro | ? | "Tyro...was brought up by Cretheus, brother of Salmoneus"; no function
+L1-054 | I | 2 | ev 2 | 1.9.8 | X | Tyro | the river Enipeus | ? | "conceived a passion for the river Enipeus"; no function
+L1-054 | I | 3 | ev 3 | 1.9.8 | X | Tyro | — | ? | "often would she hie to its running waters and utter her plaint to them"; no function
+L1-054 | I | 4 | ev 4 | 1.9.8 | A | Poseidon | Tyro |   | "Poseidon in the likeness of Enipeus lay with her"; villainy by impersonation/deception, opens the move
+L1-054 | I | 5 | ev 5 | 1.9.8 | X | Tyro | — | ? | "she secretly gave birth to twin sons"; birth, no function
+L1-054 | II | 1 | ev 6 | 1.9.8 | A9 | Tyro | the twins |   | "whom she exposed"; new villainy, a fresh act against a fresh pair of victims, opens move II
+
+L1-055 | I | 1 | ev 1 | 1.9.8 | J1 | a mare | one infant |   | "a mare...kicked with its hoof one of the two infants and left a livid mark on its face"
+L1-055 | I | 2 | ev 2 | 1.9.8 | Rs | the horsekeeper | the twins |   | "The horsekeeper took up both the children and reared them"
+L1-055 | I | 3 | ev 3 | 1.9.8 | Q | Pelias and Neleus | Tyro |   | "Pelias and Neleus...discovered their mother"
+L1-055 | II | 1 | ev 4 | 1.9.8 | A6 | Sidero | Tyro |   | "their mother was ill-used by her"; new villainy, opens move II
+L1-055 | II | 2 | ev 5 | 1.9.8 | H1 | Pelias and Neleus | Sidero |   | "they attacked her"
+L1-055 | II | 3 | ev 6 | 1.9.8 | X | Sidero | — | ? | "before they could catch her she had taken refuge in the precinct of Hera"; the villain's own escape/sanctuary-seeking, no exact function (Propp's Rs is defined for the hero's escape)
+L1-055 | II | 4 | ev 7 | 1.9.8 | U | Pelias | Sidero |   | "Pelias cut her down on the very altars"
+L1-055 | II | 5 | ev 8 | 1.9.8 | X | Pelias | Hera | ? | "ever after he continued to treat Hera with contumely"; a lasting trait/impiety, no discrete function within this episode
+L1-055 | II | 6 | ev 9 | 1.9.9 | X | Pelias and Neleus | — | ? | "afterwards the brothers fell out"; a rupture with no described act; nearest candidate A or C for a new dispute
+
+L1-057 | I | 1 | ev 1 | 1.9.9 | F1 | Poseidon | Periclymenus |   | "Poseidon granted the power of changing his shape"
+L1-057 | I | 2 | ev 2 | 1.9.9 | A19 | Hercules | Pylus |   | "Hercules was ravaging Pylus"; opens the move
+L1-057 | I | 3 | ev 3 | 1.9.9 | H | Periclymenus | Hercules |   | "in the fight Periclymenus turned himself into a lion, a snake, and a bee"; struggle in an unusual form
+L1-057 | I | 4 | ev 4 | 1.9.9 | I− | Hercules | Periclymenus |   | "was slain by Hercules with the other sons of Neleus"
+L1-057 | I | 5 | ev 5 | 1.9.9 | Rs | the Gerenians | Nestor |   | "Nestor alone was saved, because he was brought up among the Gerenians"

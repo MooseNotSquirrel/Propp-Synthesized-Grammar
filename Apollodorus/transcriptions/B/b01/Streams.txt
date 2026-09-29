@@ -1,0 +1,116 @@
+tale: L1-001/1
+name: 1.1.2-1.1.4, Sky
+move: I | A15 X F1 H1 I1 I
+
+tale: L1-001/2
+name: 1.1.2-1.1.4, Cronus
+move: I | A15 X F1 H1 I1 I
+
+tale: L1-002
+name: 1.1.4-1.1.5, Cronus
+move: I   | K10 W3
+move: II  | A15 X
+move: III | A7
+
+tale: L1-003
+name: 1.1.6-1.2.5, Zeus
+move: I | α X B5 X X B6 F9 η2 K C H1 F2 I5 K10 F1 I1 U W3 I1 U X
+
+tale: L1-005
+name: 1.3.2, Orpheus
+move: I  | A ↑ X γ δ F− X
+move: II | A14
+
+tale: L1-010
+name: 1.3.5, Hephaestus
+move: I | A9 K10 X A U A6 Rs
+
+tale: L1-011
+name: 1.3.6, Zeus
+move: I | X X X A15 X K10
+
+tale: L1-015
+name: 1.4.1-1.4.2, Apollo
+move: I   | F1 G A I1 K4
+move: II  | A X X G
+move: III | A1 B1 I1 U
+move: IV  | X F5 H2 X D1 E− I2 U U
+
+tale: L1-016
+name: 1.4.3-1.4.5, Orion
+move: I   | F1 A15 ↑
+move: II  | a1 η2 A6 A9 ↑ F8 K C Rs
+move: III | X A1 X X
+move: IV  | H2 I−
+
+tale: L1-019
+name: 1.5.1-1.5.3, Demeter
+move: I | ↑ B4 β G X G X D7 X T1 X X X Q F1 G1 K6 B2 η3 θ ζ U K
+
+tale: L1-020
+name: 1.6.1-1.6.2, the Giants
+move: I | X A19 A3 X X F5 B1 H1 I− F2 H1 I1 H1 X A16 B1 I1 I1 I1 I5 I5 I5 I− I1 I5 X Pr1 I1 I5 I5 I5 I1 U
+
+tale: L1-021
+name: 1.6.3, Typhon
+move: I   | X A19 X Pr1 Rs6 H1 I1 Pr1 H1 H1 I1
+move: II  | A15 X X
+move: III | A2 H1 Pr1 η3 θ Pr1 H1 I1 X X U
+
+tale: L1-022
+name: 1.7.1, Prometheus
+move: I | X F1 η3 ζ A13 A15 A6 K10
+
+tale: L1-023
+name: 1.7.2, Deucalion
+move: I | D2 F3 X A Rs4 X G2 X E7 D2 E X K
+
+tale: L1-027
+name: 1.7.4, the Aloads
+move: I | X A19 X A16 A16 A15 K10 η3 θ I−
+
+tale: L1-031
+name: 1.7.8-1.7.9, Idas
+move: I  | A1 F1 Pr2 X X G
+move: II | A1 H1 X W2
+
+tale: L1-034
+name: 1.8.2-1.8.3, Meleager
+move: I   | X Rs4 X δ A3 A3 B1 X X C X A14 X H1 H1 I1 K F1
+move: II  | A2 I1 K
+move: III | A14 I− U T
+
+tale: L1-040
+name: 1.8.5, Tydeus
+move: I | X A9 A14 Ex G ↑ I−
+
+tale: L1-044
+name: 1.8.6, Diomedes
+move: I  | ↑ I1 X W3 Rs
+move: II | A14 X ↑
+
+tale: L1-045
+name: 1.9.1, Phrixus
+move: I | A η3 θ A3 C η3 A13 Rs1 F1 F1 G1 X G W2 E7 F1 X
+
+tale: L1-046
+name: 1.9.2, Athamas
+move: I | A11 A14 X A9 C M G X N K
+
+tale: L1-053
+name: 1.9.7, Salmoneus
+move: I | G L A5 η3 η3 U U
+
+tale: L1-054
+name: 1.9.8, Tyro
+move: I  | X X X A X
+move: II | A9
+
+tale: L1-055
+name: 1.9.8-1.9.9, Pelias
+move: I  | J1 Rs Q
+move: II | A6 H1 X U X X
+
+tale: L1-057
+name: 1.9.9, Periclymenus
+move: I | F1 A19 H I− Rs
