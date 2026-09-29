@@ -112,6 +112,7 @@ Step 9 built p.107's inverted sequence into the grammar but, under option 1, as 
 **3. `SemanticBundling.md`, in the first project.** Whether it points to this catalog or is replaced by it. It is part of the first project's publication, so a decision still to make.
 
 **4. Optional work, none begun.**
+- A TEST ON GREEK MYTH FROM APOLLODORUS, PROTOCOL DRAFTED. `ApollodorusProtocol.md` sets out a census of every episode in Frazer's translation of the *Library* and *Epitome*, a rule for whose tale each is, blind transcription with performers recorded, and three measurements: coverage, acceptance and discrimination against shuffled strings. Six decisions are open before Stage 1, listed at its end; the Russian shuffle baseline is to be computed before Stage 3.
 - A TEST OF THE TRAGIC VARIANTS ON MYTH OR TRAGEDY. The 32 surviving Greek tragedies are a fixed corpus. Transcribe their function schemes and run v46 with `+tragedy,reversal`, freezing the prediction first. Fix in the derivation rules, before transcribing, WHOSE TALE each one is: Prometheus, Oedipus and Medea read differently depending on whose deeds count "for the hero" (p.81), and Prometheus is a punished villain from Zeus's side. Ideally the schemes are written by someone who has not seen the grammar.
 - The Russian behind "various tempters" among Propp's partial helpers (p.82): the helper entry says it may mean skilled or wonder-working people, to be checked against the Russian.
 - Propp's braces, repetition and branching, as grammar structure; today the runner expands them.
