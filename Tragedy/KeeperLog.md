@@ -57,3 +57,9 @@ From *Hecuba* on, each play is checked for form and its transcribers' reports ar
 `tragedyScore.py score` is not run in the meantime, and `TragedyResults.md` stays at P01 to P04.
 The event lister now also writes `Cast.txt`, one name per character with the other names the text uses, and the transcribers must name performers and undergoers by it, so that character roles can be read from the performer and undergoer fields.
 Both changes were committed to the transcriber repository before any P05 stage ran; the rules for events, relevance and symbols are unchanged.
+
+**Events stage, P05, Hecuba, from `master` at b51d95b: in form.**
+97 events, 20 told as past, numbered in order and cited in the order of telling; a cast of 28, each name once, in the new format; hero Hecuba, named in the cast, with no tie.
+The cast rule left one gap, which the lister reported and resolved one way: whether the addressee of a plea or prayer takes part in the event, so "Powers below" and "The gods" are in the cast.
+One other name, "daughter of Tyndareus", stands among the other names of both Helen and Agamemnon's wife, as the text uses it for each; the transcribers name characters by the first field, which is unique.
+The rules are not amended mid-run; both points are kept for the rules' next revision, if one is made.
