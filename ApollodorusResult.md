@@ -77,3 +77,27 @@ The audit of fifty entries from each transcription, for fidelity to the text, ha
 **It is consistent with Propp's own scope.**
 Propp built his morphology on one hundred Russian wondertales and claimed it for that genre.
 This test finds that a Greek mythographer's handbook, read under frozen rules, does not follow that morphology's order.
+
+## Exploratory measures, made after the test
+
+**Everything in this section was measured after the verdict and revises nothing.**
+`Apollodorus/driftApollodorus.py` computes it, and its output is `Apollodorus/ApollodorusDrift.txt`; the Greek moves are the primary derivation, the grammar as shipped.
+
+**The vocabulary is shared; the proportions differ.**
+The Jensen-Shannon divergence between the Russian and Greek shares of each function is 0.12 bits for either transcriber, against 0.03 between the two transcribers.
+Greek moves carry more villainy (about 20% of entries against 8%), victory (10% to 11% against 5%) and punishment (4% against 2.4%), and less of the decision to act (1.5% to 3% against 9%), the donor's test and the hero's reaction (about 2% each against 4.5% to 5%), and the return (1.4% to 2.6% against 6.3%).
+The preparatory functions stand at 0% in the Russian moves only because Propp's move schemes omit them.
+
+**The order differs far more than the vocabulary.**
+Against Propp's numbering of the functions, 1.5% of ordered pairs in a Russian move run backward, against 32% to 33% in a Greek move and 40% to 43% in a shuffled one.
+
+**The edits that would pass the Greek moves would pass shuffled ones too.**
+Deleting at most one entry lets v46 accept 72.5% of transcriber A's moves, against 66.6% of the same moves shuffled; deleting at most two, 84.4% against 80.3%.
+The entries deleted most are the preparatory functions inside moves for transcriber A (trickery alone 16%) and a second villainy inside a move for transcriber B (25%).
+
+**The task pair holds across both.**
+A difficult task is followed by its solution in the same move in 77% of transcriber A's cases and 82% of B's, against all 10 in the Russian moves.
+
+**Ulysses ends as a Proppian tale, and then goes on.**
+Both transcribers, working apart, wrote the suitors' villainy, the unrecognized arrival (o), a recognition, the task of the bow (M, N), the suitors' punishment (U), the liquidation (K) and the wedding (W).
+Apollodorus then tells a further war, a departure, Ulysses's death at Telegonus's hand and Telegonus's marriage to Penelope.
