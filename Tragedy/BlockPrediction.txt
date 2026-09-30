@@ -1,0 +1,33 @@
+BlockPrediction.txt -- what the block analysis should show on the sealed
+tragedies, frozen 2026-09-30, before any of P05-P32 is read by it.
+
+WHEN IT RUNS: once, when the seal on P05-P32 is lifted as TragedyProtocol.md
+provides (after the tragedy block grammar is frozen), with blockStream.py as
+committed with this file; its OPEN list is then widened to the plays run, and
+nothing else is changed.
+WHAT IT READS: every play of P05-P32 with both transcriptions, both
+transcribers, the three readings; baseline 200 shuffles, seed 46, as for
+P01-P04.
+
+THE FINDINGS IT TESTS come from P01-P04 alone (BlockPatterns.txt), read in the
+light of Blocks/DefinitionCheck.md: most blocks' order is fixed by the card's
+definitions, so order inside a block is tested only on the free blocks, and
+the rest is a test of co-occurrence and adjacency.
+
+PREDICTIONS, for EACH transcriber:
+  1. Adjacency. In the blocks reading and in the strict reading, the share
+     of functions inside blocks exceeds the shuffled mean, with at most 10
+     of 200 shuffles at or above the real.
+  2. The tragedy's blocks. complication and RuleViolation each occur,
+     forward, more often than their shuffled means, in the blocks reading.
+  3. Order in the free blocks. Pooled over StruggleAndOutcome, FraudPosture,
+     ReturnJourney and Ordeal in the blocks reading, forward occurrences
+     exceed reversed ones, and the reversed count is at or below its
+     shuffled mean. If the pooled forward and reversed counts together are
+     under 10, prediction 3 is reported as UNDECIDED, not as held or failed.
+REPORTED, NOT PREDICTED: the reversed counts of the definitional blocks, which
+check the instrument rather than the stories (DefinitionCheck.md), and all
+other block counts.
+
+A prediction holds only if it holds for both transcribers; each is reported
+on its own, with no overall verdict.
