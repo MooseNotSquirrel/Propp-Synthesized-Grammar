@@ -230,3 +230,8 @@ Both cover all 126 events, A in 127 entries and B in 132, A in eight moves and B
 The reports show judgment calls at gaps, not departures. New to this play: whether functions the card defines for the hero (o, Q, T) may be given to a second protagonist, Menelaos, which A did under "assign the function whoever performs it"; and whether a minus may go on Q, which B used (Q−) and A declined.
 The deception of Theoklymenos was read as θ for his grants by A throughout and by B in part, with F for the rest.
 Transcriber B read the mixed-event wording as P09's A did, giving entries only to the functional acts; A gave one event two entries.
+
+**P17, Agamemnon: Smyth's translation in the `eng3` file, and seven speeches the source names no speaker for.**
+PerseusDL's `eng3` file for *Agamemnon* is Herbert Weir Smyth's translation, modernized, the translator the protocol names for Aeschylus.
+Speeches S008, S036, S197, S207, S212, S215 and S218 carry no speaker and stand in no division the source marks as choral, so `extract.py` labels them "(no speaker in the source)"; from their context all are the chorus's, S197 opening the elders' debate whose speakers the source labels one by one after it.
+The source also repeats the Watchman's name at the head of his speech's text. Nothing is corrected.
