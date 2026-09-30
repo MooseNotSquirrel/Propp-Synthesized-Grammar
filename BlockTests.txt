@@ -70,3 +70,7 @@ strict | H I- Ex U | StruggleAndOutcome[H I- Ex U] | the tragic fall is the stru
 strict | A B C up H I | complication[A B C up] StruggleAndOutcome[H I] | two whole blocks
 roundtrip3 | P01 P02 P03 P04 | exact | the round trip holds in the strict reading too
 aesoproundtrip | b1 b2 b3 b4 | exact | every Aesop transcription reverses exactly, in all three readings
+
+# 2026-09-30, BEFORE THE HELD-OUT FABLES WERE RUN THROUGH THE BLOCKS: the second
+# sample of fables (Story Language/Fables) reverses exactly too.
+fablesroundtrip | b1 b2 b3 b4 | exact | every held-out fable transcription reverses exactly, in all three readings
