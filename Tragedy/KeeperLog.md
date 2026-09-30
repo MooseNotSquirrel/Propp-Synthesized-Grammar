@@ -263,3 +263,8 @@ Speeches S053, S143, S158 and S212 carry no speaker; each is the second part of 
 104 events, 31 told as past, numbered in order and cited in the order of telling; a cast of 32, each name once; hero Heracles, in 66 events against 50 for Deianeira, with no tie.
 The report's event numbers were spot-checked against the file, after P18's stale ones, and match.
 The lister marked the Euboean campaign as now, offstage and reported during the play, and its causes as past; its other uncertainties are the familiar ones.
+
+**P19, Trachiniae, from `master` at 9aa84f6: both transcriptions in form; sealed, not scored.**
+Both cover all 104 events, A in 118 entries and B in 109, in 10 and 11 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The reports show the familiar gaps: the request rule against B and γ, hero-defined functions given to another (Hyllus's B, C, ↑ and ↓), an act intended or reported before it is carried out, and the two clauses of the relevance rule. New to this play: a deception whose dupe is not its victim, Nessus deceiving Deianeira to Heracles' harm, which A wrote as θ for Deianeira's acts and again for Heracles putting on the robe.
+Transcriber A gave a non-function act its own X in a mixed event, as P13's A did.
