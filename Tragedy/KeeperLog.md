@@ -140,3 +140,6 @@ Both cover all 124 events, A in 127 entries and B in 129; the form check finds n
 Every performer and undergoer is a name from `Cast.txt`, or, in twelve of transcriber A's fields, two cast names joined by a comma; so an act with two doers or two undergoers is now written three ways across plays (one name with the other in the note, a semicolon, a comma), which the character spheres of the building-block plan must read alike.
 The reports show judgment calls at gaps, not departures: the request rule against γ and B, the same oracle told twice getting two symbols (B, then F as the answer to a plea), whether "later" means in the telling or in the story (a villainy told late marked N by A and Y by B), Q when the one recognized is not the hero, and whether myth told in a choral ode matters to the play.
 Transcriber B also asks whether θ is credited to the deceived or to the deceiver.
+
+**P11, Andromache: set up in Coleridge's own wording, with no stage directions.**
+As with P09, PerseusDL's English file is Coleridge's translation without the Perseus modernization, so its English is archaic; and it carries no stage directions, so acts shown on stage are known only from the speeches. The text is used as it stands.
