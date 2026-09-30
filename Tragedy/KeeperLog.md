@@ -110,5 +110,5 @@ The lister's other uncertainties are those of earlier plays: retellings, choral 
 Both cover all 135 events, A in 136 entries and B in 141; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
 The reports show judgment calls at gaps, not departures.
 New to this play: transcriber A asks whether "later" in the relevance rule means later in the telling or later in the story, for past harms told late as the causes of acts told early (Iphigenia's sacrifice as a cause of Agamemnon's murder); A read it as the telling, so they are marked N and open no move, and B marked them N too, on the ground that nothing later depends on them.
-The two transcribers handle an act with two doers differently: A names one performer and puts the other in the note, B joins both with semicolons; the format does not say, and the scoring reads only the symbols.
+The two transcribers handle an act with two doers differently: A names one performer and puts the other in the note, B joins both with semicolons; the format does not say; the scoring does not read the performer field, but the building-block plan's character spheres will have to take both forms.
 The request rule against B and γ recurs, as in P06 and P07, and so does the question whether a function can be read for a character other than the hero.
