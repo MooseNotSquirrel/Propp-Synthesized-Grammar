@@ -143,3 +143,8 @@ Transcriber B also asks whether θ is credited to the deceived or to the deceive
 
 **P11, Andromache: set up in Coleridge's own wording, with no stage directions.**
 As with P09, PerseusDL's English file is Coleridge's translation without the Perseus modernization, so its English is archaic; and it carries no stage directions, so acts shown on stage are known only from the speeches. The text is used as it stands.
+
+**Events stage, P11, Andromache, from `master` at ff82cb3: in form.**
+124 events, 43 told as past, numbered in order and cited in the order of telling; a cast of 40, each name once; hero Andromache, in 39 events against 35 for Hermione.
+The lister counted as taking part the future persons a god's prophecy names (Helenus, the Nereids), and an unnamed voice from the shrine as Apollo, on the messenger's blaming Phoebus.
+Its other uncertainties are the familiar ones: retellings, past or now at the prologue's edge, choral myth, and names for characters the text leaves unnamed.
