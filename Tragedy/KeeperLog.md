@@ -254,3 +254,7 @@ The runner flagged that the lister's report cites an event 184. The files are co
 Both cover all 167 events, A in 173 entries and B in 176, in 14 and 13 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`, joined in pairs in many fields.
 Both transcribers counted to 167, which confirms, as the events check found, that the lister's "event 184" was a stale number in its report.
 The reports show the familiar gaps, at the play's scale: functions the card defines for the hero given to others (A says it may not have drawn the line consistently), two opposed heroes in the duel, whether a vow carried out later is X, and whether a demand undoing an earlier harm opens a move. Transcriber A read the mixed-event wording as P09's A did.
+
+**P19, Trachiniae: Jebb's translation in the `eng3` file, and four speeches the source names no speaker for.**
+PerseusDL's `eng3` file for *Trachiniae* is Richard Jebb's translation, modernized, the translator the protocol names for Sophocles.
+Speeches S053, S143, S158 and S212 carry no speaker; each is the second part of a speech the source splits, continuing Deianeira, Deianeira, Hyllus and Heracles, as at P14. `extract.py` labels them "(no speaker in the source)"; nothing is corrected.
