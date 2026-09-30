@@ -1,0 +1,23 @@
+Robustness.txt -- risk check 5, frozen 2026-09-30 before the code is written:
+does the block effect depend on which entries are matched?
+
+THREE INPUT READINGS, as the tragedy scoring names them:
+  primary    functions marked Y, doubtful ones included (what every block
+             result so far used);
+  secondary  every function, those marked N included;
+  nodoubt    functions marked Y, less those whose unsure field holds "?".
+Entries not matched stay in place as transparent entries, as before.
+
+THE MEASURE: blockStream.py's transform, blocks and strict readings; the
+share of matched functions inside blocks, against the same functions shuffled
+in place, 200 shuffles, seed 46 (the plain shuffle; check 2 found the
+positional null close to it in the fables).
+
+THE CORPORA: training fables, held-out fables, tragedy P01-P04; the sealed
+plays are not read.
+
+THE DECISION RULE, per corpus, transcriber, block reading and input reading:
+the effect HOLDS if the real share exceeds the shuffled mean with at most 10
+of 200 shuffles at or above it. The block findings are ROBUST if every cell
+that holds in the primary reading also holds in the other two; each cell that
+does not is named.
