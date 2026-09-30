@@ -1,0 +1,70 @@
+# BlockPatterns.txt -- written by blockStream.py: blocks in the real streams against
+# the same Y functions shuffled in place, 200 times, seed 46. Reported, not judged.
+
+TRANSCRIBER A, reading blocks: functions inside blocks 91 of 191 (47.6%); shuffled mean 55.2 (28.9%); shuffles at or above the real: 0 of 200
+  preparatorySection     real   3   shuffled mean   2.49
+  RuleViolation          real   6   shuffled mean   2.63
+  InformationGathering   real   0   shuffled mean   0.03
+  DeceptionTrap          real   1   shuffled mean   0.10
+  complication           real  20   shuffled mean  15.00
+  UntestedAcquisition    real   1   shuffled mean   2.23
+  TestedAcquisition      real   1   shuffled mean   0.38
+  StruggleAndOutcome     real   1   shuffled mean   0.20
+  ReturnJourney          real   0   shuffled mean   0.16
+  PursuitFirst           real   1   shuffled mean   0.53
+  RescueFirst            real   0   shuffled mean   0.36
+  TaskAndSolution        real   1   shuffled mean   0.10
+  Endgame                real   2   shuffled mean   0.70
+
+TRANSCRIBER A, reading all: functions inside blocks 137 of 191 (71.7%); shuffled mean 119.4 (62.5%); shuffles at or above the real: 1 of 200
+  tale                   real  16   shuffled mean  14.70
+  move                   real   4   shuffled mean  10.63
+  TroubleToLiquidation   real   8   shuffled mean   5.00
+  Development            real   0   shuffled mean   0.18
+  AfterLiquidation       real   1   shuffled mean   1.14
+  BeforeTheTrouble       real   0   shuffled mean   0.58
+  preparatorySection     real   1   shuffled mean   1.44
+  RuleViolation          real   4   shuffled mean   1.57
+  InformationGathering   real   0   shuffled mean   0.01
+  DeceptionTrap          real   0   shuffled mean   0.04
+  complication           real   9   shuffled mean   6.57
+  UntestedAcquisition    real   1   shuffled mean   1.45
+  TestedAcquisition      real   0   shuffled mean   0.12
+  StruggleAndOutcome     real   1   shuffled mean   0.10
+  ReturnJourney          real   0   shuffled mean   0.12
+  PursuitFirst           real   1   shuffled mean   0.34
+  RescueFirst            real   0   shuffled mean   0.28
+  TaskAndSolution        real   1   shuffled mean   0.07
+  Endgame                real   1   shuffled mean   0.36
+
+TRANSCRIBER B, reading blocks: functions inside blocks 100 of 186 (53.8%); shuffled mean 66.6 (35.8%); shuffles at or above the real: 0 of 200
+  preparatorySection     real   2   shuffled mean   2.18
+  RuleViolation          real   5   shuffled mean   4.24
+  DeceptionTrap          real   2   shuffled mean   0.15
+  complication           real  23   shuffled mean  16.08
+  UntestedAcquisition    real   4   shuffled mean   4.04
+  TestedAcquisition      real   1   shuffled mean   0.33
+  StruggleAndOutcome     real   1   shuffled mean   0.23
+  PursuitFirst           real   1   shuffled mean   0.42
+  RescueFirst            real   0   shuffled mean   0.23
+  TaskAndSolution        real   1   shuffled mean   0.23
+  Endgame                real   1   shuffled mean   0.29
+
+TRANSCRIBER B, reading all: functions inside blocks 135 of 186 (72.6%); shuffled mean 119.1 (64.0%); shuffles at or above the real: 7 of 200
+  tale                   real  14   shuffled mean  14.07
+  move                   real   4   shuffled mean   9.01
+  TroubleToLiquidation   real   4   shuffled mean   3.42
+  Development            real   0   shuffled mean   0.16
+  AfterLiquidation       real   1   shuffled mean   0.86
+  BeforeTheTrouble       real   0   shuffled mean   0.44
+  preparatorySection     real   0   shuffled mean   1.45
+  RuleViolation          real   4   shuffled mean   2.77
+  DeceptionTrap          real   1   shuffled mean   0.10
+  complication           real  13   shuffled mean   6.72
+  UntestedAcquisition    real   2   shuffled mean   2.44
+  TestedAcquisition      real   1   shuffled mean   0.20
+  StruggleAndOutcome     real   1   shuffled mean   0.15
+  PursuitFirst           real   1   shuffled mean   0.26
+  RescueFirst            real   0   shuffled mean   0.15
+  TaskAndSolution        real   0   shuffled mean   0.09
+  Endgame                real   0   shuffled mean   0.15
