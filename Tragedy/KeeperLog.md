@@ -134,3 +134,9 @@ The rest are the familiar gaps: the request rule against γ, whether a lack serv
 The hero is closer than at P08: the lister counts Orestes in 66 events and Iphigenia in 65, and names events whose participants are a judgment call. The last event is the chorus's, with neither in it, so a tie would name both and the play would be transcribed once for each.
 The list is kept as the rule gave it, as at P08. The event format records no participants, so these counts cannot be checked; for the rules' next revision, a participants field on each event would make the hero checkable.
 The lister's other uncertainties are the familiar ones: retellings, a speaking member merged into the group he belongs to, and choral myth.
+
+**P10, Iphigenia in Tauris, from `master` at ca87233: both transcriptions in form; sealed, not scored.**
+Both cover all 124 events, A in 127 entries and B in 129; the form check finds no problems.
+Every performer and undergoer is a name from `Cast.txt`, or, in twelve of transcriber A's fields, two cast names joined by a comma; so an act with two doers or two undergoers is now written three ways across plays (one name with the other in the note, a semicolon, a comma), which the character spheres of the building-block plan must read alike.
+The reports show judgment calls at gaps, not departures: the request rule against γ and B, the same oracle told twice getting two symbols (B, then F as the answer to a plea), whether "later" means in the telling or in the story (a villainy told late marked N by A and Y by B), Q when the one recognized is not the hero, and whether myth told in a choral ode matters to the play.
+Transcriber B also asks whether θ is credited to the deceived or to the deceiver.
