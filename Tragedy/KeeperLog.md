@@ -115,3 +115,9 @@ The request rule against B and γ recurs, as in P06 and P07, and so does the que
 
 **P09, Medea: set up in Coleridge's own wording.**
 PerseusDL's English file for *Medea* is Coleridge's translation without the Perseus modernization the earlier Coleridge plays carry, so its English is archaic ("doth", "ne'er"); the translator is the one the protocol names, and the text is used as it stands.
+
+**Events stage, P09, Medea, from `master` at 2ecaf4e: in form.**
+79 events, 12 told as past, numbered in order and cited in the order of telling; a cast of 19, each name once; hero Medea, with no tie.
+The cast rule's gap on addressees, logged at P05, is now resolved both ways: the P05 and P07 listers put the gods prayed to in the cast, and the P09 lister left out gods who are only called on, keeping only those who act (the Sun-god, Phoebus).
+Transcribers who find an addressee missing from the cast write `-`, as at P07, so this bears on the character spheres of the building-block plan, which should count prayers' addressees only where both readings agree, and not on the symbols.
+The lister's other uncertainties are the familiar ones: retellings, the messenger's report placed at the first brief telling with only new detail listed from the full account, and which speeches count.
