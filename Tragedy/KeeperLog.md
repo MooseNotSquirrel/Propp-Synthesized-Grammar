@@ -204,3 +204,8 @@ The reports show the familiar gaps: the request rule against γ and B, F− for 
 
 **P15, Euripides's Suppliants: set up in Coleridge's own wording.**
 As with P09 and P11, the English file is Coleridge's translation without the Perseus modernization. The play shares its title with P07, Aeschylus's *Suppliants*, and tells another story; the prompts name the author, and the lister and transcribers open only this play's files.
+
+**Events stage, P15, Euripides's Suppliants, from `master` at 30c4796: in form.**
+76 events, 22 told as past, numbered in order and cited in the order of telling; a cast of 31, each name once; hero Theseus, well ahead of Adrastus.
+The lister kept two characters named Eteocles apart by their fathers, and named the chorus of Argive mothers by who they are rather than "Chorus", with the speaker labels among its other names.
+Its other uncertainties are the familiar ones: a plea told in two steps, retellings that add detail, and which laments count.
