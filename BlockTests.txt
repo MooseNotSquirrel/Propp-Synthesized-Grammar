@@ -1,0 +1,38 @@
+# BlockTests.txt -- the frozen tests of blockStream.py, written before it.
+#
+# Format:  reading | input stream | expected block stream | source
+# Readings: blocks (pairs and groups) or all (every entry, spans and move
+# included). A token in parentheses is transparent: an X, or a function
+# marked N; it is kept in place and skipped for matching. A block is
+# written Entry[tokens]; a token no block covers stays bare. The grammar is
+# ProppEBNF46.txt with +tragedy,reversal. A TEST IS NEVER EDITED TO FIT A
+# RESULT; a wrong one is commented out with a dated line, and its
+# correction added below it.
+
+blocks | H J I | StruggleAndOutcome[H J I] | p.104, the struggle scheme
+blocks | H I | StruggleAndOutcome[H I] | the most specific entry wins over Development, which also derives it
+blocks | A B C up | complication[A B C up] | pp.64-65, ABC↑ is the complication
+blocks | U W | Endgame[U W] | p.108, the four exchange
+blocks | W Q Ex U | Endgame[W Q Ex U] | p.108, in any order
+blocks | Pr Rs | PursuitFirst[Pr Rs] | p.64, the pair in the usual order
+blocks | Rs Pr | RescueFirst[Rs Pr] | p.147, the inverted order
+blocks | γ δ | RuleViolation[γ δ] | p.80, γ-δ
+blocks | γ β δ | RuleViolation[γ β δ] | an absentation told after the interdiction nests in the pair
+blocks | ε ζ | InformationGathering[ε ζ] | p.80, ε-ζ
+blocks | η θ | DeceptionTrap[η θ] | p.80, η-θ
+blocks | D E F | TestedAcquisition[D E F] | p.65; never EarlyHelp, whose position cannot be judged out of context
+blocks | o L | FraudPosture[o L] | p.104
+blocks | M N | TaskAndSolution[M N] | p.104, the task scheme
+blocks | K H | K H | out of Propp's order no block forms, and a lone function stays bare
+blocks | A | A | a block needs at least two functions
+blocks | H (X) I | StruggleAndOutcome[H (X) I] | an X inside a block stays in place and does not break it
+blocks | (X) H I (A) | (X) StruggleAndOutcome[H I] (A) | transparent tokens outside a block stand where they are
+blocks | A B C up H I | complication[A B C up] StruggleAndOutcome[H I] | longest from the left, then on
+blocks | H I- Ex U | StruggleAndOutcome[H I- Ex U] | with +tragedy the fall ends the struggle: defeat, exposure, punishment
+all | A B C up D E F G H I K down | move[A B C up D E F G H I K down] | a whole move is one entry when every entry may be used
+all | H I | StruggleAndOutcome[H I] | a span that derives no more than a block gives way to the block
+all | K H | K H | out of order, nothing forms here either
+
+# Properties checked on every P01-P04 transcription, both readings:
+roundtrip | P01 P02 P03 P04 | exact | reversing the block stream gives the transcription's stream back, token for token
+sealed | P05 | refused | the plays from P05 are the held-out test and are not read
