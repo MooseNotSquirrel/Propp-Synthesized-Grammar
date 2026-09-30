@@ -112,3 +112,6 @@ The reports show judgment calls at gaps, not departures.
 New to this play: transcriber A asks whether "later" in the relevance rule means later in the telling or later in the story, for past harms told late as the causes of acts told early (Iphigenia's sacrifice as a cause of Agamemnon's murder); A read it as the telling, so they are marked N and open no move, and B marked them N too, on the ground that nothing later depends on them.
 The two transcribers handle an act with two doers differently: A names one performer and puts the other in the note, B joins both with semicolons; the format does not say; the scoring does not read the performer field, but the building-block plan's character spheres will have to take both forms.
 The request rule against B and γ recurs, as in P06 and P07, and so does the question whether a function can be read for a character other than the hero.
+
+**P09, Medea: set up in Coleridge's own wording.**
+PerseusDL's English file for *Medea* is Coleridge's translation without the Perseus modernization the earlier Coleridge plays carry, so its English is archaic ("doth", "ne'er"); the translator is the one the protocol names, and the text is used as it stands.
