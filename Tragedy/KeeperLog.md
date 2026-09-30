@@ -258,3 +258,8 @@ The reports show the familiar gaps, at the play's scale: functions the card defi
 **P19, Trachiniae: Jebb's translation in the `eng3` file, and four speeches the source names no speaker for.**
 PerseusDL's `eng3` file for *Trachiniae* is Richard Jebb's translation, modernized, the translator the protocol names for Sophocles.
 Speeches S053, S143, S158 and S212 carry no speaker; each is the second part of a speech the source splits, continuing Deianeira, Deianeira, Hyllus and Heracles, as at P14. `extract.py` labels them "(no speaker in the source)"; nothing is corrected.
+
+**Events stage, P19, Trachiniae, from `master` at 05fe67a: in form.**
+104 events, 31 told as past, numbered in order and cited in the order of telling; a cast of 32, each name once; hero Heracles, in 66 events against 50 for Deianeira, with no tie.
+The report's event numbers were spot-checked against the file, after P18's stale ones, and match.
+The lister marked the Euboean campaign as now, offstage and reported during the play, and its causes as past; its other uncertainties are the familiar ones.
