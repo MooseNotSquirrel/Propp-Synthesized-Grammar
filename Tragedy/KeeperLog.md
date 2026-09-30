@@ -240,3 +240,8 @@ The source also repeats the Watchman's name at the head of his speech's text. No
 95 events, 34 told as past, numbered in order and cited in the order of telling; a cast of 25, each name once; hero Agamemnon, in 39 events against 37 for Clytaemestra.
 The fourth close hero (after P08, P10 and P14), and the first where a tie would go the other way: Clytaemestra is in the last event and Agamemnon is not. The list is kept as the rule gave it.
 The lister counted Aegisthus in Cassandra's prophecies of the "lion" and "wolf", on his later claim, and placed the storm at sea as now, since the play's single night cannot hold it as past.
+
+**P17, Agamemnon, from `master` at 78db702: both transcriptions in form; sealed, not scored.**
+Both cover all 95 events, A in 96 entries and B in 98, in nine moves each; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The runner passed on transcriber A's note that the `Streams.txt` example pads only short move labels, so "VIII" is written `move: VIII |`; the same form already stands in P11 and P16, and `tragedyScore.py` reads only `Notes.txt`, whose fields are split on the bar, so nothing reads the move label by column.
+The reports show the familiar gaps: orders as γ against the request rule, one harm told twice (the sacrifice at ev 14 and ev 70), whether "later" means in the telling, and how far "answers an earlier act" reaches; the two transcribers placed the deception's η and θ at different events.
