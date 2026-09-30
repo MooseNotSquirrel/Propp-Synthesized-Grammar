@@ -93,3 +93,9 @@ It is the first play whose hero is a group, which the cast rule allows: a group 
 The lister took the Chorus as the speaker of the one speech the source names no speaker for (lines 825-835).
 The other names in `Cast.txt` are separated by commas here and by semicolons before; the format does not fix the separator, and the transcribers use only the first field.
 The lister's other uncertainties are those of P05 and P06: prayers' addressees counted in the cast, retellings listed once, and which choral narration counts.
+
+**P07, Suppliants, from `master` at 163e2f3: both transcriptions in form; sealed, not scored.**
+Both cover all 101 events, A in 101 entries and B in 103; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`, with `-` where the text's addressee is not in it.
+The reports show judgment calls at gaps, not departures, and new ones from the play's form. Its backstory, the myth of Io told as proof of lineage, is full of acts that are functions by what they are, and the rules give no exception for embedded myth: transcriber A marked Hera's harm to Io as mattering, so it opens a move and the King's scenes fall inside it, while B marked it incidental, so it opens none.
+Transcriber A also notes that the relevance rule's clause for replies, that an act answering an earlier act matters, makes nearly every reply matter.
+The request rule against γ recurs, as in P06, at the herald's demands.
