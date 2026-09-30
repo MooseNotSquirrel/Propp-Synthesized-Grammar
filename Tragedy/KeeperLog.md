@@ -162,3 +162,10 @@ The source labels speech S343 (line 1130) "Oretes", in a stichomythia between Or
 170 events, 50 told as past, numbered in order and cited in the order of telling; a cast of 50, each name once; hero Orestes, in about 95 events, far ahead of Menelaus and Electra.
 The largest list so far. The lister split Apollo's closing speech into ten events, one per prophecy or command, and kept the escaped Phrygian apart from the group of Helen's servants because he acts alone.
 Its other uncertainties are the familiar ones: retellings, past or now at the prologue's edge, and asides that hardly matter.
+
+**P12, Orestes, from `master` at a144317: both transcriptions in form; sealed, not scored.**
+Both cover all 170 events, A in 172 entries and B in 173; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The reports show judgment calls at gaps, not departures. The two transcribers' move counts are close this time, 7 and 8.
+New to this play: the rule that an event narrating an act is never α meets a genealogy prologue of births and marriages. Transcriber A wrote α for them, as only introducing the family, and B wrote X, as the rule's letter requires.
+Both read the matricide as A rather than I, by what it causes, so it opens a move, and both asked whether a hero's killing of the villain is I or A.
+The request rule against B recurs, and B's report asks how strong a dependence must be for Y.
