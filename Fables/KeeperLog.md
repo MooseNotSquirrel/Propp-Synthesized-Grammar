@@ -17,3 +17,19 @@ Neither the grammar, the prediction nor the Aesop result is in that repository.
 **The events stage, from master at 15f11e3: in form.**
 99 fables, 462 events, every fable with events numbered from 1 and one hero line. The replies were split into `Events.txt` and `Heroes.txt` by line format; the one merge change of the first Aesop run was applied, sixteen ties the second report names written "X; Y". No fable dropped.
 The second lister counted the one addressed by a speech act as taking part, so most two-character dialogue fables came out as ties; the first lister counted the same way and wrote its ties with a semicolon. Ties mean two heroes and two transcriptions of those fables, as the rules provide.
+
+**The main stage, from master at 904c8a4: both transcriptions in form.**
+Transcriber A covers all 128 versions (99 fables, the ties twice) in 572 entries; B covers them in 580, labelling three single-hero fables F269/1, F304/1 and F308/1, which cover all their events. Transcriber A kept its working script, `build.py`, in its own output folder, as the prompt allows.
+
+**THE VERDICT, as FablePrediction.txt defines it: THE CLAIM FAILS.**
+`fableGrammar.py measure ../Fables b1 b2 b3 b4`, output in `FableRun.txt`, versions of two or more functions marked Y:
+
+                   acceptance   shuffled   gap     v46's gap
+  transcriber A    55.6%        28.1%      +27.4   +10.6
+  transcriber B    61.7%        31.9%      +29.8   +15.1
+
+1. Acceptance at least 65%: not met by either transcriber (55.6%, 61.7%). This alone fails the claim.
+2. Gap at least 20 points: met by both.
+3. Gap above v46's: met by both, by 16.8 and 14.7 points.
+
+REPORTED, NOT JUDGED. The grammar's order held on fables it had never seen: its gap over shuffled shrank only from +31.6 and +33.7 in training to +27.4 and +29.8, while its acceptance fell from 74.7% and 75.9% to 55.6% and 61.7%. Shuffled acceptance fell too, from about 43% to 28% and 32%, so the held-out streams are harder to accept in any order; the grammar's coverage of fables was overfitted, its order was not. Its margin over v46 grew rather than shrank (from about 12 points in training to about 15 to 17). What fails is the claim that the grammar describes most fables; what survives is that where fables are ordered, they are ordered its way, better than Propp's way.
