@@ -169,3 +169,6 @@ The reports show judgment calls at gaps, not departures. The two transcribers' m
 New to this play: the rule that an event narrating an act is never α meets a genealogy prologue of births and marriages. Transcriber A wrote α for them, as only introducing the family, and B wrote X, as the rule's letter requires.
 Both read the matricide as A rather than I, by what it causes, so it opens a move, and both asked whether a hero's killing of the villain is I or A.
 The request rule against B recurs, and B's report asks how strong a dependence must be for Y.
+
+**P13, Ajax: one speech the source names no speaker for.**
+Speech S284 (lines 1290-1315) carries no speaker in the source; it follows Teucer's speech and goes on answering Agamemnon, and `extract.py` labels it "(no speaker in the source)", adding nothing from outside the text.
