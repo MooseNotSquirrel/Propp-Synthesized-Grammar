@@ -209,3 +209,10 @@ As with P09 and P11, the English file is Coleridge's translation without the Per
 76 events, 22 told as past, numbered in order and cited in the order of telling; a cast of 31, each name once; hero Theseus, well ahead of Adrastus.
 The lister kept two characters named Eteocles apart by their fathers, and named the chorus of Argive mothers by who they are rather than "Chorus", with the speaker labels among its other names.
 Its other uncertainties are the familiar ones: a plea told in two steps, retellings that add detail, and which laments count.
+
+**P15, Euripides's Suppliants, from `master` at 09bc8c8: both transcriptions in form; sealed, not scored.**
+Both cover all 76 events, A in 87 entries and B in 81, in five moves each; the form check finds no problems.
+Every performer and undergoer is a name from `Cast.txt`, but for one of B's fields, "Theseus’s herald", written with a curly apostrophe where the cast has a straight one; the character spheres should compare names with apostrophes normalized.
+Transcriber A read the mixed-event wording as P13's A did, giving a non-function act its own X in an event that has a function, as logged at P13.
+The reports show the familiar gaps: the request rule against B, which past villainies told in dialogue open moves, and whether K can recur.
+The cloud session reported its stop hook urging a commit while B was still running; it held the commit until both were done, as RUN.md requires.
