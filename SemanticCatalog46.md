@@ -20,7 +20,9 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Level.** Tale or move.
 - **Holds.** The functions it can hold, in Propp's symbols.
 - **Warrant.** The page where Propp groups or pairs these functions. *Editorial* means no page groups them, and the group is a reading aid only.
-- **Name.** Whether the name is Propp's term, v43's, or this grammar's.
+- **Name.** Whether the name is Propp's term, v43's, or this grammar's, and the name it had before, where it was renamed.
+  *Early* in a name means before the move's trigger, inside `BeforeTheTrouble`; *Late* means after the liquidation, inside `AfterLiquidation`. The two words stand on either side of the A–K span, `TroubleToLiquidation`, the core of every move. *First* in `PursuitFirst` and `RescueFirst` is another axis: which half of a pair comes first.
+- **EBNF.** The entry's production in `ProppEBNF46.txt`, with its comments removed and its lines joined; where an extension replaces the production, the extension's form follows it.
 - **Corpus.** How many of the 80 accepted move-strings use the group, from `CorpusGroups.txt`. The preparatory groups show 0 because Appendix III prints no preparatory function (p.116), not because the tales lack them.
 - **Tree test.** One string from `StepTests.txt` whose parse puts a function in this group.
 - **Measured.** Where an entry has one: a finding counted from the corpus by a program in this project, reproducible, and pinned by a test. It is data, not speculation, and it is kept apart from the cultural meaning for that reason.
@@ -51,15 +53,17 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** an optional initial situation α, the preparatory section, then one or more moves separated by `/`.
 - **Warrant:** p.92: morphologically, a tale is any development proceeding from villainy or lack, and each new villainy or lack creates a new move.
 - **Name:** Propp's. **Corpus:** not measured; the corpus is move-strings. **Tree test:** `A K / a K`, the second move's `a` under `tale`.
+- **EBNF:** `tale = [initialSituation] preparatorySection move FollowingMoves`
 - **Literal meaning:** the story as a whole. A misfortune or a want sets it going, and every new one begins a new move inside it.
 - **Cultural meaning:** *Draft.* The whole passage of a young person, from a household left unprotected to the head of a new household, told as a guide for the young. The family order is the same at the level of the state and of a peasant household, and the tale is cyclical: it starts from one family and ends by founding the next, whose child will be the next hero.
 
-### `LaterMoves`
+### `FollowingMoves`
 
 - **Kind:** group. **Level:** tale.
 - **Holds:** the moves after the first, in sequence, then optionally a parting and a common ending; or a parting straight after the first move.
 - **Warrant:** p.93, method 1: "one move directly follows another".
-- **Name:** this grammar's. **Corpus:** 26 of the 45 tales, counting the tale strings of `embedCorpus.py`, where 162's second move sits inside its first. **Tree test:** `A K / a K`, the `a` under `LaterMoves` and the first A not.
+- **Name:** this grammar's; `LaterMoves` before. **Corpus:** 26 of the 45 tales, counting the tale strings of `embedCorpus.py`, where 162's second move sits inside its first. **Tree test:** `A K / a K`, the `a` under `FollowingMoves` and the first A not.
+- **EBNF:** `FollowingMoves = [ moveBoundary move {moveBoundary move} [Parting] [CommonEnding] | Parting [CommonEnding] ]`
 - **Literal meaning:** a reading aid: how a tale goes on after its first move. It holds the three ways p.93 lets it go on at tale level.
 - **Cultural meaning:** *Draft.* Persistence. One success is not the end, and a hero who has triumphed once must meet the next loss in the same spirit.
 
@@ -69,6 +73,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** the road marker <, the signaller Y if there is one, and two branch moves.
 - **Warrant:** pp.93-94, method 6: two seekers "part in the middle of the first move ... at a road marker", which Propp designates <, and "often give one another an object: a signaller", which he designates Y. His scheme for tale 155 is "I-II. <Y", with III and IV after it.
 - **Name:** Propp's word. **Corpus:** 1 tale, 155. **Tree test:** `A K < Y a K / A K }`, the `a` under `Parting` and the first A not.
+- **EBNF:** `Parting = roadMarker [signaller] move moveBoundary move`
 - **Literal meaning:** two heroes set out together and part, each to his own adventure, often leaving the other a token by which to know his fate. The tree holds the two branches side by side.
 - **Cultural meaning:** *Draft.* Loyalty across separation. Companions who part keep faith with each other, and the token they exchange obliges each to come to the other's aid; each still goes on alone to prove himself.
 
@@ -78,6 +83,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** Propp's closing brace }, then what follows a liquidation: return, the false hero's contest, the task and the endgame.
 - **Warrant:** p.93, method 5: "Two moves may have a common ending." Propp draws a single closing brace across both moves, with the ending to its right, in 125 and 155.
 - **Name:** Propp's words. **Corpus:** 2 tales, 125 and 155; 155's ending, ↓X, reduces to nothing, so its common ending is empty. **Tree test:** `A up o / A K } L Q W`, the L under `CommonEnding` and the first move's o not.
+- **EBNF:** `CommonEnding = commonEnding AfterLiquidation`
 - **Literal meaning:** one resolution for two undertakings. The tree makes the ending a sibling of the moves it closes, so it belongs to them jointly. The grammar checks that it fits the last of them; that it fits the other is checked at the move level.
 - **Cultural meaning:** *Draft.* The order rewards merit wherever it was proven: separate efforts end in one settlement.
 
@@ -87,33 +93,37 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** β, then the pairs γ–δ, ε–ζ and η–λ–θ.
 - **Warrant:** Appendix I Table II, p.121, is titled The Preparatory Section; p.80 writes it as (β, γ-δ, ε-ζ, η-θ).
 - **Name:** Propp's. **Corpus:** 0, since the appendix prints none. **Tree test:** `β γ δ A`, the β under `preparatorySection`.
+- **EBNF:** `preparatorySection = {absentation} RuleViolation InformationGathering DeceptionTrap`
 - **Literal meaning:** what makes the misfortune possible. The household is left unguarded, a prohibition is broken, the villain learns what he needs, and the victim is deceived. Propp calls the first seven functions the preparatory part (p.30).
 - **Cultural meaning:** *Draft.* Why the young must heed. The household's protection fails when the elders are away and rules are broken; the tale opens by showing the young what happens when they are left to themselves.
 
-### `interdictionViolation`
+### `RuleViolation`
 
 - **Kind:** pair. **Level:** tale.
 - **Holds:** γ then δ. An absentation β told after the interdiction nests inside the pair.
 - **Warrant:** p.80 writes γ-δ as a pair; p.64 lists prohibition-violation. The β inside it follows tale 113 (pp.96-97) and the wolf and the kids (p.101), both told interdiction first.
-- **Name:** this grammar's, from Propp's terms; v43 called it RuleViolation. **Corpus:** 0. **Tree test:** `γ β δ A`, the β under `interdictionViolation`.
+- **Name:** v43's, restored; this grammar's `interdictionViolation` before, from Propp's terms. **Corpus:** 0. **Tree test:** `γ β δ A`, the β under `RuleViolation`.
+- **EBNF:** `RuleViolation = [ interdiction {interdiction} {absentation} ] {violation}`
 - **Literal meaning:** a prohibition given and broken, the breach through which misfortune enters. When the elders' departure is told between the two, it sits inside the breach: the warning is given, the protectors leave, and the warning is broken.
-- **Cultural meaning:** *Draft.* Heed the elders' prohibitions, since transgression brings harm. Yet the breach is also what launches the young into a story of their own.
+- **Cultural meaning:** Heed the elders' prohibitions, since transgression brings harm. Yet the breach is also what launches the young into a story of their own.
 
-### `reconnaissanceDelivery`
+### `InformationGathering`
 
 - **Kind:** pair. **Level:** tale.
 - **Holds:** ε then ζ.
 - **Warrant:** p.80 writes ε-ζ as a pair; p.64 lists reconnaissance-delivery.
-- **Name:** this grammar's, from Propp's terms; v43 called it InformationGathering. **Corpus:** 0. **Tree test:** `ε ζ A`, the ζ under `reconnaissanceDelivery`.
+- **Name:** v43's, restored; this grammar's `reconnaissanceDelivery` before, from Propp's terms. **Corpus:** 0. **Tree test:** `ε ζ A`, the ζ under `InformationGathering`.
+- **EBNF:** `InformationGathering = {reconnaissance} {delivery}`
 - **Literal meaning:** the villain seeks information and gets it. The second half may stand alone (p.29): a careless act can give the villain what he did not ask for.
 - **Cultural meaning:** *Draft.* Guard what you know; careless talk gives the enemy an opening.
 
-### `trickeryComplicity`
+### `DeceptionTrap`
 
 - **Kind:** pair, with λ inside it. **Level:** tale.
 - **Holds:** η, then λ, then θ.
 - **Warrant:** p.80 writes η-θ as a pair; λ is placed by Appendix I Table II item 44, which confines the preliminary misfortune to the deceptive agreement.
-- **Name:** this grammar's, from Propp's terms; v43 called it DeceptionTrap. **Corpus:** 0. **Tree test:** `η λ θ A`, the λ under `trickeryComplicity`.
+- **Name:** v43's, restored; this grammar's `trickeryComplicity` before, from Propp's terms. **Corpus:** 0. **Tree test:** `η λ θ A`, the λ under `DeceptionTrap`.
+- **EBNF:** `DeceptionTrap = {trickery} {preliminaryMisfortune} {complicity}`
 - **Literal meaning:** the villain deceives and the victim submits. The preliminary misfortune is what compels the victim's assent.
 - **Cultural meaning:** *Draft.* Be wary of a stranger's offer and disguise; the deceived share the blame for the harm they let in.
 
@@ -123,69 +133,77 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** the span from the crisis to its liquidation, then everything after the liquidation.
 - **Warrant:** p.92: a move is any development from villainy or lack, through intermediary functions, to a denouement.
 - **Name:** Propp's. **Corpus:** 80. **Tree test:** `α A`, where the α is *not* under `move`.
+- **EBNF:** `move = BeforeTheTrouble TroubleToLiquidation AfterLiquidation`; with `+reversal`, `move = BeforeTheTrouble TroubleToLiquidation AfterLiquidation [LateFall]`
 - **Literal meaning:** one episode of misfortune and its undoing. A tale has as many moves as it has new villainies or lacks.
 - **Cultural meaning:** *Draft.* One complete lesson: a loss met, a trial passed, and order restored by the hero's own right conduct.
 
-### `BeforeTheCrisis`
+### `BeforeTheTrouble`
 
 - **Kind:** group. **Level:** move, before the opener.
 - **Holds:** a T, then a departure, then a donor sequence, each optional.
 - **Warrant:** p.107: elements DEF often stand before A, which is "not a new, but rather an inverted sequence".
-- **Name:** this grammar's. **Corpus:** 0; the corpus derivation drops the parked cells left of A, as decided, so the corpus does not exercise it. **Tree test:** `up D E F A K`, the ↑ under `BeforeTheCrisis`.
+- **Name:** this grammar's; `BeforeTheCrisis` before. **Corpus:** 0; the corpus derivation drops the parked cells left of A, as decided, so the corpus does not exercise it. **Tree test:** `up D E F A K`, the ↑ under `BeforeTheTrouble`.
+- **EBNF:** `BeforeTheTrouble = EarlyTransfiguration [EarlyLeaving] [EarlyHelp]`
 - **Literal meaning:** what the hero has or does before the misfortune strikes. It lies outside the A-K span, since the crisis has not yet come.
 - **Cultural meaning:** *Draft.* Readiness. A hero who has already set out, or already won help, is prepared when misfortune comes.
 
-### `LeavingFirst`
+### `EarlyLeaving`
 
 - **Kind:** group. **Level:** move, before the opener.
 - **Holds:** one or more departures.
 - **Warrant:** p.107: the exit from home comes first, the hero learning of the misfortune when already on the road.
-- **Name:** this grammar's. **Corpus:** 0, as above. **Tree test:** `up D E F A K`, the ↑ under `LeavingFirst`.
+- **Name:** this grammar's; `LeavingFirst` before. **Corpus:** 0, as above. **Tree test:** `up D E F A K`, the ↑ under `EarlyLeaving`.
+- **EBNF:** `EarlyLeaving = departure EarlyTransfiguration {departure EarlyTransfiguration}`
 - **Literal meaning:** the hero already on the road, setting out aimlessly, when the misfortune finds him.
 - **Cultural meaning:** *Draft.* Going out into the world is itself the call; the young find their task by leaving home.
 
-### `HelperFirst`
+### `EarlyHelp`
 
 - **Kind:** group. **Level:** move, before the opener.
 - **Holds:** a donor sequence: tested when it opens on D or E, untested when it is F alone.
 - **Warrant:** p.107: the receipt of a helper first, and then the misfortune the helper liquidates.
-- **Name:** this grammar's, from Propp's wording. **Corpus:** 0, as above; the parked regions it would cover are 104 I, 105 II, 125 I, 126 II, 137 I, 156 III, 162 I and 166 I. **Tree test:** `D E F A K`, the F under `HelperFirst` and not under `CrisisToLiquidation`.
+- **Name:** this grammar's; `HelperFirst` before, from Propp's wording. **Corpus:** 0, as above; the parked regions it would cover are 104 I, 105 II, 125 I, 126 II, 137 I, 156 III, 162 I and 166 I. **Tree test:** `D E F A K`, the F under `EarlyHelp` and not under `TroubleToLiquidation`.
+- **EBNF:** `EarlyHelp = firstDonorFunction EarlyTransfiguration {firstDonorFunction EarlyTransfiguration} {heroReaction EarlyTransfiguration} {receiptOfMagicalAgent EarlyTransfiguration} | heroReaction EarlyTransfiguration {heroReaction EarlyTransfiguration} {receiptOfMagicalAgent EarlyTransfiguration} | receiptOfMagicalAgent EarlyTransfiguration {receiptOfMagicalAgent EarlyTransfiguration}`
 - **Literal meaning:** the hero equipped before he is needed. The helper is in hand when the misfortune comes, and the move is shorter for it.
 - **Cultural meaning:** *Draft.* Help won in advance by right conduct serves when need comes: a good deed is an investment.
 
-### `FloatingT`
+### `EarlyTransfiguration`
 
 - **Kind:** notation. **Level:** move.
-- **Holds:** any number of T, at the head of a move, inside `BeforeTheCrisis` since step 9.
+- **Holds:** any number of T, at the head of a move, inside `BeforeTheTrouble` since step 9.
 - **Warrant:** p.108: T is the most unstable function in relation to its position. As decided, T may stand anywhere in a move.
-- **Name:** this grammar's. **Corpus:** 0; no T stands before an opener in the corpus. **Tree test:** `T A K`, the T under `FloatingT`.
-- **Literal meaning:** none claimed. Since step 7 it holds only the T before a move's opener; after a function, a T stands in `Between`. Where a T hangs in the tree is only where the parser meets it. T's own meaning, transfiguration, belongs to the functions section when it is written.
+- **Name:** this grammar's; `FloatingT` before. **Corpus:** 0; no T stands before an opener in the corpus. **Tree test:** `T A K`, the T under `EarlyTransfiguration`.
+- **EBNF:** `EarlyTransfiguration = {transfiguration}`
+- **Literal meaning:** none claimed. Since step 7 it holds only the T before a move's opener; after a function, a T stands in `Digression`. Where a T hangs in the tree is only where the parser meets it. T's own meaning, transfiguration, belongs to the functions section when it is written.
 - **Cultural meaning:** *Draft.* None of its own; this is notation. Transfiguration's cultural meaning is given under `transfiguration`.
 
-### `Between`
+### `Digression`
 
 - **Kind:** notation. **Level:** move.
 - **Holds:** any number of T and of interrupting moves, in any order, after any function.
 - **Warrant:** p.108 for T; p.93 for the pause, methods 2 and 3.
-- **Name:** this grammar's. **Corpus:** 6, all of them T's; the move-level corpus has no interruption, since its derivation removes the markers. **Tree test:** `A K T`, the T under `Between`.
+- **Name:** this grammar's; `Between` before. **Corpus:** 6, all of them T's; the move-level corpus has no interruption, since its derivation removes the markers. **Tree test:** `A K T`, the T under `Digression`.
+- **EBNF:** `Digression = { transfiguration | EmbeddedMove }`
 - **Literal meaning:** none claimed of its own. It is the slot between two functions where the two things that can come between them stand: a transfiguration, whose place is free, and another move.
 - **Cultural meaning:** *Draft.* None of its own. It marks the points where a story can pause, for a change of appearance or for another story.
 
-### `InterruptingMove`
+### `EmbeddedMove`
 
 - **Kind:** group, the one recursive production. **Level:** move, inside a move.
 - **Holds:** a whole move, bracketed ⟨ ... ⟩, which may itself hold interrupting moves to any depth.
 - **Warrant:** p.93: "a development which has begun pauses, and a new move is inserted" (method 2), and "an episode may also be interrupted in its turn" (method 3). Ch. IX n.4 designates the interruption by dots with an indication of which move breaks the thread.
-- **Name:** this grammar's. **Corpus:** 4 interruptions in 3 of the 45 tales, from `embedCorpus.py`: move III inside 138 II, move II inside 159 I, move IV inside 159 III, and move II inside 162 I. **Tree test:** `A ⟨ a K ⟩ K`, the `a` under `InterruptingMove` and the last K not.
+- **Name:** this grammar's; `InterruptingMove` before. **Corpus:** 4 interruptions in 3 of the 45 tales, from `embedCorpus.py`: move III inside 138 II, move II inside 159 I, move IV inside 159 III, and move II inside 162 I. **Tree test:** `A ⟨ a K ⟩ K`, the `a` under `EmbeddedMove` and the last K not.
+- **EBNF:** `EmbeddedMove = interruptionBegins move interruptionEnds`
 - **Literal meaning:** a story told inside a story. The hero's first undertaking stops, a new misfortune is met and resolved in full, and the first undertaking resumes where it stopped. It is the one place the grammar is not regular: a move can hold a move.
 - **Cultural meaning:** *Draft.* Duty can interrupt one's own quest. The hero sets the first aim aside to meet another misfortune in full, then returns to finish it: responsibility and perseverance.
 
-### `CrisisToLiquidation`
+### `TroubleToLiquidation`
 
 - **Kind:** span, the A–K pair as a constituent. **Level:** move.
 - **Holds:** the complication, the donor episode and the fight, then the liquidation.
 - **Warrant:** p.53: liquidation, together with villainy, constitutes a pair, and the narrative reaches its peak in it. Finding FP: a distant pair can be a constituent one level up.
-- **Name:** this grammar's, widened from VillainyToLiquidation because the span also covers a lack and a move opened on B. **Corpus:** 80. **Tree test:** `A B C up D E F G H I K`, both A and K under `CrisisToLiquidation`.
+- **Name:** this grammar's; `CrisisToLiquidation` before, itself widened from VillainyToLiquidation because the span also covers a lack and a move opened on B. **Corpus:** 80. **Tree test:** `A B C up D E F G H I K`, both A and K under `TroubleToLiquidation`.
+- **EBNF:** `TroubleToLiquidation = complication Development {liquidation Digression}`
 - **Literal meaning:** the misfortune and its undoing, the core of every move. Everything inside it is the hero's way from the one to the other.
 - **Cultural meaning:** *Draft.* The core promise to the young: a wrong can be put right by one who acts rightly, and the hero's own action undoes the loss.
 
@@ -195,15 +213,17 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** the opener, dispatch B, counteraction C and departure ↑, and an untested agent on either side of the departure.
 - **Warrant:** pp.64-65: villainy, dispatch, decision for counteraction and departure "(ABC↑), constitute the complication". The untested agent inside it is step 6's placement, as decided.
 - **Name:** Propp's. **Corpus:** 80. **Tree test:** `A B C up`, both B and ↑ under `complication`.
+- **EBNF:** `complication = MoveTrigger Digression {mediation Digression} {beginningCounteraction Digression} [UntestedAcquisition] [ departure Digression {departure Digression} [UntestedAcquisition] ]`
 - **Literal meaning:** the misfortune made known and the hero setting out. Since step 6 it also holds what the hero takes with him, or picks up on the road, without earning it.
 - **Cultural meaning:** *Draft.* Answering the call. When the household's loss is made known, the worthy young accept the task and leave home to set it right; the hero chooses to act, and does not wait to be led.
 
-### `MoveOpener`
+### `MoveTrigger`
 
 - **Kind:** choice. **Level:** move.
 - **Holds:** one of A, a or B.
 - **Warrant:** p.92 for villainy and lack; p.37: where no villainy occurs, the connective incident opens the move.
-- **Name:** this grammar's; v43 split at the root instead, and the choice is kept here. **Corpus:** 80: villainy in 53, lack in 26, the connective incident in one, 133 II. **Tree test:** `B C up`, the B under `MoveOpener`, and `A B C`, where the later B is not.
+- **Name:** this grammar's; `MoveOpener` before; v43 split at the root instead, and the choice is kept here. **Corpus:** 80: villainy in 53, lack in 26, the connective incident in one, 133 II. **Tree test:** `B C up`, the B under `MoveTrigger`, and `A B C`, where the later B is not.
+- **EBNF:** `MoveTrigger = villainy | lack | mediation`
 - **Literal meaning:** the kind of move. A villainy is harm done from outside; a lack is something missing from within. The type is read off every tree as this group's child.
 - **Cultural meaning:** *Draft.* The two summonses to action: a wrong done to the family by an enemy, and a want the young feel for themselves that sends them out.
 
@@ -213,6 +233,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** a run of F with no donor's test before it.
 - **Warrant:** p.108: the transference of a magical agent sometimes occurs before the hero leaves home, "cudgels, ropes, maces, and so forth, given by the father". Step 6's merge adds the agent that comes to hand on the road with no test.
 - **Name:** v43's. **Corpus:** 17. **Tree test:** `A C F up K`, the F under `UntestedAcquisition` and under `complication`.
+- **EBNF:** `UntestedAcquisition = receiptOfMagicalAgent Digression {receiptOfMagicalAgent Digression}`
 - **Measured:** Counted by `agentForms.py` and pinned by a test. At home, before the departure, 12 cells in 11 moves: transferred 6, prepared 5, bought 1; none found, appearing, seized or offering service. On the road, 10 cells in 10 moves: transferred 4, appears 3, pointed out 1, prepared 1, offers service 1. The agent at home comes by ordinary human means; on the road, fortune may bring it.
 - **Literal meaning:** an agent received without being earned. It is a father's gift or a find, and it belongs to setting out rather than to a donor episode.
 - **Cultural meaning:** *Draft.* Accept a father's gift or the favor of fortune, and honor it. Not every advantage must be earned, but every one must be used rightly.
@@ -223,6 +244,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** the donor episode, spatial transference G and the fight.
 - **Warrant:** editorial. No page groups these; the span is what lies between the complication and the liquidation.
 - **Name:** this grammar's. **Corpus:** 65. **Tree test:** `A D E F G H I K`, the G under `Development` and the K not.
+- **EBNF:** `Development = [TestedAcquisition] {spatialTransference Digression} StruggleAndOutcome`
 - **Literal meaning:** a reading aid: the hero's way from setting out to the undoing of the misfortune. It claims nothing about Propp.
 - **Cultural meaning:** *Draft.* A reading aid; culturally, the going out into the wider world, where the young meet helpers and adversaries.
 
@@ -232,16 +254,18 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** the donor's test D, the hero's reaction E, and the agent F they earn.
 - **Warrant:** p.65: DEF "also form something of a whole".
 - **Name:** v43's; before step 6, Vetting. **Corpus:** 32. **Tree test:** `A D E F`, the F under `TestedAcquisition` and not under `UntestedAcquisition`.
+- **EBNF:** `TestedAcquisition = firstDonorFunction Digression {firstDonorFunction Digression} {heroReaction Digression} {receiptOfMagicalAgent Digression} | heroReaction Digression {heroReaction Digression} {receiptOfMagicalAgent Digression}`
 - **Measured:** Counted by `agentForms.py` and pinned by a test. 35 cells in 28 moves: transferred 8, offers service 7, pointed out 4, seized 3, appears 3, found 2, prepared 1, bought 1, and 6 with no form marked. Every seizure in the corpus falls here, 3 of 3, and 7 of the 8 offers of service.
 - **Literal meaning:** the agent earned. A donor tests the hero, the hero responds, and the agent is his reward. It opens on the test, or on the hero's reaction when the test is omitted.
 - **Cultural meaning:** *Draft.* Honor the donor. Courtesy, kindness and a kept word earn the power to succeed, and the hero never cheats a friendly donor of what was agreed. Against a hostile or deceitful donor guile is allowed, since Propp binds the seizure of an agent to hostile tests (pp.46-47): good faith is owed to good faith.
 
-### `Combat`
+### `StruggleAndOutcome`
 
 - **Kind:** group, around the pair H–I. **Level:** move.
 - **Holds:** struggle H, branding J and victory I.
 - **Warrant:** p.104, the struggle scheme H J I; p.64 lists struggle-victory as a pair.
-- **Name:** this grammar's. **Corpus:** 32. **Tree test:** `A H J I K`, the J under `Combat`.
+- **Name:** this grammar's; `Combat` before. **Corpus:** 32. **Tree test:** `A H J I K`, the J under `StruggleAndOutcome`.
+- **EBNF:** `StruggleAndOutcome = {struggle Digression} {branding Digression} {victory Digression}`; with `+tragedy`, `StruggleAndOutcome = {struggle Digression} {branding Digression} StruggleOutcome`
 - **Literal meaning:** the hero fights the villain, is marked, and wins. The mark is what will identify him later (see J–Q under Dependencies).
 - **Cultural meaning:** *Draft.* Courage. The hero meets the adversary face to face and carries the mark of the fight.
 
@@ -251,6 +275,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** the return journey, the ordeal and the endgame.
 - **Warrant:** editorial.
 - **Name:** this grammar's. **Corpus:** 68. **Tree test:** `A K down`, the ↓ under `AfterLiquidation`.
+- **EBNF:** `AfterLiquidation = ReturnJourney Ordeal Endgame`
 - **Literal meaning:** a reading aid: what follows once the misfortune is undone, as the hero comes home and his claim is settled.
 - **Cultural meaning:** *Draft.* A reading aid; culturally, coming home and taking one's due place.
 
@@ -260,6 +285,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** return ↓, then pursuit and rescue.
 - **Warrant:** editorial; the pursuit–rescue pair inside it has a page.
 - **Name:** v43's. **Corpus:** 43. **Tree test:** `A K down Pr Rs`, the Pr under `ReturnJourney`.
+- **EBNF:** `ReturnJourney = {return Digression} Evasion`
 - **Literal meaning:** the way home and its dangers.
 - **Cultural meaning:** *Draft.* The task is not done when the prize is won; it must be brought home safely.
 
@@ -269,6 +295,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** pursuit and rescue, in either order.
 - **Warrant:** p.64 lists pursuit-deliverance as a pair; p.147 gives the inverted order.
 - **Name:** v43's. **Corpus:** 14. **Tree test:** `A K down Pr Rs`, the Rs under `Evasion`.
+- **EBNF:** `Evasion = [ PursuitFirst | RescueFirst ]`
 - **Literal meaning:** the hero is chased and escapes. The two orders are the two ways Propp's corpus tells it.
 - **Cultural meaning:** *Draft.* Resourcefulness under threat: escape by wit, and by the help one has earned.
 
@@ -278,6 +305,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** pursuit, then rescue, then an optional fight after the pursuit.
 - **Warrant:** p.64 for the pair; p.107 for the fight after it.
 - **Name:** this grammar's. **Corpus:** 13. **Tree test:** `A K Pr Rs`, the Pr under `PursuitFirst`.
+- **EBNF:** `PursuitFirst = pursuit Digression {pursuit Digression} {rescue Digression} LateStruggle`
 - **Literal meaning:** the villain pursues the hero and the hero is saved.
 - **Cultural meaning:** *Draft.* Vigilance after success: a defeated enemy may return.
 
@@ -287,15 +315,17 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** rescue, then pursuit, then an optional fight after the pursuit.
 - **Warrant:** p.147, on tale 150: "Humorous inversion: the villain runs away instead of the hero; the hero pursues [Rs-Pr]".
 - **Name:** this grammar's. **Corpus:** 1, 150 II. **Tree test:** `A K Rs Pr`, the Rs under `RescueFirst`.
+- **EBNF:** `RescueFirst = rescue Digression {rescue Digression} [ pursuit Digression {pursuit Digression} LateStruggle ]`
 - **Literal meaning:** the roles reversed, with the villain fleeing and the hero giving chase. Built into the grammar, it holds for every tale, not only humorous ones.
 - **Cultural meaning:** *Draft.* The villain made ridiculous. The roles reverse for laughter at the adversary's expense.
 
-### `CombatAfterPursuit`
+### `LateStruggle`
 
 - **Kind:** group. **Level:** move.
 - **Holds:** struggle H, branding J and victory I, after a pursuit.
 - **Warrant:** p.107: "In tales 93 and 159 the fight with the villain takes place only after pursuit."
-- **Name:** this grammar's. **Corpus:** 1, 93 III. **Tree test:** `A K down Pr J`, the J under `CombatAfterPursuit`.
+- **Name:** this grammar's; `CombatAfterPursuit` before. **Corpus:** 1, 93 III. **Tree test:** `A K down Pr J`, the J under `LateStruggle`.
+- **EBNF:** `LateStruggle = {struggle Digression} {branding Digression} {victory Digression}`
 - **Literal meaning:** the fight displaced to the end: the villain is defeated only when he has chased the hero home.
 - **Cultural meaning:** *Draft.* Standing one's ground at last: the hero turns and defeats the pursuer.
 
@@ -305,6 +335,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** the false hero's posture, then the task.
 - **Warrant:** editorial.
 - **Name:** v43's, less the recognition, which exchanges in the endgame since step 3. **Corpus:** 13. **Tree test:** `A K o L M N`, the M under `Ordeal`, and `A K o L M N Q`, where the Q is not.
+- **EBNF:** `Ordeal = FraudPosture TaskAndSolution`
 - **Literal meaning:** a reading aid: the trial of the hero's claim after he returns.
 - **Cultural meaning:** *Draft.* A reading aid; culturally, proving one's claim at home against rivals.
 
@@ -314,15 +345,17 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** unrecognized arrival o, then unfounded claims L.
 - **Warrant:** p.104: unrecognized arrival and unfounded claims shift between the two summed schemes together.
 - **Name:** v43's. **Corpus:** 7. **Tree test:** `A K o L`, the L under `FraudPosture`.
+- **EBNF:** `FraudPosture = {unrecognizedArrival Digression} {unfoundedClaims Digression}`
 - **Literal meaning:** the hero arrives unknown and a false hero claims his deed. The question of who the hero is gets opened.
 - **Cultural meaning:** *Draft.* Humility and patience. The true hero may come home unrecognized and see another take the credit, and must let the truth come out rather than grasp at it.
 
-### `TaskCycle`
+### `TaskAndSolution`
 
 - **Kind:** group, around the pair M–N. **Level:** move.
 - **Holds:** difficult task M, branding J and solution N. The J comes only after a task.
 - **Warrant:** p.104, the task scheme M J N, set in the position H J I holds in the other scheme. The J only after M is the repair v44's own comment names, applied at step 5.
-- **Name:** v43's. **Corpus:** 9. **Tree test:** `A K M J N`, the J under `TaskCycle` and not under `Combat`.
+- **Name:** this grammar's; v43's `TaskCycle` before. **Corpus:** 9. **Tree test:** `A K M J N`, the J under `TaskAndSolution` and not under `StruggleAndOutcome`.
+- **EBNF:** `TaskAndSolution = [ difficultTask Digression {difficultTask Digression} {branding Digression} ] {solution Digression}`
 - **Literal meaning:** the hero is set a hard task and solves it. The task is the other road to the same end as the fight, and p.104 sets the two schemes in the same position.
 - **Cultural meaning:** A demonstration of successful problem solving by the hero: the solution validates the hero's status as the hero.
 
@@ -332,21 +365,22 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** recognition Q, exposure Ex, punishment U and wedding W, in any order.
 - **Warrant:** p.108: "Recognition and exposure, marriage and punishment may also exchange positions", on finding FN's reading that the four exchange among themselves.
 - **Name:** v44's word for the span. **Corpus:** 38. **Tree test:** `A K U Q W`, both U and Q under `Endgame`.
+- **EBNF:** `Endgame = { ( recognition | exposure | punishment | wedding ) Digression }`
 - **Literal meaning:** the settling of accounts. The hero is recognized, the false hero exposed and punished, and the hero rewarded. The order of the settling is free.
 - **Cultural meaning:** *Draft.* The certainty of just deserts. The worthy are recognized and rewarded, the false exposed and punished, and the young are assured that right conduct wins.
 
 ## Dependencies, not productions
 
 **J–Q: the mark and the recognition.**
-Branding J (XVII) falls inside `CrisisToLiquidation`, and recognition Q (XXVII) falls outside it, so the two spans cross, and a single tree cannot hold both (finding FP).
-A–K is the constituent, and J–Q is carried as a dependency: the J in `Combat` marks the hero whom the Q in `Endgame` recognizes.
+Branding J (XVII) falls inside `TroubleToLiquidation`, and recognition Q (XXVII) falls outside it, so the two spans cross, and a single tree cannot hold both (finding FP).
+A–K is the constituent, and J–Q is carried as a dependency: the J in `StruggleAndOutcome` marks the hero whom the Q in `Endgame` recognizes.
 Its meaning is the thread across the move: the wound or ring of the fight is the proof that settles the hero's claim at the end.
 
 ## Extensions, commented out
 
 Two extensions from v43 are overlaid on v46 and shipped commented out, as decided (step 10), and a second tragic variant joined them (step 11). They are not part of the grammar as it stands, so they have no entries above; switched on, they add these.
 
-- **`TragicFall`, with `CombatEnd` and the defeat sign I-.** *Literal meaning:* the combat ends not in victory but in the hero's defeat, exposure and punishment. *Cultural meaning, v43's reading:* tragedy is not a separate genre but the shadow of the warrior tale, the same rising action with force failing; to lose the conflict is to be revealed as not the hero one claimed. *Warrant:* v43's proposal, not Propp's; no page licenses it and no corpus tests it.
+- **`TragicFall`, with `StruggleOutcome` and the defeat sign I-.** *Literal meaning:* the combat ends not in victory but in the hero's defeat, exposure and punishment. *Cultural meaning, v43's reading:* tragedy is not a separate genre but the shadow of the warrior tale, the same rising action with force failing; to lose the conflict is to be revealed as not the hero one claimed. *Warrant:* v43's proposal, not Propp's; no page licenses it and no corpus tests it.
 - **`LateFall`, with the reversal sign Rv (step 11).** *Literal meaning:* a move that succeeds, the lack liquidated or the task solved and the queen married, and then turns: recognition, exposure and punishment fall on the hero. *Cultural meaning, draft:* success is not safe from its own consequences; a hero who has taken what was forbidden, like Prometheus the fire, or who has done unknowingly what may not be done, like Oedipus, is brought down after triumph. It is the tragic ending of the Greek myths that end in punishment, reached by the same Proppian road as the triumphant tale. *Warrant:* Aristotle's reversal and recognition (*peripeteia* and *anagnorisis*, *Poetics*), not Propp. The combat fall of `TragicFall` and the fall after success are the two tragic variants: one where force fails, one where success itself is overturned. *Success is a matter of perspective:* Propp defines each function by its meaning for the hero (p.81), so from Prometheus's side taking the fire liquidates humanity's lack and the punishment is a reversal, while from Zeus's side the same events are a villainy and the villain's punishment, an ordinary Proppian tale v46 already accepts. The reversal sign marks the choice to tell the fallen figure's tale, which is why the grammar does not require a success before it. *Scope, untested:* together the two variants are meant to cover the endings of Greek myth, of myth generally, and of any genre not bound to a happy ending, Proppian at the core with the ending turned; this is speculation until a corpus of such tales is transcribed and run.
 - **`consequenceTale`, with `DundesMove`, `DundesEvent` and `consequence`.** *Literal meaning:* a tale of another genre, in which no lack or villainy drives the action and no hero undoes it: a prohibition broken or an irreversible act, then a consequence, a punishment or a permanent change to the world, and perhaps an attempted escape from it. *Cultural meaning, draft:* the explanation of how things came to be as they are, and a warning that some acts cannot be undone. *Warrant:* Dundes (1964) for Interdiction, Violation, Consequence and Attempted Escape, in that order; the irreversible act and the environmental shift are v43's editorial additions.
 
@@ -398,31 +432,31 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** I, β. **Page:** p.26. **Propp's name:** absentation.
 - **What happens:** a member of the family leaves home, the elders going out to work or to trade; the death of parents is its intensified form.
-- **Group:** `preparatorySection`, or inside `interdictionViolation` when told after the interdiction. **Pairs:** none; it is the one preparatory function outside every pair. **Corpus:** 0.
-- **Literal meaning:** the protection of the home is withdrawn. Propp notes that the elders' absence itself prepares the misfortune (p.27).
-- **Cultural meaning:** *Draft.* When the elders leave, the young are on their own; the tale begins at that moment of exposure.
+- **Group:** `preparatorySection`, or inside `RuleViolation` when told after the interdiction. **Pairs:** none; it is the one preparatory function outside every pair. **Corpus:** 0.
+- **Literal meaning:** the protection of the home is withdrawn. Propp notes that the elders' absence itself prepares the misfortune (p.27). This is a right of passage into adulthood.
+- **Cultural meaning:** when the elders leave, the young are on their own; the tale begins at that moment of exposure.  This is a right of passage into adulthood, and the necessary collapse of parental authority that forces the initiate into the wild zone where the trial must happen.
 
 ### `interdiction`
 
 - **Number and sign:** II, γ. **Page:** p.26. **Propp's name:** interdiction.
 - **What happens:** the hero is forbidden something; in the inverted form, he is ordered or advised to do something.
-- **Group:** `interdictionViolation`. **Pairs:** with violation, γ-δ (p.80; p.64). **Corpus:** 0.
+- **Group:** `RuleViolation`. **Pairs:** with violation, γ-δ (p.80; p.64). **Corpus:** 0.
 - **Literal meaning:** a rule is laid down whose breaking will let harm in.
-- **Cultural meaning:** *Draft.* Listen to the warnings of the elders.
+- **Cultural meaning:** Listen to the warnings of the elders. This is the cultural boundary that defines safety versus dangerous autonomy.
 
 ### `violation`
 
 - **Number and sign:** III, δ. **Page:** p.27. **Propp's name:** violation.
 - **What happens:** the interdiction is broken; in the inverted form, the order is carried out.
-- **Group:** `interdictionViolation`. **Pairs:** with interdiction; it may stand without it (p.27). **Corpus:** 0.
+- **Group:** `RuleViolation`. **Pairs:** with interdiction; it may stand without it (p.27). **Corpus:** 0.
 - **Literal meaning:** the breach through which the villain enters. Propp observes that interdictions are always broken (p.30).
-- **Cultural meaning:** *Draft.* Transgression has consequences, and it is also how the young step into a story of their own.
+- **Cultural meaning:** Transgression has consequences, and it is also how the young step into a story of their own. Humanity must cross the boundary to grow; staying safe yields no narrative (and no adult maturity).
 
 ### `reconnaissance`
 
 - **Number and sign:** IV, ε. **Page:** p.28. **Propp's name:** reconnaissance.
 - **What happens:** the villain tries to find something out, such as where the children are or where a precious object is kept.
-- **Group:** `reconnaissanceDelivery`. **Pairs:** with delivery, ε-ζ (p.80; p.64). **Corpus:** 0.
+- **Group:** `InformationGathering`. **Pairs:** with delivery, ε-ζ (p.80; p.64). **Corpus:** 0.
 - **Literal meaning:** the villain enters the tale and looks for his way in.
 - **Cultural meaning:** *Draft.* The enemy is watching for weakness.
 
@@ -430,7 +464,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** V, ζ. **Page:** p.28. **Propp's name:** delivery.
 - **What happens:** the villain receives information about his victim.
-- **Group:** `reconnaissanceDelivery`. **Pairs:** with reconnaissance; it may stand without it, as a careless act (p.29). **Corpus:** 0.
+- **Group:** `InformationGathering`. **Pairs:** with reconnaissance; it may stand without it, as a careless act (p.29). **Corpus:** 0.
 - **Literal meaning:** the victim is laid open to the villain.
 - **Cultural meaning:** *Draft.* Keep the household's secrets.
 
@@ -438,7 +472,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** VI, η. **Page:** p.29. **Propp's name:** trickery.
 - **What happens:** the villain, often disguised, tries to deceive the victim in order to take possession of him or his belongings.
-- **Group:** `trickeryComplicity`. **Pairs:** with complicity, η-θ (p.80). **Corpus:** 0.
+- **Group:** `DeceptionTrap`. **Pairs:** with complicity, η-θ (p.80). **Corpus:** 0.
 - **Literal meaning:** deceit, the villain's instrument before force.
 - **Cultural meaning:** *Draft.* Beware the pleasant stranger in disguise.
 
@@ -446,7 +480,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** VII, θ. **Page:** p.30. **Propp's name:** complicity.
 - **What happens:** the victim is taken in by the deception and so unwittingly helps the enemy.
-- **Group:** `trickeryComplicity`. **Pairs:** with trickery; it may stand without it, as falling asleep unprompted (p.30). **Corpus:** 0.
+- **Group:** `DeceptionTrap`. **Pairs:** with trickery; it may stand without it, as falling asleep unprompted (p.30). **Corpus:** 0.
 - **Literal meaning:** the victim's own act opens the way to harm. Propp observes that deceitful proposals are always accepted (p.30).
 - **Cultural meaning:** *Draft.* Gullibility serves the enemy, and the victim shares the responsibility.
 
@@ -454,7 +488,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** VIII, A. **Page:** p.30; its forms run to p.34. **Propp's name:** villainy.
 - **What happens:** the villain causes harm or injury to a member of the family.
-- **Group:** `MoveOpener`, in the complication. **Pairs:** with liquidation, A-K, the pair that spans the move (p.53). **Corpus:** 53, the opener of each.
+- **Group:** `MoveTrigger`, in the complication. **Pairs:** with liquidation, A-K, the pair that spans the move (p.53). **Corpus:** 53, the opener of each.
 - **Measured:** Counted by `villainy.py` and pinned by a test. Of the 55 moves opened by villainy, the villain abducts a person in 19, expels someone in 6, torments at night in 4, spoils the crops and declares war in 3 each, maims, plunders, murders, casts into the sea and casts a spell in 2 each, and seven other forms occur once; 4 are written in roman subforms not decoded here. The typical crime is taking a person, often a daughter, sister or bride. Expulsion, the second most frequent, is Propp's own example of the villain inside the family: a stepmother drives out her stepdaughter (p.33), and he marks two forms, forced marriage and cannibalism, with subforms among relatives (p.34).
 - **Literal meaning:** the misfortune from outside that sets a move going. Propp calls the function exceptionally important, since the actual movement of the tale is created by it (p.30).
 - **Cultural meaning:** *Draft.* A wrong that demands an answer: injury to the family must be met.
@@ -463,7 +497,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** VIIIa, a. **Page:** p.35. **Propp's name:** lack.
 - **What happens:** a member of the family lacks something or desires to have something: a bride, a magical agent, a marvel.
-- **Group:** `MoveOpener`, in the complication. **Pairs:** with liquidation, as villainy does. **Corpus:** 26, the opener of each.
+- **Group:** `MoveTrigger`, in the complication. **Pairs:** with liquidation, as villainy does. **Corpus:** 26, the opener of each.
 - **Literal meaning:** the misfortune from within. It does the work of villainy, leading to a quest in the same way (p.34), and a move begun from it is undone by the same liquidation.
 - **Cultural meaning:** *Draft.* A legitimate want, a bride, a wonder, the means of life, as a reason to go out and win it.
 
@@ -471,7 +505,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** IX, B. **Page:** p.36. **Propp's name:** mediation, the connective incident.
 - **What happens:** the misfortune or lack is made known; the hero is asked or commanded, and is allowed to go or is sent.
-- **Group:** `complication`, as the dispatch; `MoveOpener`, where no villainy occurs and it opens the move (p.37). **Pairs:** none. **Corpus:** 41, one of them, 133 II, as an opener.
+- **Group:** `complication`, as the dispatch; `MoveTrigger`, where no villainy occurs and it opens the move (p.37). **Pairs:** none. **Corpus:** 41, one of them, 133 II, as an opener.
 - **Measured:** Counted by `dispatch.py` and pinned by a test. Of the 43 moves carrying B, the hero is called in 6 (B1), sent in 9 (B2), allowed to go in 8 (B3) and told of the misfortune in 12 (B4); the victimized hero is transported from home in 4 (B5) and lamented in 1 (B7), and never secretly freed (B6). Three more carry B in another function's form, at 144 I, 163 I and 164 II (p.67). Only B2, 9 of the 40 moves with a form, is plain sending by command or request. The Corpus figure of 41 counts the moves v46 accepts; the other two, 126 II and 137 II, are among the four it rejects.
 - **Literal meaning:** the hero is drawn in. It connects the misfortune to the one who will act on it.
 - **Cultural meaning:** *Draft.* The need is made known and the way out is opened; the answering is the hero's. In most forms the one who brings the news or gives leave does not command, and the young one volunteers.
@@ -488,7 +522,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XI, ↑. **Page:** p.39. **Propp's name:** departure.
 - **What happens:** the hero leaves home.
-- **Group:** `complication`, which it closes; or `LeavingFirst`, before the crisis (p.107). **Pairs:** none named, though it faces the return. **Corpus:** 66.
+- **Group:** `complication`, which it closes; or `EarlyLeaving`, before the crisis (p.107). **Pairs:** none named, though it faces the return. **Corpus:** 66.
 - **Literal meaning:** setting out. With villainy, dispatch and counteraction it completes the complication (pp.64-65).
 - **Cultural meaning:** *Draft.* Leave home to make one's own way.
 
@@ -496,7 +530,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XII, D. **Page:** p.39. **Propp's name:** the first function of the donor.
 - **What happens:** the hero is tested, questioned or attacked, which prepares the way for his receiving a magical agent or helper.
-- **Group:** `TestedAcquisition`, which it opens; or `HelperFirst`, before the crisis (p.107). **Pairs:** its forms are bound to the forms of F (pp.46-47). **Corpus:** 31.
+- **Group:** `TestedAcquisition`, which it opens; or `EarlyHelp`, before the crisis (p.107). **Pairs:** its forms are bound to the forms of F (pp.46-47). **Corpus:** 31.
 - **Literal meaning:** the test. The donor probes whether the hero is worthy of help.
 - **Cultural meaning:** *Draft.* Be courteous and kind to strangers, the old, the weak and animals: one is always being tested.
 
@@ -504,7 +538,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XIII, E. **Page:** p.42. **Propp's name:** the hero's reaction.
 - **What happens:** the hero reacts to the actions of the future donor, well or badly.
-- **Group:** `TestedAcquisition`, which it opens when the test is omitted; or `HelperFirst`, before the crisis (p.107). **Pairs:** with the test it answers. **Corpus:** 32.
+- **Group:** `TestedAcquisition`, which it opens when the test is omitted; or `EarlyHelp`, before the crisis (p.107). **Pairs:** with the test it answers. **Corpus:** 32.
 - **Literal meaning:** the hero's answer to the test, which decides whether help is given.
 - **Cultural meaning:** *Draft.* The right response to the test, politeness, compassion, sharing, a kept word; here the tale's ethics are taught most plainly.
 
@@ -512,7 +546,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XIV, F. **Page:** p.43. **Propp's name:** provision or receipt of a magical agent.
 - **What happens:** the hero acquires the use of a magical agent: an animal, an object, a quality.
-- **Group:** `TestedAcquisition` after a test or reaction; `UntestedAcquisition` otherwise, in the complication (step 6); or `HelperFirst`, before the crisis (p.107). **Pairs:** its forms are bound to the forms of D (pp.46-47). **Corpus:** 40; the tested agent appears in 32 moves and the untested in 17.
+- **Group:** `TestedAcquisition` after a test or reaction; `UntestedAcquisition` otherwise, in the complication (step 6); or `EarlyHelp`, before the crisis (p.107). **Pairs:** its forms are bound to the forms of D (pp.46-47). **Corpus:** 40; the tested agent appears in 32 moves and the untested in 17.
 - **Measured:** Counted by `agentForms.py` over the 84 move-strings, the parked cells left of A excluded, and pinned by a test. Of 57 F cells, 35 are tested (after a D or E), 12 untested before the departure, and 10 untested on the road. THREE FINDINGS: (1) an agent received at home never comes by chance or by magic: all 12 are transferred (6), prepared (5) or bought (1), and none is found, appears, is seized or offers service; (2) seizure follows a test every time, 3 of 3, as Propp binds seizure to a hostile preparation (pp.46-47); (3) an offer of service follows a test 7 times in 8, the grateful creature repaying the hero's mercy. On the road, 3 of 10 untested agents appear of their own accord. The counts are small, and "tested" means a D or E came earlier in the move.
 - **Literal meaning:** the means of undoing the misfortune. Earned from a donor, it is a reward; received without a test, from a father or by finding, it comes with the setting out.
 - **Cultural meaning:** *Draft.* Help earned is power. Those who behave rightly are equipped by others, and what was promised in return is paid.
@@ -529,7 +563,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XVI, H. **Page:** p.51. **Propp's name:** struggle.
 - **What happens:** the hero and the villain join in direct combat.
-- **Group:** `Combat`, or `CombatAfterPursuit` after a pursuit (p.107). **Pairs:** with victory, H-I (p.64). **Corpus:** 25.
+- **Group:** `StruggleAndOutcome`, or `LateStruggle` after a pursuit (p.107). **Pairs:** with victory, H-I (p.64). **Corpus:** 25.
 - **Literal meaning:** the confrontation with the villain himself.
 - **Cultural meaning:** *Draft.* Face the adversary.
 
@@ -537,7 +571,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XVII, J. **Page:** p.52. **Propp's name:** branding, marking.
 - **What happens:** the hero is marked: wounded in the fight, or given a ring or a towel.
-- **Group:** `Combat` in the fight; `TaskCycle` after a task (p.104; step 5); `CombatAfterPursuit` after a pursuit. **Pairs:** with recognition, J-Q, the one crossing pair, carried as a dependency. **Corpus:** 2.
+- **Group:** `StruggleAndOutcome` in the fight; `TaskAndSolution` after a task (p.104; step 5); `LateStruggle` after a pursuit. **Pairs:** with recognition, J-Q, the one crossing pair, carried as a dependency. **Corpus:** 2.
 - **Literal meaning:** the sign by which the hero will be known. It is rare in the corpus and central to the end, since it is what recognition reads.
 - **Cultural meaning:** *Draft.* Bear the marks of what you have done; they will vouch for you.
 
@@ -545,7 +579,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XVIII, I. **Page:** p.53. **Propp's name:** victory.
 - **What happens:** the villain is defeated, in combat, in a contest, or by other means.
-- **Group:** `Combat`, or `CombatAfterPursuit`. **Pairs:** with struggle; it may stand without it (p.29). **Corpus:** 33.
+- **Group:** `StruggleAndOutcome`, or `LateStruggle`. **Pairs:** with struggle; it may stand without it (p.29). **Corpus:** 33.
 - **Literal meaning:** the villain's power broken.
 - **Cultural meaning:** *Draft.* Right prevails.
 
@@ -553,7 +587,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XIX, K. **Page:** p.53. **Propp's name:** none given; he designates it K and describes it as the liquidation of the initial misfortune or lack.
 - **What happens:** the initial misfortune or lack is undone: the object seized, the spell broken, the dead revived, the captive freed.
-- **Group:** `CrisisToLiquidation`, which it closes. **Pairs:** with villainy, A-K; Propp says the narrative reaches its peak in it (p.53). **Corpus:** 47.
+- **Group:** `TroubleToLiquidation`, which it closes. **Pairs:** with villainy, A-K; Propp says the narrative reaches its peak in it (p.53). **Corpus:** 47.
 - **Literal meaning:** the undoing of the misfortune, the point every move is heading for.
 - **Cultural meaning:** *Draft.* Set right what was wronged and restore what was lost; Propp calls it the tale's peak (p.53).
 
@@ -601,7 +635,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XXV, M. **Page:** p.60. **Propp's name:** difficult task.
 - **What happens:** a difficult task is proposed to the hero: an ordeal, a riddle, a test of strength or endurance.
-- **Group:** `TaskCycle`. **Pairs:** with solution, M-N, set in the scheme where H-I stands in the other (p.104). **Corpus:** 9.
+- **Group:** `TaskAndSolution`. **Pairs:** with solution, M-N, set in the scheme where H-I stands in the other (p.104). **Corpus:** 9.
 - **Literal meaning:** the hero's worth tested by trial rather than by combat. Propp finds it typical of a second move (p.104).
 - **Cultural meaning:** *Draft.* Prove yourself worthy of the bride and the position.
 
@@ -609,7 +643,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XXVI, N. **Page:** p.62. **Propp's name:** solution.
 - **What happens:** the task is accomplished; a solution before the task is set Propp designates *N (p.62).
-- **Group:** `TaskCycle`. **Pairs:** with difficult task; it may stand without it, as the preliminary solution (commentary p.145). **Corpus:** 9.
+- **Group:** `TaskAndSolution`. **Pairs:** with difficult task; it may stand without it, as the preliminary solution (commentary p.145). **Corpus:** 9.
 - **Literal meaning:** the trial passed.
 - **Cultural meaning:** *Draft.* Competence proven: success validates the hero's status, as the task cycle shows.
 
@@ -633,7 +667,7 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 
 - **Number and sign:** XXIX, T. **Page:** pp.62-63. **Propp's name:** transfiguration.
 - **What happens:** the hero is given a new appearance: new garments, a palace, a handsome form.
-- **Group:** none; it stands in `FloatingT` before an opener or in `Between` after any function, since Propp calls it the most unstable function in relation to its position (p.108). **Pairs:** none. **Corpus:** 6.
+- **Group:** none; it stands in `EarlyTransfiguration` before an opener or in `Digression` after any function, since Propp calls it the most unstable function in relation to its position (p.108). **Pairs:** none. **Corpus:** 6.
 - **Literal meaning:** the hero's new estate made visible. Its free place is itself a finding: it is the one function whose position means nothing.
 - **Cultural meaning:** *Draft.* Worth made visible: the hero comes to look like what the hero is.
 
@@ -659,9 +693,9 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 Two terminals of v46 are elements Propp names but does not number, so they stand outside the functions above.
 
 - **`initialSituation`, α.** p.25: the tale usually begins with some initial situation, the members of a family enumerated or the future hero introduced; it is not a function, but an important morphological element. In v46 it stands at the beginning of the tale only, outside every move. **Corpus:** 0, since the move-strings carry none.
-- **`preliminaryMisfortune`, λ.** Appendix I Table II item 44, p.121: a misfortune that compels the victim's assent within the deceitful agreement. In v46 it stands inside `trickeryComplicity`, between trickery and complicity. **Corpus:** 0.
+- **`preliminaryMisfortune`, λ.** Appendix I Table II item 44, p.121: a misfortune that compels the victim's assent within the deceitful agreement. In v46 it stands inside `DeceptionTrap`, between trickery and complicity. **Corpus:** 0.
 
-The six remaining terminals, `/`, `⟨`, `⟩`, `<`, `Y` and `}`, are signs of how moves combine, and their meaning is given under `tale`, `LaterMoves`, `InterruptingMove`, `Parting` and `CommonEnding`.
+The six remaining terminals, `/`, `⟨`, `⟩`, `<`, `Y` and `}`, are signs of how moves combine, and their meaning is given under `tale`, `FollowingMoves`, `EmbeddedMove`, `Parting` and `CommonEnding`.
 
 ## Dramatis personae
 
@@ -680,7 +714,7 @@ Each entry gives Propp's sphere and page, the functions he assigns it, the group
 ### `hero`
 
 - **Propp's sphere:** 6, p.80. **Functions:** `beginningCounteraction` (C), `departure` (↑), `heroReaction` (E), `wedding` (W*). Propp: C is characteristic of the seeker-hero; the victim-hero performs only the rest.
-- **Acts in:** `complication`, `TestedAcquisition` and `HelperFirst`, `Endgame`. **Corpus:** 79.
+- **Acts in:** `complication`, `TestedAcquisition` and `EarlyHelp`, `Endgame`. **Corpus:** 79.
 - **From Propp:** p.81: characters are defined not by what they want or feel but by "their deeds as such, evaluated and defined from the viewpoint of their meaning for the hero and for the course of the action". To that extent the hero-centered reading is Propp's own method, not speculation.
 - **From Propp:** pp.36-38: after a villainy the narrative follows either the one who goes in search, a seeker, or the one seized or driven out, a victimized hero, and no tale in Propp's material follows both (p.36). The forms of mediation tell which: B1-B4 refer to the seeker and B5-B7 to the victimized hero (p.37), and the decision to act, C, belongs only to tales whose hero is a seeker (p.38).
 - **Measured:** Counted by `heroType.py` and pinned by a test; it reproduces the first project's findings BM and BO. Of the 32 tales carrying B, 26 follow a seeker and 3 a victimized hero, tales 95, 98 and 101; 3 carry B only in forms without a variety digit, and none follows both, as p.36 says. Of the 37 moves in which B and the departure stand together, 30 are seeker moves and 4 victim moves. The decision to act divides less cleanly than p.38 says: C stands in 27 of the 30 seeker moves and in 3 of the 4 victim moves. The seeker is the usual hero, 26 tales to 3; the victimized hero is Propp's own, and rare.
@@ -691,7 +725,7 @@ Each entry gives Propp's sphere and page, the functions he assigns it, the group
 ### `princessAndFather`
 
 - **Propp's sphere:** 4, pp.79-80. **Functions:** `difficultTask` (M), `branding` (J), `exposure` (Ex), `recognition` (Q), `punishment` (U), `wedding` (W). Propp: the princess and her father "cannot be exactly delineated from each other according to functions"; most often the father assigns the tasks, from hostility to the suitor, and punishes the false hero.
-- **Acts in:** `TaskCycle`, `Combat` for the branding, `Endgame`. **Corpus:** 38.
+- **Acts in:** `TaskAndSolution`, `StruggleAndOutcome` for the branding, `Endgame`. **Corpus:** 38.
 - **Place in the social order:** *Draft.* Second, and peripheral to the hero's story. The king is the head of state and of the family, a placeholder until the next generation succeeds, who assigns the tasks and grants the kingdom. The princess chooses the hero, but is defined by her role as his mate and the mother of his line.
 - **Literal meaning:** the sought-for person and her father, who set the hard task, mark the hero, recognize the true hero and expose the false one, punish the impostor, and give the marriage.
 - **Cultural meaning:** *Draft.* The house the hero joins. The king assigns and grants, the princess chooses, and the outcome is never in doubt. The tales bend both roles freely: the king may favor or resist the hero, and the princess may choose at once or require to be won. Two earlier readings survive as the range within which the tales vary: *succession and exchange*, the father controlling who marries into the house and so who inherits, and *judgment and agency*, the princess marking, recognizing and exposing, so that the true hero is known through her discernment.
@@ -699,7 +733,7 @@ Each entry gives Propp's sphere and page, the functions he assigns it, the group
 ### `dispatcher`
 
 - **Propp's sphere:** 5, p.80. **Functions:** `mediation` (B), the dispatch.
-- **Acts in:** `complication`, and `MoveOpener` when the connective incident opens a move. **Corpus:** 41.
+- **Acts in:** `complication`, and `MoveTrigger` when the connective incident opens a move. **Corpus:** 41.
 - **From Propp:** the dispatcher's sphere holds the dispatch alone (p.80), and its seven forms name who fills it (pp.36-38). The call for help usually comes from the tsar (B1). With leave to depart the initiative often comes from the hero, not from a dispatcher, and the parents bless (B3). The misfortune is announced more often by old women or persons met by chance than by parents (B4). The banished daughter is taken to the forest by her father, whose act Propp calls logically unnecessary: the tale demands parent-senders (B5, p.37). The hero condemned to death is freed by a cook or an archer (B6), and the lament is sung by a surviving brother (B7).
 - **Measured:** Counted by `dispatch.py` and pinned by a test; the forms are tallied under `mediation`. In 31 of the 40 moves where B carries a form, the dispatcher calls, permits, announces, transports or laments; only in 9 is the hero sent outright, by command or request.
 - **Place in the social order:** *Draft.* Third as a role, but mixed in rank as a person. The sphere is filled by the tsar, by parents, by old women and strangers met on the road, by a cook or an archer, and by a brother. A role filled from so wide a range of rank marks the dispatcher as a minor character: a role defined by one moment, the push out of the door, rather than by who performs it.
@@ -709,7 +743,7 @@ Each entry gives Propp's sphere and page, the functions he assigns it, the group
 ### `donor`
 
 - **Propp's sphere:** 2, p.79. **Functions:** `firstDonorFunction` (D), `receiptOfMagicalAgent` (F).
-- **Acts in:** `TestedAcquisition`, `HelperFirst`, and, when the agent comes with no test, `UntestedAcquisition`. **Corpus:** 45.
+- **Acts in:** `TestedAcquisition`, `EarlyHelp`, and, when the agent comes with no test, `UntestedAcquisition`. **Corpus:** 45.
 - **Place in the social order:** *Draft.* Fourth. The elder or the outsider of power who judges the hero and endows him.
 - **Measured:** From the donor's side, counted by `agentForms.py` and pinned by a test: the tested agent is the donor's gift, 35 cells in 28 moves. The father's gift at home, where the father is dispatcher and donor at once (p.81), is always given, made or bought, 12 of 12. Seizure, 3 of 3, comes only after a test, which is where Propp binds it to a hostile donor (pp.46-47). An offer of service comes after a test 7 times in 8: the donor repays the hero's kindness.
 - **Literal meaning:** the one who tests the hero and provides the magical agent.
@@ -718,7 +752,7 @@ Each entry gives Propp's sphere and page, the functions he assigns it, the group
 ### `helper`
 
 - **Propp's sphere:** 3, p.79. **Functions:** `spatialTransference` (G), `liquidation` (K), `rescue` (Rs), `solution` (N), `transfiguration` (T).
-- **Acts in:** `Development`, `CrisisToLiquidation`, `Evasion`, `TaskCycle`, and `FloatingT` or `Between` for T. **Corpus:** 68.
+- **Acts in:** `Development`, `TroubleToLiquidation`, `Evasion`, `TaskAndSolution`, and `EarlyTransfiguration` or `Digression` for T. **Corpus:** 68.
 - **From Propp:** p.82: living things, objects and qualities "function in exactly the same manner"; Propp calls the living ones magical helpers and the objects and qualities magical agents. A carpet that carries the hero is the same, morphologically, as a horse that does, and so is the hero's own acquired ability to become a falcon. He distinguishes three kinds: universal helpers, which can perform all five functions, and in his material only the steed; partial helpers, such as animals, spirits appearing out of rings, and what the English translation calls "various tempters"; and specific helpers, performing one function, which are objects only. HELPERS CAN BE PEOPLE: the little iron peasant who rewards Ivan and then helps kill the dragon is donor and helper at once (p.80), and the "tempters" of the English may render a Russian word for skilled or wonder-working people, which has still to be checked against the Russian.
 - **Measured:** Counted by `agentForms.py --helper` and pinned by a test. Of the 84 moves, 43 receive an agent and 41 do not. Transference follows the gift: it occurs in 16 of the 43 (37%) against 9 of the 41 (22%), as in Propp's own example of the flying horse and carpet. The other helper functions show no such difference, and liquidation is less common where an agent is received, 24 of 43 against 27 of 41. APPENDIX III RECORDS FUNCTIONS, NOT PERFORMERS, so the corpus cannot say who performed a helper's function, the helper or the hero; that would take reading the tales.
 - **Place in the social order:** *Draft.* Fifth. The sidekick: a Sancho Panza to Don Quixote, a Tonto to the Lone Ranger.
@@ -738,7 +772,7 @@ Each entry gives Propp's sphere and page, the functions he assigns it, the group
 ### `villain`
 
 - **Propp's sphere:** 1, p.79. **Functions:** `villainy` (A), `struggle` (H), `pursuit` (Pr).
-- **Acts in:** `MoveOpener`, `Combat` and `CombatAfterPursuit`, `Evasion`. **Corpus:** 62.
+- **Acts in:** `MoveTrigger`, `StruggleAndOutcome` and `LateStruggle`, `Evasion`. **Corpus:** 62.
 - **From Propp:** the villain's sphere is villainy, struggle and pursuit (A, H, Pr; p.79), and it does not include punishment. Punishment belongs to the sphere of the princess and her father, as "punishment of a second villain", and Propp adds that the father "frequently punishes (or orders punished) the false hero" (pp.79-80). So the first villain is met by the hero in combat and defeated; the liar inside the order is judged by its head.
 - **Measured:** Counted by `villainy.py` and pinned by a test. Of the 84 moves, 55 open on villainy and 28 on lack. In the villainy moves the harm is undone (K) in 65%, the villain fought (H) in 35%, defeated (I) in 42%, pursues (Pr) in 20%, and punishment (U) stands in 20%; lack moves run lower on combat, 21% struggle and 36% victory. The tale's business with the villain is undoing the harm, and his own end is often not marked. U does not say who is punished, and a dragon killed in combat is a victory, not a punishment.
 - **Place in the social order:** *Draft.* Lowest. Despised: the enemy of the order.
