@@ -177,3 +177,12 @@ Speech S284 (lines 1290-1315) carries no speaker in the source; it follows Teuce
 117 events, 30 told as past, numbered in order and cited in the order of telling; a cast of 26, each name once; hero Ajax, in 85 events, far ahead of Teucer and Tecmessa.
 The lister gave speech S284, which the source names no speaker for, to Teucer from its content.
 It counted Menelaus and Agamemnon each where the text says "the Atreidae", rather than making the pair a group, and, as at P09, left gods only prayed to out of the cast.
+
+**P13, Ajax, from `master` at a643a6d: both transcriptions in form; sealed, not scored.**
+Both cover all 117 events, A in 132 entries and B in 126, in seven moves each; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`, with pairs joined by semicolons or commas.
+The reports show judgment calls at gaps, not departures: the request rule against γ, threats and conditional curses written X, and which small lacks open moves.
+
+**Correction to the P09 entry: the mixed-event wording has been read both ways.**
+At P09 transcriber A gave no entry to a non-function act in an event that also holds a function; at P13 transcriber A gives it its own X. The P09 entry said every play was transcribed under one reading; the wording is the same throughout, but the reading is not.
+The frozen measures are untouched by it: `tragedyScore.py` drops every X entry before measuring (`kept`), and coverage counts events with a kept function entry, not entries, so an added X in an event that has a function changes no score.
+It does change X counts, so the X analysis of the building-block plan must count events with no function entry, not X entries, which reads both transcriptions alike.
