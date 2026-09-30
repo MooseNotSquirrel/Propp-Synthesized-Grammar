@@ -1,0 +1,27 @@
+Agreement.txt -- risk check 3, frozen 2026-09-30 before the code is written:
+do the two transcribers find the same blocks in the same story?
+
+THE WORRY: the block effect is pooled over stories and transcribers. If the
+blocks were artifacts of each transcriber's labelling, A and B would each
+show blocks, but in different places.
+
+THE MEASURE: each version is run through blockStream.py's transform, and each
+block is taken with the set of event numbers its functions come from. A block
+AGREES when the other transcriber's version of the same story has a block of
+the same entry, reversed or not alike, whose events overlap it. Agreement is
+the share of all blocks, A's and B's together, that agree (a Dice share).
+Versions are matched by identifier; a single-hero story labelled with "/1"
+by one transcriber and without it by the other is the same version.
+
+THE COMPARISON: A's blocks as transcribed against B's with B's functions
+marked Y shuffled in place within each version, 200 shuffles, seed 46; the
+agreement computed the same way each time.
+
+THE CORPORA AND READINGS: the training fables, the held-out fables and
+tragedy P01-P04; the blocks and strict readings. The sealed plays are not
+read.
+
+THE DECISION RULE, per corpus and reading: the transcribers AGREE BEYOND
+CHANCE if the real agreement exceeds the shuffled mean with at most 10 of 200
+shuffles at or above it; otherwise they do NOT. Reported with the agreement
+by entry for the entries with at least five blocks; no overall verdict.
