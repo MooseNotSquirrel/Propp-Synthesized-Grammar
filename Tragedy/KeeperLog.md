@@ -201,3 +201,6 @@ Both cover all 78 events, A in 78 entries and B in 79, and both keep the whole p
 Every performer and undergoer is a name from `Cast.txt`, or two of them joined, now in a fourth way: transcriber A writes "Clytaemnestra and Aegisthus" three times. The character spheres must read "and", commas and semicolons alike.
 As at P02, transcriber B kept its generating script in a scratch folder outside the repository, against its prompt; it was not committed, and its output folder holds only the two files.
 The reports show the familiar gaps: the request rule against γ and B, F− for a requester who is not the hero, whether "later" means in the telling, and whether a reply that changes nothing matters.
+
+**P15, Euripides's Suppliants: set up in Coleridge's own wording.**
+As with P09 and P11, the English file is Coleridge's translation without the Perseus modernization. The play shares its title with P07, Aeschylus's *Suppliants*, and tells another story; the prompts name the author, and the lister and transcribers open only this play's files.
