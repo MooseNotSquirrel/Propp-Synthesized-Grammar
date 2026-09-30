@@ -1,0 +1,23 @@
+# FableEBNF01.txt -- the fable grammar, written by fableGrammar.py; see its header.
+# A fable is one or more episodes. An episode opens on one lead or want, then
+# runs through three ranks in order, each optional and repeatable: scheme,
+# result, close. A second lead or want opens a new episode; the first episode
+# may also open on a scheme (η, ε, L) or a harm (A). Tokens are v46's.
+
+fable        = FirstEpisode {Episode}
+FirstEpisode = LeadOpen | WantOpen | SchemeOpen | HarmOpen
+Episode      = LeadOpen | WantOpen
+LeadOpen     = lead Scheme Result Close
+WantOpen     = want Scheme Result Close
+SchemeOpen   = schemeOpener Scheme Result Close
+HarmOpen     = harmOpener Result Close
+Scheme       = {scheme}
+Result       = {result}
+Close        = {close}
+lead         = 'α' | 'up' | 'β'
+want         = 'a' | 'B'
+scheme       = 'ε' | 'ζ' | 'η' | 'λ' | 'θ' | 'L' | 'H' | 'Pr' | 'Rs' | 'D' | 'E' | 'C' | 'M' | 'J' | 'o' | 'δ'
+result       = 'A' | 'F' | 'G' | 'I' | 'I-' | 'K' | 'N' | 'down'
+close        = 'Ex' | 'U' | 'Q' | 'W' | 'T' | 'γ'
+schemeOpener = 'η' | 'ε' | 'L'
+harmOpener   = 'A'

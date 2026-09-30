@@ -1,0 +1,62 @@
+FablePrediction.txt -- the held-out test of the fable grammar, frozen before
+the held-out fables are drawn, listed or transcribed.
+
+THE CLAIM, speculation and not Propp's: Aesop's fables follow a grammar of
+their own, built from Propp's functions in an order of their own: a fable is
+one or more episodes, each opening on a want (or, first, on a lead, a scheme
+or a harm) and running on through a scheme, a result and a close, in that
+order. Its kernel is the villain's want, the trick and the victim's
+complicity, then the harm.
+
+THE GRAMMAR: FableEBNF01.txt, written by fableGrammar.py from the order the
+drawn sample's fables follow (the Aesop repository's keeper/FableShapes.txt,
+both transcribers), and committed with this file. It is not changed after
+this commit.
+
+THE TRAINING FIGURES, on the drawn sample of 100 fables (versions of two or
+more functions marked Y, whole fable, moves ignored), measured before this
+file was written:
+                   fable grammar                 v46, free move breaks
+  transcriber A    74.7% real, 43.1% shuffled    63.7% real, 43.8% shuffled
+                   gap +31.6                     gap +20.0
+  transcriber B    75.9% real, 42.1% shuffled    65.5% real, 43.7% shuffled
+                   gap +33.7                     gap +21.8
+The grammar was drawn from these fables, so they overstate it.
+
+THE HELD-OUT FABLES: 100 drawn by fableDraw.py with random.Random(3401) from
+the 210 fables of Fables.txt in neither the drawn sample (Sample.txt) nor the
+pilot (Pilot.txt) of the Aesop test, in batches of 25 in drawn order sorted.
+A fable whose event list names no events is dropped, as F261 was.
+
+THE INSTRUMENT, unchanged: AesopRules.md as the Aesop test used it, with its
+definitions card and pilot amendments; the event-listing prompt's rules word
+for word; two fresh listers on Opus, each a half of the fables; transcriber
+A on Opus and B on Sonnet, blind to each other; the event lists merged as
+events/Notes.md records the first merge. The transcription runs in a new
+repository holding only the transcriber half, so that neither the grammar,
+this file nor the Aesop result is within a transcriber's reach.
+
+THE STREAMS: blockStream.py's, as for the training figures: each version's
+functions marked Y, in the order of its Notes.txt, moves ignored.
+
+THE MEASURES, per transcriber, over the held-out versions of two or more
+functions marked Y:
+  acceptance   the share FableEBNF01.txt accepts at `fable`;
+  gap          acceptance minus the mean acceptance of the same streams
+               shuffled in place, 1000 shuffles, seed 46;
+  v46's gap    the same for v46 with +tragedy,reversal, a version passing
+               when its stream splits into consecutive stretches accepted
+               at `move`, the first also at `tale` (fableGrammar.py's
+               v46_ok, the reading most favorable to Propp).
+
+THE CLAIM HOLDS if, for BOTH transcribers:
+  1. acceptance is at least 65%;
+  2. the gap is at least 20 points;
+  3. the gap exceeds v46's gap.
+It fails otherwise. The thresholds are set below the training figures, which
+overstate the grammar: 65% is ten points under training acceptance, and 20
+points is about two thirds of the training gap.
+
+REPORTED, NOT JUDGED: the same measures by length band (2, 3-4, 5+); the
+block streams of blockStream.py for the held-out fables, all three
+readings, against their shuffles; agreement between the transcribers.
