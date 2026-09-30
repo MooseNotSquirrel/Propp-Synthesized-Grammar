@@ -13,3 +13,7 @@ Rewriting the example would change the instrument, and a redraw is a step the fr
 **The transcriber repository holds only the transcriber half.**
 `AesopRules.md` is byte-identical to the Aesop test's; the event-listing prompts are the Aesop prompts' rules word for word, regenerated with the new fables (the method was checked by regenerating the original e1 prompt exactly); the transcription prompts are the Aesop prompts with the fable lists and output folders changed.
 Neither the grammar, the prediction nor the Aesop result is in that repository.
+
+**The events stage, from master at 15f11e3: in form.**
+99 fables, 462 events, every fable with events numbered from 1 and one hero line. The replies were split into `Events.txt` and `Heroes.txt` by line format; the one merge change of the first Aesop run was applied, sixteen ties the second report names written "X; Y". No fable dropped.
+The second lister counted the one addressed by a speech act as taking part, so most two-character dialogue fables came out as ties; the first lister counted the same way and wrote its ties with a semicolon. Ties mean two heroes and two transcriptions of those fables, as the rules provide.
