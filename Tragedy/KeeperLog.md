@@ -219,3 +219,8 @@ The cloud session reported its stop hook urging a commit while B was still runni
 
 **P16, Helen: three speaker labels misspelled in the source.**
 Besides 67 speeches labeled "Theoklymenos", the source labels one each "Thoeklymenos", "Theokylmenos" and "Theokylemnos"; as at P12, the text is extracted as the source gives it and not corrected, since the context makes the speaker plain.
+
+**Events stage, P16, Helen, from `master` at c1878d6: in form.**
+126 events, 42 told as past, numbered in order and cited in the order of telling; a cast of 48, each name once; hero Helen, in 61 events against 53 for Menelaos.
+The play's phantom Helen is its own cast member, and the lister counted it, not Helen, as the one taking part where others speak of Helen at Troy.
+As at P09 and P13, gods only invoked are left out of the cast; the lister's other uncertainties are the familiar ones: retellings, and myth told as comparison or in song.
