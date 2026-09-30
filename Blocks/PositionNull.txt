@@ -1,0 +1,26 @@
+PositionNull.txt -- risk check 2, frozen 2026-09-30 before the code is written:
+do Propp's blocks exceed a comparison that keeps each function's habits of
+position?
+
+THE WORRY: the plain shuffle scrambles every function freely, but stories
+have strong habits of position (a want early, a harm late). Two functions
+that tend to fall in the same part of a story will often sit together with
+no bond between them, and the plain shuffle counts that as a block effect.
+
+THE POSITIONAL NULL: for each shuffle of a version, every function marked Y
+draws a sort key at random from the relative positions, (i + 0.5) / n, that
+the same function takes in the other stories of the same corpus and
+transcriber, its own story left out (all versions of the same fable or play);
+a function found in no other story draws a key uniformly from 0 to 1. The
+functions are sorted by their keys and put back into the version's Y
+positions; transparent entries stay where they are. 200 shuffles, seed 46.
+
+THE CORPORA: the training fables (Aesop), the held-out fables (Propp-Fables)
+and tragedy P01-P04; the sealed plays are not read.
+
+THE DECISION RULE, per corpus, transcriber and reading (blocks, strict): the
+block effect SURVIVES the positional null if the real share of functions
+inside blocks exceeds the positional null's mean with at most 10 of 200
+shuffles at or above the real; it is WEAKENED if it exceeds the mean with
+more than 10; it is GONE if it does not exceed the mean. Reported for each
+cell, with the plain shuffle's figure beside it; no overall verdict.
