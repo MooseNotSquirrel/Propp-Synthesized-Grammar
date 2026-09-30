@@ -99,3 +99,9 @@ Both cover all 101 events, A in 101 entries and B in 103; the form check finds n
 The reports show judgment calls at gaps, not departures, and new ones from the play's form. Its backstory, the myth of Io told as proof of lineage, is full of acts that are functions by what they are, and the rules give no exception for embedded myth: transcriber A marked Hera's harm to Io as mattering, so it opens a move and the King's scenes fall inside it, while B marked it incidental, so it opens none.
 Transcriber A also notes that the relevance rule's clause for replies, that an act answering an earlier act matters, makes nearly every reply matter.
 The request rule against γ recurs, as in P06, at the herald's demands.
+
+**Events stage, P08, Electra, from `master` at de1b9c5: in form.**
+135 events, 37 told as past, numbered in order and cited in the order of telling; a cast of 36, each name once; hero Orestes.
+The hero is close: the lister counts Orestes in 62 events and Electra in 60, and reports that several of its own calls could tie or reverse that; a tie would still go to Orestes, who is in the last event and Electra is not.
+The count cannot be checked here, since the event format records no participants; the list is kept as the rule gave it, and the closeness is kept in view for P08's results.
+The lister's other uncertainties are those of earlier plays: retellings, choral myth, which exits count, and past or now for acts the night before.
