@@ -186,3 +186,7 @@ The reports show judgment calls at gaps, not departures: the request rule agains
 At P09 transcriber A gave no entry to a non-function act in an event that also holds a function; at P13 transcriber A gives it its own X. The P09 entry said every play was transcribed under one reading; the wording is the same throughout, but the reading is not.
 The frozen measures are untouched by it: `tragedyScore.py` drops every X entry before measuring (`kept`), and coverage counts events with a kept function entry, not entries, so an added X in an event that has a function changes no score.
 It does change X counts, so the X analysis of the building-block plan must count events with no function entry, not X entries, which reads both transcriptions alike.
+
+**P14, Sophocles's Electra: five speeches the source names no speaker for.**
+Speeches S010, S027, S115, S250 and S356 carry no speaker in the source; each is the second part of a speech the source splits, continuing Electra, Electra, the Paedagogus's report, Electra and the Paedagogus. `extract.py` labels them "(no speaker in the source)", adding nothing from outside the text.
+The play tells the story of P08, Euripides's *Electra*; the prompts name the author, and the lister and transcribers open only this play's files.
