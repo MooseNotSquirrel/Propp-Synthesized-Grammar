@@ -190,3 +190,8 @@ It does change X counts, so the X analysis of the building-block plan must count
 **P14, Sophocles's Electra: five speeches the source names no speaker for.**
 Speeches S010, S027, S115, S250 and S356 carry no speaker in the source; each is the second part of a speech the source splits, continuing Electra, Electra, the Paedagogus's report, Electra and the Paedagogus. `extract.py` labels them "(no speaker in the source)", adding nothing from outside the text.
 The play tells the story of P08, Euripides's *Electra*; the prompts name the author, and the lister and transcribers open only this play's files.
+
+**Events stage, P14, Sophocles's Electra, from `master` at 7574ea3: in form.**
+78 events, 14 told as past, numbered in order and cited in the order of telling; a cast of 17, each name once; hero Orestes, in 37 events against 36 for Electra, and in the last event, so a tie would still name him.
+Three plays have now had a hero decided by two events or fewer (P08 by 2, P10 by 1, P14 by 1), all of them Orestes against a sister. The rule is kept as frozen; for its next revision, a margin within which both are named, with the play transcribed once for each, would suit plays that follow two characters about equally.
+The lister's other uncertainties are the familiar ones: retellings, the false report listed as one event without its invented contents, and choral myth.
