@@ -148,3 +148,9 @@ As with P09, PerseusDL's English file is Coleridge's translation without the Per
 124 events, 43 told as past, numbered in order and cited in the order of telling; a cast of 40, each name once; hero Andromache, in 39 events against 35 for Hermione.
 The lister counted as taking part the future persons a god's prophecy names (Helenus, the Nereids), and an unnamed voice from the shrine as Apollo, on the messenger's blaming Phoebus.
 Its other uncertainties are the familiar ones: retellings, past or now at the prologue's edge, choral myth, and names for characters the text leaves unnamed.
+
+**P11, Andromache, from `master` at 23ed5c3: both transcriptions in form; sealed, not scored.**
+Both cover all 124 events, A in 127 entries and B in 125; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt` (B joins two names with a semicolon twice).
+The reports show judgment calls at gaps, not departures, but the two readings of the move rules now diverge widely: A reads "each new lack creates a new move" literally and splits the play into many moves, while B treats later harms and wants as the same harm or the want stated before and keeps four.
+The question of what "later" means in the relevance rule is now answered both ways across plays: at P08 transcriber A read it as later in the telling, and here transcriber A reads it as later in the story, so past acts told late are marked Y and open moves.
+Both points, with the request rule against γ, are for the rules' next revision; the move count is not scored until the held-out test, and these readings will bear on acceptance there.
