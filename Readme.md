@@ -82,6 +82,8 @@ The separator is editorial and follows Appendix III's layout of one row per move
 
 ## Next session: start here
 
+**Step 12, 2026-09-29, tagged `step12`: the groups take the catalog's permanent names, and no string changes.** Sixteen nonterminals are renamed (the mapping is in `StepTests.txt` at step 12, and each catalog entry's Name line gives its old name); *Early* in a name means before the move's trigger, *Late* after the liquidation. `python runSteps.py 12` prints 162 binding, 0 failed. The state below is otherwise unchanged, and it uses the old names.
+
 **State at the close of 2026-09-27: step 11, tagged `step11`, and nothing is half-done.**
 ALL THREE OF RULING 48'S TARGETS ARE MET.
 v46 accepts 80 of the 84 resolved move-strings, refusing only the four genuine counterexamples, 126 II, 127 I, 137 II and 138 III.
