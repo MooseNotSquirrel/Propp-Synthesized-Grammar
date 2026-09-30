@@ -1,6 +1,6 @@
 ProppEBNF46.txt: groups in the 80 accepted moves
-  CrisisToLiquidation      80
-  MoveOpener               80
+  MoveTrigger              80
+  TroubleToLiquidation     80
   complication             80
   move                     80
   AfterLiquidation         68
@@ -16,7 +16,7 @@ ProppEBNF46.txt: groups in the 80 accepted moves
   Endgame                  38
   wedding                  34
   victory                  33
-  Combat                   32
+  StruggleAndOutcome       32
   TestedAcquisition        32
   heroReaction             32
   firstDonorFunction       31
@@ -30,16 +30,16 @@ ProppEBNF46.txt: groups in the 80 accepted moves
   rescue                   14
   Ordeal                   13
   PursuitFirst             13
-  TaskCycle                 9
+  TaskAndSolution           9
   difficultTask             9
   solution                  9
   FraudPosture              7
   recognition               7
-  Between                   6
+  Digression                6
   transfiguration           6
   unfoundedClaims           6
   exposure                  5
   unrecognizedArrival       5
   branding                  2
-  CombatAfterPursuit        1
+  LateStruggle              1
   RescueFirst               1

@@ -10,7 +10,7 @@ function lands.
 It builds the table with parse.py, unchanged, and runs the same predictive
 parse, recording for every consumed token the chain of named nonterminals
 above it. The helper nonterminals parse.py makes when it expands EBNF carry
-'#' in their names, such as Combat_star#23, and are left out of the chain:
+'#' in their names, such as StruggleAndOutcome_star#23, and are left out of the chain:
 they are notation, not groups. The grammar must be LL(1); parse.py refuses
 to build a table for one that is not.
 

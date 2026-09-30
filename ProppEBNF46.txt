@@ -8,7 +8,7 @@
 #
 #   python runSteps.py N
 #
-# STATE: STEP 11. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
+# STATE: STEP 12. THE GRAMMAR IS CONTEXT-FREE AND LL(1), with no conflict.
 # Step 1 regrouped v44 into the pairs and groups Propp names. It ADDED NO
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
@@ -67,6 +67,10 @@
 # success, a reversal Rv closing a move, then recognition, exposure or
 # punishment turned on the hero, as Prometheus and Oedipus fall. Switched
 # on, alone or with the others, it keeps the grammar LL(1) and only adds.
+# Step 12 renames sixteen groups to the permanent names settled in
+# SemanticCatalog46.md, and changes no string: Early in a name means before
+# the move's trigger, Late after the liquidation. Each catalog entry's Name
+# line gives the name it had before; the steps above use the old names.
 #
 # Notation is v44's:
 #   A = x    a production: the nonterminal A is defined as x.
@@ -130,11 +134,11 @@
 # 133 II, follows a move ending D E F.
 
 tale                = [initialSituation] preparatorySection move
-                      LaterMoves
+                      FollowingMoves
 
 # --- how the moves of a tale combine: p.93, methods 1, 5 and 6 (step 8) ---
 # p.93 lists six methods of combining moves. Methods 2 and 3, interruption,
-# live inside the move (InterruptingMove). Method 1, one move after
+# live inside the move (EmbeddedMove). Method 1, one move after
 # another, is the repetition below. Methods 5 and 6 are tale-level:
 #   METHOD 5: "Two moves may have a common ending." Propp draws one closing
 #   brace across both moves with the ending to its right (125, 155). The
@@ -155,7 +159,7 @@ tale                = [initialSituation] preparatorySection move
 # Method 4, two villainies at once, is not built: its two A-K spans cross,
 # and no corpus case has been identified.
 
-LaterMoves          = [ moveBoundary move {moveBoundary move}
+FollowingMoves          = [ moveBoundary move {moveBoundary move}
                         [Parting] [CommonEnding]
                       | Parting [CommonEnding] ]
 
@@ -175,14 +179,14 @@ signaller           = 'Y'                   # Propp's sign, p.94
 commonEnding        = '}'                   # Propp's closing brace, as
                                             #   drawn in 125 and 155
 
-preparatorySection  = {absentation} interdictionViolation
-                      reconnaissanceDelivery trickeryComplicity
+preparatorySection  = {absentation} RuleViolation
+                      InformationGathering DeceptionTrap
                                             # Appendix I Table II, p.121, is
                                             #   titled The Preparatory
                                             #   Section; p.80 writes it as
                                             #   (β, γ-δ, ε-ζ, η-θ)
 
-interdictionViolation
+RuleViolation
                     = [ interdiction {interdiction} {absentation} ]
                       {violation}           # p.80 γ-δ; p.64's pairs list,
                                             #   prohibition-violation.
@@ -201,12 +205,12 @@ interdictionViolation
                                             #   and the production stays
                                             #   LL(1). v43's RuleViolation.
 
-reconnaissanceDelivery
+InformationGathering
                     = {reconnaissance} {delivery}
                                             # p.80 ε-ζ; p.64's pairs list.
                                             #   v43's InformationGathering.
 
-trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
+DeceptionTrap  = {trickery} {preliminaryMisfortune} {complicity}
                                             # p.80 η-θ. λ is inserted on
                                             #   Table II item 44's wording,
                                             #   which confines the
@@ -225,14 +229,14 @@ trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
 # p.92: a move is any development proceeding from villainy or lack,
 # through intermediary functions, to a denouement.
 #
-# THE MOVE TYPE IS DECIDED AT MoveOpener, NOT AT THE ROOT, a choice made
+# THE MOVE TYPE IS DECIDED AT MoveTrigger, NOT AT THE ROOT, a choice made
 # at step 1. v43 splits at the root, move = VillainyMove | LackMove, and
 # that was considered and set aside for one reason: Propp names exactly
 # one group in this span, the complication, "(ABC↑)" at pp.64-65, and a
 # root split would have to copy it, and the arc containing it, once per
 # opener, since a context-free grammar cannot pass the opener down to a
-# shared production. With the choice at MoveOpener, the type is still
-# read off every tree, as the child of MoveOpener, and the complication
+# shared production. With the choice at MoveTrigger, the type is still
+# read off every tree, as the child of MoveTrigger, and the complication
 # is one production. The root-split form accepts the same strings and is
 # equally LL(1) at its top, so nothing but the tree's shape rides on the
 # choice.
@@ -241,8 +245,8 @@ trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
 # relation to its position"; its most appropriate places are before or
 # after the punishment, or before the wedding, where it is most often
 # found. As decided, T may stand at any position in a move,
-# before its opener included, and it has no slot of its own. FloatingT
-# leads every move and Between follows every function, so any run of T's
+# before its opener included, and it has no slot of its own. EarlyTransfiguration
+# leads every move and Digression follows every function, so any run of T's
 # between two functions, or before the opener, has exactly one place to
 # go, and no LL(1) conflict arises. WHERE A T HANGS IN THE TREE IS WHERE
 # THE PARSER MEETS IT, NOT A GROUPING: attaching a T to the function before
@@ -252,21 +256,21 @@ trickeryComplicity  = {trickery} {preliminaryMisfortune} {complicity}
 # has begun pauses, and a new move is inserted" (method 2), and "an
 # episode may also be interrupted in its turn" (method 3). Ch. IX n.4
 # designates the interruption by dots with an indication of which move
-# breaks the thread. Between, the slot after every function, holds a T or
-# an InterruptingMove; FloatingT, before the opener, holds only a T, since
+# breaks the thread. Digression, the slot after every function, holds a T or
+# an EmbeddedMove; EarlyTransfiguration, before the opener, holds only a T, since
 # nothing pauses before it has begun. The inserted move is a full move, so
 # a move can hold a move to any depth, and THE GRAMMAR IS NO LONGER
-# REGULAR: move refers to itself through InterruptingMove.
+# REGULAR: move refers to itself through EmbeddedMove.
 # IT STAYS LL(1). The inserted move is bracketed by its own markers, ⟨ and
 # ⟩, so one token shows where it begins and where the interrupted move
 # resumes (finding FO point 4). The markers are this grammar's, not
 # Propp's: his < is the road marker of method 6. Where he prints <III> in
 # a move's row, the tale string carries move III itself, bracketed, at that
 # point (embedCorpus.py).
-# WITH InterruptingMove REMOVED, THE GRAMMAR IS EXACTLY STEP 6'S, which
-# equivCheck.py proves with --drop-b InterruptingMove.
+# WITH EmbeddedMove REMOVED, THE GRAMMAR IS EXACTLY STEP 6'S, which
+# equivCheck.py proves with --drop-b EmbeddedMove.
 
-move                = BeforeTheCrisis CrisisToLiquidation AfterLiquidation  #-reversal
+move                = BeforeTheTrouble TroubleToLiquidation AfterLiquidation  #-reversal
 
 # --- REVERSAL EXTENSION, the fall after success: COMMENTED OUT (step 11) ---
 # To switch it on: uncomment the three #+reversal lines below, removing the
@@ -297,11 +301,11 @@ move                = BeforeTheCrisis CrisisToLiquidation AfterLiquidation  #-re
 # to a happy ending, Proppian at the core with the ending turned. That is
 # speculation until a corpus of such tales is transcribed and run.
 # Switched on and tested, then commented out, as decided.
-#+reversal move                = BeforeTheCrisis CrisisToLiquidation AfterLiquidation [LateFall]
-#+reversal LateFall            = reversal Between ( recognition | exposure | punishment ) Between { ( recognition | exposure | punishment ) Between }
+#+reversal move                = BeforeTheTrouble TroubleToLiquidation AfterLiquidation [LateFall]
+#+reversal LateFall            = reversal Digression ( recognition | exposure | punishment ) Digression { ( recognition | exposure | punishment ) Digression }
 #+reversal reversal            = 'Rv'        # editorial: Aristotle's peripeteia
 
-FloatingT           = {transfiguration}     # p.108; before the opener only
+EarlyTransfiguration           = {transfiguration}     # p.108; before the opener only
 
 # --- before the crisis: p.107's inverted sequence (step 9) ---
 # p.107: elements DEF often stand before A, and this is "not a new, but
@@ -309,11 +313,11 @@ FloatingT           = {transfiguration}     # p.108; before the opener only
 # misfortune he liquidates; and the exit from home first, the hero learning
 # of the misfortune when already on the road. It is the last license of
 # pp.107-108 to be built in.
-# BeforeTheCrisis holds, before the opener, a T, then the departure
-# (LeavingFirst), then the donor sequence (HelperFirst). When both
+# BeforeTheTrouble holds, before the opener, a T, then the departure
+# (EarlyLeaving), then the donor sequence (EarlyHelp). When both
 # inversions occur the corpus's parked regions show the departure first
 # (137 I, 139 I, 154 I); p.107 gives them separately, so that order is this
-# grammar's choice. HelperFirst is tested when it opens on D or E and
+# grammar's choice. EarlyHelp is tested when it opens on D or E and
 # untested when it is F alone, as step 6 splits agents after the opener.
 # A T may follow each of these functions, but not an interruption, since
 # nothing pauses before a move begins (step 7). The opener separates all of
@@ -322,25 +326,25 @@ FloatingT           = {transfiguration}     # p.108; before the opener only
 # derivation still drops the parked cells left of A, as position-undetermined;
 # the grammar states the license, and the corpus verdicts do not move.
 
-BeforeTheCrisis     = FloatingT [LeavingFirst] [HelperFirst]
+BeforeTheTrouble     = EarlyTransfiguration [EarlyLeaving] [EarlyHelp]
                                             # p.107; editorial name
 
-LeavingFirst        = departure FloatingT {departure FloatingT}
+EarlyLeaving        = departure EarlyTransfiguration {departure EarlyTransfiguration}
                                             # p.107: the exit from home first
 
-HelperFirst         = firstDonorFunction FloatingT {firstDonorFunction FloatingT}
-                      {heroReaction FloatingT} {receiptOfMagicalAgent FloatingT}
-                    | heroReaction FloatingT {heroReaction FloatingT}
-                      {receiptOfMagicalAgent FloatingT}
-                    | receiptOfMagicalAgent FloatingT
-                      {receiptOfMagicalAgent FloatingT}
+EarlyHelp         = firstDonorFunction EarlyTransfiguration {firstDonorFunction EarlyTransfiguration}
+                      {heroReaction EarlyTransfiguration} {receiptOfMagicalAgent EarlyTransfiguration}
+                    | heroReaction EarlyTransfiguration {heroReaction EarlyTransfiguration}
+                      {receiptOfMagicalAgent EarlyTransfiguration}
+                    | receiptOfMagicalAgent EarlyTransfiguration
+                      {receiptOfMagicalAgent EarlyTransfiguration}
                                             # p.107: the helper received first
 
-Between             = { transfiguration | InterruptingMove }
+Digression             = { transfiguration | EmbeddedMove }
                                             # p.108 for T; p.93 for the
                                             #   pause. Editorial name.
 
-InterruptingMove    = interruptionBegins move interruptionEnds
+EmbeddedMove    = interruptionBegins move interruptionEnds
                                             # p.93 methods 2 and 3;
                                             #   Ch. IX n.4
 
@@ -354,15 +358,15 @@ InterruptingMove    = interruptionBegins move interruptionEnds
 # J-Q IS NOT A CONSTITUENT, AND CANNOT BE IN THE SAME TREE. Branding (J,
 # XVII) falls inside this span and recognition (Q, XXVII) outside it, so
 # the two spans cross (finding FP). J-Q is carried as a dependency only:
-# the J in Combat marks the hero whom the Q in Endgame recognizes.
+# the J in StruggleAndOutcome marks the hero whom the Q in Endgame recognizes.
 
-CrisisToLiquidation = complication Development {liquidation Between}
+TroubleToLiquidation = complication Development {liquidation Digression}
 
-complication        = MoveOpener Between
-                      {mediation Between}
-                      {beginningCounteraction Between}
+complication        = MoveTrigger Digression
+                      {mediation Digression}
+                      {beginningCounteraction Digression}
                       [UntestedAcquisition]
-                      [ departure Between {departure Between}
+                      [ departure Digression {departure Digression}
                         [UntestedAcquisition] ]
                                             # pp.64-65: villainy, dispatch,
                                             #   decision for counteraction
@@ -398,27 +402,27 @@ complication        = MoveOpener Between
 # reading with LL(1) would mean taking ↑ out of the complication, which
 # is the one group in this span Propp names.
 
-UntestedAcquisition = receiptOfMagicalAgent Between
-                      {receiptOfMagicalAgent Between}
+UntestedAcquisition = receiptOfMagicalAgent Digression
+                      {receiptOfMagicalAgent Digression}
                                             # p.108; v43's name
 
-MoveOpener          = villainy              # p.92
+MoveTrigger          = villainy              # p.92
                     | lack                  # p.92
                     | mediation             # p.37: where no villainy
                                             #   occurs, the connective
                                             #   incident opens the move
                                             #   (133 II)
 
-Development         = [TestedAcquisition] {spatialTransference Between}
-                      Combat
+Development         = [TestedAcquisition] {spatialTransference Digression}
+                      StruggleAndOutcome
 
-TestedAcquisition   = firstDonorFunction Between
-                      {firstDonorFunction Between}
-                      {heroReaction Between}
-                      {receiptOfMagicalAgent Between}
-                    | heroReaction Between
-                      {heroReaction Between}
-                      {receiptOfMagicalAgent Between}
+TestedAcquisition   = firstDonorFunction Digression
+                      {firstDonorFunction Digression}
+                      {heroReaction Digression}
+                      {receiptOfMagicalAgent Digression}
+                    | heroReaction Digression
+                      {heroReaction Digression}
+                      {receiptOfMagicalAgent Digression}
                                             # p.65: DEF "also form something
                                             #   of a whole". v43's name;
                                             #   before step 6, Vetting.
@@ -426,15 +430,15 @@ TestedAcquisition   = firstDonorFunction Between
                                             #   or on the hero's reaction,
                                             #   E, when D is omitted.
 
-Combat              = {struggle Between}      #-tragedy
-                      {branding Between}      #-tragedy
-                      {victory Between}       #-tragedy
+StruggleAndOutcome              = {struggle Digression}      #-tragedy
+                      {branding Digression}      #-tragedy
+                      {victory Digression}       #-tragedy
                                             # p.104, the struggle scheme
                                             #   H J I; H-I a pair, p.64
 
 # --- TRAGEDY EXTENSION, from v43: COMMENTED OUT (step 10) ---
 # To switch it on: uncomment the four #+tragedy lines below, removing the
-# '#+tragedy ' prefix, and comment out the three Combat lines above that
+# '#+tragedy ' prefix, and comment out the three StruggleAndOutcome lines above that
 # end in #-tragedy. runSteps.py does both in a copy for ProppEBNF46.txt+tragedy.
 # WHAT IT ADDS, from v43: a combat that ends in the hero's downfall rather
 # than victory. The struggle is engaged, and perhaps branded, as in a warrior
@@ -451,9 +455,9 @@ Combat              = {struggle Between}      #-tragedy
 # THIS IS v43's PROPOSAL, NOT PROPP'S: no page licenses it, and no corpus
 # tests it. Switched on and tested, then commented out, as
 # decided.
-#+tragedy Combat              = {struggle Between} {branding Between} CombatEnd
-#+tragedy CombatEnd           = {victory Between} | TragicFall
-#+tragedy TragicFall          = defeat Between exposure Between punishment Between
+#+tragedy StruggleAndOutcome              = {struggle Digression} {branding Digression} StruggleOutcome
+#+tragedy StruggleOutcome           = {victory Digression} | TragicFall
+#+tragedy TragicFall          = defeat Digression exposure Digression punishment Digression
 #+tragedy defeat              = 'I-'        # editorial, after v43's E- F- N-
 
 
@@ -464,7 +468,7 @@ Combat              = {struggle Between}      #-tragedy
 
 AfterLiquidation    = ReturnJourney Ordeal Endgame
 
-ReturnJourney       = {return Between} Evasion
+ReturnJourney       = {return Digression} Evasion
                                             # v43's name
 
 Evasion             = [ PursuitFirst | RescueFirst ]
@@ -473,7 +477,7 @@ Evasion             = [ PursuitFirst | RescueFirst ]
 
 # --- two licenses on the pursuit (step 4) ---
 # p.107: "In tales 93 and 159 the fight with the villain takes place
-# only after pursuit." CombatAfterPursuit lets the struggle group stand
+# only after pursuit." LateStruggle lets the struggle group stand
 # after a pursuit, and only after one.
 # p.147, on tale 150: "Humorous inversion: the villain runs away instead
 # of the hero; the hero pursues [Rs-Pr]." RescueFirst lets the rescue
@@ -481,38 +485,38 @@ Evasion             = [ PursuitFirst | RescueFirst ]
 # not only the humorous ones Propp names: that is the cost of
 # internalizing a license, and the page is its defense.
 # The two openings differ in their first symbol, so the choice between
-# them adds no conflict. CombatAfterPursuit's J is reachable only after a
+# them adds no conflict. LateStruggle's J is reachable only after a
 # pursuit, and since step 5 the task-run J only after a task, so its J
 # conflicts with neither.
 
-PursuitFirst        = pursuit Between {pursuit Between}
-                      {rescue Between}
-                      CombatAfterPursuit
+PursuitFirst        = pursuit Digression {pursuit Digression}
+                      {rescue Digression}
+                      LateStruggle
 
-RescueFirst         = rescue Between {rescue Between}
-                      [ pursuit Between {pursuit Between}
-                        CombatAfterPursuit ]
+RescueFirst         = rescue Digression {rescue Digression}
+                      [ pursuit Digression {pursuit Digression}
+                        LateStruggle ]
 
-CombatAfterPursuit  = {struggle Between}
-                      {branding Between}
-                      {victory Between}   # p.107; H J I as in Combat
+LateStruggle  = {struggle Digression}
+                      {branding Digression}
+                      {victory Digression}   # p.107; H J I as in StruggleAndOutcome
 
-Ordeal              = FraudPosture TaskCycle
+Ordeal              = FraudPosture TaskAndSolution
                                             # v43's name, less its closing
                                             #   recognition, which now
                                             #   exchanges in Endgame. No
                                             #   page groups these; for
                                             #   reading only.
 
-FraudPosture        = {unrecognizedArrival Between}
-                      {unfoundedClaims Between}
+FraudPosture        = {unrecognizedArrival Digression}
+                      {unfoundedClaims Digression}
                                             # v43's name; o and L shift
                                             #   between the two summed
                                             #   schemes together, p.104
 
-TaskCycle           = [ difficultTask Between {difficultTask Between}
-                        {branding Between} ]
-                      {solution Between}  # p.104, the task scheme M J N,
+TaskAndSolution           = [ difficultTask Digression {difficultTask Digression}
+                        {branding Digression} ]
+                      {solution Digression}  # p.104, the task scheme M J N,
                                             #   set in the position H J I
                                             #   holds in the other. p.64's
                                             #   pairs list does not name
@@ -526,7 +530,7 @@ TaskCycle           = [ difficultTask Between {difficultTask Between}
 # { 'M' {'J'} } {'N'}, and calls K J and Pr Rs J over-generation Propp
 # licenses in neither place; it was held back only because falsify44.py
 # could not read nested productions. A J with no task before it is now
-# the fight's, in Combat or CombatAfterPursuit, or out of order. The
+# the fight's, in StruggleAndOutcome or LateStruggle, or out of order. The
 # solution still stands without a task, as the preliminary solution *N
 # does (commentary p.145).
 
@@ -546,7 +550,7 @@ Endgame             = { ( recognition       # XXVII
                         | exposure          # XXVIII
                         | punishment        # XXX
                         | wedding           # XXXI
-                        ) Between }
+                        ) Digression }
 
 
 # ----------------------------------------------------------------------------
