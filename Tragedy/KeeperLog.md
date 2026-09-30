@@ -271,3 +271,8 @@ Transcriber A gave a non-function act its own X in a mixed event, as P13's A did
 
 **P20, Oedipus Tyrannus: two speeches the source names no speaker for, and one label misspelled.**
 Speeches S234 and S441 carry no speaker; each is the second part of a speech the source splits, continuing Oedipus and Creon, as at P14 and P19. Speech S210 is labeled "Icasta" for Iocasta, in a stichomythia with Oedipus. Nothing is corrected.
+
+**Events stage, P20, Oedipus Tyrannus, from `master` at 0a64756: in form.**
+113 events, 32 told as past, numbered in order and cited in the order of telling; a cast of 26, each name once; hero Oedipus, far ahead of all others.
+The lister gave the two unnamed speeches to Oedipus and Creon from their content, and recorded "Icasta" as another name for Iocasta. It listed the play's conflicting accounts (who exposed the child, robbers or one man) each as told, which suits the rule to list what the play tells.
+Unlike the P09, P13 and P16 listers, and like P05 and P07's, it put the gods named only in a prayer into the cast as its addressees.
