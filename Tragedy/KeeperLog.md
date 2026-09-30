@@ -249,3 +249,8 @@ The reports show the familiar gaps: orders as γ against the request rule, one h
 **Events stage, P18, Phoenissae, from `master` at 8746700: in form.**
 167 events, 57 told as past, numbered 1 to 167 without a gap and cited in the order of telling; a cast of 44, each name once; hero Polyneices, in 59 events against 51 for Eteocles.
 The runner flagged that the lister's report cites an event 184. The files are consistent; the report's event numbers are stale from about event 70 on, running some 20 above the file's (its 146-147 are the file's 126-127, its 163 is 149, its 166 is 146, its 184 is 162), as if written from an earlier draft before events were merged. The report is not an input to transcription, whose prompts open only the rules, text, events, cast and hero, and the hero margin is too wide for the merge to have changed the hero. The report is kept as written.
+
+**P18, Phoenissae, from `master` at 7d08956: both transcriptions in form; sealed, not scored.**
+Both cover all 167 events, A in 173 entries and B in 176, in 14 and 13 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`, joined in pairs in many fields.
+Both transcribers counted to 167, which confirms, as the events check found, that the lister's "event 184" was a stale number in its report.
+The reports show the familiar gaps, at the play's scale: functions the card defines for the hero given to others (A says it may not have drawn the line consistently), two opposed heroes in the duel, whether a vow carried out later is X, and whether a demand undoing an earlier harm opens a move. Transcriber A read the mixed-event wording as P09's A did.
