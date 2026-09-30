@@ -261,27 +261,27 @@
 6-6 | under | ProppEBNF46.txt "A C F up K" 2 complication | step 6: the untested agent belongs to the setting out
 6-6 | under | ProppEBNF46.txt "A up F G" 2 UntestedAcquisition | step 6: an agent that comes to hand on the road with no test
 6-6 | under | ProppEBNF46.txt "A up F G" 2 complication | step 6: the untested agent after the departure stays with the setting out
-6 | under | ProppEBNF46.txt "A B C up D E F G H I K" 0 CrisisToLiquidation | p.53: liquidation together with villainy constitutes a pair; the villainy opens the span
-6 | under | ProppEBNF46.txt "A B C up D E F G H I K" 10 CrisisToLiquidation | p.53: the liquidation closes it
-6 | notunder | ProppEBNF46.txt "A K down Pr Rs" 2 CrisisToLiquidation | p.53: the return falls after the liquidation, outside the A-K span
+6-11 | under | ProppEBNF46.txt "A B C up D E F G H I K" 0 CrisisToLiquidation | p.53: liquidation together with villainy constitutes a pair; the villainy opens the span
+6-11 | under | ProppEBNF46.txt "A B C up D E F G H I K" 10 CrisisToLiquidation | p.53: the liquidation closes it
+6-11 | notunder | ProppEBNF46.txt "A K down Pr Rs" 2 CrisisToLiquidation | p.53: the return falls after the liquidation, outside the A-K span
 6 | under | ProppEBNF46.txt "A B C up" 1 complication | pp.64-65: (ABC↑) constitute the complication
 6 | under | ProppEBNF46.txt "A B C up" 3 complication | pp.64-65: the departure closes the complication
 6 | under | ProppEBNF46.txt "A K" 0 villainy | p.92: the move type is read at the opener
 6 | under | ProppEBNF46.txt "a K" 0 lack | p.92
-6 | under | ProppEBNF46.txt "B C up" 0 MoveOpener | p.37: the connective incident opens a move where no villainy occurs
-6 | notunder | ProppEBNF46.txt "A B C" 1 MoveOpener | p.37 and p.64: a B after the opener is the dispatch inside the complication, not an opener
-6 | under | ProppEBNF46.txt "A H J I K" 2 Combat | p.104: the fight's branding, H J I
-6 | under | ProppEBNF46.txt "A K M J N" 3 TaskCycle | p.104: the task's branding, M J N
-6 | notunder | ProppEBNF46.txt "A K M J N" 3 Combat | p.104: the task's J is not the fight's
-6 | under | ProppEBNF46.txt "A K down Pr J" 4 CombatAfterPursuit | p.107: the fight after pursuit carries its branding
+6-11 | under | ProppEBNF46.txt "B C up" 0 MoveOpener | p.37: the connective incident opens a move where no villainy occurs
+6-11 | notunder | ProppEBNF46.txt "A B C" 1 MoveOpener | p.37 and p.64: a B after the opener is the dispatch inside the complication, not an opener
+6-11 | under | ProppEBNF46.txt "A H J I K" 2 Combat | p.104: the fight's branding, H J I
+6-11 | under | ProppEBNF46.txt "A K M J N" 3 TaskCycle | p.104: the task's branding, M J N
+6-11 | notunder | ProppEBNF46.txt "A K M J N" 3 Combat | p.104: the task's J is not the fight's
+6-11 | under | ProppEBNF46.txt "A K down Pr J" 4 CombatAfterPursuit | p.107: the fight after pursuit carries its branding
 6 | under | ProppEBNF46.txt "A K U Q W" 2 Endgame | p.108: the four closing functions exchange within one group
 6 | under | ProppEBNF46.txt "A K U Q W" 3 Endgame | p.108
-6 | under | ProppEBNF46.txt "γ β δ A" 1 interdictionViolation | pp.96-97, p.101: an absentation told after the interdiction nests in the pair
-6 | notunder | ProppEBNF46.txt "β γ δ A" 0 interdictionViolation | p.26: an absentation told first stands outside the pair
+6-11 | under | ProppEBNF46.txt "γ β δ A" 1 interdictionViolation | pp.96-97, p.101: an absentation told after the interdiction nests in the pair
+6-11 | notunder | ProppEBNF46.txt "β γ δ A" 0 interdictionViolation | p.26: an absentation told first stands outside the pair
 6 | under | ProppEBNF46.txt "β γ δ A" 0 preparatorySection | Appendix I Table II, p.121: The Preparatory Section
 6 | under | ProppEBNF46.txt "α A" 0 initialSituation | p.25: not a function, and outside every move
 6 | notunder | ProppEBNF46.txt "α A" 0 move | p.25
-6 | under | ProppEBNF46.txt "T A K" 0 FloatingT | p.108: T's place in the tree is where the parser meets it and claims nothing, so only this is tested
+6-11 | under | ProppEBNF46.txt "T A K" 0 FloatingT | p.108: T's place in the tree is where the parser meets it and claims nothing, so only this is tested
 
 # ---------------------------------------------------------------------------
 # THE CATALOG, SemanticCatalog46.md. Frozen 2026-09-27 before it was
@@ -292,8 +292,8 @@
 
 6 | catalog | ProppEBNF46.txt SemanticCatalog46.md StepTests.txt | every group of the grammar has one catalog entry and a tree test; every entry names a group; a Functions section, when added, names only functions
 6 | under | ProppEBNF46.txt "A K / a K" 3 tale | p.92: a tale is a development from villainy or lack, and each new one a new move within it
-6 | under | ProppEBNF46.txt "ε ζ A" 1 reconnaissanceDelivery | p.80 writes ε-ζ as a pair; p.64 lists reconnaissance-delivery
-6 | under | ProppEBNF46.txt "η λ θ A" 1 trickeryComplicity | p.80 writes η-θ as a pair; λ inside it on Appendix I Table II item 44
+6-11 | under | ProppEBNF46.txt "ε ζ A" 1 reconnaissanceDelivery | p.80 writes ε-ζ as a pair; p.64 lists reconnaissance-delivery
+6-11 | under | ProppEBNF46.txt "η λ θ A" 1 trickeryComplicity | p.80 writes η-θ as a pair; λ inside it on Appendix I Table II item 44
 6 | under | ProppEBNF46.txt "A D E F G H I K" 4 Development | editorial: the span between the complication and the liquidation, for reading only
 6 | notunder | ProppEBNF46.txt "A D E F G H I K" 7 Development | p.53: the liquidation closes the A-K span, outside Development
 6 | under | ProppEBNF46.txt "A K down" 2 AfterLiquidation | editorial: everything after the liquidation
@@ -336,9 +336,9 @@
 7 | reject | ProppEBNF46.txt "A ⟨ K ⟩ K" | an inserted move is a move: it opens on villainy or lack, p.92, or on the connective incident, p.37
 7 | reject | ProppEBNF46.txt "⟨ A K ⟩ A K" | p.93: a development that has begun pauses; nothing pauses before a move begins
 7 | reject | ProppEBNF46.txt "A ⟨ A K K" | an inserted move is closed before the interrupted one resumes
-7 | under | ProppEBNF46.txt "A ⟨ a K ⟩ K" 2 InterruptingMove | the inserted move's functions lie inside the interruption
-7 | notunder | ProppEBNF46.txt "A ⟨ a K ⟩ K" 5 InterruptingMove | the interrupted move resumes outside it: its K is the outer move's
-7 | under | ProppEBNF46.txt "A K T" 2 Between | p.108: a T after a function stands in the slot between functions, which it shares with an interruption
+7-11 | under | ProppEBNF46.txt "A ⟨ a K ⟩ K" 2 InterruptingMove | the inserted move's functions lie inside the interruption
+7-11 | notunder | ProppEBNF46.txt "A ⟨ a K ⟩ K" 5 InterruptingMove | the interrupted move resumes outside it: its K is the outer move's
+7-11 | under | ProppEBNF46.txt "A K T" 2 Between | p.108: a T after a function stands in the slot between functions, which it shares with an interruption
 7-7 | talefails | ProppEBNF46.txt "126,127,137,138" | PREDICTION: 41 of 45 tales, failing exactly those holding 126 II, 127 I, 137 II and 138 III; 138 III is the move inserted in 138 II
 
 # ---------------------------------------------------------------------------
@@ -374,8 +374,8 @@
 8 | under | ProppEBNF46.txt "A up o / A K } L Q W" 7 CommonEnding | method 5: the shared ending lies in the common ending
 8 | notunder | ProppEBNF46.txt "A up o / A K } L Q W" 2 CommonEnding | the first move's own functions lie outside it
 8-8 | talefails | ProppEBNF46.txt "126,127,137,138" | PREDICTION: unchanged, 41 of 45; 125 and 155 already passed as sequences and pass in their new shape
-8 | under | ProppEBNF46.txt "A K / a K" 3 LaterMoves | p.93 method 1: a move that follows another lies in LaterMoves
-8 | notunder | ProppEBNF46.txt "A K / a K" 0 LaterMoves | the first move of a tale lies outside it
+8-11 | under | ProppEBNF46.txt "A K / a K" 3 LaterMoves | p.93 method 1: a move that follows another lies in LaterMoves
+8-11 | notunder | ProppEBNF46.txt "A K / a K" 0 LaterMoves | the first move of a tale lies outside it
 
 # ---------------------------------------------------------------------------
 # THE FUNCTIONS IN THE CATALOG, as decided. Frozen 2026-09-27
@@ -420,10 +420,10 @@
 9 | reject | ProppEBNF46.txt "D E F G A K" | p.107 inverts DEF and the departure only; G before A is licensed nowhere (the first project's ruling 101)
 9-9 | reject | ProppEBNF46.txt "D E F up A K" | design, not a page: p.107 gives the two inversions separately, and the corpus shows the departure first when both occur
 9 | reject | ProppEBNF46.txt "D ⟨ A K ⟩ A K" | p.93: nothing pauses before a move begins, and the inverted sequence comes before the crisis
-9 | under | ProppEBNF46.txt "D E F A K" 2 HelperFirst | p.107: the helper received first
-9 | notunder | ProppEBNF46.txt "D E F A K" 2 CrisisToLiquidation | p.53 and p.107: what comes before the villainy lies outside the A-K span
-9 | under | ProppEBNF46.txt "up D E F A K" 0 LeavingFirst | p.107: the exit from home first
-9 | under | ProppEBNF46.txt "up D E F A K" 0 BeforeTheCrisis | p.107: the inverted sequence as one group before the crisis
+9-11 | under | ProppEBNF46.txt "D E F A K" 2 HelperFirst | p.107: the helper received first
+9-11 | notunder | ProppEBNF46.txt "D E F A K" 2 CrisisToLiquidation | p.53 and p.107: what comes before the villainy lies outside the A-K span
+9-11 | under | ProppEBNF46.txt "up D E F A K" 0 LeavingFirst | p.107: the exit from home first
+9-11 | under | ProppEBNF46.txt "up D E F A K" 0 BeforeTheCrisis | p.107: the inverted sequence as one group before the crisis
 9-9 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: unchanged at 80 of 84, the parked cells still dropped (option 1); this also shows runCorpus.py working again on a recursive grammar
 9-9 | talefails | ProppEBNF46.txt "126,127,137,138" | PREDICTION: unchanged at 41 of 45
 
@@ -457,7 +457,7 @@
 10 | ll1 | ProppEBNF46.txt+tragedy - | switched on, the tragic fall keeps the grammar LL(1): its defeat sign decides it
 10 | ll1 | ProppEBNF46.txt+dundes - | switched on, the consequence tale keeps the grammar LL(1): it is its own root
 10 | ll1 | ProppEBNF46.txt+tragedy,dundes - | both switched on, still LL(1)
-10 | equivalent | ProppEBNF46.txt ProppEBNF46.txt+tragedy --drop-a InterruptingMove --drop-b InterruptingMove,TragicFall | with the fall dropped, tragedy on is the shipped grammar: it only adds
+10-11 | equivalent | ProppEBNF46.txt ProppEBNF46.txt+tragedy --drop-a InterruptingMove --drop-b InterruptingMove,TragicFall | with the fall dropped, tragedy on is the shipped grammar: it only adds
 10 | accept | ProppEBNF46.txt+tragedy "A H J I- Ex U" | v43's tragic fall: the combat ends in defeat, exposure and punishment
 10 | accept | ProppEBNF46.txt+tragedy "a H I- Ex U" | v43: a seeker's tragedy too, the fall attaching to the combat, not the crisis
 10 | reject | ProppEBNF46.txt+tragedy "A H I- U" | v43: the fall is exposure then punishment, both required
@@ -559,7 +559,7 @@
 11-11 | equivalent | step10:ProppEBNF46.txt ProppEBNF46.txt --drop-a InterruptingMove --drop-b InterruptingMove | commented out, the reversal changes nothing
 11 | ll1 | ProppEBNF46.txt+reversal - | switched on, the reversal sign keeps the grammar LL(1)
 11 | ll1 | ProppEBNF46.txt+tragedy,reversal,dundes - | all three extensions on together, still LL(1)
-11 | equivalent | ProppEBNF46.txt ProppEBNF46.txt+reversal --drop-a InterruptingMove --drop-b InterruptingMove,LateFall | with the fall dropped, reversal on is the shipped grammar: it only adds
+11-11 | equivalent | ProppEBNF46.txt ProppEBNF46.txt+reversal --drop-a InterruptingMove --drop-b InterruptingMove,LateFall | with the fall dropped, reversal on is the shipped grammar: it only adds
 11 | accept | ProppEBNF46.txt+reversal "a F K Rv U" | Prometheus: a lack, the fire seized and given, the lack liquidated, then the reversal and the hero punished
 11 | accept | ProppEBNF46.txt+reversal "A M N W Rv Q Ex U" | Oedipus: the riddle set and solved, the queen married, then the reversal, recognition, exposure and punishment of the hero
 11 | reject | ProppEBNF46.txt+reversal "a F K Rv" | a reversal must bring the fall: at least one of recognition, exposure or punishment follows it
@@ -612,3 +612,64 @@
 # The figures, pinned AFTER the run, so not blind; only the shufflebelow
 # line above was predicted, and it held.
 11 | shuffle | "real 80/84 = 95.2%; shuffled full 0.8%, opener-fixed 1.7%" | the Russian baseline for the Apollodorus test: real acceptance against shuffled
+
+# ---------------------------------------------------------------------------
+# STEP 12. Rename the groups to the catalog's permanent names.
+# LANGUAGE-PRESERVING. Grammar: ProppEBNF46.txt.
+# ---------------------------------------------------------------------------
+#
+# 2026-09-29, BEFORE STEP 12 WAS BUILT. The group names were settled in
+# SemanticCatalog46.md, with the rule that Early means before the move's
+# trigger and Late means after the liquidation. The step renames sixteen
+# nonterminals and changes nothing else:
+#   LaterMoves               -> FollowingMoves
+#   interdictionViolation    -> RuleViolation
+#   reconnaissanceDelivery   -> InformationGathering
+#   trickeryComplicity       -> DeceptionTrap
+#   BeforeTheCrisis          -> BeforeTheTrouble
+#   LeavingFirst             -> EarlyLeaving
+#   HelperFirst              -> EarlyHelp
+#   FloatingT                -> EarlyTransfiguration
+#   Between                  -> Digression
+#   InterruptingMove         -> EmbeddedMove
+#   CrisisToLiquidation      -> TroubleToLiquidation
+#   MoveOpener               -> MoveTrigger
+#   CombatAfterPursuit       -> LateStruggle
+#   CombatEnd                -> StruggleOutcome
+#   Combat                   -> StruggleAndOutcome
+#   TaskCycle                -> TaskAndSolution
+# The 25 tests above that bind onward and name an old group are given the
+# closing step 11, as a break this step plans, and each is copied below
+# with its new name, binding from step 12. NO EXPECTATION CHANGED. The
+# step 6 catalog test has failed since the catalog took the new names,
+# and passes again when this step is built; it is left as it is.
+# Also checked after the build, not by a test kind: parseTree.py --corpus
+# gives the same count for every group under its new name.
+12-12 | equivalent | step11:ProppEBNF46.txt ProppEBNF46.txt --drop-a InterruptingMove --drop-b EmbeddedMove | the renaming changes no string: step 12 is step 11 under new names
+12-12 | ll1 | ProppEBNF46.txt - | renamed, still LL(1)
+12-12 | ll1 | ProppEBNF46.txt+tragedy,reversal,dundes - | renamed with all three extensions on, still LL(1)
+12 | under | ProppEBNF46.txt "A B C up D E F G H I K" 0 TroubleToLiquidation | p.53: liquidation together with villainy constitutes a pair; the villainy opens the span
+12 | under | ProppEBNF46.txt "A B C up D E F G H I K" 10 TroubleToLiquidation | p.53: the liquidation closes it
+12 | notunder | ProppEBNF46.txt "A K down Pr Rs" 2 TroubleToLiquidation | p.53: the return falls after the liquidation, outside the A-K span
+12 | under | ProppEBNF46.txt "B C up" 0 MoveTrigger | p.37: the connective incident opens a move where no villainy occurs
+12 | notunder | ProppEBNF46.txt "A B C" 1 MoveTrigger | p.37 and p.64: a B after the opener is the dispatch inside the complication, not an opener
+12 | under | ProppEBNF46.txt "A H J I K" 2 StruggleAndOutcome | p.104: the fight's branding, H J I
+12 | under | ProppEBNF46.txt "A K M J N" 3 TaskAndSolution | p.104: the task's branding, M J N
+12 | notunder | ProppEBNF46.txt "A K M J N" 3 StruggleAndOutcome | p.104: the task's J is not the fight's
+12 | under | ProppEBNF46.txt "A K down Pr J" 4 LateStruggle | p.107: the fight after pursuit carries its branding
+12 | under | ProppEBNF46.txt "γ β δ A" 1 RuleViolation | pp.96-97, p.101: an absentation told after the interdiction nests in the pair
+12 | notunder | ProppEBNF46.txt "β γ δ A" 0 RuleViolation | p.26: an absentation told first stands outside the pair
+12 | under | ProppEBNF46.txt "T A K" 0 EarlyTransfiguration | p.108: T's place in the tree is where the parser meets it and claims nothing, so only this is tested
+12 | under | ProppEBNF46.txt "ε ζ A" 1 InformationGathering | p.80 writes ε-ζ as a pair; p.64 lists reconnaissance-delivery
+12 | under | ProppEBNF46.txt "η λ θ A" 1 DeceptionTrap | p.80 writes η-θ as a pair; λ inside it on Appendix I Table II item 44
+12 | under | ProppEBNF46.txt "A ⟨ a K ⟩ K" 2 EmbeddedMove | the inserted move's functions lie inside the interruption
+12 | notunder | ProppEBNF46.txt "A ⟨ a K ⟩ K" 5 EmbeddedMove | the interrupted move resumes outside it: its K is the outer move's
+12 | under | ProppEBNF46.txt "A K T" 2 Digression | p.108: a T after a function stands in the slot between functions, which it shares with an interruption
+12 | under | ProppEBNF46.txt "A K / a K" 3 FollowingMoves | p.93 method 1: a move that follows another lies in FollowingMoves
+12 | notunder | ProppEBNF46.txt "A K / a K" 0 FollowingMoves | the first move of a tale lies outside it
+12 | under | ProppEBNF46.txt "D E F A K" 2 EarlyHelp | p.107: the helper received first
+12 | notunder | ProppEBNF46.txt "D E F A K" 2 TroubleToLiquidation | p.53 and p.107: what comes before the villainy lies outside the A-K span
+12 | under | ProppEBNF46.txt "up D E F A K" 0 EarlyLeaving | p.107: the exit from home first
+12 | under | ProppEBNF46.txt "up D E F A K" 0 BeforeTheTrouble | p.107: the inverted sequence as one group before the crisis
+12 | equivalent | ProppEBNF46.txt ProppEBNF46.txt+tragedy --drop-a EmbeddedMove --drop-b EmbeddedMove,TragicFall | with the fall dropped, tragedy on is the shipped grammar: it only adds
+12 | equivalent | ProppEBNF46.txt ProppEBNF46.txt+reversal --drop-a EmbeddedMove --drop-b EmbeddedMove,LateFall | with the fall dropped, reversal on is the shipped grammar: it only adds
