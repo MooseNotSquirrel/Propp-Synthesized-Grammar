@@ -24,3 +24,13 @@ inside blocks exceeds the positional null's mean with at most 10 of 200
 shuffles at or above the real; it is WEAKENED if it exceeds the mean with
 more than 10; it is GONE if it does not exceed the mean. Reported for each
 cell, with the plain shuffle's figure beside it; no overall verdict.
+
+RESULT, 2026-09-30 (positionNull.py, output PositionNullRun.txt):
+  fables, training and held-out: SURVIVES in all eight cells, 0 of 200 each;
+    the positional null sits within 2 points of the plain shuffle, so
+    habits of position explain almost none of the fables' block effect.
+  tragedy P01-P04, strict: SURVIVES for both transcribers, 6 of 200 each.
+  tragedy P01-P04, blocks: WEAKENED for both, 74 and 89 of 200; the
+    positional null (49.0%, 54.1%) nearly reaches the real (50.3%, 54.8%),
+    so in the loose reading the tragedies' block effect is mostly habit of
+    position. Only four plays feed the positions, three per story left out.
