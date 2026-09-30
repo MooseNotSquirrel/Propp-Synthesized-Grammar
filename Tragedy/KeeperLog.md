@@ -224,3 +224,9 @@ Besides 67 speeches labeled "Theoklymenos", the source labels one each "Thoeklym
 126 events, 42 told as past, numbered in order and cited in the order of telling; a cast of 48, each name once; hero Helen, in 61 events against 53 for Menelaos.
 The play's phantom Helen is its own cast member, and the lister counted it, not Helen, as the one taking part where others speak of Helen at Troy.
 As at P09 and P13, gods only invoked are left out of the cast; the lister's other uncertainties are the familiar ones: retellings, and myth told as comparison or in song.
+
+**P16, Helen, from `master` at 0a2253b: both transcriptions in form; sealed, not scored.**
+Both cover all 126 events, A in 127 entries and B in 132, A in eight moves and B in five; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The reports show judgment calls at gaps, not departures. New to this play: whether functions the card defines for the hero (o, Q, T) may be given to a second protagonist, Menelaos, which A did under "assign the function whoever performs it"; and whether a minus may go on Q, which B used (Q−) and A declined.
+The deception of Theoklymenos was read as θ for his grants by A throughout and by B in part, with F for the rest.
+Transcriber B read the mixed-event wording as P09's A did, giving entries only to the functional acts; A gave one event two entries.
