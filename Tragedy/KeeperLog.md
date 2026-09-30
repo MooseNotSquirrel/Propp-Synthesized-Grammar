@@ -105,3 +105,10 @@ The request rule against γ recurs, as in P06, at the herald's demands.
 The hero is close: the lister counts Orestes in 62 events and Electra in 60, and reports that several of its own calls could tie or reverse that; a tie would still go to Orestes, who is in the last event and Electra is not.
 The count cannot be checked here, since the event format records no participants; the list is kept as the rule gave it, and the closeness is kept in view for P08's results.
 The lister's other uncertainties are those of earlier plays: retellings, choral myth, which exits count, and past or now for acts the night before.
+
+**P08, Electra, from `master` at 8c7175c: both transcriptions in form; sealed, not scored.**
+Both cover all 135 events, A in 136 entries and B in 141; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The reports show judgment calls at gaps, not departures.
+New to this play: transcriber A asks whether "later" in the relevance rule means later in the telling or later in the story, for past harms told late as the causes of acts told early (Iphigenia's sacrifice as a cause of Agamemnon's murder); A read it as the telling, so they are marked N and open no move, and B marked them N too, on the ground that nothing later depends on them.
+The two transcribers handle an act with two doers differently: A names one performer and puts the other in the note, B joins both with semicolons; the format does not say, and the scoring reads only the symbols.
+The request rule against B and γ recurs, as in P06 and P07, and so does the question whether a function can be read for a character other than the hero.
