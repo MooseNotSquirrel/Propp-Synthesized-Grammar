@@ -36,3 +36,37 @@ all | K H | K H | out of order, nothing forms here either
 # Properties checked on every P01-P04 transcription, both readings:
 roundtrip | P01 P02 P03 P04 | exact | reversing the block stream gives the transcription's stream back, token for token
 sealed | P05 | refused | the plays from P05 are the held-out test and are not read
+
+# 2026-09-30, BEFORE THE STRICT READING AND THE REVERSAL WERE BUILT.
+# Reversal: in the blocks and strict readings, a stretch whose reverse an
+# entry derives is a reversed block, written Entry~[tokens] with the tokens
+# in the stream's order; up to 12 functions. At equal length Propp's order
+# wins, so an order-free group such as Endgame is never flagged.
+blocks | I H | StruggleAndOutcome~[I H] | the victory told before the struggle
+blocks | δ γ | RuleViolation~[δ γ] | the violation told before the interdiction
+blocks | θ η | DeceptionTrap~[θ η] | the complicity told before the trick
+blocks | N M | TaskAndSolution~[N M] | the solution told before the task
+blocks | I (X) H | StruggleAndOutcome~[I (X) H] | a transparent token stays inside a reversed block
+blocks | U W | Endgame[U W] | order-free: never reversed
+# Strict: a block counts only when its defining functions are present: γ
+# and δ; ε and ζ; η and θ; H and I or I-; Pr and Rs; o and L; M and N;
+# D or E, and F; the trigger and one of B, C, up for the complication; two
+# different functions for Endgame; down and Pr or Rs for ReturnJourney; o
+# or L, and M or N, for Ordeal; two whole pairs for preparatorySection.
+# UntestedAcquisition, a run of one function, has no halves and is left out.
+strict | γ γ | γ γ | two interdictions without a violation are not the pair
+strict | γ δ | RuleViolation[γ δ] | the pair whole
+strict | a C | complication[a C] | the want and the decision to act
+strict | a F | a F | a want and an agent do not make the complication
+strict | H I | StruggleAndOutcome[H I] | the pair whole
+strict | H J | H J | a struggle with no outcome is half the pair
+strict | D F | TestedAcquisition[D F] | the test and the agent it earns
+strict | E F | TestedAcquisition[E F] | the reaction and the agent, the test omitted
+strict | F F | F F | a run of one function has no halves
+strict | U W | Endgame[U W] | two different closing functions
+strict | U U | U U | one closing function twice is not the group
+strict | I H | StruggleAndOutcome~[I H] | reversed and whole
+strict | H I- Ex U | StruggleAndOutcome[H I- Ex U] | the tragic fall is the struggle's outcome
+strict | A B C up H I | complication[A B C up] StruggleAndOutcome[H I] | two whole blocks
+roundtrip3 | P01 P02 P03 P04 | exact | the round trip holds in the strict reading too
+aesoproundtrip | b1 b2 b3 b4 | exact | every Aesop transcription reverses exactly, in all three readings
