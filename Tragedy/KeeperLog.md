@@ -157,3 +157,8 @@ Both points, with the request rule against γ, are for the rules' next revision;
 
 **P12, Orestes: one speaker label misspelled in the source.**
 The source labels speech S343 (line 1130) "Oretes", in a stichomythia between Orestes and Pylades; the text is extracted as the source gives it and not corrected, since the context makes the speaker plain.
+
+**Events stage, P12, Orestes, from `master` at 67e9920: in form.**
+170 events, 50 told as past, numbered in order and cited in the order of telling; a cast of 50, each name once; hero Orestes, in about 95 events, far ahead of Menelaus and Electra.
+The largest list so far. The lister split Apollo's closing speech into ten events, one per prophecy or command, and kept the escaped Phrygian apart from the group of Helen's servants because he acts alone.
+Its other uncertainties are the familiar ones: retellings, past or now at the prologue's edge, and asides that hardly matter.
