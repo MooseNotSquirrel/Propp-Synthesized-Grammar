@@ -276,3 +276,8 @@ Speeches S234 and S441 carry no speaker; each is the second part of a speech the
 113 events, 32 told as past, numbered in order and cited in the order of telling; a cast of 26, each name once; hero Oedipus, far ahead of all others.
 The lister gave the two unnamed speeches to Oedipus and Creon from their content, and recorded "Icasta" as another name for Iocasta. It listed the play's conflicting accounts (who exposed the child, robbers or one man) each as told, which suits the rule to list what the play tells.
 Unlike the P09, P13 and P16 listers, and like P05 and P07's, it put the gods named only in a prayer into the cast as its addressees.
+
+**P20, Oedipus Tyrannus, from `master` at 2fc3460: both transcriptions in form; sealed, not scored.**
+Both cover all 113 events, A in 114 entries and B in 118, in 8 and 9 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The reports show the familiar gaps: whether "that want" means the same asker's or the same want by anyone (both transcribers now ask it), the request rule against B and γ, curses and promises as X, and whether K or F when help meets the want. New to this play: the ankle-pinning read as J, the mark by which the hero is later known, which B placed in the move before the exposure's A, since J is told first.
+Transcriber A read the mixed-event wording as P09's A did, and notes that it drops Apollo's prophecy from an event whose other act has a function.
