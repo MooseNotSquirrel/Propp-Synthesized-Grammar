@@ -1,0 +1,37 @@
+# AgreementRun.txt -- blockAgreement.py, risk check 3 (Blocks/Agreement.txt).
+# Share of all blocks, A's and B's, that the other transcriber also has in the same story:
+# real; mean with B's functions shuffled; shuffles at or above the real; the verdict.
+
+training fables  blocks  118 versions   141 blocks  agreement  70.9%  shuffled  59.9%  at/above   0 of 200  AGREE BEYOND CHANCE
+      complication            52 of  77 agree (68%)
+      DeceptionTrap           22 of  25 agree (88%)
+      TestedAcquisition        6 of  10 agree (60%)
+      Endgame                  6 of   8 agree (75%)
+      StruggleAndOutcome       4 of   6 agree (67%)
+      InformationGathering     4 of   5 agree (80%)
+training fables  strict  118 versions    93 blocks  agreement  66.7%  shuffled  55.2%  at/above   1 of 200  AGREE BEYOND CHANCE
+      complication            26 of  46 agree (57%)
+      DeceptionTrap           22 of  27 agree (81%)
+      TestedAcquisition        2 of   5 agree (40%)
+
+held-out fables  blocks  128 versions   143 blocks  agreement  59.4%  shuffled  54.8%  at/above   5 of 200  AGREE BEYOND CHANCE
+      complication            38 of  56 agree (68%)
+      TestedAcquisition       16 of  32 agree (50%)
+      DeceptionTrap           14 of  18 agree (78%)
+      TaskAndSolution          3 of  10 agree (30%)
+      StruggleAndOutcome       4 of   6 agree (67%)
+      RuleViolation            6 of   6 agree (100%)
+held-out fables  strict  128 versions    78 blocks  agreement  67.9%  shuffled  55.0%  at/above   0 of 200  AGREE BEYOND CHANCE
+      complication            18 of  26 agree (69%)
+      DeceptionTrap           16 of  20 agree (80%)
+      TaskAndSolution          3 of  10 agree (30%)
+      RuleViolation            6 of   6 agree (100%)
+      StruggleAndOutcome       4 of   5 agree (80%)
+
+tragedy P01-P04  blocks    4 versions    81 blocks  agreement  75.3%  shuffled  65.6%  at/above   6 of 200  AGREE BEYOND CHANCE
+      complication            39 of  48 agree (81%)
+      RuleViolation            6 of  11 agree (55%)
+      preparatorySection       4 of   5 agree (80%)
+tragedy P01-P04  strict    4 versions    40 blocks  agreement  62.5%  shuffled  49.9%  at/above  16 of 200  DO NOT
+      complication            15 of  24 agree (62%)
+      RuleViolation            6 of   9 agree (67%)

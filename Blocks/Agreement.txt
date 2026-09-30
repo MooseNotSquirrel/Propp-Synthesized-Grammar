@@ -25,3 +25,19 @@ THE DECISION RULE, per corpus and reading: the transcribers AGREE BEYOND
 CHANCE if the real agreement exceeds the shuffled mean with at most 10 of 200
 shuffles at or above it; otherwise they do NOT. Reported with the agreement
 by entry for the entries with at least five blocks; no overall verdict.
+
+(The phrase "reversed or not alike" above means: the reversal mark is ignored
+in matching, a reversed and a forward block of the same entry alike.)
+
+RESULT, 2026-09-30 (blockAgreement.py, output AgreementRun.txt):
+  training fables: AGREE BEYOND CHANCE in both readings (70.9% against
+    59.9%, 0 of 200; strict 66.7% against 55.2%, 1 of 200).
+  held-out fables: AGREE BEYOND CHANCE in both (59.4% against 54.8%, 5 of
+    200; strict 67.9% against 55.0%, 0 of 200).
+  tragedy P01-P04: blocks AGREE BEYOND CHANCE (75.3% against 65.6%, 6 of
+    200); strict DO NOT by the rule (62.5% against 49.9%, 16 of 200), on only
+    40 blocks in four plays.
+  By entry, DeceptionTrap agrees best, 78% to 88% of its blocks in all four
+  fable cells; complication about 57% to 81%. The shuffled agreement is high
+  (50% to 66%) because the match is lenient, any shared event, and
+  complication is common; the margins are the finding, not the levels.
