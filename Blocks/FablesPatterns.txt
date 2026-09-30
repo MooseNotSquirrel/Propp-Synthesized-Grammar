@@ -1,0 +1,232 @@
+# FablesPatterns.txt -- written by blockStream.py (fables): blocks in the real streams against
+# the same Y functions shuffled in place, 200 times, seed 46. Reported, not judged.
+
+TRANSCRIBER A, reading blocks: functions inside blocks 154 of 336 (45.8%); shuffled mean 121.3 (36.1%); shuffles at or above the real: 0 of 200
+  preparatorySection     real   0   shuffled mean   0.55
+  preparatorySection~    real   2   shuffled mean   0.66
+  RuleViolation          real   3   shuffled mean   1.62
+  RuleViolation~         real   0   shuffled mean   0.94
+  DeceptionTrap          real   9   shuffled mean   3.53
+  DeceptionTrap~         real   0   shuffled mean   3.19
+  complication           real  24   shuffled mean  12.82
+  complication~          real   2   shuffled mean  11.06
+  UntestedAcquisition    real   0   shuffled mean   0.04
+  UntestedAcquisition~   real   0   shuffled mean   0.03
+  TestedAcquisition      real  15   shuffled mean   5.33
+  TestedAcquisition~     real   0   shuffled mean   4.62
+  StruggleAndOutcome     real   3   shuffled mean   1.20
+  StruggleAndOutcome~    real   0   shuffled mean   1.23
+  ReturnJourney          real   1   shuffled mean   0.24
+  ReturnJourney~         real   0   shuffled mean   0.25
+  PursuitFirst           real   1   shuffled mean   0.45
+  RescueFirst            real   0   shuffled mean   0.84
+  Ordeal                 real   1   shuffled mean   0.67
+  Ordeal~                real   0   shuffled mean   0.33
+  FraudPosture           real   3   shuffled mean   1.53
+  FraudPosture~          real   0   shuffled mean   0.28
+  TaskAndSolution        real   7   shuffled mean   2.43
+  TaskAndSolution~       real   0   shuffled mean   2.07
+  Endgame                real   2   shuffled mean   2.02
+  Endgame~               real   0   shuffled mean   0.07
+  the commonest shapes (blocks named, X and N left out):
+     17  (nothing kept)
+     10  A
+      9  complication
+      8  a
+      3  complication γ
+      3  TestedAcquisition
+      3  A TestedAcquisition
+      3  A complication
+      3  a E
+      3  a U
+      2  a K
+      2  H L Ex
+      2  DeceptionTrap A
+      2  γ
+      2  FraudPosture Ex
+
+TRANSCRIBER A, reading strict: functions inside blocks 90 of 336 (26.8%); shuffled mean 71.3 (21.2%); shuffles at or above the real: 1 of 200
+  RuleViolation          real   3   shuffled mean   1.31
+  RuleViolation~         real   0   shuffled mean   0.91
+  DeceptionTrap          real   9   shuffled mean   3.29
+  DeceptionTrap~         real   0   shuffled mean   3.11
+  complication           real  11   shuffled mean   5.56
+  complication~          real   2   shuffled mean   5.32
+  TestedAcquisition      real   1   shuffled mean   1.30
+  TestedAcquisition~     real   0   shuffled mean   0.95
+  StruggleAndOutcome     real   3   shuffled mean   1.22
+  StruggleAndOutcome~    real   0   shuffled mean   1.30
+  ReturnJourney          real   1   shuffled mean   0.23
+  ReturnJourney~         real   0   shuffled mean   0.29
+  PursuitFirst           real   1   shuffled mean   0.52
+  RescueFirst            real   0   shuffled mean   0.47
+  Ordeal                 real   1   shuffled mean   0.67
+  Ordeal~                real   0   shuffled mean   0.34
+  FraudPosture           real   1   shuffled mean   0.27
+  FraudPosture~          real   0   shuffled mean   0.24
+  TaskAndSolution        real   7   shuffled mean   2.18
+  TaskAndSolution~       real   0   shuffled mean   2.06
+  Endgame                real   2   shuffled mean   2.06
+  the commonest shapes (blocks named, X and N left out):
+     17  (nothing kept)
+     10  A
+      8  a
+      6  a F
+      3  complication
+      3  complication γ
+      3  D E
+      3  A D E
+      3  A a F
+      3  a E
+      3  a U
+      2  a K
+      2  H L Ex
+      2  DeceptionTrap A
+      2  γ
+
+TRANSCRIBER A, reading all: functions inside blocks 229 of 336 (68.2%); shuffled mean 181.2 (53.9%); shuffles at or above the real: 0 of 200
+  tale                   real   8   shuffled mean   9.71
+  move                   real  16   shuffled mean  27.77
+  TroubleToLiquidation   real  15   shuffled mean  10.18
+  AfterLiquidation       real   9   shuffled mean   4.79
+  BeforeTheTrouble       real   0   shuffled mean   0.09
+  preparatorySection     real   0   shuffled mean   0.53
+  RuleViolation          real   2   shuffled mean   1.70
+  DeceptionTrap          real   5   shuffled mean   3.04
+  complication           real  18   shuffled mean  10.33
+  UntestedAcquisition    real   0   shuffled mean   0.04
+  TestedAcquisition      real   9   shuffled mean   3.21
+  StruggleAndOutcome     real   3   shuffled mean   1.14
+  ReturnJourney          real   1   shuffled mean   0.34
+  PursuitFirst           real   1   shuffled mean   0.20
+  RescueFirst            real   0   shuffled mean   0.57
+  Ordeal                 real   1   shuffled mean   0.62
+  FraudPosture           real   0   shuffled mean   1.21
+  TaskAndSolution        real   6   shuffled mean   2.53
+  Endgame                real   1   shuffled mean   1.59
+  the commonest shapes (blocks named, X and N left out):
+     17  (nothing kept)
+     10  A
+      9  TroubleToLiquidation
+      9  complication
+      8  a
+      5  move
+      4  AfterLiquidation
+      3  tale
+      3  complication γ
+      3  TestedAcquisition
+      3  A complication
+      2  H AfterLiquidation
+      2  γ
+      2  A move
+      2  RuleViolation Q
+
+TRANSCRIBER B, reading blocks: functions inside blocks 151 of 328 (46.0%); shuffled mean 121.1 (36.9%); shuffles at or above the real: 0 of 200
+  preparatorySection     real   2   shuffled mean   0.56
+  preparatorySection~    real   0   shuffled mean   0.59
+  RuleViolation          real   3   shuffled mean   1.52
+  RuleViolation~         real   0   shuffled mean   0.99
+  InformationGathering   real   1   shuffled mean   0.28
+  InformationGathering~  real   0   shuffled mean   0.28
+  DeceptionTrap          real   9   shuffled mean   3.66
+  DeceptionTrap~         real   0   shuffled mean   2.78
+  complication           real  28   shuffled mean  16.52
+  complication~          real   2   shuffled mean  12.71
+  TestedAcquisition      real  17   shuffled mean   7.26
+  TestedAcquisition~     real   0   shuffled mean   6.50
+  StruggleAndOutcome     real   3   shuffled mean   0.71
+  StruggleAndOutcome~    real   0   shuffled mean   0.49
+  PursuitFirst           real   0   shuffled mean   0.17
+  RescueFirst            real   0   shuffled mean   0.49
+  Ordeal                 real   1   shuffled mean   0.48
+  Ordeal~                real   0   shuffled mean   0.52
+  TaskAndSolution        real   3   shuffled mean   0.88
+  TaskAndSolution~       real   0   shuffled mean   0.79
+  Endgame                real   1   shuffled mean   0.80
+  the commonest shapes (blocks named, X and N left out):
+     18  (nothing kept)
+     13  A
+     12  a
+      9  complication
+      8  TestedAcquisition
+      4  A complication
+      3  complication A
+      2  DeceptionTrap A
+      2  a TestedAcquisition
+      2  A a E
+      2  B
+      2  RuleViolation Q
+      2  a DeceptionTrap TaskAndSolution Ex
+      1  a γ TaskAndSolution
+      1  complication K A
+
+TRANSCRIBER B, reading strict: functions inside blocks 80 of 328 (24.4%); shuffled mean 57.1 (17.4%); shuffles at or above the real: 0 of 200
+  RuleViolation          real   3   shuffled mean   1.34
+  RuleViolation~         real   0   shuffled mean   0.84
+  InformationGathering   real   1   shuffled mean   0.20
+  InformationGathering~  real   0   shuffled mean   0.26
+  DeceptionTrap          real  11   shuffled mean   2.97
+  DeceptionTrap~         real   0   shuffled mean   3.10
+  complication           real  13   shuffled mean   7.03
+  complication~          real   0   shuffled mean   6.05
+  TestedAcquisition      real   1   shuffled mean   0.61
+  TestedAcquisition~     real   0   shuffled mean   0.62
+  StruggleAndOutcome     real   2   shuffled mean   0.49
+  StruggleAndOutcome~    real   0   shuffled mean   0.42
+  PursuitFirst           real   0   shuffled mean   0.15
+  RescueFirst            real   0   shuffled mean   0.15
+  Ordeal                 real   1   shuffled mean   0.56
+  Ordeal~                real   0   shuffled mean   0.43
+  TaskAndSolution        real   3   shuffled mean   0.69
+  TaskAndSolution~       real   0   shuffled mean   0.79
+  Endgame                real   1   shuffled mean   0.78
+  the commonest shapes (blocks named, X and N left out):
+     18  (nothing kept)
+     13  A
+     12  a
+      8  D E
+      5  a F
+      4  complication
+      4  A a F
+      2  DeceptionTrap A
+      2  a D E
+      2  A a E
+      2  B
+      2  RuleViolation Q
+      2  complication A
+      2  a DeceptionTrap TaskAndSolution Ex
+      1  a γ TaskAndSolution
+
+TRANSCRIBER B, reading all: functions inside blocks 222 of 328 (67.7%); shuffled mean 163.4 (49.8%); shuffles at or above the real: 0 of 200
+  tale                   real  11   shuffled mean  11.31
+  move                   real  14   shuffled mean  21.47
+  TroubleToLiquidation   real  17   shuffled mean  11.61
+  AfterLiquidation       real   3   shuffled mean   1.23
+  preparatorySection     real   2   shuffled mean   0.50
+  RuleViolation          real   2   shuffled mean   1.74
+  InformationGathering   real   1   shuffled mean   0.19
+  DeceptionTrap          real   5   shuffled mean   2.75
+  complication           real  20   shuffled mean  13.56
+  TestedAcquisition      real  11   shuffled mean   5.22
+  StruggleAndOutcome     real   2   shuffled mean   0.47
+  PursuitFirst           real   0   shuffled mean   0.07
+  RescueFirst            real   0   shuffled mean   0.26
+  Ordeal                 real   1   shuffled mean   0.53
+  TaskAndSolution        real   1   shuffled mean   0.80
+  Endgame                real   1   shuffled mean   0.70
+  the commonest shapes (blocks named, X and N left out):
+     18  (nothing kept)
+     13  A
+     12  a
+      9  complication
+      8  TestedAcquisition
+      5  tale
+      4  TroubleToLiquidation
+      4  A complication
+      3  complication A
+      3  A TroubleToLiquidation
+      2  move
+      2  A move
+      2  B
+      2  RuleViolation Q
+      2  a DeceptionTrap AfterLiquidation

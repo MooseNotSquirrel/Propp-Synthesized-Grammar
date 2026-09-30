@@ -1,0 +1,775 @@
+# FablesStreams.txt -- written by blockStream.py (fables); see its header.
+
+A blocks F005 | a γ (X) TaskAndSolution[M N] TaskAndSolution[M N]
+A blocks F008/1 | StruggleAndOutcome[H I]
+A blocks F008/2 | H I-
+A blocks F014 | a K (X) (X)
+A blocks F023 | (X) a (X)
+A blocks F024 | (X) E (X) A (X)
+A blocks F025/1 | (X) H L Ex
+A blocks F025/2 | (X) H L Ex
+A blocks F032 | complication[a up] K (X)
+A blocks F035/1 | (X) (X) (X)
+A blocks F035/2 | (X) (X) (X)
+A blocks F036 | A Pr (X) complication[A up]
+A blocks F041 | a DeceptionTrap[η θ] U
+A blocks F042 | RuleViolation[γ δ] A a (X)
+A blocks F043 | Ordeal[L L M]
+A blocks F047 | a K B (X)
+A blocks F048 | complication[a F (X) (X) (X) F] (X) (X) A
+A blocks F050 | (X) complication[A C] (X) (X)
+A blocks F060 | a A A (X)
+A blocks F063 | (X) complication[a B F]
+A blocks F064/1 | DeceptionTrap[η θ] A
+A blocks F064/2 | DeceptionTrap[η θ] A
+A blocks F067/1 | (X) (X)
+A blocks F067/2 | (X) (X)
+A blocks F069/1 | complication[A (X) B] (X) γ
+A blocks F069/2 | complication[A (X) B] (X) γ
+A blocks F070 | a (X) β K W
+A blocks F072 | H I- (X) (X) I K
+A blocks F074 | (X) W (X) DeceptionTrap[η θ] A Ex (X)
+A blocks F078/1 | A (X)
+A blocks F078/2 | A (X)
+A blocks F081 | H F (X)
+A blocks F084/1 | (X) (X) γ
+A blocks F084/2 | (X) (X) γ
+A blocks F085 | γ TaskAndSolution[M N] (X)
+A blocks F093 | A DeceptionTrap[η θ]
+A blocks F102 | (X) (X) (X) a
+A blocks F108 | A (X)
+A blocks F114 | (X) (X) A
+A blocks F116/1 | (X) (X) (X)
+A blocks F116/2 | (X) TestedAcquisition[D E] (X)
+A blocks F122 | A A A (X)
+A blocks F124 | (X) (X) (X) (X) (X)
+A blocks F127 | a FraudPosture[o (X) L] Ex
+A blocks F128 | Pr TestedAcquisition[D E] (X) ε (X) Rs (X) L Ex
+A blocks F131 | A A L Ex
+A blocks F133 | (X) F Rs η StruggleAndOutcome[H I] Rs
+A blocks F134 | complication[a C up] (X) γ
+A blocks F136 | (X) (X) (X) A Q Rs
+A blocks F138/1 | A TestedAcquisition[D E]
+A blocks F138/2 | A complication[a F]
+A blocks F139/1 | complication[a F] (X)
+A blocks F139/2 | TestedAcquisition[D E] (X)
+A blocks F143/1 | (X) (X)
+A blocks F143/2 | TestedAcquisition[D E]
+A blocks F144 | up (X) (X) γ (X) (X) (X) (X) (X) (X) A down
+A blocks F148/1 | A (X) complication[a F]
+A blocks F148/2 | A (X) TestedAcquisition[D E]
+A blocks F154 | (X) (X) A A Endgame[U Ex]
+A blocks F155 | TestedAcquisition[E F] (X) ReturnJourney[down Rs] (X)
+A blocks F159 | (X) (X) TaskAndSolution[M N] A TaskAndSolution[M N] (X) (X)
+A blocks F160 | PursuitFirst[Pr Rs] A (X)
+A blocks F162/1 | complication[a F]
+A blocks F162/2 | a E
+A blocks F164 | (X) (X) (X) (X)
+A blocks F174 | A (X) (X)
+A blocks F179 | (X) A TestedAcquisition[D E] (X)
+A blocks F185/1 | complication[a F]
+A blocks F185/2 | a E
+A blocks F189 | L complication~[B A] up Ex
+A blocks F195 | (X) StruggleAndOutcome[H (X) I] (X) A (X)
+A blocks F196 | a K (X)
+A blocks F197 | A (X)
+A blocks F200 | A a TestedAcquisition[D E] A
+A blocks F205 | (X) DeceptionTrap[η θ]
+A blocks F208 | DeceptionTrap[η (X) θ] A (A) θ Ex
+A blocks F212/1 | a (X)
+A blocks F212/2 | a (X)
+A blocks F214/1 | A complication[a F]
+A blocks F214/2 | A a E
+A blocks F216 | (X) (X) (X) (X) DeceptionTrap[η η θ] I
+A blocks F217 | (X) (X) (X) A
+A blocks F220 | a DeceptionTrap[η θ] Rs (X) Ex
+A blocks F224 | (X) (X) (X) a U (X)
+A blocks F227/1 | complication[a F]
+A blocks F227/2 | a E
+A blocks F228 | (X) (X) K (X) (X)
+A blocks F230/1 | FraudPosture[L L] (X) (X) Ex
+A blocks F230/2 | FraudPosture[L L] (X) (X) Ex
+A blocks F234 | TaskAndSolution[M (X) N]
+A blocks F236/1 | L Ex
+A blocks F236/2 | L Ex
+A blocks F242 | a (X) (X)
+A blocks F246 | (X) L A (X)
+A blocks F247 | (X) (X) (X) Endgame[Ex (X) U] (X)
+A blocks F250/1 | RuleViolation[γ γ (X) δ] Q (X)
+A blocks F250/2 | RuleViolation[γ γ (X) δ] Q (X)
+A blocks F253 | A (X) (X) A (X)
+A blocks F254/1 | (X) (X) (X)
+A blocks F254/2 | (X) (X) (X)
+A blocks F255 | a (X) (X) (X) (X)
+A blocks F257 | (X) (X) (X) (X) (X) (X) (X)
+A blocks F266/1 | (X) (X) a (X) U
+A blocks F266/2 | (X) (X) a (X) U
+A blocks F267 | complication[a C] (X)
+A blocks F269 | complication[a (X) (X) B] TestedAcquisition[D E] TestedAcquisition[D E] K (X) W (X) a η TestedAcquisition[D E] L U F
+A blocks F270 | complication~[C A] TestedAcquisition[D E] A K (X)
+A blocks F273 | (X) (X) (X) (X) (X)
+A blocks F275 | η (X) complication[a C] (X) U
+A blocks F276/1 | (X) (X) (X)
+A blocks F276/2 | (X) (X) (X)
+A blocks F283/1 | a (X)
+A blocks F283/2 | a (X)
+A blocks F285/1 | complication[a F] (X)
+A blocks F285/2 | complication[a F] (X)
+A blocks F286/1 | A (X) (X) (X)
+A blocks F286/2 | A (X) (X) (X)
+A blocks F290 | A (X) (X)
+A blocks F291 | α (X) (X) A A (X) (X)
+A blocks F299 | a complication[A F] (X) K down A U TestedAcquisition[D E]
+A blocks F300/1 | a η L preparatorySection~[θ (X) δ] (X) Ex
+A blocks F300/2 | a η L preparatorySection~[θ (X) δ] (X) Ex
+A blocks F303 | complication[a (X) F] W TestedAcquisition[D E T]
+A blocks F304 | A A Pr complication[B F] (X) A
+A blocks F307 | (X) (X) (X) (X)
+A blocks F308 | TaskAndSolution[M (X) (X) (X) (X) N] a (X) complication[a C] (X) (X) (X) E Ex
+A blocks F313/1 | (X)
+A blocks F313/2 | (X)
+
+A strict F005 | a γ (X) TaskAndSolution[M N] TaskAndSolution[M N]
+A strict F008/1 | StruggleAndOutcome[H I]
+A strict F008/2 | H I-
+A strict F014 | a K (X) (X)
+A strict F023 | (X) a (X)
+A strict F024 | (X) E (X) A (X)
+A strict F025/1 | (X) H L Ex
+A strict F025/2 | (X) H L Ex
+A strict F032 | complication[a up] K (X)
+A strict F035/1 | (X) (X) (X)
+A strict F035/2 | (X) (X) (X)
+A strict F036 | A Pr (X) complication[A up]
+A strict F041 | a DeceptionTrap[η θ] U
+A strict F042 | RuleViolation[γ δ] A a (X)
+A strict F043 | Ordeal[L L M]
+A strict F047 | a K B (X)
+A strict F048 | a F (X) (X) (X) F (X) (X) A
+A strict F050 | (X) complication[A C] (X) (X)
+A strict F060 | a A A (X)
+A strict F063 | (X) complication[a B F]
+A strict F064/1 | DeceptionTrap[η θ] A
+A strict F064/2 | DeceptionTrap[η θ] A
+A strict F067/1 | (X) (X)
+A strict F067/2 | (X) (X)
+A strict F069/1 | complication[A (X) B] (X) γ
+A strict F069/2 | complication[A (X) B] (X) γ
+A strict F070 | a (X) β K W
+A strict F072 | H I- (X) (X) I K
+A strict F074 | (X) W (X) DeceptionTrap[η θ] A Ex (X)
+A strict F078/1 | A (X)
+A strict F078/2 | A (X)
+A strict F081 | H F (X)
+A strict F084/1 | (X) (X) γ
+A strict F084/2 | (X) (X) γ
+A strict F085 | γ TaskAndSolution[M N] (X)
+A strict F093 | A DeceptionTrap[η θ]
+A strict F102 | (X) (X) (X) a
+A strict F108 | A (X)
+A strict F114 | (X) (X) A
+A strict F116/1 | (X) (X) (X)
+A strict F116/2 | (X) D E (X)
+A strict F122 | A A A (X)
+A strict F124 | (X) (X) (X) (X) (X)
+A strict F127 | a FraudPosture[o (X) L] Ex
+A strict F128 | Pr D E (X) ε (X) Rs (X) L Ex
+A strict F131 | A A L Ex
+A strict F133 | (X) F Rs η StruggleAndOutcome[H I] Rs
+A strict F134 | complication[a C up] (X) γ
+A strict F136 | (X) (X) (X) A Q Rs
+A strict F138/1 | A D E
+A strict F138/2 | A a F
+A strict F139/1 | a F (X)
+A strict F139/2 | D E (X)
+A strict F143/1 | (X) (X)
+A strict F143/2 | D E
+A strict F144 | up (X) (X) γ (X) (X) (X) (X) (X) (X) A down
+A strict F148/1 | A (X) a F
+A strict F148/2 | A (X) D E
+A strict F154 | (X) (X) A A Endgame[U Ex]
+A strict F155 | TestedAcquisition[E F] (X) ReturnJourney[down Rs] (X)
+A strict F159 | (X) (X) TaskAndSolution[M N] A TaskAndSolution[M N] (X) (X)
+A strict F160 | PursuitFirst[Pr Rs] A (X)
+A strict F162/1 | a F
+A strict F162/2 | a E
+A strict F164 | (X) (X) (X) (X)
+A strict F174 | A (X) (X)
+A strict F179 | (X) A D E (X)
+A strict F185/1 | a F
+A strict F185/2 | a E
+A strict F189 | L complication~[B A] up Ex
+A strict F195 | (X) StruggleAndOutcome[H (X) I] (X) A (X)
+A strict F196 | a K (X)
+A strict F197 | A (X)
+A strict F200 | A a D E A
+A strict F205 | (X) DeceptionTrap[η θ]
+A strict F208 | DeceptionTrap[η (X) θ] A (A) θ Ex
+A strict F212/1 | a (X)
+A strict F212/2 | a (X)
+A strict F214/1 | A a F
+A strict F214/2 | A a E
+A strict F216 | (X) (X) (X) (X) DeceptionTrap[η η θ] I
+A strict F217 | (X) (X) (X) A
+A strict F220 | a DeceptionTrap[η θ] Rs (X) Ex
+A strict F224 | (X) (X) (X) a U (X)
+A strict F227/1 | a F
+A strict F227/2 | a E
+A strict F228 | (X) (X) K (X) (X)
+A strict F230/1 | L L (X) (X) Ex
+A strict F230/2 | L L (X) (X) Ex
+A strict F234 | TaskAndSolution[M (X) N]
+A strict F236/1 | L Ex
+A strict F236/2 | L Ex
+A strict F242 | a (X) (X)
+A strict F246 | (X) L A (X)
+A strict F247 | (X) (X) (X) Endgame[Ex (X) U] (X)
+A strict F250/1 | RuleViolation[γ γ (X) δ] Q (X)
+A strict F250/2 | RuleViolation[γ γ (X) δ] Q (X)
+A strict F253 | A (X) (X) A (X)
+A strict F254/1 | (X) (X) (X)
+A strict F254/2 | (X) (X) (X)
+A strict F255 | a (X) (X) (X) (X)
+A strict F257 | (X) (X) (X) (X) (X) (X) (X)
+A strict F266/1 | (X) (X) a (X) U
+A strict F266/2 | (X) (X) a (X) U
+A strict F267 | complication[a C] (X)
+A strict F269 | complication[a (X) (X) B] D E D E K (X) W (X) a η D E L U F
+A strict F270 | complication~[C A] D E A K (X)
+A strict F273 | (X) (X) (X) (X) (X)
+A strict F275 | η (X) complication[a C] (X) U
+A strict F276/1 | (X) (X) (X)
+A strict F276/2 | (X) (X) (X)
+A strict F283/1 | a (X)
+A strict F283/2 | a (X)
+A strict F285/1 | a F (X)
+A strict F285/2 | a F (X)
+A strict F286/1 | A (X) (X) (X)
+A strict F286/2 | A (X) (X) (X)
+A strict F290 | A (X) (X)
+A strict F291 | α (X) (X) A A (X) (X)
+A strict F299 | a A F (X) K down A U D E
+A strict F300/1 | a η L θ (X) δ (X) Ex
+A strict F300/2 | a η L θ (X) δ (X) Ex
+A strict F303 | a (X) F W D E T
+A strict F304 | A A Pr B F (X) A
+A strict F307 | (X) (X) (X) (X)
+A strict F308 | TaskAndSolution[M (X) (X) (X) (X) N] a (X) complication[a C] (X) (X) (X) E Ex
+A strict F313/1 | (X)
+A strict F313/2 | (X)
+
+A all F005 | a γ (X) TaskAndSolution[M N] TaskAndSolution[M N]
+A all F008/1 | StruggleAndOutcome[H I]
+A all F008/2 | H I-
+A all F014 | TroubleToLiquidation[a K] (X) (X)
+A all F023 | (X) a (X)
+A all F024 | (X) move[E (X) A] (X)
+A all F025/1 | (X) H AfterLiquidation[L Ex]
+A all F025/2 | (X) H AfterLiquidation[L Ex]
+A all F032 | TroubleToLiquidation[a up K] (X)
+A all F035/1 | (X) (X) (X)
+A all F035/2 | (X) (X) (X)
+A all F036 | move[A Pr] (X) complication[A up]
+A all F041 | a DeceptionTrap[η θ] U
+A all F042 | tale[γ δ A] a (X)
+A all F043 | Ordeal[L L M]
+A all F047 | TroubleToLiquidation[a K] B (X)
+A all F048 | complication[a F (X) (X) (X) F] (X) (X) A
+A all F050 | (X) complication[A C] (X) (X)
+A all F060 | a A A (X)
+A all F063 | (X) complication[a B F]
+A all F064/1 | tale[η θ A]
+A all F064/2 | tale[η θ A]
+A all F067/1 | (X) (X)
+A all F067/2 | (X) (X)
+A all F069/1 | complication[A (X) B] (X) γ
+A all F069/2 | complication[A (X) B] (X) γ
+A all F070 | a (X) β K W
+A all F072 | H I- (X) (X) I K
+A all F074 | (X) W (X) tale[η θ A Ex] (X)
+A all F078/1 | A (X)
+A all F078/2 | A (X)
+A all F081 | H F (X)
+A all F084/1 | (X) (X) γ
+A all F084/2 | (X) (X) γ
+A all F085 | γ TaskAndSolution[M N] (X)
+A all F093 | A DeceptionTrap[η θ]
+A all F102 | (X) (X) (X) a
+A all F108 | A (X)
+A all F114 | (X) (X) A
+A all F116/1 | (X) (X) (X)
+A all F116/2 | (X) TestedAcquisition[D E] (X)
+A all F122 | A A A (X)
+A all F124 | (X) (X) (X) (X) (X)
+A all F127 | move[a o (X) L Ex]
+A all F128 | Pr TestedAcquisition[D E] (X) ε (X) AfterLiquidation[Rs (X) L Ex]
+A all F131 | A move[A L Ex]
+A all F133 | (X) F Rs η StruggleAndOutcome[H I] Rs
+A all F134 | complication[a C up] (X) γ
+A all F136 | (X) (X) (X) move[A Q] Rs
+A all F138/1 | TroubleToLiquidation[A D E]
+A all F138/2 | A complication[a F]
+A all F139/1 | complication[a F] (X)
+A all F139/2 | TestedAcquisition[D E] (X)
+A all F143/1 | (X) (X)
+A all F143/2 | TestedAcquisition[D E]
+A all F144 | up (X) (X) tale[γ (X) (X) (X) (X) (X) (X) A down]
+A all F148/1 | A (X) complication[a F]
+A all F148/2 | TroubleToLiquidation[A (X) D E]
+A all F154 | (X) (X) A move[A U Ex]
+A all F155 | TestedAcquisition[E F] (X) ReturnJourney[down Rs] (X)
+A all F159 | (X) (X) TaskAndSolution[M N] move[A M N] (X) (X)
+A all F160 | PursuitFirst[Pr Rs] A (X)
+A all F162/1 | complication[a F]
+A all F162/2 | TroubleToLiquidation[a E]
+A all F164 | (X) (X) (X) (X)
+A all F174 | A (X) (X)
+A all F179 | (X) TroubleToLiquidation[A D E] (X)
+A all F185/1 | complication[a F]
+A all F185/2 | TroubleToLiquidation[a E]
+A all F189 | L B move[A up Ex]
+A all F195 | (X) StruggleAndOutcome[H (X) I] (X) A (X)
+A all F196 | TroubleToLiquidation[a K] (X)
+A all F197 | A (X)
+A all F200 | A TroubleToLiquidation[a D E] A
+A all F205 | (X) DeceptionTrap[η θ]
+A all F208 | tale[η (X) θ A] (A) θ Ex
+A all F212/1 | a (X)
+A all F212/2 | a (X)
+A all F214/1 | A complication[a F]
+A all F214/2 | A TroubleToLiquidation[a E]
+A all F216 | (X) (X) (X) (X) DeceptionTrap[η η θ] I
+A all F217 | (X) (X) (X) A
+A all F220 | a DeceptionTrap[η θ] AfterLiquidation[Rs (X) Ex]
+A all F224 | (X) (X) (X) move[a U] (X)
+A all F227/1 | complication[a F]
+A all F227/2 | TroubleToLiquidation[a E]
+A all F228 | (X) (X) K (X) (X)
+A all F230/1 | AfterLiquidation[L L (X) (X) Ex]
+A all F230/2 | AfterLiquidation[L L (X) (X) Ex]
+A all F234 | TaskAndSolution[M (X) N]
+A all F236/1 | AfterLiquidation[L Ex]
+A all F236/2 | AfterLiquidation[L Ex]
+A all F242 | a (X) (X)
+A all F246 | (X) L A (X)
+A all F247 | (X) (X) (X) Endgame[Ex (X) U] (X)
+A all F250/1 | RuleViolation[γ γ (X) δ] Q (X)
+A all F250/2 | RuleViolation[γ γ (X) δ] Q (X)
+A all F253 | A (X) (X) A (X)
+A all F254/1 | (X) (X) (X)
+A all F254/2 | (X) (X) (X)
+A all F255 | a (X) (X) (X) (X)
+A all F257 | (X) (X) (X) (X) (X) (X) (X)
+A all F266/1 | (X) (X) move[a (X) U]
+A all F266/2 | (X) (X) move[a (X) U]
+A all F267 | complication[a C] (X)
+A all F269 | TroubleToLiquidation[a (X) (X) B D E] TestedAcquisition[D E] K (X) W (X) a η TestedAcquisition[D E] AfterLiquidation[L U] F
+A all F270 | C TroubleToLiquidation[A D E] TroubleToLiquidation[A K] (X)
+A all F273 | (X) (X) (X) (X) (X)
+A all F275 | tale[η (X) a C (X) U]
+A all F276/1 | (X) (X) (X)
+A all F276/2 | (X) (X) (X)
+A all F283/1 | a (X)
+A all F283/2 | a (X)
+A all F285/1 | complication[a F] (X)
+A all F285/2 | complication[a F] (X)
+A all F286/1 | A (X) (X) (X)
+A all F286/2 | A (X) (X) (X)
+A all F290 | A (X) (X)
+A all F291 | tale[α (X) (X) A] A (X) (X)
+A all F299 | a move[A F (X) K down] move[A U] TestedAcquisition[D E]
+A all F300/1 | a η L θ (X) δ (X) Ex
+A all F300/2 | a η L θ (X) δ (X) Ex
+A all F303 | move[a (X) F W] TestedAcquisition[D E T]
+A all F304 | A move[A Pr] complication[B F] (X) A
+A all F307 | (X) (X) (X) (X)
+A all F308 | TaskAndSolution[M (X) (X) (X) (X) N] a (X) move[a C (X) (X) (X) E Ex]
+A all F313/1 | (X)
+A all F313/2 | (X)
+
+B blocks F005 | a γ (X) TaskAndSolution[M N (X) N]
+B blocks F008/1 | (X) (X)
+B blocks F008/2 | (X) (X)
+B blocks F014 | a (X) (X)
+B blocks F023 | (X) a (X) (X)
+B blocks F024 | complication[a C] (X) K A (X)
+B blocks F025/1 | (X) (X) (X) (X)
+B blocks F025/2 | (X) (X) (X) (X)
+B blocks F032 | complication[a C up] K (X)
+B blocks F035/1 | (X) (X) (X)
+B blocks F035/2 | (X) (X) (X)
+B blocks F036 | A I (X) A K (X)
+B blocks F041 | a DeceptionTrap[η θ] (X) I
+B blocks F042 | RuleViolation[γ δ] A a (X)
+B blocks F043 | Ordeal[L (X) M]
+B blocks F047 | a (X) (X) (X)
+B blocks F048 | complication[a F (X) (X) (X) F] (X) (X) A
+B blocks F050 | (X) complication[A C] (X) (X)
+B blocks F060 | a A A (X)
+B blocks F063 | (X) (X) a (X) (X)
+B blocks F064/1 | DeceptionTrap[η θ] A
+B blocks F064/2 | DeceptionTrap[η θ] A
+B blocks F067/1 | (X) (X)
+B blocks F067/2 | (X) (X)
+B blocks F069/1 | complication[A (X) B] (X) (X)
+B blocks F069/2 | complication[A (X) B] (X) (X)
+B blocks F070 | a (X) β C (X) W
+B blocks F072 | H I- (X) (X) A W
+B blocks F074 | (X) W a DeceptionTrap[η θ] A (X) (X)
+B blocks F078/1 | A (X)
+B blocks F078/2 | A (X)
+B blocks F081 | H (X) (X)
+B blocks F084/1 | (X) A (X)
+B blocks F084/2 | (X) A (X)
+B blocks F085 | a TestedAcquisition[D E] (X)
+B blocks F093 | A a η F
+B blocks F102 | complication~[F (X) (X) a]
+B blocks F108 | A (X)
+B blocks F114 | (X) a A
+B blocks F116/1 | (X) TestedAcquisition[D E] (X)
+B blocks F116/2 | (X) TestedAcquisition[D E] (X)
+B blocks F122 | A A A (X)
+B blocks F124 | (X) a (X) (X) (X)
+B blocks F127 | a o (X) InformationGathering[ε ζ]
+B blocks F128 | Pr complication[a F] (X) preparatorySection[ε η θ] Rs (X) a (X)
+B blocks F131 | A A L Ex
+B blocks F133 | complication[A F] Rs (X) StruggleAndOutcome[H I] Rs
+B blocks F134 | C up (X) γ
+B blocks F136 | (X) (X) (X) A Q Rs
+B blocks F138/1 | A a E
+B blocks F138/2 | A complication[a F]
+B blocks F139/1 | complication[a F] (X)
+B blocks F139/2 | a E (X)
+B blocks F143/1 | TestedAcquisition[D E]
+B blocks F143/2 | TestedAcquisition[D E]
+B blocks F144 | up (X) (X) γ (X) (X) (X) (X) (X) (X) A down
+B blocks F148/1 | A (X) complication[a F]
+B blocks F148/2 | A (X) a E
+B blocks F154 | (X) (X) A A U
+B blocks F155 | TestedAcquisition[E F] (X) Rs (X)
+B blocks F159 | complication~[F (X) a] (X) A (X) (X) (X) (X)
+B blocks F160 | Pr A (X)
+B blocks F162/1 | B (X)
+B blocks F162/2 | B (X)
+B blocks F164 | A (X) (X) (X)
+B blocks F174 | A (X) (X)
+B blocks F179 | A A TestedAcquisition[D E] (X)
+B blocks F185/1 | complication[a F]
+B blocks F185/2 | complication[a F]
+B blocks F189 | α complication[A B up] (X)
+B blocks F195 | (X) StruggleAndOutcome[H I] (X) (X) A (X)
+B blocks F196 | a (X) (X)
+B blocks F197 | A (X)
+B blocks F200 | A a TestedAcquisition[D E] A
+B blocks F205 | (X) DeceptionTrap[η θ]
+B blocks F208 | DeceptionTrap[η η θ] A A (X) (X)
+B blocks F212/1 | a (X)
+B blocks F212/2 | a (X)
+B blocks F214/1 | A complication[a F]
+B blocks F214/2 | A complication[a F]
+B blocks F216 | up (X) (X) (X) preparatorySection[ζ η θ] (X) I
+B blocks F217 | α (X) (X) A
+B blocks F220 | (X) DeceptionTrap[η θ] Rs (X) Ex
+B blocks F224 | α (X) (X) B U (X)
+B blocks F227/1 | a (X)
+B blocks F227/2 | a (X)
+B blocks F228 | (X) (X) A (X) (X)
+B blocks F230/1 | (X) (X) (X) (X) (X)
+B blocks F230/2 | (X) (X) (X) (X) (X)
+B blocks F234 | TestedAcquisition[D (X) E]
+B blocks F236/1 | (X) (X)
+B blocks F236/2 | (X) (X)
+B blocks F242 | C (X) (X)
+B blocks F246 | (X) (X) A (X)
+B blocks F247 | (X) η (X) Endgame[Ex (X) U] (X)
+B blocks F250/1 | RuleViolation[γ γ (X) δ] Q (X)
+B blocks F250/2 | RuleViolation[γ γ (X) δ] Q (X)
+B blocks F253 | A (X) (X) U (X)
+B blocks F254/1 | TestedAcquisition[D E] (X)
+B blocks F254/2 | TestedAcquisition[D E] (X)
+B blocks F255 | a TestedAcquisition[D E] (X) (X)
+B blocks F257 | (X) (X) (X) (X) (X) (X) (X)
+B blocks F266/1 | (X) (X) complication[a C] (X) A
+B blocks F266/2 | (X) (X) complication[a C] (X) A
+B blocks F267 | complication[a C] (X)
+B blocks F269/1 | A (X) D B TestedAcquisition[D E] TestedAcquisition[D E] TestedAcquisition[D E] K W (X) complication[a C] η B D L U K
+B blocks F270 | (X) complication[A B] complication[A F] K
+B blocks F273 | (X) TestedAcquisition[D E] (X) (X)
+B blocks F275 | η G complication[a C] A U
+B blocks F276/1 | (X) (X) (X)
+B blocks F276/2 | (X) (X) (X)
+B blocks F283/1 | a (X)
+B blocks F283/2 | a (X)
+B blocks F285/1 | complication[a F] (X)
+B blocks F285/2 | complication[a F] (X)
+B blocks F286/1 | A (X) (X) (X)
+B blocks F286/2 | A (X) (X) (X)
+B blocks F290 | A (X) (X)
+B blocks F291 | (X) (X) (X) A A (X) (X)
+B blocks F299 | A complication[A F] (X) K down A U a K
+B blocks F300/1 | a DeceptionTrap[η η θ] TaskAndSolution[M N] (X) Ex
+B blocks F300/2 | a DeceptionTrap[η η θ] TaskAndSolution[M N] (X) Ex
+B blocks F303 | complication[a (X) F] K TestedAcquisition[D E] A
+B blocks F304/1 | A A Pr B γ (X) A
+B blocks F307 | (X) (X) (X) (X)
+B blocks F308/1 | M (X) C (X) (X) N (X) complication[a C] (X) StruggleAndOutcome[H H] I- Ex
+B blocks F313/1 | (X)
+B blocks F313/2 | (X)
+
+B strict F005 | a γ (X) TaskAndSolution[M N (X) N]
+B strict F008/1 | (X) (X)
+B strict F008/2 | (X) (X)
+B strict F014 | a (X) (X)
+B strict F023 | (X) a (X) (X)
+B strict F024 | complication[a C] (X) K A (X)
+B strict F025/1 | (X) (X) (X) (X)
+B strict F025/2 | (X) (X) (X) (X)
+B strict F032 | complication[a C up] K (X)
+B strict F035/1 | (X) (X) (X)
+B strict F035/2 | (X) (X) (X)
+B strict F036 | A I (X) A K (X)
+B strict F041 | a DeceptionTrap[η θ] (X) I
+B strict F042 | RuleViolation[γ δ] A a (X)
+B strict F043 | Ordeal[L (X) M]
+B strict F047 | a (X) (X) (X)
+B strict F048 | a F (X) (X) (X) F (X) (X) A
+B strict F050 | (X) complication[A C] (X) (X)
+B strict F060 | a A A (X)
+B strict F063 | (X) (X) a (X) (X)
+B strict F064/1 | DeceptionTrap[η θ] A
+B strict F064/2 | DeceptionTrap[η θ] A
+B strict F067/1 | (X) (X)
+B strict F067/2 | (X) (X)
+B strict F069/1 | complication[A (X) B] (X) (X)
+B strict F069/2 | complication[A (X) B] (X) (X)
+B strict F070 | a (X) β C (X) W
+B strict F072 | H I- (X) (X) A W
+B strict F074 | (X) W a DeceptionTrap[η θ] A (X) (X)
+B strict F078/1 | A (X)
+B strict F078/2 | A (X)
+B strict F081 | H (X) (X)
+B strict F084/1 | (X) A (X)
+B strict F084/2 | (X) A (X)
+B strict F085 | a D E (X)
+B strict F093 | A a η F
+B strict F102 | F (X) (X) a
+B strict F108 | A (X)
+B strict F114 | (X) a A
+B strict F116/1 | (X) D E (X)
+B strict F116/2 | (X) D E (X)
+B strict F122 | A A A (X)
+B strict F124 | (X) a (X) (X) (X)
+B strict F127 | a o (X) InformationGathering[ε ζ]
+B strict F128 | Pr a F (X) ε DeceptionTrap[η θ] Rs (X) a (X)
+B strict F131 | A A L Ex
+B strict F133 | A F Rs (X) StruggleAndOutcome[H I] Rs
+B strict F134 | C up (X) γ
+B strict F136 | (X) (X) (X) A Q Rs
+B strict F138/1 | A a E
+B strict F138/2 | A a F
+B strict F139/1 | a F (X)
+B strict F139/2 | a E (X)
+B strict F143/1 | D E
+B strict F143/2 | D E
+B strict F144 | up (X) (X) γ (X) (X) (X) (X) (X) (X) A down
+B strict F148/1 | A (X) a F
+B strict F148/2 | A (X) a E
+B strict F154 | (X) (X) A A U
+B strict F155 | TestedAcquisition[E F] (X) Rs (X)
+B strict F159 | F (X) a (X) A (X) (X) (X) (X)
+B strict F160 | Pr A (X)
+B strict F162/1 | B (X)
+B strict F162/2 | B (X)
+B strict F164 | A (X) (X) (X)
+B strict F174 | A (X) (X)
+B strict F179 | A A D E (X)
+B strict F185/1 | a F
+B strict F185/2 | a F
+B strict F189 | α complication[A B up] (X)
+B strict F195 | (X) StruggleAndOutcome[H I] (X) (X) A (X)
+B strict F196 | a (X) (X)
+B strict F197 | A (X)
+B strict F200 | A a D E A
+B strict F205 | (X) DeceptionTrap[η θ]
+B strict F208 | DeceptionTrap[η η θ] A A (X) (X)
+B strict F212/1 | a (X)
+B strict F212/2 | a (X)
+B strict F214/1 | A a F
+B strict F214/2 | A a F
+B strict F216 | up (X) (X) (X) ζ DeceptionTrap[η θ] (X) I
+B strict F217 | α (X) (X) A
+B strict F220 | (X) DeceptionTrap[η θ] Rs (X) Ex
+B strict F224 | α (X) (X) B U (X)
+B strict F227/1 | a (X)
+B strict F227/2 | a (X)
+B strict F228 | (X) (X) A (X) (X)
+B strict F230/1 | (X) (X) (X) (X) (X)
+B strict F230/2 | (X) (X) (X) (X) (X)
+B strict F234 | D (X) E
+B strict F236/1 | (X) (X)
+B strict F236/2 | (X) (X)
+B strict F242 | C (X) (X)
+B strict F246 | (X) (X) A (X)
+B strict F247 | (X) η (X) Endgame[Ex (X) U] (X)
+B strict F250/1 | RuleViolation[γ γ (X) δ] Q (X)
+B strict F250/2 | RuleViolation[γ γ (X) δ] Q (X)
+B strict F253 | A (X) (X) U (X)
+B strict F254/1 | D E (X)
+B strict F254/2 | D E (X)
+B strict F255 | a D E (X) (X)
+B strict F257 | (X) (X) (X) (X) (X) (X) (X)
+B strict F266/1 | (X) (X) complication[a C] (X) A
+B strict F266/2 | (X) (X) complication[a C] (X) A
+B strict F267 | complication[a C] (X)
+B strict F269/1 | A (X) D B D E D E D E K W (X) complication[a C] η B D L U K
+B strict F270 | (X) complication[A B] A F K
+B strict F273 | (X) D E (X) (X)
+B strict F275 | η G complication[a C] A U
+B strict F276/1 | (X) (X) (X)
+B strict F276/2 | (X) (X) (X)
+B strict F283/1 | a (X)
+B strict F283/2 | a (X)
+B strict F285/1 | a F (X)
+B strict F285/2 | a F (X)
+B strict F286/1 | A (X) (X) (X)
+B strict F286/2 | A (X) (X) (X)
+B strict F290 | A (X) (X)
+B strict F291 | (X) (X) (X) A A (X) (X)
+B strict F299 | A A F (X) K down A U a K
+B strict F300/1 | a DeceptionTrap[η η θ] TaskAndSolution[M N] (X) Ex
+B strict F300/2 | a DeceptionTrap[η η θ] TaskAndSolution[M N] (X) Ex
+B strict F303 | a (X) F K D E A
+B strict F304/1 | A A Pr B γ (X) A
+B strict F307 | (X) (X) (X) (X)
+B strict F308/1 | M (X) C (X) (X) N (X) complication[a C] (X) H H I- Ex
+B strict F313/1 | (X)
+B strict F313/2 | (X)
+
+B all F005 | a γ (X) TaskAndSolution[M N (X) N]
+B all F008/1 | (X) (X)
+B all F008/2 | (X) (X)
+B all F014 | a (X) (X)
+B all F023 | (X) a (X) (X)
+B all F024 | TroubleToLiquidation[a C (X) K] A (X)
+B all F025/1 | (X) (X) (X) (X)
+B all F025/2 | (X) (X) (X) (X)
+B all F032 | TroubleToLiquidation[a C up K] (X)
+B all F035/1 | (X) (X) (X)
+B all F035/2 | (X) (X) (X)
+B all F036 | TroubleToLiquidation[A I] (X) TroubleToLiquidation[A K] (X)
+B all F041 | a DeceptionTrap[η θ] (X) I
+B all F042 | tale[γ δ A] a (X)
+B all F043 | Ordeal[L (X) M]
+B all F047 | a (X) (X) (X)
+B all F048 | complication[a F (X) (X) (X) F] (X) (X) A
+B all F050 | (X) complication[A C] (X) (X)
+B all F060 | a A A (X)
+B all F063 | (X) (X) a (X) (X)
+B all F064/1 | tale[η θ A]
+B all F064/2 | tale[η θ A]
+B all F067/1 | (X) (X)
+B all F067/2 | (X) (X)
+B all F069/1 | complication[A (X) B] (X) (X)
+B all F069/2 | complication[A (X) B] (X) (X)
+B all F070 | a (X) β C (X) W
+B all F072 | H I- (X) (X) move[A W]
+B all F074 | (X) W a tale[η θ A] (X) (X)
+B all F078/1 | A (X)
+B all F078/2 | A (X)
+B all F081 | H (X) (X)
+B all F084/1 | (X) A (X)
+B all F084/2 | (X) A (X)
+B all F085 | TroubleToLiquidation[a D E] (X)
+B all F093 | A a η F
+B all F102 | move[F (X) (X) a]
+B all F108 | A (X)
+B all F114 | (X) a A
+B all F116/1 | (X) TestedAcquisition[D E] (X)
+B all F116/2 | (X) TestedAcquisition[D E] (X)
+B all F122 | A A A (X)
+B all F124 | (X) a (X) (X) (X)
+B all F127 | move[a o] (X) InformationGathering[ε ζ]
+B all F128 | Pr complication[a F] (X) preparatorySection[ε η θ] Rs (X) a (X)
+B all F131 | A move[A L Ex]
+B all F133 | move[A F Rs] (X) StruggleAndOutcome[H I] Rs
+B all F134 | C up (X) γ
+B all F136 | (X) (X) (X) move[A Q] Rs
+B all F138/1 | A TroubleToLiquidation[a E]
+B all F138/2 | A complication[a F]
+B all F139/1 | complication[a F] (X)
+B all F139/2 | TroubleToLiquidation[a E] (X)
+B all F143/1 | TestedAcquisition[D E]
+B all F143/2 | TestedAcquisition[D E]
+B all F144 | up (X) (X) tale[γ (X) (X) (X) (X) (X) (X) A down]
+B all F148/1 | A (X) complication[a F]
+B all F148/2 | A (X) TroubleToLiquidation[a E]
+B all F154 | (X) (X) A move[A U]
+B all F155 | TestedAcquisition[E F] (X) Rs (X)
+B all F159 | move[F (X) a] (X) A (X) (X) (X) (X)
+B all F160 | Pr A (X)
+B all F162/1 | B (X)
+B all F162/2 | B (X)
+B all F164 | A (X) (X) (X)
+B all F174 | A (X) (X)
+B all F179 | A TroubleToLiquidation[A D E] (X)
+B all F185/1 | complication[a F]
+B all F185/2 | complication[a F]
+B all F189 | tale[α A B up] (X)
+B all F195 | (X) StruggleAndOutcome[H I] (X) (X) A (X)
+B all F196 | a (X) (X)
+B all F197 | A (X)
+B all F200 | A TroubleToLiquidation[a D E] A
+B all F205 | (X) DeceptionTrap[η θ]
+B all F208 | tale[η η θ A] A (X) (X)
+B all F212/1 | a (X)
+B all F212/2 | a (X)
+B all F214/1 | A complication[a F]
+B all F214/2 | A complication[a F]
+B all F216 | up (X) (X) (X) preparatorySection[ζ η θ] (X) I
+B all F217 | tale[α (X) (X) A]
+B all F220 | (X) DeceptionTrap[η θ] AfterLiquidation[Rs (X) Ex]
+B all F224 | tale[α (X) (X) B U] (X)
+B all F227/1 | a (X)
+B all F227/2 | a (X)
+B all F228 | (X) (X) A (X) (X)
+B all F230/1 | (X) (X) (X) (X) (X)
+B all F230/2 | (X) (X) (X) (X) (X)
+B all F234 | TestedAcquisition[D (X) E]
+B all F236/1 | (X) (X)
+B all F236/2 | (X) (X)
+B all F242 | C (X) (X)
+B all F246 | (X) (X) A (X)
+B all F247 | (X) η (X) Endgame[Ex (X) U] (X)
+B all F250/1 | RuleViolation[γ γ (X) δ] Q (X)
+B all F250/2 | RuleViolation[γ γ (X) δ] Q (X)
+B all F253 | move[A (X) (X) U] (X)
+B all F254/1 | TestedAcquisition[D E] (X)
+B all F254/2 | TestedAcquisition[D E] (X)
+B all F255 | TroubleToLiquidation[a D E] (X) (X)
+B all F257 | (X) (X) (X) (X) (X) (X) (X)
+B all F266/1 | (X) (X) complication[a C] (X) A
+B all F266/2 | (X) (X) complication[a C] (X) A
+B all F267 | complication[a C] (X)
+B all F269/1 | TroubleToLiquidation[A (X) D] TroubleToLiquidation[B D E] TestedAcquisition[D E] TestedAcquisition[D E] K W (X) complication[a C] tale[η B D L U] K
+B all F270 | (X) complication[A B] TroubleToLiquidation[A F K]
+B all F273 | (X) TestedAcquisition[D E] (X) (X)
+B all F275 | η G complication[a C] move[A U]
+B all F276/1 | (X) (X) (X)
+B all F276/2 | (X) (X) (X)
+B all F283/1 | a (X)
+B all F283/2 | a (X)
+B all F285/1 | complication[a F] (X)
+B all F285/2 | complication[a F] (X)
+B all F286/1 | A (X) (X) (X)
+B all F286/2 | A (X) (X) (X)
+B all F290 | A (X) (X)
+B all F291 | (X) (X) (X) A A (X) (X)
+B all F299 | A move[A F (X) K down] move[A U] TroubleToLiquidation[a K]
+B all F300/1 | a DeceptionTrap[η η θ] AfterLiquidation[M N (X) Ex]
+B all F300/2 | a DeceptionTrap[η η θ] AfterLiquidation[M N (X) Ex]
+B all F303 | TroubleToLiquidation[a (X) F K] move[D E A]
+B all F304/1 | A move[A Pr] B tale[γ (X) A]
+B all F307 | (X) (X) (X) (X)
+B all F308/1 | M (X) C (X) (X) N (X) TroubleToLiquidation[a C (X) H H] I- Ex
+B all F313/1 | (X)
+B all F313/2 | (X)
