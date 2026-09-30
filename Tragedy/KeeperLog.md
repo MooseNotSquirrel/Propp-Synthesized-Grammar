@@ -154,3 +154,6 @@ Both cover all 124 events, A in 127 entries and B in 125; the form check finds n
 The reports show judgment calls at gaps, not departures, but the two readings of the move rules now diverge widely: A reads "each new lack creates a new move" literally and splits the play into many moves, while B treats later harms and wants as the same harm or the want stated before and keeps four.
 The question of what "later" means in the relevance rule is now answered both ways across plays: at P08 transcriber A read it as later in the telling, and here transcriber A reads it as later in the story, so past acts told late are marked Y and open moves.
 Both points, with the request rule against γ, are for the rules' next revision; the move count is not scored until the held-out test, and these readings will bear on acceptance there.
+
+**P12, Orestes: one speaker label misspelled in the source.**
+The source labels speech S343 (line 1130) "Oretes", in a stichomythia between Orestes and Pylades; the text is extracted as the source gives it and not corrected, since the context makes the speaker plain.
