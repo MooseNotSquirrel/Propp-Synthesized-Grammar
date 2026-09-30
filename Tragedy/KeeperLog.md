@@ -235,3 +235,8 @@ Transcriber B read the mixed-event wording as P09's A did, giving entries only t
 PerseusDL's `eng3` file for *Agamemnon* is Herbert Weir Smyth's translation, modernized, the translator the protocol names for Aeschylus.
 Speeches S008, S036, S197, S207, S212, S215 and S218 carry no speaker and stand in no division the source marks as choral, so `extract.py` labels them "(no speaker in the source)"; from their context all are the chorus's, S197 opening the elders' debate whose speakers the source labels one by one after it.
 The source also repeats the Watchman's name at the head of his speech's text. Nothing is corrected.
+
+**Events stage, P17, Agamemnon, from `master` at 8c67a6d: in form.**
+95 events, 34 told as past, numbered in order and cited in the order of telling; a cast of 25, each name once; hero Agamemnon, in 39 events against 37 for Clytaemestra.
+The fourth close hero (after P08, P10 and P14), and the first where a tie would go the other way: Clytaemestra is in the last event and Agamemnon is not. The list is kept as the rule gave it.
+The lister counted Aegisthus in Cassandra's prophecies of the "lion" and "wolf", on his later claim, and placed the storm at sea as now, since the play's single night cannot hold it as past.
