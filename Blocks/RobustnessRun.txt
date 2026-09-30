@@ -1,0 +1,43 @@
+# RobustnessRun.txt -- robustness.py, risk check 5 (Blocks/Robustness.txt).
+# Share of matched functions inside blocks: real, shuffled mean, shuffles at or above; HOLDS or not.
+
+training fables  A blocks primary    367 functions  real  42.5%  shuffled  33.9%  at/above   0  HOLDS
+training fables  A strict primary    367 functions  real  29.4%  shuffled  20.8%  at/above   0  HOLDS
+training fables  A blocks secondary  368 functions  real  42.4%  shuffled  33.8%  at/above   0  HOLDS
+training fables  A strict secondary  368 functions  real  29.3%  shuffled  20.8%  at/above   0  HOLDS
+training fables  A blocks nodoubt    167 functions  real  31.1%  shuffled  28.3%  at/above  16  does not hold
+training fables  A strict nodoubt    167 functions  real  21.6%  shuffled  17.4%  at/above   5  HOLDS
+training fables  B blocks primary    355 functions  real  42.3%  shuffled  33.7%  at/above   0  HOLDS
+training fables  B strict primary    355 functions  real  27.0%  shuffled  18.1%  at/above   0  HOLDS
+training fables  B blocks secondary  361 functions  real  41.8%  shuffled  33.5%  at/above   0  HOLDS
+training fables  B strict secondary  361 functions  real  27.4%  shuffled  18.5%  at/above   0  HOLDS
+training fables  B blocks nodoubt    195 functions  real  36.9%  shuffled  30.3%  at/above   1  HOLDS
+training fables  B strict nodoubt    195 functions  real  27.7%  shuffled  18.2%  at/above   0  HOLDS
+
+held-out fables  A blocks primary    336 functions  real  45.8%  shuffled  36.1%  at/above   0  HOLDS
+held-out fables  A strict primary    336 functions  real  26.8%  shuffled  21.3%  at/above   2  HOLDS
+held-out fables  A blocks secondary  337 functions  real  45.7%  shuffled  35.9%  at/above   0  HOLDS
+held-out fables  A strict secondary  337 functions  real  26.7%  shuffled  21.1%  at/above   0  HOLDS
+held-out fables  A blocks nodoubt    149 functions  real  32.2%  shuffled  25.3%  at/above   0  HOLDS
+held-out fables  A strict nodoubt    149 functions  real  20.1%  shuffled  15.4%  at/above   5  HOLDS
+held-out fables  B blocks primary    328 functions  real  46.0%  shuffled  36.6%  at/above   0  HOLDS
+held-out fables  B strict primary    328 functions  real  24.4%  shuffled  17.3%  at/above   0  HOLDS
+held-out fables  B blocks secondary  328 functions  real  46.0%  shuffled  36.6%  at/above   0  HOLDS
+held-out fables  B strict secondary  328 functions  real  24.4%  shuffled  17.3%  at/above   0  HOLDS
+held-out fables  B blocks nodoubt    174 functions  real  36.8%  shuffled  27.9%  at/above   0  HOLDS
+held-out fables  B strict nodoubt    174 functions  real  27.0%  shuffled  19.4%  at/above   0  HOLDS
+
+tragedy P01-P04  A blocks primary    191 functions  real  50.3%  shuffled  39.6%  at/above   1  HOLDS
+tragedy P01-P04  A strict primary    191 functions  real  27.7%  shuffled  18.8%  at/above   1  HOLDS
+tragedy P01-P04  A blocks secondary  214 functions  real  50.5%  shuffled  39.8%  at/above   0  HOLDS
+tragedy P01-P04  A strict secondary  214 functions  real  24.8%  shuffled  17.1%  at/above   3  HOLDS
+tragedy P01-P04  A blocks nodoubt    115 functions  real  49.6%  shuffled  37.8%  at/above   3  HOLDS
+tragedy P01-P04  A strict nodoubt    115 functions  real  27.0%  shuffled  18.5%  at/above   8  HOLDS
+tragedy P01-P04  B blocks primary    186 functions  real  54.8%  shuffled  45.9%  at/above   0  HOLDS
+tragedy P01-P04  B strict primary    186 functions  real  24.7%  shuffled  17.9%  at/above   7  HOLDS
+tragedy P01-P04  B blocks secondary  224 functions  real  56.2%  shuffled  46.7%  at/above   1  HOLDS
+tragedy P01-P04  B strict secondary  224 functions  real  26.3%  shuffled  17.7%  at/above   0  HOLDS
+tragedy P01-P04  B blocks nodoubt    114 functions  real  64.0%  shuffled  49.8%  at/above   0  HOLDS
+tragedy P01-P04  B strict nodoubt    114 functions  real  28.9%  shuffled  19.8%  at/above   9  HOLDS
+
+NOT ROBUST in: training fables A blocks nodoubt

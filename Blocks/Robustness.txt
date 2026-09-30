@@ -21,3 +21,11 @@ the effect HOLDS if the real share exceeds the shuffled mean with at most 10
 of 200 shuffles at or above it. The block findings are ROBUST if every cell
 that holds in the primary reading also holds in the other two; each cell that
 does not is named.
+
+RESULT, 2026-09-30 (robustness.py, output RobustnessRun.txt): 35 of 36 cells
+HOLD. The one that does not is training fables, transcriber A, blocks
+reading, nodoubt (31.1% against 28.3%, 16 of 200): dropping A's doubtful
+entries leaves 167 of its 367 functions, and the strict reading still holds
+in that cell (5 of 200). Every other corpus, transcriber and reading holds in
+all three input readings, so the block effect does not rest on the incidental
+entries, nor, with that one exception, on the doubtful ones.
