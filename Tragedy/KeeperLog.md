@@ -81,3 +81,8 @@ The reports show judgment calls at gaps, not departures.
 The gap reported most is now stated outright by both transcribers: the request rule, which makes a request or demand the asker's want (a, or X when stated before), overlaps γ for orders and B for the hero asked to act, and both resolved it the same way, γ for commands and prohibitions and a only for wants.
 Transcriber A also asks whether "stated before" means the same asker or the same want.
 The rule is not amended mid-run, since the plays from P05 are a held-out test and must share one instrument; the overlap is kept for the card's next revision.
+
+**P07, Suppliants: speeches the source names no speaker for.**
+Smyth's text leaves the speaker off eight speeches, seven of them in divisions the source marks as choral; `extract.py` had written "?" for any such speech.
+From P07 it writes "Chorus" inside a choral division and "(no speaker in the source)" elsewhere, following the source's markup and adding nothing from outside it; P07 has one of the latter, at lines 825-835.
+Re-extracting P01 to P05 with the change gives the committed texts exactly. P06 differs only in two speeches, lines 446 and 1219-1240, that its text gives as "?"; the check at P06's setup looked for leftover markup and missed them. P06's text stays as its lister and transcribers used it.
