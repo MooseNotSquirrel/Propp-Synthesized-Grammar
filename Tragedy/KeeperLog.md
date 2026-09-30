@@ -74,3 +74,10 @@ Transcriber A asked whether "matters" is judged by the act or by the telling of 
 91 events, 22 told as past, numbered in order and cited in the order of telling; a cast of 30, each name once; hero Creon, named in the cast.
 The hero rule, which counts the events a character takes part in, chose Creon, in 45 events, over Antigone, in 25, with no tie to settle; the list is kept as the rule gives it.
 The lister's uncertainties are those of P05: retellings listed once, where an unstated timing falls, which choral narration and prayer count, and which groups are one character.
+
+**P06, Antigone, from `master` at 29381b3: both transcriptions in form; sealed, not scored.**
+Both cover all 91 events, with 92 entries each; the form check finds no problems, and every performer and undergoer in both is a name from `Cast.txt`.
+The reports show judgment calls at gaps, not departures.
+The gap reported most is now stated outright by both transcribers: the request rule, which makes a request or demand the asker's want (a, or X when stated before), overlaps γ for orders and B for the hero asked to act, and both resolved it the same way, γ for commands and prohibitions and a only for wants.
+Transcriber A also asks whether "stated before" means the same asker or the same want.
+The rule is not amended mid-run, since the plays from P05 are a held-out test and must share one instrument; the overlap is kept for the card's next revision.
