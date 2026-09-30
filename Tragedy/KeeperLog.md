@@ -121,3 +121,10 @@ PerseusDL's English file for *Medea* is Coleridge's translation without the Pers
 The cast rule's gap on addressees, logged at P05, is now resolved both ways: the P05 and P07 listers put the gods prayed to in the cast, and the P09 lister left out gods who are only called on, keeping only those who act (the Sun-god, Phoebus).
 Transcribers who find an addressee missing from the cast write `-`, as at P07, so this bears on the character spheres of the building-block plan, which should count prayers' addressees only where both readings agree, and not on the symbols.
 The lister's other uncertainties are the familiar ones: retellings, the messenger's report placed at the first brief telling with only new detail listed from the full account, and which speeches count.
+
+**P09, Medea, from `master` at 9eb419c: both transcriptions in form; sealed, not scored.**
+Both cover all 79 events, A in 87 entries and B in 82; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The reports show judgment calls at gaps, not departures.
+Transcriber A found a real inconsistency in the rules' wording, carried over unchanged from the Aesop rules: the bold line says each act in an event gets one entry, a function or X, while the lines under it give an own entry only to each act that fulfills a function, and one X only to an event none of whose acts does. A followed the lines under it, so in an event that mixes a function with a non-function act the second act gets no entry.
+Every play, and the Aesop run, was transcribed under the same wording, so the instrument is the same throughout; its effect is that X counts events with no function, not acts, and the X analysis of the building-block plan must read it that way.
+The rest are the familiar gaps: the request rule against γ, whether a lack serving an end already pursued opens a move, F and F− for a requester who is not the hero, retellings, and acts with two undergoers.
