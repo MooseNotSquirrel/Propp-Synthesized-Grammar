@@ -268,3 +268,6 @@ The lister marked the Euboean campaign as now, offstage and reported during the 
 Both cover all 104 events, A in 118 entries and B in 109, in 10 and 11 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
 The reports show the familiar gaps: the request rule against B and γ, hero-defined functions given to another (Hyllus's B, C, ↑ and ↓), an act intended or reported before it is carried out, and the two clauses of the relevance rule. New to this play: a deception whose dupe is not its victim, Nessus deceiving Deianeira to Heracles' harm, which A wrote as θ for Deianeira's acts and again for Heracles putting on the robe.
 Transcriber A gave a non-function act its own X in a mixed event, as P13's A did.
+
+**P20, Oedipus Tyrannus: two speeches the source names no speaker for, and one label misspelled.**
+Speeches S234 and S441 carry no speaker; each is the second part of a speech the source splits, continuing Oedipus and Creon, as at P14 and P19. Speech S210 is labeled "Icasta" for Iocasta, in a stichomythia with Oedipus. Nothing is corrected.
