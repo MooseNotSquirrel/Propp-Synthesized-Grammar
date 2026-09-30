@@ -69,3 +69,8 @@ Both cover all 97 events, with 105 entries each; the form check finds no problem
 The reports show judgment calls at gaps, not departures. The recurring ones are those of earlier plays: whether a request or order is a, γ or B; whether a repeated want is a new one; and whether a later harm opens a new move or continues an earlier one. Transcriber B's reading of the last produced twelve moves, and it names the contestable move openings.
 New to this play: the vengeance plot, where the blinding and the killing of the children could each be U, K, I or A, and the rule to choose by what an act causes does not decide between them.
 Transcriber A asked whether "matters" is judged by the act or by the telling of it, for events told only in passing.
+
+**Events stage, P06, Antigone, from `master` at 4a9d9b9: in form.**
+91 events, 22 told as past, numbered in order and cited in the order of telling; a cast of 30, each name once; hero Creon, named in the cast.
+The hero rule, which counts the events a character takes part in, chose Creon, in 45 events, over Antigone, in 25, with no tie to settle; the list is kept as the rule gives it.
+The lister's uncertainties are those of P05: retellings listed once, where an unstated timing falls, which choral narration and prayer count, and which groups are one character.
