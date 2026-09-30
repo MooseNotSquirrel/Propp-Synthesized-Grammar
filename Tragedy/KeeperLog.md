@@ -216,3 +216,6 @@ Every performer and undergoer is a name from `Cast.txt`, but for one of B's fiel
 Transcriber A read the mixed-event wording as P13's A did, giving a non-function act its own X in an event that has a function, as logged at P13.
 The reports show the familiar gaps: the request rule against B, which past villainies told in dialogue open moves, and whether K can recur.
 The cloud session reported its stop hook urging a commit while B was still running; it held the commit until both were done, as RUN.md requires.
+
+**P16, Helen: three speaker labels misspelled in the source.**
+Besides 67 speeches labeled "Theoklymenos", the source labels one each "Thoeklymenos", "Theokylmenos" and "Theokylemnos"; as at P12, the text is extracted as the source gives it and not corrected, since the context makes the speaker plain.
