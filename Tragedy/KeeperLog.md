@@ -172,3 +172,8 @@ The request rule against B recurs, and B's report asks how strong a dependence m
 
 **P13, Ajax: one speech the source names no speaker for.**
 Speech S284 (lines 1290-1315) carries no speaker in the source; it follows Teucer's speech and goes on answering Agamemnon, and `extract.py` labels it "(no speaker in the source)", adding nothing from outside the text.
+
+**Events stage, P13, Ajax, from `master` at 9e4d4c5: in form.**
+117 events, 30 told as past, numbered in order and cited in the order of telling; a cast of 26, each name once; hero Ajax, in 85 events, far ahead of Teucer and Tecmessa.
+The lister gave speech S284, which the source names no speaker for, to Teucer from its content.
+It counted Menelaus and Agamemnon each where the text says "the Atreidae", rather than making the pair a group, and, as at P09, left gods only prayed to out of the cast.
