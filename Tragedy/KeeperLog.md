@@ -195,3 +195,9 @@ The play tells the story of P08, Euripides's *Electra*; the prompts name the aut
 78 events, 14 told as past, numbered in order and cited in the order of telling; a cast of 17, each name once; hero Orestes, in 37 events against 36 for Electra, and in the last event, so a tie would still name him.
 Three plays have now had a hero decided by two events or fewer (P08 by 2, P10 by 1, P14 by 1), all of them Orestes against a sister. The rule is kept as frozen; for its next revision, a margin within which both are named, with the play transcribed once for each, would suit plays that follow two characters about equally.
 The lister's other uncertainties are the familiar ones: retellings, the false report listed as one event without its invented contents, and choral myth.
+
+**P14, Sophocles's Electra, from `master` at 7fd9a39: both transcriptions in form; sealed, not scored.**
+Both cover all 78 events, A in 78 entries and B in 79, and both keep the whole play in one move, reading Agamemnon's murder as the harm Orestes's want of vengeance already names; the form check finds no problems.
+Every performer and undergoer is a name from `Cast.txt`, or two of them joined, now in a fourth way: transcriber A writes "Clytaemnestra and Aegisthus" three times. The character spheres must read "and", commas and semicolons alike.
+As at P02, transcriber B kept its generating script in a scratch folder outside the repository, against its prompt; it was not committed, and its output folder holds only the two files.
+The reports show the familiar gaps: the request rule against γ and B, F− for a requester who is not the hero, whether "later" means in the telling, and whether a reply that changes nothing matters.
