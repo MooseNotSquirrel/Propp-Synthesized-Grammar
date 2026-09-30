@@ -8,6 +8,9 @@ catalog entries, and back.
                                                  and Tragedy/BlockPatterns.txt
   python blockStream.py run aesop AESOP_REPO     write Blocks/AesopStreams.txt
                                                  and Blocks/AesopPatterns.txt
+  python blockStream.py run fables FABLES_REPO   the held-out fables: write
+                                                 Blocks/FablesStreams.txt and
+                                                 Blocks/FablesPatterns.txt
 
 THE TRANSFORM, fixed with BlockTests.txt before this program was written:
   1. The stream is a transcription's Notes.txt in order, move lines ignored,
@@ -261,6 +264,7 @@ def test():
     g = Grammar()
     trag = os.path.join(os.path.dirname(ROOT), 'Tragedy')
     aesop = os.path.join(os.path.dirname(ROOT), 'Aesop')
+    fables = os.path.join(os.path.dirname(ROOT), 'Fables')
     passed = failed = 0
     for n, line in enumerate(open(os.path.join(ROOT, 'BlockTests.txt'), encoding='utf-8'), 1):
         if line.startswith('#') or '|' not in line:
@@ -269,11 +273,16 @@ def test():
         if kind in READINGS:
             got = ' '.join(transform(inp.split(), g, kind))
             ok = got == want
-        elif kind in ('roundtrip', 'roundtrip3', 'aesoproundtrip'):
+        elif kind in ('roundtrip', 'roundtrip3', 'aesoproundtrip', 'fablesroundtrip'):
             bad = []
             for src in inp.split():
                 for L in 'AB':
-                    vs = load_aesop(aesop, L, (src,)) if kind == 'aesoproundtrip' else load(trag, L, src)
+                    if kind == 'aesoproundtrip':
+                        vs = load_aesop(aesop, L, (src,))
+                    elif kind == 'fablesroundtrip':
+                        vs = load_aesop(fables, L, (src,))
+                    else:
+                        vs = load(trag, L, src)
                     for v, items in vs.items():
                         for reading in READINGS:
                             if reverse(transform(items, g, reading)) != items:
@@ -304,7 +313,8 @@ def run(corpus, repo):
         here, sname, pname = os.path.join(ROOT, 'Tragedy'), 'BlockStreams.txt', 'BlockPatterns.txt'
     else:
         versions = {L: list(load_aesop(repo, L).items()) for L in 'AB'}
-        here, sname, pname = os.path.join(ROOT, 'Blocks'), 'AesopStreams.txt', 'AesopPatterns.txt'
+        stem = 'Aesop' if corpus == 'aesop' else 'Fables'
+        here, sname, pname = os.path.join(ROOT, 'Blocks'), stem + 'Streams.txt', stem + 'Patterns.txt'
         os.makedirs(here, exist_ok=True)
     lines = ['# %s -- written by blockStream.py (%s); see its header.' % (sname, corpus), '']
     report = ['# %s -- written by blockStream.py (%s): blocks in the real streams against' % (pname, corpus),
@@ -344,7 +354,7 @@ def run(corpus, repo):
                     if real_c[name] or shuf_c[name] >= 0.5 * SHUFFLES / 100:
                         report.append('  %-22s real %3d   shuffled mean %6.2f'
                                       % (name, real_c[name], shuf_c[name] / SHUFFLES))
-            if corpus == 'aesop':
+            if corpus in ('aesop', 'fables'):
                 report.append('  the commonest shapes (blocks named, X and N left out):')
                 for sh, c in shapes.most_common(15):
                     report.append('    %3d  %s' % (c, sh or '(nothing kept)'))
@@ -360,6 +370,6 @@ if __name__ == '__main__':
     a = sys.argv[1:]
     if a == ['test']:
         sys.exit(test())
-    if a[:1] == ['run'] and len(a) == 3 and a[1] in ('tragedy', 'aesop'):
+    if a[:1] == ['run'] and len(a) == 3 and a[1] in ('tragedy', 'aesop', 'fables'):
         sys.exit(run(a[1], os.path.abspath(os.path.join(TS.CALLER, a[2]))))
     sys.exit(__doc__)
