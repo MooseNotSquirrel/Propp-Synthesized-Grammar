@@ -331,3 +331,7 @@ The reports show the familiar gaps: the request rule against γ, A against β fo
 
 **P25, Philoctetes: two speeches the source names no speaker for.**
 Speeches S073 (lines 285-315) and S354 (line 1261) carry no speaker; each is the second part of a speech the source splits, continuing Philoctetes and Neoptolemus, as at P14, P19, P20 and P21. Jebb's translation, modernized. Nothing is corrected.
+
+**Events stage, P25, Philoctetes, from `master` at 26307c3: in form.**
+95 events, 16 told as past, numbered in order and cited in the order of telling; a cast of 23, each name once; hero Philoctetes, ahead of Neoptolemus, with no tie.
+A play built on lies: the lister listed each scripted lie as one now event, the telling of a false story, and not its contents as past events, but listed as past what the liars' talk reports that the play later confirms (the prophecy of Helenus) or leaves open (deaths at Troy told while Neoptolemus deceives). It treated the Merchant and the disguised lookout as one character, on the plan stated in S043.
