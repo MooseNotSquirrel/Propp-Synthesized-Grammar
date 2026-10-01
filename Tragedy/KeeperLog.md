@@ -306,3 +306,6 @@ The lister kept Hades apart from Death, following the text's "winged Hades", and
 Both cover all 74 events, A in 76 entries and B in 78, in 4 and 5 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
 The reports show the familiar gaps: a retaliation as a new villainy, requests by those who are not the hero, where K falls in a long restoration (both put it at the unveiling), and hero-defined functions given to Heracles.
 Transcriber B wrote "θ−", a negative complicity, for Admetus's first refusal of Heracles's request (ev 64): the habit the trick audit found in the fables (Blocks/TrickAudit.txt), here written out openly. The card defines θ only as yielding; the sign marks it as a refusal, which the scoring reads, as it reads every sign, by the base symbol θ.
+
+**P23, Libation Bearers: two speeches the source names no speaker for, and a stray character.**
+Speeches S145 (line 730) and S234 (lines 1065-1075) carry no speaker; both continue the Chorus, the second being the play's close. Speech S046 holds a ">" in the source's own text ("Footprints>matching"), a typo, not leftover markup. Smyth's translation, modernized. Nothing is corrected.
