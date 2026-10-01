@@ -317,3 +317,6 @@ The third Orestes play (with P08 and P14), and the first where he leads by a wid
 **P23, Libation Bearers, from `master` at 04a284f: both transcriptions in form; sealed, not scored.**
 Both cover all 114 events, A in 119 entries and B in 116; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt` (the cast name "Priam and his sons" contains "and", which the keeper's name check splits; it is one cast member).
 The move counts diverge as at P11, 10 against 4: transcriber A applies the request rule literally, so every first-stated want marked Y opens a move, while B treats the seekers' and helpers' small requests as X. Both read "first stated" as by anyone in the play. The familiar gaps recur: the request rule, γ against B for Apollo's oracle, where recognition falls among its signs (both put Q at Electra's recognition, ev 29), and I against A for the killings.
+
+**P24, Hippolytus: two abbreviated speaker labels, in Coleridge's own wording.**
+The source labels one speech "Att" (the Attendants) and one "Art" (Artemis); as at P12 and P16, the text is extracted as the source gives it. As with P09, P11, P15 and P22, the English file is Coleridge's translation without the Perseus modernization, and it carries no stage directions. Nothing is corrected.
