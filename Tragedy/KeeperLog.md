@@ -343,3 +343,8 @@ The reports show the familiar gaps, sharpened by a play of ruses: the request ru
 **Events stage, P26, Heracles, from `master` at 9d227da: in form.**
 116 events, 34 told as past, numbered in order and cited in the order of telling; a cast of 39, each name once; hero Heracles, far ahead of all others.
 The labors told in the odes are listed one deed at a time as past events, which puts the creatures (the lion, the Hydra, the hound and others) in the cast as sufferers; the lister asks whether non-human creatures should count as characters. The three sons, killed one by one, are kept as one group, as the cast rule asks. The other uncertainties are the familiar ones.
+
+**P26, Heracles, from `master` at 2ca14a4: both transcriptions in form; sealed, not scored.**
+Both cover all 116 events, A in 136 entries and B in 122, in 8 and 7 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt` (A joins several undergoers with commas).
+Transcriber B ran `git status` during its work and saw that `transcriptions/A/P26/` existed, as an untracked folder name; it reports that it did not open or list it, and its prompt forbade nothing it did. A folder's name carries none of A's entries, so the two remain blind to each other; the first time a transcriber has seen any trace of the other's work, logged for the record.
+The reports show the familiar gaps: the request rule against γ, how a want and the harm that fulfils it share a move, and the labours told in the odes, which A wrote as solutions N and B as victories I or X. No negative θ.
