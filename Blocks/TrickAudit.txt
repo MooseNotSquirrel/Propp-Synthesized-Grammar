@@ -36,3 +36,10 @@ THE PAGE: https://claude.ai/artifact/16rjFupuxbHWy7NXztakLa (private to the
 owner), built from Blocks/TrickAuditPage.template.html with
 TrickAuditItems.json embedded; answers saved in its database, collection
 "answers", one document per instance (trick, complicity, same, note).
+
+CLARIFICATION GIVEN TO THE AUDITOR, before any answer was saved: complicity
+runs one way. A victim who balks, refuses or sees through the trick has not
+performed θ, so question 2 is No (and question 3 with it); taken in first and
+balking later is judged by the event the claim cites; partly or unclearly
+taken in is Unsure. This follows the question as frozen ("taken in, and so
+helping the deceiver without meaning to") and Propp p.30.
