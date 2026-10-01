@@ -335,3 +335,7 @@ Speeches S073 (lines 285-315) and S354 (line 1261) carry no speaker; each is the
 **Events stage, P25, Philoctetes, from `master` at 26307c3: in form.**
 95 events, 16 told as past, numbered in order and cited in the order of telling; a cast of 23, each name once; hero Philoctetes, ahead of Neoptolemus, with no tie.
 A play built on lies: the lister listed each scripted lie as one now event, the telling of a false story, and not its contents as past events, but listed as past what the liars' talk reports that the play later confirms (the prophecy of Helenus) or leaves open (deaths at Troy told while Neoptolemus deceives). It treated the Merchant and the disguised lookout as one character, on the plan stated in S043.
+
+**P25, Philoctetes, from `master` at 52ce6e2: both transcriptions in form; sealed, not scored.**
+Both cover all 95 events, A in 99 entries and B in 97, in 7 and 6 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`. As at P02 and P14, transcriber B kept its generating script in a scratch folder outside the repository; nothing extra is in its output folder.
+The reports show the familiar gaps, sharpened by a play of ruses: the request rule against γ for orders (A followed γ less, B wrote X), a feigned consent written η rather than F, a past harm told after the action began opening a move, and where the villainy over the bow sits. No negative θ.
