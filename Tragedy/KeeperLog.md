@@ -301,3 +301,8 @@ As with P09, P11 and P15, the English file is Coleridge's translation without th
 **Events stage, P22, Alcestis, from `master` at ef778a6: in form.**
 74 events, 11 told as past, numbered in order and cited in the order of telling; a cast of 23, each name once; hero Admetus, in 47 events against 38 for Alcestis and 27 for Heracles, with no tie.
 The lister kept Hades apart from Death, following the text's "winged Hades", and Eumelus apart from the children, since he speaks alone; it listed Heracles's claim to have won the woman in a contest as a lie told now, not the contest as an event. Its other uncertainties are the familiar ones.
+
+**P22, Alcestis, from `master` at f2caae5: both transcriptions in form; sealed, not scored.**
+Both cover all 74 events, A in 76 entries and B in 78, in 4 and 5 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The reports show the familiar gaps: a retaliation as a new villainy, requests by those who are not the hero, where K falls in a long restoration (both put it at the unveiling), and hero-defined functions given to Heracles.
+Transcriber B wrote "θ−", a negative complicity, for Admetus's first refusal of Heracles's request (ev 64): the habit the trick audit found in the fables (Blocks/TrickAudit.txt), here written out openly. The card defines θ only as yielding; the sign marks it as a refusal, which the scoring reads, as it reads every sign, by the base symbol θ.
