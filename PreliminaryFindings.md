@@ -77,3 +77,12 @@ In order of value:
 5. A corpus outside the Indo-European family, to tell an Indo-European pattern from a general one.
 6. A block-frequency table across genres (suggested 2026-09-30): for each block and genre, the count, the rate per story and per 100 functions, the count expected under shuffling, their ratio, the information (minus the log of the block's rate), and the transcribers' agreement on it. Rare blocks carry more information and may mark a genre, common ones are the shared vocabulary; a rare block counts as a genre's mark only where the transcribers agree on it.
 7. The character spheres, counted properly, including how often one species fills both villain's and hero's functions: the trickster reading's test.
+
+## 9. Prior work to read before any write-up
+
+From memory, each to be checked before it is cited:
+- Propp, "Oedipus in the Light of Folklore" (1944), and *Historical Roots of the Wondertale* (1946): tale and myth share composition and differ in social function; Propp's 1966 reply to Lévi-Strauss's review "Structure and Form" (1960).
+- Lévi-Strauss, "The Structural Study of Myth" (1955): the binary reading of Oedipus that our results, being about sequence and adjacency, do not support.
+- Meletinsky, *The Poetics of Myth* (1976): myth centred on origins, the tale emerging as myth loses its sacred standing; a testable form is that in myth a liquidation is more often followed by a lasting change to the world.
+- Dundes, *The Morphology of North American Indian Folktales* (1964): interdiction, violation, consequence, attempted escape.
+- Malec, PftML (about 2001), an XML markup of Propp's functions; Peinado, Gervás and colleagues, ProtoPropp (mid-2000s), an ontology of the functions for story generation; Gervás on Propp's morphology as a grammar for generation. Prior art for grouping functions into classes and relaxing their order; the difference here is empirical testing on blind transcriptions against a shuffle baseline and held-out data.
