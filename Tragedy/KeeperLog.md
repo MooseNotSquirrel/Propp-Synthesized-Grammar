@@ -324,3 +324,7 @@ The source labels one speech "Att" (the Attendants) and one "Art" (Artemis); as 
 **Events stage, P24, Hippolytus, from `master` at c0a7200: in form.**
 100 events, 20 told as past, numbered in order and cited in the order of telling; a cast of 27, each name once; hero Hippolytus, well ahead of Theseus.
 The lister recorded the abbreviated label "Att" among the Attendants' other names, split the two speakers the source calls "Messenger" into the palace servant and Hippolytus's servant, and counted the horses and the sea-bull as characters. The lying letter is placed where Artemis first states it outright (S254), after Theseus reads it. The other uncertainties are the familiar ones.
+
+**P24, Hippolytus, from `master` at c498d30: both transcriptions in form; sealed, not scored.**
+Both cover all 100 events, A in 105 entries and B in 102, in 8 and 7 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The reports show the familiar gaps: the request rule against γ, A against β for a suicide, A against η for the lying letter (told only after Theseus is taken in, so its θ precedes its villainy in the telling), the chariot crash as struggle or harm, and Q against Ex for Artemis's revelation. Transcriber A gave a non-function act its own X in mixed events, as at P13. No negative θ.
