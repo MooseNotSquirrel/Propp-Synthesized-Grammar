@@ -26,3 +26,8 @@ THE DECISION RULE: an instance is SUPPORTED if all three are Yes. The block
 finding is SUPPORTED if at least 16 of 20 instances are (80%), DOUBTFUL if 12
 to 15 are, and NOT SUPPORTED below 12. Answers of Unsure count as not Yes.
 The earlier audits of single entries found 91% and 99% faithful.
+
+THE DRAW, 2026-09-30: training A 12 instances, B 15; held-out A 9, B 11; 5
+drawn from each, 20 in all, in Blocks/TrickAuditItems.json. The key is held
+outside the repository; its SHA-256 is
+a37c248b52416d0320a2a4c7d0d86f5e684c567d9eca58d01e45e872016d83ed

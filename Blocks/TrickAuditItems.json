@@ -1,0 +1,458 @@
+[
+ {
+  "fable": "F145",
+  "title": "The Cat and the Mice",
+  "text": "A CERTAIN HOUSE was overrun with Mice. A Cat, discovering this, made her way into it and began to catch and eat them one by one. Fearing for their lives, the Mice kept themselves close in their holes. The Cat was no longer able to get at them and perceived that she must tempt them forth by some device. For this purpose she jumped upon a peg, and suspending herself from it, pretended to be dead. One of the Mice, peeping stealthily out, saw her and said, “Ah, my good madam, even though you should turn into a meal-bag, we will not come near you.”",
+  "events": [
+   "5. She hangs from a peg and pretends to be dead",
+   "6. A Mouse peeks out, sees her, and says they will not go near her even if she turns into a meal-bag"
+  ],
+  "entries": [
+   {
+    "event": 5,
+    "function": "trick",
+    "quote": "pretended to be dead"
+   },
+   {
+    "event": 6,
+    "function": "complicity",
+    "quote": "even though you should turn into a meal-bag, we will not come near you"
+   }
+  ],
+  "id": "T01"
+ },
+ {
+  "fable": "F064",
+  "title": "The Wolves and the Sheep",
+  "text": "“WHY SHOULD there always be this fear and slaughter between us?” said the Wolves to the Sheep. “Those evil-disposed Dogs have much to answer for. They always bark whenever we approach you and attack us before we have done any harm. If you would only dismiss them from your heels, there might soon be treaties of peace and reconciliation between us.” The Sheep, poor silly creatures, were easily beguiled and dismissed the Dogs, whereupon the Wolves destroyed the unguarded flock at their own pleasure.",
+  "events": [
+   "1. The Wolves blame the Dogs and tell the Sheep there could be peace if the Sheep sent the Dogs away",
+   "2. The Sheep are taken in and send the Dogs away"
+  ],
+  "entries": [
+   {
+    "event": 1,
+    "function": "trick",
+    "quote": "If you would only dismiss them from your heels, there might soon be treaties of peace and reconciliation between us."
+   },
+   {
+    "event": 2,
+    "function": "complicity",
+    "quote": "The Sheep, poor silly creatures, were easily beguiled and dismissed the Dogs"
+   }
+  ],
+  "id": "T02"
+ },
+ {
+  "fable": "F055",
+  "title": "The Shepherd’s Boy and the Wolf",
+  "text": "A SHEPHERD-BOY, who watched a flock of sheep near a village, brought out the villagers three or four times by crying out, “Wolf! Wolf!” and when his neighbors came to help him, laughed at them for their pains. The Wolf, however, did truly come at last. The Shepherd-boy, now really alarmed, shouted in an agony of terror: “Pray, do come and help me; the Wolf is killing the sheep;” but no one paid any heed to his cries, nor rendered any assistance. The Wolf, having no cause of fear, at his leisure lacerated or destroyed the whole flock. There is no believing a liar, even when he speaks the truth.",
+  "events": [
+   "1. Three or four times, a Shepherd-boy brings the villagers running by falsely crying \"Wolf!\""
+  ],
+  "entries": [
+   {
+    "event": 1,
+    "function": "trick",
+    "quote": "by crying out, 'Wolf! Wolf!'"
+   },
+   {
+    "event": 1,
+    "function": "complicity",
+    "quote": "brought out the villagers three or four times"
+   }
+  ],
+  "id": "T03"
+ },
+ {
+  "fable": "F300",
+  "title": "The Eagle and the Kite",
+  "text": "AN EAGLE, overwhelmed with sorrow, sat upon the branches of a tree in company with a Kite. “Why,” said the Kite, “do I see you with such a rueful look?” “I seek,” she replied, “a mate suitable for me, and am not able to find one.” “Take me,” returned the Kite, “I am much stronger than you are.” “Why, are you able to secure the means of living by your plunder?” “Well, I have often caught and carried away an ostrich in my talons.” The Eagle, persuaded by these words, accepted him as her mate. Shortly after the nuptials, the Eagle said, “Fly off and bring me back the ostrich you promised me.” The Kite, soaring aloft into the air, brought back the shabbiest possible mouse, stinking from the length of time it had lain about the fields. “Is this,” said the Eagle, “the faithful fulfillment of your promise to me?” The Kite replied, “That I might attain your royal hand, there is nothing that I would not have promised, however much I knew that I must fail in the performance.”",
+  "events": [
+   "2. The Kite offers himself as her mate, claiming to be stronger than she is",
+   "3. Asked whether he can live by plunder, the Kite boasts that he has often carried off an ostrich",
+   "4. The Eagle, persuaded, accepts the Kite as her mate"
+  ],
+  "entries": [
+   {
+    "event": 2,
+    "function": "trick",
+    "quote": "Take me, I am much stronger than you are"
+   },
+   {
+    "event": 3,
+    "function": "trick",
+    "quote": "I have often caught and carried away an ostrich in my talons"
+   },
+   {
+    "event": 4,
+    "function": "complicity",
+    "quote": "The Eagle, persuaded by these words, accepted him as her mate"
+   }
+  ],
+  "id": "T04"
+ },
+ {
+  "fable": "F216",
+  "title": "The Dog, the Cock, and the Fox",
+  "text": "A DOG and a Cock being great friends, agreed to travel together. At nightfall they took shelter in a thick wood. The Cock flying up, perched himself on the branches of a tree, while the Dog found a bed beneath in the hollow trunk. When the morning dawned, the Cock, as usual, crowed very loudly several times. A Fox heard the sound, and wishing to make a breakfast on him, came and stood under the branches, saying how earnestly he desired to make the acquaintance of the owner of so magnificent a voice. The Cock, suspecting his civilities, said: “Sir, I wish you would do me the favour of going around to the hollow trunk below me, and waking my porter, so that he may open the door and let you in.” When the Fox approached the tree, the Dog sprang out and caught him, and tore him to pieces.",
+  "events": [
+   "5. A Fox hears him, comes under the tree and flatters the Cock, hoping to eat him",
+   "6. The suspicious Cock asks the Fox to go round and wake his porter in the trunk below to let him in"
+  ],
+  "entries": [
+   {
+    "event": 5,
+    "function": "trick",
+    "quote": "saying how earnestly he desired to make the acquaintance of the owner of so magnificent a voice"
+   },
+   {
+    "event": 6,
+    "function": "complicity",
+    "quote": "The Cock, suspecting his civilities, said"
+   }
+  ],
+  "id": "T05"
+ },
+ {
+  "fable": "F064",
+  "title": "The Wolves and the Sheep",
+  "text": "“WHY SHOULD there always be this fear and slaughter between us?” said the Wolves to the Sheep. “Those evil-disposed Dogs have much to answer for. They always bark whenever we approach you and attack us before we have done any harm. If you would only dismiss them from your heels, there might soon be treaties of peace and reconciliation between us.” The Sheep, poor silly creatures, were easily beguiled and dismissed the Dogs, whereupon the Wolves destroyed the unguarded flock at their own pleasure.",
+  "events": [
+   "1. The Wolves blame the Dogs and tell the Sheep there could be peace if the Sheep sent the Dogs away",
+   "2. The Sheep are taken in and send the Dogs away"
+  ],
+  "entries": [
+   {
+    "event": 1,
+    "function": "trick",
+    "quote": "If you would only dismiss them from your heels, there might soon be treaties of peace and reconciliation between us"
+   },
+   {
+    "event": 2,
+    "function": "complicity",
+    "quote": "The Sheep, poor silly creatures, were easily beguiled and dismissed the Dogs"
+   }
+  ],
+  "id": "T06"
+ },
+ {
+  "fable": "F220",
+  "title": "The Lion and the Bull",
+  "text": "A LION, greatly desiring to capture a Bull, and yet afraid to attack him on account of his great size, resorted to a trick to ensure his destruction. He approached the Bull and said, “I have slain a fine sheep, my friend; and if you will come home and partake of him with me, I shall be delighted to have your company.” The Lion said this in the hope that, as the Bull was in the act of reclining to eat, he might attack him to advantage, and make his meal on him. The Bull, on approaching the Lion’s den, saw the huge spits and giant caldrons, and no sign whatever of the sheep, and, without saying a word, quietly took his departure. The Lion inquired why he went off so abruptly without a word of salutation to his host, who had not given him any cause for offense. “I have reasons enough,” said the Bull. “I see no indication whatever of your having slaughtered a sheep, while I do see very plainly every preparation for your dining on a bull.”",
+  "events": [
+   "2. The Lion falsely tells the Bull he has killed a fine sheep and invites him home to share it",
+   "3. Approaching the den, the Bull sees huge spits and caldrons and no sign of a sheep"
+  ],
+  "entries": [
+   {
+    "event": 2,
+    "function": "trick",
+    "quote": "I have slain a fine sheep, my friend; and if you will come home and partake of him with me"
+   },
+   {
+    "event": 3,
+    "function": "complicity",
+    "quote": "The Bull, on approaching the Lion's den"
+   }
+  ],
+  "id": "T07"
+ },
+ {
+  "fable": "F222",
+  "title": "The Grasshopper and the Owl",
+  "text": "AN OWL, accustomed to feed at night and to sleep during the day, was greatly disturbed by the noise of a Grasshopper and earnestly besought her to stop chirping. The Grasshopper refused to desist, and chirped louder and louder the more the Owl entreated. When she saw that she could get no redress and that her words were despised, the Owl attacked the chatterer by a stratagem. “Since I cannot sleep,” she said, “on account of your song which, believe me, is sweet as the lyre of Apollo, I shall indulge myself in drinking some nectar which Pallas lately gave me. If you do not dislike it, come to me and we will drink it together.” The Grasshopper, who was thirsty, and pleased with the praise of her voice, eagerly flew up. The Owl came forth from her hollow, seized her, and put her to death.",
+  "events": [
+   "3. The Owl turns to a trick, praises the Grasshopper's song, and invites her to share some nectar from Pallas",
+   "4. The thirsty, flattered Grasshopper eagerly flies up"
+  ],
+  "entries": [
+   {
+    "event": 3,
+    "function": "trick",
+    "quote": "come to me and we will drink it together"
+   },
+   {
+    "event": 4,
+    "function": "complicity",
+    "quote": "pleased with the praise of her voice, eagerly flew up"
+   }
+  ],
+  "id": "T08"
+ },
+ {
+  "fable": "F219",
+  "title": "The Goat and the Ass",
+  "text": "A MAN once kept a Goat and an Ass. The Goat, envying the Ass on account of his greater abundance of food, said, “How shamefully you are treated: at one time grinding in the mill, and at another carrying heavy burdens;” and he further advised him to pretend to be epileptic and fall into a ditch and so obtain rest. The Ass listened to his words, and falling into a ditch, was very much bruised. His master, sending for a leech, asked his advice. He bade him pour upon the wounds the lungs of a Goat. They at once killed the Goat, and so healed the Ass.",
+  "events": [
+   "2. The Goat advises the Ass to pretend to have a fit and fall into a ditch to get some rest",
+   "3. The Ass follows the advice, falls into a ditch and is badly bruised"
+  ],
+  "entries": [
+   {
+    "event": 2,
+    "function": "trick",
+    "quote": "advised him to pretend to be epileptic and fall into a ditch"
+   },
+   {
+    "event": 3,
+    "function": "complicity",
+    "quote": "The Ass listened to his words"
+   }
+  ],
+  "id": "T09"
+ },
+ {
+  "fable": "F074",
+  "title": "The Fox and the Monkey",
+  "text": "A MONKEY once danced in an assembly of the Beasts, and so pleased them all by his performance that they elected him their King. A Fox, envying him the honour, discovered a piece of meat lying in a trap, and leading the Monkey to the place where it was, said that she had found a store, but had not used it, she had kept it for him as treasure trove of his kingdom, and counseled him to lay hold of it. The Monkey approached carelessly and was caught in the trap; and on his accusing the Fox of purposely leading him into the snare, she replied, “O Monkey, and are you, with such a mind as yours, going to be King over the Beasts?”",
+  "events": [
+   "4. The Fox leads the Monkey to the trap, says she saved the meat for him as treasure, and urges him to take it",
+   "5. The Monkey approaches carelessly and is caught in the trap"
+  ],
+  "entries": [
+   {
+    "event": 4,
+    "function": "trick",
+    "quote": "said that she had found a store, but had not used it, she had kept it for him as treasure trove of his kingdom, and counseled him to lay hold of it"
+   },
+   {
+    "event": 5,
+    "function": "complicity",
+    "quote": "The Monkey approached carelessly"
+   }
+  ],
+  "id": "T10"
+ },
+ {
+  "fable": "F222",
+  "title": "The Grasshopper and the Owl",
+  "text": "AN OWL, accustomed to feed at night and to sleep during the day, was greatly disturbed by the noise of a Grasshopper and earnestly besought her to stop chirping. The Grasshopper refused to desist, and chirped louder and louder the more the Owl entreated. When she saw that she could get no redress and that her words were despised, the Owl attacked the chatterer by a stratagem. “Since I cannot sleep,” she said, “on account of your song which, believe me, is sweet as the lyre of Apollo, I shall indulge myself in drinking some nectar which Pallas lately gave me. If you do not dislike it, come to me and we will drink it together.” The Grasshopper, who was thirsty, and pleased with the praise of her voice, eagerly flew up. The Owl came forth from her hollow, seized her, and put her to death.",
+  "events": [
+   "3. The Owl turns to a trick, praises the Grasshopper's song, and invites her to share some nectar from Pallas",
+   "4. The thirsty, flattered Grasshopper eagerly flies up"
+  ],
+  "entries": [
+   {
+    "event": 3,
+    "function": "trick",
+    "quote": "the Owl attacked the chatterer by a stratagem ... your song which, believe me, is sweet as the lyre of Apollo ... come to me and we will drink it together"
+   },
+   {
+    "event": 4,
+    "function": "complicity",
+    "quote": "The Grasshopper, who was thirsty, and pleased with the praise of her voice, eagerly flew up"
+   }
+  ],
+  "id": "T11"
+ },
+ {
+  "fable": "F064",
+  "title": "The Wolves and the Sheep",
+  "text": "“WHY SHOULD there always be this fear and slaughter between us?” said the Wolves to the Sheep. “Those evil-disposed Dogs have much to answer for. They always bark whenever we approach you and attack us before we have done any harm. If you would only dismiss them from your heels, there might soon be treaties of peace and reconciliation between us.” The Sheep, poor silly creatures, were easily beguiled and dismissed the Dogs, whereupon the Wolves destroyed the unguarded flock at their own pleasure.",
+  "events": [
+   "1. The Wolves blame the Dogs and tell the Sheep there could be peace if the Sheep sent the Dogs away",
+   "2. The Sheep are taken in and send the Dogs away"
+  ],
+  "entries": [
+   {
+    "event": 1,
+    "function": "trick",
+    "quote": "If you would only dismiss them from your heels, there might soon be treaties of peace and reconciliation between us."
+   },
+   {
+    "event": 2,
+    "function": "complicity",
+    "quote": "The Sheep, poor silly creatures, were easily beguiled and dismissed the Dogs"
+   }
+  ],
+  "id": "T12"
+ },
+ {
+  "fable": "F041",
+  "title": "The Wolf in Sheep’s Clothing",
+  "text": "ONCE UPON A TIME a Wolf resolved to disguise his appearance in order to secure food more easily. Encased in the skin of a sheep, he pastured with the flock deceiving the shepherd by his costume. In the evening he was shut up by the shepherd in the fold; the gate was closed, and the entrance made thoroughly secure. But the shepherd, returning to the fold during the night to obtain meat for the next day, mistakenly caught up the Wolf instead of a sheep, and killed him instantly. Harm seek, harm find.",
+  "events": [
+   "2. Wearing a sheep's skin, the Wolf grazes with the flock and deceives the shepherd"
+  ],
+  "entries": [
+   {
+    "event": 2,
+    "function": "trick",
+    "quote": "Encased in the skin of a sheep, he pastured with the flock"
+   },
+   {
+    "event": 2,
+    "function": "complicity",
+    "quote": "deceiving the shepherd by his costume"
+   }
+  ],
+  "id": "T13"
+ },
+ {
+  "fable": "F219",
+  "title": "The Goat and the Ass",
+  "text": "A MAN once kept a Goat and an Ass. The Goat, envying the Ass on account of his greater abundance of food, said, “How shamefully you are treated: at one time grinding in the mill, and at another carrying heavy burdens;” and he further advised him to pretend to be epileptic and fall into a ditch and so obtain rest. The Ass listened to his words, and falling into a ditch, was very much bruised. His master, sending for a leech, asked his advice. He bade him pour upon the wounds the lungs of a Goat. They at once killed the Goat, and so healed the Ass.",
+  "events": [
+   "2. The Goat advises the Ass to pretend to have a fit and fall into a ditch to get some rest",
+   "3. The Ass follows the advice, falls into a ditch and is badly bruised"
+  ],
+  "entries": [
+   {
+    "event": 2,
+    "function": "trick",
+    "quote": "advised him to pretend to be epileptic and fall into a ditch"
+   },
+   {
+    "event": 3,
+    "function": "complicity",
+    "quote": "The Ass listened to his words"
+   }
+  ],
+  "id": "T14"
+ },
+ {
+  "fable": "F186",
+  "title": "The Eagle, the Cat, and the Wild Sow",
+  "text": "AN EAGLE made her nest at the top of a lofty oak; a Cat, having found a convenient hole, moved into the middle of the trunk; and a Wild Sow, with her young, took shelter in a hollow at its foot. The Cat cunningly resolved to destroy this chance-made colony. To carry out her design, she climbed to the nest of the Eagle, and said, “Destruction is preparing for you, and for me too, unfortunately. The Wild Sow, whom you see daily digging up the earth, wishes to uproot the oak, so she may on its fall seize our families as food for her young.” Having thus frightened the Eagle out of her senses, she crept down to the cave of the Sow, and said, “Your children are in great danger; for as soon as you go out with your litter to find food, the Eagle is prepared to pounce upon one of your little pigs.” Having instilled these fears into the Sow, she went and pretended to hide herself in the hollow of the tree. When night came she went forth with silent foot and obtained food for herself and her kittens, but feigning to be afraid, she kept a lookout all through the day. Meanwhile, the Eagle, full of fear of the Sow, sat still on the branches, and the Sow, terrified by the Eagle, did not dare to go out from her cave. And thus they both, along with their families, perished from hunger, and afforded ample provision for the Cat and her kittens.",
+  "events": [
+   "7. The Cat creeps down to the Sow's cave and lies that the Eagle will pounce on her piglets when she goes out",
+   "8. The Sow is filled with fear"
+  ],
+  "entries": [
+   {
+    "event": 7,
+    "function": "trick",
+    "quote": "Your children are in great danger; ... the Eagle is prepared to pounce upon one of your little pigs"
+   },
+   {
+    "event": 8,
+    "function": "complicity",
+    "quote": "Having instilled these fears into the Sow"
+   }
+  ],
+  "id": "T15"
+ },
+ {
+  "fable": "F145",
+  "title": "The Cat and the Mice",
+  "text": "A CERTAIN HOUSE was overrun with Mice. A Cat, discovering this, made her way into it and began to catch and eat them one by one. Fearing for their lives, the Mice kept themselves close in their holes. The Cat was no longer able to get at them and perceived that she must tempt them forth by some device. For this purpose she jumped upon a peg, and suspending herself from it, pretended to be dead. One of the Mice, peeping stealthily out, saw her and said, “Ah, my good madam, even though you should turn into a meal-bag, we will not come near you.”",
+  "events": [
+   "5. She hangs from a peg and pretends to be dead",
+   "6. A Mouse peeks out, sees her, and says they will not go near her even if she turns into a meal-bag"
+  ],
+  "entries": [
+   {
+    "event": 5,
+    "function": "trick",
+    "quote": "suspending herself from it, pretended to be dead"
+   },
+   {
+    "event": 6,
+    "function": "complicity",
+    "quote": "even though you should turn into a meal-bag, we will not come near you"
+   }
+  ],
+  "id": "T16"
+ },
+ {
+  "fable": "F220",
+  "title": "The Lion and the Bull",
+  "text": "A LION, greatly desiring to capture a Bull, and yet afraid to attack him on account of his great size, resorted to a trick to ensure his destruction. He approached the Bull and said, “I have slain a fine sheep, my friend; and if you will come home and partake of him with me, I shall be delighted to have your company.” The Lion said this in the hope that, as the Bull was in the act of reclining to eat, he might attack him to advantage, and make his meal on him. The Bull, on approaching the Lion’s den, saw the huge spits and giant caldrons, and no sign whatever of the sheep, and, without saying a word, quietly took his departure. The Lion inquired why he went off so abruptly without a word of salutation to his host, who had not given him any cause for offense. “I have reasons enough,” said the Bull. “I see no indication whatever of your having slaughtered a sheep, while I do see very plainly every preparation for your dining on a bull.”",
+  "events": [
+   "2. The Lion falsely tells the Bull he has killed a fine sheep and invites him home to share it",
+   "3. Approaching the den, the Bull sees huge spits and caldrons and no sign of a sheep"
+  ],
+  "entries": [
+   {
+    "event": 2,
+    "function": "trick",
+    "quote": "I have slain a fine sheep, my friend; and if you will come home and partake of him with me"
+   },
+   {
+    "event": 3,
+    "function": "complicity",
+    "quote": "on approaching the Lion's den, saw the huge spits and giant caldrons, and no sign whatever of the sheep"
+   }
+  ],
+  "id": "T17"
+ },
+ {
+  "fable": "F186",
+  "title": "The Eagle, the Cat, and the Wild Sow",
+  "text": "AN EAGLE made her nest at the top of a lofty oak; a Cat, having found a convenient hole, moved into the middle of the trunk; and a Wild Sow, with her young, took shelter in a hollow at its foot. The Cat cunningly resolved to destroy this chance-made colony. To carry out her design, she climbed to the nest of the Eagle, and said, “Destruction is preparing for you, and for me too, unfortunately. The Wild Sow, whom you see daily digging up the earth, wishes to uproot the oak, so she may on its fall seize our families as food for her young.” Having thus frightened the Eagle out of her senses, she crept down to the cave of the Sow, and said, “Your children are in great danger; for as soon as you go out with your litter to find food, the Eagle is prepared to pounce upon one of your little pigs.” Having instilled these fears into the Sow, she went and pretended to hide herself in the hollow of the tree. When night came she went forth with silent foot and obtained food for herself and her kittens, but feigning to be afraid, she kept a lookout all through the day. Meanwhile, the Eagle, full of fear of the Sow, sat still on the branches, and the Sow, terrified by the Eagle, did not dare to go out from her cave. And thus they both, along with their families, perished from hunger, and afforded ample provision for the Cat and her kittens.",
+  "events": [
+   "9. The Cat pretends to hide herself in the hollow of the tree",
+   "10. At night the Cat goes out silently and gets food for herself and her kittens",
+   "11. By day the Cat pretends to be afraid and keeps watch",
+   "12. The Eagle, fearing the Sow, sits still on the branches",
+   "13. The Sow, terrified of the Eagle, does not dare leave her cave"
+  ],
+  "entries": [
+   {
+    "event": 9,
+    "function": "trick",
+    "quote": "she went and pretended to hide herself in the hollow of the tree"
+   },
+   {
+    "event": 11,
+    "function": "trick",
+    "quote": "feigning to be afraid, she kept a lookout all through the day"
+   },
+   {
+    "event": 12,
+    "function": "complicity",
+    "quote": "the Eagle, full of fear of the Sow, sat still on the branches"
+   },
+   {
+    "event": 13,
+    "function": "complicity",
+    "quote": "the Sow, terrified by the Eagle, did not dare to go out from her cave"
+   }
+  ],
+  "id": "T18"
+ },
+ {
+  "fable": "F093",
+  "title": "The Wolf and the Sheep",
+  "text": "A WOLF, sorely wounded and bitten by dogs, lay sick and maimed in his lair. Being in want of food, he called to a Sheep who was passing, and asked him to fetch some water from a stream flowing close beside him. “For,” he said, “if you will bring me drink, I will find means to provide myself with meat.” “Yes,” said the Sheep, “if I should bring you the draught, you would doubtless make me provide the meat also.” Hypocritical speeches are easily seen through.",
+  "events": [
+   "2. Needing food, the Wolf asks a passing Sheep to bring him water, saying he will find meat himself",
+   "3. The Sheep refuses, saying the Wolf would then make him provide the meat too"
+  ],
+  "entries": [
+   {
+    "event": 2,
+    "function": "trick",
+    "quote": "Being in want of food, he called to a Sheep ... asked him to fetch some water ... 'if you will bring me drink, I will find means to provide myself with meat.'"
+   },
+   {
+    "event": 3,
+    "function": "complicity",
+    "quote": "if I should bring you the draught, you would doubtless make me provide the meat also"
+   }
+  ],
+  "id": "T19"
+ },
+ {
+  "fable": "F225",
+  "title": "The Lion and the Three Bulls",
+  "text": "THREE BULLS for a long time pastured together. A Lion lay in ambush in the hope of making them his prey, but was afraid to attack them while they kept together. Having at last by guileful speeches succeeded in separating them, he attacked them without fear as they fed alone, and feasted on them one by one at his own leisure. Union is strength.",
+  "events": [
+   "2. Through cunning speeches he separates them"
+  ],
+  "entries": [
+   {
+    "event": 2,
+    "function": "trick",
+    "quote": "by guileful speeches"
+   },
+   {
+    "event": 2,
+    "function": "complicity",
+    "quote": "succeeded in separating them"
+   }
+  ],
+  "id": "T20"
+ }
+]
