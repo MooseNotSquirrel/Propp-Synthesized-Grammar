@@ -289,3 +289,8 @@ Speech S059 (lines 395-430) carries no speaker; it is the second part of the Mes
 60 events, 14 told as past, numbered in order and cited in the order of telling; a cast of 15, each name once; hero Xerxes.
 The first exact tie: Xerxes and the Persian host at 23 events each, settled by the rule's tie-break, Xerxes being in the last event (the Elders escort him home). The lister notes that splitting the host into fleet, army and commanders would end the tie; it kept the host as one group, as the cast rule allows. The fifth hero decided by two events or fewer (with P08, P10, P14 and P17).
 The battle reported by the messenger is marked now, the campaign before it past; the lister's other uncertainties are the familiar ones.
+
+**P21, Persians, from `master` at 82d4b2c: both transcriptions in form; sealed, not scored.**
+Both cover all 60 events, A in 62 entries and B in 65, in 4 and 3 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
+The reports show the familiar gaps: α for an entrance that only introduces (both wrote α), functions defined for the hero given to Atossa, "later" read as in time or in telling, orders as γ, and β against ↑ for the lord who leaves.
+New to this play: harm with no named agent (the god who drowns the army, the sea yoked by a bridge), written A with performer "-" or X with A as candidate; and a hero who never acts on stage until the end, so most functions fall to the queen, the elders and the ghost.
