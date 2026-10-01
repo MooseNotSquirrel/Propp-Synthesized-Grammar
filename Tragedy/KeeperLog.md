@@ -294,3 +294,6 @@ The battle reported by the messenger is marked now, the campaign before it past;
 Both cover all 60 events, A in 62 entries and B in 65, in 4 and 3 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
 The reports show the familiar gaps: α for an entrance that only introduces (both wrote α), functions defined for the hero given to Atossa, "later" read as in time or in telling, orders as γ, and β against ↑ for the lord who leaves.
 New to this play: harm with no named agent (the god who drowns the army, the sea yoked by a bridge), written A with performer "-" or X with A as candidate; and a hero who never acts on stage until the end, so most functions fall to the queen, the elders and the ghost.
+
+**P22, Alcestis: set up in Coleridge's own wording, with no stage directions.**
+As with P09, P11 and P15, the English file is Coleridge's translation without the Perseus modernization, and, as with P11, it carries no stage directions. Every speech has a named speaker. The text is used as it stands.
