@@ -320,3 +320,7 @@ The move counts diverge as at P11, 10 against 4: transcriber A applies the reque
 
 **P24, Hippolytus: two abbreviated speaker labels, in Coleridge's own wording.**
 The source labels one speech "Att" (the Attendants) and one "Art" (Artemis); as at P12 and P16, the text is extracted as the source gives it. As with P09, P11, P15 and P22, the English file is Coleridge's translation without the Perseus modernization, and it carries no stage directions. Nothing is corrected.
+
+**Events stage, P24, Hippolytus, from `master` at c0a7200: in form.**
+100 events, 20 told as past, numbered in order and cited in the order of telling; a cast of 27, each name once; hero Hippolytus, well ahead of Theseus.
+The lister recorded the abbreviated label "Att" among the Attendants' other names, split the two speakers the source calls "Messenger" into the palace servant and Hippolytus's servant, and counted the horses and the sea-bull as characters. The lying letter is placed where Artemis first states it outright (S254), after Theseus reads it. The other uncertainties are the familiar ones.
