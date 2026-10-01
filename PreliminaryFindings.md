@@ -3,7 +3,7 @@
 **This file gathers what the genre tests and the building-block work have found so far, what has been withdrawn, and the readings and ideas worth keeping for when all the data is in.**
 It is a working document, not a result: every figure below is recorded, with its program and its frozen rule, in the file each entry names, and those files win wherever this one disagrees with them.
 Each entry is marked: ESTABLISHED (frozen before the data, or replicated on unseen data, and passing the risk checks), TENTATIVE (measured, not yet replicated or checked), WITHDRAWN, or SPECULATION, NOT FROM PROPP (a reading, labelled as such).
-Last brought level: 2026-09-30.
+Last brought level: 2026-09-30, after the trick audit.
 
 ## 1. The genre tests of Propp's whole morphology
 
@@ -18,7 +18,7 @@ Found in the training fables and tragedy P01-P04, replicated on the 99 held-out 
 - against a positional null that keeps each function's habits of position, it survives in every fable cell and in tragedy's strict reading (`Blocks/PositionNull.txt`);
 - the two transcribers find the same blocks in the same story beyond chance in every fable cell (`Blocks/Agreement.txt`);
 - it holds whether the incidental and doubtful entries are matched or not, 35 of 36 cells (`Blocks/Robustness.txt`).
-`DeceptionTrap`, the trick with the victim's complicity, is the most reliable block: about three times chance in the fables, and 78% to 88% of its instances found by both transcribers.
+`DeceptionTrap` is the most reliable block: about three times chance in the fables, and 78% to 88% of its instances found by both transcribers. BUT THE OWNER'S AUDIT (`Blocks/TrickAudit.txt`, 13 of 20 supported, DOUBTFUL by its rule) found that it is the trick and the victim's RESPONSE, not always the complicity Propp names: the trick is real in all 20, but in 6 the victim balks or sees through it and the transcribers wrote θ anyway, both of them in the same fables. So part of the block's count and of the transcribers' agreement on it comes from that shared habit. Read faithfully, about two thirds are complicity and about a third its refusal.
 
 **TENTATIVE: in tragedy the effect is weaker.** Its loose reading is mostly habit of position (weakened against the positional null), its strict reading survives, and the transcribers' agreement on strict blocks falls just short of the rule on 40 blocks. The sealed plays test it; the prediction is frozen in `Tragedy/BlockPrediction.txt`.
 
@@ -39,9 +39,9 @@ So the order between blocks is not free, as the plan first supposed: it is a str
 
 ## 4. The fable as a genre
 
-**ESTABLISHED: the fables' kernel is the villain's want, the trick and complicity, then the harm (`a DeceptionTrap A`).** Found in the training fables and recurring in the held-out ones: the trick block is followed by the harm 10 times in 27 and 8 times in 20.
+**ESTABLISHED, WITH THE AUDIT'S CORRECTION: the fables' kernel is the villain's want, the trick and the victim's response, then the harm (`a DeceptionTrap A`).** The audit found about a third of the 'complicity' to be refusals, so where the response is a refusal the kernel is the trick foiled, the second outcome below. Found in the training fables and recurring in the held-out ones: the trick block is followed by the harm 10 times in 27 and 8 times in 20.
 
-**TENTATIVE: the trick has two outcomes.** In the held-out fables it is also followed by its defeat, victory I or rescue Rs, 6 times in 20, often with an exposure after. Noticed on the held-out fables, so it needs fresh fables to test.
+**TENTATIVE, AND STRENGTHENED BY THE AUDIT: the trick has two outcomes.** In the held-out fables it is also followed by its defeat, victory I or rescue Rs, 6 times in 20, often with an exposure after; and the audit found the same split at the victim's response itself, about a third refusing. Noticed on the held-out fables and in the audit, so it needs fresh fables to test, with a card that separates yielding from refusing.
 
 **SPECULATION, NOT FROM PROPP:**
 - Many fables are the villain's move told from the villain's side, and end where Propp's tale begins: the fable is the magic tale's preparatory section made into a whole story, and the harm is the lesson.
@@ -60,6 +60,7 @@ About a third of the held-out events are X for both transcribers and matter. Two
 ## 7. The instrument: known weak points
 
 - The definitions card couples most block halves (section 2).
+- Both transcribers write θ for a victim who refuses a trick, against the card, which defines θ only as yielding (the trick audit); for later corpora the card should say plainly that a refusal is not θ.
 - The mixed-event wording was read two ways; scores are unaffected, the X study counts events, not X entries.
 - The hero rule picks close heroes by one or two events (four tragedies: P08, P10, P14, P17); a margin within which both are named would suit plays that follow two characters.
 - The request rule overlaps γ and B; "later" in the relevance rule is read as later in telling or in story; functions defined for the hero are given to others; a deception whose dupe is not its victim has no clean notation.
@@ -70,7 +71,7 @@ About a third of the held-out events are X for both transcribers and matter. Two
 In order of value:
 1. A scored model of block order, frozen, tested on the undrawn fables.
 2. The block analysis of the sealed tragedies, as frozen in `Tragedy/BlockPrediction.txt`.
-3. An audit by the owner of about twenty `DeceptionTrap` instances against the text.
+3. DONE: the owner's audit of twenty `DeceptionTrap` instances, 13 supported, doubtful (section 2).
 4. The Afanasyev calibration: can the transcribers reproduce Propp's own schemes on his own tales? Then his excluded animal tales, and Dundes's North American material.
 5. A corpus outside the Indo-European family, to tell an Indo-European pattern from a general one.
 6. The character spheres, counted properly, including how often one species fills both villain's and hero's functions: the trickster reading's test.
