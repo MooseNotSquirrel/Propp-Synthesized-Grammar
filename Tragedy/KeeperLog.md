@@ -309,3 +309,7 @@ Transcriber B wrote "θ−", a negative complicity, for Admetus's first refusal 
 
 **P23, Libation Bearers: two speeches the source names no speaker for, and a stray character.**
 Speeches S145 (line 730) and S234 (lines 1065-1075) carry no speaker; both continue the Chorus, the second being the play's close. Speech S046 holds a ">" in the source's own text ("Footprints>matching"), a typo, not leftover markup. Smyth's translation, modernized. Nothing is corrected.
+
+**Events stage, P23, Libation Bearers, from `master` at d3c9347: in form.**
+114 events, 27 told as past, numbered in order and cited in the order of telling; a cast of 30, each name once; hero Orestes, in 71 events, far ahead of Clytaemestra (37).
+The third Orestes play (with P08 and P14), and the first where he leads by a wide margin. The lister counted prayers' addressees in the cast, kept retellings of Agamemnon's murder only where they add a detail, and placed the offstage killings at their first sign (Aegisthus's shriek, the chorus's word of the twofold downfall).
