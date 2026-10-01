@@ -313,3 +313,7 @@ Speeches S145 (line 730) and S234 (lines 1065-1075) carry no speaker; both conti
 **Events stage, P23, Libation Bearers, from `master` at d3c9347: in form.**
 114 events, 27 told as past, numbered in order and cited in the order of telling; a cast of 30, each name once; hero Orestes, in 71 events, far ahead of Clytaemestra (37).
 The third Orestes play (with P08 and P14), and the first where he leads by a wide margin. The lister counted prayers' addressees in the cast, kept retellings of Agamemnon's murder only where they add a detail, and placed the offstage killings at their first sign (Aegisthus's shriek, the chorus's word of the twofold downfall).
+
+**P23, Libation Bearers, from `master` at 04a284f: both transcriptions in form; sealed, not scored.**
+Both cover all 114 events, A in 119 entries and B in 116; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt` (the cast name "Priam and his sons" contains "and", which the keeper's name check splits; it is one cast member).
+The move counts diverge as at P11, 10 against 4: transcriber A applies the request rule literally, so every first-stated want marked Y opens a move, while B treats the seekers' and helpers' small requests as X. Both read "first stated" as by anyone in the play. The familiar gaps recur: the request rule, γ against B for Apollo's oracle, where recognition falls among its signs (both put Q at Electra's recognition, ev 29), and I against A for the killings.
