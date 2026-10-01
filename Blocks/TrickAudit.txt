@@ -43,3 +43,27 @@ performed θ, so question 2 is No (and question 3 with it); taken in first and
 balking later is judged by the event the claim cites; partly or unclearly
 taken in is Unsure. This follows the question as frozen ("taken in, and so
 helping the deceiver without meaning to") and Propp p.30.
+
+RESULT, 2026-09-30, the owner's answers (TrickAuditAnswers.json), unblinded
+with TrickAuditKey.json, whose SHA-256 matches the one committed above:
+  13 of 20 instances SUPPORTED: THE BLOCK FINDING IS DOUBTFUL by the rule.
+  Question 1, a trick: 20 yes. Question 2, the one deceived taken in: 14 yes,
+  6 no. Question 3, the same trick: 13 yes, 7 no. By cell: training A 4 of
+  5, training B 4, held-out A 3, held-out B 2.
+  The six failures on question 2 are victims who balk or see through the
+  trick, written θ all the same: F145 The Cat and the Mice (both
+  transcribers), F220 The Lion and the Bull (both), F216 The Dog, the Cock,
+  and the Fox, F093 The Wolf and the Sheep. The seventh, F041 The Wolf in
+  Sheep's Clothing, has complicity, but not from the trick cited.
+
+WHAT IT MEANS, the keeper's reading: the tricks are real, every one; what is
+not always real is the complicity. Both transcribers write θ for the
+victim's RESPONSE to a trick, yielding or refusing, though the card defines
+θ only as yielding and Propp has no refusing form. Because both do it, and
+in the same fables, it inflates the DeceptionTrap counts and the
+transcribers' agreement on them alike. So the block the fables carry is,
+read faithfully, the trick and the victim's response, in about two thirds
+of cases the response Propp names (complicity) and in about a third its
+refusal. The refusals are the fables whose trick fails, which ties this to
+the trick's second outcome found in the held-out fables.
+FOR LATER CORPORA: the card should say plainly that a refusal is not θ.

@@ -1,0 +1,124 @@
+{
+ "T01": {
+  "at": "2026-10-01T00:12:34.118Z",
+  "complicity": "no",
+  "note": "",
+  "same": "no",
+  "trick": "yes"
+ },
+ "T02": {
+  "at": "2026-10-01T00:06:41.625Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T03": {
+  "at": "2026-10-01T00:07:22.293Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T04": {
+  "at": "2026-10-01T00:08:32.577Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T05": {
+  "at": "2026-10-01T00:13:21.401Z",
+  "complicity": "no",
+  "same": "no",
+  "trick": "yes"
+ },
+ "T06": {
+  "at": "2026-10-01T00:10:02.500Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T07": {
+  "at": "2026-10-01T00:13:42.714Z",
+  "complicity": "no",
+  "note": "Again negative complicity.",
+  "same": "no",
+  "trick": "yes"
+ },
+ "T08": {
+  "at": "2026-10-01T00:14:11.205Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T09": {
+  "at": "2026-10-01T00:14:33.522Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T10": {
+  "at": "2026-10-01T00:15:10.772Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T11": {
+  "at": "2026-10-01T00:15:47.756Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T12": {
+  "at": "2026-10-01T00:16:05.727Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T13": {
+  "at": "2026-10-01T00:23:32.787Z",
+  "complicity": "yes",
+  "same": "no",
+  "trick": "yes"
+ },
+ "T14": {
+  "at": "2026-10-01T00:17:49.429Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T15": {
+  "at": "2026-10-01T00:18:55.815Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T16": {
+  "at": "2026-10-01T00:19:07.806Z",
+  "complicity": "no",
+  "same": "no",
+  "trick": "yes"
+ },
+ "T17": {
+  "at": "2026-10-01T00:19:33.404Z",
+  "complicity": "no",
+  "same": "no",
+  "trick": "yes"
+ },
+ "T18": {
+  "at": "2026-10-01T00:20:20.078Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ },
+ "T19": {
+  "at": "2026-10-01T00:20:55.430Z",
+  "complicity": "no",
+  "same": "no",
+  "trick": "yes"
+ },
+ "T20": {
+  "at": "2026-10-01T00:21:26.924Z",
+  "complicity": "yes",
+  "same": "yes",
+  "trick": "yes"
+ }
+}
