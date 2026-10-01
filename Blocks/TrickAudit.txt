@@ -1,0 +1,28 @@
+TrickAudit.txt -- risk check 4, frozen 2026-09-30 before the draw: does the
+most reliable block, DeceptionTrap, rest on tricks and complicity that the
+fables' own words show?
+
+THE INSTANCES: every DeceptionTrap block in the strict reading (both η and θ
+present), in both fable samples (training: Aesop; held-out: Propp-Fables),
+both transcribers, found by blockStream.py's transform. The draw, by
+trickAuditDraw.py, random.Random(3501): 5 from each of the four cells
+(training A, training B, held-out A, held-out B), 20 in all; a cell with
+fewer than 5 gives all it has and the shortfall is not made up.
+
+WHAT THE AUDITOR SEES, for each instance: the fable's text; the events the
+block covers, as listed; and for each of its η and θ entries the quoted words
+the transcriber cited. Not shown: which transcriber, which sample, or any
+other entry of the transcription. The key is held outside the published page,
+its SHA-256 committed with the draw, and unblinded after the audit.
+
+THE THREE QUESTIONS, each Yes, No or Unsure:
+  1. Trick: do the words show someone trying to deceive another, to get hold
+     of them or of what they have?
+  2. Complicity: do the words show the one deceived taken in, and so helping
+     the deceiver without meaning to?
+  3. One trick: is the complicity the result of that same trick?
+
+THE DECISION RULE: an instance is SUPPORTED if all three are Yes. The block
+finding is SUPPORTED if at least 16 of 20 instances are (80%), DOUBTFUL if 12
+to 15 are, and NOT SUPPORTED below 12. Answers of Unsure count as not Yes.
+The earlier audits of single entries found 91% and 99% faithful.
