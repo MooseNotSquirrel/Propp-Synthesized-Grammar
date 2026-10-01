@@ -281,3 +281,6 @@ Unlike the P09, P13 and P16 listers, and like P05 and P07's, it put the gods nam
 Both cover all 113 events, A in 114 entries and B in 118, in 8 and 9 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
 The reports show the familiar gaps: whether "that want" means the same asker's or the same want by anyone (both transcribers now ask it), the request rule against B and γ, curses and promises as X, and whether K or F when help meets the want. New to this play: the ankle-pinning read as J, the mark by which the hero is later known, which B placed in the move before the exposure's A, since J is told first.
 Transcriber A read the mixed-event wording as P09's A did, and notes that it drops Apollo's prophecy from an event whose other act has a function.
+
+**P21, Persians: one speech the source names no speaker for.**
+Speech S059 (lines 395-430) carries no speaker; it is the second part of the Messenger's report of Salamis, which the source splits, as at P14, P19 and P20. `extract.py` labels it "(no speaker in the source)"; nothing is corrected. Smyth's translation, modernized, as the protocol names.
