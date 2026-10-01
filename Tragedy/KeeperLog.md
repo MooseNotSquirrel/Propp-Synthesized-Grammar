@@ -328,3 +328,6 @@ The lister recorded the abbreviated label "Att" among the Attendants' other name
 **P24, Hippolytus, from `master` at c498d30: both transcriptions in form; sealed, not scored.**
 Both cover all 100 events, A in 105 entries and B in 102, in 8 and 7 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`.
 The reports show the familiar gaps: the request rule against γ, A against β for a suicide, A against η for the lying letter (told only after Theseus is taken in, so its θ precedes its villainy in the telling), the chariot crash as struggle or harm, and Q against Ex for Artemis's revelation. Transcriber A gave a non-function act its own X in mixed events, as at P13. No negative θ.
+
+**P25, Philoctetes: two speeches the source names no speaker for.**
+Speeches S073 (lines 285-315) and S354 (line 1261) carry no speaker; each is the second part of a speech the source splits, continuing Philoctetes and Neoptolemus, as at P14, P19, P20 and P21. Jebb's translation, modernized. Nothing is corrected.
