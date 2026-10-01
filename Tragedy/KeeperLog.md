@@ -284,3 +284,8 @@ Transcriber A read the mixed-event wording as P09's A did, and notes that it dro
 
 **P21, Persians: one speech the source names no speaker for.**
 Speech S059 (lines 395-430) carries no speaker; it is the second part of the Messenger's report of Salamis, which the source splits, as at P14, P19 and P20. `extract.py` labels it "(no speaker in the source)"; nothing is corrected. Smyth's translation, modernized, as the protocol names.
+
+**Events stage, P21, Persians, from `master` at 475e3dd: in form.**
+60 events, 14 told as past, numbered in order and cited in the order of telling; a cast of 15, each name once; hero Xerxes.
+The first exact tie: Xerxes and the Persian host at 23 events each, settled by the rule's tie-break, Xerxes being in the last event (the Elders escort him home). The lister notes that splitting the host into fleet, army and commanders would end the tie; it kept the host as one group, as the cast rule allows. The fifth hero decided by two events or fewer (with P08, P10, P14 and P17).
+The battle reported by the messenger is marked now, the campaign before it past; the lister's other uncertainties are the familiar ones.
