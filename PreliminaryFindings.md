@@ -86,3 +86,8 @@ From memory, each to be checked before it is cited:
 - Meletinsky, *The Poetics of Myth* (1976): myth centred on origins, the tale emerging as myth loses its sacred standing; a testable form is that in myth a liquidation is more often followed by a lasting change to the world.
 - Dundes, *The Morphology of North American Indian Folktales* (1964): interdiction, violation, consequence, attempted escape.
 - Malec, PftML (about 2001), an XML markup of Propp's functions; Peinado, Gervás and colleagues, ProtoPropp (mid-2000s), an ontology of the functions for story generation; Gervás on Propp's morphology as a grammar for generation. Prior art for grouping functions into classes and relaxing their order; the difference here is empirical testing on blind transcriptions against a shuffle baseline and held-out data.
+
+## 10. Positioning, for any write-up
+
+The French structuralists made structure a philosophy: Lévi-Strauss read it as the mind's universal binary operations, Greimas and Barthes sought a general theory of meaning reached by deduction, and claims at that level resist falsification. This work uses structure as a system of measurement, closer to Propp's own "morphology", taken from Goethe's botany and built up from the material: predictions frozen before the data, shuffle baselines, held-out samples and agreement between transcribers, so that every claim can fail, and several have.
+Measurement does not remove the theory; it moves it into the instruments. The definitions card is theory, and the definition check showed it can manufacture a finding (`Blocks/DefinitionCheck.md`). The difference claimed here is that the theory is placed where it can be tested, and the instrument is checked for making its own results.
