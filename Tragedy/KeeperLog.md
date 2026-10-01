@@ -339,3 +339,7 @@ A play built on lies: the lister listed each scripted lie as one now event, the 
 **P25, Philoctetes, from `master` at 52ce6e2: both transcriptions in form; sealed, not scored.**
 Both cover all 95 events, A in 99 entries and B in 97, in 7 and 6 moves; the form check finds no problems, and every performer and undergoer is a name from `Cast.txt`. As at P02 and P14, transcriber B kept its generating script in a scratch folder outside the repository; nothing extra is in its output folder.
 The reports show the familiar gaps, sharpened by a play of ruses: the request rule against γ for orders (A followed γ less, B wrote X), a feigned consent written η rather than F, a past harm told after the action began opening a move, and where the villainy over the bow sits. No negative θ.
+
+**Events stage, P26, Heracles, from `master` at 9d227da: in form.**
+116 events, 34 told as past, numbered in order and cited in the order of telling; a cast of 39, each name once; hero Heracles, far ahead of all others.
+The labors told in the odes are listed one deed at a time as past events, which puts the creatures (the lion, the Hydra, the hound and others) in the cast as sufferers; the lister asks whether non-human creatures should count as characters. The three sons, killed one by one, are kept as one group, as the cast rule asks. The other uncertainties are the familiar ones.
