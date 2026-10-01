@@ -297,3 +297,7 @@ New to this play: harm with no named agent (the god who drowns the army, the sea
 
 **P22, Alcestis: set up in Coleridge's own wording, with no stage directions.**
 As with P09, P11 and P15, the English file is Coleridge's translation without the Perseus modernization, and, as with P11, it carries no stage directions. Every speech has a named speaker. The text is used as it stands.
+
+**Events stage, P22, Alcestis, from `master` at ef778a6: in form.**
+74 events, 11 told as past, numbered in order and cited in the order of telling; a cast of 23, each name once; hero Admetus, in 47 events against 38 for Alcestis and 27 for Heracles, with no tie.
+The lister kept Hades apart from Death, following the text's "winged Hades", and Eumelus apart from the children, since he speaks alone; it listed Heracles's claim to have won the woman in a contest as a lie told now, not the contest as an event. Its other uncertainties are the familiar ones.
