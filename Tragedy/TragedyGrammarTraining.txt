@@ -1,0 +1,9 @@
+TRAGEDY ORDER MODEL, training plays (overstate the model): P01 P02 P03 P04
+
+TRANSCRIBER A: 4 versions
+  tragedy  order: concordance 0.666, shuffled 0.500, gap +0.166, shuffles at or above 0 of 1000
+  Propp    order: concordance 0.544, shuffled 0.501, gap +0.043, shuffles at or above 96 of 1000
+
+TRANSCRIBER B: 4 versions
+  tragedy  order: concordance 0.636, shuffled 0.501, gap +0.135, shuffles at or above 0 of 1000
+  Propp    order: concordance 0.517, shuffled 0.501, gap +0.016, shuffles at or above 318 of 1000

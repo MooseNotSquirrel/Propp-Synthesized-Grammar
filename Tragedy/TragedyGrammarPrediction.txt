@@ -1,0 +1,39 @@
+TragedyGrammarPrediction.txt -- the held-out test of the tragedy block
+grammar, frozen 2026-10-06, before any of P05-P32 is read by it, and before
+the seal is lifted.
+
+THE CLAIM, speculation and not Propp's: Greek tragedy orders the catalog's
+blocks in an order of its own, a strong preference, as the fables do; and
+that order is closer to the plays than Propp's own order is.
+
+THE GRAMMAR, IN SCORED FORM: TragedyOrder01.txt, written by
+tragedyGrammar.py fit from P01-P04, both transcribers: each block or bare
+function's mean relative position, for the 25 units seen at least 3 times.
+It is not changed after this commit. Why scored and not yes-or-no: the
+plays' streams run 30 to 61 functions, no grammar of the fable kind or v46
+accepts any P01-P04 version, and four plays cannot fit a yes-or-no grammar;
+the fable test found between-block order a preference and named a scored
+model the right instrument (tragedyGrammar.py's header). This replaces,
+for tragedy, the yes-or-no grammar TragedyProtocol.md speaks of: a
+departure in form, logged in KeeperLog.md.
+
+THE TRAINING FIGURES, P01-P04 (TragedyGrammarTraining.txt), which overstate
+the model, fitted on the same plays:
+                   tragedy order                  Propp's order
+  transcriber A    0.666 against 0.500, +0.166    0.544 against 0.501, +0.043
+                   0 of 1000 shuffles as high     96 of 1000
+  transcriber B    0.636 against 0.501, +0.135    0.517 against 0.501, +0.016
+                   0 of 1000                      318 of 1000
+
+THE HELD-OUT PLAYS: P05-P32, every version, both transcribers, read by
+tragedyGrammar.py measure --lifted, unchanged.
+
+THE CLAIM HOLDS if, for BOTH transcribers:
+  1. the tragedy order's gap over shuffled is at least +0.06, with at most
+     50 of 1000 shuffles at or above the real;
+  2. the tragedy order's gap exceeds Propp's order's gap.
+It fails otherwise. +0.06 is under half the smaller training gap, since a
+model fitted on four plays should lose much of its training gap.
+
+REPORTED, NOT JUDGED: Propp's order's gap on the held-out plays, alone; the
+units the model leaves unranked.

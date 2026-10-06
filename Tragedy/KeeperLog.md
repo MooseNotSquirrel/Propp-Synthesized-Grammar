@@ -394,3 +394,7 @@ Coleridge's translation, as the protocol names, modernized by Perseus; 425 speec
 
 **P32 transcription, from master at 7000b6c: in form** (Propp-Tragedy 3d0d61b, merged). The form check finds every event with an entry, every symbol in the alphabet and every entry marked, for both transcribers: A in 91 entries, B in 96. Sealed: not scored.
 **ALL 32 PLAYS ARE TRANSCRIBED AND IN FORM.** The seal on P05 to P32 does NOT lift yet: under `TragedyProtocol.md` it lifts when the tragedy block grammar is proposed and frozen, from P01 to P04 and other material, and none has been. `BlockPrediction.txt` and `ReferenceComparison.md` run when it does.
+
+**2026-10-06. THE TRAGEDY BLOCK GRAMMAR, PROPOSED AND FROZEN** (`tragedyGrammar.py`, `TragedyOrder01.txt`, `TragedyGrammarPrediction.txt`, training figures `TragedyGrammarTraining.txt`), from P01 to P04 alone.
+DEPARTURE IN FORM: `TragedyProtocol.md` speaks of a tragedy grammar; what is frozen is a scored order model over the catalog's blocks, not a yes-or-no grammar. Neither the fable grammar nor v46 accepts any of the eight P01-P04 versions, even unshuffled (checked before the model was built), so four plays could not fit a yes-or-no grammar for streams of 30 to 61 functions; the fable test had already found between-block order a preference and named a scored model the right instrument. Training: the fitted order beats shuffling by +0.166 and +0.135, Propp's order by +0.043 and +0.016.
+With this commit the seal on P05 to P32 lifts, as the protocol provides.
