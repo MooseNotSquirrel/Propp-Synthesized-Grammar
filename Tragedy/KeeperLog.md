@@ -358,3 +358,6 @@ Speech S002 (lines 34-60) continues the Priestess, who goes into the temple at t
 **P27 events, from master at 6fc4805: in form** (Propp-Tragedy f5cac13, merged). 84 events numbered from 1, 23 past and 61 now, one hero line, 29 in the cast. The hero is Orestes in 36 events, the Furies close behind in 33, Apollo 26, Athena 25: another close hero (as P08, P10, P14, P17). The lister gave S002 to the Priestess and S051 to the Furies, as logged at setup, made Clytaemestra and her ghost one character, and counted the Priestess's prayer of the oracle's succession as past events, which adds several characters who appear once. Nothing corrected.
 
 **P27 transcription, from master at f5cac13: in form** (Propp-Tragedy d218882, merged). The form check (`tragedyScore.py check`, which parses nothing) finds every event with an entry, every symbol in the alphabet and every entry marked, for both transcribers: A in 85 entries, B in 86. Sealed: not scored. 27 of 32 plays done; next P28, Prometheus Bound.
+
+**P28, Prometheus Bound: one speech the source names no speaker for.**
+Speech S108 (lines 566-570) is Io's cry against the gadfly, which the source leaves unlabelled; `extract.py` labels it "(no speaker in the source)"; nothing is corrected. Smyth's translation, modernized. 218 speeches, 9,528 words.
