@@ -1,0 +1,8 @@
+# PositionNullRun.txt -- positionNull.py, risk check 2 (Blocks/PositionNull.txt).
+# Share of Y functions inside blocks: real, plain shuffle mean, positional null mean;
+# the count of positional-null shuffles at or above the real; the verdict by the frozen rule.
+
+tragedy P01-P04  A blocks real  50.3%  plain  39.5%  positional  49.0%  at/above  74 of 200  WEAKENED
+tragedy P01-P04  A strict real  27.7%  plain  18.3%  positional  21.0%  at/above   6 of 200  SURVIVES
+tragedy P01-P04  B blocks real  54.8%  plain  46.5%  positional  54.1%  at/above  89 of 200  WEAKENED
+tragedy P01-P04  B strict real  24.7%  plain  18.1%  positional  18.0%  at/above   6 of 200  SURVIVES
