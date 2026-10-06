@@ -368,3 +368,5 @@ Speech S108 (lines 566-570) is Io's cry against the gadfly, which the source lea
 
 **P29, Seven Against Thebes: every speech has a speaker.**
 Smyth's translation, modernized, 199 speeches, 8,974 words. The source names the half-choruses and their leaders separately at the close, and gives the closing lament with Antigone and Ismene and the Herald's decree, a scene often judged a later addition; the text is taken as the source gives it, and nothing is corrected.
+
+**P29 events, from master at f35f73c: in form** (Propp-Tragedy 97d02a1, merged). 78 events numbered from 1, 17 past and 61 now, one hero line, 31 in the cast. The hero is Eteocles by a wide margin (38 events against Polynices 18, the Chorus 17). The lister marked the scout's reports of what the Seven did before the play opens as past, listed the Seven as one group where they act together, placed Oedipus's curse once at its first clear telling (S074), and kept both half-choruses under the Chorus. Nothing corrected.
