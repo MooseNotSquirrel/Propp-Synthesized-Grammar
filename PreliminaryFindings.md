@@ -3,13 +3,14 @@
 **This file gathers what the genre tests and the building-block work have found so far, what has been withdrawn, and the readings and ideas worth keeping for when all the data is in.**
 It is a working document, not a result: every figure below is recorded, with its program and its frozen rule, in the file each entry names, and those files win wherever this one disagrees with them.
 Each entry is marked: ESTABLISHED (frozen before the data, or replicated on unseen data, and passing the risk checks), TENTATIVE (measured, not yet replicated or checked), WITHDRAWN, or SPECULATION, NOT FROM PROPP (a reading, labelled as such).
-Last brought level: 2026-09-30, after the trick audit.
+Last brought level: 2026-10-05, after the Afanasyev calibration.
 
 ## 1. The genre tests of Propp's whole morphology
 
-**ESTABLISHED: Propp's full grammar does not describe Greek myth summaries or Aesop's fables.**
+**WEAKENED BY THE CALIBRATION (2026-10-05): that Propp's full grammar does not describe Greek myth summaries or Aesop's fables.**
 Apollodorus failed on every measure; Aesop failed on coverage and order (Propp-Apollodorus, Propp-Aesop, each with its result file).
-The tragedy test is at 20 of 32 plays; its interim results (P01-P04) fall short and P05 on are sealed (`Tragedy/`).
+The tragedy test is at 26 of 32 plays; its interim results (P01-P04) fall short and P05 on are sealed (`Tragedy/`).
+BUT the thresholds those tests used, 85.2% acceptance and 80% coverage, were set from Propp's own schemes, and the instrument does not reach them on Propp's own tales: v46 accepts 22% to 29% of its moves for the 45 Appendix III tales, below Aesop's 57% to 59%, and it covers 62% to 67% of their events (section 7). So the acceptance and coverage failures measure the instrument at least as much as the genre. What survives, on present figures: the tragedies P01-P04 cover fewer events (43% to 47%) than the instrument covers on Propp's tales (62% to 67%); Apollodorus (57% to 70%) and Aesop (56% to 57%) do not clearly differ from them. Genre comparisons should be redone instrument to instrument, with the 45 transcribed tales as the Russian reference.
 
 ## 2. Propp's blocks
 
@@ -64,7 +65,8 @@ About a third of the held-out events are X for both transcribers and matter. Two
 - The mixed-event wording was read two ways; scores are unaffected, the X study counts events, not X entries.
 - The hero rule picks close heroes by one or two events (four tragedies: P08, P10, P14, P17); a margin within which both are named would suit plays that follow two characters.
 - The request rule overlaps γ and B; "later" in the relevance rule is read as later in telling or in story; functions defined for the hero are given to others; a deception whose dupe is not its victim has no clean notation.
-- Every transcriber is a Claude model that knows Propp; the audits found the entries faithful (91 to 99%), but not whether a label leaned on its neighbours.
+- Every transcriber is a Claude model that knows Propp; the audits found the entries faithful (91 to 99%), but not whether a label leaned on its neighbours. The memory probe found that neither model recalls Propp's Appendix III schemes (Opus one, at low confidence; Sonnet none).
+- ESTABLISHED, THE CALIBRATION (`Calibration/KeeperLog.md`, `CompareRun.txt`): on the 45 tales Propp analyzed, the instrument is PARTLY CALIBRATED in both arms and for both transcribers. It reads the tale in front of it (content 0.58 to 0.59 against Propp, 0.40 to 0.42 for another tale's scheme, 0 of 1000 derangements at or above), but agrees with Propp less than its two transcribers agree with each other: content at 0.77 to 0.79 of their agreement, just short of the frozen 0.80, and order at 0.58 to 0.63. It cuts more moves than Propp (129 to 152 against 84), and v46 accepts only 22% to 29% of them. The corrected card (arm C) changes nothing measurable. So the stick measures composition relative to itself well, and Propp's absolute levels poorly.
 
 ## 8. What would strengthen or overturn these findings
 
@@ -72,7 +74,7 @@ In order of value:
 1. A scored model of block order, frozen, tested on the undrawn fables.
 2. The block analysis of the sealed tragedies, as frozen in `Tragedy/BlockPrediction.txt`.
 3. DONE: the owner's audit of twenty `DeceptionTrap` instances, 13 supported, doubtful (section 2).
-4. The Afanasyev calibration: can the transcribers reproduce Propp's own schemes on his own tales? Then his excluded animal tales, and Dundes's North American material.
+4. DONE 2026-10-05: the Afanasyev calibration, PARTLY CALIBRATED (section 7); it removes acceptance and coverage against Propp's levels as genre evidence (section 1). Next: genre comparisons instrument to instrument, with the 45 transcribed tales as the Russian reference; then his excluded animal tales, and Dundes's North American material.
    Plan for the texts (2026-09-30): the authoritative three-volume Afanasyev (Nauka, 1984-85) is digitized on FEB-web, in Russian only. Prefer listers and transcribers reading the Russian directly, rules and card in English, over machine translation, which would add a layer between text and function; choose between the two by a small frozen pilot scored against Propp's Appendix III. CORRECTED 2026-10-04: no concordance is needed. The first project's 45 tales are numbered 93 to 167, the collection's modern numbers (No. 113 is "Гуси-лебеди", Propp's Ch. IX example); "50-151" and "1-49" were the older numbering and are withdrawn. Russian Wikisource holds the tales one by one, public domain. Take only the tale texts (public domain), not the edition's commentary; each download needs the owner's go-ahead. The card should first say plainly that a refusal is not θ.
 5. A corpus outside the Indo-European family, to tell an Indo-European pattern from a general one.
 6. A block-frequency table across genres (suggested 2026-09-30): for each block and genre, the count, the rate per story and per 100 functions, the count expected under shuffling, their ratio, the information (minus the log of the block's rate), and the transcribers' agreement on it. Rare blocks carry more information and may mark a genre, common ones are the shared vocabulary; a rare block counts as a genre's mark only where the transcribers agree on it.
