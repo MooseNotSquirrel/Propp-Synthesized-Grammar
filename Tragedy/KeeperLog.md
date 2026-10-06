@@ -382,3 +382,5 @@ The protocol reads Euripides in Coleridge's translation, but the PerseusDL repos
 
 **P31, The Trojan Women: every speech has a speaker.**
 Coleridge's translation, as the protocol names, modernized by Perseus; 231 speeches, 11,488 words. The source names the two semi-choruses separately. Nothing is corrected.
+
+**P31 events, from master at ab55562: in form** (Propp-Tragedy 5f76727, merged). 106 events numbered from 1, 40 past and 66 now, one hero line, 37 in the cast. The hero is Hecuba. THE LISTER'S COUNTS ARE APPROXIMATE ("about 27", the Greek army "roughly 15 to 20") and its "far more than anyone else" overstates the margin: a count of event lines naming each character gives Hecuba 28, Helen 24, Menelaus 18, the Greek army 14 (names, not the rule's count of taking part, so a check, not a recount). Hecuba stands as the lister's answer under the rule; nothing corrected. The lister marked the prologue's ongoing shipping and allotting as past, listed Hecuba's and Helen's opposed accounts of the past as told, and folded the captive women of event 7 into the Chorus.
