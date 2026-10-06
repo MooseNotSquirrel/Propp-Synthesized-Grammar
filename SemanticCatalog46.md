@@ -54,8 +54,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.92: morphologically, a tale is any development proceeding from villainy or lack, and each new villainy or lack creates a new move.
 - **Name:** Propp's. **Corpus:** not measured; the corpus is move-strings. **Tree test:** `A K / a K`, the second move's `a` under `tale`.
 - **EBNF:** `tale = [initialSituation] preparatorySection move FollowingMoves`
-- **Literal meaning:** the story as a whole. A misfortune or a want sets it going, and every new one begins a new move inside it.
-- **Cultural meaning:** *Draft.* The whole passage of a young person, from a household left unprotected to the head of a new household, told as a guide for the young. The family order is the same at the level of the state and of a peasant household, and the tale is cyclical: it starts from one family and ends by founding the next, whose child will be the next hero.
+- **Literal meaning:** The story as a whole. A misfortune or a want sets it going, and every new one begins a new move inside it.
+- **Cultural meaning:** The whole passage of a young person, from a household left unprotected to the head of a new household, told as a narrative blueprint derived from ancient initiation rituals. The family order is the same at the level of the state and the level of a peasant household, and the tale is cyclical: it starts from one family and ends by founding the next, whose child will be the next hero.
 
 ### `FollowingMoves`
 
@@ -65,7 +65,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** this grammar's; `LaterMoves` before. **Corpus:** 26 of the 45 tales, counting the tale strings of `embedCorpus.py`, where 162's second move sits inside its first. **Tree test:** `A K / a K`, the `a` under `FollowingMoves` and the first A not.
 - **EBNF:** `FollowingMoves = [ moveBoundary move {moveBoundary move} [Parting] [CommonEnding] | Parting [CommonEnding] ]`
 - **Literal meaning:** a reading aid: how a tale goes on after its first move. It holds the three ways p.93 lets it go on at tale level.
-- **Cultural meaning:** *Draft.* Persistence. One success is not the end, and a hero who has triumphed once must meet the next loss in the same spirit.
+- **Cultural meaning:** Status validation. Consecutive moves function as a cumulative ladder of escalation and verification. Each subsequent move increases the narrative stakes and supernatural trials, progressively amplifying the hero’s power, while structurally confirming that the hero’s initial success was a true reflection of their worthiness, not an accident. If there are three moves, they may be an instance of trebling, or using the magic number three, where the first two moves establish the pattern, and the third  move confirms that the hero is truly a hero.
 
 ### `Parting`
 
@@ -75,7 +75,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** Propp's word. **Corpus:** 1 tale, 155. **Tree test:** `A K < Y a K / A K }`, the `a` under `Parting` and the first A not.
 - **EBNF:** `Parting = roadMarker [signaller] move moveBoundary move`
 - **Literal meaning:** two heroes set out together and part, each to his own adventure, often leaving the other a token by which to know his fate. The tree holds the two branches side by side.
-- **Cultural meaning:** *Draft.* Loyalty across separation. Companions who part keep faith with each other, and the token they exchange obliges each to come to the other's aid; each still goes on alone to prove himself.
+- **Cultural meaning:** Divergent destiny and interdependence. The parting of companions split from a single origin establishes parallel, equivalent moves. The exchanged token acts as a supernatural sympathy indicator bridging isolated worlds. Culturally, this branching structure demonstrates that the heroic destiny is not wholly individual: the eventual triumph of one branch relies entirely on the other's capacity to act as a cosmic rescuer when the token signals disaster.
 
 ### `CommonEnding`
 
@@ -85,7 +85,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** Propp's words. **Corpus:** 2 tales, 125 and 155; 155's ending, ↓X, reduces to nothing, so its common ending is empty. **Tree test:** `A up o / A K } L Q W`, the L under `CommonEnding` and the first move's o not.
 - **EBNF:** `CommonEnding = commonEnding AfterLiquidation`
 - **Literal meaning:** one resolution for two undertakings. The tree makes the ending a sibling of the moves it closes, so it belongs to them jointly. The grammar checks that it fits the last of them; that it fits the other is checked at the move level.
-- **Cultural meaning:** *Draft.* The order rewards merit wherever it was proven: separate efforts end in one settlement.
+- **Cultural meaning:** Cosmic realignment and unified truth. This merges parallel sequences of functions into a single settlement and signifies the restoration of a fractured social and cosmic order. Culturally, the common ending establishes absolute discernment: it brings disparate, isolated paths into a single public forum to permanently separate true heroism from false claims. By resolving multiple undertakings into a singular sovereign settlement, the narrative collapses chaos back into a unified, harmonious hierarchy.
 
 ### `preparatorySection`
 
@@ -95,7 +95,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** Propp's. **Corpus:** 0, since the appendix prints none. **Tree test:** `β γ δ A`, the β under `preparatorySection`.
 - **EBNF:** `preparatorySection = {absentation} RuleViolation InformationGathering DeceptionTrap`
 - **Literal meaning:** what makes the misfortune possible. The household is left unguarded, a prohibition is broken, the villain learns what he needs, and the victim is deceived. Propp calls the first seven functions the preparatory part (p.30).
-- **Cultural meaning:** *Draft.* Why the young must heed. The household's protection fails when the elders are away and rules are broken; the tale opens by showing the young what happens when they are left to themselves.
+- **Cultural meaning:** The collapse of home security. The preparatory section establishes the structural inevitability of leaving home. The sequence demonstrates that the protective domestic bubble is inherently fragile and temporary. By showing that innocence naturally falls prey to worldly deception, the opening functions as a narrative threshold: violently dissolving childhood security to force the initiate into the trials of maturity.
 
 ### `RuleViolation`
 
@@ -105,7 +105,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** v43's, restored; this grammar's `interdictionViolation` before, from Propp's terms. **Corpus:** 0. **Tree test:** `γ β δ A`, the β under `RuleViolation`.
 - **EBNF:** `RuleViolation = [ interdiction {interdiction} {absentation} ] {violation}`
 - **Literal meaning:** a prohibition given and broken, the breach through which misfortune enters. When the elders' departure is told between the two, it sits inside the breach: the warning is given, the protectors leave, and the warning is broken.
-- **Cultural meaning:** Heed the elders' prohibitions, since transgression brings harm. Yet the breach is also what launches the young into a story of their own.
+- **Cultural meaning:** The Catalyst of Transgression. Rule violation represents the structural necessity of breaking boundaries. The interdiction exists solely to be violated; it is the inevitable act of self-sabotage that dissolves the artificial safety of childhood. While the breach invites immediate peril, it serves as the essential cosmic mechanism that forces the youth out of passive stagnation and launches them into the trials of their own individual destiny.
 
 ### `InformationGathering`
 
@@ -115,7 +115,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** v43's, restored; this grammar's `reconnaissanceDelivery` before, from Propp's terms. **Corpus:** 0. **Tree test:** `ε ζ A`, the ζ under `InformationGathering`.
 - **EBNF:** `InformationGathering = {reconnaissance} {delivery}`
 - **Literal meaning:** the villain seeks information and gets it. The second half may stand alone (p.29): a careless act can give the villain what he did not ask for.
-- **Cultural meaning:** *Draft.* Guard what you know; careless talk gives the enemy an opening.
+- **Cultural meaning:** The leak of vulnerability. This sequence exposes the structural impossibility of maintaining absolute secrecy. Culturally, the delivery of information represents the tragic naivety of the uninitiated domestic sphere, which cannot comprehend predatory intent. The mechanical ease with which the villain extracts this knowledge demonstrates a cosmic rule: hidden weaknesses cannot remain concealed, and the initiate's specific vulnerabilities must be exposed to the outside world before the journey can truly begin.
 
 ### `DeceptionTrap`
 
@@ -125,7 +125,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** v43's, restored; this grammar's `trickeryComplicity` before, from Propp's terms. **Corpus:** 0. **Tree test:** `η λ θ A`, the λ under `DeceptionTrap`.
 - **EBNF:** `DeceptionTrap = {trickery} {preliminaryMisfortune} {complicity}`
 - **Literal meaning:** the villain deceives and the victim submits. The preliminary misfortune is what compels the victim's assent.
-- **Cultural meaning:** *Draft.* Be wary of a stranger's offer and disguise; the deceived share the blame for the harm they let in.
+- **Cultural meaning:** The Eclipse of Discernment. This sequence exposes the fatal inadequacy of childhood intuition when facing systemic malice. Culturally, the villain’s disguise proves that predatory threats naturally masquerade as benign elements of the domestic world. By using a preliminary misfortune to coerce the victim's mechanical assent, the narrative demonstrates that survival instincts alone cannot protect the uninitiated, forcing a total collapse of personal autonomy so that the true heroic journey can rise from the wreckage.
 
 ### `move`
 
@@ -135,7 +135,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** Propp's. **Corpus:** 80. **Tree test:** `α A`, where the α is *not* under `move`.
 - **EBNF:** `move = BeforeTheTrouble TroubleToLiquidation AfterLiquidation`; with `+reversal`, `move = BeforeTheTrouble TroubleToLiquidation AfterLiquidation [LateFall]`
 - **Literal meaning:** one episode of misfortune and its undoing. A tale has as many moves as it has new villainies or lacks.
-- **Cultural meaning:** *Draft.* One complete lesson: a loss met, a trial passed, and order restored by the hero's own right conduct.
+- **Cultural meaning:** The engine of social regeneration. A single move serves as a structural blueprint for overcoming systemic crisis. Culturally, the progression from misfortune to liquidation demonstrates that societal collapse is never final; instead, it triggers a predictable, renewable ritual of restoration. By linking the hero's alignment with cultural laws to the absolute mending of a communal lack or misfortune, the move reassures the culture that equilibrium can always be reclaimed, while its repeatable structure acknowledges that life is an ongoing series of disruptions and renewals.
 
 ### `BeforeTheTrouble`
 
@@ -145,7 +145,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** this grammar's; `BeforeTheCrisis` before. **Corpus:** 0; the corpus derivation drops the parked cells left of A, as decided, so the corpus does not exercise it. **Tree test:** `up D E F A K`, the ↑ under `BeforeTheTrouble`.
 - **EBNF:** `BeforeTheTrouble = EarlyTransfiguration [EarlyLeaving] [EarlyHelp]`
 - **Literal meaning:** what the hero has or does before the misfortune strikes. It lies outside the A-K span, since the crisis has not yet come.
-- **Cultural meaning:** *Draft.* Readiness. A hero who has already set out, or already won help, is prepared when misfortune comes.
+- **Cultural meaning:** Latent destiny and preemptive balance. This early sequence establishes the hero’s inherent and predestined status. Culturally, by introducing transformations or helpers before a crisis even manifests, the narrative demonstrates that the hero is distinct from the ordinary domestic sphere. It signals a law of cosmic equilibrium: even as the household collapses into vulnerability, the universe has already seeded a latent antidote, ensuring that the eventual misfortune does not destroy the initiate but merely activates their latent power.
 
 ### `EarlyLeaving`
 
@@ -155,7 +155,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** this grammar's; `LeavingFirst` before. **Corpus:** 0, as above. **Tree test:** `up D E F A K`, the ↑ under `EarlyLeaving`.
 - **EBNF:** `EarlyLeaving = departure EarlyTransfiguration {departure EarlyTransfiguration}`
 - **Literal meaning:** the hero already on the road, setting out aimlessly, when the misfortune finds him.
-- **Cultural meaning:** *Draft.* Going out into the world is itself the call; the young find their task by leaving home.
+- **Cultural meaning:** Proactive autonomy and iterative transformation. Early departure demonstrates that the impulse toward maturity can be self-generating. Culturally, the act of leaving home is itself the heroic awakening. By structurally anchoring each departure to an immediate transfiguration, the narrative shows that moving away from childhood security is an iterative process that continually reshapes identity. When the misfortune inevitably strikes the hero on the open road, it reveals a profound cultural law: the task of the mature individual is found not by isolating within the home, but by stepping forward to meet the world’s wider crises.
 
 ### `EarlyHelp`
 
@@ -165,7 +165,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** this grammar's; `HelperFirst` before, from Propp's wording. **Corpus:** 0, as above; the parked regions it would cover are 104 I, 105 II, 125 I, 126 II, 137 I, 156 III, 162 I and 166 I. **Tree test:** `D E F A K`, the F under `EarlyHelp` and not under `TroubleToLiquidation`.
 - **EBNF:** `EarlyHelp = firstDonorFunction EarlyTransfiguration {firstDonorFunction EarlyTransfiguration} {heroReaction EarlyTransfiguration} {receiptOfMagicalAgent EarlyTransfiguration} | heroReaction EarlyTransfiguration {heroReaction EarlyTransfiguration} {receiptOfMagicalAgent EarlyTransfiguration} | receiptOfMagicalAgent EarlyTransfiguration {receiptOfMagicalAgent EarlyTransfiguration}`
 - **Literal meaning:** the hero equipped before he is needed. The helper is in hand when the misfortune comes, and the move is shorter for it.
-- **Cultural meaning:** *Draft.* Help won in advance by right conduct serves when need comes: a good deed is an investment.
+- **Cultural meaning:** Foundational alliance and structural elevation. This sequence demonstrates the protective power of systemic alignment. Culturally, winning an ally or receiving a magical agent before a crisis strikes shows that the initiate who respects ancestral heritage or fundamental social contracts is automatically granted cosmic backing. By structurally locking each step of the donor exchange to an optional transfiguration, the narrative proves that acquiring these protective forces permanently elevates the hero's status, ensuring that when misfortune inevitably lands, the individual does not face it with raw human fragility, but with the full weight of their culture's accumulated power.
 
 ### `EarlyTransfiguration`
 
@@ -175,7 +175,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** this grammar's; `FloatingT` before. **Corpus:** 0; no T stands before an opener in the corpus. **Tree test:** `T A K`, the T under `EarlyTransfiguration`.
 - **EBNF:** `EarlyTransfiguration = {transfiguration}`
 - **Literal meaning:** none claimed. Since step 7 it holds only the T before a move's opener; after a function, a T stands in `Digression`. Where a T hangs in the tree is only where the parser meets it. T's own meaning, transfiguration, belongs to the functions section when it is written.
-- **Cultural meaning:** *Draft.* None of its own; this is notation. Transfiguration's cultural meaning is given under `transfiguration`.
+- **Cultural meaning:** None independent of `transfiguration`. As a structural mechanism, its fluid distribution simply demonstrates that the process of heroic elevation is not confined to a single concluding event, but can manifest incrementally as the initiate moves through different stages of preparation.
 
 ### `Digression`
 
@@ -184,8 +184,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.108 for T; p.93 for the pause, methods 2 and 3.
 - **Name:** this grammar's; `Between` before. **Corpus:** 6, all of them T's; the move-level corpus has no interruption, since its derivation removes the markers. **Tree test:** `A K T`, the T under `Digression`.
 - **EBNF:** `Digression = { transfiguration | EmbeddedMove }`
-- **Literal meaning:** none claimed of its own. It is the slot between two functions where the two things that can come between them stand: a transfiguration, whose place is free, and another move.
-- **Cultural meaning:** *Draft.* None of its own. It marks the points where a story can pause, for a change of appearance or for another story.
+- **Literal meaning:**  A notation level structural slot between functions that accommodates the narrative's capacity to pause, allowing either a fluid shift in the hero's appearance or the nesting of an entirely separate, interrupting move.
+- **Cultural meaning:** None independent of its contents. As a structural framework, it maps the inherent elasticity of human life and duty. By allowing the narrative to pause for a transformation or bend to absorb a nested crisis, it demonstrates that destiny is rarely linear; instead, it is an interlocking web where major personal growth occurs in transitional spaces, and grand quests must frequently bend to answer immediate communal needs.
 
 ### `EmbeddedMove`
 
@@ -194,8 +194,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.93: "a development which has begun pauses, and a new move is inserted" (method 2), and "an episode may also be interrupted in its turn" (method 3). Ch. IX n.4 designates the interruption by dots with an indication of which move breaks the thread.
 - **Name:** this grammar's; `InterruptingMove` before. **Corpus:** 4 interruptions in 3 of the 45 tales, from `embedCorpus.py`: move III inside 138 II, move II inside 159 I, move IV inside 159 III, and move II inside 162 I. **Tree test:** `A ⟨ a K ⟩ K`, the `a` under `EmbeddedMove` and the last K not.
 - **EBNF:** `EmbeddedMove = interruptionBegins move interruptionEnds`
-- **Literal meaning:** a story told inside a story. The hero's first undertaking stops, a new misfortune is met and resolved in full, and the first undertaking resumes where it stopped. It is the one place the grammar is not regular: a move can hold a move.
-- **Cultural meaning:** *Draft.* Duty can interrupt one's own quest. The hero sets the first aim aside to meet another misfortune in full, then returns to finish it: responsibility and perseverance.
+- **Literal meaning:** A story told inside a story. A narrative-level recursion where the primary quest is suspended to process a nested crisis. A separate misfortune or lack is introduced, tracked through its own complete cycle of trial and liquidation, and closed before the parent move resumes. This node introduces context-free depth to the grammar, allowing moves to stack inside moves.
+- **Cultural meaning:**  The web of interconnected crisis. The recursive embedding of moves maps the interconnected nature of societal crisis. Culturally, it demonstrates that destiny is non-linear and that a grand quest must remain subordinate to immediate communal fractures encountered along the way. By demanding that the nested misfortune be resolved in full before progress can resume, the structure proves that macro-level restoration is impossible without first answering the localized, immediate obligations of the road.
 
 ### `TroubleToLiquidation`
 
@@ -205,7 +205,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** this grammar's; `CrisisToLiquidation` before, itself widened from VillainyToLiquidation because the span also covers a lack and a move opened on B. **Corpus:** 80. **Tree test:** `A B C up D E F G H I K`, both A and K under `TroubleToLiquidation`.
 - **EBNF:** `TroubleToLiquidation = complication Development {liquidation Digression}`
 - **Literal meaning:** the misfortune and its undoing, the core of every move. Everything inside it is the hero's way from the one to the other.
-- **Cultural meaning:** *Draft.* The core promise to the young: a wrong can be put right by one who acts rightly, and the hero's own action undoes the loss.
+- **Cultural meaning:** This overarching span demonstrates the structural certainty of cosmic and communal restoration. Culturally, the binding of misfortune directly to its liquidation proves that crisis is inherently finite and orderly. By showcasing that systemic injuries can be systematically healed through alignment with foundational cultural protocols, the sequence serves as an absolute guarantee to the community that no chaos is permanent and that equilibrium will always be reclaimed.
 
 ### `complication`
 
@@ -215,7 +215,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** Propp's. **Corpus:** 80. **Tree test:** `A B C up`, both B and ↑ under `complication`.
 - **EBNF:** `complication = MoveTrigger Digression {mediation Digression} {beginningCounteraction Digression} [UntestedAcquisition] [ departure Digression {departure Digression} [UntestedAcquisition] ]`
 - **Literal meaning:** the misfortune made known and the hero setting out. Since step 6 it also holds what the hero takes with him, or picks up on the road, without earning it.
-- **Cultural meaning:** *Draft.* Answering the call. When the household's loss is made known, the worthy young accept the task and leave home to set it right; the hero chooses to act, and does not wait to be led.
+- **Cultural meaning:** 
+- **The Mechanics of Communal Mobilization.** The complication represents the systemic process of extracting a member from the domestic sphere to answer a communal deficit. Culturally, the progression from witnessing a misfortune to physically crossing the threshold demonstrates that private equilibrium cannot be maintained while a public injury remains unaddressed. By allowing the traveler to gather unearned provisions along the road, the structure shows that the act of moving forward automatically unlocks baseline ancestral or ecological support, transforming a stationary victim into an active agent of restoration.
 
 ### `MoveTrigger`
 
@@ -224,8 +225,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.92 for villainy and lack; p.37: where no villainy occurs, the connective incident opens the move.
 - **Name:** this grammar's; `MoveOpener` before; v43 split at the root instead, and the choice is kept here. **Corpus:** 80: villainy in 53, lack in 26, the connective incident in one, 133 II. **Tree test:** `B C up`, the B under `MoveTrigger`, and `A B C`, where the later B is not.
 - **EBNF:** `MoveTrigger = villainy | lack | mediation`
-- **Literal meaning:** the kind of move. A villainy is harm done from outside; a lack is something missing from within. The type is read off every tree as this group's child.
-- **Cultural meaning:** *Draft.* The two summonses to action: a wrong done to the family by an enemy, and a want the young feel for themselves that sends them out.
+- **Literal meaning:** The structural trigger that opens a move. A villainy is an injury inflicted from the outside; a lack is a structural deficit missing from within. When neither occurs, the move is initiated directly by a connective dispatch.
+- **Cultural meaning:** The move trigger establishes the two fundamental vulnerabilities of any human community. Culturally, an external injury (*villainy*) demonstrates that absolute isolation cannot protect a household from external malice, while an internal deficit (*lack*) proves that a community will stagnate and decay unless it actively reaches beyond its borders to secure the elements necessary for its next stage of evolution.
 
 ### `UntestedAcquisition`
 
@@ -236,7 +237,7 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **EBNF:** `UntestedAcquisition = receiptOfMagicalAgent Digression {receiptOfMagicalAgent Digression}`
 - **Measured:** Counted by `agentForms.py` and pinned by a test. At home, before the departure, 12 cells in 11 moves: transferred 6, prepared 5, bought 1; none found, appearing, seized or offering service. On the road, 10 cells in 10 moves: transferred 4, appears 3, pointed out 1, prepared 1, offers service 1. The agent at home comes by ordinary human means; on the road, fortune may bring it.
 - **Literal meaning:** an agent received without being earned. It is a father's gift or a find, and it belongs to setting out rather than to a donor episode.
-- **Cultural meaning:** *Draft.* Accept a father's gift or the favor of fortune, and honor it. Not every advantage must be earned, but every one must be used rightly.
+- **Cultural meaning:** The endowment of ancestral and environmental heritage. This sequence represents the foundational capital provided by lineage and environment. Culturally, receiving a magical agent without a trial demonstrates that the initiate is fundamentally sustained by the accumulated strength and wisdom of previous generations. Whether manifested as an elder’s blessing or a fortunate discovery along the road, this endowment proves that the act of stepping forward into crisis automatically unlocks a baseline of historical and cosmic support, ensuring the hero is structurally equipped before their merit is ever tested.
 
 ### `Development`
 
@@ -245,8 +246,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** editorial. No page groups these; the span is what lies between the complication and the liquidation.
 - **Name:** this grammar's. **Corpus:** 65. **Tree test:** `A D E F G H I K`, the G under `Development` and the K not.
 - **EBNF:** `Development = [TestedAcquisition] {spatialTransference Digression} StruggleAndOutcome`
-- **Literal meaning:** a reading aid: the hero's way from setting out to the undoing of the misfortune. It claims nothing about Propp.
-- **Cultural meaning:** *Draft.* A reading aid; culturally, the going out into the wider world, where the young meet helpers and adversaries.
+- **Literal meaning:** A macro-level structural container mapping the hero's progression through the supernatural or foreign realm. It tracks the sequence from earning a magical asset and traversing vast distances to the ultimate confrontation with the source of misfortune.
+- **Cultural meaning:** The arena of liminal transformation. This macro-sequence represents the dangerous, transitional wilderness where childhood is permanently stripped away. Culturally, the strict linear progression, requiring an initiate to first secure spiritual alliance, then cross into the heart of foreign peril, and only then engage the adversary. It demonstrates that raw human effort is useless against systemic crisis. It proves that a person must be systematically transformed, tested, and structurally re-equipped by their cultural heritage before they possess the capacity to face and neutralize absolute malice.
 
 ### `TestedAcquisition`
 
@@ -256,8 +257,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Name:** v43's; before step 6, Vetting. **Corpus:** 32. **Tree test:** `A D E F`, the F under `TestedAcquisition` and not under `UntestedAcquisition`.
 - **EBNF:** `TestedAcquisition = firstDonorFunction Digression {firstDonorFunction Digression} {heroReaction Digression} {receiptOfMagicalAgent Digression} | heroReaction Digression {heroReaction Digression} {receiptOfMagicalAgent Digression}`
 - **Measured:** Counted by `agentForms.py` and pinned by a test. 35 cells in 28 moves: transferred 8, offers service 7, pointed out 4, seized 3, appears 3, found 2, prepared 1, bought 1, and 6 with no form marked. Every seizure in the corpus falls here, 3 of 3, and 7 of the 8 offers of service.
-- **Literal meaning:** the agent earned. A donor tests the hero, the hero responds, and the agent is his reward. It opens on the test, or on the hero's reaction when the test is omitted.
-- **Cultural meaning:** *Draft.* Honor the donor. Courtesy, kindness and a kept word earn the power to succeed, and the hero never cheats a friendly donor of what was agreed. Against a hostile or deceitful donor guile is allowed, since Propp binds the seizure of an agent to hostile tests (pp.46-47): good faith is owed to good faith.
+- **Literal meaning:** The magical agent earned. A threshold guardian tests the hero, the hero responds to the encounter, and the agent is secured as a direct consequence. The sequence opens either on the formal test or directly on the hero's reaction when the initial testing is omitted.
+- **Cultural meaning:** The verification of cultural competency. Rather than a flexible lesson in secular kindness or conditional contract honesty, the tested acquisition represents a rigid examination of ritual readiness. Culturally, navigating the donor sequence proves that the initiate possesses the deep traditional etiquette, ancestral respect, or adaptive intelligence required to survive outside the domestic sphere. Whether the agent is granted as a reward for honoring sacred reciprocity or seized via guile from an adversarial guardian, this verification demonstrates that spiritual and structural power is never random. It is exclusively unlocked by those who master the foundational laws of their environment
 
 ### `StruggleAndOutcome`
 
@@ -265,9 +266,9 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Holds:** struggle H, branding J and victory I.
 - **Warrant:** p.104, the struggle scheme H J I; p.64 lists struggle-victory as a pair.
 - **Name:** this grammar's; `Combat` before. **Corpus:** 32. **Tree test:** `A H J I K`, the J under `StruggleAndOutcome`.
-- **EBNF:** `StruggleAndOutcome = {struggle Digression} {branding Digression} {victory Digression}`; with `+tragedy`, `StruggleAndOutcome = {struggle Digression} {branding Digression} StruggleOutcome`
-- **Literal meaning:** the hero fights the villain, is marked, and wins. The mark is what will identify him later (see J–Q under Dependencies).
-- **Cultural meaning:** *Draft.* Courage. The hero meets the adversary face to face and carries the mark of the fight.
+- **EBNF:** `StruggleAndOutcome = {struggle Digression} {branding Digression} {victory Digression}`; (or conditional `+tragedy` `StruggleAndOutcome = {struggle Digression} {branding Digression} StruggleOutcome`
+- **Literal meaning:** The physical or symbolic clash with the adversary, the receipt of a identifying mark, and the resulting victory. The brand secured during this encounter serves as the foundational structural link for public recognition later in the narrative.
+- **Cultural meaning:** The somatic ordination of the sovereign. The struggle and branding represent the irreversible transformation of the initiate's identity through direct confrontation with chaos. Culturally, the direct clash marks the final death of the passive childhood persona, while the brand serves as an indelible physical credential proving the hero has traversed the underworld or wild and survived. By structurally pairing the receipt of this permanent mark with absolute victory, the sequence demonstrates that true authority and the right to protect the community are exclusively earned by those who carry the literal scars of systemic conflict.
 
 ### `AfterLiquidation`
 
@@ -276,8 +277,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** editorial.
 - **Name:** this grammar's. **Corpus:** 68. **Tree test:** `A K down`, the ↓ under `AfterLiquidation`.
 - **EBNF:** `AfterLiquidation = ReturnJourney Ordeal Endgame`
-- **Literal meaning:** a reading aid: what follows once the misfortune is undone, as the hero comes home and his claim is settled.
-- **Cultural meaning:** *Draft.* A reading aid; culturally, coming home and taking one's due place.
+- **Literal meaning:** A macro-level structural container mapping the narrative events following the undoing of the misfortune. It tracks the hero's reentry into the domestic sphere, the public tests verifying their true identity, and the final settlement of their status.
+- **Cultural meaning:** The social integration of sovereign authority. This macro-sequence represents the perilous transition from private achievement to public legitimacy. Culturally, the progression through a hazardous return, a public trial, and a final political settlement demonstrates that conquering chaos in isolation is insufficient for leadership. It establishes a strict social law: before an initiate can be integrated into the communal hierarchy or found a new household, their hidden deeds must be brought into the light of a public forum, systematically verified, and thoroughly cleansed of false or predatory claims.
 
 ### `ReturnJourney`
 
@@ -286,8 +287,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** editorial; the pursuit–rescue pair inside it has a page.
 - **Name:** v43's. **Corpus:** 43. **Tree test:** `A K down Pr Rs`, the Pr under `ReturnJourney`.
 - **EBNF:** `ReturnJourney = {return Digression} Evasion`
-- **Literal meaning:** the way home and its dangers.
-- **Cultural meaning:** *Draft.* The task is not done when the prize is won; it must be brought home safely.
+- **Literal meaning:** The spatial movement back toward the domestic sphere, encompassing the flight from the other world, the enemy's pursuit, and the final rescue.
+- **Cultural meaning:** The Domestication of Supernatural Capital. The return journey represents the perilous task of maintaining a newly won equilibrium against a systemic backlash. Culturally, the sequence of pursuit demonstrates that conquering chaos triggers an immediate, predatory reaction from the displaced forces of the wild. By forcing a weakened hero to rely on transformation and external rescuers to survive the journey home, the narrative proves that individual triumph is highly fragile. The restoration of the community requires a collaborative, ecological shield to successfully carry the fruits of victory across the threshold of the domestic world.
 
 ### `Evasion`
 
@@ -296,8 +297,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.64 lists pursuit-deliverance as a pair; p.147 gives the inverted order.
 - **Name:** v43's. **Corpus:** 14. **Tree test:** `A K down Pr Rs`, the Rs under `Evasion`.
 - **EBNF:** `Evasion = [ PursuitFirst | RescueFirst ]`
-- **Literal meaning:** the hero is chased and escapes. The two orders are the two ways Propp's corpus tells it.
-- **Cultural meaning:** *Draft.* Resourcefulness under threat: escape by wit, and by the help one has earned.
+- **Literal meaning:** The structural sequence of avoiding capture by the displaced forces of the other world. It accounts for the two variations in the corpus: where a pursuit triggers a reactive rescue, or where a preemptive rescue mechanism neutralizes an incoming pursuit.
+- **Cultural meaning:** The Preservation of the Threshold. This sequence maps the essential requirement of sealing the border between the sacred wild and the domestic world. Culturally, the dual structural pathways demonstrate that navigating a systemic backlash requires complete adaptability over raw might. By forcing the hero to survive not through direct combat, but through environmental concealment, transformation, and systemic safety nets, the narrative proves that a successful transition to maturity demands knowing when to fight an adversary face-to-face and when to fluidly dissolve the self to escape the lingering reach of past chaos.
 
 ### `PursuitFirst`
 
@@ -306,8 +307,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.64 for the pair; p.107 for the fight after it.
 - **Name:** this grammar's. **Corpus:** 13. **Tree test:** `A K Pr Rs`, the Pr under `PursuitFirst`.
 - **EBNF:** `PursuitFirst = pursuit Digression {pursuit Digression} {rescue Digression} LateStruggle`
-- **Literal meaning:** the villain pursues the hero and the hero is saved.
-- **Cultural meaning:** *Draft.* Vigilance after success: a defeated enemy may return.
+- **Literal meaning:** The reactive sequence where the forces of the other world pursue a returning hero, triggering a defensive rescue operation and an optional final boundary clash before safe passage is secured.
+- **Cultural meaning:** The lingering momentum of crisis. This sequence demonstrates that major life disruptions possess a hazardous, lingering momentum. Culturally, the reactive chase proves that the consequences of a neutralized threat will actively hunt an individual across transitional thresholds. By showing that this sudden, terrifying resurgence can be dynamically defeated through improvisational environmental protection and a final defensive boundary clash, the structure reassures the initiate that the lingering ripples of past trauma can be permanently severed before re-entering the community.
 
 ### `RescueFirst`
 
@@ -316,8 +317,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.147, on tale 150: "Humorous inversion: the villain runs away instead of the hero; the hero pursues [Rs-Pr]".
 - **Name:** this grammar's. **Corpus:** 1, 150 II. **Tree test:** `A K Rs Pr`, the Rs under `RescueFirst`.
 - **EBNF:** `RescueFirst = rescue Digression {rescue Digression} [ pursuit Digression {pursuit Digression} LateStruggle ]`
-- **Literal meaning:** the roles reversed, with the villain fleeing and the hero giving chase. Built into the grammar, it holds for every tale, not only humorous ones.
-- **Cultural meaning:** *Draft.* The villain made ridiculous. The roles reverse for laughter at the adversary's expense.
+- **Literal meaning:** A total role reversal where the hero captures or rescues the initiative immediately following the liquidation, forcing the villain into flight while the hero gives chase. The grammar ensures this pathway is available across the entire corpus, tracking the hero as the pursuer and the villain as the fleeing target.
+- **Cultural meaning:** The absolute reversal of sovereignty. The placement of rescue before pursuit represents the complete, sudden collapse of the adversary’s power. Culturally, this structural path demonstrates that true liquidation does not merely stop a threat. It strips the threat of all agency, completely reversing the roles of predator and prey. By converting the hero into an active pursuer who drives chaos out of the world, the sequence proves that the ultimate goal of maturation is not just reactive survival, but the total assumption of assertive, sovereign authority over the environment.
 
 ### `LateStruggle`
 
@@ -326,8 +327,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.107: "In tales 93 and 159 the fight with the villain takes place only after pursuit."
 - **Name:** this grammar's; `CombatAfterPursuit` before. **Corpus:** 1, 93 III. **Tree test:** `A K down Pr J`, the J under `LateStruggle`.
 - **EBNF:** `LateStruggle = {struggle Digression} {branding Digression} {victory Digression}`
-- **Literal meaning:** the fight displaced to the end: the villain is defeated only when he has chased the hero home.
-- **Cultural meaning:** *Draft.* Standing one's ground at last: the hero turns and defeats the pursuer.
+- **Literal meaning:** The primary combat sequence structurally displaced to the end of the return journey, where the definitive defeat of the adversary occurs only after they have pursued the hero back to the threshold of the domestic world.
+- **Cultural meaning:** The absolute defense of the threshold. The late struggle represents the mandatory, defensive annihilation of a lingering threat before re-entering civilization. Culturally, this displacement demonstrates that certain systemic crises cannot be outrun or bypassed through clever evasion—they must be met in a final, symmetry-breaking clash at the border of the community. By securing victory and an identifying brand at the literal doorstep of home, the sequence serves as a public validation of the hero's protective power, ensuring that past chaos is permanently severed before the new order can be founded.
 
 ### `Ordeal`
 
@@ -336,8 +337,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** editorial.
 - **Name:** v43's, less the recognition, which exchanges in the endgame since step 3. **Corpus:** 13. **Tree test:** `A K o L M N`, the M under `Ordeal`, and `A K o L M N Q`, where the Q is not.
 - **EBNF:** `Ordeal = FraudPosture TaskAndSolution`
-- **Literal meaning:** a reading aid: the trial of the hero's claim after he returns.
-- **Cultural meaning:** *Draft.* A reading aid; culturally, proving one's claim at home against rivals.
+- **Literal meaning:** A macro-level structural container tracking the public verification of the hero's achievements. It pairs the fraudulent claims made by internal pretenders with the execution of a difficult task designed to objectively test the candidates.
+- **Cultural meaning:** The institutional unmasking of fraud. The ordeal represents a society's defense against internal moral corruption. Culturally, the presence of a false hero demonstrates that the domestic sphere can be compromised by political deception and unearned claims to power. By forcing all claimants to submit to an impartial, difficult task, the narrative proves that a healthy community must rely on objective testing rather than empty rhetoric, using the trial as a structural filter to separate true capability from fraudulent postures before power can be safely inherited.
 
 ### `FraudPosture`
 
@@ -346,8 +347,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.104: unrecognized arrival and unfounded claims shift between the two summed schemes together.
 - **Name:** v43's. **Corpus:** 7. **Tree test:** `A K o L`, the L under `FraudPosture`.
 - **EBNF:** `FraudPosture = {unrecognizedArrival Digression} {unfoundedClaims Digression}`
-- **Literal meaning:** the hero arrives unknown and a false hero claims his deed. The question of who the hero is gets opened.
-- **Cultural meaning:** *Draft.* Humility and patience. The true hero may come home unrecognized and see another take the credit, and must let the truth come out rather than grasp at it.
+- **Literal meaning:** The phase where the hero reenters the domestic space incognito while a false claimant aggressively asserts authorship over the hero's deeds. This juxtaposition opens a fundamental crisis of identity and recognition within the community.
+- **Cultural meaning:** The staging of structural contrast. Rather than a moralistic lecture on passive humility or patience, this sequence represents the strategic necessity of liminal anonymity. Culturally, the hero's unrecognized arrival functions as a protective shield against immediate political reprisal, while the false hero's unfounded claims expose the inherent blindness of an unverified social hierarchy. By deliberately driving true merit to the absolute bottom of society while elevating fraudulence to the top, the structure creates an intense, unsustainable contrast—proving that domestic appearances are dangerously deceptive and setting a high-stakes trap that will inevitably collapse under the weight of objective truth.
 
 ### `TaskAndSolution`
 
@@ -356,8 +357,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.104, the task scheme M J N, set in the position H J I holds in the other scheme. The J only after M is the repair v44's own comment names, applied at step 5.
 - **Name:** this grammar's; v43's `TaskCycle` before. **Corpus:** 9. **Tree test:** `A K M J N`, the J under `TaskAndSolution` and not under `StruggleAndOutcome`.
 - **EBNF:** `TaskAndSolution = [ difficultTask Digression {difficultTask Digression} {branding Digression} ] {solution Digression}`
-- **Literal meaning:** the hero is set a hard task and solves it. The task is the other road to the same end as the fight, and p.104 sets the two schemes in the same position.
-- **Cultural meaning:** A demonstration of successful problem solving by the hero: the solution validates the hero's status as the hero.
+- **Literal meaning:** The sequence where the candidate is presented with an extraordinarily difficult trial and successfully executes it. This institutional test acts as the structural equivalent to the primary wilderness combat, serving as a civilized arena to verify the claimant's achievements.
+- **Cultural meaning:** **The Institutional Filter of Objective Capability.** The task and solution function as an impartial, institutional filter. Culturally, by treating the civil trial as the precise structural equivalent of a physical battle, the narrative proves that leadership requires real-world alignment with fundamental cultural and cosmic laws. By forcing candidates to produce tangible results through the activation of their accumulated ancestral or environmental alliances, the sequence completely strips away the false hero's empty rhetoric, making the true hero’s legitimacy visible and undeniable to the entire collective.
 
 ### `Endgame`
 
@@ -366,8 +367,8 @@ Individual functions carry meaning too, or they would not be in the model, so th
 - **Warrant:** p.108: "Recognition and exposure, marriage and punishment may also exchange positions", on finding FN's reading that the four exchange among themselves.
 - **Name:** v44's word for the span. **Corpus:** 38. **Tree test:** `A K U Q W`, both U and Q under `Endgame`.
 - **EBNF:** `Endgame = { ( recognition | exposure | punishment | wedding ) Digression }`
-- **Literal meaning:** the settling of accounts. The hero is recognized, the false hero exposed and punished, and the hero rewarded. The order of the settling is free.
-- **Cultural meaning:** *Draft.* The certainty of just deserts. The worthy are recognized and rewarded, the false exposed and punished, and the young are assured that right conduct wins.
+- **Literal meaning:** The final settlement of accounts closing the move. It encompasses the public recognition of the true hero, the systematic exposure and punishment of the false claimant, and the hero's ascension to power and marriage. The fluid ordering allows these elements to execute interchangeably to resolve the remaining narrative tension.
+- **Cultural meaning:** The reconstitution of social order. The endgame represents the permanent collapse of illusion and the total stabilization of the community. Culturally, the interlocking of recognition and exposure functions as a systemic purge, permanently separating true capability from deceptive rhetoric to restore absolute truth to the state hierarchy. By culminating in a sovereign wedding and ascension, the narrative successfully closes the macro-cycle, reestablishing a pure, uncorrupted family order at the head of the collective and securing the foundation for the next generation of heroes.
 
 ## Dependencies, not productions
 
@@ -431,58 +432,60 @@ The preparatory functions I-VII show 0 in the corpus because Appendix III prints
 ### `absentation`
 
 - **Number and sign:** I, β. **Page:** p.26. **Propp's name:** absentation.
-- **What happens:** a member of the family leaves home, the elders going out to work or to trade; the death of parents is its intensified form.
+- **What happens:** A member of the family leaves home, the elders going out to work, to war, or to trade; the death of parents is its intensified form.
 - **Group:** `preparatorySection`, or inside `RuleViolation` when told after the interdiction. **Pairs:** none; it is the one preparatory function outside every pair. **Corpus:** 0.
-- **Literal meaning:** the protection of the home is withdrawn. Propp notes that the elders' absence itself prepares the misfortune (p.27). This is a right of passage into adulthood.
-- **Cultural meaning:** when the elders leave, the young are on their own; the tale begins at that moment of exposure.  This is a right of passage into adulthood, and the necessary collapse of parental authority that forces the initiate into the wild zone where the trial must happen.
+- **Literal meaning:** The physical or symbolic withdrawal of domestic protection. The removal of the guardians leaves the initial household structurally unguarded, preparing the vulnerability required for the incoming misfortune.
+- **Cultural meaning:** The dissolution of domestic shielding. Absentation represents the mandatory collapse of childhood safety. Culturally, the departure or death of the elders serves as the initial phase of a rite of passage—violently exposing the young to reality and forcing them out of passive dependency so they can eventually cross into the wild zone where the trials of maturity must take place.
 
 ### `interdiction`
 
 - **Number and sign:** II, γ. **Page:** p.26. **Propp's name:** interdiction.
 - **What happens:** the hero is forbidden something; in the inverted form, he is ordered or advised to do something.
 - **Group:** `RuleViolation`. **Pairs:** with violation, γ-δ (p.80; p.64). **Corpus:** 0.
-- **Literal meaning:** a rule is laid down whose breaking will let harm in.
-- **Cultural meaning:** Listen to the warnings of the elders. This is the cultural boundary that defines safety versus dangerous autonomy.
+- **Literal meaning:** A verbal rule or boundary is established within the household, creating a structural condition where a specific transgression will invite vulnerability or misfortune.
+- **Cultural meaning:** The delineation of the taboo. The interdiction establishes the artificial boundary separating childhood security from dangerous autonomy. Culturally, this verbal prohibition defines the absolute limit of domestic protection; it sets up a structural taboo that exists solely to be violated, functioning as the necessary psychological catalyst that will eventually lure the youth across the threshold of the known world.
 
 ### `violation`
 
 - **Number and sign:** III, δ. **Page:** p.27. **Propp's name:** violation.
 - **What happens:** the interdiction is broken; in the inverted form, the order is carried out.
 - **Group:** `RuleViolation`. **Pairs:** with interdiction; it may stand without it (p.27). **Corpus:** 0.
-- **Literal meaning:** the breach through which the villain enters. Propp observes that interdictions are always broken (p.30).
-- **Cultural meaning:** Transgression has consequences, and it is also how the young step into a story of their own. Humanity must cross the boundary to grow; staying safe yields no narrative (and no adult maturity).
+- **Literal meaning:** The execution of the forbidden act, opening the structural breach through which vulnerability or the villain enters the narrative.
+- **Cultural meaning:** The activation of transgressive agency. Rather than a moralizing lesson on the consequences of disobedience, the violation represents the necessary step of breaking away from childhood security. Culturally, the breaking of the taboo is the inevitable catalyst for individual maturity; it demonstrates that staying safe inside the domestic sphere yields no progress or growth. By deliberately crossing the forbidden boundary, the youth shifts from a passive object of parental protection to an active subject of their own destiny, accepting the immediate perils of the world as the price of maturation.
 
 ### `reconnaissance`
 
 - **Number and sign:** IV, ε. **Page:** p.28. **Propp's name:** reconnaissance.
 - **What happens:** the villain tries to find something out, such as where the children are or where a precious object is kept.
 - **Group:** `InformationGathering`. **Pairs:** with delivery, ε-ζ (p.80; p.64). **Corpus:** 0.
-- **Literal meaning:** the villain enters the tale and looks for his way in.
-- **Cultural meaning:** *Draft.* The enemy is watching for weakness.
+- **Literal meaning:** The physical or strategic intrusion of the villain into the tale to locate an exploitable vulnerability.
+- **Cultural meaning:** The intrusion of predatory Intent. Reconnaissance represents the tragic realization that the domestic world is surrounded by calculated malice. Culturally, the villain's scouting phase proves that the safety of the household is constantly under surveillance by forces that do not share its values. It marks the precise moment where passive innocence is targeted by predatory intellect, demonstrating that structural blind spots will inevitably be sought out and tested by the wider world.
+
+------
 
 ### `delivery`
 
 - **Number and sign:** V, ζ. **Page:** p.28. **Propp's name:** delivery.
 - **What happens:** the villain receives information about his victim.
 - **Group:** `InformationGathering`. **Pairs:** with reconnaissance; it may stand without it, as a careless act (p.29). **Corpus:** 0.
-- **Literal meaning:** the victim is laid open to the villain.
-- **Cultural meaning:** *Draft.* Keep the household's secrets.
+- **Literal meaning:** The transmission of vital knowledge to the villain, leaving the victim or the household fully exposed and vulnerable to target selection.
+- **Cultural meaning:** The shattering of domestic insularity. Delivery represents the tragic, structural impossibility of absolute isolation. Culturally, the ease with which information leaks to the outside world—whether through active manipulation or a careless act—reveals that the domestic sphere cannot remain a sealed ecosystem forever. It demonstrates that the initiate's vulnerabilities, hidden assets, or baseline naivety will inevitably be pulled into the light of external reality, turning a private household weakness into a catalyst for public crisis.
 
 ### `trickery`
 
 - **Number and sign:** VI, η. **Page:** p.29. **Propp's name:** trickery.
 - **What happens:** the villain, often disguised, tries to deceive the victim in order to take possession of him or his belongings.
 - **Group:** `DeceptionTrap`. **Pairs:** with complicity, η-θ (p.80). **Corpus:** 0.
-- **Literal meaning:** deceit, the villain's instrument before force.
-- **Cultural meaning:** *Draft.* Beware the pleasant stranger in disguise.
+- **Literal meaning:** The deployment of a fraudulent appearance or false premise by the villain, designed to systematically bypass the victim's defenses before any physical assault occurs.
+- **Cultural meaning:** The subversion of domestic codes. Trickery represents the terrifying reality that threat models are rarely obvious. Culturally, the villain's use of a benign disguise or an empathetic offer demonstrates that malice naturally masquerades as something safe, familiar, or helpful. By exploiting the initiate's domestic programming—such as their baseline inclination to trust, obey, or accept a gift—the trickery sequence exposes a harsh truth: the uninitiated mind cannot distinguish true benevolence from strategic manipulation based on appearances alone.
 
 ### `complicity`
 
 - **Number and sign:** VII, θ. **Page:** p.30. **Propp's name:** complicity.
 - **What happens:** the victim is taken in by the deception and so unwittingly helps the enemy.
 - **Group:** `DeceptionTrap`. **Pairs:** with trickery; it may stand without it, as falling asleep unprompted (p.30). **Corpus:** 0.
-- **Literal meaning:** the victim's own act opens the way to harm. Propp observes that deceitful proposals are always accepted (p.30).
-- **Cultural meaning:** *Draft.* Gullibility serves the enemy, and the victim shares the responsibility.
+- **Literal meaning:** The victim’s mechanical assent or surrender of autonomy, providing the final link that translates the villain's deceptive premise into a physical breach.
+- **Cultural meaning:** The eclipse of personal autonomy. Complicity represents the tragic but necessary failure of uninitiated intuition. Culturally, the victim’s unwitting submission—whether by accepting a poisoned gift or falling into an unprompted sleep—demonstrates that raw childhood innocence possesses zero structural immunity against calculated manipulation. This total collapse of personal agency functions as the absolute lowest point of the domestic state, leaving the youth utterly helpless to prove that they cannot survive on naive trust alone.
 
 ### `villainy`
 
