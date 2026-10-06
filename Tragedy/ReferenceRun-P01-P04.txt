@@ -1,0 +1,16 @@
+THE TRAGEDIES AGAINST THE TRANSCRIBED WONDERTALES (P01-P04 only, for form: NOT JUDGED)
+
+TRANSCRIBER A: 4 plays, 45 tales
+  coverage   tragedy 0.469 (n 4)  wondertale 0.632 (n 45)  difference -0.163  p 0.0105
+  acceptance tragedy 0.307 (n 4)  wondertale 0.213 (n 45)  difference +0.094  p 0.5100
+  backward   tragedy 0.426 (n 4)  wondertale 0.284 (n 45)  difference +0.142  p 0.0039
+
+TRANSCRIBER B: 4 plays, 45 tales
+  coverage   tragedy 0.437 (n 4)  wondertale 0.678 (n 45)  difference -0.241  p 0.0001
+  acceptance tragedy 0.237 (n 4)  wondertale 0.176 (n 45)  difference +0.061  p 0.7226
+  backward   tragedy 0.447 (n 4)  wondertale 0.312 (n 45)  difference +0.136  p 0.0097
+
+VERDICTS (form only, not judged)
+  coverage   DIFFER (tragedy lower)
+  acceptance DO NOT DIFFER
+  backward   DIFFER (tragedy higher)
