@@ -354,3 +354,5 @@ Run on P01 to P04 for form only, not judged (`ReferenceRun-P01-P04.txt`): covera
 
 **P27, Eumenides: two speeches the source names no speaker for.**
 Speech S002 (lines 34-60) continues the Priestess, who goes into the temple at the end of S001 and comes back terror-stricken; S051 (lines 254-275) is the Chorus of Furies hunting Orestes, which the source leaves unlabelled outside a choral division. `extract.py` labels both "(no speaker in the source)"; nothing is corrected. Smyth's translation, modernized, as the protocol names. 195 speeches, 8,823 words.
+
+**P27 events, from master at 6fc4805: in form** (Propp-Tragedy f5cac13, merged). 84 events numbered from 1, 23 past and 61 now, one hero line, 29 in the cast. The hero is Orestes in 36 events, the Furies close behind in 33, Apollo 26, Athena 25: another close hero (as P08, P10, P14, P17). The lister gave S002 to the Priestess and S051 to the Furies, as logged at setup, made Clytaemestra and her ghost one character, and counted the Priestess's prayer of the oracle's succession as past events, which adds several characters who appear once. Nothing corrected.
