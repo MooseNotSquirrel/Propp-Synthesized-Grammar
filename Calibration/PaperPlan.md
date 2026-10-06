@@ -8,7 +8,7 @@ Measuring the measurer: blind machine transcription against Propp's own analyses
 
 ## The claim, as it stands
 
-Language models, reading the Russian tales without access to Propp's schemes, find most of the functions he found (74% to 77%; 80% to 84% counted once per tale), far beyond chance, and agree with him less than with each other, chiefly because they record repetitions he folds into one, and because his schemes write functions the text leaves implicit. Propp's schemes are themselves a compressed and partly inferred record, so agreement with them has a ceiling below one that no transcriber, human or machine, can be expected to pass.
+Language models, reading the Russian tales without access to Propp's schemes, find most of the functions he found (74% to 77%; 80% to 84% counted once per tale), far beyond chance, and agree with him less than with each other. Folding the repetitions he folds into one, tested on held-out tales, closes only a small part of the gap (content about +0.05, order little); most of the disagreement is substantive, the transcribers marking functions where he marks none and dividing moves differently, and his schemes writing functions the text leaves implicit. Propp's schemes are themselves a compressed and partly inferred record, so agreement with them has a ceiling below one that no transcriber, human or machine, can be expected to pass.
 
 ## Sections
 
@@ -25,7 +25,7 @@ Language models, reading the Russian tales without access to Propp's schemes, fi
 
 ## Still to obtain
 
-- The improvement test, on the test tales.
+- DONE: the improvement test, NOT ADOPTED (`KeeperLog.md`).
 - The human benchmark: the owner's choice of tales and time.
 - A tale-by-tale comparison with the published figures of the prior studies, where their tales overlap ours.
 - Every prior-work citation checked against the source before it is quoted.

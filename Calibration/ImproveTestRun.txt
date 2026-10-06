@@ -1,0 +1,36 @@
+IMPROVEMENT TEST, test tales (23): 93 95 98 100 101 113 114 127 131 132 136 138 141 143 152 153 154 156 159 162 163 164 167
+
+READING U/A
+  content written 0.614 (cc 0.34)  view 0.654 (cc 0.35)  gain +0.040  p 0.0036  derangements at or above 0 of 1000
+  order   written 0.391 (cc 0.23)  view 0.421 (cc 0.24)  gain +0.030  p 0.0371  derangements at or above 0 of 1000
+  v46 accepts 26 of 76 view moves (34.2%)
+
+READING U/B
+  content written 0.607 (cc 0.32)  view 0.665 (cc 0.36)  gain +0.058  p 0.0018  derangements at or above 0 of 1000
+  order   written 0.378 (cc 0.21)  view 0.396 (cc 0.21)  gain +0.018  p 0.2333  derangements at or above 0 of 1000
+  v46 accepts 14 of 67 view moves (20.9%)
+
+READING C/A
+  content written 0.623 (cc 0.36)  view 0.672 (cc 0.38)  gain +0.048  p 0.0016  derangements at or above 0 of 1000
+  order   written 0.404 (cc 0.25)  view 0.434 (cc 0.26)  gain +0.030  p 0.0550  derangements at or above 0 of 1000
+  v46 accepts 23 of 74 view moves (31.1%)
+
+READING C/B
+  content written 0.608 (cc 0.33)  view 0.659 (cc 0.36)  gain +0.051  p 0.0036  derangements at or above 0 of 1000
+  order   written 0.356 (cc 0.18)  view 0.379 (cc 0.19)  gain +0.023  p 0.1302  derangements at or above 0 of 1000
+  v46 accepts 22 of 76 view moves (28.9%)
+
+A-B, arm U: written content 0.763 order 0.611; view content 0.796 order 0.606
+
+A-B, arm C: written content 0.790 order 0.630; view content 0.826 order 0.656
+
+THE DECISION
+  U/A content gain +0.040 (needs >= 0.060), p 0.0036, derangements 0: FAILS
+  U/A order   gain +0.030 (needs >= 0.056), p 0.0371, derangements 0: FAILS
+  U/B content gain +0.058 (needs >= 0.063), p 0.0018, derangements 0: FAILS
+  U/B order   gain +0.018 (needs >= 0.051), p 0.2333, derangements 0: FAILS
+  C/A content gain +0.048 (needs >= 0.067), p 0.0016, derangements 0: FAILS
+  C/A order   gain +0.030 (needs >= 0.056), p 0.0550, derangements 0: FAILS
+  C/B content gain +0.051 (needs >= 0.046), p 0.0036, derangements 0: holds
+  C/B order   gain +0.023 (needs >= 0.044), p 0.1302, derangements 0: FAILS
+VERDICT: NOT ADOPTED
