@@ -1,0 +1,101 @@
+THE AFANASYEV CALIBRATION: compare.py on Afanasyev
+Tales: 45. Propp's moves: 84; v46 at `move` accepts 80 of 84 of his (the protocol: 80).
+Tales without entries: none
+
+YARDSTICK, arm U, A against B: content 0.754, order 0.590, moves 55.6%
+
+YARDSTICK, arm C, A against B: content 0.750, order 0.586, moves 33.3%
+
+ARM U, TRANSCRIBER A (Opus)
+  1. content 0.591 against A-B 0.754: ratio 0.78 (needs 0.80) FAILS
+  2. order   0.364 against A-B 0.590: ratio 0.62 (needs 0.80) FAILS
+  3. baseline: content 0.404, 0 of 1000 at or above; order 0.202, 0 of 1000 (at most 50) holds
+  4. v46 accepts 41 of 142 moves, 28.9% (needs 75%) FAILS
+  moves equal to Propp's: 33.3% (A-B 55.6%)
+  VERDICT: PARTLY CALIBRATED
+
+ARM U, TRANSCRIBER B (Sonnet)
+  1. content 0.592 against A-B 0.754: ratio 0.79 (needs 0.80) FAILS
+  2. order   0.363 against A-B 0.590: ratio 0.62 (needs 0.80) FAILS
+  3. baseline: content 0.421, 0 of 1000 at or above; order 0.210, 0 of 1000 (at most 50) holds
+  4. v46 accepts 29 of 129 moves, 22.5% (needs 75%) FAILS
+  moves equal to Propp's: 37.8% (A-B 55.6%)
+  VERDICT: PARTLY CALIBRATED
+
+ARM C, TRANSCRIBER A (Opus)
+  1. content 0.593 against A-B 0.750: ratio 0.79 (needs 0.80) FAILS
+  2. order   0.371 against A-B 0.586: ratio 0.63 (needs 0.80) FAILS
+  3. baseline: content 0.405, 0 of 1000 at or above; order 0.199, 0 of 1000 (at most 50) holds
+  4. v46 accepts 40 of 139 moves, 28.8% (needs 75%) FAILS
+  moves equal to Propp's: 28.9% (A-B 33.3%)
+  VERDICT: PARTLY CALIBRATED
+
+ARM C, TRANSCRIBER B (Sonnet)
+  1. content 0.578 against A-B 0.750: ratio 0.77 (needs 0.80) FAILS
+  2. order   0.342 against A-B 0.586: ratio 0.58 (needs 0.80) FAILS
+  3. baseline: content 0.423, 0 of 1000 at or above; order 0.207, 0 of 1000 (at most 50) holds
+  4. v46 accepts 41 of 152 moves, 27.0% (needs 75%) FAILS
+  moves equal to Propp's: 28.9% (A-B 33.3%)
+  VERDICT: PARTLY CALIBRATED
+
+ARM C AGAINST ARM U (reported, not judged)
+  A: content 0.591 -> 0.593, order 0.364 -> 0.371, moves 33.3% -> 28.9%, acceptance 28.9% -> 28.8%
+  B: content 0.592 -> 0.578, order 0.363 -> 0.342, moves 37.8% -> 28.9%, acceptance 22.5% -> 27.0%
+CONTACT CHECK: each transcriber's arm C against its own arm U, beside A-B
+  A: C-U content 0.869, order 0.772 (A-B: arm U 0.754, 0.590; arm C 0.750, 0.586)
+  B: C-U content 0.815, order 0.672 (A-B: arm U 0.754, 0.590; arm C 0.750, 0.586)
+
+THE MEMORY PROBE
+  Opus: 1 of 45 answered; over all 45, content 0.020, order 0.018; over the answered, content 0.903, order 0.824
+    its transcriber A, arm U, content 0.591: recall 0.571 below (needs 0.15)
+  Sonnet: 0 of 45 answered; over all 45, content 0.000, order 0.000; over the answered, content n/a, order n/a
+    its transcriber B, arm U, content 0.592: recall 0.592 below (needs 0.15)
+  VERDICT: MEMORY IMPLAUSIBLE
+
+PER TALE: content and order against Propp (* the hero rule picks another hero)
+  tale  Propp  C/A         C/B         U/A         U/B       
+   93   20/3   0.52 0.27  0.58 0.29  0.55 0.33  0.52 0.27
+   95   14/2   0.74 0.57  0.67 0.50  0.80 0.71  0.67 0.50
+   98   21/2   0.68 0.48  0.67 0.38  0.70 0.48  0.72 0.48
+  100    7/1   0.56 0.45  0.59 0.50  0.56 0.45  0.59 0.50
+  101   10/1   0.52 0.24  0.53 0.20  0.62 0.25  0.57 0.17
+  104   17/2   0.68 0.33  0.67 0.42  0.64 0.33  0.74 0.42
+  105   16/2   0.65 0.41  0.73 0.52  0.67 0.39  0.78 0.52
+  106   12/2   0.44 0.33  0.44 0.33  0.44 0.33  0.41 0.29
+  108    9/1   0.43 0.21  0.52 0.29  0.50 0.21  0.50 0.27
+  113   14/1   0.63 0.38  0.70 0.43  0.63 0.38  0.67 0.48
+  114   16/1   0.65 0.46  0.43 0.29  0.54 0.29  0.56 0.39
+  115   13/2   0.59 0.32  0.61 0.39  0.56 0.35  0.59 0.32
+  125   13/2   0.35 0.20  0.38 0.21  0.31 0.17  0.30 0.15
+  126   18/2   0.51 0.30  0.64 0.31  0.49 0.23  0.46 0.26
+  127   11/1   0.64 0.57  0.43 0.31  0.54 0.47  0.43 0.31
+  128   16/2   0.54 0.33  0.50 0.34  0.57 0.36  0.62 0.46
+  131    9/1   0.64 0.47  0.60 0.43  0.69 0.53  0.55 0.38
+  132   33/3   0.71 0.58  0.79 0.46  0.68 0.55  0.79 0.58
+  133   15/2   0.68 0.48  0.58 0.38  0.67 0.47  0.94 0.82
+  135   11/1   0.61 0.44  0.74 0.50  0.73 0.47  0.72 0.57
+  136   31/4   0.68 0.48  0.55 0.33  0.66 0.44  0.61 0.36
+  137   22/2   0.58 0.38  0.50 0.20  0.68 0.29  0.54 0.27
+  138   33/3   0.75 0.55  0.73 0.39  0.74 0.55  0.74 0.47
+  139   24/2   0.41 0.20  0.47 0.21  0.45 0.21  0.49 0.28
+  140   11/1   0.61 0.40  0.59 0.43  0.67 0.41  0.59 0.38
+  141   19/2   0.55 0.28  0.56 0.34  0.52 0.26  0.65 0.30
+  143   16/2   0.67 0.38  0.56 0.25  0.61 0.24  0.52 0.25
+  144   10/1   0.43 0.26  0.44 0.29  0.50 0.27  0.40 0.26
+  145    8/1   0.67 0.40  0.40 0.23  0.53 0.38  0.48 0.24
+  148    9/1   0.63 0.40  0.57 0.25  0.67 0.44  0.67 0.42
+  149*  10/1   0.62 0.40  0.48 0.33  0.64 0.50  0.61 0.38
+  150   18/2   0.69 0.33  0.60 0.39  0.47 0.33  0.62 0.33
+  151*   8/1   0.53 0.36  0.53 0.50  0.57 0.38  0.55 0.29
+  152    6/1   0.60 0.43  0.71 0.36  0.57 0.40  0.50 0.29
+  153    7/1   0.54 0.26  0.48 0.33  0.58 0.29  0.50 0.35
+  154    8/1   0.48 0.29  0.63 0.45  0.57 0.38  0.57 0.31
+  155   30/3   0.61 0.27  0.62 0.20  0.64 0.25  0.65 0.24
+  156   36/3   0.71 0.35  0.76 0.37  0.74 0.35  0.71 0.35
+  159   37/4   0.66 0.33  0.61 0.31  0.64 0.33  0.64 0.38
+  161   33/4   0.81 0.39  0.71 0.30  0.78 0.35  0.71 0.30
+  162   13/2   0.58 0.39  0.55 0.35  0.65 0.39  0.45 0.28
+  163*  10/1   0.50 0.40  0.50 0.30  0.40 0.30  0.63 0.60
+  164*  16/2   0.64 0.25  0.69 0.31  0.50 0.25  0.67 0.38
+  166    8/2   0.27 0.21  0.31 0.17  0.30 0.25  0.33 0.19
+  167   19/3   0.68 0.45  0.67 0.31  0.65 0.38  0.71 0.35
