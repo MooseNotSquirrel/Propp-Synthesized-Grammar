@@ -1,0 +1,22 @@
+TALE 151 against Propp, this project's reading: a B C up H I K down
+  students, experiment I  (9): content 0.684, order 0.528
+  students, experiment II (6): content 0.618, order 0.521
+  models, four readings:      content 0.544, order 0.383
+TALE 151 against Propp with A for a, as Bod et al. print it: A B C up H I K down
+  students, experiment I  (9): content 0.598, order 0.451
+  students, experiment II (6): content 0.474, order 0.396
+  models, four readings:      content 0.471, order 0.292
+  students with each other, experiment I : content 0.565, order 0.411
+  students with each other, experiment II: content 0.565, order 0.453
+  models A with B, arm U:            content 0.593, order 0.571
+  models A with B, arm C:            content 0.444, order 0.273
+
+TALE 152 against Propp, this project's reading: A up H I K down
+  students, experiment I  (9): content 0.593, order 0.426
+  students, experiment II (6): content 0.604, order 0.501
+  models, four readings:      content 0.594, order 0.369
+  students with each other, experiment I : content 0.633, order 0.495
+  students with each other, experiment II: content 0.549, order 0.435
+  models A with B, arm U:            content 0.552, order 0.400
+  models A with B, arm C:            content 0.720, order 0.500
+

@@ -1,0 +1,40 @@
+# The students' function strings for two Appendix III tales, from Bod, Fisseni,
+# Kurji and Löwe, "Objectivity and reproducibility of Proppian annotations",
+# CMN 2012, pp. 15-19, Tables 2 (experiment "Propp I", nine subjects) and 3
+# ("Propp II", six subjects); https://eprints.illc.uva.nl/id/eprint/451/
+# Transcribed 2026-10-06 from the PDF's text: superscripts (subfunctions) and
+# the missing-subfunction mark dropped; "Z" in Propp I subject 4 (Ivanko),
+# not one of Propp's symbols, dropped. The subjects read English translations
+# (Guterman for Ivanko, Cook for Shabarsha) after 45 minutes of training.
+# Their tale 147 (Semyons) is not Propp's 145 (their fn. 3) and is left out.
+# tale | experiment-subject | functions in the order printed
+152 | I-1 | β ↑ G H I ↓
+152 | I-2 | β γ δ ζ η θ A a B C ↑ G H I K ↓ U
+152 | I-3 | β γ δ ζ η θ A a B C ↑ D E H I K ↓ N Ex
+152 | I-4 | β γ δ ε ζ η θ a B C ↑ D G H I K ↓ N Q U
+152 | I-5 | β γ δ ζ η θ a B C ↑ D E F J I K
+152 | I-6 | β γ δ ε ζ η θ B C ↑ G H I K ↓
+152 | I-7 | β δ ε a B C ↑ D E H I K ↓ U
+152 | I-8 | β γ ↑ G H I ↓ W
+152 | I-9 | β ζ θ a B ↑ D E F G K ↓
+151 | I-1 | a B C ↑ G H K
+151 | I-2 | β ε ζ η θ A a B C ↑ G H I K ↓ W
+151 | I-3 | β γ ε ζ η θ A B C D E F G H I K
+151 | I-4 | β γ ε ζ a B C ↑ E I K Pr Q U
+151 | I-5 | β γ η a B C D F K ↓ Q U
+151 | I-6 | γ δ η θ a H I K ↓ N U W
+151 | I-7 | γ a B C ↑ D F G H I K o W
+151 | I-8 | a B C ↑ G H I K
+151 | I-9 | η θ a B H W
+152 | II-1 | β a ↑ G H I K ↓
+152 | II-2 | β γ ↑ M N W
+152 | II-3 | β B ↑ H I U
+152 | II-4 | β ↑ H I ↓ U
+152 | II-5 | β a B ↑ H I ↓
+152 | II-6 | β a B ↑ H I K ↓ W
+151 | II-1 | a H I K N
+151 | II-2 | a B ↑ M N W
+151 | II-3 | a C ↑ H I M U W
+151 | II-4 | a ↑ H I M N
+151 | II-5 | a ↑ H K
+151 | II-6 | a B C H I K W
