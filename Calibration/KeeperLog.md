@@ -58,7 +58,7 @@ A STATEMENT OF MINE WITHDRAWN: I told the owner that "most of the gap is bookkee
 - Tale 152: students 0.59 and 0.60 content, models 0.59; order 0.43 and 0.50 against 0.37.
 - The students agree with each other (content 0.55 to 0.63) about as well as with Propp, and about as well as the two model transcribers agree (0.44 to 0.72).
 READING: on content the models are level with trained human readers on 152 and somewhat behind on 151; on order the students do better, in part because they wrote lists of the functions present, as short as Propp's, where the models record every occurrence. Two tales decide nothing; the owner's five remain the benchmark.
-A DISCREPANCY IN PROPP'S SCHEME FOR 151: the first project's token file reads the opening as a⁵ (a lack), Bod et al. print A8 (a villainy). Not resolved here; it needs the printed page. Scored both ways (`BodRun.txt`): with A, every figure for 151 falls, students and models alike.
+A DISCREPANCY IN PROPP'S SCHEME FOR 151: the first project's token file reads the opening as a⁵ (a lack), Bod et al. print A8 (a villainy). Scored both ways (`BodRun.txt`): with A, every figure for 151 falls, students and models alike. RESOLVED 2026-10-06: the owner checked the printed Appendix III, which reads a⁵; the token file is right, Bod et al.'s A8 is their slip, and the first reading stands.
 
 **THE GENRE ORDER TEST, RESULT, 2026-10-06** (`Blocks/GenreOrder.md` frozen at ebef7e2, `genreOrder.py`, output `Blocks/GenreOrderRun.txt`, models `Blocks/GenreOrder-*.txt`). Gaps of concordance over shuffled, transcriber A / B:
 - On the Russian test tales: Propp +0.188 / +0.150, the wondertale model +0.185 / +0.162, fable +0.110 / +0.099, tragedy +0.101 / +0.052.
