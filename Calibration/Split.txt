@@ -1,0 +1,4 @@
+THE SPLIT OF THE 45 TALES, drawn 2026-10-05 before any improvement was built:
+random.Random(46).shuffle of the sorted tale numbers; the first 22 develop, the last 23 test.
+dev  | 104 105 106 108 115 125 126 128 133 135 137 139 140 144 145 148 149 150 151 155 161 166
+test | 93 95 98 100 101 113 114 127 131 132 136 138 141 143 152 153 154 156 159 162 163 164 167
