@@ -1,0 +1,30 @@
+# GenreOrder-fable.txt -- the fable order model, genreOrder.py, fitted on its training part,
+# both transcribers, by tragedyGrammar.py's recipe. rank | unit | occurrences
+0.000 | α | 5
+0.221 | a | 91
+0.250 | B | 4
+0.278 | StruggleAndOutcome | 6
+0.323 | complication | 77
+0.333 | PursuitFirst | 3
+0.347 | H | 6
+0.384 | η | 12
+0.403 | L | 12
+0.408 | DeceptionTrap | 25
+0.433 | InformationGathering | 5
+0.479 | preparatorySection | 4
+0.513 | A | 127
+0.528 | Rs | 8
+0.550 | ζ | 5
+0.658 | TestedAcquisition | 10
+0.708 | down | 4
+0.750 | Pr | 8
+0.812 | K | 50
+0.812 | Endgame | 8
+0.815 | E | 9
+0.818 | γ | 11
+0.833 | I- | 4
+0.875 | F | 4
+0.875 | C | 4
+0.881 | I | 7
+0.883 | U | 11
+0.963 | Ex | 20

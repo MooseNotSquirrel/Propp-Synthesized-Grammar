@@ -1,0 +1,28 @@
+# GenreOrderRun.txt -- genreOrder.py, as Blocks/GenreOrder.md freezes it.
+# Concordance gap over 1000 in-place shuffles (seed 46); in brackets, shuffles at or above.
+
+TRANSCRIBER A
+  model       on wondertale           on fable                on tragedy              
+  wondertale  +0.185 (   0)          +0.113 (  14)          +0.068 (   0)          
+  fable       +0.110 (   0)          +0.220 (   0)          +0.066 (   0)          
+  tragedy     +0.101 (   0)          +0.151 (   8)          +0.133 (   0)          
+  Propp       +0.188 (   0)          +0.218 (   0)          +0.072 (   0)          
+
+TRANSCRIBER B
+  model       on wondertale           on fable                on tragedy              
+  wondertale  +0.162 (   0)          +0.115 (   4)          +0.057 (   0)          
+  fable       +0.099 (   0)          +0.152 (   1)          +0.075 (   0)          
+  tragedy     +0.052 (   9)          +0.030 ( 294)          +0.122 (   0)          
+  Propp       +0.150 (   0)          +0.168 (   0)          +0.063 (   0)          
+
+THE PREDICTIONS
+  on wondertale  best: A Propp, B wondertale
+  on fable       best: A fable, B Propp
+  on tragedy     best: A tragedy, B tragedy
+  1. each genre's own order fits it best: FAILS
+  2. the wondertale follows Propp at least as well as the fable and tragedy orders: HOLDS
+
+RANK CORRELATION between fitted models (Spearman, over shared units; reported)
+  wondertale fable    +0.26 over 25 units
+  wondertale tragedy  +0.33 over 23 units
+  fable      tragedy  +0.59 over 16 units

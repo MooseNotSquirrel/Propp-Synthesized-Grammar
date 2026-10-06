@@ -1,0 +1,23 @@
+# AgreementRun.txt -- blockAgreement.py, risk check 3 (Blocks/Agreement.txt).
+# Share of all blocks, A's and B's, that the other transcriber also has in the same story:
+# real; mean with B's functions shuffled; shuffles at or above the real; the verdict.
+
+tragedy P05-P32  blocks   28 versions   471 blocks  agreement  61.1%  shuffled  51.1%  at/above   0 of 200  AGREE BEYOND CHANCE
+      complication           152 of 217 agree (70%)
+      RuleViolation           28 of  63 agree (44%)
+      DeceptionTrap           35 of  50 agree (70%)
+      preparatorySection      27 of  47 agree (57%)
+      StruggleAndOutcome      16 of  24 agree (67%)
+      TestedAcquisition        6 of  21 agree (29%)
+      UntestedAcquisition     10 of  18 agree (56%)
+      Endgame                  4 of  11 agree (36%)
+      PursuitFirst             4 of   6 agree (67%)
+      ReturnJourney            0 of   6 agree (0%)
+tragedy P05-P32  strict   28 versions   292 blocks  agreement  63.0%  shuffled  50.8%  at/above   0 of 200  AGREE BEYOND CHANCE
+      complication           102 of 152 agree (67%)
+      DeceptionTrap           34 of  49 agree (69%)
+      RuleViolation           22 of  35 agree (63%)
+      StruggleAndOutcome      12 of  20 agree (60%)
+      TestedAcquisition        6 of  16 agree (38%)
+      ReturnJourney            0 of   6 agree (0%)
+      Endgame                  2 of   5 agree (40%)
