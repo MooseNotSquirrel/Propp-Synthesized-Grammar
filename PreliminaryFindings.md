@@ -3,14 +3,16 @@
 **This file gathers what the genre tests and the building-block work have found so far, what has been withdrawn, and the readings and ideas worth keeping for when all the data is in.**
 It is a working document, not a result: every figure below is recorded, with its program and its frozen rule, in the file each entry names, and those files win wherever this one disagrees with them.
 Each entry is marked: ESTABLISHED (frozen before the data, or replicated on unseen data, and passing the risk checks), TENTATIVE (measured, not yet replicated or checked), WITHDRAWN, or SPECULATION, NOT FROM PROPP (a reading, labelled as such).
-Last brought level: 2026-10-05, after the Afanasyev calibration.
+Last brought level: 2026-10-06, after the seal on the tragedies was lifted.
 
 ## 1. The genre tests of Propp's whole morphology
 
 **WEAKENED BY THE CALIBRATION (2026-10-05): that Propp's full grammar does not describe Greek myth summaries or Aesop's fables.**
 Apollodorus failed on every measure; Aesop failed on coverage and order (Propp-Apollodorus, Propp-Aesop, each with its result file).
-The tragedy test is at 26 of 32 plays; its interim results (P01-P04) fall short and P05 on are sealed (`Tragedy/`).
-BUT the thresholds those tests used, 85.2% acceptance and 80% coverage, were set from Propp's own schemes, and the instrument does not reach them on Propp's own tales: v46 accepts 22% to 29% of its moves for the 45 Appendix III tales, below Aesop's 57% to 59%, and it covers 62% to 67% of their events (section 7). So the acceptance and coverage failures measure the instrument at least as much as the genre. What survives, on present figures: the tragedies P01-P04 cover fewer events (43% to 47%) than the instrument covers on Propp's tales (62% to 67%); Apollodorus (57% to 70%) and Aesop (56% to 57%) do not clearly differ from them. Genre comparisons should be redone instrument to instrument, with the 45 transcribed tales as the Russian reference.
+The tragedy test is complete, 32 of 32 plays: by its frozen thresholds the claim does not hold for either grammar or transcriber (coverage 38% to 39%, acceptance 30% to 36%; `Tragedy/TragedyRun-All.txt`).
+BUT the thresholds those tests used, 85.2% acceptance and 80% coverage, were set from Propp's own schemes, and the instrument does not reach them on Propp's own tales: v46 accepts 22% to 29% of its moves for the 45 Appendix III tales, below Aesop's 57% to 59%, and it covers 62% to 67% of their events (section 7). So the acceptance and coverage failures measure the instrument at least as much as the genre. What survives: Apollodorus (57% to 70%) and Aesop (56% to 57%) do not clearly differ from Propp's tales in coverage; the tragedies do, tested instrument to instrument (below).
+
+**ESTABLISHED (2026-10-06): measured with the same instrument, the 32 tragedies cover far fewer of their events with Propp's functions than the 45 Russian tales, and run against Propp's order far more often.** Coverage 38% and 39% against 63% and 68%; function pairs backward against Propp's numbering 44% and 46% against 28% and 31%, where random order gives 50%; both p 0.0001, both transcribers, frozen before the seal lifted (`Tragedy/ReferenceComparison.md`, `ReferenceRun.txt`). Acceptance does not separate the genres (p 0.11, 0.20), as the calibration led us to expect.
 
 ## 2. Propp's blocks
 
@@ -21,7 +23,9 @@ Found in the training fables and tragedy P01-P04, replicated on the 99 held-out 
 - it holds whether the incidental and doubtful entries are matched or not, 35 of 36 cells (`Blocks/Robustness.txt`).
 `DeceptionTrap` is the most reliable block: about three times chance in the fables, and 78% to 88% of its instances found by both transcribers. BUT THE OWNER'S AUDIT (`Blocks/TrickAudit.txt`, 13 of 20 supported, DOUBTFUL by its rule) found that it is the trick and the victim's RESPONSE, not always the complicity Propp names: the trick is real in all 20, but in 6 the victim balks or sees through it and the transcribers wrote θ anyway, both of them in the same fables. So part of the block's count and of the transcribers' agreement on it comes from that shared habit. Read faithfully, about two thirds are complicity and about a third its refusal.
 
-**TENTATIVE: in tragedy the effect is weaker.** Its loose reading is mostly habit of position (weakened against the positional null), its strict reading survives, and the transcribers' agreement on strict blocks falls just short of the rule on 40 blocks. The sealed plays test it; the prediction is frozen in `Tragedy/BlockPrediction.txt`.
+**ESTABLISHED (2026-10-06): the blocks hold in tragedy too, on 28 unseen plays.** The frozen prediction (`Tragedy/BlockPrediction.txt`, results in `KeeperLog.md`): adjacency holds in both readings for both transcribers (blocks 49% to 50% of functions against 35% to 40% shuffled, strict 29% to 32% against 19% to 20%, 0 of 200 each), and complication and RuleViolation each occur above chance. On P01-P04 alone the effect had looked weaker; with 28 plays it does not. The positional null and the agreement check were run on P01-P04 only and have not been rerun on the held-out plays.
+
+**NOT SHOWN: a fixed order inside tragedy's free blocks.** Forward occurrences far outnumber reversed ones (15 to 3 and 12 to 0), but transcriber A's 3 reversals exceed the shuffled mean (1.63), so the frozen prediction fails.
 
 **WITHDRAWN: that the order inside a block is near obligatory, like the fixed order inside a phrase of Latin or Russian.**
 The definitions card defines the second half of most blocks by the first ("taken in by the deception", "the prohibition is broken", "the task is accomplished"), so a reversal can occur only in a flashback, and the absence of reversals measures the card, not the stories (`Blocks/DefinitionCheck.md`).
@@ -35,6 +39,11 @@ The coupling is Propp's own: he defines complicity as yielding to the deception 
 **ESTABLISHED, IN PART: the fable grammar failed its frozen test on coverage, and its order held on unseen fables.**
 `FableEBNF01.txt` accepted 55.6% and 61.7% of the held-out fables against a frozen 65%, so the claim that it describes most fables fails. Its gap over shuffled order held (+27.4 and +29.8 against a frozen 20), and beat v46's (+10.6 and +15.1) (`Fables/KeeperLog.md`).
 So the order between blocks is not free, as the plan first supposed: it is a strong preference, not a rule. A yes-or-no grammar is the wrong instrument for a preference; a scored model of block order is the right one, and would be tested on the about 110 undrawn fables.
+
+**ESTABLISHED (2026-10-06): tragedy orders the blocks in an order of its own, closer to the plays than Propp's order.** The tragedy block grammar, frozen as a scored order model (`Tragedy/TragedyOrder01.txt`, `TragedyGrammarPrediction.txt`): each block's mean position fitted on P01-P04 alone. On the 28 held-out plays the fitted order beats shuffling by +0.133 and +0.122 (0 of 1000 shuffles as high; +0.06 needed), and Propp's order by about double (Propp's gap +0.072 and +0.063). It kept most of its training gap (+0.166, +0.135). A preference, not a rule: the concordance is 0.62 to 0.63 against 0.50. Propp's order is present in tragedy, but weaker than tragedy's own.
+In the fitted order the villainy or lack and the backstory's recognitions, rewards and marriages come early; the complication, the broken prohibition and the struggle in the middle; the deception, the departure, the exposure, the liquidation and the ending late (ranks in `TragedyOrder01.txt`). In Propp's sequence trickery and complicity (6, 7) precede the villainy (8), and the departure (11) precedes the liquidation (19) by much.
+
+**SPECULATION, NOT FROM PROPP: tragedy begins after the harm is done and saves the trick for the catastrophe** (Clytemnestra's welcome, Medea's gifts, Dionysus's luring of Pentheus): the deception moves from the tale's preparation to tragedy's climax. And Propp's claim in the Oedipus essay that tale and myth share their composition holds for the pieces and not for their order: two languages sharing a vocabulary with different word orders.
 
 **SPECULATION, NOT FROM PROPP: story languages may be like languages with free word order, such as Latin and Russian, in the order BETWEEN their units: strong default orders, departed from for effect.** The half of the analogy about fixed order inside the unit is withdrawn (section 2).
 
@@ -72,7 +81,7 @@ About a third of the held-out events are X for both transcribers and matter. Two
 
 In order of value:
 1. A scored model of block order, frozen, tested on the undrawn fables.
-2. The block analysis of the sealed tragedies, as frozen in `Tragedy/BlockPrediction.txt`.
+2. DONE 2026-10-06: the block analysis of the sealed tragedies, and the tragedy block grammar (sections 2 and 3). Still open: the positional null and transcriber agreement on the held-out plays; a block-order model for the fables, tested on the undrawn ones.
 3. DONE: the owner's audit of twenty `DeceptionTrap` instances, 13 supported, doubtful (section 2).
 4. DONE 2026-10-05: the Afanasyev calibration, PARTLY CALIBRATED (section 7); it removes acceptance and coverage against Propp's levels as genre evidence (section 1). Next: genre comparisons instrument to instrument, with the 45 transcribed tales as the Russian reference; then his excluded animal tales, and Dundes's North American material.
    Plan for the texts (2026-09-30): the authoritative three-volume Afanasyev (Nauka, 1984-85) is digitized on FEB-web, in Russian only. Prefer listers and transcribers reading the Russian directly, rules and card in English, over machine translation, which would add a layer between text and function; choose between the two by a small frozen pilot scored against Propp's Appendix III. CORRECTED 2026-10-04: no concordance is needed. The first project's 45 tales are numbered 93 to 167, the collection's modern numbers (No. 113 is "Гуси-лебеди", Propp's Ch. IX example); "50-151" and "1-49" were the older numbering and are withdrawn. Russian Wikisource holds the tales one by one, public domain. Take only the tale texts (public domain), not the edition's commentary; each download needs the owner's go-ahead. The card should first say plainly that a refusal is not θ.
