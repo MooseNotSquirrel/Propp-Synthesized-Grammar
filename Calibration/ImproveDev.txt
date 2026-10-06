@@ -1,0 +1,25 @@
+IMPROVEMENT TEST, dev tales (22): 104 105 106 108 115 125 126 128 133 135 137 139 140 144 145 148 149 150 151 155 161 166
+
+READING U/A
+  content written 0.567 (cc 0.29)  view 0.687 (cc 0.40)  gain +0.120  p 0.0001  derangements at or above 0 of 1000
+  order   written 0.336 (cc 0.18)  view 0.448 (cc 0.26)  gain +0.111  p 0.0001  derangements at or above 0 of 1000
+  v46 accepts 23 of 66 view moves (34.8%)
+
+READING U/B
+  content written 0.577 (cc 0.27)  view 0.703 (cc 0.40)  gain +0.126  p 0.0001  derangements at or above 0 of 1000
+  order   written 0.348 (cc 0.18)  view 0.449 (cc 0.25)  gain +0.101  p 0.0001  derangements at or above 0 of 1000
+  v46 accepts 17 of 62 view moves (27.4%)
+
+READING C/A
+  content written 0.561 (cc 0.27)  view 0.696 (cc 0.40)  gain +0.134  p 0.0001  derangements at or above 0 of 1000
+  order   written 0.335 (cc 0.18)  view 0.447 (cc 0.26)  gain +0.111  p 0.0003  derangements at or above 0 of 1000
+  v46 accepts 22 of 65 view moves (33.8%)
+
+READING C/B
+  content written 0.547 (cc 0.20)  view 0.640 (cc 0.29)  gain +0.093  p 0.0002  derangements at or above 0 of 1000
+  order   written 0.327 (cc 0.15)  view 0.415 (cc 0.22)  gain +0.088  p 0.0001  derangements at or above 0 of 1000
+  v46 accepts 22 of 76 view moves (28.9%)
+
+A-B, arm U: written content 0.744 order 0.568; view content 0.829 order 0.648
+
+A-B, arm C: written content 0.709 order 0.541; view content 0.770 order 0.581
