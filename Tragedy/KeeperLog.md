@@ -389,3 +389,5 @@ Coleridge's translation, as the protocol names, modernized by Perseus; 231 speec
 
 **P32, Iphigenia in Aulis: every speech has a speaker.**
 Coleridge's translation, as the protocol names, modernized by Perseus; 425 speeches, 14,531 words, the longest play of the run. The closing messenger's report, in which a deer takes Iphigenia's place at the altar, is widely judged a later addition; the text is taken as the source gives it, and nothing is corrected.
+
+**P32 events, from master at dc740f0: in form** (Propp-Tragedy 7000b6c, merged). 86 events numbered from 1, 24 past and 62 now, one hero line, 31 in the cast. The hero is Agamemnon (46 events against Iphigenia 37, Clytemnestra 27; a count of event lines by name agrees on the order, 38, 22, 22). The lister listed each retold event once where first told, left out predictive and praying choral songs, treated the two "Messenger" labels as one character, and split the closing messenger's report into its acts in the order told. Nothing corrected.
