@@ -1,0 +1,2 @@
+(program output above is empty; kernel message follows)
+[  432.648319] Memory cgroup out of memory: Killed process 427 (python) total-vm:15310024kB, anon-rss:13979368kB, file-rss:2384kB, shmem-rss:0kB, UID:0 pgtables:27744kB oom_score_adj:0
