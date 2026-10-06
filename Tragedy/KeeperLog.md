@@ -365,3 +365,6 @@ Speech S108 (lines 566-570) is Io's cry against the gadfly, which the source lea
 **P28 events, from master at 7ad8d25: in form** (Propp-Tragedy 6c4e86d, merged). 67 events numbered from 1, 28 past and 39 now, one hero line, 22 in the cast. The hero is Prometheus by a wide margin (43 event lines against Zeus 25, Io 16). The lister listed each event told several times once, where first told (the theft of fire, event 2), counted prophesying as a now event and the things foretold as no event, and made Themis and Earth one character as the text presents them. Nothing corrected.
 
 **P28 transcription, from master at 6c4e86d: in form** (Propp-Tragedy 1d53f20, merged). The form check finds every event with an entry, every symbol in the alphabet and every entry marked, for both transcribers: A in 72 entries, B in 76. Sealed: not scored. 28 of 32 plays done; next P29, Aeschylus, Seven Against Thebes.
+
+**P29, Seven Against Thebes: every speech has a speaker.**
+Smyth's translation, modernized, 199 speeches, 8,974 words. The source names the half-choruses and their leaders separately at the close, and gives the closing lament with Antigone and Ismene and the Herald's decree, a scene often judged a later addition; the text is taken as the source gives it, and nothing is corrected.
