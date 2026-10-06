@@ -1,0 +1,60 @@
+tale: A133 | Покатигорошек
+hero: Pokotygoroshko
+
+# For each event, write after "fn:" the function symbol or symbols from the card, or X,
+# and after "move:" the move (I, II, ...) where a new move begins; leave it blank to continue.
+
+1 | The father sends his two sons to plough and tells them their sister will bring their dinner
+    fn:          move: 
+2 | The sister says she does not know the way, and the brothers tell her to follow the road where wood shavings lie
+    fn:          move: 
+3 | The brothers drive off, cutting shavings along the road
+    fn:          move: 
+4 | A dragon gathers up the shavings and scatters them along the road to his lair
+    fn:          move: 
+5 | The mother sends the daughter with the dinner, and she follows the shavings to the dragon's lair
+    fn:          move: 
+6 | The dragon seizes her and throws her into his lair
+    fn:          move: 
+7 | The brothers wait for dinner, then unyoke the oxen and go home, and learn that the sister was sent long ago
+    fn:          move: 
+8 | Next morning she is still missing, and the brothers set out to look for her
+    fn:          move: 
+9 | A cowherd tells them that if they want to win back their sister they must eat his biggest ox; they refuse and go on
+    fn:          move: 
+10 | A shepherd tells them to eat his biggest ram; they refuse and go on
+    fn:          move: 
+11 | A swineherd tells them to eat his biggest boar; they refuse and go on
+    fn:          move: 
+12 | The dragon tells them to eat twelve oxen, twelve rams and twelve boars if they want their sister; they eat a little and stop
+    fn:          move: 
+13 | The dragon puts the brothers under a stone
+    fn:          move: 
+14 | The weeping mother goes for water, and a pea rolls into her bucket unseen
+    fn:          move: 
+15 | At home she finds the pea and eats it, and from it a son is born, named Pokotygoroshko, who grows by the minute
+    fn:          move: 
+16 | At supper Pokotygoroshko asks whether she had other children, and she tells him of the lost daughter and sons
+    fn:          move: 
+17 | Pokotygoroshko decides to go after them, has a smith make him a great mace, pays him and sets out
+    fn:          move: 
+18 | The cowherd tells him to eat the biggest ox; he eats it, thanks him and goes on
+    fn:          move: 
+19 | The shepherd tells him to eat the biggest ram; he eats it, thanks him and goes on
+    fn:          move: 
+20 | The swineherd tells him to eat the biggest boar; he eats it, thanks him and goes on
+    fn:          move: 
+21 | At the dragon's house he greets his sister at the well, and she doubts he is her brother
+    fn:          move: 
+22 | The dragon comes out and tells him to eat twelve oxen, twelve rams and twelve boars, and he eats them all
+    fn:          move: 
+23 | The dragon asks whether they will fight or make peace, and Pokotygoroshko chooses to fight
+    fn:          move: 
+24 | Each blows on a threshing floor: the dragon's turns to cast iron, Pokotygoroshko's to copper
+    fn:          move: 
+25 | Pokotygoroshko strikes the dragon knee-deep into the ground with his mace, and kills him with a second blow
+    fn:          move: 
+26 | He hacks the dragon to pieces and winnows the ashes
+    fn:          move: 
+27 | He rolls the stone off his brothers and takes them and his sister home, and the parents rejoice
+    fn:          move: 

@@ -1,0 +1,58 @@
+tale: A131 | Фролка-сидень
+hero: Frolka the Sitter
+
+# For each event, write after "fn:" the function symbol or symbols from the card, or X,
+# and after "move:" the move (I, II, ...) where a new move begins; leave it blank to continue.
+
+1 | A Black Sea dragon takes to flying into the tsar's garden
+    fn:          move: 
+2 | The dragon carries off the tsar's three daughters when they stay late in the garden
+    fn:          move: 
+3 | The tsar sends maids to look for them in the garden, but they do not find them
+    fn:          move: 
+4 | The tsar raises an alarm and promises as much money as anyone wants to whoever finds his daughters
+    fn:          move: 
+5 | A drunken soldier, Frolka the Sitter and Yeryoma come forward, agree terms with the tsar and set out
+    fn:          move: 
+6 | In a dense forest sleep overcomes them, but Frolka takes snuff and rouses the others to go on
+    fn:          move: 
+7 | They reach the house of a five-headed dragon, and Frolka breaks the door in with one knock
+    fn:          move: 
+8 | A maiden comes out and warns them the dragon will eat them, and Frolka boasts that they will eat him
+    fn:          move: 
+9 | The dragon flies in, Frolka answers his taunt and chooses to fight rather than make peace
+    fn:          move: 
+10 | Frolka cuts off all five heads at one stroke, puts them under a stone and buries the body
+    fn:          move: 
+11 | The maiden, a tsar's daughter, asks to go with them, feeds them and begs them to free her sisters
+    fn:          move: 
+12 | Frolka promises, and she tells them where her sisters are held
+    fn:          move: 
+13 | They reach the middle sister's palace, and Frolka knocks the iron gates open
+    fn:          move: 
+14 | A seven-headed dragon flies in, and Frolka cuts off all seven heads at one stroke and disposes of them
+    fn:          move: 
+15 | They find the middle princess, who treats them and begs them to rescue her youngest sister
+    fn:          move: 
+16 | At a steep ravine two chained lions roar so that Frolka's comrades fall in fright, but Frolka stays standing and leads them on
+    fn:          move: 
+17 | An old man meets them, warns them of the twelve-headed dragon, and on hearing their purpose offers to lead them in
+    fn:          move: 
+18 | The old man strokes the lions, and Frolka and his comrades slip into the yard
+    fn:          move: 
+19 | The old man takes them to the youngest princess, who treats them and makes ready to leave
+    fn:          move: 
+20 | As they leave, the twelve-headed dragon flies at them; the princess runs back inside and Frolka fights it
+    fn:          move: 
+21 | Frolka defeats the dragon, cuts off all twelve heads and throws them into the ravine
+    fn:          move: 
+22 | They feast, then fetch the other princesses and all return home
+    fn:          move: 
+23 | The tsar rejoices, opens his treasury and tells them to take as much money as they like
+    fn:          move: 
+24 | Frolka pours silver into his big hat, but it tears and the silver falls through into the mud
+    fn:          move: 
+25 | While there is money left, Yeryoma fills his basket and the soldier his knapsack, and they go home
+    fn:          move: 
+26 | Frolka stays by the treasury, filling his hat to this day
+    fn:          move: 

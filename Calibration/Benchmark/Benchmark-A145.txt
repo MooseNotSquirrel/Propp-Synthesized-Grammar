@@ -1,0 +1,54 @@
+tale: A145 | Семь Семионов
+hero: the seven Semyons
+
+# For each event, write after "fn:" the function symbol or symbols from the card, or X,
+# and after "move:" the move (I, II, ...) where a new move begins; leave it blank to continue.
+
+1 | A peasant, worn out by his seven idle sons, all named Semyon, takes them to the tsar and puts them all into his service
+    fn:          move: 
+2 | The tsar thanks him and asks the eldest Semyon what he can do, and he says he can steal
+    fn:          move: 
+3 | The second Semyon says he can forge all kinds of precious things
+    fn:          move: 
+4 | The third Semyon says he can shoot a bird on the wing
+    fn:          move: 
+5 | The fourth Semyon says he can swim like a dog to fetch what the marksman shoots
+    fn:          move: 
+6 | The fifth Semyon says he can see from a high place into all kingdoms and tell what goes on there
+    fn:          move: 
+7 | The sixth Semyon says he can knock a ship together in a trice
+    fn:          move: 
+8 | The seventh Semyon says he can heal people
+    fn:          move: 
+9 | Long afterwards the tsar tests the seer Semyon, who climbs up high and tells what is happening everywhere, and it agrees with the newspapers
+    fn:          move: 
+10 | The tsar wishes to marry a certain princess, summons the seven Semyons, orders them to fetch her and gives them soldiers
+    fn:          move: 
+11 | The Semyons build a ship in a trice and sail off
+    fn:          move: 
+12 | Near the princess's kingdom the seer looks out from the mast and says the princess is alone and can be stolen
+    fn:          move: 
+13 | The smith forges precious things and goes with the thief to sell them
+    fn:          move: 
+14 | The thief steals the princess
+    fn:          move: 
+15 | They cut the anchors and sail away
+    fn:          move: 
+16 | The princess, seeing she is being carried off, turns into a white swan and flies from the ship
+    fn:          move: 
+17 | The marksman shoots her in the left wing
+    fn:          move: 
+18 | The swimmer leaps into the sea, seizes the swan and brings her aboard
+    fn:          move: 
+19 | The swan turns back into the princess with her left arm wounded, and the healer heals it at once
+    fn:          move: 
+20 | They reach home safely and fire a cannon
+    fn:          move: 
+21 | The tsar, who has forgotten the Semyons, sends to find out what ship it is, rejoices at the news and has them met with honour
+    fn:          move: 
+22 | The princess will not marry the tsar, who is old, and when he asks whom she wants, she names the one who stole her, the thief Semyon
+    fn:          move: 
+23 | The tsar without another word has them married
+    fn:          move: 
+24 | The tsar retires, sets Semyon in his place and makes all his brothers great boyars
+    fn:          move: 
