@@ -1,0 +1,157 @@
+# BlockPatterns.txt -- written by blockStream.py (tragedy): blocks in the real streams against
+# the same Y functions shuffled in place, 200 times, seed 46. Reported, not judged.
+
+TRANSCRIBER A, reading blocks: functions inside blocks 557 of 1126 (49.5%); shuffled mean 393.4 (34.9%); shuffles at or above the real: 0 of 200
+  preparatorySection     real  14   shuffled mean  16.25
+  preparatorySection~    real   6   shuffled mean  12.13
+  RuleViolation          real  29   shuffled mean  14.09
+  RuleViolation~         real   0   shuffled mean   2.58
+  InformationGathering   real   2   shuffled mean   0.10
+  InformationGathering~  real   0   shuffled mean   0.06
+  DeceptionTrap          real  23   shuffled mean   6.34
+  DeceptionTrap~         real   2   shuffled mean   2.37
+  complication           real  75   shuffled mean  58.38
+  complication~          real  33   shuffled mean  47.05
+  UntestedAcquisition    real   8   shuffled mean   2.77
+  TestedAcquisition      real  10   shuffled mean   2.62
+  TestedAcquisition~     real   2   shuffled mean   1.85
+  StruggleAndOutcome     real  13   shuffled mean   2.72
+  StruggleAndOutcome~    real   0   shuffled mean   0.95
+  ReturnJourney          real   2   shuffled mean   0.86
+  ReturnJourney~         real   3   shuffled mean   0.68
+  PursuitFirst           real   4   shuffled mean   1.28
+  PursuitFirst~          real   0   shuffled mean   0.52
+  RescueFirst            real   1   shuffled mean   0.61
+  RescueFirst~           real   0   shuffled mean   0.03
+  FraudPosture           real   0   shuffled mean   0.11
+  TaskAndSolution        real   2   shuffled mean   2.13
+  TaskAndSolution~       real   0   shuffled mean   0.12
+  Endgame                real   5   shuffled mean   3.81
+
+TRANSCRIBER A, reading strict: functions inside blocks 365 of 1126 (32.4%); shuffled mean 212.3 (18.9%); shuffles at or above the real: 0 of 200
+  preparatorySection     real   0   shuffled mean   0.01
+  preparatorySection~    real   0   shuffled mean   0.01
+  RuleViolation          real  17   shuffled mean   3.26
+  RuleViolation~         real   0   shuffled mean   2.83
+  InformationGathering   real   2   shuffled mean   0.06
+  InformationGathering~  real   0   shuffled mean   0.07
+  DeceptionTrap          real  22   shuffled mean   2.73
+  DeceptionTrap~         real   1   shuffled mean   2.96
+  complication           real  57   shuffled mean  42.34
+  complication~          real  23   shuffled mean  31.39
+  TestedAcquisition      real   5   shuffled mean   1.93
+  TestedAcquisition~     real   3   shuffled mean   1.69
+  StruggleAndOutcome     real  12   shuffled mean   0.90
+  StruggleAndOutcome~    real   0   shuffled mean   0.85
+  ReturnJourney          real   2   shuffled mean   0.64
+  ReturnJourney~         real   3   shuffled mean   0.60
+  PursuitFirst           real   2   shuffled mean   0.38
+  PursuitFirst~          real   0   shuffled mean   0.01
+  RescueFirst            real   0   shuffled mean   0.31
+  RescueFirst~           real   0   shuffled mean   0.01
+  TaskAndSolution        real   1   shuffled mean   0.14
+  TaskAndSolution~       real   0   shuffled mean   0.09
+  Endgame                real   3   shuffled mean   2.54
+
+TRANSCRIBER A, reading all: functions inside blocks 802 of 1126 (71.2%); shuffled mean 665.2 (59.1%); shuffles at or above the real: 0 of 200
+  tale                   real  76   shuffled mean  94.64
+  move                   real  59   shuffled mean  58.31
+  TroubleToLiquidation   real  29   shuffled mean  30.60
+  Development            real   2   shuffled mean   1.93
+  AfterLiquidation       real   4   shuffled mean   3.79
+  BeforeTheTrouble       real   0   shuffled mean   2.19
+  preparatorySection     real  12   shuffled mean  11.65
+  RuleViolation          real  18   shuffled mean   9.03
+  InformationGathering   real   0   shuffled mean   0.05
+  DeceptionTrap          real  20   shuffled mean   4.85
+  complication           real  46   shuffled mean  30.70
+  UntestedAcquisition    real   6   shuffled mean   2.84
+  TestedAcquisition      real   5   shuffled mean   1.15
+  StruggleAndOutcome     real   6   shuffled mean   1.83
+  ReturnJourney          real   2   shuffled mean   0.57
+  PursuitFirst           real   1   shuffled mean   0.55
+  RescueFirst            real   1   shuffled mean   0.38
+  FraudPosture           real   0   shuffled mean   0.08
+  TaskAndSolution        real   0   shuffled mean   0.83
+  Endgame                real   2   shuffled mean   1.86
+
+TRANSCRIBER B, reading blocks: functions inside blocks 574 of 1168 (49.1%); shuffled mean 469.0 (40.2%); shuffles at or above the real: 0 of 200
+  preparatorySection     real  17   shuffled mean  21.58
+  preparatorySection~    real  10   shuffled mean  18.34
+  RuleViolation          real  33   shuffled mean  22.52
+  RuleViolation~         real   1   shuffled mean   3.55
+  InformationGathering   real   1   shuffled mean   0.04
+  InformationGathering~  real   0   shuffled mean   0.04
+  DeceptionTrap          real  24   shuffled mean   6.98
+  DeceptionTrap~         real   1   shuffled mean   2.65
+  complication           real  82   shuffled mean  64.61
+  complication~          real  27   shuffled mean  54.41
+  UntestedAcquisition    real  10   shuffled mean   4.57
+  UntestedAcquisition~   real   0   shuffled mean   0.01
+  TestedAcquisition      real   5   shuffled mean   1.77
+  TestedAcquisition~     real   4   shuffled mean   1.33
+  StruggleAndOutcome     real  11   shuffled mean   2.13
+  StruggleAndOutcome~    real   0   shuffled mean   0.69
+  ReturnJourney          real   1   shuffled mean   0.85
+  ReturnJourney~         real   0   shuffled mean   0.40
+  PursuitFirst           real   1   shuffled mean   0.83
+  PursuitFirst~          real   1   shuffled mean   0.64
+  RescueFirst            real   1   shuffled mean   0.52
+  RescueFirst~           real   0   shuffled mean   0.04
+  Ordeal                 real   0   shuffled mean   0.03
+  Ordeal~                real   0   shuffled mean   0.04
+  FraudPosture           real   0   shuffled mean   0.04
+  TaskAndSolution        real   1   shuffled mean   0.01
+  TaskAndSolution~       real   0   shuffled mean   0.01
+  Endgame                real   6   shuffled mean   3.67
+  Endgame~               real   0   shuffled mean   0.01
+
+TRANSCRIBER B, reading strict: functions inside blocks 336 of 1168 (28.8%); shuffled mean 236.3 (20.2%); shuffles at or above the real: 0 of 200
+  preparatorySection     real   0   shuffled mean   0.02
+  preparatorySection~    real   0   shuffled mean   0.01
+  RuleViolation          real  17   shuffled mean   4.88
+  RuleViolation~         real   1   shuffled mean   3.96
+  InformationGathering   real   2   shuffled mean   0.10
+  InformationGathering~  real   0   shuffled mean   0.09
+  DeceptionTrap          real  24   shuffled mean   3.73
+  DeceptionTrap~         real   2   shuffled mean   3.71
+  complication           real  51   shuffled mean  45.95
+  complication~          real  21   shuffled mean  34.43
+  TestedAcquisition      real   5   shuffled mean   1.45
+  TestedAcquisition~     real   3   shuffled mean   1.38
+  StruggleAndOutcome     real   8   shuffled mean   0.52
+  StruggleAndOutcome~    real   0   shuffled mean   0.42
+  ReturnJourney          real   1   shuffled mean   0.43
+  ReturnJourney~         real   0   shuffled mean   0.37
+  PursuitFirst           real   1   shuffled mean   0.24
+  PursuitFirst~          real   0   shuffled mean   0.02
+  RescueFirst            real   0   shuffled mean   0.24
+  RescueFirst~           real   0   shuffled mean   0.03
+  Ordeal                 real   0   shuffled mean   0.03
+  Ordeal~                real   0   shuffled mean   0.02
+  TaskAndSolution        real   1   shuffled mean   0.01
+  TaskAndSolution~       real   0   shuffled mean   0.02
+  Endgame                real   2   shuffled mean   2.46
+
+TRANSCRIBER B, reading all: functions inside blocks 813 of 1168 (69.6%); shuffled mean 711.3 (60.9%); shuffles at or above the real: 0 of 200
+  tale                   real 104   shuffled mean 121.81
+  move                   real  40   shuffled mean  43.91
+  TroubleToLiquidation   real  22   shuffled mean  21.14
+  Development            real   2   shuffled mean   1.32
+  AfterLiquidation       real   1   shuffled mean   2.31
+  BeforeTheTrouble       real   2   shuffled mean   2.84
+  preparatorySection     real  18   shuffled mean  16.18
+  RuleViolation          real  20   shuffled mean  13.07
+  InformationGathering   real   2   shuffled mean   0.03
+  DeceptionTrap          real  14   shuffled mean   5.33
+  complication           real  39   shuffled mean  35.52
+  UntestedAcquisition    real  10   shuffled mean   4.08
+  TestedAcquisition      real   4   shuffled mean   0.79
+  StruggleAndOutcome     real   6   shuffled mean   1.40
+  ReturnJourney          real   1   shuffled mean   0.53
+  PursuitFirst           real   1   shuffled mean   0.69
+  RescueFirst            real   1   shuffled mean   0.34
+  Ordeal                 real   0   shuffled mean   0.03
+  FraudPosture           real   0   shuffled mean   0.02
+  TaskAndSolution        real   0   shuffled mean   0.01
+  Endgame                real   3   shuffled mean   1.83

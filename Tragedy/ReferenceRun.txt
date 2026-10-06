@@ -1,0 +1,16 @@
+THE TRAGEDIES AGAINST THE TRANSCRIBED WONDERTALES (all plays)
+
+TRANSCRIBER A: 32 plays, 45 tales
+  coverage   tragedy 0.383 (n 32)  wondertale 0.632 (n 45)  difference -0.249  p 0.0001
+  acceptance tragedy 0.299 (n 32)  wondertale 0.213 (n 45)  difference +0.086  p 0.1106
+  backward   tragedy 0.444 (n 32)  wondertale 0.284 (n 45)  difference +0.161  p 0.0001
+
+TRANSCRIBER B: 32 plays, 45 tales
+  coverage   tragedy 0.391 (n 32)  wondertale 0.678 (n 45)  difference -0.287  p 0.0001
+  acceptance tragedy 0.246 (n 32)  wondertale 0.176 (n 45)  difference +0.070  p 0.2002
+  backward   tragedy 0.458 (n 32)  wondertale 0.312 (n 45)  difference +0.147  p 0.0001
+
+VERDICTS
+  coverage   DIFFER (tragedy lower)
+  acceptance DO NOT DIFFER
+  backward   DIFFER (tragedy higher)
