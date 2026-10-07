@@ -1,5 +1,7 @@
 # Measuring the measurer: blind machine transcription against Propp's own analyses of the 45 tales of his Appendix III
 
+Steven Helton and Claude Opus 5.5
+
 *Draft. Figures are taken from the result files named in section 10.*
 
 ## Abstract
@@ -43,7 +45,7 @@ They compared the students' function strings with Propp's by inspection and foun
 Fisseni, Kurji and Löwe (2014) extended this with training experiments and concluded that the system can be trained reliably for simple tales with sufficient time.
 
 **Finlayson's ProppLearner corpus annotated fifteen tales from Propp's corpus in English translation, but its annotators placed Propp's functions rather than finding their own.**
-Finlayson (2015/2017) restricted the corpus to tales of a single move and had two trained annotators mark each function Propp's Appendix III assigns to the tale, choosing the passage that realizes it.
+Finlayson (2017) restricted the corpus to tales of a single move and had two trained annotators mark each function Propp's Appendix III assigns to the tale, choosing the passage that realizes it.
 Agreement between the annotators was 0.22 by strict F1 and 0.71 by a lenient measure that counts overlapping regions.
 He named four obstacles that recur in our results: unclear placement of functions in the text, implicit functions that no words express (his example is C, the hero's decision to act), inconsistently marked trebling, and schemes that disagree with the tale.
 Finlayson (2016) then learned Propp's functions from that annotation.
@@ -76,12 +78,13 @@ Bod and colleagues print the opening of tale 151 as A8, a villainy; Appendix III
 ### 4.1 Two stages, fresh instances, nothing shared
 
 **Each tale was first listed as a sequence of events, and the events were then transcribed into Propp's functions.**
-Three fresh model instances (Claude Opus; exact model versions to be taken from the run records), each given fifteen tales, listed every event in each tale in order, in English, with the character who takes part in the most events named as the hero.
+Three fresh model instances of Claude Opus 5.5, each given fifteen tales, listed every event in each tale in order, in English, with the character who takes part in the most events named as the hero.
 They listed 1,633 events.
 The listers were told nothing about Propp.
 
 **Two transcribers then assigned Propp's functions to every listed event, blind to each other and to Propp's schemes.**
-Transcriber A was Claude Opus and transcriber B Claude Sonnet, each run as fresh instances, three batches of fifteen tales each.
+Transcriber A was Claude Opus 5.5 and transcriber B Claude Sonnet 5.5, each run as fresh instances, three batches of fifteen tales each.
+All model instances ran as Claude Code subagents, chosen by the aliases `opus` and `sonnet`, between September 27 and October 5, 2026; the run records name the alias, which in that period referred to these versions.
 They read the tale in its original language and wrote in English.
 For each event they wrote one entry per act: the function symbol, or X where no function applies; the performer and the one acted on; whether the act matters to the course of the tale; the quoted words it rests on; and the move it belongs to.
 The rules and the definitions card are those used in earlier tests of fables and Greek tragedies with the same method.
@@ -267,16 +270,16 @@ Appendix III covers 45 of Propp's hundred tales; the others have no printed sche
 
 ## References
 
-*Every reference is to be checked against its source before submission.*
+*Checked against Crossref and the publishers' records.*
 
-Bod, R., Fisseni, B., Kurji, A. and Löwe, B. (2012). Objectivity and reproducibility of Proppian narrative annotations. *Proceedings of the Third Workshop on Computational Models of Narrative (CMN 2012)*, 15-19.
+Bod, R., Fisseni, B., Kurji, A. and Löwe, B. (2012). Objectivity and reproducibility of Proppian narrative annotations. In *Proceedings of the Third Workshop on Computational Models of Narrative (CMN '12)*, Istanbul, 15-19.
 
-Finlayson, M. A. (2016). Inferring Propp's functions from semantically annotated text. *Journal of American Folklore* 129, from p. 55. [Pages to be checked.]
+Finlayson, M. A. (2016). Inferring Propp's functions from semantically annotated text. *Journal of American Folklore* 129(511), 55-77. doi:10.5406/jamerfolk.129.511.0055
 
-Finlayson, M. A. (2017). ProppLearner: Deeply annotating a corpus of Russian folktales to enable the machine learning of a Russian formalist theory. *Digital Scholarship in the Humanities* 32(2), from p. 284. [Pages to be checked.]
+Finlayson, M. A. (2017). ProppLearner: Deeply annotating a corpus of Russian folktales to enable the machine learning of a Russian formalist theory. *Digital Scholarship in the Humanities* 32(2), 284-300 (published online 2015). doi:10.1093/llc/fqv067
 
-Fisseni, B., Kurji, A. and Löwe, B. (2014). Annotating with Propp's *Morphology of the Folktale*: reproducibility and trainability. *Literary and Linguistic Computing* 29(4), 488-510.
+Fisseni, B., Kurji, A. and Löwe, B. (2014). Annotating with Propp's *Morphology of the Folktale*: reproducibility and trainability. *Literary and Linguistic Computing* 29(4), 488-510. doi:10.1093/llc/fqu050
 
-Gervás, P. and Méndez, G. (2024). Tagging narrative with Propp's character functions using large language models. *Proceedings of the Text2Story'24 Workshop*, CEUR Workshop Proceedings 3671.
+Gervás, P. and Méndez, G. (2024). Tagging narrative with Propp's character functions using large language models. In *Proceedings of the Text2Story'24 Workshop*, Glasgow, CEUR Workshop Proceedings 3671. https://ceur-ws.org/Vol-3671/paper12.pdf
 
-Propp, V. (1928). *Morfologiya skazki*. Leningrad: Academia. English: *Morphology of the Folktale*, 2nd ed., trans. L. Scott, rev. L. A. Wagner. Austin: University of Texas Press, 1968.
+Propp, V. (1928). *Morfologiya skazki*. Leningrad: Academia. English: *Morphology of the Folktale*, 2nd ed., trans. L. Scott, ed. L. A. Wagner. Austin: University of Texas Press, 1968. doi:10.7560/783911
