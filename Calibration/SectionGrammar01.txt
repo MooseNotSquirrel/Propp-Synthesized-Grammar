@@ -1,0 +1,11 @@
+# SectionGrammar01.txt -- the scored section grammar, sectionGrammar.py fit, from the 22
+# development tales, arm U, both transcribers. rank | section | number | occurrences
+0.252 | complication | 1 | 370
+0.494 | donor | 2 | 261
+0.523 | transfer | 3 | 34
+0.605 | struggle | 4 | 169
+0.613 | task | 8 | 68
+0.672 | arrival and claims | 7 | 23
+0.754 | return | 6 | 73
+0.758 | liquidation | 5 | 59
+0.865 | endgame | 9 | 81
