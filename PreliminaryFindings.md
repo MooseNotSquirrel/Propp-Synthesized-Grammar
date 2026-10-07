@@ -65,6 +65,12 @@ A yes-or-no grammar cannot capture an order that holds five times in six, which 
 - Many fables are the villain's move told from the villain's side, and end where Propp's tale begins: the fable is the magic tale's preparatory section made into a whole story, and the harm is the lesson.
 - Propp's corpus left out Afanasyev's animal tales, numbers 1 to 49, the trickster's genre. The trickster is not missing from Propp's model: it is a character moving between two of his spheres, villain and hero, and the genre where that movement is the whole story is the one he excluded.
 
+**SPECULATION, NOT FROM PROPP: a two-layer catalog, acts and roles (proposed 2026-10-07, after the owner's benchmark).**
+Propp binds each function to a role: trickery is the villain deceiving a victim, and the hero's trick on the villain is filed as contest and victory (tale 151, H² I²). The X study found the cost: about six of its sixteen candidate acts are Propp's functions with the performer or the position outside his definition (deceiving, attacking, sending, gifts and trade, proving identity, asking and learning), left X because the card binds act to role.
+The proposal: an act layer free of roles (deceive, strike, give, test, forbid, flee, recognize), which covers what a story is made of whoever does it; and a role layer recording who does it to whom, relative to the hero. Each of Propp's functions becomes an act with its usual roles, so nothing of his is lost, and the unusual pairings become countable instead of falling into X. Roles are relaxed, not dropped: they carry much of the meaning (a gift as reward and as bribe are one act with opposite meanings).
+It would make the trickster reading measurable: how often, per genre, the hero performs acts Propp reserves for the villain.
+WHEN: after the X study's stage 5. If the role-shifted candidates hold on the held-out stories, freeze a test of the two-layer catalog: whether it covers more events, and whether the transcribers agree on it as well as on Propp's functions.
+
 ## 5. Characters (a quick look, not a frozen measure)
 
 In the 199 fables: heroes about 71% animal, 22% human, 4% gods; the harm done mostly by predators, lion 17, eagle 10, cat 8, but also by goats, crows and robbers; tricks played most by the thief, the fox and the cat.
