@@ -230,7 +230,7 @@ Content with Propp was 0.39, against 0.59 for the models; order 0.26, against 0.
 The reader agreed with the models (content 0.50 to 0.55) more than with Propp.
 Like the models, the reader marked more functions than Propp (106 symbols against his 60), but on different ones: the hero's reaction E 27 times against Propp's 4, where the models' excess falls on F, I and a.
 In tale 151 the reader judged that the hero the event lists named, the Little Devil, is not the hero, and read Shabarsha's tricks as a donor's tests; Propp reads them as contest and victory over the villain.
-One reader and five tales decide nothing alone, but together with the students' strings they point the same way: the gap between any careful reader and Propp's schemes is mostly the schemes' own conventions.
+One reader and five tales decide nothing alone, but together with the students' strings they point the same way: human readers do no better than the models, so the gap between a careful reader and Propp's schemes is not peculiar to the models.
 
 **On the tales Gervás and Méndez used, the transcribers find far more of Propp's functions than tagging from synopses did.**
 On those seven tales our transcribers find 77.8% to 81.7% of Propp's symbols, with 44% to 48% of theirs in his schemes; Gervás and Méndez report recall of 0.22 to 0.34 and precision of 0.37 to 0.46.
