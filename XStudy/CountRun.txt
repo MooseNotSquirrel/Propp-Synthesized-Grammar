@@ -1,0 +1,37 @@
+# CountRun.txt -- xCount.py, stage 4 of XStudyProtocol.md.
+
+Target events: 635. The assigners agree on 546 (86%), 443 of them on a kind and 103 on none; A puts 121 in none, B 133.
+
+kind                               agreed  wondertale  fable       tragedy     linked  verdict
+ARRIVING ON THE SCENE                 51  6           10          35           51/51   CANDIDATE
+BEGGING FOR HELP OR MERCY             27  4           1           22           27/27   CANDIDATE
+DECEIVING WITH LIES OR DISGUISE       13  6           0           7            13/13   CANDIDATE
+THREATS AND DEMANDS                   18  5           1           12           18/18   CANDIDATE
+FORETELLING AND OMENS                 25  1           2           22           25/25   no: one genre
+ATTACKING AND KILLING                 14  5           4           5            14/14   CANDIDATE
+OATHS, PACTS AND MARRIAGES            18  4           3           11           18/18   CANDIDATE
+BOASTS, FEATS AND CONTESTS            15  8           5           2            15/15   CANDIDATE
+JUDGING AND SETTLING                  14  1           2           11           14/14   no: one genre
+RESOLVING ON REVENGE OR HARM          15  3           2           10           15/15   CANDIDATE
+DISCOVERING A LOSS OR BODY             9  1           2           6             9/9    no: under 10, one genre
+LAMENTING AND MOURNING                 9  0           6           3             9/9    no: under 10
+ACCUSING AND BLAMING                  19  2           8           9            19/19   CANDIDATE
+LURING INTO A TRAP                     9  3           1           5             9/9    no: under 10
+PROVING WHO SOMEONE IS                13  3           0           10           13/13   CANDIDATE
+MAKING A SACRIFICE OR OFFERING         6  0           0           6             6/6    no: under 10, one genre
+ASKING AND LEARNING                   20  6           4           10           20/20   CANDIDATE
+GIFTS, PAYMENT AND TRADE              16  4           9           3            16/16   CANDIDATE
+SENDING AND SUMMONING                 22  9           1           12           22/22   CANDIDATE
+BIRTHS AND FAMILY LINES               13  2           1           10           13/13   no: one genre
+RESCUING AND INTERVENING               6  1           1           4             6/6    no: under 10, one genre
+HIDING AND WATCHING                   13  6           3           4            13/13   CANDIDATE
+REFUSING AND REJECTING                14  1           5           8            14/14   CANDIDATE
+MOCKING AND INSULTING                 10  2           6           2            10/10   no: one genre
+OFFERING ONE'S OWN LIFE               10  0           0           10           10/10   no: one genre
+ADMITTING A DESERVED FATE              7  0           7           0             7/7    no: under 10, one genre
+WARNING OF DANGER                      6  0           5           1             6/6    no: under 10, one genre
+FAILING TO ACT                        14  5           4           5            14/14   CANDIDATE
+ESCAPING AND FLEEING                   9  4           3           2             9/9    no: under 10
+SETTLING IN A NEW HOME                 8  3           4           1             8/8    no: under 10
+
+CANDIDATES: 16: ARRIVING ON THE SCENE; BEGGING FOR HELP OR MERCY; DECEIVING WITH LIES OR DISGUISE; THREATS AND DEMANDS; ATTACKING AND KILLING; OATHS, PACTS AND MARRIAGES; BOASTS, FEATS AND CONTESTS; RESOLVING ON REVENGE OR HARM; ACCUSING AND BLAMING; PROVING WHO SOMEONE IS; ASKING AND LEARNING; GIFTS, PAYMENT AND TRADE; SENDING AND SUMMONING; HIDING AND WATCHING; REFUSING AND REJECTING; FAILING TO ACT
