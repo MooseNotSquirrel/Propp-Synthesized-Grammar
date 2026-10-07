@@ -5,58 +5,58 @@ hero: the Little Devil
 # and after "move:" the move (I, II, ...) where a new move begins; leave it blank to continue.
 
 1 | In a year of famine the labourer Shabarsha comforts his worried master
-    fn:          move: 
+    fn: a         move: I
 2 | Shabarsha goes to the mill dam to fish, begs hemp from the miller and twists a line
-    fn:          move: 
+    fn: X         move: I
 3 | A little devil jumps out of the water and asks what he is doing
-    fn:          move: 
+    fn: D         move: I
 4 | Shabarsha says he means to clean out the pond and drag the devils out
-    fn:          move: 
+    fn: D         move: I
 5 | The little devil dives to tell his grandfather
-    fn:          move: 
+    fn: E         move: I
 6 | Shabarsha digs a pit and sets over it his hat with the crown cut out
-    fn:          move: 
+    fn: η         move: I
 7 | The little devil returns to bargain, and Shabarsha asks for his hat filled with gold and silver
-    fn:          move: 
+    fn: θ         move: I
 8 | The little devil returns: the grandfather wants him first to wrestle Shabarsha
-    fn:          move: 
+    fn: D         move: I
 9 | Shabarsha says he could not beat even his middle brother Mishka, and sends him to the bear in the ravine
-    fn:          move: 
+    fn: η         move: I
 10 | The little devil strikes the bear with a cudgel and the bear crushes him
-    fn:          move: 
+    fn: θ         move: I
 11 | He tears himself free and reports to the grandfather
-    fn:          move: 
+    fn: E         move: I
 12 | The grandfather sends him to race Shabarsha
-    fn:          move: 
+    fn: D         move: I
 13 | Shabarsha says his little brother the hare will outrun him, and sends him to the hare
-    fn:          move: 
+    fn: η         move: I
 14 | The little devil touches the hare's ear and the hare leaves him far behind
-    fn:          move: 
+    fn: θ         move: I
 15 | He reports his defeat to the grandfather
-    fn:          move: 
+    fn: E         move: I
 16 | The grandfather sends him to try who whistles louder
-    fn:          move: 
+    fn: D         move: I
 17 | The little devil whistles so that Shabarsha barely keeps his feet and the leaves fall
-    fn:          move: 
+    fn: H         move: I
 18 | Shabarsha tells the little devil to lie face down and stop his ears
-    fn:          move: 
+    fn: η         move: I
 19 | The little devil does so, and Shabarsha strikes him on the neck with a cudgel while whistling
-    fn:          move: 
+    fn: θ         move: I
 20 | He reports the blow to the grandfather
-    fn:          move: 
+    fn: E         move: I
 21 | The grandfather sends him with his iron cudgel to try who throws it higher
-    fn:          move: 
+    fn: D         move: I
 22 | The little devil throws the cudgel high into the sky
-    fn:          move: 
+    fn: E         move: I
 23 | Shabarsha waits for a cloud, saying he will throw the cudgel up to his brother the smith
-    fn:          move: 
+    fn: η         move: I
 24 | The little devil snatches the cudgel back and dives to his grandfather
-    fn:          move: 
+    fn: E         move: I
 25 | The frightened grandfather orders money carried out to buy Shabarsha off
-    fn:          move: 
+    fn: M         move: I
 26 | The little devil carries money but the hat over the pit stays empty
-    fn:          move: 
+    fn: X         move: I
 27 | The little devil empties the grandfather's last chest and at last fills the hat
-    fn:          move: 
+    fn: N         move: I
 28 | Shabarsha lives gloriously ever after
-    fn:          move: 
+    fn: W         move: I

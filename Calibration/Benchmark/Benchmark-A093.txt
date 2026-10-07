@@ -5,60 +5,60 @@ hero: Ivan-tsarevich
 # and after "move:" the move (I, II, ...) where a new move begins; leave it blank to continue.
 
 1 | A groom tells the mute Ivan-tsarevich that his mother will soon bear a daughter, a witch who will eat everyone, and tells him to ask his father for the best horse and flee
-    fn:          move: 
+    fn: B        move: I
 2 | Ivan speaks to his father for the first time in his life, asking for a horse
-    fn:          move: 
+    fn: C        move: I
 3 | The overjoyed tsar has the best horse saddled for him
-    fn:          move: 
+    fn: F        move: I
 4 | Ivan rides off wherever his eyes lead him
-    fn:          move: 
+    fn: ↑        move: I
 5 | Ivan asks two old seamstresses to take him in; they refuse, saying they will die when they finish their chest of needles and thread
-    fn:          move: 
+    fn: E        move: I
 6 | Weeping, Ivan rides on and asks Vertodub to take him in; Vertodub refuses, saying he will die when he has uprooted the last oaks
-    fn:          move: 
+    fn: E        move: I
 7 | Ivan rides on and asks Vertogor; Vertogor refuses, saying he will die when he has turned the last mountains
-    fn:          move: 
+    fn: E        move: I
 8 | Ivan comes to the Sun's Sister, who takes him in and cares for him like her own son
-    fn:          move: 
+    fn: F        move: I
 9 | Ivan climbs a high mountain, sees that everything at his home has been eaten and only the walls remain, and weeps
-    fn:          move: 
+    fn: E        move: I
 10 | The Sun's Sister asks why he has been crying, and he lies that the wind blew in his eyes
-    fn:          move: 
+    fn: E        move: I
 11 | When it happens again, the Sun's Sister forbids the wind to blow
-    fn:          move: 
+    fn: F        move: I
 12 | The third time Ivan confesses everything and begs to be let go home
-    fn:          move: 
+    fn: E         move: I
 13 | The Sun's Sister refuses, but at last lets him go and gives him a brush, a comb and two apples of youth
-    fn:          move: 
+    fn: F         move: I
 14 | At Vertogor, who has one mountain left, Ivan throws the brush and countless mountains rise; Vertogor gladly sets to work
-    fn:          move: 
+    fn: N         move: I
 15 | At Vertodub, who has three oaks left, Ivan throws the comb and oak forests rise; Vertodub thanks him
-    fn:          move: 
+    fn: N         move: I
 16 | Ivan gives the old women an apple each; they eat them and become young
-    fn:          move: 
+    fn: N         move: I
 17 | The old women give him a kerchief that makes a lake when waved
-    fn:          move: 
+    fn: F         move: I
 18 | Ivan arrives home; his sister greets him and tells him to play the gusli while she cooks dinner
-    fn:          move: 
+    fn: ↓         move: I
 19 | A mouse warns Ivan to flee because his sister has gone to sharpen her teeth
-    fn:          move: 
+    fn: G         move: I
 20 | Ivan mounts his horse and gallops back, while the mouse runs over the strings to keep the gusli sounding
-    fn:          move: 
+    fn: F         move: I
 21 | The witch sharpens her teeth, finds the room empty, and in a rage gives chase
-    fn:          move: 
+    fn: Pr        move: I
 22 | Ivan waves the kerchief and a deep lake appears; while the witch swims across, he gets far ahead
-    fn:          move: 
+    fn: H         move: I
 23 | Vertodub throws uprooted oaks across the road; the witch gnaws her way through
-    fn:          move: 
+    fn: F         move: I
 24 | Vertogor turns a mountain onto the road and sets another on it; the witch climbs over
-    fn:          move: 
+    fn: F         move: I
 25 | The witch catches sight of Ivan and cries that he will not escape her now
-    fn:          move: 
+    fn: H         move: I
 26 | Ivan reaches the Sun's Sister's tower and calls to the Sun to open the window; she opens it and he leaps in with his horse
-    fn:          move: 
+    fn: F         move: I
 27 | The witch demands that her brother be handed over; the Sun's Sister refuses
-    fn:          move: 
+    fn: X         move: I
 28 | The witch proposes that she and Ivan be weighed: if she is heavier she eats him, if he is heavier he kills her
-    fn:          move: 
+    fn: M         move: I
 29 | Ivan sits on the scales; as the witch steps on, he is flung up into the sky to the Sun's Sister's tower, and the witch stays on earth
-    fn:          move: 
+    fn: Rs        move: I
