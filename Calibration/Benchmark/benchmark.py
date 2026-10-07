@@ -24,20 +24,20 @@ TYPED = {'up': '↑', 'down': '↓', 'alpha': 'α', 'beta': 'β', 'gamma': 'γ',
 def owner(t):
     """(stream, move count, events left blank)"""
     lines = open(os.path.join(HERE, 'Benchmark-A%03d.txt' % t), encoding='utf-8').read().split('\n')
-    s, moves, blank = [], 0, 0
+    s, moves, blank = [], set(), 0
     for l in lines:
         m = re.match(r'^\s+fn:(.*?)move:(.*)$', l)
         if not m:
             continue
         syms, mv = m.group(1).split(), m.group(2).strip()
         if mv:
-            moves += 1
+            moves.add(mv)   # distinct numerals: the owner wrote the numeral on every event
         if not syms:
             blank += 1
         for sym in syms:
             sym = TYPED.get(sym.lower(), sym)
             s += [k for k in C.TS.key(sym) if k in C.VOCAB]
-    return s, max(moves, 1), blank
+    return s, max(len(moves), 1), blank
 
 
 def main():

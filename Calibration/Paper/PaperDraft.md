@@ -1,6 +1,6 @@
 # Measuring the measurer: blind machine transcription against Propp's own analyses of the 45 tales of his Appendix III
 
-*Draft. Section 8 waits for the human benchmark. Figures are taken from the result files named in section 10.*
+*Draft. Figures are taken from the result files named in section 10.*
 
 ## Abstract
 
@@ -223,7 +223,14 @@ Scored exactly as the models are, the students reach content 0.62 to 0.68 with P
 On order the students do better (0.43 to 0.53, against 0.37 to 0.38), in part because they wrote short lists of the functions present, as long as Propp's, where the models record every occurrence.
 The students agree with each other (content 0.55 to 0.63) about as well as they agree with Propp.
 
-**[Placeholder: a reader trained in Propp's system transcribes five tales (93, 131, 133, 145, 151) from the English event lists, under the same card, and is scored against Propp and against the models.]**
+**A reader who knows Propp's system well, working from the same event lists and card, matched Propp less closely than the models did.**
+Five tales were chosen in advance (93, 131, 133, 145, 151), and the rule for reading the result was fixed before the annotation: if the human matched Propp no better than the models, or better by at most 0.05, the models would be read as near the task's ceiling.
+The reader recalled none of the five schemes and worked from the English event lists alone.
+Content with Propp was 0.39, against 0.59 for the models; order 0.26, against 0.39; the reader was below the models on every tale.
+The reader agreed with the models (content 0.50 to 0.55) more than with Propp.
+Like the models, the reader marked more functions than Propp (106 symbols against his 60), but on different ones: the hero's reaction E 27 times against Propp's 4, where the models' excess falls on F, I and a.
+In tale 151 the reader judged that the hero the event lists named, the Little Devil, is not the hero, and read Shabarsha's tricks as a donor's tests; Propp reads them as contest and victory over the villain.
+One reader and five tales decide nothing alone, but together with the students' strings they point the same way: the gap between any careful reader and Propp's schemes is mostly the schemes' own conventions.
 
 **On the tales Gervás and Méndez used, the transcribers find far more of Propp's functions than tagging from synopses did.**
 On those seven tales our transcribers find 77.8% to 81.7% of Propp's symbols, with 44% to 48% of theirs in his schemes; Gervás and Méndez report recall of 0.22 to 0.34 and precision of 0.37 to 0.46.
