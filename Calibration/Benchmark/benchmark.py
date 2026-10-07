@@ -15,6 +15,10 @@ import compare as C  # noqa: E402
 REPO = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(HERE))), 'Afanasyev')
 TALES = [93, 131, 133, 145, 151]
 READINGS = [(a, L) for a in C.ARMS for L in C.LINEAGES]
+# Plain-keyboard names the owner may type, added before any annotation was
+# written: without them "up" and "down" would read as U and D.
+TYPED = {'up': '↑', 'down': '↓', 'alpha': 'α', 'beta': 'β', 'gamma': 'γ', 'delta': 'δ',
+         'epsilon': 'ε', 'zeta': 'ζ', 'eta': 'η', 'theta': 'θ', 'lambda': 'λ'}
 
 
 def owner(t):
@@ -31,6 +35,7 @@ def owner(t):
         if not syms:
             blank += 1
         for sym in syms:
+            sym = TYPED.get(sym.lower(), sym)
             s += [k for k in C.TS.key(sym) if k in C.VOCAB]
     return s, max(moves, 1), blank
 

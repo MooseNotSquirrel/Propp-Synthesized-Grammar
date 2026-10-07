@@ -15,6 +15,7 @@ The English event list of each tale (`Benchmark-A0NN.txt`), the same list the mo
 ## The annotation
 
 For each event, after `fn:`, the function symbol or symbols from the card, or X; after `move:`, the move's numeral where a new move begins. Every symbol written is read as mattering (there is no Y or N mark).
+Symbols may be typed on a plain keyboard: `up` and `down` for ↑ and ↓, and the Greek letters by name (`beta`, `gamma`, and so on); `Pr`, `Rs`, `Ex` as on the card. Several symbols for one event are separated by spaces. The preparatory functions (β to θ) are not scored, since Propp's schemes print none, so they may be left out. (Added before any annotation, with the matching change to `benchmark.py`.)
 
 ## The scoring (`benchmark.py`, committed with this file)
 
