@@ -1,0 +1,11 @@
+# SectionOrderExplore.txt -- sectionGrammar.py explore: an exploration, not frozen.
+# Share of pairs of functions in different sections that run against Propp's section order.
+
+Propp, Appendix III, his moves       2.5% of  2519 pairs backward; shuffled  50.1%; without the donor   2.3%
+    most often reversed: donor before complication 10, transfer before donor 7, return before donor 6, return before struggle 5
+machine U/A, its own moves          16.6% of  4617 pairs backward; shuffled  50.1%; without the donor  15.1%
+    most often reversed: struggle before donor 87, transfer before donor 85, donor before complication 81, return before donor 57
+machine U/B, its own moves          17.4% of  5904 pairs backward; shuffled  50.0%; without the donor  16.5%
+    most often reversed: donor before complication 236, struggle before donor 98, struggle before complication 84, transfer before donor 57
+the owner, five tales               15.9% of   781 pairs backward; shuffled  49.8%; without the donor  19.9%
+    most often reversed: donor before complication 26, task before donor 21, struggle before donor 21, task before struggle 14
