@@ -1,0 +1,27 @@
+# ConstraintGrammarRun.txt -- constraintGrammar.py, as Blocks/ConstraintGrammar.md freezes it.
+# Share of 1000 reorderings of each held-out story that the model scores worse than the real order.
+
+wondertale A:  23 stories  constraint model 97.7% (p 0.0001)  Propp's plain order 95.7%  holds
+wondertale B:  23 stories  constraint model 97.1% (p 0.0001)  Propp's plain order 91.4%  holds
+fable      A:  59 stories  constraint model 74.2% (p 0.0001)  Propp's plain order 77.9%  FAILS
+fable      B:  54 stories  constraint model 71.3% (p 0.0001)  Propp's plain order 74.2%  FAILS
+tragedy    A:  28 stories  constraint model 78.9% (p 0.0001)  Propp's plain order 69.1%  holds
+tragedy    B:  28 stories  constraint model 77.8% (p 0.0001)  Propp's plain order 65.5%  holds
+
+VERDICT: IT DOES NOT; failing: fable/A, fable/B
+
+ACROSS GENRES (reported): the model fitted on the row's genre, tested on the column's held-out stories, A / B
+            on wondertale     on fable          on tragedy        
+  wondertale 97.7% /  97.1%     74.7% /  71.0%     81.8% /  82.3%    
+  fable      94.6% /  93.0%     74.2% /  71.3%     84.0% /  83.3%    
+  tragedy    86.3% /  86.9%     68.5% /  66.9%     78.9% /  77.8%    
+
+THE STRONGEST CONSTRAINTS (reported; full lists in Blocks/ConstraintWeights-<genre>.txt)
+  wondertale keeps: complication before struggle +0.4; complication before endgame +0.4; complication before donor +0.3; complication before return +0.3; donor before endgame +0.2; preparatory before return +0.2
+  wondertale breaks: preparatory before complication -0.2; H next to I -0.0; E next to F -0.0
+  fable keeps: complication before donor +1.4; complication before liquidation +1.3; complication before endgame +1.1; complication before struggle +0.8; preparatory before endgame +0.5; η before θ +0.4
+  fable breaks: preparatory before return -0.2; preparatory before complication -0.2; liquidation before return -0.2
+  tragedy keeps: complication before donor +0.1; complication before struggle +0.0; complication before liquidation +0.0; complication before return +0.0; complication before endgame +0.0; complication before transfer +0.0
+  tragedy breaks: preparatory before complication -0.1; preparatory before struggle -0.0; preparatory before donor -0.0
+
+THE OWNER'S FIVE TALES under the wondertale model (reported): 100.0% (5 tales)

@@ -1,0 +1,65 @@
+# ConstraintWeights-tragedy.txt -- constraintGrammar.py, fitted on the tragedy training stories.
+# weight | constraint: positive, the genre keeps the rule; negative, it prefers to break it.
+   -0.06 | preparatory before complication
+   +0.06 | complication before donor
+   +0.03 | complication before struggle
+   +0.02 | complication before liquidation
+   +0.02 | complication before return
+   +0.02 | complication before endgame
+   +0.02 | complication before transfer
+   +0.01 | preparatory before endgame
+   +0.01 | preparatory before return
+   +0.01 | preparatory before task
+   +0.01 | complication before task
+   -0.01 | preparatory before struggle
+   -0.01 | preparatory before donor
+   +0.01 | donor before liquidation
+   +0.01 | preparatory before liquidation
+   -0.01 | complication before arrival and claims
+   +0.01 | donor before struggle
+   +0.01 | return before task
+   -0.01 | donor before arrival and claims
+   -0.01 | preparatory before arrival and claims
+   +0.01 | donor before transfer
+   +0.00 | struggle before endgame
+   +0.00 | donor before task
+   +0.00 | γ before δ
+   +0.00 | donor before endgame
+   +0.00 | return before endgame
+   -0.00 | liquidation before return
+   -0.00 | task before endgame
+   -0.00 | liquidation before endgame
+   +0.00 | preparatory before transfer
+   +0.00 | donor before return
+   -0.00 | E before F
+   +0.00 | H before I
+   +0.00 | E next to F
+   -0.00 | liquidation before task
+   +0.00 | η next to θ
+   -0.00 | struggle before liquidation
+   -0.00 | liquidation before arrival and claims
+   +0.00 | struggle before task
+   -0.00 | transfer before return
+   +0.00 | arrival and claims before endgame
+   +0.00 | struggle before return
+   -0.00 | return before arrival and claims
+   +0.00 | transfer before liquidation
+   -0.00 | transfer before task
+   -0.00 | transfer before arrival and claims
+   +0.00 | M before N
+   +0.00 | transfer before struggle
+   -0.00 | transfer before endgame
+   +0.00 | H next to I
+   +0.00 | Pr next to Rs
+   -0.00 | ε next to ζ
+   +0.00 | ε before ζ
+   -0.00 | γ next to δ
+   -0.00 | struggle before arrival and claims
+   -0.00 | Pr before Rs
+   -0.00 | M next to N
+   +0.00 | D next to E
+   +0.00 | D before E
+   -0.00 | η before θ
+   +0.00 | arrival and claims before task
+   +0.00 | o before L
+   +0.00 | o next to L

@@ -1,0 +1,65 @@
+# ConstraintWeights-fable.txt -- constraintGrammar.py, fitted on the fable training stories.
+# weight | constraint: positive, the genre keeps the rule; negative, it prefers to break it.
+   +1.40 | complication before donor
+   +1.32 | complication before liquidation
+   +1.10 | complication before endgame
+   +0.80 | complication before struggle
+   +0.53 | preparatory before endgame
+   +0.41 | η before θ
+   +0.33 | complication before return
+   +0.25 | ε before ζ
+   -0.24 | preparatory before return
+   -0.21 | preparatory before complication
+   +0.21 | arrival and claims before endgame
+   +0.19 | H before I
+   +0.17 | complication before arrival and claims
+   -0.17 | liquidation before return
+   +0.15 | η next to θ
+   +0.15 | D before E
+   +0.15 | donor before endgame
+   +0.14 | struggle before endgame
+   +0.13 | Pr before Rs
+   +0.11 | task before endgame
+   +0.09 | struggle before return
+   -0.09 | arrival and claims before task
+   +0.09 | struggle before arrival and claims
+   +0.09 | donor before transfer
+   -0.08 | preparatory before arrival and claims
+   +0.08 | liquidation before endgame
+   +0.08 | preparatory before liquidation
+   -0.08 | liquidation before arrival and claims
+   +0.08 | donor before return
+   -0.08 | H next to I
+   +0.06 | donor before liquidation
+   +0.06 | ε next to ζ
+   +0.06 | D next to E
+   +0.05 | preparatory before donor
+   +0.04 | E next to F
+   -0.04 | donor before struggle
+   +0.04 | struggle before liquidation
+   +0.03 | return before endgame
+   +0.02 | E before F
+   -0.02 | Pr next to Rs
+   -0.01 | complication before transfer
+   -0.01 | complication before task
+   -0.01 | donor before task
+   -0.01 | preparatory before struggle
+   +0.01 | donor before arrival and claims
+   +0.00 | γ before δ
+   +0.00 | transfer before struggle
+   +0.00 | transfer before liquidation
+   +0.00 | transfer before return
+   +0.00 | transfer before arrival and claims
+   +0.00 | transfer before task
+   +0.00 | transfer before endgame
+   +0.00 | γ next to δ
+   +0.00 | o before L
+   +0.00 | M before N
+   +0.00 | preparatory before transfer
+   +0.00 | M next to N
+   +0.00 | struggle before task
+   +0.00 | liquidation before task
+   +0.00 | return before arrival and claims
+   +0.00 | preparatory before task
+   +0.00 | return before task
+   +0.00 | o next to L
