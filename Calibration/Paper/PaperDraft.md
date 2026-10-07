@@ -2,7 +2,7 @@
 
 Steven Helton and Claude Opus 5.5
 
-*Draft. Figures are taken from the result files named in section 10.*
+*Draft. Figures are taken from the result files named in section 11.*
 
 ## Abstract
 
@@ -12,6 +12,7 @@ The transcribers find 74% to 77% of the functions Propp found, far beyond chance
 They agree with Propp less than they agree with each other (content 0.58 to 0.59 against 0.75; order 0.34 to 0.37 against 0.59), chiefly because they mark functions where Propp marks none and divide the tales into more moves.
 A rule that folds repeated functions into one, as Propp's schemes do, closes only a small part of the gap on held-out tales.
 A memory probe finds no sign that the models recall Propp's schemes.
+Propp's order of his large sections holds in the tales as a strong tendency, about five section pairs in six, where his own schemes show it almost without exception; an order fitted to readings of the tales describes unseen tales no better than his.
 We argue that Propp's schemes are a compressed and partly inferred record, so that agreement with them has a ceiling well below one, and that studies using them as ground truth should measure against that ceiling, not against perfect agreement.
 
 ## 1. Introduction
@@ -31,11 +32,12 @@ Using two of them gives a yardstick: the agreement between two transcribers of t
 A chance baseline, pairing each transcription with Propp's scheme for a different tale, shows how much agreement comes from what all wondertales share.
 Every measure, threshold and baseline was fixed in a written protocol before any transcription was read.
 
-**The contributions are four.**
+**The contributions are five.**
 First, a measurement of how closely blind transcription reproduces Propp's schemes, against both a chance baseline and the transcribers' agreement with each other.
 Second, a diagnosis of where the disagreements come from, symbol by symbol.
 Third, a held-out test of whether a simple rule can bring the transcriptions into Propp's form.
-Fourth, a comparison with published human annotations of the same tales.
+Fourth, a test of how strictly Propp's order of his large sections holds in the tales, and whether a better order exists.
+Fifth, a comparison with human readers: a new annotation of five tales, and published annotations of two.
 
 ## 2. Prior work
 
@@ -55,7 +57,7 @@ Precision ranged from 0.37 to 0.46 and recall from 0.22 to 0.34 across models an
 
 **What this study adds is scale, the original language, blindness, and controls.**
 It uses all 45 tales of Appendix III, read in the original; the transcribers never see Propp's schemes, and a probe checks whether they recall them; two transcribers give a yardstick, a derangement baseline gives chance, and the protocol was fixed before the data.
-Seven of Gervás and Méndez's tales (93, 104, 127, 131, 133, 139, 155) and two of Bod and colleagues' (151, 152) are among our 45, which allows a tale-by-tale comparison (sections 7 and 8).
+Seven of Gervás and Méndez's tales (93, 104, 127, 131, 133, 139, 155) and two of Bod and colleagues' (151, 152) are among our 45, which allows a tale-by-tale comparison (section 9).
 
 ## 3. Material
 
@@ -218,7 +220,31 @@ Folding repetition explains a small, real part of the content gap and almost non
 **Consensus does not help either.**
 Keeping only the functions three of four readings agree on did no better than a single reading, which means the readings' departures from Propp are shared, not independent noise.
 
-## 8. A human benchmark
+## 8. How strictly does Propp's order hold?
+
+**Propp's own schemes keep his order of large sections almost without exception; the tales, as read, keep it about five times in six.**
+We grouped the functions into Propp's large sections of a move: the complication (A, a, B, C, ↑), the donor (D, E, F), the transfer (G), the struggle (H, J, I), the liquidation (K), the return (↓, Pr, Rs), the arrival and false claims (o, L), the task (M, N), and the endgame (Q, Ex, T, U, W).
+Of pairs of functions in different sections of a move, 2.5% run against Propp's order in his own 84 moves.
+In the two machine readings, divided into their own moves, 16.6% and 17.4% do; in the human reader's five tales (section 9), 15.9%; random order gives about 50%.
+This comparison was exploratory, made over all 45 tales.
+
+**The reversals are spread across the sequence, not confined to one section.**
+The commonest put the donor before the complication, the case Propp himself allows as an "inverted sequence" (p.107), and the struggle, the transfer or the return before the donor.
+Leaving the donor out barely changes the share.
+
+**An order fitted to the readings describes unseen tales no better than Propp's.**
+We fixed a test in advance, on the split of section 7: rank the sections by their mean position within moves in the 22 development tales, then compare that ranking with Propp's on the 23 test tales.
+The fitted order moved the task ahead of the false claims, the return and the liquidation.
+On the test tales it kept 84.1% and 84.5% of section pairs in order, against 83.4% and 83.8% for Propp's order; the differences (+0.007 and +0.005) were not significant (p 0.91 and 0.61).
+The sections it moved seldom meet in one move, so the tales hardly constrain their relative order.
+
+**So Propp's order is right, and what his schemes overstate is how strictly it holds.**
+His sequence of sections is the best simple description of the wondertale's order that we could find.
+The near-perfect order of his schemes comes in part from his conventions: folding repetitions and supplying implicit decisions (section 6), and setting apart events told before the trouble.
+A grammar that accepts or rejects a move cannot capture an order that holds five times in six: the formal grammar of section 4.4, built on Propp's schemes, accepts 80 of his 84 moves but only 23% to 29% of the transcribers'.
+A scored grammar, which ranks the sections and measures how far a reading follows them, can.
+
+## 9. A human benchmark
 
 **Published annotations of two of our tales give a first comparison with human readers.**
 Bod and colleagues print the function strings their students wrote for tales 151 (*Shabarsha*) and 152 (*Ivanko*), nine in one experiment and six in another.
@@ -239,7 +265,7 @@ One reader and five tales decide nothing alone, but together with the students' 
 On those seven tales our transcribers find 77.8% to 81.7% of Propp's symbols, with 44% to 48% of theirs in his schemes; Gervás and Méndez report recall of 0.22 to 0.34 and precision of 0.37 to 0.46.
 The measures are not identical (theirs match labels to passages of a synopsis, ours match multisets of symbols per tale), so the comparison shows a difference of degree, not a like-for-like gain.
 
-## 9. Discussion
+## 10. Discussion
 
 **Agreement with Propp's schemes has a ceiling well below one, and the ceiling belongs to the schemes as much as to the readers.**
 Two transcribers who share rules, card and event lists agree with each other at 0.75 on content; students trained in the system agree with each other at 0.55 to 0.63.
@@ -255,18 +281,23 @@ In companion tests on fables and Greek tragedy, thresholds for grammar acceptanc
 It beats the wrong-tale baseline in every cell, two different models agree with each other well beyond chance, and a correction to the card changes nothing measurable.
 Measures that compare the instrument with itself, such as shuffle baselines or one genre against another, are therefore on firmer ground than measures that compare it with Propp's printed levels.
 
+**The order Propp described is a tendency of the tales, not a law.**
+His sequence of large sections is the best simple description of the wondertale's order we found, but in the tales as read it holds about five times in six (section 8).
+The right instrument for such an order is a scored grammar, not one that accepts or rejects.
+In companion work, Propp's pairs and groups held together as units in every genre tested while their order varied; on that evidence, a catalog of the units and their meanings may describe these narratives better than any fixed sequence.
+
 **Limitations.**
 Both transcribers and the listers are models of one family, so their shared departures from Propp may reflect a shared reading; a third family, and the human benchmark, are needed to separate the two.
 The event lists were made by models and fixed the units the transcribers labeled; Propp worked from the tales directly.
 The rules and card are in English while the tales are not.
 Appendix III covers 45 of Propp's hundred tales; the others have no printed scheme to compare with.
 
-## 10. Data and code
+## 11. Data and code
 
 **Every text, prompt, transcription and program is public, and every result can be rerun.**
 - The tale texts, extraction, rules, prompts, event lists, transcriptions and probe answers: the repository Propp-Afanasyev.
 - Propp's schemes and the grammar: the repositories Propp-Grammar and Propp-Synthesized-Grammar.
-- The protocol and comparison program (`Calibration/CalibrationProtocol.md`, `Calibration/compare.py`, output `Calibration/CompareRun.txt`); the improvement test (`Calibration/ImproveProtocol.md`, `Calibration/Split.txt`, `Calibration/improveTest.py`, outputs `Calibration/ImproveDev.txt` and `Calibration/ImproveTestRun.txt`); the published human strings and their scoring (`Calibration/PriorHuman/`): Propp-Synthesized-Grammar.
+- The protocol and comparison program (`Calibration/CalibrationProtocol.md`, `Calibration/compare.py`, output `Calibration/CompareRun.txt`); the improvement test (`Calibration/ImproveProtocol.md`, `Calibration/Split.txt`, `Calibration/improveTest.py`, outputs `Calibration/ImproveDev.txt` and `Calibration/ImproveTestRun.txt`); the order of sections (`Calibration/SectionGrammar.md`, `Calibration/sectionGrammar.py`, `Calibration/SectionGrammar01.txt`, outputs `Calibration/SectionOrderExplore.txt` and `Calibration/SectionGrammarRun.txt`); the human benchmark (`Calibration/Benchmark/`, output `BenchmarkRun.txt`); the published human strings and their scoring (`Calibration/PriorHuman/`): Propp-Synthesized-Grammar.
 
 ## References
 
