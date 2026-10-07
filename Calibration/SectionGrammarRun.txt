@@ -1,0 +1,26 @@
+# SectionGrammarRun.txt -- sectionGrammar.py test, as SectionGrammar.md freezes it.
+
+Fitted order: complication < donor < transfer < struggle < task < arrival and claims < return < liquidation < endgame
+Propp's order: complication < donor < transfer < struggle < liquidation < return < arrival and claims < task < endgame
+
+ARM U, TRANSCRIBER A: 61 moves of two or more sections
+  fitted  concordance 0.841, shuffled 0.500, gap +0.341
+  Propp   concordance 0.834, shuffled 0.500, gap +0.334
+  fitted minus Propp: +0.007; paired sign-flip over moves, two-sided p 0.9089
+
+ARM U, TRANSCRIBER B: 55 moves of two or more sections
+  fitted  concordance 0.845, shuffled 0.500, gap +0.345
+  Propp   concordance 0.838, shuffled 0.499, gap +0.339
+  fitted minus Propp: +0.005; paired sign-flip over moves, two-sided p 0.6055
+
+ARM C, TRANSCRIBER A: 60 moves of two or more sections
+  fitted  concordance 0.848, shuffled 0.500, gap +0.348
+  Propp   concordance 0.851, shuffled 0.500, gap +0.351
+  fitted minus Propp: -0.003; paired sign-flip over moves, two-sided p 0.8304 (reported, not judged)
+
+ARM C, TRANSCRIBER B: 63 moves of two or more sections
+  fitted  concordance 0.825, shuffled 0.499, gap +0.326
+  Propp   concordance 0.812, shuffled 0.500, gap +0.312
+  fitted minus Propp: +0.014; paired sign-flip over moves, two-sided p 0.4268 (reported, not judged)
+
+VERDICT (arm U, both transcribers): PROPP'S ORDER SUFFICES: the fitted order does not do better

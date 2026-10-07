@@ -45,6 +45,14 @@ In the fitted order the villainy or lack and the backstory's recognitions, rewar
 
 **SPECULATION, NOT FROM PROPP: tragedy begins after the harm is done and saves the trick for the catastrophe** (Clytemnestra's welcome, Medea's gifts, Dionysus's luring of Pentheus): the deception moves from the tale's preparation to tragedy's climax. And Propp's claim in the Oedipus essay that tale and myth share their composition holds for the pieces and not for their order: two languages sharing a vocabulary with different word orders.
 
+**ESTABLISHED (2026-10-06): in the Russian tales, Propp's order of his large sections is right, but it holds as a strong tendency, not a rule.**
+Of pairs of functions in different sections of a move (complication, donor, transfer, struggle, liquidation, return, arrival and claims, task, endgame), 2.5% run against his order in his own schemes but about 16% in readings of the same tales, by both machine transcribers and by the owner, against 50% for random order (`Calibration/SectionOrderExplore.txt`).
+A scored section grammar fitted on 22 tales did no better than Propp's order on the other 23 (frozen in `Calibration/SectionGrammar.md`; result `SectionGrammarRun.txt`: concordance about 0.84 for both, differences +0.005 and +0.007, not significant).
+So Propp's sequence is the best simple description of the wondertale's order; his schemes overstate how strictly it holds, in part through his conventions (folding repeats, writing an implicit C, parking pre-crisis events, licensing the donor before the trouble).
+A yes-or-no grammar cannot capture an order that holds five times in six, which is why v46, built on Propp's tidy strings, accepts only 22% to 29% of fresh readings of the same moves.
+
+**SPECULATION, NOT FROM PROPP: the content of a tale is categorical and its order statistical.** Propp's pairs and groups hold together as units in every genre tested; their order is a preference whose strength and shape differ by genre, close to Propp's in the wondertale and the fable, its own in tragedy. On that reading the semantic catalog, which describes the units, is the primary tool, and order is a measured tendency.
+
 **SPECULATION, NOT FROM PROPP: story languages may be like languages with free word order, such as Latin and Russian, in the order BETWEEN their units: strong default orders, departed from for effect.** The half of the analogy about fixed order inside the unit is withdrawn (section 2).
 
 ## 4. The fable as a genre
