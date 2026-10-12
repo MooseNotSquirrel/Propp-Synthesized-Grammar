@@ -1,0 +1,13 @@
+1. THREATS (stage 5 transcriptions, functions and candidate acts marked Y)
+  transcriber A, 49 threats
+    followed by: xThr 7 (chance 1.6), a 4 (chance 2.2), xBeg 4 (chance 1.6), A 4 (chance 5.5), C 3 (chance 1.6), xBoa 2 (chance 0.5), xRes 2 (chance 0.7), xOat 2 (chance 1.2)
+    preceded by: A 8, xThr 7, xRef 6, xArr 4, γ 4
+  transcriber B, 55 threats
+    followed by: F 7 (chance 2.8), A 7 (chance 5.8), γ 5 (chance 4.3), xBeg 5 (chance 2.3), xThr 5 (chance 1.7), xRef 4 (chance 1.9), M 2 (chance 0.3), xAcc 2 (chance 1.2)
+    preceded by: A 6, a 5, xAcc 5, xThr 5, xArr 3
+
+2. THE FAILED HERO
+  tragedy, transcriber A: 32 stories; the hero succeeds in 28; then (a) exposed, punished or defeated 2 P19 P20; (b) a villainy on the hero never undone 5 P09 P17 P18 P28 P31
+  Russian tales, transcriber A: 45 stories; the hero succeeds in 40; then (a) exposed, punished or defeated 5 A115 A127 A150 A153 A167; (b) a villainy on the hero never undone 2 A100 A163
+  tragedy, transcriber B: 32 stories; the hero succeeds in 27; then (a) exposed, punished or defeated 4 P06 P08 P19 P20; (b) a villainy on the hero never undone 5 P13 P17 P18 P29 P31
+  Russian tales, transcriber B: 45 stories; the hero succeeds in 22; then (a) exposed, punished or defeated 0 ; (b) a villainy on the hero never undone 1 A156
