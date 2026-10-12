@@ -1,0 +1,23 @@
+# TestRun.txt -- xTest.py, stage 5 of XStudyProtocol.md.
+
+Agreement on Propp's functions, pooled over the test stories: 0.529
+
+act     either    both  agreement  on X events   genres  verdict
+xArr       194     109      0.562          70%        3  fails: takes Propp's events
+xBeg       140      85      0.607          56%        3  fails: takes Propp's events
+xDec        61      18      0.295          25%        3  fails: agreement, takes Propp's events
+xThr        86      50      0.581          76%        3  HOLDS
+xAtt        37       9      0.243          54%        3  fails: agreement, takes Propp's events
+xOat       109      49      0.450          51%        3  fails: agreement, takes Propp's events
+xBoa        74      34      0.459          57%        3  fails: agreement, takes Propp's events
+xRes        64      33      0.516          61%        3  fails: agreement, takes Propp's events
+xAcc       119      65      0.546          70%        3  fails: takes Propp's events
+xPro        12       8      0.667          50%        2  fails: takes Propp's events
+xAsk       129      55      0.426          53%        3  fails: agreement, takes Propp's events
+xGif        83      30      0.361          57%        3  fails: agreement, takes Propp's events
+xSen        74      22      0.297          54%        3  fails: agreement, takes Propp's events
+xHid        49      26      0.531          69%        3  fails: takes Propp's events
+xRef        96      39      0.406          54%        3  fails: agreement, takes Propp's events
+xFai        28      13      0.464          86%        3  fails: agreement
+
+HOLD: 1 of 16: xThr
