@@ -222,6 +222,12 @@ def tagged(args):
         if not m:
             out.append(a)
             continue
+        # A published copy has no git history; it carries each tagged version
+        # as steps/<tag>/<file>, which is read first when it exists.
+        saved = os.path.join('steps', m.group(1), m.group(2))
+        if os.path.exists(saved):
+            out.append(saved)
+            continue
         text = subprocess.run(['git', 'show', '%s:%s' % m.groups()], capture_output=True,
                               check=True).stdout
         fd, path = tempfile.mkstemp(suffix='_' + m.group(1) + '.txt')
