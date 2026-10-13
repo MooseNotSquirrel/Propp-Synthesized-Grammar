@@ -145,17 +145,57 @@ def derive(act, perf, und, hero):
     return table.get(act)
 
 
+def speech_story(path):
+    """A DEPARTURE, logged in KeeperLog.md: two tragedy batches (B g1, B g3) wrote each event's speech
+    number (S001...) where the play belongs, misled by the rules' placeholder S000. The play is recovered
+    from the batch's two plays in order (event numbers restart at 1 for the second), and every line's
+    speech number must match that play's event list, or the run stops."""
+    m = re.search(r'tragedy[\\/]acts[\\/][AB][\\/](g\d)', path)
+    if not m:
+        return None
+    plays = material()['tragedy'][m.group(1)]
+    spk = {}
+    for pl in plays:
+        for l in open(os.path.join(OUT, 'tragedy', 'plays', pl, 'Events.txt'), encoding='utf-8'):
+            f = [x.strip() for x in l.split('|')]
+            if len(f) >= 3 and f[1].isdigit():
+                spk[(pl, int(f[1]))] = f[2]
+    state = {'i': 0, 'prev': 0}
+
+    def story(s_field, ev):
+        if ev < state['prev'] and ev == 1 and state['i'] == 0:
+            state['i'] = 1
+        state['prev'] = ev
+        pl = plays[state['i']]
+        if spk.get((pl, ev)) != s_field:
+            raise SystemExit('speech %s at event %d does not match %s: recovery refused' % (s_field, ev, pl))
+        return pl
+    return story
+
+
 def read_acts(paths):
     """{(story, event): [(act, performer, undergoer, relation)]}"""
     out = collections.defaultdict(list)
     for p in paths:
+        recover = None
         for line in open(p, encoding='utf-8'):
             f = [x.strip() for x in line.rstrip('\n').split('|', 9)]
-            if len(f) < 10 or not re.match(r'^[PFA]\d{2}', f[0]):
+            if len(f) < 10:
                 continue
             ev = re.search(r'\d+', f[1])
-            if ev and f[6][:1].upper() in 'YN':
-                out[(f[0].split('/')[0], int(ev.group()))].append((f[2].lower(), f[3], f[4], f[5].lower()))
+            if not ev:
+                continue
+            if re.match(r'^S\d+$', f[0]):
+                recover = recover or speech_story(p)
+                if recover is None:
+                    continue
+                story = recover(f[0], int(ev.group()))
+            elif re.match(r'^[PFA]\d{2}', f[0]):
+                story = f[0].split('/')[0]
+            else:
+                continue
+            if f[6][:1].upper() in 'YN':
+                out[(story, int(ev.group()))].append((f[2].lower(), f[3], f[4], f[5].lower()))
     return out
 
 
