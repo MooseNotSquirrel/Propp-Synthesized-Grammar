@@ -1,6 +1,6 @@
 # A significance layer: the test
 
-**Drafted 2026-10-13, to be frozen at the owner's word, before any description under it.** A departure after the freeze is logged in `Significance/KeeperLog.md`, not made here.
+**Frozen 2026-10-13 at the owner's word, before any description under it.** A departure after the freeze is logged in `Significance/KeeperLog.md`, not made here.
 
 ## The question
 
