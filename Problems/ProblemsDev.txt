@@ -1,0 +1,37 @@
+# ProblemsDev.txt -- problems.py dev: the measures on the development stories (Significance/), already seen; the predictions are the comparisons the rule admits here; not the test.
+
+stories: A tale 22, A fable 45, A tragedy 8, B tale 22, B fable 45, B tragedy 8
+measure        L           tale          fable        tragedy
+                  raw / excess   raw / excess   raw / excess
+problems       A    3.18/ +0.00    1.22/ +0.00    5.12/ +0.00
+problems       B    2.73/ +0.00    1.11/ -0.01    3.12/ +0.00
+repaired       A    0.93/ +0.13    0.43/ +0.11    0.62/ -0.25
+repaired       B    0.93/ +0.12    0.42/ +0.11    0.71/ -0.25
+open           A    0.03/ -0.07    0.49/ -0.09    0.22/ +0.16
+open           B    0.03/ -0.08    0.48/ -0.11    0.21/ +0.20
+hero opens     A    0.22/ -0.10    0.51/ +0.20    0.30/ -0.02
+hero opens     B    0.14/ -0.17    0.42/ +0.13    0.51/ +0.20
+ends repaired  A    0.86/ +0.06    0.40/ +0.13    0.62/ -0.24
+ends repaired  B    0.91/ +0.10    0.40/ +0.14    0.50/ -0.46
+acts help      A    0.60/ +0.15    0.26/ -0.19    0.30/ -0.15
+acts help      B    0.67/ +0.16    0.26/ -0.25    0.34/ -0.17
+acts harm      A    0.21/ -0.07    0.47/ +0.20    0.33/ +0.05
+acts harm      B    0.21/ -0.10    0.47/ +0.15    0.41/ +0.09
+
+PREDICTIONS, on the excess (each holds when the higher genre is higher by at least 0.05 and the one-sided permutation p <= 0.05, for both describers)
+   1. repaired      tale    above tragedy HOLDS   A +0.37 p 0.0007; B +0.37 p 0.0001
+   2. repaired      fable   above tragedy HOLDS   A +0.36 p 0.0203; B +0.36 p 0.0190
+   3. open          tragedy above tale    HOLDS   A +0.22 p 0.0075; B +0.27 p 0.0004
+   4. open          tragedy above fable   FAILS   A +0.25 p 0.0894 x; B +0.30 p 0.0497
+   5. hero opens    fable   above tale    HOLDS   A +0.30 p 0.0038; B +0.30 p 0.0053
+   6. ends repaired tale    above tragedy HOLDS   A +0.31 p 0.0445; B +0.56 p 0.0016
+   7. ends repaired fable   above tragedy HOLDS   A +0.37 p 0.0273; B +0.60 p 0.0019
+   8. acts help     tale    above fable   HOLDS   A +0.34 p 0.0001; B +0.41 p 0.0001
+   9. acts help     tale    above tragedy HOLDS   A +0.30 p 0.0002; B +0.33 p 0.0002
+  10. acts harm     fable   above tale    HOLDS   A +0.26 p 0.0003; B +0.25 p 0.0006
+  11. acts harm     tragedy above tale    HOLDS   A +0.12 p 0.0098; B +0.20 p 0.0019
+
+On the development stories: 10 of 11 predictions hold -> THE GENRES HAVE DISTINCT PROBLEM STRUCTURES
+
+THE PREDICTIONS THE RULE ADMITS, for PREDICTIONS in problems.py:
+  [('repaired', 'tale', 'tragedy'), ('repaired', 'fable', 'tragedy'), ('open', 'tragedy', 'tale'), ('open', 'tragedy', 'fable'), ('hero opens', 'fable', 'tale'), ('ends repaired', 'tale', 'tragedy'), ('ends repaired', 'fable', 'tragedy'), ('acts help', 'tale', 'fable'), ('acts help', 'tale', 'tragedy'), ('acts harm', 'fable', 'tale'), ('acts harm', 'tragedy', 'tale')]
