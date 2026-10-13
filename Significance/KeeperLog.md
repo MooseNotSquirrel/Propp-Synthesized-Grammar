@@ -1,0 +1,7 @@
+# Keeper log: the test of a significance layer
+
+**2026-10-13. Drafted, not yet frozen** (`SignificanceProtocol.md`, `Significance.md`, `significance.py`), at the owner's request to proceed with the layer queued on 2026-10-12.
+**Checked first, on data already scored** (`baseline.py`, `BaselineExplore.txt`, exploratory): a mapping learned from the act layer, the hero's part, the relation and the position stays between 0.22 and 0.26 against the transcribers' 0.50, so the information is not already in the two layers. The first run of `baseline.py` predicted a function only where its share was at least one half, which is stricter than the agreement figure rewards (a prediction raises it when its chance of being right exceeds J/(1+J)); it was rerun at one third before the figures were used, and the one-half figures (0.17 to 0.22) are not kept.
+**The mapping's ceiling**, with each act's new fields chosen as well as they could be for the original transcription: 0.751 (A), 0.690 (B). A pass is possible.
+**The scorer run on random descriptions** in a scratch folder, to prove the program end to end: in form, and three layers at 0.10, below the two-layer 0.19, as random fields should be.
+**The describers' material written** into `Story Language/ActsRoles` (`sig/SigRules.md`, `sig/input/`, `prompts/sig-*.txt`, stages `sig-1` and `sig-2` in `RUN.md`): 75 stories; acts per batch, A and B: s1 272/220, s2 538/430, s3 408/359, s4 192/190, s5 243/218, s6 354/311, s7 280/246, s8 178/164, s9 268/262.
