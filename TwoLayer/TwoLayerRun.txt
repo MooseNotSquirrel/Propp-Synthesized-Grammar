@@ -1,0 +1,19 @@
+# TwoLayerRun.txt -- twoLayer.py score, as TwoLayerProtocol.md freezes it.
+
+Events compared: 1867 (in both original transcriptions and both new ones)
+
+1. coverage, transcriber A: acts 92.7%, Propp's functions 53.5%, difference +39.2 points
+1. coverage, transcriber B: acts 94.1%, Propp's functions 57.3%, difference +36.8 points
+2. agreement: on acts 0.606, on Propp's functions 0.507
+3. recovering Propp: derived against original, A 0.198, B 0.194, mean 0.196; original A against B 0.507
+
+VERDICT: IT IS NOT ADOPTED; failing: recovering Propp
+
+REPORTED, NOT JUDGED
+  relations: where both give an event the same act, the same relation in 1399 of 1893 (74%)
+  tale A: the hero deceives in 0 of 83 deceptions, harms in 0 of 86 harms; most common acts: give 96, reveal-information 88, harm 86, other 85, plead 84, deceive 83
+  tale B: the hero deceives in 0 of 68 deceptions, harms in 0 of 79 harms; most common acts: respond 89, plead 85, give 82, harm 79, reveal-information 78, deceive 68
+  fable A: the hero deceives in 5 of 7 deceptions, harms in 11 of 28 harms; most common acts: other 32, harm 28, respond 20, expose 17, escape 11, seek-information 11
+  fable B: the hero deceives in 5 of 7 deceptions, harms in 14 of 30 harms; most common acts: harm 30, respond 26, other 24, expose 19, escape 11, plead 9
+  tragedy A: the hero deceives in 2 of 22 deceptions, harms in 32 of 120 harms; most common acts: other 134, harm 120, plead 100, reveal-information 87, forbid 86, respond 70
+  tragedy B: the hero deceives in 2 of 19 deceptions, harms in 30 of 112 harms; most common acts: harm 112, reveal-information 99, plead 94, forbid 78, respond 72, other 63
