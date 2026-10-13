@@ -1,0 +1,62 @@
+# HeroRun.txt -- heroes.py score, as HeroProtocol.md freezes it.
+
+tale     stories  45; readers agree  40 (89%); the rule matches the agreed hero in  33 of 40 (82%); "no single hero" answers 9 of 90
+fable    stories 198; readers agree 158 (80%); the rule matches the agreed hero in 124 of 158 (78%); "no single hero" answers 43 of 396
+tragedy  stories  32; readers agree  27 (84%); the rule matches the agreed hero in  18 of 27 (67%); "no single hero" answers 19 of 64
+
+PREDICTIONS
+  1. readers agree on at least 90% of the Russian tales: 89% -> FAILS
+  2. they agree less often in the tragedies than in the tales: 84% against 89% -> HOLDS
+  3. the rule matches the agreed hero less often in the tragedies than in the tales: 67% against 82% -> HOLDS
+
+DISAGREEMENTS (reported)
+  A126: A the little prince (high); B the prince (high); rule little
+  A132: A the youngest son (Ivan-tsarevich) (high); B Ivan-tsarevich (high); rule ivan
+  A139: A Suchenko Ivan (high); B Ivan Suchenko (high); rule ivan
+  A145: A the seven Semyons (medium); B no single hero: the thief Semyon; the seven Semyons together (low); rule seven
+  A166: A the fool (high); B Emelya the fool (high); rule fool
+  F012: A no single hero: the Hare; the Tortoise (medium); B the Tortoise (medium); rule hare
+  F021: A the Fox (low); B the Ass (medium); rule fox
+  F037: A no single hero: the Lion; the Fox (medium); B the Lion (medium); rule lion
+  F040: A the Cat (medium); B the Cock (medium); rule cat
+  F052: A the Mule (medium); B the Ass (medium); rule ass
+  F083: A the Earthen Pot (medium); B no single hero: the Earthen Pot; the Brass Pot (low); rule brass, earthen
+  F086: A the man (medium); B the Father (medium); rule father
+  F091: A the Frog (medium); B no single hero: the Mouse; the Frog (medium); rule frog
+  F098: A the widow (low); B the Sheep (medium); rule sheep, widow
+  F112: A the Rivers (medium); B no single hero: the Rivers; the Sea (medium); rule rivers, sea
+  F140: A the Fox (high); B the Swollen Fox (high); rule fox
+  F147: A the invited Dog (high); B the guest Dog (high); rule stranger
+  F169: A no single hero: the Cottager; his wife (medium); B the Cottager and his wife (medium); rule cottager
+  F178: A the Ass (medium); B the Old Shepherd (medium); rule shepherd
+  F191: A the countryman (medium); B the Eagle (medium); rule eagle
+  F204: A Man (low); B no single hero: the Horse; the Ox; the Dog (medium); rule man
+  F206: A the truthful Traveler (medium); B no single hero: the truthful Traveler; the Lying Traveler (medium); rule king
+  F213: A the man (high); B the Seller of Images (high); rule seller
+  F219: A the Goat (medium); B the Ass (medium); rule ass, his
+  F222: A the Owl (medium); B no single hero: the Owl; the Grasshopper (medium); rule grasshopper
+  F226: A the Goat (medium); B the Wolf (medium); rule wolf
+  F271: A the brave Soldier (medium); B no single hero: the brave Soldier; the timid Soldier (medium); rule brave, timid
+  F070: A no single hero: the Father; the sons (medium); B the sons (medium); rule sons
+  F114: A the farmer's daughter (high); B the Milk-Woman (high); rule milk
+  F124: A the travellers (high); B the Seaside Travelers (high); rule travelers
+  F128: A no single hero: the Fox; the Woodcutter (medium); B the Fox (medium); rule woodcutter
+  F138: A no single hero: the Fisherman; the Fish (low); B the Little Fish (medium); rule fish, fisherman
+  F164: A the Hound (medium); B the Hare (medium); rule hound
+  F185: A the Sheep (medium); B the Stag (medium); rule sheep, stag
+  F205: A the Housedog (medium); B the Thief (medium); rule thief
+  F217: A no single hero: the Geese; the Cranes (low); B the Geese (high); rule geese
+  F227: A the Draught-Mule (low); B the Fly (medium); rule draught, fly
+  F236: A the Horse (low); B the Wolf (medium); rule horse, wolf
+  F253: A the Hare (medium); B no single hero: the Hare; the Sparrow (medium); rule hare
+  F254: A the Ox (low); B the Flea (medium); rule flea, ox
+  F255: A the Man (medium); B the Ass (medium); rule man
+  F257: A the Satyr (low); B no single hero: the Man; the Satyr (low); rule man
+  F276: A the Traveller (low); B Truth (low); rule traveller, truth
+  F283: A the Amaranth (low); B the Rose (medium); rule amaranth, rose
+  F308: A the Countryman (medium); B no single hero: the Buffoon; the Countryman (medium); rule audience
+  P08: A no single hero: Electra; Orestes (medium); B Electra (medium); rule orestes
+  P10: A no single hero: Iphigenia; Orestes (medium); B Iphigenia (medium); rule orestes
+  P11: A no single hero: Andromache; Hermione; Peleus (medium); B Andromache (high); rule andromache
+  P17: A Clytaemestra (medium); B no single hero: Agamemnon; Clytaemestra (low); rule agamemnon
+  P27: A no single hero: Orestes; Furies (medium); B Orestes (medium); rule orestes

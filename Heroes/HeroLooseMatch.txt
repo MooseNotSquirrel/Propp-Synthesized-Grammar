@@ -1,0 +1,7 @@
+# HeroLooseMatch.txt -- a diagnostic after the frozen score, NOT the verdict: two names match if they share a name word (plural s ignored, articles left out).
+tale     readers agree  44 of  45 (98%); the rule matches the agreed hero in  37 of 44 (84%)
+   still differ: A145
+fable    readers agree 160 of 198 (81%); the rule matches the agreed hero in 128 of 160 (80%)
+   still differ: F012, F021, F037, F040, F052, F083, F086, F091, F098, F112, F169, F178, F191, F204, F206, F213, F219, F222, F226, F271, F070, F114, F124, F128, F138, F164, F185, F205, F217, F227, F236, F253, F254, F255, F257, F276, F283, F308
+tragedy  readers agree  27 of  32 (84%); the rule matches the agreed hero in  18 of 27 (67%)
+   still differ: P08, P10, P11, P17, P27

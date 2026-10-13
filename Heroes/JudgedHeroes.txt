@@ -1,0 +1,226 @@
+# JudgedHeroes.txt -- heroes both readers agree on (heroes.py score)
+A093 | Ivan-tsarevich | agrees with the rule
+A095 | Marfusha | agrees with the rule
+A098 | the old man's daughter | agrees with the rule
+A100 | Khavroshechka | agrees with the rule
+A101 | Marya-tsarevna | agrees with the rule
+A104 | Vasilisa | agrees with the rule
+A105 | Zamoryshek | agrees with the rule
+A106 | the zhikhar | agrees with the rule
+A108 | Ivashko | agrees with the rule
+A113 | the girl | agrees with the rule
+A114 | the sister (Katerina) | agrees with the rule
+A115 | the true man | differs from the rule
+A125 | Ivan | agrees with the rule
+A127 | the merchant's daughter | agrees with the rule
+A128 | Ivashko | agrees with the rule
+A131 | Frolka the Sitter | agrees with the rule
+A133 | Pokotygoroshko | agrees with the rule
+A135 | Ivan Popyalov | agrees with the rule
+A136 | Burya-bogatyr Ivan the cow's son | agrees with the rule
+A137 | Ivan Bykovich | agrees with the rule
+A138 | Ivan | agrees with the rule
+A140 | Zorka | agrees with the rule
+A141 | Ivashko-Medvedko | agrees with the rule
+A143 | Nadzei the priest's grandson | agrees with the rule
+A144 | the fool | agrees with the rule
+A148 | Nikita Kozhemyaka | agrees with the rule
+A149 | the Gypsy | differs from the rule
+A150 | the labourer | agrees with the rule
+A151 | Shabarsha | differs from the rule
+A152 | Ivanko Medvedko | agrees with the rule
+A153 | the soldier | agrees with the rule
+A154 | the soldier | agrees with the rule
+A155 | no single hero: Ivan the soldier's son; Ivan-tsarevich | differs from the rule
+A156 | Ivan-tsarevich | agrees with the rule
+A159 | Ivan-tsarevich | agrees with the rule
+A161 | Ivan-tsarevich | agrees with the rule
+A162 | Ivan-tsarevich | agrees with the rule
+A163 | no single hero: Bukhtan Bukhtanovich; the fox | differs from the rule
+A164 | no single hero: Kuzenka; the fox | differs from the rule
+A167 | no single hero: the poor peasant; the son | differs from the rule
+F004 | the Crane | agrees with the rule
+F006 | the Bat | agrees with the rule
+F007 | the Cock | agrees with the rule
+F013 | the Charcoal-Burner | agrees with the rule
+F015 | the Fisherman | agrees with the rule
+F022 | the Flies | agrees with the rule
+F029 | the Bear | agrees with the rule
+F030 | the Tortoise | agrees with the rule
+F034 | the Dog | differs from the rule
+F039 | the Fox | agrees with the rule
+F045 | the Miser | agrees with the rule
+F051 | the Horse | agrees with the rule
+F055 | the Shepherd-boy | agrees with the rule
+F066 | the Jackdaw | agrees with the rule
+F068 | the Old Woman | agrees with the rule
+F071 | the Heifer | agrees with the rule
+F073 | the Charger | agrees with the rule
+F079 | the Monkey | agrees with the rule
+F092 | the Fisherman | agrees with the rule
+F096 | no single hero: the Huntsman; the Fisherman | differs from the rule
+F099 | the Ass | agrees with the rule
+F100 | the Stag | agrees with the rule
+F111 | the Ass | differs from the rule
+F115 | the Bee | agrees with the rule
+F121 | the man who picked up the axe | differs from the rule
+F130 | the Farmer | agrees with the rule
+F132 | the Birdcatcher | agrees with the rule
+F141 | no single hero: the Frog who suggests the well; the Frog who holds back | differs from the rule
+F142 | the Lamp | agrees with the rule
+F145 | the Cat | agrees with the rule
+F149 | the Monkeys | agrees with the rule
+F152 | the Seagull | agrees with the rule
+F157 | the Lion | agrees with the rule
+F161 | the Bald Knight | agrees with the rule
+F163 | no single hero: the loved young Monkey; the neglected young Monkey | differs from the rule
+F165 | the Shepherd | agrees with the rule
+F166 | the Oak | agrees with the rule
+F167 | the Snake | agrees with the rule
+F171 | the Crow | agrees with the rule
+F175 | the Lion | agrees with the rule
+F176 | the Camel | differs from the rule
+F180 | the Woman | differs from the rule
+F186 | the Cat | agrees with the rule
+F192 | the Crow | agrees with the rule
+F193 | the Thief | agrees with the rule
+F198 | the Kid | differs from the rule
+F203 | the Man | differs from the rule
+F207 | the Fox | agrees with the rule
+F210 | the Peacock | agrees with the rule
+F215 | the Lark | agrees with the rule
+F221 | the Fox | agrees with the rule
+F223 | the Fowler | agrees with the rule
+F225 | the Lion | agrees with the rule
+F231 | the Farmer | agrees with the rule
+F232 | no single hero: the Brother; the Sister | differs from the rule
+F239 | the Lion | agrees with the rule
+F240 | the Frog | agrees with the rule
+F244 | the Crow | agrees with the rule
+F248 | the spendthrift | agrees with the rule
+F249 | the Trumpeter | agrees with the rule
+F251 | the Goods | agrees with the rule
+F252 | the Ass | agrees with the rule
+F256 | the Dove | agrees with the rule
+F258 | Momus | agrees with the rule
+F259 | the Jackdaw | agrees with the rule
+F264 | the Lark | agrees with the rule
+F265 | the Gnat | agrees with the rule
+F278 | the Eagle | agrees with the rule
+F279 | the Ass | agrees with the rule
+F281 | the Wolf | agrees with the rule
+F282 | the Hen | agrees with the rule
+F295 | the Rich Man | agrees with the rule
+F297 | no single hero: the Shepherd; the Lion | differs from the rule
+F298 | the Camel | agrees with the rule
+F301 | the Eagle | agrees with the rule
+F302 | the Prince | differs from the rule
+F309 | the Crow | agrees with the rule
+F005 | the Father | differs from the rule
+F008 | no single hero: the Swallow; the Crow | differs from the rule
+F014 | the Boy | agrees with the rule
+F023 | the Lioness | differs from the rule
+F024 | the Farmer | agrees with the rule
+F025 | no single hero: the Man; the Lion | differs from the rule
+F032 | the Raven | agrees with the rule
+F035 | the Oxen | agrees with the rule
+F036 | the Farmer | differs from the rule
+F041 | the Wolf | agrees with the rule
+F042 | the Goatherd | differs from the rule
+F043 | the Man | differs from the rule
+F047 | the Boy | agrees with the rule
+F048 | the Frogs | agrees with the rule
+F050 | the Lion | agrees with the rule
+F060 | the Man | agrees with the rule
+F063 | the Astronomer | agrees with the rule
+F064 | the Sheep | agrees with the rule
+F067 | no single hero: the Kid; the Wolf | differs from the rule
+F069 | the Mother Frog | agrees with the rule
+F072 | no single hero: the winning Cock; the beaten Cock | differs from the rule
+F074 | the Monkey | agrees with the rule
+F078 | the Vine | agrees with the rule
+F081 | the Sprat | differs from the rule
+F084 | the Shepherd | agrees with the rule
+F085 | the mother Crab | agrees with the rule
+F093 | the Wolf | agrees with the rule
+F102 | the Wild Ass | differs from the rule
+F108 | the One-Eyed Doe | differs from the rule
+F116 | the Wolf | agrees with the rule
+F122 | the old Lion | differs from the rule
+F127 | Mercury | agrees with the rule
+F131 | the Wolf | agrees with the rule
+F133 | no single hero: the Ant; the Dove | differs from the rule
+F134 | the Hares | agrees with the rule
+F136 | the Swan | agrees with the rule
+F139 | the Hunter | agrees with the rule
+F143 | the Camel | agrees with the rule
+F144 | the Miller | agrees with the rule
+F148 | the Cock | agrees with the rule
+F154 | the Philosopher | agrees with the rule
+F155 | the Peasant | agrees with the rule
+F159 | no single hero: the Ass; the Fox | differs from the rule
+F160 | the Bull | agrees with the rule
+F162 | the Oaks | agrees with the rule
+F174 | the Lioness | agrees with the rule
+F179 | the Fox | agrees with the rule
+F189 | the Wizard | agrees with the rule
+F195 | the Gnat | agrees with the rule
+F196 | the Fox | agrees with the rule
+F197 | the Walnut-Tree | agrees with the rule
+F200 | the Horse | agrees with the rule
+F208 | the Weasel | agrees with the rule
+F212 | the Hares | agrees with the rule
+F214 | the Nightingale | agrees with the rule
+F216 | the Cock | agrees with the rule
+F220 | the Bull | agrees with the rule
+F224 | the Horse | differs from the rule
+F228 | the Fishermen | agrees with the rule
+F230 | no single hero: the Wolf; the Fox | differs from the rule
+F234 | the Blind Man | agrees with the rule
+F242 | the Dog | agrees with the rule
+F246 | the Wolf | agrees with the rule
+F247 | the Bat | agrees with the rule
+F250 | the Owl | agrees with the rule
+F266 | the Camel | agrees with the rule
+F267 | the Dogs | agrees with the rule
+F269 | no single hero: the Workman; the companion | differs from the rule
+F270 | the Peasant | agrees with the rule
+F273 | Minerva | differs from the rule
+F275 | the Fox | agrees with the rule
+F285 | the Ass | agrees with the rule
+F286 | the Sheep | agrees with the rule
+F290 | the Dog | agrees with the rule
+F291 | the treasure Mule | differs from the rule
+F299 | the Panther | agrees with the rule
+F300 | the Eagle | agrees with the rule
+F303 | the Cat | agrees with the rule
+F304 | the Beetle | differs from the rule
+F307 | the Shipwrecked Man | agrees with the rule
+F313 | the Brazier | agrees with the rule
+P01 | no single hero: Hector; Rhesus | differs from the rule
+P02 | Iolaus | agrees with the rule
+P03 | Oedipus | agrees with the rule
+P04 | no single hero: Ion; Creusa | differs from the rule
+P05 | Hecuba | agrees with the rule
+P06 | no single hero: Antigone; Creon | differs from the rule
+P07 | The maidens | differs from the rule
+P09 | Medea | agrees with the rule
+P12 | Orestes | agrees with the rule
+P13 | Ajax | agrees with the rule
+P14 | Electra | differs from the rule
+P15 | Theseus | agrees with the rule
+P16 | Helen | agrees with the rule
+P18 | no single hero: Polyneices; Eteocles | differs from the rule
+P19 | no single hero: Deianeira; Heracles | differs from the rule
+P20 | Oedipus | agrees with the rule
+P21 | Xerxes | agrees with the rule
+P22 | Admetus | agrees with the rule
+P23 | Orestes | agrees with the rule
+P24 | Hippolytus | agrees with the rule
+P25 | Philoctetes | agrees with the rule
+P26 | Heracles | agrees with the rule
+P28 | Prometheus | agrees with the rule
+P29 | Eteocles | agrees with the rule
+P30 | no single hero: Dionysus; Pentheus | differs from the rule
+P31 | Hecuba | agrees with the rule
+P32 | no single hero: Agamemnon; Iphigenia | differs from the rule
