@@ -18,8 +18,8 @@ The reading rules are those of the first project's ConsentClaim.md, as
 consentScan.py applies them: the superscript is the variety, subscripts
 and marks are dropped, a raised B carries no digit, and a move's B is its
 first. Moves are counted where B and the departure stand together, as
-finding BM counts them; tales are counted where any move carries B, as
-finding BO counts them. A tale is seeker or victim when every digit it
+the first project counted them; tales are counted where any move carries B,
+as it counted them too. A tale is seeker or victim when every digit it
 carries agrees, mixed when they differ, and undigited when it has none.
 
 CAUTION: a move without B says nothing here about its hero. The type is

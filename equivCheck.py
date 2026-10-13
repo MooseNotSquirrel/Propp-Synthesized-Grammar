@@ -21,8 +21,7 @@ WHY IT EXISTS. A grammar whose named productions never refer back to
 themselves generates a regular language, and equality of two regular
 languages is decidable. So a regrouping of v44 can be PROVED to accept
 exactly v44's strings, rather than sampled on the 84 move-strings. This
-program is that proof. It is the first tool of the second project
-(ProppFindings.md, FO and its continuation).
+program is that proof. It is the first tool of the second project.
 
 HOW. Each grammar is read by parse.py's own reader, so a file means here what
 it means to the acceptor. Every nonterminal is expanded in place into a

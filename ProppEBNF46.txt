@@ -13,7 +13,7 @@
 # STRING: the move layer is v44's, symbol for symbol, which the tests
 # prove rather than assert. What it added is STRUCTURE. v44 is a flat slot
 # sequence, so every move-string has one shape; here each move parses into
-# constituents a meaning can attach to. In the terms of finding FO, the
+# constituents a meaning can attach to. In the terms of formal grammar, the
 # weak generative capacity is unchanged and the strong generative
 # capacity is added.
 # Step 2 adds the tale above the move: an optional initial situation, the
@@ -263,7 +263,7 @@ DeceptionTrap  = {trickery} {preliminaryMisfortune} {complicity}
 # REGULAR: move refers to itself through EmbeddedMove.
 # IT STAYS LL(1). The inserted move is bracketed by its own markers, ⟨ and
 # ⟩, so one token shows where it begins and where the interrupted move
-# resumes (finding FO point 4). The markers are this grammar's, not
+# resumes. The markers are this grammar's, not
 # Propp's: his < is the road marker of method 6. Where he prints <III> in
 # a move's row, the tale string carries move III itself, bracketed, at that
 # point (embedCorpus.py).
@@ -351,13 +351,13 @@ EmbeddedMove    = interruptionBegins move interruptionEnds
 
 # --- from the crisis to its liquidation: the A-K pair as a constituent ---
 # p.53: liquidation "together with villainy (A), constitutes a pair".
-# Finding FP: a distant pair can be a constituent one level up, its middle
+# A distant pair can be a constituent one level up, its middle
 # being the groups that fall between. The span also covers a lack and its
 # liquidation, and a continuation move opened on B.
 #
 # J-Q IS NOT A CONSTITUENT, AND CANNOT BE IN THE SAME TREE. Branding (J,
 # XVII) falls inside this span and recognition (Q, XXVII) outside it, so
-# the two spans cross (finding FP). J-Q is carried as a dependency only:
+# the two spans cross. J-Q is carried as a dependency only:
 # the J in StruggleAndOutcome marks the hero whom the Q in Endgame recognizes.
 
 TroubleToLiquidation = complication Development {liquidation Digression}
@@ -609,8 +609,8 @@ wedding                = 'W'                # XXXI
 # CORRECTED FROM v43, which wrote DundesMove = Event [attemptedEscape]
 # consequence and called attempted escape editorial. It is Dundes's own
 # motifeme, and he orders Consequence before Attempted Escape, the escape
-# being from the consequence (the first project's finding FH records his
-# ten motifemes and their order).
+# being from the consequence (Dundes 1964 gives his ten motifemes and
+# their order).
 # ADAPTED FOR v46: a separate root rather than an alternative at the top.
 # A magic tale and a consequence tale can both begin with α γ δ, so one
 # token cannot choose between them; the genre is chosen as a collection
@@ -620,8 +620,8 @@ wedding                = 'W'                # XXXI
 # as villainy does but that no hero undoes, Td for a permanent change to
 # the world as transfiguration changes the hero.
 # THIS IS v43's PROPOSAL AND DUNDES'S SEQUENCE, NOT PROPP'S. No corpus tests
-# it; finding FH records why no Dundes corpus exists and why his pairs,
-# floating freely against one another, forbid little. Switched on and
+# it: no Dundes corpus has been transcribed, and his pairs, floating
+# freely against one another, forbid little. Switched on and
 # tested, then commented out, as decided.
 #+dundes consequenceTale      = [initialSituation] DundesMove {DundesMove}
 #+dundes DundesMove           = DundesEvent consequence [attemptedEscape]

@@ -8,7 +8,7 @@ runCorpus.py -- run a grammar file over the 84 resolved move-strings.
   --moves FILE   default ResolvedMoves.txt
   --fails        print only the failing moves, comma-separated
 
-The runner of ruling 48's plan, stage 3: a thin driver, not a new engine.
+The runner of the plan's stage 3: a thin driver, not a new engine.
 Membership is decided by the grammar itself, through equivCheck.py's
 automaton, so the verdict is the grammar's and not a rank table's.
 

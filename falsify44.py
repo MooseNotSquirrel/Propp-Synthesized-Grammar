@@ -10,7 +10,7 @@ Recognition is therefore a single left-to-right pass:
   2. the opener must be A, a, or B
   3. ranks must never DECREASE (canonical order as subsequence) -- equal is fine
      (a function may recur); a strict decrease is an order violation
-  4. a brace { X / Y } is a repetition or a branching, ruling 68: each
+  4. a brace { X / Y } is a repetition or a branching: each
      member is checked on its own, starting no earlier than the floor,
      and the floor afterwards is the highest rank the brace reached
 
@@ -76,8 +76,8 @@ ALIAS = {'K': ('KF',), 'W': ('w',)}
 
 
 def resolve_file(name):
-    """Return the name if it is on disk, else None. Ruling 63 closed the
-    spelling question: no name in the set carries a space or an underscore."""
+    """Return the name if it is on disk, else None. The spelling question is
+    closed: no name in the set carries a space or an underscore."""
     if os.path.exists(name):
         return name
     return None
@@ -161,7 +161,7 @@ WRAPPERS = ('overflow[', 'park[', ']', '[')   # apparatus, not functions
 # future case in one of those columns needs a notation decision, not a silent
 # fall back to the glyph. Keys are the tags; values are RANK keys.
 # THE TABLE IS HELD TWICE. dagWalk.py's TAGS carries the same two
-# entries. Ruling 84 keeps both rather than importing one from the
+# entries. Both are kept rather than importing one from the
 # other, and nothing checks that they still agree: edit both or neither.
 COLUMN_TAG = {'ᴮ': 'B', 'ᴱ': 'E'}
 
@@ -175,8 +175,8 @@ COLUMN_TAG = {'ᴮ': 'B', 'ᴱ': 'E'}
 #   None      a bracket or sign that reduces to no function
 # G IS DELIBERATELY ABSENT. Propp licenses no G before A, and this list once
 # carried it while omitting T, disagreeing with the licence list in BOTH
-# directions. Finding FJ measured that; ruling 101 corrected it.
-# deviationScan.py imports this rather than restating it (ruling 84's class).
+# directions, until that was measured and corrected.
+# deviationScan.py imports this rather than restating it.
 PRE_CRISIS = ('D', 'E', 'F', 'T', 'up', 'o', 'X', None)
 
 def reduce(tok):

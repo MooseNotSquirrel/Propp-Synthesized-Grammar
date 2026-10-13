@@ -104,7 +104,7 @@
 # DECIDED 2026-09-27, BEFORE STEP 3 WAS BUILT: T may stand
 # anywhere, per p.108, which calls T the most unstable function in
 # relation to its position. That includes before a move's opener, as the
-# first project's ruling 101 already admits. T licenses nothing else.
+# first project's falsify44.py already admits. T licenses nothing else.
 # Step3Spec.txt states the whole move language the step must produce,
 # written flat and independently of the grammar's groups.
 # ---------------------------------------------------------------------------
@@ -164,7 +164,7 @@
 # 4 | includes | Step3Spec.txt ProppEBNF46.txt --start-b move | (original, binding onward)
 # 4 | ll1 | ProppEBNF46.txt F J | (original, binding onward)
 4-4 | includes | Step3Spec.txt ProppEBNF46.txt --start-b move | step 4 only adds: every move step 3 accepts stays accepted
-4-4 | ll1 | ProppEBNF46.txt F J | PREDICTED: the domestic agent puts F in two places, and one token after C cannot tell whether a departure will follow a run of F's; J inherited. This is the obstruction ruling 48 named: a symbol in two unguarded slots
+4-4 | ll1 | ProppEBNF46.txt F J | PREDICTED: the domestic agent puts F in two places, and one token after C cannot tell whether a departure will follow a run of F's; J inherited. This is the obstruction the plan named: a symbol in two unguarded slots
 4 | accept | ProppEBNF46.txt "A B C F up K down" | p.108, the domestic agent: the shape of 105 I
 4 | accept | ProppEBNF46.txt "a B F up D E F" | p.108: an agent at home and a donor on the road, the shape of 93 II
 # 2026-09-27, BEFORE STEP 6 WAS BUILT: closed at step 5, since step 6's
@@ -176,7 +176,7 @@
 4 | accept | ProppEBNF46.txt "A K down Pr H I" | p.107: the fight after a pursuit with no rescue
 4 | reject | ProppEBNF46.txt "A K down Rs H I" | p.107 moves the fight to after a pursuit only; after a rescue alone it stays out of order
 4 | accept | ProppEBNF46.txt "a B C up H I K down Rs Pr U W" | p.147, the humorous inversion [Rs-Pr]: the shape of 150 II
-4-4 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: 80 of 84, ruling 48's target. The six domestic-agent moves, 93 III and 150 II pass; only the four genuine counterexamples fail
+4-4 | corpusfails | ProppEBNF46.txt move "126 II,127 I,137 II,138 III" | PREDICTION: 80 of 84, the plan's target. The six domestic-agent moves, 93 III and 150 II pass; only the four genuine counterexamples fail
 
 
 # ---------------------------------------------------------------------------
@@ -308,7 +308,7 @@
 6 | under | ProppEBNF46.txt "A K o L" 3 FraudPosture | p.104: unrecognized arrival and unfounded claims shift between the two schemes together
 
 # ---------------------------------------------------------------------------
-# STEP 7. Embedded moves, ruling 48's third target. LANGUAGE-CHANGING.
+# STEP 7. Embedded moves, the plan's third target. LANGUAGE-CHANGING.
 # Frozen 2026-09-27 before step 7 was built.
 #
 # p.93: "a development which has begun pauses, and a new move is
@@ -322,7 +322,7 @@
 # The grammar is no longer regular. T's free place shares the same slot.
 #
 # PREDICTED: still LL(1), since the markers show where an inserted move
-# begins and ends (finding FO point 4). With the interruption removed the
+# begins and ends. With the interruption removed the
 # grammar is exactly step 6's. Over the 45 tales, 41 accepted, failing
 # exactly the tales holding the four genuine counterexamples.
 # ---------------------------------------------------------------------------
@@ -417,7 +417,7 @@
 9 | accept | ProppEBNF46.txt "up A B C up K" | p.107: the exit from home first, the hero learning of the misfortune on the road
 9 | accept | ProppEBNF46.txt "F A C up K" | p.107: an agent received before the misfortune, untested; the shape of 104 I and 125 II
 9 | accept | ProppEBNF46.txt "T D E F A K" | p.108: T anywhere, before the inverted sequence too
-9 | reject | ProppEBNF46.txt "D E F G A K" | p.107 inverts DEF and the departure only; G before A is licensed nowhere (the first project's ruling 101)
+9 | reject | ProppEBNF46.txt "D E F G A K" | p.107 inverts DEF and the departure only; G before A is licensed nowhere (the first project's falsify44.py)
 9-9 | reject | ProppEBNF46.txt "D E F up A K" | design, not a page: p.107 gives the two inversions separately, and the corpus shows the departure first when both occur
 9 | reject | ProppEBNF46.txt "D ⟨ A K ⟩ A K" | p.93: nothing pauses before a move begins, and the inverted sequence comes before the crisis
 9-11 | under | ProppEBNF46.txt "D E F A K" 2 HelperFirst | p.107: the helper received first
@@ -445,7 +445,7 @@
 # then a consequence, punishment or an environmental shift Td. CORRECTED
 # FROM v43: Dundes orders Consequence before Attempted Escape, the escape
 # being from the consequence, and Attempted Escape is his motifeme, not an
-# editorial one (first project, finding FH). v43 had the escape first.
+# editorial one (Dundes 1964). v43 had the escape first.
 # ADAPTED: a separate root, consequenceTale, since a magic tale and a
 # consequence tale can both begin with α γ δ and one token cannot choose.
 #
@@ -573,7 +573,7 @@
 11-11 | talefails | ProppEBNF46.txt "126,127,137,138" | health check: embedCorpus.py still parses the 45 tales with the step 11 grammar
 
 # THE HERO, 2026-09-27. Frozen before heroType.py was written. The figures
-# are PREDICTED from the first project's findings BM and BO, which read the
+# are PREDICTED from the first project's counts, which read the
 # hero type from B's variety digit by p.37 (B1-B4 seeker, B5-B7 victim);
 # heroType.py must reproduce them independently.
 11 | herotype | "B with departure 37: seeker 30 (C 27), victim 4 (C 3), undigited 3 (C 3); tales with B 32: seeker 26, victim 3 (95 98 101), undigited 3, mixed 0" | pp.36-38: the tale follows a seeker or a victimized hero, never both; B's variety digit tells which, and C belongs to the seeker

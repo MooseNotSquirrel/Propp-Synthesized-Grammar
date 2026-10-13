@@ -56,7 +56,7 @@ The markers, and what this stage does with each (all attested in the corpus):
         instead of A/a (Propp p. 37: mediation substitutes for villainy). The
         resolver does nothing; the grammar's opener set A|a|B handles it.
 
-  { X / Y }   repetition or branching, ruling 68. NOT combination --
+  { X / Y }   repetition or branching. NOT combination --
         either way it is internal move structure, and it stays for the
         parser to handle. The resolver leaves braces untouched.
 """

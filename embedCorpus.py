@@ -9,7 +9,7 @@ Propp's interruptions kept as embedded moves, and a runner over them.
 Stage 1 of the first project, resolve.py, discharges every combination
 marker and emits one flat string per move. This derivation keeps the
 interruptions, so a grammar in which a move can contain a move can meet the
-corpus (ruling 48's plan, stage 4; finding BJ's second derivation).
+corpus (the plan's stage 4: a second derivation of the corpus).
 
 THE DERIVATION RULES, frozen before the first run.
 
