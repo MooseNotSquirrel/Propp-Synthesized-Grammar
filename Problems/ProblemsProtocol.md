@@ -1,6 +1,6 @@
 # The genres' problem structures: the test
 
-**DRAFT, 2026-10-13, to be frozen at the owner's word, before any description of the test stories.** Once frozen, a departure is logged in `Problems/KeeperLog.md`, not made here.
+**Frozen 2026-10-13 at the owner's word, before any description of the test stories.** Once frozen, a departure is logged in `Problems/KeeperLog.md`, not made here.
 
 ## The question
 
