@@ -275,7 +275,7 @@ A reader who matched Propp perfectly would be reproducing his conventions, not o
 **Studies that score against Propp should score against that ceiling and against chance, not against perfect agreement.**
 Raw agreement overstates what is shared: two wondertale schemes picked at random already agree about 0.4 on content.
 Thresholds set from Propp's own schemes can be out of reach for any instrument.
-In companion tests on fables and Greek tragedy, thresholds for grammar acceptance and coverage set from Propp's schemes could not be met by this instrument even on Propp's own tales, so their failure said nothing about the genres; comparisons made instrument to instrument, with these 45 transcribed tales as the reference, did.
+In companion tests on fables and Greek tragedy, to be published separately, thresholds for grammar acceptance and coverage set from Propp's schemes could not be met by this instrument even on Propp's own tales, so their failure said nothing about the genres; comparisons made instrument to instrument, with these 45 transcribed tales as the reference, did.
 
 **What the instrument does well is read the tale in front of it, consistently.**
 It beats the wrong-tale baseline in every cell, two different models agree with each other well beyond chance, and a correction to the card changes nothing measurable.
@@ -284,20 +284,21 @@ Measures that compare the instrument with itself, such as shuffle baselines or o
 **The order Propp described is a tendency of the tales, not a law.**
 His sequence of large sections is the best simple description of the wondertale's order we found, but in the tales as read it holds about five times in six (section 8).
 The right instrument for such an order is a scored grammar, not one that accepts or rejects.
-In companion work, Propp's pairs and groups held together as units in every genre tested while their order varied; on that evidence, a catalog of the units and their meanings may describe these narratives better than any fixed sequence.
+In companion work, also to be published separately, Propp's pairs and groups held together as units in every genre tested while their order varied; on that evidence, a catalog of the units and their meanings may describe these narratives better than any fixed sequence.
 
 **Limitations.**
-Both transcribers and the listers are models of one family, so their shared departures from Propp may reflect a shared reading; a third family, and the human benchmark, are needed to separate the two.
+Both transcribers and the listers are models of one family, so their shared departures from Propp may reflect a shared reading; the human benchmark of section 9 suggests they do not, but a third family of models would test it directly.
 The event lists were made by models and fixed the units the transcribers labeled; Propp worked from the tales directly.
 The rules and card are in English while the tales are not.
 Appendix III covers 45 of Propp's hundred tales; the others have no printed scheme to compare with.
 
 ## 11. Data and code
 
-**Every text, prompt, transcription and program is public, and every result can be rerun.**
-- The tale texts, extraction, rules, prompts, event lists, transcriptions and probe answers: the repository Propp-Afanasyev.
-- Propp's schemes and the grammar: the repositories Propp-Grammar and Propp-Synthesized-Grammar.
-- The protocol and comparison program (`Calibration/CalibrationProtocol.md`, `Calibration/compare.py`, output `Calibration/CompareRun.txt`); the improvement test (`Calibration/ImproveProtocol.md`, `Calibration/Split.txt`, `Calibration/improveTest.py`, outputs `Calibration/ImproveDev.txt` and `Calibration/ImproveTestRun.txt`); the order of sections (`Calibration/SectionGrammar.md`, `Calibration/sectionGrammar.py`, `Calibration/SectionGrammar01.txt`, outputs `Calibration/SectionOrderExplore.txt` and `Calibration/SectionGrammarRun.txt`); the human benchmark (`Calibration/Benchmark/`, output `BenchmarkRun.txt`); the published human strings and their scoring (`Calibration/PriorHuman/`): Propp-Synthesized-Grammar.
+**Every text, prompt, transcription and program is published with this report, and every result can be rerun.**
+The package has two folders.
+- `Afanasyev/`: the tale texts and their extraction, the rules, the prompts, the event lists, the transcriptions of both arms, and the probe's answers.
+- `Grammar/`: Propp's schemes (`TaleTokenStreamsV4Utf8.txt`), the formal grammar (`ProppEBNF46.txt`), the programs, and the following.
+- The protocol and comparison program (`Calibration/CalibrationProtocol.md`, `Calibration/compare.py`, output `Calibration/CompareRun.txt`); the improvement test (`Calibration/ImproveProtocol.md`, `Calibration/Split.txt`, `Calibration/improveTest.py`, outputs `Calibration/ImproveDev.txt` and `Calibration/ImproveTestRun.txt`); the order of sections (`Calibration/SectionGrammar.md`, `Calibration/sectionGrammar.py`, `Calibration/SectionGrammar01.txt`, outputs `Calibration/SectionOrderExplore.txt` and `Calibration/SectionGrammarRun.txt`); the human benchmark (`Calibration/Benchmark/`, output `BenchmarkRun.txt`); the published human strings and their scoring (`Calibration/PriorHuman/`); and the run record of every stage, with each departure from the protocols (`Calibration/KeeperLog.md`).
 
 ## References
 
