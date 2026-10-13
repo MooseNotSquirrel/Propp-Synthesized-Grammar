@@ -1,0 +1,4 @@
+# PostHoc.txt -- posthoc.py, after the verdict; reported, not judged.
+
+frozen mapping                                 A 0.265  B 0.245  mean 0.255   (original A against B 0.502)
+trickery and villainy whoever performs them    A 0.278  B 0.266  mean 0.272   (original A against B 0.502)

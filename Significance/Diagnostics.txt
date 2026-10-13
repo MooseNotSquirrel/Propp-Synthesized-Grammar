@@ -1,0 +1,27 @@
+# Diagnostics.txt -- diagnose.py, after the verdict; reported, not judged.
+
+1. WITHOUT P18 (1663 events): original A against B 0.507; two layers mean 0.250; three layers mean 0.258; gap closed 3%
+
+2. WHETHER AN EVENT CARRIES A FUNCTION AT ALL (events with at least one; agreement = both / either)
+  original A 978, original B 1047; A against B 0.722
+  A two layers   derived 1174; against original A 0.529
+  A three layers derived 1022; against original A 0.543
+  B two layers   derived 1154; against original B 0.534
+  B three layers derived 1042; against original B 0.523
+
+3. PRECISION AND RECALL of the derived functions against the same letter's original, summed over events
+  A two layers   predicted 1497, original 1128, both  528: precision 0.35, recall 0.47
+  A three layers predicted 1341, original 1128, both  517: precision 0.39, recall 0.46
+  B two layers   predicted 1359, original 1263, both  514: precision 0.38, recall 0.41
+  B three layers predicted 1278, original 1263, both  500: precision 0.39, recall 0.40
+
+4. THE SIGNIFICANCE MAPPING'S ERRORS, both describers together
+  added where the original has not: B 147, A 121, K 108, γ 102, F 97, D 96, E 91, I 75, ζ 74, a 65, Ex 57, W 55
+  missed where the original has:    a 144, A 133, F 128, η 86, B 68, γ 66, E 57, C 54, ↑ 47, H 45, K 40, D 38
+
+5. THE MOST MISSED FUNCTIONS: the acts and places the describers gave in those events, both describers together
+  a: plead/does/serves 38, plead/neither/serves 18, plead/undergoes/serves 9, receive/does/serves 6, plead/does/none 6, seek-information/neither/serves 5
+  A: harm/neither/none 20, harm/does/opens 12, harm/neither/opens 10, harm/does/repairs 8, harm/neither/worsens 8, harm/does/worsens 7
+  F: plead/does/serves 15, respond/undergoes/worsens 15, plead/undergoes/serves 12, reveal-information/undergoes/serves 11, respond/does/serves 9, give/undergoes/rewards 5
+  η: deceive/does/serves 69, be-taken-in/undergoes/serves 14, plead/undergoes/serves 9, seek-information/undergoes/serves 8, give/undergoes/serves 5, threaten/does/serves 5
+  B: reveal-information/neither/serves 14, plead/does/serves 11, send/neither/serves 8, reveal-information/does/serves 5, reveal-information/undergoes/serves 5, plead/undergoes/serves 5

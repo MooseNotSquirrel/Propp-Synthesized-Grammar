@@ -1,0 +1,28 @@
+# SignificanceRun.txt -- significance.py score, as SignificanceProtocol.md freezes it.
+
+Events compared: 1830, in 75 stories with a judged hero (in both original transcriptions and both descriptions)
+
+original A against B: 0.502
+two layers (the frozen mapping, the hero's part as described): A 0.252, B 0.244, mean 0.248
+three layers (the significance mapping): A 0.265, B 0.245, mean 0.255
+share of the gap closed: 3%
+
+VERDICT: THE SIGNIFICANCE LAYER DOES NOT RECOVER PROPP'S FUNCTIONS
+
+PREDICTIONS (the keeper's, recorded before any description)
+  1. the three-layer mean lies between 0.30 and 0.40: 0.255 -> FAILS
+  2. the verdict is the third level, closing less than half the gap: HOLDS
+
+REPORTED, NOT JUDGED
+  tale     events  799: original A against B 0.510; two layers A 0.286 B 0.268; three layers A 0.317 B 0.286
+  fable    events  204: original A against B 0.566; two layers A 0.253 B 0.237; three layers A 0.241 B 0.221
+  tragedy  events  827: original A against B 0.465; two layers A 0.195 B 0.205; three layers A 0.183 B 0.178
+  learned, act + hero's part                       A 0.230  B 0.244  mean 0.237
+  learned, act + hero's part + value + place       A 0.229  B 0.242  mean 0.235
+  agreement where both give an event the same act (1867): hero's part 91%, value 80%, place 76%
+  tale     A: 22 stories, 70 problems (3.2 a story); repaired 94%, punished 26%, rewarded 29%
+  tale     B: 22 stories, 60 problems (2.7 a story); repaired 92%, punished 27%, rewarded 35%
+  fable    A: 45 stories, 55 problems (1.2 a story); repaired 44%, punished 11%, rewarded 2%
+  fable    B: 45 stories, 50 problems (1.1 a story); repaired 44%, punished 12%, rewarded 4%
+  tragedy  A: 8 stories, 41 problems (5.1 a story); repaired 63%, punished 34%, rewarded 20%
+  tragedy  B: 8 stories, 25 problems (3.1 a story); repaired 72%, punished 28%, rewarded 16%
