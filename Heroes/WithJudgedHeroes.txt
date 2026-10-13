@@ -1,0 +1,24 @@
+# WithJudgedHeroes.txt -- withJudgedHeroes.py, a re-analysis with the heroes both readers agree on; not a frozen test.
+Stories with a judged hero: 247
+
+1. THE FAILED HERO, with judged heroes (original transcriptions)
+  tale     A:  44 stories with a judged hero; the hero succeeds in  44; then exposed, punished or defeated  1; a villainy on the hero never undone  3 (7%) 
+  tale     B:  44 stories with a judged hero; the hero succeeds in  43; then exposed, punished or defeated  0; a villainy on the hero never undone  3 (7%) 
+  fable    A: 171 stories with a judged hero; the hero succeeds in  32; then exposed, punished or defeated  3; a villainy on the hero never undone  4 (12%) 
+  fable    B: 171 stories with a judged hero; the hero succeeds in  34; then exposed, punished or defeated  3; a villainy on the hero never undone  6 (18%) 
+  tragedy  A:  32 stories with a judged hero; the hero succeeds in  29; then exposed, punished or defeated  5; a villainy on the hero never undone  6 (21%) P01 P09 P17 P18 P28 P31
+  tragedy  B:  32 stories with a judged hero; the hero succeeds in  27; then exposed, punished or defeated  5; a villainy on the hero never undone  6 (22%) P01 P13 P17 P18 P29 P31
+
+2. THE TRICKSTER, with judged heroes (act transcriptions; stories with a judged hero)
+  tale     A: the hero found in 17 of 22 stories; the hero deceives in 20 of 82 deceptions (24%), harms in 16 of 85 (19%)
+  tale     B: the hero found in 16 of 22 stories; the hero deceives in 16 of 68 deceptions (24%), harms in 19 of 77 (25%)
+  fable    A: the hero found in 45 of 45 stories; the hero deceives in 5 of 7 deceptions (71%), harms in 7 of 28 (25%)
+  fable    B: the hero found in 45 of 45 stories; the hero deceives in 5 of 7 deceptions (71%), harms in 8 of 28 (29%)
+  tragedy  A: the hero found in 8 of 8 stories; the hero deceives in 5 of 22 deceptions (23%), harms in 43 of 120 (36%)
+  tragedy  B: the hero found in 8 of 8 stories; the hero deceives in 4 of 19 deceptions (21%), harms in 40 of 112 (36%)
+
+3. RECOVERING PROPP, with judged heroes (TwoLayer's third measure; stories with a judged hero)
+  tale     events  799: recovered against original A 0.276, B 0.278; original A against B 0.510
+  fable    events  204: recovered against original A 0.254, B 0.227; original A against B 0.566
+  tragedy  events  827: recovered against original A 0.200, B 0.206; original A against B 0.465
+  all      events 1830: recovered against original A 0.247, B 0.248; original A against B 0.502
