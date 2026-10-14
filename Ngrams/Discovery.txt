@@ -1,0 +1,52 @@
+# Discovery.txt -- ngrams.py discover: the discovery half of every corpus, as NgramProtocol.md freezes it.
+
+functions: discovery stories A 126, B 128; vocabulary A 43, B 40
+  adjacent: 20 candidates
+    ε -> ζ   A n 5 lift 9.07 p 0.0010; B n 9 lift 11.54 p 0.0010
+    B -> C   A n 21 lift 7.96 p 0.0010; B n 25 lift 6.29 p 0.0010
+    η -> θ   A n 49 lift 5.75 p 0.0010; B n 52 lift 5.96 p 0.0010
+    D -> E   A n 32 lift 6.96 p 0.0010; B n 38 lift 5.65 p 0.0010
+    I -> L   A n 7 lift 7.25 p 0.0010; B n 6 lift 5.59 p 0.0010
+    H -> I   A n 26 lift 5.43 p 0.0010; B n 21 lift 5.67 p 0.0010
+    D -> E−   A n 8 lift 5.37 p 0.0010; B n 11 lift 5.03 p 0.0010
+    M -> N   A n 12 lift 5.00 p 0.0010; B n 13 lift 7.25 p 0.0010
+    C -> ↑   A n 15 lift 6.08 p 0.0010; B n 13 lift 4.91 p 0.0010
+    E -> G   A n 8 lift 6.02 p 0.0010; B n 7 lift 4.76 p 0.0010
+    K -> W   A n 7 lift 4.71 p 0.0010; B n 7 lift 5.32 p 0.0010
+    ↑ -> D   A n 8 lift 4.45 p 0.0010; B n 11 lift 4.27 p 0.0010
+    γ -> δ   A n 14 lift 3.97 p 0.0010; B n 18 lift 4.27 p 0.0010
+    θ -> I   A n 14 lift 3.33 p 0.0010; B n 12 lift 3.71 p 0.0010
+    B -> ↑   A n 13 lift 3.29 p 0.0010; B n 13 lift 2.76 p 0.0020
+    I -> K   A n 9 lift 2.29 p 0.0070; B n 13 lift 4.07 p 0.0010
+    a -> F−   A n 16 lift 2.24 p 0.0010; B n 22 lift 3.02 p 0.0010
+    A -> B   A n 22 lift 2.57 p 0.0010; B n 28 lift 2.04 p 0.0020
+    θ -> A   A n 15 lift 1.95 p 0.0050; B n 17 lift 2.00 p 0.0040
+    a -> F   A n 20 lift 2.05 p 0.0040; B n 21 lift 1.92 p 0.0020
+  near (2 to 4 apart): 5 candidates
+    N -> K   A n 7 lift 6.82 p 0.0010; B n 5 lift 5.85 p 0.0020
+    η -> I   A n 29 lift 2.12 p 0.0010; B n 27 lift 2.38 p 0.0010
+    ↑ -> H   A n 14 lift 2.12 p 0.0050; B n 13 lift 2.31 p 0.0030
+    B -> ↑   A n 21 lift 1.95 p 0.0020; B n 26 lift 1.94 p 0.0010
+    η -> θ   A n 34 lift 1.60 p 0.0040; B n 40 lift 1.83 p 0.0010
+
+acts: discovery stories A 80, B 80; vocabulary A 36, B 36
+  adjacent: 14 candidates
+    forbid -> disobey   A n 13 lift 6.12 p 0.0010; B n 13 lift 7.10 p 0.0010
+    deceive -> be-taken-in   A n 36 lift 6.22 p 0.0010; B n 27 lift 5.24 p 0.0010
+    expose -> punish   A n 5 lift 5.05 p 0.0010; B n 6 lift 5.38 p 0.0010
+    guide -> lament   A n 5 lift 4.57 p 0.0040; B n 6 lift 6.37 p 0.0010
+    set-task -> do-task   A n 5 lift 6.53 p 0.0010; B n 5 lift 4.23 p 0.0020
+    seek-information -> reveal-information   A n 34 lift 4.12 p 0.0010; B n 20 lift 4.18 p 0.0010
+    test -> fight   A n 9 lift 5.91 p 0.0010; B n 7 lift 3.96 p 0.0010
+    be-taken-in -> harm   A n 20 lift 3.96 p 0.0010; B n 16 lift 5.09 p 0.0010
+    test -> respond   A n 19 lift 5.05 p 0.0010; B n 17 lift 3.70 p 0.0010
+    fight -> win   A n 12 lift 5.56 p 0.0010; B n 9 lift 3.44 p 0.0010
+    seek-information -> deceive   A n 13 lift 3.50 p 0.0010; B n 10 lift 3.26 p 0.0020
+    fight -> deceive   A n 8 lift 2.61 p 0.0080; B n 8 lift 2.70 p 0.0100
+    plead -> respond   A n 69 lift 3.50 p 0.0010; B n 48 lift 2.57 p 0.0010
+    harm -> escape   A n 11 lift 2.43 p 0.0040; B n 10 lift 2.44 p 0.0020
+  near (2 to 4 apart): 3 candidates
+    be-taken-in -> escape   A n 8 lift 3.40 p 0.0030; B n 6 lift 3.52 p 0.0040
+    fight -> win   A n 20 lift 4.07 p 0.0010; B n 20 lift 3.30 p 0.0010
+    deceive -> harm   A n 52 lift 1.61 p 0.0020; B n 50 lift 1.55 p 0.0010
+
