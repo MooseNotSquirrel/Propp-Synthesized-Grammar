@@ -1,6 +1,6 @@
 # Acts in the describers' own words: the bottom-up test
 
-**DRAFT, 2026-10-14, to be frozen at the owner's word, before any description under it.** Once frozen, a departure is logged in `Free/KeeperLog.md`, not made here.
+**Frozen 2026-10-14 at the owner's word, before any description under it.** Once frozen, a departure is logged in `Free/KeeperLog.md`, not made here.
 
 ## The question
 
