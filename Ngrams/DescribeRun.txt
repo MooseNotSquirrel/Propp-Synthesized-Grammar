@@ -1,0 +1,49 @@
+# DescribeRun.txt -- ngrams.py describe: all stories; the frequency analysis as NgramProtocol.md freezes it.
+
+functions, transcriber A: 275 stories, 3582 tokens
+  1-grams: 44 kinds; rank-frequency slope -1.51, shuffled -1.51
+  2-grams: 671 kinds; rank-frequency slope -0.99, shuffled -0.86
+  3-grams: 1939 kinds; rank-frequency slope -0.49, shuffled -0.29
+  tale     next-token entropy 3.099 bits, shuffled 4.095, p 0.0050
+  fable    next-token entropy 2.793 bits, shuffled 3.055, p 0.0050
+  tragedy  next-token entropy 3.541 bits, shuffled 3.862, p 0.0050
+  all      next-token entropy 3.699 bits, shuffled 4.283, p 0.0050
+  1-grams seen 3 times or more: 39; genre over-representation beyond chance, rarest third +0.67, commonest third +0.21
+  2-grams seen 3 times or more: 293; genre over-representation beyond chance, rarest third -0.01, commonest third +0.30
+
+functions, transcriber B: 275 stories, 3941 tokens
+  1-grams: 42 kinds; rank-frequency slope -1.38, shuffled -1.38
+  2-grams: 659 kinds; rank-frequency slope -1.04, shuffled -0.90
+  3-grams: 2003 kinds; rank-frequency slope -0.53, shuffled -0.34
+  tale     next-token entropy 3.176 bits, shuffled 4.168, p 0.0050
+  fable    next-token entropy 2.757 bits, shuffled 3.033, p 0.0050
+  tragedy  next-token entropy 3.411 bits, shuffled 3.715, p 0.0050
+  all      next-token entropy 3.636 bits, shuffled 4.249, p 0.0050
+  1-grams seen 3 times or more: 40; genre over-representation beyond chance, rarest third +0.29, commonest third +0.26
+  2-grams seen 3 times or more: 295; genre over-representation beyond chance, rarest third +0.12, commonest third +0.37
+
+acts, transcriber A: 159 stories, 5995 tokens
+  1-grams: 36 kinds; rank-frequency slope -0.93, shuffled -0.93
+  2-grams: 944 kinds; rank-frequency slope -0.96, shuffled -0.92
+  3-grams: 3886 kinds; rank-frequency slope -0.43, shuffled -0.33
+  tale     next-token entropy 4.102 bits, shuffled 4.476, p 0.0050
+  fable    next-token entropy 2.672 bits, shuffled 3.050, p 0.0050
+  tragedy  next-token entropy 3.981 bits, shuffled 4.168, p 0.0050
+  all      next-token entropy 4.285 bits, shuffled 4.541, p 0.0050
+  1-grams seen 3 times or more: 36; genre over-representation beyond chance, rarest third +0.37, commonest third +0.15
+  2-grams seen 3 times or more: 563; genre over-representation beyond chance, rarest third +0.40, commonest third +0.26
+
+acts, transcriber B: 159 stories, 5519 tokens
+  1-grams: 36 kinds; rank-frequency slope -0.98, shuffled -0.98
+  2-grams: 907 kinds; rank-frequency slope -0.96, shuffled -0.93
+  3-grams: 3589 kinds; rank-frequency slope -0.42, shuffled -0.34
+  tale     next-token entropy 4.055 bits, shuffled 4.397, p 0.0050
+  fable    next-token entropy 2.564 bits, shuffled 2.999, p 0.0050
+  tragedy  next-token entropy 3.971 bits, shuffled 4.115, p 0.0050
+  all      next-token entropy 4.260 bits, shuffled 4.478, p 0.0050
+  1-grams seen 3 times or more: 36; genre over-representation beyond chance, rarest third +0.48, commonest third +0.31
+  2-grams seen 3 times or more: 499; genre over-representation beyond chance, rarest third +0.75, commonest third +0.25
+
+PREDICTIONS (NgramProtocol.md)
+  4. next-token entropy below the shuffled strings, p <= 0.05, in every genre and all together, both layers and transcribers: 16 of 16 -> HOLDS
+  5. the rarest third more over-represented in one genre beyond chance than the commonest third, for single tokens and pairs, both layers and transcribers: 6 of 8 -> FAILS
