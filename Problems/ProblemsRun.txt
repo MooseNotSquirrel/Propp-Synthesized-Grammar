@@ -1,0 +1,47 @@
+# ProblemsRun.txt -- problems.py score, as ProblemsProtocol.md freezes it.
+
+stories: A tale 22, A fable 41, A tragedy 16, B tale 22, B fable 41, B tragedy 16
+measure        L           tale          fable        tragedy
+                  raw / excess   raw / excess   raw / excess
+problems       A    3.23/ +0.00    1.17/ +0.01    4.25/ +0.00
+problems       B    2.59/ +0.00    1.07/ +0.00    2.69/ +0.00
+repaired       A    0.99/ +0.19    0.33/ -0.01    0.69/ -0.21
+repaired       B    0.96/ +0.19    0.43/ +0.12    0.81/ -0.13
+open           A    0.01/ -0.09    0.46/ -0.07    0.17/ +0.14
+open           B    0.02/ -0.11    0.38/ -0.21    0.16/ +0.14
+hero opens     A    0.06/ -0.19    0.55/ +0.31    0.22/ -0.03
+hero opens     B    0.07/ -0.19    0.49/ +0.24    0.21/ -0.05
+ends repaired  A    0.95/ +0.15    0.28/ -0.00    0.81/ -0.10
+ends repaired  B    1.00/ +0.24    0.36/ +0.11    0.88/ -0.07
+acts help      A    0.62/ +0.16    0.23/ -0.21    0.37/ -0.09
+acts help      B    0.64/ +0.15    0.25/ -0.24    0.44/ -0.06
+acts harm      A    0.19/ -0.06    0.42/ +0.17    0.27/ +0.01
+acts harm      B    0.18/ -0.10    0.43/ +0.15    0.30/ +0.03
+
+PREDICTIONS, on the excess (each holds when the higher genre is higher by at least 0.05 and the one-sided permutation p <= 0.05, for both describers)
+   1. repaired      tale    above tragedy HOLDS   A +0.40 p 0.0001; B +0.32 p 0.0001
+   2. repaired      fable   above tragedy HOLDS   A +0.21 p 0.0270; B +0.26 p 0.0155
+   3. open          tragedy above tale    HOLDS   A +0.23 p 0.0001; B +0.25 p 0.0001
+   4. open          tragedy above fable   HOLDS   A +0.21 p 0.0286; B +0.34 p 0.0012
+   5. hero opens    fable   above tale    HOLDS   A +0.49 p 0.0001; B +0.43 p 0.0001
+   6. ends repaired tale    above tragedy HOLDS   A +0.24 p 0.0084; B +0.30 p 0.0001
+   7. ends repaired fable   above tragedy FAILS   A +0.09 p 0.2238 x; B +0.18 p 0.0805 x
+   8. acts help     tale    above fable   HOLDS   A +0.38 p 0.0001; B +0.39 p 0.0001
+   9. acts help     tale    above tragedy HOLDS   A +0.25 p 0.0001; B +0.21 p 0.0001
+  10. acts harm     fable   above tale    HOLDS   A +0.23 p 0.0001; B +0.25 p 0.0002
+  11. acts harm     tragedy above tale    HOLDS   A +0.07 p 0.0331; B +0.12 p 0.0017
+
+VERDICT: 10 of 11 predictions hold -> THE GENRES HAVE DISTINCT PROBLEM STRUCTURES
+
+REPORTED, NOT JUDGED
+  not predicted, problems      tale    against fable   (excess, two-sided): A -0.01 p 0.0076; B -0.00 p 0.0196
+  not predicted, problems      tale    against tragedy (excess, two-sided): A +0.00 p 1.0000; B +0.00 p 1.0000
+  not predicted, problems      fable   against tragedy (excess, two-sided): A +0.01 p 0.0230; B +0.00 p 0.0552
+  not predicted, repaired      tale    against fable   (excess, two-sided): A +0.19 p 0.0272; B +0.07 p 0.5049
+  not predicted, open          tale    against fable   (excess, two-sided): A -0.02 p 0.8567; B +0.09 p 0.3266
+  not predicted, hero opens    tale    against tragedy (excess, two-sided): A -0.16 p 0.0192; B -0.14 p 0.0608
+  not predicted, hero opens    fable   against tragedy (excess, two-sided): A +0.34 p 0.0136; B +0.28 p 0.0354
+  not predicted, ends repaired tale    against fable   (excess, two-sided): A +0.15 p 0.1200; B +0.12 p 0.2316
+  not predicted, acts help     fable   against tragedy (excess, two-sided): A -0.13 p 0.0902; B -0.19 p 0.0120
+  not predicted, acts harm     fable   against tragedy (excess, two-sided): A +0.16 p 0.0312; B +0.12 p 0.1270
+  agreement where both give an event the same act (2638): hero's part 94%, value 83%, place 76%
