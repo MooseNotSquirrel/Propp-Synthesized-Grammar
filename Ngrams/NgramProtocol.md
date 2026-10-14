@@ -1,6 +1,6 @@
 # Frequencies of functions and acts: the analysis
 
-**DRAFT, 2026-10-14, to be frozen at the owner's word, before any pair or n-gram is counted.** Once frozen, a departure is logged in `Ngrams/KeeperLog.md`, not made here.
+**Frozen 2026-10-14 at the owner's word, before any pair or n-gram is counted.** Once frozen, a departure is logged in `Ngrams/KeeperLog.md`, not made here.
 
 ## The questions
 
