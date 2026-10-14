@@ -1,0 +1,6 @@
+# Keeper log: acts in the describers' own words
+
+**2026-10-14. Designed, not yet frozen** (`FreeProtocol.md`, `FreeRules.md`, `free.py`), at the owner's word to go ahead with the bottom-up test offered after the frequency analysis. No lexical resource (WordNet and the like) is installed, and fetching one would need the owner's leave; so the describers are asked for the commonest everyday verb, which keeps synonyms together at the source, and no program groups them.
+**The rules' first examples would have primed the test** (a trick, then its victim opening the door: the trickery and complicity pair) and were replaced with neutral ones (sell, buy) before anything was written into the describers' repository.
+**The scorer checked on synthetic descriptions:** two synonyms per act pass all three predictions; random verbs fail all three. A first criterion for the units, accuracy of at least 0.8, passed forbid and disobey under random verbs, forbid being nine tenths of those events; replaced by the gain over chance.
+**The describers' material written** into Propp-ActsRoles `free/` (`free.py setup`): the rules, and prompts for twenty batches per describer pointing to the stories and event lists already there; five stages in `RUN.md`, marked not yet cleared.
