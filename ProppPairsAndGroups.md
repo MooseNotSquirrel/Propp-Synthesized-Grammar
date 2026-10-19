@@ -370,6 +370,7 @@ A long-distance link such as departure and return is hard to write as a producti
 
 **A link joins two functions that can stand far apart, with any number of others between them, and the second may never come.**
 It is a relation, not a rule: the first tends to bring the second later in the same move.
+The bottom-up test (`Free/`, 2026-10-19) found the same of the close pairs: readers given no list of acts name the first half of each pair with a verb of its own, but the second half only as whatever act breaks or fulfils the first, so the pairs are relations too.
 These links come from the outline this catalog follows; which of them Propp states, and on which page, is still to be marked.
 Their strength at any distance is not yet measured; the frequency analysis looked only up to four places apart, and its findings are given.
 

@@ -1,0 +1,43 @@
+# FreeRun.txt -- free.py score, as FreeProtocol.md freezes it.
+
+describer A: 159 stories, 7663 entries, 662 verbs (201 used once); the commonest, with the act they meet most often in clean events and its share:
+  tell 443 (reveal-information 65%); ask 349 (plead 48%); order 207 (forbid 86%); come 196 (other 41%); send 165 (send 70%); refuse 154 (respond 88%); give 151 (give 69%); beg 150 (plead 100%); go 141 (leave 26%); take 130 (receive 48%); kill 128 (harm 92%); leave 126 (leave 63%); threaten 126 (threaten 94%); promise 122 (decide 48%); call 112 (plead 50%); find 90 (receive 29%); pray 82 (plead 79%); throw 79 (harm 44%); bring 79 (guide 50%); offer 67 (decide 26%); agree 64 (decide 62%); urge 63 (plead 39%); warn 62 (forbid 39%); marry 62 (marry 100%); lie 61 (deceive 90%); carry 61 (guide 32%); cut 61 (harm 50%); say 58 (decide 28%); answer 51 (reveal-information 50%); eat 49 (harm 71%); lead 49 (guide 75%); ride 45 (leave 67%); decide 44 (decide 96%); see 42 (recognize 23%); turn 41 (lose 33%); drive 41 (harm 43%); set 41 (leave 25%); run 40 (leave 60%); fight 40 (fight 91%); swear 40 (decide 59%)
+describer B: 159 stories, 7497 entries, 629 verbs (195 used once); the commonest, with the act they meet most often in clean events and its share:
+  tell 668 (reveal-information 46%); ask 471 (plead 63%); order 176 (forbid 70%); go 169 (leave 50%); give 167 (give 78%); kill 162 (harm 91%); come 160 (other 29%); refuse 159 (respond 84%); threaten 149 (threaten 90%); send 149 (send 66%); take 146 (receive 32%); leave 124 (leave 78%); promise 121 (decide 49%); beg 98 (plead 100%); throw 81 (harm 50%); bring 79 (guide 35%); call 79 (send 38%); agree 74 (decide 57%); find 71 (receive 42%); offer 66 (give 26%); lie 63 (deceive 65%); say 57 (test 17%); marry 56 (marry 100%); warn 55 (reveal-information 45%); answer 55 (respond 75%); carry 53 (guide 22%); ride 51 (leave 75%); put 49 (deceive 29%); eat 48 (harm 86%); lead 48 (guide 62%); cut 46 (harm 57%); run 45 (return 33%); return 43 (return 86%); curse 40 (harm 100%); set 39 (leave 67%); fight 38 (fight 92%); pray 36 (plead 82%); arrive 35 (return 58%); see 35 (recognize 37%); feed 35 (give 33%)
+
+THE UNITS: whether a verb tells apart the two halves of each pair (leave-one-out accuracy in clean events; chance is the larger half; gain is (accuracy - chance) / (1 - chance), apart at 0.50 or more)
+  forbid / disobey: not apart  A accuracy 0.85, chance 0.91, gain -0.69, n 150; B accuracy 0.91, chance 0.90, gain 0.16, n 181
+     verbs for forbid: order 105, tell 92, warn 16, urge 16, ask 14
+     verbs for disobey: refuse 8, ignore 4, go 2, offer 2, drive 2
+  seek-information / reveal-information: not apart  A accuracy 0.87, chance 0.85, gain 0.17, n 197; B accuracy 0.86, chance 0.86, gain 0.06, n 228
+     verbs for seek-information: ask 32, go 7, come 5, search 4, watch 3
+     verbs for reveal-information: tell 219, foretell 20, predict 18, warn 16, answer 9
+  deceive / be-taken-in: not apart  A accuracy 0.52, chance 0.74, gain -0.86, n 82; B accuracy 0.51, chance 0.76, gain -1.04, n 101
+     verbs for deceive: lie 29, tell 26, ask 5, trick 5, lull 4
+     verbs for be-taken-in: go 7, take 2, throw 2, put 2, promise 2
+  test / respond: not apart  A accuracy 0.72, chance 0.84, gain -0.74, n 143; B accuracy 0.73, chance 0.83, gain -0.62, n 175
+     verbs for test: ask 12, send 6, propose 4, tell 4, offer 4
+     verbs for respond: refuse 75, promise 22, agree 19, come 17, tell 14
+  fight / win: not apart  A accuracy 0.59, chance 0.68, gain -0.29, n 44; B accuracy 0.41, chance 0.66, gain -0.75, n 59
+     verbs for fight: fight 22, quarrel 7, argue 5, attack 4, whistle 4
+     verbs for win: drive 5, win 5, attack 3, take 2, tell 2
+  set-task / do-task: not apart  A accuracy 0.24, chance 0.76, gain -2.17, n 25; B accuracy 0.54, chance 0.58, gain -0.09, n 26
+     verbs for set-task: order 4, send 3, tell 3, ask 2, announce 2
+     verbs for do-task: kill 4, divide 3, do 3, weave 2, ferry 2
+
+THE PAIRS: discovery and confirmation on the verb strings, as Ngrams/ freezes them
+  adjacent ask -> answer  CONFIRMED  adjacent  acts: no single act for both describers
+  adjacent ask -> refuse  CONFIRMED  long (lift 1.6 still at 6 apart)  acts: no single act for both describers
+  adjacent beg -> refuse  CONFIRMED  adjacent  acts: plead -> respond
+  adjacent offer -> refuse  CONFIRMED  adjacent  acts: no single act for both describers
+  adjacent refuse -> threaten  not confirmed  spaced (peak 5 apart)  acts: respond -> threaten
+  near     strike -> throw  not confirmed  spaced (peak 2 apart)  acts: no single act for both describers
+  near     threaten -> beg  not confirmed  adjacent  acts: threaten -> plead
+  near     wake -> take  not confirmed  adjacent  acts: no single act for both describers
+
+PREDICTIONS (FreeProtocol.md)
+  1. the describers' own verbs keep apart the halves of at least four of the six pairs, for both describers: 0 of 6 -> FAILS
+  2. at least four of the six pairs come out as a confirmed pair of verbs whose acts, for both describers, are the pair's: 0 of 6 (-) -> FAILS
+  3. the request and its answer comes out so (plead -> respond): HOLDS
+
+REPORTED: the confirmed verb pairs whose acts are none of these: -
