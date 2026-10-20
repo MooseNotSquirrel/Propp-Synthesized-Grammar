@@ -1,0 +1,17 @@
+# GroupRun.txt -- group.py score, as GroupProtocol.md freezes it.
+
+371 verbs used at least 5 times grouped into 37 classes (Classes.txt); 352 verbs used fewer times keep their own names.
+
+THE REQUESTS
+  A: request verbs used at least 10 times: ask 349, beg 150, pray 82, urge 63; their classes: tell+ 4; the most in one class 4 of 4
+  B: request verbs used at least 10 times: ask 471, beg 98, pray 36, urge 32; their classes: tell+ 4; the most in one class 4 of 4
+
+THE PAIRS: discovery and confirmation on the class strings, as Ngrams/ freezes them
+  adjacent marry+ -> name+  not confirmed  long (lift 4.5 still at 6 apart)  acts: no single act for both describers
+
+PREDICTIONS (GroupProtocol.md)
+  1. the request verbs used at least 10 times fall, two thirds or more of them, in one class, for both describers: HOLDS
+  2. the exchange comes out as a confirmed pair of classes whose acts are plead -> respond: FAILS
+  3. grouping does not bring out Propp's pairs: at most one of the six comes out as a confirmed pair of classes with the pair's acts: 0 (-) -> HOLDS
+
+REPORTED: confirmed pairs of classes whose acts are none of these: -

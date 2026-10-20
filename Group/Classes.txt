@@ -1,0 +1,38 @@
+# Classes.txt -- group.py: the free verbs used at least 5 times, in 37 classes by context; class | uses | members by uses
+tell+ | 12744 | tell 1111, ask 820, order 383, come 356, give 318, send 314, refuse 313, go 310, kill 290, take 276, threaten 275, leave 250, beg 248, promise 243, call 191, find 161, throw 160, bring 158, agree 138, offer 133, lie 124, pray 118, warn 117, say 115, carry 114, cut 107, answer 106, eat 97, lead 97, ride 96, urge 95, put 85, run 85, return 82, set 80, curse 79, decide 78, fight 78, see 77, turn 75, drive 74, beat 72, hide 72, die 68, break 67, swear 67, feed 66, fly 64, demand 63, make 61, sleep 61, propose 58, seize 56, scold 55, arrive 54, tear 52, chase 49, fall 49, greet 49, strike 49, wake 49, weep 47, mock 46, meet 45, climb 44, follow 44, invite 43, gather 42, keep 42, let 42, hold 41, catch 40, flee 40, accuse 38, sail 38, attack 37, burn 37, reach 37, sit 37, stop 37, appear 36, enter 36, show 36, try 36, advise 35, blame 35, mourn 35, dress 34, open 34, forbid 33, tie 33, drink 31, thank 31, allow 30, shout 30, shut 30, deny 29, sing 28, claim 27, destroy 27, predict 27, search 27, accept 26, praise 26, shoot 26, complain 25, foretell 25, persuade 25, embrace 24, walk 24, banish 23, feast 23, stand 23, escape 22, free 22, help 22, stay 22, spare 21, steal 21, insult 20, knock 20, hit 19, plan 19, stab 19, wait 19, wound 19, bow 18, win 18, bury 17, hang 17, proclaim 17, pour 16, push 16, save 16, suggest 16, write 16, argue 15, bless 15, hire 15, lift 15, rejoice 15, sacrifice 15, snatch 15, visit 15, watch 15, admit 14, draw 14, force 14, gnaw 14, jump 14, lock 14, pay 14, receive 14, rush 14, vanish 14, announce 13, dig 13, dream 13, forge 13, move 13, trick 13, join 12, lay 12, lower 12, punish 12, realize 12, reproach 12, welcome 12, bind 11, cover 11, do 11, grant 11, look 11, capture 10, dive 10, kiss 10, overtake 10, recognize 10, taunt 10, yield 10, approve 9, condemn 9, court 9, deceive 9, defend 9, hug 9, kneel 9, pity 9, plot 9, press 9, quarrel 9, cast 8, consent 8, divide 8, explain 8, fail 8, father 8, heat 8, judge 8, plead 8, prepare 8, smash 8, stick 8, stumble 8, work 8, comfort 7, laugh 7, remind 7, uncover 7, whistle 7, bake 6, betroth 6, bid 6, dare 6, dismiss 6, fasten 6, forgive 6, frighten 6, insist 6, lodge 6, restore 6, singe 6, slaughter 6, untie 6, blind 5, confess 5, decline 5, exile 5, gallop 5, object 5, recover 5, reveal 5, sentence 5, spit 5, vote 5, want 5, woo 5
+boast+ | 259 | boast 51, cry 43, pull 27, report 22, summon 18, scatter 17, marvel 14, haul 13, touch 11, sew 10, weave 10, land 9, twist 8, guess 6
+marry+ | 248 | marry 118, bear 65, live 29, conceive 10, beget 8, buy 8, seal 5, torment 5
+change+ | 130 | change 34, hear 19, get 16, light 16, rise 12, play 11, point 11, hurry 6, guard 5
+roll+ | 100 | roll 22, blow 19, grow 18, scorn 9, love 8, lament 7, bathe 6, suspect 6, spin 5
+drop+ | 87 | drop 20, build 19, nurse 12, defeat 9, burst 7, fix 5, scream 5, toss 5, travel 5
+choose+ | 74 | choose 24, hack 22, challenge 14, leap 14
+ignore+ | 64 | ignore 22, wash 16, reject 11, crush 9, reply 6
+question+ | 60 | question 20, recognise 14, wrap 11, lull 10, forget 5
+serve+ | 58 | serve 20, pretend 17, wander 11, spread 5, suffer 5
+drag+ | 55 | drag 36, disguise 7, pass 7, overpower 5
+name+ | 55 | name 30, learn 13, trap 7, pin 5
+sack+ | 54 | sack 15, fill 10, strip 10, pick 7, skin 7, speak 5
+roast+ | 39 | roast 12, shove 10, bite 6, settle 6, believe 5
+command+ | 37 | command 10, wish 8, lick 7, present 7, taste 5
+cross+ | 33 | cross 17, smell 10, swim 6
+teach+ | 28 | teach 15, harness 7, load 6
+rebuke+ | 28 | rebuke 14, release 8, mount 6
+raise+ | 26 | dance 13, raise 13
+surround+ | 23 | surround 10, borrow 8, inspect 5
+shake+ | 22 | shake 12, confirm 5, test 5
+read+ | 20 | read 14, grab 6
+arm+ | 19 | arm 10, cheer 9
+declare+ | 19 | declare 10, kick 9
+wave+ | 17 | wave 10, step 7
+crown+ | 16 | crown 10, charge 6
+vow+ | 16 | vow 11, compete 5
+fetch+ | 15 | fetch 10, sprinkle 5
+escort+ | 10 | celebrate 5, escort 5
+count+ | 10 | count 10
+overhear+ | 10 | listen 5, overhear 5
+swallow+ | 10 | swallow 10
+sting+ | 7 | sting 7
+wreck+ | 7 | wreck 7
+disappear+ | 6 | disappear 6
+rule+ | 6 | rule 6
+imprison+ | 5 | imprison 5
