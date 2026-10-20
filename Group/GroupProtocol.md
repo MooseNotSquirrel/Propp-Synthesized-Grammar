@@ -1,6 +1,6 @@
 # The free verbs grouped by context: the test
 
-**DRAFT, 2026-10-19, to be frozen at the owner's word, before any verb is grouped.** Once frozen, a departure is logged in `Group/KeeperLog.md`, not made here.
+**Frozen 2026-10-19 at the owner's word, before any verb is grouped.** Once frozen, a departure is logged in `Group/KeeperLog.md`, not made here.
 
 ## The question
 
