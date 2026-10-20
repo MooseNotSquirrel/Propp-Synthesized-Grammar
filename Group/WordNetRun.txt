@@ -1,0 +1,25 @@
+# WordNetRun.txt -- wordnetGroup.py score, as WordNetProtocol.md freezes it.
+
+371 of the 371 verbs used at least 5 times classed by WordNet into 220 classes (WordNetClasses.txt); the largest, state~, holds 12% of all uses.
+
+THE REQUESTS
+  A: request verbs used at least 10 times: ask 349, beg 150, pray 82, urge 63; their classes: interact~ 3, transfer~ 1; the most in one class 3 of 4
+  B: request verbs used at least 10 times: ask 471, beg 98, pray 36, urge 32; their classes: interact~ 3, transfer~ 1; the most in one class 3 of 4
+
+THE PAIRS: discovery and confirmation on the class strings, as Ngrams/ freezes them
+  near     come~ -> contradict~  not confirmed  adjacent  acts: no single act for both describers
+  adjacent interact~ -> react~  CONFIRMED  adjacent  acts: no single act for both describers
+  adjacent react~ -> endanger~  not confirmed  spaced (peak 5 apart)  acts: respond -> threaten
+  near     react~ -> transfer~  not confirmed  long (lift 1.5 still at 6 apart)  acts: no single act for both describers
+  near     state~ -> attach~  not confirmed  spaced (peak 2 apart)  acts: no single act for both describers
+  near     strike~ -> propel~  not confirmed  spaced (peak 5 apart)  acts: no single act for both describers
+  adjacent transfer~ -> react~  CONFIRMED  adjacent  acts: no single act for both describers
+  near     wake~ -> take~  not confirmed  adjacent  acts: no single act for both describers
+
+PREDICTIONS (WordNetProtocol.md)
+  0. no class holds more than a third of all uses (the grouping does not degenerate): HOLDS
+  1. the request verbs used at least 10 times fall, two thirds or more of them, in one class, for both describers: HOLDS
+  2. the exchange comes out as a confirmed pair of classes whose acts are plead -> respond: FAILS
+  3. grouping does not bring out Propp's pairs: at most one of the six comes out as a confirmed pair of classes with the pair's acts: 0 (-) -> HOLDS
+
+REPORTED: confirmed pairs of classes whose acts are none of these: -

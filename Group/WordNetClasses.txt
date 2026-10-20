@@ -1,0 +1,221 @@
+# WordNetClasses.txt -- wordnetGroup.py: the free verbs used at least 5 times, classed by WordNet 3.0 (first sense, level 2); class | uses | members by uses
+state~ | 1789 | tell 1111, promise 243, say 115, answer 106, propose 58, scold 55, suggest 16, argue 15, rebuke 14, vow 11, declare 10, condemn 9, defend 9, betroth 6, reply 6, sentence 5
+interact~ | 1575 | ask 820, pray 118, warn 117, urge 95, boast 51, mock 46, advise 35, thank 31, shout 30, sing 28, foretell 25, ignore 22, report 22, bow 18, teach 15, challenge 14, announce 13, trick 13, point 11, taunt 10, wave 10, deceive 9, quarrel 9, explain 8, speak 5
+transfer~ | 773 | order 383, beg 248, demand 63, forbid 33, question 20, summon 18, plead 8
+give~ | 552 | give 318, offer 133, feed 66, pay 14, grant 11, yield 10
+come~ | 405 | come 356, greet 49
+travel~ | 381 | go 310, sail 38, visit 15, move 13, travel 5
+react~ | 344 | refuse 313, marvel 14, approve 9, consent 8
+send~ | 322 | send 314, cast 8
+kill~ | 290 | kill 290
+take~ | 276 | take 276
+endanger~ | 275 | threaten 275
+transport~ | 272 | bring 158, carry 114
+leave~ | 250 | leave 250
+label~ | 238 | call 191, name 30, proclaim 17
+propel~ | 193 | throw 160, hit 19, kick 9, toss 5
+put~ | 183 | put 85, set 80, lay 12, settle 6
+separate~ | 181 | cut 107, tear 52, hack 22
+find~ | 161 | find 161
+curse~ | 146 | curse 79, swear 67
+agree~ | 138 | agree 138
+evaluate~ | 133 | accept 26, praise 26, admit 14, recognise 14, reject 11, recognize 10, dismiss 6, guess 6, believe 5, confess 5, object 5, test 5
+lie~ | 124 | lie 124
+eat~ | 120 | eat 97, feast 23
+turn~ | 120 | turn 75, roll 22, grow 18, spin 5
+unite~ | 118 | marry 118
+ride~ | 101 | ride 96, gallop 5
+lead~ | 97 | lead 97
+travel_rapidly~ | 91 | run 85, hurry 6
+pull~ | 90 | drag 36, pull 27, draw 14, haul 13
+beat~ | 84 | beat 72, lick 7, overpower 5
+attach~ | 84 | tie 33, lock 14, sew 10, stick 8, harness 7, fasten 6, mount 6
+seize~ | 83 | seize 56, snatch 15, bite 6, grab 6
+arouse~ | 83 | invite 43, insult 20, cheer 9, frighten 6, torment 5
+keep~ | 83 | keep 42, hold 41
+return~ | 82 | return 82
+decide~ | 78 | decide 78
+contend~ | 78 | fight 78
+see~ | 77 | see 77
+end~ | 75 | break 67, judge 8
+handle~ | 74 | drive 74
+change_state~ | 73 | die 68, decline 5
+let~ | 72 | let 42, allow 30
+make~ | 72 | make 61, do 11
+hide~ | 72 | hide 72
+strike~ | 69 | strike 49, knock 20
+bear~ | 65 | bear 65
+fly~ | 64 | fly 64
+indispose~ | 64 | shoot 26, stab 19, wound 19
+scat~ | 62 | flee 40, escape 22
+recumb~ | 61 | sleep 61
+rise~ | 56 | climb 44, rise 12
+arrive~ | 54 | arrive 54
+accuse~ | 50 | accuse 38, reproach 12
+pursue~ | 49 | chase 49
+fall~ | 49 | fall 49
+wake~ | 49 | wake 49
+shout~ | 48 | cry 43, scream 5
+look~ | 47 | appear 36, look 11
+change_integrity~ | 47 | gnaw 14, roast 12, divide 8, burst 7, bake 6
+cry~ | 47 | weep 47
+meet~ | 45 | meet 45
+follow~ | 44 | follow 44
+suffer~ | 44 | mourn 35, pity 9
+show~ | 43 | show 36, present 7
+gather~ | 42 | gather 42
+surprise~ | 40 | catch 40
+pass~ | 39 | cross 17, sacrifice 15, pass 7
+attack~ | 37 | attack 37
+burn~ | 37 | burn 37
+reach~ | 37 | reach 37
+sit~ | 37 | sit 37
+stop~ | 37 | stop 37
+choose~ | 36 | choose 24, pick 7, vote 5
+enter~ | 36 | enter 36
+try~ | 36 | try 36
+blame~ | 35 | blame 35
+populate~ | 35 | live 29, lodge 6
+change~ | 34 | change 34
+dress~ | 34 | dress 34
+open~ | 34 | open 34
+reason~ | 33 | predict 27, suspect 6
+rest~ | 32 | stand 23, kneel 9
+walk~ | 32 | walk 24, stumble 8
+drink~ | 31 | drink 31
+raise~ | 30 | bless 15, lift 15
+close~ | 30 | shut 30
+contradict~ | 29 | deny 29
+expel~ | 28 | banish 23, exile 5
+jump~ | 28 | jump 14, leap 14
+plan~ | 28 | plan 19, plot 9
+claim~ | 27 | claim 27
+destroy~ | 27 | destroy 27
+search~ | 27 | search 27
+transmit~ | 26 | wash 16, fetch 10
+push~ | 26 | push 16, shove 10
+complain~ | 25 | complain 25
+affect~ | 25 | persuade 25
+embrace~ | 24 | embrace 24
+hear~ | 24 | hear 19, overhear 5
+join~ | 23 | join 12, bind 11
+create_by_mental_act~ | 23 | dream 13, conceive 10
+free~ | 22 | free 22
+help~ | 22 | help 22
+stay~ | 22 | stay 22
+spare~ | 21 | spare 21
+steal~ | 21 | steal 21
+rush~ | 20 | rush 14, charge 6
+disappear~ | 20 | vanish 14, disappear 6
+drop~ | 20 | drop 20
+match~ | 20 | serve 20
+exhale~ | 19 | blow 19
+construct~ | 19 | build 19
+wait~ | 19 | wait 19
+win~ | 18 | win 18
+bury~ | 17 | bury 17
+hang~ | 17 | hang 17
+represent~ | 17 | pretend 17
+disperse~ | 17 | scatter 17
+beget~ | 16 | beget 8, father 8
+re-create~ | 16 | capture 10, restore 6
+fill~ | 16 | fill 10, load 6
+get~ | 16 | get 16
+lighten~ | 16 | light 16
+pour~ | 16 | pour 16
+rescue~ | 16 | save 16
+create_verbally~ | 16 | write 16
+hire~ | 15 | hire 15
+rejoice~ | 15 | rejoice 15
+sack~ | 15 | sack 15
+watch~ | 15 | watch 15
+woo~ | 14 | court 9, woo 5
+compel~ | 14 | force 14
+interpret~ | 14 | read 14
+receive~ | 14 | receive 14
+dance~ | 13 | dance 13
+dig~ | 13 | dig 13
+create_from_raw_material~ | 13 | forge 13
+learn~ | 13 | learn 13
+increase~ | 13 | raise 13
+lower~ | 12 | lower 12
+nurse~ | 12 | nurse 12
+trap~ | 12 | trap 7, pin 5
+punish~ | 12 | punish 12
+recognize~ | 12 | realize 12
+uncover~ | 12 | uncover 7, reveal 5
+shake~ | 12 | shake 12
+accept~ | 12 | welcome 12
+better~ | 11 | bathe 6, fix 5
+cover~ | 11 | cover 11
+play~ | 11 | play 11
+touch~ | 11 | touch 11
+roll~ | 11 | wander 11
+wrap~ | 11 | wrap 11
+arm~ | 10 | arm 10
+dominate~ | 10 | command 10
+count~ | 10 | count 10
+invest~ | 10 | crown 10
+descend~ | 10 | dive 10
+snog~ | 10 | kiss 10
+calm~ | 10 | lull 10
+overtake~ | 10 | overtake 10
+smell~ | 10 | smell 10
+deprive~ | 10 | strip 10
+surround~ | 10 | surround 10
+swallow~ | 10 | swallow 10
+change_shape~ | 10 | weave 10
+oppress~ | 9 | crush 9
+get_the_better_of~ | 9 | defeat 9
+grasp~ | 9 | hug 9
+land~ | 9 | land 9
+press~ | 9 | press 9
+hate~ | 9 | scorn 9
+borrow~ | 8 | borrow 8
+buy~ | 8 | buy 8
+fail~ | 8 | fail 8
+heat~ | 8 | heat 8
+love~ | 8 | love 8
+fix~ | 8 | prepare 8
+let_go_of~ | 8 | release 8
+hit~ | 8 | smash 8
+writhe~ | 8 | twist 8
+wish~ | 8 | wish 8
+work~ | 8 | work 8
+comfort~ | 7 | comfort 7
+disguise~ | 7 | disguise 7
+lament~ | 7 | lament 7
+laugh~ | 7 | laugh 7
+remind~ | 7 | remind 7
+climb~ | 7 | skin 7
+step~ | 7 | step 7
+ache~ | 7 | sting 7
+sound~ | 7 | whistle 7
+bust_up~ | 7 | wreck 7
+offer~ | 6 | bid 6
+make_bold~ | 6 | dare 6
+concede~ | 6 | forgive 6
+insist~ | 6 | insist 6
+govern~ | 6 | rule 6
+damage~ | 6 | singe 6
+butcher~ | 6 | slaughter 6
+swim~ | 6 | swim 6
+change_by_reversal~ | 6 | untie 6
+blind~ | 5 | blind 5
+observe~ | 5 | celebrate 5
+compete~ | 5 | compete 5
+confirm~ | 5 | confirm 5
+accompany~ | 5 | escort 5
+forget~ | 5 | forget 5
+check~ | 5 | guard 5
+imprison~ | 5 | imprison 5
+inspect~ | 5 | inspect 5
+listen~ | 5 | listen 5
+recover~ | 5 | recover 5
+seal~ | 5 | seal 5
+expectorate~ | 5 | spit 5
+spread~ | 5 | spread 5
+discharge~ | 5 | sprinkle 5
+undergo~ | 5 | suffer 5
+taste~ | 5 | taste 5
+desire~ | 5 | want 5
