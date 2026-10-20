@@ -1,0 +1,4 @@
+# PostHoc.txt -- postHoc.py, after the verdict; reported, not judged.
+
+A: shares (liquidation, return) myth 0.22 0.17, tale 0.40 0.32, fable 0.16 0.10, tragedy 0.22 0.14; distance to tale 0.238, fable 0.088, tragedy 0.030; nearest tragedy
+B: shares (liquidation, return) myth 0.27 0.12, tale 0.40 0.39, fable 0.16 0.07, tragedy 0.18 0.14; distance to tale 0.293, fable 0.127, tragedy 0.093; nearest tragedy

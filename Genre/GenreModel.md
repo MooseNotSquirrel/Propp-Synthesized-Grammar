@@ -48,3 +48,4 @@ Measured on three genres: the Russian wondertale (45 tales), the fable (Aesop, a
 ## The test
 
 `MythProtocol.md`: the model's predictions for a genre it has not measured, Greek myth in Apollodorus's Library, frozen before the measuring.
+**Result, 2026-10-19 (`MythRun.txt`): two of three predictions hold, so the model does not pass as frozen.** The core holds in myth (struggle and victory, task and solution, pursuit and rescue); myth's frame closes as seldom as tragedy's (liquidation in 22% and 27% of moves, against the tale's 40%). That myth is set like tragedy fails: one transcriber's myths lie nearest tragedy, the other's nearest the fable, the split coming from a frame share that stands on a dozen moves; on the two shares resting on many moves both lie nearest tragedy, a check made after the result (`PostHoc.txt`).
