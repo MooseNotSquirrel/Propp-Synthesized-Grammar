@@ -1,0 +1,127 @@
+#!/usr/bin/env python3
+"""
+explore.py -- a first look at Propp's spheres of action in the four genres. Exploratory, not a
+frozen test. Each function in the original transcriptions is credited to the character who
+performs it; a character's spheres are those whose functions it performs (Propp, ch. VI);
+names are matched within a story (articles and punctuation left out; a name whose words all
+stand in one longer name of the same story joins it).
+
+  python explore.py    writes Spheres/SpheresExplore.txt
+"""
+import collections
+import glob
+import itertools
+import os
+import re
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+P = os.path.dirname(ROOT)
+sys.path.insert(0, os.path.join(ROOT, 'Tragedy'))
+import tragedyScore as TS  # noqa: E402
+
+CORPORA = {'tale': (['Afanasyev/transcriptions/U/%s/b*/Notes.txt'], 4),
+           'fable': (['Aesop/transcriptions/%s/b*/Notes.txt', 'Fables/transcriptions/%s/b*/Notes.txt'], 4),
+           'tragedy': (['Tragedy/transcriptions/%s/P[0-9][0-9]/Notes.txt'], 4),
+           'myth': (['Apollodorus/Apollodorus/transcriptions/%s/b*/Notes.txt'], 5)}
+SPHERES = collections.OrderedDict([('villain', {'A', 'H', 'Pr'}), ('donor', {'D', 'F'}), ('helper', {'G', 'K', 'Rs', 'N', 'T'}),
+                                   ('princess', {'M', 'J', 'Q', 'Ex', 'U'}), ('dispatcher', {'B'}), ('hero', {'C', '↑', 'E', 'W'}),
+                                   ('false hero', {'L'})])
+STOP = {'the', 'a', 'an', 'his', 'her', 'their', 'of', 'and', 'old', 'young', 'little'}
+OUT = []
+
+
+def say(s=''):
+    OUT.append(s)
+    print(s)
+
+
+def key(name):
+    return tuple(w for w in re.findall(r'[^\W\d_]+', name.lower()) if w not in STOP)
+
+
+def read(L):
+    """{genre: {story: [(function, performer key, undergoer key)]}}, first reading of each story"""
+    out = {}
+    for g, (pats, sf) in CORPORA.items():
+        st = collections.OrderedDict()
+        for pat in pats:
+            for path in sorted(glob.glob(os.path.join(P, pat % L))):
+                for line in open(path, encoding='utf-8'):
+                    f = [x.strip() for x in line.rstrip('\n').split('|', 10)]
+                    if len(f) < 10 or not re.match(r'^([PFA]\d{2}|L\d-\d{3})', f[0]):
+                        continue
+                    base, _, ver = f[0].partition('/')
+                    st.setdefault(base, collections.OrderedDict()).setdefault(ver or '1', []).append(
+                        (TS.base(f[sf]), key(f[sf + 1]), key(f[sf + 2])))
+        out[g] = {s: vs[sorted(vs, key=lambda v: (len(v), v))[0]] for s, vs in st.items()}
+    return out
+
+
+def merge(entries):
+    """map each name to the longest name of the story whose words include all of its own, where that is unique"""
+    names = {n for _, p, u in entries for n in (p, u) if n}
+    canon = {}
+    for n in names:
+        sup = [m for m in names if m != n and set(n) <= set(m)]
+        canon[n] = max(sup, key=len) if len(sup) == 1 or (sup and len({tuple(sorted(s)) for s in sup}) == 1) else n
+    return canon
+
+
+def main():
+    say('# SpheresExplore.txt -- explore.py, exploratory; Propp\'s spheres of action counted in the original transcriptions.')
+    say('')
+    for L in 'AB':
+        data = read(L)
+        say('TRANSCRIBER %s' % L)
+        for g in CORPORA:
+            stories = data[g]
+            filled = collections.Counter()
+            combos = collections.Counter()
+            chars = multi = merged_hv = 0
+            fallen = hero_stories = 0
+            outside_only = acting = 0
+            for s, entries in stories.items():
+                canon = merge(entries)
+                sph = collections.defaultdict(set)
+                acts = collections.Counter()
+                for fn, p, u in entries:
+                    if not p:
+                        continue
+                    p = canon.get(p, p)
+                    acts[p] += 1
+                    for name, fs in SPHERES.items():
+                        if fn in fs:
+                            sph[p].add(name)
+                for name in SPHERES:
+                    filled[name] += any(name in v for v in sph.values())
+                for c in acts:
+                    acting += 1
+                    if not sph.get(c):
+                        outside_only += 1
+                for c, v in sph.items():
+                    chars += 1
+                    if len(v) > 1:
+                        multi += 1
+                        combos[' + '.join(sorted(v))] += 1
+                if any({'hero', 'villain'} <= v for v in sph.values()):
+                    merged_hv += 1
+                heroes = [c for c, v in sph.items() if 'hero' in v]
+                if heroes:
+                    hero_stories += 1
+                    if any(fn in ('U', 'Ex') and canon.get(u, u) in heroes for fn, _, u in entries):
+                        fallen += 1
+            n = float(len(stories))
+            say('  %-8s %3d stories; spheres filled (share of stories): %s' % (g, len(stories), ', '.join('%s %.0f%%' % (k, 100 * filled[k] / n) for k in SPHERES)))
+            say('           characters in a sphere %d, in two or more %.0f%%; commonest combinations: %s'
+                % (chars, 100.0 * multi / max(1, chars), '; '.join('%s %d' % kv for kv in combos.most_common(4))))
+            say('           stories where one character holds both the hero\'s and the villain\'s sphere: %.0f%%; characters who act but in no sphere: %.0f%%'
+                % (100 * merged_hv / n, 100.0 * outside_only / max(1, acting)))
+            say('           stories with a hero in which a hero is exposed or punished: %d of %d (%.0f%%)' % (fallen, hero_stories, 100.0 * fallen / max(1, hero_stories)))
+        say('')
+    open(os.path.join(HERE, 'SpheresExplore.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(OUT) + '\n')
+
+
+if __name__ == '__main__':
+    main()

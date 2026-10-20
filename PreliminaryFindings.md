@@ -111,6 +111,7 @@ WHEN: after the X study's stage 5. If the role-shifted candidates hold on the he
 In the 199 fables: heroes about 71% animal, 22% human, 4% gods; the harm done mostly by predators, lion 17, eagle 10, cat 8, but also by goats, crows and robbers; tricks played most by the thief, the fox and the cat.
 **SPECULATION, NOT FROM PROPP:** the mighty fall about as often as they strike: the lion and the eagle are victims (11 each) almost as often as doers of harm, and the eagle is the commonest dupe. Power does not protect in a fable.
 The wolf is the second commonest hero but rarely does harm: the fable follows the villain whose schemes go wrong.
+**TENTATIVE (2026-10-20, exploratory, `Spheres/`): the same seven spheres of action in every genre, combined differently.** All seven occur in tales, fables, tragedies and myths; the false hero is rare everywhere. In tragedy one character holds both the hero's and the villain's sphere in two thirds to three quarters of the plays, the hero committing the villainy; in tales and myths about a fifth to a quarter, in fables almost never. The fable fills the villain's sphere about twice as often as the hero's. A hero exposed or punished in about a fifth of tragedies, the FailedHero again. To be frozen and tested on new corpora.
 
 ## 6. What the X entries may hold (a cursory look, held-out fables only)
 
