@@ -1,0 +1,6 @@
+# Keeper log: the values each device carries
+
+**2026-10-20. A first look, exploratory, at the owner's principle that structure does not dictate content** (`explore.py`, `ValuesExplore.txt`), on the significance layer already scored (154 stories). Not a frozen test; its figures guide the design of one.
+**What it shows, the keeper's reading:** the same devices carry different values in each genre. Pleading helps the hero in 70% to 85% of tale uses, 17% of fable uses. In tales the hero performs two thirds of the deceptions and they help the hero almost always (93%, 94%); in fables the hero deceives as often but it helps only about half the time; in tragedy the hero deceives in about a third. Harm sets things right (repairs or punishes) in 25% to 32% of tale harms, the hero doing 85% of those, and in 8% to 14% of tragedy's. Deciding harms the fable's hero more often (37% to 63%) than the tale's (22% to 29%).
+**A discrepancy recorded:** the hero's share of tale deceptions is 66% by the describers' own marking of the hero's part, against 24% by the earlier name match (`Heroes/WithJudgedHeroes.txt`), which undercounts through Russian names and epithets; the describers' marking is the better measure.
+**Next:** a frozen test of the principle across cultures, predictions written before the corpora are read.

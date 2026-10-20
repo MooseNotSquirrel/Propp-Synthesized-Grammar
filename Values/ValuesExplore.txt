@@ -1,0 +1,25 @@
+# ValuesExplore.txt -- explore.py, exploratory; the significance layer of 154 stories, read for the values each device carries.
+
+describer A: acts per genre tale 2836, fable 497, tragedy 3266
+describer B: acts per genre tale 2370, fable 452, tragedy 2988
+
+THE DEVICES WHOSE VALUE FOR THE HERO DIFFERS MOST BETWEEN GENRES (each in every genre at least 15 times for both describers; the spread is the largest gap between two genres in the shares of helps, harms and neither, the smaller of the two describers)
+  plead               spread 0.53   tale [helps 70 harms 10, hero does 52 | helps 85 harms  5, hero does 52]   fable [helps 17 harms 22, hero does 78 | helps 17 harms 28, hero does 72]   tragedy [helps 43 harms  8, hero does 40 | helps 59 harms 18, hero does 41]
+  decide              spread 0.42   tale [helps 57 harms 29, hero does 55 | helps 58 harms 22, hero does 54]   fable [helps 16 harms 63, hero does 79 | helps 16 harms 37, hero does 79]   tragedy [helps 45 harms 33, hero does 42 | helps 53 harms 32, hero does 48]
+  deceive             spread 0.36   tale [helps 74 harms 21, hero does 66 | helps 74 harms 23, hero does 67]   fable [helps 32 harms 47, hero does 68 | helps 38 harms 43, hero does 62]   tragedy [helps 49 harms 44, hero does 36 | helps 50 harms 44, hero does 37]
+  reveal-information  spread 0.35   tale [helps 70 harms 11, hero does 31 | helps 83 harms  9, hero does 28]   fable [helps 35 harms 25, hero does 50 | helps 37 harms 16, hero does 42]   tragedy [helps 41 harms 22, hero does 19 | helps 52 harms 31, hero does 17]
+  harm                spread 0.31   tale [helps 45 harms 49, hero does 40 | helps 48 harms 45, hero does 43]   fable [helps 27 harms 72, hero does 25 | helps 22 harms 74, hero does 28]   tragedy [helps 13 harms 58, hero does 28 | helps 12 harms 59, hero does 30]
+  expose              spread 0.30   tale [helps 44 harms 13, hero does 41 | helps 38 harms 29, hero does 36]   fable [helps 11 harms 60, hero does 43 | helps  9 harms 59, hero does 50]   tragedy [helps 17 harms 52, hero does 30 | helps 20 harms 52, hero does 38]
+  other               spread 0.29   tale [helps 57 harms 13, hero does 49 | helps 47 harms 16, hero does 40]   fable [helps 16 harms 45, hero does 60 | helps 18 harms 30, hero does 58]   tragedy [helps 29 harms 20, hero does 32 | helps 38 harms 31, hero does 30]
+  escape              spread 0.26   tale [helps 66 harms 30, hero does 49 | helps 83 harms 17, hero does 56]   fable [helps 80 harms 13, hero does 73 | helps 87 harms  7, hero does 60]   tragedy [helps 54 harms 18, hero does 31 | helps 56 harms 19, hero does 37]
+  respond             spread 0.23   tale [helps 62 harms 19, hero does 47 | helps 70 harms 14, hero does 53]   fable [helps 45 harms 42, hero does 50 | helps 34 harms 55, hero does 48]   tragedy [helps 41 harms 30, hero does 35 | helps 49 harms 28, hero does 32]
+
+HARM USED TO SET THINGS RIGHT: of all harms, the share placed as repairing a problem or punishing for one, and of those, the share the hero does
+  tale     A 206 harms, 32% set things right, the hero doing 85% of those; B 176 harms, 25% set things right, the hero doing 86% of those
+  fable    A 60 harms, 27% set things right, the hero doing 44% of those; B 58 harms, 22% set things right, the hero doing 46% of those
+  tragedy  A 349 harms, 14% set things right, the hero doing 61% of those; B 362 harms,  8% set things right, the hero doing 50% of those
+
+DECEPTION: the share of deceptions the hero performs, and of those, the share that help the hero
+  tale     A 143 deceptions, the hero deceives in 66%, helping the hero in 94% of those; B 132 deceptions, the hero deceives in 67%, helping the hero in 93% of those
+  fable    A 19 deceptions, the hero deceives in 68%, helping the hero in 46% of those; B 21 deceptions, the hero deceives in 62%, helping the hero in 54% of those
+  tragedy  A 80 deceptions, the hero deceives in 36%, helping the hero in 79% of those; B 82 deceptions, the hero deceives in 37%, helping the hero in 80% of those
