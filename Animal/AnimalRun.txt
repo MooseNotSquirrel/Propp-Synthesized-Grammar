@@ -1,0 +1,47 @@
+# AnimalRun.txt -- animal.py score, as AnimalProtocol.md freezes it.
+
+A: animal tales 50; the model fitted on all stories of at least 3 functions: tale 45, fable 105, tragedy 32, myth 120
+B: animal tales 50; the model fitted on all stories of at least 3 functions: tale 45, fable 104, tragedy 32, myth 121
+
+1. WHERE THE FROZEN MODEL PLACES THEM
+  A: 48 of 50 animal stories of at least 3 functions placed: tale 26, fable 12, tragedy 3, myth 7; fable ahead of every other genre: no
+     reported: with length added  tale 21, fable 8, tragedy 8, myth 11
+     reported: length alone       tale 26, fable 3, tragedy 2, myth 17
+     reported: lexicon alone      tale 13, fable 25, tragedy 6, myth 4
+     reported: relations alone    tale 6, fable 16, tragedy 23, myth 3
+  B: 48 of 50 animal stories of at least 3 functions placed: tale 13, fable 25, tragedy 7, myth 3; fable ahead of every other genre: yes
+     reported: with length added  tale 14, fable 21, tragedy 8, myth 5
+     reported: length alone       tale 18, fable 5, tragedy 0, myth 25
+     reported: lexicon alone      tale 13, fable 28, tragedy 4, myth 3
+     reported: relations alone    tale 1, fable 22, tragedy 22, myth 3
+
+2. WHETHER ONE CHARACTER HOLDS BOTH THE HERO'S AND THE VILLAIN'S SPHERE (strict reading: villainy and pursuit)
+  A: animal 14 of 50 (28%); wondertales 8 of 45 (18%); fables 7 of 198 (4%); above the wondertales, one-sided p 0.1771: no
+  B: animal 10 of 50 (20%); wondertales 13 of 45 (29%); fables 5 of 198 (3%); above the wondertales, one-sided p 0.8869: no
+
+3. WHETHER THEIR TROUBLE IS PUT RIGHT: villainy or lack followed by liquidation, share of moves
+  A animal   moves  158, with the first 154, second after it  39 (25%), expected 19.1, lift 2.04, p 0.0001
+  A tale     moves  143, with the first 140, second after it  56 (40%), expected 24.2, lift 2.32, p 0.0001
+  A fable    moves  228, with the first 193, second after it  31 (16%), expected 13.0, lift 2.38, p 0.0001
+  A: 25% against the midpoint 28% of the tale's 40% and the fable's 16%: below it: yes
+  B animal   moves  156, with the first 150, second after it  28 (19%), expected 12.2, lift 2.29, p 0.0001
+  B tale     moves  129, with the first 128, second after it  51 (40%), expected 24.0, lift 2.13, p 0.0001
+  B fable    moves  239, with the first 209, second after it  33 (16%), expected 12.9, lift 2.56, p 0.0001
+  B: 19% against the midpoint 28% of the tale's 40% and the fable's 16%: below it: yes
+
+4. WHETHER THE TIGHT PAIRS HOLD
+  H -> I    A  moves  158, with the first   8, second after it   7 (88%), expected 1.8, lift 3.92, p 0.0003  HOLDS
+  H -> I    B  moves  156, with the first   3, second after it   3 (100%), expected 0.3, lift 9.94, p 0.0013
+  M -> N    A  moves  158, with the first   3, second after it   1 (33%), expected 0.0, lift 21.14, p 0.0470
+  M -> N    B  moves  156, with the first   0, second after it   0 (0%), expected 0.0, lift nan, p 1.0000
+  Pr -> Rs  A  moves  158, with the first   9, second after it   7 (78%), expected 0.6, lift 11.25, p 0.0001  HOLDS
+  Pr -> Rs  B  moves  156, with the first   6, second after it   5 (83%), expected 0.2, lift 20.87, p 0.0001  HOLDS
+  L -> Ex   A  moves  158, with the first   3, second after it   0 (0%), expected 0.0, lift 0.00, p 1.0000
+  L -> Ex   B  moves  156, with the first   1, second after it   0 (0%), expected 0.0, lift 0.00, p 1.0000
+  testable for both transcribers: Pr -> Rs; fewer than two: NOT TESTED
+
+PREDICTIONS (AnimalProtocol.md)
+  1. the frozen model places more of them as fable than as any other genre, for both transcribers: FAILS
+  2. one character holds both the hero's and the villain's sphere in a larger share of them than of the wondertales, one-sided p at most 0.05, for both transcribers: FAILS
+  3. villainy or lack is followed by liquidation in a share of their moves below the midpoint of the tale's and the fable's, for both transcribers: HOLDS
+  4. of the tight links whose first function stands in at least 5 of their moves for both transcribers, all but at most one hold for both: NOT TESTED
