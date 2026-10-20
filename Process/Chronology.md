@@ -65,3 +65,5 @@
 ## 2026-10-20: the aim stated, the long-term question set
 
 The owner's aim recorded, and the long-term question: is the catalog and model valid across other cultures, measuring overlaps and differences alike. Queued: Shakespeare, Dundes's corpus, a better ancient source, corpora outside the Indo-European family, the harmony hypothesis, and these process documents.
+
+**10-20, Afanasyev's animal tales, the first new corpus:** the 50 tales Propp left out, fetched from Russian Wikisource, listed and transcribed in Propp-ActsRoles because cloud sessions open only there, and kept in Propp-AnimalTales. The frozen instruments' four predictions, scored: placement as fable fails (the transcribers split, fable and tale), hero and villain fused no more than in the wondertales, liquidation below the tale-fable midpoint holds, the tight links not tested. A check of the transcribers' agreement found it ordinary but A marking a third more functions a tale (`Animal/`).
