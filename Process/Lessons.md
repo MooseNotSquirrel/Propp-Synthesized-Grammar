@@ -10,6 +10,8 @@
 **A reducer may name things its own way.** Propp's departure and return came back as `up` and `down`, so the links test found no departure in his moves (`Links/`). Read the reducer's whole vocabulary before trusting a count.
 **A folder pattern can reach into a new folder.** A reader's pattern built for one test also matched the next test's folder and would have read its stories twice (`Ngrams/`).
 
+**Check what a cleaner throws away.** The Wikisource extraction dropped every template with its contents; on the calibration's pages that cost two tales their verse, and on the animal tales' pages it would have cost whole paragraphs. Count the words a cleaning step removes before trusting it.
+
 ## In the design
 
 **Measures can follow length.** A long story described at random almost surely has a repair; a short fable often has none. Random descriptions passed 8 of 16 predictions until each story was scored against a random description of its own acts (`Problems/`).
