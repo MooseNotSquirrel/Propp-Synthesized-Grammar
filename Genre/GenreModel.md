@@ -42,6 +42,10 @@ Measured on three genres: the Russian wondertale (45 tales), the fable (Aesop, a
 
 **Read as profiles:** the tale is trouble from outside, put right, the hero helped home; the fable is trouble the hero brings on, left standing; the tragedy is trouble that outruns repair, its frame left open. This reading is the keeper's, not Propp's.
 
+## The model fitted and tested
+
+**`Model/` (frozen 2026-10-20):** one model joining the lexicon, the relations, the order and the share outside Propp's list, fitted on half the stories of the four genres, guesses the genre of the other half with balanced accuracy 0.66 and 0.78 (chance 0.25), the relations alone above chance, and across readers 0.67 and 0.72. It does not beat length alone (0.71 to 0.73), which it leaves out; with length added it reaches 0.75 and 0.82, a check made after the result. The lexicon carries most of the signal, the relations a real but smaller share, the order of whole stories almost none; myth is the genre most often taken for another.
+
 ## What the model does not yet cover
 
 - **A candidate act, not yet tested:** lament (2% to 4% of acts, most in fables); and the acts no category fits, 4% to 16%, most in fables.

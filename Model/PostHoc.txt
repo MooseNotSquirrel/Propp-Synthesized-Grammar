@@ -1,0 +1,4 @@
+# PostHoc.txt -- postHoc.py, after the verdict; reported, not judged.
+
+A: length alone 0.725; the full model without length 0.661; the full model with length 0.752
+B: length alone 0.712; the full model without length 0.775; the full model with length 0.819

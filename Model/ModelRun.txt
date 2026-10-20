@@ -1,0 +1,47 @@
+# ModelRun.txt -- model.py score, as ModelProtocol.md freezes it.
+
+Balanced accuracy: the mean, over the four genres, of the share of a genre's held-out stories guessed right; chance is 0.25.
+p: the share of 1000 refits with the fitting labels shuffled that score at least as high.
+
+transcriber A: stories of at least 3 functions: tale 23 fit / 22 test, fable 53 fit / 52 test, tragedy 16 fit / 16 test, myth 60 fit / 60 test
+  all        balanced accuracy 0.661, p 0.0010
+    confusion (rows true, columns guessed; tale, fable, tragedy, myth):
+      tale       11    3    1    7
+      fable       5   32    1   14
+      tragedy     1    0   13    2
+      myth        9    7    1   43
+    tale marked most by: ε +0.87, W +0.80, η>θ +0.67, M +0.63, F +0.63
+    fable marked most by: Rs +0.67, L +0.52, K +0.49, a +0.47, γ +0.45
+    tragedy marked most by: outside +1.61, A/a>>K +1.20, γ +0.57, β +0.56, C +0.50
+    myth marked most by: δ +0.65, A +0.58, E +0.45, Pr +0.42, K +0.35
+  lexicon    balanced accuracy 0.590, p 0.0010
+  relations  balanced accuracy 0.426, p 0.0010
+  order      balanced accuracy 0.431, p 0.0589
+  outside    balanced accuracy 0.467, p 0.0040
+  length alone (reported for comparison, not a feature of the model): balanced accuracy 0.725
+
+transcriber B: stories of at least 3 functions: tale 23 fit / 22 test, fable 52 fit / 52 test, tragedy 16 fit / 16 test, myth 61 fit / 60 test
+  all        balanced accuracy 0.775, p 0.0010
+    confusion (rows true, columns guessed; tale, fable, tragedy, myth):
+      tale       15    1    1    5
+      fable       2   38    2   10
+      tragedy     1    0   15    0
+      myth        1   14    0   45
+    tale marked most by: E>>F +0.79, D +0.63, A/a>>K +0.61, M +0.58, Pr +0.57
+    fable marked most by: a +1.14, Ex +0.43, K +0.27, ε +0.25, Rs +0.23
+    tragedy marked most by: γ +1.06, outside +1.01, A/a>>K +0.56, H>I +0.48, β +0.44
+    myth marked most by: G +0.98, W +0.63, U +0.58, Pr>Rs +0.48, A +0.44
+  lexicon    balanced accuracy 0.768, p 0.0010
+  relations  balanced accuracy 0.489, p 0.0010
+  order      balanced accuracy 0.410, p 0.1848
+  outside    balanced accuracy 0.416, p 0.2448
+  length alone (reported for comparison, not a feature of the model): balanced accuracy 0.712
+
+fitted on A's stories, tested on B's held-out stories: balanced accuracy 0.723, p 0.0050
+fitted on B's stories, tested on A's held-out stories: balanced accuracy 0.673, p 0.0050
+
+PREDICTIONS (ModelProtocol.md)
+  1. the full model guesses the genre of held-out stories with balanced accuracy at least 0.60, p at most 0.01, for both transcribers: HOLDS
+  2. the relations alone, pairs and links, guess the genre above chance, p at most 0.05, for both transcribers: HOLDS
+  3. the full model does better than length alone, for both transcribers: FAILS
+  4. a model fitted on one transcriber guesses the other's held-out stories with balanced accuracy at least 0.50, both ways: HOLDS
