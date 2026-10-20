@@ -1,6 +1,6 @@
 # The genre model's predictions for myth: the test
 
-**DRAFT, 2026-10-19, to be frozen at the owner's word, before any link is counted on the myths.** Once frozen, a departure is logged in `Genre/KeeperLog.md`, not made here.
+**Frozen 2026-10-19 at the owner's word, before any link is counted on the myths.** Once frozen, a departure is logged in `Genre/KeeperLog.md`, not made here.
 
 ## The question
 
