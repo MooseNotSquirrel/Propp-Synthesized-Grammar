@@ -1,6 +1,6 @@
 # One model of the genres: the test
 
-**DRAFT, 2026-10-20, to be frozen at the owner's word, before any story is fitted.** Once frozen, a departure is logged in `Model/KeeperLog.md`, not made here.
+**Frozen 2026-10-20 at the owner's word, before any story is fitted.** Once frozen, a departure is logged in `Model/KeeperLog.md`, not made here.
 
 ## The question
 
