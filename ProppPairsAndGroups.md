@@ -366,6 +366,28 @@ A long-distance link such as departure and return is hard to write as a producti
   Marriage and the founding of a new household, which begins the next cycle.
 - **Carried from:** `wedding` in `SemanticCatalog46.md`.
 
+## Devices Propp's list lacks
+
+**Acts and pairs the stories use that Propp's catalog has no place for, each found by a frozen test.** Their meanings are not yet written.
+
+### `ThreatAndDemand`
+
+- **Measured:** the one recurring act in the events Propp's functions leave empty to pass its frozen threshold in every genre (`XStudy/`); 2% to 4.5% of acts, most in tragedy; threats come in exchanges, threat answering threat.
+- **Literal meaning:** not yet written.
+- **Cultural meaning:** not yet written.
+
+### `RequestAndAnswer`
+
+- **Measured:** the commonest pair of acts (plead, respond, 3 to 4.5 times chance; `Ngrams/`), the only structure readers find with no list of acts (ask, beg, offer, then answer or refuse; `Free/`), and the only pairs left when the readers' verbs are grouped by WordNet (`Group/`). In every genre. The structure students of conversation call an adjacency pair.
+- **Literal meaning:** not yet written.
+- **Cultural meaning:** not yet written.
+
+### `oath`, `prayer`, `curse`
+
+- **Measured:** in tragedy's free verbs four to five times their share in the tales, on eight plays never described before (`Cand/`); each in six to eight of the eight plays. Tragedy's own devices: a vow binds the future, a prayer appeals to the gods, a curse calls harm down.
+- **Literal meaning:** not yet written.
+- **Cultural meaning:** not yet written.
+
 ## Links at a distance
 
 **A link joins two functions that can stand far apart, with any number of others between them, and the second may never come.**

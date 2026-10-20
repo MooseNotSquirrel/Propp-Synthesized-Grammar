@@ -22,6 +22,8 @@ Measured on three genres: the Russian wondertale (45 tales), the fable (Aesop, a
 
 **The exchange, a pair Propp does not list.** A request or an offer, then its answer, most often a refusal: the commonest pair of acts (`Ngrams/`), the only structure readers find with no list (`Free/`), and, for threats, an exchange of threat and counter-threat (`XStudy/ThreatAndFall.txt`).
 
+**Tragedy's own acts, which Propp's list lacks: oath, prayer and curse.** Tested on eight plays no describer had described in free verbs (`Cand/CandRun.txt`): together four to five times their share in the tales, each in six to eight of the eight plays.
+
 **One act Propp's list lacks: the threat or demand**, the only recurring act in the events his functions leave empty to pass its frozen threshold in every genre (`XStudy/`).
 
 ## The settings
@@ -36,12 +38,13 @@ Measured on three genres: the Russian wondertale (45 tales), the fable (Aesop, a
 | Acts that help the hero | about 60% | about a quarter | 37% to 44% | `Problems/` |
 | Order of the blocks | Propp's | Propp's, as well as a fable order | an order of its own | `Blocks/GenreOrder.md`, `Tragedy/` |
 | Its own kernel | | want, trick, complicity, harm | | `Blocks/`, the Aesop audit |
+| Oath, prayer and curse (share of free verbs) | about 1% | | 5% to 7%, in eight unseen plays 4.6% and 5.4% | `Cand/` |
 
 **Read as profiles:** the tale is trouble from outside, put right, the hero helped home; the fable is trouble the hero brings on, left standing; the tragedy is trouble that outruns repair, its frame left open. This reading is the keeper's, not Propp's.
 
 ## What the model does not yet cover
 
-- **Candidate acts, not yet tested:** oaths and vows, prayer and curse (each 1% to 3% of tragedy's free verbs, near none in tales), and lament (2% to 4% of acts, most in fables); and the acts no category fits, 4% to 16%, most in fables.
+- **A candidate act, not yet tested:** lament (2% to 4% of acts, most in fables); and the acts no category fits, 4% to 16%, most in fables.
 - **Redundancy among the free verbs** (ask, beg, pray, urge, all requests), not yet grouped.
 - **Other genres and other cultures:** all three genres are European, and the readers are language models.
 

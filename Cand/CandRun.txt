@@ -1,0 +1,27 @@
+# CandRun.txt -- cand.py score, as CandProtocol.md freezes it.
+
+Shares of all verbs: oath (promise, swear, vow), prayer (pray), curse (curse), and the three together.
+
+describer A: 3438 verbs in the 45 tales, 3590 in the 24 plays already described, 1165 in the eight new plays
+  oath    tales 0.99%, the 24 plays 3.57%, the eight new plays 1.97%
+  prayer  tales 0.09%, the 24 plays 2.17%, the eight new plays 2.23%
+  curse   tales 0.09%, the 24 plays 1.00%, the eight new plays 1.20%
+  all     tales 1.16%, the 24 plays 6.74%, the eight new plays 5.41%
+  oath    in 7 of the 8 new plays: P01 4, P02 1, P03 7, P04 1, P05 0, P06 2, P07 5, P08 3
+  prayer  in 8 of the 8 new plays: P01 1, P02 2, P03 3, P04 4, P05 3, P06 2, P07 7, P08 4
+  curse   in 7 of the 8 new plays: P01 2, P02 1, P03 2, P04 1, P05 1, P06 2, P07 5, P08 0
+  reported: lament, mourn and weep together, 0.34% of the new plays' verbs
+
+describer B: 3551 verbs in the 45 tales, 3439 in the 24 plays already described, 1122 in the eight new plays
+  oath    tales 0.96%, the 24 plays 3.40%, the eight new plays 2.41%
+  prayer  tales 0.11%, the 24 plays 0.93%, the eight new plays 0.80%
+  curse   tales 0.08%, the 24 plays 1.08%, the eight new plays 1.43%
+  all     tales 1.15%, the 24 plays 5.41%, the eight new plays 4.63%
+  oath    in 8 of the 8 new plays: P01 3, P02 1, P03 8, P04 2, P05 1, P06 4, P07 5, P08 3
+  prayer  in 6 of the 8 new plays: P01 1, P02 2, P03 2, P04 1, P05 1, P06 2, P07 0, P08 0
+  curse   in 7 of the 8 new plays: P01 2, P02 1, P03 3, P04 2, P05 1, P06 2, P07 5, P08 0
+  reported: lament, mourn and weep together, 0.27% of the new plays' verbs
+
+PREDICTIONS (CandProtocol.md)
+  1. in the eight new plays the three candidates together are at least three times their share in the tales, for both describers: HOLDS
+  2. each of oath, prayer and curse occurs in at least four of the eight new plays, for both describers: HOLDS
