@@ -1,6 +1,6 @@
 # The frozen models' predictions for Afanasyev's animal tales: the test
 
-**Drafted 2026-10-20, not yet frozen; to be frozen at the owner's word, before any animal tale is transcribed.** Once frozen, a departure is logged in `Animal/KeeperLog.md`, not made here.
+**Frozen 2026-10-20 at the owner's word, before any animal tale is transcribed.** Once frozen, a departure is logged in `Animal/KeeperLog.md`, not made here.
 
 ## The question
 
@@ -11,7 +11,7 @@ This test asks the frozen instruments, before any animal tale is transcribed, fo
 ## The tales and their transcription
 
 **The tales:** A001 to A050 in Propp-AnimalTales (`tales/`), in Russian, with their event lists and heroes (`Events.txt`, `Heroes.txt`: 1,283 events, a hero for each tale), listed under the calibration's event-listing rules with no mention of Propp.
-**The transcription, set up after the freeze:** the tales transcribed under Propp's functions by transcriber A (Opus) and transcriber B (Sonnet), reading the Russian, under the calibration's rules with the definitions card corrected for refusals (`AfanasyevRules-C.md` in Propp-Afanasyev: a refusal is not θ), the card decided on before any new corpus; the calibration found the correction changes nothing measurable, so the transcriptions stay comparable with the uncorrected ones the model was fitted on.
+**The transcription, set up after the freeze:** the tales transcribed under Propp's functions by transcriber A (Opus) and transcriber B (Sonnet), reading the Russian, under the calibration's rules with the definitions card corrected for refusals (`AfanasyevRules-C.md` in Propp-Afanasyev: a refusal is not θ), the card decided on before any new corpus and confirmed at the freeze; the calibration found the correction changes nothing measurable, so the transcriptions stay comparable with the uncorrected ones the model was fitted on.
 Each transcriber is given the event lists and heroes, as in the calibration; the tales are split into batches as the calibration split its 45.
 The stage runs in Propp-ActsRoles (`animal/`), where cloud sessions open, and the transcriptions are copied to Propp-AnimalTales as `transcriptions/A/bN/Notes.txt` and `transcriptions/B/bN/Notes.txt`, in the calibration's format, the function in the fifth field.
 **A note for the scorer:** the animal tales are A001 to A050 and the wondertales A093 to A167; `animal.py` reads the animal tales from Propp-AnimalTales alone, so the shared prefix cannot mix them.
