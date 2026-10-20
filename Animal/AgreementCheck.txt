@@ -1,0 +1,17 @@
+# AgreementCheck.txt -- agreement.py: transcribers A and B, every corpus measured the same way.
+# A check, not a frozen test; nothing here is judged.
+
+corpus               stories  content   order   moves  events functions A B
+wondertales, arm U        45    0.754   0.590   55.6%   0.525   23.5   25.7
+wondertales, arm C        45    0.750   0.586   33.3%   0.529   24.3   25.4
+fables                   198    0.738   0.677   83.8%   0.573    2.6    2.5
+tragedies                 32    0.740   0.545   21.9%   0.481   31.1   29.8
+myths                    126    0.685   0.552   48.4%   0.418    8.4   10.0
+animal tales              50    0.705   0.591   52.0%   0.596   10.2    7.6
+
+functions A B: the mean count per story of the functions content and order compare, for each transcriber.
+
+The animal tales against the wondertales of arm C, the same card, story by story:
+  wondertales, arm C   content quartiles 0.70 0.75 0.86; order quartiles 0.48 0.58 0.69
+  animal tales         content quartiles 0.62 0.72 0.86; order quartiles 0.44 0.60 0.75
+  the ten animal tales A and B agree on least (content): A031 0.00, A028 0.29, A014 0.34, A033 0.40, A035 0.40, A010 0.44, A008 0.53, A022 0.55, A040 0.57, A034 0.59
