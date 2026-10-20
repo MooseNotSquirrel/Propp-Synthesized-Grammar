@@ -1,6 +1,6 @@
 # Where myth sits, retested on the order of its blocks
 
-**DRAFT, 2026-10-19, to be frozen at the owner's word, before any myth is scored.** Once frozen, a departure is logged in `Genre/KeeperLog.md`, not made here.
+**Frozen 2026-10-19 at the owner's word, before any myth is scored.** Once frozen, a departure is logged in `Genre/KeeperLog.md`, not made here.
 
 ## Why a retest, and why on order
 
