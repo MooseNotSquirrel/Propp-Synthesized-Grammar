@@ -1,0 +1,80 @@
+# LinksRun.txt -- links.py score, as LinksProtocol.md freezes it.
+
+For each link: the moves holding the first function (all of them, where two are named), the moves where the second stands after it, and the count expected when the genre's functions are shuffled across its moves, each move keeping its length (10000 shuffles, seed 46).
+
+A or a -> K
+  tale     A  moves  143, with the first 140, second after it  56 (40%), expected 24.2, lift 2.32, p 0.0001  HOLDS
+  tale     B  moves  129, with the first 128, second after it  51 (40%), expected 24.0, lift 2.13, p 0.0001  HOLDS
+  fable    A  moves  228, with the first 193, second after it  31 (16%), expected 13.0, lift 2.38, p 0.0001  HOLDS
+  fable    B  moves  239, with the first 209, second after it  33 (16%), expected 12.9, lift 2.56, p 0.0001  HOLDS
+  tragedy  A  moves  233, with the first 232, second after it  50 (22%), expected 29.4, lift 1.70, p 0.0001  HOLDS
+  tragedy  B  moves  194, with the first 194, second after it  35 (18%), expected 23.8, lift 1.47, p 0.0001  HOLDS
+  Propp    -  moves   84, with the first  83, second after it  50 (60%), expected 15.6, lift 3.20, p 0.0001  HOLDS
+
+↑ -> ↓
+  tale     A  moves  143, with the first  53, second after it  17 (32%), expected 8.5, lift 2.00, p 0.0005  HOLDS
+  tale     B  moves  129, with the first  62, second after it  24 (39%), expected 11.2, lift 2.15, p 0.0001  HOLDS
+  fable    A  moves  228, with the first  20, second after it   2 (10%), expected 0.3, lift 5.76, p 0.0405  HOLDS
+  fable    B  moves  239, with the first  15, second after it   1 (7%), expected 0.2, lift 5.91, p 0.1585
+  tragedy  A  moves  233, with the first  44, second after it   6 (14%), expected 4.1, lift 1.46, p 0.2088
+  tragedy  B  moves  194, with the first  43, second after it   6 (14%), expected 4.5, lift 1.32, p 0.2831
+  Propp    -  moves   84, with the first   0, second after it   0 (0%), expected 0.0, lift nan, p 1.0000
+
+H -> I
+  tale     A  moves  143, with the first  29, second after it  25 (86%), expected 12.3, lift 2.03, p 0.0001  HOLDS
+  tale     B  moves  129, with the first  29, second after it  25 (86%), expected 15.7, lift 1.59, p 0.0010  HOLDS
+  fable    A  moves  228, with the first  11, second after it   7 (64%), expected 0.4, lift 15.83, p 0.0001  HOLDS
+  fable    B  moves  239, with the first  10, second after it   7 (70%), expected 0.5, lift 13.34, p 0.0001  HOLDS
+  tragedy  A  moves  233, with the first  26, second after it  22 (85%), expected 5.9, lift 3.72, p 0.0001  HOLDS
+  tragedy  B  moves  194, with the first  22, second after it  14 (64%), expected 6.1, lift 2.31, p 0.0004  HOLDS
+  Propp    -  moves   84, with the first  26, second after it  26 (100%), expected 4.3, lift 6.04, p 0.0001  HOLDS
+
+M -> N
+  tale     A  moves  143, with the first  21, second after it  17 (81%), expected 4.1, lift 4.12, p 0.0001  HOLDS
+  tale     B  moves  129, with the first  22, second after it  19 (86%), expected 6.2, lift 3.05, p 0.0001  HOLDS
+  fable    A  moves  228, with the first   8, second after it   5 (62%), expected 0.2, lift 31.57, p 0.0001  HOLDS
+  fable    B  moves  239, with the first   5, second after it   3 (60%), expected 0.1, lift 41.84, p 0.0001  HOLDS
+  tragedy  A  moves  233, with the first   6, second after it   3 (50%), expected 0.4, lift 6.90, p 0.0054  HOLDS
+  tragedy  B  moves  194, with the first   3, second after it   2 (67%), expected 0.1, lift 25.91, p 0.0018
+  Propp    -  moves   84, with the first  11, second after it  11 (100%), expected 1.0, lift 10.52, p 0.0001  HOLDS
+
+J -> Q
+  tale     A  moves  143, with the first   4, second after it   1 (25%), expected 0.4, lift 2.27, p 0.3710
+  tale     B  moves  129, with the first   5, second after it   2 (40%), expected 0.8, lift 2.58, p 0.1799
+  fable    A  moves  228, with the first   2, second after it   0 (0%), expected 0.0, lift 0.00, p 1.0000
+  fable    B  moves  239, with the first   0, second after it   0 (0%), expected 0.0, lift nan, p 1.0000
+  tragedy  A  moves  233, with the first   6, second after it   2 (33%), expected 0.4, lift 4.81, p 0.0601
+  tragedy  B  moves  194, with the first   5, second after it   1 (20%), expected 0.5, lift 1.84, p 0.4405
+  Propp    -  moves   84, with the first   3, second after it   3 (100%), expected 0.2, lift 18.39, p 0.0002
+
+L -> Ex
+  tale     A  moves  143, with the first   9, second after it   4 (44%), expected 0.4, lift 10.15, p 0.0003  HOLDS
+  tale     B  moves  129, with the first   7, second after it   4 (57%), expected 0.5, lift 7.56, p 0.0008  HOLDS
+  fable    A  moves  228, with the first  19, second after it  14 (74%), expected 1.8, lift 7.66, p 0.0001  HOLDS
+  fable    B  moves  239, with the first   7, second after it   3 (43%), expected 0.3, lift 10.25, p 0.0016  HOLDS
+  tragedy  A  moves  233, with the first   4, second after it   2 (50%), expected 0.3, lift 6.73, p 0.0284
+  tragedy  B  moves  194, with the first   2, second after it   0 (0%), expected 0.3, lift 0.00, p 1.0000
+  Propp    -  moves   84, with the first   6, second after it   4 (67%), expected 0.2, lift 20.67, p 0.0001  HOLDS
+
+D and E -> F
+  tale     A  moves  143, with the first  25, second after it  17 (68%), expected 7.0, lift 2.41, p 0.0001  HOLDS
+  tale     B  moves  129, with the first  37, second after it  28 (76%), expected 17.3, lift 1.62, p 0.0005  HOLDS
+  fable    A  moves  228, with the first  18, second after it   3 (17%), expected 0.2, lift 13.81, p 0.0019  HOLDS
+  fable    B  moves  239, with the first  13, second after it   1 (8%), expected 0.2, lift 4.68, p 0.1932
+  tragedy  A  moves  233, with the first   6, second after it   4 (67%), expected 0.4, lift 10.22, p 0.0004  HOLDS
+  tragedy  B  moves  194, with the first   6, second after it   3 (50%), expected 0.4, lift 6.79, p 0.0054  HOLDS
+  Propp    -  moves   84, with the first  31, second after it  26 (84%), expected 2.4, lift 10.94, p 0.0001  HOLDS
+
+Pr -> Rs
+  tale     A  moves  143, with the first  10, second after it   8 (80%), expected 3.4, lift 2.33, p 0.0095  HOLDS
+  tale     B  moves  129, with the first   8, second after it   6 (75%), expected 2.0, lift 2.98, p 0.0074  HOLDS
+  fable    A  moves  228, with the first   9, second after it   4 (44%), expected 0.3, lift 12.29, p 0.0003  HOLDS
+  fable    B  moves  239, with the first   7, second after it   1 (14%), expected 0.2, lift 4.96, p 0.1858
+  tragedy  A  moves  233, with the first  11, second after it   5 (45%), expected 1.9, lift 2.66, p 0.0286  HOLDS
+  tragedy  B  moves  194, with the first  13, second after it   5 (38%), expected 2.2, lift 2.26, p 0.0513
+  Propp    -  moves   84, with the first  15, second after it  14 (93%), expected 2.0, lift 6.88, p 0.0001  HOLDS
+
+PREDICTIONS (LinksProtocol.md)
+  1. in the tales, at least six of the eight links hold for both transcribers: 7 of 8 -> HOLDS
+  2. villainy or lack is followed by liquidation in a smaller share of moves in the tragedies than in the tales, for both transcribers: tales 40% and 40%, tragedies 22% and 18% -> HOLDS
+  3. in Propp's own moves, every link whose first function stands in at least 5 moves holds: 6 of 6 -> HOLDS

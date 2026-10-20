@@ -1,0 +1,3 @@
+# PostHoc.txt -- postHoc.py, after the verdict; reported, not judged.
+
+↑ -> ↓ in Propp's moves, the reader mended: moves   84, with the first  68, second after it  39 (57%), expected 11.9, lift 3.26, p 0.0001  HOLDS

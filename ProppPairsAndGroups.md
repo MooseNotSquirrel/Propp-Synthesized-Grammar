@@ -372,12 +372,12 @@ A long-distance link such as departure and return is hard to write as a producti
 It is a relation, not a rule: the first tends to bring the second later in the same move.
 The bottom-up test (`Free/`, 2026-10-19) found the same of the close pairs: readers given no list of acts name the first half of each pair with a verb of its own, but the second half only as whatever act breaks or fulfils the first, so the pairs are relations too.
 These links come from the outline this catalog follows; which of them Propp states, and on which page, is still to be marked.
-Their strength at any distance is not yet measured; the frequency analysis looked only up to four places apart, and its findings are given.
+Their strength at any distance was measured on 2026-10-19 (`Links/`): the share of moves holding the first function in which the second follows, anywhere later in the move, for transcribers A and B and for Propp's own moves.
 
 ### A or a to K
 
 - **Joins:** villainy or lack, and its liquidation.
-- **Measured:** not confirmed within four places, the halves standing far apart.
+- **Measured:** followed by K in 40% and 40% of tale moves (A and B), 16% and 16% of fable moves, 22% and 18% of tragedy moves, and 60% of Propp's own; above chance in all (`Links/LinksRun.txt`).
 - **Literal meaning:** The trouble that is set right.
   Whatever is lost or lacking at the start is what the move works to restore; everything between is the way there.
 - **Cultural meaning:** not yet written.
@@ -385,7 +385,7 @@ Their strength at any distance is not yet measured; the frequency analysis looke
 ### ↑ to ↓
 
 - **Joins:** departure and return.
-- **Measured:** not yet tested.
+- **Measured:** followed by ↓ in 32% and 39% of tale moves, above chance; 10% and 7% of fable moves; 14% and 14% of tragedy moves, not above chance; 57% of Propp's own (`Links/PostHoc.txt`, the reader mended).
 - **Literal meaning:** Going out and coming back.
   The hero who leaves is expected home again, though a hero may stay where the quest led.
 - **Cultural meaning:** not yet written.
@@ -393,7 +393,7 @@ Their strength at any distance is not yet measured; the frequency analysis looke
 ### H to I
 
 - **Joins:** struggle and victory.
-- **Measured:** H I confirmed adjacent, and still above chance six places apart.
+- **Measured:** followed by I in 86% and 86% of tale moves, 64% and 70% of fable moves, 85% and 64% of tragedy moves, and all of Propp's; above chance in all.
 - **Literal meaning:** The fight is won.
   A fight once begun is expected to end in the villain's defeat, however long it takes.
 - **Cultural meaning:** not yet written.
@@ -401,7 +401,7 @@ Their strength at any distance is not yet measured; the frequency analysis looke
 ### M to N
 
 - **Joins:** difficult task and solution.
-- **Measured:** M N confirmed, its strength falling steadily over one to four places.
+- **Measured:** followed by N in 81% and 86% of tale moves, 62% and 60% of fable moves, 50% and 67% of the few tragedy moves (6 and 3), and all of Propp's.
 - **Literal meaning:** The task is done.
   A task once set is expected to be solved, with other acts between.
 - **Cultural meaning:** not yet written.
@@ -409,7 +409,7 @@ Their strength at any distance is not yet measured; the frequency analysis looke
 ### J to Q
 
 - **Joins:** branding and recognition.
-- **Measured:** not yet tested.
+- **Measured:** too rare to test in the transcriptions (2 to 6 moves with J); in Propp's own, 3 of 3.
 - **Literal meaning:** The mark that proves.
   The wound or token the hero receives is what later shows who the hero is.
 - **Cultural meaning:** not yet written.
@@ -417,7 +417,7 @@ Their strength at any distance is not yet measured; the frequency analysis looke
 ### L to Ex
 
 - **Joins:** unfounded claims and exposure.
-- **Measured:** not yet tested.
+- **Measured:** followed by Ex in 44% and 57% of tale moves, 74% and 43% of fable moves, and 67% of Propp's; too rare in tragedy.
 - **Literal meaning:** The lie found out.
   A false claim is expected to be exposed before the end.
 - **Cultural meaning:** not yet written.
@@ -425,7 +425,7 @@ Their strength at any distance is not yet measured; the frequency analysis looke
 ### D and E to F
 
 - **Joins:** test and reaction, and the gift.
-- **Measured:** D E confirmed; E F not confirmed within four places.
+- **Measured:** followed by F in 68% and 76% of tale moves, 17% and 8% of fable moves, 67% and 50% of tragedy moves (6 each), and 84% of Propp's.
 - **Literal meaning:** The answer earns the gift.
   How the hero meets the test decides whether help is given.
 - **Cultural meaning:** not yet written.
@@ -433,7 +433,7 @@ Their strength at any distance is not yet measured; the frequency analysis looke
 ### Pr to Rs
 
 - **Joins:** pursuit and rescue.
-- **Measured:** too rare to confirm.
+- **Measured:** followed by Rs in 80% and 75% of tale moves, 44% and 14% of fable moves, 45% and 38% of tragedy moves, and 93% of Propp's.
 - **Literal meaning:** The chase ends in escape.
   A pursuit is expected to end with the hero saved.
 - **Cultural meaning:** not yet written.
