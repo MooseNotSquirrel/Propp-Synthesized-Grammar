@@ -1,6 +1,6 @@
 # Oath, prayer and curse: the test of the candidate acts
 
-**DRAFT, 2026-10-19, to be frozen at the owner's word, before any of the eight plays is described.** Once frozen, a departure is logged in `Cand/KeeperLog.md`, not made here.
+**Frozen 2026-10-19 at the owner's word, before any of the eight plays is described.** Once frozen, a departure is logged in `Cand/KeeperLog.md`, not made here.
 
 ## The question
 
