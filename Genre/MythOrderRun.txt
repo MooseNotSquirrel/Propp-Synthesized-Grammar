@@ -1,0 +1,8 @@
+# MythOrderRun.txt -- mythOrder.py score, as MythOrderProtocol.md freezes it.
+# Concordance gap over 1000 in-place shuffles (seed 46); in brackets, shuffles at or above.
+
+transcriber A: wondertale +0.061 (0), fable +0.092 (0), tragedy +0.038 (43), Propp +0.065 (0); best fable
+transcriber B: wondertale +0.063 (0), fable +0.047 (9), tragedy +0.046 (15), Propp +0.068 (0); best Propp
+
+PREDICTION (MythOrderProtocol.md)
+  tragedy's order fits myth better than the wondertale's, the fable's and Propp's, for both transcribers: FAILS
