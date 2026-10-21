@@ -1,6 +1,6 @@
 # The animal tales' problem structure, in acts and their significance: the test
 
-**Drafted 2026-10-20, before any animal tale is described in acts, significance or free verbs; not yet frozen.** Once frozen at the owner's word, a departure is logged in `Animal/KeeperLog.md`, not made here.
+**Frozen 2026-10-20 at the owner's word, as drafted, before any animal tale is described in acts, significance or free verbs.** Once frozen, a departure is logged in `Animal/KeeperLog.md`, not made here.
 
 ## The question
 

@@ -1,6 +1,6 @@
 # Whether transcriber A's placement of the animal tales follows from how much A marks: the test
 
-**Drafted 2026-10-20, after the animal tales were scored; not yet frozen.** Once frozen at the owner's word, a departure is logged in `Animal/KeeperLog.md`, not made here.
+**Frozen 2026-10-20 at the owner's word, as drafted, after the animal tales were scored and before the length-matched placement was run.** Once frozen, a departure is logged in `Animal/KeeperLog.md`, not made here.
 
 ## The question
 
