@@ -40,6 +40,14 @@ def _by_file(name):
     return _CACHE[key]
 
 
+P = os.path.dirname(os.path.dirname(HERE))
+
+
+def file_rows(name, path):
+    """a table's rows from one raw file, named by its full path as an older program built it, in line order"""
+    return _by_file(name).get(os.path.relpath(path, P).replace(os.sep, '/'), [])
+
+
 def native(path):
     """the sort key an older program used: its globbed paths, sorted with this platform's separator"""
     return path.replace('/', os.sep)

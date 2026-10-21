@@ -258,7 +258,7 @@ def data_lines(path, nfields):
         m = ID.match(f[0]) if len(f) >= min(nfields, 2) else None
         if m:
             kept += 1
-            yield f + [''] * (nfields - len(f)), m
+            yield f + [''] * (nfields - len(f)) + [i, len(f)], m
         else:
             r = why_dropped(line)
             if r:
@@ -289,7 +289,7 @@ def read_acts(rows):
                             story = resolve(m.group(1))
                         order[(story, ev)] += 1
                         rows.append((story, L, MODEL[L], study, batch, m.group(2) or '', ev, order[(story, ev)],
-                                     f[2], f[3], f[4], f[5], f[6], f[7], f[8], f[9], flag, rel(path)))
+                                     f[2], f[3], f[4], f[5], f[6], f[7], f[8], f[9], flag, m.group(1), f[-2], f[-1], rel(path)))
 
 
 def read_free(rows):
@@ -302,7 +302,7 @@ def read_free(rows):
                     ev, story = event_of(f[1]), resolve(m.group(1))
                     order[(story, ev)] += 1
                     rows.append((story, L, MODEL[L], study, batch, m.group(2) or '', ev, order[(story, ev)],
-                                 f[2], f[3], f[4], f[5], f[6], f[7], f[8], rel(path)))
+                                 f[2], f[3], f[4], f[5], f[6], f[7], f[8], f[-2], f[-1], rel(path)))
 
 
 def read_sig_input(path):
@@ -342,15 +342,16 @@ def read_sig(sigrows, probrows):
                 kept, dropped, odd = 0, collections.Counter(), []
                 for i, line in enumerate(open(path, encoding='utf-8'), 1):
                     f = [x.strip() for x in line.rstrip('\n').split('|', 8)]
+                    nf = len(f)
                     pm = ID.match(f[0])
                     if EID.match(f[0]) and len(f) >= 8:
                         f += [''] * (9 - len(f))
                         src = inp.get(f[0], ('unknown:' + f[0], 0, '', '', '', ''))
                         sigrows.append((src[0], L, MODEL[L], study, batch, f[0], src[1], src[2], src[3], src[4],
-                                        src[5], f[1], f[2], f[3], f[4], f[5], f[6], f[7], f[8], rel(path)))
+                                        src[5], f[1], f[2], f[3], f[4], f[5], f[6], f[7], f[8], i, nf, rel(path)))
                     elif pm and len(f) >= 4 and f[1].lower() == 'problem':
                         probrows.append((resolve(pm.group(1)), L, MODEL[L], study, batch, f[2], ' | '.join(f[3:]),
-                                         rel(path)))
+                                         i, nf, rel(path)))
                     else:
                         r = why_dropped(line)
                         if r:
@@ -366,16 +367,16 @@ def read_heroes(rows):
     for L in 'AB':        # the two hero readers
         for path in sorted(glob.glob(os.path.join(P, AR, 'heroes', 'answers', L, '*', 'Heroes.txt'))):
             for f, m in data_lines(path, 4):
-                rows.append((resolve(m.group(1)), L, MODEL[L], 'heroes', f[1], f[2], f[3], rel(path)))
+                rows.append((resolve(m.group(1)), L, MODEL[L], 'heroes', f[1], f[2], f[3], f[-2], f[-1], rel(path)))
     for pat, corpus in HERO_LISTS:      # the event listers' heroes
         for path in sorted(glob.glob(os.path.join(P, pat))):
             for f, m in data_lines(path, 3):
                 hero = re.sub(r'^hero:\s*', '', f[1])
                 rows.append((resolve(m.group(1), corpus), 'lister', '', 'events', hero, '',
-                             f[2].replace('moral: -', '').strip(), rel(path)))
+                             f[2].replace('moral: -', '').strip(), f[-2], f[-1], rel(path)))
     path = os.path.join(ROOT, 'Heroes', 'JudgedHeroes.txt')     # the heroes the readers agree on, as judged
     for f, m in data_lines(path, 3):
-        rows.append((resolve(m.group(1)), 'judged', '', 'heroes', f[1], '', f[2], rel(path)))
+        rows.append((resolve(m.group(1)), 'judged', '', 'heroes', f[1], '', f[2], f[-2], f[-1], rel(path)))
 
 
 def build_descriptions(meta):
@@ -387,14 +388,14 @@ def build_descriptions(meta):
     read_sig(sig, probs)
     read_heroes(heroes)
     tsv('acts.tsv', ['story', 'reader', 'model', 'study', 'batch', 'version', 'event', 'entry', 'act', 'performer',
-                     'undergoer', 'relation', 'matters', 'link', 'unsure', 'note', 'id_flag', 'file'], acts)
+                     'undergoer', 'relation', 'matters', 'link', 'unsure', 'note', 'id_flag', 'raw_id', 'line', 'fields', 'file'], acts)
     tsv('free.tsv', ['story', 'reader', 'model', 'study', 'batch', 'version', 'event', 'entry', 'verb', 'phrase',
-                     'performer', 'undergoer', 'matters', 'unsure', 'note', 'file'], free)
+                     'performer', 'undergoer', 'matters', 'unsure', 'note', 'line', 'fields', 'file'], free)
     tsv('significance.tsv', ['story', 'reader', 'model', 'study', 'batch', 'entry', 'event', 'act', 'performer',
                              'undergoer', 'relation', 'part', 'value', 'place', 'problem', 'link', 'target',
-                             'unsure', 'note', 'file'], sig)
-    tsv('problems.tsv', ['story', 'reader', 'model', 'study', 'batch', 'problem', 'text', 'file'], probs)
-    tsv('heroes.tsv', ['story', 'reader', 'model', 'study', 'hero', 'confidence', 'basis', 'file'], heroes)
+                             'unsure', 'note', 'line', 'fields', 'file'], sig)
+    tsv('problems.tsv', ['story', 'reader', 'model', 'study', 'batch', 'problem', 'text', 'line', 'fields', 'file'], probs)
+    tsv('heroes.tsv', ['story', 'reader', 'model', 'study', 'hero', 'confidence', 'basis', 'line', 'fields', 'file'], heroes)
     print('acts %d, free %d, significance %d, problems %d, heroes %d'
           % (len(acts), len(free), len(sig), len(probs), len(heroes)))
     return [(a, st, '%s; %s' % (src, f)) for (f, a), (st, src) in sorted(ALIASES.items())]
