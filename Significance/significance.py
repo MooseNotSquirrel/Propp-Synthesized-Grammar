@@ -26,6 +26,8 @@ import heroes as H  # noqa: E402
 import twoLayer as T  # noqa: E402
 import withJudgedHeroes as W  # noqa: E402
 import baseline as BL  # noqa: E402
+sys.path.insert(0, os.path.join(ROOT, 'Data'))
+import tables as DT  # noqa: E402
 
 OUT = os.path.join(P, 'ActsRoles')
 SIG = os.path.join(OUT, 'sig')
@@ -162,15 +164,14 @@ def read_sig(L, b):
     out, probs, faults = {}, {}, []
     if not os.path.exists(path):
         return out, probs, ['%s %s: no file' % (L, b)]
-    for i, line in enumerate(open(path, encoding='utf-8'), 1):
-        f = [x.strip() for x in line.rstrip('\n').split('|', 8)]
-        if len(f) >= 4 and f[1].lower() == 'problem' and re.match(r'^[PFA]\d{2}', f[0]):
-            probs[(f[0], f[2].lower())] = f[3]
-            continue
-        if not re.match(r'^e\d{4}$', f[0]):
-            continue
-        if len(f) < 9:
-            faults.append('%s %s line %d: %d fields' % (L, b, i, len(f)))
+    # read from the normalized tables (Data/tables.py): the file's problem lines, then its entries
+    for r in DT.file_rows('problems', path):
+        if re.match(r'^[PFA]\d{2}', DT.local(r['story'])):
+            probs[(DT.local(r['story']), r['problem'].lower())] = r['text'].split(' | ')[0]
+    for r in DT.file_rows('significance', path):
+        f = [r['entry'], r['part'], r['value'], r['place'], r['problem'], r['link'], r['target']]
+        if int(r['fields']) < 9:
+            faults.append('%s %s line %s: %s fields' % (L, b, r['line'], r['fields']))
             continue
         part, value, place, prob, link, target = (x.lower() for x in f[1:7])
         bad = [x for x, ok in ((part, PARTS), (value, VALUES), (place, PLACES), (link, LINKS)) if x not in ok]

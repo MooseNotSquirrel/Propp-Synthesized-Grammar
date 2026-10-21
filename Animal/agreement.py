@@ -40,6 +40,8 @@ ROOT = os.path.dirname(HERE)
 P = os.path.dirname(ROOT)
 sys.path.insert(0, os.path.join(ROOT, 'Tragedy'))
 import tragedyScore as TS  # noqa: E402
+sys.path.insert(0, os.path.join(ROOT, 'Data'))
+import tables as DT  # noqa: E402
 
 VOCAB = set(TS.NUM) - TS.PREP
 CORPORA = [('wondertales, arm U', ['Afanasyev/transcriptions/U/%s/b*/Notes.txt'], 4),
@@ -59,16 +61,13 @@ def say(s=''):
 def read(pats, sf, L):
     """{story: [(move, event, symbol, marked Y)]}, each story's first reading"""
     st = collections.OrderedDict()
-    for pat in pats:
-        for path in sorted(glob.glob(os.path.join(P, pat % L))):
-            for line in open(path, encoding='utf-8'):
-                f = [x.strip() for x in line.rstrip('\n').split('|', 10)]
-                if len(f) < 10 or not re.match(r'^([PFA]\d{2}|L\d-\d{3})', f[0]):
-                    continue
-                base, _, ver = f[0].partition('/')
-                ev = re.search(r'\d+', f[3])
-                st.setdefault(base, collections.OrderedDict()).setdefault(ver or '1', []).append(
-                    (f[1], int(ev.group()) if ev else None, f[sf], sf == 5 or f[sf + 3].upper().startswith('Y')))
+    for r in DT.files('functions', pats, L):     # from the normalized tables (Data/tables.py)
+        base = DT.local(r['story'])
+        if not re.match(r'^([PFA]\d{2}|L\d-\d{3})', base):
+            continue
+        st.setdefault(base, collections.OrderedDict()).setdefault(r['version'] or '1', []).append(
+            (r['move'], int(r['event']) if r['event'] else None, r['raw'],
+             sf == 5 or r['matters'].upper().startswith('Y')))
     return {s: vs[sorted(vs, key=lambda v: (len(v), v))[0]] for s, vs in st.items()}
 
 

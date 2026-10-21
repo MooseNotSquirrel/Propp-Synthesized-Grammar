@@ -26,6 +26,8 @@ ROOT = os.path.dirname(HERE)
 P = os.path.dirname(ROOT)
 sys.path.insert(0, os.path.join(ROOT, 'Significance'))
 import significance as S  # noqa: E402
+sys.path.insert(0, os.path.join(ROOT, 'Data'))
+import tables as DT  # noqa: E402
 
 T, W, H = S.T, S.W, S.H
 OUT = os.path.join(P, 'ActsRoles')
@@ -145,29 +147,22 @@ def act_lines(L, b):
     if not os.path.exists(path):
         return [], ['%s %s: no file' % (L, b)]
     plays = material()['tragedy'].get(b, [])
-    spk = {p: play_events(p) for p in plays}
-    out, faults, state = [], [], {'i': 0, 'prev': 0}
-    for i, line in enumerate(open(path, encoding='utf-8'), 1):
-        f = [x.strip() for x in line.rstrip('\n').split('|', 9)]
-        if len(f) < 10:
-            continue
-        ev = re.search(r'\d+', f[1])
-        if not ev:
-            continue
-        ev = int(ev.group())
-        if re.match(r'^S\d+$', f[0]) and plays:
-            if ev < state['prev'] and ev == 1 and state['i'] == 0:
-                state['i'] = 1
-            state['prev'] = ev
-            s = plays[state['i']]
-            if spk[s].get(ev) != f[0]:
-                faults.append('%s %s line %d: speech %s at event %d does not match %s' % (L, b, i, f[0], ev, s))
+    out, faults = [], []
+    # read from the normalized tables (Data/tables.py), where the speech-numbered plays are recovered by the rule
+    # above and a line that does not match is flagged
+    for r in DT.file_rows('acts', path):
+        ev, raw = int(r['event']), r['raw_id']
+        if re.match(r'^S\d+$', raw) and plays:
+            s = DT.local(r['story'])
+            if r['id_flag']:
+                faults.append('%s %s line %s: speech %s at event %d does not match %s' % (L, b, r['line'], raw, ev, s))
                 continue
-        elif re.match(r'^[PFA]\d{2}', f[0]):
-            s = f[0].split('/')[0]
+        elif re.match(r'^[PFA]\d{2}', raw):
+            s = DT.local(r['story'])
         else:
             continue
-        out.append((s, ev, f[2].lower(), f[3], f[4], f[5].lower(), f[6][:1].upper(), f[9]))
+        out.append((s, ev, r['act'].lower(), r['performer'], r['undergoer'], r['relation'].lower(),
+                    r['matters'][:1].upper(), r['note']))
     return out, faults
 
 

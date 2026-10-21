@@ -18,14 +18,17 @@ ROOT = os.path.dirname(HERE)
 P = os.path.dirname(ROOT)
 OUT = os.path.join(P, 'ActsRoles', 'heroes')
 GENRES = ('tale', 'fable', 'tragedy')
+sys.path.insert(0, os.path.join(ROOT, 'Data'))
+import tables as DT  # noqa: E402
 
 
 def events(path):
+    """{story: [(event, text)]} from one event list, read from the normalized tables (Data/tables.py)"""
     out = collections.OrderedDict()
-    for l in open(path, encoding='utf-8'):
-        f = [x.strip() for x in l.split('|')]
-        if len(f) >= 3 and re.match(r'^[PFA]\d{2}', f[0]) and f[1].isdigit():
-            out.setdefault(f[0], []).append((int(f[1]), f[-1]))
+    for r in DT.file_rows('events', path):
+        s = DT.local(r['story'])
+        if re.match(r'^[PFA]\d{2}', s):
+            out.setdefault(s, []).append((int(r['event']), r['text']))
     return out
 
 
@@ -118,22 +121,19 @@ def rule_heroes():
     h = {}
     paths = [os.path.join(P, 'Afanasyev', 'Heroes.txt'), os.path.join(P, 'Aesop', 'Heroes.txt'),
              os.path.join(P, 'Fables', 'Heroes.txt')] + glob.glob(os.path.join(P, 'Tragedy', 'plays', 'P*', 'Hero.txt'))
-    for path in paths:
-        for l in open(path, encoding='utf-8'):
-            if '|' in l:
-                s, rest = l.split('|', 1)
-                rest = rest.split('|')[0].replace('hero:', '')
-                h[s.strip()] = {key(n) for n in rest.split(';') if n.strip()}
+    for path in paths:      # the event listers' heroes, from the normalized tables (Data/tables.py)
+        for r in DT.file_rows('heroes', path):
+            h[DT.local(r['story'])] = {key(n) for n in r['hero'].replace('hero:', '').split(';') if n.strip()}
     return h
 
 
 def answers(L):
     out = {}
-    for p in glob.glob(os.path.join(OUT, 'answers', L, 'h*', 'Heroes.txt')):
-        for l in open(p, encoding='utf-8'):
-            f = [x.strip() for x in l.split('|')]
-            if len(f) >= 3 and re.match(r'^[PFA]\d{2}', f[0]):
-                out[f[0]] = (f[1], f[2].lower())
+    for p in glob.glob(os.path.join(OUT, 'answers', L, 'h*', 'Heroes.txt')):    # from the normalized tables
+        for r in DT.file_rows('heroes', p):
+            s = DT.local(r['story'])
+            if int(r['fields']) >= 3 and re.match(r'^[PFA]\d{2}', s):
+                out[s] = (r['hero'], r['confidence'].lower())
     return out
 
 

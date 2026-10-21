@@ -20,6 +20,7 @@ ROOT = os.path.dirname(HERE)
 P = os.path.dirname(ROOT)
 sys.path.insert(0, os.path.join(ROOT, 'Ngrams'))
 import ngrams as N  # noqa: E402
+DT = N.DT
 
 T, Pm, H = N.T, N.Pm, N.Pm.H
 OUT = os.path.join(P, 'ActsRoles')
@@ -93,22 +94,18 @@ def read_free(L, b):
     if not os.path.exists(path):
         return [], ['%s %s: no file' % (L, b)]
     out, faults = [], []
-    for i, line in enumerate(open(path, encoding='utf-8'), 1):
-        f = [x.strip() for x in line.rstrip('\n').split('|', 8)]
-        if len(f) < 9:
+    for r in DT.file_rows('free', path):       # from the normalized tables (Data/tables.py)
+        s, ev = DT.local(r['story']), int(r['event'])
+        if int(r['fields']) < 9 or not ev or not re.match(r'^[A-Z]\d+', s):
             continue
-        ev = re.search(r'\d+', f[1])
-        if not ev or not re.match(r'^[A-Z]\d+', f[0]):
-            continue
-        s = f[0].split('/')[0]
         if s not in ids:
-            faults.append('%s %s line %d: story %s not in the batch' % (L, b, i, s))
+            faults.append('%s %s line %s: story %s not in the batch' % (L, b, r['line'], s))
             continue
-        v = verb_of(f[2])
-        if not v or f[6][:1].upper() not in 'YN':
-            faults.append('%s %s line %d: verb or mark missing' % (L, b, i))
+        v = verb_of(r['verb'])
+        if not v or r['matters'][:1].upper() not in 'YN':
+            faults.append('%s %s line %s: verb or mark missing' % (L, b, r['line']))
             continue
-        out.append((s, int(ev.group()), v, f[3], f[4], f[5], f[6][:1].upper()))
+        out.append((s, ev, v, r['phrase'], r['performer'], r['undergoer'], r['matters'][:1].upper()))
     return out, faults
 
 

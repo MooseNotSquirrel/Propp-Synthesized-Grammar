@@ -29,6 +29,7 @@ import problems as Pm  # noqa: E402
 import free as F  # noqa: E402
 
 S = Pm.S
+DT = Pm.DT
 OUT = os.path.join(P, 'ActsRoles')
 BASE = os.path.join(OUT, 'animal')
 TALES = ['A%03d' % i for i in range(1, 51)]
@@ -48,22 +49,17 @@ def say(s=''):
 
 # ---------------------------------------------------------------- material and prompts
 def events():
-    """{story: [(event, text)]} from the event lists"""
+    """{story: [(event, text)]} from the event lists; read from the normalized tables (Data/tables.py), which hold
+    Propp-AnimalTales' copy, byte for byte the one under BASE"""
     out = collections.defaultdict(list)
-    for l in open(os.path.join(BASE, 'Events.txt'), encoding='utf-8'):
-        f = [x.strip() for x in l.split('|', 2)]
-        if len(f) == 3 and re.match(r'^A\d{3}$', f[0]):
-            out[f[0]].append((int(f[1]), f[2]))
+    for r in DT.file_rows('events', os.path.join(P, 'AnimalTales', 'Events.txt')):
+        out[DT.local(r['story'])].append((int(r['event']), r['text']))
     return out
 
 
 def heroes():
-    out = {}
-    for l in open(os.path.join(BASE, 'Heroes.txt'), encoding='utf-8'):
-        m = re.match(r'^(A\d{3}) \| hero: ([^|]*)', l)
-        if m:
-            out[m.group(1)] = m.group(2).strip()
-    return out
+    """the event lister's heroes, from the normalized tables, Propp-AnimalTales' copy"""
+    return {DT.local(r['story']): r['hero'] for r in DT.file_rows('heroes', os.path.join(P, 'AnimalTales', 'Heroes.txt'))}
 
 
 def title(s):
@@ -117,16 +113,15 @@ def act_lines(L, b, base=None):
     if not os.path.exists(path):
         return [], ['%s %s: no file' % (L, b)]
     out, faults = [], []
-    for i, line in enumerate(open(path, encoding='utf-8'), 1):
-        f = [x.strip() for x in line.rstrip('\n').split('|', 9)]
-        if len(f) < 10 or not re.match(r'^A\d{3}', f[0]):
+    for r in DT.file_rows('acts', path):       # from the normalized tables (Data/tables.py)
+        s, ev = DT.local(r['story']), int(r['event'])
+        if int(r['fields']) < 10 or not re.match(r'^A\d{3}', r['raw_id']):
             continue
-        ev = re.search(r'\d+', f[1])
-        s = f[0].split('/')[0]
         if not ev or s not in BATCHES[b]:
-            faults.append('%s %s line %d: story or event' % (L, b, i))
+            faults.append('%s %s line %s: story or event' % (L, b, r['line']))
             continue
-        out.append((s, int(ev.group()), f[2].lower(), f[3], f[4], f[5].lower(), f[6][:1].upper(), f[9]))
+        out.append((s, ev, r['act'].lower(), r['performer'], r['undergoer'], r['relation'].lower(),
+                    r['matters'][:1].upper(), r['note']))
     return out, faults
 
 
@@ -151,17 +146,15 @@ def free_lines(L, b):
     if not os.path.exists(path):
         return [], ['%s %s: no file' % (L, b)]
     out, faults = [], []
-    for i, line in enumerate(open(path, encoding='utf-8'), 1):
-        f = [x.strip() for x in line.rstrip('\n').split('|', 8)]
-        if len(f) < 9 or not re.match(r'^A\d{3}', f[0]):
+    for r in DT.file_rows('free', path):       # from the normalized tables (Data/tables.py)
+        s, ev = DT.local(r['story']), int(r['event'])
+        if int(r['fields']) < 9 or not re.match(r'^A\d{3}', s):
             continue
-        ev = re.search(r'\d+', f[1])
-        s = f[0].split('/')[0]
-        v = F.verb_of(f[2])
-        if not ev or s not in BATCHES[b] or not v or f[6][:1].upper() not in 'YN':
-            faults.append('%s %s line %d' % (L, b, i))
+        v = F.verb_of(r['verb'])
+        if not ev or s not in BATCHES[b] or not v or r['matters'][:1].upper() not in 'YN':
+            faults.append('%s %s line %s' % (L, b, r['line']))
             continue
-        out.append((s, int(ev.group()), v))
+        out.append((s, ev, v))
     return out, faults
 
 

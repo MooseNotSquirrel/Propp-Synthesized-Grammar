@@ -22,6 +22,8 @@ P = os.path.dirname(ROOT)
 OUT = os.path.join(P, 'ActsRoles')
 sys.path.insert(0, os.path.join(ROOT, 'Tragedy'))
 import tragedyScore as TS  # noqa: E402
+sys.path.insert(0, os.path.join(ROOT, 'Data'))
+import tables as DT  # noqa: E402
 
 SPLIT = {l.split('|')[0].strip(): [int(x) for x in l.split('|')[1].split()]
          for l in open(os.path.join(ROOT, 'Calibration', 'Split.txt'), encoding='utf-8') if '|' in l}
@@ -174,28 +176,23 @@ def speech_story(path):
 
 
 def read_acts(paths):
-    """{(story, event): [(act, performer, undergoer, relation)]}"""
+    """{(story, event): [(act, performer, undergoer, relation)]}; read from the normalized tables (Data/tables.py),
+    where the speech-numbered plays are recovered as speech_story recovers them; a speech-numbered line outside the
+    two-layer test's tragedy batches is left out, as this reader always left it"""
     out = collections.defaultdict(list)
     for p in paths:
-        recover = None
-        for line in open(p, encoding='utf-8'):
-            f = [x.strip() for x in line.rstrip('\n').split('|', 9)]
-            if len(f) < 10:
-                continue
-            ev = re.search(r'\d+', f[1])
-            if not ev:
-                continue
-            if re.match(r'^S\d+$', f[0]):
-                recover = recover or speech_story(p)
-                if recover is None:
+        speech_ok = re.search(r'tragedy[\\/]acts[\\/][AB][\\/](g\d)', p) is not None
+        for r in DT.file_rows('acts', p):
+            if re.match(r'^S\d+$', r['raw_id']):
+                if not speech_ok:
                     continue
-                story = recover(f[0], int(ev.group()))
-            elif re.match(r'^[PFA]\d{2}', f[0]):
-                story = f[0].split('/')[0]
-            else:
+                if r['id_flag']:
+                    raise SystemExit('%s: recovery refused' % r['id_flag'])
+            elif not re.match(r'^[PFA]\d{2}', r['raw_id']):
                 continue
-            if f[6][:1].upper() in 'YN':
-                out[(story, int(ev.group()))].append((f[2].lower(), f[3], f[4], f[5].lower()))
+            if r['matters'][:1].upper() in 'YN':
+                out[(DT.local(r['story']), int(r['event']))].append(
+                    (r['act'].lower(), r['performer'], r['undergoer'], r['relation'].lower()))
     return out
 
 
