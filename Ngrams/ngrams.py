@@ -31,6 +31,8 @@ sys.path.insert(0, os.path.join(ROOT, 'Problems'))
 import tragedyScore as TS  # noqa: E402
 import twoLayer as T  # noqa: E402
 import problems as Pm  # noqa: E402
+sys.path.insert(0, os.path.join(ROOT, 'Data'))
+import tables as DT  # noqa: E402
 
 GENRES = ('tale', 'fable', 'tragedy')
 SEED = 46
@@ -64,35 +66,37 @@ def function_strings():
     out = {}
     for L in 'AB':
         st = collections.OrderedDict()
-        for pat in pats:
-            for path in sorted(glob.glob(os.path.join(P, pat % L))):
-                for line in open(path, encoding='utf-8'):
-                    f = [x.strip() for x in line.rstrip('\n').split('|', 10)]
-                    if len(f) < 10 or not re.match(r'^[PFA]\d{2}', f[0]):
-                        continue
-                    s = f[0].split('/')[0]
-                    st.setdefault(s, [])
-                    tok = function_token(f[4])
-                    if tok:
-                        st[s].append(tok)
+        for r in DT.files('functions', pats, L):     # the normalized tables (Data/tables.py)
+            s = DT.local(r['story'])
+            if not re.match(r'^[PFA]\d{2}', s):
+                continue
+            st.setdefault(s, [])
+            tok = function_token(r['raw'])
+            if tok:
+                st[s].append(tok)
         out[L] = st
     return out
 
 
 def act_strings():
-    """{L: {story: [acts in text order]}}, `other` left out: the two-layer test's stories and the problem test's"""
+    """{L: {story: [acts in text order]}}, `other` left out: the two-layer test's stories and the problem test's;
+    read from the normalized tables (Data/tables.py) as the two tests' own readers read them: the two-layer test's
+    entries whose mark is Y, N or empty, grouped by story and event; the problem test's in order, its faults left out"""
     out = {}
     for L in 'AB':
         st = collections.OrderedDict()
-        raw = T.read_acts(sorted(p for g in GENRES for p in glob.glob(os.path.join(T.OUT, g, 'acts', L, '*', 'Notes.txt'))))
+        raw = collections.defaultdict(list)
+        for r in DT.sorted_files('acts', ['ActsRoles/%s/acts/%%s/*/Notes.txt' % g for g in GENRES], L):
+            if r['matters'][:1].upper() in 'YN':
+                raw[(DT.local(r['story']), int(r['event']))].append(r['act'].lower())
         for (s, ev) in sorted(raw):
-            st.setdefault(s, []).extend(a for a, _, _, _ in raw[(s, ev)] if a in T.ACTS and a != 'other')
+            st.setdefault(s, []).extend(a for a in raw[(s, ev)] if a in T.ACTS and a != 'other')
         for g, bs in Pm.material().items():
             for b in bs:
-                rows, _ = Pm.act_lines(L, b)
-                for r in rows:
-                    if r[2] in T.ACTS and r[2] != 'other':
-                        st.setdefault(r[0], []).append(r[2])
+                for r in DT.files('acts', ['ActsRoles/problems/acts/%s/' + b + '/Notes.txt'], L):
+                    a = r['act'].lower()
+                    if not r['id_flag'] and a in T.ACTS and a != 'other':
+                        st.setdefault(DT.local(r['story']), []).append(a)
         out[L] = st
     return out
 
