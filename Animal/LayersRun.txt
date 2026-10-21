@@ -1,0 +1,50 @@
+# LayersRun.txt -- layers.py score, as LayersProtocol.md freezes it.
+
+stories: A tale 22, A fable 41, A tragedy 16, A animal 50, B tale 22, B fable 41, B tragedy 16, B animal 50
+measure        L           tale          fable        tragedy         animal
+problems       A    3.23/ +0.00    1.17/ +0.00    4.25/ +0.00    2.80/ +0.00
+problems       B    2.59/ +0.00    1.07/ +0.00    2.69/ +0.00    2.06/ +0.00
+repaired       A    0.99/ +0.20    0.33/ -0.00    0.69/ -0.21    0.63/ +0.02
+repaired       B    0.96/ +0.16    0.43/ +0.07    0.81/ -0.15    0.70/ -0.00
+open           A    0.01/ -0.10    0.46/ -0.10    0.17/ +0.13    0.31/ +0.05
+open           B    0.02/ -0.09    0.38/ -0.16    0.16/ +0.14    0.21/ +0.02
+hero opens     A    0.06/ -0.28    0.55/ +0.21    0.22/ -0.11    0.45/ +0.10
+hero opens     B    0.07/ -0.30    0.49/ +0.12    0.21/ -0.17    0.49/ +0.12
+ends repaired  A    0.95/ +0.16    0.28/ -0.00    0.81/ -0.09    0.53/ -0.08
+ends repaired  B    1.00/ +0.19    0.36/ +0.06    0.88/ -0.09    0.64/ -0.06
+acts help      A    0.62/ +0.17    0.23/ -0.21    0.37/ -0.08    0.42/ -0.04
+acts help      B    0.64/ +0.15    0.25/ -0.25    0.44/ -0.05    0.47/ -0.02
+acts harm      A    0.19/ -0.07    0.42/ +0.16    0.27/ +0.00    0.30/ +0.04
+acts harm      B    0.18/ -0.12    0.43/ +0.13    0.30/ +0.01    0.37/ +0.07
+
+  1. hero opens    higher than the tale and than its null: HOLDS   A against tale +0.38 p 0.0001, own excess +0.10 p 0.0261; B against tale +0.42 p 0.0002, own excess +0.12 p 0.0237
+  2. repaired      lower than the tale and than its null: FAILS   A against tale +0.18 p 0.0182, own excess +0.02 p 0.6370; B against tale +0.16 p 0.0449, own excess -0.00 p 0.4796
+  3. acts help     lower than the tale and than its null: FAILS   A against tale +0.20 p 0.0003, own excess -0.04 p 0.1674; B against tale +0.17 p 0.0031, own excess -0.02 p 0.3098
+  4. acts harm     higher than the tale and than its null: FAILS   A against tale +0.11 p 0.0116, own excess +0.04 p 0.1169; B against tale +0.19 p 0.0006, own excess +0.07 p 0.0363
+
+REPORTED, the trickster: the mean share of the hero's own acts that are deceiving
+  A: tale 0.09, fable 0.05, tragedy 0.03, animal 0.12
+  B: tale 0.09, fable 0.06, tragedy 0.04, animal 0.13
+
+PREDICTIONS (LayersProtocol.md): 1 of 4 hold
+
+THE FREE VERBS, reported and not judged (the bottom-up test's measures on the animal tales alone)
+  forbid / disobey: A n 24, accuracy 0.67, chance 0.88; B n 27, accuracy 0.81, chance 0.93
+  seek-information / reveal-information: A n 17, accuracy 0.65, chance 0.65; B n 33, accuracy 0.82, chance 0.61
+  deceive / be-taken-in: A n 88, accuracy 0.57, chance 0.62; B n 107, accuracy 0.52, chance 0.57
+  test / respond: A n 46, accuracy 0.63, chance 0.80; B n 55, accuracy 0.69, chance 0.80
+  fight / win: A n 3, accuracy 0.00, chance 0.67; B n 7, accuracy 0.57, chance 0.71
+  set-task / do-task: A n 0, accuracy -, chance -; B n 12, accuracy 0.83, chance 0.58
+  plead / respond: A n 60, accuracy 0.73, chance 0.62; B n 92, accuracy 0.79, chance 0.52
+  pair ask -> agree (adjacent) not confirmed, acts [None, 'plead'] -> [None, 'decide']
+  pair ask -> answer (adjacent) confirmed, acts [None, 'plead'] -> [None, None]
+  pair ask -> lie (adjacent) confirmed, acts [None, 'plead'] -> ['deceive', 'deceive']
+  pair ask -> tell (adjacent) confirmed, acts [None, 'plead'] -> [None, None]
+  pair ask -> warn (adjacent) not confirmed, acts [None, 'plead'] -> [None, None]
+  pair cry -> promise (near) not confirmed, acts [None, 'plead'] -> ['decide', None]
+  pair cry -> tell (near) not confirmed, acts [None, 'plead'] -> [None, None]
+  pair jump -> go (near) not confirmed, acts [None, None] -> ['leave', None]
+  pair plant -> grow (near) not confirmed, acts [None, None] -> ['other', 'other']
+  pair sing -> eat (near) not confirmed, acts [None, None] -> ['harm', 'harm']
+  pair tell -> promise (adjacent) not confirmed, acts [None, None] -> ['decide', None]
+  pair warn -> jump (near) not confirmed, acts [None, None] -> [None, None]
