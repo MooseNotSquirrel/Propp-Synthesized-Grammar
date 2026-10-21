@@ -1,0 +1,741 @@
+story	corpus	genre	local_id	source	language	title	events	propp
+animal:A001	animal	animal tale	A001	AnimalTales	Russian		51	
+animal:A002	animal	animal tale	A002	AnimalTales	Russian		17	
+animal:A003	animal	animal tale	A003	AnimalTales	Russian		13	
+animal:A004	animal	animal tale	A004	AnimalTales	Russian		52	
+animal:A005	animal	animal tale	A005	AnimalTales	Russian		24	
+animal:A006	animal	animal tale	A006	AnimalTales	Russian		47	
+animal:A007	animal	animal tale	A007	AnimalTales	Russian		36	
+animal:A008	animal	animal tale	A008	AnimalTales	Russian		30	
+animal:A009	animal	animal tale	A009	AnimalTales	Russian		22	
+animal:A010	animal	animal tale	A010	AnimalTales	Russian		43	
+animal:A011	animal	animal tale	A011	AnimalTales	Russian		30	
+animal:A012	animal	animal tale	A012	AnimalTales	Russian		41	
+animal:A013	animal	animal tale	A013	AnimalTales	Russian		20	
+animal:A014	animal	animal tale	A014	AnimalTales	Russian		34	
+animal:A015	animal	animal tale	A015	AnimalTales	Russian		17	
+animal:A016	animal	animal tale	A016	AnimalTales	Russian		16	
+animal:A017	animal	animal tale	A017	AnimalTales	Russian		15	
+animal:A018	animal	animal tale	A018	AnimalTales	Russian		31	
+animal:A019	animal	animal tale	A019	AnimalTales	Russian		7	
+animal:A020	animal	animal tale	A020	AnimalTales	Russian		14	
+animal:A021	animal	animal tale	A021	AnimalTales	Russian		29	
+animal:A022	animal	animal tale	A022	AnimalTales	Russian		13	
+animal:A023	animal	animal tale	A023	AnimalTales	Russian		31	
+animal:A024	animal	animal tale	A024	AnimalTales	Russian		33	
+animal:A025	animal	animal tale	A025	AnimalTales	Russian		28	
+animal:A026	animal	animal tale	A026	AnimalTales	Russian		34	
+animal:A027	animal	animal tale	A027	AnimalTales	Russian		27	
+animal:A028	animal	animal tale	A028	AnimalTales	Russian		12	
+animal:A029	animal	animal tale	A029	AnimalTales	Russian		17	
+animal:A030	animal	animal tale	A030	AnimalTales	Russian		34	
+animal:A031	animal	animal tale	A031	AnimalTales	Russian		6	
+animal:A032	animal	animal tale	A032	AnimalTales	Russian		13	
+animal:A033	animal	animal tale	A033	AnimalTales	Russian		13	
+animal:A034	animal	animal tale	A034	AnimalTales	Russian		22	
+animal:A035	animal	animal tale	A035	AnimalTales	Russian		7	
+animal:A036	animal	animal tale	A036	AnimalTales	Russian		22	
+animal:A037	animal	animal tale	A037	AnimalTales	Russian		38	
+animal:A038	animal	animal tale	A038	AnimalTales	Russian		23	
+animal:A039	animal	animal tale	A039	AnimalTales	Russian		21	
+animal:A040	animal	animal tale	A040	AnimalTales	Russian		48	
+animal:A041	animal	animal tale	A041	AnimalTales	Russian		19	
+animal:A042	animal	animal tale	A042	AnimalTales	Russian		14	
+animal:A043	animal	animal tale	A043	AnimalTales	Russian		24	
+animal:A044	animal	animal tale	A044	AnimalTales	Russian		44	
+animal:A045	animal	animal tale	A045	AnimalTales	Russian		33	
+animal:A046	animal	animal tale	A046	AnimalTales	Russian		35	
+animal:A047	animal	animal tale	A047	AnimalTales	Russian		24	
+animal:A048	animal	animal tale	A048	AnimalTales	Russian		39	
+animal:A049	animal	animal tale	A049	AnimalTales	Russian		9	
+animal:A050	animal	animal tale	A050	AnimalTales	Russian		11	
+fable:F004	fable	fable	F004	Aesop	English		4	
+fable:F005	fable	fable	F005	Fables	English		7	
+fable:F006	fable	fable	F006	Aesop	English		10	
+fable:F007	fable	fable	F007	Aesop	English		2	
+fable:F008	fable	fable	F008	Fables	English		2	
+fable:F012	fable	fable	F012	Aesop	English		9	
+fable:F013	fable	fable	F013	Aesop	English		3	
+fable:F014	fable	fable	F014	Fables	English		3	
+fable:F015	fable	fable	F015	Aesop	English		5	
+fable:F021	fable	fable	F021	Aesop	English		8	
+fable:F022	fable	fable	F022	Aesop	English		5	
+fable:F023	fable	fable	F023	Fables	English		3	
+fable:F024	fable	fable	F024	Fables	English		5	
+fable:F025	fable	fable	F025	Fables	English		4	
+fable:F029	fable	fable	F029	Aesop	English		2	
+fable:F030	fable	fable	F030	Aesop	English		8	
+fable:F032	fable	fable	F032	Fables	English		4	
+fable:F034	fable	fable	F034	Aesop	English		2	
+fable:F035	fable	fable	F035	Fables	English		3	
+fable:F036	fable	fable	F036	Fables	English		5	
+fable:F037	fable	fable	F037	Aesop	English		8	
+fable:F039	fable	fable	F039	Aesop	English		5	
+fable:F040	fable	fable	F040	Aesop	English		6	
+fable:F041	fable	fable	F041	Fables	English		4	
+fable:F042	fable	fable	F042	Fables	English		5	
+fable:F043	fable	fable	F043	Fables	English		3	
+fable:F044	fable	fable	F044	Aesop	English		5	
+fable:F045	fable	fable	F045	Aesop	English		8	
+fable:F047	fable	fable	F047	Fables	English		4	
+fable:F048	fable	fable	F048	Fables	English		9	
+fable:F050	fable	fable	F050	Fables	English		5	
+fable:F051	fable	fable	F051	Aesop	English		1	
+fable:F052	fable	fable	F052	Aesop	English		8	
+fable:F055	fable	fable	F055	Aesop	English		6	
+fable:F060	fable	fable	F060	Fables	English		4	
+fable:F063	fable	fable	F063	Fables	English		4	
+fable:F064	fable	fable	F064	Fables	English		3	
+fable:F066	fable	fable	F066	Aesop	English		9	
+fable:F067	fable	fable	F067	Fables	English		2	
+fable:F068	fable	fable	F068	Aesop	English		8	
+fable:F069	fable	fable	F069	Fables	English		5	
+fable:F070	fable	fable	F070	Fables	English		5	
+fable:F071	fable	fable	F071	Aesop	English		4	
+fable:F072	fable	fable	F072	Fables	English		6	
+fable:F073	fable	fable	F073	Aesop	English		3	
+fable:F074	fable	fable	F074	Fables	English		7	
+fable:F078	fable	fable	F078	Fables	English		2	
+fable:F079	fable	fable	F079	Aesop	English		4	
+fable:F081	fable	fable	F081	Fables	English		3	
+fable:F082	fable	fable	F082	Aesop	English		5	
+fable:F083	fable	fable	F083	Aesop	English		2	
+fable:F084	fable	fable	F084	Fables	English		3	
+fable:F085	fable	fable	F085	Fables	English		4	
+fable:F086	fable	fable	F086	Aesop	English		5	
+fable:F091	fable	fable	F091	Aesop	English		10	
+fable:F092	fable	fable	F092	Aesop	English		3	
+fable:F093	fable	fable	F093	Fables	English		3	
+fable:F096	fable	fable	F096	Aesop	English		4	
+fable:F098	fable	fable	F098	Aesop	English		3	
+fable:F099	fable	fable	F099	Aesop	English		4	
+fable:F100	fable	fable	F100	Aesop	English		10	
+fable:F102	fable	fable	F102	Fables	English		4	
+fable:F108	fable	fable	F108	Fables	English		2	
+fable:F111	fable	fable	F111	Aesop	English		5	
+fable:F112	fable	fable	F112	Aesop	English		2	
+fable:F114	fable	fable	F114	Fables	English		3	
+fable:F115	fable	fable	F115	Aesop	English		4	
+fable:F116	fable	fable	F116	Fables	English		3	
+fable:F121	fable	fable	F121	Aesop	English		6	
+fable:F122	fable	fable	F122	Fables	English		4	
+fable:F124	fable	fable	F124	Fables	English		5	
+fable:F127	fable	fable	F127	Fables	English		5	
+fable:F128	fable	fable	F128	Fables	English		9	
+fable:F130	fable	fable	F130	Aesop	English		7	
+fable:F131	fable	fable	F131	Fables	English		4	
+fable:F132	fable	fable	F132	Aesop	English		7	
+fable:F133	fable	fable	F133	Fables	English		7	
+fable:F134	fable	fable	F134	Fables	English		4	
+fable:F136	fable	fable	F136	Fables	English		6	
+fable:F138	fable	fable	F138	Fables	English		3	
+fable:F139	fable	fable	F139	Fables	English		3	
+fable:F140	fable	fable	F140	Aesop	English		5	
+fable:F141	fable	fable	F141	Aesop	English		5	
+fable:F142	fable	fable	F142	Aesop	English		4	
+fable:F143	fable	fable	F143	Fables	English		2	
+fable:F144	fable	fable	F144	Fables	English		12	
+fable:F145	fable	fable	F145	Aesop	English		6	
+fable:F147	fable	fable	F147	Aesop	English		8	
+fable:F148	fable	fable	F148	Fables	English		4	
+fable:F149	fable	fable	F149	Aesop	English		6	
+fable:F152	fable	fable	F152	Aesop	English		3	
+fable:F154	fable	fable	F154	Fables	English		5	
+fable:F155	fable	fable	F155	Fables	English		5	
+fable:F157	fable	fable	F157	Aesop	English		7	
+fable:F159	fable	fable	F159	Fables	English		9	
+fable:F160	fable	fable	F160	Fables	English		3	
+fable:F161	fable	fable	F161	Aesop	English		4	
+fable:F162	fable	fable	F162	Fables	English		2	
+fable:F163	fable	fable	F163	Aesop	English		2	
+fable:F164	fable	fable	F164	Fables	English		4	
+fable:F165	fable	fable	F165	Aesop	English		2	
+fable:F166	fable	fable	F166	Aesop	English		3	
+fable:F167	fable	fable	F167	Aesop	English		3	
+fable:F169	fable	fable	F169	Aesop	English		4	
+fable:F171	fable	fable	F171	Aesop	English		4	
+fable:F174	fable	fable	F174	Fables	English		3	
+fable:F175	fable	fable	F175	Aesop	English		8	
+fable:F176	fable	fable	F176	Aesop	English		4	
+fable:F178	fable	fable	F178	Aesop	English		3	
+fable:F179	fable	fable	F179	Fables	English		5	
+fable:F180	fable	fable	F180	Aesop	English		3	
+fable:F183	fable	fable	F183	Aesop	English		3	
+fable:F185	fable	fable	F185	Fables	English		2	
+fable:F186	fable	fable	F186	Aesop	English		15	
+fable:F189	fable	fable	F189	Fables	English		4	
+fable:F191	fable	fable	F191	Aesop	English		7	
+fable:F192	fable	fable	F192	Aesop	English		5	
+fable:F193	fable	fable	F193	Aesop	English		11	
+fable:F195	fable	fable	F195	Fables	English		7	
+fable:F196	fable	fable	F196	Fables	English		3	
+fable:F197	fable	fable	F197	Fables	English		2	
+fable:F198	fable	fable	F198	Aesop	English		5	
+fable:F200	fable	fable	F200	Fables	English		5	
+fable:F203	fable	fable	F203	Aesop	English		4	
+fable:F204	fable	fable	F204	Aesop	English		8	
+fable:F205	fable	fable	F205	Fables	English		3	
+fable:F206	fable	fable	F206	Aesop	English		9	
+fable:F207	fable	fable	F207	Aesop	English		3	
+fable:F208	fable	fable	F208	Fables	English		7	
+fable:F210	fable	fable	F210	Aesop	English		3	
+fable:F212	fable	fable	F212	Fables	English		2	
+fable:F213	fable	fable	F213	Aesop	English		4	
+fable:F214	fable	fable	F214	Fables	English		3	
+fable:F215	fable	fable	F215	Aesop	English		8	
+fable:F216	fable	fable	F216	Fables	English		8	
+fable:F217	fable	fable	F217	Fables	English		4	
+fable:F219	fable	fable	F219	Aesop	English		7	
+fable:F220	fable	fable	F220	Fables	English		6	
+fable:F221	fable	fable	F221	Aesop	English		3	
+fable:F222	fable	fable	F222	Aesop	English		5	
+fable:F223	fable	fable	F223	Aesop	English		6	
+fable:F224	fable	fable	F224	Fables	English		6	
+fable:F225	fable	fable	F225	Aesop	English		4	
+fable:F226	fable	fable	F226	Aesop	English		3	
+fable:F227	fable	fable	F227	Fables	English		2	
+fable:F228	fable	fable	F228	Fables	English		5	
+fable:F230	fable	fable	F230	Fables	English		5	
+fable:F231	fable	fable	F231	Aesop	English		5	
+fable:F232	fable	fable	F232	Aesop	English		7	
+fable:F234	fable	fable	F234	Fables	English		3	
+fable:F236	fable	fable	F236	Fables	English		2	
+fable:F239	fable	fable	F239	Aesop	English		2	
+fable:F240	fable	fable	F240	Aesop	English		2	
+fable:F242	fable	fable	F242	Fables	English		3	
+fable:F244	fable	fable	F244	Aesop	English		7	
+fable:F246	fable	fable	F246	Fables	English		4	
+fable:F247	fable	fable	F247	Fables	English		7	
+fable:F248	fable	fable	F248	Aesop	English		6	
+fable:F249	fable	fable	F249	Aesop	English		3	
+fable:F250	fable	fable	F250	Fables	English		6	
+fable:F251	fable	fable	F251	Aesop	English		4	
+fable:F252	fable	fable	F252	Aesop	English		4	
+fable:F253	fable	fable	F253	Fables	English		5	
+fable:F254	fable	fable	F254	Fables	English		3	
+fable:F255	fable	fable	F255	Fables	English		5	
+fable:F256	fable	fable	F256	Aesop	English		2	
+fable:F257	fable	fable	F257	Fables	English		7	
+fable:F258	fable	fable	F258	Aesop	English		8	
+fable:F259	fable	fable	F259	Aesop	English		8	
+fable:F264	fable	fable	F264	Aesop	English		6	
+fable:F265	fable	fable	F265	Aesop	English		3	
+fable:F266	fable	fable	F266	Fables	English		5	
+fable:F267	fable	fable	F267	Fables	English		3	
+fable:F269	fable	fable	F269	Fables	English		17	
+fable:F270	fable	fable	F270	Fables	English		6	
+fable:F271	fable	fable	F271	Aesop	English		6	
+fable:F273	fable	fable	F273	Fables	English		5	
+fable:F275	fable	fable	F275	Fables	English		5	
+fable:F276	fable	fable	F276	Fables	English		3	
+fable:F278	fable	fable	F278	Aesop	English		2	
+fable:F279	fable	fable	F279	Aesop	English		5	
+fable:F281	fable	fable	F281	Aesop	English		6	
+fable:F282	fable	fable	F282	Aesop	English		3	
+fable:F283	fable	fable	F283	Fables	English		2	
+fable:F285	fable	fable	F285	Fables	English		3	
+fable:F286	fable	fable	F286	Fables	English		4	
+fable:F290	fable	fable	F290	Fables	English		3	
+fable:F291	fable	fable	F291	Fables	English		6	
+fable:F295	fable	fable	F295	Aesop	English		5	
+fable:F297	fable	fable	F297	Aesop	English		11	
+fable:F298	fable	fable	F298	Aesop	English		4	
+fable:F299	fable	fable	F299	Fables	English		8	
+fable:F300	fable	fable	F300	Fables	English		8	
+fable:F301	fable	fable	F301	Aesop	English		9	
+fable:F302	fable	fable	F302	Aesop	English		9	
+fable:F303	fable	fable	F303	Fables	English		7	
+fable:F304	fable	fable	F304	Fables	English		7	
+fable:F307	fable	fable	F307	Fables	English		4	
+fable:F308	fable	fable	F308	Fables	English		13	
+fable:F309	fable	fable	F309	Aesop	English		4	
+fable:F313	fable	fable	F313	Fables	English		1	
+myth:E-001	myth	myth	E-001	Apollodorus	English		33	
+myth:E-002	myth	myth	E-002	Apollodorus	English		1	
+myth:E-003	myth	myth	E-003	Apollodorus	English		3	
+myth:E-004	myth	myth	E-004	Apollodorus	English		7	
+myth:E-005	myth	myth	E-005	Apollodorus	English		6	
+myth:E-006	myth	myth	E-006	Apollodorus	English		12	
+myth:E-007	myth	myth	E-007	Apollodorus	English		1	
+myth:E-008	myth	myth	E-008	Apollodorus	English		7	
+myth:E-009	myth	myth	E-009	Apollodorus	English		1	
+myth:E-010	myth	myth	E-010	Apollodorus	English		12	
+myth:E-011	myth	myth	E-011	Apollodorus	English		6	
+myth:E-012	myth	myth	E-012	Apollodorus	English		6	
+myth:E-013	myth	myth	E-013	Apollodorus	English		4	
+myth:E-014	myth	myth	E-014	Apollodorus	English		3	
+myth:E-015	myth	myth	E-015	Apollodorus	English		5	
+myth:E-016	myth	myth	E-016	Apollodorus	English		8	
+myth:E-017	myth	myth	E-017	Apollodorus	English		5	
+myth:E-018	myth	myth	E-018	Apollodorus	English		4	
+myth:E-019	myth	myth	E-019	Apollodorus	English		4	
+myth:E-020	myth	myth	E-020	Apollodorus	English		5	
+myth:E-021	myth	myth	E-021	Apollodorus	English		1	
+myth:E-022	myth	myth	E-022	Apollodorus	English		15	
+myth:E-023	myth	myth	E-023	Apollodorus	English		1	
+myth:E-024	myth	myth	E-024	Apollodorus	English		26	
+myth:E-025	myth	myth	E-025	Apollodorus	English		8	
+myth:E-026	myth	myth	E-026	Apollodorus	English		14	
+myth:E-027	myth	myth	E-027	Apollodorus	English		3	
+myth:E-028	myth	myth	E-028	Apollodorus	English		3	
+myth:E-029	myth	myth	E-029	Apollodorus	English		10	
+myth:E-030	myth	myth	E-030	Apollodorus	English		5	
+myth:E-031	myth	myth	E-031	Apollodorus	English		1	
+myth:E-032	myth	myth	E-032	Apollodorus	English		13	
+myth:E-033	myth	myth	E-033	Apollodorus	English		6	
+myth:E-034	myth	myth	E-034	Apollodorus	English		1	
+myth:E-035	myth	myth	E-035	Apollodorus	English		7	
+myth:E-036	myth	myth	E-036	Apollodorus	English		1	
+myth:E-037	myth	myth	E-037	Apollodorus	English		1	
+myth:E-038	myth	myth	E-038	Apollodorus	English		13	
+myth:E-039	myth	myth	E-039	Apollodorus	English		3	
+myth:E-040	myth	myth	E-040	Apollodorus	English		8	
+myth:E-041	myth	myth	E-041	Apollodorus	English		7	
+myth:E-042	myth	myth	E-042	Apollodorus	English		3	
+myth:E-043	myth	myth	E-043	Apollodorus	English		3	
+myth:E-044	myth	myth	E-044	Apollodorus	English		11	
+myth:E-045	myth	myth	E-045	Apollodorus	English		3	
+myth:E-046	myth	myth	E-046	Apollodorus	English		2	
+myth:E-047	myth	myth	E-047	Apollodorus	English		4	
+myth:E-048	myth	myth	E-048	Apollodorus	English		3	
+myth:E-049	myth	myth	E-049	Apollodorus	English		4	
+myth:E-050	myth	myth	E-050	Apollodorus	English		5	
+myth:E-051	myth	myth	E-051	Apollodorus	English		5	
+myth:E-052	myth	myth	E-052	Apollodorus	English		13	
+myth:E-053	myth	myth	E-053	Apollodorus	English		6	
+myth:E-054	myth	myth	E-054	Apollodorus	English		4	
+myth:E-055	myth	myth	E-055	Apollodorus	English		1	
+myth:E-056	myth	myth	E-056	Apollodorus	English		1	
+myth:E-057	myth	myth	E-057	Apollodorus	English		2	
+myth:E-058	myth	myth	E-058	Apollodorus	English		12	
+myth:E-059	myth	myth	E-059	Apollodorus	English		9	
+myth:E-060	myth	myth	E-060	Apollodorus	English		7	
+myth:E-061	myth	myth	E-061	Apollodorus	English		7	
+myth:E-062	myth	myth	E-062	Apollodorus	English		7	
+myth:E-063	myth	myth	E-063	Apollodorus	English		12	
+myth:E-064	myth	myth	E-064	Apollodorus	English		4	
+myth:E-065	myth	myth	E-065	Apollodorus	English		8	
+myth:E-066	myth	myth	E-066	Apollodorus	English		28	
+myth:E-067	myth	myth	E-067	Apollodorus	English		4	
+myth:E-068	myth	myth	E-068	Apollodorus	English		5	
+myth:E-069	myth	myth	E-069	Apollodorus	English		11	
+myth:E-070	myth	myth	E-070	Apollodorus	English		1	
+myth:E-071	myth	myth	E-071	Apollodorus	English		2	
+myth:E-072	myth	myth	E-072	Apollodorus	English		3	
+myth:E-073	myth	myth	E-073	Apollodorus	English		6	
+myth:E-074	myth	myth	E-074	Apollodorus	English		4	
+myth:E-075	myth	myth	E-075	Apollodorus	English		4	
+myth:E-076	myth	myth	E-076	Apollodorus	English		3	
+myth:E-077	myth	myth	E-077	Apollodorus	English		11	
+myth:E-078	myth	myth	E-078	Apollodorus	English		4	
+myth:E-079	myth	myth	E-079	Apollodorus	English		2	
+myth:E-080	myth	myth	E-080	Apollodorus	English		1	
+myth:E-081	myth	myth	E-081	Apollodorus	English		1	
+myth:E-082	myth	myth	E-082	Apollodorus	English		1	
+myth:E-083	myth	myth	E-083	Apollodorus	English		1	
+myth:E-084	myth	myth	E-084	Apollodorus	English		1	
+myth:E-085	myth	myth	E-085	Apollodorus	English		2	
+myth:E-086	myth	myth	E-086	Apollodorus	English		3	
+myth:E-087	myth	myth	E-087	Apollodorus	English		3	
+myth:E-088	myth	myth	E-088	Apollodorus	English		1	
+myth:E-089	myth	myth	E-089	Apollodorus	English		2	
+myth:E-090	myth	myth	E-090	Apollodorus	English		1	
+myth:E-091	myth	myth	E-091	Apollodorus	English		2	
+myth:E-092	myth	myth	E-092	Apollodorus	English		3	
+myth:E-093	myth	myth	E-093	Apollodorus	English		1	
+myth:E-094	myth	myth	E-094	Apollodorus	English		5	
+myth:E-095	myth	myth	E-095	Apollodorus	English		2	
+myth:E-096	myth	myth	E-096	Apollodorus	English		14	
+myth:E-097	myth	myth	E-097	Apollodorus	English		3	
+myth:E-098	myth	myth	E-098	Apollodorus	English		4	
+myth:E-099	myth	myth	E-099	Apollodorus	English		4	
+myth:E-100	myth	myth	E-100	Apollodorus	English		3	
+myth:E-101	myth	myth	E-101	Apollodorus	English		4	
+myth:E-102	myth	myth	E-102	Apollodorus	English		4	
+myth:E-103	myth	myth	E-103	Apollodorus	English		20	
+myth:E-104	myth	myth	E-104	Apollodorus	English		2	
+myth:E-105	myth	myth	E-105	Apollodorus	English		9	
+myth:E-106	myth	myth	E-106	Apollodorus	English		1	
+myth:E-107	myth	myth	E-107	Apollodorus	English		143	
+myth:E-108	myth	myth	E-108	Apollodorus	English		1	
+myth:E-109	myth	myth	E-109	Apollodorus	English		1	
+myth:E-110	myth	myth	E-110	Apollodorus	English		1	
+myth:E-111	myth	myth	E-111	Apollodorus	English		3	
+myth:E-112	myth	myth	E-112	Apollodorus	English		2	
+myth:E-113	myth	myth	E-113	Apollodorus	English		5	
+myth:L1-001	myth	myth	L1-001	Apollodorus	English		6	
+myth:L1-002	myth	myth	L1-002	Apollodorus	English		5	
+myth:L1-003	myth	myth	L1-003	Apollodorus	English		20	
+myth:L1-004	myth	myth	L1-004	Apollodorus	English		1	
+myth:L1-005	myth	myth	L1-005	Apollodorus	English		8	
+myth:L1-006	myth	myth	L1-006	Apollodorus	English		2	
+myth:L1-007	myth	myth	L1-007	Apollodorus	English		3	
+myth:L1-008	myth	myth	L1-008	Apollodorus	English		3	
+myth:L1-009	myth	myth	L1-009	Apollodorus	English		1	
+myth:L1-010	myth	myth	L1-010	Apollodorus	English		7	
+myth:L1-011	myth	myth	L1-011	Apollodorus	English		6	
+myth:L1-012	myth	myth	L1-012	Apollodorus	English		1	
+myth:L1-013	myth	myth	L1-013	Apollodorus	English		1	
+myth:L1-014	myth	myth	L1-014	Apollodorus	English		4	
+myth:L1-015	myth	myth	L1-015	Apollodorus	English		21	
+myth:L1-016	myth	myth	L1-016	Apollodorus	English		18	
+myth:L1-017	myth	myth	L1-017	Apollodorus	English		2	
+myth:L1-018	myth	myth	L1-018	Apollodorus	English		2	
+myth:L1-019	myth	myth	L1-019	Apollodorus	English		22	
+myth:L1-020	myth	myth	L1-020	Apollodorus	English		31	
+myth:L1-021	myth	myth	L1-021	Apollodorus	English		24	
+myth:L1-022	myth	myth	L1-022	Apollodorus	English		8	
+myth:L1-023	myth	myth	L1-023	Apollodorus	English		12	
+myth:L1-024	myth	myth	L1-024	Apollodorus	English		1	
+myth:L1-025	myth	myth	L1-025	Apollodorus	English		3	
+myth:L1-026	myth	myth	L1-026	Apollodorus	English		2	
+myth:L1-027	myth	myth	L1-027	Apollodorus	English		9	
+myth:L1-028	myth	myth	L1-028	Apollodorus	English		4	
+myth:L1-029	myth	myth	L1-029	Apollodorus	English		3	
+myth:L1-030	myth	myth	L1-030	Apollodorus	English		1	
+myth:L1-031	myth	myth	L1-031	Apollodorus	English		10	
+myth:L1-032	myth	myth	L1-032	Apollodorus	English		3	
+myth:L1-033	myth	myth	L1-033	Apollodorus	English		1	
+myth:L1-034	myth	myth	L1-034	Apollodorus	English		24	
+myth:L1-035	myth	myth	L1-035	Apollodorus	English		10	
+myth:L1-036	myth	myth	L1-036	Apollodorus	English		2	
+myth:L1-037	myth	myth	L1-037	Apollodorus	English		2	
+myth:L1-038	myth	myth	L1-038	Apollodorus	English		3	
+myth:L1-039	myth	myth	L1-039	Apollodorus	English		1	
+myth:L1-040	myth	myth	L1-040	Apollodorus	English		7	
+myth:L1-041	myth	myth	L1-041	Apollodorus	English		2	
+myth:L1-042	myth	myth	L1-042	Apollodorus	English		1	
+myth:L1-043	myth	myth	L1-043	Apollodorus	English		2	
+myth:L1-044	myth	myth	L1-044	Apollodorus	English		8	
+myth:L1-045	myth	myth	L1-045	Apollodorus	English		16	
+myth:L1-046	myth	myth	L1-046	Apollodorus	English		10	
+myth:L1-047	myth	myth	L1-047	Apollodorus	English		1	
+myth:L1-048	myth	myth	L1-048	Apollodorus	English		1	
+myth:L1-049	myth	myth	L1-049	Apollodorus	English		3	
+myth:L1-050	myth	myth	L1-050	Apollodorus	English		2	
+myth:L1-051	myth	myth	L1-051	Apollodorus	English		1	
+myth:L1-052	myth	myth	L1-052	Apollodorus	English		1	
+myth:L1-053	myth	myth	L1-053	Apollodorus	English		7	
+myth:L1-054	myth	myth	L1-054	Apollodorus	English		6	
+myth:L1-055	myth	myth	L1-055	Apollodorus	English		9	
+myth:L1-056	myth	myth	L1-056	Apollodorus	English		3	
+myth:L1-057	myth	myth	L1-057	Apollodorus	English		5	
+myth:L1-058	myth	myth	L1-058	Apollodorus	English		1	
+myth:L1-059	myth	myth	L1-059	Apollodorus	English		1	
+myth:L1-060	myth	myth	L1-060	Apollodorus	English		7	
+myth:L1-061	myth	myth	L1-061	Apollodorus	English		2	
+myth:L1-062	myth	myth	L1-062	Apollodorus	English		29	
+myth:L1-063	myth	myth	L1-063	Apollodorus	English		1	
+myth:L1-064	myth	myth	L1-064	Apollodorus	English		1	
+myth:L1-065	myth	myth	L1-065	Apollodorus	English		1	
+myth:L1-066	myth	myth	L1-066	Apollodorus	English		1	
+myth:L1-067	myth	myth	L1-067	Apollodorus	English		13	
+myth:L1-068	myth	myth	L1-068	Apollodorus	English		2	
+myth:L1-069	myth	myth	L1-069	Apollodorus	English		2	
+myth:L1-070	myth	myth	L1-070	Apollodorus	English		30	
+myth:L1-071	myth	myth	L1-071	Apollodorus	English		8	
+myth:L1-072	myth	myth	L1-072	Apollodorus	English		1	
+myth:L1-073	myth	myth	L1-073	Apollodorus	English		2	
+myth:L1-074	myth	myth	L1-074	Apollodorus	English		1	
+myth:L1-075	myth	myth	L1-075	Apollodorus	English		1	
+myth:L1-076	myth	myth	L1-076	Apollodorus	English		108	
+myth:L1-077	myth	myth	L1-077	Apollodorus	English		2	
+myth:L1-078	myth	myth	L1-078	Apollodorus	English		2	
+myth:L1-079	myth	myth	L1-079	Apollodorus	English		2	
+myth:L1-080	myth	myth	L1-080	Apollodorus	English		3	
+myth:L1-081	myth	myth	L1-081	Apollodorus	English		1	
+myth:L1-082	myth	myth	L1-082	Apollodorus	English		17	
+myth:L1-083	myth	myth	L1-083	Apollodorus	English		2	
+myth:L2-001	myth	myth	L2-001	Apollodorus	English		2	
+myth:L2-002	myth	myth	L2-002	Apollodorus	English		5	
+myth:L2-003	myth	myth	L2-003	Apollodorus	English		26	
+myth:L2-004	myth	myth	L2-004	Apollodorus	English		1	
+myth:L2-005	myth	myth	L2-005	Apollodorus	English		9	
+myth:L2-006	myth	myth	L2-006	Apollodorus	English		6	
+myth:L2-007	myth	myth	L2-007	Apollodorus	English		10	
+myth:L2-008	myth	myth	L2-008	Apollodorus	English		1	
+myth:L2-009	myth	myth	L2-009	Apollodorus	English		7	
+myth:L2-010	myth	myth	L2-010	Apollodorus	English		15	
+myth:L2-011	myth	myth	L2-011	Apollodorus	English		2	
+myth:L2-012	myth	myth	L2-012	Apollodorus	English		19	
+myth:L2-013	myth	myth	L2-013	Apollodorus	English		4	
+myth:L2-014	myth	myth	L2-014	Apollodorus	English		1	
+myth:L2-015	myth	myth	L2-015	Apollodorus	English		24	
+myth:L2-016	myth	myth	L2-016	Apollodorus	English		3	
+myth:L2-017	myth	myth	L2-017	Apollodorus	English		2	
+myth:L2-018	myth	myth	L2-018	Apollodorus	English		14	
+myth:L2-019	myth	myth	L2-019	Apollodorus	English		1	
+myth:L2-020	myth	myth	L2-020	Apollodorus	English		1	
+myth:L2-021	myth	myth	L2-021	Apollodorus	English		2	
+myth:L2-022	myth	myth	L2-022	Apollodorus	English		8	
+myth:L2-023	myth	myth	L2-023	Apollodorus	English		3	
+myth:L2-024	myth	myth	L2-024	Apollodorus	English		1	
+myth:L2-025	myth	myth	L2-025	Apollodorus	English		2	
+myth:L2-026	myth	myth	L2-026	Apollodorus	English		5	
+myth:L2-027	myth	myth	L2-027	Apollodorus	English		30	
+myth:L2-028	myth	myth	L2-028	Apollodorus	English		19	
+myth:L2-029	myth	myth	L2-029	Apollodorus	English		4	
+myth:L2-030	myth	myth	L2-030	Apollodorus	English		1	
+myth:L2-031	myth	myth	L2-031	Apollodorus	English		3	
+myth:L2-032	myth	myth	L2-032	Apollodorus	English		30	
+myth:L2-033	myth	myth	L2-033	Apollodorus	English		4	
+myth:L2-034	myth	myth	L2-034	Apollodorus	English		33	
+myth:L2-035	myth	myth	L2-035	Apollodorus	English		4	
+myth:L2-036	myth	myth	L2-036	Apollodorus	English		2	
+myth:L2-037	myth	myth	L2-037	Apollodorus	English		2	
+myth:L2-038	myth	myth	L2-038	Apollodorus	English		29	
+myth:L2-039	myth	myth	L2-039	Apollodorus	English		4	
+myth:L2-040	myth	myth	L2-040	Apollodorus	English		3	
+myth:L2-041	myth	myth	L2-041	Apollodorus	English		9	
+myth:L2-042	myth	myth	L2-042	Apollodorus	English		3	
+myth:L2-043	myth	myth	L2-043	Apollodorus	English		15	
+myth:L2-044	myth	myth	L2-044	Apollodorus	English		8	
+myth:L2-045	myth	myth	L2-045	Apollodorus	English		50	
+myth:L2-046	myth	myth	L2-046	Apollodorus	English		2	
+myth:L2-047	myth	myth	L2-047	Apollodorus	English		108	
+myth:L2-048	myth	myth	L2-048	Apollodorus	English		2	
+myth:L2-049	myth	myth	L2-049	Apollodorus	English		3	
+myth:L2-050	myth	myth	L2-050	Apollodorus	English		7	
+myth:L2-051	myth	myth	L2-051	Apollodorus	English		3	
+myth:L2-052	myth	myth	L2-052	Apollodorus	English		3	
+myth:L2-053	myth	myth	L2-053	Apollodorus	English		2	
+myth:L2-054	myth	myth	L2-054	Apollodorus	English		49	
+myth:L2-055	myth	myth	L2-055	Apollodorus	English		13	
+myth:L2-056	myth	myth	L2-056	Apollodorus	English		2	
+myth:L2-057	myth	myth	L2-057	Apollodorus	English		1	
+myth:L2-058	myth	myth	L2-058	Apollodorus	English		29	
+myth:L2-059	myth	myth	L2-059	Apollodorus	English		4	
+myth:L2-060	myth	myth	L2-060	Apollodorus	English		1	
+myth:L2-061	myth	myth	L2-061	Apollodorus	English		2	
+myth:L2-062	myth	myth	L2-062	Apollodorus	English		4	
+myth:L3-001	myth	myth	L3-001	Apollodorus	English		5	
+myth:L3-002	myth	myth	L3-002	Apollodorus	English		8	
+myth:L3-003	myth	myth	L3-003	Apollodorus	English		10	
+myth:L3-004	myth	myth	L3-004	Apollodorus	English		2	
+myth:L3-005	myth	myth	L3-005	Apollodorus	English		3	
+myth:L3-006	myth	myth	L3-006	Apollodorus	English		14	
+myth:L3-007	myth	myth	L3-007	Apollodorus	English		8	
+myth:L3-008	myth	myth	L3-008	Apollodorus	English		3	
+myth:L3-009	myth	myth	L3-009	Apollodorus	English		3	
+myth:L3-010	myth	myth	L3-010	Apollodorus	English		8	
+myth:L3-011	myth	myth	L3-011	Apollodorus	English		8	
+myth:L3-012	myth	myth	L3-012	Apollodorus	English		10	
+myth:L3-013	myth	myth	L3-013	Apollodorus	English		3	
+myth:L3-014	myth	myth	L3-014	Apollodorus	English		23	
+myth:L3-015	myth	myth	L3-015	Apollodorus	English		19	
+myth:L3-016	myth	myth	L3-016	Apollodorus	English		3	
+myth:L3-017	myth	myth	L3-017	Apollodorus	English		1	
+myth:L3-018	myth	myth	L3-018	Apollodorus	English		2	
+myth:L3-019	myth	myth	L3-019	Apollodorus	English		12	
+myth:L3-020	myth	myth	L3-020	Apollodorus	English		6	
+myth:L3-021	myth	myth	L3-021	Apollodorus	English		3	
+myth:L3-022	myth	myth	L3-022	Apollodorus	English		4	
+myth:L3-023	myth	myth	L3-023	Apollodorus	English		4	
+myth:L3-024	myth	myth	L3-024	Apollodorus	English		3	
+myth:L3-025	myth	myth	L3-025	Apollodorus	English		42	
+myth:L3-026	myth	myth	L3-026	Apollodorus	English		8	
+myth:L3-027	myth	myth	L3-027	Apollodorus	English		1	
+myth:L3-028	myth	myth	L3-028	Apollodorus	English		1	
+myth:L3-029	myth	myth	L3-029	Apollodorus	English		8	
+myth:L3-030	myth	myth	L3-030	Apollodorus	English		10	
+myth:L3-031	myth	myth	L3-031	Apollodorus	English		15	
+myth:L3-032	myth	myth	L3-032	Apollodorus	English		4	
+myth:L3-033	myth	myth	L3-033	Apollodorus	English		8	
+myth:L3-034	myth	myth	L3-034	Apollodorus	English		2	
+myth:L3-035	myth	myth	L3-035	Apollodorus	English		3	
+myth:L3-036	myth	myth	L3-036	Apollodorus	English		17	
+myth:L3-037	myth	myth	L3-037	Apollodorus	English		2	
+myth:L3-038	myth	myth	L3-038	Apollodorus	English		9	
+myth:L3-039	myth	myth	L3-039	Apollodorus	English		11	
+myth:L3-040	myth	myth	L3-040	Apollodorus	English		14	
+myth:L3-041	myth	myth	L3-041	Apollodorus	English		2	
+myth:L3-042	myth	myth	L3-042	Apollodorus	English		2	
+myth:L3-043	myth	myth	L3-043	Apollodorus	English		11	
+myth:L3-044	myth	myth	L3-044	Apollodorus	English		14	
+myth:L3-045	myth	myth	L3-045	Apollodorus	English		6	
+myth:L3-046	myth	myth	L3-046	Apollodorus	English		2	
+myth:L3-047	myth	myth	L3-047	Apollodorus	English		4	
+myth:L3-048	myth	myth	L3-048	Apollodorus	English		5	
+myth:L3-049	myth	myth	L3-049	Apollodorus	English		7	
+myth:L3-050	myth	myth	L3-050	Apollodorus	English		10	
+myth:L3-051	myth	myth	L3-051	Apollodorus	English		11	
+myth:L3-052	myth	myth	L3-052	Apollodorus	English		1	
+myth:L3-053	myth	myth	L3-053	Apollodorus	English		9	
+myth:L3-054	myth	myth	L3-054	Apollodorus	English		4	
+myth:L3-055	myth	myth	L3-055	Apollodorus	English		1	
+myth:L3-056	myth	myth	L3-056	Apollodorus	English		7	
+myth:L3-057	myth	myth	L3-057	Apollodorus	English		2	
+myth:L3-058	myth	myth	L3-058	Apollodorus	English		3	
+myth:L3-059	myth	myth	L3-059	Apollodorus	English		2	
+myth:L3-060	myth	myth	L3-060	Apollodorus	English		13	
+myth:L3-061	myth	myth	L3-061	Apollodorus	English		6	
+myth:L3-062	myth	myth	L3-062	Apollodorus	English		33	
+myth:L3-063	myth	myth	L3-063	Apollodorus	English		1	
+myth:L3-064	myth	myth	L3-064	Apollodorus	English		1	
+myth:L3-065	myth	myth	L3-065	Apollodorus	English		4	
+myth:L3-066	myth	myth	L3-066	Apollodorus	English		14	
+myth:L3-067	myth	myth	L3-067	Apollodorus	English		5	
+myth:L3-068	myth	myth	L3-068	Apollodorus	English		8	
+myth:L3-069	myth	myth	L3-069	Apollodorus	English		2	
+myth:L3-070	myth	myth	L3-070	Apollodorus	English		10	
+myth:L3-071	myth	myth	L3-071	Apollodorus	English		1	
+myth:L3-072	myth	myth	L3-072	Apollodorus	English		1	
+myth:L3-073	myth	myth	L3-073	Apollodorus	English		7	
+myth:L3-074	myth	myth	L3-074	Apollodorus	English		7	
+myth:L3-075	myth	myth	L3-075	Apollodorus	English		20	
+myth:L3-076	myth	myth	L3-076	Apollodorus	English		1	
+myth:L3-077	myth	myth	L3-077	Apollodorus	English		1	
+myth:L3-078	myth	myth	L3-078	Apollodorus	English		37	
+myth:L3-079	myth	myth	L3-079	Apollodorus	English		2	
+myth:L3-080	myth	myth	L3-080	Apollodorus	English		1	
+myth:L3-081	myth	myth	L3-081	Apollodorus	English		7	
+myth:L3-082	myth	myth	L3-082	Apollodorus	English		6	
+myth:L3-083	myth	myth	L3-083	Apollodorus	English		6	
+myth:L3-084	myth	myth	L3-084	Apollodorus	English		7	
+myth:L3-085	myth	myth	L3-085	Apollodorus	English		1	
+myth:L3-086	myth	myth	L3-086	Apollodorus	English		2	
+myth:L3-087	myth	myth	L3-087	Apollodorus	English		5	
+myth:L3-088	myth	myth	L3-088	Apollodorus	English		5	
+myth:L3-089	myth	myth	L3-089	Apollodorus	English		2	
+myth:L3-090	myth	myth	L3-090	Apollodorus	English		4	
+myth:L3-091	myth	myth	L3-091	Apollodorus	English		1	
+myth:L3-092	myth	myth	L3-092	Apollodorus	English		7	
+myth:L3-093	myth	myth	L3-093	Apollodorus	English		16	
+myth:L3-094	myth	myth	L3-094	Apollodorus	English		2	
+myth:L3-095	myth	myth	L3-095	Apollodorus	English		2	
+myth:L3-096	myth	myth	L3-096	Apollodorus	English		4	
+myth:L3-097	myth	myth	L3-097	Apollodorus	English		2	
+myth:L3-098	myth	myth	L3-098	Apollodorus	English		9	
+myth:L3-099	myth	myth	L3-099	Apollodorus	English		8	
+myth:L3-100	myth	myth	L3-100	Apollodorus	English		3	
+myth:L3-101	myth	myth	L3-101	Apollodorus	English		2	
+myth:L3-102	myth	myth	L3-102	Apollodorus	English		1	
+myth:L3-103	myth	myth	L3-103	Apollodorus	English		2	
+myth:L3-104	myth	myth	L3-104	Apollodorus	English		6	
+myth:L3-105	myth	myth	L3-105	Apollodorus	English		7	
+myth:L3-106	myth	myth	L3-106	Apollodorus	English		4	
+myth:L3-107	myth	myth	L3-107	Apollodorus	English		10	
+myth:L3-108	myth	myth	L3-108	Apollodorus	English		8	
+myth:L3-109	myth	myth	L3-109	Apollodorus	English		9	
+myth:L3-110	myth	myth	L3-110	Apollodorus	English		11	
+myth:L3-111	myth	myth	L3-111	Apollodorus	English		47	
+myth:L3-112	myth	myth	L3-112	Apollodorus	English		1	
+myth:L3-113	myth	myth	L3-113	Apollodorus	English		2	
+myth:L3-114	myth	myth	L3-114	Apollodorus	English		8	
+myth:L3-115	myth	myth	L3-115	Apollodorus	English		5	
+myth:L3-116	myth	myth	L3-116	Apollodorus	English		5	
+myth:L3-117	myth	myth	L3-117	Apollodorus	English		11	
+myth:L3-118	myth	myth	L3-118	Apollodorus	English		1	
+myth:L3-119	myth	myth	L3-119	Apollodorus	English		1	
+myth:L3-120	myth	myth	L3-120	Apollodorus	English		5	
+myth:L3-121	myth	myth	L3-121	Apollodorus	English		2	
+myth:L3-122	myth	myth	L3-122	Apollodorus	English		2	
+myth:L3-123	myth	myth	L3-123	Apollodorus	English		2	
+myth:L3-124	myth	myth	L3-124	Apollodorus	English		2	
+myth:L3-125	myth	myth	L3-125	Apollodorus	English		1	
+myth:L3-126	myth	myth	L3-126	Apollodorus	English		6	
+myth:L3-127	myth	myth	L3-127	Apollodorus	English		8	
+myth:L3-128	myth	myth	L3-128	Apollodorus	English		3	
+myth:L3-129	myth	myth	L3-129	Apollodorus	English		11	
+myth:L3-130	myth	myth	L3-130	Apollodorus	English		3	
+myth:L3-131	myth	myth	L3-131	Apollodorus	English		2	
+myth:L3-132	myth	myth	L3-132	Apollodorus	English		4	
+myth:L3-133	myth	myth	L3-133	Apollodorus	English		1	
+myth:L3-134	myth	myth	L3-134	Apollodorus	English		2	
+myth:L3-135	myth	myth	L3-135	Apollodorus	English		10	
+myth:L3-136	myth	myth	L3-136	Apollodorus	English		8	
+myth:L3-137	myth	myth	L3-137	Apollodorus	English		11	
+myth:L3-138	myth	myth	L3-138	Apollodorus	English		1	
+myth:L3-139	myth	myth	L3-139	Apollodorus	English		13	
+myth:L3-140	myth	myth	L3-140	Apollodorus	English		2	
+myth:L3-141	myth	myth	L3-141	Apollodorus	English		2	
+myth:L3-142	myth	myth	L3-142	Apollodorus	English		1	
+myth:L3-143	myth	myth	L3-143	Apollodorus	English		4	
+myth:L3-144	myth	myth	L3-144	Apollodorus	English		17	
+myth:L3-145	myth	myth	L3-145	Apollodorus	English		6	
+myth:L3-146	myth	myth	L3-146	Apollodorus	English		1	
+myth:L3-147	myth	myth	L3-147	Apollodorus	English		6	
+myth:L3-148	myth	myth	L3-148	Apollodorus	English		1	
+myth:L3-149	myth	myth	L3-149	Apollodorus	English		19	
+myth:L3-150	myth	myth	L3-150	Apollodorus	English		2	
+myth:L3-151	myth	myth	L3-151	Apollodorus	English		14	
+myth:L3-152	myth	myth	L3-152	Apollodorus	English		7	
+myth:L3-153	myth	myth	L3-153	Apollodorus	English		8	
+myth:L3-154	myth	myth	L3-154	Apollodorus	English		8	
+tale:A093	tale	wondertale	A093	Afanasyev	Russian	The Witch and the Sun's Sister	29	Y
+tale:A095	tale	wondertale	A095	Afanasyev	Russian	Jack Frost	18	Y
+tale:A098	tale	wondertale	A098	Afanasyev	Russian	Daughter and Stepdaughter	22	Y
+tale:A100	tale	wondertale	A100	Afanasyev	Russian	Little Bitty Khavroshechka	19	Y
+tale:A101	tale	wondertale	A101	Afanasyev	Russian	The Little Red Cow	35	Y
+tale:A104	tale	wondertale	A104	Afanasyev	Russian	Vasilisa the Beautiful	54	Y
+tale:A105	tale	wondertale	A105	Afanasyev	Russian	Baba Yaga and the Midget	30	Y
+tale:A106	tale	wondertale	A106	Afanasyev	Russian	Baba Yaga and the Nimble Youth	24	Y
+tale:A108	tale	wondertale	A108	Afanasyev	Russian	Ivashko and the Witch	32	Y
+tale:A113	tale	wondertale	A113	Afanasyev	Russian	The Swan-Geese	18	Y
+tale:A114	tale	wondertale	A114	Afanasyev	Russian	Prince Danila Govorila	34	Y
+tale:A115	tale	wondertale	A115	Afanasyev	Russian	The Truth and the Lie	25	Y
+tale:A125	tale	wondertale	A125	Afanasyev	Russian	Ivan Tsarevich and Marfa Tsarevna	48	Y
+tale:A126	tale	wondertale	A126	Afanasyev	Russian	The Little Copper Man	36	Y
+tale:A127	tale	wondertale	A127	Afanasyev	Russian	The Merchant’s Daughter and Her Maid	36	Y
+tale:A128	tale	wondertale	A128	Afanasyev	Russian	The Three Tsardoms-Copper, Silver, and Gold	35	Y
+tale:A131	tale	wondertale	A131	Afanasyev	Russian	Frolka the Dropout	26	Y
+tale:A132	tale	wondertale	A132	Afanasyev	Russian	The Norka Beast	44	Y
+tale:A133	tale	wondertale	A133	Afanasyev	Russian	Rollingpea	27	Y
+tale:A135	tale	wondertale	A135	Afanasyev	Russian	Ivan Popialov	28	Y
+tale:A136	tale	wondertale	A136	Afanasyev	Russian	Stonn-Bogatyr, Ivan the Cow’s Son	74	Y
+tale:A137	tale	wondertale	A137	Afanasyev	Russian	Ivan the Bull’s Son	64	Y
+tale:A138	tale	wondertale	A138	Afanasyev	Russian	Ivan the Peasant’s Son and the Little Man the Size of a Finger with Moustaches Seven Versts Long	47	Y
+tale:A139	tale	wondertale	A139	Afanasyev	Russian	Ivan Suchenko and the Belyi Polianin	58	Y
+tale:A140	tale	wondertale	A140	Afanasyev	Russian	Dawn, Evening, and Midnight	35	Y
+tale:A141	tale	wondertale	A141	Afanasyev	Russian	The Bear, Moustaches, Mountain Man, and Oakman Bogatyrs	48	Y
+tale:A143	tale	wondertale	A143	Afanasyev	Russian	Nodei, the Priest’s Grandson	27	Y
+tale:A144	tale	wondertale	A144	Afanasyev	Russian	The Flying Ship	34	Y
+tale:A145	tale	wondertale	A145	Afanasyev	Russian	The Seven Simeons	24	Y
+tale:A148	tale	wondertale	A148	Afanasyev	Russian	Nikita the Tanner	18	Y
+tale:A149	tale	wondertale	A149	Afanasyev	Russian	The Serpent and the Gypsy	33	Y
+tale:A150	tale	wondertale	A150	Afanasyev	Russian	The Hired Hand	40	Y
+tale:A151	tale	wondertale	A151	Afanasyev	Russian	Shabarsha	28	Y
+tale:A152	tale	wondertale	A152	Afanasyev	Russian	Ivan the Bear’s Son	33	Y
+tale:A153	tale	wondertale	A153	Afanasyev	Russian	A Soldier Rescues a Tsarevna	35	Y
+tale:A154	tale	wondertale	A154	Afanasyev	Russian	A Fugitive Soldier and the Devil	36	Y
+tale:A155	tale	wondertale	A155	Afanasyev	Russian	The Two Ivans, a Soldier’s Sons	78	Y
+tale:A156	tale	wondertale	A156	Afanasyev	Russian	Koshchei the Deathless	59	Y
+tale:A159	tale	wondertale	A159	Afanasyev	Russian	Mar’ia Morevna	63	Y
+tale:A161	tale	wondertale	A161	Afanasyev	Russian	Ivan Tsarevich and the Belyi Polianin	41	Y
+tale:A162	tale	wondertale	A162	Afanasyev	Russian	The Crystal Mountain	26	Y
+tale:A163	tale	wondertale	A163	Afanasyev	Russian	Bukhtan Bukhtanovich	25	Y
+tale:A164	tale	wondertale	A164	Afanasyev	Russian	Kozma Quickrich	36	Y
+tale:A166	tale	wondertale	A166	Afanasyev	Russian	Emelia the Fool	20	Y
+tale:A167	tale	wondertale	A167	Afanasyev	Russian	At the Pike’s Command	31	Y
+tragedy:P01	tragedy	tragedy	P01	Tragedy	English		83	
+tragedy:P02	tragedy	tragedy	P02	Tragedy	English		75	
+tragedy:P03	tragedy	tragedy	P03	Tragedy	English		115	
+tragedy:P04	tragedy	tragedy	P04	Tragedy	English		94	
+tragedy:P05	tragedy	tragedy	P05	Tragedy	English		97	
+tragedy:P06	tragedy	tragedy	P06	Tragedy	English		91	
+tragedy:P07	tragedy	tragedy	P07	Tragedy	English		101	
+tragedy:P08	tragedy	tragedy	P08	Tragedy	English		135	
+tragedy:P09	tragedy	tragedy	P09	Tragedy	English		79	
+tragedy:P10	tragedy	tragedy	P10	Tragedy	English		124	
+tragedy:P11	tragedy	tragedy	P11	Tragedy	English		124	
+tragedy:P12	tragedy	tragedy	P12	Tragedy	English		170	
+tragedy:P13	tragedy	tragedy	P13	Tragedy	English		117	
+tragedy:P14	tragedy	tragedy	P14	Tragedy	English		78	
+tragedy:P15	tragedy	tragedy	P15	Tragedy	English		76	
+tragedy:P16	tragedy	tragedy	P16	Tragedy	English		126	
+tragedy:P17	tragedy	tragedy	P17	Tragedy	English		95	
+tragedy:P18	tragedy	tragedy	P18	Tragedy	English		167	
+tragedy:P19	tragedy	tragedy	P19	Tragedy	English		104	
+tragedy:P20	tragedy	tragedy	P20	Tragedy	English		113	
+tragedy:P21	tragedy	tragedy	P21	Tragedy	English		60	
+tragedy:P22	tragedy	tragedy	P22	Tragedy	English		74	
+tragedy:P23	tragedy	tragedy	P23	Tragedy	English		114	
+tragedy:P24	tragedy	tragedy	P24	Tragedy	English		100	
+tragedy:P25	tragedy	tragedy	P25	Tragedy	English		95	
+tragedy:P26	tragedy	tragedy	P26	Tragedy	English		116	
+tragedy:P27	tragedy	tragedy	P27	Tragedy	English		84	
+tragedy:P28	tragedy	tragedy	P28	Tragedy	English		67	
+tragedy:P29	tragedy	tragedy	P29	Tragedy	English		78	
+tragedy:P30	tragedy	tragedy	P30	Tragedy	English		118	
+tragedy:P31	tragedy	tragedy	P31	Tragedy	English		106	
+tragedy:P32	tragedy	tragedy	P32	Tragedy	English		86	
