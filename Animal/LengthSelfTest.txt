@@ -1,0 +1,13 @@
+1. A thinned to its own count: tale 26, fable 12, tragedy 3, myth 7 (the frozen score: tale 26, fable 12, tragedy 3, myth 7)
+2. A, held-out wondertales (22), unthinned: tale 11, fable 3, tragedy 1, myth 7
+     A, held-out wondertales thinned to B's animal lengths: fable ahead of every other genre in 2 of 100 draws; placements summed over the draws: tale 731, fable 398, tragedy 136, myth 735
+2. A, held-out tragedies (16), unthinned: tale 1, fable 0, tragedy 13, myth 2
+     A, held-out tragedies thinned to B's animal lengths: fable ahead of every other genre in 0 of 100 draws; placements summed over the draws: tale 9, fable 187, tragedy 1082, myth 222
+2. A, held-out myths (60), unthinned: tale 9, fable 7, tragedy 1, myth 43
+     A, held-out myths thinned to B's animal lengths: fable ahead of every other genre in 0 of 100 draws; placements summed over the draws: tale 489, fable 813, tragedy 193, myth 4305
+2. B, held-out wondertales (22), unthinned: tale 15, fable 1, tragedy 1, myth 5
+     B, held-out wondertales thinned to B's animal lengths: fable ahead of every other genre in 15 of 100 draws; placements summed over the draws: tale 629, fable 491, tragedy 136, myth 744
+2. B, held-out tragedies (16), unthinned: tale 1, fable 0, tragedy 15, myth 0
+     B, held-out tragedies thinned to B's animal lengths: fable ahead of every other genre in 4 of 100 draws; placements summed over the draws: tale 6, fable 366, tragedy 997, myth 131
+2. B, held-out myths (60), unthinned: tale 1, fable 14, tragedy 0, myth 45
+     B, held-out myths thinned to B's animal lengths: fable ahead of every other genre in 0 of 100 draws; placements summed over the draws: tale 166, fable 1340, tragedy 67, myth 4227
