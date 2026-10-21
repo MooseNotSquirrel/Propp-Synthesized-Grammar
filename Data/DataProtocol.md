@@ -1,4 +1,4 @@
-# The normalized data set: protocol (DECISIONS TAKEN; TESTS NOT YET FROZEN)
+# The normalized data set: protocol (DECISIONS TAKEN; TESTS T1 TO T4 FROZEN 2026-10-21 AT THE OWNER'S WORD)
 
 **Drafted 2026-10-21 at the owner's request, in two parts.** First, a full normalized data set for each corpus. Second, parity: whatever has been collected or measured for one narrative type should exist for each of them, so that the same analyses (functions, pairs and groups, character sets, and the rest) can be run on every corpus. Nothing here is built yet. The tests in section 5 are to be frozen before any builder is written.
 
