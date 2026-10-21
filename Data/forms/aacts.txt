@@ -1,0 +1,7 @@
+A b1 entries  654, events missing   0, unknown acts   0, faults 0
+A b2 entries  537, events missing   0, unknown acts   0, faults 0
+A b3 entries  535, events missing   0, unknown acts   0, faults 0
+B b1 entries  613, events missing   0, unknown acts   0, faults 0
+B b2 entries  473, events missing   0, unknown acts   0, faults 0
+B b3 entries  465, events missing   0, unknown acts   0, faults 0
+IN FORM

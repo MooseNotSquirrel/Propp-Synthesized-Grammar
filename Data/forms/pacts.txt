@@ -1,0 +1,26 @@
+A t3  stories 11, entries  782, uncovered events   0, out-of-list entries   0, faults 0
+A t4  stories 11, entries  644, uncovered events   0, out-of-list entries   0, faults 0
+A f3  stories 21, entries  103, uncovered events   0, out-of-list entries   0, faults 0
+A f4  stories 20, entries  151, uncovered events   0, out-of-list entries   0, faults 0
+A g5  stories  2, entries  264, uncovered events   0, out-of-list entries   0, faults 0
+A g6  stories  2, entries  372, uncovered events   0, out-of-list entries   0, faults 0
+A g7  stories  2, entries  269, uncovered events   0, out-of-list entries   0, faults 0
+A g8  stories  2, entries  264, uncovered events   0, out-of-list entries   0, faults 0
+A g9  stories  2, entries  268, uncovered events   0, out-of-list entries   0, faults 0
+A g10 stories  2, entries  208, uncovered events   0, out-of-list entries   0, faults 0
+A g11 stories  2, entries  284, uncovered events   0, out-of-list entries   0, faults 0
+A g12 stories  2, entries  257, uncovered events   0, out-of-list entries   0, faults 0
+B t3  stories 11, entries  554, uncovered events   0, out-of-list entries   0, faults 0
+B t4  stories 11, entries  617, uncovered events   0, out-of-list entries   0, faults 0
+B f3  stories 21, entries   94, uncovered events   0, out-of-list entries   0, faults 0
+B f4  stories 20, entries  140, uncovered events   0, out-of-list entries   0, faults 0
+B g5  stories  2, entries  238, uncovered events   0, out-of-list entries   0, faults 0
+B g6  stories  2, entries  327, uncovered events   0, out-of-list entries   0, faults 0
+B g7  stories  2, entries  234, uncovered events   0, out-of-list entries   0, faults 0
+B g8  stories  2, entries  253, uncovered events   0, out-of-list entries   0, faults 0
+B g9  stories  2, entries  280, uncovered events   0, out-of-list entries   0, faults 0
+B g10 stories  2, entries  188, uncovered events   0, out-of-list entries   0, faults 1
+   B g10 line 150: speech S106 at event 35 does not match P28
+B g11 stories  2, entries  253, uncovered events   0, out-of-list entries   0, faults 0
+B g12 stories  2, entries  232, uncovered events   0, out-of-list entries   0, faults 0
+NOT IN FORM: 1 problem(s)

@@ -181,6 +181,225 @@ def read_propp(stories, rows):
     account(path, kept, dropped, odd)
 
 
+# ---------------------------------------------------------------- the descriptions (session 2)
+AR = 'ActsRoles'
+# study, the act files (glob with %s for the reader), the prompt prefix naming each batch's stories
+ACT_SOURCES = [('twolayer', ['ActsRoles/tale/acts/%s/*/Notes.txt', 'ActsRoles/fable/acts/%s/*/Notes.txt',
+                             'ActsRoles/tragedy/acts/%s/*/Notes.txt'], 'acts'),
+               ('problems', ['ActsRoles/problems/acts/%s/*/Notes.txt'], 'pacts'),
+               ('animal', ['ActsRoles/animal/acts/%s/*/Notes.txt'], 'aacts')]
+SIG_SOURCES = [('significance', 'ActsRoles/sig'), ('problems', 'ActsRoles/problems/sig'),
+               ('animal', 'ActsRoles/animal/sig')]
+FREE_SOURCES = [('free', 'ActsRoles/free/%s/*/Notes.txt'), ('animal', 'ActsRoles/animal/free/%s/*/Notes.txt')]
+HERO_LISTS = [('Afanasyev/Heroes.txt', 'tale'), ('AnimalTales/Heroes.txt', 'animal'), ('Aesop/Heroes.txt', 'fable'),
+              ('Fables/Heroes.txt', 'fable'), ('Tragedy/plays/P[0-9][0-9]/Hero.txt', 'tragedy')]
+LOCAL = {}      # local id -> global id, from the story table
+ALIASES = {}    # (file, alias) -> (story, source)
+EID = re.compile(r'^(e\d{4})$')
+
+
+def resolve(local, corpus=None):
+    if corpus:
+        return gid(corpus, local)
+    return LOCAL.get(local, 'unknown:' + local)
+
+
+def batch_plays(prefix, L, batch):
+    """the plays a tragedy batch was given, in the order its prompt names them"""
+    path = os.path.join(P, AR, 'prompts', '%s-%s-%s.txt' % (prefix, L, batch))
+    out = []
+    if os.path.exists(path):
+        for m in re.finditer(r'plays/(P\d{2})', open(path, encoding='utf-8').read()):
+            if m.group(1) not in out:
+                out.append(m.group(1))
+    return out
+
+
+def speech_numbers(play):
+    for base in ('tragedy/plays', 'problems/tragedy/plays', 'held/tragedy/plays'):
+        f = os.path.join(P, AR, base, play, 'Events.txt')
+        if os.path.exists(f):
+            out = {}
+            for line in open(f, encoding='utf-8'):
+                x = [y.strip() for y in line.split('|')]
+                if len(x) >= 3 and x[1].isdigit():
+                    out[int(x[1])] = x[2]
+            return out
+    return {}
+
+
+class Recover:
+    """A departure logged in TwoLayer/KeeperLog.md and Problems/KeeperLog.md: three tragedy batches of describer
+    B wrote each event's speech number (S001...) where the play belongs. The play is recovered from the batch's
+    two plays, in the order its prompt names them, events restarting at 1 for the second, and every line's speech
+    number is checked against that play's event list; a line that does not match is kept, on the play its place
+    gives, and flagged."""
+    def __init__(self, path, prefix, L):
+        self.path = path
+        self.plays = batch_plays(prefix, L, os.path.basename(os.path.dirname(path)))
+        self.spk = {pl: speech_numbers(pl) for pl in self.plays}
+        self.i, self.prev = 0, 0
+
+    def __call__(self, alias, ev):
+        if ev < self.prev and ev == 1 and self.i == 0:
+            self.i = 1
+        self.prev = ev
+        pl = self.plays[self.i]
+        ALIASES[(rel(self.path), alias)] = (gid('tragedy', pl), 'speech number, recovered by batch order')
+        ok = self.spk[pl].get(ev) == alias
+        return gid('tragedy', pl), '' if ok else 'speech %s does not match %s event %d' % (alias, pl, ev)
+
+
+def data_lines(path, nfields):
+    """yield (fields, id match) for each data line, and account every other line"""
+    kept, dropped, odd = 0, collections.Counter(), []
+    for i, line in enumerate(open(path, encoding='utf-8'), 1):
+        f = [x.strip() for x in line.rstrip('\n').split('|', nfields - 1)]
+        m = ID.match(f[0]) if len(f) >= min(nfields, 2) else None
+        if m:
+            kept += 1
+            yield f + [''] * (nfields - len(f)), m
+        else:
+            r = why_dropped(line)
+            if r:
+                dropped[r] += 1
+            else:
+                odd.append(i)
+    account(path, kept, dropped, odd)
+
+
+def event_of(field):
+    m = re.search(r'\d+', field)
+    return int(m.group()) if m else 0
+
+
+def read_acts(rows):
+    for study, pats, prefix in ACT_SOURCES:
+        for pat in pats:
+            for L in 'AB':
+                for path in sorted(glob.glob(os.path.join(P, pat % L))):
+                    batch = os.path.basename(os.path.dirname(path))
+                    rec, order = None, collections.Counter()
+                    for f, m in data_lines(path, 10):
+                        ev, flag = event_of(f[1]), ''
+                        if m.group(1).startswith('S'):
+                            rec = rec or Recover(path, prefix, L)
+                            story, flag = rec(m.group(1), ev)
+                        else:
+                            story = resolve(m.group(1))
+                        order[(story, ev)] += 1
+                        rows.append((story, L, MODEL[L], study, batch, m.group(2) or '', ev, order[(story, ev)],
+                                     f[2], f[3], f[4], f[5], f[6], f[7], f[8], f[9], flag, rel(path)))
+
+
+def read_free(rows):
+    for study, pat in FREE_SOURCES:
+        for L in 'AB':
+            for path in sorted(glob.glob(os.path.join(P, pat % L))):
+                batch = os.path.basename(os.path.dirname(path))
+                order = collections.Counter()
+                for f, m in data_lines(path, 9):
+                    ev, story = event_of(f[1]), resolve(m.group(1))
+                    order[(story, ev)] += 1
+                    rows.append((story, L, MODEL[L], study, batch, m.group(2) or '', ev, order[(story, ev)],
+                                 f[2], f[3], f[4], f[5], f[6], f[7], f[8], rel(path)))
+
+
+def read_sig_input(path):
+    """{entry: (story, event, act, performer, undergoer, relation)}, accounting the input file's lines"""
+    out, story, ev = {}, None, 0
+    kept, dropped, odd = 0, collections.Counter(), []
+    for i, line in enumerate(open(path, encoding='utf-8'), 1):
+        s = line.strip()
+        m = re.match(r'^story:\s*([AFP]\d{2,3})', s)
+        e = re.match(r'^ev\s+(\d+)\s*\|', s)
+        a = re.match(r'^(e\d{4})\s*\|', s)
+        if m:
+            story = resolve(m.group(1))
+        elif e:
+            ev = int(e.group(1))
+        elif a and story:
+            f = [x.strip() for x in s.split('|')] + [''] * 6
+            out[a.group(1)] = (story, ev, f[1], f[2], f[3], f[4])
+        else:
+            r = why_dropped(line)
+            if r:
+                dropped[r] += 1
+            else:
+                odd.append(i)
+            continue
+        kept += 1
+    account(path, kept, dropped, odd)
+    return out
+
+
+def read_sig(sigrows, probrows):
+    for study, base in SIG_SOURCES:
+        for L in 'AB':
+            for path in sorted(glob.glob(os.path.join(P, base, L, '*', 'Significance.txt'))):
+                batch = os.path.basename(os.path.dirname(path))
+                inp = read_sig_input(os.path.join(P, base, 'input', '%s-%s.txt' % (L, batch)))
+                kept, dropped, odd = 0, collections.Counter(), []
+                for i, line in enumerate(open(path, encoding='utf-8'), 1):
+                    f = [x.strip() for x in line.rstrip('\n').split('|', 8)]
+                    pm = ID.match(f[0])
+                    if EID.match(f[0]) and len(f) >= 8:
+                        f += [''] * (9 - len(f))
+                        src = inp.get(f[0], ('unknown:' + f[0], 0, '', '', '', ''))
+                        sigrows.append((src[0], L, MODEL[L], study, batch, f[0], src[1], src[2], src[3], src[4],
+                                        src[5], f[1], f[2], f[3], f[4], f[5], f[6], f[7], f[8], rel(path)))
+                    elif pm and len(f) >= 4 and f[1].lower() == 'problem':
+                        probrows.append((resolve(pm.group(1)), L, MODEL[L], study, batch, f[2], ' | '.join(f[3:]),
+                                         rel(path)))
+                    else:
+                        r = why_dropped(line)
+                        if r:
+                            dropped[r] += 1
+                        else:
+                            odd.append(i)
+                        continue
+                    kept += 1
+                account(path, kept, dropped, odd)
+
+
+def read_heroes(rows):
+    for L in 'AB':        # the two hero readers
+        for path in sorted(glob.glob(os.path.join(P, AR, 'heroes', 'answers', L, '*', 'Heroes.txt'))):
+            for f, m in data_lines(path, 4):
+                rows.append((resolve(m.group(1)), L, MODEL[L], 'heroes', f[1], f[2], f[3], rel(path)))
+    for pat, corpus in HERO_LISTS:      # the event listers' heroes
+        for path in sorted(glob.glob(os.path.join(P, pat))):
+            for f, m in data_lines(path, 3):
+                hero = re.sub(r'^hero:\s*', '', f[1])
+                rows.append((resolve(m.group(1), corpus), 'lister', '', 'events', hero, '',
+                             f[2].replace('moral: -', '').strip(), rel(path)))
+    path = os.path.join(ROOT, 'Heroes', 'JudgedHeroes.txt')     # the heroes the readers agree on, as judged
+    for f, m in data_lines(path, 3):
+        rows.append((resolve(m.group(1)), 'judged', '', 'heroes', f[1], '', f[2], rel(path)))
+
+
+def build_descriptions(meta):
+    for s in sorted(meta):
+        LOCAL.setdefault(s.split(':', 1)[1], s)
+    acts, free, sig, probs, heroes = [], [], [], [], []
+    read_acts(acts)
+    read_free(free)
+    read_sig(sig, probs)
+    read_heroes(heroes)
+    tsv('acts.tsv', ['story', 'reader', 'model', 'study', 'batch', 'version', 'event', 'entry', 'act', 'performer',
+                     'undergoer', 'relation', 'matters', 'link', 'unsure', 'note', 'id_flag', 'file'], acts)
+    tsv('free.tsv', ['story', 'reader', 'model', 'study', 'batch', 'version', 'event', 'entry', 'verb', 'phrase',
+                     'performer', 'undergoer', 'matters', 'unsure', 'note', 'file'], free)
+    tsv('significance.tsv', ['story', 'reader', 'model', 'study', 'batch', 'entry', 'event', 'act', 'performer',
+                             'undergoer', 'relation', 'part', 'value', 'place', 'problem', 'link', 'target',
+                             'unsure', 'note', 'file'], sig)
+    tsv('problems.tsv', ['story', 'reader', 'model', 'study', 'batch', 'problem', 'text', 'file'], probs)
+    tsv('heroes.tsv', ['story', 'reader', 'model', 'study', 'hero', 'confidence', 'basis', 'file'], heroes)
+    print('acts %d, free %d, significance %d, problems %d, heroes %d'
+          % (len(acts), len(free), len(sig), len(probs), len(heroes)))
+    return [(a, st, '%s; %s' % (src, f)) for (f, a), (st, src) in sorted(ALIASES.items())]
+
+
 # ---------------------------------------------------------------- writing
 def tsv(name, header, rows):
     os.makedirs(OUT, exist_ok=True)
@@ -205,7 +424,13 @@ def build():
             if s.startswith(corpus + ':') and s not in meta:
                 meta[s] = (corpus, genre, lang, repo)
     read_propp(stories, funcs)
-    aliases = [(s, 'unmapped') for s in stories if s.split(':')[1].startswith('S')]
+    # the fables' whole collection, from which both fable repositories drew: every fable is a story, listed or not
+    path = os.path.join(P, 'Aesop', 'Fables.txt')
+    for f, m in data_lines(path, 3):
+        s = gid('fable', m.group(1))
+        stories[s]['title'] = f[1]
+        meta.setdefault(s, ('fable', 'fable', 'English', 'Aesop/Fables.txt'))
+    aliases = build_descriptions(meta)
     tsv('stories.tsv', ['story', 'corpus', 'genre', 'local_id', 'source', 'language', 'title', 'events', 'propp'],
         [(s, m[0], m[1], s.split(':', 1)[1], m[3], m[2], stories[s]['title'], stories[s]['events'],
           'Y' if stories[s]['propp'] else '') for s, m in sorted(meta.items())])
@@ -230,6 +455,46 @@ def read_tsv(name):
     return [dict(zip(head, r.rstrip('\n').split('\t'))) for r in rows[1:]]
 
 
+# T2: each stage's form check, rerun and kept in Data/forms/, against the tables. (form file, table, study,
+# the count the line reports: 'entries' or 'described'). Problem lines are checked against problems.tsv.
+FORMS = [('twolayer.txt', 'acts.tsv', 'twolayer', 'entries'), ('pacts.txt', 'acts.tsv', 'problems', 'entries'),
+         ('aacts.txt', 'acts.tsv', 'animal', 'entries'), ('free.txt', 'free.tsv', 'free', 'entries'),
+         ('cand.txt', 'free.tsv', 'free', 'entries'), ('afree.txt', 'free.tsv', 'animal', 'entries'),
+         ('sig.txt', 'significance.tsv', 'significance', 'described'),
+         ('psig.txt', 'significance.tsv', 'problems', 'described'),
+         ('asig.txt', 'significance.tsv', 'animal', 'described')]
+# Recorded where a form check cannot count what was merged: two batches whose every line carries a speech number,
+# which the two-layer form check reads as nothing (TwoLayer/KeeperLog.md, acts-2: 311 lines in g1, 164 in g3).
+RECORDED = {('acts.tsv', 'twolayer', 'B', 'g1'): 311, ('acts.tsv', 'twolayer', 'B', 'g3'): 164}
+
+
+def test2():
+    fails = []
+    tables = {}
+    for _, t, _, _ in FORMS:
+        if t not in tables:
+            tables[t] = collections.Counter()
+            for r in read_tsv(t):
+                if not r.get('id_flag'):
+                    tables[t][(r['study'], r['reader'], r['batch'])] += 1
+    probs = collections.Counter((r['study'], r['reader'], r['batch']) for r in read_tsv('problems.tsv'))
+    for name, t, study, what in FORMS:
+        for line in open(os.path.join(HERE, 'forms', name), encoding='utf-8'):
+            m = re.match(r'^(?:\w+ )?([AB])[ \\]+(\w+):?\s.*?\b%s\s+(\d+)' % what, line)
+            if not m:
+                continue
+            L, b, n = m.group(1), m.group(2), int(m.group(3))
+            n = RECORDED.get((t, study, L, b), n)
+            got = tables[t][(study, L, b)]
+            if got != n:
+                fails.append('T2 %s %s %s %s: form check %d, table %d' % (name, study, L, b, n, got))
+            pm = re.search(r'problem lines\s+(\d+)', line)
+            if pm and probs[(study, L, b)] != int(pm.group(1)):
+                fails.append('T2 %s %s %s %s problem lines: form check %s, table %d'
+                             % (name, study, L, b, pm.group(1), probs[(study, L, b)]))
+    return fails
+
+
 def test():
     fails = []
     # T1: for every file, kept plus dropped equals its lines, and nothing is dropped unexplained
@@ -249,14 +514,16 @@ def test():
         if c > 1:
             fails.append('T4 repeated id %s' % s)
     known = set(ids)
-    for name in ('events.tsv', 'functions.tsv'):
+    for name in ('events.tsv', 'functions.tsv', 'acts.tsv', 'free.tsv', 'significance.tsv', 'problems.tsv',
+                 'heroes.tsv', 'aliases.tsv'):
         bad = sorted({r['story'] for r in read_tsv(name)} - known)
         if bad:
             fails.append('T4 %s: %d ids not in stories.tsv: %s' % (name, len(bad), ', '.join(bad[:8])))
     for r in read_tsv('aliases.tsv'):
         if r['story'] in ('', 'unmapped'):
             fails.append('T4 alias %s unmapped' % r['alias'])
-    print('\n'.join(fails) if fails else 'T1 and T4 PASS')
+    fails += test2()
+    print('\n'.join(fails) if fails else 'T1, T2 and T4 PASS')
     print('%d failure(s)' % len(fails))
 
 

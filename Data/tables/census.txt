@@ -155,3 +155,269 @@ Apollodorus/Apollodorus/transcriptions/B/b07/Notes.txt	lines 317	kept 317	-	unex
 Apollodorus/Apollodorus/transcriptions/B/b08/Notes.txt	lines 324	kept 308	blank 16	unexplained 0
 Apollodorus/Apollodorus/transcriptions/B/b09/Notes.txt	lines 151	kept 151	-	unexplained 0
 SynthesizedProppGrammar/TaleTokenStreamsV4Utf8.txt	lines 601	kept 176	blank 46, heading or comment 379	unexplained 0
+Aesop/Fables.txt	lines 313	kept 313	-	unexplained 0
+ActsRoles/tale/acts/A/t1/Notes.txt	lines 762	kept 762	-	unexplained 0
+ActsRoles/tale/acts/A/t2/Notes.txt	lines 682	kept 682	-	unexplained 0
+ActsRoles/tale/acts/B/t1/Notes.txt	lines 600	kept 600	-	unexplained 0
+ActsRoles/tale/acts/B/t2/Notes.txt	lines 628	kept 628	-	unexplained 0
+ActsRoles/fable/acts/A/f1/Notes.txt	lines 119	kept 119	-	unexplained 0
+ActsRoles/fable/acts/A/f2/Notes.txt	lines 140	kept 140	-	unexplained 0
+ActsRoles/fable/acts/B/f1/Notes.txt	lines 111	kept 111	-	unexplained 0
+ActsRoles/fable/acts/B/f2/Notes.txt	lines 122	kept 122	-	unexplained 0
+ActsRoles/tragedy/acts/A/g1/Notes.txt	lines 354	kept 354	-	unexplained 0
+ActsRoles/tragedy/acts/A/g2/Notes.txt	lines 280	kept 280	-	unexplained 0
+ActsRoles/tragedy/acts/A/g3/Notes.txt	lines 178	kept 178	-	unexplained 0
+ActsRoles/tragedy/acts/A/g4/Notes.txt	lines 268	kept 268	-	unexplained 0
+ActsRoles/tragedy/acts/B/g1/Notes.txt	lines 311	kept 311	-	unexplained 0
+ActsRoles/tragedy/acts/B/g2/Notes.txt	lines 246	kept 246	-	unexplained 0
+ActsRoles/tragedy/acts/B/g3/Notes.txt	lines 164	kept 164	-	unexplained 0
+ActsRoles/tragedy/acts/B/g4/Notes.txt	lines 262	kept 262	-	unexplained 0
+ActsRoles/problems/acts/A/f3/Notes.txt	lines 103	kept 103	-	unexplained 0
+ActsRoles/problems/acts/A/f4/Notes.txt	lines 151	kept 151	-	unexplained 0
+ActsRoles/problems/acts/A/g10/Notes.txt	lines 208	kept 208	-	unexplained 0
+ActsRoles/problems/acts/A/g11/Notes.txt	lines 284	kept 284	-	unexplained 0
+ActsRoles/problems/acts/A/g12/Notes.txt	lines 257	kept 257	-	unexplained 0
+ActsRoles/problems/acts/A/g5/Notes.txt	lines 264	kept 264	-	unexplained 0
+ActsRoles/problems/acts/A/g6/Notes.txt	lines 372	kept 372	-	unexplained 0
+ActsRoles/problems/acts/A/g7/Notes.txt	lines 269	kept 269	-	unexplained 0
+ActsRoles/problems/acts/A/g8/Notes.txt	lines 264	kept 264	-	unexplained 0
+ActsRoles/problems/acts/A/g9/Notes.txt	lines 268	kept 268	-	unexplained 0
+ActsRoles/problems/acts/A/t3/Notes.txt	lines 782	kept 782	-	unexplained 0
+ActsRoles/problems/acts/A/t4/Notes.txt	lines 644	kept 644	-	unexplained 0
+ActsRoles/problems/acts/B/f3/Notes.txt	lines 94	kept 94	-	unexplained 0
+ActsRoles/problems/acts/B/f4/Notes.txt	lines 140	kept 140	-	unexplained 0
+ActsRoles/problems/acts/B/g10/Notes.txt	lines 189	kept 189	-	unexplained 0
+ActsRoles/problems/acts/B/g11/Notes.txt	lines 253	kept 253	-	unexplained 0
+ActsRoles/problems/acts/B/g12/Notes.txt	lines 232	kept 232	-	unexplained 0
+ActsRoles/problems/acts/B/g5/Notes.txt	lines 238	kept 238	-	unexplained 0
+ActsRoles/problems/acts/B/g6/Notes.txt	lines 327	kept 327	-	unexplained 0
+ActsRoles/problems/acts/B/g7/Notes.txt	lines 234	kept 234	-	unexplained 0
+ActsRoles/problems/acts/B/g8/Notes.txt	lines 253	kept 253	-	unexplained 0
+ActsRoles/problems/acts/B/g9/Notes.txt	lines 280	kept 280	-	unexplained 0
+ActsRoles/problems/acts/B/t3/Notes.txt	lines 554	kept 554	-	unexplained 0
+ActsRoles/problems/acts/B/t4/Notes.txt	lines 617	kept 617	-	unexplained 0
+ActsRoles/animal/acts/A/b1/Notes.txt	lines 654	kept 654	-	unexplained 0
+ActsRoles/animal/acts/A/b2/Notes.txt	lines 537	kept 537	-	unexplained 0
+ActsRoles/animal/acts/A/b3/Notes.txt	lines 535	kept 535	-	unexplained 0
+ActsRoles/animal/acts/B/b1/Notes.txt	lines 613	kept 613	-	unexplained 0
+ActsRoles/animal/acts/B/b2/Notes.txt	lines 473	kept 473	-	unexplained 0
+ActsRoles/animal/acts/B/b3/Notes.txt	lines 465	kept 465	-	unexplained 0
+ActsRoles/free/A/f1/Notes.txt	lines 152	kept 152	-	unexplained 0
+ActsRoles/free/A/f2/Notes.txt	lines 168	kept 168	-	unexplained 0
+ActsRoles/free/A/f3/Notes.txt	lines 126	kept 126	-	unexplained 0
+ActsRoles/free/A/f4/Notes.txt	lines 189	kept 189	-	unexplained 0
+ActsRoles/free/A/g10/Notes.txt	lines 231	kept 231	-	unexplained 0
+ActsRoles/free/A/g11/Notes.txt	lines 314	kept 314	-	unexplained 0
+ActsRoles/free/A/g12/Notes.txt	lines 271	kept 271	-	unexplained 0
+ActsRoles/free/A/g13/Notes.txt	lines 236	kept 236	-	unexplained 0
+ActsRoles/free/A/g14/Notes.txt	lines 314	kept 314	-	unexplained 0
+ActsRoles/free/A/g15/Notes.txt	lines 284	kept 284	-	unexplained 0
+ActsRoles/free/A/g16/Notes.txt	lines 331	kept 331	-	unexplained 0
+ActsRoles/free/A/g1/Notes.txt	lines 382	kept 382	-	unexplained 0
+ActsRoles/free/A/g2/Notes.txt	lines 299	kept 299	-	unexplained 0
+ActsRoles/free/A/g3/Notes.txt	lines 211	kept 211	-	unexplained 0
+ActsRoles/free/A/g4/Notes.txt	lines 313	kept 313	-	unexplained 0
+ActsRoles/free/A/g5/Notes.txt	lines 273	kept 273	-	unexplained 0
+ActsRoles/free/A/g6/Notes.txt	lines 415	kept 415	-	unexplained 0
+ActsRoles/free/A/g7/Notes.txt	lines 292	kept 292	-	unexplained 0
+ActsRoles/free/A/g8/Notes.txt	lines 293	kept 293	-	unexplained 0
+ActsRoles/free/A/g9/Notes.txt	lines 296	kept 296	-	unexplained 0
+ActsRoles/free/A/t1/Notes.txt	lines 840	kept 840	-	unexplained 0
+ActsRoles/free/A/t2/Notes.txt	lines 898	kept 898	-	unexplained 0
+ActsRoles/free/A/t3/Notes.txt	lines 961	kept 961	-	unexplained 0
+ActsRoles/free/A/t4/Notes.txt	lines 739	kept 739	-	unexplained 0
+ActsRoles/free/B/f1/Notes.txt	lines 128	kept 128	-	unexplained 0
+ActsRoles/free/B/f2/Notes.txt	lines 122	kept 122	-	unexplained 0
+ActsRoles/free/B/f3/Notes.txt	lines 116	kept 116	-	unexplained 0
+ActsRoles/free/B/f4/Notes.txt	lines 141	kept 141	-	unexplained 0
+ActsRoles/free/B/g10/Notes.txt	lines 220	kept 220	-	unexplained 0
+ActsRoles/free/B/g11/Notes.txt	lines 296	kept 296	-	unexplained 0
+ActsRoles/free/B/g12/Notes.txt	lines 253	kept 253	-	unexplained 0
+ActsRoles/free/B/g13/Notes.txt	lines 223	kept 223	-	unexplained 0
+ActsRoles/free/B/g14/Notes.txt	lines 295	kept 295	-	unexplained 0
+ActsRoles/free/B/g15/Notes.txt	lines 274	kept 274	-	unexplained 0
+ActsRoles/free/B/g16/Notes.txt	lines 330	kept 330	-	unexplained 0
+ActsRoles/free/B/g1/Notes.txt	lines 394	kept 394	-	unexplained 0
+ActsRoles/free/B/g2/Notes.txt	lines 279	kept 279	-	unexplained 0
+ActsRoles/free/B/g3/Notes.txt	lines 189	kept 189	-	unexplained 0
+ActsRoles/free/B/g4/Notes.txt	lines 277	kept 277	-	unexplained 0
+ActsRoles/free/B/g5/Notes.txt	lines 281	kept 281	-	unexplained 0
+ActsRoles/free/B/g6/Notes.txt	lines 391	kept 391	-	unexplained 0
+ActsRoles/free/B/g7/Notes.txt	lines 276	kept 276	-	unexplained 0
+ActsRoles/free/B/g8/Notes.txt	lines 287	kept 287	-	unexplained 0
+ActsRoles/free/B/g9/Notes.txt	lines 296	kept 296	-	unexplained 0
+ActsRoles/free/B/t1/Notes.txt	lines 891	kept 891	-	unexplained 0
+ActsRoles/free/B/t2/Notes.txt	lines 786	kept 786	-	unexplained 0
+ActsRoles/free/B/t3/Notes.txt	lines 1074	kept 1074	-	unexplained 0
+ActsRoles/free/B/t4/Notes.txt	lines 800	kept 800	-	unexplained 0
+ActsRoles/animal/free/A/b1/Notes.txt	lines 902	kept 902	-	unexplained 0
+ActsRoles/animal/free/A/b2/Notes.txt	lines 800	kept 800	-	unexplained 0
+ActsRoles/animal/free/A/b3/Notes.txt	lines 723	kept 723	-	unexplained 0
+ActsRoles/animal/free/B/b1/Notes.txt	lines 778	kept 778	-	unexplained 0
+ActsRoles/animal/free/B/b2/Notes.txt	lines 633	kept 633	-	unexplained 0
+ActsRoles/animal/free/B/b3/Notes.txt	lines 612	kept 612	-	unexplained 0
+ActsRoles/sig/input/A-s1.txt	lines 437	kept 431	blank 6	unexplained 0
+ActsRoles/sig/A/s1/Significance.txt	lines 287	kept 287	-	unexplained 0
+ActsRoles/sig/input/A-s2.txt	lines 825	kept 819	blank 6	unexplained 0
+ActsRoles/sig/A/s2/Significance.txt	lines 561	kept 561	-	unexplained 0
+ActsRoles/sig/input/A-s3.txt	lines 673	kept 667	blank 6	unexplained 0
+ActsRoles/sig/A/s3/Significance.txt	lines 428	kept 428	-	unexplained 0
+ActsRoles/sig/input/A-s4.txt	lines 318	kept 314	blank 4	unexplained 0
+ActsRoles/sig/A/s4/Significance.txt	lines 204	kept 204	-	unexplained 0
+ActsRoles/sig/input/A-s5.txt	lines 537	kept 492	blank 45	unexplained 0
+ActsRoles/sig/A/s5/Significance.txt	lines 342	kept 298	blank 44	unexplained 0
+ActsRoles/sig/input/A-s6.txt	lines 620	kept 618	blank 2	unexplained 0
+ActsRoles/sig/A/s6/Significance.txt	lines 366	kept 366	-	unexplained 0
+ActsRoles/sig/input/A-s7.txt	lines 501	kept 499	blank 2	unexplained 0
+ActsRoles/sig/A/s7/Significance.txt	lines 296	kept 296	-	unexplained 0
+ActsRoles/sig/input/A-s8.txt	lines 316	kept 314	blank 2	unexplained 0
+ActsRoles/sig/A/s8/Significance.txt	lines 186	kept 186	-	unexplained 0
+ActsRoles/sig/input/A-s9.txt	lines 486	kept 484	blank 2	unexplained 0
+ActsRoles/sig/A/s9/Significance.txt	lines 273	kept 273	-	unexplained 0
+ActsRoles/sig/input/B-s1.txt	lines 385	kept 379	blank 6	unexplained 0
+ActsRoles/sig/B/s1/Significance.txt	lines 233	kept 233	-	unexplained 0
+ActsRoles/sig/input/B-s2.txt	lines 717	kept 711	blank 6	unexplained 0
+ActsRoles/sig/B/s2/Significance.txt	lines 450	kept 450	-	unexplained 0
+ActsRoles/sig/input/B-s3.txt	lines 624	kept 618	blank 6	unexplained 0
+ActsRoles/sig/B/s3/Significance.txt	lines 374	kept 374	-	unexplained 0
+ActsRoles/sig/input/B-s4.txt	lines 316	kept 312	blank 4	unexplained 0
+ActsRoles/sig/B/s4/Significance.txt	lines 205	kept 202	blank 3	unexplained 0
+ActsRoles/sig/input/B-s5.txt	lines 512	kept 467	blank 45	unexplained 0
+ActsRoles/sig/B/s5/Significance.txt	lines 268	kept 268	-	unexplained 0
+ActsRoles/sig/input/B-s6.txt	lines 577	kept 575	blank 2	unexplained 0
+ActsRoles/sig/B/s6/Significance.txt	lines 321	kept 321	-	unexplained 0
+ActsRoles/sig/input/B-s7.txt	lines 467	kept 465	blank 2	unexplained 0
+ActsRoles/sig/B/s7/Significance.txt	lines 254	kept 254	-	unexplained 0
+ActsRoles/sig/input/B-s8.txt	lines 302	kept 300	blank 2	unexplained 0
+ActsRoles/sig/B/s8/Significance.txt	lines 168	kept 168	-	unexplained 0
+ActsRoles/sig/input/B-s9.txt	lines 480	kept 478	blank 2	unexplained 0
+ActsRoles/sig/B/s9/Significance.txt	lines 265	kept 265	-	unexplained 0
+ActsRoles/problems/sig/input/A-q10.txt	lines 483	kept 481	blank 2	unexplained 0
+ActsRoles/problems/sig/A/q10/Significance.txt	lines 275	kept 275	-	unexplained 0
+ActsRoles/problems/sig/input/A-q11.txt	lines 363	kept 361	blank 2	unexplained 0
+ActsRoles/problems/sig/A/q11/Significance.txt	lines 215	kept 215	-	unexplained 0
+ActsRoles/problems/sig/input/A-q12.txt	lines 484	kept 482	blank 2	unexplained 0
+ActsRoles/problems/sig/A/q12/Significance.txt	lines 297	kept 297	-	unexplained 0
+ActsRoles/problems/sig/input/A-q13.txt	lines 453	kept 451	blank 2	unexplained 0
+ActsRoles/problems/sig/A/q13/Significance.txt	lines 265	kept 265	-	unexplained 0
+ActsRoles/problems/sig/input/A-q1.txt	lines 626	kept 620	blank 6	unexplained 0
+ActsRoles/problems/sig/A/q1/Significance.txt	lines 419	kept 419	-	unexplained 0
+ActsRoles/problems/sig/input/A-q2.txt	lines 762	kept 756	blank 6	unexplained 0
+ActsRoles/problems/sig/A/q2/Significance.txt	lines 526	kept 526	-	unexplained 0
+ActsRoles/problems/sig/input/A-q3.txt	lines 467	kept 461	blank 6	unexplained 0
+ActsRoles/problems/sig/A/q3/Significance.txt	lines 287	kept 282	blank 5	unexplained 0
+ActsRoles/problems/sig/input/A-q4.txt	lines 427	kept 423	blank 4	unexplained 0
+ActsRoles/problems/sig/A/q4/Significance.txt	lines 273	kept 270	blank 3	unexplained 0
+ActsRoles/problems/sig/input/A-q5.txt	lines 553	kept 512	blank 41	unexplained 0
+ActsRoles/problems/sig/A/q5/Significance.txt	lines 302	kept 302	-	unexplained 0
+ActsRoles/problems/sig/input/A-q6.txt	lines 471	kept 469	blank 2	unexplained 0
+ActsRoles/problems/sig/A/q6/Significance.txt	lines 273	kept 273	-	unexplained 0
+ActsRoles/problems/sig/input/A-q7.txt	lines 670	kept 668	blank 2	unexplained 0
+ActsRoles/problems/sig/A/q7/Significance.txt	lines 378	kept 378	-	unexplained 0
+ActsRoles/problems/sig/input/A-q8.txt	lines 468	kept 466	blank 2	unexplained 0
+ActsRoles/problems/sig/A/q8/Significance.txt	lines 276	kept 276	-	unexplained 0
+ActsRoles/problems/sig/input/A-q9.txt	lines 470	kept 468	blank 2	unexplained 0
+ActsRoles/problems/sig/A/q9/Significance.txt	lines 275	kept 275	-	unexplained 0
+ActsRoles/problems/sig/input/B-q10.txt	lines 495	kept 493	blank 2	unexplained 0
+ActsRoles/problems/sig/B/q10/Significance.txt	lines 286	kept 286	-	unexplained 0
+ActsRoles/problems/sig/input/B-q11.txt	lines 343	kept 341	blank 2	unexplained 0
+ActsRoles/problems/sig/B/q11/Significance.txt	lines 193	kept 193	-	unexplained 0
+ActsRoles/problems/sig/input/B-q12.txt	lines 453	kept 451	blank 2	unexplained 0
+ActsRoles/problems/sig/B/q12/Significance.txt	lines 260	kept 260	-	unexplained 0
+ActsRoles/problems/sig/input/B-q13.txt	lines 428	kept 426	blank 2	unexplained 0
+ActsRoles/problems/sig/B/q13/Significance.txt	lines 238	kept 238	-	unexplained 0
+ActsRoles/problems/sig/input/B-q1.txt	lines 509	kept 503	blank 6	unexplained 0
+ActsRoles/problems/sig/B/q1/Significance.txt	lines 300	kept 300	-	unexplained 0
+ActsRoles/problems/sig/input/B-q2.txt	lines 639	kept 633	blank 6	unexplained 0
+ActsRoles/problems/sig/B/q2/Significance.txt	lines 396	kept 396	-	unexplained 0
+ActsRoles/problems/sig/input/B-q3.txt	lines 454	kept 448	blank 6	unexplained 0
+ActsRoles/problems/sig/B/q3/Significance.txt	lines 268	kept 268	-	unexplained 0
+ActsRoles/problems/sig/input/B-q4.txt	lines 425	kept 421	blank 4	unexplained 0
+ActsRoles/problems/sig/B/q4/Significance.txt	lines 263	kept 263	-	unexplained 0
+ActsRoles/problems/sig/input/B-q5.txt	lines 533	kept 492	blank 41	unexplained 0
+ActsRoles/problems/sig/B/q5/Significance.txt	lines 278	kept 278	-	unexplained 0
+ActsRoles/problems/sig/input/B-q6.txt	lines 445	kept 443	blank 2	unexplained 0
+ActsRoles/problems/sig/B/q6/Significance.txt	lines 242	kept 242	-	unexplained 0
+ActsRoles/problems/sig/input/B-q7.txt	lines 625	kept 623	blank 2	unexplained 0
+ActsRoles/problems/sig/B/q7/Significance.txt	lines 333	kept 333	-	unexplained 0
+ActsRoles/problems/sig/input/B-q8.txt	lines 433	kept 431	blank 2	unexplained 0
+ActsRoles/problems/sig/B/q8/Significance.txt	lines 237	kept 237	-	unexplained 0
+ActsRoles/problems/sig/input/B-q9.txt	lines 459	kept 457	blank 2	unexplained 0
+ActsRoles/problems/sig/B/q9/Significance.txt	lines 259	kept 259	-	unexplained 0
+ActsRoles/animal/sig/input/A-q1.txt	lines 797	kept 787	blank 10	unexplained 0
+ActsRoles/animal/sig/A/q1/Significance.txt	lines 483	kept 483	-	unexplained 0
+ActsRoles/animal/sig/input/A-q2.txt	lines 535	kept 525	blank 10	unexplained 0
+ActsRoles/animal/sig/A/q2/Significance.txt	lines 314	kept 314	-	unexplained 0
+ActsRoles/animal/sig/input/A-q3.txt	lines 663	kept 653	blank 10	unexplained 0
+ActsRoles/animal/sig/A/q3/Significance.txt	lines 414	kept 414	-	unexplained 0
+ActsRoles/animal/sig/input/A-q4.txt	lines 512	kept 502	blank 10	unexplained 0
+ActsRoles/animal/sig/A/q4/Significance.txt	lines 299	kept 299	-	unexplained 0
+ActsRoles/animal/sig/input/A-q5.txt	lines 602	kept 592	blank 10	unexplained 0
+ActsRoles/animal/sig/A/q5/Significance.txt	lines 356	kept 356	-	unexplained 0
+ActsRoles/animal/sig/input/B-q1.txt	lines 769	kept 759	blank 10	unexplained 0
+ActsRoles/animal/sig/B/q1/Significance.txt	lines 447	kept 447	-	unexplained 0
+ActsRoles/animal/sig/input/B-q2.txt	lines 509	kept 499	blank 10	unexplained 0
+ActsRoles/animal/sig/B/q2/Significance.txt	lines 279	kept 279	-	unexplained 0
+ActsRoles/animal/sig/input/B-q3.txt	lines 615	kept 605	blank 10	unexplained 0
+ActsRoles/animal/sig/B/q3/Significance.txt	lines 358	kept 358	-	unexplained 0
+ActsRoles/animal/sig/input/B-q4.txt	lines 485	kept 475	blank 10	unexplained 0
+ActsRoles/animal/sig/B/q4/Significance.txt	lines 264	kept 264	-	unexplained 0
+ActsRoles/animal/sig/input/B-q5.txt	lines 556	kept 546	blank 10	unexplained 0
+ActsRoles/animal/sig/B/q5/Significance.txt	lines 306	kept 306	-	unexplained 0
+ActsRoles/heroes/answers/A/h10/Heroes.txt	lines 8	kept 8	-	unexplained 0
+ActsRoles/heroes/answers/A/h1/Heroes.txt	lines 23	kept 23	-	unexplained 0
+ActsRoles/heroes/answers/A/h2/Heroes.txt	lines 22	kept 22	-	unexplained 0
+ActsRoles/heroes/answers/A/h3/Heroes.txt	lines 50	kept 50	-	unexplained 0
+ActsRoles/heroes/answers/A/h4/Heroes.txt	lines 50	kept 50	-	unexplained 0
+ActsRoles/heroes/answers/A/h5/Heroes.txt	lines 50	kept 50	-	unexplained 0
+ActsRoles/heroes/answers/A/h6/Heroes.txt	lines 48	kept 48	-	unexplained 0
+ActsRoles/heroes/answers/A/h7/Heroes.txt	lines 8	kept 8	-	unexplained 0
+ActsRoles/heroes/answers/A/h8/Heroes.txt	lines 8	kept 8	-	unexplained 0
+ActsRoles/heroes/answers/A/h9/Heroes.txt	lines 8	kept 8	-	unexplained 0
+ActsRoles/heroes/answers/B/h10/Heroes.txt	lines 8	kept 8	-	unexplained 0
+ActsRoles/heroes/answers/B/h1/Heroes.txt	lines 23	kept 23	-	unexplained 0
+ActsRoles/heroes/answers/B/h2/Heroes.txt	lines 22	kept 22	-	unexplained 0
+ActsRoles/heroes/answers/B/h3/Heroes.txt	lines 50	kept 50	-	unexplained 0
+ActsRoles/heroes/answers/B/h4/Heroes.txt	lines 50	kept 50	-	unexplained 0
+ActsRoles/heroes/answers/B/h5/Heroes.txt	lines 50	kept 50	-	unexplained 0
+ActsRoles/heroes/answers/B/h6/Heroes.txt	lines 48	kept 48	-	unexplained 0
+ActsRoles/heroes/answers/B/h7/Heroes.txt	lines 8	kept 8	-	unexplained 0
+ActsRoles/heroes/answers/B/h8/Heroes.txt	lines 8	kept 8	-	unexplained 0
+ActsRoles/heroes/answers/B/h9/Heroes.txt	lines 8	kept 8	-	unexplained 0
+Afanasyev/Heroes.txt	lines 45	kept 45	-	unexplained 0
+AnimalTales/Heroes.txt	lines 50	kept 50	-	unexplained 0
+Aesop/Heroes.txt	lines 103	kept 103	-	unexplained 0
+Fables/Heroes.txt	lines 99	kept 99	-	unexplained 0
+Tragedy/plays/P01/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P02/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P03/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P04/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P05/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P06/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P07/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P08/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P09/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P10/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P11/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P12/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P13/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P14/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P15/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P16/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P17/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P18/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P19/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P20/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P21/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P22/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P23/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P24/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P25/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P26/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P27/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P28/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P29/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P30/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P31/Hero.txt	lines 1	kept 1	-	unexplained 0
+Tragedy/plays/P32/Hero.txt	lines 1	kept 1	-	unexplained 0
+SynthesizedProppGrammar/Heroes/JudgedHeroes.txt	lines 226	kept 225	heading or comment 1	unexplained 0

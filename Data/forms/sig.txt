@@ -1,0 +1,19 @@
+A s1  acts  272, described  272, missing   0, unknown ids 0, problem lines  15, faults 0
+A s2  acts  538, described  538, missing   0, unknown ids 0, problem lines  23, faults 0
+A s3  acts  408, described  408, missing   0, unknown ids 0, problem lines  20, faults 0
+A s4  acts  192, described  192, missing   0, unknown ids 0, problem lines  12, faults 0
+A s5  acts  243, described  243, missing   0, unknown ids 0, problem lines  55, faults 0
+A s6  acts  354, described  354, missing   0, unknown ids 0, problem lines  12, faults 0
+A s7  acts  280, described  280, missing   0, unknown ids 0, problem lines  16, faults 0
+A s8  acts  178, described  178, missing   0, unknown ids 0, problem lines   8, faults 0
+A s9  acts  268, described  268, missing   0, unknown ids 0, problem lines   5, faults 0
+B s1  acts  220, described  220, missing   0, unknown ids 0, problem lines  13, faults 0
+B s2  acts  430, described  430, missing   0, unknown ids 0, problem lines  20, faults 0
+B s3  acts  359, described  359, missing   0, unknown ids 0, problem lines  15, faults 0
+B s4  acts  190, described  190, missing   0, unknown ids 0, problem lines  12, faults 0
+B s5  acts  218, described  218, missing   0, unknown ids 0, problem lines  50, faults 0
+B s6  acts  311, described  311, missing   0, unknown ids 0, problem lines  10, faults 0
+B s7  acts  246, described  246, missing   0, unknown ids 0, problem lines   8, faults 0
+B s8  acts  164, described  164, missing   0, unknown ids 0, problem lines   4, faults 0
+B s9  acts  262, described  262, missing   0, unknown ids 0, problem lines   3, faults 0
+IN FORM

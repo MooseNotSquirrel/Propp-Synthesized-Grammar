@@ -1,0 +1,16 @@
+tale A\t1: stories 12, entries 762, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tale A\t2: stories 11, entries 682, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tale B\t1: stories 12, entries 600, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tale B\t2: stories 11, entries 628, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+fable A\f1: stories 24, entries 119, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+fable A\f2: stories 25, entries 140, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+fable B\f1: stories 24, entries 111, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+fable B\f2: stories 25, entries 122, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tragedy A\g1: stories 2, entries 354, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tragedy A\g2: stories 2, entries 280, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tragedy A\g3: stories 2, entries 178, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tragedy A\g4: stories 2, entries 268, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tragedy B\g1: stories 0, entries 0, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tragedy B\g2: stories 2, entries 246, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tragedy B\g3: stories 0, entries 0, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0
+tragedy B\g4: stories 2, entries 262, events without entry 0, acts not in the list {}, relations not in the list {}, unmarked 0

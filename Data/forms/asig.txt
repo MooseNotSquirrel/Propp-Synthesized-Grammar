@@ -1,0 +1,11 @@
+A q1 acts  442, described  442, missing   0, unknown ids 0, problem lines  41, faults 0
+A q2 acts  290, described  290, missing   0, unknown ids 0, problem lines  24, faults 0
+A q3 acts  385, described  385, missing   0, unknown ids 0, problem lines  29, faults 0
+A q4 acts  279, described  279, missing   0, unknown ids 0, problem lines  20, faults 0
+A q5 acts  330, described  330, missing   0, unknown ids 0, problem lines  26, faults 0
+B q1 acts  414, described  414, missing   0, unknown ids 0, problem lines  33, faults 0
+B q2 acts  264, described  264, missing   0, unknown ids 0, problem lines  15, faults 0
+B q3 acts  337, described  337, missing   0, unknown ids 0, problem lines  21, faults 0
+B q4 acts  252, described  252, missing   0, unknown ids 0, problem lines  12, faults 0
+B q5 acts  284, described  284, missing   0, unknown ids 0, problem lines  22, faults 0
+IN FORM

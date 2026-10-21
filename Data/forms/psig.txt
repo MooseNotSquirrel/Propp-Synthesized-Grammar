@@ -1,0 +1,37 @@
+A q1  acts  401, described  401, missing   0, unknown ids 0, problem lines  18, faults 0
+A q2  acts  502, described  502, missing   0, unknown ids 0, problem lines  24, faults 0
+A q3  acts  271, described  271, missing   0, unknown ids 0, problem lines  11, faults 0
+A q4  acts  252, described  252, missing   0, unknown ids 0, problem lines  18, faults 0
+A q5  acts  254, described  254, missing   0, unknown ids 0, problem lines  48, faults 0
+A q6  acts  264, described  264, missing   0, unknown ids 0, problem lines   9, faults 0
+A q7  acts  372, described  372, missing   0, unknown ids 0, problem lines   6, faults 0
+A q8  acts  269, described  269, missing   0, unknown ids 0, problem lines   7, faults 0
+A q9  acts  264, described  264, missing   0, unknown ids 0, problem lines  11, faults 0
+A q10 acts  268, described  268, missing   0, unknown ids 0, problem lines   7, faults 0
+A q11 acts  208, described  208, missing   0, unknown ids 0, problem lines   7, faults 0
+A q12 acts  284, described  284, missing   0, unknown ids 0, problem lines  13, faults 0
+A q13 acts  257, described  257, missing   0, unknown ids 0, problem lines   8, faults 0
+B q1  acts  284, described  284, missing   0, unknown ids 0, problem lines  16, faults 0
+B q2  acts  379, described  379, missing   0, unknown ids 0, problem lines  17, faults 26
+   B q2 e0288: not in the lists: -
+   B q2 e0338: not in the lists: -
+   B q2 e0339: not in the lists: -
+   B q2 e0346: not in the lists: -
+   B q2 e0356: not in the lists: -
+   B q2 e0362: not in the lists: -
+   B q2 e0368: not in the lists: -
+   B q2 e0414: not in the lists: -
+   B q2 e0422: not in the lists: -
+   B q2 e0438: not in the lists: -
+B q3  acts  258, described  258, missing   0, unknown ids 0, problem lines  10, faults 0
+B q4  acts  250, described  250, missing   0, unknown ids 0, problem lines  13, faults 0
+B q5  acts  234, described  234, missing   0, unknown ids 0, problem lines  44, faults 0
+B q6  acts  238, described  238, missing   0, unknown ids 0, problem lines   4, faults 0
+B q7  acts  327, described  327, missing   0, unknown ids 0, problem lines   6, faults 0
+B q8  acts  234, described  234, missing   0, unknown ids 0, problem lines   3, faults 0
+B q9  acts  253, described  253, missing   0, unknown ids 0, problem lines   6, faults 0
+B q10 acts  280, described  280, missing   0, unknown ids 0, problem lines   6, faults 0
+B q11 acts  188, described  188, missing   0, unknown ids 0, problem lines   5, faults 0
+B q12 acts  253, described  253, missing   0, unknown ids 0, problem lines   7, faults 0
+B q13 acts  232, described  232, missing   0, unknown ids 0, problem lines   6, faults 0
+NOT IN FORM: 26 problem(s)

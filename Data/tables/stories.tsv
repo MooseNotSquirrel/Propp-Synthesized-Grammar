@@ -49,207 +49,319 @@ animal:A047	animal	animal tale	A047	AnimalTales	Russian		24
 animal:A048	animal	animal tale	A048	AnimalTales	Russian		39	
 animal:A049	animal	animal tale	A049	AnimalTales	Russian		9	
 animal:A050	animal	animal tale	A050	AnimalTales	Russian		11	
-fable:F004	fable	fable	F004	Aesop	English		4	
-fable:F005	fable	fable	F005	Fables	English		7	
-fable:F006	fable	fable	F006	Aesop	English		10	
-fable:F007	fable	fable	F007	Aesop	English		2	
-fable:F008	fable	fable	F008	Fables	English		2	
-fable:F012	fable	fable	F012	Aesop	English		9	
-fable:F013	fable	fable	F013	Aesop	English		3	
-fable:F014	fable	fable	F014	Fables	English		3	
-fable:F015	fable	fable	F015	Aesop	English		5	
-fable:F021	fable	fable	F021	Aesop	English		8	
-fable:F022	fable	fable	F022	Aesop	English		5	
-fable:F023	fable	fable	F023	Fables	English		3	
-fable:F024	fable	fable	F024	Fables	English		5	
-fable:F025	fable	fable	F025	Fables	English		4	
-fable:F029	fable	fable	F029	Aesop	English		2	
-fable:F030	fable	fable	F030	Aesop	English		8	
-fable:F032	fable	fable	F032	Fables	English		4	
-fable:F034	fable	fable	F034	Aesop	English		2	
-fable:F035	fable	fable	F035	Fables	English		3	
-fable:F036	fable	fable	F036	Fables	English		5	
-fable:F037	fable	fable	F037	Aesop	English		8	
-fable:F039	fable	fable	F039	Aesop	English		5	
-fable:F040	fable	fable	F040	Aesop	English		6	
-fable:F041	fable	fable	F041	Fables	English		4	
-fable:F042	fable	fable	F042	Fables	English		5	
-fable:F043	fable	fable	F043	Fables	English		3	
-fable:F044	fable	fable	F044	Aesop	English		5	
-fable:F045	fable	fable	F045	Aesop	English		8	
-fable:F047	fable	fable	F047	Fables	English		4	
-fable:F048	fable	fable	F048	Fables	English		9	
-fable:F050	fable	fable	F050	Fables	English		5	
-fable:F051	fable	fable	F051	Aesop	English		1	
-fable:F052	fable	fable	F052	Aesop	English		8	
-fable:F055	fable	fable	F055	Aesop	English		6	
-fable:F060	fable	fable	F060	Fables	English		4	
-fable:F063	fable	fable	F063	Fables	English		4	
-fable:F064	fable	fable	F064	Fables	English		3	
-fable:F066	fable	fable	F066	Aesop	English		9	
-fable:F067	fable	fable	F067	Fables	English		2	
-fable:F068	fable	fable	F068	Aesop	English		8	
-fable:F069	fable	fable	F069	Fables	English		5	
-fable:F070	fable	fable	F070	Fables	English		5	
-fable:F071	fable	fable	F071	Aesop	English		4	
-fable:F072	fable	fable	F072	Fables	English		6	
-fable:F073	fable	fable	F073	Aesop	English		3	
-fable:F074	fable	fable	F074	Fables	English		7	
-fable:F078	fable	fable	F078	Fables	English		2	
-fable:F079	fable	fable	F079	Aesop	English		4	
-fable:F081	fable	fable	F081	Fables	English		3	
-fable:F082	fable	fable	F082	Aesop	English		5	
-fable:F083	fable	fable	F083	Aesop	English		2	
-fable:F084	fable	fable	F084	Fables	English		3	
-fable:F085	fable	fable	F085	Fables	English		4	
-fable:F086	fable	fable	F086	Aesop	English		5	
-fable:F091	fable	fable	F091	Aesop	English		10	
-fable:F092	fable	fable	F092	Aesop	English		3	
-fable:F093	fable	fable	F093	Fables	English		3	
-fable:F096	fable	fable	F096	Aesop	English		4	
-fable:F098	fable	fable	F098	Aesop	English		3	
-fable:F099	fable	fable	F099	Aesop	English		4	
-fable:F100	fable	fable	F100	Aesop	English		10	
-fable:F102	fable	fable	F102	Fables	English		4	
-fable:F108	fable	fable	F108	Fables	English		2	
-fable:F111	fable	fable	F111	Aesop	English		5	
-fable:F112	fable	fable	F112	Aesop	English		2	
-fable:F114	fable	fable	F114	Fables	English		3	
-fable:F115	fable	fable	F115	Aesop	English		4	
-fable:F116	fable	fable	F116	Fables	English		3	
-fable:F121	fable	fable	F121	Aesop	English		6	
-fable:F122	fable	fable	F122	Fables	English		4	
-fable:F124	fable	fable	F124	Fables	English		5	
-fable:F127	fable	fable	F127	Fables	English		5	
-fable:F128	fable	fable	F128	Fables	English		9	
-fable:F130	fable	fable	F130	Aesop	English		7	
-fable:F131	fable	fable	F131	Fables	English		4	
-fable:F132	fable	fable	F132	Aesop	English		7	
-fable:F133	fable	fable	F133	Fables	English		7	
-fable:F134	fable	fable	F134	Fables	English		4	
-fable:F136	fable	fable	F136	Fables	English		6	
-fable:F138	fable	fable	F138	Fables	English		3	
-fable:F139	fable	fable	F139	Fables	English		3	
-fable:F140	fable	fable	F140	Aesop	English		5	
-fable:F141	fable	fable	F141	Aesop	English		5	
-fable:F142	fable	fable	F142	Aesop	English		4	
-fable:F143	fable	fable	F143	Fables	English		2	
-fable:F144	fable	fable	F144	Fables	English		12	
-fable:F145	fable	fable	F145	Aesop	English		6	
-fable:F147	fable	fable	F147	Aesop	English		8	
-fable:F148	fable	fable	F148	Fables	English		4	
-fable:F149	fable	fable	F149	Aesop	English		6	
-fable:F152	fable	fable	F152	Aesop	English		3	
-fable:F154	fable	fable	F154	Fables	English		5	
-fable:F155	fable	fable	F155	Fables	English		5	
-fable:F157	fable	fable	F157	Aesop	English		7	
-fable:F159	fable	fable	F159	Fables	English		9	
-fable:F160	fable	fable	F160	Fables	English		3	
-fable:F161	fable	fable	F161	Aesop	English		4	
-fable:F162	fable	fable	F162	Fables	English		2	
-fable:F163	fable	fable	F163	Aesop	English		2	
-fable:F164	fable	fable	F164	Fables	English		4	
-fable:F165	fable	fable	F165	Aesop	English		2	
-fable:F166	fable	fable	F166	Aesop	English		3	
-fable:F167	fable	fable	F167	Aesop	English		3	
-fable:F169	fable	fable	F169	Aesop	English		4	
-fable:F171	fable	fable	F171	Aesop	English		4	
-fable:F174	fable	fable	F174	Fables	English		3	
-fable:F175	fable	fable	F175	Aesop	English		8	
-fable:F176	fable	fable	F176	Aesop	English		4	
-fable:F178	fable	fable	F178	Aesop	English		3	
-fable:F179	fable	fable	F179	Fables	English		5	
-fable:F180	fable	fable	F180	Aesop	English		3	
-fable:F183	fable	fable	F183	Aesop	English		3	
-fable:F185	fable	fable	F185	Fables	English		2	
-fable:F186	fable	fable	F186	Aesop	English		15	
-fable:F189	fable	fable	F189	Fables	English		4	
-fable:F191	fable	fable	F191	Aesop	English		7	
-fable:F192	fable	fable	F192	Aesop	English		5	
-fable:F193	fable	fable	F193	Aesop	English		11	
-fable:F195	fable	fable	F195	Fables	English		7	
-fable:F196	fable	fable	F196	Fables	English		3	
-fable:F197	fable	fable	F197	Fables	English		2	
-fable:F198	fable	fable	F198	Aesop	English		5	
-fable:F200	fable	fable	F200	Fables	English		5	
-fable:F203	fable	fable	F203	Aesop	English		4	
-fable:F204	fable	fable	F204	Aesop	English		8	
-fable:F205	fable	fable	F205	Fables	English		3	
-fable:F206	fable	fable	F206	Aesop	English		9	
-fable:F207	fable	fable	F207	Aesop	English		3	
-fable:F208	fable	fable	F208	Fables	English		7	
-fable:F210	fable	fable	F210	Aesop	English		3	
-fable:F212	fable	fable	F212	Fables	English		2	
-fable:F213	fable	fable	F213	Aesop	English		4	
-fable:F214	fable	fable	F214	Fables	English		3	
-fable:F215	fable	fable	F215	Aesop	English		8	
-fable:F216	fable	fable	F216	Fables	English		8	
-fable:F217	fable	fable	F217	Fables	English		4	
-fable:F219	fable	fable	F219	Aesop	English		7	
-fable:F220	fable	fable	F220	Fables	English		6	
-fable:F221	fable	fable	F221	Aesop	English		3	
-fable:F222	fable	fable	F222	Aesop	English		5	
-fable:F223	fable	fable	F223	Aesop	English		6	
-fable:F224	fable	fable	F224	Fables	English		6	
-fable:F225	fable	fable	F225	Aesop	English		4	
-fable:F226	fable	fable	F226	Aesop	English		3	
-fable:F227	fable	fable	F227	Fables	English		2	
-fable:F228	fable	fable	F228	Fables	English		5	
-fable:F230	fable	fable	F230	Fables	English		5	
-fable:F231	fable	fable	F231	Aesop	English		5	
-fable:F232	fable	fable	F232	Aesop	English		7	
-fable:F234	fable	fable	F234	Fables	English		3	
-fable:F236	fable	fable	F236	Fables	English		2	
-fable:F239	fable	fable	F239	Aesop	English		2	
-fable:F240	fable	fable	F240	Aesop	English		2	
-fable:F242	fable	fable	F242	Fables	English		3	
-fable:F244	fable	fable	F244	Aesop	English		7	
-fable:F246	fable	fable	F246	Fables	English		4	
-fable:F247	fable	fable	F247	Fables	English		7	
-fable:F248	fable	fable	F248	Aesop	English		6	
-fable:F249	fable	fable	F249	Aesop	English		3	
-fable:F250	fable	fable	F250	Fables	English		6	
-fable:F251	fable	fable	F251	Aesop	English		4	
-fable:F252	fable	fable	F252	Aesop	English		4	
-fable:F253	fable	fable	F253	Fables	English		5	
-fable:F254	fable	fable	F254	Fables	English		3	
-fable:F255	fable	fable	F255	Fables	English		5	
-fable:F256	fable	fable	F256	Aesop	English		2	
-fable:F257	fable	fable	F257	Fables	English		7	
-fable:F258	fable	fable	F258	Aesop	English		8	
-fable:F259	fable	fable	F259	Aesop	English		8	
-fable:F264	fable	fable	F264	Aesop	English		6	
-fable:F265	fable	fable	F265	Aesop	English		3	
-fable:F266	fable	fable	F266	Fables	English		5	
-fable:F267	fable	fable	F267	Fables	English		3	
-fable:F269	fable	fable	F269	Fables	English		17	
-fable:F270	fable	fable	F270	Fables	English		6	
-fable:F271	fable	fable	F271	Aesop	English		6	
-fable:F273	fable	fable	F273	Fables	English		5	
-fable:F275	fable	fable	F275	Fables	English		5	
-fable:F276	fable	fable	F276	Fables	English		3	
-fable:F278	fable	fable	F278	Aesop	English		2	
-fable:F279	fable	fable	F279	Aesop	English		5	
-fable:F281	fable	fable	F281	Aesop	English		6	
-fable:F282	fable	fable	F282	Aesop	English		3	
-fable:F283	fable	fable	F283	Fables	English		2	
-fable:F285	fable	fable	F285	Fables	English		3	
-fable:F286	fable	fable	F286	Fables	English		4	
-fable:F290	fable	fable	F290	Fables	English		3	
-fable:F291	fable	fable	F291	Fables	English		6	
-fable:F295	fable	fable	F295	Aesop	English		5	
-fable:F297	fable	fable	F297	Aesop	English		11	
-fable:F298	fable	fable	F298	Aesop	English		4	
-fable:F299	fable	fable	F299	Fables	English		8	
-fable:F300	fable	fable	F300	Fables	English		8	
-fable:F301	fable	fable	F301	Aesop	English		9	
-fable:F302	fable	fable	F302	Aesop	English		9	
-fable:F303	fable	fable	F303	Fables	English		7	
-fable:F304	fable	fable	F304	Fables	English		7	
-fable:F307	fable	fable	F307	Fables	English		4	
-fable:F308	fable	fable	F308	Fables	English		13	
-fable:F309	fable	fable	F309	Aesop	English		4	
-fable:F313	fable	fable	F313	Fables	English		1	
+fable:F001	fable	fable	F001	Aesop/Fables.txt	English	The Lion And The Mouse	0	
+fable:F002	fable	fable	F002	Aesop/Fables.txt	English	The Wolf And The Lamb	0	
+fable:F003	fable	fable	F003	Aesop/Fables.txt	English	The Ass And The Grasshopper	0	
+fable:F004	fable	fable	F004	Aesop	English	The Wolf and the Crane	4	
+fable:F005	fable	fable	F005	Fables	English	The Father And His Sons	7	
+fable:F006	fable	fable	F006	Aesop	English	The Bat And The Weasels	10	
+fable:F007	fable	fable	F007	Aesop	English	The Cock and the Jewel	2	
+fable:F008	fable	fable	F008	Fables	English	The Swallow and the Crow	2	
+fable:F009	fable	fable	F009	Aesop/Fables.txt	English	The Kingdom of the Lion	0	
+fable:F010	fable	fable	F010	Aesop/Fables.txt	English	The Traveler and His Dog	0	
+fable:F011	fable	fable	F011	Aesop/Fables.txt	English	The Ants and the Grasshopper	0	
+fable:F012	fable	fable	F012	Aesop	English	The Hare and the Tortoise	9	
+fable:F013	fable	fable	F013	Aesop	English	The Charcoal-Burner And The Fuller	3	
+fable:F014	fable	fable	F014	Fables	English	The Boy Hunting Locusts	3	
+fable:F015	fable	fable	F015	Aesop	English	The Fisherman Piping	5	
+fable:F016	fable	fable	F016	Aesop/Fables.txt	English	The Dog and the Shadow	0	
+fable:F017	fable	fable	F017	Aesop/Fables.txt	English	Hercules and the Wagoner	0	
+fable:F018	fable	fable	F018	Aesop/Fables.txt	English	The Mole and His Mother	0	
+fable:F019	fable	fable	F019	Aesop/Fables.txt	English	The Herdsman and the Lost Bull	0	
+fable:F020	fable	fable	F020	Aesop/Fables.txt	English	The Fawn and His Mother	0	
+fable:F021	fable	fable	F021	Aesop	English	The Ass, the Fox, and the Lion	8	
+fable:F022	fable	fable	F022	Aesop	English	The Flies and the Honey-Pot	5	
+fable:F023	fable	fable	F023	Fables	English	The Lioness	3	
+fable:F024	fable	fable	F024	Fables	English	The Farmer and the Snake	5	
+fable:F025	fable	fable	F025	Fables	English	The Man and the Lion	4	
+fable:F026	fable	fable	F026	Aesop/Fables.txt	English	The Pomegranate, Apple-Tree, and Bramble	0	
+fable:F027	fable	fable	F027	Aesop/Fables.txt	English	The Farmer and the Stork	0	
+fable:F028	fable	fable	F028	Aesop/Fables.txt	English	The Mountain in Labor	0	
+fable:F029	fable	fable	F029	Aesop	English	The Bear and the Fox	2	
+fable:F030	fable	fable	F030	Aesop	English	The Tortoise and the Eagle	8	
+fable:F031	fable	fable	F031	Aesop/Fables.txt	English	The Fox and the Goat	0	
+fable:F032	fable	fable	F032	Fables	English	The Raven and the Swan	4	
+fable:F033	fable	fable	F033	Aesop/Fables.txt	English	The Thirsty Pigeon	0	
+fable:F034	fable	fable	F034	Aesop	English	The Dog in the Manger	2	
+fable:F035	fable	fable	F035	Fables	English	The Oxen and the Axle-Trees	3	
+fable:F036	fable	fable	F036	Fables	English	The Farmer and the Cranes	5	
+fable:F037	fable	fable	F037	Aesop	English	The Sick Lion	8	
+fable:F038	fable	fable	F038	Aesop/Fables.txt	English	The Bear and the Two Travelers	0	
+fable:F039	fable	fable	F039	Aesop	English	The Fox Who Had Lost His Tail	5	
+fable:F040	fable	fable	F040	Aesop	English	The Cat and the Cock	6	
+fable:F041	fable	fable	F041	Fables	English	The Wolf in Sheep’s Clothing	4	
+fable:F042	fable	fable	F042	Fables	English	The Goat and the Goatherd	5	
+fable:F043	fable	fable	F043	Fables	English	The Boasting Traveler	3	
+fable:F044	fable	fable	F044	Aesop	English	The Lion in Love	5	
+fable:F045	fable	fable	F045	Aesop	English	The Miser	8	
+fable:F046	fable	fable	F046	Aesop/Fables.txt	English	The Porker, the Sheep, and the Goat	0	
+fable:F047	fable	fable	F047	Fables	English	The Boy and the Filberts	4	
+fable:F048	fable	fable	F048	Fables	English	The Frogs Asking for a King	9	
+fable:F049	fable	fable	F049	Aesop/Fables.txt	English	The Laborer and the Snake	0	
+fable:F050	fable	fable	F050	Fables	English	The Lion, the Mouse, and the Fox	5	
+fable:F051	fable	fable	F051	Aesop	English	The Horse and Groom	1	
+fable:F052	fable	fable	F052	Aesop	English	The Ass and the Mule	8	
+fable:F053	fable	fable	F053	Aesop/Fables.txt	English	The Ass and the Lapdog	0	
+fable:F054	fable	fable	F054	Aesop/Fables.txt	English	The Oxen and the Butchers	0	
+fable:F055	fable	fable	F055	Aesop	English	The Shepherd’s Boy and the Wolf	6	
+fable:F056	fable	fable	F056	Aesop/Fables.txt	English	The Boys and the Frogs	0	
+fable:F057	fable	fable	F057	Aesop/Fables.txt	English	The Salt Merchant and His Ass	0	
+fable:F058	fable	fable	F058	Aesop/Fables.txt	English	The Mischievous Dog	0	
+fable:F059	fable	fable	F059	Aesop/Fables.txt	English	The Goatherd and the Wild Goats	0	
+fable:F060	fable	fable	F060	Fables	English	The Man and His Two Sweethearts	4	
+fable:F061	fable	fable	F061	Aesop/Fables.txt	English	The Sick Stag	0	
+fable:F062	fable	fable	F062	Aesop/Fables.txt	English	The Boy and the Nettles	0	
+fable:F063	fable	fable	F063	Fables	English	The Astronomer	4	
+fable:F064	fable	fable	F064	Fables	English	The Wolves and the Sheep	3	
+fable:F065	fable	fable	F065	Aesop/Fables.txt	English	The Cat and the Birds	0	
+fable:F066	fable	fable	F066	Aesop	English	The Vain Jackdaw	9	
+fable:F067	fable	fable	F067	Fables	English	The Kid and the Wolf	2	
+fable:F068	fable	fable	F068	Aesop	English	The Old Woman and the Physician	8	
+fable:F069	fable	fable	F069	Fables	English	The Ox and the Frog	5	
+fable:F070	fable	fable	F070	Fables	English	The Farmer and His Sons	5	
+fable:F071	fable	fable	F071	Aesop	English	The Heifer and the Ox	4	
+fable:F072	fable	fable	F072	Fables	English	The Fighting Cocks and the Eagle	6	
+fable:F073	fable	fable	F073	Aesop	English	The Charger and the Miller	3	
+fable:F074	fable	fable	F074	Fables	English	The Fox and the Monkey	7	
+fable:F075	fable	fable	F075	Aesop/Fables.txt	English	The Horse and His Rider	0	
+fable:F076	fable	fable	F076	Aesop/Fables.txt	English	The Belly and the Members	0	
+fable:F077	fable	fable	F077	Aesop/Fables.txt	English	The Widow and Her Little Maidens	0	
+fable:F078	fable	fable	F078	Fables	English	The Vine and the Goat	2	
+fable:F079	fable	fable	F079	Aesop	English	Jupiter and the Monkey	4	
+fable:F080	fable	fable	F080	Aesop/Fables.txt	English	The Hawk, the Kite, and the Pigeons	0	
+fable:F081	fable	fable	F081	Fables	English	The Dolphins, the Whales, and the Sprat	3	
+fable:F082	fable	fable	F082	Aesop	English	The Swallow, the Serpent, and the Court of Justice	5	
+fable:F083	fable	fable	F083	Aesop	English	The Two Pots	2	
+fable:F084	fable	fable	F084	Fables	English	The Shepherd and the Wolf	3	
+fable:F085	fable	fable	F085	Fables	English	The Crab and Its Mother	4	
+fable:F086	fable	fable	F086	Aesop	English	The Father and His Two Daughters	5	
+fable:F087	fable	fable	F087	Aesop/Fables.txt	English	The Thief and His Mother	0	
+fable:F088	fable	fable	F088	Aesop/Fables.txt	English	The Old Man and Death	0	
+fable:F089	fable	fable	F089	Aesop/Fables.txt	English	The Fir-Tree and the Bramble	0	
+fable:F090	fable	fable	F090	Aesop/Fables.txt	English	The Æthiop	0	
+fable:F091	fable	fable	F091	Aesop	English	The Mouse, the Frog, and the Hawk	10	
+fable:F092	fable	fable	F092	Aesop	English	The Fisherman and His Nets	3	
+fable:F093	fable	fable	F093	Fables	English	The Wolf and the Sheep	3	
+fable:F094	fable	fable	F094	Aesop/Fables.txt	English	The Old Woman and the Wine-Jar	0	
+fable:F095	fable	fable	F095	Aesop/Fables.txt	English	The Man Bitten by a Dog	0	
+fable:F096	fable	fable	F096	Aesop	English	The Huntsman and the Fisherman	4	
+fable:F097	fable	fable	F097	Aesop/Fables.txt	English	The Fox and the Crow	0	
+fable:F098	fable	fable	F098	Aesop	English	The Widow and the Sheep	3	
+fable:F099	fable	fable	F099	Aesop	English	The Playful Ass	4	
+fable:F100	fable	fable	F100	Aesop	English	The Stag in the Ox-Stall	10	
+fable:F101	fable	fable	F101	Aesop/Fables.txt	English	The Two Dogs	0	
+fable:F102	fable	fable	F102	Fables	English	The Wild Ass and the Lion	4	
+fable:F103	fable	fable	F103	Aesop/Fables.txt	English	The Lion and the Dolphin	0	
+fable:F104	fable	fable	F104	Aesop/Fables.txt	English	The Eagle and the Arrow	0	
+fable:F105	fable	fable	F105	Aesop/Fables.txt	English	The Sick Kite	0	
+fable:F106	fable	fable	F106	Aesop/Fables.txt	English	The Lion and the Boar	0	
+fable:F107	fable	fable	F107	Aesop/Fables.txt	English	The Mice in Council	0	
+fable:F108	fable	fable	F108	Fables	English	The One-Eyed Doe	2	
+fable:F109	fable	fable	F109	Aesop/Fables.txt	English	The Mice and the Weasels	0	
+fable:F110	fable	fable	F110	Aesop/Fables.txt	English	The Shepherd and the Sea	0	
+fable:F111	fable	fable	F111	Aesop	English	The Ass, the Cock, and the Lion	5	
+fable:F112	fable	fable	F112	Aesop	English	The Rivers and the Sea	2	
+fable:F113	fable	fable	F113	Aesop/Fables.txt	English	The Wild Boar and the Fox	0	
+fable:F114	fable	fable	F114	Fables	English	The Milk-Woman and Her Pail	3	
+fable:F115	fable	fable	F115	Aesop	English	The Bee and Jupiter	4	
+fable:F116	fable	fable	F116	Fables	English	The Wolf and the Housedog	3	
+fable:F117	fable	fable	F117	Aesop/Fables.txt	English	The Three Tradesmen	0	
+fable:F118	fable	fable	F118	Aesop/Fables.txt	English	The Ass Carrying the Image	0	
+fable:F119	fable	fable	F119	Aesop/Fables.txt	English	The Master and His Dogs	0	
+fable:F120	fable	fable	F120	Aesop/Fables.txt	English	The Old Hound	0	
+fable:F121	fable	fable	F121	Aesop	English	The Two Travelers and the Axe	6	
+fable:F122	fable	fable	F122	Fables	English	The Old Lion	4	
+fable:F123	fable	fable	F123	Aesop/Fables.txt	English	The Wolf and the Shepherds	0	
+fable:F124	fable	fable	F124	Fables	English	The Seaside Travelers	5	
+fable:F125	fable	fable	F125	Aesop/Fables.txt	English	The Ass and His Shadow	0	
+fable:F126	fable	fable	F126	Aesop/Fables.txt	English	The Ass and His Masters	0	
+fable:F127	fable	fable	F127	Fables	English	Mercury and the Sculptor	5	
+fable:F128	fable	fable	F128	Fables	English	The Fox and the Woodcutter	9	
+fable:F129	fable	fable	F129	Aesop/Fables.txt	English	The Oak and the Reeds	0	
+fable:F130	fable	fable	F130	Aesop	English	The Lion in a Farmyard	7	
+fable:F131	fable	fable	F131	Fables	English	The Wolf and the Lion	4	
+fable:F132	fable	fable	F132	Aesop	English	The Birdcatcher, the Partridge, and the Cock	7	
+fable:F133	fable	fable	F133	Fables	English	The Ant and the Dove	7	
+fable:F134	fable	fable	F134	Fables	English	The Hares and the Frogs	4	
+fable:F135	fable	fable	F135	Aesop/Fables.txt	English	The Monkey and the Fishermen	0	
+fable:F136	fable	fable	F136	Fables	English	The Swan and the Goose	6	
+fable:F137	fable	fable	F137	Aesop/Fables.txt	English	The Doe and the Lion	0	
+fable:F138	fable	fable	F138	Fables	English	The Fisherman and the Little Fish	3	
+fable:F139	fable	fable	F139	Fables	English	The Hunter and the Woodman	3	
+fable:F140	fable	fable	F140	Aesop	English	The Swollen Fox	5	
+fable:F141	fable	fable	F141	Aesop	English	The Two Frogs	5	
+fable:F142	fable	fable	F142	Aesop	English	The Lamp	4	
+fable:F143	fable	fable	F143	Fables	English	The Camel and the Arab	2	
+fable:F144	fable	fable	F144	Fables	English	The Miller, His Son, and Their Ass	12	
+fable:F145	fable	fable	F145	Aesop	English	The Cat and the Mice	6	
+fable:F146	fable	fable	F146	Aesop/Fables.txt	English	The Mouse and the Bull	0	
+fable:F147	fable	fable	F147	Aesop	English	The Dog and the Cook	8	
+fable:F148	fable	fable	F148	Fables	English	The Thieves and the Cock	4	
+fable:F149	fable	fable	F149	Aesop	English	The Dancing Monkeys	6	
+fable:F150	fable	fable	F150	Aesop/Fables.txt	English	The Farmer and the Fox	0	
+fable:F151	fable	fable	F151	Aesop/Fables.txt	English	The Traveler and Fortune	0	
+fable:F152	fable	fable	F152	Aesop	English	The Seagull and the Kite	3	
+fable:F153	fable	fable	F153	Aesop/Fables.txt	English	The Lion, the Bear, and the Fox	0	
+fable:F154	fable	fable	F154	Fables	English	The Philosopher, the Ants, and Mercury	5	
+fable:F155	fable	fable	F155	Fables	English	The Peasant and the Eagle	5	
+fable:F156	fable	fable	F156	Aesop/Fables.txt	English	The Fox and the Leopard	0	
+fable:F157	fable	fable	F157	Aesop	English	The Lion and the Hare	7	
+fable:F158	fable	fable	F158	Aesop/Fables.txt	English	The Image of Mercury and the Carpenter	0	
+fable:F159	fable	fable	F159	Fables	English	The Lion, the Fox, and the Ass	9	
+fable:F160	fable	fable	F160	Fables	English	The Bull and the Goat	3	
+fable:F161	fable	fable	F161	Aesop	English	The Bald Knight	4	
+fable:F162	fable	fable	F162	Fables	English	The Oaks and Jupiter	2	
+fable:F163	fable	fable	F163	Aesop	English	The Monkeys and Their Mother	2	
+fable:F164	fable	fable	F164	Fables	English	The Hare and the Hound	4	
+fable:F165	fable	fable	F165	Aesop	English	The Shepherd and the Dog	2	
+fable:F166	fable	fable	F166	Aesop	English	The Oak and the Woodcutters	3	
+fable:F167	fable	fable	F167	Aesop	English	The Wasp and the Snake	3	
+fable:F168	fable	fable	F168	Aesop/Fables.txt	English	The Peacock and the Crane	0	
+fable:F169	fable	fable	F169	Aesop	English	The Hen and the Golden Eggs	4	
+fable:F170	fable	fable	F170	Aesop/Fables.txt	English	The Ass and the Frogs	0	
+fable:F171	fable	fable	F171	Aesop	English	The Crow and the Raven	4	
+fable:F172	fable	fable	F172	Aesop/Fables.txt	English	The Trees and the Axe	0	
+fable:F173	fable	fable	F173	Aesop/Fables.txt	English	The Wolves and the Sheepdogs	0	
+fable:F174	fable	fable	F174	Fables	English	The Bull, the Lioness, and the Wild-Boar Hunter	3	
+fable:F175	fable	fable	F175	Aesop	English	The Bowman and Lion	8	
+fable:F176	fable	fable	F176	Aesop	English	The Camel	4	
+fable:F177	fable	fable	F177	Aesop/Fables.txt	English	The Crab and the Fox	0	
+fable:F178	fable	fable	F178	Aesop	English	The Ass and the Old Shepherd	3	
+fable:F179	fable	fable	F179	Fables	English	The Fox and the Hedgehog	5	
+fable:F180	fable	fable	F180	Aesop	English	The Woman and Her Hen	3	
+fable:F181	fable	fable	F181	Aesop/Fables.txt	English	The Kites and the Swans	0	
+fable:F182	fable	fable	F182	Aesop/Fables.txt	English	The Dog and the Hare	0	
+fable:F183	fable	fable	F183	Aesop	English	The Hares and the Foxes	3	
+fable:F184	fable	fable	F184	Aesop/Fables.txt	English	The Bull and the Calf	0	
+fable:F185	fable	fable	F185	Fables	English	The Stag, the Wolf, and the Sheep	2	
+fable:F186	fable	fable	F186	Aesop	English	The Eagle, the Cat, and the Wild Sow	15	
+fable:F187	fable	fable	F187	Aesop/Fables.txt	English	The Wolf and the Fox	0	
+fable:F188	fable	fable	F188	Aesop/Fables.txt	English	The Mule	0	
+fable:F189	fable	fable	F189	Fables	English	The Prophet	4	
+fable:F190	fable	fable	F190	Aesop/Fables.txt	English	The Two Frogs	0	
+fable:F191	fable	fable	F191	Aesop	English	The Serpent and the Eagle	7	
+fable:F192	fable	fable	F192	Aesop	English	The Crow and the Pitcher	5	
+fable:F193	fable	fable	F193	Aesop	English	The Thief and the Innkeeper	11	
+fable:F194	fable	fable	F194	Aesop/Fables.txt	English	The Hart and the Vine	0	
+fable:F195	fable	fable	F195	Fables	English	The Gnat and the Lion	7	
+fable:F196	fable	fable	F196	Fables	English	The Fox and the Grapes	3	
+fable:F197	fable	fable	F197	Fables	English	The Walnut-Tree	2	
+fable:F198	fable	fable	F198	Aesop	English	The Kid and the Wolf	5	
+fable:F199	fable	fable	F199	Aesop/Fables.txt	English	The Monkey and the Dolphin	0	
+fable:F200	fable	fable	F200	Fables	English	The Horse and the Stag	5	
+fable:F201	fable	fable	F201	Aesop/Fables.txt	English	The Jackdaw and the Doves	0	
+fable:F202	fable	fable	F202	Aesop/Fables.txt	English	The Fox and the Monkey	0	
+fable:F203	fable	fable	F203	Aesop	English	The Man and His Wife	4	
+fable:F204	fable	fable	F204	Aesop	English	The Man, the Horse, the Ox, and the Dog	8	
+fable:F205	fable	fable	F205	Fables	English	The Thief and the Housedog	3	
+fable:F206	fable	fable	F206	Aesop	English	The Apes and the Two Travelers	9	
+fable:F207	fable	fable	F207	Aesop	English	The Fox and the Lion	3	
+fable:F208	fable	fable	F208	Fables	English	The Weasel and the Mice	7	
+fable:F209	fable	fable	F209	Aesop/Fables.txt	English	The Boy Bathing	0	
+fable:F210	fable	fable	F210	Aesop	English	The Peacock and Juno	3	
+fable:F211	fable	fable	F211	Aesop/Fables.txt	English	The Wolf and the Shepherd	0	
+fable:F212	fable	fable	F212	Fables	English	The Hares and the Lions	2	
+fable:F213	fable	fable	F213	Aesop	English	The Seller of Images	4	
+fable:F214	fable	fable	F214	Fables	English	The Hawk and the Nightingale	3	
+fable:F215	fable	fable	F215	Aesop	English	The Lark and Her Young Ones	8	
+fable:F216	fable	fable	F216	Fables	English	The Dog, the Cock, and the Fox	8	
+fable:F217	fable	fable	F217	Fables	English	The Geese and the Cranes	4	
+fable:F218	fable	fable	F218	Aesop/Fables.txt	English	The Ass and the Wolf	0	
+fable:F219	fable	fable	F219	Aesop	English	The Goat and the Ass	7	
+fable:F220	fable	fable	F220	Fables	English	The Lion and the Bull	6	
+fable:F221	fable	fable	F221	Aesop	English	The Fox and the Mask	3	
+fable:F222	fable	fable	F222	Aesop	English	The Grasshopper and the Owl	5	
+fable:F223	fable	fable	F223	Aesop	English	The Fowler and the Viper	6	
+fable:F224	fable	fable	F224	Fables	English	The Horse and the Ass	6	
+fable:F225	fable	fable	F225	Aesop	English	The Lion and the Three Bulls	4	
+fable:F226	fable	fable	F226	Aesop	English	The Wolf and the Goat	3	
+fable:F227	fable	fable	F227	Fables	English	The Fly and the Draught-Mule	2	
+fable:F228	fable	fable	F228	Fables	English	The Fishermen	5	
+fable:F229	fable	fable	F229	Aesop/Fables.txt	English	The Town Mouse and the Country Mouse	0	
+fable:F230	fable	fable	F230	Fables	English	The Wolf, the Fox, and the Ape	5	
+fable:F231	fable	fable	F231	Aesop	English	The Wasps, the Partridges, and the Farmer	5	
+fable:F232	fable	fable	F232	Aesop	English	The Brother and the Sister	7	
+fable:F233	fable	fable	F233	Aesop/Fables.txt	English	The Dogs and the Fox	0	
+fable:F234	fable	fable	F234	Fables	English	The Blind Man and the Whelp	3	
+fable:F235	fable	fable	F235	Aesop/Fables.txt	English	The Cobbler Turned Doctor	0	
+fable:F236	fable	fable	F236	Fables	English	The Wolf and the Horse	2	
+fable:F237	fable	fable	F237	Aesop/Fables.txt	English	The Two Men Who Were Enemies	0	
+fable:F238	fable	fable	F238	Aesop/Fables.txt	English	The Gamecocks and the Partridge	0	
+fable:F239	fable	fable	F239	Aesop	English	The Fox and the Lion	2	
+fable:F240	fable	fable	F240	Aesop	English	The Quack Frog	2	
+fable:F241	fable	fable	F241	Aesop/Fables.txt	English	The Lion, the Wolf, and the Fox	0	
+fable:F242	fable	fable	F242	Fables	English	The Dog’s House	3	
+fable:F243	fable	fable	F243	Aesop/Fables.txt	English	The North Wind and the Sun	0	
+fable:F244	fable	fable	F244	Aesop	English	The Crow and Mercury	7	
+fable:F245	fable	fable	F245	Aesop/Fables.txt	English	The Fox and the Crane	0	
+fable:F246	fable	fable	F246	Fables	English	The Wolf and the Lion	4	
+fable:F247	fable	fable	F247	Fables	English	The Birds, the Beasts, and the Bat	7	
+fable:F248	fable	fable	F248	Aesop	English	The Spendthrift and the Swallow	6	
+fable:F249	fable	fable	F249	Aesop	English	The Trumpeter Taken Prisoner	3	
+fable:F250	fable	fable	F250	Fables	English	The Owl and the Birds	6	
+fable:F251	fable	fable	F251	Aesop	English	The Goods and the Ills	4	
+fable:F252	fable	fable	F252	Aesop	English	The Ass in the Lion’s Skin	4	
+fable:F253	fable	fable	F253	Fables	English	The Sparrow and the Hare	5	
+fable:F254	fable	fable	F254	Fables	English	The Flea and the Ox	3	
+fable:F255	fable	fable	F255	Fables	English	The Ass and His Purchaser	5	
+fable:F256	fable	fable	F256	Aesop	English	The Dove and the Crow	2	
+fable:F257	fable	fable	F257	Fables	English	The Man and the Satyr	7	
+fable:F258	fable	fable	F258	Aesop	English	Jupiter, Neptune, Minerva, and Momus	8	
+fable:F259	fable	fable	F259	Aesop	English	The Eagle and the Jackdaw	8	
+fable:F260	fable	fable	F260	Aesop/Fables.txt	English	The Eagle and the Fox	0	
+fable:F261	fable	fable	F261	Aesop/Fables.txt	English	The Two Bags	0	
+fable:F262	fable	fable	F262	Aesop/Fables.txt	English	The Bitch and Her Whelps	0	
+fable:F263	fable	fable	F263	Aesop/Fables.txt	English	The Stag at the Pool	0	
+fable:F264	fable	fable	F264	Aesop	English	The Lark Burying Her Father	6	
+fable:F265	fable	fable	F265	Aesop	English	The Gnat and the Bull	3	
+fable:F266	fable	fable	F266	Fables	English	The Monkey and the Camel	5	
+fable:F267	fable	fable	F267	Fables	English	The Dogs and the Hides	3	
+fable:F268	fable	fable	F268	Aesop/Fables.txt	English	The Jackdaw and the Fox	0	
+fable:F269	fable	fable	F269	Fables	English	Mercury and the Workmen	17	
+fable:F270	fable	fable	F270	Fables	English	The Peasant and the Apple-Tree	6	
+fable:F271	fable	fable	F271	Aesop	English	The Two Soldiers and the Robber	6	
+fable:F272	fable	fable	F272	Aesop/Fables.txt	English	The Shepherd and the Sheep	0	
+fable:F273	fable	fable	F273	Fables	English	The Trees Under the Protection of the Gods	5	
+fable:F274	fable	fable	F274	Aesop/Fables.txt	English	The Flea and the Wrestler	0	
+fable:F275	fable	fable	F275	Fables	English	The Lion and the Fox	5	
+fable:F276	fable	fable	F276	Fables	English	Truth and the Traveler	3	
+fable:F277	fable	fable	F277	Aesop/Fables.txt	English	The Manslayer	0	
+fable:F278	fable	fable	F278	Aesop	English	The Lion and the Eagle	2	
+fable:F279	fable	fable	F279	Aesop	English	The Ass and His Driver	5	
+fable:F280	fable	fable	F280	Aesop/Fables.txt	English	The Thrush and the Fowler	0	
+fable:F281	fable	fable	F281	Aesop	English	The Mother and the Wolf	6	
+fable:F282	fable	fable	F282	Aesop	English	The Hen and the Swallow	3	
+fable:F283	fable	fable	F283	Fables	English	The Rose and the Amaranth	2	
+fable:F284	fable	fable	F284	Aesop/Fables.txt	English	The Travelers and the Plane-Tree	0	
+fable:F285	fable	fable	F285	Fables	English	The Ass and the Horse	3	
+fable:F286	fable	fable	F286	Fables	English	The Crow and the Sheep	4	
+fable:F287	fable	fable	F287	Aesop/Fables.txt	English	The Fox and the Bramble	0	
+fable:F288	fable	fable	F288	Aesop/Fables.txt	English	The Ass and the Charger	0	
+fable:F289	fable	fable	F289	Aesop/Fables.txt	English	The Lion, Jupiter, and the Elephant	0	
+fable:F290	fable	fable	F290	Fables	English	The Dog and the Oyster	3	
+fable:F291	fable	fable	F291	Fables	English	The Mules and the Robbers	6	
+fable:F292	fable	fable	F292	Aesop/Fables.txt	English	The Lamb and the Wolf	0	
+fable:F293	fable	fable	F293	Aesop/Fables.txt	English	The Partridge and the Fowler	0	
+fable:F294	fable	fable	F294	Aesop/Fables.txt	English	The Flea and the Man	0	
+fable:F295	fable	fable	F295	Aesop	English	The Rich Man and the Tanner	5	
+fable:F296	fable	fable	F296	Aesop/Fables.txt	English	The Viper and the File	0	
+fable:F297	fable	fable	F297	Aesop	English	The Lion and the Shepherd	11	
+fable:F298	fable	fable	F298	Aesop	English	The Camel and Jupiter	4	
+fable:F299	fable	fable	F299	Fables	English	The Panther and the Shepherds	8	
+fable:F300	fable	fable	F300	Fables	English	The Eagle and the Kite	8	
+fable:F301	fable	fable	F301	Aesop	English	The Eagle and His Captor	9	
+fable:F302	fable	fable	F302	Aesop	English	The King’s Son and the Painted Lion	9	
+fable:F303	fable	fable	F303	Fables	English	The Cat and Venus	7	
+fable:F304	fable	fable	F304	Fables	English	The Eagle and the Beetle	7	
+fable:F305	fable	fable	F305	Aesop/Fables.txt	English	The She-Goats and Their Beards	0	
+fable:F306	fable	fable	F306	Aesop/Fables.txt	English	The Bald Man and the Fly	0	
+fable:F307	fable	fable	F307	Fables	English	The Shipwrecked Man and the Sea	4	
+fable:F308	fable	fable	F308	Fables	English	The Buffoon and the Countryman	13	
+fable:F309	fable	fable	F309	Aesop	English	The Crow and the Serpent	4	
+fable:F310	fable	fable	F310	Aesop/Fables.txt	English	The Hunter and the Horseman	0	
+fable:F311	fable	fable	F311	Aesop/Fables.txt	English	The Olive-Tree and the Fig-Tree	0	
+fable:F312	fable	fable	F312	Aesop/Fables.txt	English	The Frogs’ Complaint Against the Sun	0	
+fable:F313	fable	fable	F313	Fables	English	The Brazier and His Dog	1	
 myth:E-001	myth	myth	E-001	Apollodorus	English		33	
 myth:E-002	myth	myth	E-002	Apollodorus	English		1	
 myth:E-003	myth	myth	E-003	Apollodorus	English		3	

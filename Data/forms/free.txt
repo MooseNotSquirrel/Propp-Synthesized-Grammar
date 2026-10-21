@@ -1,0 +1,46 @@
+A t1  stories 12, entries  840, verbs 252, uncovered events   0, faults 0
+A t2  stories 11, entries  898, verbs 243, uncovered events   0, faults 0
+A f1  stories 24, entries  152, verbs  99, uncovered events   0, faults 0
+A f2  stories 25, entries  168, verbs  99, uncovered events   0, faults 0
+A g1  stories  2, entries  382, verbs 149, uncovered events   0, faults 0
+A g2  stories  2, entries  299, verbs 103, uncovered events   0, faults 0
+A g3  stories  2, entries  211, verbs  98, uncovered events   0, faults 0
+A g4  stories  2, entries  313, verbs 132, uncovered events   0, faults 0
+A t3  stories 11, entries  961, verbs 257, uncovered events   0, faults 0
+A t4  stories 11, entries  739, verbs 226, uncovered events   9, faults 0
+      uncovered: A166 ev 12
+      uncovered: A166 ev 13
+      uncovered: A166 ev 14
+      uncovered: A166 ev 15
+      uncovered: A166 ev 16
+A f3  stories 21, entries  126, verbs  78, uncovered events   0, faults 0
+A f4  stories 20, entries  189, verbs 104, uncovered events   0, faults 0
+A g5  stories  2, entries  273, verbs  98, uncovered events   0, faults 0
+A g6  stories  2, entries  415, verbs 143, uncovered events   0, faults 0
+A g7  stories  2, entries  292, verbs 108, uncovered events   0, faults 0
+A g8  stories  2, entries  293, verbs 118, uncovered events   0, faults 0
+A g9  stories  2, entries  296, verbs 114, uncovered events   0, faults 0
+A g10 stories  2, entries  231, verbs 110, uncovered events   0, faults 0
+A g11 stories  2, entries  314, verbs 133, uncovered events   0, faults 0
+A g12 stories  2, entries  271, verbs 110, uncovered events   0, faults 0
+B t1  stories 12, entries  891, verbs 229, uncovered events   0, faults 0
+B t2  stories 11, entries  786, verbs 225, uncovered events   0, faults 0
+B f1  stories 24, entries  128, verbs  83, uncovered events   0, faults 0
+B f2  stories 25, entries  122, verbs  80, uncovered events   0, faults 0
+B g1  stories  2, entries  394, verbs 133, uncovered events   0, faults 0
+B g2  stories  2, entries  279, verbs  88, uncovered events   0, faults 0
+B g3  stories  2, entries  189, verbs  85, uncovered events   0, faults 0
+B g4  stories  2, entries  277, verbs  92, uncovered events   0, faults 0
+B t3  stories 11, entries 1074, verbs 258, uncovered events   0, faults 0
+B t4  stories 11, entries  800, verbs 226, uncovered events   0, faults 0
+B f3  stories 21, entries  116, verbs  78, uncovered events   0, faults 0
+B f4  stories 20, entries  141, verbs  96, uncovered events   0, faults 0
+B g5  stories  2, entries  281, verbs  87, uncovered events   0, faults 0
+B g6  stories  2, entries  391, verbs 130, uncovered events   0, faults 0
+B g7  stories  2, entries  276, verbs  87, uncovered events   0, faults 0
+B g8  stories  2, entries  287, verbs  96, uncovered events   0, faults 0
+B g9  stories  2, entries  296, verbs 100, uncovered events   0, faults 0
+B g10 stories  2, entries  220, verbs  90, uncovered events   0, faults 0
+B g11 stories  2, entries  296, verbs 121, uncovered events   0, faults 0
+B g12 stories  2, entries  253, verbs 106, uncovered events   0, faults 0
+NOT IN FORM: 9 problem(s)
