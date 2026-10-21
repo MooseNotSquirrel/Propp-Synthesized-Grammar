@@ -424,6 +424,21 @@ def build():
             if s.startswith(corpus + ':') and s not in meta:
                 meta[s] = (corpus, genre, lang, repo)
     read_propp(stories, funcs)
+    # Propp's moves resolved for the move grammar: DERIVED, written by resolve.py from Propp's master, carried as
+    # its own table because the grammar's programs read moves in that form (its header says what it unfolds)
+    resolved, path = [], os.path.join(ROOT, 'ResolvedMoves.txt')
+    kept, dropped, odd = 0, collections.Counter(), []
+    for i, line in enumerate(open(path, encoding='utf-8'), 1):
+        f = line.rstrip('\n').split('\t')
+        if len(f) == 3 and f[0].isdigit():
+            resolved.append((gid('tale', 'A%03d' % int(f[0])), f[0], f[1], f[2], rel(path)))
+            kept += 1
+        elif why_dropped(line):
+            dropped[why_dropped(line)] += 1
+        else:
+            odd.append(i)
+    account(path, kept, dropped, odd)
+    tsv('resolved.tsv', ['story', 'tale', 'move', 'string', 'file'], resolved)
     # the fables' whole collection, from which both fable repositories drew: every fable is a story, listed or not
     path = os.path.join(P, 'Aesop', 'Fables.txt')
     for f, m in data_lines(path, 3):
@@ -515,7 +530,7 @@ def test():
             fails.append('T4 repeated id %s' % s)
     known = set(ids)
     for name in ('events.tsv', 'functions.tsv', 'acts.tsv', 'free.tsv', 'significance.tsv', 'problems.tsv',
-                 'heroes.tsv', 'aliases.tsv'):
+                 'heroes.tsv', 'aliases.tsv', 'resolved.tsv'):
         bad = sorted({r['story'] for r in read_tsv(name)} - known)
         if bad:
             fails.append('T4 %s: %d ids not in stories.tsv: %s' % (name, len(bad), ', '.join(bad[:8])))

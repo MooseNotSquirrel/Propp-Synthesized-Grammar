@@ -25,6 +25,8 @@ ROOT = os.path.dirname(HERE)
 P = os.path.dirname(ROOT)
 sys.path.insert(0, os.path.join(ROOT, 'Tragedy'))
 import tragedyScore as TS  # noqa: E402
+sys.path.insert(0, os.path.join(ROOT, 'Data'))
+import tables as DT  # noqa: E402
 
 GENRES = ('tale', 'fable', 'tragedy', 'myth')
 SEED, PERMS, MIN_FUNCTIONS = 46, 1000, 3
@@ -41,19 +43,17 @@ LINKS = [(('A', 'a'), 'K'), (('↑',), '↓'), (('J',), 'Q'), (('L',), 'Ex'), ((
 
 # ---------------------------------------------------------------- the stories
 def stories(L):
-    """{genre: {story: [(move, function or 'X', negative)]}}, each story's first reading only"""
+    """{genre: {story: [(move, function or 'X', negative)]}}, each story's first reading only; read from the
+    normalized tables (Data/tables.py), the files CORPORA names"""
     out = {}
-    for g, (pats, sf) in CORPORA.items():
+    for g, (pats, _) in CORPORA.items():
         st = collections.OrderedDict()
-        for pat in pats:
-            for path in sorted(glob.glob(os.path.join(P, pat % L))):
-                for line in open(path, encoding='utf-8'):
-                    f = [x.strip() for x in line.rstrip('\n').split('|', 10)]
-                    if len(f) < 10 or not re.match(r'^([PFA]\d{2}|L\d-\d{3})', f[0]):
-                        continue
-                    base, _, ver = f[0].partition('/')
-                    st.setdefault(base, collections.OrderedDict()).setdefault(ver or '1', []).append(
-                        (f[1], TS.base(f[sf]) or 'X', TS.negative(f[sf])))
+        for r in DT.files('functions', pats, L):
+            base = DT.local(r['story'])
+            if not re.match(r'^([PFA]\d{2}|L\d-\d{3})', base):
+                continue
+            st.setdefault(base, collections.OrderedDict()).setdefault(r['version'] or '1', []).append(
+                (r['move'], TS.base(r['raw']) or 'X', TS.negative(r['raw'])))
         out[g] = {s: vs[sorted(vs, key=lambda v: (len(v), v))[0]] for s, vs in st.items()}
     return out
 

@@ -155,6 +155,7 @@ Apollodorus/Apollodorus/transcriptions/B/b07/Notes.txt	lines 317	kept 317	-	unex
 Apollodorus/Apollodorus/transcriptions/B/b08/Notes.txt	lines 324	kept 308	blank 16	unexplained 0
 Apollodorus/Apollodorus/transcriptions/B/b09/Notes.txt	lines 151	kept 151	-	unexplained 0
 SynthesizedProppGrammar/TaleTokenStreamsV4Utf8.txt	lines 601	kept 176	blank 46, heading or comment 379	unexplained 0
+SynthesizedProppGrammar/ResolvedMoves.txt	lines 100	kept 84	heading or comment 16	unexplained 0
 Aesop/Fables.txt	lines 313	kept 313	-	unexplained 0
 ActsRoles/tale/acts/A/t1/Notes.txt	lines 762	kept 762	-	unexplained 0
 ActsRoles/tale/acts/A/t2/Notes.txt	lines 682	kept 682	-	unexplained 0
