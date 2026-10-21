@@ -1,0 +1,55 @@
+=== SELF-TEST 1: the problem test's 41 fables standing in for the animal tales (relabelled; they leave the fable column)
+stories: A tale 22, A fable 0, A tragedy 16, A animal 41, B tale 22, B fable 0, B tragedy 16, B animal 41
+measure        L           tale          fable        tragedy       stand-in
+problems       A    3.23/ +0.00     nan/  +nan    4.25/ +0.00    1.17/ +0.01
+problems       B    2.59/ +0.00     nan/  +nan    2.69/ +0.00    1.07/ +0.00
+repaired       A    0.99/ +0.19     nan/  +nan    0.69/ -0.21    0.33/ -0.01
+repaired       B    0.96/ +0.19     nan/  +nan    0.81/ -0.13    0.43/ +0.12
+open           A    0.01/ -0.09     nan/  +nan    0.17/ +0.14    0.46/ -0.07
+open           B    0.02/ -0.11     nan/  +nan    0.16/ +0.14    0.38/ -0.21
+hero opens     A    0.06/ -0.19     nan/  +nan    0.22/ -0.03    0.55/ +0.31
+hero opens     B    0.07/ -0.19     nan/  +nan    0.21/ -0.05    0.49/ +0.24
+ends repaired  A    0.95/ +0.15     nan/  +nan    0.81/ -0.10    0.28/ -0.00
+ends repaired  B    1.00/ +0.24     nan/  +nan    0.88/ -0.07    0.36/ +0.11
+acts help      A    0.62/ +0.16     nan/  +nan    0.37/ -0.09    0.23/ -0.21
+acts help      B    0.64/ +0.15     nan/  +nan    0.44/ -0.06    0.25/ -0.24
+acts harm      A    0.19/ -0.06     nan/  +nan    0.27/ +0.01    0.42/ +0.17
+acts harm      B    0.18/ -0.10     nan/  +nan    0.30/ +0.03    0.43/ +0.15
+
+  1. hero opens    higher than the tale and than its null: HOLDS   A against tale +0.49 p 0.0001, own excess +0.31 p 0.0001; B against tale +0.43 p 0.0001, own excess +0.24 p 0.0030
+  2. repaired      lower than the tale and than its null: FAILS   A against tale +0.19 p 0.0132, own excess -0.01 p 0.4471; B against tale +0.07 p 0.2567, own excess +0.12 p 0.9519
+  3. acts help     lower than the tale and than its null: HOLDS   A against tale +0.38 p 0.0001, own excess -0.21 p 0.0001; B against tale +0.39 p 0.0001, own excess -0.24 p 0.0001
+  4. acts harm     higher than the tale and than its null: HOLDS   A against tale +0.23 p 0.0003, own excess +0.17 p 0.0006; B against tale +0.25 p 0.0003, own excess +0.15 p 0.0022
+
+REPORTED, the trickster: the mean share of the hero's own acts that are deceiving
+  A: tale 0.09, fable nan, tragedy 0.03, stand-in 0.05
+  B: tale 0.09, fable nan, tragedy 0.04, stand-in 0.06
+  3 of 4 hold
+
+=== SELF-TEST 2: random descriptions standing in: the 22 tales' acts, each act's part, value and place drawn from the pooled descriptions
+stories: A tale 22, A fable 41, A tragedy 16, A animal 22, B tale 22, B fable 41, B tragedy 16, B animal 22
+measure        L           tale          fable        tragedy         random
+problems       A    3.23/ +0.00    1.17/ +0.01    4.25/ +0.00    3.23/ +0.00
+problems       B    2.59/ +0.00    1.07/ +0.00    2.69/ +0.00    2.59/ +0.00
+repaired       A    0.99/ +0.18    0.33/ -0.02    0.69/ -0.22    0.80/ -0.01
+repaired       B    0.96/ +0.18    0.43/ +0.11    0.81/ -0.14    0.84/ +0.06
+open           A    0.01/ -0.09    0.46/ -0.07    0.17/ +0.14    0.16/ +0.06
+open           B    0.02/ -0.11    0.38/ -0.20    0.16/ +0.14    0.10/ -0.02
+hero opens     A    0.06/ -0.19    0.55/ +0.32    0.22/ -0.02    0.31/ +0.06
+hero opens     B    0.07/ -0.18    0.49/ +0.24    0.21/ -0.05    0.26/ +0.00
+ends repaired  A    0.95/ +0.15    0.28/ -0.02    0.81/ -0.10    0.68/ -0.12
+ends repaired  B    1.00/ +0.22    0.36/ +0.07    0.88/ -0.07    0.84/ +0.06
+acts help      A    0.62/ +0.17    0.23/ -0.22    0.37/ -0.09    0.45/ -0.00
+acts help      B    0.64/ +0.15    0.25/ -0.25    0.44/ -0.06    0.49/ -0.01
+acts harm      A    0.19/ -0.06    0.42/ +0.17    0.27/ +0.01    0.25/ -0.00
+acts harm      B    0.18/ -0.10    0.43/ +0.15    0.30/ +0.03    0.29/ +0.01
+
+  1. hero opens    higher than the tale and than its null: FAILS   A against tale +0.25 p 0.0001, own excess +0.06 p 0.1990; B against tale +0.18 p 0.0239, own excess +0.00 p 0.4882
+  2. repaired      lower than the tale and than its null: FAILS   A against tale +0.19 p 0.0005, own excess -0.01 p 0.4378; B against tale +0.12 p 0.0463, own excess +0.06 p 0.8408
+  3. acts help     lower than the tale and than its null: FAILS   A against tale +0.17 p 0.0001, own excess -0.00 p 0.4745; B against tale +0.16 p 0.0001, own excess -0.01 p 0.3158
+  4. acts harm     higher than the tale and than its null: FAILS   A against tale +0.06 p 0.0194, own excess -0.00 p 0.5976; B against tale +0.11 p 0.0004, own excess +0.01 p 0.1992
+
+REPORTED, the trickster: the mean share of the hero's own acts that are deceiving
+  A: tale 0.09, fable 0.05, tragedy 0.03, random 0.05
+  B: tale 0.09, fable 0.06, tragedy 0.04, random 0.07
+  0 of 4 hold
