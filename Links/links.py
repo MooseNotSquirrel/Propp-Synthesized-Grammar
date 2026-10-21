@@ -21,6 +21,8 @@ P = os.path.dirname(ROOT)
 sys.path.insert(0, ROOT)
 sys.path.insert(0, os.path.join(ROOT, 'Tragedy'))
 import tragedyScore as TS  # noqa: E402
+sys.path.insert(0, os.path.join(ROOT, 'Data'))
+import tables as DT  # noqa: E402
 
 SEED, SHUFFLES = 46, 10000
 # (name, the first function or functions, all of which must be present, and the second)
@@ -31,7 +33,8 @@ MIN_MOVES = 5
 
 # ---------------------------------------------------------------- the moves
 def transcribed():
-    """{reader: {genre: [list of base functions, one list a move]}}: the original transcriptions, signs dropped"""
+    """{reader: {genre: [list of base functions, one list a move]}}: the original transcriptions, signs dropped;
+    read from the normalized tables (Data/tables.py), the files these patterns name"""
     pats = {'tale': ['Afanasyev/transcriptions/U/%s/b*/Notes.txt'],
             'fable': ['Aesop/transcriptions/%s/b*/Notes.txt', 'Fables/transcriptions/%s/b*/Notes.txt'],
             'tragedy': ['Tragedy/transcriptions/%s/P[0-9][0-9]/Notes.txt']}
@@ -40,34 +43,30 @@ def transcribed():
         out[L] = {}
         for g, ps in pats.items():
             moves = collections.OrderedDict()
-            for pat in ps:
-                for path in sorted(glob.glob(os.path.join(P, pat % L))):
-                    for line in open(path, encoding='utf-8'):
-                        f = [x.strip() for x in line.rstrip('\n').split('|', 10)]
-                        if len(f) < 10 or not re.match(r'^[PFA]\d{2}', f[0]):
-                            continue
-                        b = TS.base(f[4])
-                        k = (f[0].split('/')[0], f[1])
-                        moves.setdefault(k, [])
-                        if b not in ('X', 'α', ''):
-                            moves[k].append(b)
+            for r in DT.files('functions', ps, L):
+                s = DT.local(r['story'])
+                if not re.match(r'^[PFA]\d{2}', s):
+                    continue
+                b = TS.base(r['raw'])
+                k = (s, r['move'])
+                moves.setdefault(k, [])
+                if b not in ('X', 'α', ''):
+                    moves[k].append(b)
             out[L][g] = [m for m in moves.values() if m]
     return out
 
 
 def propp_moves():
-    """Propp's own 84 moves of Appendix III, through the corpus runner's reducer; a brace's rows in turn"""
+    """Propp's own 84 moves of Appendix III, through the corpus runner's reducer; a brace's rows in turn; the
+    resolved moves read from the normalized tables (Data/tables.py, resolved)"""
     cwd = os.getcwd()
     os.chdir(ROOT)
     try:
         import runCorpus as RC
         out = []
-        for line in open(os.path.join(ROOT, 'ResolvedMoves.txt'), encoding='utf-8'):
-            if line.startswith('#') or not line.strip():
-                continue
-            f = line.rstrip('\n').split('\t')
+        for r in DT.rows('resolved'):
             keys = []
-            for e in RC.elements(f[2]):
+            for e in RC.elements(r['string']):
                 if isinstance(e, list):
                     for row in e:
                         keys += row
