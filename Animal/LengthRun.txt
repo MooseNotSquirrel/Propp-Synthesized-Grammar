@@ -1,0 +1,12 @@
+# LengthRun.txt -- lengthCheck.py score, as LengthProtocol.md freezes it.
+
+A marks more functions than B in 34 of 50 tales; functions, A 866, B 766
+  unthinned (the frozen score): tale 26, fable 12, tragedy 3, myth 7
+
+  T1 thinned to B's count: fable ahead of every other genre in 12 of 100 draws; placements summed over the draws: tale 1775, fable 1410, tragedy 679, myth 936
+  T2 kept to the events B also marked: 48 tales placed: tale 20, fable 18, tragedy 4, myth 6; fable ahead: no
+  reported: B kept to the events A also marked, B's own model: tale 9, fable 25, tragedy 7, myth 7
+
+PREDICTIONS (LengthProtocol.md)
+  1. thinned to B's count, A's animal tales are placed as fable ahead of every other genre in at least 51 of 100 draws: FAILS
+  2. kept to the events B also marked, A's animal tales are placed as fable ahead of every other genre: FAILS
