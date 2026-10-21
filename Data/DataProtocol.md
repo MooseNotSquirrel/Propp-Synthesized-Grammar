@@ -1,4 +1,4 @@
-# The normalized data set: protocol (DRAFT, NOT FROZEN)
+# The normalized data set: protocol (DECISIONS TAKEN; TESTS NOT YET FROZEN)
 
 **Drafted 2026-10-21 at the owner's request, in two parts.** First, a full normalized data set for each corpus. Second, parity: whatever has been collected or measured for one narrative type should exist for each of them, so that the same analyses (functions, pairs and groups, character sets, and the rest) can be run on every corpus. Nothing here is built yet. The tests in section 5 are to be frozen before any builder is written.
 
@@ -86,18 +86,18 @@ Where a program's output differs, the difference is attributed before anything i
 
 **Layers to collect (new reader stages, each frozen first like the others):**
 - **Animal tales, heroes by two readers:** 50 stories, one small stage.
-- **Fables, the 108 without acts, significance and free verbs** (198 transcribed, 90 described): three stages.
+- **Fables:** none; the 90 described fables are the sample (decision 2).
 - **Tragedy, acts and significance for the 8 plays without them** (P01 to P08, which have functions and free verbs): two stages.
-- **Myths, everything after functions:** heroes, acts, significance and free verbs for 126 units, the largest.
+- **Myths:** none for Apollodorus (decision 1); the next ancient corpus gets every layer from the start.
 
-## 7. Decisions for the owner, with the keeper's recommendation
+## 7. Decisions, taken by the owner on 2026-10-21, each as recommended
 
-**1. Whether to fill the myths.** The queue already judges Apollodorus "a chatty handbook" and seeks a better ancient source. Recommendation: do not describe Apollodorus further; give the next ancient corpus every layer from the start, and mark myth's gaps as such.
+**1. Whether to fill the myths. DECIDED: Apollodorus is not described further; a better ancient corpus will be found, and Apollodorus may be returned to if needed.** The queue already judges Apollodorus "a chatty handbook" and seeks a better ancient source. Recommendation: do not describe Apollodorus further; give the next ancient corpus every layer from the start, and mark myth's gaps as such.
 
-**2. Whether the fables are filled to all 198, or the 90 described fables stand as the sample.** Recommendation: stand on the 90, which were drawn by rule, and say so; fill only if an analysis needs the held-out fables.
+**2. Whether the fables are filled to all 198. DECIDED: the 90 described fables stand as the sample.** Recommendation: stand on the 90, which were drawn by rule, and say so; fill only if an analysis needs the held-out fables.
 
-**3. Which card is the wondertales' reading for comparison with the animal tales.** Both exist for the wondertales; the animal tales have only `C`. Recommendation: keep both in the tables, leave every published figure on `U` as frozen, and compare the animal tales with the wondertales on `C`.
+**3. Which card is the wondertales' reading for comparison with the animal tales. DECIDED: the corrected card, `C`.** Both exist for the wondertales; the animal tales have only `C`. Recommendation: keep both in the tables, leave every published figure on `U` as frozen, and compare the animal tales with the wondertales on `C`.
 
-**4. Whether the tables become the only reader.** Recommendation: yes, once T1 to T4 pass: new programs read only `Data/tables/`, and old programs are moved over one at a time, each passing T3.
+**4. Whether the tables become the only reader. DECIDED: yes, and the parity rule below is approved.** Recommendation: yes, once T1 to T4 pass: new programs read only `Data/tables/`, and old programs are moved over one at a time, each passing T3.
 
 **The parity rule, going forward:** a new corpus is not called collected until it has every layer in section 3, and a new analysis is not called done until it has been run on every corpus that has the layers it needs.
