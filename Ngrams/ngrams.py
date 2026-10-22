@@ -410,6 +410,75 @@ def planted(seed, n=120):
     return strings
 
 
+# ---------------------------------------------------------------- parity (Data/ParityProtocol.md, frozen)
+# each corpus's function transcriptions, as the tables name their files, and the story ids it reads
+PARITY = {'tale-U': (['Afanasyev/transcriptions/U/%s/b*/Notes.txt'], r'^A\d{3}'),
+          'tale-C': (['Afanasyev/transcriptions/C/%s/b*/Notes.txt'], r'^A\d{3}'),
+          'animal': (['AnimalTales/transcriptions/%s/b*/Notes.txt'], r'^A\d{3}'),
+          'myth': (['Apollodorus/Apollodorus/transcriptions/%s/b*/Notes.txt'], r'^L\d-\d{3}')}
+
+
+def parity_functions(corpus):
+    """{L: {story: [function tokens in text order]}} for one corpus, read as function_strings reads the others"""
+    pats, idrx = PARITY[corpus]
+    out = {}
+    for L in 'AB':
+        st = collections.OrderedDict()
+        for r in DT.files('functions', pats, L):
+            s = DT.local(r['story'])
+            if not re.match(idrx, s):
+                continue
+            st.setdefault(s, [])
+            tok = function_token(r['raw'])
+            if tok:
+                st[s].append(tok)
+        out[L] = st
+    return out
+
+
+def parity_acts(corpus):
+    """{L: {story: [acts in text order]}}, `other` left out: the animal tales' act descriptions in batch order, or
+    the wondertales' as act_strings reads them; the myths have none"""
+    if corpus in ('tale-U', 'tale-C'):
+        return {L: collections.OrderedDict((s, v) for s, v in st.items() if genre(s) == 'tale')
+                for L, st in act_strings().items()}
+    out = {}
+    for L in 'AB':
+        st = collections.OrderedDict()
+        if corpus == 'animal':
+            for r in DT.files('acts', ['ActsRoles/animal/acts/%s/b*/Notes.txt'], L):
+                a = r['act'].lower()
+                if int(r['event']) and a in T.ACTS and a != 'other':
+                    st.setdefault(DT.local(r['story']), []).append(a)
+        out[L] = st
+    return out
+
+
+def parity_selftest():
+    """the parity readers on the wondertales on card U must give exactly the strings the published runs read"""
+    fs, ac = function_strings(), act_strings()
+    ok = True
+    for L in 'AB':
+        want_f = collections.OrderedDict((s, v) for s, v in fs[L].items() if genre(s) == 'tale')
+        want_a = collections.OrderedDict((s, v) for s, v in ac[L].items() if genre(s) == 'tale')
+        got_f, got_a = parity_functions('tale-U')[L], parity_acts('tale-U')[L]
+        for name, got, want in (('functions', got_f, want_f), ('acts', got_a, want_a)):
+            same = list(got.items()) == list(want.items())
+            ok = ok and same
+            print('self-test %s %s: %d stories, %d tokens, %s' % (L, name, len(got), sum(map(len, got.values())),
+                                                                  'IDENTICAL' if same else 'DIFFERS'))
+    print('PARITY SELF-TEST PASSES' if ok else 'PARITY SELF-TEST FAILS')
+
+
+def parity_dry():
+    """counts only: stories and tokens per corpus, layer and transcriber; no measure is computed"""
+    for corpus in ('tale-C', 'animal', 'myth'):
+        for name, st in (('functions', parity_functions(corpus)), ('acts', parity_acts(corpus))):
+            print('dry run %-7s %-9s %s' % (corpus, name, '; '.join(
+                '%s %d stories (%d with tokens), %d tokens' % (L, len(st[L]), sum(1 for v in st[L].values() if v),
+                                                             sum(map(len, st[L].values()))) for L in 'AB')))
+
+
 def selftest():
     """planted strings, two transcribers' worth for discovery and two for confirmation, each with its own random
     filler: the two-stage filter must keep exactly the planted pairs, with their shapes"""
@@ -438,7 +507,8 @@ def selftest():
 
 
 if __name__ == '__main__':
-    cmds = {'discover': discover, 'confirm': confirm, 'describe': describe, 'selftest': selftest}
+    cmds = {'discover': discover, 'confirm': confirm, 'describe': describe, 'selftest': selftest,
+            'parity-selftest': parity_selftest, 'parity-dry': parity_dry}
     a = sys.argv[1:]
     if len(a) == 1 and a[0] in cmds:
         cmds[a[0]]()
