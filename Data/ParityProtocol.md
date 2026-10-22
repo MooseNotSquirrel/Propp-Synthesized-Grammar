@@ -1,4 +1,4 @@
-# Parity runs on the data that exist: protocol (DRAFT, NOT FROZEN)
+# Parity runs on the data that exist: protocol (FROZEN 2026-10-21 AT THE OWNER'S WORD, AS DRAFTED)
 
 **Drafted 2026-10-21 for `Plan.md` session 5, under the parity rule** (`DataProtocol.md`, decision 4): an analysis is not done until it has run on every corpus that has the layers it needs. Two corpora have layers that some analyses never read: the animal tales (every layer, but never the n-grams, the links beyond pursuit and rescue, the blocks, the spheres or the values) and the myths (functions only, never the n-grams or the blocks beyond their order). Nothing below has been run on them. The predictions are written before any run, and each is scored HOLDS or FAILS, with no overall verdict.
 
