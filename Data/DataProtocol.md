@@ -100,4 +100,6 @@ Where a program's output differs, the difference is attributed before anything i
 
 **4. Whether the tables become the only reader. DECIDED: yes, and the parity rule below is approved.** Recommendation: yes, once T1 to T4 pass: new programs read only `Data/tables/`, and old programs are moved over one at a time, each passing T3.
 
+**Added 2026-10-21 by the owner's agreement: a character-set layer,** one character table per corpus (name, kind, spheres, act profile), built from the tables; a corpus is not called collected without it once it is built (`ProppQueue.md` item (m)).
+
 **The parity rule, going forward:** a new corpus is not called collected until it has every layer in section 3, and a new analysis is not called done until it has been run on every corpus that has the layers it needs.
