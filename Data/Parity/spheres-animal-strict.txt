@@ -1,0 +1,22 @@
+# SpheresExplore.txt -- explore.py, exploratory; Propp's spheres of action counted in the original transcriptions.
+
+TRANSCRIBER A
+  animal    50 stories; spheres filled (share of stories): villain 86%, donor 52%, helper 70%, princess 20%, dispatcher 30%, hero 58%, false hero 6%
+           characters in a sphere 135, in two or more 46%; commonest combinations: donor + helper 12; hero + villain 7; helper + hero 7; donor + hero 5
+           stories where one character holds both the hero's and the villain's sphere: 28%; characters who act but in no sphere: 38%
+           stories with a hero in which a hero is exposed or punished: 4 of 29 (14%)
+  tale-C    45 stories; spheres filled (share of stories): villain 96%, donor 82%, helper 93%, princess 53%, dispatcher 62%, hero 98%, false hero 13%
+           characters in a sphere 343, in two or more 37%; commonest combinations: donor + helper 27; helper + hero 13; donor + villain 6; donor + helper + hero 6
+           stories where one character holds both the hero's and the villain's sphere: 29%; characters who act but in no sphere: 41%
+           stories with a hero in which a hero is exposed or punished: 2 of 44 (5%)
+
+TRANSCRIBER B
+  animal    50 stories; spheres filled (share of stories): villain 86%, donor 40%, helper 52%, princess 8%, dispatcher 30%, hero 46%, false hero 2%
+           characters in a sphere 132, in two or more 30%; commonest combinations: donor + helper 7; helper + hero 6; hero + villain 4; helper + villain 2
+           stories where one character holds both the hero's and the villain's sphere: 20%; characters who act but in no sphere: 44%
+           stories with a hero in which a hero is exposed or punished: 0 of 23 (0%)
+  tale-C    45 stories; spheres filled (share of stories): villain 96%, donor 84%, helper 91%, princess 69%, dispatcher 76%, hero 98%, false hero 13%
+           characters in a sphere 377, in two or more 38%; commonest combinations: donor + helper 28; helper + hero 14; donor + helper + hero 10; donor + villain 7
+           stories where one character holds both the hero's and the villain's sphere: 40%; characters who act but in no sphere: 24%
+           stories with a hero in which a hero is exposed or punished: 6 of 44 (14%)
+
