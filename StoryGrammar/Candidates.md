@@ -4,7 +4,7 @@
 
 ## The threat group
 
-**Proposed 2026-10-21 by the owner and the keeper** (the catalog's `ThreatAndDemand`, `ProppPairsAndGroups.md`).
+**Proposed 2026-10-21 by the owner and the keeper** (the catalog's `ThreatAndDemand`, `SemanticCatalog.md`).
 
 ```
 ThreatGroup = Threat , Answer , [ Consequence ] ;

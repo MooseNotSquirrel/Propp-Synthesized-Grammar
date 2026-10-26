@@ -18,7 +18,7 @@ to build a table for one that is not.
 each accepted move at the grammar's `move` symbol, and counts, for every
 named group, the moves whose parse contains it. A move carrying a brace is
 parsed once per expansion and counted once. This is the raw material for
-the catalog SemanticBundling.md was meant to become.
+the catalog SemanticBundling.md was meant to become, now SemanticCatalog.md.
 
 Exit 0 on success, 1 if a string given on the command line is rejected.
 """

@@ -68,7 +68,7 @@
 # punishment turned on the hero, as Prometheus and Oedipus fall. Switched
 # on, alone or with the others, it keeps the grammar LL(1) and only adds.
 # Step 12 renames sixteen groups to the permanent names settled in
-# SemanticCatalog46.md, and changes no string: Early in a name means before
+# SemanticCatalog46.md (now SemanticCatalog.md), and changes no string: Early in a name means before
 # the move's trigger, Late after the liquidation. Each catalog entry's Name
 # line gives the name it had before; the steps above use the old names.
 #

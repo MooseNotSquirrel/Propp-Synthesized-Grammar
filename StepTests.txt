@@ -284,13 +284,14 @@
 6-11 | under | ProppEBNF46.txt "T A K" 0 FloatingT | p.108: T's place in the tree is where the parser meets it and claims nothing, so only this is tested
 
 # ---------------------------------------------------------------------------
-# THE CATALOG, SemanticCatalog46.md. Frozen 2026-09-27 before it was
+# THE CATALOG, SemanticCatalog46.md (merged into SemanticCatalog.md on 2026-10-25,
+# where these tests now point; the predicates unchanged). Frozen 2026-09-27 before it was
 # written, with a tree test for each of the eleven groups that had none.
 # The catalog check binds onward: whatever later steps do to the
 # grammar, catalog and grammar must stay in step.
 # ---------------------------------------------------------------------------
 
-6 | catalog | ProppEBNF46.txt SemanticCatalog46.md StepTests.txt | every group of the grammar has one catalog entry and a tree test; every entry names a group; a Functions section, when added, names only functions
+6 | catalog | ProppEBNF46.txt SemanticCatalog.md StepTests.txt | every group of the grammar has one catalog entry and a tree test; every entry names a group; a Functions section, when added, names only functions
 6 | under | ProppEBNF46.txt "A K / a K" 3 tale | p.92: a tale is a development from villainy or lack, and each new one a new move within it
 6-11 | under | ProppEBNF46.txt "ε ζ A" 1 reconnaissanceDelivery | p.80 writes ε-ζ as a pair; p.64 lists reconnaissance-delivery
 6-11 | under | ProppEBNF46.txt "η λ θ A" 1 trickeryComplicity | p.80 writes η-θ as a pair; λ inside it on Appendix I Table II item 44
@@ -385,7 +386,7 @@
 # name one of the grammar's single-function productions.
 # ---------------------------------------------------------------------------
 
-8 | catalogfunctions | SemanticCatalog46.md "absentation,interdiction,violation,reconnaissance,delivery,trickery,complicity,villainy,lack,mediation,beginningCounteraction,departure,firstDonorFunction,heroReaction,receiptOfMagicalAgent,spatialTransference,struggle,branding,victory,liquidation,return,pursuit,rescue,unrecognizedArrival,unfoundedClaims,difficultTask,solution,recognition,exposure,transfiguration,punishment,wedding" | Ch. III, pp.26-63: the thirty-one functions in Propp's order, lack as VIIIa
+8 | catalogfunctions | SemanticCatalog.md "absentation,interdiction,violation,reconnaissance,delivery,trickery,complicity,villainy,lack,mediation,beginningCounteraction,departure,firstDonorFunction,heroReaction,receiptOfMagicalAgent,spatialTransference,struggle,branding,victory,liquidation,return,pursuit,rescue,unrecognizedArrival,unfoundedClaims,difficultTask,solution,recognition,exposure,transfiguration,punishment,wedding" | Ch. III, pp.26-63: the thirty-one functions in Propp's order, lack as VIIIa
 
 # ---------------------------------------------------------------------------
 # STEP 9. p.107's inverted sequence, the last license of pp.107-108.
@@ -481,7 +482,7 @@
 # tale. The cultural meanings are drafts for review.
 # ---------------------------------------------------------------------------
 
-10 | catalogmeanings | SemanticCatalog46.md | every group, pair and function carries a literal and a cultural meaning
+10 | catalogmeanings | SemanticCatalog.md | every group, pair and function carries a literal and a cultural meaning
 
 # ---------------------------------------------------------------------------
 # THE DRAMATIS PERSONAE IN THE CATALOG, as decided. Frozen
@@ -491,7 +492,7 @@
 # dispatcher, donor, helper, false hero, villain.
 # ---------------------------------------------------------------------------
 
-10 | catalogspheres | SemanticCatalog46.md ProppEBNF46.txt "hero=beginningCounteraction,departure,heroReaction,wedding;princessAndFather=difficultTask,branding,exposure,recognition,punishment,wedding;dispatcher=mediation;donor=firstDonorFunction,receiptOfMagicalAgent;helper=spatialTransference,liquidation,rescue,solution,transfiguration;falseHero=beginningCounteraction,departure,heroReaction,unfoundedClaims;villain=villainy,struggle,pursuit" | pp.79-80: the seven spheres of action and their functions, ordered by rank on a speculative reading, not Propp's
+10 | catalogspheres | SemanticCatalog.md ProppEBNF46.txt "hero=beginningCounteraction,departure,heroReaction,wedding;princessAndFather=difficultTask,branding,exposure,recognition,punishment,wedding;dispatcher=mediation;donor=firstDonorFunction,receiptOfMagicalAgent;helper=spatialTransference,liquidation,rescue,solution,transfiguration;falseHero=beginningCounteraction,departure,heroReaction,unfoundedClaims;villain=villainy,struggle,pursuit" | pp.79-80: the seven spheres of action and their functions, ordered by rank on a speculative reading, not Propp's
 
 # ---------------------------------------------------------------------------
 # HEALTH CHECKS AT THE CLOSE OF 2026-09-27. Not predictions: the corpus
@@ -518,23 +519,23 @@
 # ---------------------------------------------------------------------------
 
 10 | agentforms | "tested 35/28 1:8 2:4 3:1 4:1 5:2 6:3 8:3 9:7 -:6; home 12/11 1:6 3:5 4:1; road 10/10 1:4 2:1 3:1 6:3 9:1" | the forms of receipt, pp.44-45, sorted by step 6's tested and untested agent
-10 | catalogmeasured | SemanticCatalog46.md "receiptOfMagicalAgent,UntestedAcquisition,TestedAcquisition,donor" | the entries that rest on the measurement carry it, marked apart from the speculative meanings
+10 | catalogmeasured | SemanticCatalog.md "receiptOfMagicalAgent,UntestedAcquisition,TestedAcquisition,donor" | the entries that rest on the measurement carry it, marked apart from the speculative meanings
 
 # THE HELPER, 2026-09-27. Measured in discussion before this test was
 # written, as the donor's figures were; the catalog test was written first.
 10 | helperafteragent | "with F 43: G 16 K 24 Rs 8 N 6 T 5 any 33; without F 41: G 9 K 27 Rs 7 N 5 T 3 any 39" | p.82: helpers and agents function alike; only transference is markedly more common where an agent is received
-10 | catalogmeasured | SemanticCatalog46.md "helper" | the helper entry carries its measurement, apart from the speculative meanings
+10 | catalogmeasured | SemanticCatalog.md "helper" | the helper entry carries its measurement, apart from the speculative meanings
 
 # THE FALSE HERO, 2026-09-27. Measured in discussion before this test was
 # written; the catalog test was written first.
 10 | falsehero | "tales 5 (125 132 139 155 156): last move 5, U 5, W 5, Q 4, Ex 3; o with L in 4 of 6 move-strings" | p.80: the false hero's claim L; he appears in the last move, is always punished, and the tale always ends in the wedding
-10 | catalogmeasured | SemanticCatalog46.md "falseHero" | the false hero's entry carries its measurement, apart from the speculative meanings
+10 | catalogmeasured | SemanticCatalog.md "falseHero" | the false hero's entry carries its measurement, apart from the speculative meanings
 
 # THE VILLAIN, 2026-09-27. The figures were measured in discussion before this
 # test was written; the two catalog tests below were frozen and run red before
 # the catalog text was written.
 10 | villainy | "villainy 55: 1:19 2:1 3:3 4:1 5:2 6:2 7:1 8:1 9:6 10:2 11:2 14:2 16:1 17:1 18:4 19:3 roman 4; outcomes H 19 I 23 K 36 Pr 11 U 11 W 25; lack 28: H 6 I 10 K 14 Pr 4 U 6 W 12" | pp.30-34: the forms of villainy, and what follows in moves opened by villainy and by lack
-10 | catalogmeasured | SemanticCatalog46.md "villain,villainy" | the villain and villainy entries carry their measurement
+10 | catalogmeasured | SemanticCatalog.md "villain,villainy" | the villain and villainy entries carry their measurement
 
 # ---------------------------------------------------------------------------
 # STEP 11. A second tragic variant: the fall after success. COMMENTED OUT,
@@ -577,14 +578,14 @@
 # hero type from B's variety digit by p.37 (B1-B4 seeker, B5-B7 victim);
 # heroType.py must reproduce them independently.
 11 | herotype | "B with departure 37: seeker 30 (C 27), victim 4 (C 3), undigited 3 (C 3); tales with B 32: seeker 26, victim 3 (95 98 101), undigited 3, mixed 0" | pp.36-38: the tale follows a seeker or a victimized hero, never both; B's variety digit tells which, and C belongs to the seeker
-11 | catalogmeasured | SemanticCatalog46.md "hero" | the hero's entry carries its measurement, apart from the speculative meanings
+11 | catalogmeasured | SemanticCatalog.md "hero" | the hero's entry carries its measurement, apart from the speculative meanings
 
 # THE DISPATCHER, 2026-09-27. Frozen before dispatch.py was written. The
 # form counts were measured in discussion with heroType.py's reading rules,
 # so this freeze is not blind for them; the reconciliation with the
 # catalog's 41 (moves v46 accepts) was found by parseTree.py --corpus.
 11 | dispatch | "B in 43 moves: called 6, sent 9, allowed 8, told 12, transported 4, freed 0, lamented 1, in another form 3 (144 I, 163 I, 164 II); v46 accepts 41, rejecting 126 II, 137 II" | pp.36-38: the seven forms of mediation; the catalog's Corpus figure counts only the moves v46 accepts
-11 | catalogmeasured | SemanticCatalog46.md "dispatcher,mediation" | the dispatcher and mediation entries carry their measurement
+11 | catalogmeasured | SemanticCatalog.md "dispatcher,mediation" | the dispatcher and mediation entries carry their measurement
 
 # THE ONE BINARY: THE SIGN ON E AND THE SIGN ON F, 2026-09-28. Frozen
 # before reaction.py was written and before any E-F pairing was looked
@@ -619,7 +620,7 @@
 # ---------------------------------------------------------------------------
 #
 # 2026-09-29, BEFORE STEP 12 WAS BUILT. The group names were settled in
-# SemanticCatalog46.md, with the rule that Early means before the move's
+# SemanticCatalog46.md (now SemanticCatalog.md), with the rule that Early means before the move's
 # trigger and Late means after the liquidation. The step renames sixteen
 # nonterminals and changes nothing else:
 #   LaterMoves               -> FollowingMoves

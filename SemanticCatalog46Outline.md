@@ -1,6 +1,6 @@
 # SemanticCatalog46 outline
 
-Each group is expanded where it first appears; where it appears again it is named without its parts. The outline follows each group's EBNF line in `SemanticCatalog46.md`, the active grammar only: the extensions that are commented out (`+reversal`, `+tragedy`) are left out.
+Each group is expanded where it first appears; where it appears again it is named without its parts. The outline follows each group's EBNF line in `SemanticCatalog46.md`, merged on 2026-10-25 into `SemanticCatalog.md` (its In v46 bullets and Part V), the active grammar only: the extensions that are commented out (`+reversal`, `+tragedy`) are left out.
 
 ```text
 tale

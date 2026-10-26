@@ -76,7 +76,7 @@ The separator is editorial and follows Appendix III's layout of one row per move
 - `reaction.py`: the sign on the hero's reaction E against the sign on the transmission F, testing p.46; pinned by two tests, not yet cited in the catalog.
 - `falseHero.py`: how the tales treat the false hero, pinned by a test and cited in the catalog.
 - `agentForms.py`: how the hero receives the agent, tested or untested, by Propp's nine forms; its figures are pinned by a test and cited in the catalog's Measured lines.
-- `SemanticCatalog46.md`: the catalog of v46's groups and pairs, checked against the grammar.
+- `SemanticCatalog.md`: the master catalog of meanings, merged on 2026-10-25 from `ProppPairsAndGroups.md`, `SemanticCatalog46.md` and the first project's `SemanticBundling.md`; the v46 groups and pairs in it are checked against the grammar.
 - `embedCorpus.py`: the whole-tale derivation with interruptions embedded, and its runner.
 - The copied files listed above.
 
@@ -103,7 +103,7 @@ Of p.93's six methods of combining moves it expresses five: sequence, interrupti
 ### What is open, in order
 
 **1. Review of the drafted meanings, continued.**
-`SemanticCatalog46.md` separates three kinds of claim: **From Propp** (a page), **Measured** (counted by a program here and pinned by a test), and a **Cultural meaning** marked *Draft*, resting on a speculative reading set out in the catalog's section "A speculative reading, not from Propp".
+`SemanticCatalog.md` separates three kinds of claim: **From Propp** (a page), **Measured** (counted by a program here and pinned by a test), and a **Cultural meaning** marked *Draft*, resting on a speculative reading set out in the catalog's section "A speculative reading, not from Propp".
 Discussed on 2026-09-27, with the catalog revised to match: the princess and her father (the king assigns and grants, the princess chooses, the outcome is never in doubt), the donor, the helper, the false hero (the liar and scapegoat), the villain, the hero (the one whose fortunes the tale follows, usually but not always the chooser), and the dispatcher (mixed in rank, a minor character who opens the way rather than commands).
 WAITING ON THE CATALOG EDIT IN PROGRESS: `reaction.py`'s measurement has no Measured line yet; `heroReaction` and `receiptOfMagicalAgent` are the entries it belongs to.
 NOT YET DISCUSSED: the drafted cultural meanings of the groups and functions generally.
@@ -111,7 +111,7 @@ NOT YET DISCUSSED: the drafted cultural meanings of the groups and functions gen
 **2. The parked area left of A.**
 Step 9 built p.107's inverted sequence into the grammar but, under option 1, as decided, left the corpus derivation dropping the cells Propp parks left of A. Were they read in place, the eight regions the license fully covers would pass, and 139 I, 154 I and 155 III, each carrying an unlicensed G or W* beside licensed cells, would newly fail: 77 of 84 moves and 38 of 45 tales. The quarantine rests on a reading of Propp's table, not on a page. Still to be decided.
 
-**3. `SemanticBundling.md`, in the first project.** Whether it points to this catalog or is replaced by it. It is part of the first project's publication, so a decision still to make.
+**3. `SemanticBundling.md`, in the first project.** Its content is merged into `SemanticCatalog.md` (2026-10-25), and the owner has decided to retire it; how, given that the first project's published files cite it, is the owner's decision still to make.
 
 **4. Optional work, none begun.**
 - THE TEST ON AESOP'S FABLES HAS RUN, AND THE CLAIM DOES NOT HOLD. The whole test, the transcriber material and the keeper's protocol, prediction, scoring and result, is in its own repository, `Story Language/Aesop` (GitHub `Propp-Aesop`); the keeper's files were carried out of this project with their history into its `keeper/` folder. Its `keeper/AesopResult.md` gives the result: coverage 56% to 57% against 60%, about 30% of function pairs backward against Propp's order, and only trickery-complicity of Propp's pairs holding.
@@ -146,7 +146,7 @@ The move type is read at the opener, not the root. Moves are separated by `/`. T
 
 - Steps 1 to 11, tagged, in the table above: all three of ruling 48's targets met, every license of pp.107-108 stated, five of p.93's six methods of combining moves expressed, v43's two genre extensions overlaid, tested and commented out, and a second tragic variant, the fall after success, likewise.
 - `parseTree.py` and 55 tree tests; `CorpusGroups.txt`.
-- `SemanticCatalog46.md`: 32 groups and pairs, 32 functions, 2 unnumbered elements, the extensions, and 7 dramatis personae, each with literal and cultural meaning, and eleven entries with measured findings; kept in step with the grammar and the corpus by frozen tests (`catalog`, `catalogfunctions`, `catalogmeanings`, `catalogspheres`, `catalogmeasured`, and the pinned figures of `agentforms`, `helperafteragent`, `falsehero`, `villainy`, `herotype`, `dispatch`).
+- `SemanticCatalog.md`, formerly `SemanticCatalog46.md`: 32 groups and pairs, 32 functions, 2 unnumbered elements, the extensions, and 7 dramatis personae, each with literal and cultural meaning, and eleven entries with measured findings; kept in step with the grammar and the corpus by frozen tests (`catalog`, `catalogfunctions`, `catalogmeanings`, `catalogspheres`, `catalogmeasured`, and the pinned figures of `agentforms`, `helperafteragent`, `falsehero`, `villainy`, `herotype`, `dispatch`).
 - `embedCorpus.py`, the whole-tale derivation, calibrated against `resolve.py`.
 - `agentForms.py`, `falseHero.py`, `villainy.py`, `heroType.py`, `dispatch.py`, `reaction.py` and `shuffleBaseline.py`, the measuring programs.
 - `equivCheck.py` gained `--drop-a` and `--drop-b`, so this copy differs from the first project's; `runSteps.py` reads `TAG:FILE`, `FILE+NAME` and `FILE@START`; `runCorpus.py` and `runSteps.py` fall back to the LL(1) parser for a recursive grammar.

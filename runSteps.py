@@ -237,17 +237,47 @@ def tagged(args):
     return out
 
 
+def section(text, *names):
+    """the body of the first of these ## sections that the catalog has"""
+    for name in names:
+        m = re.search(r'^## %s\s*$(.*?)(?=^#{1,2} |\Z)' % re.escape(name), text, re.M | re.S)
+        if m:
+            return m.group(1)
+    return ''
+
+
+def catalog_entries(text):
+    """{'groups': [(name, block)], 'functions': [(name, block)], 'personae': [(name, block)]}.
+    Two layouts are read. SemanticCatalog46.md gives every group an entry of its own under "Groups and pairs".
+    SemanticCatalog.md, the master since 2026-10-25, folds a group into the catalog entry that matches it, as a
+    bullet "In v46, `name`", and gives the others entries under "The grammar's other groups"; a function entry whose
+    meanings stand in the catalog entry of the same name says so with a pointer, and that entry's meanings count."""
+    blocks = lambda body: [(re.match(r'### `(\w+)`', b).group(1), b) for b in re.split(r'^(?=### `)', body, flags=re.M)[1:]]
+    if "## The grammar's other groups" not in text:
+        return {'groups': blocks(section(text, 'Groups and pairs')), 'functions': blocks(section(text, 'Functions')),
+                'personae': blocks(section(text, 'Dramatis personae'))}
+    core = text.split('## The functions, one by one')[0]
+    folded = []
+    for name, b in blocks(core):
+        for g in re.findall(r'^- \*\*In v46, `(\w+)`\*\*', b, re.M):
+            folded.append((g, b))
+    groups = folded + blocks(section(text, "The grammar's other groups"))
+    corenames = dict(blocks(core))
+    funcs = []
+    for name, b in blocks(section(text, 'The functions, one by one')):
+        p = re.search(r'\*\*Meanings:\*\* see the entry `(\w+)` above', b)
+        funcs.append((name, b + corenames.get(p.group(1), '') if p else b))
+    return {'groups': groups, 'functions': funcs,
+            'personae': blocks(section(text, "Characters: Propp's spheres of action", 'Dramatis personae'))}
+
+
 def catalog(gpath, cpath, tpath):
     prods, order = parse.load(open(gpath, encoding='utf-8').read())
     single = {n for n in order if re.fullmatch(r"\s*'[^']*'\s*", prods[n])}
     groups = [n for n in order if n not in single]
     text = open(cpath, encoding='utf-8').read()
-
-    def entries(section):
-        m = re.search(r'^## %s\s*$(.*?)(?=^## |\Z)' % re.escape(section), text, re.M | re.S)
-        return re.findall(r'^### `(\w+)`', m.group(1), re.M) if m else []
-
-    listed, funcs = entries('Groups and pairs'), entries('Functions')
+    ce = catalog_entries(text)
+    listed, funcs = [n for n, _ in ce['groups']], [n for n, _ in ce['functions']]
     tested = set(re.findall(r'\|\s*(?:not)?under\s*\|.*?"\s+\d+\s+(\w+)\s*\|',
                             open(tpath, encoding='utf-8').read()))
     problems = []
@@ -294,17 +324,14 @@ def run(kind, args):
     if kind == 'catalog':
         return catalog(*args)
     if kind == 'catalogmeanings':
-        text = open(args[0], encoding='utf-8').read()
+        ce = catalog_entries(open(args[0], encoding='utf-8').read())
         missing, bare, n = [], [], 0
-        for section in ('Groups and pairs', 'Functions'):
-            m = re.search(r'^## %s\s*$(.*?)(?=^## |\Z)' % section, text, re.M | re.S)
-            for block in re.split(r'^(?=### `)', m.group(1) if m else '', flags=re.M)[1:]:
-                n += 1
-                name = re.match(r'### `(\w+)`', block).group(1)
-                if '**Literal meaning:**' not in block or '**Cultural meaning:**' not in block:
-                    missing.append(name)
-                if '**Meaning:**' in block:
-                    bare.append(name)
+        for name, block in ce['groups'] + ce['functions']:
+            n += 1
+            if '**Literal meaning:**' not in block or '**Cultural meaning:**' not in block:
+                missing.append(name)
+            if '**Meaning:**' in block:
+                bare.append(name)
         problems = (['without both: ' + ' '.join(missing)] if missing else []) + \
                    (['bare Meaning: ' + ' '.join(bare)] if bare else [])
         return not problems, '%d entries' % n + ('; ' + '; '.join(problems) if problems else '')
@@ -314,9 +341,8 @@ def run(kind, args):
         single = {n for n in order if re.fullmatch(r"\s*'[^']*'\s*", prods[n])}
         want = [(r.split('=')[0].strip(), set(x.strip() for x in r.split('=')[1].split(',')))
                 for r in args[2].split(';') if r.strip()]
-        m = re.search(r'^## Dramatis personae\s*$(.*?)(?=^## |\Z)', text, re.M | re.S)
-        blocks = re.split(r'^(?=### `)', m.group(1) if m else '', flags=re.M)[1:]
-        names = [re.match(r'### `(\w+)`', b).group(1) for b in blocks]
+        pe = catalog_entries(text)['personae']
+        names, blocks = [n for n, _ in pe], [b for _, b in pe]
         problems = []
         if names != [w[0] for w in want]:
             problems.append('roles or order differ: %s' % ' '.join(names))
@@ -366,15 +392,15 @@ def run(kind, args):
         text = open(args[0], encoding='utf-8').read()
         blocks = {re.match(r'### `(\w+)`', b).group(1): b
                   for b in re.split(r'^(?=### `)', text, flags=re.M)[1:]}
+        ce = catalog_entries(text)
+        for name, b in ce['groups'] + ce['functions'] + ce['personae']:
+            blocks[name] = blocks.get(name, '') + b
         want = [x.strip() for x in args[1].split(',')]
         missing = [w for w in want if '**Measured:**' not in blocks.get(w, '')]
         return not missing, 'missing a Measured line: %s' % (' '.join(missing) or 'none')
     if kind == 'catalogfunctions':
-        text = open(args[0], encoding='utf-8').read()
-        m = re.search(r'^## Functions\s*$(.*?)(?=^## |\Z)', text, re.M | re.S)
-        body = m.group(1) if m else ''
-        blocks = re.split(r'^(?=### `)', body, flags=re.M)[1:]
-        names = [re.match(r'### `(\w+)`', b).group(1) for b in blocks]
+        fe = catalog_entries(open(args[0], encoding='utf-8').read())['functions']
+        names, blocks = [n for n, _ in fe], [b for _, b in fe]
         want = [x.strip() for x in args[1].split(',')]
         nopage = [n for n, b in zip(names, blocks) if not re.search(r'\*\*Page:\*\*\s*pp?\.\d', b)]
         problems = []
