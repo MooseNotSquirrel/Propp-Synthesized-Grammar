@@ -163,6 +163,88 @@ def score():
     print('\n'.join(rep))
 
 
+# ---------------------------------------------------------------- parity (Data/ParityProtocol.md, frozen 2026-10-21)
+PARITY = {'tale-U': ['Afanasyev/transcriptions/U/%s/b*/Notes.txt'], 'tale-C': ['Afanasyev/transcriptions/C/%s/b*/Notes.txt'],
+          'animal': ['AnimalTales/transcriptions/%s/b*/Notes.txt']}
+TIGHT = ('H -> I', 'M -> N', 'D and E -> F', 'Pr -> Rs')
+FRAME = ('A or a -> K', '↑ -> ↓')
+PARITY_OUT = os.path.join(ROOT, 'Data', 'Parity')
+
+
+def parity_moves(corpus):
+    """{reader: [list of base functions, one list a move]} for one corpus, read as transcribed() reads the others"""
+    out = {}
+    for L in 'AB':
+        moves = collections.OrderedDict()
+        for r in DT.files('functions', PARITY[corpus], L):
+            s = DT.local(r['story'])
+            if not re.match(r'^[PFA]\d{2}', s):
+                continue
+            b = TS.base(r['raw'])
+            k = (s, r['move'])
+            moves.setdefault(k, [])
+            if b not in ('X', 'α', ''):
+                moves[k].append(b)
+        out[L] = [m for m in moves.values() if m]
+    return out
+
+
+def parity_selftest():
+    """the parity reader on the wondertales on card U must give exactly the moves the published run read"""
+    T, P = transcribed(), parity_moves('tale-U')
+    ok = all(P[L] == T[L]['tale'] for L in 'AB')
+    for L in 'AB':
+        print('self-test %s: %d moves, %d functions, %s' % (L, len(P[L]), sum(map(len, P[L])), 'IDENTICAL' if P[L] == T[L]['tale'] else 'DIFFERS'))
+    print('PARITY SELF-TEST PASSES' if ok else 'PARITY SELF-TEST FAILS')
+
+
+def parity_dry():
+    """counts only: moves, and the moves holding each link's first function; no statistic"""
+    for corpus in ('animal', 'tale-C'):
+        P = parity_moves(corpus)
+        for L in 'AB':
+            mv = Moves(P[L])
+            firsts = []
+            for name, fs, second in LINKS:
+                present, _ = mv.hits(mv.tok, fs, second)
+                firsts.append('%s %d' % (name, present.sum()))
+            print('dry run %-7s %s: %d moves; moves with the first: %s' % (corpus, L, len(P[L]), '; '.join(firsts)))
+
+
+def parity():
+    os.makedirs(PARITY_OUT, exist_ok=True)
+    res = {}
+    for corpus in ('animal', 'tale-C'):
+        P = parity_moves(corpus)
+        rep = ['# links-%s.txt -- links.py parity: Data/ParityProtocol.md, frozen 2026-10-21; the statistic of LinksProtocol.md, unchanged '
+               '(%d shuffles, seed %d, a link tested where its first function stands in at least %d moves).' % (corpus, SHUFFLES, SEED, MIN_MOVES), '']
+        for name, firsts, second in LINKS:
+            rep.append(name + ('  (tight)' if name in TIGHT else '  (frame)' if name in FRAME else ''))
+            for L in 'AB':
+                r = Moves(P[L]).test(firsts, second)
+                res[corpus, name, L] = r
+                rep.append('  %s  %s%s' % (L, fmt(r), '  HOLDS' if holds(r) else ''))
+            rep.append('')
+        open(os.path.join(PARITY_OUT, 'links-%s.txt' % corpus), 'w', encoding='utf-8', newline='\n').write('\n'.join(rep) + '\n')
+        print('\n'.join(rep))
+    tested = [n for n in TIGHT if all(res['animal', n, L]['with first'] >= MIN_MOVES for L in 'AB')]
+    untested = [n for n in TIGHT if n not in tested]
+    held = [n for n in tested if all(holds(res['animal', n, L]) for L in 'AB')]
+    ok = bool(tested) and len(held) == len(tested)
+    pct = lambda c, n, L: 100 * res[c, n, L]['share'] if res[c, n, L]['with first'] else float('nan')
+    lines = ['PARITY PREDICTION 5 AND REPORT 6 (Data/ParityProtocol.md)',
+             '  5. animal tales, every tight link tested holds for both transcribers: %d of %d tested hold -> %s' % (
+                 len(held), len(tested), ('HOLDS' if ok else 'FAILS') if tested else 'NOT TESTED'),
+             '     tested: %s; held: %s; too rare to test (first function in fewer than %d moves for a transcriber): %s' % (
+                 ', '.join(tested) or '-', ', '.join(held) or '-', MIN_MOVES, ', '.join(untested) or '-'),
+             '  6. reported, the frame links, share of moves with the first in which the second follows (A, B):']
+    for n in FRAME:
+        lines.append('     %-12s animal tales %.0f%% and %.0f%%; wondertales on card C %.0f%% and %.0f%%' % (
+            n, pct('animal', n, 'A'), pct('animal', n, 'B'), pct('tale-C', n, 'A'), pct('tale-C', n, 'B')))
+    open(os.path.join(PARITY_OUT, 'links-verdict.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(lines) + '\n')
+    print('\n'.join(lines))
+
+
 def selftest():
     """planted: x and later y in half the moves; random: letters only. The planted link must hold and the random one not."""
     import random
@@ -188,7 +270,7 @@ def selftest():
 
 
 if __name__ == '__main__':
-    cmds = {'score': score, 'selftest': selftest}
+    cmds = {'score': score, 'selftest': selftest, 'parity-selftest': parity_selftest, 'parity-dry': parity_dry, 'parity': parity}
     a = sys.argv[1:]
     if len(a) == 1 and a[0] in cmds:
         cmds[a[0]]()
