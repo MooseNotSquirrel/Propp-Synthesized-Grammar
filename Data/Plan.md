@@ -46,7 +46,7 @@
 
 **Before each run:** freeze a short collection protocol at the owner's word (the stages' form checks, and the readers' agreement reported, no predictions); write the setup and dry-run it (prompts written, no reader started); clear the stages in Propp-ActsRoles `RUN.md`. **After each run:** merge, put in form, rebuild the tables and rerun T1, T2 and T4, then regenerate the parity report's counts.
 
-**Run 1, three stages that need nothing from each other (about 12 subagents):**
+**Run 1, two stages that need nothing from each other (about 12 subagents):**
 1. **The animal tales' heroes by two readers:** the 50 tales, set up as `hero-1` and `hero-2` were (`Heroes/heroes.py`), about two batches per reader; then the judged heroes for the animal tales by the same rule, its stop-list fault noted.
 2. **Acts for P01 to P08:** set up as `p-acts` was (`Problems/problems.py`), two plays a batch, four batches per reader; the plays are those described in free verbs only (`ActsRoles/held/`).
 
