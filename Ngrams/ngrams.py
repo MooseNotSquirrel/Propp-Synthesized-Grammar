@@ -479,6 +479,101 @@ def parity_dry():
                                                              sum(map(len, st[L].values()))) for L in 'AB')))
 
 
+PARITY_OUT = os.path.join(ROOT, 'Data', 'Parity')
+
+
+def parity_score(corpus):
+    """Data/ParityProtocol.md, frozen 2026-10-21: the confirmation on one new corpus, all of it, on the committed
+    candidates and thresholds unchanged; the next-token entropy against 200 shuffles. Returns the report and
+    {prediction: held}."""
+    cands = [tuple(x.strip() for x in l.split('|')) for l in open(os.path.join(HERE, 'Candidates.txt'), encoding='utf-8')
+             if l.strip() and not l.startswith('#')]
+    rep = ['# ngrams-%s.txt -- ngrams.py parity %s: Data/ParityProtocol.md, frozen 2026-10-21; all stories of the corpus, '
+           'on the committed candidates (Candidates.txt) and the thresholds of NgramProtocol.md, unchanged.' % (corpus, corpus), '']
+    layers = (('functions', parity_functions(corpus)), ('acts', parity_acts(corpus)))
+    confirmed, stats, held = {}, {}, {}
+    for layer, strings in layers:
+        if not any(strings[L] for L in 'AB'):
+            rep.append('%s: none in this corpus' % layer)
+            rep.append('')
+            continue
+        st = {}
+        for L in 'AB':
+            c = Corpus(strings[L])
+            st[L] = (c, c.gap_stats(tuple(range(1, MAX_GAP + 1)), SHUFFLES, SEED))
+        stats[layer], confirmed[layer] = st, set()
+        rep.append('%s: stories A %d, B %d' % (layer, len(st['A'][0].stories), len(st['B'][0].stories)))
+        for lay, cls, x, y in cands:
+            if lay != layer:
+                continue
+            c = 1 if cls == 'adjacent' else 'near'
+            cells = [cell(st, L, c, x, y) for L in 'AB']
+            ok = all(lift(o, m) > 1 and p <= CONFIRM_P for o, m, p in cells)
+            if ok:
+                confirmed[layer].add((x, y))
+            prof = gap_profile(st, x, y)
+            rep.append('  %-9s %s -> %s  %s   %s   profile %s, %s' % (
+                cls, x, y, 'CONFIRMED' if ok else 'not confirmed',
+                '; '.join('%s n %d lift %.2f p %.4f' % (L, o, lift(o, m), p) for L, (o, m, p) in zip('AB', cells)),
+                ' '.join('%.1f' % v for v in prof), shape(prof)))
+        rep.append('')
+    rep.append('PAIRS (Ngrams predictions 1 and 2, as ParityProtocol.md predictions 1, 2 and 4 apply them)')
+    for layer, pairs, what in (('functions', PROPP_PAIRS, "Propp's pairs among the functions"),
+                               ('acts', ACT_PAIRS, "their counterparts among the acts")):
+        if layer not in stats:
+            continue
+        st = stats[layer]
+        eligible = [pr for pr in pairs if all(cell(st, L, 1, *pr)[0] + sum(cell(st, L, d, *pr)[0] for d in NEAR) >= MIN_COUNT for L in 'AB')]
+        hit = [pr for pr in eligible if pr in confirmed[layer]]
+        ok = len(eligible) > 0 and 2 * len(hit) >= len(eligible)
+        held[layer] = ok
+        rep.append('  at least half of %s that occur at least %d times (adjacent or near) for both transcribers are confirmed: '
+                   '%d of %d -> %s' % (what, MIN_COUNT, len(hit), len(eligible), 'HOLDS' if ok else 'FAILS'))
+        rep.append('     confirmed: %s; not: %s' % (', '.join('%s->%s' % p for p in hit) or '-',
+                                                     ', '.join('%s->%s' % p for p in eligible if p not in hit) or '-'))
+    rep.append('')
+    rep.append('ENTROPY (Ngrams prediction 4, as ParityProtocol.md predictions 3 and 4 apply it): next token given the current, against 200 shuffles within stories')
+    ent = []
+    for layer, strings in layers:
+        if layer not in stats:
+            continue
+        for L in 'AB':
+            rnd = random.Random(SEED)
+            sub = {s: v for s, v in strings[L].items() if v}
+            h = cond_entropy(sub)
+            hs = [cond_entropy(shuffle_strings(sub, rnd)) for _ in range(200)]
+            p = (sum(x <= h for x in hs) + 1) / float(len(hs) + 1)
+            ent.append(p <= 0.05)
+            rep.append('  %-9s %s  next-token entropy %.3f bits, shuffled %.3f, p %.4f' % (layer, L, h, sum(hs) / len(hs), p))
+    held['entropy'] = bool(ent) and all(ent)
+    rep.append('  below the shuffled strings, p <= 0.05, every layer and transcriber: %d of %d -> %s'
+               % (sum(ent), len(ent), 'HOLDS' if held['entropy'] else 'FAILS'))
+    return rep, held
+
+
+def parity():
+    """the n-gram parity runs: the animal tales and the myths, predicted; the wondertales on card C, reported"""
+    os.makedirs(PARITY_OUT, exist_ok=True)
+    verdict = {}
+    for corpus in ('animal', 'myth', 'tale-C'):
+        rep, held = parity_score(corpus)
+        open(os.path.join(PARITY_OUT, 'ngrams-%s.txt' % corpus), 'w', encoding='utf-8', newline='\n').write('\n'.join(rep) + '\n')
+        verdict[corpus] = held
+        print('\n'.join(rep))
+        print()
+    a, m = verdict['animal'], verdict['myth']
+    lines = ['PARITY PREDICTIONS 1 TO 4 (Data/ParityProtocol.md)',
+             '  1. animal tales, functions, at least half of Propp\'s pairs confirmed: %s' % ('HOLDS' if a.get('functions') else 'FAILS'),
+             '  2. animal tales, acts, at least half of the counterparts confirmed: %s' % ('HOLDS' if a.get('acts') else 'FAILS'),
+             '  3. animal tales, both layers, next token more predictable than shuffled: %s' % ('HOLDS' if a.get('entropy') else 'FAILS'),
+             '  4. myths, functions, predictions 1 and 3: %s (pairs %s, entropy %s)' % (
+                 'HOLDS' if m.get('functions') and m.get('entropy') else 'FAILS',
+                 'hold' if m.get('functions') else 'fail', 'holds' if m.get('entropy') else 'fails'),
+             '  the wondertales on card C are reported beside them, not predicted.']
+    open(os.path.join(PARITY_OUT, 'ngrams-verdict.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(lines) + '\n')
+    print('\n'.join(lines))
+
+
 def selftest():
     """planted strings, two transcribers' worth for discovery and two for confirmation, each with its own random
     filler: the two-stage filter must keep exactly the planted pairs, with their shapes"""
@@ -508,7 +603,7 @@ def selftest():
 
 if __name__ == '__main__':
     cmds = {'discover': discover, 'confirm': confirm, 'describe': describe, 'selftest': selftest,
-            'parity-selftest': parity_selftest, 'parity-dry': parity_dry}
+            'parity-selftest': parity_selftest, 'parity-dry': parity_dry, 'parity': parity}
     a = sys.argv[1:]
     if len(a) == 1 and a[0] in cmds:
         cmds[a[0]]()
