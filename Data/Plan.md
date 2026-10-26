@@ -40,11 +40,21 @@
 1. Write `Data/Parity.md`: the two tables of `DataProtocol.md` section 2, regenerated from the tables, and what each new run found.
 2. Write the results into `PreliminaryFindings.md` and `Process/Chronology.md`.
 
-## Session 7, when the budget allows: the reader stages
+## Session 7, the reader stages, in two runs (set 2026-10-25, to start 2026-10-26)
 
-1. **The animal tales' heroes by two readers:** 50 stories, one stage, set up as `hero-1` and `hero-2` were.
-2. **Tragedy, acts and significance for P01 to P08:** two stages, set up as `p-acts` and `p-sig` were.
-3. Each stage is cleared only after its test is frozen. Each is merged, put in form, built into the tables, and the parity report is regenerated.
+**Decided by the owner on 2026-10-25: the five stories without significance take the heroes their two readers gave** (A098 the old man's daughter; F043 and F060 the Man; F114 the farmer's daughter, the Milk-Woman; F124 the travellers), since the readers agree and only the matching rule's stop list kept them out (`KeeperLog.md`). No hero stage is needed for them.
+
+**Before each run:** freeze a short collection protocol at the owner's word (the stages' form checks, and the readers' agreement reported, no predictions); write the setup and dry-run it (prompts written, no reader started); clear the stages in Propp-ActsRoles `RUN.md`. **After each run:** merge, put in form, rebuild the tables and rerun T1, T2 and T4, then regenerate the parity report's counts.
+
+**Run 1, three stages that need nothing from each other (about 12 subagents):**
+1. **The animal tales' heroes by two readers:** the 50 tales, set up as `hero-1` and `hero-2` were (`Heroes/heroes.py`), about two batches per reader; then the judged heroes for the animal tales by the same rule, its stop-list fault noted.
+2. **Acts for P01 to P08:** set up as `p-acts` was (`Problems/problems.py`), two plays a batch, four batches per reader; the plays are those described in free verbs only (`ActsRoles/held/`).
+
+**Run 2, which needs run 1's acts (about 10 subagents):**
+3. **Significance for P01 to P08:** inputs written from run 1's acts, set up as `p-sig` was, four batches per reader.
+4. **Significance for the five stories:** their acts exist (`twolayer`, batches t1, f1, f2); inputs written with the five heroes above, one batch per reader.
+
+**Done when:** every corpus but the myths holds every layer of `DataProtocol.md` section 3 except the character set, and `Parity.md` section 1 says so from the tables.
 
 ## Not in this plan, by decision
 
