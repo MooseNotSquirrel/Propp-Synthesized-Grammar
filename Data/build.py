@@ -187,7 +187,8 @@ AR = 'ActsRoles'
 ACT_SOURCES = [('twolayer', ['ActsRoles/tale/acts/%s/*/Notes.txt', 'ActsRoles/fable/acts/%s/*/Notes.txt',
                              'ActsRoles/tragedy/acts/%s/*/Notes.txt'], 'acts'),
                ('problems', ['ActsRoles/problems/acts/%s/*/Notes.txt'], 'pacts'),
-               ('animal', ['ActsRoles/animal/acts/%s/*/Notes.txt'], 'aacts')]
+               ('animal', ['ActsRoles/animal/acts/%s/*/Notes.txt'], 'aacts'),
+               ('held', ['ActsRoles/held/acts/%s/*/Notes.txt'], 'hacts')]
 SIG_SOURCES = [('significance', 'ActsRoles/sig'), ('problems', 'ActsRoles/problems/sig'),
                ('animal', 'ActsRoles/animal/sig')]
 FREE_SOURCES = [('free', 'ActsRoles/free/%s/*/Notes.txt'), ('animal', 'ActsRoles/animal/free/%s/*/Notes.txt')]
@@ -474,7 +475,7 @@ def read_tsv(name):
 # T2: each stage's form check, rerun and kept in Data/forms/, against the tables. (form file, table, study,
 # the count the line reports: 'entries' or 'described'). Problem lines are checked against problems.tsv.
 FORMS = [('twolayer.txt', 'acts.tsv', 'twolayer', 'entries'), ('pacts.txt', 'acts.tsv', 'problems', 'entries'),
-         ('aacts.txt', 'acts.tsv', 'animal', 'entries'), ('free.txt', 'free.tsv', 'free', 'entries'),
+         ('aacts.txt', 'acts.tsv', 'animal', 'entries'), ('hacts.txt', 'acts.tsv', 'held', 'entries'), ('free.txt', 'free.tsv', 'free', 'entries'),
          ('cand.txt', 'free.tsv', 'free', 'entries'), ('afree.txt', 'free.tsv', 'animal', 'entries'),
          ('sig.txt', 'significance.tsv', 'significance', 'described'),
          ('psig.txt', 'significance.tsv', 'problems', 'described'),

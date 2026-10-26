@@ -1,4 +1,54 @@
 story	reader	model	study	hero	confidence	basis	line	fields	file
+animal:A001	A	Opus	heroes	the Fox	high	after the opening with the Old Man, the telling follows the Fox through a chain of tricks on him, the Wolf, the peasants and the Cockerel	1	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A002	A	Opus	heroes	the Fox	medium	the Fox steals the fish, tricks the Wolf and rides him home, and the telling stays with her schemes	2	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A003	A	Opus	heroes	the Fox	medium	the Fox's lie drives the story and the Wolf only suffers it, though the ending lingers on his death	3	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A004	A	Opus	heroes	the Fox	high	every episode is a fresh trick the Fox plays on the Wolf or others for her own gain	4	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A005	A	Opus	heroes	the Fox	high	the hungry Fox gets the fish, tricks the Wolf to his death and ends safe in her burrow	5	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A006	A	Opus	heroes	the Fox	high	the telling follows the Fox's trades and dealings throughout, including her revenge on the Wolf	6	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A007	A	Opus	heroes	the Fox	high	the Fox's fortunes are followed from the stolen horse through its loss to her tricks on the Wolf and Bear	7	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A008	A	Opus	heroes	the Fox	high	the Fox's escalating swaps and her final trick on the Bear and Wolf make up the whole story	8	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A009	A	Opus	heroes	the Fox	high	the Fox's scheme to steal the honey and shift the blame drives every event	9	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A010	A	Opus	heroes	the Fox	high	the Fox's lost hut sets it going and she tricks her way in, eats the butter and kills the Wolf	10	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A011	A	Opus	heroes	the Fox	high	the Fox's melted house starts it, she tricks the Wolf throughout and is left living alone at the end	11	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A012	A	Opus	heroes	no single hero: the Fox; the Wolf	medium	the Fox's thefts drive the plot but the telling ends with the Wolf's grievance and departure	12	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A013	A	Opus	heroes	the Fox	medium	the Fox's homelessness and theft drive it, though it closes on the Wolf expelling her	13	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A014	A	Opus	heroes	the Hare	high	the Hare's loss of his hut sets it going, the telling follows his search for help, and he ends living happily	14	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A015	A	Opus	heroes	the Fox	medium	the hungry Fox's attempts on the Cockerel are followed from start to her loss of him	15	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A016	A	Opus	heroes	the Fox	medium	the Fox's attempt to lure and eat the Cockerel fails and the story ends with her shame	16	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A017	A	Opus	heroes	the Fox	low	the fragmentary account begins with the Sow but mostly follows the Fox's search for food	17	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A018	A	Opus	heroes	the Old Man	high	the Old Man's climb, his wife's death and the Fox's betrayal all bear on him, ending in his poverty	18	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A019	A	Opus	heroes	the Old Man	medium	the Old Man grows and harvests the pea and his fall kills the Old Woman	19	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A020	A	Opus	heroes	the Grandfather	high	the Grandfather climbs to the sky, feasts, outwits the Goats and is finally caught	20	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A021	A	Opus	heroes	no single hero: the Old Man; the Fox	medium	the first half follows the Old Man's loss and search for a mourner, the second the Fox's hens and her death	21	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A022	A	Opus	heroes	the Old Man	high	the Old Man's loss and search for a mourner lead to his being robbed of her body and left alone	22	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A023	A	Opus	heroes	the Peasant	medium	the Peasant's danger from the Bear runs through the story, though its last episode follows the cheated Fox	23	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A024	A	Opus	heroes	the Peasant	medium	the Peasant's dealings with the Bear and his escape drive it, with a closing episode on the Fox's death	24	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A025	A	Opus	heroes	the Peasant	medium	the Peasant outwits the Bear and is saved from him, before a closing episode on the Fox's death	25	4	ActsRoles/heroes/answers/A/ah1/Heroes.txt
+animal:A026	A	Opus	heroes	the Peasant	medium	the wolf's threat to his oxen sets it going, he kills the wolf, cheats the fox of her reward and ends by skinning her	1	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A027	A	Opus	heroes	the Peasant	high	his kindness to the wolf and the wolf's threat to eat him drive the story, which ends with him killing the fox	2	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A028	A	Opus	heroes	no single hero: the Sheep; the Fox	medium	the Sheep's flight and the Wolf's claim on her coat set it going, but the Fox acts to defeat the Wolf	3	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A029	A	Opus	heroes	the Fox	medium	the Pig's journey starts it, but the Fox devises each round of eating in the pit and is the one left alive	4	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A030	A	Opus	heroes	the Fox	medium	after the Hog's opening the story stays with the Fox, who survives the pit by tricks, extorts the Thrush and is finally killed	5	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A031	A	Opus	heroes	the Fox	medium	the Fox tries to lure the Grouse down with a false decree and has to flee when the peasant's dogs approach	6	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A032	A	Opus	heroes	the Woodpecker	medium	the story follows her repeated losses of her chicks to the Fox's threats and false promises	7	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A033	A	Opus	heroes	no single hero: the Fox; the Crane	high	each plays host and guest in turn, each is cheated once, and the friendship ends between them	8	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A034	A	Opus	heroes	Snegurushka	medium	her getting lost sets it going and the story follows her until she is brought home, before turning to the Fox's reward	9	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A035	A	Opus	heroes	no single hero: the Fox; the Crayfish	medium	the Fox proposes the race, but the Crayfish wins it by a trick, and the telling balances the two	10	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A036	A	Opus	heroes	the Bun	high	the story follows the Bun's escape and run past each beast until the Fox eats it	11	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A037	A	Opus	heroes	the Cockerel	medium	his repeated temptation and capture by the Fox drives the story, ending in his being eaten	12	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A038	A	Opus	heroes	no single hero: the Cockerel; the Cat; the Ram	medium	the Cockerel suffers the repeated abductions, but the Cat and Ram act to rescue him and kill the Fox	13	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A039	A	Opus	heroes	no single hero: the Cockerel; the Cat	medium	the Cockerel is repeatedly carried off, while the Cat rescues him each time and finally kills the Fox	14	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A040	A	Opus	heroes	the Cat	high	the story follows the abandoned Cat from exile to marriage with the Fox and to his frightening off the beasts	15	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A041	A	Opus	heroes	the Cat	medium	the abandoned Cat's misfortune starts it, and his marriage and fearsome feeding bring the Bear's death and the couple's prosperity	16	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A042	A	Opus	heroes	the Hare	low	the beasts collectively plan the feast, but the Hare is the one forced to go to the Cat and whose report scatters them	17	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A043	A	Opus	heroes	the Fox	low	the Fox's defence of her duck with threats of her husband holds the first half, though the beasts' feast plan takes over	18	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A044	A	Opus	heroes	the Cat	medium	the Cat's theft and threatened death set it going, and he leads the Ram in frightening off the wolves and the Bear	19	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A045	A	Opus	heroes	the Cat	medium	the Cat's news and schemes start the flight and his tricks drive off the wolves, with the Goat and Ram in his train	20	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A046	A	Opus	heroes	the Goat	medium	the Goat proposes the flight, devises the wolf's-head trick and fires the gun that routs the Bear and wolves	21	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A047	A	Opus	heroes	the Goat	medium	the Goat leads the flight, frightens off the three bears by his bluff and brings the pair home to be spared	22	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A048	A	Opus	heroes	the peasant	medium	he harms the Bear, the Fox and the Gadfly in turn and by a last trick escapes their joint revenge	23	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A049	A	Opus	heroes	the old man	medium	the Wolf's visits strip him of his livestock and his wife until he drives the Wolf off and is left alone	24	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+animal:A050	A	Opus	heroes	the old man	medium	the Wolf's demands for his wife press on him, and he gives up his animals instead to keep her	25	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
 tragedy:P25	A	Opus	heroes	Philoctetes	medium	the story follows the abandoned Philoctetes from his isolation and the theft of his bow to his recovering it and consenting to go to Troy, though Neoptolemus's change of heart runs close beside it	1	4	ActsRoles/heroes/answers/A/h10/Heroes.txt
 tragedy:P26	A	Opus	heroes	Heracles	medium	the threat to his family sets it going and the story follows his return, his god-sent madness and slaughter of his family, and his choice to live on with Theseus	2	4	ActsRoles/heroes/answers/A/h10/Heroes.txt
 tragedy:P27	A	Opus	heroes	no single hero: Orestes; Furies	medium	the first part follows Orestes's flight and trial to his acquittal, and the rest follows the Furies' wrath until they accept a home in Athens	3	4	ActsRoles/heroes/answers/A/h10/Heroes.txt
@@ -274,6 +324,56 @@ tragedy:P21	A	Opus	heroes	Xerxes	medium	the story turns on his expedition, his d
 tragedy:P22	A	Opus	heroes	Admetus	medium	his escape from death sets it going, he suffers his wife's loss and he receives her back at the end	6	4	ActsRoles/heroes/answers/A/h9/Heroes.txt
 tragedy:P23	A	Opus	heroes	Orestes	high	he returns from exile, plans and carries out the vengeance, and is driven off by the Furies	7	4	ActsRoles/heroes/answers/A/h9/Heroes.txt
 tragedy:P24	A	Opus	heroes	Hippolytus	high	Aphrodite's vengeance on him sets it going and the story follows him through false accusation, exile and death	8	4	ActsRoles/heroes/answers/A/h9/Heroes.txt
+animal:A001	B	Sonnet	heroes	the Fox	high	the Fox tricks the Old Man, the Wolf and several peasants and ends by eating the Cockerel.	1	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A002	B	Sonnet	heroes	the Fox	high	the Fox tricks the Wolf into freezing his tail and rides him, and the telling stays with her cunning.	2	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A003	B	Sonnet	heroes	the Fox	high	the Fox lures the Wolf into freezing his tail and leaves him to be killed.	3	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A004	B	Sonnet	heroes	the Fox	high	the Fox repeatedly outwits the Wolf and ends riding him unharmed.	4	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A005	B	Sonnet	heroes	the Fox	high	the Fox's hunger drives her tricks and she ends by eating the Wolf's brains.	5	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A006	B	Sonnet	heroes	the Fox	low	the Fox is tricked by the Wolf midway but acts toward the outcome and has him killed at the end.	6	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A007	B	Sonnet	heroes	the Fox	medium	the Fox loses her horse to others but then tricks the Wolf and Bear to their deaths.	7	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A008	B	Sonnet	heroes	the Fox	high	the Fox swindles each household up the chain and finally escapes the Bear and Wolf.	8	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A009	B	Sonnet	heroes	the Fox	high	the Fox steals the honey and pins the guilt on the Wolf.	9	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A010	B	Sonnet	heroes	the Fox	high	the Fox worms her way into the Wolf's hut, steals the butter and has him killed.	10	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A011	B	Sonnet	heroes	the Fox	high	the Fox steals the butter and oatmeal and has the Wolf killed, ending alone.	11	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A012	B	Sonnet	heroes	no single hero: the Fox; the Wolf	medium	the Fox cheats the Wolf of the butter but the telling ends with the Wolf's grief and vow.	12	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A013	B	Sonnet	heroes	the Fox	medium	the Fox with her friend eats the Wolf's honey and is driven out.	13	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A014	B	Sonnet	heroes	no single hero: the Hare; the Cockerel	medium	the Hare's loss sets it going and the Cockerel wins the hut by killing the Fox.	14	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A015	B	Sonnet	heroes	the Fox	medium	the Fox's hunger and humiliation drive the story, though the Cockerel escapes her.	15	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A016	B	Sonnet	heroes	the Fox	medium	the Fox's scheme to eat the Cockerel fails and the telling ends on her shame.	16	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A017	B	Sonnet	heroes	no single hero: the Sow; the Fox; the Cockerel	low	the story passes from the Sow's death to the Wolf and then to the Fox's attempt on the Cockerel.	17	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A018	B	Sonnet	heroes	the Old Man	high	the Old Man loses his wife and is then cheated by the Fox, ending in poverty.	18	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A019	B	Sonnet	heroes	the Old Man	medium	the Old Man climbs the pea and accidentally kills his wife.	19	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A020	B	Sonnet	heroes	the Grandfather	high	the Grandfather's repeated climbs to eat in the sky end with his capture.	20	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A021	B	Sonnet	heroes	no single hero: the Old Man; the Fox	medium	the Old Man's loss starts it and the Fox's greed and punishment close it.	21	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A022	B	Sonnet	heroes	the Old Man	medium	the Old Man's bereavement and the loss of the body to the Fox end with him alone.	22	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A023	B	Sonnet	heroes	the Peasant	medium	the Peasant's fear of the Bear drives the story and he kills it and sets dogs on the Fox.	23	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A024	B	Sonnet	heroes	the Peasant	medium	the Peasant is threatened by the Bear and saved by the Fox, whom he then tricks.	24	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A025	B	Sonnet	heroes	the Peasant	medium	the Peasant is threatened by the Bear and escapes by the Fox's help, then repays her with a dog.	25	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
+animal:A026	B	Sonnet	heroes	the Peasant	high	his oxen are threatened, he tricks both Wolf and Fox with the Fox's help and ends safe and rewarded	1	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A027	B	Sonnet	heroes	the Peasant	medium	he saves the Wolf, is threatened with death for it, and escapes through the Fox's trick	2	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A028	B	Sonnet	heroes	no single hero: the Sheep; the Fox	medium	the Sheep sets it going by fleeing but the Fox does the acting that defeats the Wolf	3	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A029	B	Sonnet	heroes	the Fox	high	she schemes the others' deaths in the pit and is left alone and fed	4	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A030	B	Sonnet	heroes	the Fox	medium	she dominates the pit and the Thrush episode but ends torn apart by dogs	5	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A031	B	Sonnet	heroes	the Fox	medium	the telling stays with her failed trick on the Grouse and her flight from the hunt	6	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A032	B	Sonnet	heroes	the Woodpecker	high	her chicks are taken one by one and the story follows her loss	7	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A033	B	Sonnet	heroes	no single hero: the Fox; the Crane	medium	each in turn tricks the other and the story follows both to the end of their friendship	8	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A034	B	Sonnet	heroes	Snegurushka	high	she is lost in the forest, wants to get home and is brought back	9	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A035	B	Sonnet	heroes	the Crayfish	high	he proposes nothing but wins the race by his trick on the Fox	10	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A036	B	Sonnet	heroes	the Bun	high	it rolls away, escapes three animals and is eaten by the fourth	11	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A037	B	Sonnet	heroes	the Cockerel	medium	the story follows his repeated seduction by the Fox and his final loss	12	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A038	B	Sonnet	heroes	the Cockerel	medium	he is carried off three times and finally rescued by the Cat and Ram	13	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A039	B	Sonnet	heroes	the Cockerel	medium	he is lured out three times and finally saved from the Fox	14	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A040	B	Sonnet	heroes	the Cat	high	abandoned in the forest, he gains a wife and the beasts' fear through bluff	15	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A041	B	Sonnet	heroes	the Cat	medium	abandoned and hungry, he is married by the Fox and comes to live well	16	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A042	B	Sonnet	heroes	the Hare	low	the animals' fear is the point but the Hare is the one sent and returns terrified	17	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A043	B	Sonnet	heroes	the Fox	medium	she uses her husband the Cat to ward off three beasts, who then flee his terror	18	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A044	B	Sonnet	heroes	the Cat	high	he engineers the escape and the wolves' and Bear's fright throughout	19	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A045	B	Sonnet	heroes	the Cat	medium	he tricks the Goat and Ram into escape and frightens the wolves	20	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A046	B	Sonnet	heroes	the Goat	high	he leads the flight and every ruse that frightens the wolves and Bear	21	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A047	B	Sonnet	heroes	the Goat	high	he leads the escape and tricks the bears, and the pair are reformed at the end	22	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A048	B	Sonnet	heroes	the Peasant	medium	he defeats the Bear and the Fox and Gadfly by trick and fright and ends unharmed	23	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A049	B	Sonnet	heroes	the old man	medium	he loses his livestock and wife to the Wolf and ends grieving alone	24	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+animal:A050	B	Sonnet	heroes	the old man	medium	he keeps giving substitutes to the Wolf and finally keeps his wife	25	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
 tragedy:P25	B	Sonnet	heroes	Philoctetes	high	the story follows his abandonment, his deception and loss of the bow, and his final consent to go to Troy	1	4	ActsRoles/heroes/answers/B/h10/Heroes.txt
 tragedy:P26	B	Sonnet	heroes	Heracles	high	the story follows his return, his rescue of his family, his madness and its aftermath, and his decision to live	2	4	ActsRoles/heroes/answers/B/h10/Heroes.txt
 tragedy:P27	B	Sonnet	heroes	Orestes	medium	the story follows the matricide's flight, pursuit and acquittal, though the Furies' reconciliation takes much of the telling	3	4	ActsRoles/heroes/answers/B/h10/Heroes.txt

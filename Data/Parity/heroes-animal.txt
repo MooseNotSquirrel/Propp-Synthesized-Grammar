@@ -1,0 +1,56 @@
+# animal-heroes, agreement of the two readers (Session7Protocol.md); reported, not judged.
+
+the word rule unchanged (withJudgedHeroes.words): 45 of 50 stories agree
+with its role words kept: 50 of 50 stories agree
+
+story | reader A | reader B
+A001 | the Fox | the Fox
+A002 | the Fox | the Fox
+A003 | the Fox | the Fox
+A004 | the Fox | the Fox
+A005 | the Fox | the Fox
+A006 | the Fox | the Fox
+A007 | the Fox | the Fox
+A008 | the Fox | the Fox
+A009 | the Fox | the Fox
+A010 | the Fox | the Fox
+A011 | the Fox | the Fox
+A012 | no single hero: the Fox; the Wolf | no single hero: the Fox; the Wolf
+A013 | the Fox | the Fox
+A014 | the Hare | no single hero: the Hare; the Cockerel
+A015 | the Fox | the Fox
+A016 | the Fox | the Fox
+A017 | the Fox | no single hero: the Sow; the Fox; the Cockerel
+A018 | the Old Man | the Old Man
+A019 | the Old Man | the Old Man
+A020 | the Grandfather | the Grandfather
+A021 | no single hero: the Old Man; the Fox | no single hero: the Old Man; the Fox
+A022 | the Old Man | the Old Man
+A023 | the Peasant | the Peasant
+A024 | the Peasant | the Peasant
+A025 | the Peasant | the Peasant
+A026 | the Peasant | the Peasant
+A027 | the Peasant | the Peasant
+A028 | no single hero: the Sheep; the Fox | no single hero: the Sheep; the Fox
+A029 | the Fox | the Fox
+A030 | the Fox | the Fox
+A031 | the Fox | the Fox
+A032 | the Woodpecker | the Woodpecker
+A033 | no single hero: the Fox; the Crane | no single hero: the Fox; the Crane
+A034 | Snegurushka | Snegurushka
+A035 | no single hero: the Fox; the Crayfish | the Crayfish
+A036 | the Bun | the Bun
+A037 | the Cockerel | the Cockerel
+A038 | no single hero: the Cockerel; the Cat; the Ram | the Cockerel
+A039 | no single hero: the Cockerel; the Cat | the Cockerel
+A040 | the Cat | the Cat
+A041 | the Cat | the Cat
+A042 | the Hare | the Hare
+A043 | the Fox | the Fox
+A044 | the Cat | the Cat
+A045 | the Cat | the Cat
+A046 | the Goat | the Goat
+A047 | the Goat | the Goat
+A048 | the peasant | the Peasant
+A049 | the old man | the old man
+A050 | the old man | the old man

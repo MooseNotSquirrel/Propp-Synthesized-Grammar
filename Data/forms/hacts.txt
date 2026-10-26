@@ -1,0 +1,9 @@
+A g13 stories  2, entries  200, uncovered events   0, out-of-list entries   0, faults 0
+A g14 stories  2, entries  274, uncovered events   0, out-of-list entries   0, faults 0
+A g15 stories  2, entries  269, uncovered events   0, out-of-list entries   0, faults 0
+A g16 stories  2, entries  300, uncovered events   0, out-of-list entries   0, faults 0
+B g13 stories  2, entries  207, uncovered events   0, out-of-list entries   0, faults 0
+B g14 stories  2, entries  255, uncovered events   0, out-of-list entries   0, faults 0
+B g15 stories  2, entries  258, uncovered events   0, out-of-list entries   0, faults 0
+B g16 stories  2, entries  283, uncovered events   0, out-of-list entries   0, faults 0
+IN FORM

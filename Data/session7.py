@@ -106,11 +106,93 @@ def setup1(dry):
     print('written: %d files, %d copied' % (len(writes), len(copies)))
 
 
+def form1():
+    """Session7Protocol.md's form checks for run 1, from the rebuilt tables; prints the lines and writes them to
+    Data/forms/hacts.txt and Data/forms/aheroes.txt"""
+    sys.path.insert(0, os.path.join(ROOT, 'TwoLayer'))
+    sys.path.insert(0, os.path.join(ROOT, 'Problems'))
+    import twoLayer as T
+    import problems as Pm
+    ev = {}
+    for r in DT.rows('events'):
+        ev.setdefault(r['story'], set()).add(int(r['event']))
+    acts = [r for r in DT.rows('acts') if r['study'] == 'held']
+    out, total = [], 0
+    for L in 'AB':
+        for b, plays in ACT_BATCHES.items():
+            rows = [r for r in acts if r['reader'] == L and r['batch'] == b]
+            got = {}
+            for r in rows:
+                got.setdefault(r['story'], set()).add(int(r['event']))
+            uncovered = sum(len(ev['tragedy:' + p] - got.get('tragedy:' + p, set())) for p in plays)
+            bad = sum(1 for r in rows if r['act'].lower() not in T.ACTS or r['relation'].lower() not in Pm.RELATIONS
+                      or r['matters'][:1].upper() not in ('Y', 'N'))
+            faults = sum(1 for r in rows if r['id_flag'])
+            out.append('%s %-3s stories %2d, entries %4d, uncovered events %3d, out-of-list entries %3d, faults %d'
+                       % (L, b, len(plays), len(rows) - faults, uncovered, bad, faults))
+            total += uncovered + bad + faults
+    out.append('IN FORM' if total == 0 else 'NOT IN FORM: %d problem(s)' % total)
+    open(os.path.join(HERE, 'forms', 'hacts.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(out) + '\n')
+    print('\n'.join(out))
+    # the heroes: one line per story, in order, with a hero, a confidence and a reason
+    hout, htot = [], 0
+    for L in 'AB':
+        for b, ids in HERO_BATCHES.items():
+            path = os.path.join(AR, 'heroes', 'answers', L, b, 'Heroes.txt')
+            rows = DT.file_rows('heroes', path)
+            order = [DT.local(r['story']) for r in rows]
+            bad = sum(1 for r in rows if not r['hero'].strip() or r['confidence'].strip().lower() not in ('high', 'medium', 'low')
+                      or not r['basis'].strip() or int(r['fields']) < 4)
+            ok = order == ids and not bad
+            hout.append('%s %-3s stories %2d of %d, in order %s, entries %2d, malformed %d' % (
+                L, b, len(rows), len(ids), 'yes' if order == ids else 'NO', len(rows), bad))
+            htot += 0 if ok else 1
+    hout.append('IN FORM' if htot == 0 else 'NOT IN FORM: %d batch(es)' % htot)
+    open(os.path.join(HERE, 'forms', 'aheroes.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(hout) + '\n')
+    print('\n'.join(hout))
+
+
+def agreement1():
+    """Session7Protocol.md's report: how often the two readers name the same hero, by the word rule unchanged and
+    with its role words kept"""
+    sys.path.insert(0, os.path.join(ROOT, 'Heroes'))
+    import withJudgedHeroes as W
+    ans = {L: {} for L in 'AB'}
+    for L in 'AB':
+        for b in HERO_BATCHES:
+            for r in DT.file_rows('heroes', os.path.join(AR, 'heroes', 'answers', L, b, 'Heroes.txt')):
+                ans[L][DT.local(r['story'])] = r['hero']
+    role = {'little', 'old', 'young', 'youngest', 'eldest', 'son', 'daughter', 'man', 'woman'}
+    keep = W.STOP - role
+
+    def words2(name):
+        name = W.latin(name)
+        if name.startswith('no single hero'):
+            name = name.split(':', 1)[1] if ':' in name else ''
+        return {w.rstrip('s') for w in W.re.findall(r'[^\W\d_]+', name) if w not in keep and len(w) > 2}
+    ids = sorted(set(ans['A']) & set(ans['B']))
+    lines = ['# animal-heroes, agreement of the two readers (Session7Protocol.md); reported, not judged.', '']
+    for label, fn in (('the word rule unchanged (withJudgedHeroes.words)', W.words), ('with its role words kept', words2)):
+        agree = [s for s in ids if fn(ans['A'][s]) & fn(ans['B'][s]) or
+                 (ans['A'][s].lower().startswith('no single') and ans['B'][s].lower().startswith('no single'))]
+        lines.append('%s: %d of %d stories agree' % (label, len(agree), len(ids)))
+    lines.append('')
+    lines.append('story | reader A | reader B')
+    lines += ['%s | %s | %s' % (s, ans['A'][s], ans['B'][s]) for s in ids]
+    os.makedirs(os.path.join(HERE, 'Parity'), exist_ok=True)
+    open(os.path.join(HERE, 'Parity', 'heroes-animal.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(lines) + '\n')
+    print('\n'.join(lines[:4]))
+
+
 if __name__ == '__main__':
     a = sys.argv[1:]
     if a == ['setup1', '--dry']:
         setup1(True)
     elif a == ['setup1']:
         setup1(False)
+    elif a == ['form1']:
+        form1()
+    elif a == ['agreement1']:
+        agreement1()
     else:
         sys.exit(__doc__)
