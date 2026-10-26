@@ -106,6 +106,96 @@ def setup1(dry):
     print('written: %d files, %d copied' % (len(writes), len(copies)))
 
 
+FIVE = ['A098', 'F043', 'F060', 'F114', 'F124']
+SIG_BATCHES = {'g13': ['P01', 'P02'], 'g14': ['P03', 'P04'], 'g15': ['P05', 'P06'], 'g16': ['P07', 'P08']}
+
+
+def sig_modules():
+    sys.path.insert(0, os.path.join(ROOT, 'Significance'))
+    import significance as S
+    return S
+
+
+def sig_text(stories, entries_of, S):
+    """the significance input, as Significance/significance.py's inputs() writes it: each story with its hero, each
+    event with the describer's acts, every act numbered; returns (text, rows)"""
+    St = {s: (title, ev) for items in H.stories().values() for s, title, _, ev in items}
+    lines, rows = [], []
+    for s in stories:
+        title, evs = St[s]
+        lines.append('story: %s | %s | hero: %s' % (s, title, S.hero_line(s)))
+        ents = entries_of(s)
+        for k, t in evs:
+            mine = [e for e in ents if e[0] == k]
+            if not mine:
+                continue
+            lines.append('  ev %d | %s' % (k, t))
+            for ev, a, pf, u, r, note in mine:
+                rows.append(None)
+                eid = 'e%04d' % len(rows)
+                lines.append('    %s | %s | %s | %s | %s | %s' % (eid, a, pf, u, r, note))
+        lines.append('')
+    return '\n'.join(lines) + '\n', len(rows)
+
+
+def held_entries(L):
+    def of(s):
+        return [(int(r['event']), r['act'].lower(), r['performer'], r['undergoer'], r['relation'].lower(), r['note'])
+                for r in DT.rows('acts') if r['study'] == 'held' and r['reader'] == L and DT.local(r['story']) == s and not r['id_flag']]
+    return of
+
+
+def setup2(dry):
+    S = sig_modules()
+    writes = []
+    held_prompt = S.PROMPT.replace('sig/input/{L}-{b}.txt', 'held/sig/input/{L}-{b}.txt').replace(
+        'nothing else under sig/ and nothing under any acts/ folder', 'nothing else under sig/ or held/sig/ and nothing under any acts/ folder').replace(
+        'sig/{L}/{b}/Significance.txt', 'held/sig/{L}/{b}/Significance.txt')
+    five_prompt = S.PROMPT.replace('sig/input/{L}-{b}.txt', 'five/sig/input/{L}-{b}.txt').replace(
+        'nothing else under sig/ and nothing under any acts/ folder', 'nothing else under sig/ or five/sig/ and nothing under any acts/ folder').replace(
+        'sig/{L}/{b}/Significance.txt', 'five/sig/{L}/{b}/Significance.txt')
+    for L in 'AB':
+        n = 0
+        for b, plays in SIG_BATCHES.items():
+            def counted(s, of=held_entries(L)):
+                return of(s)
+            text, m = sig_text(plays, counted, S)
+            # number the acts on across this describer's batches, as inputs() does
+            out = []
+            for line in text.split('\n'):
+                if line.startswith('    e'):
+                    n += 1
+                    line = '    e%04d' % n + line[9:]
+                out.append(line)
+            text = '\n'.join(out)
+            names = ' and '.join("%s's %s (%s)" % (ORDER[p][0], ORDER[p][1], p) for p in plays)
+            where = ("Your stories are Greek plays, %s, in English translation; each play's text is in its folder under held/tragedy/plays/, in Text.txt, one speech per line." % names)
+            files = ', '.join('held/tragedy/plays/%s/Text.txt' % p for p in plays)
+            writes.append((os.path.join(AR, 'held', 'sig', 'input', '%s-%s.txt' % (L, b)), text))
+            writes.append((os.path.join(AR, 'prompts', 'hsig-%s-%s.txt' % (L, b)),
+                           held_prompt.format(L=L, b=b, n=len(plays), m=m, where=where, files=files)))
+        text, m = sig_text(FIVE, lambda s, L=L: S.act_entries(L, s), S)
+        where = ("Your stories are one tale from Aleksandr Afanasyev's collection of Russian folktales, in Russian, in tale/tales/A098.txt; "
+                 "and four of Aesop's fables, in George Fyler Townsend's 1867 translation, in fable/Fables.txt, one per line as \"identifier | title | text\".")
+        writes.append((os.path.join(AR, 'five', 'sig', 'input', '%s-v1.txt' % L), text))
+        writes.append((os.path.join(AR, 'prompts', 'fsig-%s-v1.txt' % L),
+                       five_prompt.format(L=L, b='v1', n=len(FIVE), m=m, where=where, files='tale/tales/A098.txt, fable/Fables.txt')))
+    for path, text in writes:
+        exists = os.path.exists(path)
+        acts = text.count('\n    e')
+        print('%s %-44s %6d bytes%s%s' % ('would write' if dry else 'write', os.path.relpath(path, P), len(text.encode('utf-8')),
+                                         ', %d acts' % acts if acts else '', '  (EXISTS: refused)' if exists else ''))
+        if exists:
+            raise SystemExit('refusing to overwrite %s' % path)
+    if dry:
+        print('dry run: %d files to write; nothing written' % len(writes))
+        return
+    for path, text in writes:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        open(path, 'w', encoding='utf-8', newline='\n').write(text)
+    print('written: %d files' % len(writes))
+
+
 def form1():
     """Session7Protocol.md's form checks for run 1, from the rebuilt tables; prints the lines and writes them to
     Data/forms/hacts.txt and Data/forms/aheroes.txt"""
@@ -152,6 +242,32 @@ def form1():
     print('\n'.join(hout))
 
 
+def form2():
+    """Session7Protocol.md's form checks for run 2, from the rebuilt tables; prints the lines and writes them to
+    Data/forms/hsig.txt and Data/forms/fsig.txt"""
+    S = sig_modules()
+    saved = S.SIG
+    for base, batches, name in (('held', list(SIG_BATCHES), 'hsig.txt'), ('five', ['v1'], 'fsig.txt')):
+        out, total = [], 0
+        S.SIG = os.path.join(AR, base, 'sig')
+        try:
+            for L in 'AB':
+                for b in batches:
+                    inp = open(os.path.join(S.SIG, 'input', '%s-%s.txt' % (L, b)), encoding='utf-8').read()
+                    ids = [l.split('|')[0].strip() for l in inp.split('\n') if l.startswith('    e')]
+                    sig, probs, faults = S.read_sig(L, b)
+                    missing = [e for e in ids if e not in sig]
+                    extra = sorted(set(sig) - set(ids))
+                    out.append('%s %-3s acts %4d, described %4d, missing %3d, unknown ids %d, problem lines %3d, faults %d'
+                               % (L, b, len(ids), len(sig), len(missing), len(extra), len(probs), len(faults)))
+                    total += len(missing) + len(extra) + len(faults)
+        finally:
+            S.SIG = saved
+        out.append('IN FORM' if total == 0 else 'NOT IN FORM: %d problem(s)' % total)
+        open(os.path.join(HERE, 'forms', name), 'w', encoding='utf-8', newline='\n').write('\n'.join(out) + '\n')
+        print('\n'.join(out))
+
+
 def agreement1():
     """Session7Protocol.md's report: how often the two readers name the same hero, by the word rule unchanged and
     with its role words kept"""
@@ -190,8 +306,14 @@ if __name__ == '__main__':
         setup1(True)
     elif a == ['setup1']:
         setup1(False)
+    elif a == ['setup2', '--dry']:
+        setup2(True)
+    elif a == ['setup2']:
+        setup2(False)
     elif a == ['form1']:
         form1()
+    elif a == ['form2']:
+        form2()
     elif a == ['agreement1']:
         agreement1()
     else:

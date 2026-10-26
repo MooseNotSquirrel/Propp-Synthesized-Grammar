@@ -190,7 +190,7 @@ ACT_SOURCES = [('twolayer', ['ActsRoles/tale/acts/%s/*/Notes.txt', 'ActsRoles/fa
                ('animal', ['ActsRoles/animal/acts/%s/*/Notes.txt'], 'aacts'),
                ('held', ['ActsRoles/held/acts/%s/*/Notes.txt'], 'hacts')]
 SIG_SOURCES = [('significance', 'ActsRoles/sig'), ('problems', 'ActsRoles/problems/sig'),
-               ('animal', 'ActsRoles/animal/sig')]
+               ('animal', 'ActsRoles/animal/sig'), ('held', 'ActsRoles/held/sig'), ('five', 'ActsRoles/five/sig')]
 FREE_SOURCES = [('free', 'ActsRoles/free/%s/*/Notes.txt'), ('animal', 'ActsRoles/animal/free/%s/*/Notes.txt')]
 HERO_LISTS = [('Afanasyev/Heroes.txt', 'tale'), ('AnimalTales/Heroes.txt', 'animal'), ('Aesop/Heroes.txt', 'fable'),
               ('Fables/Heroes.txt', 'fable'), ('Tragedy/plays/P[0-9][0-9]/Hero.txt', 'tragedy')]
@@ -479,7 +479,8 @@ FORMS = [('twolayer.txt', 'acts.tsv', 'twolayer', 'entries'), ('pacts.txt', 'act
          ('cand.txt', 'free.tsv', 'free', 'entries'), ('afree.txt', 'free.tsv', 'animal', 'entries'),
          ('sig.txt', 'significance.tsv', 'significance', 'described'),
          ('psig.txt', 'significance.tsv', 'problems', 'described'),
-         ('asig.txt', 'significance.tsv', 'animal', 'described')]
+         ('asig.txt', 'significance.tsv', 'animal', 'described'),
+         ('hsig.txt', 'significance.tsv', 'held', 'described'), ('fsig.txt', 'significance.tsv', 'five', 'described')]
 # Recorded where a form check cannot count what was merged: two batches whose every line carries a speech number,
 # which the two-layer form check reads as nothing (TwoLayer/KeeperLog.md, acts-2: 311 lines in g1, 164 in g3).
 RECORDED = {('acts.tsv', 'twolayer', 'B', 'g1'): 311, ('acts.tsv', 'twolayer', 'B', 'g3'): 164}

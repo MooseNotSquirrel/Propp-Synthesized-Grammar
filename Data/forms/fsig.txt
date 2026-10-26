@@ -1,0 +1,3 @@
+A v1  acts   50, described   50, missing   0, unknown ids 0, problem lines   6, faults 0
+B v1  acts   44, described   44, missing   0, unknown ids 0, problem lines   6, faults 0
+IN FORM

@@ -873,3 +873,67 @@ animal:A048	B	Sonnet	animal	q5	p1	the Bear, branded by the Peasant, swears reven
 animal:A049	B	Sonnet	animal	q5	p1	the Wolf's hunger, fed by the old couple's gifts until nothing is left	282	4	ActsRoles/animal/sig/B/q5/Significance.txt
 animal:A049	B	Sonnet	animal	q5	p2	the old man, left alone, turns on the Wolf	290	4	ActsRoles/animal/sig/B/q5/Significance.txt
 animal:A050	B	Sonnet	animal	q5	p1	the Wolf demands the old woman	294	4	ActsRoles/animal/sig/B/q5/Significance.txt
+tragedy:P01	A	Opus	held	g13	p1	the Argive army camped before Troy, which Hector would destroy, and whose night fires he cannot read	1	4	ActsRoles/held/sig/A/g13/Significance.txt
+tragedy:P01	A	Opus	held	g13	p2	Rhesus's long failure to come to Troy's help, which strains the alliance	25	4	ActsRoles/held/sig/A/g13/Significance.txt
+tragedy:P01	A	Opus	held	g13	p3	the Scythian war that kept Rhesus from setting out for Troy	36	4	ActsRoles/held/sig/A/g13/Significance.txt
+tragedy:P01	A	Opus	held	g13	p4	the night raid of the Greek spies, in which Dolon and Rhesus are killed and the horses taken	52	4	ActsRoles/held/sig/A/g13/Significance.txt
+tragedy:P01	A	Opus	held	g13	p5	the blame for Rhesus's death among the Trojans and their allies	87	4	ActsRoles/held/sig/A/g13/Significance.txt
+tragedy:P02	A	Opus	held	g13	p1	Eurystheus's persecution of Heracles and then of his children, whom Iolaus protects	116	4	ActsRoles/held/sig/A/g13/Significance.txt
+tragedy:P02	A	Opus	held	g13	p2	the oracles' demand for a nobly born maiden's death, without which Athens cannot defend the suppliants	157	4	ActsRoles/held/sig/A/g13/Significance.txt
+tragedy:P02	A	Opus	held	g13	p3	the rulers' ban on killing the captive Eurystheus, which stands in the way of his punishment	202	4	ActsRoles/held/sig/A/g13/Significance.txt
+tragedy:P03	A	Opus	held	g14	p1	the blind exile Oedipus has no refuge and no resting place for his end	1	4	ActsRoles/held/sig/A/g14/Significance.txt
+tragedy:P03	A	Opus	held	g14	p2	Oedipus's sons fight each other for the throne of Thebes	31	4	ActsRoles/held/sig/A/g14/Significance.txt
+tragedy:P03	A	Opus	held	g14	p3	Thebes means to take Oedipus back, by guile or by force, and keep him at its border	37	4	ActsRoles/held/sig/A/g14/Significance.txt
+tragedy:P03	A	Opus	held	g14	p4	Creon seizes Oedipus's daughters, his only help	48	4	ActsRoles/held/sig/A/g14/Significance.txt
+tragedy:P03	A	Opus	held	g14	p5	Oedipus's daughters are left fatherless and without protection	125	4	ActsRoles/held/sig/A/g14/Significance.txt
+tragedy:P04	A	Opus	held	g14	p1	Creusa's son by Phoebus is lost to her: forced on her, born in secret and cast out to die	138	4	ActsRoles/held/sig/A/g14/Significance.txt
+tragedy:P04	A	Opus	held	g14	p2	Xuthus and Creusa are still childless after many years of marriage	152	4	ActsRoles/held/sig/A/g14/Significance.txt
+tragedy:P04	A	Opus	held	g14	p3	mother and son, unknown to each other, seek each other's death	188	4	ActsRoles/held/sig/A/g14/Significance.txt
+tragedy:P05	A	Opus	held	g15	p2	Polymestor murders Polydorus, his guest, for the gold and leaves him unburied	2	4	ActsRoles/held/sig/A/g15/Significance.txt
+tragedy:P05	A	Opus	held	g15	p1	Troy falls and Priam's house is ruined, its women made slaves	6	4	ActsRoles/held/sig/A/g15/Significance.txt
+tragedy:P05	A	Opus	held	g15	p3	the dead Achilles holds the Greek fleet from sailing home	13	4	ActsRoles/held/sig/A/g15/Significance.txt
+tragedy:P05	A	Opus	held	g15	p4	Achilles demands Polyxena's sacrifice at his tomb	15	4	ActsRoles/held/sig/A/g15/Significance.txt
+tragedy:P05	A	Opus	held	g15	p5	the blinded Polymestor hunts Hecuba and her women to tear them apart	115	4	ActsRoles/held/sig/A/g15/Significance.txt
+tragedy:P06	A	Opus	held	g15	p1	Creon's edict leaves Polyneices unburied, food for birds and dogs	149	4	ActsRoles/held/sig/A/g15/Significance.txt
+tragedy:P06	A	Opus	held	g15	p2	Antigone is condemned to death for burying her brother	184	4	ActsRoles/held/sig/A/g15/Significance.txt
+tragedy:P06	A	Opus	held	g15	p3	Creon loses his son and his wife, each by their own hand	215	4	ActsRoles/held/sig/A/g15/Significance.txt
+tragedy:P07	A	Opus	held	g16	p1	the sons of Aegyptus seek to force the maidens into marriage	1	4	ActsRoles/held/sig/A/g16/Significance.txt
+tragedy:P07	A	Opus	held	g16	p2	deadly serpents plague the Argive land	24	4	ActsRoles/held/sig/A/g16/Significance.txt
+tragedy:P07	A	Opus	held	g16	p3	Hera torments Io, the maidens' ancestress, for Zeus's love	28	4	ActsRoles/held/sig/A/g16/Significance.txt
+tragedy:P08	A	Opus	held	g16	p1	Clytemnestra and Aegisthus kill Agamemnon and take his house from his children	118	4	ActsRoles/held/sig/A/g16/Significance.txt
+tragedy:P08	A	Opus	held	g16	p2	Thyestes wrongs his brother Atreus over the golden lamb	202	4	ActsRoles/held/sig/A/g16/Significance.txt
+tragedy:P08	A	Opus	held	g16	p3	the matricide defiles Orestes and Electra and drives them from Argos	275	4	ActsRoles/held/sig/A/g16/Significance.txt
+tragedy:P01	B	Sonnet	held	g13	p1	the Argive fires at night make Hector fear flight, and he must choose between attacking blind and sending a spy	1	4	ActsRoles/held/sig/B/g13/Significance.txt
+tragedy:P01	B	Sonnet	held	g13	p2	Hector scorns Rhesus for coming late, and the two quarrel over his delay	20	4	ActsRoles/held/sig/B/g13/Significance.txt
+tragedy:P01	B	Sonnet	held	g13	p3	Rhesus comes to Troy and is killed in his sleep by the Greek raiders	39	4	ActsRoles/held/sig/B/g13/Significance.txt
+tragedy:P01	B	Sonnet	held	g13	p4	the Thracian charioteer accuses Hector of killing Rhesus for his horses	87	4	ActsRoles/held/sig/B/g13/Significance.txt
+tragedy:P02	B	Sonnet	held	g13	p1	Eurystheus drives out and hunts Heracles' children and Iolaus, who are left with no refuge and no defender	118	4	ActsRoles/held/sig/B/g13/Significance.txt
+tragedy:P02	B	Sonnet	held	g13	p2	the oracles demand the sacrifice of a noble maiden before Athens can win	163	4	ActsRoles/held/sig/B/g13/Significance.txt
+tragedy:P03	B	Sonnet	held	g14	p1	blind Oedipus, an outcast, has no refuge and seeks the place where he is to find rest and end his life	1	4	ActsRoles/held/sig/B/g14/Significance.txt
+tragedy:P03	B	Sonnet	held	g14	p3	Thebes and Creon want to take Oedipus back and hold him by their borders, and seize his daughters	29	4	ActsRoles/held/sig/B/g14/Significance.txt
+tragedy:P03	B	Sonnet	held	g14	p2	Oedipus's sons fight over the throne of Thebes and the strife heads toward their deaths	31	4	ActsRoles/held/sig/B/g14/Significance.txt
+tragedy:P03	B	Sonnet	held	g14	p4	Oedipus's daughters are left bereaved and unprotected at his death	119	4	ActsRoles/held/sig/B/g14/Significance.txt
+tragedy:P04	B	Sonnet	held	g14	p1	Creusa's secret son by Phoebus is exposed and lost, and Ion grows up not knowing his mother	134	4	ActsRoles/held/sig/B/g14/Significance.txt
+tragedy:P04	B	Sonnet	held	g14	p2	Xuthus and Creusa are childless; when Xuthus is given a stranger as his son, Creusa tries to kill him	143	4	ActsRoles/held/sig/B/g14/Significance.txt
+tragedy:P04	B	Sonnet	held	g14	p3	Creusa is condemned to die for the plot and hunted, and Ion seeks to kill her	211	4	ActsRoles/held/sig/B/g14/Significance.txt
+tragedy:P05	B	Sonnet	held	g15	p1	Polymestor kills Hecuba's son Polydorus for gold and casts him out unburied, and Hecuba wants vengeance	1	4	ActsRoles/held/sig/B/g15/Significance.txt
+tragedy:P05	B	Sonnet	held	g15	p2	the army demands Hecuba's daughter Polyxena as a sacrifice to Achilles	12	4	ActsRoles/held/sig/B/g15/Significance.txt
+tragedy:P06	B	Sonnet	held	g15	p1	Creon forbids burial of Polyneices, who lies unburied	140	4	ActsRoles/held/sig/B/g15/Significance.txt
+tragedy:P06	B	Sonnet	held	g15	p2	Antigone defies the edict and is condemned to be walled up alive	167	4	ActsRoles/held/sig/B/g15/Significance.txt
+tragedy:P06	B	Sonnet	held	g15	p3	Creon's refusal to yield destroys his house	197	4	ActsRoles/held/sig/B/g15/Significance.txt
+tragedy:P07	B	Sonnet	held	g16	p1	the sons of Aegyptus pursue the maidens to force marriage on them, and the maidens need a refuge	1	4	ActsRoles/held/sig/B/g16/Significance.txt
+tragedy:P07	B	Sonnet	held	g16	p2	the herald of the Egyptians tries to seize the maidens from the sanctuary	68	4	ActsRoles/held/sig/B/g16/Significance.txt
+tragedy:P08	B	Sonnet	held	g16	p1	Agamemnon is murdered and Aegisthus and Clytemnestra seize his house, wronging his children, who must avenge him	113	4	ActsRoles/held/sig/B/g16/Significance.txt
+tragedy:P08	B	Sonnet	held	g16	p2	the matricide pollutes Orestes and forces him into exile, pursued by the dread goddesses, and parts him from Electra	265	4	ActsRoles/held/sig/B/g16/Significance.txt
+tale:A098	A	Opus	five	v1	p1	the daughter is cast out alone into the forest at the stepmother's urging	1	4	ActsRoles/five/sig/A/v1/Significance.txt
+tale:A098	A	Opus	five	v1	p2	the stepmother greedily wants the same riches won by her own daughter	20	4	ActsRoles/five/sig/A/v1/Significance.txt
+fable:F043	A	Opus	five	v1	p1	the Man's boast is put to a proof he cannot give	37	4	ActsRoles/five/sig/A/v1/Significance.txt
+fable:F060	A	Opus	five	v1	p1	the Man is stripped of his hair by two sweethearts pulling opposite ways	42	4	ActsRoles/five/sig/A/v1/Significance.txt
+fable:F114	A	Opus	five	v1	p1	the milkmaid's dreamed-of fortune from her milk	47	4	ActsRoles/five/sig/A/v1/Significance.txt
+fable:F124	A	Opus	five	v1	p1	the travellers' hope of seeing a great ship come in	51	4	ActsRoles/five/sig/A/v1/Significance.txt
+tale:A098	B	Sonnet	five	v1	p1	the stepmother sends the hero out to the forest to be rid of her	1	4	ActsRoles/five/sig/B/v1/Significance.txt
+tale:A098	B	Sonnet	five	v1	p2	the stepmother's greed sends her own daughter to win the same reward	16	4	ActsRoles/five/sig/B/v1/Significance.txt
+fable:F043	B	Sonnet	five	v1	p1	the man's boast is challenged and he must prove it	32	4	ActsRoles/five/sig/B/v1/Significance.txt
+fable:F060	B	Sonnet	five	v1	p1	the man loses all his hair to the two women	36	4	ActsRoles/five/sig/B/v1/Significance.txt
+fable:F114	B	Sonnet	five	v1	p1	the daydream is lost when the pail falls	41	4	ActsRoles/five/sig/B/v1/Significance.txt
+fable:F124	B	Sonnet	five	v1	p1	the travellers wait in vain for what proves to be a bundle of sticks	45	4	ActsRoles/five/sig/B/v1/Significance.txt

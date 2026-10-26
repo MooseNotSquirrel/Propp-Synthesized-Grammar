@@ -373,6 +373,26 @@ ActsRoles/animal/sig/input/B-q4.txt	lines 485	kept 475	blank 10	unexplained 0
 ActsRoles/animal/sig/B/q4/Significance.txt	lines 264	kept 264	-	unexplained 0
 ActsRoles/animal/sig/input/B-q5.txt	lines 556	kept 546	blank 10	unexplained 0
 ActsRoles/animal/sig/B/q5/Significance.txt	lines 306	kept 306	-	unexplained 0
+ActsRoles/held/sig/input/A-g13.txt	lines 362	kept 360	blank 2	unexplained 0
+ActsRoles/held/sig/A/g13/Significance.txt	lines 208	kept 208	-	unexplained 0
+ActsRoles/held/sig/input/A-g14.txt	lines 487	kept 485	blank 2	unexplained 0
+ActsRoles/held/sig/A/g14/Significance.txt	lines 282	kept 282	-	unexplained 0
+ActsRoles/held/sig/input/A-g15.txt	lines 461	kept 459	blank 2	unexplained 0
+ActsRoles/held/sig/A/g15/Significance.txt	lines 278	kept 277	blank 1	unexplained 0
+ActsRoles/held/sig/input/A-g16.txt	lines 540	kept 538	blank 2	unexplained 0
+ActsRoles/held/sig/A/g16/Significance.txt	lines 306	kept 306	-	unexplained 0
+ActsRoles/held/sig/input/B-g13.txt	lines 369	kept 367	blank 2	unexplained 0
+ActsRoles/held/sig/B/g13/Significance.txt	lines 213	kept 213	-	unexplained 0
+ActsRoles/held/sig/input/B-g14.txt	lines 468	kept 466	blank 2	unexplained 0
+ActsRoles/held/sig/B/g14/Significance.txt	lines 262	kept 262	-	unexplained 0
+ActsRoles/held/sig/input/B-g15.txt	lines 450	kept 448	blank 2	unexplained 0
+ActsRoles/held/sig/B/g15/Significance.txt	lines 263	kept 263	-	unexplained 0
+ActsRoles/held/sig/input/B-g16.txt	lines 523	kept 521	blank 2	unexplained 0
+ActsRoles/held/sig/B/g16/Significance.txt	lines 287	kept 287	-	unexplained 0
+ActsRoles/five/sig/input/A-v1.txt	lines 97	kept 92	blank 5	unexplained 0
+ActsRoles/five/sig/A/v1/Significance.txt	lines 56	kept 56	-	unexplained 0
+ActsRoles/five/sig/input/B-v1.txt	lines 91	kept 86	blank 5	unexplained 0
+ActsRoles/five/sig/B/v1/Significance.txt	lines 50	kept 50	-	unexplained 0
 ActsRoles/heroes/answers/A/ah1/Heroes.txt	lines 25	kept 25	-	unexplained 0
 ActsRoles/heroes/answers/A/ah2/Heroes.txt	lines 25	kept 25	-	unexplained 0
 ActsRoles/heroes/answers/A/h10/Heroes.txt	lines 8	kept 8	-	unexplained 0

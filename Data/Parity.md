@@ -4,22 +4,21 @@
 
 ## 1. The layers, by corpus
 
-**Stories with the layer from both describers, counted from the tables on 2026-10-25.**
+**Stories with the layer from both describers, counted from the tables on 2026-10-26, after session 7.**
 
 | Layer | Wondertale | Animal tale | Fable | Tragedy | Myth |
 |---|---|---|---|---|---|
 | Stories in the collection | 45 | 50 | 313 | 32 | 412 units |
 | Event lists | 45 | 50 | 201 | 32 | 412 |
 | Propp's functions | 45, on cards U and C, and Propp's own | 50, card C | 198 | 32 | 126 |
-| Role-free acts | 45 | 50 | 90 | 24 | 0 |
-| Significance | 44 | 50 | 86 | 24 | 0 |
+| Role-free acts | 45 | 50 | 90 | 32 | 0 |
+| Significance | 45 | 50 | 90 | 32 | 0 |
 | Free verbs | 45 | 50 | 90 | 32 | 0 |
-| Hero, two readers | 45 | 0 | 198 | 32 | 0 |
-| Hero, judged agreed | 40 | 0 | 158 | 27 | 0 |
+| Hero, two readers | 45 | 50 | 198 | 32 | 0 |
+| Hero, judged agreed | 40 | 45 | 158 | 27 | 0 |
 
 **What remains to collect, by decision and by plan.**
-- **The animal tales' heroes by two readers** and **the tragedies' acts and significance for P01 to P08**: `Plan.md` session 7, when the budget allows.
-- **Significance for five stories that have acts** (wondertale A098; fables F043, F060, F114, F124): the significance stage took only stories whose two readers' heroes matched word by word, and the matching rule's stop list (*man*, *woman*, *daughter*, *old*) and two namings of one hero ("the farmer's daughter" and "the Milk-Woman"; "travellers" and "Travelers") kept these five out, though both readers name the same hero in each (`KeeperLog.md`, 2026-10-25). With those heroes taken as agreed, one small significance stage; added to session 7.
+- **Collected in session 7** (`Session7Protocol.md`; `KeeperLog.md`, 2026-10-26): the animal tales' heroes by two readers, the tragedies' acts and significance for P01 to P08, and significance for the five stories that have acts (wondertale A098; fables F043, F060, F114, F124), with the heroes their readers gave taken as agreed at the owner's word. *Hero, judged agreed* counts by the word rule unchanged (`Heroes/withJudgedHeroes.py`): with its role words kept, the animal tales agree in 50 of 50 (`Parity/heroes-animal.txt`), and the five stories above in all five.
 - **The fables beyond the 90 described, and the myths beyond their functions:** not to be collected, by decisions 2 and 1. The next ancient corpus gets every layer from the start.
 - **The character-set layer** (`ProppQueue.md` item (m)): not yet built; part of the parity rule once it is.
 

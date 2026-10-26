@@ -1,0 +1,9 @@
+A g13 acts  200, described  200, missing   0, unknown ids 0, problem lines   8, faults 0
+A g14 acts  274, described  274, missing   0, unknown ids 0, problem lines   8, faults 0
+A g15 acts  269, described  269, missing   0, unknown ids 0, problem lines   8, faults 0
+A g16 acts  300, described  300, missing   0, unknown ids 0, problem lines   6, faults 0
+B g13 acts  207, described  207, missing   0, unknown ids 0, problem lines   6, faults 0
+B g14 acts  255, described  255, missing   0, unknown ids 0, problem lines   7, faults 0
+B g15 acts  258, described  258, missing   0, unknown ids 0, problem lines   5, faults 0
+B g16 acts  283, described  283, missing   0, unknown ids 0, problem lines   4, faults 0
+IN FORM
