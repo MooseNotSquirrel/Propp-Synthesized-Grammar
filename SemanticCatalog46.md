@@ -95,7 +95,7 @@ The tales vary these freely without changing the end.
 - **EBNF:** `tale = [initialSituation] preparatorySection move FollowingMoves`
 - **Literal meaning:** The whole story.
   A misfortune or a want sets it going, and each new one starts a new move inside it.
-- **Cultural meaning:** A young person's passage from a home left unprotected to the head of a new home.
+- **Cultural meaning:** A young person's passage from a home left unprotected until becoming the head of a new home.
   The tale tells this passage as a pattern taken from ancient initiation rites.
   The family order is the same in a kingdom and in a peasant household.
   The tale is a cycle: it starts from one family and ends by founding the next, whose child will be the next hero.
