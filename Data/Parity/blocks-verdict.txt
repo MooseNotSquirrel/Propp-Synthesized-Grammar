@@ -1,0 +1,4 @@
+PARITY PREDICTIONS 7 AND 8, REPORT 9 (Data/ParityProtocol.md)
+  7. animal tales: blocks told together more than chance, both transcribers, blocks and strict readings: HOLDS
+  8. myths: blocks told together more than chance, both transcribers, blocks and strict readings: HOLDS
+  9. reported: the order model that fits the animal tales best, A fable, B fable

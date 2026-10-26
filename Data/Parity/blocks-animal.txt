@@ -1,0 +1,19 @@
+# blocks-animal.txt -- Blocks/parity.py run: Data/ParityProtocol.md, frozen 2026-10-21; blockStream.py's transform and coverage, 200 in-place shuffles, seed 46; Tragedy/BlockPrediction.txt's adjacency rule.
+
+TRANSCRIBER A, reading blocks: functions inside blocks 577 of 952 (60.6%); shuffled mean 402.1 (42.2%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER A, reading strict: functions inside blocks 439 of 952 (46.1%); shuffled mean 216.8 (22.8%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER A, reading all: functions inside blocks 782 of 952 (82.1%); shuffled mean 585.4 (61.5%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER B, reading blocks: functions inside blocks 495 of 803 (61.6%); shuffled mean 356.3 (44.4%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER B, reading strict: functions inside blocks 387 of 803 (48.2%); shuffled mean 205.3 (25.6%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER B, reading all: functions inside blocks 655 of 803 (81.6%); shuffled mean 524.2 (65.3%); shuffles at or above the real: 0 of 200  ADJACENT
+
+REPORT 9, reported and not judged: each genre's order model and Propp's on the animal tales (Blocks/GenreOrder.md's concordance gap, 1000 shuffles, seed 46)
+  A  wondertale  concordance gap +0.079  (shuffles at or above: 0 of 1000)
+  A  fable       concordance gap +0.083  (shuffles at or above: 0 of 1000)
+  A  tragedy     concordance gap +0.043  (shuffles at or above: 32 of 1000)
+  A  Propp       concordance gap +0.055  (shuffles at or above: 4 of 1000)
+  B  wondertale  concordance gap +0.088  (shuffles at or above: 0 of 1000)
+  B  fable       concordance gap +0.127  (shuffles at or above: 0 of 1000)
+  B  tragedy     concordance gap +0.044  (shuffles at or above: 43 of 1000)
+  B  Propp       concordance gap +0.061  (shuffles at or above: 6 of 1000)
+  best fit: A fable, B fable

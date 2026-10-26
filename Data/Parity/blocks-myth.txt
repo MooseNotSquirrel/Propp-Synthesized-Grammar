@@ -1,0 +1,8 @@
+# blocks-myth.txt -- Blocks/parity.py run: Data/ParityProtocol.md, frozen 2026-10-21; blockStream.py's transform and coverage, 200 in-place shuffles, seed 46; Tragedy/BlockPrediction.txt's adjacency rule.
+
+TRANSCRIBER A, reading blocks: functions inside blocks 575 of 1200 (47.9%); shuffled mean 372.5 (31.0%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER A, reading strict: functions inside blocks 467 of 1200 (38.9%); shuffled mean 259.1 (21.6%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER A, reading all: functions inside blocks 899 of 1200 (74.9%); shuffled mean 682.6 (56.9%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER B, reading blocks: functions inside blocks 597 of 1419 (42.1%); shuffled mean 421.0 (29.7%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER B, reading strict: functions inside blocks 433 of 1419 (30.5%); shuffled mean 257.8 (18.2%); shuffles at or above the real: 0 of 200  ADJACENT
+TRANSCRIBER B, reading all: functions inside blocks 1001 of 1419 (70.5%); shuffled mean 802.8 (56.6%); shuffles at or above the real: 0 of 200  ADJACENT
