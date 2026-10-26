@@ -1,0 +1,6 @@
+PARITY PREDICTIONS 1 TO 4 (Data/ParityProtocol.md)
+  1. animal tales, functions, at least half of Propp's pairs confirmed: FAILS
+  2. animal tales, acts, at least half of the counterparts confirmed: FAILS
+  3. animal tales, both layers, next token more predictable than shuffled: HOLDS
+  4. myths, functions, predictions 1 and 3: HOLDS (pairs hold, entropy holds)
+  the wondertales on card C are reported beside them, not predicted.

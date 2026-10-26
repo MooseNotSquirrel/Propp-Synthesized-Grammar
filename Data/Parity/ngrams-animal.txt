@@ -1,0 +1,60 @@
+# ngrams-animal.txt -- ngrams.py parity animal: Data/ParityProtocol.md, frozen 2026-10-21; all stories of the corpus, on the committed candidates (Candidates.txt) and the thresholds of NgramProtocol.md, unchanged.
+
+functions: stories A 50, B 50
+  adjacent  ε -> ζ  not confirmed   A n 4 lift 16.06 p 0.0010; B n 1 lift 20.00 p 0.0509   profile 18.0 4.7 0.0 0.0 0.0 0.0, adjacent
+  adjacent  B -> C  CONFIRMED   A n 10 lift 14.66 p 0.0010; B n 12 lift 8.18 p 0.0010   profile 11.4 1.2 0.0 0.0 1.2 0.0, adjacent
+  adjacent  η -> θ  CONFIRMED   A n 103 lift 3.16 p 0.0010; B n 112 lift 3.08 p 0.0010   profile 3.1 1.2 1.0 1.0 1.2 0.9, adjacent
+  adjacent  D -> E  not confirmed   A n 10 lift 10.88 p 0.0010; B n 0 lift 0.00 p 1.0000   profile 5.4 8.1 0.0 1.4 0.0 0.7, spaced (peak 2 apart)
+  adjacent  I -> L  not confirmed   A n 0 lift 0.00 p 1.0000; B n 0 lift 0.00 p 1.0000   profile 0.0 0.0 0.0 0.0 0.0 0.0, adjacent
+  adjacent  H -> I  CONFIRMED   A n 7 lift 6.24 p 0.0010; B n 3 lift 3.59 p 0.0260   profile 4.9 2.6 1.9 3.4 0.0 0.6, adjacent
+  adjacent  D -> E−  not confirmed   A n 0 lift 0.00 p 1.0000; B n 2 lift 19.61 p 0.0030   profile 9.8 0.0 0.0 0.0 0.0 0.0, adjacent
+  adjacent  M -> N  not confirmed   A n 0 lift 0.00 p 1.0000; B n 0 lift 0.00 p 1.0000   profile 0.0 8.7 0.0 0.0 0.0 0.0, spaced (peak 2 apart)
+  adjacent  C -> ↑  not confirmed   A n 1 lift 1.97 p 0.4126; B n 1 lift 1.85 p 0.4316   profile 1.9 3.2 3.1 4.3 0.0 0.0, spaced (peak 4 apart)
+  adjacent  E -> G  not confirmed   A n 0 lift 0.00 p 1.0000; B n 0 lift 0.00 p 1.0000   profile 0.0 3.1 0.0 0.0 3.8 0.0, spaced (peak 5 apart)
+  adjacent  K -> W  not confirmed   A n 0 lift 0.00 p 1.0000; B n 0 lift 0.00 p 1.0000   profile 0.0 0.0 1.7 0.0 0.0 0.0, spaced (peak 3 apart)
+  adjacent  ↑ -> D  not confirmed   A n 3 lift 9.17 p 0.0040; B n 0 lift 0.00 p 1.0000   profile 4.6 0.0 1.6 0.0 0.0 0.0, adjacent
+  adjacent  γ -> δ  not confirmed   A n 2 lift 2.16 p 0.2238; B n 6 lift 3.34 p 0.0040   profile 2.8 5.1 0.9 1.0 0.7 1.7, long (lift 1.7 still at 6 apart)
+  adjacent  θ -> I  CONFIRMED   A n 11 lift 3.29 p 0.0010; B n 13 lift 3.18 p 0.0010   profile 3.2 1.5 1.8 2.2 2.4 1.6, long (lift 1.6 still at 6 apart)
+  adjacent  B -> ↑  CONFIRMED   A n 4 lift 3.76 p 0.0090; B n 5 lift 4.48 p 0.0040   profile 4.1 1.0 1.1 0.6 3.1 0.0, adjacent
+  adjacent  I -> K  CONFIRMED   A n 6 lift 2.26 p 0.0490; B n 4 lift 3.61 p 0.0170   profile 2.9 1.3 0.6 0.5 0.8 0.0, adjacent
+  adjacent  a -> F−  CONFIRMED   A n 6 lift 4.23 p 0.0020; B n 6 lift 4.39 p 0.0010   profile 4.3 1.1 1.6 0.4 1.8 1.5, adjacent
+  adjacent  A -> B  CONFIRMED   A n 7 lift 2.95 p 0.0040; B n 9 lift 4.32 p 0.0010   profile 3.6 0.4 0.5 0.2 1.7 0.5, adjacent
+  adjacent  θ -> A  CONFIRMED   A n 42 lift 2.73 p 0.0010; B n 63 lift 2.68 p 0.0010   profile 2.7 0.8 0.9 0.9 1.1 0.5, adjacent
+  adjacent  a -> F  not confirmed   A n 4 lift 1.04 p 0.5584; B n 8 lift 2.12 p 0.0260   profile 1.6 2.1 1.6 1.8 1.6 0.7, spaced (peak 2 apart)
+  near      N -> K  not confirmed   A n 1 lift 3.16 p 0.2877; B n 0 lift 0.00 p 1.0000   profile 0.0 0.0 0.0 5.0 4.9 0.0, spaced (peak 4 apart)
+  near      η -> I  CONFIRMED   A n 36 lift 2.05 p 0.0010; B n 26 lift 1.61 p 0.0030   profile 1.2 2.0 1.8 1.6 1.6 1.9, long (lift 1.9 still at 6 apart)
+  near      ↑ -> H  not confirmed   A n 2 lift 2.07 p 0.2567; B n 1 lift 1.63 p 0.4905   profile 0.0 2.2 1.6 1.7 0.0 1.5, spaced (peak 2 apart)
+  near      B -> ↑  not confirmed   A n 4 lift 1.50 p 0.2877; B n 1 lift 0.36 p 0.9550   profile 4.1 1.0 1.1 0.6 3.1 0.0, adjacent
+  near      η -> θ  not confirmed   A n 94 lift 1.09 p 0.1798; B n 97 lift 1.02 p 0.4725   profile 3.1 1.2 1.0 1.0 1.2 0.9, adjacent
+
+acts: stories A 50, B 50
+  adjacent  forbid -> disobey  not confirmed   A n 2 lift 2.47 p 0.1738; B n 2 lift 2.58 p 0.1868   profile 2.5 4.8 2.2 1.5 0.8 0.0, spaced (peak 2 apart)
+  adjacent  deceive -> be-taken-in  CONFIRMED   A n 70 lift 4.37 p 0.0010; B n 61 lift 4.18 p 0.0010   profile 4.3 1.6 1.7 0.6 0.8 1.3, adjacent
+  adjacent  expose -> punish  not confirmed   A n 0 lift 0.00 p 1.0000; B n 0 lift 0.00 p 1.0000   profile 0.0 5.5 0.0 3.0 0.0 0.0, spaced (peak 2 apart)
+  adjacent  guide -> lament  not confirmed   A n 1 lift 1.95 p 0.4006; B n 1 lift 1.68 p 0.4845   profile 1.8 0.0 2.0 1.0 2.3 2.5, long (lift 2.5 still at 6 apart)
+  adjacent  set-task -> do-task  not confirmed   A n 0 lift 0.00 p 1.0000; B n 1 lift 20.00 p 0.0509   profile 10.0 0.0 7.9 0.0 0.0 0.0, adjacent
+  adjacent  seek-information -> reveal-information  CONFIRMED   A n 40 lift 7.18 p 0.0010; B n 31 lift 6.79 p 0.0010   profile 7.0 0.5 1.7 0.4 0.5 1.3, adjacent
+  adjacent  test -> fight  not confirmed   A n 1 lift 3.22 p 0.2757; B n 0 lift 0.00 p 1.0000   profile 1.6 4.3 2.6 6.2 0.0 5.2, long (lift 5.2 still at 6 apart)
+  adjacent  be-taken-in -> harm  CONFIRMED   A n 45 lift 4.33 p 0.0010; B n 37 lift 3.88 p 0.0010   profile 4.1 0.9 0.8 0.7 0.5 1.3, adjacent
+  adjacent  test -> respond  CONFIRMED   A n 11 lift 3.63 p 0.0010; B n 17 lift 4.16 p 0.0010   profile 3.9 0.9 1.0 0.5 0.5 0.8, adjacent
+  adjacent  fight -> win  not confirmed   A n 0 lift 0.00 p 1.0000; B n 1 lift 5.41 p 0.1808   profile 2.7 0.0 3.7 0.0 0.0 0.0, spaced (peak 3 apart)
+  adjacent  seek-information -> deceive  CONFIRMED   A n 34 lift 2.52 p 0.0010; B n 32 lift 3.20 p 0.0010   profile 2.9 1.1 0.8 0.8 1.1 1.1, adjacent
+  adjacent  fight -> deceive  not confirmed   A n 1 lift 2.05 p 0.4146; B n 1 lift 2.24 p 0.3846   profile 2.1 2.3 0.0 0.0 0.0 0.0, spaced (peak 2 apart)
+  adjacent  plead -> respond  CONFIRMED   A n 51 lift 5.37 p 0.0010; B n 58 lift 4.96 p 0.0010   profile 5.2 0.5 2.7 0.7 1.7 1.1, adjacent
+  adjacent  harm -> escape  CONFIRMED   A n 16 lift 2.78 p 0.0010; B n 14 lift 2.13 p 0.0020   profile 2.5 1.1 1.5 1.3 1.6 1.1, adjacent
+  near      be-taken-in -> escape  CONFIRMED   A n 25 lift 1.97 p 0.0030; B n 23 lift 1.93 p 0.0020   profile 1.4 2.6 2.1 1.0 1.3 1.7, long (lift 1.7 still at 6 apart)
+  near      fight -> win  not confirmed   A n 0 lift 0.00 p 1.0000; B n 1 lift 2.74 p 0.3477   profile 2.7 0.0 3.7 0.0 0.0 0.0, spaced (peak 3 apart)
+  near      deceive -> harm  CONFIRMED   A n 104 lift 1.72 p 0.0010; B n 86 lift 1.53 p 0.0010   profile 0.6 2.4 1.2 1.2 1.1 0.7, spaced (peak 2 apart)
+
+PAIRS (Ngrams predictions 1 and 2, as ParityProtocol.md predictions 1, 2 and 4 apply them)
+  at least half of Propp's pairs among the functions that occur at least 5 times (adjacent or near) for both transcribers are confirmed: 2 of 6 -> FAILS
+     confirmed: η->θ, H->I; not: γ->δ, Pr->Rs, A->K, a->K
+  at least half of their counterparts among the acts that occur at least 5 times (adjacent or near) for both transcribers are confirmed: 3 of 7 -> FAILS
+     confirmed: seek-information->reveal-information, deceive->be-taken-in, test->respond; not: forbid->disobey, respond->give, pursue->escape, harm->repair
+
+ENTROPY (Ngrams prediction 4, as ParityProtocol.md predictions 3 and 4 apply it): next token given the current, against 200 shuffles within stories
+  functions A  next-token entropy 2.601 bits, shuffled 3.361, p 0.0050
+  functions B  next-token entropy 2.348 bits, shuffled 3.096, p 0.0050
+  acts      A  next-token entropy 3.311 bits, shuffled 3.937, p 0.0050
+  acts      B  next-token entropy 3.314 bits, shuffled 3.931, p 0.0050
+  below the shuffled strings, p <= 0.05, every layer and transcriber: 4 of 4 -> HOLDS
