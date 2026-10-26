@@ -1,0 +1,6 @@
+PARITY PREDICTION 5 AND REPORT 6 (Data/ParityProtocol.md)
+  5. animal tales, every tight link tested holds for both transcribers: 1 of 1 tested hold -> HOLDS
+     tested: Pr -> Rs; held: Pr -> Rs; too rare to test (first function in fewer than 5 moves for a transcriber): H -> I, M -> N, D and E -> F
+  6. reported, the frame links, share of moves with the first in which the second follows (A, B):
+     A or a -> K  animal tales 25% and 19%; wondertales on card C 44% and 41%
+     ↑ -> ↓       animal tales 36% and 19%; wondertales on card C 33% and 39%
