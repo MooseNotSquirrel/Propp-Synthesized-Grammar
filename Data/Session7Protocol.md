@@ -1,4 +1,4 @@
-# Session 7: the reader stages, collection protocol (DRAFT, NOT FROZEN)
+# Session 7: the reader stages, collection protocol (FROZEN 2026-10-26 AT THE OWNER'S WORD, AS DRAFTED)
 
 **Drafted 2026-10-26 for `Plan.md` session 7.** These stages collect layers the parity rule requires (`DataProtocol.md`, decision 4); they test no claim, so the protocol freezes how they are set up and checked, and what is reported, and makes no prediction. Each stage is cleared in Propp-ActsRoles `RUN.md` only after this file is frozen at the owner's word.
 
