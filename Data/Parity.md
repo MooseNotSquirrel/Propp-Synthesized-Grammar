@@ -19,7 +19,7 @@
 
 **What remains to collect, by decision and by plan.**
 - **The animal tales' heroes by two readers** and **the tragedies' acts and significance for P01 to P08**: `Plan.md` session 7, when the budget allows.
-- **Significance for five stories that have acts** (wondertale A098; fables F043, F060, F114, F124): the significance stage took only stories with a judged hero, and these five had none. A hero is to be decided for each, then one small stage; added to session 7.
+- **Significance for five stories that have acts** (wondertale A098; fables F043, F060, F114, F124): the significance stage took only stories whose two readers' heroes matched word by word, and the matching rule's stop list (*man*, *woman*, *daughter*, *old*) and two namings of one hero ("the farmer's daughter" and "the Milk-Woman"; "travellers" and "Travelers") kept these five out, though both readers name the same hero in each (`KeeperLog.md`, 2026-10-25). With those heroes taken as agreed, one small significance stage; added to session 7.
 - **The fables beyond the 90 described, and the myths beyond their functions:** not to be collected, by decisions 2 and 1. The next ancient corpus gets every layer from the start.
 - **The character-set layer** (`ProppQueue.md` item (m)): not yet built; part of the parity rule once it is.
 
