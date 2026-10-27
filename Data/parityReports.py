@@ -53,8 +53,8 @@ def read_tables(L, corpora):
             if not re.match(r'^([PFA]\d{2}|L\d-\d{3})', base):
                 continue
             st.setdefault(base, collections.OrderedDict()).setdefault(r['version'] or '1', []).append(
-                (TS.base(r['raw']), SX.key(r['performer']), SX.key(r['undergoer'])))
-        out[g] = {s: vs[sorted(vs, key=lambda v: (len(v), v))[0]] for s, vs in st.items()}
+                (TS.base(r['raw']), r['performer'].strip(), r['undergoer'].strip()))
+        out[g] = {s: [e[:3] for x in SX.first_reading(vs) for e in SX.expand(*x)] for s, vs in st.items()}
     return out
 
 

@@ -4,7 +4,8 @@ explore.py -- a first look at Propp's spheres of action in the four genres. Expl
 frozen test. Each function in the original transcriptions is credited to the character who
 performs it; a character's spheres are those whose functions it performs (Propp, ch. VI);
 names are matched within a story (articles and punctuation left out; a name whose words all
-stand in one longer name of the same story joins it).
+stand in one longer name of the same story joins it), after a field naming several characters
+is split into their names (Characters/SplitRule.md).
 
   python explore.py           writes Spheres/SpheresExplore.txt
   python explore.py strict    writes Spheres/SpheresExplore-strict.txt, struggle left out of the villain's sphere
@@ -42,6 +43,31 @@ def key(name):
     return tuple(w for w in re.findall(r'[^\W\d_]+', name.lower()) if w not in STOP)
 
 
+# A field naming several characters is split before the join (Characters/SplitRule.md, adopted by the owner
+# 2026-10-26): notes in parentheses dropped, then split at a semicolon, a slash, a comma or *and*; a part that is
+# only a pronoun-like word is dropped, group nouns kept; a function is credited to every name its performer holds.
+PAREN = re.compile(r'\([^)]*\)')
+SPLIT = re.compile(r'\s*(?:;|/|,|\band\b)\s*')
+DROP = {'others', 'other', 'all', 'both', 'everyone', 'everybody', 'they', 'some', 'many', 'rest'}
+
+
+def split_field(raw):
+    """a performer or undergoer field as the names of the characters it holds"""
+    parts = [p.strip() for p in SPLIT.split(PAREN.sub(' ', raw))]
+    return [p for p in parts if key(p) and key(p) not in [(w,) for w in DROP]]
+
+
+def expand(fn, praw, uraw):
+    """one function entry as one entry per pair of the names its two fields hold: (function, performer key,
+    undergoer key, performer name, undergoer name)"""
+    return [(fn, key(a), key(b), a, b) for a in split_field(praw) or [''] for b in split_field(uraw) or ['']]
+
+
+def first_reading(vs):
+    """the first reading of a story: the version with the fewest entries, then the lowest name"""
+    return vs[sorted(vs, key=lambda v: (len(v), v))[0]]
+
+
 def read(L):
     """{genre: {story: [(function, performer key, undergoer key)]}}, first reading of each story"""
     out = {}
@@ -55,8 +81,8 @@ def read(L):
                         continue
                     base, _, ver = f[0].partition('/')
                     st.setdefault(base, collections.OrderedDict()).setdefault(ver or '1', []).append(
-                        (TS.base(f[sf]), key(f[sf + 1]), key(f[sf + 2])))
-        out[g] = {s: vs[sorted(vs, key=lambda v: (len(v), v))[0]] for s, vs in st.items()}
+                        (TS.base(f[sf]), f[sf + 1], f[sf + 2]))
+        out[g] = {s: [e[:3] for x in first_reading(vs) for e in expand(*x)] for s, vs in st.items()}
     return out
 
 

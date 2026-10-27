@@ -10,7 +10,7 @@ per story, per reader, built from the normalized tables.
   python characters.py c4         test C4: the acts joined by event agree with the name join, where both are English
   python characters.py c5         test C5: the grouping recovers planted roles, and shuffled profiles do not match the spheres
   python characters.py c6         test C6: two builds byte-identical
-  python characters.py c7         DRAFT, not adopted: the split of several-name fields (Characters/SplitRule.md)
+  python characters.py c7         test C7: the split of several-name fields (Characters/SplitRule.md)
   python characters.py dry        counts only: stories, characters, characters with a sphere, names resolved by kind
 
 The characters are the function layer's, in every corpus. The act and free-verb names are joined to them, by name
@@ -107,16 +107,16 @@ def is_group(name, h):
 
 # ---------------------------------------------------------------- the table
 def entries(L, g):
-    """{story: [(function, performer key, undergoer key, performer name, undergoer name)]}, the first reading of
-    each story, as Spheres/explore.py's read() takes it"""
+    """{story: [(function, performer key, undergoer key, performer name, undergoer name, event)]}, the first reading
+    of each story, its several-name fields split, as Spheres/explore.py's read() takes it"""
     st = collections.OrderedDict()
     for r in DT.files('functions', PATS[g], L):
         base = DT.local(r['story'])
         if not re.match(r'^([PFA]\d{2}|L\d-\d{3})', base):
             continue
         st.setdefault(base, collections.OrderedDict()).setdefault(r['version'] or '1', []).append(
-            (TS.base(r['raw']), SX.key(r['performer']), SX.key(r['undergoer']), r['performer'].strip(), r['undergoer'].strip(), r['event']))
-    return {s: vs[sorted(vs, key=lambda v: (len(v), v))[0]] for s, vs in st.items()}
+            (TS.base(r['raw']), r['performer'].strip(), r['undergoer'].strip(), r['event']))
+    return {s: [e + (ev,) for fn, pr, ur, ev in SX.first_reading(vs) for e in SX.expand(fn, pr, ur)] for s, vs in st.items()}
 
 
 def layer_rows(name):
@@ -169,11 +169,10 @@ def characters(L, g, s, ents, acts=(), free=()):
     for layer, rs in (('acts', acts), ('free', free)):
         for r in rs:
             for side, field in (('p', 'performer'), ('u', 'undergoer')):
-                if not SX.key(r[field]):
-                    continue
-                c = who(r[field])
+              for part in SX.split_field(r[field]):
+                c = who(part)
                 if c is None:
-                    unjoined[(layer, side, r[field].strip())] += 1
+                    unjoined[(layer, side, part)] += 1
                     continue
                 d = new(c)
                 d['layers'].add(layer)
@@ -243,11 +242,10 @@ def c1():
                 links = {a: c for a, (c, _) in event_join(g, L, s, ents, acts).items()}
                 for r in list(acts) + list(free):
                     for field in ('performer', 'undergoer'):
-                        k = SX.key(r[field])
-                        if not k:
-                            continue
+                      for part in SX.split_field(r[field]):
+                        k = SX.key(part)
                         layer_names += 1
-                        c = links.get(k) if CYR.search(r[field]) else name_join(k, names, canon)
+                        c = links.get(k) if CYR.search(part) else name_join(k, names, canon)
                         if c is None:
                             apart += 1
                         elif have.get((s, L, ' '.join(c))) != 1:
@@ -385,9 +383,8 @@ def event_join(g, L, s, ents, acts):
         if p:
             fun[ev].add(canon.get(p, p))
     for r in acts:
-        k = SX.key(r['performer'])
-        if k:
-            act[r['event']].add(k)
+        for part in SX.split_field(r['performer']):
+            act[r['event']].add(SX.key(part))
     links = collections.defaultdict(collections.Counter)
     for ev, a in act.items():
         if len(a) == 1 and len(fun.get(ev, ())) == 1:
@@ -471,11 +468,12 @@ def real_profiles():
                 prof = collections.defaultdict(lambda: np.zeros(len(F)))
                 for r in A.get((g + ':' + s, L), []):
                     for side, field in (('p:', 'performer'), ('u:', 'undergoer')):
-                        if CYR.search(r[field]):
-                            continue
-                        c = name_join(SX.key(r[field]), names, canon) if SX.key(r[field]) else None
-                        if c is not None and side + r['act'].lower() in ix:
-                            prof[c][ix[side + r['act'].lower()]] += 1
+                        for part in SX.split_field(r[field]):
+                            if CYR.search(part):
+                                continue
+                            c = name_join(SX.key(part), names, canon)
+                            if c is not None and side + r['act'].lower() in ix:
+                                prof[c][ix[side + r['act'].lower()]] += 1
                 for c, v in sorted(prof.items()):
                     if v.sum() >= 3:
                         out.append((v, ' + '.join(sorted(sph.get(c, ()))) or 'none'))
@@ -514,80 +512,29 @@ def c5():
     return ok
 
 
-# ---------------------------------------------------------------- DRAFT, not adopted: splitting several-name fields
-# Characters/SplitRule.md. Nothing below is used by table() or by Spheres/explore.py until the owner adopts it.
-PAREN = re.compile(r'\([^)]*\)')
-SPLIT = re.compile(r'\s*(?:;|/|,|\band\b)\s*')
-GENERIC = {'all', 'others', 'other', 'everyone', 'everybody', 'people', 'men', 'women', 'some', 'many', 'both', 'they'}
-
-
-def split_field(raw):
-    """a performer or undergoer field as the names of the characters it holds: notes in parentheses dropped, then
-    split at a semicolon, a slash, a comma or the word *and*; *with* is left alone, since it mostly describes"""
-    s = PAREN.sub(' ', raw)
-    return [p.strip() for p in SPLIT.split(s) if SX.key(p.strip())]
-
-
-def split_entries(L, g, credit='all'):
-    """entries() with each several-name field split; a several-name performer's function credited to every name it
-    holds (all), to its first name only (first), or to none of them, the names kept as characters (none)"""
-    out = {}
-    for s, ents in entries(L, g).items():
-        new = []
-        for fn, p, u, pr, ur, ev in ents:
-            ps, us = split_field(pr) or [''], split_field(ur) or ['']
-            for i, a in enumerate(ps):
-                f = fn if credit == 'all' or len(ps) == 1 or (credit == 'first' and i == 0) else 'X'
-                for b in us:
-                    new.append((f, SX.key(a), SX.key(b), a, b, ev))
-        out[s] = new
-    return out
-
-
+# ---------------------------------------------------------------- the split of several-name fields
 def c7():
-    """the draft split rule: every part is one name and no field is lost; what the split changes, counted for review"""
+    """the split (Characters/SplitRule.md, adopted 2026-10-26; Spheres/explore.py's split_field): no field with a name
+    loses every name, no name keeps a separator, and the pronoun-like parts dropped are counted"""
     several = re.compile(r';|/|,|\band\b')
-    fields = parts = lost = left = 0
-    suspect = set()
+    fields = parts = lost = left = dropped = 0
     for g in PATS:
         for L in 'AB':
-            for s, ents in entries(L, g).items():
-                for e in ents:
-                    for raw in e[3:5]:
-                        if not SX.key(raw):
-                            continue
-                        fields += 1
-                        ps = split_field(raw)
-                        parts += len(ps)
-                        lost += not ps and bool(SX.key(PAREN.sub(' ', raw)))
-                        left += sum(bool(several.search(p)) for p in ps)
-                        if len(ps) > 1 and any(SX.key(p) in [(w,) for w in GENERIC] for p in ps):
-                            suspect.add(raw)
+            for r in DT.files('functions', PATS[g], L):
+                for raw in (r['performer'], r['undergoer']):
+                    raw = raw.strip()
+                    if not SX.key(raw):
+                        continue
+                    fields += 1
+                    ps = SX.split_field(raw)
+                    parts += len(ps)
+                    whole = [x for x in SX.SPLIT.split(SX.PAREN.sub(' ', raw)) if SX.key(x.strip())]
+                    dropped += len(whole) - len(ps)
+                    lost += not ps and any(SX.key(x) not in [(w,) for w in SX.DROP] for x in whole)
+                    left += sum(bool(several.search(x)) for x in ps)
     ok = not lost and not left
-    print('C7 fields %d, names after the split %d; fields that lose every name %d; names still holding a separator %d: %s'
-          % (fields, parts, lost, left, 'PASS' if ok else 'FAIL'))
-    print('C7 for review, splits leaving a bare generic word (%d distinct fields): %s'
-          % (len(suspect), '; '.join(sorted(suspect)[:20])))
-    for g in PATS:
-        for L in 'AB':
-            row = []
-            for label, data in (('now', entries(L, g)), ('split, all', split_entries(L, g)),
-                                ('first', split_entries(L, g, 'first')), ('none', split_entries(L, g, 'none'))):
-                n = hv = 0
-                for s, ents in data.items():
-                    canon = SX.merge([e[:3] for e in ents])
-                    sph = collections.defaultdict(set)
-                    chars = set()
-                    for fn, p, u, _, _, _ in ents:
-                        chars.update(canon.get(k, k) for k in (p, u) if k)
-                        if p:
-                            for name, fs in SX.SPHERES.items():
-                                if fn in fs:
-                                    sph[canon.get(p, p)].add(name)
-                    n += len(chars)
-                    hv += sum(1 for v in sph.values() if {'hero', 'villain'} <= v)
-                row.append('%s %4d, h+v %2d' % (label, n, hv))
-            print('C7 %-8s %s %s' % (g, L, '; '.join(row)))
+    print('C7 fields %d, names after the split %d, pronoun-like parts dropped %d; fields that lose every name %d; '
+          'names still holding a separator %d: %s' % (fields, parts, dropped, lost, left, 'PASS' if ok else 'FAIL'))
     return ok
 
 
