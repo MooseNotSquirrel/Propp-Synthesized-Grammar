@@ -211,3 +211,11 @@ NEXT: `names-8` (`n26` to `n28`, the tragedies, 6 readers), at the owner's word,
   - things written as characters: "Polyphontes's order", "the god's interdiction", the grandfather's head, the oaks of Dodona;
   - from a control, "the Fox's daughter".
 NEXT: `names-9` (`n29` to `n31`, the myths, 6 readers), at the owner's word, when the budget allows.
+**2026-10-27. The second name stage, fifth portion: `names-9` run, merged.** `n29` to `n31`, the myths, six readers started at once from master dc7795c, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-9` (fbdcc07) and merged at ab33f50; no failure. Each reader used about 60,000 to 61,000 tokens, some 364,000 in all. A check of form on the three batches: every item answered once, in order, with a kind and a confidence from the lists and a reason.
+- **Raised by the readers, reported and not judged:**
+  - Earth, Styx and the Sun as gods or forces;
+  - the Titans' kin and the prisoners in Tartarus, giants (Pallas, Otus), the Cyclopes and the Fates, as deity or supernatural;
+  - Prometheus, Hercules, Orion and Apis, between god and mortal;
+  - Medea, Circe and Thetis as witch, goddess or woman;
+  - the Argo with its speaking timber, the fire-breathing bulls, and the armed men sprung from teeth.
+NEXT: `names-10` (`n32` to `n34`, the myths, 6 readers), at the owner's word, when the budget allows.
