@@ -377,3 +377,11 @@ NEXT: `names-16` (`n53` to `n56`, 8 readers), at the owner's word, when the budg
   - disembodied hands, the unseen thing that eats the wheat;
   - in the fables: a dead mouse's body, a viper's eggs, a painted lion, a carved image of Mercury, "the prey", the Hares' assembly.
 NEXT: `names-17` (`n57` to `n59`, 6 readers), at the owner's word, when the budget allows.
+**2026-10-28. The fourth name stage, third portion: `names-17` run, merged.** `n57` to `n59`, the animal tales and fables, tragedies and myths, six readers started at once from master 30dc23c, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-17` (7cb7467) and merged at ad18c45; no failure. The readers used 57,500 to 61,000 tokens each, some 354,000 in all. A check of form on the three batches: every item answered once, in order, with a kind and a confidence from the lists and a reason.
+- **Raised by the readers, reported and not judged:**
+  - the Fox's speaking eyes, legs and tail, and the Old Woman's body and bones: 15 items, all called object;
+  - the oracle as shrine or pronouncement; a speaking ship;
+  - monstrous bulls and the hound of Hades, between beast and monster;
+  - one item that merges two characters (the bull loved by Phaedra's mother, and Phaedra's mother).
+- **Phrase-names:** the readers flag "forced by the drug", "by lot", "as a result of Orpheus's violation" and "by means of Athena". The phrase filter in `names.py` counts a name apart when it begins with a preposition or *whoever*, so the last three are counted apart. "Forced by the drug" is not caught and will be given a kind. Reported, not changed.
+NEXT: `names-18` (`n60` and `n61`, 4 readers), at the owner's word; then the form check, the merge (with the 167 controls), C1 to C7, and the rescoring.
