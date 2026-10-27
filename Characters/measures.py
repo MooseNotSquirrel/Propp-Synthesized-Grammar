@@ -3,7 +3,10 @@
 measures.py -- the measures of Data/CharacterProtocol.md section 4, and the scoring of its predictions 1 to 6 (section 5),
 read from tables/characters.tsv through tables.py. Every figure is given for readers A and B separately.
 
-  python measures.py run     write Characters/CharacterRun.txt
+  python measures.py run             write Characters/CharacterRun.txt
+  python measures.py run --amended   write Characters/CharacterRun-amended.txt: the same measures on the table amended
+                                     after the measures (Characters/SenseRule.md), reported beside the record, not
+                                     replacing it (CharacterProtocol.md section 8)
 
 1. Kind by role: for the characters holding each of the seven spheres, and for those holding any, the share of each
    kind; unknown is a share of its own, and a role whose unknown is 10% or more is UNRESOLVED.
@@ -44,6 +47,7 @@ KINDS = ['person', 'animal', 'deity', 'supernatural', 'object', 'unknown']
 SPHERES = list(C.SX.SPHERES)
 SHUFFLES = 1000
 OUT = os.path.join(HERE, 'CharacterRun.txt')
+AMENDED = os.path.join(HERE, 'CharacterRun-amended.txt')
 
 
 def counts(field):
@@ -195,13 +199,20 @@ def verdict(a, b):
     return 'HOLDS' if a and b else ('SPLIT' if a or b else 'FAILS')
 
 
-def run():
+def run(amended=False):
     rows = DT.rows('characters')
     cell = collections.defaultdict(list)
     for r in rows:
         cell[(r['corpus'], r['reader'])].append(r)
-    out = ['# CharacterRun.txt -- measures.py: the measures of Data/CharacterProtocol.md section 4, and predictions 1 to 6',
-           '# every figure for readers A and B separately; the keeper\'s operational rules are in measures.py\'s header']
+    if amended:
+        out = ['# CharacterRun-amended.txt -- measures.py run --amended: the measures of Data/CharacterProtocol.md section 4, and '
+               'predictions 1 to 6, on the table AMENDED AFTER THE MEASURES (Characters/SenseRule.md, CharacterProtocol.md section 8)',
+               '# reported beside the verdicts of record in CharacterRun.txt, not replacing them; the amendment was prompted partly by '
+               'faults seen in prediction 2\'s figures',
+               '# every figure for readers A and B separately; the keeper\'s operational rules are in measures.py\'s header']
+    else:
+        out = ['# CharacterRun.txt -- measures.py: the measures of Data/CharacterProtocol.md section 4, and predictions 1 to 6',
+               '# every figure for readers A and B separately; the keeper\'s operational rules are in measures.py\'s header']
     K, B, R = {}, {}, {}
     for g in CORPORA:
         for L in 'AB':
@@ -271,11 +282,12 @@ def run():
                                                     for g, x in res.items())))
     out.append('  6. the grouping agrees with the spheres better than shuffled profiles do, where it does not collapse: %s' % verdict(p6['A'], p6['B']))
     text = '\n'.join(out) + '\n'
-    open(OUT, 'w', encoding='utf-8', newline='\n').write(text)
+    open(AMENDED if amended else OUT, 'w', encoding='utf-8', newline='\n').write(text)
     print(text, end='')
 
 
 if __name__ == '__main__':
-    if sys.argv[1:] != ['run']:
+    a = sys.argv[1:]
+    if a not in (['run'], ['run', '--amended']):
         sys.exit(__doc__)
-    run()
+    run(amended=a == ['run', '--amended'])
