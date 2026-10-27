@@ -94,7 +94,10 @@ def read(L):
 
 
 def head(k):
-    """a name key's head noun: the word before its first *of*, or else its last word"""
+    """a name key's head noun: in a possessive (*'s*, kept in the key as *s*) the last word, the one possessed;
+    else the word before its first *of*; else its last word"""
+    if 's' in k:
+        return k[-1]
     return k[k.index('of') - 1] if 'of' in k[1:] else k[-1]
 
 
@@ -109,7 +112,7 @@ def joins(n, m):
         return True
     if set(m) - set(n) <= TITLES:
         return True
-    return set(n) <= TITLES and m[:len(n)] == n
+    return set(n) <= TITLES and m[:len(n)] == n and 's' not in m
 
 
 def merge(entries):
