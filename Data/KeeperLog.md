@@ -291,3 +291,9 @@ NEXT: the owner chooses in `SenseRule.md`, sections 2 and 3.
   - 11 batches, `n38` to `n48`, of 22 to 77 items. The controls are spread evenly, so the two small batches (`n38`, 22 items; `n48`, 33) carry 5 or 6 controls each.
   - 22 readers, about 1.3 million tokens. The run would write 33 files into ActsRoles and add to `NameItems.tsv` and `NameControls.txt`.
 NEXT: at the owner's word, `python names.py setup3` writes the stage; then it runs in portions.
+**2026-10-27. The third name stage written; no reader started.** At the owner's word. `python names.py setup3` wrote `names/input/n38.txt` to `n48.txt` and their 22 prompts into ActsRoles, and added to `NameItems.tsv` and `NameControls.txt`, exactly as the dry run said. In `RUN.md` the stage is cut into three portions:
+- `names-12`: `n38` to `n41`, 8 readers;
+- `names-13`: `n42` to `n45`, 8 readers;
+- `names-14`: `n46` to `n48`, 6 readers.
+The table stays unchanged until both readers' answers for a batch exist.
+NEXT: `names-12`, at the owner's word, when the budget allows.

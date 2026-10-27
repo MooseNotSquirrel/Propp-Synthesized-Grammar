@@ -2615,3 +2615,714 @@ n37-071	myth	L3-111	jason
 n37-072	myth	L3-139	other women	
 n37-073	myth	L3-152	athens	
 n37-074	myth	L3-153	minos	
+n38-001	tale	A093	sun s sister	
+n38-002	fable	F248	cloak	Y
+n38-003	tale	A144	swift runner	Y
+n38-004	tale	A125	water king	
+n38-005	tale	A126	brass man	
+n38-006	tale	A137	eater	
+n38-007	tale	A137	drinker	
+n38-008	tale	A144	listener	
+n38-009	tale	A144	marksman	
+n38-010	fable	F303	youth	Y
+n38-011	tale	A139	second princess	Y
+n38-012	tale	A144	eater	
+n38-013	tale	A128	dragon	Y
+n38-014	tale	A144	drinker	
+n38-015	tale	A149	dragon	
+n38-016	tale	A149	gypsy	
+n38-017	tale	A163	snake	
+n38-018	tale	A163	raven	
+n38-019	tale	A163	cock	
+n38-020	tale	A135	father	Y
+n38-021	tale	A144	runner	
+n38-022	tale	A159	anna	
+n39-001	fable	F004	wolf	
+n39-002	fable	F006	second weasel	
+n39-003	fable	F006	bat	
+n39-004	tale	A166	cudgel	Y
+n39-005	fable	F007	cock	
+n39-006	fable	F012	hare	
+n39-007	fable	F012	tortoise	
+n39-008	fable	F012	fox	
+n39-009	fable	F015	fisherman	
+n39-010	fable	F021	ass	
+n39-011	fable	F021	fox	
+n39-012	fable	F021	lion	
+n39-013	fable	F022	flies	
+n39-014	tragedy	P04	child	Y
+n39-015	fable	F029	bear	
+n39-016	fable	F029	fox	
+n39-017	fable	F030	tortoise	
+n39-018	fable	F030	eagle	
+n39-019	fable	F034	dog	
+n39-020	fable	F034	oxen	
+n39-021	animal	A047	man	Y
+n39-022	fable	F034	ox	
+n39-023	fable	F037	lion	
+n39-024	fable	F037	fox	
+n39-025	fable	F039	fox	
+n39-026	fable	F040	cat	
+n39-027	fable	F040	cock	
+n39-028	fable	F045	miser	
+n39-029	fable	F051	horse	
+n39-030	fable	F051	groom	
+n39-031	fable	F052	muleteer	
+n39-032	fable	F052	ass	
+n39-033	fable	F052	mule	
+n39-034	fable	F055	wolf	
+n39-035	fable	F066	jackdaw	
+n39-036	fable	F068	woman	
+n39-037	fable	F068	physician	
+n39-038	fable	F071	heifer	
+n39-039	fable	F071	ox	
+n39-040	fable	F073	charger	
+n39-041	tale	A136	king of india s army	Y
+n39-042	fable	F079	monkey	
+n39-043	fable	F083	brass pot	
+n39-044	fable	F086	father	
+n39-045	fable	F091	mouse	
+n39-046	fable	F091	frog	
+n39-047	fable	F091	hawk	
+n39-048	fable	F092	fisherman	
+n39-049	fable	F096	huntsman	
+n39-050	fable	F096	fisherman	
+n39-051	fable	F098	widow	
+n39-052	fable	F098	sheep	
+n39-053	fable	F099	ass	
+n39-054	myth	L1-020	herb	Y
+n39-055	fable	F100	stag	
+n39-056	fable	F100	oxen	
+n39-057	fable	F111	lion	
+n39-058	fable	F161	wind	Y
+n39-059	fable	F111	ass	
+n39-060	fable	F111	cock	
+n39-061	fable	F112	sea	
+n39-062	fable	F115	bee	
+n39-063	fable	F130	farmer	
+n39-064	fable	F132	partridge	
+n39-065	fable	F132	cock	
+n39-066	fable	F140	other fox	
+n39-067	fable	F141	one frog	
+n39-068	fable	F141	other frog	
+n39-069	fable	F142	lamp	
+n39-070	fable	F145	cat	
+n39-071	fable	F145	mouse	
+n39-072	fable	F147	host dog	
+n39-073	fable	F147	cook	
+n39-074	fable	F149	prince	
+n39-075	fable	F152	seagull	
+n39-076	fable	F152	kite	
+n40-001	fable	F157	lion	
+n40-002	tale	A144	mother	Y
+n40-003	fable	F161	bald knight	
+n40-004	fable	F163	mother	
+n40-005	fable	F165	shepherd	
+n40-006	fable	F165	dog	
+n40-007	fable	F166	woodcutter	
+n40-008	fable	F166	oak	
+n40-009	fable	F167	snake	
+n40-010	fable	F169	cottager	
+n40-011	fable	F169	hen	
+n40-012	fable	F171	crow	
+n40-013	fable	F175	bowman	
+n40-014	fable	F175	lion	
+n40-015	fable	F175	fox	
+n40-016	tragedy	P08	achilles father	Y
+n40-017	fable	F176	man	
+n40-018	fable	F176	camel	
+n40-019	fable	F178	shepherd	
+n40-020	fable	F178	ass	
+n40-021	fable	F180	woman	
+n40-022	fable	F180	hen	
+n40-023	fable	F186	eagle	
+n40-024	fable	F186	cat	
+n40-025	fable	F191	serpent	
+n40-026	fable	F191	eagle	
+n40-027	fable	F192	crow	
+n40-028	fable	F193	thief	
+n40-029	fable	F193	innkeeper	
+n40-030	fable	F198	wolf	
+n40-031	fable	F198	kid	
+n40-032	fable	F203	man	
+n40-033	fable	F203	wife	
+n40-034	fable	F204	horse	
+n40-035	fable	F204	man	
+n40-036	fable	F204	ox	
+n40-037	fable	F204	dog	
+n40-038	fable	F206	king of apes	
+n40-039	fable	F206	lying traveler	
+n40-040	tale	A156	tsaritsa	Y
+n40-041	fable	F206	truthful traveler	
+n40-042	fable	F207	fox	
+n40-043	fable	F207	lion	
+n40-044	fable	F210	peacock	
+n40-045	fable	F213	seller of images	
+n40-046	fable	F215	lark	
+n40-047	fable	F219	goat	
+n40-048	fable	F219	ass	
+n40-049	fable	F221	fox	
+n40-050	fable	F221	mask	
+n40-051	fable	F222	owl	
+n40-052	fable	F222	grasshopper	
+n40-053	tale	A152	peasant s wife	Y
+n40-054	fable	F223	viper	
+n40-055	tale	A126	bird	Y
+n40-056	fable	F225	lion	
+n40-057	fable	F226	wolf	
+n40-058	fable	F226	goat	
+n40-059	fable	F231	farmer	
+n40-060	fable	F232	brother	
+n40-061	fable	F232	sister	
+n40-062	fable	F232	father	
+n40-063	fable	F239	fox	
+n40-064	fable	F239	lion	
+n40-065	fable	F240	frog	
+n40-066	fable	F240	fox	
+n40-067	fable	F244	mercury	
+n40-068	fable	F248	spendthrift	
+n40-069	myth	L2-018	sea monster	Y
+n40-070	fable	F248	swallow	
+n40-071	fable	F249	trumpeter	
+n40-072	fable	F252	ass	
+n40-073	fable	F252	fox	
+n40-074	fable	F256	dove	
+n40-075	fable	F259	eagle	
+n40-076	fable	F259	jackdaw	
+n41-001	fable	F264	lark	
+n41-002	fable	F265	gnat	
+n41-003	fable	F265	bull	
+n41-004	fable	F271	timid soldier	
+n41-005	fable	F271	brave soldier	
+n41-006	fable	F278	eagle	
+n41-007	fable	F278	lion	
+n41-008	fable	F279	ass	
+n41-009	tale	A128	maiden of copper kingdom	Y
+n41-010	myth	L2-045	monster	Y
+n41-011	fable	F281	mistress wolf	
+n41-012	fable	F281	mother	
+n41-013	fable	F282	hen	
+n41-014	fable	F282	swallow	
+n41-015	fable	F295	rich man	
+n41-016	fable	F295	tanner	
+n41-017	fable	F297	lion	
+n41-018	fable	F297	shepherd	
+n41-019	fable	F297	king	
+n41-020	fable	F298	camel	
+n41-021	fable	F301	eagle	
+n41-022	fable	F301	fox	
+n41-023	fable	F302	king	
+n41-024	fable	F302	king s son	
+n41-025	tale	A164	sable	Y
+n41-026	fable	F309	crow	
+n41-027	fable	F309	serpent	
+n41-028	fable	F005	father	
+n41-029	fable	F008	crow	
+n41-030	fable	F008	swallow	
+n41-031	fable	F014	boy	
+n41-032	fable	F023	lioness	
+n41-033	fable	F024	farmer	
+n41-034	fable	F024	snake	
+n41-035	fable	F025	man	
+n41-036	fable	F025	lion	
+n41-037	fable	F032	raven	
+n41-038	fable	F035	oxen	
+n41-039	fable	F041	wolf	
+n41-040	fable	F042	goatherd	
+n41-041	fable	F042	goat	
+n41-042	fable	F043	traveler	
+n41-043	fable	F047	boy	
+n41-044	fable	F060	younger woman	Y
+n41-045	fable	F050	lion	
+n41-046	fable	F050	fox	
+n41-047	tale	A135	dragon s daughter	Y
+n41-048	fable	F060	man	
+n41-049	fable	F063	astronomer	
+n41-050	fable	F064	sheep	
+n41-051	fable	F067	kid	
+n41-052	fable	F067	wolf	
+n41-053	fable	F069	ox	
+n41-054	fable	F069	mother frog	
+n41-055	fable	F070	father	
+n41-056	fable	F072	winning cock	
+n41-057	fable	F072	vanquished cock	
+n41-058	fable	F072	eagle	
+n41-059	tale	A156	eldest son	Y
+n41-060	fable	F074	monkey	
+n41-061	fable	F074	fox	
+n41-062	fable	F078	goat	
+n41-063	fable	F078	vine	
+n41-064	fable	F081	sprat	
+n41-065	fable	F081	dolphin	
+n41-066	fable	F084	wolf	
+n41-067	fable	F085	mother crab	
+n41-068	fable	F093	wolf	
+n41-069	fable	F093	sheep	
+n41-070	fable	F102	wild ass	
+n41-071	fable	F114	pail	
+n41-072	fable	F116	wolf	
+n41-073	fable	F116	mastiff	
+n41-074	fable	F122	boar	
+n41-075	fable	F122	bull	
+n41-076	fable	F122	ass	
+n41-077	fable	F127	mercury	
+n42-001	fable	F127	sculptor	
+n42-002	fable	F128	fox	
+n42-003	fable	F128	woodcutter	
+n42-004	fable	F131	wolf	
+n42-005	fable	F131	lion	
+n42-006	fable	F133	ant	
+n42-007	fable	F133	dove	
+n42-008	fable	F136	goose	
+n42-009	fable	F138	fisherman	
+n42-010	fable	F138	fish	
+n42-011	fable	F139	hunter	
+n42-012	fable	F139	woodman	
+n42-013	fable	F143	camel	
+n42-014	fable	F144	ass	
+n42-015	fable	F148	cock	
+n42-016	fable	F154	philosopher	
+n42-017	fable	F154	ant	
+n42-018	fable	F154	mercury	
+n42-019	fable	F155	peasant	
+n42-020	myth	L3-110	snake	Y
+n42-021	fable	F155	eagle	
+n42-022	fable	F159	lion	
+n42-023	fable	F159	fox	
+n42-024	fable	F159	ass	
+n42-025	fable	F224	owner	Y
+n42-026	fable	F160	lion	
+n42-027	fable	F160	bull	
+n42-028	fable	F160	he goat	
+n42-029	fable	F164	hound	
+n42-030	fable	F164	hare	
+n42-031	fable	F174	bull	
+n42-032	fable	F174	lioness	
+n42-033	fable	F174	hunter	
+n42-034	fable	F179	fox	
+n42-035	fable	F185	stag	
+n42-036	fable	F185	sheep	
+n42-037	fable	F189	wizard	
+n42-038	fable	F195	gnat	
+n42-039	fable	F196	fox	
+n42-040	fable	F197	walnut tree	
+n42-041	fable	F200	stag	
+n42-042	tale	A137	six headed monster	Y
+n42-043	fable	F200	horse	
+n42-044	fable	F205	thief	
+n42-045	fable	F205	housedog	
+n42-046	fable	F208	weasel	
+n42-047	fable	F208	mouse	
+n42-048	fable	F214	hawk	
+n42-049	fable	F214	nightingale	
+n42-050	fable	F216	dog	
+n42-051	fable	F216	cock	
+n42-052	fable	F216	fox	
+n42-053	fable	F220	lion	
+n42-054	fable	F220	bull	
+n42-055	fable	F224	horse	
+n42-056	fable	F224	ass	
+n42-057	fable	F227	fly	
+n42-058	fable	F230	wolf	
+n42-059	fable	F230	fox	
+n42-060	fable	F230	ape	
+n42-061	fable	F234	blind man	
+n42-062	fable	F236	wolf	
+n42-063	fable	F236	horse	
+n42-064	fable	F242	dog	
+n42-065	fable	F246	lion	
+n42-066	animal	A018	door	Y
+n42-067	fable	F247	bat	
+n42-068	fable	F250	owl	
+n42-069	fable	F253	hare	
+n42-070	animal	A026	jug	Y
+n42-071	fable	F253	sparrow	
+n42-072	fable	F254	flea	
+n42-073	fable	F254	ox	
+n42-074	fable	F255	man	
+n42-075	tale	A139	eldest princess	Y
+n42-076	fable	F255	ass	
+n43-001	fable	F257	man	
+n43-002	fable	F257	satyr	
+n43-003	fable	F266	camel	
+n43-004	fable	F269	workman	
+n43-005	fable	F269	mercury	
+n43-006	fable	F270	peasant	
+n43-007	fable	F270	apple tree	
+n43-008	fable	F275	fox	
+n43-009	fable	F276	traveller	
+n43-010	fable	F283	amaranth	
+n43-011	fable	F283	rose	
+n43-012	fable	F285	ass	
+n43-013	fable	F285	horse	
+n43-014	fable	F286	crow	
+n43-015	fable	F286	sheep	
+n43-016	fable	F290	dog	
+n43-017	fable	F291	treasure mule	
+n43-018	fable	F291	grain mule	
+n43-019	fable	F299	panther	
+n43-020	fable	F300	eagle	
+n43-021	fable	F300	kite	
+n43-022	fable	F303	cat	
+n43-023	fable	F304	eagle	
+n43-024	fable	F304	beetle	
+n43-025	fable	F307	shipwrecked man	
+n43-026	fable	F307	sea	
+n43-027	fable	F308	buffoon	
+n43-028	fable	F308	countryman	
+n43-029	fable	F313	brazier	
+n43-030	fable	F313	dog	
+n43-031	fable	F006	weasel	
+n43-032	fable	F161	knight	
+n43-033	fable	F163	mother monkey	
+n43-034	fable	F186	sow	
+n43-035	fable	F213	seller	
+n43-036	fable	F298	bull	
+n43-037	fable	F302	prince	
+n43-038	fable	F134	hare	
+n43-039	fable	F205	dog	
+n43-040	fable	F290	oyster	
+n43-041	animal	A001	man	
+n43-042	animal	A001	woman	
+n43-043	animal	A001	fox	
+n43-044	animal	A001	wolf	
+n43-045	animal	A001	peasant	
+n43-046	tale	A137	tsaritsa	Y
+n43-047	animal	A001	cockerel	
+n43-048	animal	A002	peasant	
+n43-049	tragedy	P15	eteocles son of oedipus	Y
+n43-050	animal	A041	mouse	Y
+n43-051	animal	A002	fox	
+n43-052	fable	F189	neighbour	Y
+n43-053	animal	A002	wolf	
+n43-054	animal	A003	fox	
+n43-055	animal	A003	wolf	
+n43-056	animal	A004	cockerel	
+n43-057	animal	A004	hen	
+n43-058	animal	A004	man	
+n43-059	animal	A004	woman	
+n43-060	animal	A004	fox	
+n43-061	animal	A004	wolf	
+n43-062	animal	A005	fox	
+n43-063	animal	A005	fisherman	
+n43-064	animal	A005	wolf	
+n43-065	animal	A006	fox	
+n43-066	animal	A006	woman	
+n43-067	animal	A006	wolf	
+n43-068	tale	A125	servant	Y
+n43-069	animal	A007	fox	
+n43-070	animal	A007	bear	
+n43-071	animal	A007	wolf	
+n43-072	animal	A007	hare	
+n43-073	animal	A008	fox	
+n43-074	animal	A008	peasant	
+n43-075	animal	A008	bear	
+n43-076	animal	A008	wolf	
+n44-001	animal	A009	fox	
+n44-002	animal	A009	wolf	
+n44-003	animal	A010	fox	
+n44-004	animal	A010	wolf	
+n44-005	animal	A010	peasant	
+n44-006	animal	A010	wife	
+n44-007	animal	A011	fox	
+n44-008	animal	A011	wolf	
+n44-009	animal	A011	peasant	
+n44-010	animal	A012	wolf	
+n44-011	animal	A012	fox	
+n44-012	animal	A013	another fox	
+n44-013	animal	A013	wolf	
+n44-014	animal	A014	fox	
+n44-015	animal	A014	hare	
+n44-016	animal	A014	bear	
+n44-017	animal	A014	bull	
+n44-018	tragedy	P19	erymanthian beast	Y
+n44-019	animal	A015	fox	
+n44-020	animal	A015	cockerel	
+n44-021	animal	A016	fox	
+n44-022	tale	A137	monster s body	Y
+n44-023	animal	A016	cockerel	
+n44-024	animal	A017	sow	
+n44-025	animal	A017	wolf	
+n44-026	animal	A017	fox	
+n44-027	animal	A017	cockerel	
+n44-028	animal	A018	man	
+n44-029	animal	A018	woman	
+n44-030	animal	A018	fox	
+n44-031	animal	A019	man	
+n44-032	animal	A019	woman	
+n44-033	animal	A020	grandmother	
+n44-034	animal	A020	one eyed goat	
+n44-035	animal	A020	twelve eyed goat	
+n44-036	animal	A021	daughter	
+n44-037	animal	A021	man	
+n44-038	animal	A021	bear	
+n44-039	animal	A021	wolf	
+n44-040	animal	A021	fox	
+n44-041	animal	A022	woman	
+n44-042	animal	A022	man	
+n44-043	animal	A022	bear	
+n44-044	animal	A022	fox	
+n44-045	animal	A023	bear	
+n44-046	animal	A023	peasant	
+n44-047	animal	A023	fox	
+n44-048	animal	A024	peasant	
+n44-049	animal	A024	bear	
+n44-050	animal	A024	fox	
+n44-051	animal	A025	peasant	
+n44-052	animal	A025	bear	
+n44-053	animal	A025	fox	
+n44-054	animal	A026	wolf	
+n44-055	animal	A026	peasant	
+n44-056	animal	A026	fox	
+n44-057	animal	A027	wolf	
+n44-058	tale	A161	princess	Y
+n44-059	animal	A027	peasant	
+n44-060	animal	A027	mare	
+n44-061	animal	A027	dog	
+n44-062	animal	A027	fox	
+n44-063	animal	A028	sheep	
+n44-064	animal	A028	fox	
+n44-065	animal	A028	wolf	
+n44-066	animal	A029	pig	
+n44-067	animal	A029	wolf	
+n44-068	myth	L1-067	mother	Y
+n44-069	animal	A029	fox	
+n44-070	animal	A029	hare	
+n44-071	myth	L1-016	lad	Y
+n44-072	animal	A029	squirrel	
+n44-073	animal	A030	wolf	
+n44-074	animal	A030	hog	
+n44-075	animal	A030	bear	
+n45-001	animal	A030	hare	
+n45-002	animal	A030	fox	
+n45-003	animal	A030	thrush	
+n45-004	animal	A031	fox	
+n45-005	animal	A031	grouse	
+n45-006	animal	A032	woodpecker	
+n45-007	animal	A032	fox	
+n45-008	animal	A033	fox	
+n45-009	animal	A034	wolf	
+n45-010	animal	A034	fox	
+n45-011	animal	A035	fox	
+n45-012	animal	A035	crayfish	
+n45-013	animal	A036	bun	
+n45-014	animal	A036	hare	
+n45-015	animal	A036	wolf	
+n45-016	fable	F159	game	Y
+n45-017	animal	A036	bear	
+n45-018	animal	A037	cockerel	
+n45-019	animal	A037	cat	
+n45-020	animal	A037	fox	
+n45-021	animal	A038	cat	
+n45-022	animal	A038	cockerel	
+n45-023	animal	A038	ram	
+n45-024	animal	A038	fox	
+n45-025	animal	A039	cat	
+n45-026	animal	A039	cockerel	
+n45-027	animal	A039	fox	
+n45-028	animal	A040	cat	
+n45-029	animal	A040	fox	
+n45-030	animal	A040	wolf	
+n45-031	tale	A152	bear	Y
+n45-032	animal	A040	bear	
+n45-033	animal	A040	hare	
+n45-034	animal	A041	cat	
+n45-035	animal	A041	fox	
+n45-036	animal	A041	bear	
+n45-037	tragedy	P09	medea s brother	Y
+n45-038	animal	A041	hare	
+n45-039	animal	A042	bear	
+n45-040	animal	A042	cat	
+n45-041	animal	A004	horse	Y
+n45-042	animal	A042	wolf	
+n45-043	tale	A138	man without arms	Y
+n45-044	animal	A042	deer	
+n45-045	animal	A042	fox	
+n45-046	animal	A042	hare	
+n45-047	animal	A043	fox	
+n45-048	animal	A043	cat	
+n45-049	animal	A043	boar	
+n45-050	animal	A043	bear	
+n45-051	animal	A043	wolf	
+n45-052	animal	A044	cat	
+n45-053	animal	A044	ram	
+n45-054	animal	A044	bear	
+n45-055	animal	A044	fox	
+n45-056	animal	A044	marmot	
+n45-057	animal	A045	cat	
+n45-058	animal	A045	goat	
+n45-059	animal	A045	ram	
+n45-060	animal	A045	bear	
+n45-061	animal	A046	goat	
+n45-062	animal	A046	ram	
+n45-063	animal	A046	bear	
+n45-064	animal	A047	goat	
+n45-065	animal	A047	ram	
+n45-066	animal	A048	bear	
+n45-067	animal	A048	fox	
+n45-068	animal	A048	gadfly	
+n45-069	animal	A049	wolf	
+n45-070	animal	A050	wolf	
+n45-071	animal	A001	dog	
+n45-072	animal	A007	owner of horse	
+n45-073	animal	A008	bullock	
+n45-074	animal	A015	hen	
+n45-075	animal	A020	twelfth goat	
+n45-076	animal	A020	goat	
+n46-001	tale	A104	stepsister	Y
+n46-002	tragedy	P01	chorus	
+n46-003	tragedy	P01	messenger	
+n46-004	tragedy	P01	rhesus	
+n46-005	tragedy	P01	charioteer	
+n46-006	tragedy	P03	stranger	
+n46-007	tragedy	P04	ion	
+n46-008	tragedy	P05	chorus	
+n46-009	tragedy	P06	mother	
+n46-010	tragedy	P06	chorus	
+n46-011	tragedy	P06	guard	
+n46-012	tragedy	P06	daughter of tantalus	
+n46-013	tragedy	P06	boy	
+n46-014	tragedy	P07	chorus	
+n46-015	tragedy	P07	king	
+n46-016	tragedy	P07	herald	
+n46-017	tragedy	P08	peasant	
+n46-018	tragedy	P08	chorus	
+n46-019	tragedy	P08	pan	
+n46-020	tale	A159	eagle	Y
+n46-021	tragedy	P08	messenger	
+n46-022	tragedy	P09	attendant	
+n46-023	tragedy	P09	nurse	
+n46-024	myth	L1-019	metanira s child	Y
+n46-025	tragedy	P09	chorus	
+n46-026	tragedy	P09	dragon	
+n46-027	tragedy	P09	sun god	
+n46-028	tragedy	P09	princess	
+n46-029	tragedy	P09	messenger	
+n46-030	tragedy	P10	chorus	
+n46-031	tragedy	P10	captive	
+n46-032	tragedy	P11	maid	
+n46-033	tragedy	P11	chorus	
+n46-034	tragedy	P11	son of zeus	
+n46-035	tragedy	P11	nurse	
+n46-036	tragedy	P11	messenger	
+n46-037	tragedy	P12	chorus	
+n46-038	tragedy	P12	messenger	
+n46-039	tragedy	P12	troy	
+n46-040	tragedy	P13	scout	
+n46-041	tragedy	P13	chorus	
+n46-042	tragedy	P13	telamon	
+n46-043	tragedy	P12	goddess of strife	Y
+n46-044	tragedy	P13	servant	
+n46-045	tragedy	P13	messenger	
+n46-046	tragedy	P14	chorus	
+n46-047	tragedy	P15	messenger	
+n46-048	tragedy	P16	telamon	
+n46-049	tragedy	P16	phantom	
+n46-050	tragedy	P16	chorus	
+n46-051	tragedy	P16	second messenger	
+n46-052	tragedy	P16	fisherman	
+n46-053	tragedy	P16	servant	
+n46-054	tragedy	P17	watchman	
+n46-055	tale	A151	bear	Y
+n46-056	tragedy	P17	chorus	
+n46-057	tragedy	P17	herald	
+n46-058	tragedy	P18	sphinx	
+n46-059	tragedy	P18	chorus	
+n46-060	tragedy	P18	dragon	
+n46-061	tragedy	P18	messenger	
+n46-062	tragedy	P19	nurse	
+n47-001	tragedy	P19	oak of dodona	
+n47-002	tragedy	P19	messenger	
+n47-003	tragedy	P19	chorus	
+n47-004	tragedy	P19	bedfellow of zeus	
+n47-005	tragedy	P19	hound of hades	
+n47-006	tragedy	P20	priest	
+n47-007	animal	A029	wolf s guts	Y
+n47-008	tragedy	P20	herdsman	
+n47-009	myth	L1-023	mankind	Y
+n47-010	tragedy	P20	sphinx	
+n47-011	tragedy	P20	chorus	
+n47-012	tragedy	P20	second messenger	
+n47-013	tragedy	P20	handmaid	
+n47-014	tragedy	P21	messenger	
+n47-015	tragedy	P22	death	
+n47-016	tragedy	P22	chorus	
+n47-017	tragedy	P22	attendant	
+n47-018	tragedy	P23	chorus	
+n47-019	tragedy	P23	nisus	
+n47-020	tragedy	P23	doorkeeper	
+n47-021	tragedy	P23	nurse	
+n47-022	tragedy	P24	amazon	
+n47-023	tragedy	P24	chorus	
+n47-024	tragedy	P24	nurse	
+n47-025	tragedy	P24	maiden of oechalia	
+n47-026	tragedy	P24	messenger	
+n47-027	tragedy	P25	merchant	
+n47-028	tragedy	P25	chorus	
+n47-029	tragedy	P25	serpent	
+n47-030	tragedy	P26	chorus	
+n47-031	tragedy	P26	lion of zeus s grove	
+n47-032	tragedy	P26	dragon of golden apples	
+n47-033	tragedy	P26	shepherd of erytheia	
+n47-034	tragedy	P26	iris	
+n47-035	tragedy	P26	madness	
+n47-036	tragedy	P26	messenger	
+n47-037	tragedy	P26	bull of crete	
+n47-038	tale	A101	stepmother	Y
+n47-039	tragedy	P27	phoebe	
+n47-040	tragedy	P27	priestess	
+n47-041	fable	F052	load	Y
+n47-042	tragedy	P27	night	
+n47-043	tragedy	P27	herald	
+n47-044	tragedy	P27	escort	
+n47-045	tragedy	P28	power	
+n47-046	tragedy	P28	force	
+n47-047	tragedy	P29	scout	
+n47-048	tragedy	P29	chorus	
+n47-049	tragedy	P29	actor	
+n47-050	tragedy	P29	herald	
+n47-051	tragedy	P30	agave	
+n47-052	tragedy	P30	chorus	
+n47-053	tragedy	P30	herdsman	
+n47-054	tragedy	P30	second messenger	
+n47-055	tragedy	P31	chorus	
+n47-056	tragedy	P31	telamon	
+n47-057	myth	L3-116	father	Y
+n47-058	tragedy	P32	chorus	
+n47-059	tragedy	P32	messenger	
+n47-060	tragedy	P01	troy	
+n47-061	tragedy	P01	chorus leader	
+n47-062	tragedy	P06	goddess of roads	
+n48-001	myth	L1-001	sky	
+n48-002	myth	L1-001	all but ocean	
+n48-003	tale	A155	mother	Y
+n48-004	myth	L1-002	sky	
+n48-005	tale	A145	peasant	Y
+n48-006	myth	L1-010	troy	
+n48-007	myth	L1-015	pan	
+n48-008	myth	L1-015	python	
+n48-009	myth	L1-016	side	
+n48-010	myth	L1-016	dawn	
+n48-011	myth	L1-034	althaea	
+n48-012	myth	L1-054	tyro	
+n48-013	tale	A131	dragon	Y
+n48-014	myth	L1-055	tyro	
+n48-015	myth	L1-062	bias	
+n48-016	fable	F301	man	Y
+n48-017	myth	L1-067	maiden	
+n48-018	myth	L1-076	other harpy	
+n48-019	myth	L1-076	arete	
+n48-020	myth	L2-010	bias	
+n48-021	myth	L2-015	andromeda	
+n48-022	myth	L2-018	andromeda	
+n48-023	myth	L2-047	telamon	
+n48-024	myth	L3-025	agave	
+n48-025	myth	L3-038	sphinx	
+n48-026	myth	L3-062	fury	
+n48-027	myth	L3-110	telamon	
+n48-028	myth	L3-147	bias	
+n48-029	myth	L3-151	nisus	
+n48-030	myth	L3-152	hyacinth	
+n48-031	myth	L1-020	dawn	
+n48-032	tale	A137	tsar	Y
+n48-033	myth	L1-076	one harpy	
