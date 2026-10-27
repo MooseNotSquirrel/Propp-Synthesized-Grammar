@@ -1,6 +1,6 @@
-# The character-set layer: protocol (DRAFT 2026-10-26, NOT FROZEN; the owner's decisions 1, 2 and 4 recorded)
+# The character-set layer: protocol (FROZEN 2026-10-26 AT THE OWNER'S WORD, predictions 3 to 6 kept as drafted)
 
-**Drafted 2026-10-26 at the owner's request, for `ProppQueue.md` item (m)** and `DataProtocol.md`'s added layer: one character table per corpus, giving each character's name, kind, spheres and act profile, built from the normalized tables. The owner's aim is that each corpus's character set be **inferred, not presupposed**. Nothing here is built. The tests come first (section 2), and every program they check is committed before it runs. The run itself waits for the owner to freeze this file. Three of the four decisions in section 6 are taken; predictions 3 to 6 are still open.
+**Drafted 2026-10-26 at the owner's request, for `ProppQueue.md` item (m)** and `DataProtocol.md`'s added layer: one character table per corpus, giving each character's name, kind, spheres and act profile, built from the normalized tables. The owner's aim is that each corpus's character set be **inferred, not presupposed**. Nothing here is built. The tests come first (section 2), and every program they check is committed before it runs. **Frozen 2026-10-26 at the owner's word**, with all four decisions in section 6 taken.
 
 ## 1. What is measured on the tables today (counts only, no result)
 
@@ -107,7 +107,7 @@ Written before any figure in section 4 is read. Each is tested per reader; it **
 1. In the wondertales, most characters holding any of Propp's seven spheres are people (person over half).
 2. In the fables, most characters holding any sphere are animals (animal over half).
 
-**Proposed by the keeper, not from Propp and not the owner's. Kept, changed or struck at the freeze:**
+**Proposed by the keeper, not from Propp and not the owner's; kept at the freeze by the owner's decision:**
 
 3. In the animal tales, most characters holding any sphere are animals.
 4. The share of deities among sphere-holders is higher in the myths and the tragedies than in the wondertales and the fables.
@@ -123,7 +123,7 @@ Written before any figure in section 4 is read. Each is tested per reader; it **
 
 ## 6. Decisions for the owner before the freeze
 
-**Taken 2026-10-26: the owner agreed with the recommendations.** Decision 1 takes (a), decision 2 takes (a), and decision 4 takes the method as drafted. Decision 3, predictions 3 to 6, is still open.
+**Taken 2026-10-26: the owner agreed with the recommendations.** Decision 1 takes (a), decision 2 takes (a), and decision 4 takes the method as drafted. Decision 3: the owner kept predictions 3 to 6 as drafted, at the freeze.
 
 1. **Names WordNet does not know** (31% to 38% of mentions in the wondertales, tragedies and myths).
    - **(a) DECIDED, as recommended:** a small reader stage, two readers, run only on the unresolved names. Each gets the story's title and the name, and gives a kind from the five, with a reason. Agreement is reported. The kind is used where both readers agree, and is unknown otherwise.
@@ -132,12 +132,12 @@ Written before any figure in section 4 is read. Each is tested per reader; it **
 2. **The Russian act names.**
    - **(a) DECIDED, as recommended:** join the acts by event, under test C4.
    - **(b)** Build the act profile from the free verbs, which are in English in every corpus but are not a closed list. The grouping would then need its own vocabulary rule, frozen first.
-3. **Predictions 3 to 6:** keep, change or strike.
+3. **Predictions 3 to 6: DECIDED, kept as drafted.**
 4. **The grouping method: DECIDED, as drafted:** average linkage on cosine distance, with silhouette from 3 to 10.
 
 ## 7. After the freeze
 
-1. Commit this file frozen.
+1. Commit this file frozen (done 2026-10-26).
 2. Write and commit the programs: the builder step, `Characters/characters.py`, and the tests C1 to C6.
 3. Pass the tests.
 4. Dry-run.
