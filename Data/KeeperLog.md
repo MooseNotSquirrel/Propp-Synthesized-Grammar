@@ -370,3 +370,10 @@ NEXT: `names-15`, at the owner's word, when the budget allows.
   - a sea-serpent and a sow that falls to pieces.
   - Reader A of `n51` notes one item that names two characters (the helpful old man and the tiny limb-eater).
 NEXT: `names-16` (`n53` to `n56`, 8 readers), at the owner's word, when the budget allows.
+**2026-10-28. The fourth name stage, second portion: `names-16` run, merged.** `n53` to `n56`, the wondertales and fables, eight readers started at once from master e87209d, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-16` (12e0920) and merged at 30dc23c; no failure. The readers used 59,000 to 62,500 tokens each, some 484,000 in all. A check of form on the four batches: every item answered once, in order, with a kind and a confidence from the lists and a reason.
+- **Raised by the readers, reported and not judged:**
+  - shape-changers: the falcon and the raven who become youths, the maiden who is a lioness, the deer;
+  - witches' daughters, the three-eyed daughter, old men and women who help;
+  - disembodied hands, the unseen thing that eats the wheat;
+  - in the fables: a dead mouse's body, a viper's eggs, a painted lion, a carved image of Mercury, "the prey", the Hares' assembly.
+NEXT: `names-17` (`n57` to `n59`, 6 readers), at the owner's word, when the budget allows.
