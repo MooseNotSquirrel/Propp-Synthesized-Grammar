@@ -3,18 +3,18 @@
 characters.py -- the character-set layer (Data/CharacterProtocol.md, frozen 2026-10-26): one row per character,
 per story, per reader, built from the normalized tables.
 
-  python characters.py build      write Data/tables/characters.tsv
-  python characters.py c1         test C1: every function name maps to exactly one character row
+  python characters.py build      write Data/tables/characters.tsv and unjoined.tsv
+  python characters.py c1         test C1: every name maps to exactly one character row, or is counted as unjoined
   python characters.py c2         test C2: the table's spheres equal Spheres/explore.py's, SpheresExplore.txt byte for byte
   python characters.py c3         test C3: the kind rule on WordNet's own words (the sample written first, to C3Sample.txt)
   python characters.py c4         test C4: the acts joined by event agree with the name join, where both are English
   python characters.py c5         test C5: the grouping recovers planted roles, and shuffled profiles do not match the spheres
   python characters.py c6         test C6: two builds byte-identical
+  python characters.py c7         DRAFT, not adopted: the split of several-name fields (Characters/SplitRule.md)
   python characters.py dry        counts only: stories, characters, characters with a sphere, names resolved by kind
 
-The table is built from the function layer, in every corpus. Tests C4 and C5 check the join of the act layer by
-event and the bottom-up grouping; the act profile is not yet a column of the table, and C1 covers the function layer
-only until it is.
+The characters are the function layer's, in every corpus. The act and free-verb names are joined to them, by name
+where English and by event where Russian; a name that joins none is counted as unjoined, not made a character.
 """
 import collections
 import io
@@ -514,6 +514,79 @@ def c5():
     return ok
 
 
+# ---------------------------------------------------------------- DRAFT, not adopted: splitting several-name fields
+# Characters/SplitRule.md. Nothing below is used by table() or by Spheres/explore.py until the owner adopts it.
+PAREN = re.compile(r'\([^)]*\)')
+SPLIT = re.compile(r'\s*(?:;|/|,|\band\b)\s*')
+GENERIC = {'all', 'others', 'other', 'everyone', 'everybody', 'people', 'men', 'women', 'some', 'many', 'both', 'they'}
+
+
+def split_field(raw):
+    """a performer or undergoer field as the names of the characters it holds: notes in parentheses dropped, then
+    split at a semicolon, a slash, a comma or the word *and*; *with* is left alone, since it mostly describes"""
+    s = PAREN.sub(' ', raw)
+    return [p.strip() for p in SPLIT.split(s) if SX.key(p.strip())]
+
+
+def split_entries(L, g):
+    """entries() with each several-name field split, a function credited to every name it holds"""
+    out = {}
+    for s, ents in entries(L, g).items():
+        new = []
+        for fn, p, u, pr, ur, ev in ents:
+            for a in split_field(pr) or ['']:
+                for b in split_field(ur) or ['']:
+                    new.append((fn, SX.key(a), SX.key(b), a, b, ev))
+        out[s] = new
+    return out
+
+
+def c7():
+    """the draft split rule: every part is one name and no field is lost; what the split changes, counted for review"""
+    several = re.compile(r';|/|,|\band\b')
+    fields = parts = lost = left = 0
+    suspect = set()
+    for g in PATS:
+        for L in 'AB':
+            for s, ents in entries(L, g).items():
+                for e in ents:
+                    for raw in e[3:5]:
+                        if not SX.key(raw):
+                            continue
+                        fields += 1
+                        ps = split_field(raw)
+                        parts += len(ps)
+                        lost += not ps and bool(SX.key(PAREN.sub(' ', raw)))
+                        left += sum(bool(several.search(p)) for p in ps)
+                        if len(ps) > 1 and any(SX.key(p) in [(w,) for w in GENERIC] for p in ps):
+                            suspect.add(raw)
+    ok = not lost and not left
+    print('C7 fields %d, names after the split %d; fields that lose every name %d; names still holding a separator %d: %s'
+          % (fields, parts, lost, left, 'PASS' if ok else 'FAIL'))
+    print('C7 for review, splits leaving a bare generic word (%d distinct fields): %s'
+          % (len(suspect), '; '.join(sorted(suspect)[:20])))
+    for g in PATS:
+        for L in 'AB':
+            row = []
+            for label, data in (('now', entries(L, g)), ('split', split_entries(L, g))):
+                n = hv = 0
+                for s, ents in data.items():
+                    canon = SX.merge([e[:3] for e in ents])
+                    sph = collections.defaultdict(set)
+                    chars = set()
+                    for fn, p, u, _, _, _ in ents:
+                        chars.update(canon.get(k, k) for k in (p, u) if k)
+                        if p:
+                            for name, fs in SX.SPHERES.items():
+                                if fn in fs:
+                                    sph[canon.get(p, p)].add(name)
+                    n += len(chars)
+                    hv += sum(1 for v in sph.values() if {'hero', 'villain'} <= v)
+                row.append('%s characters %4d, hero and villain %3d' % (label, n, hv))
+            print('C7 %-8s %s %s' % (g, L, '; '.join(row)))
+    return ok
+
+
 def dry():
     """counts only: no kind by role, no grouping, no ranking"""
     _, out = table()
@@ -538,7 +611,7 @@ def dry():
 
 
 if __name__ == '__main__':
-    cmds = {'build': build, 'c1': c1, 'c2': c2, 'c3': c3, 'c4': c4, 'c5': c5, 'c6': c6, 'dry': dry}
+    cmds = {'build': build, 'c1': c1, 'c2': c2, 'c3': c3, 'c4': c4, 'c5': c5, 'c6': c6, 'c7': c7, 'dry': dry}
     a = sys.argv[1:]
     if len(a) != 1 or a[0] not in cmds:
         sys.exit(__doc__)
