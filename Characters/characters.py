@@ -40,7 +40,8 @@ PATS = collections.OrderedDict([('tale', ['Afanasyev/transcriptions/U/%s/b*/Note
                                 ('fable', ['Aesop/transcriptions/%s/b*/Notes.txt', 'Fables/transcriptions/%s/b*/Notes.txt']),
                                 ('tragedy', ['Tragedy/transcriptions/%s/P[0-9][0-9]/Notes.txt']),
                                 ('myth', ['Apollodorus/Apollodorus/transcriptions/%s/b*/Notes.txt'])])
-COLUMNS = ['story', 'reader', 'corpus', 'character', 'names', 'head', 'kind', 'kind_by', 'group', 'spheres', 'performs', 'undergoes']
+COLUMNS = ['story', 'reader', 'corpus', 'character', 'names', 'head', 'kind', 'kind_by', 'group', 'spheres', 'performs',
+           'undergoes', 'layers', 'acts', 'relations']
 CUT = re.compile(r"\b(?:of|with|from|in|at|on|to|for)\b|,|;|\(|/|\band\b|\bor\b")
 HEAD_STOP = SX.STOP | {'two', 'three', 'four', 'other', 'its', 'my', 'your', 'our', 'own'}
 _WN = []
@@ -118,16 +119,42 @@ def entries(L, g):
     return {s: vs[sorted(vs, key=lambda v: (len(v), v))[0]] for s, vs in st.items()}
 
 
-def characters(L, g, s, ents):
-    """the story's characters: names joined as Spheres/explore.py joins them, each with its names, spheres and counts"""
+def layer_rows(name):
+    """{(global story, reader): [rows]} of the acts or free-verb table, one study each, the first present"""
+    order = ACT_STUDIES if name == 'acts' else ['free', 'animal']
+    by = collections.defaultdict(lambda: collections.defaultdict(list))
+    for r in DT.rows(name):
+        if not r.get('id_flag'):
+            by[(r['story'], r['reader'])][r['study']].append(r)
+    return {k: v[min(v, key=lambda x: order.index(x) if x in order else len(order))] for k, v in by.items()}
+
+
+def characters(L, g, s, ents, acts=(), free=()):
+    """the story's characters: names joined as Spheres/explore.py joins them, each with its names, spheres and
+    counts; the act and free-verb layers' names joined to them by name where English and by event where Russian
+    (CharacterProtocol.md, decision 2), a name that joins none making a character of its own"""
     canon = SX.merge([e[:3] for e in ents])
+    names = {k for e in ents for k in e[1:3] if k}
+    links = {a: c for a, (c, _) in event_join(g, L, s, ents, acts).items()}
     ch = collections.OrderedDict()
 
+    def new(c):
+        return ch.setdefault(c, {'names': collections.Counter(), 'spheres': set(), 'performs': 0, 'undergoes': 0,
+                                 'layers': set(), 'acts': collections.Counter(), 'relations': collections.Counter()})
+
     def add(k, raw):
-        c = canon.get(k, k)
-        d = ch.setdefault(c, {'names': collections.Counter(), 'spheres': set(), 'performs': 0, 'undergoes': 0})
+        d = new(canon.get(k, k))
         d['names'][raw] += 1
+        d['layers'].add('functions')
         return d
+
+    def who(raw):
+        k = SX.key(raw)
+        if not k:
+            return None
+        if CYR.search(raw):
+            return links.get(k, k)
+        return name_join(k, names, canon) or k
     for fn, p, u, pr, ur, _ in ents:
         if p:
             d = add(p, pr)
@@ -137,26 +164,45 @@ def characters(L, g, s, ents):
                     d['spheres'].add(name)
         if u:
             add(u, ur)['undergoes'] += 1
+    for layer, rs in (('acts', acts), ('free', free)):
+        for r in rs:
+            for side, field in (('p', 'performer'), ('u', 'undergoer')):
+                c = who(r[field])
+                if c is None:
+                    continue
+                d = new(c)
+                d['layers'].add(layer)
+                if c not in names and c not in canon.values():
+                    d['names'][r[field].strip()] += 1
+                if layer == 'acts':
+                    d['acts']['%s:%s' % (side, r['act'].lower())] += 1
+                    if side == 'p':
+                        d['relations'][r['relation'].lower()] += 1
     rows = []
     for c, d in ch.items():
-        names = sorted(d['names'], key=lambda n: (-d['names'][n], n))
+        nm = sorted(d['names'], key=lambda n: (-d['names'][n], n))
         # the kind is read from the character's longest name, the one the others joined
-        full = max(names, key=lambda n: (len(SX.key(n)), d['names'][n], n))
+        full = max(nm, key=lambda n: (len(SX.key(n)), d['names'][n], n))
         h = head(full)
         k = kind(full)
-        rows.append([s, L, g, ' '.join(c), ' ; '.join(names), h, k, 'unknown' if k == 'unknown' else 'wordnet',
+        rows.append([s, L, g, ' '.join(c), ' ; '.join(nm), h, k, 'unknown' if k == 'unknown' else 'wordnet',
                      'Y' if is_group(full, h) else '', ' + '.join(n for n in SX.SPHERES if n in d['spheres']),
-                     str(d['performs']), str(d['undergoes'])])
+                     str(d['performs']), str(d['undergoes']), ' '.join(x for x in ('functions', 'acts', 'free') if x in d['layers']),
+                     '; '.join('%s %d' % kv for kv in sorted(d['acts'].items())),
+                     '; '.join('%s %d' % kv for kv in sorted(d['relations'].items()))])
     return rows
 
 
 def table():
     out = []
+    A, Fr = layer_rows('acts'), layer_rows('free')
     for g in PATS:
         for L in 'AB':
             for s, ents in entries(L, g).items():
-                out += characters(L, g, s, ents)
-    text = '\t'.join(COLUMNS) + '\n' + ''.join('\t'.join(x.replace('\t', ' ') for x in r) + '\n' for r in out)
+                out += characters(L, g, s, ents, A.get((g + ':' + s, L), []), Fr.get((g + ':' + s, L), []))
+    text = '	'.join(COLUMNS) + '
+' + ''.join('	'.join(x.replace('	', ' ') for x in r) + '
+' for r in out)
     return text, out
 
 
@@ -168,11 +214,13 @@ def build():
 
 # ---------------------------------------------------------------- the tests
 def c1():
-    """every non-empty function performer and undergoer of the readings the table takes maps to exactly one row"""
+    """every non-empty performer and undergoer of the function, act and free-verb readings the table takes maps to
+    exactly one row"""
     _, out = table()
     have = collections.Counter((r[0], r[1], r[3]) for r in out)
     dup = [k for k, n in have.items() if n > 1]
-    lost = 0
+    lost = layer_names = 0
+    A, Fr = layer_rows('acts'), layer_rows('free')
     for g in PATS:
         for L in 'AB':
             for s, ents in entries(L, g).items():
@@ -181,8 +229,22 @@ def c1():
                     for k in (p, u):
                         if k and have.get((s, L, ' '.join(canon.get(k, k)))) != 1:
                             lost += 1
+                # the act and free-verb names, by the join the table makes
+                names = {k for e in ents for k in e[1:3] if k}
+                acts, free = A.get((g + ':' + s, L), []), Fr.get((g + ':' + s, L), [])
+                links = {a: c for a, (c, _) in event_join(g, L, s, ents, acts).items()}
+                for r in list(acts) + list(free):
+                    for field in ('performer', 'undergoer'):
+                        k = SX.key(r[field])
+                        if not k:
+                            continue
+                        layer_names += 1
+                        c = links.get(k, k) if CYR.search(r[field]) else (name_join(k, names, canon) or k)
+                        if have.get((s, L, ' '.join(c))) != 1:
+                            lost += 1
     ok = not dup and not lost
-    print('C1 %d rows; names without exactly one row %d; character rows twice %d: %s' % (len(out), lost, len(dup), 'PASS' if ok else 'FAIL'))
+    print('C1 %d rows; act and free-verb names checked %d; names without exactly one row %d; character rows twice %d: %s'
+          % (len(out), layer_names, lost, len(dup), 'PASS' if ok else 'FAIL'))
     return ok
 
 
@@ -286,11 +348,7 @@ CYR = re.compile('[Ѐ-ӿ]')
 
 def act_rows():
     """{(global story, reader): [act rows]}, one study each"""
-    by = collections.defaultdict(lambda: collections.defaultdict(list))
-    for r in DT.rows('acts'):
-        if not r['id_flag']:
-            by[(r['story'], r['reader'])][r['study']].append(r)
-    return {k: v[min(v, key=ACT_STUDIES.index)] for k, v in by.items()}
+    return layer_rows('acts')
 
 
 def name_join(a, names, canon):
@@ -446,15 +504,21 @@ def c5():
 def dry():
     """counts only: no kind by role, no grouping, no ranking"""
     _, out = table()
-    c = collections.defaultdict(lambda: [set(), 0, 0, 0])
+    c = collections.defaultdict(collections.Counter)
     for r in out:
         x = c[(r[2], r[1])]
-        x[0].add(r[0])
-        x[1] += 1
-        x[2] += bool(r[9])
-        x[3] += r[6] != 'unknown'
-    for (g, L), (st, n, sp, kn) in sorted(c.items(), key=lambda kv: (list(PATS).index(kv[0][0]), kv[0][1])):
-        print('%-8s %s stories %3d, characters %5d, with a sphere %5d, kind resolved %3.0f%%' % (g, L, len(st), n, sp, 100.0 * kn / max(1, n)))
+        x['stories:' + r[0]] = 1
+        x['characters'] += 1
+        x['with a sphere'] += bool(r[9])
+        x['kind resolved'] += r[6] != 'unknown'
+        x['with acts'] += 'acts' in r[12]
+        x['acts only'] += 'functions' not in r[12] and 'acts' in r[12]
+        x['free only'] += r[12] == 'free'
+    for (g, L), x in sorted(c.items(), key=lambda kv: (list(PATS).index(kv[0][0]), kv[0][1])):
+        n = x['characters']
+        print('%-8s %s stories %3d, characters %5d, with a sphere %5d, kind resolved %3.0f%%, with acts %5d, from acts only %4d, '
+              'from free verbs only %4d' % (g, L, sum(1 for k in x if k.startswith('stories:')), n, x['with a sphere'],
+                                             100.0 * x['kind resolved'] / max(1, n), x['with acts'], x['acts only'], x['free only']))
 
 
 if __name__ == '__main__':
