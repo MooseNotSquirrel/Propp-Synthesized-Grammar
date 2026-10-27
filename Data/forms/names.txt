@@ -1,0 +1,27 @@
+A n1  items  69, answered  69, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n2  items  70, answered  70, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n3  items  33, answered  33, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n4  items  79, answered  79, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n5  items  79, answered  79, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n6  items  79, answered  79, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n7  items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n8  items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n9  items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n10 items  77, answered  77, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n11 items  75, answered  75, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n12 items  75, answered  75, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n13 items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n1  items  69, answered  69, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n2  items  70, answered  70, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n3  items  33, answered  33, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n4  items  79, answered  79, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n5  items  79, answered  79, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n6  items  79, answered  79, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n7  items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n8  items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n9  items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n10 items  77, answered  77, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n11 items  75, answered  75, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n12 items  75, answered  75, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n13 items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0, in order yes
+IN FORM

@@ -1,0 +1,9 @@
+# NameRun.txt -- names.py score: the name stage (Data/NamesProtocol.md), reported and not judged
+tale     items 131, both readers the same kind 124 (95%), both with high confidence  75; agreed kinds: person 102, animal 5, supernatural 17
+animal   items   3, both readers the same kind   2 (67%), both with high confidence   0; agreed kinds: person 1, animal 1
+fable    items  26, both readers the same kind  25 (96%), both with high confidence  21; agreed kinds: person 14, animal 8, deity 1, object 2
+tragedy  items 225, both readers the same kind 222 (99%), both with high confidence 187; agreed kinds: person 205, deity 13, supernatural 3, object 1
+myth     items 498, both readers the same kind 481 (97%), both with high confidence 403; agreed kinds: person 430, animal 4, deity 2, supernatural 32, object 13
+controls, reader A: 35 of 49 the kind the WordNet rule gives (71%)
+controls, reader B: 35 of 49 the kind the WordNet rule gives (71%)
+phrase-names counted apart, given no kind: 8 (at Maenalus's instigation; at Zeus's order; for Oeneus's house; of Pterelaus; whoever should woo; with Alcmaeon; with Jason; with his sons; his sons)
