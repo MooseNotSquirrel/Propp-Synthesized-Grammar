@@ -236,3 +236,13 @@ NEXT: `names-11` (`n35` to `n37`, the myths, 6 readers), at the owner's word, wh
   - from a control, the youngest sister in the golden palace.
 - **The character table is unchanged:** it is not rebuilt until the owner's word.
 NEXT: at the owner's word, the form check over all batches (`names.py form`), the score (`names.py score`, with the common-noun controls against 54 of 60), then the table rebuilt after T1, T2 and T4 pass, and C1 to C7 rerun.
+**2026-10-27. The second name stage checked, scored and merged into the character table.** At the owner's word.
+- **In form** (`Data/forms/names.txt`): all 74 answer files of both stages.
+- **The test of the common class** (`CharacterProtocol.md` section 8, fixed before any control was read): both readers gave the rule's kind to **54 of 60** common-noun controls (reader A 54, reader B 55). The threshold is 54, so **the rule stands for common nouns**. It stands at the threshold exactly: one control fewer and the common nouns would have gone to the readers. Reported, not re-judged.
+- **Reported, not judged** (`Characters/NameRun.txt`, second-stage section): the two readers give the same kind to wondertales 232 of 235 (99%), animal tales 63 of 63, fables 167 of 170 (98%), tragedies 497 of 504 (99%), myths 635 of 644 (99%). The first stage's lines are unchanged.
+- **The table rebuilt** (`python build.py characters`, after T1, T2 and T4 passed): 7,215 rows. Only the kind and kind_by columns changed:
+  - kinds now set by the readers 4,291, by the rule 2,837, unknown 87 (before 49: the second stage's items where the readers differ);
+  - 1,085 kinds changed: wondertales 75, animal tales 28, fables 106, tragedies 436, myths 440;
+  - the largest moves are the mortals of tragedy and myth from supernatural to person (275 and 168), the gods of fable from object to deity (22), and fable and animal-tale beasts from object to animal.
+- **C1 to C7 rerun:** all pass.
+NEXT: at the owner's word, the measures of `CharacterProtocol.md` section 4.

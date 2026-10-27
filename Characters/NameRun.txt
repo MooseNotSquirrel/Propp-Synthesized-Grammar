@@ -7,3 +7,13 @@ myth     items 498, both readers the same kind 481 (97%), both with high confide
 controls, reader A: 35 of 49 the kind the WordNet rule gives (71%)
 controls, reader B: 35 of 49 the kind the WordNet rule gives (71%)
 phrase-names counted apart, given no kind: 8 (at Maenalus's instigation; at Zeus's order; for Oeneus's house; of Pterelaus; whoever should woo; with Alcmaeon; with Jason; with his sons; his sons)
+# the second stage (Characters/KindRule.md): named, group and collective characters, with controls from the common class
+tale     items 235, both readers the same kind 232 (99%), both with high confidence 186; agreed kinds: person 165, animal 22, deity 1, supernatural 26, object 18
+animal   items  63, both readers the same kind  63 (100%), both with high confidence  53; agreed kinds: person 25, animal 27, object 11
+fable    items 170, both readers the same kind 167 (98%), both with high confidence 159; agreed kinds: person 64, animal 74, deity 19, object 10
+tragedy  items 504, both readers the same kind 497 (99%), both with high confidence 437; agreed kinds: person 324, animal 3, deity 141, supernatural 19, object 10
+myth     items 644, both readers the same kind 635 (99%), both with high confidence 510; agreed kinds: person 299, animal 12, deity 246, supernatural 40, object 38
+common-noun controls, reader A: 54 of 60 the kind the WordNet rule gives (90%)
+common-noun controls, reader B: 55 of 60 the kind the WordNet rule gives (92%)
+common-noun controls, both readers the rule's kind: 54 of 60; the rule stands for common nouns at 54 or more: STANDS
+phrase-names counted apart, given no kind: 0 ()
