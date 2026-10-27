@@ -54,7 +54,8 @@ SPLIT = re.compile(r'\s*(?:;|/|,|\band\b)\s*')
 DROP = {'others', 'other', 'all', 'both', 'everyone', 'everybody', 'they', 'some', 'many', 'rest'}
 # reciprocal and pronoun names are no characters (the owner, 2026-10-26): a part whose every word is one of these
 PRONOUNS = DROP | {'each', 'one', 'another', 'himself', 'herself', 'itself', 'themselves', 'oneself', 'him', 'them',
-                   'he', 'she', 'it', 'we', 'us', 'you', 'me', 'together', 'two', 'three', 'four', 'five', 'six', 'seven'}
+                   'he', 'she', 'it', 'we', 'us', 'you', 'me', 'together', 'two', 'three', 'four', 'five', 'six', 'seven',
+                   'of'}
 
 
 def split_field(raw):
