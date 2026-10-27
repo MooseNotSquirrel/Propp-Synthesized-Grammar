@@ -25,8 +25,10 @@ sys.path.insert(0, HERE)
 import characters as C  # noqa: E402
 
 DT, SX = C.DT, C.SX
-BATCHES = [('n1', ['tale']), ('n2', ['fable', 'animal']), ('n3', ['tragedy']), ('n4', ['tragedy']),
-           ('n5', ['myth']), ('n6', ['myth']), ('n7', ['myth']), ('n8', ['myth'])]
+# the corpora's items in this order, the fables and animal tales together, each group cut into as few batches of at
+# most SIZE items as hold it, numbered on across the groups (NamesProtocol.md, amended at the owner's word 2026-10-26)
+GROUPS = [['tale'], ['fable', 'animal'], ['tragedy'], ['myth']]
+SIZE = 75
 SEED = 20261026
 CONTROLS = 50
 PROMPT = """You are reading short notes on characters in stories and saying, for each, what kind of being it is. You start with no background on the project, and you should not look for any.
@@ -111,19 +113,12 @@ def items():
     for k in unknown:
         by_corpus[k[0]].append(k)
     out = []
-    shares = collections.Counter(g for _, gs in BATCHES for g in gs[:1])
-    taken = collections.Counter()
-    for b, gs in BATCHES:
-        if len(gs) > 1:
-            keys = [k for g in gs for k in by_corpus[g]]
-        else:
-            g = gs[0]
-            ks = by_corpus[g]
-            n = shares[g]
-            i = taken[g]
+    for gs in GROUPS:
+        ks = [k for g in gs for k in by_corpus[g]]
+        n = -(-len(ks) // SIZE)
+        for i in range(n):
             keys = ks[len(ks) * i // n: len(ks) * (i + 1) // n]
-            taken[g] += 1
-        out.append([b, [(None, k[0], k[1], k[2], line(k), '') for k in keys]])
+            out.append(['n%d' % (len(out) + 1), [(None, k[0], k[1], k[2], line(k), '') for k in keys]])
     for i, k in enumerate(controls):
         b = out[i % len(out)][1]
         b.insert(rnd.randrange(len(b) + 1), (None, k[0], k[1], k[2], line(k), next(iter(ch[k]['kind']))))
