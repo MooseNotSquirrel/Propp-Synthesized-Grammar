@@ -12,9 +12,9 @@ per story, per reader, built from the normalized tables.
   python characters.py c6         test C6: two builds byte-identical
   python characters.py dry        counts only: stories, characters, characters with a sphere, names resolved by kind
 
-This first part builds the table from the function layer, in every corpus. The act profile (the acts joined by
-event, test C4) and the bottom-up grouping (test C5) are not built yet; their columns are not in the table, and
-C1 covers the function layer only until they are.
+The table is built from the function layer, in every corpus. Tests C4 and C5 check the join of the act layer by
+event and the bottom-up grouping; the act profile is not yet a column of the table, and C1 covers the function layer
+only until it is.
 """
 import collections
 import io
