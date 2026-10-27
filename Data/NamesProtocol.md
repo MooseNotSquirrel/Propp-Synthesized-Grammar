@@ -1,18 +1,19 @@
-# The name stage: collection protocol (DRAFT 2026-10-26, NOT FROZEN)
+# The name stage: collection protocol (FROZEN 2026-10-26 AT THE OWNER'S WORD)
 
-**Drafted 2026-10-26 for `CharacterProtocol.md`, decision 1 (a)**, taken by the owner on 2026-10-26: names the WordNet rule cannot sort go to two readers. Like `Session7Protocol.md`, this stage collects a layer and tests no claim. This file fixes how the stage is set up and checked and what is reported, and it makes no prediction. The stage is cleared in Propp-ActsRoles `RUN.md` only after this file is frozen at the owner's word.
+**Drafted 2026-10-26 for `CharacterProtocol.md`, decision 1 (a), and frozen the same day at the owner's word**, taken by the owner on 2026-10-26: names the WordNet rule cannot sort go to two readers. Like `Session7Protocol.md`, this stage collects a layer and tests no claim. This file fixes how the stage is set up and checked and what is reported, and it makes no prediction. The stage is cleared in Propp-ActsRoles `RUN.md` only after this file is frozen at the owner's word.
 
 ## What the readers get
 
-- **Material:** every character in `tables/characters.tsv` whose kind the rule leaves unknown and that has a function-layer name. Counted on 2026-10-26 by `Characters/characters.py`:
+- **Material:** every character in `tables/characters.tsv` whose kind the rule leaves unknown and that has a function-layer name. Recounted at the freeze, after the split of several-name fields was adopted (`CharacterProtocol.md` section 8), from the table as built on 2026-10-26:
 
-  | Corpus | Rows (story, reader, character) | Distinct names |
-  |---|---|---|
-  | Wondertales | 278 | 169 |
-  | Animal tales | 4 | 4 |
-  | Fables | 41 | 20 |
-  | Tragedies | 442 | 197 |
-  | Myths | 859 | 469 |
+  | Corpus | Rows (story, reader, character) | Items (story, character) | Distinct names |
+  |---|---|---|---|
+  | Wondertales | 220 | 131 | 91 |
+  | Animal tales | 4 | 3 | 3 |
+  | Fables | 34 | 26 | 14 |
+  | Tragedies | 416 | 216 | 155 |
+  | Myths | 892 | 498 | 371 |
+  | **All** | **1,566** | **874** | |
 
 - **One item per story and name**, the two transcribers' rows merged where they name the same character. Each item gives:
   - the story's identifier and title;
@@ -20,7 +21,14 @@
   - up to three of the story's events that name it, from `events.tsv`.
 
   The readers see no sphere, no role and no function code, so their answer about kind cannot draw on the role being measured.
-- **Batches by corpus, about 150 items a batch.** That makes roughly 2 batches for the wondertales, 1 for the fables and animal tales together, 2 for the tragedies and 4 for the myths: nine batches per reader. Reader A runs on Opus and reader B on Sonnet, as in every stage so far.
+- **Batches by corpus, at most 150 items a batch** (the counts recounted at the freeze):
+  - `n1`: the wondertales;
+  - `n2`: the fables and animal tales together;
+  - `n3` and `n4`: the tragedies;
+  - `n5` to `n8`: the myths.
+
+  That is eight batches per reader. Within a corpus, items go in story order, split evenly across that corpus's batches. Reader A runs on Opus and reader B on Sonnet, as in every stage so far.
+- **The control set:** 50 characters whose kind the rule does give, drawn from the same table by a fixed seed. They are spread over the eight batches, and each is placed at a seeded position among that batch's items. Which items are controls is kept on the keeper's side, in `Characters/NameControls.txt`, and is never copied to the readers' repository.
 - **The task:** for each item, give one kind from *person*, *animal*, *deity*, *supernatural* (a being of the other world that is not a god: a witch, a monster, a spirit) or *object*, a confidence of high, medium or low, and a reason of one sentence. Answer from the story, not from general knowledge of the name.
 
 ## Form check
