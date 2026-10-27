@@ -132,7 +132,8 @@ def layer_rows(name):
 def characters(L, g, s, ents, acts=(), free=()):
     """the story's characters: names joined as Spheres/explore.py joins them, each with its names, spheres and
     counts; the act and free-verb layers' names joined to them by name where English and by event where Russian
-    (CharacterProtocol.md, decision 2), a name that joins none making a character of its own"""
+    (CharacterProtocol.md, decision 2). A name that joins none is set apart as unjoined, counted and not made a
+    character (the owner's decision of 2026-10-26); returns (rows, unjoined)"""
     canon = SX.merge([e[:3] for e in ents])
     names = {k for e in ents for k in e[1:3] if k}
     links = {a: c for a, (c, _) in event_join(g, L, s, ents, acts).items()}
@@ -153,8 +154,8 @@ def characters(L, g, s, ents, acts=(), free=()):
         if not k:
             return None
         if CYR.search(raw):
-            return links.get(k, k)
-        return name_join(k, names, canon) or k
+            return links.get(k)
+        return name_join(k, names, canon)
     for fn, p, u, pr, ur, _ in ents:
         if p:
             d = add(p, pr)
@@ -164,16 +165,18 @@ def characters(L, g, s, ents, acts=(), free=()):
                     d['spheres'].add(name)
         if u:
             add(u, ur)['undergoes'] += 1
+    unjoined = collections.Counter()
     for layer, rs in (('acts', acts), ('free', free)):
         for r in rs:
             for side, field in (('p', 'performer'), ('u', 'undergoer')):
+                if not SX.key(r[field]):
+                    continue
                 c = who(r[field])
                 if c is None:
+                    unjoined[(layer, side, r[field].strip())] += 1
                     continue
                 d = new(c)
                 d['layers'].add(layer)
-                if c not in names and c not in canon.values():
-                    d['names'][r[field].strip()] += 1
                 if layer == 'acts':
                     d['acts']['%s:%s' % (side, r['act'].lower())] += 1
                     if side == 'p':
@@ -190,16 +193,19 @@ def characters(L, g, s, ents, acts=(), free=()):
                      str(d['performs']), str(d['undergoes']), ' '.join(x for x in ('functions', 'acts', 'free') if x in d['layers']),
                      '; '.join('%s %d' % kv for kv in sorted(d['acts'].items())),
                      '; '.join('%s %d' % kv for kv in sorted(d['relations'].items()))])
-    return rows
+    return rows, [[s, L, g, layer, side, name, str(n)] for (layer, side, name), n in sorted(unjoined.items())]
 
 
 def table():
-    out = []
+    out, un = [], []
     A, Fr = layer_rows('acts'), layer_rows('free')
     for g in PATS:
         for L in 'AB':
             for s, ents in entries(L, g).items():
-                out += characters(L, g, s, ents, A.get((g + ':' + s, L), []), Fr.get((g + ':' + s, L), []))
+                rows, u = characters(L, g, s, ents, A.get((g + ':' + s, L), []), Fr.get((g + ':' + s, L), []))
+                out += rows
+                un += u
+    UNJOINED[:] = un
     text = '\t'.join(COLUMNS) + '\n' + ''.join('\t'.join(x.replace('\t', ' ') for x in r) + '\n' for r in out)
     return text, out
 
@@ -207,7 +213,11 @@ def table():
 def build():
     text, out = table()
     open(os.path.join(DT.TABLES, 'characters.tsv'), 'w', encoding='utf-8', newline='\n').write(text)
-    print('characters.tsv: %d rows' % len(out))
+    cols = ['story', 'reader', 'corpus', 'layer', 'side', 'name', 'count']
+    open(os.path.join(DT.TABLES, 'unjoined.tsv'), 'w', encoding='utf-8', newline='\n').write(
+        '\t'.join(cols) + '\n' + ''.join('\t'.join(x.replace('\t', ' ') for x in r) + '\n' for r in UNJOINED))
+    print('characters.tsv: %d rows; unjoined.tsv: %d names, %d mentions'
+          % (len(out), len(UNJOINED), sum(int(r[6]) for r in UNJOINED)))
 
 
 # ---------------------------------------------------------------- the tests
@@ -217,7 +227,7 @@ def c1():
     _, out = table()
     have = collections.Counter((r[0], r[1], r[3]) for r in out)
     dup = [k for k, n in have.items() if n > 1]
-    lost = layer_names = 0
+    lost = layer_names = apart = 0
     A, Fr = layer_rows('acts'), layer_rows('free')
     for g in PATS:
         for L in 'AB':
@@ -237,12 +247,16 @@ def c1():
                         if not k:
                             continue
                         layer_names += 1
-                        c = links.get(k, k) if CYR.search(r[field]) else (name_join(k, names, canon) or k)
-                        if have.get((s, L, ' '.join(c))) != 1:
+                        c = links.get(k) if CYR.search(r[field]) else name_join(k, names, canon)
+                        if c is None:
+                            apart += 1
+                        elif have.get((s, L, ' '.join(c))) != 1:
                             lost += 1
-    ok = not dup and not lost
-    print('C1 %d rows; act and free-verb names checked %d; names without exactly one row %d; character rows twice %d: %s'
-          % (len(out), layer_names, lost, len(dup), 'PASS' if ok else 'FAIL'))
+    counted = sum(int(r[6]) for r in UNJOINED)
+    ok = not dup and not lost and counted == apart
+    print('C1 %d rows; act and free-verb names checked %d, set apart as unjoined %d (counted in the table %d); '
+          'names without exactly one row %d; character rows twice %d: %s'
+          % (len(out), layer_names, apart, counted, lost, len(dup), 'PASS' if ok else 'FAIL'))
     return ok
 
 
@@ -340,6 +354,7 @@ def c6():
 
 
 # ---------------------------------------------------------------- the act layer joined to the characters
+UNJOINED = []   # the act and free-verb names that join no character, as the last table() set them apart
 ACT_STUDIES = ['twolayer', 'problems', 'held', 'animal']   # one act study per story and reader, the first present
 CYR = re.compile('[Ѐ-ӿ]')
 
@@ -512,11 +527,14 @@ def dry():
         x['with acts'] += 'acts' in r[12]
         x['acts only'] += 'functions' not in r[12] and 'acts' in r[12]
         x['free only'] += r[12] == 'free'
+    for r in UNJOINED:
+        c[(r[2], r[1])]['unjoined ' + r[3]] += int(r[6])
     for (g, L), x in sorted(c.items(), key=lambda kv: (list(PATS).index(kv[0][0]), kv[0][1])):
         n = x['characters']
-        print('%-8s %s stories %3d, characters %5d, with a sphere %5d, kind resolved %3.0f%%, with acts %5d, from acts only %4d, '
-              'from free verbs only %4d' % (g, L, sum(1 for k in x if k.startswith('stories:')), n, x['with a sphere'],
-                                             100.0 * x['kind resolved'] / max(1, n), x['with acts'], x['acts only'], x['free only']))
+        print('%-8s %s stories %3d, characters %5d, with a sphere %5d, kind resolved %3.0f%%, with acts %5d; '
+              'unjoined mentions, acts %5d, free verbs %5d' % (g, L, sum(1 for k in x if k.startswith('stories:')), n, x['with a sphere'],
+                                                              100.0 * x['kind resolved'] / max(1, n), x['with acts'],
+                                                              x['unjoined acts'], x['unjoined free']))
 
 
 if __name__ == '__main__':
