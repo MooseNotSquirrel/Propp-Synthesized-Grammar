@@ -48,3 +48,13 @@
 **The names found only in the act and free-verb layers.** As first drafted, the table made a character of every such name that joined no function name. The dry run of 2026-10-26 counts a great many of these in the wondertales: 580 and 375 characters from the acts alone, mostly Russian names the event join did not link, and 378 and 576 from the free verbs alone. Many are probably the same characters as function-layer ones, named differently. Of those with unknown kind, 951 wondertale rows and 52 animal-tale rows are Russian, and 245 rows across the corpora are English.
 
 **Decided by the owner, 2026-10-26:** such names are set apart as unjoined, counted and not made characters (`CharacterProtocol.md` section 8), and their kinds are not collected. This stage takes only characters with a function-layer name, as drafted.
+
+## Amendment at the owner's word, after the freeze
+
+**2026-10-26, smaller batches.** The batches are cut smaller than the freeze said: each corpus group (the wondertales; the fables and animal tales together; the tragedies; the myths) is cut into as few batches of at most 75 items as hold it, numbered on across the groups. That gives:
+- `n1` and `n2`: the wondertales;
+- `n3`: the fables and animal tales;
+- `n4` to `n6`: the tragedies;
+- `n7` to `n13`: the myths.
+
+That is thirteen batches per reader, twenty-six readers in all. With the controls (three or four a batch), the batches hold 33 to 76 items. Nothing else changes.
