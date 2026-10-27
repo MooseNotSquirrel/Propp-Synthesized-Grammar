@@ -1,0 +1,925 @@
+item	corpus	story	character	control
+n1-001	tale	A093	ivan tsarevich	
+n1-002	tale	A093	vertodub	
+n1-003	tale	A093	vertogor	
+n1-004	tale	A095	marfusha	
+n1-005	tale	A095	morozko	
+n1-006	tale	A095	each other	
+n1-007	tale	A098	natashka	
+n1-008	myth	L2-047	eagle	Y
+n1-009	tale	A100	khavroshechka	
+n1-010	tale	A100	one eye	
+n1-011	tale	A100	three eyes	
+n1-012	tale	A101	yagishna	
+n1-013	tale	A101	three eyes	
+n1-014	tale	A101	ivan tsarevich	
+n1-015	tale	A101	boyars	
+n1-016	tale	A104	vasilisa	
+n1-017	tragedy	P01	greeks	Y
+n1-018	tale	A104	baba yaga	
+n1-019	tale	A105	zamoryshek	
+n1-020	tale	A105	baba yaga	
+n1-021	tale	A106	zhikhar	
+n1-022	tale	A106	baba yaga	
+n1-023	tale	A108	ivashko	
+n1-024	tale	A108	alyonka	
+n1-025	tale	A108	geese swans	
+n1-026	tale	A113	geese swans	
+n1-027	tale	A115	tsarevna	
+n1-028	tale	A125	ivan tsarevich	
+n1-029	tale	A125	marfa tsarevna	
+n1-030	tale	A128	egorushko	
+n1-031	tale	A128	misha	
+n1-032	tale	A128	ivashko	
+n1-033	tale	A128	idolishche	
+n1-034	tale	A128	baba yaga	
+n1-035	tale	A131	anyone	
+n1-036	tale	A131	frolka	
+n1-037	tale	A131	yeryoma	
+n1-038	tale	A132	norka	
+n1-039	tale	A132	ivan tsarevich	
+n1-040	tale	A133	pokotygoroshko	
+n1-041	tale	A135	ivan popyalov	
+n1-042	tale	A135	kuzma	
+n1-043	tale	A135	demyan	
+n1-044	tale	A136	three ivans	
+n1-045	tale	A136	ivan tsarevich	
+n1-046	tale	A136	burya	
+n1-047	tale	A136	baba yaga	
+n1-048	tale	A137	ruff swimmer	
+n1-049	tale	A137	three ivans	
+n1-050	tale	A137	ivan bykovich	
+n1-051	tale	A137	baba yaga	
+n1-052	tale	A137	ivan tsarevich	
+n1-053	myth	L3-117	attica	Y
+n1-054	tale	A137	bath steamer	
+n1-055	tale	A137	star reader	
+n1-056	tale	A138	studenets	
+n1-057	tale	A138	obzhora	
+n1-058	tale	A139	suchenko	
+n1-059	tale	A139	three ivans	
+n1-060	tale	A139	tsarenko	
+n1-061	tale	A139	belyi polyanin	
+n1-062	tale	A139	povarenko	
+n1-063	tale	A140	boyars	
+n1-064	tale	A140	anyone	
+n1-065	fable	F084	shepherd	Y
+n1-066	tale	A140	vechorka	
+n1-067	tale	A140	polunochka	
+n1-068	tale	A140	zorka	
+n1-069	tale	A141	repka	
+n2-001	tale	A141	ivashko	
+n2-002	tale	A141	usynya	
+n2-003	tale	A141	gorynya	
+n2-004	tale	A141	dubynya	
+n2-005	tale	A141	baba yaga	
+n2-006	tale	A143	nadzei	
+n2-007	tale	A143	gorynya	
+n2-008	tale	A145	seven semyons	
+n2-009	tale	A145	eldest semyon	
+n2-010	tale	A145	second semyon	
+n2-011	myth	L2-032	athena	Y
+n2-012	tale	A145	third semyon	
+n2-013	tale	A145	fourth semyon	
+n2-014	tale	A145	fifth semyon	
+n2-015	tale	A145	sixth semyon	
+n2-016	tale	A145	seventh semyon	
+n2-017	tale	A145	seer semyon	
+n2-018	tale	A145	smith semyon	
+n2-019	tale	A145	thief semyon	
+n2-020	tale	A145	marksman semyon	
+n2-021	tale	A145	swimmer semyon	
+n2-022	tale	A145	healer semyon	
+n2-023	tale	A148	nikita	
+n2-024	tale	A151	shabarsha	
+n2-025	tale	A152	ivanko	
+n2-026	tale	A154	princess marya	
+n2-027	tale	A155	boyars	
+n2-028	tale	A155	each other	
+n2-029	tale	A155	ivan tsarevich	
+n2-030	tale	A155	water carrier	
+n2-031	tale	A156	koshchei	
+n2-032	tale	A156	ivan tsarevich	
+n2-033	tale	A156	she wolf	
+n2-034	tale	A159	marya tsarevna	
+n2-035	tale	A159	olga tsarevna	
+n2-036	tale	A159	anna tsarevna	
+n2-037	tale	A159	marya morevna	
+n2-038	tale	A159	baba yaga	
+n2-039	tale	A161	dragon tsar	
+n2-040	tale	A161	ivan tsarevich	
+n2-041	tale	A161	she wolf	
+n2-042	tale	A161	white polyanin	
+n2-043	tale	A162	ivan tsarevich	
+n2-044	tale	A163	bukhtan	
+n2-045	tale	A164	kuzenka	
+n2-046	tale	A164	tsar zmiulan	
+n2-047	tale	A100	two eyes	
+n2-048	tale	A101	marya tsarevna	
+n2-049	fable	F298	jupiter	Y
+n2-050	tale	A125	ivan	
+n2-051	tale	A125	marfa	
+n2-052	fable	F256	crow	Y
+n2-053	tale	A135	ivan	
+n2-054	tale	A136	those summoned	
+n2-055	tale	A138	ivan	
+n2-056	tale	A145	semyon	
+n2-057	fable	F227	mule	Y
+n2-058	tale	A149	each other	
+n2-059	tale	A153	each other	
+n2-060	tale	A154	each other	
+n2-061	tale	A159	ivan tsarevich	
+n2-062	tale	A159	olga	
+n2-063	tale	A159	koshchei	
+n2-064	tale	A159	each other	
+n2-065	tale	A161	each other	
+n2-066	tale	A161	baba yaga	
+n2-067	tale	A162	each other	
+n2-068	tale	A164	horseherds	
+n2-069	tale	A164	camel herds	
+n2-070	tale	A166	himself	
+n3-001	fable	F055	shepherd boy	
+n3-002	fable	F100	farm bailiff	
+n3-003	fable	F132	birdcatcher	
+n3-004	fable	F302	thorn tree	
+n3-005	fable	F035	axle trees	
+n3-006	fable	F114	milk woman	
+n3-007	fable	F133	birdcatcher	
+n3-008	fable	F143	camel driver	
+n3-009	fable	F164	goat herd	
+n3-010	fable	F217	birdcatcher	
+n3-011	tale	A128	maiden silver kingdom	Y
+n3-012	fable	F227	draught mule	
+n3-013	fable	F247	each other	
+n3-014	fable	F257	each other	
+n3-015	fable	F299	shepherds who attacked him	
+n3-016	tragedy	P10	achilles	Y
+n3-017	fable	F299	shepherds who spared him	
+n3-018	fable	F012	each other	
+n3-019	myth	L1-062	kine	Y
+n3-020	fable	F021	each other	
+n3-021	fable	F068	each other	
+n3-022	fable	F244	snare setter	
+n3-023	fable	F258	each other	
+n3-024	fable	F008	each other	
+n3-025	tragedy	P04	lords delphi	Y
+n3-026	fable	F023	each other	
+n3-027	fable	F025	each other	
+n3-028	fable	F102	each other	
+n3-029	fable	F159	each other	
+n3-030	fable	F189	person who ran up	
+n3-031	animal	A007	all four	
+n3-032	animal	A034	snegurushka	
+n3-033	animal	A035	each other	
+n4-001	tragedy	P01	dolon	
+n4-002	animal	A045	wolves	Y
+n4-003	tragedy	P01	diomedes	
+n4-004	tragedy	P01	cypris	
+n4-005	tragedy	P01	thamyris	
+n4-006	tragedy	P01	musaeus	
+n4-007	tragedy	P02	iolaus	
+n4-008	tragedy	P02	eurystheus	
+n4-009	fable	F122	lion	Y
+n4-010	tragedy	P02	copreus	
+n4-011	tragedy	P02	alcmena	
+n4-012	tragedy	P02	hyllus	
+n4-013	tragedy	P02	demophon	
+n4-014	tragedy	P02	macaria	
+n4-015	tragedy	P03	ismene	
+n4-016	tragedy	P03	polyneices	
+n4-017	tragedy	P04	delphians	
+n4-018	tragedy	P04	xuthus	
+n4-019	tragedy	P04	erechtheus	
+n4-020	tragedy	P04	erichthonius	
+n4-021	tragedy	P05	polydorus	
+n4-022	tragedy	P05	polymestor	
+n4-023	tragedy	P05	hecuba	
+n4-024	tragedy	P05	powers below	
+n4-025	tragedy	P05	polyxena	
+n4-026	tragedy	P05	talthybius	
+n4-027	tragedy	P05	maid servant	
+n4-028	tragedy	P06	polyneices	
+n4-029	tragedy	P06	eteocles	
+n4-030	tragedy	P06	ismene	
+n4-031	tragedy	P06	haemon	
+n4-032	tragedy	P06	danae	
+n4-033	tragedy	P06	teiresias	
+n4-034	tragedy	P06	megareus	
+n4-035	tragedy	P07	epaphus	
+n4-036	tragedy	P07	palaechthon	
+n4-037	tragedy	P07	agenor	
+n4-038	tragedy	P07	belus	
+n4-039	tragedy	P08	dioskouroi	
+n4-040	tragedy	P08	thyestes	
+n4-041	tragedy	P08	tyndareus	
+n4-042	tragedy	P08	halirrothius	
+n4-043	tragedy	P08	pylades	
+n4-044	tragedy	P09	pelias	
+n4-045	tragedy	P09	aegeus	
+n4-046	fable	F130	lion	Y
+n4-047	tragedy	P10	pelops	
+n4-048	tragedy	P10	calchas	
+n4-049	tragedy	P10	pylades	
+n4-050	tragedy	P10	thyestes	
+n4-051	tragedy	P10	oenomaus	
+n4-052	tragedy	P10	taurians	
+n4-053	tale	A164	swineherds	Y
+n4-054	tragedy	P11	andromache	
+n4-055	tragedy	P11	astyanax	
+n4-056	tragedy	P11	molossus	
+n4-057	tragedy	P11	neoptolemus	
+n4-058	tragedy	P11	hermione	
+n4-059	tragedy	P11	cypris	
+n4-060	tragedy	P11	phocus	
+n4-061	tragedy	P11	delphians	
+n4-062	tragedy	P12	pelops	
+n4-063	tragedy	P12	thyestes	
+n4-064	tragedy	P12	hermione	
+n4-065	tragedy	P12	glaucus	
+n4-066	tragedy	P12	oeax	
+n4-067	tragedy	P12	palamedes	
+n4-068	tragedy	P12	tyndareus	
+n4-069	tragedy	P12	pylades	
+n4-070	tragedy	P12	strophius	
+n4-071	tragedy	P12	aegyptus	
+n4-072	tragedy	P12	talthybius	
+n4-073	tragedy	P12	diomedes	
+n4-074	tragedy	P12	myrtilus	
+n4-075	tragedy	P12	aerope	
+n4-076	tragedy	P13	teleutas	
+n5-001	tragedy	P13	eurysaces	
+n5-002	tragedy	P13	calchas	
+n5-003	tragedy	P14	paedagogus	
+n5-004	tragedy	P14	clytaemnestra	
+n5-005	tragedy	P14	chrysothemis	
+n5-006	tragedy	P14	myrtilus	
+n5-007	tragedy	P15	pittheus	
+n5-008	tragedy	P15	aethra	
+n5-009	tragedy	P15	adrastus	
+n5-010	tragedy	P15	tydeus	
+n5-011	tragedy	P15	polynices	
+n5-012	tragedy	P15	amphiaraus	
+n5-013	tragedy	P15	capaneus	
+n5-014	tragedy	P15	phorbas	
+n5-015	myth	L1-027	hermes	Y
+n5-016	tragedy	P15	evadne	
+n5-017	tragedy	P15	iphis	
+n5-018	tragedy	P16	psamathe	
+n5-019	tragedy	P16	theonoe	
+n5-020	tragedy	P16	kypris	
+n5-021	tragedy	P16	menelaos	
+n5-022	tragedy	P16	theoklymenos	
+n5-023	tragedy	P16	teucer	
+n5-024	tragedy	P16	aias	
+n5-025	tragedy	P16	achilleus	
+n5-026	tragedy	P16	dioskouroi	
+n5-027	tale	A126	eldest son	Y
+n5-028	tragedy	P16	kallisto	
+n5-029	tragedy	P16	pelops	
+n5-030	tragedy	P16	oinomaos	
+n5-031	tragedy	P16	airope	
+n5-032	tragedy	P16	tyndareus	
+n5-033	tragedy	P16	nauplios	
+n5-034	tragedy	P16	hyakinthos	
+n5-035	tragedy	P17	clytaemestra	
+n5-036	tragedy	P30	villagers	Y
+n5-037	tragedy	P17	calchas	
+n5-038	tragedy	P17	beacon keepers	
+n5-039	myth	L2-045	wild beasts	Y
+n5-040	tragedy	P17	thyestes	
+n5-041	tragedy	P18	harmonia	
+n5-042	tragedy	P18	polybus	
+n5-043	tragedy	P18	eteocles	
+n5-044	tragedy	P18	polyneices	
+n5-045	tragedy	P18	adrastus	
+n5-046	tragedy	P18	tydeus	
+n5-047	tragedy	P18	parthenopaeus	
+n5-048	tragedy	P18	capaneus	
+n5-049	tragedy	P18	semele	
+n5-050	tragedy	P18	sown men	
+n5-051	tragedy	P18	menoeceus	
+n5-052	tragedy	P18	amphion	
+n5-053	tragedy	P18	periclymenus	
+n5-054	tragedy	P19	achelous	
+n5-055	tragedy	P19	deianeira	
+n5-056	tragedy	P19	iphitus	
+n5-057	tragedy	P19	hyllus	
+n5-058	tragedy	P19	omphale	
+n5-059	tragedy	P19	lichas	
+n5-060	tragedy	P19	oeneus	
+n5-061	tragedy	P19	nessus	
+n5-062	tragedy	P19	eurystheus	
+n5-063	tragedy	P20	iocasta	
+n5-064	tragedy	P20	teiresias	
+n5-065	tragedy	P20	polybus	
+n5-066	tragedy	P20	merope	
+n5-067	tragedy	P21	xerxes	
+n5-068	tragedy	P21	atossa	
+n5-069	tragedy	P21	gods below	
+n5-070	tragedy	P21	darius	
+n5-071	tragedy	P21	artaphrenes	
+n5-072	tragedy	P21	mardus	
+n5-073	tragedy	P22	pheres	
+n5-074	tragedy	P22	alcestis	
+n5-075	tragedy	P22	eumelus	
+n5-076	tragedy	P22	eurystheus	
+n6-001	tragedy	P22	lycaon	
+n6-002	tragedy	P22	cycnus	
+n6-003	tragedy	P23	clytaemestra	
+n6-004	tragedy	P23	pylades	
+n6-005	tragedy	P24	hippolytus	
+n6-006	tragedy	P24	pittheus	
+n6-007	tragedy	P24	phaedra	
+n6-008	myth	L3-070	hera	Y
+n6-009	tragedy	P24	semele	
+n6-010	tragedy	P24	sinis	
+n6-011	tragedy	P25	philoctetes	
+n6-012	tragedy	P25	neoptolemus	
+n6-013	tragedy	P25	atreids	
+n6-014	tragedy	P25	antilochus	
+n6-015	tragedy	P25	poeas	
+n6-016	tragedy	P25	helenus	
+n6-017	tragedy	P26	alcmena	
+n6-018	tragedy	P26	amphitryon	
+n6-019	tragedy	P26	electryon	
+n6-020	tragedy	P26	taphians	
+n6-021	tragedy	P26	cycnus	
+n6-022	tragedy	P27	delphus	
+n6-023	tragedy	P27	bromius	
+n6-024	tragedy	P27	pentheus	
+n6-025	tragedy	P27	clytaemestra	
+n6-026	tragedy	P27	ixion	
+n6-027	tragedy	P28	hesione	
+n6-028	tragedy	P29	eteocles	
+n6-029	tragedy	P29	amphiaraus	
+n6-030	tragedy	P29	tydeus	
+n6-031	tragedy	P29	melanippus	
+n6-032	tragedy	P29	capaneus	
+n6-033	tragedy	P29	polyphontes	
+n6-034	tragedy	P29	eteoclus	
+n6-035	tragedy	P29	megareus	
+n6-036	myth	L3-039	jocasta	Y
+n6-037	tragedy	P29	hippomedon	
+n6-038	tragedy	P29	hyperbius	
+n6-039	tragedy	P29	parthenopaeus	
+n6-040	tragedy	P29	polynices	
+n6-041	tragedy	P29	lasthenes	
+n6-042	tragedy	P30	semele	
+n6-043	tragedy	P30	kadmos	
+n6-044	tragedy	P30	ino	
+n6-045	tragedy	P30	autonoe	
+n6-046	tragedy	P30	pentheus	
+n6-047	tragedy	P30	korybantes	
+n6-048	tragedy	P30	teiresias	
+n6-049	tragedy	P30	actaeon	
+n6-050	tragedy	P31	epeus	
+n6-051	tragedy	P31	polyxena	
+n6-052	tale	A128	woman	Y
+n6-053	tragedy	P31	aias	
+n6-054	tragedy	P31	neoptolemus	
+n6-055	tragedy	P31	andromache	
+n6-056	tragedy	P31	astyanax	
+n6-057	tragedy	P31	laomedon	
+n6-058	tragedy	P31	cypris	
+n6-059	tragedy	P31	deiphobus	
+n6-060	tragedy	P31	acastus	
+n6-061	tragedy	P32	tyndareus	
+n6-062	tragedy	P32	calchas	
+n6-063	tragedy	P32	talthybius	
+n6-064	tragedy	P32	dioscuri	
+n6-065	tragedy	P04	creusa	
+n6-066	tragedy	P04	themselves	
+n6-067	tragedy	P11	ocean god	
+n6-068	tragedy	P26	minyans	Y
+n6-069	tragedy	P18	polydorus	
+n6-070	tragedy	P18	ismene	
+n6-071	tragedy	P18	bromius	
+n6-072	tragedy	P18	teiresias	
+n6-073	tragedy	P19	eurytus	
+n6-074	tragedy	P19	iole	
+n6-075	tragedy	P26	lycus	
+n6-076	tragedy	P30	dirce	
+n7-001	myth	L1-003	curetes	
+n7-002	myth	L1-003	campe	
+n7-003	myth	L1-003	menoetius	
+n7-004	myth	L1-015	elare	
+n7-005	myth	L1-015	tityus	
+n7-006	myth	L1-015	marsyas	
+n7-007	myth	L1-016	merope	
+n7-008	myth	L1-016	oenopion	
+n7-009	myth	L1-019	iambe	
+n7-010	myth	L1-019	demophon	
+n7-011	myth	L1-019	praxithea	
+n7-012	myth	L1-019	triptolemus	
+n7-013	myth	L3-075	precinct zeus	Y
+n7-014	myth	L1-019	ascalaphus	
+n7-015	myth	L1-020	alcyoneus	
+n7-016	myth	L1-020	porphyrion	
+n7-017	myth	L1-020	ephialtes	
+n7-018	myth	L1-020	eurytus	
+n7-019	myth	L1-020	clytius	
+n7-020	myth	L1-020	mimas	
+n7-021	tale	A139	red horse	Y
+n7-022	myth	L1-020	enceladus	
+n7-023	myth	L1-020	polybotes	
+n7-024	myth	L1-020	hippolytus	
+n7-025	myth	L1-020	gration	
+n7-026	myth	L1-020	agrius	
+n7-027	myth	L1-020	thoas	
+n7-028	myth	L1-021	delphyne	
+n7-029	myth	L1-021	aegipan	
+n7-030	myth	L1-022	at zeus s order	
+n7-031	myth	L1-023	deucalion	
+n7-032	myth	L1-023	pyrrha	
+n7-033	myth	L1-027	aloads	
+n7-034	myth	L1-027	ephialtes	
+n7-035	myth	L1-027	each other	
+n7-036	myth	L1-031	marpessa	
+n7-037	myth	L1-031	evenus	
+n7-038	myth	L1-034	meleager among them	
+n7-039	myth	L1-034	oeneus	
+n7-040	myth	L1-034	atalanta	
+n7-041	myth	L3-025	men	Y
+n7-042	tragedy	P12	tantalus	Y
+n7-043	myth	L1-034	ancaeus	
+n7-044	myth	L1-034	hyleus	
+n7-045	myth	L1-034	eurytion	
+n7-046	myth	L1-034	amphiaraus	
+n7-047	myth	L1-040	tydeus	
+n7-048	myth	L1-040	alcathous	
+n7-049	myth	L1-040	agrius	
+n7-050	myth	L1-040	adrastus	
+n7-051	myth	L1-040	melanippus	
+n7-052	myth	L1-044	diomedes	
+n7-053	myth	L1-044	with alcmaeon	
+n7-054	myth	L1-044	onchestus	
+n7-055	myth	L1-044	thersites	
+n7-056	myth	L1-044	andraemon	
+n7-057	myth	L1-044	for oeneus s house	
+n7-058	myth	L1-044	oeneus	
+n7-059	myth	L1-045	ino	
+n7-060	myth	L1-045	phrixus	
+n7-061	myth	L1-045	helle	
+n7-062	myth	L1-045	athamas	
+n7-063	myth	L1-045	nephele	
+n7-064	myth	L1-045	aeetes	
+n7-065	myth	L1-046	athamas	
+n7-066	myth	L1-046	learchus	
+n7-067	myth	L1-046	ino	
+n7-068	myth	L1-046	melicertes	
+n7-069	myth	L1-053	salmoneus	
+n7-070	myth	L1-054	cretheus	
+n7-071	myth	L1-054	enipeus	
+n7-072	myth	L1-055	pelias	
+n7-073	myth	L1-055	horsekeeper	
+n7-074	myth	L1-055	neleus	
+n7-075	myth	L1-055	sidero	
+n8-001	myth	L1-057	periclymenus	
+n8-002	myth	L1-057	pylus	
+n8-003	myth	L1-060	melampus	
+n8-004	myth	L1-062	melampus	
+n8-005	myth	L1-062	phylacus	
+n8-006	myth	L1-062	iphiclus	
+n8-007	myth	L1-062	neleus	
+n8-008	myth	L1-067	admetus	
+n8-009	myth	L1-067	pelias	
+n8-010	myth	L1-067	alcestis	
+n8-011	fable	F149	monkeys	Y
+n8-012	myth	L1-070	pelias	
+n8-013	myth	L1-070	hypsipyle	
+n8-014	myth	L1-070	thoas	
+n8-015	myth	L1-070	cyzicus	
+n8-016	myth	L1-070	doliones	
+n8-017	myth	L1-071	polyphemus	
+n8-018	myth	L1-076	amycus	
+n8-019	myth	L1-076	bebryces	
+n8-020	myth	L1-076	phineus	
+n8-021	myth	L1-076	zetes or calais	
+n8-022	myth	L1-076	lycus	
+n8-023	myth	L1-076	idmon	
+n8-024	myth	L1-076	tiphys	
+n8-025	myth	L1-076	ancaeus	
+n8-026	myth	L1-076	aeetes	
+n8-027	myth	L1-076	apsyrtus	
+n8-028	myth	L1-076	colchians	
+n8-029	myth	L1-076	butes	
+n8-030	myth	L1-076	alcinous	
+n8-031	myth	L1-076	talos	
+n8-032	myth	L1-076	aeson	
+n8-033	myth	L1-076	promachus	
+n8-034	myth	L1-076	acastus	
+n8-035	myth	L1-076	glauce	
+n8-036	myth	L1-082	glauce	
+n8-037	myth	L1-082	mermerus	
+n8-038	myth	L1-082	pheres	
+n8-039	myth	L1-082	medus	
+n8-040	myth	L1-082	perses	
+n8-041	myth	L1-082	aeetes	
+n8-042	myth	L2-002	argus all seeing	
+n8-043	myth	L2-002	guilty	
+n8-044	myth	L2-003	argus all seeing	
+n8-045	myth	L2-003	hierax	
+n8-046	myth	L2-003	epaphus	
+n8-047	tragedy	P30	hera	Y
+n8-048	myth	L2-003	curetes	
+n8-049	myth	L2-005	belus	
+n8-050	myth	L2-005	egyptus	
+n8-051	myth	L2-005	melampods	
+n8-052	myth	L2-005	gelanor	
+n8-053	myth	L2-006	amymone	
+n8-054	myth	L2-007	hypermnestra	
+n8-055	myth	L2-007	lynceus	
+n8-056	myth	L2-009	acrisius	
+n8-057	myth	L2-009	proetus	
+n8-058	myth	L2-009	iobates	
+n8-059	myth	L2-009	tiryns	
+n8-060	myth	L2-010	melampus	
+n8-061	myth	L2-010	iphinoe	
+n8-062	myth	L2-012	deliades	
+n8-063	myth	L2-012	proetus	
+n8-064	myth	L2-012	stheneboea	
+n8-065	myth	L2-012	iobates	
+n8-066	myth	L2-012	solymi	
+n8-067	myth	L2-015	acrisius	
+n8-068	myth	L2-015	danae	
+n8-069	myth	L2-015	dictys	
+n8-070	myth	L2-015	polydectes	
+n8-071	tragedy	P11	centaurs	Y
+n8-072	myth	L2-015	phorcides	
+n8-073	myth	L2-018	phineus	
+n8-074	fable	F036	farmer	Y
+n8-075	myth	L2-018	polydectes	
+n9-001	myth	L2-018	danae	
+n9-002	myth	L3-025	infants	Y
+n9-003	myth	L2-018	dictys	
+n9-004	myth	L2-022	acrisius	
+n9-005	myth	L2-022	teutamides	
+n9-006	myth	L2-022	megapenthes	
+n9-007	myth	L2-026	surviving taphians	
+n9-008	myth	L2-026	each other	
+n9-009	myth	L2-026	polyxenus	
+n9-010	myth	L2-027	amphitryon	
+n9-011	myth	L2-027	polyxenus	
+n9-012	myth	L2-027	teleboans	
+n9-013	myth	L2-006	satyr	Y
+n9-014	myth	L2-027	sthenelus	
+n9-015	myth	L2-027	thyestes	
+n9-016	myth	L2-027	alcmena	
+n9-017	myth	L2-027	taphians	
+n9-018	myth	L2-027	comaetho	
+n9-019	myth	L2-027	pterelaus	
+n9-020	myth	L2-027	heleus	
+n9-021	myth	L2-027	cephalus	
+n9-022	myth	L2-027	cadmea	
+n9-023	myth	L2-032	amphitryon	
+n9-024	myth	L2-032	children by megara	
+n9-025	myth	L2-032	thespius	
+n9-026	myth	L2-032	eurystheus	
+n9-027	myth	L2-032	molorchus	
+n9-028	myth	L2-034	eurystheus	
+n9-029	animal	A006	peasant	Y
+n9-030	myth	L2-034	iolaus	
+n9-031	myth	L2-034	pholus	
+n9-032	myth	L2-034	anchius	
+n9-033	myth	L2-034	agrius	
+n9-034	myth	L2-038	pholus	
+n9-035	myth	L2-038	eurystheus	
+n9-036	myth	L2-038	augeas s cattle yard	
+n9-037	myth	L2-038	phyleus	
+n9-038	myth	L2-038	eurytion	
+n9-039	myth	L2-038	mnesimache	
+n9-040	myth	L2-038	dexamenus	
+n9-041	myth	L2-041	eurystheus	
+n9-042	myth	L2-041	bistones	
+n9-043	myth	L2-041	abderus	
+n9-044	myth	L2-041	diomedes	
+n9-045	myth	L2-043	eurystheus	
+n9-046	myth	L2-043	two hercules s crew	
+n9-047	myth	L2-043	admete	
+n9-048	myth	L2-043	lycus	
+n9-049	myth	L2-043	bebryces	
+n9-050	myth	L2-043	mygdon	
+n9-051	myth	L2-043	hippolyte	
+n9-052	myth	L2-043	besieged	
+n9-053	myth	L2-044	hesione	
+n9-054	myth	L2-045	laomedon	
+n9-055	myth	L2-045	hesione	
+n9-056	myth	L2-045	poltys	
+n9-057	myth	L2-045	polygonus	
+n9-058	myth	L2-045	telegonus	
+n9-059	myth	L2-045	eurystheus	
+n9-060	myth	L2-045	orthus	
+n9-061	myth	L2-045	eurytion	
+n9-062	myth	L2-045	menoetes	
+n9-063	myth	L2-045	ialebion	
+n9-064	myth	L2-045	dercynus	
+n9-065	myth	L2-045	cycnus	
+n9-066	myth	L2-045	antaeus	
+n9-067	myth	L2-045	eryx	
+n9-068	myth	L2-047	busiris	
+n9-069	myth	L2-047	amphidamas	
+n9-070	myth	L2-047	emathion	
+n9-071	myth	L2-047	eurystheus	
+n9-072	myth	L2-047	eumolpus	
+n9-073	myth	L3-109	greece	Y
+n9-074	myth	L2-047	pirithous	
+n9-075	myth	L2-047	ascalaphus	
+n10-001	myth	L2-047	menoetes	
+n10-002	myth	L2-047	iolaus	
+n10-003	myth	L2-047	megara	
+n10-004	myth	L2-047	eurytus	
+n10-005	myth	L2-047	iphitus	
+n10-006	myth	L2-047	autolycus	
+n10-007	myth	L2-047	alcestis	
+n10-008	myth	L2-047	admetus	
+n10-009	myth	L2-047	neleus	
+n10-010	myth	L2-047	deiphobus	
+n10-011	myth	L2-047	omphale	
+n10-012	myth	L2-047	cercopes	
+n10-013	myth	L2-047	syleus	
+n10-014	myth	L2-047	xenodoce	
+n10-015	myth	L2-047	oicles	
+n10-016	myth	L2-047	laomedon	
+n10-017	myth	L2-047	hesione	
+n10-018	myth	L2-047	podarces	
+n10-019	myth	L2-047	coans	
+n10-020	myth	L3-062	walls	Y
+n10-021	myth	L2-047	eurypylus	
+n10-022	myth	L2-047	molionides	
+n10-023	myth	L2-047	eleans	
+n10-024	myth	L2-047	phyleus	
+n10-025	myth	L2-047	pylians	
+n10-026	myth	L2-047	periclymenus	
+n10-027	myth	L2-050	lacedaemonians	
+n10-028	myth	L2-050	hippocoon	
+n10-029	myth	L2-050	tyndareus	
+n10-030	myth	L2-054	deianira	
+n10-031	myth	L2-054	achelous	
+n10-032	myth	L2-054	thesprotians	
+n10-033	fable	F275	lion	Y
+n10-034	myth	L2-054	astyoche	
+n10-035	myth	L2-027	household	Y
+n10-036	myth	L2-054	thespius	
+n10-037	myth	L2-054	nessus	
+n10-038	myth	L2-054	thiodamas	
+n10-039	myth	L2-054	ceyx	
+n10-040	myth	L2-054	dryopes	
+n10-041	myth	L2-054	lapiths under coronus	
+n10-042	myth	L2-054	aegimius	
+n10-043	myth	L2-054	laogoras	
+n10-044	myth	L2-054	cycnus	
+n10-045	myth	L2-054	amyntor	
+n10-046	myth	L2-054	eurytus	
+n10-047	myth	L2-054	iole	
+n10-048	myth	L2-054	lichas	
+n10-049	myth	L2-054	hyllus	
+n10-050	myth	L2-054	poeas	
+n10-051	myth	L2-055	hyllus	
+n10-052	myth	L2-055	alcmena	
+n10-053	myth	L2-055	heraclids	
+n10-054	myth	L2-055	peloponnesians	
+n10-055	myth	L2-058	hyllus	
+n10-056	myth	L2-058	peloponnesians	
+n10-057	myth	L2-058	temenus	
+n10-058	myth	L2-058	hippotes	
+n10-059	myth	L2-058	oxylus	
+n10-060	myth	L2-058	tisamenus	
+n10-061	myth	L2-058	pamphylus	
+n10-062	myth	L2-058	dymas	
+n10-063	myth	L2-058	cresphontes	
+n10-064	myth	L3-002	agenor	
+n10-065	myth	L3-002	cilix	
+n10-066	myth	L3-002	telephassa	
+n10-067	animal	A036	fox	Y
+n10-068	myth	L3-002	thasus	
+n10-069	myth	L3-003	asterius	
+n10-070	myth	L3-003	miletus	
+n10-071	myth	L3-003	rhadamanthys	
+n10-072	myth	L3-003	cilix	
+n10-073	myth	L3-006	asterius	
+n10-074	myth	L3-010	althaemenes	
+n10-075	myth	L3-010	apemosyne	
+n11-001	myth	L3-011	apemosyne	
+n11-002	myth	L3-011	althaemenes	
+n11-003	myth	L3-012	catreus	
+n11-004	myth	L3-012	aerope	
+n11-005	myth	L3-012	clymene	
+n11-006	myth	L3-012	althaemenes	
+n11-007	myth	L3-014	curetes	
+n11-008	myth	L3-014	polyidus	
+n11-009	myth	L3-015	telephassa	
+n11-010	myth	L3-015	harmonia	
+n11-011	myth	L3-019	semele	
+n11-012	myth	L3-020	ino	
+n11-013	myth	L3-020	athamas	
+n11-014	myth	L3-020	learchus	
+n11-015	myth	L3-020	melicertes	
+n11-016	myth	L3-025	lycurgus	
+n11-017	myth	L3-025	pentheus	
+n11-018	myth	L3-025	semele	
+n11-019	myth	L3-025	thyone	
+n11-020	myth	L3-026	harmonia	
+n11-021	myth	L3-026	encheleans	
+n11-022	myth	L3-029	lycus	
+n11-023	myth	L3-029	phlegyas	
+n11-024	myth	L3-029	nycteus	
+n11-025	myth	L3-030	antiope	
+n11-026	myth	L3-030	nycteus	
+n11-027	myth	L3-030	epopeus	
+n11-028	myth	L3-030	lycus	
+n11-029	fable	F276	truth	Y
+n11-030	tale	A155	magic horse	Y
+n11-031	myth	L3-030	sicyon	
+n11-032	myth	L3-031	not named	
+n11-033	myth	L3-031	zethus	
+n11-034	myth	L3-031	amphion	
+n11-035	myth	L3-031	neatherd	
+n11-036	myth	L3-031	lycus	
+n11-037	myth	L3-031	antiope	
+n11-038	tragedy	P27	apollo	Y
+n11-039	myth	L3-031	dirce	
+n11-040	myth	L3-033	amphion	
+n11-041	myth	L3-036	neatherds polybus	
+n11-042	myth	L3-036	periboea	
+n11-043	myth	L3-038	haemon	
+n11-044	myth	L3-039	not named	
+n11-045	myth	L3-040	eteocles	
+n11-046	myth	L3-040	polynices	
+n11-047	myth	L3-040	tydeus	
+n11-048	myth	L3-040	deipyle	
+n11-049	myth	L3-040	argia	
+n11-050	myth	L3-043	polynices	
+n11-051	myth	L3-043	iphis	
+n11-052	myth	L3-043	eriphyle	
+n11-053	myth	L3-043	adrastus	
+n11-054	myth	L3-045	eteocles	
+n11-055	myth	L3-048	menoeceus	
+n11-056	myth	L3-051	cadmeans	
+n11-057	myth	L3-051	capaneus	
+n11-058	myth	L3-051	polynices	
+n11-059	myth	L3-051	eteocles	
+n11-060	myth	L3-051	ismarus	
+n11-061	myth	L3-051	hippomedon	
+n11-062	myth	L3-051	leades	
+n11-063	myth	L3-051	eteoclus	
+n11-064	myth	L3-051	amphidicus	
+n11-065	myth	L3-051	parthenopaeus	
+n11-066	myth	L3-053	tydeus	
+n11-067	myth	L3-053	amphiaraus	
+n11-068	myth	L3-060	epigoni	
+n11-069	myth	L3-060	alcmaeon	
+n11-070	myth	L3-060	thersander	
+n11-071	myth	L3-060	eriphyle	
+n11-072	myth	L3-060	laodamas	
+n11-073	myth	L3-060	aegialeus	
+n11-074	myth	L2-005	daughters	Y
+n11-075	myth	L3-061	epigoni	
+n12-001	myth	L3-061	hestiaea	
+n12-002	myth	L3-062	manto	
+n12-003	myth	L3-062	alcmaeon	
+n12-004	myth	L3-062	eriphyle	
+n12-005	myth	L3-062	arsinoe	
+n12-006	myth	L3-062	oeneus	
+n12-007	myth	L3-062	thesprotians	
+n12-008	myth	L3-062	achelous	
+n12-009	myth	L3-025	oars	Y
+n12-010	myth	L3-062	callirrhoe	
+n12-011	myth	L3-066	callirrhoe	
+n12-012	myth	L3-066	pronous	
+n12-013	myth	L3-066	agenor	
+n12-014	myth	L3-066	phegeus	
+n12-015	myth	L3-066	psophidians	
+n12-016	myth	L3-066	tegeans	
+n12-017	myth	L3-066	acarnania	
+n12-018	myth	L3-073	auge	
+n12-019	myth	L3-073	aleus	
+n12-020	myth	L3-073	teuthras	
+n12-021	myth	L3-074	telephus	
+n12-022	myth	L3-074	neatherds corythus	
+n12-023	myth	L3-074	teuthras	
+n12-024	myth	L3-075	iasus	
+n12-025	myth	L3-075	atalanta	
+n12-026	myth	L3-075	rhoecus	
+n12-027	myth	L3-075	hylaeus	
+n12-028	myth	L3-075	melanion	
+n12-029	myth	L3-078	two cattle	
+n12-030	myth	L3-081	coronis	
+n12-031	myth	L3-081	ischys	
+n12-032	myth	L3-084	hippocoon	
+n12-033	myth	L3-084	icarius	
+n12-034	myth	L3-084	tyndareus	
+n12-035	myth	L3-084	thestius	
+n12-036	myth	L3-092	tyndareus	
+n12-037	myth	L3-092	icarius	
+n12-038	myth	L3-093	dioscuri	
+n12-039	myth	L3-093	lynceus	
+n12-040	myth	L3-098	ilus	
+n12-041	myth	L3-104	arisbe	
+n12-042	myth	L3-104	hecuba	
+n12-043	myth	L3-104	aesacus	
+n12-044	myth	L3-105	agelaus	
+n12-045	myth	L3-107	oenone	
+n12-046	myth	L3-107	philoctetes	
+n12-047	myth	L3-108	asopus	
+n12-048	myth	L3-108	aeacus	
+n12-049	myth	L3-109	aeacus	
+n12-050	myth	L3-109	psamathe	
+n12-051	myth	L3-109	pelops	
+n12-052	myth	L3-109	stymphalus	
+n12-053	myth	L3-110	phocus	
+n12-054	myth	L3-110	aeacus	
+n12-055	myth	L3-110	cychreus	
+n12-056	myth	L3-111	eurytion	
+n12-057	myth	L3-111	atalanta	
+n12-058	myth	L3-111	astydamia	
+n12-059	myth	L3-111	iolcus	
+n12-060	tale	A136	woman	Y
+n12-061	myth	L3-111	with jason	
+n12-062	myth	L3-111	dioscuri	
+n12-063	myth	L2-058	land force	Y
+n12-064	myth	L3-114	calchas	
+n12-065	myth	L3-114	deidamia	
+n12-066	myth	L3-115	phthia	
+n12-067	myth	L3-115	amyntor	
+n12-068	myth	L3-116	clitonymus	
+n12-069	myth	L3-117	cecrops	
+n12-070	myth	L3-120	halirrhothius	
+n12-071	myth	L3-129	erichthonius	
+n12-072	myth	L3-129	pandrosus	
+n12-073	myth	L3-135	icarius	
+n12-074	myth	L3-135	erigone	
+n13-001	myth	L3-135	dog maera	
+n13-002	myth	L3-136	labdacus	
+n13-003	myth	L3-136	tereus	
+n13-004	myth	L3-136	philomela	
+n13-005	myth	L3-136	procne	
+n13-006	myth	L3-137	philomela	
+n13-007	myth	L3-137	procne	
+n13-008	myth	L3-137	itys	
+n13-009	myth	L3-137	tereus	
+n13-010	myth	L3-139	procris	
+n13-011	myth	L3-048	gods secrets	Y
+n13-012	myth	L3-139	cephalus	
+n13-013	myth	L3-144	chione	
+n13-014	myth	L3-144	eumolpus	
+n13-015	myth	L3-144	tegyrius	
+n13-016	myth	L3-144	ismarus	
+n13-017	myth	L3-144	eleusinians	
+n13-018	myth	L3-145	erechtheus	
+n13-019	myth	L3-145	themselves	
+n13-020	myth	L3-145	eumolpus	
+n13-021	myth	L3-147	pylas	
+n13-022	myth	L3-149	metionids	
+n13-023	myth	L3-149	aegeus	
+n13-024	myth	L3-149	pittheus	
+n13-025	myth	L3-149	aethra	
+n13-026	myth	L3-149	androgeus	
+n13-027	myth	L3-151	megara	
+n13-028	myth	L3-151	megareus	
+n13-029	myth	L3-153	talos	
+n13-030	myth	L3-154	periphetes	
+n13-031	myth	L3-154	sinis	
+n13-032	myth	L2-038	europa	Y
+n13-033	myth	L1-003	hundred handers	
+n13-034	myth	L1-034	meleager	
+n13-035	myth	L1-046	herself	
+n13-036	myth	L1-054	river enipeus	
+n13-037	myth	L1-057	gerenians	
+n13-038	myth	L1-067	whoever should woo	
+n13-039	myth	L1-076	zetes	
+n13-040	myth	L1-076	iolcans	
+n13-041	myth	L2-027	electryon	
+n13-042	myth	L2-032	erginus	
+n13-043	myth	L2-043	two crew	
+n13-044	myth	L2-043	besieged parians	
+n13-045	myth	L2-047	elis	
+n13-046	myth	L2-047	pylus	
+n13-047	myth	L2-050	iphicles	
+n13-048	myth	L2-054	lapiths	
+n13-049	myth	L2-054	coronus	
+n13-050	myth	L2-054	hippasus	
+n13-051	myth	L2-054	argius	
+n13-052	myth	L2-054	melas	
+n13-053	myth	L2-058	aristomachus	
+n13-054	myth	L2-058	heraclids	
+n13-055	myth	L2-058	messene	
+n13-056	myth	L3-007	asterius	
+n13-057	myth	L3-014	glaucus	
+n13-058	myth	L3-015	sparti	
+n13-059	tale	A128	maidens	Y
+n13-060	myth	L3-025	edonians	
+n13-061	myth	L3-036	polybus s neatherds	
+n13-062	myth	L3-036	polyphontes	
+n13-063	myth	L3-040	adrastus	
+n13-064	myth	L3-043	amphiaraus	
+n13-065	myth	L3-045	tydeus	
+n13-066	myth	L3-053	melanippus	
+n13-067	myth	L3-068	at maenalus s instigation	
+n13-068	myth	L3-068	save nyctimus	
+n13-069	myth	L3-075	centaurs rhoecus	
+n13-070	myth	L3-078	two kine	
+n13-071	myth	L3-084	with sons	
+n13-072	myth	L3-116	boy clitonymus	
+n13-073	myth	L3-120	alcippe	
+n13-074	myth	L3-139	pteleon	
+n13-075	myth	L3-147	pylia	
