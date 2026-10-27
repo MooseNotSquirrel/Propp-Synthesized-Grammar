@@ -227,3 +227,12 @@ NEXT: `names-10` (`n32` to `n34`, the myths, 6 readers), at the owner's word, wh
   - a dream written as a character.
   - Reader A of `n32` noted an item from another story set among the L2-032 items (`n32-039`, L3-068). That is a control at its seeded random place, as designed.
 NEXT: `names-11` (`n35` to `n37`, the myths, 6 readers), at the owner's word, when the budget allows; then the form check, the score (the common-noun controls against 54 of 60) and the merge.
+**2026-10-27. The second name stage, last portion: `names-11` run, merged; every batch of the stage now answered.** `n35` to `n37`, the myths, six readers started at once from master 73e4fae, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-11` (f056322) and merged at 0b2fcea; no failure. Each reader used about 60,000 to 61,000 tokens, some 363,000 in all. A check of form on the three batches: every item answered once, in order, with a kind and a confidence from the lists and a reason. The whole second stage, `names-5` to `names-11`, took 48 readers and about 2.9 million tokens.
+- **Raised by the readers, reported and not judged:**
+  - Maia, Triton and Pallas, Thetis, Earth, the Sun and the Moon, as deity, spirit or thing;
+  - the centaurs and Chiron, the Dioscuri, Calais and Argus, between mortal and otherworld;
+  - Hercules, Aesculapius, Callisto and Pasiphae, as mortals;
+  - the oracles and the Areopagus, as pronouncement or court;
+  - from a control, the youngest sister in the golden palace.
+- **The character table is unchanged:** it is not rebuilt until the owner's word.
+NEXT: at the owner's word, the form check over all batches (`names.py form`), the score (`names.py score`, with the common-noun controls against 54 of 60), then the table rebuilt after T1, T2 and T4 pass, and C1 to C7 rerun.
