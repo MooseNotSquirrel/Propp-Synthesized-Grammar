@@ -385,3 +385,12 @@ NEXT: `names-17` (`n57` to `n59`, 6 readers), at the owner's word, when the budg
   - one item that merges two characters (the bull loved by Phaedra's mother, and Phaedra's mother).
 - **Phrase-names:** the readers flag "forced by the drug", "by lot", "as a result of Orpheus's violation" and "by means of Athena". The phrase filter in `names.py` counts a name apart when it begins with a preposition or *whoever*, so the last three are counted apart. "Forced by the drug" is not caught and will be given a kind. Reported, not changed.
 NEXT: `names-18` (`n60` and `n61`, 4 readers), at the owner's word; then the form check, the merge (with the 167 controls), C1 to C7, and the rescoring.
+**2026-10-28. The fourth name stage, last portion: `names-18` run, merged; every batch of every stage now answered.** `n60` and `n61`, the myths, four readers started at once from master ad18c45, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-18` (7f5fd56) and merged at 3fadc31; no failure. The readers used about 57,000 to 58,000 tokens each, some 229,000 in all. The whole fourth stage took 26 readers and about 1.57 million tokens.
+- **Raised by the readers, reported and not judged:**
+  - the oracle as shrine, voice or priestess;
+  - corpses and heads (Glaucus's body, Polynices's body, Melanippus's head);
+  - a dragon between beast and monster; Zeus's thunder; the unborn child sewn into Zeus's thigh;
+  - "his house" as building or household; "the expedition".
+  - "Whoever should read the riddle" begins with *whoever*, so it is counted apart.
+- **The character table is unchanged:** it is not rebuilt until the owner's word.
+NEXT: at the owner's word, the form check, the score, the table rebuilt after T1, T2 and T4 pass (taking the fourth stage and the 167 controls), C1 to C7, and the rescoring into `CharacterRun-amended.txt`.
