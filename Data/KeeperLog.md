@@ -269,3 +269,12 @@ NEXT: at the owner's word, the measures of `CharacterProtocol.md` section 4.
   - Many groups match no sphere. About half the grouped characters hold no sphere, so the matching rule's majority is often out of reach. Most "roles Propp's seven do not name" may come from that, not from the corpus.
   - Transcriber A's wondertale grouping collapses while B's gives ten groups.
 NEXT: at the owner's word, the fables' heroes difference explained; the proper names in the common class looked at; the layer added to `Parity.md` section 1 (`CharacterProtocol.md` section 7, step 8).
+**2026-10-27. Names and wrong senses in the common class counted; an amendment drafted, not adopted.** `Characters/SenseRule.md`, for the owner's review. The table, `CharacterRun.txt` and the verdicts are unchanged.
+- **The faults, by the keeper's reading:**
+  - about 58 rows of proper names read as common words (Telamon, Rhesus, Ion, Pan, Mercury, Bias, Andromeda and others);
+  - about 75 rows of common words read in a wrong first sense (Chorus 48, the Ass 11, Cock, Swallow, Kite and others).
+- **Prediction 2 rests on them:** counting the fables' misread beasts as animals would give 54.0% and 53.2%, not 49.1% and 47.9%.
+- **Recommended in the draft, (a):** the readers take every common-class character whose head is capitalized in some recorded name. That is 685 items, about 22 readers and 1.3 million tokens, and it catches 184 of the 192 fault rows. Sixty fresh controls from the rest are scored against 54 of 60.
+- **Rejected in the draft, (b), the first sense that is not an object:** it makes the Ass a person.
+- **Recommended for the verdicts, (i):** the verdicts of record stand. All six predictions are rescored on the amended table and reported beside them, marked as after a post-measure amendment.
+NEXT: the owner chooses in `SenseRule.md`, sections 2 and 3.
