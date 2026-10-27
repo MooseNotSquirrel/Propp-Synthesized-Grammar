@@ -79,3 +79,7 @@ NEXT: the owner decides how C2 is to be met (for example: give `merge()` a fixed
 - **C2 PASSES** under seeds 0 and 5: the table's spheres equal explore's for all 3,033 characters in a sphere, and the report from the tables is byte-identical to the regenerated `SpheresExplore.txt`. C1 and C6 pass again with the new join (6,848 rows).
 - **Not regenerated, to check:** parity report 10 (`Parity/spheres-animal.txt` and `-strict.txt`), run on 2026-10-25 with the old join.
 NEXT: tests C4 and C5, then the dry run and the name stage's collection protocol.
+**2026-10-26. Parity report 10 regenerated with the fixed join, at the owner's word** (report 10 only, as `parityReports.py run` writes it; report 11 untouched; the parity self-test passes first). Only transcriber A's counts moved, by one character each:
+- **Animal tales, A:** characters in a sphere 137 to 136 (strict 135 to 134); characters who act in no sphere 37% to 38% (strict 38% to 39%); in the strict file, the fourth commonest combination now helper + villain 4 instead of donor + hero 5.
+- **Wondertales on card C, A:** characters in a sphere 351 to 350; donor + helper 27 to 26.
+- **No figure quoted in report 10's log entry or in `Parity.md` changes:** the hero-and-villain fusion stays 32% and 20% (strict 28% and 20%) in the animal tales, and 58% and 67% (strict 29% and 40%) on card C, and the spheres-filled shares are unchanged.
