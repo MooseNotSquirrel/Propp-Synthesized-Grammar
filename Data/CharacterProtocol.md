@@ -180,3 +180,8 @@ The amendment:
 - **The predictions.** The verdicts of 2026-10-27 in `Characters/CharacterRun.txt` stand as the verdicts of record: predictions 1, 3, 4 and 5 hold, 2 fails, and 6 is split. After the third stage is merged, all six predictions, and the comparison of the fables' heroes, are scored again on the amended table into `Characters/CharacterRun-amended.txt`, marked as after a post-measure amendment. They are reported beside the record and do not replace it.
 
 The trigger, a capital, does not use the keeper's list of faults. The amendment itself was prompted by faults seen in prediction 2's figures, and the rescored verdicts are to be read with that in mind.
+
+**2026-10-28, the fourth name stage, by the terms above.** On the third stage's 60 controls, both readers gave the rule's kind to 53, against the threshold of 54. So the rule does not stand for the uncapitalized common nouns.
+- **The fourth stage:** every common-class character not asked before goes to the two readers. The prompt and form are the same, the batches are numbered on from `n49`, and a character takes the kind both readers give, or unknown. It needs no control test: once it is merged, no kind rests on the rule.
+- **The third stage's controls:** at the owner's word, their 60 characters take the kind both readers already gave them, or unknown, without being asked again. They do so when the fourth stage is merged.
+- **The rescoring** ("after the third stage is merged", above) waits until the fourth stage is merged, since the amendment is not complete before then.

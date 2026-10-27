@@ -11,6 +11,8 @@ leaves unknown, given to two readers to sort.
   python names.py setup2        write its batches from n14 on, and add its items and controls to the keeper's files
   python names.py setup3 --dry  the third stage (Characters/SenseRule.md, adopted 2026-10-27): say what it would write
   python names.py setup3        write its batches from n38 on, and add its items and controls to the keeper's files
+  python names.py setup4 --dry  the fourth stage (CharacterProtocol.md section 8, 2026-10-28): say what it would write
+  python names.py setup4        write its batches from n49 on, and add its items to the keeper's item key
 
 Each item is one story and one character, the two transcribers' rows merged where they give the same character, with
 its names and up to three events that name it. The readers see no sphere, role or function code. Fifty controls,
@@ -47,6 +49,10 @@ THRESHOLD = 54
 THIRD = 38
 SEED3 = 20261028
 CONTROLS3 = 60
+# the fourth stage (CharacterProtocol.md section 8, 2026-10-28): every common-class character not asked before, with no
+# controls; and the stages whose controls, at the owner's word, take the kind both readers gave them once it is merged
+FOURTH = 49
+CONTROLS_TAKEN = (' third',)
 PROMPT = """You are reading short notes on characters in stories and saying, for each, what kind of being it is. You start with no background on the project, and you should not look for any.
 
 Read names/input/{b}.txt in this repository in full. It holds {n} items, one per line, each as
@@ -290,16 +296,26 @@ def batches():
 
 def stage(item):
     n = int(item.split('-')[0][1:])
-    return ' third' if n >= THIRD else (' second' if n >= SECOND else '')
+    return ' fourth' if n >= FOURTH else (' third' if n >= THIRD else (' second' if n >= SECOND else ''))
+
+
+def answered(b):
+    return all(os.path.exists(os.path.join(AR, 'names', 'answers', L, b, 'Kinds.txt')) for L in 'AB')
+
+
+def fourth_done():
+    """the fourth stage is set up and both readers have answered every batch of it"""
+    bs = [b for b in batches() if int(b[1:]) >= FOURTH]
+    return bool(bs) and all(answered(b) for b in bs)
 
 
 def asked():
     """{(corpus, story, character)} the second and third stages gave the readers, controls left out, in batches whose
     answers both readers have written; the table takes the readers' kind for these in place of the rule's (KindRule.md,
     SenseRule.md)"""
-    done = {b for b in batches() if int(b[1:]) >= SECOND
-            and all(os.path.exists(os.path.join(AR, 'names', 'answers', L, b, 'Kinds.txt')) for L in 'AB')}
-    return {(g, s, c) for item, g, s, c, control in item_key() if item.split('-')[0] in done and not control}
+    done = {b for b in batches() if int(b[1:]) >= SECOND and answered(b)}
+    taken = CONTROLS_TAKEN if fourth_done() else ()
+    return {(g, s, c) for item, g, s, c, control in item_key() if item.split('-')[0] in done and (not control or stage(item) in taken)}
 
 
 def setup2(dry):
@@ -460,6 +476,69 @@ def setup3(dry):
     return out
 
 
+def setup4(dry):
+    """CharacterProtocol.md section 8, 2026-10-28: every common-class character not asked before, in batches numbered on
+    from n49, with no controls; NameItems.tsv is added to"""
+    old = item_key()
+    if any(stage(r[0]) == ' fourth' for r in old):
+        raise SystemExit('the fourth stage is set up already')
+    seen = {(r[1], r[2], r[3]) for r in old}
+    ch = characters_by_item()
+    ev, ti = event_text(), titles()
+    cls = collections.defaultdict(set)
+    for r in C.table()[1]:
+        if r[7] == 'wordnet':
+            cls[(r[2], r[0], r[3])].add(C.rule_class(r[5], r[8] == 'Y'))
+    ask = [k for k in ch if k not in seen and cls.get(k) == {'common'}]
+
+    def line(key):
+        g, s, c = key
+        d = ch[key]
+        gid = g + ':' + s
+        names = '; '.join(sorted(d['names'], key=lambda n: (-d['names'][n], n)))
+        evs = ' / '.join('%d: %s' % (e, ev.get((gid, e), '')) for e in sorted(d['events'])[:3])
+        return '%s | %s | %s | %s' % (s, ti.get(gid, ''), names, evs)
+    by_corpus = collections.defaultdict(list)
+    for k in ask:
+        by_corpus[k[0]].append(k)
+    out = []
+    for gs in GROUPS:
+        ks = [k for g in gs for k in by_corpus[g]]
+        n = -(-len(ks) // SIZE)
+        for i in range(n):
+            keys = ks[len(ks) * i // n: len(ks) * (i + 1) // n]
+            out.append(['n%d' % (len(out) + FOURTH), [('%s-%03d' % ('n%d' % (len(out) + FOURTH), j), k[0], k[1], k[2], line(k), '')
+                                                      for j, k in enumerate(keys, 1)]])
+    print('fourth stage: %d common-class characters not asked before, no controls; corpora %s'
+          % (len(ask), ', '.join('%s %d' % (g, len(by_corpus[g])) for g in ('tale', 'animal', 'fable', 'tragedy', 'myth'))))
+    print('the rule\'s kinds they now hold: %s' % ', '.join('%s %d' % kv for kv in collections.Counter(next(iter(ch[k]['kind'])) for k in ask).most_common()))
+    writes = []
+    key = [l.rstrip('\n') for l in open(os.path.join(HERE, 'NameItems.tsv'), encoding='utf-8')]
+    for b, its in out:
+        writes.append((os.path.join(AR, 'names', 'input', b + '.txt'), ''.join('%s | %s\n' % (i, l) for i, _, _, _, l, _ in its)))
+        for L in 'AB':
+            writes.append((os.path.join(AR, 'prompts', 'names-%s-%s.txt' % (L, b)), PROMPT.format(b=b, n=len(its), L=L)))
+        for i, g, s, c, _, k in its:
+            key.append('\t'.join((i, g, s, c, '')))
+    for b, its in out:
+        print('%s items %3d, corpora %s' % (b, len(its), ', '.join(sorted({x[1] for x in its}))))
+    for path, text in writes:
+        if os.path.exists(path):
+            raise SystemExit('refusing to overwrite %s' % path)
+    writes.append((os.path.join(HERE, 'NameItems.tsv'), '\n'.join(key) + '\n'))
+    for path, text in writes:
+        print('%s %-40s %6d bytes%s' % ('would write' if dry else 'write', os.path.relpath(path, P), len(text.encode('utf-8')),
+                                       '  (added to)' if os.path.exists(path) else ''))
+    if dry:
+        print('dry run: %d files; nothing written' % len(writes))
+        return out
+    for path, text in writes:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        open(path, 'w', encoding='utf-8', newline='\n').write(text)
+    print('written: %d files' % len(writes))
+    return out
+
+
 def form():
     """NamesProtocol.md's form check: one line per item, in order; a kind from the five, a confidence from the three,
     a reason; written to Data/forms/names.txt"""
@@ -499,6 +578,7 @@ def agreed():
     out, lines = {}, []
     by = collections.defaultdict(collections.Counter)
     phrases = collections.defaultdict(list)
+    taken = CONTROLS_TAKEN if fourth_done() else ()
     for item, g, s, c, control in key:
         a, b = ans['A'].get(item), ans['B'].get(item)
         st = stage(item)
@@ -508,6 +588,12 @@ def agreed():
                 by['controls ' + L + st]['agree'] += bool(x) and x[0] == ctl.get(item)
             by['controls both' + st]['n'] += 1
             by['controls both' + st]['agree'] += bool(a and b) and a[0] == b[0] == ctl.get(item)
+            if st in taken:
+                # the owner's word, 2026-10-28: the control takes the kind both readers gave it
+                by['controls taken' + st]['n'] += 1
+                if a and b and a[0] == b[0]:
+                    by['controls taken' + st]['agree'] += 1
+                    out[(g, s, c)] = a[0]
             continue
         if PHRASE.match(names.get(item, '').split(';')[0]):
             phrases[st].append(names.get(item, ''))
@@ -533,9 +619,11 @@ def agreed():
     later = [(' second', '# the second stage (Characters/KindRule.md): named, group and collective characters, with controls from the common class',
               'common-noun controls', 'common nouns'),
              (' third', '# the third stage (Characters/SenseRule.md): common-class characters whose head is capitalized, with controls '
-              'from the common items left', 'uncapitalized common-noun controls', 'the uncapitalized common nouns')]
+              'from the common items left', 'uncapitalized common-noun controls', 'the uncapitalized common nouns'),
+             (' fourth', '# the fourth stage (CharacterProtocol.md section 8, 2026-10-28): every common-class character not asked before; '
+              'no controls', '', '')]
     for st, heading, what, rest in later:
-        if not by['controls both' + st]['n']:
+        if not by['controls both' + st]['n'] and not any(by[g + st]['items'] for g in ('tale', 'animal', 'fable', 'tragedy', 'myth')):
             break
         lines.append(heading)
         for g in ('tale', 'animal', 'fable', 'tragedy', 'myth'):
@@ -544,13 +632,19 @@ def agreed():
                 lines.append('%-8s items %3d, both readers the same kind %3d (%.0f%%), both with high confidence %3d; agreed kinds: %s'
                              % (g, x['items'], x['agree'], 100.0 * x['agree'] / x['items'], x['both high'],
                                 ', '.join('%s %d' % (k, x['kind ' + k]) for k in KINDS if x['kind ' + k])))
-        for L in 'AB':
-            x = by['controls ' + L + st]
-            lines.append('%s, reader %s: %d of %d the kind the WordNet rule gives (%.0f%%)' % (what, L, x['agree'], x['n'], 100.0 * x['agree'] / max(1, x['n'])))
-        x = by['controls both' + st]
-        lines.append('%s, both readers the rule\'s kind: %d of %d; the rule stands for %s at %d or more: %s'
-                     % (what, x['agree'], x['n'], rest, THRESHOLD, 'STANDS' if x['agree'] >= THRESHOLD else 'DOES NOT STAND: %s go to the readers' % rest))
+        if by['controls both' + st]['n']:
+            for L in 'AB':
+                x = by['controls ' + L + st]
+                lines.append('%s, reader %s: %d of %d the kind the WordNet rule gives (%.0f%%)' % (what, L, x['agree'], x['n'], 100.0 * x['agree'] / max(1, x['n'])))
+            x = by['controls both' + st]
+            lines.append('%s, both readers the rule\'s kind: %d of %d; the rule stands for %s at %d or more: %s'
+                         % (what, x['agree'], x['n'], rest, THRESHOLD, 'STANDS' if x['agree'] >= THRESHOLD else 'DOES NOT STAND: %s go to the readers' % rest))
         lines.append('phrase-names counted apart, given no kind: %d (%s)' % (len(phrases[st]), '; '.join(sorted(phrases[st]))))
+    for st in CONTROLS_TAKEN:
+        x = by['controls taken' + st]
+        if x['n']:
+            lines.append('# controls taking the readers\' kind (the owner\'s word, 2026-10-28):%s stage, %d controls, both readers the same '
+                         'kind %d, the rest unknown' % (st, x['n'], x['agree']))
     return out, lines
 
 
@@ -565,7 +659,11 @@ if __name__ == '__main__':
     if a in (['form'], ['score']):
         {'form': form, 'score': score}[a[0]]()
         sys.exit(0)
-    if a == ['setup3', '--dry']:
+    if a == ['setup4', '--dry']:
+        setup4(True)
+    elif a == ['setup4']:
+        setup4(False)
+    elif a == ['setup3', '--dry']:
         setup3(True)
     elif a == ['setup3']:
         setup3(False)

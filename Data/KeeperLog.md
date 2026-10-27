@@ -334,3 +334,17 @@ NEXT: `names-14` (`n46` to `n48`, 6 readers), then the form check, the score (54
 - **The fourth stage, counted:** 832 common items never asked, in 13 batches and 26 readers, about 1.6 million tokens. The corpora: wondertales 408, animal tales 64, fables 130, tragedies 75, myths 155. Besides these, the 60 third-stage controls have already been answered by both readers. Whether their agreed kinds are used without asking again is for the owner.
   - Once the fourth stage is merged, no rule kind is left, so it needs no control test of its own.
 NEXT: at the owner's word, the fourth stage programmed (`setup4`) and dry-run.
+**2026-10-28. The fourth name stage programmed and dry-run, not written; the third stage's controls to take the readers' kind.** At the owner's word, recorded in `CharacterProtocol.md` section 8.
+- **Code** (`names.py`):
+  - `setup4`;
+  - the fourth stage in the score, with no control lines;
+  - `CONTROLS_TAKEN`, which makes the third stage's 60 controls take the kind both readers gave them, or unknown. This happens only once every fourth-stage batch is answered, through both `agreed()` and `asked()`.
+- **Unchanged:** `NameRun.txt` is reproduced, and the table, rebuilt in memory, is identical to the committed one.
+- **What taking the controls will change:** both readers agree on 59 of the 60. Six differ from the rule's kind: object to animal 2, object to person, object to supernatural, person to supernatural, animal to person. The one where the readers differ becomes unknown.
+- **The dry run** (`python names.py setup4 --dry`):
+  - 832 characters: wondertales 408, animal tales 64, fables 130, tragedies 75, myths 155;
+  - the rule now gives them person 435, object 204, animal 145, supernatural 46, deity 2;
+  - 13 batches, `n49` to `n61`, of 51 to 75 items; 26 readers, about 1.6 million tokens;
+  - the run would write 39 files into ActsRoles and add to `NameItems.tsv`.
+- **Left for the owner:** the first and second stages' controls, 47 and 60 characters, still carry the rule's kind. The readers have answered them too. After the fourth stage they would be the only rule kinds left, Jupiter as object among them. Adding `''` and `' second'` to `CONTROLS_TAKEN` would treat them as the third stage's are.
+NEXT: the owner decides on those 107 controls; then, at the owner's word, `python names.py setup4` writes the stage.
