@@ -4,6 +4,8 @@ build.py -- the normalized data set (DataProtocol.md, Plan.md).
 
   python build.py          writes Data/tables/: stories, events, functions, aliases and census
   python build.py test     runs T1 (nothing lost) and T4 (the ids hold) on the tables written
+  python build.py characters   runs the tests, and if they pass writes the derived character table, characters.tsv
+                           and unjoined.tsv (Characters/characters.py; CharacterProtocol.md)
 
 Session 1 builds the story, event and function tables; the description tables follow in session 2.
 The raw files are read and never changed. Every line of every file read is either kept as a row or
@@ -543,6 +545,14 @@ def test():
     fails += test2()
     print('\n'.join(fails) if fails else 'T1, T2 and T4 PASS')
     print('%d failure(s)' % len(fails))
+    return fails
+
+
+def characters():
+    """the character table (CharacterProtocol.md), derived from the tables once T1, T2 and T4 pass; run apart, so
+    that it reads the tables as written"""
+    import subprocess
+    subprocess.run([sys.executable, os.path.join(ROOT, 'Characters', 'characters.py'), 'build'], check=True)
 
 
 if __name__ == '__main__':
@@ -551,5 +561,9 @@ if __name__ == '__main__':
         build()
     elif a == ['test']:
         test()
+    elif a == ['characters']:
+        if test():
+            sys.exit('the character table is not written while a test fails')
+        characters()
     else:
         sys.exit(__doc__)
