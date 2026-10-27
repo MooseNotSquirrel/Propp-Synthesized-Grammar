@@ -528,15 +528,18 @@ def split_field(raw):
     return [p.strip() for p in SPLIT.split(s) if SX.key(p.strip())]
 
 
-def split_entries(L, g):
-    """entries() with each several-name field split, a function credited to every name it holds"""
+def split_entries(L, g, credit='all'):
+    """entries() with each several-name field split; a several-name performer's function credited to every name it
+    holds (all), to its first name only (first), or to none of them, the names kept as characters (none)"""
     out = {}
     for s, ents in entries(L, g).items():
         new = []
         for fn, p, u, pr, ur, ev in ents:
-            for a in split_field(pr) or ['']:
-                for b in split_field(ur) or ['']:
-                    new.append((fn, SX.key(a), SX.key(b), a, b, ev))
+            ps, us = split_field(pr) or [''], split_field(ur) or ['']
+            for i, a in enumerate(ps):
+                f = fn if credit == 'all' or len(ps) == 1 or (credit == 'first' and i == 0) else 'X'
+                for b in us:
+                    new.append((f, SX.key(a), SX.key(b), a, b, ev))
         out[s] = new
     return out
 
@@ -568,7 +571,8 @@ def c7():
     for g in PATS:
         for L in 'AB':
             row = []
-            for label, data in (('now', entries(L, g)), ('split', split_entries(L, g))):
+            for label, data in (('now', entries(L, g)), ('split, all', split_entries(L, g)),
+                                ('first', split_entries(L, g, 'first')), ('none', split_entries(L, g, 'none'))):
                 n = hv = 0
                 for s, ents in data.items():
                     canon = SX.merge([e[:3] for e in ents])
@@ -582,7 +586,7 @@ def c7():
                                     sph[canon.get(p, p)].add(name)
                     n += len(chars)
                     hv += sum(1 for v in sph.values() if {'hero', 'villain'} <= v)
-                row.append('%s characters %4d, hero and villain %3d' % (label, n, hv))
+                row.append('%s %4d, h+v %2d' % (label, n, hv))
             print('C7 %-8s %s %s' % (g, L, '; '.join(row)))
     return ok
 
