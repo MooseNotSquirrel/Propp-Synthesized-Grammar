@@ -1,51 +1,62 @@
 # NameControls.txt -- names.py: the control items, with the kind the WordNet rule gives them; never shown to the readers
 n1-008	animal
+
 n1-017	object
+
 n1-053	object
+
 n1-065	person
+
 n2-011	deity
+
 n2-049	object
+
 n2-052	animal
+
 n2-057	animal
+
 n3-011	person
+
 n3-016	supernatural
+
 n3-019	animal
+
 n3-025	supernatural
-n4-002	animal
-n4-009	animal
-n4-046	animal
-n4-053	person
-n5-015	deity
-n5-027	person
-n5-036	person
-n5-039	object
-n6-008	deity
-n6-036	supernatural
-n6-052	person
-n6-068	object
-n7-013	object
-n7-021	animal
-n7-041	object
-n7-042	supernatural
-n8-011	animal
-n8-047	deity
-n8-071	supernatural
-n8-074	person
-n9-002	person
-n9-013	person
-n9-029	person
-n9-073	object
-n10-020	object
-n10-033	animal
-n10-035	object
-n10-067	animal
-n11-029	object
-n11-030	animal
-n11-038	deity
-n11-074	person
-n12-009	object
-n12-060	person
-n12-063	object
-n13-011	object
-n13-032	object
-n13-059	person
+
+n4-020	animal
+n4-033	person
+n4-041	person
+n4-066	person
+n5-007	animal
+n5-012	object
+n5-051	person
+n5-056	object
+n6-002	person
+n6-018	animal
+n6-024	object
+n6-056	animal
+n7-016	object
+n7-026	person
+n7-027	object
+n7-073	object
+n8-006	supernatural
+n8-026	deity
+n8-028	object
+n8-064	animal
+n9-011	animal
+n9-035	object
+n9-043	object
+n9-056	person
+n10-013	person
+n10-040	person
+n10-054	animal
+n10-058	deity
+n11-017	object
+n11-031	supernatural
+n11-032	object
+n12-004	deity
+n12-034	animal
+n12-065	person
+n13-004	supernatural
+n13-027	person
+n13-048	deity

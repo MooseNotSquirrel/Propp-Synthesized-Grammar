@@ -142,3 +142,14 @@ NEXT: the owner decides whether to write the mended join as it stands, or first 
   - **Still not joined, apart from possessives:** a name with an epithet ("Marya Morevna", "thief Semyon"), and "man" into "man in the mortar".
 - **The dry run:** 7,215 characters; 7,091 unjoined mentions. C1, C3, C4 (fables 97.3% and 97.4%, tragedies 98.9% and 98.8%, animal tales 99.2% and 98.3%), C5, C6 and C7 pass; C2 waits for the Spheres files to be regenerated. The rewritten tragedy and myth batches hold 731 items (703 kept, 11 gone, 28 new), with 37 of the 38 controls kept, in `n4` to `n13` of 75 to 79 items. Thirty-two files would be replaced.
 NEXT: at the owner's word, write it: rebuild the table, regenerate Spheres and parity report 10, rewrite the inputs for `names-2` to `names-4`, rerun every test, and log the frozen `Animal/animal.py`'s changed rerun.
+**2026-10-26. The mended join written, at the owner's word.** Regenerated: both Spheres files, parity report 10, and the character table (`python build.py characters`, after T1, T2 and T4 passed): 7,215 characters, 3,725 unjoined names in 7,091 mentions. The parity self-test passes. The inputs of `names-2` to `names-4` were written again (`names.py rewrite`: 731 items, 37 of 38 controls kept; `n1` to `n3` and their keys untouched, checked).
+- **Every test passes:** C1 (73,380 act and free-verb names, 7,091 unjoined, all counted), C2 (3,174 characters in a sphere, identical under seeds 0 and 9), C3, C4, C5, C6 and C7 (68 parts dropped, no field lost).
+- **Figures that move,** hero and villain in one character (A, then B), against the split alone:
+  - Spheres, wondertales: full 58% and 64% (60%, 64%); strict 22% and 24% (24%, 24%).
+  - Spheres, myths: full 33% and 34% (33%, 34%); strict 27% and 26% (28%, 26%).
+  - Spheres, tragedies and fables: unchanged.
+  - Parity report 10, animal tales: 32% and 22%, unchanged; strict 28% and 22%.
+  - Parity report 10, wondertales on card C: 69% and 67% (69%, 69%); strict 29% and 33%.
+- **The frozen `Animal/animal.py`'s rerun** differs again, with the verdict unchanged, and the record is kept (`Animal/KeeperLog.md`).
+- **Not changed, for the owner:** `SemanticCatalog.md`'s spheres sentence, updated earlier today, now quotes 24% and 24% for the wondertales and 28% and 26% for the myths. The mended figures are 22% and 24%, and 27% and 26%.
+NEXT: the owner's word on the catalog sentence; then `names-2`, at the owner's word, when the budget allows.

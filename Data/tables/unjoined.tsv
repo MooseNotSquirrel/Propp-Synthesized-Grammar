@@ -171,7 +171,9 @@ A113	A	tale	acts	u	печка	4
 A113	A	tale	acts	u	речка	3
 A113	A	tale	acts	u	яблонь	4
 A113	A	tale	acts	u	ёж	1
+A113	A	tale	free	p	a river of milk	2
 A113	A	tale	free	p	her father	1
+A113	A	tale	free	u	a river of milk	4
 A113	A	tale	free	u	the daughter	2
 A114	A	tale	acts	p	барин	3
 A114	A	tale	acts	p	дочь	3
@@ -307,6 +309,8 @@ A127	A	tale	acts	u	младая царица	1
 A127	A	tale	acts	u	старик	2
 A127	A	tale	free	p	a poor shop	1
 A127	A	tale	free	p	all at the palace	1
+A127	A	tale	free	p	the merchant	1
+A127	A	tale	free	u	the merchant	2
 A128	A	tale	acts	p	Ивашко Запечный	1
 A128	A	tale	acts	p	Ивашко и девица	1
 A128	A	tale	acts	p	Миша Косолапый	1
@@ -393,7 +397,6 @@ A132	A	tale	free	p	a beautiful maiden	1
 A132	A	tale	free	p	a richly harnessed horse	1
 A132	A	tale	free	p	the maiden	3
 A132	A	tale	free	p	the second sister	1
-A132	A	tale	free	p	the youngest	3
 A132	A	tale	free	p	the youngest bride	5
 A132	A	tale	free	p	the youngest son	1
 A132	A	tale	free	u	the animals	1
@@ -408,7 +411,6 @@ A132	A	tale	free	u	the masters	1
 A132	A	tale	free	u	the palaces	1
 A132	A	tale	free	u	the rope	1
 A132	A	tale	free	u	the white stone	1
-A132	A	tale	free	u	the youngest	1
 A132	A	tale	free	u	the youngest bride	1
 A132	A	tale	free	u	the youngest son	1
 A132	A	tale	free	u	their palaces	1
@@ -785,7 +787,6 @@ A143	A	tale	free	p	Gorynya the warrior	7
 A143	A	tale	free	p	the parishioners	1
 A143	A	tale	free	p	the priest's daughter	8
 A143	A	tale	free	u	Gorynya the warrior	4
-A143	A	tale	free	u	the children	1
 A143	A	tale	free	u	the man	1
 A143	A	tale	free	u	the priest's daughter	2
 A144	A	tale	acts	p	Объедало	1
@@ -1202,6 +1203,7 @@ A167	A	tale	free	p	the tsar's people	1
 A167	A	tale	free	p	the winds	1
 A167	A	tale	free	u	the champion	2
 A167	A	tale	free	u	the nurses	1
+A167	A	tale	free	u	the poor	1
 A093	B	tale	acts	u	ветер	1
 A093	B	tale	free	p	Ivan-tsarevich	19
 A093	B	tale	free	p	the two old seamstresses	1
@@ -1212,7 +1214,6 @@ A095	B	tale	acts	u	Машка	1
 A095	B	tale	acts	u	дочери	1
 A095	B	tale	acts	u	дочери старухи	4
 A095	B	tale	free	p	the old woman	12
-A095	B	tale	free	u	each other	1
 A095	B	tale	free	u	the old woman	2
 A095	B	tale	free	u	the old woman's daughters	1
 A098	B	tale	acts	p	девка	2
@@ -1394,7 +1395,6 @@ A115	B	tale	acts	u	Бог	1
 A115	B	tale	acts	u	купец	1
 A115	B	tale	acts	u	царь	2
 A115	B	tale	free	p	the ploughman	1
-A115	B	tale	free	u	each other	2
 A115	B	tale	free	u	his eyes	1
 A115	B	tale	free	u	the icon	1
 A115	B	tale	free	u	the oak	2
@@ -1408,7 +1408,6 @@ A125	B	tale	acts	u	шестиглавый змий	1
 A125	B	tale	free	p	Marfa-tsarevna	15
 A125	B	tale	free	p	the crews of passing ships	2
 A125	B	tale	free	p	the eldest daughter	1
-A125	B	tale	free	p	the man	1
 A125	B	tale	free	p	the middle daughter	1
 A125	B	tale	free	p	the other grooms	1
 A125	B	tale	free	p	the people	1
@@ -1418,7 +1417,6 @@ A125	B	tale	free	p	unnamed men	1
 A125	B	tale	free	u	Marfa-tsarevna	10
 A125	B	tale	free	u	clerks	1
 A125	B	tale	free	u	his horse	1
-A125	B	tale	free	u	his man	1
 A125	B	tale	free	u	maids	1
 A125	B	tale	free	u	the cooks	1
 A125	B	tale	free	u	the heads	2
@@ -1479,13 +1477,11 @@ A127	B	tale	acts	u	мальчик	2
 A127	B	tale	acts	u	служанка	3
 A127	B	tale	free	p	everyone at the palace	1
 A127	B	tale	free	p	the horses	1
-A127	B	tale	free	p	the merchant	1
 A127	B	tale	free	u	the crown	1
 A127	B	tale	free	u	the egg	1
 A127	B	tale	free	u	the eye	3
 A127	B	tale	free	u	the eyes	1
 A127	B	tale	free	u	the heart	1
-A127	B	tale	free	u	the merchant	2
 A128	B	tale	acts	p	Миша Косолапый	1
 A128	B	tale	acts	p	старик и старушка	1
 A128	B	tale	acts	u	родители	2
@@ -1540,6 +1536,7 @@ A132	B	tale	acts	u	сыны	2
 A132	B	tale	free	p	each sister	1
 A132	B	tale	free	p	the head	2
 A132	B	tale	free	p	the three tsareviches	1
+A132	B	tale	free	u	her palace	1
 A132	B	tale	free	u	his two elder sons	2
 A132	B	tale	free	u	the beggars	1
 A132	B	tale	free	u	the bin	1
@@ -1594,7 +1591,6 @@ A135	B	tale	free	p	the dragon's horse	2
 A135	B	tale	free	u	Demyan	1
 A135	B	tale	free	u	Ivan Popyalov	8
 A135	B	tale	free	u	Kuzma	1
-A135	B	tale	free	u	each other	1
 A135	B	tale	free	u	the apple tree	1
 A135	B	tale	free	u	the ash	1
 A135	B	tale	free	u	the ashes	1
@@ -1689,7 +1685,6 @@ A137	B	tale	acts	u	царь и царица	1
 A137	B	tale	acts	u	чудо-юдо	5
 A137	B	tale	acts	u	яблоня	1
 A137	B	tale	acts	u	ёрш	2
-A137	B	tale	free	p	Ivan	6
 A137	B	tale	free	p	the cow	3
 A137	B	tale	free	p	the eldest wife	1
 A137	B	tale	free	p	the fifth old man	3
@@ -1710,9 +1705,6 @@ A137	B	tale	free	p	the three boys	1
 A137	B	tale	free	p	the twelve warriors	1
 A137	B	tale	free	p	the youngest wife	1
 A137	B	tale	free	u	God	1
-A137	B	tale	free	u	Ivan	1
-A137	B	tale	free	u	each other	1
-A137	B	tale	free	u	herself	1
 A137	B	tale	free	u	his smiths	1
 A137	B	tale	free	u	sword	1
 A137	B	tale	free	u	the bathhouse	1
@@ -1735,6 +1727,7 @@ A137	B	tale	free	u	the servants	3
 A137	B	tale	free	u	the shield	1
 A137	B	tale	free	u	the slops	2
 A137	B	tale	free	u	the staff	2
+A137	B	tale	free	u	the star	2
 A137	B	tale	free	u	the stone	2
 A137	B	tale	free	u	the third old man	2
 A137	B	tale	free	u	the three Ivans	3
@@ -1879,17 +1872,14 @@ A141	B	tale	acts	u	избушка	1
 A141	B	tale	acts	u	камень	2
 A141	B	tale	acts	u	младшая сестра	3
 A141	B	tale	acts	u	ребята	1
-A141	B	tale	free	p	the four	2
 A141	B	tale	free	p	the four bogatyrs	1
 A141	B	tale	free	p	the girl	1
 A141	B	tale	free	p	the three brothers	1
-A141	B	tale	free	u	each other	1
 A141	B	tale	free	u	the boys he plays with	1
 A141	B	tale	free	u	the dog	1
 A141	B	tale	free	u	the eldest maiden	1
 A141	B	tale	free	u	the food	2
 A141	B	tale	free	u	the girl	2
-A141	B	tale	free	u	the other three	1
 A141	B	tale	free	u	the porridge	1
 A141	B	tale	free	u	the rope	4
 A141	B	tale	free	u	the second maiden	1
@@ -1978,7 +1968,6 @@ A148	B	tale	acts	u	дети	1
 A148	B	tale	acts	u	кожи	1
 A148	B	tale	acts	u	народ	1
 A148	B	tale	acts	u	царь и царица	1
-A148	B	tale	free	u	himself	1
 A148	B	tale	free	u	the doors	1
 A148	B	tale	free	u	the girls	1
 A148	B	tale	free	u	the hides	1
@@ -1988,7 +1977,6 @@ A149	B	tale	acts	u	вол	1
 A149	B	tale	acts	u	жители деревушки	1
 A149	B	tale	acts	u	тройка	1
 A149	B	tale	acts	u	цыган и мужик	1
-A149	B	tale	free	u	himself	1
 A149	B	tale	free	u	the curds	1
 A149	B	tale	free	u	the hide	1
 A149	B	tale	free	u	the horses	1
@@ -2001,6 +1989,7 @@ A149	B	tale	free	u	the rope	1
 A149	B	tale	free	u	the water	2
 A149	B	tale	free	u	the well	1
 A150	B	tale	acts	p	бес	1
+A150	B	tale	acts	p	купец и купчиха	4
 A150	B	tale	acts	p	отец	1
 A150	B	tale	acts	p	старшой чёрт	1
 A150	B	tale	acts	p	четверо мужиков	1
@@ -2009,6 +1998,7 @@ A150	B	tale	acts	u	бык	1
 A150	B	tale	acts	u	имение купца	1
 A150	B	tale	acts	u	коровы	1
 A150	B	tale	acts	u	коровы купца	1
+A150	B	tale	acts	u	купец и купчиха	2
 A150	B	tale	acts	u	отец	3
 A150	B	tale	acts	u	старшой	1
 A150	B	tale	acts	u	четверо мужиков	1
@@ -2147,6 +2137,7 @@ A156	B	tale	free	u	the princess's things	1
 A156	B	tale	free	u	the ring	3
 A156	B	tale	free	u	the rope	1
 A156	B	tale	free	u	the sea	2
+A156	B	tale	free	u	the stone	2
 A156	B	tale	free	u	the sword	1
 A156	B	tale	free	u	the wolf cub	1
 A159	B	tale	acts	p	ворон	5
@@ -2255,7 +2246,6 @@ A163	B	tale	free	u	the chair	2
 A163	B	tale	free	u	the coin	1
 A163	B	tale	free	u	the house	1
 A163	B	tale	free	u	the measure	3
-A163	B	tale	free	u	the three	3
 A164	B	tale	acts	p	волк	2
 A164	B	tale	acts	p	куница	2
 A164	B	tale	acts	p	люди царя	1
@@ -2339,6 +2329,7 @@ A167	B	tale	free	u	the food	1
 A167	B	tale	free	u	the king's daughter	1
 A167	B	tale	free	u	the other kings	1
 A167	B	tale	free	u	the palace	1
+A167	B	tale	free	u	the poor	1
 A167	B	tale	free	u	the table	1
 A001	A	animal	acts	p	the Wolf's ice hut	1
 A001	A	animal	acts	p	the Wolf's tail	1
@@ -2576,7 +2567,6 @@ A027	A	animal	free	u	the sack	7
 A028	A	animal	acts	p	trap	1
 A028	A	animal	free	p	the trap	1
 A028	A	animal	free	u	the trap	2
-A029	A	animal	free	u	herself	1
 A029	A	animal	free	u	the meat	1
 A029	A	animal	free	u	the pit	3
 A030	A	animal	acts	u	Granny	1
@@ -2584,7 +2574,6 @@ A030	A	animal	free	p	a cross-eyed hare	1
 A030	A	animal	free	p	the animals	4
 A030	A	animal	free	u	acorns	3
 A030	A	animal	free	u	granny	1
-A030	A	animal	free	u	himself	1
 A030	A	animal	free	u	sticks	1
 A030	A	animal	free	u	the animals	3
 A030	A	animal	free	u	the gate	1
@@ -2749,12 +2738,14 @@ A006	B	animal	free	u	the wood	2
 A007	B	animal	acts	p	медведь и волк	2
 A007	B	animal	acts	u	волк и заяц	2
 A007	B	animal	acts	u	медведь и волк	2
+A007	B	animal	free	p	the horse	2
 A007	B	animal	free	p	the shaft	1
 A007	B	animal	free	p	the wolf's tail	1
 A007	B	animal	free	u	his forehead	1
 A007	B	animal	free	u	the bucket	1
 A007	B	animal	free	u	the chickens	2
 A007	B	animal	free	u	the fish	2
+A007	B	animal	free	u	the horse	5
 A007	B	animal	free	u	the horse's hide	2
 A007	B	animal	free	u	the shaft	2
 A007	B	animal	free	u	the tree	2
@@ -2873,10 +2864,8 @@ A026	B	animal	free	u	the Fox's tail	1
 A026	B	animal	free	u	the field	2
 A026	B	animal	free	u	the sack	2
 A026	B	animal	free	u	the skin	1
-A027	B	animal	free	u	himself	1
 A027	B	animal	free	u	the flail	1
 A027	B	animal	free	u	the sack	7
-A029	B	animal	free	u	herself	1
 A029	B	animal	free	u	the guts	2
 A030	B	animal	free	u	Granny	1
 A030	B	animal	free	u	his rib	1
@@ -2978,12 +2967,17 @@ F043	A	fable	acts	u	Man	1
 F043	A	fable	free	p	one of the bystanders	1
 F043	A	fable	free	p	the Man	2
 F043	A	fable	free	u	the Man	1
+F060	A	fable	free	p	the younger	1
+F069	A	fable	acts	p	Mother	3
 F069	A	fable	acts	p	brothers	1
+F069	A	fable	acts	u	Mother	3
 F069	A	fable	acts	u	brothers	1
 F069	A	fable	acts	u	young frogs	1
 F069	A	fable	free	p	his brothers	1
+F069	A	fable	free	p	the Mother	5
 F069	A	fable	free	u	his brothers	1
 F069	A	fable	free	u	one of the young frogs	1
+F069	A	fable	free	u	the Mother	2
 F069	A	fable	free	u	the young frogs	1
 F072	A	fable	acts	p	conqueror	3
 F072	A	fable	acts	u	conqueror	2
@@ -2993,17 +2987,19 @@ F072	A	fable	free	u	the conqueror	2
 F074	A	fable	free	p	the trap	1
 F081	A	fable	acts	p	One of the Dolphins	1
 F081	A	fable	free	p	one of the Dolphins	1
+F085	A	fable	acts	p	The Mother	2
+F085	A	fable	acts	u	Mother	1
 F085	A	fable	acts	u	her child	1
 F085	A	fable	acts	u	her son	1
+F085	A	fable	free	p	the Mother	2
 F085	A	fable	free	u	her child	1
 F085	A	fable	free	u	her son	1
+F085	A	fable	free	u	the Mother	1
 F114	A	fable	acts	p	farmer's daughter	3
 F114	A	fable	free	p	a farmer's daughter	1
 F114	A	fable	free	p	the farmer's daughter	2
 F114	A	fable	free	p	the milk pail	1
 F124	A	fable	acts	p	Some travelers	4
-F124	A	fable	acts	p	one of them	1
-F124	A	fable	free	p	one of them	1
 F124	A	fable	free	p	some travelers	2
 F133	A	fable	free	p	the stream	1
 F134	A	fable	acts	u	his companions	1
@@ -3018,20 +3014,15 @@ F139	A	fable	free	u	the man	1
 F143	A	fable	acts	p	Arab Camel-driver	2
 F143	A	fable	acts	u	Arab Camel-driver	1
 F143	A	fable	free	p	an Arab Camel-driver	1
-F144	A	fable	acts	p	one of them	2
 F144	A	fable	acts	p	several tongues	1
 F144	A	fable	free	p	a company of women	1
-F144	A	fable	free	p	one of them	2
 F144	A	fable	free	u	a company of women	1
 F144	A	fable	free	u	a group of old men	1
 F144	A	fable	free	u	a troop of women	1
 F144	A	fable	free	u	the idle lad	1
 F148	A	fable	free	p	some thieves	1
-F154	A	fable	acts	p	One of them	1
 F154	A	fable	free	p	a whole army of Ants	1
-F154	A	fable	free	p	one of them	2
 F155	A	fable	free	p	the man	3
-F159	A	fable	free	u	the two others	1
 F174	A	fable	acts	p	wild-boar Hunter	1
 F174	A	fable	acts	u	lion's cub	1
 F174	A	fable	free	p	the wild-boar Hunter	1
@@ -3083,10 +3074,13 @@ F291	A	fable	free	p	wounded	1
 F291	A	fable	free	u	the Mule carrying the treasure	2
 F291	A	fable	free	u	the Mule which had been robbed	1
 F291	A	fable	free	u	the bells	1
+F291	A	fable	free	u	the grain	2
 F291	A	fable	free	u	the money	1
+F291	A	fable	free	u	the treasure	1
 F291	A	fable	free	u	their owners	1
 F291	A	fable	free	u	wounded	1
 F299	A	fable	free	p	others of the Shepherds	1
+F299	A	fable	free	p	some of the Shepherds	1
 F299	A	fable	free	p	they who had spared his life	2
 F299	A	fable	free	u	the Shepherds who had attacked him	1
 F299	A	fable	free	u	the cattle	1
@@ -3106,7 +3100,6 @@ F308	A	fable	acts	p	public performers	1
 F308	A	fable	acts	p	spectators	1
 F308	A	fable	acts	u	Crowd	1
 F308	A	fable	acts	u	any person	1
-F308	A	fable	acts	u	one another	1
 F308	A	fable	free	p	a still larger crowd	1
 F308	A	fable	free	p	the Crowd	2
 F308	A	fable	free	p	the spectators	1
@@ -3133,7 +3126,6 @@ F035	B	fable	free	u	the wheels	1
 F036	B	fable	acts	p	the remaining birds	2
 F036	B	fable	acts	u	the remaining birds	1
 F036	B	fable	free	p	the remaining Cranes	2
-F036	B	fable	free	u	each other	1
 F036	B	fable	free	u	the Farmer's fields	1
 F036	B	fable	free	u	the fields	1
 F036	B	fable	free	u	the sling	1
@@ -3153,10 +3145,11 @@ F060	B	fable	acts	p	The elder woman	1
 F063	B	fable	free	p	the neighbour	3
 F063	B	fable	free	u	the well	2
 F064	B	fable	free	u	the Dogs	2
+F069	B	fable	acts	p	The Mother	1
 F069	B	fable	acts	u	a brood of young frogs	1
 F069	B	fable	acts	u	her sons	1
 F069	B	fable	acts	u	his brothers	1
-F069	B	fable	free	u	herself	1
+F069	B	fable	acts	u	the Mother	2
 F070	B	fable	free	u	the land	1
 F072	B	fable	acts	p	one Game Cock	2
 F072	B	fable	acts	p	the conqueror	1
@@ -3165,12 +3158,10 @@ F072	B	fable	acts	u	the other Cock	2
 F072	B	fable	free	p	one Cock	1
 F072	B	fable	free	p	the beaten Cock	2
 F072	B	fable	free	p	the two Game Cocks	1
-F072	B	fable	free	u	each other	1
 F072	B	fable	free	u	the farmyard	1
 F072	B	fable	free	u	the other Cock	1
 F072	B	fable	free	u	the wall	1
 F074	B	fable	free	u	the meat	2
-F081	B	fable	free	u	each other	1
 F108	B	fable	free	p	the one-eyed Doe	1
 F108	B	fable	free	u	the one-eyed Doe	1
 F114	B	fable	acts	p	the farmer's daughter	3
@@ -3207,15 +3198,15 @@ F155	B	fable	free	u	the bundle	1
 F159	B	fable	free	u	the haul	2
 F174	B	fable	free	p	the wild-boar Hunter	1
 F174	B	fable	free	u	the whelp	1
+F189	B	fable	acts	p	A person	1
 F189	B	fable	acts	u	The passers-by	1
+F189	B	fable	free	p	a person	1
 F189	B	fable	free	p	the neighbour	1
 F189	B	fable	free	u	the passers-by	1
-F195	B	fable	free	u	himself	1
 F196	B	fable	free	u	the grapes	2
 F208	B	fable	acts	p	A very old Mouse	2
 F208	B	fable	acts	u	The other Mice	1
 F208	B	fable	free	p	the very old Mouse	2
-F208	B	fable	free	u	himself	1
 F208	B	fable	free	u	the other mice	1
 F212	B	fable	acts	u	The assembly	1
 F212	B	fable	free	u	the assembly	1
@@ -3225,7 +3216,6 @@ F224	B	fable	acts	p	The Horse's owner	1
 F234	B	fable	acts	p	The people who bring the whelp	1
 F234	B	fable	acts	u	The people who bring the whelp	2
 F234	B	fable	free	p	someone	2
-F246	B	fable	free	u	himself	1
 F246	B	fable	free	u	his shadow	1
 F247	B	fable	free	p	unnamed	1
 F257	B	fable	acts	p	food	1
@@ -3244,6 +3234,7 @@ F275	B	fable	acts	u	prey	1
 F275	B	fable	free	u	the lamb	1
 F275	B	fable	free	u	the prey	1
 F291	B	fable	free	p	the two Mules	1
+F291	B	fable	free	u	the treasure	1
 F299	B	fable	free	p	the Shepherds who spared him	2
 F299	B	fable	free	u	the Shepherds who attacked him	1
 F299	B	fable	free	u	the Shepherds who spared him	1
@@ -3514,6 +3505,7 @@ P01	B	tragedy	free	u	the fountain nymphs	1
 P01	B	tragedy	free	u	two men	2
 P01	B	tragedy	free	u	warders	1
 P02	B	tragedy	acts	p	rulers of this land	1
+P02	B	tragedy	acts	u	Athens	1
 P02	B	tragedy	acts	u	Heracles' daughters	1
 P02	B	tragedy	acts	u	Heracles' sons	2
 P02	B	tragedy	acts	u	allies	1
@@ -3522,6 +3514,7 @@ P02	B	tragedy	free	p	the Argive army	2
 P02	B	tragedy	free	p	the children of Heracles	1
 P02	B	tragedy	free	p	the rulers of this land	1
 P02	B	tragedy	free	p	the sons of Heracles	2
+P02	B	tragedy	free	u	Athens	1
 P02	B	tragedy	free	u	a human throat	1
 P02	B	tragedy	free	u	his allies	1
 P02	B	tragedy	free	u	the Argive line	1

@@ -10,3 +10,7 @@
 - **Full reading:** tales 60% and 64% (40%, 64%); fables 4% and 4%; tragedies 75% and 78%; myths 33% and 34% (32%, 35%).
 - **Strict reading:** tales 24% and 24% (18%, 29%); fables 4% and 3%; tragedies 66% and 72%; myths 28% and 26% (28%, 28%).
 The strict figures quoted in the first entry above are superseded by these. The reading still holds: tragedy fuses the two spheres in two thirds to three quarters of the plays, tales and myths in about a quarter, fables almost never.
+**2026-10-26. Regenerated with the name join mended**, at the owner's word: reciprocal and pronoun names dropped, and a short name joining a longer one only with the same head noun, or when the longer adds only titles or an "of" phrase (`Data/CharacterProtocol.md` section 8). One character holds both the hero's and the villain's sphere in (A, then B):
+- **Full reading:** tales 58% and 64%; fables 4% and 4%; tragedies 75% and 78%; myths 33% and 34%.
+- **Strict reading:** tales 22% and 24%; fables 4% and 3%; tragedies 66% and 72%; myths 27% and 26%.
+These supersede the figures of the entry above. The reading stands.

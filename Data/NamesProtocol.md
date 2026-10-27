@@ -58,3 +58,5 @@
 - `n7` to `n13`: the myths.
 
 That is thirteen batches per reader, twenty-six readers in all. With the controls (three or four a batch), the batches hold 33 to 76 items. Nothing else changes.
+
+**2026-10-26, the later batches rewritten.** After `names-1` ran, the readers' reports showed items that were not one character. At the owner's word the name join was mended (`CharacterProtocol.md` section 8), and the inputs of `names-2` to `names-4`, which had not run, were written again from the mended table by `Characters/names.py rewrite`. `n1` to `n3` and their item key are kept as they ran. The tragedy and myth batches hold 731 items, against 714 before (703 kept, 11 gone, 28 new), still in `n4` to `n13` (75 to 79 items with the controls). Of the 38 controls in those batches, 37 are kept; the mended table no longer sorts the other.
