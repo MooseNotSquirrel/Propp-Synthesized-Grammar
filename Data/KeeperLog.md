@@ -153,3 +153,5 @@ NEXT: at the owner's word, write it: rebuild the table, regenerate Spheres and p
 - **The frozen `Animal/animal.py`'s rerun** differs again, with the verdict unchanged, and the record is kept (`Animal/KeeperLog.md`).
 - **Not changed, for the owner:** `SemanticCatalog.md`'s spheres sentence, updated earlier today, now quotes 24% and 24% for the wondertales and 28% and 26% for the myths. The mended figures are 22% and 24%, and 27% and 26%.
 NEXT: the owner's word on the catalog sentence; then `names-2`, at the owner's word, when the budget allows.
+**2026-10-26. `SemanticCatalog.md`'s spheres sentence brought to the mended figures, at the owner's word:** 22% and 24% of the wondertales, 4% and 3% of the fables, 66% and 72% of the tragedies, 27% and 26% of the myths, with the join named. `runSteps.py 10` is identical before and after. The copy in `Delivery` is left for publication.
+NEXT: `names-2`, at the owner's word, when the budget allows.
