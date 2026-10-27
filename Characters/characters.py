@@ -186,8 +186,12 @@ def characters(L, g, s, ents, acts=(), free=()):
         # the kind is read from the character's longest name, the one the others joined
         full = max(nm, key=lambda n: (len(SX.key(n)), d['names'][n], n))
         h = head(full)
-        k = kind(full)
-        rows.append([s, L, g, ' '.join(c), ' ; '.join(nm), h, k, 'unknown' if k == 'unknown' else 'wordnet',
+        k, by = kind(full), 'wordnet'
+        if k == 'unknown':
+            # the kind both readers of the name stage gave (Data/NamesProtocol.md), where they agree
+            k = reader_kinds().get((g, s, ' '.join(c)), 'unknown')
+            by = 'readers' if k != 'unknown' else 'unknown'
+        rows.append([s, L, g, ' '.join(c), ' ; '.join(nm), h, k, by,
                      'Y' if is_group(full, h) else '', ' + '.join(n for n in SX.SPHERES if n in d['spheres']),
                      str(d['performs']), str(d['undergoes']), ' '.join(x for x in ('functions', 'acts', 'free') if x in d['layers']),
                      '; '.join('%s %d' % kv for kv in sorted(d['acts'].items())),
@@ -353,6 +357,19 @@ def c6():
 
 # ---------------------------------------------------------------- the act layer joined to the characters
 UNJOINED = []   # the act and free-verb names that join no character, as the last table() set them apart
+_READERS = []
+
+
+def reader_kinds():
+    """{(corpus, story, character): kind} from the name stage's answers where both readers agree (names.agreed());
+    empty until the answers exist"""
+    if not _READERS:
+        try:
+            import names as N
+            _READERS.append(N.agreed()[0])
+        except (OSError, IndexError):
+            _READERS.append({})
+    return _READERS[0]
 ACT_STUDIES = ['twolayer', 'problems', 'held', 'animal']   # one act study per story and reader, the first present
 CYR = re.compile('[Ѐ-ӿ]')
 
