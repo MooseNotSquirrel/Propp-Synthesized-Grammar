@@ -30,7 +30,10 @@ CORPORA = {'tale': (['Afanasyev/transcriptions/U/%s/b*/Notes.txt'], 4),
 SPHERES = collections.OrderedDict([('villain', {'A', 'H', 'Pr'}), ('donor', {'D', 'F'}), ('helper', {'G', 'K', 'Rs', 'N', 'T'}),
                                    ('princess', {'M', 'J', 'Q', 'Ex', 'U'}), ('dispatcher', {'B'}), ('hero', {'C', '↑', 'E', 'W'}),
                                    ('false hero', {'L'})])
-STOP = {'the', 'a', 'an', 'his', 'her', 'their', 'of', 'and', 'old', 'young', 'little'}
+STOP = {'the', 'a', 'an', 'his', 'her', 'their', 'and', 'old', 'young', 'little'}
+# *of* is kept in a name's key so that the head of an "of" phrase can be found (the owner, 2026-10-26)
+TITLES = {'tsar', 'tsaritsa', 'tsarevich', 'tsarevna', 'korol', 'korolevich', 'korolevna', 'knyaz', 'knyazhna',
+          'king', 'queen', 'prince', 'princess', 'emperor', 'empress', 'lord', 'lady', 'khan', 'sultan'}
 OUT = []
 
 
@@ -89,14 +92,31 @@ def read(L):
     return out
 
 
+def head(k):
+    """a name key's head noun: the word before its first *of*, or else its last word"""
+    return k[k.index('of') - 1] if 'of' in k[1:] else k[-1]
+
+
+def joins(n, m):
+    """may the name n join the longer name m (the owner's conditions, 2026-10-26)? Its words must stand in m, and
+    either the two share a head noun ("sons" and "sons of Hippocoon", but not "the Camel" and "the Camel-driver", nor
+    "Agamemnon" and "Agamemnon's servants"), or m only adds titles to n ("Ivan" and "Ivan-tsarevich"), or n is a
+    title that m begins with ("tsar" and "Tsar Zmiulan")"""
+    if m == n or not set(n) <= set(m):
+        return False
+    if head(n) == head(m):
+        return True
+    if set(m) - set(n) <= TITLES:
+        return True
+    return set(n) <= TITLES and m[:len(n)] == n
+
+
 def merge(entries):
-    """map each name to the longest name of the story whose words include all of its own and that ends in the same
-    word, its head noun, where that is unique (the head-noun condition the owner's, 2026-10-26: "the Camel" does not
-    join "the Camel-driver", nor "Agamemnon" "Agamemnon's servants")"""
+    """map each name to the longest name of the story it may join (joins()), where that is unique"""
     names = {n for _, p, u in entries for n in (p, u) if n}
     canon = {}
     for n in names:
-        sup = [m for m in names if m != n and set(n) <= set(m) and m[-1] == n[-1]]
+        sup = [m for m in names if joins(n, m)]
         # ties among the longer names broken by the name itself, so the join does not move with Python's hash seed
         canon[n] = max(sup, key=lambda m: (len(m), m)) if len(sup) == 1 or (sup and len({tuple(sorted(s)) for s in sup}) == 1) else n
     return canon
