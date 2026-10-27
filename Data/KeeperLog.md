@@ -187,3 +187,10 @@ NEXT: the owner chooses (a), (b) or (c) of `KindRule.md`; then the choice goes i
 - **The table is unchanged:** rebuilt in memory, 7,215 rows identical to the committed `characters.tsv`.
 - **The dry run** (`python names.py setup2 --dry`): 1,616 characters (named 866, group 628, collective 122), fewer than the draft's 1,644 because items the first stage already asked are left out. The corpora: wondertales 235, animal tales 63, fables 170, tragedies 504, myths 644. The 60 controls are drawn from 1,603 common items: person 23, animal 21, object 14, supernatural 2. That makes 24 batches, `n14` to `n37`, of 61 to 75 items; 48 readers, about 3 million tokens at the first stage's rate. The run would write 72 files into ActsRoles and add to `NameItems.tsv` and `NameControls.txt`.
 NEXT: at the owner's word, `python names.py setup2` writes the stage. Then it runs in portions, as the first stage did.
+**2026-10-27. The second name stage written; no reader started.** At the owner's word. `python names.py setup2` wrote `names/input/n14.txt` to `n37.txt` and their 48 prompts into ActsRoles, and added to `NameItems.tsv` and `NameControls.txt`, exactly as the dry run said. In `RUN.md` the stage is cut into seven portions along its corpus groups:
+- `names-5`: `n14` to `n17`, the wondertales;
+- `names-6`: `n18` to `n21`, the fables and animal tales;
+- `names-7` and `names-8`: `n22` to `n28`, the tragedies;
+- `names-9` to `names-11`: `n29` to `n37`, the myths.
+Each portion is 6 or 8 readers. The table stays unchanged until both readers' answers for a batch exist.
+NEXT: `names-5`, at the owner's word, when the budget allows.
