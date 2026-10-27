@@ -6,7 +6,8 @@ performs it; a character's spheres are those whose functions it performs (Propp,
 names are matched within a story (articles and punctuation left out; a name whose words all
 stand in one longer name of the same story joins it).
 
-  python explore.py    writes Spheres/SpheresExplore.txt
+  python explore.py           writes Spheres/SpheresExplore.txt
+  python explore.py strict    writes Spheres/SpheresExplore-strict.txt, struggle left out of the villain's sphere
 """
 import collections
 import glob
@@ -65,12 +66,14 @@ def merge(entries):
     canon = {}
     for n in names:
         sup = [m for m in names if m != n and set(n) <= set(m)]
-        canon[n] = max(sup, key=len) if len(sup) == 1 or (sup and len({tuple(sorted(s)) for s in sup}) == 1) else n
+        # ties among the longer names broken by the name itself, so the join does not move with Python's hash seed
+        canon[n] = max(sup, key=lambda m: (len(m), m)) if len(sup) == 1 or (sup and len({tuple(sorted(s)) for s in sup}) == 1) else n
     return canon
 
 
-def main():
-    say('# SpheresExplore.txt -- explore.py, exploratory; Propp\'s spheres of action counted in the original transcriptions.')
+def main(name='SpheresExplore.txt',
+         header='# SpheresExplore.txt -- explore.py, exploratory; Propp\'s spheres of action counted in the original transcriptions.'):
+    say(header)
     say('')
     for L in 'AB':
         data = read(L)
@@ -120,8 +123,19 @@ def main():
                 % (100 * merged_hv / n, 100.0 * outside_only / max(1, acting)))
             say('           stories with a hero in which a hero is exposed or punished: %d of %d (%.0f%%)' % (fallen, hero_stories, 100.0 * fallen / max(1, hero_stories)))
         say('')
-    open(os.path.join(HERE, 'SpheresExplore.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(OUT) + '\n')
+    open(os.path.join(HERE, name), 'w', encoding='utf-8', newline='\n').write('\n'.join(OUT) + '\n')
+
+
+def strict():
+    """the strict reading: the villain's sphere as villainy and pursuit only, written to SpheresExplore-strict.txt"""
+    SPHERES['villain'] = {'A', 'Pr'}
+    main('SpheresExplore-strict.txt', '# SpheresExplore-strict.txt -- explore.py with the villain\'s sphere as villainy and pursuit '
+         'only (struggle left out, transcribers crediting it to whoever fights, often the hero); exploratory; Propp\'s spheres '
+         'of action counted in the original transcriptions.')
 
 
 if __name__ == '__main__':
-    main()
+    if sys.argv[1:] == ['strict']:
+        strict()
+    else:
+        main()
