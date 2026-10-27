@@ -75,8 +75,9 @@ def characters_by_item():
                         if ev.isdigit():
                             d['events'].add(int(ev))
     kinds = collections.defaultdict(set)
-    for r in DT.rows('characters'):
-        kinds[(r['corpus'], r['story'], r['character'])].add(r['kind'])
+    # the table as characters.py builds it now, read in memory, so that a dry run needs no table written
+    for r in C.table()[1]:
+        kinds[(r[2], r[0], r[3])].add(r[6])
     for key, d in out.items():
         d['kind'] = kinds.get(key, {'unknown'})
     return out
@@ -160,11 +161,94 @@ def setup(dry):
     print('written: %d files' % len(writes))
 
 
+def rewrite(dry):
+    """after the join was mended (2026-10-26, at the owner's word): the tragedy and myth batches written again from the
+    mended table, numbered on from n4; n1 to n3, already run, and their item key kept as they are; the controls that
+    stood in the rewritten batches kept, where the mended table still sorts them, at new seeded positions"""
+    old_key = [l.rstrip('\n').split('\t') for l in open(os.path.join(HERE, 'NameItems.tsv'), encoding='utf-8')][1:]
+    first = {'n1', 'n2', 'n3'}
+    kept_key = [r for r in old_key if r[0].split('-')[0] in first]
+    old_items = {(r[1], r[2], r[3]) for r in old_key if r[0].split('-')[0] not in first and not r[4]}
+    old_ctl = [(r[1], r[2], r[3]) for r in old_key if r[0].split('-')[0] not in first and r[4]]
+    ch = characters_by_item()
+    ev, ti = event_text(), titles()
+
+    def line(key):
+        g, s, c = key
+        d = ch[key]
+        gid = g + ':' + s
+        names = '; '.join(sorted(d['names'], key=lambda n: (-d['names'][n], n)))
+        evs = ' / '.join('%d: %s' % (e, ev.get((gid, e), '')) for e in sorted(d['events'])[:3])
+        return '%s | %s | %s | %s' % (s, ti.get(gid, ''), names, evs)
+    unknown = [k for k, d in ch.items() if 'unknown' in d['kind'] and k[0] in ('tragedy', 'myth')]
+    controls = [k for k in old_ctl if k in ch and 'unknown' not in ch[k]['kind'] and len(ch[k]['kind']) == 1]
+    out = []
+    for gs in GROUPS[2:]:
+        ks = [k for k in unknown if k[0] in gs]
+        n = -(-len(ks) // SIZE)
+        for i in range(n):
+            keys = ks[len(ks) * i // n: len(ks) * (i + 1) // n]
+            out.append(['n%d' % (len(out) + 4), [(None, k[0], k[1], k[2], line(k), '') for k in keys]])
+    rnd = random.Random(SEED + 1)
+    for i, k in enumerate(controls):
+        b = out[i % len(out)][1]
+        b.insert(rnd.randrange(len(b) + 1), (None, k[0], k[1], k[2], line(k), next(iter(ch[k]['kind']))))
+    for b, its in out:
+        for j, x in enumerate(its, 1):
+            its[j - 1] = ('%s-%03d' % (b, j),) + x[1:]
+    new_items = {(x[1], x[2], x[3]) for _, its in out for x in its if not x[5]}
+    by = collections.Counter(k[0] for k in new_items)
+    print('tragedy and myth items: before %d, after %d (tragedy %d, myth %d); kept %d, gone %d, new %d; controls kept %d of %d'
+          % (len(old_items), len(new_items), by['tragedy'], by['myth'], len(old_items & new_items), len(old_items - new_items),
+             len(new_items - old_items), len(controls), len(old_ctl)))
+    for b, its in out:
+        print('%s items %3d (controls %d), corpora %s' % (b, len(its), sum(1 for x in its if x[5]), ', '.join(sorted({x[1] for x in its}))))
+    writes, stale = [], []
+    key = ['item\tcorpus\tstory\tcharacter\tcontrol'] + ['\t'.join(r) for r in kept_key]
+    ctl = ['# NameControls.txt -- names.py: the control items, with the kind the WordNet rule gives them; never shown to the readers']
+    ctl += ['%s\t%s' % (l.split('\t')[0], l.split('\t')[1]) for l in open(os.path.join(HERE, 'NameControls.txt'), encoding='utf-8')
+            if l.split('-')[0] in first]
+    for b, its in out:
+        writes.append((os.path.join(AR, 'names', 'input', b + '.txt'), ''.join('%s | %s\n' % (i, l) for i, _, _, _, l, _ in its)))
+        for L in 'AB':
+            writes.append((os.path.join(AR, 'prompts', 'names-%s-%s.txt' % (L, b)), PROMPT.format(b=b, n=len(its), L=L)))
+        for i, g, s, c, _, k in its:
+            key.append('\t'.join((i, g, s, c, 'Y' if k else '')))
+            if k:
+                ctl.append('%s\t%s' % (i, k))
+    writes.append((os.path.join(HERE, 'NameItems.tsv'), '\n'.join(key) + '\n'))
+    writes.append((os.path.join(HERE, 'NameControls.txt'), '\n'.join(ctl) + '\n'))
+    last = 'n%d' % (len(out) + 3)
+    for n in range(len(out) + 4, 14):
+        for path in [os.path.join(AR, 'names', 'input', 'n%d.txt' % n)] + [os.path.join(AR, 'prompts', 'names-%s-n%d.txt' % (L, n)) for L in 'AB']:
+            if os.path.exists(path):
+                stale.append(path)
+    for path, text in writes:
+        print('%s %-40s %6d bytes%s' % ('would write' if dry else 'write', os.path.relpath(path, P), len(text.encode('utf-8')),
+                                       '  (replaces)' if os.path.exists(path) else ''))
+    for path in stale:
+        print('%s %s (no longer a batch; the batches now end at %s)' % ('would remove' if dry else 'remove', os.path.relpath(path, P), last))
+    if dry:
+        print('dry run: %d files to write, %d to remove; nothing written' % (len(writes), len(stale)))
+        return out
+    for path, text in writes:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        open(path, 'w', encoding='utf-8', newline='\n').write(text)
+    for path in stale:
+        os.remove(path)
+    print('written: %d files, removed %d' % (len(writes), len(stale)))
+    return out
+
+
 if __name__ == '__main__':
     a = sys.argv[1:]
     if a == ['setup', '--dry']:
         setup(True)
     elif a == ['setup']:
         setup(False)
+    elif a == ['rewrite', '--dry']:
+        rewrite(True)
+    elif a == ['rewrite']:
+        rewrite(False)
     else:
         sys.exit(__doc__)

@@ -49,12 +49,15 @@ def key(name):
 PAREN = re.compile(r'\([^)]*\)')
 SPLIT = re.compile(r'\s*(?:;|/|,|\band\b)\s*')
 DROP = {'others', 'other', 'all', 'both', 'everyone', 'everybody', 'they', 'some', 'many', 'rest'}
+# reciprocal and pronoun names are no characters (the owner, 2026-10-26): a part whose every word is one of these
+PRONOUNS = DROP | {'each', 'one', 'another', 'himself', 'herself', 'itself', 'themselves', 'oneself', 'him', 'them',
+                   'he', 'she', 'it', 'we', 'us', 'you', 'me', 'together', 'two', 'three', 'four', 'five', 'six', 'seven'}
 
 
 def split_field(raw):
     """a performer or undergoer field as the names of the characters it holds"""
     parts = [p.strip() for p in SPLIT.split(PAREN.sub(' ', raw))]
-    return [p for p in parts if key(p) and key(p) not in [(w,) for w in DROP]]
+    return [p for p in parts if key(p) and not set(key(p)) <= PRONOUNS]
 
 
 def expand(fn, praw, uraw):
@@ -87,11 +90,13 @@ def read(L):
 
 
 def merge(entries):
-    """map each name to the longest name of the story whose words include all of its own, where that is unique"""
+    """map each name to the longest name of the story whose words include all of its own and that ends in the same
+    word, its head noun, where that is unique (the head-noun condition the owner's, 2026-10-26: "the Camel" does not
+    join "the Camel-driver", nor "Agamemnon" "Agamemnon's servants")"""
     names = {n for _, p, u in entries for n in (p, u) if n}
     canon = {}
     for n in names:
-        sup = [m for m in names if m != n and set(n) <= set(m)]
+        sup = [m for m in names if m != n and set(n) <= set(m) and m[-1] == n[-1]]
         # ties among the longer names broken by the name itself, so the join does not move with Python's hash seed
         canon[n] = max(sup, key=lambda m: (len(m), m)) if len(sup) == 1 or (sup and len({tuple(sorted(s)) for s in sup}) == 1) else n
     return canon

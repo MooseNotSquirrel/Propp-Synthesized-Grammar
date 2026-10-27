@@ -363,10 +363,11 @@ def act_rows():
 
 
 def name_join(a, names, canon):
-    """an act name's character by the name join: the name itself, or the one longer name whose words hold it"""
+    """an act name's character by the name join: the name itself, or the one longer name whose words hold it and
+    that ends in the same head noun"""
     if a in canon:
         return canon[a]
-    sup = [m for m in names if set(a) <= set(m)]
+    sup = [m for m in names if set(a) <= set(m) and m[-1] == a[-1]]
     if len(sup) == 1 or (sup and len({tuple(sorted(x)) for x in sup}) == 1):
         m = max(sup, key=lambda x: (len(x), x))
         return canon.get(m, m)
