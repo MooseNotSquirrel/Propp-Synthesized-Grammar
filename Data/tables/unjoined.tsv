@@ -8,13 +8,14 @@ A093	A	tale	free	p	his sister	2
 A093	A	tale	free	p	the two old seamstresses	3
 A093	A	tale	free	u	the two old seamstresses	2
 A095	A	tale	acts	p	дочери	1
-A095	A	tale	acts	p	старик	6
 A095	A	tale	acts	u	Машка	1
 A095	A	tale	acts	u	дочери	5
-A095	A	tale	acts	u	старик	6
-A095	A	tale	free	p	Parakha and Mashka	1
+A095	A	tale	free	p	Mashka	1
+A095	A	tale	free	p	Parakha	1
+A098	A	tale	acts	p	дочка	2
 A098	A	tale	acts	p	собачка	2
 A098	A	tale	acts	p	старик	2
+A098	A	tale	acts	u	дочка	3
 A098	A	tale	acts	u	зять	1
 A098	A	tale	acts	u	собачка	2
 A098	A	tale	acts	u	старик	2
@@ -72,19 +73,25 @@ A101	A	tale	free	u	Burenushka	3
 A101	A	tale	free	u	her father	1
 A101	A	tale	free	u	the spindle	1
 A101	A	tale	free	u	the three-eyed daughter	2
+A104	A	tale	acts	p	Василиса и куколка	1
+A104	A	tale	acts	p	всадник белый	1
+A104	A	tale	acts	p	всадник красный	1
 A104	A	tale	acts	p	женихи	1
 A104	A	tale	acts	p	куколка	7
-A104	A	tale	acts	p	купчиха (мачеха)	1
+A104	A	tale	acts	p	мачеха и её дочери	1
+A104	A	tale	acts	p	мачеха и сёстры	1
 A104	A	tale	acts	p	мачехина дочь	1
 A104	A	tale	acts	p	старуха	1
 A104	A	tale	acts	p	старушка	4
 A104	A	tale	acts	u	вдовушка	1
+A104	A	tale	acts	u	ворота	1
 A104	A	tale	acts	u	девушки	1
 A104	A	tale	acts	u	женихи	1
-A104	A	tale	acts	u	запоры, ворота	1
+A104	A	tale	acts	u	запоры	1
 A104	A	tale	acts	u	куколка	8
+A104	A	tale	acts	u	мачеха и её дочери	1
 A104	A	tale	acts	u	мачехина дочь	1
-A104	A	tale	acts	u	приёмыш (Василиса)	1
+A104	A	tale	acts	u	приёмыш	1
 A104	A	tale	acts	u	старушка	8
 A104	A	tale	acts	u	три пары рук	2
 A104	A	tale	free	p	Vasilisa's father	2
@@ -94,7 +101,6 @@ A104	A	tale	free	p	the skulls	1
 A104	A	tale	free	p	the stepmother's daughters	2
 A104	A	tale	free	p	the suitors	1
 A104	A	tale	free	p	the three pairs of hands	1
-A104	A	tale	free	p	the tsar and Vasilisa	1
 A104	A	tale	free	p	the white horseman	1
 A104	A	tale	free	u	the gates	1
 A104	A	tale	free	u	the suitors	1
@@ -109,8 +115,9 @@ A105	A	tale	acts	u	жеребцы	1
 A105	A	tale	acts	u	кузнец	2
 A105	A	tale	acts	u	старик и старуха	1
 A105	A	tale	acts	u	сыновья	3
+A105	A	tale	free	p	mother	1
 A105	A	tale	free	p	the boys	1
-A105	A	tale	free	p	the father and mother	1
+A105	A	tale	free	p	the father	1
 A105	A	tale	free	p	the forty-one stallions	1
 A105	A	tale	free	p	the wondrous mare	6
 A105	A	tale	free	u	her forty-one daughters	1
@@ -119,30 +126,33 @@ A105	A	tale	free	u	the forty-one stallions	1
 A105	A	tale	free	u	the wondrous mare	2
 A105	A	tale	free	u	their wives	1
 A106	A	tale	acts	p	большая дочь	2
+A106	A	tale	acts	p	кот да воробей	10
 A106	A	tale	acts	p	середняя дочь	1
 A106	A	tale	acts	u	большая дочь	4
+A106	A	tale	acts	u	кот да воробей	7
 A106	A	tale	acts	u	молодая дочь	2
 A106	A	tale	acts	u	середняя дочь	3
 A108	A	tale	acts	p	Ивашечко	1
 A108	A	tale	acts	p	гуси-лебеди	3
+A108	A	tale	acts	p	дед и баба	1
 A108	A	tale	acts	p	кузнец	3
 A108	A	tale	acts	p	отец и мать	1
 A108	A	tale	acts	u	Ивашечко	2
 A108	A	tale	acts	u	гости	1
 A108	A	tale	acts	u	гуси-лебеди	3
+A108	A	tale	acts	u	дед и баба	2
 A108	A	tale	acts	u	кузнец	3
 A108	A	tale	acts	u	отец и мать	1
+A108	A	tale	free	p	old woman	3
 A108	A	tale	free	p	the first flock of geese-swans	1
-A108	A	tale	free	p	the old man	8
-A108	A	tale	free	p	the old man and old woman	2
-A108	A	tale	free	p	the old man, old woman and Ivashko	1
+A108	A	tale	free	p	the old man	11
 A108	A	tale	free	p	the old woman	9
 A108	A	tale	free	p	the second flock of geese-swans	1
+A108	A	tale	free	u	old woman	1
 A108	A	tale	free	u	the boat	1
 A108	A	tale	free	u	the first flock of geese-swans	1
 A108	A	tale	free	u	the oak	4
-A108	A	tale	free	u	the old man	2
-A108	A	tale	free	u	the old man and old woman	1
+A108	A	tale	free	u	the old man	3
 A108	A	tale	free	u	the old woman	3
 A108	A	tale	free	u	the second flock of geese-swans	1
 A108	A	tale	free	u	the third flock of geese-swans	1
@@ -161,7 +171,7 @@ A113	A	tale	acts	u	печка	4
 A113	A	tale	acts	u	речка	3
 A113	A	tale	acts	u	яблонь	4
 A113	A	tale	acts	u	ёж	1
-A113	A	tale	free	p	her father and mother	1
+A113	A	tale	free	p	her father	1
 A113	A	tale	free	u	the daughter	2
 A114	A	tale	acts	p	барин	3
 A114	A	tale	acts	p	дочь	3
@@ -187,13 +197,11 @@ A114	A	tale	free	p	Katerina	1
 A114	A	tale	free	p	a girl	2
 A114	A	tale	free	p	a man	2
 A114	A	tale	free	p	a wicked witch	2
-A114	A	tale	free	p	the daughter	5
 A114	A	tale	free	p	the earth	1
 A114	A	tale	free	u	Katerina	2
 A114	A	tale	free	u	a wicked witch	1
 A114	A	tale	free	u	her companion	1
 A114	A	tale	free	u	some old women	3
-A114	A	tale	free	u	the daughter	3
 A114	A	tale	free	u	the door	1
 A114	A	tale	free	u	the oven	1
 A114	A	tale	free	u	the ring	1
@@ -201,22 +209,21 @@ A115	A	tale	acts	p	барский мужичок	1
 A115	A	tale	acts	p	купец	5
 A115	A	tale	acts	p	поп	1
 A115	A	tale	acts	p	правдивый и царевна	1
+A115	A	tale	acts	p	царевна	1
 A115	A	tale	acts	p	царь	1
 A115	A	tale	acts	u	барский мужичок	1
 A115	A	tale	acts	u	бог	1
 A115	A	tale	acts	u	купец	5
 A115	A	tale	acts	u	поп	1
+A115	A	tale	acts	u	царевна	2
 A115	A	tale	acts	u	царь	2
 A115	A	tale	free	p	everyone at court	2
-A115	A	tale	free	p	the false man and the true man	6
 A115	A	tale	free	p	the ploughing serf	1
 A115	A	tale	free	p	the rich merchant	7
-A115	A	tale	free	u	the false man and the true man	3
 A115	A	tale	free	u	the icon	1
 A115	A	tale	free	u	the ploughing serf	1
 A115	A	tale	free	u	the rich merchant	4
 A125	A	tale	acts	p	Иван-царевич и мужичок руки железны	1
-A125	A	tale	acts	p	барин (поддергайко)	1
 A125	A	tale	acts	p	все люди	1
 A125	A	tale	acts	p	девятиглавый змий	1
 A125	A	tale	acts	p	другие конюхи	1
@@ -224,16 +231,14 @@ A125	A	tale	acts	p	змий	1
 A125	A	tale	acts	p	конюшенный староста	2
 A125	A	tale	acts	p	корабли	2
 A125	A	tale	acts	p	малая дочь	1
-A125	A	tale	acts	p	царь (другой)	1
 A125	A	tale	acts	p	человек	2
-A125	A	tale	acts	u	виноватый (барин)	1
+A125	A	tale	acts	u	виноватый	1
 A125	A	tale	acts	u	девятиглавый змий	3
 A125	A	tale	acts	u	змий	1
 A125	A	tale	acts	u	конюшенный староста	2
 A125	A	tale	acts	u	корабли	1
 A125	A	tale	acts	u	сенаторы и думные дьяки	1
 A125	A	tale	acts	u	царевна	1
-A125	A	tale	acts	u	царь (другой)	1
 A125	A	tale	acts	u	человек	1
 A125	A	tale	acts	u	шестиглавый змий	2
 A125	A	tale	free	p	a refused tsar	1
@@ -247,11 +252,12 @@ A125	A	tale	free	p	the passing ships	1
 A125	A	tale	free	p	the tsar's people	2
 A125	A	tale	free	p	the youngest daughter	1
 A125	A	tale	free	u	his horse	1
-A125	A	tale	free	u	the cooks and maids	1
+A125	A	tale	free	u	maids	1
+A125	A	tale	free	u	the cooks	1
 A125	A	tale	free	u	the other tsar	1
 A125	A	tale	free	u	the senators	1
-A126	A	tale	acts	p	адзін (вораг)	1
-A126	A	tale	acts	p	бацька (гаспадар)	1
+A126	A	tale	acts	p	адзін	1
+A126	A	tale	acts	p	бацька	1
 A126	A	tale	acts	p	бацькі	2
 A126	A	tale	acts	p	браты	2
 A126	A	tale	acts	p	гаспадар	1
@@ -259,9 +265,7 @@ A126	A	tale	acts	p	жонка	1
 A126	A	tale	acts	p	кралеўна	6
 A126	A	tale	acts	p	круль	4
 A126	A	tale	acts	p	круль і госці	2
-A126	A	tale	acts	p	кухцік	1
-A126	A	tale	acts	p	кухцік (кралевіч)	2
-A126	A	tale	acts	p	пташка (масенжны дзядок)	1
+A126	A	tale	acts	p	кухцік	3
 A126	A	tale	acts	p	старшы сын	1
 A126	A	tale	acts	u	бацька	1
 A126	A	tale	acts	u	браты	1
@@ -273,7 +277,7 @@ A126	A	tale	acts	u	кралеўна	4
 A126	A	tale	acts	u	круль	1
 A126	A	tale	acts	u	кухар	3
 A126	A	tale	acts	u	кухня	1
-A126	A	tale	acts	u	кухцік (кралевіч)	5
+A126	A	tale	acts	u	кухцік	5
 A126	A	tale	acts	u	маці	1
 A126	A	tale	acts	u	мужык	1
 A126	A	tale	acts	u	непрыяцель	3
@@ -283,18 +287,14 @@ A126	A	tale	free	p	both sets of parents	2
 A126	A	tale	free	p	one of the guests	1
 A126	A	tale	free	p	some guests	1
 A126	A	tale	free	p	something	1
-A126	A	tale	free	p	the king	11
 A126	A	tale	free	p	the kitchen boy	4
 A126	A	tale	free	p	the middle son	2
 A126	A	tale	free	p	the prince's parents	1
-A126	A	tale	free	p	the queen	4
 A126	A	tale	free	p	the strange guards	1
 A126	A	tale	free	u	the apple	1
 A126	A	tale	free	u	the cook	2
 A126	A	tale	free	u	the guests at the betrothal	1
-A126	A	tale	free	u	the king	8
 A126	A	tale	free	u	the prince's parents	1
-A126	A	tale	free	u	the queen	5
 A126	A	tale	free	u	the silver apple	1
 A127	A	tale	acts	p	бедная лавка	1
 A127	A	tale	acts	p	жандармы	5
@@ -307,40 +307,31 @@ A127	A	tale	acts	u	младая царица	1
 A127	A	tale	acts	u	старик	2
 A127	A	tale	free	p	a poor shop	1
 A127	A	tale	free	p	all at the palace	1
-A127	A	tale	free	p	the merchant	1
-A127	A	tale	free	p	the tsar and his young tsaritsa	1
-A127	A	tale	free	p	the tsaritsa	9
-A127	A	tale	free	u	the merchant	2
-A127	A	tale	free	u	the tsaritsa	6
 A128	A	tale	acts	p	Ивашко Запечный	1
-A128	A	tale	acts	p	Ивашко и девица (золотое царство)	1
+A128	A	tale	acts	p	Ивашко и девица	1
 A128	A	tale	acts	p	Миша Косолапый	1
-A128	A	tale	acts	p	девица (золотое царство)	4
 A128	A	tale	acts	u	Егорушко Залёт	1
 A128	A	tale	acts	u	Ивашко Запечный	1
 A128	A	tale	acts	u	Миша Косолапый	1
-A128	A	tale	acts	u	девица (золотое царство)	2
-A128	A	tale	acts	u	девицы	2
-A128	A	tale	acts	u	девицы (серебряное и медное царства)	1
-A128	A	tale	free	p	Ivashko and the golden maiden	4
-A128	A	tale	free	p	Ivashko and the maidens	1
+A128	A	tale	acts	u	девицы	3
+A128	A	tale	free	p	old woman	5
 A128	A	tale	free	p	the elder brothers	4
-A128	A	tale	free	p	the old man and old woman	5
 A128	A	tale	free	p	the three-headed dragon	10
 A128	A	tale	free	p	the tiny old man	1
+A128	A	tale	free	u	old woman	2
 A128	A	tale	free	u	the elder brothers	1
-A128	A	tale	free	u	the old man and old woman	2
 A128	A	tale	free	u	the stone	2
 A128	A	tale	free	u	the three maidens	2
 A128	A	tale	free	u	the tiny old man	2
 A131	A	tale	acts	p	Ерёма	1
+A131	A	tale	acts	p	Фролка-сидень и Ерёма	1
 A131	A	tale	acts	p	девица	2
 A131	A	tale	acts	p	змий	2
 A131	A	tale	acts	p	львы	1
 A131	A	tale	acts	p	служанки	1
 A131	A	tale	acts	p	солдат	1
 A131	A	tale	acts	p	солдат и Ерёма	1
-A131	A	tale	acts	p	солдат-пьяница, Фролка-сидень и Ерёма	1
+A131	A	tale	acts	p	солдат-пьяница	1
 A131	A	tale	acts	p	средняя царская дочь	2
 A131	A	tale	acts	p	старец	3
 A131	A	tale	acts	p	царевна	5
@@ -360,12 +351,12 @@ A131	A	tale	acts	u	средняя царская дочь	1
 A131	A	tale	acts	u	товарищи	1
 A131	A	tale	acts	u	царевна	1
 A131	A	tale	acts	u	царская дочь	1
-A131	A	tale	free	p	Frolka the Sitter	18
+A131	A	tale	free	p	Frolka the Sitter	19
 A131	A	tale	free	p	Frolka's comrades	1
-A131	A	tale	free	p	a drunken soldier, Frolka the Sitter and Yeryoma	1
+A131	A	tale	free	p	a drunken soldier	1
 A131	A	tale	free	p	sleep	1
 A131	A	tale	free	p	the dragon	1
-A131	A	tale	free	p	the three and the princess	1
+A131	A	tale	free	p	the princess	1
 A131	A	tale	free	p	two chained lions	1
 A131	A	tale	free	u	the dragon	4
 A131	A	tale	free	u	the heads	1
@@ -398,13 +389,10 @@ A132	A	tale	acts	u	птушки	1
 A132	A	tale	acts	u	старшие	1
 A132	A	tale	acts	u	сыны	3
 A132	A	tale	acts	u	хазяин	4
-A132	A	tale	free	p	Ivan-tsarevich and the maiden	1
 A132	A	tale	free	p	a beautiful maiden	1
 A132	A	tale	free	p	a richly harnessed horse	1
-A132	A	tale	free	p	all	1
-A132	A	tale	free	p	the maiden	2
+A132	A	tale	free	p	the maiden	3
 A132	A	tale	free	p	the second sister	1
-A132	A	tale	free	p	the tsarevich	24
 A132	A	tale	free	p	the youngest	3
 A132	A	tale	free	p	the youngest bride	5
 A132	A	tale	free	p	the youngest son	1
@@ -419,18 +407,17 @@ A132	A	tale	free	u	the maidens	2
 A132	A	tale	free	u	the masters	1
 A132	A	tale	free	u	the palaces	1
 A132	A	tale	free	u	the rope	1
-A132	A	tale	free	u	the tsarevich	10
 A132	A	tale	free	u	the white stone	1
 A132	A	tale	free	u	the youngest	1
 A132	A	tale	free	u	the youngest bride	1
 A132	A	tale	free	u	the youngest son	1
 A132	A	tale	free	u	their palaces	1
-A133	A	tale	acts	p	Покотигорошко, брати, сестра	1
 A133	A	tale	acts	p	горошина	1
 A133	A	tale	acts	p	дочка	1
 A133	A	tale	acts	p	дівка	1
 A133	A	tale	acts	p	пастух	2
 A133	A	tale	acts	p	свинар	2
+A133	A	tale	acts	p	сестра	1
 A133	A	tale	acts	p	чередник	2
 A133	A	tale	acts	u	горошина	1
 A133	A	tale	acts	u	дочка	2
@@ -442,28 +429,22 @@ A133	A	tale	acts	u	сестра	2
 A133	A	tale	acts	u	сини	1
 A133	A	tale	acts	u	чередник	2
 A133	A	tale	free	p	a pea	1
-A133	A	tale	free	p	the father and mother	1
 A133	A	tale	free	p	the parents	1
-A133	A	tale	free	u	the brothers and the sister	1
 A133	A	tale	free	u	the oxen	1
 A133	A	tale	free	u	the pea	2
 A133	A	tale	free	u	the two sons	2
+A135	A	tale	acts	p	Иван и браты	4
+A135	A	tale	acts	p	Кузьма и Демьян	3
 A135	A	tale	acts	p	браты	4
 A135	A	tale	acts	p	воран	1
 A135	A	tale	acts	p	змеиха и змеевы дочки	1
-A135	A	tale	acts	p	змей (двенадцать галов)	1
-A135	A	tale	acts	p	змей (три галавы)	1
 A135	A	tale	acts	p	конь	1
+A135	A	tale	acts	u	Кузьма и Демьян	2
 A135	A	tale	acts	u	батька	3
 A135	A	tale	acts	u	браты	1
 A135	A	tale	acts	u	воран	2
-A135	A	tale	acts	u	змеева дочка (крыница)	1
-A135	A	tale	acts	u	змеева дочка (падушки)	1
-A135	A	tale	acts	u	змеева дочка (ябланя)	1
+A135	A	tale	acts	u	змеева дочка	3
 A135	A	tale	acts	u	змеиха и змеевы дочки	2
-A135	A	tale	acts	u	змей (двенадцать галов)	2
-A135	A	tale	acts	u	змей (три галавы)	2
-A135	A	tale	acts	u	змей (шесть галов)	1
 A135	A	tale	acts	u	куцаба	3
 A135	A	tale	acts	u	царство	2
 A135	A	tale	free	p	Ivan's brothers	4
@@ -474,7 +455,7 @@ A135	A	tale	free	u	the gloves	3
 A135	A	tale	free	u	the silk cushions	1
 A135	A	tale	free	u	the spring	1
 A136	A	tale	acts	p	войско	1
-A136	A	tale	acts	p	девка-чернавка	1
+A136	A	tale	acts	p	девка-чернавка	2
 A136	A	tale	acts	p	девкин сын	1
 A136	A	tale	acts	p	дедушка	2
 A136	A	tale	acts	p	дочь	1
@@ -483,8 +464,8 @@ A136	A	tale	acts	p	змей двенадцатиглавый	1
 A136	A	tale	acts	p	змей шестиглавый	2
 A136	A	tale	acts	p	индейский король	1
 A136	A	tale	acts	p	конь	1
-A136	A	tale	acts	p	корова	1
-A136	A	tale	acts	p	корова, девка-чернавка, королева	1
+A136	A	tale	acts	p	корова	2
+A136	A	tale	acts	p	королева	1
 A136	A	tale	acts	p	кузнецы	2
 A136	A	tale	acts	p	министр	1
 A136	A	tale	acts	p	молодцы	1
@@ -518,18 +499,17 @@ A136	A	tale	acts	u	невестки	1
 A136	A	tale	acts	u	первый министр	1
 A136	A	tale	acts	u	повара	1
 A136	A	tale	acts	u	третья невестка	1
-A136	A	tale	free	p	Burya-bogatyr	77
-A136	A	tale	free	p	Burya-bogatyr and the dragon	1
-A136	A	tale	free	p	a cow	1
+A136	A	tale	free	p	Burya-bogatyr	78
 A136	A	tale	free	p	a huge sow	1
 A136	A	tale	free	p	the club	1
+A136	A	tale	free	p	the dragon	1
 A136	A	tale	free	p	the three boys	1
 A136	A	tale	free	p	the three brothers	5
 A136	A	tale	free	p	the three daughters-in-law	1
 A136	A	tale	free	u	Burya-bogatyr	20
-A136	A	tale	free	u	Ivan-tsarevich and his brothers	1
 A136	A	tale	free	u	a hut on hen's legs	1
 A136	A	tale	free	u	his first minister	1
+A136	A	tale	free	u	the blind man	2
 A136	A	tale	free	u	the body	1
 A136	A	tale	free	u	the cooks	1
 A136	A	tale	free	u	the dancing jug	4
@@ -539,7 +519,7 @@ A136	A	tale	free	u	the golden-winged pike	1
 A136	A	tale	free	u	the guests	2
 A136	A	tale	free	u	the heads	1
 A136	A	tale	free	u	the nets	1
-A136	A	tale	free	u	the one-eyed and the blind man	2
+A136	A	tale	free	u	the one-eyed	2
 A136	A	tale	free	u	the stable door	1
 A136	A	tale	free	u	the three boys	1
 A136	A	tale	free	u	the three stallions	1
@@ -547,47 +527,46 @@ A136	A	tale	free	u	the two brothers	1
 A136	A	tale	free	u	the well	1
 A136	A	tale	free	u	twelve smiths	1
 A137	A	tale	acts	p	Иван Быкович и царица	1
-A137	A	tale	acts	p	Иван кухаркин сын	2
+A137	A	tale	acts	p	Иван кухаркин сын	4
 A137	A	tale	acts	p	Иван-царевич и Иван кухаркин сын	1
-A137	A	tale	acts	p	Иван-царевич, Иван кухаркин сын, Иван Быкович	2
 A137	A	tale	acts	p	Объедайло да Опивайло	1
 A137	A	tale	acts	p	баба-яга	3
 A137	A	tale	acts	p	богатырский конь	1
 A137	A	tale	acts	p	звездочёт	2
+A137	A	tale	acts	p	корова	1
+A137	A	tale	acts	p	кухарка	1
 A137	A	tale	acts	p	мамки и няньки	1
 A137	A	tale	acts	p	прислуга	1
 A137	A	tale	acts	p	пять старичков	2
 A137	A	tale	acts	p	рыбаки	1
 A137	A	tale	acts	p	сон	1
-A137	A	tale	acts	p	старик (банный)	1
 A137	A	tale	acts	p	старички	1
-A137	A	tale	acts	p	старичок (ершом)	1
+A137	A	tale	acts	p	старичок	1
 A137	A	tale	acts	p	три брата	2
 A137	A	tale	acts	p	царь	3
+A137	A	tale	acts	p	царь с царицею	2
 A137	A	tale	acts	p	чудо-юдо двенадцатиглавое	7
 A137	A	tale	acts	p	чудо-юдо девятиглавое	2
 A137	A	tale	acts	p	чудо-юдовы жены	1
 A137	A	tale	acts	u	Иван-царевич и Иван кухаркин сын	1
 A137	A	tale	acts	u	баба-яга	3
 A137	A	tale	acts	u	бог	1
-A137	A	tale	acts	u	воробышек (Иван Быкович)	1
+A137	A	tale	acts	u	воробышек	1
 A137	A	tale	acts	u	двенадцать богатырей	2
 A137	A	tale	acts	u	звездочёт	1
 A137	A	tale	acts	u	избушка	1
 A137	A	tale	acts	u	кухарка	2
-A137	A	tale	acts	u	меньшая жена (яблоня)	1
+A137	A	tale	acts	u	меньшая жена	1
 A137	A	tale	acts	u	пять старичков	2
 A137	A	tale	acts	u	рыбаки	2
-A137	A	tale	acts	u	старик (чудо-юдов отец)	1
-A137	A	tale	acts	u	старичок (ершом)	1
+A137	A	tale	acts	u	старичок	1
 A137	A	tale	acts	u	царь	2
+A137	A	tale	acts	u	царь с царицею	2
 A137	A	tale	acts	u	чудо-юдо двенадцатиглавое	8
 A137	A	tale	acts	u	чудо-юдо девятиглавое	4
 A137	A	tale	acts	u	чудо-юдовы жены	2
-A137	A	tale	free	p	Ivan Bykovich and the golden-haired tsaritsa	1
-A137	A	tale	free	p	Ivan Bykovich and the old men	1
 A137	A	tale	free	p	Ivan Bykovich's horse	1
-A137	A	tale	free	p	Ivan-tsarevich and Ivan the cook's son	7
+A137	A	tale	free	p	boats	1
 A137	A	tale	free	p	the eldest wife	1
 A137	A	tale	free	p	the middle wife	1
 A137	A	tale	free	p	the monster's horse	1
@@ -595,16 +574,13 @@ A137	A	tale	free	p	the nurses	1
 A137	A	tale	free	p	the old man who swims as a ruff	1
 A137	A	tale	free	p	the people of the unseen kingdom	1
 A137	A	tale	free	p	the servants	1
-A137	A	tale	free	p	the ships and boats	1
+A137	A	tale	free	p	the ships	1
 A137	A	tale	free	p	the three boys	2
 A137	A	tale	free	p	the three brothers	9
-A137	A	tale	free	p	the tsar	3
 A137	A	tale	free	p	the twelve mighty warriors	1
 A137	A	tale	free	p	the youngest wife	1
 A137	A	tale	free	u	God	1
 A137	A	tale	free	u	Ivan Bykovich's horse	1
-A137	A	tale	free	u	Ivan-tsarevich and Ivan Bykovich	1
-A137	A	tale	free	u	Ivan-tsarevich and Ivan the cook's son	3
 A137	A	tale	free	u	the apple tree	1
 A137	A	tale	free	u	the gold-finned ruff	3
 A137	A	tale	free	u	the golden bed	1
@@ -613,7 +589,6 @@ A137	A	tale	free	u	the oak	1
 A137	A	tale	free	u	the staff	2
 A137	A	tale	free	u	the stone	2
 A137	A	tale	free	u	the three brothers	3
-A137	A	tale	free	u	the tsar	2
 A137	A	tale	free	u	the twelve mighty warriors	2
 A137	A	tale	free	u	the well	1
 A138	A	tale	acts	p	Обжора	1
@@ -621,6 +596,7 @@ A138	A	tale	acts	p	Студенец	1
 A138	A	tale	acts	p	безногий-безрукий	2
 A138	A	tale	acts	p	князья и бояре	1
 A138	A	tale	acts	p	малая сноха	1
+A138	A	tale	acts	p	мужичок сам с пёрст	3
 A138	A	tale	acts	p	свекровь	1
 A138	A	tale	acts	p	снохи	1
 A138	A	tale	acts	p	средняя сноха	1
@@ -628,6 +604,7 @@ A138	A	tale	acts	p	старики	1
 A138	A	tale	acts	p	старичок	2
 A138	A	tale	acts	p	старшая сноха	1
 A138	A	tale	acts	p	товарищи	4
+A138	A	tale	acts	p	усы на семь вёрст	3
 A138	A	tale	acts	u	self	5
 A138	A	tale	acts	u	безногий-безрукий	1
 A138	A	tale	acts	u	девятиглавый змей	1
@@ -638,16 +615,16 @@ A138	A	tale	acts	u	князья и бояре	1
 A138	A	tale	acts	u	колодец	1
 A138	A	tale	acts	u	кровать	1
 A138	A	tale	acts	u	лошади	1
-A138	A	tale	acts	u	мужичок сам с пёрст	2
+A138	A	tale	acts	u	мужичок сам с пёрст	5
 A138	A	tale	acts	u	пасть	2
 A138	A	tale	acts	u	старичок	3
 A138	A	tale	acts	u	товарищи	6
+A138	A	tale	acts	u	усы на семь вёрст	3
 A138	A	tale	acts	u	шестиглавый змей	1
 A138	A	tale	acts	u	яблоня	1
-A138	A	tale	free	p	Ivan and his companions	3
 A138	A	tale	free	p	a man with no arms or legs	1
 A138	A	tale	free	p	a tiny man with seven-verst whiskers	1
-A138	A	tale	free	p	his companions	4
+A138	A	tale	free	p	his companions	7
 A138	A	tale	free	p	his wonderful horse	1
 A138	A	tale	free	p	someone	1
 A138	A	tale	free	p	the boat	1
@@ -657,40 +634,44 @@ A138	A	tale	free	p	the three daughters-in-law	1
 A138	A	tale	free	u	Ivan's horse	1
 A138	A	tale	free	u	his companions	5
 A138	A	tale	free	u	his servants	1
+A138	A	tale	free	u	nine-headed dragons	1
 A138	A	tale	free	u	six men	1
 A138	A	tale	free	u	the apple tree	1
 A138	A	tale	free	u	the bathhouse	1
 A138	A	tale	free	u	the bed	1
 A138	A	tale	free	u	the cats	1
 A138	A	tale	free	u	the dragons	1
-A138	A	tale	free	u	the dragons' mother and daughters-in-law	1
+A138	A	tale	free	u	the dragons' mother	1
 A138	A	tale	free	u	the jaws	1
 A138	A	tale	free	u	the peasant	1
-A138	A	tale	free	u	the six- and nine-headed dragons	1
 A138	A	tale	free	u	the tsar's horses	1
 A138	A	tale	free	u	the well	1
 A139	A	tale	acts	p	Иван Поваренко	1
-A139	A	tale	acts	p	Иван Сученко, Иван-царевич, Поваренко	1
-A139	A	tale	acts	p	Сученко	1
-A139	A	tale	acts	p	Царенко	3
+A139	A	tale	acts	p	Иван-царевич	1
+A139	A	tale	acts	p	Поваренко	3
+A139	A	tale	acts	p	Сученко	3
+A139	A	tale	acts	p	Царенко	5
+A139	A	tale	acts	p	вороной конь	1
 A139	A	tale	acts	p	все	1
 A139	A	tale	acts	p	девка	9
 A139	A	tale	acts	p	другая царевна	2
 A139	A	tale	acts	p	змий	4
 A139	A	tale	acts	p	поварка	1
-A139	A	tale	acts	p	подстаршая царевна, самая меньшая	1
+A139	A	tale	acts	p	подстаршая царевна	1
 A139	A	tale	acts	p	рыжий конь	1
-A139	A	tale	acts	p	серый конь, вороной конь	1
+A139	A	tale	acts	p	самая меньшая	1
+A139	A	tale	acts	p	серый конь	1
 A139	A	tale	acts	p	старшая царевна	3
 A139	A	tale	acts	p	три брата	1
 A139	A	tale	acts	p	царевна	13
 A139	A	tale	acts	p	царица	2
 A139	A	tale	acts	u	Иван Поваренко	3
 A139	A	tale	acts	u	Иван-царевич	4
-A139	A	tale	acts	u	Царенко	4
-A139	A	tale	acts	u	Царенко Иван, Поваренко Иван и Сученко Иван	1
-A139	A	tale	acts	u	Царенко, Поваренко	2
-A139	A	tale	acts	u	вороной конь	2
+A139	A	tale	acts	u	Поваренко	2
+A139	A	tale	acts	u	Поваренко Иван и Сученко Иван	1
+A139	A	tale	acts	u	Царенко	6
+A139	A	tale	acts	u	Царенко Иван	1
+A139	A	tale	acts	u	вороной конь	3
 A139	A	tale	acts	u	девка	1
 A139	A	tale	acts	u	другая царевна	2
 A139	A	tale	acts	u	змий	9
@@ -699,37 +680,29 @@ A139	A	tale	acts	u	невеста	1
 A139	A	tale	acts	u	прекрасные царевны	1
 A139	A	tale	acts	u	рыжий конь	2
 A139	A	tale	acts	u	свадьба	3
-A139	A	tale	acts	u	серый конь	1
-A139	A	tale	acts	u	серый конь, вороной конь	1
-A139	A	tale	acts	u	собака, три кобылы	1
+A139	A	tale	acts	u	серый конь	2
+A139	A	tale	acts	u	собака	1
 A139	A	tale	acts	u	третья царевна	3
+A139	A	tale	acts	u	три кобылы	1
 A139	A	tale	acts	u	царевна	4
 A139	A	tale	free	p	Ivan Povarenko	1
-A139	A	tale	free	p	Ivan Suchenko	59
-A139	A	tale	free	p	Ivan Suchenko, Ivan-tsarevich, Povarenko	1
-A139	A	tale	free	p	Ivan Suchenko, the old man	1
-A139	A	tale	free	p	Ivan-tsarevich, Povarenko	1
-A139	A	tale	free	p	the dragon	4
+A139	A	tale	free	p	Ivan Suchenko	61
+A139	A	tale	free	p	Ivan-tsarevich	2
+A139	A	tale	free	p	the bitch	1
 A139	A	tale	free	p	the other princesses	1
-A139	A	tale	free	p	the princess	13
 A139	A	tale	free	p	the three brothers	1
-A139	A	tale	free	p	the tsaritsa, the cook, the bitch and the three mares	1
+A139	A	tale	free	p	the three mares	1
 A139	A	tale	free	p	the wedding guests	1
 A139	A	tale	free	u	Ivan Povarenko	3
 A139	A	tale	free	u	Ivan Suchenko	28
 A139	A	tale	free	u	Ivan-tsarevich	3
-A139	A	tale	free	u	Tsarenko, Povarenko	1
 A139	A	tale	free	u	the bitch	1
-A139	A	tale	free	u	the dragon	11
 A139	A	tale	free	u	the goldsmith	9
-A139	A	tale	free	u	the grey horse, the black horse	1
-A139	A	tale	free	u	the princess	4
 A139	A	tale	free	u	the stump	1
 A139	A	tale	free	u	the three mares	1
-A140	A	tale	acts	p	Вечорка	3
-A140	A	tale	acts	p	Вечорка, Полуночка и Зорька	1
-A140	A	tale	acts	p	Зорька, Вечорка и Полуночка	2
-A140	A	tale	acts	p	Зорька, Вечорка, Полуночка, королевны	1
+A140	A	tale	acts	p	Вечорка	5
+A140	A	tale	acts	p	Вечорка и Полуночка	4
+A140	A	tale	acts	p	Полуночка и Зорька	1
 A140	A	tale	acts	p	бедная вдова	1
 A140	A	tale	acts	p	братья	2
 A140	A	tale	acts	p	верные слуги	1
@@ -738,10 +711,10 @@ A140	A	tale	acts	p	мамки и няньки	1
 A140	A	tale	acts	p	сестрицы	1
 A140	A	tale	acts	p	старшая королевна	1
 A140	A	tale	acts	p	трёхглавый змей	2
-A140	A	tale	acts	u	Вечорка	4
-A140	A	tale	acts	u	Вечорка, Полуночка и Зорька	1
+A140	A	tale	acts	u	Вечорка	5
+A140	A	tale	acts	u	Вечорка и Полуночка	1
 A140	A	tale	acts	u	Зорька и три королевны	1
-A140	A	tale	acts	u	Зорька, Вечорка и Полуночка	1
+A140	A	tale	acts	u	Полуночка и Зорька	1
 A140	A	tale	acts	u	бедная вдова	1
 A140	A	tale	acts	u	братья	3
 A140	A	tale	acts	u	верные слуги	1
@@ -754,24 +727,21 @@ A140	A	tale	acts	u	три дочери	1
 A140	A	tale	acts	u	трёхглавый змей	3
 A140	A	tale	acts	u	шестиглавый змей	1
 A140	A	tale	free	p	the other princesses	1
-A140	A	tale	free	u	Zorka, the three princesses	1
 A140	A	tale	free	u	the sheep	1
 A140	A	tale	free	u	the widow	2
 A141	A	tale	acts	p	Горыня	2
 A141	A	tale	acts	p	Усыня-богатырь	2
-A141	A	tale	acts	p	богатыри	4
+A141	A	tale	acts	p	богатыри	5
 A141	A	tale	acts	p	красная девица	1
 A141	A	tale	acts	p	старик	4
 A141	A	tale	acts	p	старик со старухою	2
 A141	A	tale	acts	p	старуха	1
-A141	A	tale	acts	u	Горыня	2
+A141	A	tale	acts	u	Горыня	4
+A141	A	tale	acts	u	Горыня и Дубыня	1
 A141	A	tale	acts	u	Горыня-богатырь	1
 A141	A	tale	acts	u	Дубыня-богатырь	1
-A141	A	tale	acts	u	Усыня, Горыня и Дубыня	1
-A141	A	tale	acts	u	Усыня, Горыня, Дубыня	1
-A141	A	tale	acts	u	Усыня, Дубыня, Горыня	1
-A141	A	tale	acts	u	Усыня, старшая сестра	1
 A141	A	tale	acts	u	Усыня-богатырь	4
+A141	A	tale	acts	u	баба	1
 A141	A	tale	acts	u	богатыри	4
 A141	A	tale	acts	u	братцы	1
 A141	A	tale	acts	u	девки	1
@@ -781,15 +751,11 @@ A141	A	tale	acts	u	красная девица	2
 A141	A	tale	acts	u	меньшая сестра	1
 A141	A	tale	acts	u	наречённая невеста	1
 A141	A	tale	acts	u	ребята	1
-A141	A	tale	acts	u	старик	3
-A141	A	tale	acts	u	старик, баба	1
-A141	A	tale	acts	u	старик, старуха	1
-A141	A	tale	acts	u	старуха	2
+A141	A	tale	acts	u	старик	5
+A141	A	tale	acts	u	старуха	3
+A141	A	tale	acts	u	старшая сестра	1
 A141	A	tale	acts	u	товарищи	1
-A141	A	tale	free	p	Ivashko-Medvedko	45
-A141	A	tale	free	p	Ivashko-Medvedko and Usynya	1
-A141	A	tale	free	p	Ivashko-Medvedko, Usynya and Gorynya	1
-A141	A	tale	free	p	Ivashko-Medvedko, Usynya, Gorynya and Dubynya	2
+A141	A	tale	free	p	Ivashko-Medvedko	49
 A141	A	tale	free	p	the girl	1
 A141	A	tale	free	p	the men	1
 A141	A	tale	free	p	the youngest sister	1
@@ -799,31 +765,29 @@ A141	A	tale	free	u	the eldest sister	2
 A141	A	tale	free	u	the girl	2
 A141	A	tale	free	u	the second sister	2
 A141	A	tale	free	u	the youngest sister	6
+A143	A	tale	acts	p	Гарыня	2
+A143	A	tale	acts	p	дзед	5
 A143	A	tale	acts	p	маць	1
 A143	A	tale	acts	p	мядзведзь	2
 A143	A	tale	acts	p	папялок	1
 A143	A	tale	acts	p	свящельник	1
 A143	A	tale	acts	u	багатыри	1
-A143	A	tale	acts	u	дзедушка	3
+A143	A	tale	acts	u	дзедушка	4
 A143	A	tale	acts	u	доц	2
 A143	A	tale	acts	u	ларцык	1
-A143	A	tale	acts	u	матушка	1
-A143	A	tale	acts	u	матушка, дзедушка	1
+A143	A	tale	acts	u	матушка	2
 A143	A	tale	acts	u	мядзведзь	3
 A143	A	tale	acts	u	рябята	1
 A143	A	tale	acts	u	свящельник	2
 A143	A	tale	acts	u	унук	2
 A143	A	tale	acts	u	унуцык	1
-A143	A	tale	free	p	Gorynya the warrior	2
-A143	A	tale	free	p	Nadzei and Gorynya the warrior	5
+A143	A	tale	free	p	Gorynya the warrior	7
 A143	A	tale	free	p	the parishioners	1
-A143	A	tale	free	p	the priest and his daughter	1
 A143	A	tale	free	p	the priest's daughter	8
 A143	A	tale	free	u	Gorynya the warrior	4
 A143	A	tale	free	u	the children	1
 A143	A	tale	free	u	the man	1
-A143	A	tale	free	u	the priest's daughter	1
-A143	A	tale	free	u	the priest's daughter and the priest	1
+A143	A	tale	free	u	the priest's daughter	2
 A144	A	tale	acts	p	Объедало	1
 A144	A	tale	acts	p	Опивало	1
 A144	A	tale	acts	p	мать	3
@@ -832,17 +796,20 @@ A144	A	tale	acts	p	первый встречный	2
 A144	A	tale	acts	p	слуга	1
 A144	A	tale	acts	p	старшие братья	1
 A144	A	tale	acts	p	стрелок	1
+A144	A	tale	acts	p	царевна	1
+A144	A	tale	acts	p	царь с царицею	1
 A144	A	tale	acts	u	Объедало	1
 A144	A	tale	acts	u	Опивало	1
 A144	A	tale	acts	u	мать	2
 A144	A	tale	acts	u	слуга	2
 A144	A	tale	acts	u	старшие братья	1
+A144	A	tale	acts	u	ухом к сырой земле	1
 A144	A	tale	acts	u	царевна	1
+A144	A	tale	acts	u	человек	1
 A144	A	tale	acts	u	человек на одной ноге	1
 A144	A	tale	acts	u	человек с вязанкой дров	1
 A144	A	tale	acts	u	человек с кулём соломы	1
 A144	A	tale	acts	u	человек с ружьём	1
-A144	A	tale	acts	u	человек, ухом к сырой земле	1
 A144	A	tale	free	p	Objedalo	1
 A144	A	tale	free	p	Opivalo	1
 A144	A	tale	free	p	someone	1
@@ -851,7 +818,6 @@ A144	A	tale	free	p	the mother	3
 A144	A	tale	free	p	the servant	1
 A144	A	tale	free	p	the two elder brothers	1
 A144	A	tale	free	u	Objedalo	1
-A144	A	tale	free	u	the fool, the man with the straw	1
 A144	A	tale	free	u	the man by the lake	1
 A144	A	tale	free	u	the man hopping on one leg	1
 A144	A	tale	free	u	the man listening to the earth	1
@@ -866,36 +832,35 @@ A145	A	tale	acts	p	большой Семён	1
 A145	A	tale	acts	p	кто-то	1
 A145	A	tale	acts	p	лебедь	1
 A145	A	tale	acts	p	лекарь	1
-A145	A	tale	acts	u	Семён	1
-A145	A	tale	acts	u	Семён, братья	1
+A145	A	tale	acts	u	Семён	2
 A145	A	tale	acts	u	большой Семён	1
+A145	A	tale	acts	u	братья	1
+A145	A	tale	acts	u	вор Сенька	1
 A145	A	tale	acts	u	кто-то	1
 A145	A	tale	acts	u	лебедь	1
 A145	A	tale	acts	u	одна царевна	1
-A145	A	tale	acts	u	царевна, вор Сенька	1
-A145	A	tale	free	u	the princess, the eldest Semyon	1
 A145	A	tale	free	u	the six Semyons	1
 A148	A	tale	acts	p	малолетние	1
+A148	A	tale	acts	p	царь с царицею	3
 A148	A	tale	acts	u	красные девки	1
 A148	A	tale	acts	u	малолетние	1
 A148	A	tale	acts	u	народ	1
 A148	A	tale	acts	u	пять тысяч детей	1
 A148	A	tale	acts	u	царская дочь	1
-A148	A	tale	free	p	Nikita Kozhemyaka	16
-A148	A	tale	free	p	Nikita Kozhemyaka, the dragon	1
+A148	A	tale	acts	u	царь с царицею	1
+A148	A	tale	free	p	Nikita Kozhemyaka	17
 A148	A	tale	free	p	the tsar's daughter	2
 A148	A	tale	free	u	Nikita Kozhemyaka	6
 A148	A	tale	free	u	the girls	1
 A148	A	tale	free	u	the tsar's daughter	4
 A149	A	tale	acts	u	деревушка	1
-A149	A	tale	acts	u	цыган, мужик	1
-A149	A	tale	free	p	the dragon, the Gypsy	1
+A149	A	tale	free	u	cart	1
 A149	A	tale	free	u	the curds	1
 A149	A	tale	free	u	the millstone	1
 A149	A	tale	free	u	the oak	1
 A149	A	tale	free	u	the ox	1
 A149	A	tale	free	u	the oxen	1
-A149	A	tale	free	u	the troika and cart	1
+A149	A	tale	free	u	the troika	1
 A150	A	tale	acts	p	бес	1
 A150	A	tale	acts	p	мужик	1
 A150	A	tale	acts	p	старшой	1
@@ -905,7 +870,6 @@ A150	A	tale	acts	u	коровы	1
 A150	A	tale	acts	u	мужик	3
 A150	A	tale	acts	u	старшой	1
 A150	A	tale	acts	u	черти	1
-A150	A	tale	free	p	the merchant, the merchant's wife, the labourer	1
 A150	A	tale	free	u	the cows	1
 A150	A	tale	free	u	the four peasants	1
 A151	A	tale	acts	p	медведь	1
@@ -920,17 +884,20 @@ A151	A	tale	acts	u	черти	1
 A151	A	tale	free	u	the cudgel	1
 A151	A	tale	free	u	the miller	1
 A152	A	tale	acts	p	Медведко	2
-A152	A	tale	acts	p	медведь	1
-A152	A	tale	acts	p	медведь, жена	1
+A152	A	tale	acts	p	воры	1
+A152	A	tale	acts	p	дедушка	1
+A152	A	tale	acts	p	мать	1
+A152	A	tale	acts	p	медведь	2
 A152	A	tale	acts	p	нечистый	1
+A152	A	tale	acts	p	собаки	1
 A152	A	tale	acts	u	Медведко	9
 A152	A	tale	acts	u	батька	1
+A152	A	tale	acts	u	дедушка	1
 A152	A	tale	acts	u	заяц	1
 A152	A	tale	acts	u	медведь	1
 A152	A	tale	acts	u	овцы	1
 A152	A	tale	acts	u	черти	1
-A152	A	tale	free	p	Ivanko Medvedko	23
-A152	A	tale	free	p	Ivanko Medvedko and the peasant's wife	1
+A152	A	tale	free	p	Ivanko Medvedko	24
 A152	A	tale	free	u	Ivanko Medvedko	15
 A152	A	tale	free	u	the horse	2
 A152	A	tale	free	u	the sheep	3
@@ -938,7 +905,6 @@ A153	A	tale	acts	p	Марфа-царевна	1
 A153	A	tale	acts	p	бабы	1
 A153	A	tale	acts	p	нечистый дух	1
 A153	A	tale	acts	p	придворная прислуга	1
-A153	A	tale	acts	p	солдат, чёрт	1
 A153	A	tale	acts	p	старушка	1
 A153	A	tale	acts	p	чужестранный принц	1
 A153	A	tale	acts	u	Марфа-царевна	3
@@ -968,6 +934,7 @@ A154	A	tale	free	u	the new king	4
 A154	A	tale	free	u	the other merchants	1
 A154	A	tale	free	u	the sentry	1
 A155	A	tale	acts	p	Иваны солдатские дети	2
+A155	A	tale	acts	p	боярские и купеческие дети	1
 A155	A	tale	acts	p	волшебный конь	1
 A155	A	tale	acts	p	двенадцатиглавый змей	1
 A155	A	tale	acts	p	другой змей	1
@@ -981,10 +948,9 @@ A155	A	tale	acts	p	старуха	2
 A155	A	tale	acts	p	старушка	1
 A155	A	tale	acts	p	столбы	1
 A155	A	tale	acts	p	хозяин	1
-A155	A	tale	acts	u	Иван солдатский сын, царевна	1
 A155	A	tale	acts	u	Иванушка	1
 A155	A	tale	acts	u	бедная старушка	1
-A155	A	tale	acts	u	водовоз, меньшая царевна	1
+A155	A	tale	acts	u	боярские и купеческие дети	2
 A155	A	tale	acts	u	два близнеца	1
 A155	A	tale	acts	u	две серые утки	1
 A155	A	tale	acts	u	девица	1
@@ -1005,24 +971,22 @@ A155	A	tale	acts	u	супруга	1
 A155	A	tale	acts	u	сынки	2
 A155	A	tale	acts	u	утки	1
 A155	A	tale	acts	u	хозяин	2
-A155	A	tale	free	p	Ivan the soldier's son	41
-A155	A	tale	free	p	Ivan the soldier's son, the dragon	1
+A155	A	tale	free	p	Ivan the soldier's son	42
 A155	A	tale	free	p	one brother	2
 A155	A	tale	free	p	the brother who goes right	1
+A155	A	tale	free	p	the child	1
 A155	A	tale	free	p	the middle princess	1
 A155	A	tale	free	p	the two Ivans	20
 A155	A	tale	free	p	the youngest princess	6
-A155	A	tale	free	u	Ivan the soldier's son	16
-A155	A	tale	free	u	his wife, the tsar	1
+A155	A	tale	free	u	Ivan the soldier's son	17
 A155	A	tale	free	u	the brother who goes right	1
+A155	A	tale	free	u	the child	1
 A155	A	tale	free	u	the flasks	2
 A155	A	tale	free	u	the middle princess	2
 A155	A	tale	free	u	the other brother	1
 A155	A	tale	free	u	the two Ivans	12
-A155	A	tale	free	u	the youngest princess	4
-A155	A	tale	free	u	the youngest princess, Ivan the soldier's son	1
+A155	A	tale	free	u	the youngest princess	5
 A156	A	tale	acts	p	большак	1
-A156	A	tale	acts	p	братья, мать	1
 A156	A	tale	acts	p	волчиха	1
 A156	A	tale	acts	p	двенадцать молодцов	1
 A156	A	tale	acts	p	заяц	1
@@ -1038,19 +1002,15 @@ A156	A	tale	acts	u	волчиха	1
 A156	A	tale	acts	u	двенадцать молодцов	1
 A156	A	tale	acts	u	жених	1
 A156	A	tale	acts	u	заяц	1
-A156	A	tale	acts	u	мать, девица	1
-A156	A	tale	acts	u	мать, царская дочь	2
 A156	A	tale	acts	u	невеста	2
 A156	A	tale	acts	u	старушка	2
 A156	A	tale	acts	u	утка	1
 A156	A	tale	acts	u	царска дочь	1
 A156	A	tale	acts	u	яйцо	2
 A156	A	tale	acts	u	ящик	1
-A156	A	tale	free	p	Ivan-tsarevich and the elder brothers	1
 A156	A	tale	free	p	Kosh the Deathless	8
 A156	A	tale	free	p	the duck	1
-A156	A	tale	free	p	the elder brothers	3
-A156	A	tale	free	p	the elder brothers, the mother and the princess	1
+A156	A	tale	free	p	the elder brothers	5
 A156	A	tale	free	p	the hare	1
 A156	A	tale	free	p	the old woman in the city	9
 A156	A	tale	free	u	Kosh the Deathless	6
@@ -1061,13 +1021,13 @@ A156	A	tale	free	u	the horses	1
 A156	A	tale	free	u	the old woman in the city	4
 A156	A	tale	free	u	the wolf cub	1
 A159	A	tale	acts	p	Кощей Бессмертный	2
-A159	A	tale	acts	p	ворон	1
+A159	A	tale	acts	p	Марья-царевна	1
+A159	A	tale	acts	p	ворон	4
 A159	A	tale	acts	p	жив человек	1
 A159	A	tale	acts	p	кобылицы	6
+A159	A	tale	acts	p	орёл	3
 A159	A	tale	acts	p	пчелиная матка	1
-A159	A	tale	acts	p	сокол	3
-A159	A	tale	acts	p	сокол, Марья-царевна	1
-A159	A	tale	acts	p	сокол, ворон	1
+A159	A	tale	acts	p	сокол	7
 A159	A	tale	acts	p	ясен сокол	1
 A159	A	tale	acts	u	Анна-царевна	1
 A159	A	tale	acts	u	Кощей Бессмертный	3
@@ -1078,17 +1038,17 @@ A159	A	tale	acts	u	ворон	1
 A159	A	tale	acts	u	жив человек	1
 A159	A	tale	acts	u	зятья	2
 A159	A	tale	acts	u	кобылицы	3
+A159	A	tale	acts	u	орёл	1
 A159	A	tale	acts	u	пчелиная матка	1
 A159	A	tale	acts	u	родители	1
 A159	A	tale	acts	u	сокол	2
-A159	A	tale	free	p	Ivan-tsarevich's father and mother	1
+A159	A	tale	free	p	Ivan-tsarevich's father	1
 A159	A	tale	free	p	Koshchei the Deathless	22
-A159	A	tale	free	p	the falcon, the eagle and the raven	3
-A159	A	tale	free	p	the raven, the eagle and the falcon	1
+A159	A	tale	free	p	mother	1
 A159	A	tale	free	u	Koshchei the Deathless	11
-A159	A	tale	free	u	his father and mother	1
-A159	A	tale	free	u	the falcon, the eagle and the raven	2
-A159	A	tale	free	u	the raven, the eagle and the falcon	1
+A159	A	tale	free	u	his father	1
+A159	A	tale	free	u	mother	1
+A161	A	tale	acts	p	Иван-царевич и Белый Полянин	2
 A161	A	tale	acts	p	баба-яга	1
 A161	A	tale	acts	p	голова	1
 A161	A	tale	acts	p	другая птичка	1
@@ -1096,10 +1056,10 @@ A161	A	tale	acts	p	клубочек	1
 A161	A	tale	acts	p	короли	2
 A161	A	tale	acts	p	малая птичка	1
 A161	A	tale	acts	p	стар человек	2
+A161	A	tale	acts	p	старик	1
 A161	A	tale	acts	p	сёстры	3
 A161	A	tale	acts	p	третья птичка	1
 A161	A	tale	acts	p	царевич	1
-A161	A	tale	acts	u	Белый Полянин, красная девица	1
 A161	A	tale	acts	u	баба-яга золотая нога	3
 A161	A	tale	acts	u	войско вражее	2
 A161	A	tale	acts	u	голова	1
@@ -1114,6 +1074,7 @@ A161	A	tale	acts	u	птицы перелётные	1
 A161	A	tale	acts	u	птичка	2
 A161	A	tale	acts	u	сапожники	2
 A161	A	tale	acts	u	стар человек	1
+A161	A	tale	acts	u	старик	1
 A161	A	tale	acts	u	сёстры	2
 A161	A	tale	acts	u	царевич и красная девица	1
 A161	A	tale	acts	u	царь	1
@@ -1124,14 +1085,13 @@ A161	A	tale	free	p	the second bird	1
 A161	A	tale	free	p	the third bird	1
 A161	A	tale	free	u	Baba Yaga Golden-Leg	2
 A161	A	tale	free	u	Baba Yaga's army	1
-A161	A	tale	free	u	Ivan-tsarevich, the maiden	1
+A161	A	tale	free	u	senators	1
 A161	A	tale	free	u	the bulls	1
 A161	A	tale	free	u	the enemy army	3
-A161	A	tale	free	u	the ministers and senators	1
+A161	A	tale	free	u	the ministers	1
 A161	A	tale	free	u	the one-eyed she-wolf	1
 A161	A	tale	free	u	the second bird	1
 A161	A	tale	free	u	the third bird	1
-A162	A	tale	acts	p	Иван-царевич, царевна	1
 A162	A	tale	acts	p	змей	2
 A162	A	tale	acts	p	змей о трёх головах	1
 A162	A	tale	acts	p	змей о шести головах	1
@@ -1145,55 +1105,56 @@ A162	A	tale	acts	u	семечко	1
 A162	A	tale	acts	u	хрустальная гора	1
 A162	A	tale	free	p	the tsar's three sons	2
 A162	A	tale	free	p	their father the tsar	1
-A162	A	tale	free	u	the beasts, birds, reptiles and ants	1
+A162	A	tale	free	u	ants	1
 A162	A	tale	free	u	the palace guards	1
 A162	A	tale	free	u	the tsar's three sons	1
 A162	A	tale	free	u	their father the tsar	1
-A163	A	tale	acts	p	Змей Змеевич, Ворон Воронович, Кокот Кокотович	1
+A163	A	tale	acts	p	Ворон Воронович	1
+A163	A	tale	acts	p	Змей Змеевич	1
+A163	A	tale	acts	p	Кокот Кокотович	1
 A163	A	tale	acts	p	казаки	1
-A163	A	tale	acts	u	Змей Змеевич, Ворон Воронович, Кокот Кокотович	3
-A163	A	tale	acts	u	Кокот Кокотович, Ворон Воронович, Змей Змеевич	1
+A163	A	tale	acts	p	лиса	1
+A163	A	tale	acts	u	Ворон Воронович	4
+A163	A	tale	acts	u	Змей Змеевич	4
+A163	A	tale	acts	u	Кокот Кокотович	4
 A163	A	tale	acts	u	дом	1
 A163	A	tale	acts	u	дочь царя	1
 A163	A	tale	acts	u	казаки	1
-A163	A	tale	free	p	Bukhtan Bukhtanovich	8
-A163	A	tale	free	p	Bukhtan Bukhtanovich and his wife	1
-A163	A	tale	free	p	the fox and Bukhtan Bukhtanovich	1
-A163	A	tale	free	p	the tsar and the fox	1
+A163	A	tale	free	p	Bukhtan Bukhtanovich	10
 A163	A	tale	free	u	Bukhtan Bukhtanovich	9
-A163	A	tale	free	u	Cock Cockson	1
-A163	A	tale	free	u	Raven Ravenson	1
-A163	A	tale	free	u	Snake Snakeson	1
-A163	A	tale	free	u	Snake Snakeson, Raven Ravenson and Cock Cockson	3
+A163	A	tale	free	u	Cock Cockson	4
+A163	A	tale	free	u	Raven Ravenson	4
+A163	A	tale	free	u	Snake Snakeson	4
 A163	A	tale	free	u	the tsar's daughter	1
-A164	A	tale	acts	p	Козьма, царевна	1
-A164	A	tale	acts	p	Козьма, царь	2
 A164	A	tale	acts	p	Мишка	2
+A164	A	tale	acts	p	куница	3
 A164	A	tale	acts	p	люди царя	1
 A164	A	tale	acts	p	медведь	1
 A164	A	tale	acts	p	пастухи	1
-A164	A	tale	acts	p	соболь, куница	3
+A164	A	tale	acts	p	соболь	3
+A164	A	tale	acts	p	тесть	1
+A164	A	tale	acts	p	царевна	1
 A164	A	tale	acts	u	волки	2
 A164	A	tale	acts	u	государство	1
 A164	A	tale	acts	u	зять	1
 A164	A	tale	acts	u	коршун	1
+A164	A	tale	acts	u	куница	1
+A164	A	tale	acts	u	куницы	1
 A164	A	tale	acts	u	медведи	1
 A164	A	tale	acts	u	медведь	1
+A164	A	tale	acts	u	молодая княгиня	1
 A164	A	tale	acts	u	пастухи	4
-A164	A	tale	acts	u	соболи, куницы	1
-A164	A	tale	acts	u	соболь, куница	1
+A164	A	tale	acts	u	соболи	1
+A164	A	tale	acts	u	соболь	1
 A164	A	tale	acts	u	царевна	1
-A164	A	tale	acts	u	царь, молодая княгиня	1
-A164	A	tale	free	p	Kozma Quick-Rich	2
-A164	A	tale	free	p	Kozma Quick-Rich and the princess	1
-A164	A	tale	free	p	Kuzenka, the princess and the tsar	2
+A164	A	tale	free	p	Kozma Quick-Rich	3
 A164	A	tale	free	p	the tsar's men	3
-A164	A	tale	free	u	Kuzenka, the princess and the tsar	1
+A164	A	tale	free	u	horseherds	1
+A164	A	tale	free	u	martens	1
 A164	A	tale	free	u	the bears	1
 A164	A	tale	free	u	the camel-herds	1
-A164	A	tale	free	u	the cowherds and horseherds	1
-A164	A	tale	free	u	the princess and the tsar	1
-A164	A	tale	free	u	the sables and martens	1
+A164	A	tale	free	u	the cowherds	1
+A164	A	tale	free	u	the sables	1
 A164	A	tale	free	u	the swineherds	1
 A164	A	tale	free	u	the tsar's men	1
 A164	A	tale	free	u	the wolves	3
@@ -1203,8 +1164,8 @@ A166	A	tale	acts	p	жена дурака	1
 A166	A	tale	acts	p	королевские гонцы	1
 A166	A	tale	acts	p	народ	1
 A166	A	tale	acts	u	вёдра	1
+A166	A	tale	acts	u	дочь	2
 A166	A	tale	acts	u	дочь с мужем	2
-A166	A	tale	acts	u	дочь, дурак	2
 A166	A	tale	acts	u	народ	2
 A166	A	tale	acts	u	топоры	1
 A166	A	tale	free	p	the two clever brothers	3
@@ -1214,34 +1175,33 @@ A166	A	tale	free	u	the buckets	1
 A166	A	tale	free	u	the sledge	1
 A166	A	tale	free	u	the two clever brothers	1
 A167	A	tale	acts	p	гости	1
+A167	A	tale	acts	p	короли и королевичи	3
 A167	A	tale	acts	p	король	2
-A167	A	tale	acts	p	царевна, отец	1
+A167	A	tale	acts	p	отец	1
 A167	A	tale	acts	p	царевнин отец	1
+A167	A	tale	acts	p	цари и царевичи	3
 A167	A	tale	acts	u	бог	1
 A167	A	tale	acts	u	гости	1
 A167	A	tale	acts	u	добрый человек	2
 A167	A	tale	acts	u	королевна	1
+A167	A	tale	acts	u	короли и королевичи	2
 A167	A	tale	acts	u	король	2
+A167	A	tale	acts	u	мать	1
 A167	A	tale	acts	u	мужик	1
-A167	A	tale	acts	u	отец	3
-A167	A	tale	acts	u	отец, мать	1
+A167	A	tale	acts	u	отец	4
+A167	A	tale	acts	u	ребёнок	1
 A167	A	tale	acts	u	русский царевич	1
 A167	A	tale	acts	u	супротивник	2
-A167	A	tale	acts	u	убогий, царевна, ребёнок	1
 A167	A	tale	acts	u	утки	1
 A167	A	tale	acts	u	царевнин отец	3
-A167	A	tale	acts	u	цари и царевичи	1
+A167	A	tale	acts	u	цари и царевичи	3
+A167	A	tale	free	p	the champion	1
 A167	A	tale	free	p	the nurses	1
-A167	A	tale	free	p	the poor peasant, the princess and the son	1
-A167	A	tale	free	p	the poor peasant, the princess and the tsar	1
 A167	A	tale	free	p	the servants	1
-A167	A	tale	free	p	the son and the champion	1
 A167	A	tale	free	p	the tsar's people	1
 A167	A	tale	free	p	the winds	1
 A167	A	tale	free	u	the champion	2
 A167	A	tale	free	u	the nurses	1
-A167	A	tale	free	u	the poor	1
-A167	A	tale	free	u	the poor peasant, the princess and the son	1
 A093	B	tale	acts	u	ветер	1
 A093	B	tale	free	p	Ivan-tsarevich	19
 A093	B	tale	free	p	the two old seamstresses	1
@@ -1267,6 +1227,7 @@ A098	B	tale	free	u	the son-in-law	1
 A098	B	tale	free	u	the wife	3
 A100	B	tale	acts	p	Одноглазка	1
 A100	B	tale	acts	p	старик	1
+A100	B	tale	acts	p	хозяйка	1
 A100	B	tale	acts	u	Двуглазка	2
 A100	B	tale	acts	u	Одноглазка	2
 A100	B	tale	acts	u	девицы	2
@@ -1284,6 +1245,7 @@ A100	B	tale	free	u	the dappled cow	3
 A100	B	tale	free	u	the girls	1
 A100	B	tale	free	u	the old man	1
 A101	B	tale	acts	p	большая дочь	1
+A101	B	tale	acts	p	дочь Ягишны	2
 A101	B	tale	acts	p	князья и бояре	1
 A101	B	tale	acts	p	старик	2
 A101	B	tale	acts	u	большая дочь	2
@@ -1294,7 +1256,6 @@ A101	B	tale	acts	u	жёны	1
 A101	B	tale	acts	u	князья и бояре	1
 A101	B	tale	acts	u	младенец	2
 A101	B	tale	acts	u	старик	2
-A101	B	tale	free	p	Ivan-tsarevich and Marya-tsarevna	1
 A101	B	tale	free	p	Yagishna's daughter	2
 A101	B	tale	free	p	a willow bush	1
 A101	B	tale	free	p	the birds	1
@@ -1311,22 +1272,26 @@ A101	B	tale	free	u	the elder sister	4
 A101	B	tale	free	u	the spindle	2
 A101	B	tale	free	u	the three-eyed sister	1
 A101	B	tale	free	u	the two daughters	1
+A104	B	tale	acts	p	Василиса и куколка	1
 A104	B	tale	acts	p	белый всадник	1
 A104	B	tale	acts	p	женихи	1
 A104	B	tale	acts	p	красный всадник	1
+A104	B	tale	acts	p	мачеха и сёстры	1
+A104	B	tale	acts	p	мачехина дочь	1
 A104	B	tale	acts	u	вдовушка	1
 A104	B	tale	acts	u	женихи	1
 A104	B	tale	acts	u	три девушки	1
 A104	B	tale	acts	u	три пары рук	2
 A104	B	tale	free	p	Vasilisa's father	2
+A104	B	tale	free	p	her daughters	3
 A104	B	tale	free	p	the merchant's wife	4
 A104	B	tale	free	p	the red horseman	1
 A104	B	tale	free	p	the royal servant	1
-A104	B	tale	free	p	the stepmother and her daughters	3
 A104	B	tale	free	p	the stepmother's daughter	1
 A104	B	tale	free	p	the suitors	1
 A104	B	tale	free	p	the three pairs of hands	1
 A104	B	tale	free	p	the white horseman	1
+A104	B	tale	free	u	her daughters	1
 A104	B	tale	free	u	the candle	1
 A104	B	tale	free	u	the flax	2
 A104	B	tale	free	u	the food	1
@@ -1335,7 +1300,6 @@ A104	B	tale	free	u	the house	1
 A104	B	tale	free	u	the hut	1
 A104	B	tale	free	u	the lights	1
 A104	B	tale	free	u	the linen	3
-A104	B	tale	free	u	the stepmother and her daughters	1
 A104	B	tale	free	u	the suitors	1
 A104	B	tale	free	u	the three girls	1
 A104	B	tale	free	u	the three pairs of hands	2
@@ -1343,9 +1307,11 @@ A104	B	tale	free	u	the wheat	2
 A104	B	tale	free	u	the widow	1
 A104	B	tale	free	u	the work	4
 A104	B	tale	free	u	the yarn	1
+A105	B	tale	acts	p	Заморышек и братья	1
+A105	B	tale	acts	p	яйца	1
 A105	B	tale	acts	u	дочери бабы-яги	3
 A105	B	tale	acts	u	кузнец	1
-A105	B	tale	free	p	the old man and the old woman	1
+A105	B	tale	free	p	the old woman	1
 A105	B	tale	free	p	the stallions	1
 A105	B	tale	free	u	the boys	1
 A105	B	tale	free	u	the bridge	1
@@ -1361,8 +1327,10 @@ A105	B	tale	free	u	the palace	1
 A105	B	tale	free	u	the stack	1
 A105	B	tale	free	u	the stacks	1
 A105	B	tale	free	u	the villagers	1
+A106	B	tale	acts	p	кот и воробей	7
 A106	B	tale	acts	u	большая дочь	4
 A106	B	tale	acts	u	братья	1
+A106	B	tale	acts	u	кот и воробей	5
 A106	B	tale	acts	u	молодая дочь	2
 A106	B	tale	acts	u	середняя дочь	2
 A106	B	tale	free	u	her daughter	1
@@ -1374,12 +1342,11 @@ A108	B	tale	acts	p	коваль	1
 A108	B	tale	acts	u	гуси-лебеди	3
 A108	B	tale	acts	u	коваль	3
 A108	B	tale	acts	u	отец и мать	1
-A108	B	tale	free	p	his parents and Ivashko	1
+A108	B	tale	free	p	her guests	2
 A108	B	tale	free	p	the boat	3
 A108	B	tale	free	p	the first flock	1
 A108	B	tale	free	p	the second flock	1
 A108	B	tale	free	p	the third flock	3
-A108	B	tale	free	p	the witch and her guests	2
 A108	B	tale	free	u	the boat	2
 A108	B	tale	free	u	the door	1
 A108	B	tale	free	u	the first flock	1
@@ -1402,9 +1369,10 @@ A113	B	tale	acts	u	старички	1
 A113	B	tale	acts	u	яблонь	3
 A113	B	tale	acts	u	ёж	1
 A113	B	tale	free	p	Baba Yaga	1
+A113	B	tale	free	p	old woman	1
 A113	B	tale	free	p	the daughter	27
 A113	B	tale	free	p	the milk river	2
-A113	B	tale	free	p	the old man and old woman	1
+A113	B	tale	free	p	the old man	1
 A113	B	tale	free	u	Baba Yaga	1
 A113	B	tale	free	u	the daughter	13
 A113	B	tale	free	u	the milk river	5
@@ -1414,17 +1382,17 @@ A114	B	tale	acts	u	куклы	1
 A114	B	tale	acts	u	подруга	1
 A114	B	tale	free	p	a man	2
 A114	B	tale	free	p	the earth	1
-A114	B	tale	free	p	the girl in the hut	7
-A114	B	tale	free	p	the girl in the hut and his sister	3
+A114	B	tale	free	p	the girl in the hut	10
 A114	B	tale	free	u	the forest	1
 A114	B	tale	free	u	the girl in the hut	4
 A114	B	tale	free	u	the reeds	1
 A115	B	tale	acts	p	барский мужичок	1
+A115	B	tale	acts	p	купец	4
 A115	B	tale	acts	p	поп	1
 A115	B	tale	acts	p	царь и все	1
 A115	B	tale	acts	u	Бог	1
+A115	B	tale	acts	u	купец	1
 A115	B	tale	acts	u	царь	2
-A115	B	tale	free	p	the false man and the true man	1
 A115	B	tale	free	p	the ploughman	1
 A115	B	tale	free	u	each other	2
 A115	B	tale	free	u	his eyes	1
@@ -1432,7 +1400,10 @@ A115	B	tale	free	u	the icon	1
 A115	B	tale	free	u	the oak	2
 A115	B	tale	free	u	the path	1
 A115	B	tale	free	u	the ploughman	1
+A125	B	tale	acts	p	Иван-царевич и мужичок железны руки	1
+A125	B	tale	acts	p	змий	2
 A125	B	tale	acts	u	другой царь	2
+A125	B	tale	acts	u	змий	3
 A125	B	tale	acts	u	шестиглавый змий	1
 A125	B	tale	free	p	Marfa-tsarevna	15
 A125	B	tale	free	p	the crews of passing ships	2
@@ -1445,27 +1416,32 @@ A125	B	tale	free	p	the tiny man	4
 A125	B	tale	free	p	the youngest daughter	1
 A125	B	tale	free	p	unnamed men	1
 A125	B	tale	free	u	Marfa-tsarevna	10
+A125	B	tale	free	u	clerks	1
 A125	B	tale	free	u	his horse	1
 A125	B	tale	free	u	his man	1
-A125	B	tale	free	u	the cooks and maids	1
+A125	B	tale	free	u	maids	1
+A125	B	tale	free	u	the cooks	1
 A125	B	tale	free	u	the heads	2
 A125	B	tale	free	u	the people	2
-A125	B	tale	free	u	the senators and clerks	1
+A125	B	tale	free	u	the senators	1
 A125	B	tale	free	u	the ship	1
 A125	B	tale	free	u	the stone	3
 A125	B	tale	free	u	the wine	3
 A125	B	tale	free	u	the workmen	1
 A126	B	tale	acts	p	бацька	1
 A126	B	tale	acts	p	гаспадар	1
+A126	B	tale	acts	p	госці	1
 A126	B	tale	acts	p	кралева	1
 A126	B	tale	acts	p	кралеўна	1
 A126	B	tale	acts	p	круль и госці	1
 A126	B	tale	acts	p	непрыяцельскі воін	1
-A126	B	tale	acts	p	нешто (птица)	1
+A126	B	tale	acts	p	нешто	1
 A126	B	tale	acts	p	родители кралевіча	1
+A126	B	tale	acts	p	середний сын	1
 A126	B	tale	acts	p	старшие братья	2
 A126	B	tale	acts	p	старший сын	1
 A126	B	tale	acts	u	гаспадар	3
+A126	B	tale	acts	u	госці	1
 A126	B	tale	acts	u	кралева	1
 A126	B	tale	acts	u	кралевіч и кралеўна	1
 A126	B	tale	acts	u	кралеўна	7
@@ -1482,7 +1458,6 @@ A126	B	tale	free	p	the cook	1
 A126	B	tale	free	p	the guards	1
 A126	B	tale	free	p	the kitchen boy	6
 A126	B	tale	free	p	the middle son	2
-A126	B	tale	free	p	the prince and the princess	2
 A126	B	tale	free	u	his servants	1
 A126	B	tale	free	u	the apple	1
 A126	B	tale	free	u	the cellar	2
@@ -1491,21 +1466,20 @@ A126	B	tale	free	u	the hill	1
 A126	B	tale	free	u	the kitchen boy	6
 A126	B	tale	free	u	the kitchen workers	1
 A126	B	tale	free	u	the pigskin coat	1
-A126	B	tale	free	u	the prince and the princess	2
 A126	B	tale	free	u	the prince's parents	1
 A126	B	tale	free	u	the wheat	3
 A127	B	tale	acts	p	бедная лавка	1
 A127	B	tale	acts	p	жандармы	4
 A127	B	tale	acts	p	купец	1
 A127	B	tale	acts	p	мальчик	2
+A127	B	tale	acts	p	служанка	4
 A127	B	tale	acts	u	жандармы	6
 A127	B	tale	acts	u	купец	1
 A127	B	tale	acts	u	мальчик	2
+A127	B	tale	acts	u	служанка	3
 A127	B	tale	free	p	everyone at the palace	1
 A127	B	tale	free	p	the horses	1
-A127	B	tale	free	p	the maid and the gendarmes	1
 A127	B	tale	free	p	the merchant	1
-A127	B	tale	free	p	the tsar and the young tsaritsa	1
 A127	B	tale	free	u	the crown	1
 A127	B	tale	free	u	the egg	1
 A127	B	tale	free	u	the eye	3
@@ -1515,17 +1489,18 @@ A127	B	tale	free	u	the merchant	2
 A128	B	tale	acts	p	Миша Косолапый	1
 A128	B	tale	acts	p	старик и старушка	1
 A128	B	tale	acts	u	родители	2
-A128	B	tale	free	p	Ivashko and the golden maiden	4
 A128	B	tale	free	p	Ivashko's elder brothers	1
 A128	B	tale	free	u	the flesh	3
 A128	B	tale	free	u	the stone	3
 A128	B	tale	free	u	the straps	1
+A131	B	tale	acts	p	Ерёма	3
 A131	B	tale	acts	p	двенадцатиглавый змий	1
 A131	B	tale	acts	p	девица	1
 A131	B	tale	acts	p	змий	1
 A131	B	tale	acts	p	лес	1
 A131	B	tale	acts	p	львы	1
 A131	B	tale	acts	p	младшая царевна	1
+A131	B	tale	acts	p	солдат-пьяница	2
 A131	B	tale	acts	p	средняя царевна	1
 A131	B	tale	acts	p	старшая царевна	3
 A131	B	tale	acts	u	двенадцатиглавый змий	2
@@ -1539,7 +1514,6 @@ A131	B	tale	acts	u	старшая царевна	2
 A131	B	tale	acts	u	товарищи	2
 A131	B	tale	acts	u	три дочери	1
 A131	B	tale	acts	u	царевны	1
-A131	B	tale	free	p	Frolka, his comrades and the princesses	1
 A131	B	tale	free	p	the Black Sea dragon	2
 A131	B	tale	free	p	the two lions	1
 A131	B	tale	free	p	the youngest princess	3
@@ -1549,7 +1523,6 @@ A131	B	tale	free	u	the hat	2
 A131	B	tale	free	u	the heads	2
 A131	B	tale	free	u	the other princesses	1
 A131	B	tale	free	u	the people	2
-A131	B	tale	free	u	the soldier and Yeryoma	1
 A131	B	tale	free	u	the two lions	1
 A132	B	tale	acts	p	панночка	3
 A132	B	tale	acts	p	портной	1
@@ -1567,9 +1540,6 @@ A132	B	tale	acts	u	сыны	2
 A132	B	tale	free	p	each sister	1
 A132	B	tale	free	p	the head	2
 A132	B	tale	free	p	the three tsareviches	1
-A132	B	tale	free	p	the tsarevich and Norka	1
-A132	B	tale	free	p	the tsarevich and his brothers	2
-A132	B	tale	free	p	the tsarevich and the maiden	1
 A132	B	tale	free	u	his two elder sons	2
 A132	B	tale	free	u	the beggars	1
 A132	B	tale	free	u	the bin	1
@@ -1607,6 +1577,8 @@ A133	B	tale	free	u	the road	2
 A133	B	tale	free	u	the shavings	2
 A133	B	tale	free	u	the son	1
 A133	B	tale	free	u	the threshing floor	2
+A135	B	tale	acts	p	Иван и браты	2
+A135	B	tale	acts	p	Иван и братья	1
 A135	B	tale	acts	p	братья	1
 A135	B	tale	acts	u	братья	2
 A135	B	tale	acts	u	змеиха и дочки	2
@@ -1615,14 +1587,13 @@ A135	B	tale	acts	u	куцаба	3
 A135	B	tale	acts	u	подушки	1
 A135	B	tale	acts	u	царство	1
 A135	B	tale	acts	u	ябланька	1
-A135	B	tale	free	p	Ivan Popyalov	39
-A135	B	tale	free	p	Ivan Popyalov and his brothers	4
-A135	B	tale	free	p	Ivan Popyalov and the dragon	1
-A135	B	tale	free	p	Kuzma and Demyan	6
+A135	B	tale	free	p	Demyan	6
+A135	B	tale	free	p	Ivan Popyalov	44
+A135	B	tale	free	p	Kuzma	6
 A135	B	tale	free	p	the dragon's horse	2
-A135	B	tale	free	u	Ivan Popyalov	6
-A135	B	tale	free	u	Ivan Popyalov and his brothers	2
-A135	B	tale	free	u	Kuzma and Demyan	1
+A135	B	tale	free	u	Demyan	1
+A135	B	tale	free	u	Ivan Popyalov	8
+A135	B	tale	free	u	Kuzma	1
 A135	B	tale	free	u	each other	1
 A135	B	tale	free	u	the apple tree	1
 A135	B	tale	free	u	the ash	1
@@ -1636,10 +1607,11 @@ A135	B	tale	free	u	the spring	1
 A135	B	tale	free	u	the tongs	1
 A136	B	tale	acts	p	Иван девкин сын	3
 A136	B	tale	acts	p	богатыри	2
-A136	B	tale	acts	p	девка-чернавка	1
+A136	B	tale	acts	p	девка-чернавка	3
 A136	B	tale	acts	p	дедушка	1
 A136	B	tale	acts	p	змей двенадцатиглавый	1
-A136	B	tale	acts	p	корова	1
+A136	B	tale	acts	p	корова	3
+A136	B	tale	acts	p	королева	2
 A136	B	tale	acts	p	кузнецы	1
 A136	B	tale	acts	u	Иван девкин сын	3
 A136	B	tale	acts	u	богатыри	2
@@ -1656,17 +1628,14 @@ A136	B	tale	acts	u	кузнецы	3
 A136	B	tale	acts	u	невестка	3
 A136	B	tale	acts	u	повара	1
 A136	B	tale	acts	u	щука	2
-A136	B	tale	free	p	Burya and his brothers	8
-A136	B	tale	free	p	Burya and the twelve-headed dragon	1
-A136	B	tale	free	p	the cow	3
 A136	B	tale	free	p	the dragon's horse	1
 A136	B	tale	free	p	the first daughter-in-law	1
 A136	B	tale	free	p	the second daughter-in-law	1
 A136	B	tale	free	p	the third daughter-in-law	1
 A136	B	tale	free	p	the three boys	2
 A136	B	tale	free	p	the two stallions	1
-A136	B	tale	free	u	Ivan-tsarevich and his brothers	1
 A136	B	tale	free	u	his first minister	1
+A136	B	tale	free	u	the blind man	1
 A136	B	tale	free	u	the cooks	1
 A136	B	tale	free	u	the dragon's body	3
 A136	B	tale	free	u	the first minister	1
@@ -1675,7 +1644,7 @@ A136	B	tale	free	u	the guests	2
 A136	B	tale	free	u	the head	2
 A136	B	tale	free	u	the heads	1
 A136	B	tale	free	u	the nets	1
-A136	B	tale	free	u	the one-eyed and the blind man	1
+A136	B	tale	free	u	the one-eyed	1
 A136	B	tale	free	u	the people	1
 A136	B	tale	free	u	the serpent	3
 A136	B	tale	free	u	the stable	1
@@ -1686,23 +1655,25 @@ A136	B	tale	free	u	the twelve smiths	3
 A136	B	tale	free	u	the two brothers	1
 A136	B	tale	free	u	the wall	1
 A136	B	tale	free	u	their horses	1
-A137	B	tale	acts	p	Иван, кухаркин сын	2
-A137	B	tale	acts	p	Иван-царевич, Иван кухаркин сын, Иван Быкович	1
+A137	B	tale	acts	p	Иван	2
+A137	B	tale	acts	p	Иван кухаркин сын	1
 A137	B	tale	acts	p	Объедайло и Опивайло	1
 A137	B	tale	acts	p	баба-яга	3
 A137	B	tale	acts	p	двенадцатиглавое чудо-юдо	1
 A137	B	tale	acts	p	девятиглавое чудо-юдо	1
+A137	B	tale	acts	p	корова	2
+A137	B	tale	acts	p	кухарка	2
+A137	B	tale	acts	p	кухаркин сын	2
 A137	B	tale	acts	p	прислуга	1
 A137	B	tale	acts	p	пять старичков	1
 A137	B	tale	acts	p	рыбаки	1
-A137	B	tale	acts	p	старик (парильщик)	1
-A137	B	tale	acts	p	старик (ёрш)	1
 A137	B	tale	acts	p	старички	1
 A137	B	tale	acts	p	три брата	1
 A137	B	tale	acts	p	царь	2
+A137	B	tale	acts	p	царь и царица	1
 A137	B	tale	acts	p	чудо-юдо	1
 A137	B	tale	acts	u	Бог	1
-A137	B	tale	acts	u	Иван, кухаркин сын	1
+A137	B	tale	acts	u	Иван	1
 A137	B	tale	acts	u	баба-яга	2
 A137	B	tale	acts	u	баня	1
 A137	B	tale	acts	u	воробышек	1
@@ -1710,16 +1681,16 @@ A137	B	tale	acts	u	двенадцатиглавое чудо-юдо	2
 A137	B	tale	acts	u	девятиглавое чудо-юдо	3
 A137	B	tale	acts	u	колодезь и кроватка	1
 A137	B	tale	acts	u	кухарка	1
+A137	B	tale	acts	u	кухаркин сын	1
 A137	B	tale	acts	u	пять старичков	1
 A137	B	tale	acts	u	рыбаки	2
 A137	B	tale	acts	u	царь	3
+A137	B	tale	acts	u	царь и царица	1
 A137	B	tale	acts	u	чудо-юдо	5
-A137	B	tale	acts	u	яблоня (младшая жена)	1
+A137	B	tale	acts	u	яблоня	1
 A137	B	tale	acts	u	ёрш	2
-A137	B	tale	free	p	Ivan Bykovich and the monster	1
-A137	B	tale	free	p	Ivan Bykovich and the tsaritsa	1
-A137	B	tale	free	p	Ivan-tsarevich and Ivan, the cook's son	2
-A137	B	tale	free	p	the cow	2
+A137	B	tale	free	p	Ivan	6
+A137	B	tale	free	p	the cow	3
 A137	B	tale	free	p	the eldest wife	1
 A137	B	tale	free	p	the fifth old man	3
 A137	B	tale	free	p	the first old man	1
@@ -1736,13 +1707,14 @@ A137	B	tale	free	p	the servants	2
 A137	B	tale	free	p	the third old man	3
 A137	B	tale	free	p	the three Ivans	10
 A137	B	tale	free	p	the three boys	1
-A137	B	tale	free	p	the tsaritsa, the cook and the cow	1
 A137	B	tale	free	p	the twelve warriors	1
 A137	B	tale	free	p	the youngest wife	1
 A137	B	tale	free	u	God	1
+A137	B	tale	free	u	Ivan	1
 A137	B	tale	free	u	each other	1
 A137	B	tale	free	u	herself	1
 A137	B	tale	free	u	his smiths	1
+A137	B	tale	free	u	sword	1
 A137	B	tale	free	u	the bathhouse	1
 A137	B	tale	free	u	the body	5
 A137	B	tale	free	u	the bowl	2
@@ -1760,7 +1732,7 @@ A137	B	tale	free	u	the pike	2
 A137	B	tale	free	u	the pole	2
 A137	B	tale	free	u	the second old man	1
 A137	B	tale	free	u	the servants	3
-A137	B	tale	free	u	the shield and sword	1
+A137	B	tale	free	u	the shield	1
 A137	B	tale	free	u	the slops	2
 A137	B	tale	free	u	the staff	2
 A137	B	tale	free	u	the stone	2
@@ -1769,6 +1741,7 @@ A137	B	tale	free	u	the three Ivans	3
 A137	B	tale	free	u	the towel	1
 A137	B	tale	free	u	the twelve warriors	2
 A137	B	tale	free	u	the well	1
+A138	B	tale	acts	p	безногий-безрукий	2
 A138	B	tale	acts	p	змеиха и снохи	1
 A138	B	tale	acts	p	князья и бояре	1
 A138	B	tale	acts	p	товарищи	3
@@ -1782,7 +1755,7 @@ A138	B	tale	acts	u	сноха	3
 A138	B	tale	acts	u	старички	1
 A138	B	tale	acts	u	товарищи	4
 A138	B	tale	acts	u	три старичка	1
-A138	B	tale	free	p	Ivan and his six men	3
+A138	B	tale	free	p	his six men	3
 A138	B	tale	free	p	the boat	1
 A138	B	tale	free	p	the courtiers	1
 A138	B	tale	free	p	the dragons' mother	1
@@ -1790,8 +1763,8 @@ A138	B	tale	free	p	the eldest daughter-in-law	1
 A138	B	tale	free	p	the man without arms or legs	2
 A138	B	tale	free	p	the middle daughter-in-law	1
 A138	B	tale	free	p	the youngest daughter-in-law	1
-A138	B	tale	free	u	Ivan and the three old men	1
 A138	B	tale	free	u	Ivan's horse	1
+A138	B	tale	free	u	daughters-in-law	1
 A138	B	tale	free	u	his servants	1
 A138	B	tale	free	u	six men	1
 A138	B	tale	free	u	the basin	1
@@ -1800,19 +1773,19 @@ A138	B	tale	free	u	the boat	1
 A138	B	tale	free	u	the cats	1
 A138	B	tale	free	u	the dinner	1
 A138	B	tale	free	u	the dragons	1
-A138	B	tale	free	u	the dragons' mother and daughters-in-law	1
+A138	B	tale	free	u	the dragons' mother	1
 A138	B	tale	free	u	the jaws	2
 A138	B	tale	free	u	the lords	1
 A138	B	tale	free	u	the man without arms or legs	1
-A138	B	tale	free	u	the others	3
 A138	B	tale	free	u	the peasant	1
 A138	B	tale	free	u	the pin	1
 A138	B	tale	free	u	the tsar's daughter	1
 A138	B	tale	free	u	the tsar's horses	1
 A139	B	tale	acts	p	Белый Полянин	5
 A139	B	tale	acts	p	Иван Поваренко	1
-A139	B	tale	acts	p	Иван Сученко, Иван-царевич и Поваренко	1
-A139	B	tale	acts	p	Царенко	2
+A139	B	tale	acts	p	Иван-царевич и Поваренко	1
+A139	B	tale	acts	p	Поваренко и Сученко	2
+A139	B	tale	acts	p	Царенко	4
 A139	B	tale	acts	p	вторая царевна	2
 A139	B	tale	acts	p	девка	9
 A139	B	tale	acts	p	дед	3
@@ -1825,8 +1798,9 @@ A139	B	tale	acts	p	царевна	11
 A139	B	tale	acts	u	Белый Полянин	4
 A139	B	tale	acts	u	Иван Поваренко	3
 A139	B	tale	acts	u	Иван-царевич	4
+A139	B	tale	acts	u	Поваренко Иван и Сученко Иван	1
 A139	B	tale	acts	u	Царенко	4
-A139	B	tale	acts	u	Царенко Иван, Поваренко Иван и Сученко Иван	1
+A139	B	tale	acts	u	Царенко Иван	1
 A139	B	tale	acts	u	Царенко и Поваренко	1
 A139	B	tale	acts	u	вороной конь	1
 A139	B	tale	acts	u	дед	3
@@ -1843,14 +1817,13 @@ A139	B	tale	acts	u	старшая царевна	2
 A139	B	tale	acts	u	три царевны	1
 A139	B	tale	acts	u	царевна	2
 A139	B	tale	free	p	Ivan Suchenko	66
-A139	B	tale	free	p	Ivan-tsarevich and Povarenko	1
+A139	B	tale	free	p	Ivan-tsarevich	1
 A139	B	tale	free	p	the bitch	1
 A139	B	tale	free	p	the cook	4
-A139	B	tale	free	p	the people (unnamed)	2
-A139	B	tale	free	p	the second and youngest princesses	2
 A139	B	tale	free	p	the three brothers	5
 A139	B	tale	free	p	the three mares	1
 A139	B	tale	free	p	the wedding guests	3
+A139	B	tale	free	p	youngest princesses	2
 A139	B	tale	free	u	Ivan Povarenko	1
 A139	B	tale	free	u	Ivan Suchenko	30
 A139	B	tale	free	u	Ivan-tsarevich	2
@@ -1863,9 +1836,9 @@ A139	B	tale	free	u	the rope	1
 A139	B	tale	free	u	the stump	1
 A139	B	tale	free	u	the three mares	1
 A139	B	tale	free	u	the wedding house	3
-A140	B	tale	acts	p	Вечорка	3
-A140	B	tale	acts	p	Вечорка, Полуночка и Зорька	2
+A140	B	tale	acts	p	Вечорка	5
 A140	B	tale	acts	p	Полуночка	2
+A140	B	tale	acts	p	Полуночка и Зорька	2
 A140	B	tale	acts	p	братья	1
 A140	B	tale	acts	p	вдова	1
 A140	B	tale	acts	p	думные бояре	1
@@ -1887,12 +1860,10 @@ A140	B	tale	acts	u	слуги	1
 A140	B	tale	acts	u	старшая королевна	1
 A140	B	tale	acts	u	три сына	1
 A140	B	tale	acts	u	шестиглавый змей	1
-A140	B	tale	free	p	Vechorka and Polunochka	2
 A140	B	tale	free	p	the eldest princess	1
 A140	B	tale	free	p	the three brothers	5
 A140	B	tale	free	p	the three princesses	1
 A140	B	tale	free	p	the two younger princesses	1
-A140	B	tale	free	u	Zorka, Vechorka and Polunochka	1
 A140	B	tale	free	u	the eggs	1
 A140	B	tale	free	u	the ram	6
 A140	B	tale	free	u	the rope	1
@@ -1901,38 +1872,23 @@ A140	B	tale	free	u	the strong water	1
 A140	B	tale	free	u	the three princesses	1
 A140	B	tale	free	u	the widow	1
 A140	B	tale	free	u	their mother	1
-A141	B	tale	acts	p	Горыня	2
-A141	B	tale	acts	p	Ивашко-Медведко, Усыня, Горыня, Дубыня	1
-A141	B	tale	acts	p	Усыня, Горыня, Дубыня	4
-A141	B	tale	acts	p	девки, Репка	1
+A141	B	tale	acts	p	Горыня	7
 A141	B	tale	acts	p	младшая сестра	1
-A141	B	tale	acts	u	Горыня	3
-A141	B	tale	acts	u	Ивашко-Медведко, Горыня, Дубыня	1
-A141	B	tale	acts	u	Ивашко-Медведко, Усыня, Горыня	1
-A141	B	tale	acts	u	Ивашко-Медведко, Усыня, Дубыня	1
-A141	B	tale	acts	u	Усыня, Горыня	1
-A141	B	tale	acts	u	Усыня, Горыня, Дубыня	8
+A141	B	tale	acts	u	Горыня	14
 A141	B	tale	acts	u	избушка	1
 A141	B	tale	acts	u	камень	2
 A141	B	tale	acts	u	младшая сестра	3
 A141	B	tale	acts	u	ребята	1
-A141	B	tale	acts	u	старик, старуха	1
-A141	B	tale	free	p	Ivashko, his bride and the old man and woman	1
-A141	B	tale	free	p	Usynya, Dubynya and Gorynya	1
 A141	B	tale	free	p	the four	2
 A141	B	tale	free	p	the four bogatyrs	1
 A141	B	tale	free	p	the girl	1
-A141	B	tale	free	p	the old man and the old woman	4
-A141	B	tale	free	p	the others	1
 A141	B	tale	free	p	the three brothers	1
-A141	B	tale	free	p	the village girls and Repka	1
 A141	B	tale	free	u	each other	1
 A141	B	tale	free	u	the boys he plays with	1
 A141	B	tale	free	u	the dog	1
 A141	B	tale	free	u	the eldest maiden	1
 A141	B	tale	free	u	the food	2
 A141	B	tale	free	u	the girl	2
-A141	B	tale	free	u	the old man and the old woman	1
 A141	B	tale	free	u	the other three	1
 A141	B	tale	free	u	the porridge	1
 A141	B	tale	free	u	the rope	4
@@ -1940,8 +1896,7 @@ A141	B	tale	free	u	the second maiden	1
 A141	B	tale	free	u	the son	2
 A141	B	tale	free	u	the three bodies	1
 A141	B	tale	free	u	the three bogatyrs	2
-A141	B	tale	free	u	the village girls and Repka	2
-A143	B	tale	acts	p	Гарыня	3
+A143	B	tale	acts	p	Гарыня	6
 A143	B	tale	acts	p	мать	1
 A143	B	tale	acts	p	папялок	1
 A143	B	tale	acts	u	Гарыня	3
@@ -1950,13 +1905,9 @@ A143	B	tale	acts	u	багатыри	1
 A143	B	tale	acts	u	гарады	1
 A143	B	tale	acts	u	дети	1
 A143	B	tale	acts	u	жены	1
-A143	B	tale	acts	u	мать	1
-A143	B	tale	acts	u	мать, поп	1
+A143	B	tale	acts	u	мать	2
 A143	B	tale	acts	u	папялок	1
-A143	B	tale	free	p	Nadzei and the priest	1
-A143	B	tale	free	p	the priest and his daughter	1
 A143	B	tale	free	u	a man in the village	1
-A143	B	tale	free	u	his mother and grandfather	1
 A143	B	tale	free	u	the field	1
 A143	B	tale	free	u	the head	1
 A143	B	tale	free	u	the plot	1
@@ -1972,29 +1923,28 @@ A144	B	tale	acts	p	слуга	1
 A144	B	tale	acts	p	слушатель	2
 A144	B	tale	acts	p	старшие братья	1
 A144	B	tale	acts	p	стрелок	1
+A144	B	tale	acts	p	царь и царица	1
 A144	B	tale	acts	u	Объедало	1
 A144	B	tale	acts	u	Опивало	1
 A144	B	tale	acts	u	корабль	1
 A144	B	tale	acts	u	мать	3
 A144	B	tale	acts	u	слуга	3
+A144	B	tale	acts	u	слушающий землю	1
 A144	B	tale	acts	u	старшие братья	1
 A144	B	tale	acts	u	стрелок	1
 A144	B	tale	acts	u	товарищи	1
 A144	B	tale	acts	u	царевна	1
-A144	B	tale	acts	u	человек, слушающий землю	1
-A144	B	tale	free	p	someone (unnamed)	1
-A144	B	tale	free	p	the fool and the old man	1
+A144	B	tale	acts	u	человек	1
+A144	B	tale	free	p	someone	1
 A144	B	tale	free	p	the servant	1
-A144	B	tale	free	p	the servants (unnamed)	1
-A144	B	tale	free	p	the tsar's people (unnamed)	2
+A144	B	tale	free	p	the servants	1
+A144	B	tale	free	p	the tsar's people	2
 A144	B	tale	free	p	the two elder brothers	1
+A144	B	tale	free	u	his comrades	1
 A144	B	tale	free	u	the bathhouse	1
 A144	B	tale	free	u	the field	1
 A144	B	tale	free	u	the food	1
-A144	B	tale	free	u	the fool and his comrades	1
-A144	B	tale	free	u	the fool and the man with straw	1
 A144	B	tale	free	u	the mill	1
-A144	B	tale	free	u	the others	1
 A144	B	tale	free	u	the people	1
 A144	B	tale	free	u	the servant	3
 A144	B	tale	free	u	the ship	1
@@ -2003,6 +1953,7 @@ A144	B	tale	free	u	the two elder brothers	2
 A144	B	tale	free	u	the water	1
 A144	B	tale	free	u	the wine	1
 A145	B	tale	acts	p	большой Семён	1
+A145	B	tale	acts	p	кузнец и вор	1
 A145	B	tale	acts	p	лекарь	1
 A145	B	tale	acts	u	Семён	1
 A145	B	tale	acts	u	большой Семён	1
@@ -2011,7 +1962,6 @@ A145	B	tale	acts	u	братья Семёна	1
 A145	B	tale	acts	u	вор Сенька	1
 A145	B	tale	acts	u	слуги	1
 A145	B	tale	free	p	the marksman Semyon	1
-A145	B	tale	free	p	the people (unnamed)	1
 A145	B	tale	free	p	the seer Semyon	3
 A145	B	tale	free	p	the smith Semyon	2
 A145	B	tale	free	p	the swan	1
@@ -2022,11 +1972,12 @@ A145	B	tale	free	u	the seer Semyon	1
 A145	B	tale	free	u	the seer's account	1
 A145	B	tale	free	u	the ship	1
 A145	B	tale	free	u	the swan	2
-A145	B	tale	free	u	the thief Semyon and the princess	1
 A148	B	tale	acts	p	пять тысяч детей	1
+A148	B	tale	acts	p	царь и царица	2
 A148	B	tale	acts	u	дети	1
 A148	B	tale	acts	u	кожи	1
 A148	B	tale	acts	u	народ	1
+A148	B	tale	acts	u	царь и царица	1
 A148	B	tale	free	u	himself	1
 A148	B	tale	free	u	the doors	1
 A148	B	tale	free	u	the girls	1
@@ -2038,7 +1989,6 @@ A149	B	tale	acts	u	жители деревушки	1
 A149	B	tale	acts	u	тройка	1
 A149	B	tale	acts	u	цыган и мужик	1
 A149	B	tale	free	u	himself	1
-A149	B	tale	free	u	the Gypsy and the peasant	1
 A149	B	tale	free	u	the curds	1
 A149	B	tale	free	u	the hide	1
 A149	B	tale	free	u	the horses	1
@@ -2062,7 +2012,6 @@ A150	B	tale	acts	u	коровы купца	1
 A150	B	tale	acts	u	отец	3
 A150	B	tale	acts	u	старшой	1
 A150	B	tale	acts	u	четверо мужиков	1
-A150	B	tale	free	p	the merchant, his wife and the labourer	1
 A150	B	tale	free	u	the cows	1
 A150	B	tale	free	u	the hat	1
 A150	B	tale	free	u	the pit	1
@@ -2081,13 +2030,14 @@ A151	B	tale	free	u	the cudgel	1
 A151	B	tale	free	u	the hat	2
 A151	B	tale	free	u	the line	1
 A151	B	tale	free	u	the money	1
+A152	B	tale	acts	p	воры	1
 A152	B	tale	acts	p	медведь	1
+A152	B	tale	acts	p	собаки	1
 A152	B	tale	acts	u	дедушка	1
 A152	B	tale	acts	u	заяц	1
 A152	B	tale	acts	u	медведь	1
 A152	B	tale	acts	u	овцы	1
 A152	B	tale	free	p	Ivanko Medvedko	1
-A152	B	tale	free	p	Ivanko and his mother	1
 A152	B	tale	free	p	the rich peasant's wife	2
 A152	B	tale	free	u	the barn door	2
 A152	B	tale	free	u	the barn's contents	1
@@ -2119,6 +2069,7 @@ A154	B	tale	free	u	the fiddle	1
 A154	B	tale	free	u	the kingdom	1
 A154	B	tale	free	u	the pincers	1
 A154	B	tale	free	u	the rusks	1
+A155	B	tale	acts	p	боярские и купеческие дети	1
 A155	B	tale	acts	p	волшебный конь	1
 A155	B	tale	acts	p	второй змей	1
 A155	B	tale	acts	p	кузнец	1
@@ -2128,6 +2079,7 @@ A155	B	tale	acts	p	третий змей	1
 A155	B	tale	acts	p	хозяин жеребцов	1
 A155	B	tale	acts	u	Настасья Прекрасная	1
 A155	B	tale	acts	u	белокаменные палаты	1
+A155	B	tale	acts	u	боярские и купеческие дети	2
 A155	B	tale	acts	u	второй змей	1
 A155	B	tale	acts	u	два пузырька воды	1
 A155	B	tale	acts	u	жена и тесть	1
@@ -2139,8 +2091,8 @@ A155	B	tale	acts	u	олень	1
 A155	B	tale	acts	u	старушка	4
 A155	B	tale	acts	u	утки	2
 A155	B	tale	acts	u	хозяин жеребцов	1
-A155	B	tale	free	p	Ivan soldier's son (left)	43
-A155	B	tale	free	p	the authorities (unnamed)	1
+A155	B	tale	free	p	Ivan soldier's son	43
+A155	B	tale	free	p	the authorities	1
 A155	B	tale	free	p	the brother who went right	1
 A155	B	tale	free	p	the child	3
 A155	B	tale	free	p	the eldest princess	3
@@ -2148,9 +2100,8 @@ A155	B	tale	free	p	the middle princess	1
 A155	B	tale	free	p	the peasant	1
 A155	B	tale	free	p	the stronger brother	2
 A155	B	tale	free	p	the youngest princess	7
-A155	B	tale	free	u	Ivan soldier's son (left)	18
-A155	B	tale	free	u	Ivan soldier's son (right)	1
-A155	B	tale	free	u	his wife and father-in-law	1
+A155	B	tale	free	u	Ivan soldier's son	19
+A155	B	tale	free	u	father-in-law	1
 A155	B	tale	free	u	the body	1
 A155	B	tale	free	u	the chain	2
 A155	B	tale	free	u	the child	1
@@ -2174,14 +2125,11 @@ A156	B	tale	acts	u	жена царя	1
 A156	B	tale	acts	u	заяц	1
 A156	B	tale	acts	u	камень	2
 A156	B	tale	acts	u	кони	1
-A156	B	tale	acts	u	мать, царская дочь	1
 A156	B	tale	acts	u	невеста	3
 A156	B	tale	acts	u	утка	1
 A156	B	tale	acts	u	яйцо	1
 A156	B	tale	free	p	Ivan's mother	2
-A156	B	tale	free	p	Ivan-tsarevich and his mother	1
 A156	B	tale	free	p	Koshchei the Deathless	1
-A156	B	tale	free	p	the brothers, the mother and the princess	1
 A156	B	tale	free	p	the horse	1
 A156	B	tale	free	u	Ivan's mother	1
 A156	B	tale	free	u	the ball	1
@@ -2201,31 +2149,27 @@ A156	B	tale	free	u	the rope	1
 A156	B	tale	free	u	the sea	2
 A156	B	tale	free	u	the sword	1
 A156	B	tale	free	u	the wolf cub	1
-A159	B	tale	acts	p	ворон	2
+A159	B	tale	acts	p	ворон	5
 A159	B	tale	acts	p	живой человек	1
 A159	B	tale	acts	p	кобылицы	4
 A159	B	tale	acts	p	конь Ивана-царевича	1
-A159	B	tale	acts	p	орёл	2
+A159	B	tale	acts	p	конь Кощея	3
+A159	B	tale	acts	p	орёл	5
 A159	B	tale	acts	p	пчелиная матка	1
 A159	B	tale	acts	u	Анна-царевна	1
 A159	B	tale	acts	u	Марья-царевна	1
 A159	B	tale	acts	u	Ольга-царевна	1
-A159	B	tale	acts	u	ворон	2
-A159	B	tale	acts	u	ворон, орёл, сокол	1
+A159	B	tale	acts	u	ворон	5
 A159	B	tale	acts	u	жеребёнок	1
 A159	B	tale	acts	u	живой человек	1
 A159	B	tale	acts	u	кобылицы	3
-A159	B	tale	acts	u	орёл	2
+A159	B	tale	acts	u	орёл	5
 A159	B	tale	acts	u	пчелиная матка	1
 A159	B	tale	acts	u	сёстры	1
-A159	B	tale	free	p	Ivan-tsarevich and Marya Morevna	5
+A159	B	tale	free	p	Koshchei's horse	4
 A159	B	tale	free	p	Marya-tsarevna	1
-A159	B	tale	free	p	the falcon, the eagle and the raven	1
-A159	B	tale	free	p	the raven and the falcon	1
-A159	B	tale	free	p	the raven, the eagle and the falcon	1
 A159	B	tale	free	p	the three brothers-in-law	1
 A159	B	tale	free	u	Anna-tsarevna	2
-A159	B	tale	free	u	Ivan-tsarevich and Marya Morevna	1
 A159	B	tale	free	u	Marya-tsarevna	1
 A159	B	tale	free	u	Olga-tsarevna	2
 A159	B	tale	free	u	his sisters	1
@@ -2237,9 +2181,9 @@ A159	B	tale	free	u	the chick	1
 A159	B	tale	free	u	the closet	1
 A159	B	tale	free	u	the kerchief	2
 A159	B	tale	free	u	the lion cub	1
-A159	B	tale	free	u	the raven, the eagle and the falcon	1
 A159	B	tale	free	u	the river	2
 A159	B	tale	free	u	the water	2
+A161	B	tale	acts	p	Иван-царевич и Белый Полянин	2
 A161	B	tale	acts	p	вторая птичка	1
 A161	B	tale	acts	p	второй старик	3
 A161	B	tale	acts	p	голова бабы-яги	1
@@ -2270,7 +2214,6 @@ A161	B	tale	acts	u	третья птичка	1
 A161	B	tale	acts	u	царь-змей	1
 A161	B	tale	free	p	the beautiful maiden	1
 A161	B	tale	free	p	the birds	1
-A161	B	tale	free	u	Ivan-tsarevich and the maiden	1
 A161	B	tale	free	u	the bird	4
 A161	B	tale	free	u	the birds	1
 A161	B	tale	free	u	the bulls	1
@@ -2284,23 +2227,28 @@ A162	B	tale	acts	p	змей о шести головах	2
 A162	B	tale	acts	p	золотая коза	1
 A162	B	tale	acts	p	придворная стража	1
 A162	B	tale	acts	p	царевна	2
-A162	B	tale	acts	u	звери, птицы, гады, муравьи	1
+A162	B	tale	acts	u	гады	1
+A162	B	tale	acts	u	звери	1
 A162	B	tale	acts	u	змей о трёх головах	2
 A162	B	tale	acts	u	змей о шести головах	2
 A162	B	tale	acts	u	золотая коза	1
+A162	B	tale	acts	u	муравьи	1
 A162	B	tale	acts	u	придворная стража	1
+A162	B	tale	acts	u	птицы	1
 A162	B	tale	acts	u	царевна	7
 A162	B	tale	free	p	the tsar's three sons	2
 A162	B	tale	free	u	the cows	2
 A162	B	tale	free	u	the creatures	2
 A162	B	tale	free	u	the seed	2
-A163	B	tale	acts	p	Змей Змеевич, Ворон Воронович, Кокот Кокотович	1
-A163	B	tale	acts	u	Змей Змеевич, Ворон Воронович, Кокот Кокотович	3
+A163	B	tale	acts	p	Ворон Воронович	1
+A163	B	tale	acts	p	Змей Змеевич	1
+A163	B	tale	acts	p	Кокот Кокотович	1
+A163	B	tale	acts	u	Ворон Воронович	3
+A163	B	tale	acts	u	Змей Змеевич	3
+A163	B	tale	acts	u	Кокот Кокотович	3
 A163	B	tale	acts	u	пятак	1
 A163	B	tale	acts	u	царевна	1
-A163	B	tale	free	p	Bukhtan Bukhtanovich	8
-A163	B	tale	free	p	Bukhtan Bukhtanovich and the fox	1
-A163	B	tale	free	p	the tsar, the fox and Bukhtan	1
+A163	B	tale	free	p	Bukhtan Bukhtanovich	9
 A163	B	tale	free	u	Bukhtan Bukhtanovich	10
 A163	B	tale	free	u	his wife	1
 A163	B	tale	free	u	the chair	2
@@ -2308,28 +2256,27 @@ A163	B	tale	free	u	the coin	1
 A163	B	tale	free	u	the house	1
 A163	B	tale	free	u	the measure	3
 A163	B	tale	free	u	the three	3
-A164	B	tale	acts	p	Кузенька, царевна	1
 A164	B	tale	acts	p	волк	2
+A164	B	tale	acts	p	куница	2
 A164	B	tale	acts	p	люди царя	1
 A164	B	tale	acts	p	медведь	2
 A164	B	tale	acts	p	пастухи	3
-A164	B	tale	acts	p	соболь, куница	2
-A164	B	tale	acts	p	царь, Кузенька	1
+A164	B	tale	acts	p	соболь	2
+A164	B	tale	acts	p	царевна	1
 A164	B	tale	acts	u	волк	2
 A164	B	tale	acts	u	волки	2
+A164	B	tale	acts	u	куница	1
+A164	B	tale	acts	u	куницы	1
 A164	B	tale	acts	u	куры	1
 A164	B	tale	acts	u	медведи	1
 A164	B	tale	acts	u	медведь	2
 A164	B	tale	acts	u	пастухи	5
-A164	B	tale	acts	u	соболи, куницы	1
-A164	B	tale	acts	u	соболь, куница	1
-A164	B	tale	acts	u	царевна	1
-A164	B	tale	acts	u	царь, Кузенька	1
-A164	B	tale	acts	u	царь, царевна	1
+A164	B	tale	acts	u	соболи	1
+A164	B	tale	acts	u	соболь	1
+A164	B	tale	acts	u	царевна	2
+A164	B	tale	free	p	Kozma	1
 A164	B	tale	free	p	Kozma Quick-Rich	2
-A164	B	tale	free	p	Kozma and the princess	1
 A164	B	tale	free	p	the tsar's men	3
-A164	B	tale	free	p	the tsar, Kuzenka and the princess	1
 A164	B	tale	free	u	Kuzenka's hen	2
 A164	B	tale	free	u	his house	1
 A164	B	tale	free	u	the animals	2
@@ -2340,8 +2287,6 @@ A164	B	tale	free	u	the kingdom	1
 A164	B	tale	free	u	the kite	1
 A164	B	tale	free	u	the meadows	2
 A164	B	tale	free	u	the measure	1
-A164	B	tale	free	u	the princess and the tsar	1
-A164	B	tale	free	u	the tsar, Kuzenka and the princess	1
 A164	B	tale	free	u	the wolves	2
 A164	B	tale	free	u	the workmen	1
 A166	B	tale	acts	p	дочь короля	2
@@ -2353,34 +2298,37 @@ A166	B	tale	acts	u	дочь короля и дурак	1
 A166	B	tale	acts	u	жена дурака	2
 A166	B	tale	acts	u	народ	2
 A166	B	tale	acts	u	слуги	1
+A166	B	tale	free	p	his daughter	1
 A166	B	tale	free	p	the cudgel	1
 A166	B	tale	free	p	the fool's wife	2
 A166	B	tale	free	p	the king's daughter	2
-A166	B	tale	free	p	the king, his daughter and the fool	1
 A166	B	tale	free	p	the sledge	1
 A166	B	tale	free	p	the two clever brothers	3
 A166	B	tale	free	u	his servant	1
 A166	B	tale	free	u	the axe	1
 A166	B	tale	free	u	the barrel	2
 A166	B	tale	free	u	the cudgel	1
-A166	B	tale	free	u	the daughter and the fool	2
-A166	B	tale	free	u	the king's daughter and the fool	2
+A166	B	tale	free	u	the daughter	2
+A166	B	tale	free	u	the king's daughter	2
 A166	B	tale	free	u	the palace	1
 A166	B	tale	free	u	the sledge	1
 A166	B	tale	free	u	the stove	1
 A166	B	tale	free	u	the two clever brothers	1
+A167	B	tale	acts	p	короли	3
+A167	B	tale	acts	p	король	2
 A167	B	tale	acts	p	мальчик	2
 A167	B	tale	acts	p	няньки	1
 A167	B	tale	acts	p	старуха	2
+A167	B	tale	acts	p	цари	3
 A167	B	tale	acts	u	Бог	1
 A167	B	tale	acts	u	богатырь	2
 A167	B	tale	acts	u	гонцы	1
 A167	B	tale	acts	u	королевна	1
-A167	B	tale	acts	u	мальчик	2
-A167	B	tale	acts	u	мужичок, царевна	3
-A167	B	tale	acts	u	мужичок, царевна, мальчик	1
-A167	B	tale	free	p	the other kings and princes	1
-A167	B	tale	free	p	the princess, the tsar, the poor peasant and the son	1
+A167	B	tale	acts	u	короли	4
+A167	B	tale	acts	u	король	2
+A167	B	tale	acts	u	мальчик	3
+A167	B	tale	acts	u	цари	4
+A167	B	tale	free	p	the other kings	1
 A167	B	tale	free	p	the servants	1
 A167	B	tale	free	p	the tsar's daughter	2
 A167	B	tale	free	u	God	1
@@ -2389,9 +2337,8 @@ A167	B	tale	free	u	the boyars	1
 A167	B	tale	free	u	the ducks	2
 A167	B	tale	free	u	the food	1
 A167	B	tale	free	u	the king's daughter	1
-A167	B	tale	free	u	the other kings and princes	1
+A167	B	tale	free	u	the other kings	1
 A167	B	tale	free	u	the palace	1
-A167	B	tale	free	u	the poor	1
 A167	B	tale	free	u	the table	1
 A001	A	animal	acts	p	the Wolf's ice hut	1
 A001	A	animal	acts	p	the Wolf's tail	1
@@ -2428,16 +2375,13 @@ A003	A	animal	free	p	the ice-hole	1
 A003	A	animal	free	u	his tail	1
 A003	A	animal	free	u	the fish	2
 A003	A	animal	free	u	the ice-hole	1
-A004	A	animal	acts	p	the Fox and the Wolf	2
 A004	A	animal	acts	p	the Old Man's cockerel	1
 A004	A	animal	acts	p	the Old Woman's hen	1
 A004	A	animal	acts	p	the sledge	1
 A004	A	animal	free	p	a peasant	1
-A004	A	animal	free	p	the fox and the wolf	3
 A004	A	animal	free	p	the horse's skin	1
 A004	A	animal	free	p	the sledge	3
 A004	A	animal	free	p	the sparrows	1
-A004	A	animal	free	p	the wolf and the fox	2
 A004	A	animal	free	u	his tail	3
 A004	A	animal	free	u	the cart	1
 A004	A	animal	free	u	the ear of wheat	1
@@ -2472,15 +2416,11 @@ A006	A	animal	free	u	the pie	4
 A006	A	animal	free	u	the sledge	2
 A006	A	animal	free	u	the straw	1
 A006	A	animal	free	u	the wood	2
-A007	A	animal	acts	p	the Fox, the Bear, the Wolf and the Hare	1
 A007	A	animal	acts	p	the Wolf's tail	1
 A007	A	animal	acts	p	the shaft	1
-A007	A	animal	acts	u	the Bear, the Wolf and the Hare	2
-A007	A	animal	free	p	the fox, the bear, the wolf and the hare	2
 A007	A	animal	free	p	the shaft	1
 A007	A	animal	free	p	the wolf's tail	1
 A007	A	animal	free	u	his tail	1
-A007	A	animal	free	u	the bear, the wolf and the hare	1
 A007	A	animal	free	u	the chickens	3
 A007	A	animal	free	u	the fish	1
 A007	A	animal	free	u	the horse's hide	2
@@ -2488,22 +2428,22 @@ A007	A	animal	free	u	the shaft	2
 A007	A	animal	free	u	the tree	2
 A007	A	animal	free	u	the trees	1
 A007	A	animal	free	u	the twig	1
-A008	A	animal	acts	p	the Fox, the Bear and the Wolf	1
 A008	A	animal	acts	p	the bullock	1
+A008	A	animal	acts	u	the bullock	1
 A008	A	animal	acts	u	the fourth hosts	3
-A008	A	animal	acts	u	the hen, the goose, the ram and the bullock	1
+A008	A	animal	acts	u	the goose	1
+A008	A	animal	acts	u	the hen	1
+A008	A	animal	acts	u	the ram	1
 A008	A	animal	acts	u	the second hosts	3
 A008	A	animal	acts	u	the third hosts	4
 A008	A	animal	free	p	the bullock	1
-A008	A	animal	free	p	the fox, the bear and the wolf	2
 A008	A	animal	free	u	the bast shoe	3
-A008	A	animal	free	u	the bullock	5
+A008	A	animal	free	u	the bullock	6
 A008	A	animal	free	u	the bullock's hide	2
-A008	A	animal	free	u	the goose	1
-A008	A	animal	free	u	the hen	2
-A008	A	animal	free	u	the hen, the goose, the ram and the bullock	1
+A008	A	animal	free	u	the goose	2
+A008	A	animal	free	u	the hen	3
 A008	A	animal	free	u	the meat	1
-A008	A	animal	free	u	the ram	2
+A008	A	animal	free	u	the ram	3
 A008	A	animal	free	u	the sledge	1
 A009	A	animal	free	p	the honey	1
 A009	A	animal	free	u	the honey	3
@@ -2521,23 +2461,26 @@ A011	A	animal	acts	p	the Fox's ice house	1
 A011	A	animal	acts	p	the frost	1
 A011	A	animal	free	p	someone	1
 A011	A	animal	free	p	the fox's ice house	1
-A011	A	animal	free	p	the wolf and the fox	1
 A011	A	animal	free	p	the wolf's tail	1
 A011	A	animal	free	u	his tail	2
 A011	A	animal	free	u	the bread	1
-A011	A	animal	free	u	the butter and the oatmeal	1
+A011	A	animal	free	u	the butter	2
 A011	A	animal	free	u	the herrings	3
-A011	A	animal	free	u	the oatmeal and the butter	1
+A011	A	animal	free	u	the oatmeal	2
 A011	A	animal	free	u	the sledge	1
 A011	A	animal	free	u	the wolf's hide	1
 A012	A	animal	acts	p	the hut	1
-A012	A	animal	acts	u	a hen and a chick	1
-A012	A	animal	acts	u	a pig and a lamb	1
+A012	A	animal	acts	u	a chick	1
+A012	A	animal	acts	u	a hen	1
+A012	A	animal	acts	u	a lamb	1
+A012	A	animal	acts	u	a pig	1
 A012	A	animal	acts	u	two hens	1
 A012	A	animal	free	p	the hut	1
+A012	A	animal	free	u	a chick	1
 A012	A	animal	free	u	a dog	1
-A012	A	animal	free	u	a hen and a chick	1
-A012	A	animal	free	u	a pig and a lamb	1
+A012	A	animal	free	u	a hen	1
+A012	A	animal	free	u	a lamb	1
+A012	A	animal	free	u	a pig	1
 A012	A	animal	free	u	his belly	1
 A012	A	animal	free	u	the butter	5
 A012	A	animal	free	u	the catch	2
@@ -2552,9 +2495,7 @@ A012	A	animal	free	u	two hens	1
 A013	A	animal	acts	p	the Fox's ice hut	1
 A013	A	animal	free	p	the fox's ice hut	1
 A013	A	animal	free	u	the honey	3
-A014	A	animal	acts	p	the Bear and the Hare	1
 A014	A	animal	acts	p	the Fox's ice hut	1
-A014	A	animal	free	p	the bear and the hare	1
 A014	A	animal	free	p	the fox's ice hut	1
 A014	A	animal	free	p	the hare's bark hut	1
 A015	A	animal	free	u	a hen	1
@@ -2567,24 +2508,27 @@ A018	A	animal	free	p	the cabbage stump	2
 A018	A	animal	free	p	the old man's cabbage stump	1
 A018	A	animal	free	p	the old woman's cabbage stump	1
 A018	A	animal	free	p	the sack	1
+A018	A	animal	free	u	butter	1
 A018	A	animal	free	u	the bathhouse	1
+A018	A	animal	free	u	the butter	1
 A018	A	animal	free	u	the cabbage stump	1
 A018	A	animal	free	u	the mash	1
-A018	A	animal	free	u	the oatmeal and butter	1
-A018	A	animal	free	u	the oatmeal, the butter and the old woman	1
+A018	A	animal	free	u	the oatmeal	2
 A018	A	animal	free	u	the old woman's bones	4
 A018	A	animal	free	u	the sack	3
 A018	A	animal	free	u	the sky	1
 A019	A	animal	free	p	the bundle	2
 A019	A	animal	free	u	the pea plant	1
 A020	A	animal	acts	p	goat sisters	4
+A020	A	animal	acts	p	three-eyed	1
 A020	A	animal	acts	p	twelfth Goat	2
-A020	A	animal	acts	p	two-eyed, three-eyed and other Goats	1
+A020	A	animal	acts	p	two-eyed	1
 A020	A	animal	acts	u	goat sisters	2
+A020	A	animal	free	p	the three-eyed goat	1
 A020	A	animal	free	p	the twelfth goat	2
 A020	A	animal	free	p	the twelve goat sisters	4
-A020	A	animal	free	p	the two-eyed goat, the three-eyed goat and the rest	1
-A020	A	animal	free	u	the ceiling and the roof	1
+A020	A	animal	free	p	the two-eyed goat	1
+A020	A	animal	free	u	the ceiling	1
 A020	A	animal	free	u	the twelfth goat	1
 A021	A	animal	free	u	a sack	1
 A021	A	animal	free	u	a white hen	1
@@ -2597,18 +2541,16 @@ A021	A	animal	free	u	the sky	1
 A021	A	animal	free	u	the song	1
 A021	A	animal	free	u	three pairs of white hens	1
 A021	A	animal	free	u	two dogs	1
-A023	A	animal	free	u	his shelves, benches and tubs	1
+A023	A	animal	free	u	benches	1
+A023	A	animal	free	u	his shelves	1
 A023	A	animal	free	u	the tops	1
 A023	A	animal	free	u	the turnip	1
 A023	A	animal	free	u	the turnips	1
 A023	A	animal	free	u	the wood	1
-A024	A	animal	acts	p	Peasant and Bear	2
-A024	A	animal	free	p	the bear (Misha)	6
-A024	A	animal	free	p	the peasant and the bear	5
+A023	A	animal	free	u	tubs	1
 A024	A	animal	free	p	the turnip	1
 A024	A	animal	free	p	the wheat	1
 A024	A	animal	free	u	loaves	1
-A024	A	animal	free	u	the bear (Misha)	4
 A024	A	animal	free	u	the fox's tail	1
 A024	A	animal	free	u	the roots	1
 A024	A	animal	free	u	the sack	4
@@ -2620,9 +2562,11 @@ A025	A	animal	free	p	the wheat	1
 A025	A	animal	free	u	a hen	2
 A025	A	animal	free	u	the borzoi dog	1
 A025	A	animal	free	u	the sack	1
-A026	A	animal	free	p	Serka and Berka	1
+A026	A	animal	free	p	Berka	1
+A026	A	animal	free	p	Serka	1
 A026	A	animal	free	p	the farmer	28
-A026	A	animal	free	u	Serka and Berka	2
+A026	A	animal	free	u	Berka	2
+A026	A	animal	free	u	Serka	2
 A026	A	animal	free	u	the farmer	18
 A026	A	animal	free	u	the fox's skin	1
 A026	A	animal	free	u	the fox's tail	1
@@ -2632,19 +2576,10 @@ A027	A	animal	free	u	the sack	7
 A028	A	animal	acts	p	trap	1
 A028	A	animal	free	p	the trap	1
 A028	A	animal	free	u	the trap	2
-A029	A	animal	acts	p	Wolf, Fox, Hare and Squirrel	1
-A029	A	animal	acts	p	Wolf, Pig and Fox	1
-A029	A	animal	acts	p	Wolf, Pig, Fox, Hare and Squirrel	1
-A029	A	animal	acts	u	Wolf and Pig	1
-A029	A	animal	free	p	the pig, the wolf, the fox, the hare and the squirrel	1
-A029	A	animal	free	p	the wolf, the fox, the hare and the squirrel	1
 A029	A	animal	free	u	herself	1
 A029	A	animal	free	u	the meat	1
-A029	A	animal	free	u	the pig and the wolf	1
-A029	A	animal	free	u	the pig, the wolf and the fox	1
 A029	A	animal	free	u	the pit	3
 A030	A	animal	acts	u	Granny	1
-A030	A	animal	acts	u	Wolf, Bear and Hare	1
 A030	A	animal	free	p	a cross-eyed hare	1
 A030	A	animal	free	p	the animals	4
 A030	A	animal	free	u	acorns	3
@@ -2659,8 +2594,8 @@ A030	A	animal	free	u	the pit	7
 A030	A	animal	free	u	the water	1
 A031	A	animal	acts	p	Black Grouse	5
 A031	A	animal	acts	u	Black Grouse	5
-A031	A	animal	free	p	the black grouse (Terenty)	6
-A031	A	animal	free	u	the black grouse (Terenty)	8
+A031	A	animal	free	p	the black grouse	6
+A031	A	animal	free	u	the black grouse	8
 A032	A	animal	acts	u	Woodpecker's chick	3
 A032	A	animal	free	u	a nest	1
 A032	A	animal	free	u	the oak	3
@@ -2673,31 +2608,32 @@ A033	A	animal	free	u	the soup	3
 A034	A	animal	acts	p	Snegurushka's friends	4
 A034	A	animal	acts	u	hen	1
 A034	A	animal	free	p	Snegurushka's friends	2
-A034	A	animal	free	p	the old man and the old woman	12
+A034	A	animal	free	p	the old man	12
+A034	A	animal	free	p	the old woman	12
 A034	A	animal	free	u	a hen	1
 A034	A	animal	free	u	a tree	1
 A034	A	animal	free	u	berries	1
 A034	A	animal	free	u	the gate	1
 A034	A	animal	free	u	the hen	2
-A034	A	animal	free	u	the old man and the old woman	3
+A034	A	animal	free	u	the old man	3
+A034	A	animal	free	u	the old woman	3
 A034	A	animal	free	u	the sacks	1
-A036	A	animal	acts	u	старик, старуха	1
 A038	A	animal	acts	p	Чучелка	1
+A038	A	animal	acts	p	баран	17
+A038	A	animal	acts	p	кот	17
 A038	A	animal	acts	u	Чучелка	2
+A038	A	animal	acts	u	баран	5
+A038	A	animal	acts	u	кот	5
 A038	A	animal	acts	u	лисины дочери	1
 A038	A	animal	free	p	Chuchelka	1
 A038	A	animal	free	u	Chuchelka	2
 A039	A	animal	acts	p	лисонькины дети	1
 A039	A	animal	acts	u	лисонькины дети	1
-A040	A	animal	acts	u	волк, медведь	1
 A040	A	animal	acts	u	все звери	1
-A040	A	animal	acts	u	медведь, волк	1
 A040	A	animal	free	p	all the beasts	1
 A041	A	animal	acts	u	Котай Иваныч	1
 A041	A	animal	free	u	Kotay Ivanovich	1
 A042	A	animal	acts	u	кот	4
-A042	A	animal	free	p	the others	1
-A042	A	animal	free	u	the others	1
 A043	A	animal	free	u	Kotonaylo Ivanych	2
 A043	A	animal	free	u	a duck	1
 A044	A	animal	acts	p	последние четыре волка	1
@@ -2713,36 +2649,31 @@ A044	A	animal	free	u	four more wolves	1
 A044	A	animal	free	u	the last four wolves	1
 A044	A	animal	free	u	the twelve wolves	1
 A044	A	animal	free	u	the watchman	1
-A045	A	animal	acts	p	медведь	2
+A045	A	animal	acts	p	медведь	3
 A045	A	animal	acts	u	волк	1
-A045	A	animal	acts	u	козёл, баран, кот, медведь	1
-A045	A	animal	acts	u	медведь	3
+A045	A	animal	acts	u	медведь	4
 A045	A	animal	free	p	Mikhailo Ivanovich	3
 A045	A	animal	free	p	Mishka	1
-A045	A	animal	free	p	seven grey wolves and a white wolf	1
+A045	A	animal	free	p	seven grey wolves	1
 A045	A	animal	free	u	Mikhailo Ivanovich	2
 A045	A	animal	free	u	Mishka	3
 A045	A	animal	free	u	the gate	2
 A045	A	animal	free	u	the grey wolves	1
-A046	A	animal	acts	p	медведь, волки	1
-A046	A	animal	acts	u	медведь, волки	2
 A047	A	animal	acts	p	старуха	2
 A047	A	animal	acts	u	мужики	1
-A047	A	animal	acts	u	старик, старуха	2
-A047	A	animal	acts	u	старуха	2
-A047	A	animal	free	p	the old couple, the goat and the ram	1
+A047	A	animal	acts	u	старуха	4
+A047	A	animal	free	p	the old couple	1
 A048	A	animal	acts	u	кувшин	1
 A048	A	animal	free	p	the peasant's wife	4
 A048	A	animal	free	u	the horse	1
 A048	A	animal	free	u	the jug	2
 A049	A	animal	acts	u	овечка	1
-A049	A	animal	acts	u	старик, старуха	3
-A049	A	animal	free	u	the old man and the old woman	3
-A049	A	animal	free	u	the sheep, the stallion, the heifer and the old woman	1
+A049	A	animal	free	u	the heifer	1
+A049	A	animal	free	u	the stallion	1
 A050	A	animal	acts	u	кошечка-судомоечка	1
 A050	A	animal	acts	u	собачка-пустолаечка	1
 A050	A	animal	acts	u	старуха	1
-A050	A	animal	free	p	the old man and the old woman	1
+A050	A	animal	free	p	the old woman	1
 A050	A	animal	free	u	the little barking dog	1
 A050	A	animal	free	u	the little dishwasher cat	1
 A050	A	animal	free	u	the old woman	1
@@ -2776,6 +2707,7 @@ A002	B	animal	free	u	the smelts	1
 A003	B	animal	free	p	the ice-hole	1
 A003	B	animal	free	u	the fish	2
 A004	B	animal	acts	p	курочка	1
+A004	B	animal	acts	p	лисичка и волчик	1
 A004	B	animal	acts	p	петушок	1
 A004	B	animal	free	p	the horse	1
 A004	B	animal	free	p	the horse's skin	1
@@ -2814,7 +2746,9 @@ A006	B	animal	free	u	the sledge	5
 A006	B	animal	free	u	the straw	1
 A006	B	animal	free	u	the villagers	1
 A006	B	animal	free	u	the wood	2
-A007	B	animal	acts	u	медведь, волк и заяц	2
+A007	B	animal	acts	p	медведь и волк	2
+A007	B	animal	acts	u	волк и заяц	2
+A007	B	animal	acts	u	медведь и волк	2
 A007	B	animal	free	p	the shaft	1
 A007	B	animal	free	p	the wolf's tail	1
 A007	B	animal	free	u	his forehead	1
@@ -2825,8 +2759,9 @@ A007	B	animal	free	u	the horse's hide	2
 A007	B	animal	free	u	the shaft	2
 A007	B	animal	free	u	the tree	2
 A007	B	animal	free	u	the twig	1
+A008	B	animal	acts	p	медведь и волк	5
+A008	B	animal	acts	u	медведь и волк	5
 A008	B	animal	free	p	the bullock's hide	1
-A008	B	animal	free	p	the fox, the bear and the wolf	1
 A008	B	animal	free	p	the hosts	1
 A008	B	animal	free	p	the household	1
 A008	B	animal	free	p	the peasant's household	1
@@ -2840,9 +2775,9 @@ A008	B	animal	free	u	the meat	1
 A008	B	animal	free	u	the ram	2
 A008	B	animal	free	u	the shoe	3
 A008	B	animal	free	u	the sledge	1
-A009	B	animal	free	p	the fox and the wolf	1
 A009	B	animal	free	p	the honey	1
 A009	B	animal	free	u	the honey	4
+A010	B	animal	acts	p	лисичка и волк	1
 A010	B	animal	free	p	the butter	1
 A010	B	animal	free	p	the fox's hut	1
 A010	B	animal	free	p	the peasant's wife	1
@@ -2852,7 +2787,6 @@ A010	B	animal	free	u	the butter	3
 A010	B	animal	free	u	the fish	3
 A011	B	animal	free	p	someone not named	1
 A011	B	animal	free	p	the fox's house	1
-A011	B	animal	free	p	the wolf and the fox	1
 A011	B	animal	free	p	the wolf's tail	1
 A011	B	animal	free	u	the bread	1
 A011	B	animal	free	u	the food	2
@@ -2860,26 +2794,30 @@ A011	B	animal	free	u	the herrings	4
 A011	B	animal	free	u	the house	1
 A011	B	animal	free	u	the sledge	1
 A011	B	animal	free	u	the wolf's hide	1
+A012	B	animal	acts	p	волк и лисица	5
 A012	B	animal	acts	u	мужики	2
 A012	B	animal	free	p	the hut	1
 A012	B	animal	free	u	his belly	1
 A012	B	animal	free	u	the butter	4
 A012	B	animal	free	u	the cellar	1
+A012	B	animal	free	u	the chick	1
 A012	B	animal	free	u	the door	1
 A012	B	animal	free	u	the food	1
-A012	B	animal	free	u	the hen and the chick	1
+A012	B	animal	free	u	the hen	1
 A012	B	animal	free	u	the hens	4
 A012	B	animal	free	u	the hut	1
 A012	B	animal	free	u	the ladder	1
-A012	B	animal	free	u	the pig and the lamb	1
+A012	B	animal	free	u	the lamb	1
+A012	B	animal	free	u	the pig	1
 A012	B	animal	free	u	the pot	3
 A012	B	animal	free	u	the teller	1
-A013	B	animal	free	p	the fox and the other fox	3
 A013	B	animal	free	p	the fox's hut	1
-A013	B	animal	free	p	the other fox	1
+A013	B	animal	free	p	the other fox	4
 A013	B	animal	free	u	the honey	3
 A013	B	animal	free	u	the other fox	2
-A014	B	animal	free	p	the bear and the hare	1
+A014	B	animal	acts	p	бык и заяц	1
+A014	B	animal	acts	p	петух и заяц	1
+A014	B	animal	acts	p	собаки и заяц	1
 A014	B	animal	free	p	the fox's hut	1
 A015	B	animal	acts	u	курица	1
 A015	B	animal	acts	u	курицы	1
@@ -2890,19 +2828,23 @@ A018	B	animal	acts	p	Old Man's cabbage	3
 A018	B	animal	acts	p	Old Woman's cabbage	1
 A018	B	animal	free	p	the Old Man's cabbage	3
 A018	B	animal	free	p	the Old Woman's cabbage	1
+A018	B	animal	free	u	butter	1
 A018	B	animal	free	u	the bathhouse	1
 A018	B	animal	free	u	the door	2
 A018	B	animal	free	u	the mash	1
-A018	B	animal	free	u	the oatmeal and butter	1
+A018	B	animal	free	u	the oatmeal	1
 A018	B	animal	free	u	the sack	1
 A018	B	animal	free	u	the sky	1
 A019	B	animal	free	u	the bundle	1
 A019	B	animal	free	u	the peas	1
 A020	B	animal	acts	p	Twelve goat sisters	3
-A020	B	animal	acts	u	Two-eyed, three-eyed and other Goats	1
+A020	B	animal	acts	u	Two-eyed	1
+A020	B	animal	acts	u	three-eyed	1
 A020	B	animal	free	p	the twelve goat sisters	5
-A020	B	animal	free	p	the two-eyed, three-eyed and other Goats	1
-A020	B	animal	free	u	the ceiling and the roof	1
+A020	B	animal	free	p	the two-eyed	1
+A020	B	animal	free	p	three-eyed	1
+A020	B	animal	free	u	the ceiling	1
+A020	B	animal	free	u	the roof	1
 A021	B	animal	free	u	a white hen	1
 A021	B	animal	free	u	the Fox's tail	1
 A021	B	animal	free	u	the sack	3
@@ -2912,7 +2854,6 @@ A023	B	animal	free	u	his furniture	1
 A023	B	animal	free	u	the turnip	1
 A023	B	animal	free	u	the turnips	1
 A023	B	animal	free	u	the wood	1
-A024	B	animal	free	p	the Peasant and the Bear	4
 A024	B	animal	free	u	the Fox's tail	1
 A024	B	animal	free	u	the loaves	1
 A024	B	animal	free	u	the roots	1
@@ -2926,7 +2867,8 @@ A025	B	animal	free	u	the field	1
 A025	B	animal	free	u	the grain	1
 A025	B	animal	free	u	the roots	2
 A025	B	animal	free	u	the tops	1
-A026	B	animal	acts	p	Serka and Berka	2
+A026	B	animal	acts	p	Berka	2
+A026	B	animal	acts	p	Serka	2
 A026	B	animal	free	u	the Fox's tail	1
 A026	B	animal	free	u	the field	2
 A026	B	animal	free	u	the sack	2
@@ -2934,13 +2876,8 @@ A026	B	animal	free	u	the skin	1
 A027	B	animal	free	u	himself	1
 A027	B	animal	free	u	the flail	1
 A027	B	animal	free	u	the sack	7
-A029	B	animal	acts	p	Fox and Pig	1
-A029	B	animal	acts	u	Wolf and Pig	1
 A029	B	animal	free	u	herself	1
 A029	B	animal	free	u	the guts	2
-A030	B	animal	acts	p	Wolf, Bear, Hare and Fox	1
-A030	B	animal	acts	u	Wolf, Bear and Hare	1
-A030	B	animal	free	p	the Wolf, the Bear, the Hare and the Fox	1
 A030	B	animal	free	u	Granny	1
 A030	B	animal	free	u	his rib	1
 A030	B	animal	free	u	the acorns	3
@@ -2957,53 +2894,76 @@ A032	B	animal	free	u	the nest	1
 A032	B	animal	free	u	the oak	3
 A033	B	animal	free	u	the porridge	3
 A033	B	animal	free	u	the soup	3
-A034	B	animal	acts	p	Grandfather and Grandmother	6
+A034	B	animal	acts	p	Grandfather	6
+A034	B	animal	acts	p	Grandmother	6
 A034	B	animal	acts	u	Dog	1
-A034	B	animal	acts	u	Grandfather and Grandmother	4
+A034	B	animal	acts	u	Grandfather	4
+A034	B	animal	acts	u	Grandmother	4
 A034	B	animal	free	u	the berries	1
 A034	B	animal	free	u	the dog	3
 A034	B	animal	free	u	the gate	1
 A034	B	animal	free	u	the hen	3
 A034	B	animal	free	u	the sacks	1
 A034	B	animal	free	u	the tree	1
+A037	B	animal	acts	p	кот и старик	2
 A038	B	animal	acts	p	Чучелка	1
+A038	B	animal	acts	p	кот и баран	14
 A038	B	animal	acts	u	Чучелка	2
+A038	B	animal	acts	u	кот и баран	5
 A038	B	animal	acts	u	лисины дочери	1
 A038	B	animal	free	p	Chuchelka	1
-A038	B	animal	free	p	the Cat, the Ram and the Cockerel	1
 A038	B	animal	free	u	Chuchelka	2
 A038	B	animal	free	u	the Fox's other daughters	1
 A039	B	animal	acts	p	дети лисы	1
+A039	B	animal	acts	p	кот и кочеток	1
 A039	B	animal	acts	u	дети лисы	1
+A040	B	animal	acts	p	кот и лиса	2
 A040	B	animal	acts	u	медведь и волк	2
+A041	B	animal	acts	p	лиса и кот	1
+A041	B	animal	acts	p	медведь и заяц	3
+A041	B	animal	acts	u	медведь и заяц	1
+A042	B	animal	acts	p	лиса и заяц	2
+A042	B	animal	acts	p	олень и заяц	1
+A042	B	animal	acts	p	олень и лиса	1
 A042	B	animal	acts	u	кот	7
-A042	B	animal	free	p	the others	2
-A042	B	animal	free	u	the others	7
+A042	B	animal	acts	u	лиса и заяц	4
+A042	B	animal	acts	u	олень и лиса	2
+A043	B	animal	acts	p	кабан и медведь	1
+A043	B	animal	acts	p	медведь и волк	2
+A043	B	animal	acts	u	кабан и медведь	2
+A044	B	animal	acts	p	медведь и волки	1
 A044	B	animal	acts	u	волк	5
+A044	B	animal	acts	u	медведь и волки	1
 A044	B	animal	acts	u	старик	1
 A044	B	animal	free	p	four more wolves	1
 A044	B	animal	free	u	four more wolves	1
+A045	B	animal	acts	p	баран и кот	2
+A045	B	animal	acts	p	козёл и баран	9
+A045	B	animal	acts	p	кот и медведь	1
 A045	B	animal	acts	p	медведь	2
+A045	B	animal	acts	u	баран и кот	3
 A045	B	animal	acts	u	волк	1
 A045	B	animal	acts	u	ворота	2
+A045	B	animal	acts	u	козёл и баран	5
 A045	B	animal	acts	u	медведь	3
-A045	B	animal	free	p	the Goat, the Ram, the Cat and the Bear	1
-A045	B	animal	free	p	the seven grey wolves and the white wolf	1
+A045	B	animal	free	p	the seven grey wolves	1
+A047	B	animal	acts	p	козёл и баран	7
 A047	B	animal	acts	p	старуха	3
+A047	B	animal	acts	u	козёл и баран	10
 A047	B	animal	acts	u	медведи	2
 A047	B	animal	acts	u	мужики	1
 A047	B	animal	acts	u	старик и старуха	3
 A047	B	animal	acts	u	старуха	2
+A048	B	animal	acts	p	лиса и слепень	1
 A048	B	animal	acts	u	кувшин	1
+A048	B	animal	acts	u	лиса и слепень	3
 A048	B	animal	free	p	the peasant's wife	4
 A048	B	animal	free	u	the peasant's wife	2
 A049	B	animal	acts	u	старик и старуха	3
 A049	B	animal	free	u	the heifer	1
-A049	B	animal	free	u	the old man and the old woman	4
 A049	B	animal	free	u	the sheep	2
 A049	B	animal	free	u	the stallion	1
 A050	B	animal	acts	u	старуха	1
-A050	B	animal	free	p	the old man and the old woman	1
 A050	B	animal	free	u	the cat	1
 A050	B	animal	free	u	the dog	1
 F023	A	fable	acts	p	beasts of the field	2
@@ -3060,14 +3020,12 @@ F143	A	fable	acts	u	Arab Camel-driver	1
 F143	A	fable	free	p	an Arab Camel-driver	1
 F144	A	fable	acts	p	one of them	2
 F144	A	fable	acts	p	several tongues	1
-F144	A	fable	free	p	a company of women and children	1
+F144	A	fable	free	p	a company of women	1
 F144	A	fable	free	p	one of them	2
-F144	A	fable	free	p	the old man and his son	3
-F144	A	fable	free	u	a company of women and children	1
+F144	A	fable	free	u	a company of women	1
 F144	A	fable	free	u	a group of old men	1
 F144	A	fable	free	u	a troop of women	1
 F144	A	fable	free	u	the idle lad	1
-F144	A	fable	free	u	the old man and his son	1
 F148	A	fable	free	p	some thieves	1
 F154	A	fable	acts	p	One of them	1
 F154	A	fable	free	p	a whole army of Ants	1
@@ -3119,13 +3077,15 @@ F291	A	fable	acts	u	owners	1
 F291	A	fable	free	p	his companion	1
 F291	A	fable	free	p	one Mule	1
 F291	A	fable	free	p	the Mule carrying the treasure	2
-F291	A	fable	free	p	the Mule which had been robbed and wounded	1
+F291	A	fable	free	p	the Mule which had been robbed	1
 F291	A	fable	free	p	the other Mule	2
+F291	A	fable	free	p	wounded	1
 F291	A	fable	free	u	the Mule carrying the treasure	2
-F291	A	fable	free	u	the Mule which had been robbed and wounded	1
+F291	A	fable	free	u	the Mule which had been robbed	1
 F291	A	fable	free	u	the bells	1
 F291	A	fable	free	u	the money	1
 F291	A	fable	free	u	their owners	1
+F291	A	fable	free	u	wounded	1
 F299	A	fable	free	p	others of the Shepherds	1
 F299	A	fable	free	p	they who had spared his life	2
 F299	A	fable	free	u	the Shepherds who had attacked him	1
@@ -3198,8 +3158,7 @@ F069	B	fable	acts	u	her sons	1
 F069	B	fable	acts	u	his brothers	1
 F069	B	fable	free	u	herself	1
 F070	B	fable	free	u	the land	1
-F072	B	fable	acts	p	one Game Cock	1
-F072	B	fable	acts	p	one Game Cock (the conqueror)	1
+F072	B	fable	acts	p	one Game Cock	2
 F072	B	fable	acts	p	the conqueror	1
 F072	B	fable	acts	u	the conqueror	3
 F072	B	fable	acts	u	the other Cock	2
@@ -3310,15 +3269,15 @@ P01	A	tragedy	acts	u	Chorus Leader	1
 P01	A	tragedy	acts	u	Scythian people	3
 P01	A	tragedy	acts	u	Thracian warriors	1
 P01	A	tragedy	acts	u	fountain nymphs	1
-P01	A	tragedy	acts	u	sentinels and warders at the gate	1
 P01	A	tragedy	acts	u	the doer of this deed	1
 P01	A	tragedy	acts	u	those present in council	1
 P01	A	tragedy	acts	u	those who were reconnoitring the road	1
 P01	A	tragedy	acts	u	two men	1
+P01	A	tragedy	acts	u	warders at the gate	1
 P01	A	tragedy	free	p	Hector's seers	1
 P01	A	tragedy	free	p	a stalwart hand	1
 P01	A	tragedy	free	p	the Argive army	2
-P01	A	tragedy	free	p	the Chorus Leader and the Messenger	1
+P01	A	tragedy	free	p	the Chorus Leader	1
 P01	A	tragedy	free	p	the maiden nymphs	1
 P01	A	tragedy	free	u	Achilles' horses	1
 P01	A	tragedy	free	u	Rhesus' horses	1
@@ -3327,39 +3286,30 @@ P01	A	tragedy	free	u	the Argive army	1
 P01	A	tragedy	free	u	the Scythians' children	1
 P01	A	tragedy	free	u	the Thracian scouts	1
 P01	A	tragedy	free	u	the doer of this deed	1
-P01	A	tragedy	free	u	the sentinels and warders	1
 P01	A	tragedy	free	u	two men	2
-P02	A	tragedy	acts	p	Hyllus and the elder of his brethren	1
-P02	A	tragedy	acts	p	Iolaus and Heracles	1
-P02	A	tragedy	acts	p	Iolaus and the children of Heracles	1
-P02	A	tragedy	acts	p	Iolaus, the sons of Heracles and Alcmena	2
-P02	A	tragedy	acts	p	Servant (of Hyllus)	4
+P01	A	tragedy	free	u	warders	1
+P02	A	tragedy	acts	p	the children of Heracles	1
+P02	A	tragedy	acts	p	the elder of his brethren	1
 P02	A	tragedy	acts	p	the rulers of this land	1
-P02	A	tragedy	acts	u	Iolaus and the children of Heracles	2
-P02	A	tragedy	acts	u	Servant (of Hyllus)	3
+P02	A	tragedy	acts	p	the sons of Heracles	2
 P02	A	tragedy	acts	u	her son’s daughter	1
 P02	A	tragedy	acts	u	his allies	1
 P02	A	tragedy	acts	u	his host	1
 P02	A	tragedy	acts	u	my brothers	1
 P02	A	tragedy	acts	u	seers	1
-P02	A	tragedy	acts	u	the children of Heracles	2
+P02	A	tragedy	acts	u	the children of Heracles	4
 P02	A	tragedy	free	p	Demophon's seers	1
-P02	A	tragedy	free	p	Hyllus and the elder of his brethren	1
-P02	A	tragedy	free	p	Iolaus and Heracles	1
-P02	A	tragedy	free	p	Iolaus and the children of Heracles	1
-P02	A	tragedy	free	p	Iolaus and the sons of Heracles	1
-P02	A	tragedy	free	p	Iolaus, the sons of Heracles and Alcmena	1
-P02	A	tragedy	free	p	the Athenians and the Argives	1
+P02	A	tragedy	free	p	the children of Heracles	1
+P02	A	tragedy	free	p	the elder of his brethren	1
 P02	A	tragedy	free	p	the host of Argos	1
 P02	A	tragedy	free	p	the leaders of the Athenians	1
 P02	A	tragedy	free	p	the rulers of this land	1
 P02	A	tragedy	free	p	the servant of Hyllus	5
-P02	A	tragedy	free	u	Iolaus and her brothers	1
-P02	A	tragedy	free	u	Iolaus and the children of Heracles	2
+P02	A	tragedy	free	p	the sons of Heracles	2
 P02	A	tragedy	free	u	her son's daughter	1
 P02	A	tragedy	free	u	his allies	1
 P02	A	tragedy	free	u	his army	1
-P02	A	tragedy	free	u	the children of Heracles	4
+P02	A	tragedy	free	u	the children of Heracles	6
 P02	A	tragedy	free	u	the city	3
 P02	A	tragedy	free	u	the maiden	1
 P02	A	tragedy	free	u	the servant of Hyllus	3
@@ -3367,55 +3317,54 @@ P03	A	tragedy	acts	p	Chorus	9
 P03	A	tragedy	acts	p	Eteocles	1
 P03	A	tragedy	acts	p	Phoebus	2
 P03	A	tragedy	acts	p	Zeus of the Underworld	1
-P03	A	tragedy	acts	p	his mother	1
-P03	A	tragedy	acts	p	his mother and his father	1
+P03	A	tragedy	acts	p	his father	1
+P03	A	tragedy	acts	p	his mother	2
 P03	A	tragedy	acts	p	the seven armies	1
 P03	A	tragedy	acts	p	the sons of Oedipus	4
-P03	A	tragedy	acts	u	Antigone, Ismene and Theseus	1
 P03	A	tragedy	acts	u	Chorus	10
 P03	A	tragedy	acts	u	Eumenides	3
+P03	A	tragedy	acts	u	Olympus	1
+P03	A	tragedy	acts	u	rulers of the land	1
 P03	A	tragedy	acts	u	the attendants	1
-P03	A	tragedy	acts	u	the earth and Olympus	1
+P03	A	tragedy	acts	u	the earth	1
 P03	A	tragedy	acts	u	the men of that land	1
-P03	A	tragedy	acts	u	the people and rulers of the land	1
 P03	A	tragedy	acts	u	the sons of Oedipus	1
 P03	A	tragedy	free	p	Chorus	9
 P03	A	tragedy	free	p	Eteocles	2
-P03	A	tragedy	free	p	Oedipus's mother	1
-P03	A	tragedy	free	p	Oedipus's mother and father	1
+P03	A	tragedy	free	p	Oedipus's mother	2
 P03	A	tragedy	free	p	Oedipus's sons	5
 P03	A	tragedy	free	p	Phoebus	2
-P03	A	tragedy	free	p	Theseus and his followers	1
 P03	A	tragedy	free	p	Zeus of the Underworld	1
+P03	A	tragedy	free	p	father	1
+P03	A	tragedy	free	p	his followers	1
 P03	A	tragedy	free	p	no one	1
 P03	A	tragedy	free	p	the Cadmeans	1
 P03	A	tragedy	free	p	the city	2
 P03	A	tragedy	free	p	the seven armies	1
 P03	A	tragedy	free	u	Adrastus	1
-P03	A	tragedy	free	u	Antigone, Ismene and Theseus	1
 P03	A	tragedy	free	u	Chorus	8
 P03	A	tragedy	free	u	Oedipus's sons	1
 P03	A	tragedy	free	u	Theseus's attendants	1
-P03	A	tragedy	free	u	the people and rulers of the land	1
+P03	A	tragedy	free	u	rulers of the land	1
 P04	A	tragedy	acts	p	Athens	1
 P04	A	tragedy	acts	p	Earth	1
 P04	A	tragedy	acts	p	Pythian Priestess	9
 P04	A	tragedy	acts	p	some servant	1
 P04	A	tragedy	acts	p	the sea-god	1
-P04	A	tragedy	acts	u	Athena and the daughter of Latona	1
-P04	A	tragedy	acts	u	Chorus and Old Servant	1
 P04	A	tragedy	acts	u	Trophonius	1
 P04	A	tragedy	acts	u	her pursuers	1
 P04	A	tragedy	acts	u	the Daughter of Demeter	1
 P04	A	tragedy	acts	u	the armed men	2
+P04	A	tragedy	acts	u	the daughter of Latona	1
 P04	A	tragedy	acts	u	the folk of Chalcodon	2
 P04	A	tragedy	acts	u	the maid	1
 P04	A	tragedy	acts	u	the servants	1
-P04	A	tragedy	free	p	Athens and the folk of Chalcodon	1
+P04	A	tragedy	free	p	Athens	1
 P04	A	tragedy	free	p	Earth	1
 P04	A	tragedy	free	p	Pythian Priestess	8
 P04	A	tragedy	free	p	some servant	1
-P04	A	tragedy	free	u	Athena and Artemis	1
+P04	A	tragedy	free	p	the folk of Chalcodon	1
+P04	A	tragedy	free	u	Artemis	1
 P04	A	tragedy	free	u	Athens	1
 P04	A	tragedy	free	u	Daughter of Demeter	1
 P04	A	tragedy	free	u	Pythian Priestess	1
@@ -3424,23 +3373,11 @@ P05	A	tragedy	acts	u	Sons of Theseus	1
 P05	A	tragedy	free	p	Sons of Theseus	1
 P06	A	tragedy	acts	u	Goddess of the roads	1
 P06	A	tragedy	free	u	Goddess of the roads	1
-P07	A	tragedy	free	p	Chorus and Danaus	1
-P07	A	tragedy	free	p	Chorus and Handmaidens	3
-P07	A	tragedy	free	p	Chorus, Handmaidens and Danaus	1
-P07	A	tragedy	free	u	Danaus and Aegyptus	1
 P07	A	tragedy	free	u	gods of the altar	1
-P07	A	tragedy	free	u	gods of the land and Zeus	1
 P08	A	tragedy	acts	u	Atreus' wife	1
 P08	A	tragedy	acts	u	Strophius	1
 P08	A	tragedy	acts	u	the captive girl	1
-P08	A	tragedy	free	p	Orestes and Electra	3
-P08	A	tragedy	free	p	Orestes and Pylades	3
-P08	A	tragedy	free	p	Orestes, Electra and Old man	1
-P08	A	tragedy	free	p	Orestes, Pylades and Old man	1
 P08	A	tragedy	free	u	Atreus' wife	1
-P08	A	tragedy	free	u	Clytemnestra and Aegisthus	1
-P08	A	tragedy	free	u	Orestes and Electra	1
-P08	A	tragedy	free	u	Zeus and Agamemnon	1
 P08	A	tragedy	free	u	the captive girl	2
 P09	A	tragedy	acts	p	Daughters of Pelias	1
 P09	A	tragedy	acts	u	Daughters of Pelias	1
@@ -3452,49 +3389,33 @@ P09	A	tragedy	free	u	Jason's servants	1
 P09	A	tragedy	free	u	Medea's father	1
 P10	A	tragedy	acts	u	Themis	1
 P10	A	tragedy	free	u	Themis	1
-P11	A	tragedy	acts	p	Apollo and Ocean-god	2
+P11	A	tragedy	acts	p	Ocean-god	2
 P12	A	tragedy	acts	p	The goddess of strife	2
 P12	A	tragedy	acts	p	Tyndareus's servants	1
 P12	A	tragedy	free	p	The goddess of strife	2
 P12	A	tragedy	free	p	Tyndareus's servants	1
 P12	A	tragedy	free	u	Neoptolemus	1
 P13	A	tragedy	free	u	Herdsmen	1
-P14	A	tragedy	acts	p	Orestes, Pylades	2
 P14	A	tragedy	acts	p	Pelops	1
+P14	A	tragedy	acts	p	Pylades	2
 P14	A	tragedy	acts	u	Clytaemnestra's attendants	1
-P14	A	tragedy	acts	u	Clytaemnestra, Electra	1
-P14	A	tragedy	acts	u	Orestes, Pylades	3
-P14	A	tragedy	free	p	Orestes and Pylades	3
+P14	A	tragedy	acts	u	Pylades	3
 P14	A	tragedy	free	p	Orestes' attendants	1
 P14	A	tragedy	free	p	Pelops	1
-P14	A	tragedy	free	u	Clytaemnestra and Electra	1
+P14	A	tragedy	free	p	Pylades	3
 P14	A	tragedy	free	u	Clytaemnestra's attendants	1
-P14	A	tragedy	free	u	Orestes and Electra	2
-P14	A	tragedy	free	u	Orestes and Pylades	5
 P14	A	tragedy	free	u	Orestes' attendants	1
+P14	A	tragedy	free	u	Pylades	5
 P15	A	tragedy	acts	u	Aethra's herald	1
-P15	A	tragedy	free	p	Adrastus, the Argive mothers	1
-P15	A	tragedy	free	p	Tydeus, Polynices	1
-P15	A	tragedy	free	u	Adrastus, the Argive mothers	2
 P15	A	tragedy	free	u	Aethra’s herald	1
-P15	A	tragedy	free	u	Polynices, Eteocles son of Oedipus	1
-P15	A	tragedy	free	u	Tydeus, Polynices	1
 P16	A	tragedy	acts	u	Graces	1
-P16	A	tragedy	free	p	Artemis, Athena	1
-P16	A	tragedy	free	p	Helen, Chorus	1
-P16	A	tragedy	free	p	Helen, Menelaos	1
-P16	A	tragedy	free	p	Hellenes, Trojans	1
-P16	A	tragedy	free	p	Hera, Kypris, Athena	1
-P16	A	tragedy	free	p	Menelaos, Helen	1
-P16	A	tragedy	free	u	Agamemnon, Menelaos	1
-P16	A	tragedy	free	u	Graces, Muses	1
-P16	A	tragedy	free	u	Hellenes, Trojans	1
-P16	A	tragedy	free	u	Hera, Athena	1
-P16	A	tragedy	free	u	Theoklymenos, Theonoe	1
-P16	A	tragedy	free	u	Trojans, Hellenes	1
+P16	A	tragedy	free	p	Athena	2
+P16	A	tragedy	free	u	Agamemnon	1
+P16	A	tragedy	free	u	Athena	1
+P16	A	tragedy	free	u	Graces	1
+P16	A	tragedy	free	u	Muses	1
 P17	A	tragedy	acts	p	Strophius	1
 P17	A	tragedy	acts	u	Thyestes' children	2
-P17	A	tragedy	free	p	Agamemnon, Menelaus	1
 P17	A	tragedy	free	p	Strophius	1
 P17	A	tragedy	free	u	Thyestes' children	1
 P18	A	tragedy	acts	p	Labdacus	1
@@ -3507,17 +3428,14 @@ P18	A	tragedy	acts	u	Shepherds	1
 P18	A	tragedy	free	p	Amphiaraus	1
 P18	A	tragedy	free	p	Hippomedon	1
 P18	A	tragedy	free	p	Labdacus	1
-P18	A	tragedy	free	p	Oedipus, Antigone	1
-P18	A	tragedy	free	p	Old servant, Antigone	1
 P18	A	tragedy	free	p	Polydorus	1
 P18	A	tragedy	free	u	Bromius	1
-P18	A	tragedy	free	u	Eteocles, Polyneices, Ismene, Antigone	1
 P18	A	tragedy	free	u	Haemon	1
+P18	A	tragedy	free	u	Ismene	1
 P18	A	tragedy	free	u	Labdacus	1
 P18	A	tragedy	free	u	Polydorus	1
 P19	A	tragedy	acts	p	Old Man	1
 P20	A	tragedy	acts	p	Boy	1
-P20	A	tragedy	free	p	Laius's escort and Laius	1
 P22	A	tragedy	acts	p	Charon	1
 P22	A	tragedy	acts	p	Fates	1
 P22	A	tragedy	acts	u	Fates	1
@@ -3529,77 +3447,40 @@ P23	A	tragedy	acts	u	Clytaemestra's attendant	1
 P23	A	tragedy	acts	u	Fates	1
 P23	A	tragedy	acts	u	Persephone	1
 P23	A	tragedy	acts	u	Sun	1
-P23	A	tragedy	free	p	Clytaemestra and Aegisthus	2
-P23	A	tragedy	free	p	Electra and Chorus	1
-P23	A	tragedy	free	p	Electra and Orestes	1
 P23	A	tragedy	free	p	Justice	1
 P23	A	tragedy	free	p	Minos	1
-P23	A	tragedy	free	p	Orestes and Electra	1
-P23	A	tragedy	free	p	Orestes and Pylades	2
-P23	A	tragedy	free	p	Orestes, Pylades and Electra	1
 P23	A	tragedy	free	p	dream-readers	1
 P23	A	tragedy	free	p	gods	2
 P23	A	tragedy	free	u	Clytaemestra's attendant	1
 P23	A	tragedy	free	u	Fates	1
-P23	A	tragedy	free	u	Orestes and Electra	1
 P23	A	tragedy	free	u	Persephone	1
 P23	A	tragedy	free	u	Sun	1
 P24	A	tragedy	acts	u	Alcmena's son	1
 P24	A	tragedy	free	p	ship	1
-P24	A	tragedy	free	u	Nurse and Phaedra	1
-P25	A	tragedy	free	p	Philoctetes and Neoptolemus	1
-P25	A	tragedy	free	p	Philoctetes, Neoptolemus and Chorus	1
-P25	A	tragedy	free	u	Atreids and Odysseus	1
-P25	A	tragedy	free	u	Atreids, Odysseus and Neoptolemus	1
-P25	A	tragedy	free	u	Neoptolemus and Chorus	1
-P25	A	tragedy	free	u	Odysseus and Atreids	1
-P25	A	tragedy	free	u	Philoctetes and Neoptolemus	1
 P26	A	tragedy	acts	u	Servants of Heracles	1
-P26	A	tragedy	free	p	Amphitryon and Servants of Heracles	2
-P26	A	tragedy	free	p	Iris and Madness	1
-P26	A	tragedy	free	u	Hera and Iris	1
-P26	A	tragedy	free	u	Lycus and Thebans	1
+P26	A	tragedy	free	p	Servants of Heracles	2
 P26	A	tragedy	free	u	Servants of Heracles	2
-P26	A	tragedy	free	u	Typhons, Giants and Centaurs	1
 P27	A	tragedy	acts	p	Children of Hephaistos	1
 P27	A	tragedy	acts	u	Bacchantes	1
 P27	A	tragedy	free	p	Children of Hephaistos	1
 P27	A	tragedy	free	u	Bacchantes	1
-P29	A	tragedy	acts	p	Antigone, Ismene	1
-P29	A	tragedy	acts	p	Eteocles, Polynices	1
-P29	A	tragedy	acts	p	Ismene	1
+P29	A	tragedy	acts	p	Ismene	2
 P29	A	tragedy	acts	p	Messenger	1
-P29	A	tragedy	acts	u	Eteocles, Polynices	5
-P29	A	tragedy	free	p	Antigone, Ismene	1
-P29	A	tragedy	free	p	Eteocles, Polynices	1
-P29	A	tragedy	free	p	Ismene	1
+P29	A	tragedy	free	p	Ismene	2
 P29	A	tragedy	free	p	Messenger	1
-P29	A	tragedy	free	u	Eteocles, Polynices	3
-P30	A	tragedy	acts	p	Agave, Ino, Autonoe, Theban women	1
 P30	A	tragedy	acts	p	Dirce	1
 P30	A	tragedy	acts	p	Satyrs	1
-P30	A	tragedy	acts	p	Teiresias, Kadmos	1
-P30	A	tragedy	acts	u	Kadmos, Pentheus	1
-P30	A	tragedy	free	p	Agave, Ino, Autonoe, Theban women	1
 P30	A	tragedy	free	p	Dirce	1
-P30	A	tragedy	free	p	Pentheus, Second Messenger	2
 P30	A	tragedy	free	p	Satyrs	1
-P30	A	tragedy	free	u	Ino, Autonoe	1
-P30	A	tragedy	free	u	Kadmos, Pentheus	1
-P30	A	tragedy	free	u	Kadmos, Teiresias	1
-P31	A	tragedy	acts	p	Hera	2
 P31	A	tragedy	acts	p	Zeus	1
-P31	A	tragedy	free	p	Hera	1
 P31	A	tragedy	free	p	Zeus	1
 P32	A	tragedy	acts	p	Myrmidons	1
 P32	A	tragedy	acts	u	Aeacus	1
 P32	A	tragedy	acts	u	Clytemnestra's baby	1
 P32	A	tragedy	acts	u	Tantalus	1
-P32	A	tragedy	free	p	Clytemnestra, Achilles	1
 P32	A	tragedy	free	p	Myrmidons	1
 P32	A	tragedy	free	u	Aeacus	1
 P32	A	tragedy	free	u	Clytemnestra's baby	1
-P32	A	tragedy	free	u	Clytemnestra, Achilles	1
 P32	A	tragedy	free	u	Tantalus	1
 P01	B	tragedy	acts	p	Argive army	1
 P01	B	tragedy	acts	p	Hector's seers	1
@@ -3611,9 +3492,9 @@ P01	B	tragedy	acts	u	Athena's city	1
 P01	B	tragedy	acts	u	Scythian people	3
 P01	B	tragedy	acts	u	Trojans present in council	1
 P01	B	tragedy	acts	u	fountain nymphs	1
-P01	B	tragedy	acts	u	sentinels and warders at the gate	1
 P01	B	tragedy	acts	u	the doer of this deed	1
 P01	B	tragedy	acts	u	those who were reconnoitring the road for their lord	1
+P01	B	tragedy	acts	u	warders at the gate	1
 P01	B	tragedy	free	p	Hector’s seers	1
 P01	B	tragedy	free	p	a stalwart hand	1
 P01	B	tragedy	free	p	the Argive army	2
@@ -3621,7 +3502,8 @@ P01	B	tragedy	free	u	Achilles’ horses	1
 P01	B	tragedy	free	u	Athena’s image	2
 P01	B	tragedy	free	u	Hector’s sleeping place	1
 P01	B	tragedy	free	u	Priam	1
-P01	B	tragedy	free	u	Rhesus’ horses and chariot	1
+P01	B	tragedy	free	u	Rhesus’ horses	1
+P01	B	tragedy	free	u	chariot	1
 P01	B	tragedy	free	u	the Argive army	1
 P01	B	tragedy	free	u	the Scythians’ children	1
 P01	B	tragedy	free	u	the Thracian scouts	1
@@ -3629,27 +3511,25 @@ P01	B	tragedy	free	u	the Trojans in council	1
 P01	B	tragedy	free	u	the army	1
 P01	B	tragedy	free	u	the doer of the deed	1
 P01	B	tragedy	free	u	the fountain nymphs	1
-P01	B	tragedy	free	u	the sentinels and warders	1
 P01	B	tragedy	free	u	two men	2
+P01	B	tragedy	free	u	warders	1
 P02	B	tragedy	acts	p	rulers of this land	1
 P02	B	tragedy	acts	u	Heracles' daughters	1
 P02	B	tragedy	acts	u	Heracles' sons	2
 P02	B	tragedy	acts	u	allies	1
 P02	B	tragedy	acts	u	children of Heracles	4
-P02	B	tragedy	free	p	Hebe and Heracles	1
-P02	B	tragedy	free	p	Iolaus and the children of Heracles	1
-P02	B	tragedy	free	p	Iolaus and the sons of Heracles and Alcmena	2
-P02	B	tragedy	free	p	the Argive army and Eurystheus	2
-P02	B	tragedy	free	p	the Athenians and the Argives	1
+P02	B	tragedy	free	p	the Argive army	2
+P02	B	tragedy	free	p	the children of Heracles	1
 P02	B	tragedy	free	p	the rulers of this land	1
-P02	B	tragedy	free	u	Iolaus and the children of Heracles	4
+P02	B	tragedy	free	p	the sons of Heracles	2
 P02	B	tragedy	free	u	a human throat	1
 P02	B	tragedy	free	u	his allies	1
 P02	B	tragedy	free	u	the Argive line	1
-P02	B	tragedy	free	u	the children of Heracles	3
+P02	B	tragedy	free	u	the children of Heracles	7
 P02	B	tragedy	free	u	the city	1
 P03	B	tragedy	acts	p	Cadmeans	2
 P03	B	tragedy	acts	p	Chorus	9
+P03	B	tragedy	acts	p	Eteocles	1
 P03	B	tragedy	acts	p	Phoebus	2
 P03	B	tragedy	acts	u	Adrastus	1
 P03	B	tragedy	acts	u	Argos	1
@@ -3658,32 +3538,29 @@ P03	B	tragedy	acts	u	Chorus	10
 P03	B	tragedy	acts	u	Eumenides	2
 P03	B	tragedy	acts	u	attendants	1
 P03	B	tragedy	acts	u	gods	1
-P03	B	tragedy	acts	u	people and rulers of the land	1
+P03	B	tragedy	acts	u	rulers of the land	1
 P03	B	tragedy	free	p	Chorus	9
-P03	B	tragedy	free	p	Oedipus and Antigone	1
-P03	B	tragedy	free	p	Oedipus's father and mother	1
+P03	B	tragedy	free	p	Oedipus's father	1
 P03	B	tragedy	free	p	Phoebus	1
-P03	B	tragedy	free	p	Theseus and his followers	1
 P03	B	tragedy	free	p	a man of Oedipus's race	1
+P03	B	tragedy	free	p	his followers	1
 P03	B	tragedy	free	p	the Cadmeans	1
 P03	B	tragedy	free	p	the city	2
 P03	B	tragedy	free	p	the seven armies	1
-P03	B	tragedy	free	u	Antigone, Ismene and Theseus	1
 P03	B	tragedy	free	u	Chorus	8
 P03	B	tragedy	free	u	Eumenides	3
-P03	B	tragedy	free	u	Oedipus and Antigone	1
 P03	B	tragedy	free	u	Oedipus's father	2
 P03	B	tragedy	free	u	the Cadmeans	1
-P03	B	tragedy	free	u	the people	1
 P03	B	tragedy	free	u	warriors	1
 P04	B	tragedy	acts	p	Earth	1
 P04	B	tragedy	acts	p	Pythian Priestess	8
 P04	B	tragedy	acts	u	Daughter of Demeter	1
 P04	B	tragedy	acts	u	Euboeans	1
-P04	B	tragedy	free	p	Athens and the Euboeans	1
+P04	B	tragedy	free	p	Athens	1
 P04	B	tragedy	free	p	Earth	1
+P04	B	tragedy	free	p	the Euboeans	1
 P04	B	tragedy	free	p	the Pythian Priestess	8
-P04	B	tragedy	free	u	Athena and Artemis	1
+P04	B	tragedy	free	u	Artemis	1
 P04	B	tragedy	free	u	Athens	1
 P04	B	tragedy	free	u	Hecate	1
 P04	B	tragedy	free	u	the ark	4
@@ -3724,29 +3601,14 @@ P09	B	tragedy	free	u	Themis	1
 P09	B	tragedy	free	u	Zeus	2
 P10	B	tragedy	acts	p	enemies	1
 P10	B	tragedy	free	p	the enemy	3
-P11	B	tragedy	free	p	Orestes, Delphians	2
-P11	B	tragedy	free	p	Peleus, Chorus	1
-P11	B	tragedy	free	u	Andromache, Molossus	2
 P11	B	tragedy	free	u	Troy	5
 P12	B	tragedy	acts	u	Menelaus's servants	1
-P12	B	tragedy	free	p	Electra, Pylades	1
-P12	B	tragedy	free	p	Menelaus, Menelaus's sailors	1
-P12	B	tragedy	free	p	Menelaus, Orestes	1
-P12	B	tragedy	free	p	Orestes, Electra	1
-P12	B	tragedy	free	p	Orestes, Electra, Pylades	1
-P12	B	tragedy	free	p	Orestes, Pylades	12
+P12	B	tragedy	free	p	Leda	1
+P12	B	tragedy	free	p	Menelaus's sailors	1
 P12	B	tragedy	free	p	Tyndareus's servants	1
-P12	B	tragedy	free	p	Tyndareus, Leda	1
-P12	B	tragedy	free	u	Agamemnon, Menelaus	1
-P12	B	tragedy	free	u	Chrysothemis, Iphigenia, Electra, Orestes	1
-P12	B	tragedy	free	u	Electra, Pylades	1
+P12	B	tragedy	free	u	Chrysothemis	1
 P12	B	tragedy	free	u	Menelaus's servants	1
-P12	B	tragedy	free	u	Menelaus, Orestes	4
-P12	B	tragedy	free	u	Orestes, Electra	5
-P12	B	tragedy	free	u	Orestes, Pylades	2
-P12	B	tragedy	free	u	Troy, The Hellenes	1
 P13	B	tragedy	acts	u	Messenger	1
-P13	B	tragedy	free	u	Agamemnon and Greek army	1
 P13	B	tragedy	free	u	Erinyes	1
 P13	B	tragedy	free	u	Helios	1
 P13	B	tragedy	free	u	Hermes	1
@@ -3756,45 +3618,39 @@ P13	B	tragedy	free	u	cattle	10
 P13	B	tragedy	free	u	sword	1
 P14	B	tragedy	acts	p	Pelops	1
 P14	B	tragedy	acts	u	Clytaemnestra's attendants	1
-P14	B	tragedy	free	p	Orestes and Pylades	2
 P14	B	tragedy	free	p	Orestes' attendants	1
 P14	B	tragedy	free	p	Pelops	1
-P14	B	tragedy	free	u	Clytaemnestra and Electra	1
+P14	B	tragedy	free	p	Pylades	2
 P14	B	tragedy	free	u	Clytaemnestra's attendants	1
-P14	B	tragedy	free	u	Hades, Persephone, Hermes, the Curse and the Erinyes	1
-P14	B	tragedy	free	u	Orestes and Electra	2
-P14	B	tragedy	free	u	Orestes and Pylades	4
+P14	B	tragedy	free	u	Hades	1
 P14	B	tragedy	free	u	Orestes' attendants	1
+P14	B	tragedy	free	u	Persephone	1
+P14	B	tragedy	free	u	Pylades	4
 P14	B	tragedy	free	u	Zeus	1
+P14	B	tragedy	free	u	the Curse	1
+P14	B	tragedy	free	u	the Erinyes	1
 P15	B	tragedy	acts	p	Phorbas	1
 P15	B	tragedy	acts	u	Aethra's herald	1
 P15	B	tragedy	free	p	Phorbas	1
 P15	B	tragedy	free	p	the earth	1
 P15	B	tragedy	free	u	Aethra's herald	1
 P15	B	tragedy	free	u	a kinsman	1
-P16	B	tragedy	free	p	Artemis and Athena	1
-P16	B	tragedy	free	p	Helen and Menelaos	1
-P16	B	tragedy	free	p	Hellenes and Trojans	1
-P16	B	tragedy	free	p	Hera, Kypris and Athena	1
-P16	B	tragedy	free	p	Menelaos and Helen	2
+P16	B	tragedy	free	p	Athena	2
 P16	B	tragedy	free	p	a tempest	1
 P16	B	tragedy	free	p	the sea	1
 P16	B	tragedy	free	u	Agamemnon	1
-P16	B	tragedy	free	u	Graces and Muses	1
 P16	B	tragedy	free	u	Hades	1
 P16	B	tragedy	free	u	Ilion	2
+P16	B	tragedy	free	u	Muses	1
 P16	B	tragedy	free	u	Poseidon	1
 P16	B	tragedy	free	u	Sidonian ship	1
-P16	B	tragedy	free	u	Theoklymenos and Theonoe	1
 P16	B	tragedy	free	u	another man	1
 P16	B	tragedy	free	u	the bull	2
 P16	B	tragedy	free	u	the horse	1
-P17	B	tragedy	acts	p	Agamemnon, Menelaus	1
 P17	B	tragedy	acts	p	Artemis	1
 P17	B	tragedy	acts	p	Strophius	1
 P17	B	tragedy	acts	p	eagles	1
 P17	B	tragedy	acts	p	friends turned foes	1
-P17	B	tragedy	acts	u	Agamemnon, Menelaus	4
 P17	B	tragedy	free	p	Artemis	1
 P17	B	tragedy	free	p	Strophius	1
 P17	B	tragedy	free	p	friends turned foes	1
@@ -3802,7 +3658,7 @@ P17	B	tragedy	free	p	the eagles	1
 P17	B	tragedy	free	u	Artemis	1
 P18	B	tragedy	acts	p	Argive army	1
 P18	B	tragedy	acts	p	Pallas	1
-P18	B	tragedy	acts	p	Teiresias's daughter, Menoeceus	1
+P18	B	tragedy	acts	p	Teiresias's daughter	1
 P18	B	tragedy	acts	p	sons of Agenor	1
 P18	B	tragedy	acts	p	sons of heaven	1
 P18	B	tragedy	acts	u	Artemis	1
@@ -3834,79 +3690,44 @@ P23	B	tragedy	acts	p	Minos	1
 P23	B	tragedy	acts	u	Clytaemestra's attendant	1
 P23	B	tragedy	acts	u	Persephone	1
 P23	B	tragedy	acts	u	Sun	1
-P23	B	tragedy	free	p	Clytaemestra, Aegisthus	4
-P23	B	tragedy	free	p	Electra, Chorus	1
-P23	B	tragedy	free	p	Electra, Orestes	1
 P23	B	tragedy	free	p	Justice	1
 P23	B	tragedy	free	p	Minos	1
-P23	B	tragedy	free	p	Orestes, Electra	1
-P23	B	tragedy	free	p	Orestes, Electra, Chorus	1
-P23	B	tragedy	free	p	Orestes, Pylades	1
-P23	B	tragedy	free	p	Orestes, Pylades, Electra	1
-P23	B	tragedy	free	p	Orestes, Pylades, Orestes’ attendants	1
 P23	B	tragedy	free	p	Terror	1
 P23	B	tragedy	free	p	dream-readers	1
 P23	B	tragedy	free	p	the gods	1
-P23	B	tragedy	free	u	Chorus, Electra	1
 P23	B	tragedy	free	u	Clytaemestra’s attendant	1
-P23	B	tragedy	free	u	Earth, Agamemnon	1
-P23	B	tragedy	free	u	Earth, Hermes	1
-P23	B	tragedy	free	u	Fates, Zeus	1
-P23	B	tragedy	free	u	Hermes, Earth, Agamemnon	1
-P23	B	tragedy	free	u	Orestes, Electra	1
-P23	B	tragedy	free	u	Orestes, Pylades	1
 P23	B	tragedy	free	u	Persephone	1
 P23	B	tragedy	free	u	Sun	1
-P23	B	tragedy	free	u	Zeus, Earth	1
-P23	B	tragedy	free	u	Zeus, Hermes	1
 P24	B	tragedy	acts	u	Alcmena's son	1
-P24	B	tragedy	free	p	Horses of Hippolytus, Monstrous bull	1
 P24	B	tragedy	free	p	ship	1
 P24	B	tragedy	free	u	Alcmena’s son	1
-P24	B	tragedy	free	u	Nurse, Phaedra	1
 P25	B	tragedy	acts	u	Poeas	1
 P25	B	tragedy	free	u	Poeas	1
-P26	B	tragedy	acts	p	Servants of Heracles	2
-P26	B	tragedy	acts	u	Servants of Heracles	1
 P26	B	tragedy	acts	u	Servants of Lycus	1
 P26	B	tragedy	acts	u	Shepherd of Erytheia	1
-P26	B	tragedy	free	p	Servants of Heracles	1
 P26	B	tragedy	free	u	Athenian army	1
-P26	B	tragedy	free	u	Servants of Heracles	2
 P26	B	tragedy	free	u	Servants of Lycus	2
 P26	B	tragedy	free	u	Shepherd of Erytheia	1
 P27	B	tragedy	acts	p	Children of Hephaistos	1
 P27	B	tragedy	acts	u	Bacchantes	1
-P27	B	tragedy	free	p	Agamemnon, Athena	1
 P27	B	tragedy	free	p	Children of Hephaistos	1
-P27	B	tragedy	free	p	Delphus, People of Delphi	1
+P27	B	tragedy	free	p	Delphus	1
 P27	B	tragedy	free	u	Bacchantes	1
-P27	B	tragedy	free	u	Herald, Jury, Citizens of Athens	1
-P27	B	tragedy	free	u	Orestes, Furies	1
-P28	B	tragedy	free	p	Power, Force	2
-P28	B	tragedy	free	p	Prometheus, Themis	1
-P28	B	tragedy	free	u	Cronus, Titans	1
+P28	B	tragedy	free	p	Force	2
 P29	B	tragedy	acts	p	Ismene	2
 P29	B	tragedy	acts	p	Messenger	1
-P29	B	tragedy	acts	u	Eteocles, Polynices	3
 P29	B	tragedy	free	p	Ismene	2
 P29	B	tragedy	free	p	Messenger	1
-P29	B	tragedy	free	u	Eteocles, Polynices	3
 P30	B	tragedy	acts	p	Artemis	1
 P30	B	tragedy	acts	u	Citizens	1
 P30	B	tragedy	acts	u	Hera	1
-P30	B	tragedy	acts	u	Ino, Autonoe	2
 P30	B	tragedy	free	p	a wanderer about the city	1
 P30	B	tragedy	free	p	his hounds	1
 P30	B	tragedy	free	p	snakes	1
 P30	B	tragedy	free	p	someone	1
 P30	B	tragedy	free	u	Artemis	1
 P30	B	tragedy	free	u	Hera	1
-P30	B	tragedy	free	u	Ino, Autonoe	1
-P31	B	tragedy	acts	p	Hera	2
-P31	B	tragedy	free	p	Hera	1
 P31	B	tragedy	free	p	Zeus	1
 P31	B	tragedy	free	p	citadel of Troy	1
 P32	B	tragedy	free	p	Myrmidons	2
 P32	B	tragedy	free	u	Aeacus	1
-P32	B	tragedy	free	u	Clytemnestra and Achilles	1

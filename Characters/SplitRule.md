@@ -1,6 +1,6 @@
-# Splitting several-name fields: a draft rule (DRAFT 2026-10-26, NOT ADOPTED)
+# Splitting several-name fields: the rule (ADOPTED 2026-10-26 AT THE OWNER'S WORD)
 
-**Drafted 2026-10-26 at the owner's request, for review.** The code is in `characters.py` (`split_field`, `split_entries`, test `c7`). Nothing here changes the character table or `Spheres/explore.py`; each would change only at the owner's word, as an amendment to `CharacterProtocol.md` (section 8).
+**Drafted 2026-10-26 at the owner's request, for review.** The code is in `characters.py` (`split_field`, `split_entries`, test `c7`). **Adopted 2026-10-26, the owner's choices:** credit (all); generic parts split the difference, so pronoun-like words (*others*, *all*, *both*, *everyone*) are dropped and group nouns (*people*, *men*, *children*) are kept; applied to both the character table and `Spheres/explore.py`, where the code now lives (`split_field`, `expand`). Recorded in `CharacterProtocol.md` section 8. The draft's figures below are kept as they were measured before adoption.
 
 ## The problem
 

@@ -54,7 +54,7 @@
 | 7 | Propp's blocks told together beyond chance | animal tales | **holds**, every reading, both transcribers (blocks 61% and 62% of functions against 42% and 44% shuffled) |
 | 8 | The same | myths | **holds** (48% and 42% against 31% and 30%) |
 | 9 | The order model fitting best, reported | animal tales | the fable's, both transcribers |
-| 10 | Spheres, reported | animal tales | the villain's sphere in 90% of tales, the hero's in 58% and 46% (wondertales 98%); hero and villain in one character in 32% and 20% (wondertales on card C 58% and 67%) |
+| 10 | Spheres, reported | animal tales | the villain's sphere in 90% of tales, the hero's in 58% and 46% (wondertales 98%); hero and villain in one character in 32% and 22% (wondertales on card C 69% and 69%); regenerated 2026-10-26 with the name join's fixed tie-break and the split of several-name fields, from 32% and 20% (58% and 67%) |
 | 11 | Values, reported | animal tales | on every device between tale and fable; the hero's deceptions help the hero in 77% and 80% (tales 94%, fables about 50%) |
 
 **The wondertales on the corrected card, run beside them, behave as on the uncorrected card:** the same six of Propp's pairs confirmed, the acts' counterparts 7 of 10, the frame links within a few points.
