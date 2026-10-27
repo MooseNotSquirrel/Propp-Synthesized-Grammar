@@ -297,3 +297,11 @@ NEXT: at the owner's word, `python names.py setup3` writes the stage; then it ru
 - `names-14`: `n46` to `n48`, 6 readers.
 The table stays unchanged until both readers' answers for a batch exist.
 NEXT: `names-12`, at the owner's word, when the budget allows.
+**2026-10-27. The third name stage, first portion: `names-12` run, merged.** `n38` to `n41`, eight readers started at once from master 86d22c6, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-12` (1c00acd) and merged at 17dec5f; no failure. The readers used 56,000 to 63,000 tokens each, some 488,000 in all. A check of form on the four batches: every item answered once, in order, with a kind and a confidence from the lists and a reason.
+- **Raised by the readers, reported and not judged:**
+  - wondertale beings between spirit, god and person: the Sun's Sister, the Water King, the Brass Old Man, the Eater and the Drinker, the maiden of the copper kingdom, the dragon's daughter;
+  - the horseman who trains Achilles, not named a centaur;
+  - the speaking Sea and Oak, the Mask;
+  - Mercury as deity.
+  - Reader A of `n41` notes two items that each name a mother and her young (`n41-054`, `n41-067`).
+NEXT: `names-13` (`n42` to `n45`, 8 readers), at the owner's word, if the budget allows; then `names-14`, the merge and the rescoring next session.
