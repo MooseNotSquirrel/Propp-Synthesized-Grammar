@@ -46,6 +46,19 @@ A n45 items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0
 A n46 items  62, answered  62, missing 0, unknown items 0, out-of-list answers 0, in order yes
 A n47 items  62, answered  62, missing 0, unknown items 0, out-of-list answers 0, in order yes
 A n48 items  33, answered  33, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n49 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n50 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n51 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n52 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n53 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n54 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n55 items  64, answered  64, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n56 items  65, answered  65, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n57 items  65, answered  65, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n58 items  75, answered  75, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n59 items  51, answered  51, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n60 items  52, answered  52, missing 0, unknown items 0, out-of-list answers 0, in order yes
+A n61 items  52, answered  52, missing 0, unknown items 0, out-of-list answers 0, in order yes
 B n1  items  69, answered  69, missing 0, unknown items 0, out-of-list answers 0, in order yes
 B n2  items  70, answered  70, missing 0, unknown items 0, out-of-list answers 0, in order yes
 B n3  items  33, answered  33, missing 0, unknown items 0, out-of-list answers 0, in order yes
@@ -94,4 +107,17 @@ B n45 items  76, answered  76, missing 0, unknown items 0, out-of-list answers 0
 B n46 items  62, answered  62, missing 0, unknown items 0, out-of-list answers 0, in order yes
 B n47 items  62, answered  62, missing 0, unknown items 0, out-of-list answers 0, in order yes
 B n48 items  33, answered  33, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n49 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n50 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n51 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n52 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n53 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n54 items  68, answered  68, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n55 items  64, answered  64, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n56 items  65, answered  65, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n57 items  65, answered  65, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n58 items  75, answered  75, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n59 items  51, answered  51, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n60 items  52, answered  52, missing 0, unknown items 0, out-of-list answers 0, in order yes
+B n61 items  52, answered  52, missing 0, unknown items 0, out-of-list answers 0, in order yes
 IN FORM

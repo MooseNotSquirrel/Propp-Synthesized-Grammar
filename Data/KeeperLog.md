@@ -394,3 +394,21 @@ NEXT: `names-18` (`n60` and `n61`, 4 readers), at the owner's word; then the for
   - "Whoever should read the riddle" begins with *whoever*, so it is counted apart.
 - **The character table is unchanged:** it is not rebuilt until the owner's word.
 NEXT: at the owner's word, the form check, the score, the table rebuilt after T1, T2 and T4 pass (taking the fourth stage and the 167 controls), C1 to C7, and the rescoring into `CharacterRun-amended.txt`.
+**2026-10-28. The fourth name stage merged with the 167 controls; the predictions rescored beside the record.** At the owner's word.
+- **In form:** all 122 answer files of the four stages.
+- **The fourth stage's agreement:** wondertales 400 of 408 (98%), animal tales 64 of 64, fables 129 of 130, tragedies 72 of 75, myths 143 of 151. Four phrase-names were counted apart.
+- **The controls taking the readers' kind:** first stage 48 of 49 agreed, second 59 of 60, third 59 of 60; the rest are unknown.
+- **The table rebuilt** (after T1, T2 and T4 passed): 7,215 rows. Only the kind columns changed.
+  - **No kind rests on the WordNet rule now:** the readers set 7,083 and 132 are unknown (1.8%).
+  - 230 kinds changed: wondertales 104, animal tales 12, fables 38, tragedies 29, myths 47.
+  - The largest move is 53 wondertale characters from person to supernatural (witches' kin, wonder-working old men).
+- **C1 to C7:** all pass.
+- **Rescored** (`Characters/CharacterRun-amended.txt`, `measures.py run --amended`). It is reported beside the verdicts of record in `CharacterRun.txt`, which is untouched. The amendment was prompted partly by faults seen in prediction 2's figures.
+  1. Wondertales, person over half: record A 72.3%, B 73.6%, HOLDS; amended A 67.1%, B 68.8%, HOLDS.
+  2. Fables, animal over half: record A 49.1%, B 47.9%, FAILS; amended A 56.0%, B 55.0%, **HOLDS**.
+  3. Animal tales, animal over half: record A 72.5%, B 71.1%, HOLDS; amended A 77.8%, B 77.5%, HOLDS.
+  4. Deity share higher in the myths and tragedies than in the wondertales and fables: HOLDS in both. Amended: A 23.7%, 18.1% against 0.0%, 5.5%; B 26.0%, 17.1% against 0.0%, 4.6%.
+  5. Stock actors: HOLDS in both. The figures are unchanged, since the ranking uses head nouns, not kinds.
+  6. Grouping beats shuffles: SPLIT in both. The figures are unchanged, since the grouping uses acts alone.
+- **The fables' heroes beside `PreliminaryFindings.md` section 5, amended:** animal 49% and 57% against 71%, person 45% and 36% against 22%. They still differ by more than 5 points, **to be explained**.
+NEXT: at the owner's word, the fables' heroes difference explained; the layer added to `Parity.md` section 1.

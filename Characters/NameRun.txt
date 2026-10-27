@@ -27,3 +27,13 @@ uncapitalized common-noun controls, reader A: 53 of 60 the kind the WordNet rule
 uncapitalized common-noun controls, reader B: 54 of 60 the kind the WordNet rule gives (90%)
 uncapitalized common-noun controls, both readers the rule's kind: 53 of 60; the rule stands for the uncapitalized common nouns at 54 or more: DOES NOT STAND: the uncapitalized common nouns go to the readers
 phrase-names counted apart, given no kind: 0 ()
+# the fourth stage (CharacterProtocol.md section 8, 2026-10-28): every common-class character not asked before; no controls
+tale     items 408, both readers the same kind 400 (98%), both with high confidence 318; agreed kinds: person 218, animal 62, supernatural 80, object 40
+animal   items  64, both readers the same kind  64 (100%), both with high confidence  48; agreed kinds: person 18, animal 15, object 31
+fable    items 130, both readers the same kind 129 (99%), both with high confidence 119; agreed kinds: person 53, animal 36, object 40
+tragedy  items  75, both readers the same kind  72 (96%), both with high confidence  62; agreed kinds: person 61, animal 4, deity 4, object 3
+myth     items 151, both readers the same kind 143 (95%), both with high confidence 116; agreed kinds: person 46, animal 40, supernatural 6, object 51
+phrase-names counted apart, given no kind: 4 (as a result of Orpheus's violation; by lot; by means of Athena; whoever should read the riddle)
+# controls taking the readers' kind (the owner's word, 2026-10-28): first stage, 49 controls, both readers the same kind 48, the rest unknown
+# controls taking the readers' kind (the owner's word, 2026-10-28): second stage, 60 controls, both readers the same kind 59, the rest unknown
+# controls taking the readers' kind (the owner's word, 2026-10-28): third stage, 60 controls, both readers the same kind 59, the rest unknown

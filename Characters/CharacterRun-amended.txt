@@ -1,0 +1,452 @@
+# CharacterRun-amended.txt -- measures.py run --amended: the measures of Data/CharacterProtocol.md section 4, and predictions 1 to 6, on the table AMENDED AFTER THE MEASURES (Characters/SenseRule.md, CharacterProtocol.md section 8)
+# reported beside the verdicts of record in CharacterRun.txt, not replacing them; the amendment was prompted partly by faults seen in prediction 2's figures
+# every figure for readers A and B separately; the keeper's operational rules are in measures.py's header
+
+== wondertales, reader A: 666 characters in 45 stories
+  1. kind by role
+    villain      111: person 54%, animal 12%, supernatural 32%, object 1%, unknown 1%
+    donor        116: person 62%, animal 20%, supernatural 12%, object 3%, unknown 3%
+    helper       129: person 65%, animal 16%, supernatural 11%, object 5%, unknown 3%
+    princess      60: person 85%, animal 2%, supernatural 10%, object 2%, unknown 2%
+    dispatcher    35: person 91%, supernatural 3%, object 6%
+    hero          93: person 97%, animal 1%, supernatural 2%
+    false hero     6: person 100%
+    any sphere   350: person 67%, animal 13%, supernatural 15%, object 3%, unknown 2%
+  2. roles
+    sphere-holders 350, holding two spheres or more 138 (39%); commonest combinations: donor + helper 35; helper + hero 11; villain + donor + helper + hero 8; villain + helper 7; villain + hero 7
+    bottom-up: 233 characters with 3 acts or more, 3 groups, agreement with the spheres ARI -0.002 -- COLLAPSED, not read further
+    shuffle test: 789 of 1000 shuffles reach the real agreement (passes at 50 or fewer): FAIL
+  3. rank by frequency
+    by stories, head nouns 275: top-five share 14.5%, slope -0.69; top ten: man 19, princess 19, tsar 19, brothers 16, dragon 13, ivan-tsarevich 11, horse 10, woman 9, yaga 9, daughter 8
+      by stories, by kind: person 45, animal 32, supernatural 32, object 21, unknown 11, deity 1
+      by stories, by role: no sphere 45, hero 44, villain 44, helper 38, donor 37, dispatcher 29, princess 28, false hero 6
+    by acts, head nouns 275: top-five share 27.2%, slope -1.37; top ten: ivan-tsarevich 269, tsar 129, man 110, ivashko 73, burya 70, princess 69, devil 64, dragon 62, soldier 61, yaga 61
+      by acts, by kind: person 1888, supernatural 349, animal 123, unknown 26, object 3, deity 0
+      by acts, by role: hero 1306, helper 1202, villain 1181, donor 788, princess 686, dispatcher 269, no sphere 183, false hero 23
+
+== wondertales, reader B: 690 characters in 45 stories
+  1. kind by role
+    villain      110: person 57%, animal 13%, supernatural 28%, object 1%, unknown 1%
+    donor        159: person 63%, animal 16%, supernatural 13%, object 5%, unknown 3%
+    helper       129: person 66%, animal 9%, supernatural 12%, object 9%, unknown 5%
+    princess      57: person 81%, supernatural 14%, object 2%, unknown 4%
+    dispatcher    66: person 85%, animal 3%, supernatural 9%, object 2%, unknown 2%
+    hero         109: person 98%, animal 1%, unknown 1%
+    false hero     8: person 100%
+    any sphere   398: person 69%, animal 11%, supernatural 13%, object 5%, unknown 3%
+  2. roles
+    sphere-holders 398, holding two spheres or more 163 (41%); commonest combinations: donor + helper 32; helper + hero 13; villain + helper + hero 11; villain + donor 10; donor + hero 8
+    bottom-up: 229 characters with 3 acts or more, 10 groups, agreement with the spheres ARI 0.031
+      group 5, 77 characters; matches helper + hero
+        performs: respond 98, deceive 88, plead 79, harm 75, win 70
+        undergoes: give 110, plead 74, reveal-information 58, respond 51, test 51
+        kinds: person 90%, animal 3%, supernatural 5%, object 1%, unknown 1%
+        spheres held: hero 55, helper 40, villain 31, donor 22, princess 16, dispatcher 15, false hero 1
+      group 8, 35 characters; matches donor
+        performs: give 52, send 31, punish 11, respond 10, forbid 9
+        undergoes: plead 18, reveal-information 18, leave 13, respond 12, decide 11
+        kinds: person 86%, animal 9%, supernatural 3%, unknown 3%
+        spheres held: donor 18, dispatcher 11, princess 9, villain 7, helper 6, hero 6
+      group 2, 28 characters; matches villain
+        performs: harm 36, escape 16, expose 7, other 7, plead 7
+        undergoes: harm 40, deceive 7, repair 7, seek-information 7, win 7
+        kinds: person 50%, animal 18%, supernatural 32%
+        spheres held: villain 15, donor 11, helper 6, hero 3, princess 2, dispatcher 1
+      group 3, 24 characters; matches villain
+        performs: be-taken-in 38, harm 15, pursue 13, seek-information 13, test 12
+        undergoes: deceive 61, harm 17, escape 16, respond 9, reveal-information 9
+        kinds: person 29%, animal 4%, supernatural 62%, unknown 4%
+        spheres held: villain 17, donor 6, helper 5, hero 5, dispatcher 4, princess 3, false hero 1
+      group 7, 19 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: reveal-information 17, seek-information 12, send 8, test 8, give 6
+        undergoes: reveal-information 17, seek-information 9, respond 7, expose 4, guide 4
+        kinds: person 63%, animal 5%, supernatural 26%, unknown 5%
+        spheres held: donor 8, helper 7, princess 5, dispatcher 3, hero 2, villain 2
+      group 6, 18 characters; matches donor
+        performs: test 19, plead 10, give 8, repair 7, harm 5
+        undergoes: respond 38, lose 4, give 3, leave 3, other 3
+        kinds: person 33%, animal 44%, supernatural 22%
+        spheres held: donor 11, helper 6, hero 3, princess 3, villain 2, dispatcher 1
+      group 4, 17 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: do-task 13, respond 10, decide 8, lose 6, reveal-information 6
+        undergoes: send 28, plead 10, test 10, expose 7, deceive 6
+        kinds: person 88%, animal 12%
+        spheres held: hero 7, donor 6, helper 6, villain 3, dispatcher 1, princess 1
+      group 9, 5 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: harm 2, threaten 2, fight 1, other 1, send 1
+        undergoes: win 8, fight 5, decide 1, escape 1, plead 1
+        kinds: supernatural 100%
+        spheres held: villain 2
+      group 10, 4 characters; matches villain + false hero
+        performs: threaten 9, claim-falsely 5, punish 2, return 2, decide 1
+        undergoes: punish 5, expose 3, give 3, respond 3, decide 2
+        kinds: person 75%, supernatural 25%
+        spheres held: false hero 3, villain 2, helper 1, hero 1, princess 1
+      group 1, 2 characters; matches princess + hero
+        performs: leave 3, return 2, do-task 1, marry 1
+        undergoes: escape 1, give 1, set-task 1
+        kinds: person 100%
+        spheres held: hero 1, princess 1
+    shuffle test: 1 of 1000 shuffles reach the real agreement (passes at 50 or fewer): pass
+  3. rank by frequency
+    by stories, head nouns 290: top-five share 13.8%, slope -0.69; top ten: princess 19, tsar 19, man 18, brothers 16, dragon 13, daughter 12, mother 11, father 9, horse 9, ivan-tsarevich 9
+      by stories, by kind: person 45, supernatural 32, animal 31, object 25, unknown 10, deity 1
+      by stories, by role: hero 44, no sphere 44, villain 42, donor 41, helper 41, dispatcher 39, princess 26, false hero 7
+    by acts, head nouns 290: top-five share 27.5%, slope -1.35; top ten: ivan-tsarevich 235, ivan 94, man 92, tsar 91, ivashko 67, devil 60, burya 57, fox 53, princess 50, soldier 50
+      by acts, by kind: person 1620, supernatural 308, animal 123, unknown 41, object 10, deity 0
+      by acts, by role: hero 1211, helper 1094, villain 1066, donor 780, princess 533, dispatcher 474, no sphere 115, false hero 34
+
+== animal tales, reader A: 291 characters in 50 stories
+  1. kind by role
+    villain       80: person 29%, animal 71%
+    donor         44: person 14%, animal 86%
+    helper        57: person 11%, animal 88%, object 2%
+    princess      11: person 27%, animal 73%
+    dispatcher    19: person 11%, animal 89%
+    hero          42: person 24%, animal 74%, object 2%
+    false hero     3: animal 100%
+    any sphere   153: person 22%, animal 78%, object 1%
+  2. roles
+    sphere-holders 153, holding two spheres or more 72 (47%); commonest combinations: helper + hero 11; donor + helper 10; villain + hero 7; donor + helper + hero 6; villain + donor 6
+    bottom-up: 187 characters with 3 acts or more, 10 groups, agreement with the spheres ARI -0.004
+      group 8, 78 characters; matches villain
+        performs: other 189, deceive 170, harm 92, respond 67, plead 46
+        undergoes: be-taken-in 80, respond 61, deceive 60, plead 56, seek-information 54
+        kinds: person 18%, animal 78%, object 4%
+        spheres held: villain 43, hero 27, helper 22, donor 18, dispatcher 9, princess 3, false hero 1
+      group 6, 46 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: be-taken-in 59, seek-information 48, decide 31, other 28, deceive 25
+        undergoes: deceive 135, harm 56, reveal-information 32, respond 21, forbid 15
+        kinds: person 17%, animal 83%
+        spheres held: helper 11, donor 10, dispatcher 6, villain 4, hero 3, princess 3, false hero 1
+      group 7, 21 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: plead 27, harm 21, seek-information 15, lose 14, other 14
+        undergoes: respond 34, reveal-information 15, harm 12, test 11, deceive 10
+        kinds: person 5%, animal 95%
+        spheres held: villain 8, helper 7, donor 5, dispatcher 2, hero 2, princess 2
+      group 2, 11 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: reveal-information 14, lament 8, other 7, receive 5, respond 4
+        undergoes: seek-information 19, decide 9, punish 5, be-taken-in 4, escape 4
+        kinds: person 18%, animal 36%, object 45%
+        spheres held: helper 4, hero 3, dispatcher 1, donor 1, false hero 1, villain 1
+      group 5, 11 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: other 7, decide 3, harm 3, leave 2, seek-information 2
+        undergoes: harm 16, lament 4, other 4, plead 3, seek-information 3
+        kinds: person 82%, animal 9%, object 9%
+        spheres held: villain 2, princess 1
+      group 9, 6 characters; matches villain
+        performs: threaten 8, harm 6, deceive 3, give 1, lament 1
+        undergoes: plead 9, other 6, escape 4, be-taken-in 3, forbid 1
+        kinds: person 17%, animal 83%
+        spheres held: villain 3, donor 1, helper 1
+      group 10, 6 characters; matches helper
+        performs: respond 9, other 6, threaten 6, give 4, leave 3
+        undergoes: forbid 17, lose 6, threaten 4, seek-information 3, escape 2
+        kinds: person 50%, animal 50%
+        spheres held: helper 3, donor 2, hero 2, villain 1
+      group 1, 5 characters; matches hero
+        performs: forbid 11, leave 8, repair 5, return 5, harm 4
+        undergoes: plead 6, disobey 4, give 4, be-taken-in 2, leave 1
+        kinds: person 40%, animal 60%
+        spheres held: hero 3, helper 2, dispatcher 1, villain 1
+      group 4, 2 characters; matches villain + donor
+        performs: test 7, fight 1, guide 1, other 1
+        undergoes: respond 3, be-taken-in 2, claim-falsely 1, deceive 1, harm 1
+        kinds: animal 100%
+        spheres held: donor 1, villain 1
+      group 3, 1 characters; matches helper
+        performs: lament 4, give 2, guide 2, respond 1, reveal-information 1
+        undergoes: threaten 4, seek-information 1
+        kinds: animal 100%
+        spheres held: helper 1
+    shuffle test: 564 of 1000 shuffles reach the real agreement (passes at 50 or fewer): FAIL
+  3. rank by frequency
+    by stories, head nouns 87: top-five share 41.5%, slope -0.95; top ten: fox 43, wolf 29, bear 20, peasant 14, man 13, woman 12, cat 10, cockerel 9, hare 8, dogs 6
+      by stories, by kind: animal 49, person 32, object 12
+      by stories, by role: villain 45, no sphere 42, helper 35, hero 29, donor 26, dispatcher 15, princess 10, false hero 3
+    by acts, head nouns 87: top-five share 68.1%, slope -1.74; top ten: fox 619, wolf 261, bear 141, peasant 106, cat 96, man 96, goat 68, ram 58, cockerel 52, hare 35
+      by acts, by kind: animal 1477, person 280, object 39
+      by acts, by role: villain 869, helper 743, hero 658, donor 467, no sphere 251, dispatcher 245, princess 118, false hero 23
+
+== animal tales, reader B: 286 characters in 50 stories
+  1. kind by role
+    villain       80: person 29%, animal 71%
+    donor         32: person 9%, animal 91%
+    helper        36: person 17%, animal 83%
+    princess       4: person 25%, animal 50%, object 25%
+    dispatcher    18: person 39%, animal 61%
+    hero          35: person 17%, animal 80%, object 3%
+    false hero     1: animal 100%
+    any sphere   142: person 21%, animal 77%, object 1%
+  2. roles
+    sphere-holders 142, holding two spheres or more 47 (33%); commonest combinations: donor + helper 8; helper + hero 7; villain + hero 4; donor + hero 3; villain + helper 3
+    bottom-up: 174 characters with 3 acts or more, 10 groups, agreement with the spheres ARI 0.082
+      group 10, 64 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: respond 78, be-taken-in 63, plead 43, harm 31, seek-information 27
+        undergoes: deceive 139, harm 88, plead 57, test 34, forbid 28
+        kinds: person 30%, animal 67%, object 3%
+        spheres held: villain 18, donor 9, helper 9, dispatcher 6, hero 5, princess 2, false hero 1
+      group 8, 39 characters; matches villain
+        performs: deceive 149, harm 74, other 46, plead 32, receive 27
+        undergoes: be-taken-in 68, respond 42, seek-information 38, escape 26, deceive 14
+        kinds: person 18%, animal 82%
+        spheres held: villain 31, helper 11, hero 10, donor 5, dispatcher 3, princess 1
+      group 9, 32 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: seek-information 35, plead 27, escape 25, respond 15, harm 14
+        undergoes: respond 58, reveal-information 26, deceive 24, harm 20, give 8
+        kinds: person 6%, animal 94%
+        spheres held: donor 10, helper 8, villain 8, hero 3, dispatcher 1
+      group 6, 11 characters; matches villain
+        performs: harm 8, escape 5, threaten 5, pursue 4, respond 3
+        undergoes: escape 14, plead 6, harm 2, deceive 1, decide 1
+        kinds: person 18%, animal 82%
+        spheres held: villain 6, donor 2, hero 2, dispatcher 1
+      group 2, 8 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: forbid 9, decide 8, lose 6, be-taken-in 3, seek-information 3
+        undergoes: threaten 5, reveal-information 3, expose 2, plead 2, decide 1
+        kinds: person 12%, animal 88%
+        spheres held: hero 3, dispatcher 2
+      group 4, 8 characters; matches hero
+        performs: reveal-information 13, lament 7, respond 7, escape 5, send 4
+        undergoes: seek-information 10, send 9, decide 5, other 2, respond 2
+        kinds: person 12%, animal 88%
+        spheres held: hero 4, dispatcher 3, helper 3
+      group 3, 4 characters; matches villain + helper + hero
+        performs: forbid 9, leave 5, repair 5, harm 4, give 3
+        undergoes: give 7, plead 6, disobey 5, be-taken-in 2
+        kinds: person 25%, animal 75%
+        spheres held: hero 3, helper 2, villain 2
+      group 5, 3 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: threaten 6, deceive 2, lose 2, expose 1, harm 1
+        undergoes: forbid 8, threaten 4, be-taken-in 3, lose 3, other 3
+        kinds: person 33%, animal 67%
+        spheres held: helper 1, hero 1, villain 1
+      group 7, 3 characters; matches hero
+        performs: test 11, receive 3, return 3, win 3, lament 2
+        undergoes: plead 7, respond 7, lose 4, be-taken-in 1, harm 1
+        kinds: person 33%, animal 67%
+        spheres held: hero 2, donor 1
+      group 1, 2 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: other 1
+        undergoes: lament 6, harm 2, guide 1, seek-information 1
+        kinds: person 100%
+        spheres held: none
+    shuffle test: 0 of 1000 shuffles reach the real agreement (passes at 50 or fewer): pass
+  3. rank by frequency
+    by stories, head nouns 84: top-five share 42.3%, slope -0.96; top ten: fox 43, wolf 29, bear 20, peasant 14, man 13, woman 13, cat 9, cockerel 9, hare 8, dogs 6
+      by stories, by kind: animal 49, person 32, object 14
+      by stories, by role: villain 45, no sphere 43, helper 26, hero 23, donor 20, dispatcher 15, princess 4, false hero 1
+    by acts, head nouns 84: top-five share 72.3%, slope -1.71; top ten: fox 563, wolf 229, peasant 108, bear 104, man 81, cat 62, cockerel 48, goat 44, hare 27, ram 23
+      by acts, by kind: animal 1218, person 252, object 30
+      by acts, by role: villain 786, helper 398, hero 320, donor 279, no sphere 248, dispatcher 163, princess 34, false hero 5
+
+== fables, reader A: 590 characters in 198 stories
+  1. kind by role
+    villain      120: person 30%, animal 62%, deity 2%, object 5%, unknown 1%
+    donor         47: person 23%, animal 57%, deity 19%
+    helper        52: person 40%, animal 56%, deity 4%
+    princess      53: person 36%, animal 53%, deity 9%, object 2%
+    dispatcher    14: person 43%, animal 29%, deity 21%, object 7%
+    hero          53: person 45%, animal 49%, deity 2%, object 2%, unknown 2%
+    false hero    20: person 30%, animal 60%, deity 5%, object 5%
+    any sphere   291: person 35%, animal 56%, deity 5%, object 3%, unknown 1%
+  2. roles
+    sphere-holders 291, holding two spheres or more 60 (21%); commonest combinations: villain + princess 7; villain + donor 6; villain + hero 6; donor + helper 5; hero + false hero 5
+    bottom-up: 140 characters with 3 acts or more, 3 groups, agreement with the spheres ARI 0.108 -- COLLAPSED, not read further
+    shuffle test: 1 of 1000 shuffles reach the real agreement (passes at 50 or fewer): pass
+  3. rank by frequency
+    by stories, head nouns 277: top-five share 16.0%, slope -0.66; top ten: lion 23, fox 22, man 17, ass 15, wolf 15, eagle 11, jupiter 10, beasts 9, dog 8, owner 8
+      by stories, by kind: animal 156, person 99, object 36, deity 17, unknown 4, supernatural 1
+      by stories, by role: no sphere 159, villain 95, princess 47, helper 45, hero 45, donor 41, false hero 19, dispatcher 12
+    by acts, head nouns 277: top-five share 22.1%, slope -0.87; top ten: fox 28, lion 25, man 21, wolf 17, mercury 16, ass 14, peasant 12, eagle 11, miller 11, dog 10
+      by acts, by kind: animal 272, person 169, deity 32, object 8, supernatural 3, unknown 0
+      by acts, by role: no sphere 156, villain 123, hero 100, princess 82, helper 79, donor 44, false hero 33, dispatcher 16
+
+== fables, reader B: 581 characters in 198 stories
+  1. kind by role
+    villain      133: person 35%, animal 55%, deity 2%, object 8%, unknown 1%
+    donor         47: person 28%, animal 51%, deity 19%, unknown 2%
+    helper        44: person 43%, animal 52%, deity 2%, object 2%
+    princess      36: person 36%, animal 53%, deity 11%
+    dispatcher    15: person 27%, animal 60%, object 13%
+    hero          58: person 36%, animal 57%, deity 3%, object 2%, unknown 2%
+    false hero     7: person 43%, animal 43%, object 14%
+    any sphere   280: person 34%, animal 55%, deity 5%, object 6%, unknown 1%
+  2. roles
+    sphere-holders 280, holding two spheres or more 47 (17%); commonest combinations: villain + donor 6; helper + hero 5; helper + princess 5; villain + helper 5; villain + hero 4
+    bottom-up: 138 characters with 3 acts or more, 10 groups, agreement with the spheres ARI 0.039
+      group 6, 36 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: other 35, expose 12, harm 10, respond 7, be-taken-in 4
+        undergoes: expose 22, harm 10, escape 5, be-taken-in 4, deceive 4
+        kinds: person 39%, animal 58%, object 3%
+        spheres held: hero 9, villain 9, princess 3, donor 2, helper 2, false hero 1
+      group 7, 35 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: harm 19, respond 14, plead 12, escape 4, lament 3
+        undergoes: harm 30, respond 15, plead 8, give 5, expose 4
+        kinds: person 23%, animal 69%, deity 3%, object 6%
+        spheres held: villain 13, donor 5, helper 4, hero 3, dispatcher 1, princess 1
+      group 8, 15 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: deceive 12, decide 10, harm 5, receive 4, expose 3
+        undergoes: be-taken-in 6, expose 6, recognize 3, reveal-information 3, set-task 3
+        kinds: person 13%, animal 87%
+        spheres held: villain 5, donor 4, hero 3, helper 2, dispatcher 1, false hero 1, princess 1
+      group 2, 11 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: be-taken-in 8, reveal-information 3, expose 2, harm 2, receive 2
+        undergoes: deceive 12, decide 3, harm 2, reveal-information 2, guide 1
+        kinds: person 45%, animal 55%
+        spheres held: helper 2, princess 2, hero 1
+      group 3, 10 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: escape 4, decide 2, expose 2, plead 2, recognize 2
+        undergoes: other 13, receive 3, threaten 3, be-taken-in 1, give 1
+        kinds: person 20%, animal 80%
+        spheres held: hero 3, donor 2, princess 2, villain 2, dispatcher 1, helper 1
+      group 4, 10 characters; matches hero
+        performs: respond 9, reveal-information 8, other 3, decide 1, lament 1
+        undergoes: test 9, seek-information 6, other 3, transform 2, deceive 1
+        kinds: person 50%, animal 40%, deity 10%
+        spheres held: hero 5, dispatcher 1, villain 1
+      group 5, 10 characters; matches donor
+        performs: test 8, seek-information 6, other 4, give 3, punish 2
+        undergoes: respond 9, reveal-information 7, plead 5, claim-falsely 1, deceive 1
+        kinds: person 20%, animal 20%, deity 50%, supernatural 10%
+        spheres held: donor 7, villain 2, helper 1, hero 1, princess 1
+      group 10, 7 characters; matches no sphere: a role the corpus has that Propp's seven do not name
+        performs: lose 7, want 5, lament 3, decide 2, other 2
+        undergoes: harm 2, deceive 1, forbid 1, reveal-information 1
+        kinds: person 29%, animal 71%
+        spheres held: hero 3, helper 1, villain 1
+      group 1, 2 characters; matches princess
+        performs: forbid 4, give 2, lament 1, reveal-information 1, set-task 1
+        undergoes: disobey 1, recognize 1, respond 1
+        kinds: person 50%, animal 50%
+        spheres held: princess 1
+      group 9, 2 characters; matches helper + princess
+        performs: disobey 1, do-task 1, lose 1, recognize 1, respond 1
+        undergoes: forbid 4, give 1, reveal-information 1, set-task 1
+        kinds: person 50%, animal 50%
+        spheres held: helper 1, princess 1
+    shuffle test: 35 of 1000 shuffles reach the real agreement (passes at 50 or fewer): pass
+  3. rank by frequency
+    by stories, head nouns 275: top-five share 15.6%, slope -0.66; top ten: lion 23, fox 22, ass 15, man 15, wolf 14, eagle 11, jupiter 10, beasts 9, dog 9, owner 9
+      by stories, by kind: animal 156, person 100, object 37, deity 17, unknown 5, supernatural 1
+      by stories, by role: no sphere 169, villain 107, hero 50, donor 41, helper 39, princess 31, dispatcher 13, false hero 7
+    by acts, head nouns 275: top-five share 21.4%, slope -0.84; top ten: fox 28, lion 24, man 18, wolf 15, mercury 13, ass 12, eagle 12, peasant 10, dog 9, beasts 8
+      by acts, by kind: animal 266, person 152, deity 27, object 9, supernatural 3, unknown 0
+      by acts, by role: no sphere 171, villain 125, hero 98, donor 65, princess 57, helper 53, dispatcher 19, false hero 5
+
+== tragedies, reader A: 887 characters in 32 stories
+  1. kind by role
+    villain      196: person 78%, animal 1%, deity 15%, supernatural 4%, object 1%, unknown 2%
+    donor         88: person 76%, deity 22%, object 1%, unknown 1%
+    helper        95: person 80%, deity 18%, supernatural 1%, unknown 1%
+    princess      58: person 79%, animal 2%, deity 16%, supernatural 3%
+    dispatcher    65: person 82%, deity 15%, unknown 3%
+    hero          89: person 93%, deity 4%, supernatural 1%, object 1%
+    false hero     4: person 100%
+    any sphere   386: person 77%, animal 1%, deity 18%, supernatural 2%, object 1%, unknown 2%
+  2. roles
+    sphere-holders 386, holding two spheres or more 134 (35%); commonest combinations: villain + donor 11; villain + helper + hero 11; donor + dispatcher 8; donor + helper 8; villain + helper 8
+    bottom-up: 456 characters with 3 acts or more, 3 groups, agreement with the spheres ARI -0.013 -- COLLAPSED, not read further
+    shuffle test: 993 of 1000 shuffles reach the real agreement (passes at 50 or fewer): FAIL
+  3. rank by frequency
+    by stories, head nouns 398: top-five share 11.4%, slope -0.69; top ten: chorus 27, zeus 21, apollo 19, messenger 18, servants 15, agamemnon 12, helen 10, artemis 9, athena 9, achilles 8
+      by stories, by kind: deity 32, person 32, supernatural 19, unknown 11, animal 6, object 6
+      by stories, by role: hero 32, no sphere 32, villain 32, dispatcher 31, helper 31, princess 29, donor 27, false hero 4
+    by acts, head nouns 398: top-five share 18.4%, slope -1.37; top ten: orestes 212, chorus 191, heracles 153, oedipus 128, electra 100, creon 99, agamemnon 97, apollo 76, theseus 75, menelaus 72
+      by acts, by kind: person 3705, deity 442, supernatural 64, unknown 36, object 7, animal 5
+      by acts, by role: villain 2010, hero 1868, helper 1567, donor 1218, princess 1009, dispatcher 690, no sphere 668, false hero 26
+
+== tragedies, reader B: 896 characters in 32 stories
+  1. kind by role
+    villain      218: person 77%, animal 1%, deity 15%, supernatural 4%, unknown 2%
+    donor         99: person 83%, deity 15%, supernatural 2%
+    helper        76: person 75%, deity 25%
+    princess      52: person 79%, deity 19%, supernatural 2%
+    dispatcher    86: person 90%, deity 10%
+    hero          77: person 96%, deity 4%
+    false hero     2: person 100%
+    any sphere   398: person 78%, animal 1%, deity 17%, supernatural 3%, unknown 1%
+  2. roles
+    sphere-holders 398, holding two spheres or more 128 (32%); commonest combinations: villain + donor 12; donor + hero 8; villain + hero 8; donor + helper 7; villain + helper + hero 7
+    bottom-up: 441 characters with 3 acts or more, 3 groups, agreement with the spheres ARI -0.003 -- COLLAPSED, not read further
+    shuffle test: 867 of 1000 shuffles reach the real agreement (passes at 50 or fewer): FAIL
+  3. rank by frequency
+    by stories, head nouns 400: top-five share 11.2%, slope -0.69; top ten: chorus 27, zeus 21, apollo 19, messenger 17, servants 15, agamemnon 12, helen 10, athena 9, attendants 9, hermes 9
+      by stories, by kind: deity 32, person 32, supernatural 19, unknown 11, object 7, animal 6
+      by stories, by role: dispatcher 32, hero 32, no sphere 32, villain 32, donor 31, helper 30, princess 24, false hero 2
+    by acts, head nouns 400: top-five share 18.9%, slope -1.38; top ten: orestes 197, chorus 185, heracles 150, oedipus 121, electra 94, creon 91, agamemnon 89, theseus 72, apollo 68, menelaus 64
+      by acts, by kind: person 3437, deity 410, supernatural 65, unknown 29, animal 6, object 6
+      by acts, by role: villain 1958, hero 1644, donor 1253, helper 1200, princess 932, dispatcher 849, no sphere 576, false hero 22
+
+== myths, reader A: 1244 characters in 126 stories
+  1. kind by role
+    villain      266: person 62%, animal 3%, deity 23%, supernatural 8%, object 1%, unknown 3%
+    donor         82: person 35%, animal 5%, deity 49%, supernatural 10%, unknown 1%
+    helper        92: person 62%, animal 3%, deity 25%, supernatural 4%, object 2%, unknown 3%
+    princess      63: person 63%, animal 5%, deity 21%, supernatural 2%, object 5%, unknown 5%
+    dispatcher    46: person 74%, animal 2%, deity 15%, object 4%, unknown 4%
+    hero         132: person 89%, deity 8%, unknown 4%
+    false hero     2: person 100%
+    any sphere   524: person 62%, animal 4%, deity 24%, supernatural 6%, object 2%, unknown 3%
+  2. roles
+    sphere-holders 524, holding two spheres or more 116 (22%); commonest combinations: villain + hero 20; helper + hero 15; villain + princess 10; villain + helper + hero 8; villain + helper 7
+    bottom-up: not possible (the myths have functions but no acts)
+  3. rank by frequency
+    by stories, head nouns 657: top-five share 9.3%, slope -0.58; top ten: zeus 39, sons 21, hera 19, athena 18, poseidon 18, hercules 16, hermes 16, apollo 15, god 14, gods 12
+      by stories, by kind: person 119, deity 92, object 65, unknown 36, animal 33, supernatural 32
+      by stories, by role: no sphere 122, villain 117, hero 91, helper 61, donor 47, princess 44, dispatcher 40, false hero 2
+    by functions, head nouns 657: top-five share 22.3%, slope -1.00; top ten: hercules 247, zeus 118, hermes 45, apollo 39, sons 38, minos 36, athena 35, argonauts 34, poseidon 33, perseus 31
+      by functions, by kind: person 1495, deity 486, supernatural 93, unknown 54, animal 45, object 13
+      by functions, by role: villain 1009, hero 890, helper 665, no sphere 402, princess 380, donor 294, dispatcher 133, false hero 6
+
+== myths, reader B: 1084 characters in 126 stories
+  1. kind by role
+    villain      279: person 64%, animal 3%, deity 22%, supernatural 9%, unknown 3%
+    donor        100: person 42%, animal 3%, deity 47%, supernatural 6%, unknown 2%
+    helper       137: person 60%, animal 4%, deity 28%, supernatural 5%, object 1%, unknown 3%
+    princess      78: person 72%, animal 1%, deity 23%, supernatural 1%, unknown 3%
+    dispatcher    46: person 72%, deity 24%, object 4%
+    hero         118: person 85%, deity 11%, supernatural 1%, unknown 3%
+    false hero     6: person 83%, deity 17%
+    any sphere   547: person 62%, animal 3%, deity 26%, supernatural 6%, object 1%, unknown 2%
+  2. roles
+    sphere-holders 547, holding two spheres or more 139 (25%); commonest combinations: helper + hero 15; villain + princess 14; villain + hero 13; villain + helper + hero 12; villain + helper 10
+    bottom-up: not possible (the myths have functions but no acts)
+  3. rank by frequency
+    by stories, head nouns 588: top-five share 9.8%, slope -0.57; top ten: zeus 34, sons 19, poseidon 18, athena 17, hera 17, hercules 16, hermes 14, apollo 13, gods 10, artemis 9
+      by stories, by kind: person 119, deity 85, supernatural 31, object 30, animal 28, unknown 23
+      by stories, by role: no sphere 119, villain 114, hero 84, helper 83, donor 57, princess 54, dispatcher 36, false hero 5
+    by functions, head nouns 588: top-five share 23.3%, slope -1.00; top ten: hercules 244, zeus 113, hermes 43, apollo 41, athena 37, minos 33, perseus 32, argonauts 31, poseidon 30, sons 28
+      by functions, by kind: person 1438, deity 454, supernatural 89, unknown 37, animal 32, object 4
+      by functions, by role: villain 1121, helper 853, hero 838, princess 494, donor 460, no sphere 253, dispatcher 228, false hero 14
+
+== reported, not tested
+  readers' agreement on kind, wondertales: 523 characters in both readers' tables, the same kind 523 (100%)
+  readers' agreement on kind, animal tales: 258 characters in both readers' tables, the same kind 258 (100%)
+  readers' agreement on kind, fables: 495 characters in both readers' tables, the same kind 495 (100%)
+  readers' agreement on kind, tragedies: 844 characters in both readers' tables, the same kind 844 (100%)
+  readers' agreement on kind, myths: 958 characters in both readers' tables, the same kind 958 (100%)
+  heroes of P01, reader A: hector (person; hero); dolon (person; donor + hero); odysseus (person; villain + helper + hero); diomedes (person; villain + helper + hero); rhesus (person; donor + princess + hero)
+  heroes of P01, reader B: chorus (person; villain + dispatcher + hero); hector (person; villain + donor + dispatcher + hero); dolon (person; donor + hero); odysseus (person; villain + helper + hero); diomedes (person; villain + helper + hero); rhesus (person; donor + princess + hero)
+  heroes of P04, reader A: creusa (person; villain + donor + helper + princess + dispatcher + hero); ion (person; villain + donor + helper + princess + hero); athenians (person; hero); xuthus (person; hero); servant (person; donor + hero)
+  heroes of P04, reader B: creusa (person; villain + donor + helper + princess + dispatcher + hero); ion (person; villain + donor + helper + princess + hero); servant of creusa (person; villain + donor + dispatcher + hero)
+  heroes of P06, reader A: creon (person; helper + hero); antigone (person; princess + hero)
+  heroes of P06, reader B: creon (person; helper + princess + hero); antigone (person; villain + princess + hero)
+  heroes of P08, reader A: orestes (person; donor + princess + hero); electra (person; princess + dispatcher + hero)
+  heroes of P08, reader B: orestes (person; villain + hero); pylades (person; hero); tyndareus (person; hero)
+  fables' heroes, reader A, beside PreliminaryFindings.md section 5: animal 49% against 71% (DIFFERS BY MORE THAN 5 POINTS: to be explained), person 45% against 22% (DIFFERS BY MORE THAN 5 POINTS: to be explained), deity 2% against 4%
+  fables' heroes, reader B, beside PreliminaryFindings.md section 5: animal 57% against 71% (DIFFERS BY MORE THAN 5 POINTS: to be explained), person 36% against 22% (DIFFERS BY MORE THAN 5 POINTS: to be explained), deity 3% against 4%
+
+== predictions (CharacterProtocol.md section 5): HOLDS if for both readers, SPLIT if for one, FAILS if for neither
+  1. in the wondertales, person over half of sphere-holders: A 67.1%, B 68.8%: HOLDS
+  2. in the fables, animal over half of sphere-holders: A 56.0%, B 55.0%: HOLDS
+  3. in the animal tales, animal over half of sphere-holders: A 77.8%, B 77.5%: HOLDS
+  4. reader A, deity share of sphere-holders: myths 23.7%, tragedies 18.1%, wondertales 0.0%, fables 5.5%: holds
+  4. reader B, deity share of sphere-holders: myths 26.0%, tragedies 17.1%, wondertales 0.0%, fables 4.6%: holds
+  4. the deity share higher in the myths and the tragedies than in the wondertales and the fables: HOLDS
+  5. reader A, top-five share of the ranking by stories: fables 16.0%, animal tales 41.5%, tragedies 11.4%: holds
+  5. reader B, top-five share of the ranking by stories: fables 15.6%, animal tales 42.3%, tragedies 11.2%: holds
+  5. stock actors, the top-five share higher in the fables and the animal tales than in the tragedies: HOLDS
+  6. reader A: wondertales COLLAPSED; animal tales ARI -0.004, 564 of 1000 shuffles reach it; fables COLLAPSED; tragedies COLLAPSED
+  6. reader B: wondertales ARI 0.031, 1 of 1000 shuffles reach it; animal tales ARI 0.082, 0 of 1000 shuffles reach it; fables ARI 0.039, 35 of 1000 shuffles reach it; tragedies COLLAPSED
+  6. the grouping agrees with the spheres better than shuffled profiles do, where it does not collapse: SPLIT
