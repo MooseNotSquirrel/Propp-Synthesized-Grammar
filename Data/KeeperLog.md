@@ -305,3 +305,12 @@ NEXT: `names-12`, at the owner's word, when the budget allows.
   - Mercury as deity.
   - Reader A of `n41` notes two items that each name a mother and her young (`n41-054`, `n41-067`).
 NEXT: `names-13` (`n42` to `n45`, 8 readers), at the owner's word, if the budget allows; then `names-14`, the merge and the rescoring next session.
+**2026-10-27. The third name stage, second portion: `names-13` run, merged.** `n42` to `n45`, eight readers started at once from master 17dec5f, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-13` (3708720) and merged at ac084f0; no failure. The readers used 62,000 to 63,500 tokens each, some 499,000 in all. A check of form on the four batches: every item answered once, in order, with a kind and a confidence from the lists and a reason.
+- **Raised by the readers, reported and not judged:**
+  - beasts near monsters: the Erymanthian beast, the snake of Salamis, the one-eyed and twelve-eyed Goats, the bear that fathers a son, the Satyr;
+  - the many-headed monster's body;
+  - things that speak or act: the Bun, the Sea;
+  - game as a haul, not one character;
+  - the Wizard, a fortune-teller.
+  - Reader B of `n45` corrected its own medium count in its reply (7 to 5); saved as given.
+NEXT: `names-14` (`n46` to `n48`, 6 readers), then the form check, the score (54 of 60), the merge and the rescoring into `CharacterRun-amended.txt`, next session, at the owner's word.
