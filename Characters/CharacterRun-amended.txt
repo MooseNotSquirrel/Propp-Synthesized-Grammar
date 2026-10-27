@@ -436,6 +436,8 @@
   heroes of P08, reader B: orestes (person; villain + hero); pylades (person; hero); tyndareus (person; hero)
   fables' heroes, reader A, beside PreliminaryFindings.md section 5: animal 49% against 71% (DIFFERS BY MORE THAN 5 POINTS: to be explained), person 45% against 22% (DIFFERS BY MORE THAN 5 POINTS: to be explained), deity 2% against 4%
   fables' heroes, reader B, beside PreliminaryFindings.md section 5: animal 57% against 71% (DIFFERS BY MORE THAN 5 POINTS: to be explained), person 36% against 22% (DIFFERS BY MORE THAN 5 POINTS: to be explained), deity 3% against 4%
+  fables' judged heroes, one a fable, reader A: 153 found, 5 not found; person 26%, animal 68%, deity 2%, object 3%, unknown 1% (section 5: animal 71%, person 22%, deity 4%)
+  fables' judged heroes, one a fable, reader B: 155 found, 3 not found; person 26%, animal 67%, deity 2%, object 4%, unknown 1% (section 5: animal 71%, person 22%, deity 4%)
 
 == predictions (CharacterProtocol.md section 5): HOLDS if for both readers, SPLIT if for one, FAILS if for neither
   1. in the wondertales, person over half of sphere-holders: A 67.1%, B 68.8%: HOLDS

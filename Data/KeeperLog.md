@@ -412,3 +412,19 @@ NEXT: at the owner's word, the form check, the score, the table rebuilt after T1
   6. Grouping beats shuffles: SPLIT in both. The figures are unchanged, since the grouping uses acts alone.
 - **The fables' heroes beside `PreliminaryFindings.md` section 5, amended:** animal 49% and 57% against 71%, person 45% and 36% against 22%. They still differ by more than 5 points, **to be explained**.
 NEXT: at the owner's word, the fables' heroes difference explained; the layer added to `Parity.md` section 1.
+**2026-10-28. The fables' heroes beside `PreliminaryFindings.md` section 5: the difference explained, as far as the files allow.** At the owner's word.
+- **The two figures count different things.** Section 5 (2026-09-30, "a quick look, not a frozen measure", 199 fables) gives one hero a fable; no program or log records how it was counted. The character measure counts every character holding Propp's hero sphere, that is, performing a hero function such as departure, the reaction to a donor or the reward.
+- **Counted one hero a fable on this table:** the 158 fables' heroes both readers named in `Heroes/JudgedHeroes.txt` (2026-10-12). 153 and 155 are found in the table.
+  - reader A: animal 68%, person 26%, deity 2%;
+  - reader B: animal 67%, person 26%, deity 2%;
+  - section 5: animal 71%, person 22%, deity 4%. The figures are within about 4 points.
+- **Why the hero sphere's holders differ:**
+  - Only 45 and 50 of the 198 fables have any holder.
+  - Most judged heroes hold no sphere (71 and 76) or another sphere (51 and 47), usually the villain's or the victim's. Only 31 and 32 hold the hero's.
+  - Of the 53 and 58 holders, 31 and 32 are the judged hero. The rest are other characters doing a hero function: the muleteer, the bowman, the father, the man. Most of them are people, 13 of 22 and 10 of 26.
+  - So the sphere measure looks at a few, skewed fables, and within them takes in people who are not the fable's hero.
+  - This agrees with section 5's own note that the fable fills the villain's sphere about twice as often as the hero's.
+- **Not established:** how section 5 counted, and its 199 fables against 198 now. That it counted one hero a fable is the keeper's inference from the match.
+- **Recorded beside the comparison:** `measures.py run --amended` now adds the judged-hero figure (435c71d, committed before it ran). `CharacterRun-amended.txt` gains two lines, and nothing else in it changes.
+- **A fault found and fixed on the way:** a plain `measures.py run` reads the amended table, and it overwrote the record `CharacterRun.txt`. That was caught at once, before any commit, and the file was restored from git. `run` now refuses to overwrite the record with different content.
+NEXT: at the owner's word, the layer added to `Parity.md` section 1 (`CharacterProtocol.md` section 7, step 8).
