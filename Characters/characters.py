@@ -516,7 +516,8 @@ def c5():
 # ---------------------------------------------------------------- the split of several-name fields
 def c7():
     """the split (Characters/SplitRule.md, adopted 2026-10-26; Spheres/explore.py's split_field): no field with a name
-    loses every name, no name keeps a separator, and the pronoun-like parts dropped are counted"""
+    loses every name but its reciprocal and pronoun names, no name keeps a separator, and the parts dropped are
+    counted"""
     several = re.compile(r';|/|,|\band\b')
     fields = parts = lost = left = dropped = 0
     for g in PATS:
@@ -531,7 +532,8 @@ def c7():
                     parts += len(ps)
                     whole = [x for x in SX.SPLIT.split(SX.PAREN.sub(' ', raw)) if SX.key(x.strip())]
                     dropped += len(whole) - len(ps)
-                    lost += not ps and any(SX.key(x) not in [(w,) for w in SX.DROP] for x in whole)
+                    # a field is lost only if it held a name that is not a reciprocal or pronoun name
+                    lost += not ps and any(not set(SX.key(x)) <= SX.PRONOUNS for x in whole)
                     left += sum(bool(several.search(x)) for x in ps)
     ok = not lost and not left
     print('C7 fields %d, names after the split %d, pronoun-like parts dropped %d; fields that lose every name %d; '
