@@ -169,3 +169,14 @@ The readers of `names-1` found the faults this mends ("each other" made a charac
 - **Kept as before:** phrase-names are counted apart, and the readers' agreement is reported as consistency between two readers, not as proof of the right kind.
 
 The split into classes was drawn after the first stage's controls were seen. That is why the common class is judged only on fresh controls.
+
+**2026-10-27, after the measures: capitalized names in the common class go to the readers, and the predictions are rescored beside the record.** At the owner's word, choices (a) and (i) of `Characters/SenseRule.md`.
+
+The reason: the measures' output showed faults the common class's test let through. Proper names were read as common words (Telamon as a column, Rhesus as the monkey, Mercury as the metal). Common words were read in a wrong first sense (the Ass as the buttocks, the Chorus as an object). The fables' misread beasts decide prediction 2.
+
+The amendment:
+- **A third name stage.** Every common-class character whose head is written with a capital in some recorded name goes to the two readers (`characters.py`, `capitalized`). The prompt and form are the same as before, and the batches are numbered on from `n38`. A character so asked takes the kind both readers give, or unknown where they differ.
+- **The test of what is left, fixed before any control is read.** Sixty controls are drawn by a fixed seed from the common items not capitalized and not asked before, and mixed unmarked into the third stage's batches. If both readers give the rule's kind to at least 54 of them, the rule stands for those items. Otherwise they go to the readers too, in a fourth stage under the same terms.
+- **The predictions.** The verdicts of 2026-10-27 in `Characters/CharacterRun.txt` stand as the verdicts of record: predictions 1, 3, 4 and 5 hold, 2 fails, and 6 is split. After the third stage is merged, all six predictions, and the comparison of the fables' heroes, are scored again on the amended table into `Characters/CharacterRun-amended.txt`, marked as after a post-measure amendment. They are reported beside the record and do not replace it.
+
+The trigger, a capital, does not use the keeper's list of faults. The amendment itself was prompted by faults seen in prediction 2's figures, and the rescored verdicts are to be read with that in mind.

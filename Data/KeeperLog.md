@@ -278,3 +278,16 @@ NEXT: at the owner's word, the fables' heroes difference explained; the proper n
 - **Rejected in the draft, (b), the first sense that is not an object:** it makes the Ass a person.
 - **Recommended for the verdicts, (i):** the verdicts of record stand. All six predictions are rescored on the amended table and reported beside them, marked as after a post-measure amendment.
 NEXT: the owner chooses in `SenseRule.md`, sections 2 and 3.
+**2026-10-27. Choices (a) and (i) of `SenseRule.md` adopted; the third name stage programmed and dry-run, not written.** At the owner's word, recorded in `CharacterProtocol.md` section 8.
+- **Code:**
+  - `characters.py` gains `capitalized`;
+  - `names.py` gains `setup3` and a third-stage section in the score;
+  - `asked()` already reads every batch from `n14` on, so the table will take the third stage's agreed kinds once both readers' answers exist.
+- **Unchanged:** the first and second stages' lines of `NameRun.txt` are reproduced, and the table, rebuilt in memory, is identical to the committed `characters.tsv`.
+- **The dry run** (`python names.py setup3 --dry`):
+  - 651 capitalized common-class characters. That is fewer than the draft's 685 because items asked or used as controls before are left out.
+  - The corpora: wondertales 16, animal tales 172, fables 321, tragedies 114, myths 28.
+  - 60 controls from 892 uncapitalized common items: person 33, object 13, animal 8, supernatural 5, deity 1.
+  - 11 batches, `n38` to `n48`, of 22 to 77 items. The controls are spread evenly, so the two small batches (`n38`, 22 items; `n48`, 33) carry 5 or 6 controls each.
+  - 22 readers, about 1.3 million tokens. The run would write 33 files into ActsRoles and add to `NameItems.tsv` and `NameControls.txt`.
+NEXT: at the owner's word, `python names.py setup3` writes the stage; then it runs in portions.

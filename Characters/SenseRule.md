@@ -1,4 +1,6 @@
-# Names and wrong senses in the common class: a draft amendment (DRAFT 2026-10-27, FOR THE OWNER'S REVIEW, NOT ADOPTED)
+# Names and wrong senses in the common class: the amendment (ADOPTED 2026-10-27 AT THE OWNER'S WORD: CHOICES (a) AND (i))
+
+**Adopted 2026-10-27, choices (a) and (i)**, and recorded in `CharacterProtocol.md` section 8. The draft below is kept as it was written.
 
 **Drafted 2026-10-27 at the owner's word.** Nothing here is built; the character table, `CharacterRun.txt` and the verdicts are unchanged. The counts were made from `tables/characters.tsv` at 34c5f94 by scratch scripts that write nothing into the project. A row is one character as one transcriber gives it; an item is one story and character key across both, as the name stages count them.
 

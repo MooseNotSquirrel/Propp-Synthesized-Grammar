@@ -118,6 +118,18 @@ def rule_class(h, group):
     return 'common'
 
 
+def capitalized(names, h):
+    """Characters/SenseRule.md, adopted 2026-10-27: the head is written with a capital in some recorded name (the
+    table's names field, ' ; ' between names), a possessive 's set aside"""
+    for n in names.split(' ; '):
+        for w in re.findall(r"[A-Za-z][\w'-]*", n):
+            b = w.lower()
+            b = b[:-2] if b.endswith("'s") else b
+            if h and b == h and w[0].isupper():
+                return True
+    return False
+
+
 # ---------------------------------------------------------------- the table
 def entries(L, g):
     """{story: [(function, performer key, undergoer key, performer name, undergoer name, event)]}, the first reading
