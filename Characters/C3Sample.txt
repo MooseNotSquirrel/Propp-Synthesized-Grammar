@@ -1,0 +1,819 @@
+# C3Sample.txt -- characters.py c3: the seeded sample (seed 20261026), written before the rule runs
+chatelaine	person	kept
+excogitator	person	kept
+submariner	person	kept
+communicator	person	kept
+patriarch	person	kept
+meddler	person	kept
+psychologist	person	kept
+buccaneer	person	kept
+adjudicator	person	kept
+masturbator	person	kept
+rubbernecker	person	kept
+kike	person	kept
+imp	person	left out: first sense elf.n.01 noun.person
+intimate	person	kept
+divorcee	person	kept
+specifier	person	kept
+serjeant	person	kept
+giantess	person	left out: first sense giantess.n.01 noun.person
+philatelist	person	kept
+tanker	person	left out: first sense oil_tanker.n.01 noun.artifact
+suppressor	person	kept
+liege	person	kept
+bagger	person	kept
+enologist	person	kept
+light	person	left out: first sense light.n.01 noun.phenomenon
+pesterer	person	kept
+shooter	person	left out: first sense taw.n.02 noun.artifact
+dynast	person	kept
+pest	person	left out: first sense plague.n.01 noun.state
+collier	person	kept
+wiseacre	person	kept
+madcap	person	kept
+messmate	person	kept
+windbag	person	kept
+heterosexual	person	kept
+enemy	person	left out: first sense enemy.n.01 noun.group
+waitress	person	kept
+preacher	person	kept
+malefactor	person	kept
+musher	person	kept
+humanitarian	person	kept
+grazier	person	kept
+bigamist	person	kept
+instigator	person	kept
+voucher	person	kept
+lifesaver	person	kept
+correspondent	person	kept
+monogamist	person	kept
+housemother	person	kept
+hermit	person	kept
+sage	person	kept
+traducer	person	kept
+pantomimist	person	kept
+legislator	person	kept
+orthopaedist	person	kept
+inspirer	person	kept
+dowager	person	kept
+banshie	person	left out: first sense banshee.n.01 noun.person
+counterterrorist	person	kept
+quaker	person	kept
+duke	person	kept
+refuter	person	kept
+crab	person	left out: first sense crab.n.01 noun.animal
+esthete	person	kept
+palsgrave	person	kept
+tagger	person	kept
+feeder	person	left out: first sense feeder.n.01 noun.animal
+bather	person	kept
+moralist	person	kept
+synthesizer	person	kept
+mammalogist	person	kept
+char	person	left out: first sense char.n.01 noun.substance
+manicurist	person	kept
+hipster	person	kept
+skunk	person	kept
+progressive	person	left out: first sense progressive.n.01 noun.relation
+adult	person	kept
+study	person	left out: first sense survey.n.01 noun.act
+pixy	person	left out: first sense pyxie.n.01 noun.plant
+esquire	person	kept
+bibliographer	person	kept
+normalizer	person	kept
+submitter	person	kept
+cognate	person	kept
+maintainer	person	kept
+custodian	person	kept
+bandleader	person	kept
+gossipmonger	person	kept
+transferor	person	kept
+goalie	person	kept
+seizer	person	kept
+sparer	person	kept
+carabineer	person	kept
+kingpin	person	kept
+truster	person	kept
+butterball	person	kept
+schnook	person	kept
+tobacconist	person	kept
+forbear	person	kept
+hacker	person	kept
+vorticella	animal	kept
+walrus	animal	kept
+ostracoderm	animal	kept
+style	animal	left out: first sense manner.n.01 noun.attribute
+botulinus	animal	kept
+mina	animal	kept
+borzoi	animal	kept
+guinea	animal	left out: first sense guinea.n.01 noun.possession
+agouti	animal	kept
+hairtail	animal	kept
+proconsul	animal	left out: first sense proconsul.n.01 noun.person
+herpes	animal	left out: first sense herpes.n.01 noun.state
+botulinum	animal	kept
+saddlebill	animal	kept
+ganoin	animal	kept
+sarcodine	animal	kept
+sable	animal	left out: first sense sable.n.01 noun.artifact
+bantam	animal	kept
+alderfly	animal	kept
+planarian	animal	kept
+beef	animal	kept
+capybara	animal	kept
+kingbird	animal	kept
+superbug	animal	kept
+cunner	animal	kept
+notochord	animal	kept
+kingfish	animal	left out: first sense kingfish.n.01 noun.food
+mallard	animal	kept
+pig	animal	kept
+archerfish	animal	kept
+dug	animal	kept
+brachiopod	animal	kept
+nightjar	animal	kept
+gray	animal	left out: first sense gray.n.01 noun.attribute
+redwing	animal	kept
+hexapod	animal	kept
+stinger	animal	left out: first sense stinger.n.01 noun.food
+phycoerythrin	animal	kept
+mytilid	animal	kept
+cowfish	animal	kept
+langur	animal	kept
+trichomonad	animal	kept
+halfbeak	animal	kept
+louvar	animal	kept
+oarfish	animal	kept
+mulloway	animal	kept
+mosquitofish	animal	kept
+porbeagle	animal	kept
+octopod	animal	kept
+bonobo	animal	kept
+chevrotain	animal	kept
+hippopotamus	animal	kept
+hydrozoan	animal	kept
+bongo	animal	left out: first sense bongo.n.01 noun.artifact
+toadfish	animal	kept
+argal	animal	kept
+peba	animal	kept
+leppy	animal	kept
+vicuna	animal	left out: first sense vicuna.n.01 noun.substance
+labyrinthodont	animal	kept
+damselfly	animal	kept
+hare	animal	kept
+ricebird	animal	kept
+frogfish	animal	kept
+pongid	animal	kept
+gyrfalcon	animal	kept
+colobus	animal	kept
+kiwi	animal	left out: first sense chinese_gooseberry.n.01 noun.plant
+uropygium	animal	kept
+jaguar	animal	kept
+urochord	animal	kept
+tuft	animal	left out: first sense tuft.n.01 noun.group
+mammalian	animal	kept
+prongbuck	animal	kept
+midge	animal	kept
+ortygan	animal	kept
+deathwatch	animal	kept
+poodle	animal	kept
+launce	animal	kept
+moonfish	animal	kept
+spoonbill	animal	kept
+testacean	animal	kept
+holometabola	animal	kept
+wombat	animal	kept
+cirripede	animal	kept
+thermoacidophile	animal	kept
+sabertooth	animal	kept
+hagfish	animal	kept
+orca	animal	kept
+bream	animal	left out: first sense bream.n.01 noun.food
+drill	animal	left out: first sense drill.n.01 noun.artifact
+lumpfish	animal	kept
+seashell	animal	kept
+javelina	animal	kept
+puppy	animal	kept
+mollymawk	animal	kept
+chough	animal	kept
+opossum	animal	kept
+flavivirus	animal	kept
+sparid	animal	kept
+adad	deity	kept
+adapa	deity	kept
+aditi	deity	kept
+aditya	deity	kept
+adonis	deity	left out: first sense adonis.n.01 noun.person
+aengus	deity	kept
+aeolus	deity	kept
+aesculapius	deity	kept
+aesir	deity	kept
+aether	deity	kept
+agdistis	deity	kept
+aglaia	deity	kept
+agni	deity	kept
+ahriman	deity	kept
+ahura	deity	kept
+aides	deity	kept
+aidoneus	deity	kept
+amaethon	deity	kept
+amaterasu	deity	kept
+ambrose	deity	kept
+amen	deity	kept
+amon	deity	kept
+amor	deity	kept
+amun	deity	kept
+ana	deity	kept
+anapurna	deity	kept
+andrew	deity	kept
+angus	deity	kept
+annapurna	deity	kept
+anpu	deity	kept
+anselm	deity	kept
+anshar	deity	kept
+antum	deity	kept
+anu	deity	kept
+anubis	deity	kept
+anunnaki	deity	kept
+aphrodite	deity	kept
+apollo	deity	kept
+apsu	deity	kept
+aquinas	deity	kept
+arawn	deity	kept
+ares	deity	kept
+arhant	deity	kept
+arhat	deity	kept
+ariadne	deity	kept
+arianrhod	deity	kept
+arianrod	deity	kept
+artemis	deity	kept
+aruru	deity	kept
+asclepius	deity	kept
+ashir	deity	kept
+ashtoreth	deity	kept
+ashur	deity	kept
+asklepios	deity	kept
+astarte	deity	kept
+asterope	deity	kept
+asura	deity	kept
+asvins	deity	kept
+ate	deity	kept
+aten	deity	kept
+athanasius	deity	kept
+athena	deity	kept
+athene	deity	kept
+atlantides	deity	kept
+atlas	deity	kept
+aton	deity	kept
+atropos	deity	kept
+augustine	deity	kept
+aurora	deity	left out: first sense dawn.n.01 noun.time
+avalokiteshvara	deity	kept
+avalokitesvara	deity	kept
+avatar	deity	left out: first sense embodiment.n.01 noun.person
+baal	deity	kept
+bacchus	deity	kept
+baeda	deity	kept
+bairava	deity	kept
+balarama	deity	kept
+balder	deity	kept
+baldr	deity	kept
+basil	deity	left out: first sense basil.n.01 noun.plant
+bast	deity	left out: first sense bast.n.01 noun.plant
+becket	deity	kept
+beda	deity	kept
+bede	deity	kept
+bel	deity	left out: first sense bel.n.01 noun.quantity
+benedict	deity	left out: first sense benedict.n.01 noun.person
+bhaga	deity	kept
+boann	deity	kept
+boddhisatva	deity	kept
+bodhisattva	deity	kept
+boniface	deity	kept
+boreas	deity	left out: first sense north_wind.n.01 noun.phenomenon
+brage	deity	kept
+bragi	deity	kept
+brahma	deity	kept
+bride	deity	left out: first sense bride.n.01 noun.person
+bridget	deity	kept
+brigid	deity	kept
+brigit	deity	kept
+brihaspati	deity	kept
+bruno	deity	left out: first sense leo_ix.n.01 noun.person
+calliope	deity	kept
+calypso	deity	left out: first sense calypso.n.01 noun.plant
+ceres	deity	kept
+chandi	deity	kept
+chaos	deity	left out: first sense chaos.n.01 noun.state
+christopher	deity	kept
+clio	deity	kept
+clotho	deity	kept
+cocus	deity	kept
+cora	deity	kept
+crispin	deity	kept
+crius	deity	kept
+cronus	deity	kept
+cupid	deity	kept
+cybele	deity	kept
+cynthia	deity	kept
+cytherea	deity	kept
+daemon	deity	left out: first sense devil.n.02 noun.person
+dagan	deity	kept
+dagda	deity	kept
+dagon	deity	kept
+damgalnunna	deity	kept
+damkina	deity	kept
+dana	deity	kept
+danu	deity	kept
+daphne	deity	left out: first sense daphne.n.01 noun.plant
+david	deity	kept
+demeter	deity	kept
+demigod	deity	left out: first sense demigod.n.01 noun.person
+demiurge	deity	kept
+demogorgon	deity	kept
+despoina	deity	kept
+devi	deity	kept
+dharma	deity	kept
+diana	deity	left out: first sense diana.n.01 noun.person
+dindymene	deity	kept
+dionysus	deity	kept
+dis	deity	kept
+dominic	deity	kept
+don	deity	left out: first sense don.n.01 noun.person
+donar	deity	kept
+doris	deity	kept
+dryad	deity	kept
+dumuzi	deity	kept
+durga	deity	kept
+dyaus	deity	kept
+dylan	deity	left out: first sense dylan.n.01 noun.person
+ea	deity	kept
+echo	deity	left out: first sense echo.n.01 noun.attribute
+elli	deity	kept
+enki	deity	kept
+enlil	deity	kept
+enuki	deity	kept
+eos	deity	kept
+epimetheus	deity	kept
+epona	deity	kept
+erato	deity	kept
+erebus	deity	kept
+ereshkigal	deity	kept
+ereshkigel	deity	kept
+eris	deity	kept
+eros	deity	kept
+euphrosyne	deity	kept
+euterpe	deity	left out: first sense euterpe.n.01 noun.plant
+faun	deity	kept
+faunus	deity	kept
+fomor	deity	kept
+fomorian	deity	kept
+forseti	deity	kept
+fortuna	deity	kept
+frey	deity	kept
+freya	deity	kept
+freyja	deity	kept
+freyr	deity	kept
+frigg	deity	kept
+frigga	deity	kept
+gaea	deity	kept
+gaia	deity	kept
+ganapati	deity	kept
+ganesa	deity	kept
+ganesh	deity	kept
+ganesha	deity	kept
+garuda	deity	kept
+gauri	deity	kept
+ge	deity	left out: first sense germanium.n.01 noun.substance
+geb	deity	kept
+george	deity	kept
+girru	deity	kept
+goddess	deity	kept
+grace	deity	left out: first sense grace.n.01 noun.state
+gregory	deity	kept
+gula	deity	kept
+gwydion	deity	kept
+gwyn	deity	kept
+hachiman	deity	kept
+hades	deity	kept
+hamadryad	deity	kept
+hanuman	deity	kept
+hebe	deity	kept
+hecate	deity	kept
+heimdal	deity	kept
+heimdall	deity	kept
+heimdallr	deity	kept
+hel	deity	kept
+hela	deity	kept
+helios	deity	kept
+hephaestus	deity	kept
+hephaistos	deity	kept
+hera	deity	kept
+here	deity	left out: first sense here.n.01 noun.location
+hermaphroditus	deity	kept
+hermes	deity	kept
+hertha	deity	kept
+hesperides	deity	kept
+hestia	deity	kept
+hieronymus	deity	kept
+hoder	deity	kept
+hodr	deity	kept
+hodur	deity	kept
+hoenir	deity	kept
+horus	deity	kept
+hotei	deity	kept
+hoth	deity	kept
+hothr	deity	kept
+hyades	deity	kept
+hygeia	deity	kept
+hymen	deity	kept
+hyperion	deity	kept
+hypnos	deity	kept
+iapetus	deity	kept
+idun	deity	kept
+igigi	deity	kept
+ignatius	deity	kept
+inanna	deity	kept
+indra	deity	kept
+irenaeus	deity	kept
+ishtar	deity	kept
+isis	deity	kept
+ithunn	deity	kept
+izanagi	deity	kept
+izanami	deity	kept
+jagannath	deity	kept
+jagannatha	deity	kept
+jagganath	deity	kept
+james	deity	left out: first sense james.n.01 noun.person
+janus	deity	kept
+jerome	deity	kept
+john	deity	left out: first sense toilet.n.01 noun.artifact
+jove	deity	kept
+judas	deity	kept
+jude	deity	kept
+juggernaut	deity	left out: first sense juggernaut.n.01 noun.person
+juno	deity	kept
+jupiter	deity	left out: first sense jupiter.n.01 noun.object
+ka	deity	kept
+kali	deity	left out: first sense saltwort.n.01 noun.plant
+kalki	deity	kept
+kama	deity	kept
+kami	deity	kept
+kartikeya	deity	kept
+karttikeya	deity	kept
+keb	deity	kept
+khepera	deity	kept
+ki	deity	left out: first sense qi.n.01 noun.state
+kishar	deity	kept
+klotho	deity	kept
+kore	deity	kept
+krishna	deity	kept
+kwannon	deity	kept
+lachesis	deity	kept
+lakshmi	deity	kept
+latona	deity	kept
+laurentius	deity	kept
+lawrence	deity	kept
+ler	deity	kept
+leto	deity	kept
+levi	deity	kept
+lilith	deity	kept
+lir	deity	kept
+llud	deity	kept
+llyr	deity	kept
+lohan	deity	kept
+loki	deity	kept
+lorelei	deity	kept
+loyola	deity	kept
+lug	deity	kept
+lugh	deity	kept
+luke	deity	kept
+luna	deity	kept
+maitreya	deity	kept
+mama	deity	left out: first sense ma.n.01 noun.person
+manannan	deity	kept
+manawydan	deity	kept
+manawyddan	deity	kept
+mara	deity	kept
+marduk	deity	kept
+mark	deity	left out: first sense mark.n.01 noun.cognition
+mars	deity	left out: first sense mars.n.01 noun.object
+martin	deity	kept
+marut	deity	kept
+matthew	deity	kept
+melpomene	deity	kept
+mercury	deity	left out: first sense mercury.n.01 noun.substance
+merodach	deity	kept
+min	deity	left out: first sense minute.n.01 noun.time
+minerva	deity	kept
+minos	deity	kept
+mithra	deity	kept
+mithras	deity	kept
+mitra	deity	kept
+mnemosyne	deity	kept
+moirae	deity	kept
+moirai	deity	kept
+molech	deity	kept
+moloch	deity	left out: first sense moloch.n.01 noun.person
+momos	deity	kept
+momus	deity	kept
+morpheus	deity	kept
+morrigan	deity	kept
+morrigu	deity	kept
+mors	deity	kept
+muse	deity	kept
+mylitta	deity	kept
+nabu	deity	kept
+naiad	deity	left out: first sense naiad.n.01 noun.plant
+nammu	deity	kept
+namtar	deity	kept
+namtaru	deity	kept
+nanna	deity	left out: first sense grandma.n.01 noun.person
+nebo	deity	kept
+nemesis	deity	kept
+nephthys	deity	kept
+neptune	deity	kept
+nereid	deity	kept
+nereus	deity	kept
+nergal	deity	kept
+nerthus	deity	kept
+nicholas	deity	kept
+night	deity	left out: first sense night.n.01 noun.time
+nike	deity	kept
+nina	deity	kept
+ningal	deity	kept
+ningirsu	deity	kept
+ningishzida	deity	kept
+ninhursag	deity	kept
+ninib	deity	kept
+ninigi	deity	kept
+ninkharsag	deity	kept
+ninkhursag	deity	kept
+nintoo	deity	kept
+nintu	deity	kept
+ninurta	deity	kept
+njord	deity	kept
+njorth	deity	kept
+norn	deity	kept
+nox	deity	kept
+nusku	deity	kept
+nut	deity	left out: first sense nut.n.01 noun.plant
+nymph	deity	kept
+nyx	deity	kept
+oceanid	deity	kept
+oceanus	deity	kept
+odin	deity	kept
+oengus	deity	kept
+olympian	deity	left out: first sense olympian.n.01 noun.person
+ops	deity	kept
+orcus	deity	kept
+oread	deity	kept
+ormazd	deity	kept
+ormuzd	deity	kept
+osiris	deity	kept
+ouranos	deity	kept
+pallas	deity	kept
+pan	deity	left out: first sense pan.n.01 noun.artifact
+panacea	deity	kept
+parashurama	deity	kept
+parcae	deity	kept
+parjanya	deity	kept
+parvati	deity	kept
+pasiphae	deity	kept
+patrick	deity	kept
+paul	deity	left out: first sense paul.n.01 noun.person
+persephone	deity	kept
+peter	deity	kept
+phaethon	deity	kept
+phoebe	deity	left out: first sense five.n.01 noun.quantity
+phoebus	deity	kept
+pleiades	deity	kept
+pluto	deity	left out: first sense pluto.n.01 noun.person
+polyhymnia	deity	kept
+pontos	deity	kept
+pontus	deity	kept
+poseidon	deity	kept
+prajapati	deity	kept
+priapus	deity	kept
+prometheus	deity	kept
+proserpina	deity	kept
+proserpine	deity	kept
+proteus	deity	kept
+ptah	deity	kept
+pushan	deity	kept
+pythia	deity	kept
+pythius	deity	kept
+pythoness	deity	left out: first sense pythoness.n.01 noun.person
+quetzalcoatl	deity	kept
+ra	deity	left out: first sense radium.n.01 noun.substance
+rahu	deity	kept
+rama	deity	kept
+ramachandra	deity	kept
+ramman	deity	kept
+re	deity	left out: first sense rhenium.n.01 noun.substance
+rhadamanthus	deity	kept
+rhea	deity	kept
+rhibhus	deity	kept
+ribhus	deity	kept
+rudra	deity	kept
+saint	deity	kept
+sakti	deity	kept
+salmacis	deity	kept
+santa	deity	kept
+sarasvati	deity	kept
+sarpanitu	deity	kept
+saturn	deity	left out: first sense saturn.n.01 noun.object
+satyr	deity	left out: first sense satyr.n.01 noun.person
+saul	deity	left out: first sense saul.n.01 noun.person
+savitar	deity	kept
+sekhet	deity	kept
+selene	deity	kept
+set	deity	left out: first sense set.n.01 noun.group
+seth	deity	left out: first sense seth.n.01 noun.person
+shakti	deity	kept
+shamash	deity	kept
+shiva	deity	left out: first sense shiva.n.01 noun.time
+sif	deity	kept
+sigyn	deity	kept
+silenus	deity	kept
+silvanus	deity	kept
+simon	deity	kept
+sin	deity	left out: first sense sin.n.01 noun.attribute
+siren	deity	kept
+siva	deity	kept
+skanda	deity	kept
+skuld	deity	kept
+sol	deity	left out: first sense sol.n.01 noun.substance
+soma	deity	left out: first sense soma.n.01 noun.plant
+sterope	deity	kept
+surya	deity	kept
+sylvanus	deity	kept
+tammuz	deity	left out: first sense tammuz.n.01 noun.time
+tashmit	deity	kept
+tashmitum	deity	kept
+tellus	deity	kept
+terpsichore	deity	kept
+tethys	deity	kept
+thaddaeus	deity	kept
+thalia	deity	kept
+thanatos	deity	kept
+thea	deity	kept
+theia	deity	kept
+themis	deity	kept
+thetis	deity	kept
+thomas	deity	left out: first sense thomas.n.01 noun.person
+thor	deity	kept
+thoth	deity	kept
+thunderer	deity	kept
+tiamat	deity	kept
+titan	deity	left out: first sense colossus.n.02 noun.person
+titaness	deity	kept
+tiu	deity	kept
+triton	deity	kept
+tyche	deity	kept
+tyr	deity	kept
+tyrr	deity	kept
+ull	deity	kept
+ullr	deity	kept
+uma	deity	kept
+urania	deity	kept
+uranus	deity	kept
+urd	deity	kept
+urth	deity	kept
+ushas	deity	kept
+utnapishtim	deity	kept
+utu	deity	kept
+utug	deity	kept
+vajra	deity	kept
+vali	deity	kept
+vanir	deity	kept
+varuna	deity	kept
+vayu	deity	kept
+venus	deity	left out: first sense venus.n.01 noun.object
+verdandi	deity	kept
+verthandi	deity	kept
+vesta	deity	kept
+victoria	deity	left out: first sense victoria.n.01 noun.person
+vidar	deity	kept
+vishnu	deity	kept
+vithar	deity	kept
+vitharr	deity	kept
+vitus	deity	kept
+vulcan	deity	kept
+weird	deity	kept
+winfred	deity	kept
+wodan	deity	kept
+woden	deity	kept
+wotan	deity	kept
+wynfrith	deity	kept
+wyrd	deity	kept
+yama	deity	kept
+zarpanit	deity	kept
+zephyr	deity	left out: first sense breeze.n.01 noun.phenomenon
+zeus	deity	kept
+zirbanit	deity	kept
+zombi	deity	left out: first sense zombi.n.01 noun.person
+zombie	deity	left out: first sense zombi.n.03 noun.person
+zu	deity	kept
+zubird	deity	kept
+zurvan	deity	kept
+iris	object	kept
+gate	object	kept
+collar	object	kept
+privateer	object	left out: first sense privateer.n.01 noun.person
+reformer	object	left out: first sense reformer.n.01 noun.person
+plumbing	object	kept
+orchestra	object	left out: first sense orchestra.n.01 noun.group
+office	object	kept
+heckle	object	kept
+crackerjack	object	left out: first sense jimdandy.n.01 noun.person
+collectible	object	kept
+cephaloridine	object	kept
+drawnwork	object	kept
+polymyxin	object	kept
+trimmings	object	kept
+pricker	object	kept
+rat	object	left out: first sense rat.n.01 noun.animal
+shirtwaist	object	kept
+roofing	object	kept
+gag	object	left out: first sense joke.n.01 noun.communication
+butacaine	object	kept
+race	object	left out: first sense race.n.01 noun.event
+cage	object	kept
+shawm	object	kept
+wobbler	object	kept
+setting	object	left out: first sense setting.n.01 noun.location
+fluvastatin	object	kept
+hawsepipe	object	kept
+phenylbutazone	object	kept
+lanyard	object	kept
+sarcenet	object	kept
+membrane	object	kept
+trawl	object	kept
+neckcloth	object	kept
+square	object	left out: first sense square.n.01 noun.shape
+trip	object	left out: first sense trip.n.01 noun.act
+emulsion	object	left out: first sense emulsion.n.01 noun.substance
+tractor	object	kept
+hayrack	object	kept
+tenement	object	kept
+tabi	object	kept
+bollock	object	left out: first sense testis.n.01 noun.body
+overshoe	object	kept
+methocarbamol	object	kept
+staplegun	object	kept
+ratan	object	kept
+teleprinter	object	kept
+blouse	object	kept
+millinery	object	kept
+matchstick	object	kept
+trumpetwood	object	kept
+kail	object	kept
+carpophore	object	kept
+rapeseed	object	kept
+primula	object	kept
+stapelia	object	kept
+cinchona	object	kept
+currajong	object	kept
+papaya	object	kept
+waxflower	object	kept
+angelim	object	kept
+cashew	object	kept
+bignoniad	object	kept
+coffee	object	left out: first sense coffee.n.01 noun.food
+ramp	object	kept
+fleawort	object	kept
+macadamia	object	kept
+acanthus	object	kept
+estragon	object	kept
+loment	object	kept
+taro	object	kept
+idesia	object	kept
+cleome	object	kept
+amatungulu	object	kept
+sunberry	object	kept
+birthwort	object	kept
+tapa	object	kept
+umbellifer	object	kept
+glume	object	kept
+teazel	object	kept
+fetterbush	object	kept
+barberry	object	kept
+blowball	object	kept
+loasa	object	kept
+tagasaste	object	kept
+vinifera	object	kept
+trefoil	object	kept
+privet	object	kept
+conker	object	kept
+bractlet	object	kept
+briarroot	object	kept
+phanerogam	object	kept
+pecan	object	kept
+mangrove	object	kept
+roselle	object	kept
+munjeet	object	kept
+bourtree	object	kept
+loganberry	object	kept
+samara	object	kept
+rosita	object	kept
