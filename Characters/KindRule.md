@@ -1,4 +1,6 @@
-# The kind rule's errors: a draft amendment (DRAFT 2026-10-27, FOR THE OWNER'S REVIEW, NOT ADOPTED)
+# The kind rule's errors: the amendment (ADOPTED 2026-10-27 AT THE OWNER'S WORD: CHOICE (b))
+
+**Adopted 2026-10-27, choice (b)**, and recorded in `CharacterProtocol.md` section 8. That entry fixes the number of fresh controls at 60 and the threshold at 54 of 60. The draft below is kept as it was written.
 
 **Drafted 2026-10-27 at the owner's word.** This draft follows the finding logged on 2026-10-26: on the name stage's 49 controls, the readers gave the WordNet kind rule's kind to only 35. Nothing here is built, and the table is unchanged. The counts below come from `tables/characters.tsv` as it stands at ee27edc. They were made with scratch scripts that write nothing into the project.
 

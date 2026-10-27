@@ -157,3 +157,15 @@ Written before any figure in section 4 is read. Each is tested per reader; it **
 - **Keys:** *of* is kept in a name's key.
 - **When a short name joins a longer one** whose words hold it: if they share a head noun (in a possessive the word after *'s*, else the word before the first *of*, else the last word); or if the longer adds only titles; or if the short name is a title the longer begins with and the longer is no possessive. The titles are a fixed list in `explore.py`.
 The readers of `names-1` found the faults this mends ("each other" made a character; "the Camel" joined into "the Camel-driver").
+
+**2026-10-27, the kind rule kept for common nouns only, on a test.** At the owner's word, choice (b) of `Characters/KindRule.md`. The reason: on the name stage's 49 controls the readers set aside the rule's kind for 14. The rule was wrong on 7 of 14 named characters and 3 of 3 collectives, against 2 of 13 groups and 2 of 19 common nouns. It gives a name its dictionary sense (Jupiter the planet), not the story's. The amendment:
+- **Classes.** Each character whose kind the rule sets falls in one class (`characters.py`, `rule_class`):
+  - named, where the head's first WordNet sense is an instance or a capitalized lemma;
+  - group, as section 3 marks groups;
+  - collective, where the first sense is in `noun.group`;
+  - common, everything else.
+- **A second name stage.** The named, group and collective characters go to the two readers, under the same prompt and form as the first stage, with batches numbered on from `n14`. A character so asked takes the kind both readers give, or unknown where they differ. The rule's kind no longer stands for it.
+- **The test of the common class, fixed before any control is read.** Sixty controls are drawn from the common class by a fixed seed and mixed unmarked into the second stage's batches. If both readers give the rule's kind to at least 90% of them (54 of 60), the rule stands for common nouns. Otherwise the common nouns go to the readers too, in a third stage under the same terms.
+- **Kept as before:** phrase-names are counted apart, and the readers' agreement is reported as consistency between two readers, not as proof of the right kind.
+
+The split into classes was drawn after the first stage's controls were seen. That is why the common class is judged only on fresh controls.

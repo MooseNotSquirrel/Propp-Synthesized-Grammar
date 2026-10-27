@@ -179,3 +179,11 @@ NEXT: the owner decides what to do about the kind rule's errors on names and gro
 - **Rule-set characters the readers never saw:** 879 named, 641 group, 124 collective and 1,622 common, as unique items.
 - **Recommended there, (b):** the readers take the named, group and collective characters (1,644 items, about 2.7 million tokens). The rule stays for common nouns only if both readers give its kind to at least 90% of fresh seeded controls; otherwise the common nouns go to the readers too.
 NEXT: the owner chooses (a), (b) or (c) of `KindRule.md`; then the choice goes into `CharacterProtocol.md` section 8 and the second name stage is set up, dry first.
+**2026-10-27. Choice (b) of `KindRule.md` adopted; the second name stage programmed and dry-run, not written.** At the owner's word. The amendment is in `CharacterProtocol.md` section 8, with 60 fresh common-noun controls and a threshold of 54 of 60, both fixed before any control is read.
+- **Code:**
+  - `characters.py`: `rule_class`; a character the second stage asked takes the readers' agreed kind or unknown, once both readers' answers for its batch exist.
+  - `names.py`: `setup2`, `asked`, and a second-stage section in the score. The first stage's lines of `NameRun.txt` are reproduced unchanged.
+  - Both lazy imports of `names.py` now add `Characters` to the path, since `Tragedy/tragedyScore.py` changes the working directory when imported.
+- **The table is unchanged:** rebuilt in memory, 7,215 rows identical to the committed `characters.tsv`.
+- **The dry run** (`python names.py setup2 --dry`): 1,616 characters (named 866, group 628, collective 122), fewer than the draft's 1,644 because items the first stage already asked are left out. The corpora: wondertales 235, animal tales 63, fables 170, tragedies 504, myths 644. The 60 controls are drawn from 1,603 common items: person 23, animal 21, object 14, supernatural 2. That makes 24 batches, `n14` to `n37`, of 61 to 75 items; 48 readers, about 3 million tokens at the first stage's rate. The run would write 72 files into ActsRoles and add to `NameItems.tsv` and `NameControls.txt`.
+NEXT: at the owner's word, `python names.py setup2` writes the stage. Then it runs in portions, as the first stage did.

@@ -105,6 +105,19 @@ def is_group(name, h):
     return bool(h) and (base not in (None, h) or bool(re.search(r'\band\b|&', name.lower())))
 
 
+def rule_class(h, group):
+    """Characters/KindRule.md, adopted 2026-10-27: named, group, collective or common; the rule's kind stands only
+    for common, and only while the second name stage's controls pass"""
+    s = sense(h)
+    if s and (s.instance_hypernyms() or s.lemmas()[0].name()[0].isupper()):
+        return 'named'
+    if group:
+        return 'group'
+    if s and s.lexname() == 'noun.group':
+        return 'collective'
+    return 'common'
+
+
 # ---------------------------------------------------------------- the table
 def entries(L, g):
     """{story: [(function, performer key, undergoer key, performer name, undergoer name, event)]}, the first reading
@@ -187,8 +200,9 @@ def characters(L, g, s, ents, acts=(), free=()):
         full = max(nm, key=lambda n: (len(SX.key(n)), d['names'][n], n))
         h = head(full)
         k, by = kind(full), 'wordnet'
-        if k == 'unknown':
-            # the kind both readers of the name stage gave (Data/NamesProtocol.md), where they agree
+        if k == 'unknown' or (g, s, ' '.join(c)) in second_stage():
+            # the kind both readers of the name stage gave (Data/NamesProtocol.md), where they agree; for a character
+            # of the second stage (KindRule.md), in place of the rule's
             k = reader_kinds().get((g, s, ' '.join(c)), 'unknown')
             by = 'readers' if k != 'unknown' else 'unknown'
         rows.append([s, L, g, ' '.join(c), ' ; '.join(nm), h, k, by,
@@ -364,12 +378,30 @@ def reader_kinds():
     """{(corpus, story, character): kind} from the name stage's answers where both readers agree (names.agreed());
     empty until the answers exist"""
     if not _READERS:
+        if HERE not in sys.path:
+            sys.path.append(HERE)   # Tragedy/tragedyScore.py changes the working directory when imported
         try:
             import names as N
             _READERS.append(N.agreed()[0])
         except (OSError, IndexError):
             _READERS.append({})
     return _READERS[0]
+
+
+_SECOND = []
+
+
+def second_stage():
+    """{(corpus, story, character)} the second name stage asked, in batches both readers have answered (names.asked())"""
+    if not _SECOND:
+        if HERE not in sys.path:
+            sys.path.append(HERE)
+        try:
+            import names as N
+            _SECOND.append(N.asked())
+        except (OSError, IndexError):
+            _SECOND.append(set())
+    return _SECOND[0]
 ACT_STUDIES = ['twolayer', 'problems', 'held', 'animal']   # one act study per story and reader, the first present
 CYR = re.compile('[Ѐ-ӿ]')
 
