@@ -200,9 +200,7 @@ def table():
         for L in 'AB':
             for s, ents in entries(L, g).items():
                 out += characters(L, g, s, ents, A.get((g + ':' + s, L), []), Fr.get((g + ':' + s, L), []))
-    text = '	'.join(COLUMNS) + '
-' + ''.join('	'.join(x.replace('	', ' ') for x in r) + '
-' for r in out)
+    text = '\t'.join(COLUMNS) + '\n' + ''.join('\t'.join(x.replace('\t', ' ') for x in r) + '\n' for r in out)
     return text, out
 
 
