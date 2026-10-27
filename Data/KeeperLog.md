@@ -219,3 +219,11 @@ NEXT: `names-9` (`n29` to `n31`, the myths, 6 readers), at the owner's word, whe
   - Medea, Circe and Thetis as witch, goddess or woman;
   - the Argo with its speaking timber, the fire-breathing bulls, and the armed men sprung from teeth.
 NEXT: `names-10` (`n32` to `n34`, the myths, 6 readers), at the owner's word, when the budget allows.
+**2026-10-27. The second name stage, sixth portion: `names-10` run, merged.** `n32` to `n34`, the myths, six readers started at once from master ab33f50, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Reader B of `n32` first replied only "pending". Asked once for the report its prompt requires, it gave it, and `Kinds.txt` was byte-identical before and after (md5 b5634e9a...). That second reply is the one saved. Committed on `run-names-10` (f512b18) and merged at 73e4fae. Each reader used about 60,000 to 61,500 tokens, some 364,000 in all. A check of form on the three batches: every item answered once, in order, with a kind and a confidence from the lists and a reason.
+- **Raised by the readers, reported and not judged:**
+  - beings between deity, spirit and beast: nymphs, Hesperides, Muses, Satyrs, centaurs and Chiron, Cerberus, Prometheus, Atlas, Thetis;
+  - Geryon, whom the item shows only as a man;
+  - Thebes and oracles as places or pronouncements;
+  - a dream written as a character.
+  - Reader A of `n32` noted an item from another story set among the L2-032 items (`n32-039`, L3-068). That is a control at its seeded random place, as designed.
+NEXT: `names-11` (`n35` to `n37`, the myths, 6 readers), at the owner's word, when the budget allows; then the form check, the score (the common-noun controls against 54 of 60) and the merge.
