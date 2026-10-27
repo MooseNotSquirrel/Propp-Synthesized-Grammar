@@ -17,3 +17,13 @@ common-noun controls, reader A: 54 of 60 the kind the WordNet rule gives (90%)
 common-noun controls, reader B: 55 of 60 the kind the WordNet rule gives (92%)
 common-noun controls, both readers the rule's kind: 54 of 60; the rule stands for common nouns at 54 or more: STANDS
 phrase-names counted apart, given no kind: 0 ()
+# the third stage (Characters/SenseRule.md): common-class characters whose head is capitalized, with controls from the common items left
+tale     items  16, both readers the same kind  15 (94%), both with high confidence   9; agreed kinds: person 9, animal 3, supernatural 3
+animal   items 172, both readers the same kind 172 (100%), both with high confidence 165; agreed kinds: person 27, animal 144, object 1
+fable    items 321, both readers the same kind 321 (100%), both with high confidence 315; agreed kinds: person 78, animal 226, deity 4, supernatural 1, object 12
+tragedy  items 114, both readers the same kind 110 (96%), both with high confidence  96; agreed kinds: person 88, animal 3, deity 8, supernatural 8, object 3
+myth     items  28, both readers the same kind  28 (100%), both with high confidence  19; agreed kinds: person 15, deity 7, supernatural 5, object 1
+uncapitalized common-noun controls, reader A: 53 of 60 the kind the WordNet rule gives (88%)
+uncapitalized common-noun controls, reader B: 54 of 60 the kind the WordNet rule gives (90%)
+uncapitalized common-noun controls, both readers the rule's kind: 53 of 60; the rule stands for the uncapitalized common nouns at 54 or more: DOES NOT STAND: the uncapitalized common nouns go to the readers
+phrase-names counted apart, given no kind: 0 ()

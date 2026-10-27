@@ -314,3 +314,23 @@ NEXT: `names-13` (`n42` to `n45`, 8 readers), at the owner's word, if the budget
   - the Wizard, a fortune-teller.
   - Reader B of `n45` corrected its own medium count in its reply (7 to 5); saved as given.
 NEXT: `names-14` (`n46` to `n48`, 6 readers), then the form check, the score (54 of 60), the merge and the rescoring into `CharacterRun-amended.txt`, next session, at the owner's word.
+**2026-10-28. The third name stage, last portion: `names-14` run, merged; every batch of the stage now answered.** `n46` to `n48`, six readers started at once from master ac084f0, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-14` (dfd963b) and merged at 9164cb4; no failure. The readers used 56,000 to 61,000 tokens each, some 354,000 in all. The whole third stage took 22 readers and about 1.34 million tokens.
+- **Raised by the readers, reported and not judged:**
+  - personified powers between deity and spirit: Power, Force, Death, Madness, Night, Dawn;
+  - dragons and the hound of Hades, between beast and monster;
+  - the three-bodied shepherd of Erytheia; the Maiden as goddess of the dead; the Phantom;
+  - Side, Hyacinth and Tantalus's daughter, as mortals;
+  - the stepmother Yagishna, as a household woman with a witch's name.
+**2026-10-28. The third name stage checked, scored and merged; its control test fails, so a fourth stage is due.**
+- **In form** (`Data/forms/names.txt`): all 96 answer files of the three stages.
+- **The test of the uncapitalized common nouns** (`CharacterProtocol.md` section 8, fixed before any control was read): both readers gave the rule's kind to **53 of 60** (reader A 53, reader B 54). The threshold is 54, so **the rule does not stand** for them. By the terms fixed in advance, those items go to the readers in a fourth stage. Reported, not re-judged.
+- **Reported, not judged** (`NameRun.txt`, third-stage section): the two readers give the same kind to wondertales 15 of 16, animal tales 172 of 172, fables 321 of 321, tragedies 110 of 114, myths 28 of 28.
+- **The table rebuilt** (`python build.py characters`, after T1, T2 and T4 passed): 7,215 rows. Only the kind and kind_by columns changed:
+  - kinds set by the readers now 5,542, by the rule 1,577, unknown 96 (before 87);
+  - 255 kinds changed: wondertales 9, animal tales 20, fables 87, tragedies 93, myths 46;
+  - the largest moves are fable and animal-tale beasts from object to animal (62 and 16), tragedy and myth characters from object to person (64 and 25), and gods from object to deity (26).
+- **C1 to C7 rerun:** all pass.
+- **The rescoring is held.** `CharacterProtocol.md` section 8 rescores after the amendment is complete, and the fourth stage is part of it. `measures.py run --amended` is committed (4d466ba) but has not run.
+- **The fourth stage, counted:** 832 common items never asked, in 13 batches and 26 readers, about 1.6 million tokens. The corpora: wondertales 408, animal tales 64, fables 130, tragedies 75, myths 155. Besides these, the 60 third-stage controls have already been answered by both readers. Whether their agreed kinds are used without asking again is for the owner.
+  - Once the fourth stage is merged, no rule kind is left, so it needs no control test of its own.
+NEXT: at the owner's word, the fourth stage programmed (`setup4`) and dry-run.
