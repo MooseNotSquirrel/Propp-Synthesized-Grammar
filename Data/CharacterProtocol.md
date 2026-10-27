@@ -1,6 +1,6 @@
-# The character-set layer: protocol (DRAFT 2026-10-26, NOT FROZEN)
+# The character-set layer: protocol (DRAFT 2026-10-26, NOT FROZEN; the owner's decisions 1, 2 and 4 recorded)
 
-**Drafted 2026-10-26 at the owner's request, for `ProppQueue.md` item (m)** and `DataProtocol.md`'s added layer: one character table per corpus, giving each character's name, kind, spheres and act profile, built from the normalized tables. The owner's aim is that each corpus's character set be **inferred, not presupposed**. Nothing here is built. The tests come first (section 2), and every program they check is committed before it runs. The run itself waits for the owner to freeze this file, and for the four decisions in section 6.
+**Drafted 2026-10-26 at the owner's request, for `ProppQueue.md` item (m)** and `DataProtocol.md`'s added layer: one character table per corpus, giving each character's name, kind, spheres and act profile, built from the normalized tables. The owner's aim is that each corpus's character set be **inferred, not presupposed**. Nothing here is built. The tests come first (section 2), and every program they check is committed before it runs. The run itself waits for the owner to freeze this file. Three of the four decisions in section 6 are taken; predictions 3 to 6 are still open.
 
 ## 1. What is measured on the tables today (counts only, no result)
 
@@ -22,6 +22,18 @@ These are counted on 2026-10-26 from the tables, to size the problem. They are n
   | Wondertales | 62% | proper names: Ivan-tsarevich, Ivan, Baba Yaga, Koshchei |
 
   The proper names fall where the owner's question is sharpest.
+- **The size of the name stage** (decision 1 (a)). This counts the function layer's performers and undergoers that the kind rule leaves unknown, as pairs of a story and a name key. It is the reader stage's material, counted on 2026-10-26:
+
+  | Corpus | Story-name pairs | Distinct names | Stories with one |
+  |---|---|---|---|
+  | Wondertales | 282 | 225 | 40 of 45 |
+  | Animal tales | 3 | 3 | 3 of 50 |
+  | Fables | 38 | 25 | 34 of 201 |
+  | Tragedies | 270 | 205 | 32 of 32 |
+  | Myths | 830 | 641 | 154 of 172 |
+  | **All** | **1,423** | **1,008** | |
+
+  The myths hold more than half of it. Names that appear only in the act or free-verb layers are not in these counts; most of them should join a function's name, and the dry run counts any that do not.
 - **WordNet 3.0** is at `C:/Users/Steve1/nltk_wordnet`, read through nltk as `Group/wordnetGroup.py` reads it. Its noun classes separate person (`noun.person`) from animal (`noun.animal`). The gods it knows (Zeus, Athena, Apollo, Hermes, the Muses, the nymphs) sit under `deity.n.01`. Some figures sit under `spiritual_being.n.01` without being deities: *god*, and *devil*, whose first sense is Satan.
 
 ## 2. Tests and self-tests, written and passed before any result is read
@@ -111,15 +123,17 @@ Written before any figure in section 4 is read. Each is tested per reader; it **
 
 ## 6. Decisions for the owner before the freeze
 
+**Taken 2026-10-26: the owner agreed with the recommendations.** Decision 1 takes (a), decision 2 takes (a), and decision 4 takes the method as drafted. Decision 3, predictions 3 to 6, is still open.
+
 1. **Names WordNet does not know** (31% to 38% of mentions in the wondertales, tragedies and myths).
-   - **(a) Recommended:** a small reader stage, two readers, run only on the unresolved names. Each gets the story's title and the name, and gives a kind from the five, with a reason. Agreement is reported. The kind is used where both readers agree, and is unknown otherwise.
+   - **(a) DECIDED, as recommended:** a small reader stage, two readers, run only on the unresolved names. Each gets the story's title and the name, and gives a kind from the five, with a reason. Agreement is reported. The kind is used where both readers agree, and is unknown otherwise.
    - **(b)** Leave them unknown. Kind by role would then be UNRESOLVED for the wondertales' heroes, which are mostly Ivan.
    - **(c)** A list written by the keeper. Not recommended: it is hand coding by a model, and these are the names where modern and Western assumptions would enter.
 2. **The Russian act names.**
-   - **(a) Recommended:** join the acts by event, under test C4.
+   - **(a) DECIDED, as recommended:** join the acts by event, under test C4.
    - **(b)** Build the act profile from the free verbs, which are in English in every corpus but are not a closed list. The grouping would then need its own vocabulary rule, frozen first.
 3. **Predictions 3 to 6:** keep, change or strike.
-4. **The grouping method:** average linkage on cosine distance, with silhouette from 3 to 10, as drafted, or another method named before the freeze.
+4. **The grouping method: DECIDED, as drafted:** average linkage on cosine distance, with silhouette from 3 to 10.
 
 ## 7. After the freeze
 
@@ -127,7 +141,7 @@ Written before any figure in section 4 is read. Each is tested per reader; it **
 2. Write and commit the programs: the builder step, `Characters/characters.py`, and the tests C1 to C6.
 3. Pass the tests.
 4. Dry-run.
-5. If decision 1 takes (a), set up the reader stage in Propp-ActsRoles under its own short collection protocol.
+5. Set up the name reader stage (decision 1 (a)) in Propp-ActsRoles under its own short collection protocol. That protocol fixes the batches and what each reader sees with a name: the story's title and the events that name it. Then clear it in `RUN.md`.
 6. Run.
 7. Write the results to `Characters/` and the keeper's account to `KeeperLog.md`.
 8. Add the layer to `Parity.md` section 1.
