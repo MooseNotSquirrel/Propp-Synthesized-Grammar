@@ -14,14 +14,14 @@ TRANSCRIBER A
            stories where one character holds both the hero's and the villain's sphere: 66%; characters who act but in no sphere: 44%
            stories with a hero in which a hero is exposed or punished: 7 of 32 (22%)
   myth     126 stories; spheres filled (share of stories): villain 90%, donor 37%, helper 48%, princess 36%, dispatcher 33%, hero 72%, false hero 2%
-           characters in a sphere 469, in two or more 22%; commonest combinations: helper + hero 14; hero + villain 14; princess + villain 8; helper + hero + princess + villain 6
+           characters in a sphere 470, in two or more 22%; commonest combinations: helper + hero 14; hero + villain 14; princess + villain 8; helper + hero + princess + villain 6
            stories where one character holds both the hero's and the villain's sphere: 28%; characters who act but in no sphere: 39%
            stories with a hero in which a hero is exposed or punished: 9 of 91 (10%)
 
 TRANSCRIBER B
   tale      45 stories; spheres filled (share of stories): villain 91%, donor 91%, helper 91%, princess 58%, dispatcher 87%, hero 98%, false hero 16%
-           characters in a sphere 375, in two or more 40%; commonest combinations: donor + helper 30; helper + hero 16; donor + hero 11; donor + villain 10
-           stories where one character holds both the hero's and the villain's sphere: 29%; characters who act but in no sphere: 23%
+           characters in a sphere 377, in two or more 40%; commonest combinations: donor + helper 30; helper + hero 16; donor + hero 11; donor + villain 10
+           stories where one character holds both the hero's and the villain's sphere: 29%; characters who act but in no sphere: 22%
            stories with a hero in which a hero is exposed or punished: 5 of 44 (11%)
   fable    198 stories; spheres filled (share of stories): villain 52%, donor 21%, helper 20%, princess 16%, dispatcher 7%, hero 25%, false hero 4%
            characters in a sphere 260, in two or more 17%; commonest combinations: helper + hero 7; donor + villain 6; helper + villain 4; helper + princess 4
@@ -32,7 +32,7 @@ TRANSCRIBER B
            stories where one character holds both the hero's and the villain's sphere: 72%; characters who act but in no sphere: 40%
            stories with a hero in which a hero is exposed or punished: 7 of 32 (22%)
   myth     126 stories; spheres filled (share of stories): villain 88%, donor 45%, helper 66%, princess 48%, dispatcher 30%, hero 67%, false hero 4%
-           characters in a sphere 507, in two or more 25%; commonest combinations: helper + hero 16; helper + hero + villain 10; hero + villain 10; princess + villain 9
+           characters in a sphere 508, in two or more 25%; commonest combinations: helper + hero 16; helper + hero + villain 10; hero + villain 10; princess + villain 9
            stories where one character holds both the hero's and the villain's sphere: 28%; characters who act but in no sphere: 30%
            stories with a hero in which a hero is exposed or punished: 12 of 84 (14%)
 
