@@ -7,6 +7,8 @@ per story, per reader, built from the normalized tables.
   python characters.py c1         test C1: every function name maps to exactly one character row
   python characters.py c2         test C2: the table's spheres equal Spheres/explore.py's, SpheresExplore.txt byte for byte
   python characters.py c3         test C3: the kind rule on WordNet's own words (the sample written first, to C3Sample.txt)
+  python characters.py c4         test C4: the acts joined by event agree with the name join, where both are English
+  python characters.py c5         test C5: the grouping recovers planted roles, and shuffled profiles do not match the spheres
   python characters.py c6         test C6: two builds byte-identical
   python characters.py dry        counts only: stories, characters, characters with a sphere, names resolved by kind
 
@@ -112,13 +114,13 @@ def entries(L, g):
         if not re.match(r'^([PFA]\d{2}|L\d-\d{3})', base):
             continue
         st.setdefault(base, collections.OrderedDict()).setdefault(r['version'] or '1', []).append(
-            (TS.base(r['raw']), SX.key(r['performer']), SX.key(r['undergoer']), r['performer'].strip(), r['undergoer'].strip()))
+            (TS.base(r['raw']), SX.key(r['performer']), SX.key(r['undergoer']), r['performer'].strip(), r['undergoer'].strip(), r['event']))
     return {s: vs[sorted(vs, key=lambda v: (len(v), v))[0]] for s, vs in st.items()}
 
 
 def characters(L, g, s, ents):
     """the story's characters: names joined as Spheres/explore.py joins them, each with its names, spheres and counts"""
-    canon = SX.merge([(fn, p, u) for fn, p, u, _, _ in ents])
+    canon = SX.merge([e[:3] for e in ents])
     ch = collections.OrderedDict()
 
     def add(k, raw):
@@ -126,7 +128,7 @@ def characters(L, g, s, ents):
         d = ch.setdefault(c, {'names': collections.Counter(), 'spheres': set(), 'performs': 0, 'undergoes': 0})
         d['names'][raw] += 1
         return d
-    for fn, p, u, pr, ur in ents:
+    for fn, p, u, pr, ur, _ in ents:
         if p:
             d = add(p, pr)
             d['performs'] += 1
@@ -174,8 +176,8 @@ def c1():
     for g in PATS:
         for L in 'AB':
             for s, ents in entries(L, g).items():
-                canon = SX.merge([(fn, p, u) for fn, p, u, _, _ in ents])
-                for _, p, u, _, _ in ents:
+                canon = SX.merge([e[:3] for e in ents])
+                for _, p, u, _, _, _ in ents:
                     for k in (p, u):
                         if k and have.get((s, L, ' '.join(canon.get(k, k)))) != 1:
                             lost += 1
@@ -277,6 +279,170 @@ def c6():
     return ok
 
 
+# ---------------------------------------------------------------- the act layer joined to the characters
+ACT_STUDIES = ['twolayer', 'problems', 'held', 'animal']   # one act study per story and reader, the first present
+CYR = re.compile('[Ѐ-ӿ]')
+
+
+def act_rows():
+    """{(global story, reader): [act rows]}, one study each"""
+    by = collections.defaultdict(lambda: collections.defaultdict(list))
+    for r in DT.rows('acts'):
+        if not r['id_flag']:
+            by[(r['story'], r['reader'])][r['study']].append(r)
+    return {k: v[min(v, key=ACT_STUDIES.index)] for k, v in by.items()}
+
+
+def name_join(a, names, canon):
+    """an act name's character by the name join: the name itself, or the one longer name whose words hold it"""
+    if a in canon:
+        return canon[a]
+    sup = [m for m in names if set(a) <= set(m)]
+    if len(sup) == 1 or (sup and len({tuple(sorted(x)) for x in sup}) == 1):
+        m = max(sup, key=lambda x: (len(x), x))
+        return canon.get(m, m)
+    return None
+
+
+def event_join(g, L, s, ents, acts):
+    """{act name key: (character by event, character by name)}: within an event with exactly one function performer
+    and exactly one act performer, the two are linked; each act name takes its commonest link"""
+    canon = SX.merge([e[:3] for e in ents])
+    names = {k for e in ents for k in e[1:3] if k}
+    fun, act = collections.defaultdict(set), collections.defaultdict(set)
+    for fn, p, u, _, _, ev in ents:
+        if p:
+            fun[ev].add(canon.get(p, p))
+    for r in acts:
+        k = SX.key(r['performer'])
+        if k:
+            act[r['event']].add(k)
+    links = collections.defaultdict(collections.Counter)
+    for ev, a in act.items():
+        if len(a) == 1 and len(fun.get(ev, ())) == 1:
+            links[next(iter(a))][next(iter(fun[ev]))] += 1
+    out = {}
+    for a, c in links.items():
+        best = sorted(c.items(), key=lambda kv: (-kv[1], kv[0]))[0][0]
+        out[a] = (best, name_join(a, names, canon))
+    return out
+
+
+def c4():
+    """the join by event agrees with the name join where both layers name characters in English"""
+    A = act_rows()
+    ok = True
+    for g in ('fable', 'tragedy', 'animal'):
+        for L in 'AB':
+            linked = comparable = agree = 0
+            for s, ents in entries(L, g).items():
+                acts = [r for r in A.get((g + ':' + s, L), []) if not CYR.search(r['performer'])]
+                for a, (by_event, by_name) in event_join(g, L, s, ents, acts).items():
+                    linked += 1
+                    if by_name is not None:
+                        comparable += 1
+                        agree += by_event == by_name
+            share = 100.0 * agree / max(1, comparable)
+            ok &= share >= 90
+            print('C4 %-8s %s act names linked %4d, comparable %4d, agreeing %4d (%.1f%%): %s'
+                  % (g, L, linked, comparable, agree, share, 'pass' if share >= 90 else 'FAIL'))
+    print('C4 %s' % ('PASS' if ok else 'FAIL'))
+    return ok
+
+
+# ---------------------------------------------------------------- the bottom-up grouping (protocol section 4, route 2)
+def group(X, kmin=3, kmax=10):
+    """average linkage on cosine distance, the number of groups chosen by silhouette from kmin to kmax"""
+    from scipy.cluster.hierarchy import linkage, fcluster
+    from sklearn.metrics import silhouette_score
+    Z = linkage(X, 'average', metric='cosine')
+    best = None
+    for k in range(kmin, kmax + 1):
+        lab = fcluster(Z, k, 'maxclust')
+        if len(set(lab)) < 2:
+            continue
+        sc = silhouette_score(X, lab, metric='cosine')
+        if best is None or sc > best[0] + 1e-12:
+            best = (sc, k, lab)
+    return best[2]
+
+
+def features():
+    acts = sorted({r['act'].lower() for r in DT.rows('acts') if not r['id_flag']})
+    return ['p:' + a for a in acts] + ['u:' + a for a in acts]
+
+
+PLANTED = {'trickster': ['p:deceive', 'p:escape', 'p:be-taken-in', 'u:pursue'],
+           'villain': ['p:harm', 'p:threaten', 'p:pursue', 'u:punish', 'u:fight'],
+           'helper': ['p:give', 'p:guide', 'p:repair', 'p:reveal-information'],
+           'victim': ['u:harm', 'p:lament', 'p:plead', 'u:repair']}
+
+
+def real_profiles():
+    """act profiles of the characters with at least 3 acts, where the acts are named in English and joined by name,
+    and each one's spheres: [(vector, spheres)]"""
+    import numpy as np
+    F = features()
+    ix = {f: i for i, f in enumerate(F)}
+    A = act_rows()
+    out = []
+    for g in ('fable', 'tragedy', 'animal'):
+        for L in 'AB':
+            for s, ents in entries(L, g).items():
+                canon = SX.merge([e[:3] for e in ents])
+                names = {k for e in ents for k in e[1:3] if k}
+                sph = collections.defaultdict(set)
+                for fn, p, u, _, _, _ in ents:
+                    if p:
+                        for n, fs in SX.SPHERES.items():
+                            if fn in fs:
+                                sph[canon.get(p, p)].add(n)
+                prof = collections.defaultdict(lambda: np.zeros(len(F)))
+                for r in A.get((g + ':' + s, L), []):
+                    for side, field in (('p:', 'performer'), ('u:', 'undergoer')):
+                        if CYR.search(r[field]):
+                            continue
+                        c = name_join(SX.key(r[field]), names, canon) if SX.key(r[field]) else None
+                        if c is not None and side + r['act'].lower() in ix:
+                            prof[c][ix[side + r['act'].lower()]] += 1
+                for c, v in sorted(prof.items()):
+                    if v.sum() >= 3:
+                        out.append((v, ' + '.join(sorted(sph.get(c, ()))) or 'none'))
+    return out
+
+
+def c5():
+    import numpy as np
+    from sklearn.metrics import adjusted_rand_score as ari
+    F = features()
+    ix = {f: i for i, f in enumerate(F)}
+    rnd = random.Random(20261026)
+    X, truth = [], []
+    for role, typical in PLANTED.items():
+        for _ in range(100):
+            v = np.zeros(len(F))
+            for _ in range(10):
+                v[ix[rnd.choice(typical)] if rnd.random() < 0.7 else rnd.randrange(len(F))] += 1
+            X.append(v)
+            truth.append(role)
+    planted = ari(truth, group(np.array(X)))
+    real = real_profiles()
+    V = np.array([v for v, _ in real])
+    S = [x for _, x in real]
+    shuffled = []
+    for i in range(20):
+        perm = list(range(len(V)))
+        random.Random(i).shuffle(perm)
+        shuffled.append(ari(S, group(V[perm])))
+    mean = sum(shuffled) / len(shuffled)
+    ok = planted >= 0.8 and mean <= 0.05
+    print('C5 planted roles recovered, ARI %.3f (needs 0.8): %s' % (planted, 'pass' if planted >= 0.8 else 'FAIL'))
+    print('C5 shuffled profiles against the spheres, %d characters, 20 shuffles: mean ARI %.3f, highest %.3f (mean needs at most 0.05): %s'
+          % (len(V), mean, max(shuffled), 'pass' if mean <= 0.05 else 'FAIL'))
+    print('C5 %s' % ('PASS' if ok else 'FAIL'))
+    return ok
+
+
 def dry():
     """counts only: no kind by role, no grouping, no ranking"""
     _, out = table()
@@ -292,7 +458,7 @@ def dry():
 
 
 if __name__ == '__main__':
-    cmds = {'build': build, 'c1': c1, 'c2': c2, 'c3': c3, 'c6': c6, 'dry': dry}
+    cmds = {'build': build, 'c1': c1, 'c2': c2, 'c3': c3, 'c4': c4, 'c5': c5, 'c6': c6, 'dry': dry}
     a = sys.argv[1:]
     if len(a) != 1 or a[0] not in cmds:
         sys.exit(__doc__)
