@@ -145,3 +145,7 @@ Written before any figure in section 4 is read. Each is tested per reader; it **
 6. Run.
 7. Write the results to `Characters/` and the keeper's account to `KeeperLog.md`.
 8. Add the layer to `Parity.md` section 1.
+
+## 8. Amendments at the owner's word, after the freeze
+
+**2026-10-26, names that join no character.** An act or free-verb name that joins no function character, by name where it is English or by event where it is Russian, is set apart as unjoined. It is counted in `tables/unjoined.tsv` and not made a character, and its kind is not collected. Test C1 reads accordingly: every act and free-verb name is either joined to exactly one character row or counted as unjoined, and the counts must agree. Section 3's "every name it gives" means the names of the layers that join. The reason: the dry run found such names making many more characters than the function layer has (wondertales 580 and 375 from the acts alone), most of them probably function-layer characters named differently.
