@@ -246,3 +246,26 @@ NEXT: at the owner's word, the form check over all batches (`names.py form`), th
   - the largest moves are the mortals of tragedy and myth from supernatural to person (275 and 168), the gods of fable from object to deity (22), and fable and animal-tale beasts from object to animal.
 - **C1 to C7 rerun:** all pass.
 NEXT: at the owner's word, the measures of `CharacterProtocol.md` section 4.
+**2026-10-27. The character layer's measures run; predictions 1 to 6 scored.** At the owner's word. `Characters/measures.py` was checked on made-up rows only and committed (1bdc91d) before it ran; its results are in `Characters/CharacterRun.txt`.
+- **The keeper's operational rules, fixed in the program before the run** (not from Propp, not the owner's):
+  - a group matches a sphere when at least half its members hold it;
+  - prediction 6's shuffle test permutes the grouping's labels 1,000 times. The grouping does not depend on row order, so this equals regrouping shuffled profiles; that was checked on planted data.
+- **Predictions** (HOLDS for both transcribers, SPLIT for one, FAILS for neither):
+  1. Wondertales, person over half of sphere-holders: A 72.3%, B 73.6%: **HOLDS**.
+  2. Fables, animal over half: A 49.1%, B 47.9%: **FAILS**, narrowly. The rest are person 35%, object 12% and 13%, deity 4% and 3%.
+  3. Animal tales, animal over half: A 72.5%, B 71.1%: **HOLDS**.
+  4. Deity share higher in the myths and tragedies than in the wondertales and fables: A 22.7%, 17.9% against 0.0%, 3.8%; B 25.2%, 16.8% against 0.0%, 3.2%: **HOLDS**.
+  5. Top-five share by stories higher in the fables and animal tales than in the tragedies: A 16.0%, 41.5% against 11.4%; B 15.6%, 42.3% against 11.2%: **HOLDS**.
+  6. Grouping beats shuffled profiles where it does not collapse: **SPLIT**.
+     - A: wondertales, fables and tragedies COLLAPSED; animal tales ARI -0.004, 564 of 1,000 shuffles reach it, so it fails.
+     - B: wondertales ARI 0.031 (1 shuffle reaches it), animal tales 0.082 (0), fables 0.039 (35): all pass. Tragedies COLLAPSED.
+     - Every agreement is small: the highest ARI is 0.108 (fables, A, collapsed).
+- **Reported, not tested:**
+  - **The transcribers' agreement on kind is 100% in every corpus, by construction.** A character's kind is set once for its story and key, across both transcribers, so this figure tests nothing. The name readers' agreement is in `NameRun.txt` (95% to 100%).
+  - **The two heroes of P01, P04, P06 and P08** are listed. Each pair holds the hero sphere in both transcribers where both transcribers name them (Creon and Antigone in P06). In P08 transcriber B gives Orestes, Pylades and Tyndareus, and A gives Orestes and Electra.
+  - **The fables' heroes beside `PreliminaryFindings.md` section 5:** animal 47% and 50% against 71%, person 45% and 36% against 22%. Both differ by more than 5 points, **to be explained**.
+- **Faults seen in the output, reported and not judged:**
+  - Some proper names fall in the common class, keep a wrong rule kind, and were never asked: Rhesus as animal (the monkey), Ion as object (the particle), the Chorus as object in P01 B. `rule_class` calls a name named only when WordNet's first sense is an instance or capitalized. A name that is also a common word passes as common.
+  - Many groups match no sphere. About half the grouped characters hold no sphere, so the matching rule's majority is often out of reach. Most "roles Propp's seven do not name" may come from that, not from the corpus.
+  - Transcriber A's wondertale grouping collapses while B's gives ten groups.
+NEXT: at the owner's word, the fables' heroes difference explained; the proper names in the common class looked at; the layer added to `Parity.md` section 1 (`CharacterProtocol.md` section 7, step 8).
