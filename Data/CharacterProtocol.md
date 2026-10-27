@@ -183,5 +183,5 @@ The trigger, a capital, does not use the keeper's list of faults. The amendment 
 
 **2026-10-28, the fourth name stage, by the terms above.** On the third stage's 60 controls, both readers gave the rule's kind to 53, against the threshold of 54. So the rule does not stand for the uncapitalized common nouns.
 - **The fourth stage:** every common-class character not asked before goes to the two readers. The prompt and form are the same, the batches are numbered on from `n49`, and a character takes the kind both readers give, or unknown. It needs no control test: once it is merged, no kind rests on the rule.
-- **The third stage's controls:** at the owner's word, their 60 characters take the kind both readers already gave them, or unknown, without being asked again. They do so when the fourth stage is merged.
+- **The controls of every stage:** at the owner's word, the controls of all three earlier stages take the kind both readers already gave them, or unknown, without being asked again. That is the first stage's 47 still in the table, the second stage's 60 and the third stage's 60. They do so when the fourth stage is merged, so that after it no kind rests on the rule.
 - **The rescoring** ("after the third stage is merged", above) waits until the fourth stage is merged, since the amendment is not complete before then.

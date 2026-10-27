@@ -52,7 +52,8 @@ CONTROLS3 = 60
 # the fourth stage (CharacterProtocol.md section 8, 2026-10-28): every common-class character not asked before, with no
 # controls; and the stages whose controls, at the owner's word, take the kind both readers gave them once it is merged
 FOURTH = 49
-CONTROLS_TAKEN = (' third',)
+CONTROLS_TAKEN = ('', ' second', ' third')
+STAGE_NAMES = {'': 'first', ' second': 'second', ' third': 'third', ' fourth': 'fourth'}
 PROMPT = """You are reading short notes on characters in stories and saying, for each, what kind of being it is. You start with no background on the project, and you should not look for any.
 
 Read names/input/{b}.txt in this repository in full. It holds {n} items, one per line, each as
@@ -313,9 +314,12 @@ def asked():
     """{(corpus, story, character)} the second and third stages gave the readers, controls left out, in batches whose
     answers both readers have written; the table takes the readers' kind for these in place of the rule's (KindRule.md,
     SenseRule.md)"""
-    done = {b for b in batches() if int(b[1:]) >= SECOND and answered(b)}
+    done = {b for b in batches() if answered(b)}
     taken = CONTROLS_TAKEN if fourth_done() else ()
-    return {(g, s, c) for item, g, s, c, control in item_key() if item.split('-')[0] in done and (not control or stage(item) in taken)}
+    # the first stage's own items keep their old route (the readers' kind only where the rule gives none); its controls
+    # are taken with the rest
+    return {(g, s, c) for item, g, s, c, control in item_key() if item.split('-')[0] in done
+            and (stage(item) in taken if control else stage(item) != '')}
 
 
 def setup2(dry):
@@ -643,8 +647,8 @@ def agreed():
     for st in CONTROLS_TAKEN:
         x = by['controls taken' + st]
         if x['n']:
-            lines.append('# controls taking the readers\' kind (the owner\'s word, 2026-10-28):%s stage, %d controls, both readers the same '
-                         'kind %d, the rest unknown' % (st, x['n'], x['agree']))
+            lines.append('# controls taking the readers\' kind (the owner\'s word, 2026-10-28): %s stage, %d controls, both readers the same '
+                         'kind %d, the rest unknown' % (STAGE_NAMES[st], x['n'], x['agree']))
     return out, lines
 
 

@@ -348,3 +348,17 @@ NEXT: at the owner's word, the fourth stage programmed (`setup4`) and dry-run.
   - the run would write 39 files into ActsRoles and add to `NameItems.tsv`.
 - **Left for the owner:** the first and second stages' controls, 47 and 60 characters, still carry the rule's kind. The readers have answered them too. After the fourth stage they would be the only rule kinds left, Jupiter as object among them. Adding `''` and `' second'` to `CONTROLS_TAKEN` would treat them as the third stage's are.
 NEXT: the owner decides on those 107 controls; then, at the owner's word, `python names.py setup4` writes the stage.
+**2026-10-28. Every stage's controls to take the readers' kind; the fourth name stage written; no reader started.** At the owner's word, recorded in `CharacterProtocol.md` section 8.
+- **The controls:** `CONTROLS_TAKEN` now names the first, second and third stages, 167 characters. `asked()` takes the first stage's controls too, while that stage's own items keep their old route.
+- **Checked in memory, writing nothing:**
+  - the score and the table are unchanged now;
+  - with the fourth stage made to count as answered, exactly the controls' 269 rows change, in the kind columns only;
+  - 38 of those rows change kind (object to person 11, object to animal 7, supernatural to person 6, object to deity 4, and others), and 4 become unknown;
+  - no control rests on the rule afterwards.
+- **Written:** `python names.py setup4` wrote `names/input/n49.txt` to `n61.txt` and their 26 prompts into ActsRoles, and added to `NameItems.tsv`, as the dry run said. The table is still identical to the committed one.
+- **In `RUN.md`, four portions:**
+  - `names-15`: `n49` to `n52`, 8 readers;
+  - `names-16`: `n53` to `n56`, 8 readers;
+  - `names-17`: `n57` to `n59`, 6 readers;
+  - `names-18`: `n60` and `n61`, 4 readers.
+NEXT: `names-15`, at the owner's word, when the budget allows.

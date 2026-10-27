@@ -3326,3 +3326,835 @@ n48-030	myth	L3-152	hyacinth
 n48-031	myth	L1-020	dawn	
 n48-032	tale	A137	tsar	Y
 n48-033	myth	L1-076	one harpy	
+n49-001	tale	A093	groom	
+n49-002	tale	A093	tsar	
+n49-003	tale	A093	witch	
+n49-004	tale	A093	wind	
+n49-005	tale	A093	witch sister	
+n49-006	tale	A093	mouse	
+n49-007	tale	A095	woman	
+n49-008	tale	A095	man	
+n49-009	tale	A095	neighbour	
+n49-010	tale	A098	stepmother	
+n49-011	tale	A098	man	
+n49-012	tale	A098	daughter	
+n49-013	tale	A098	mouse	
+n49-014	tale	A098	bear	
+n49-015	tale	A098	dog	
+n49-016	tale	A100	cow	
+n49-017	tale	A100	stepmother	
+n49-018	tale	A100	gentleman	
+n49-019	tale	A101	cow	
+n49-020	tale	A101	elder sister	
+n49-021	tale	A101	man	
+n49-022	tale	A101	yagishna s elder daughter	
+n49-023	tale	A101	tutor	
+n49-024	tale	A101	baby	
+n49-025	tale	A101	false wife	
+n49-026	tale	A104	merchant s wife	
+n49-027	tale	A104	merchant	
+n49-028	tale	A104	stepmother	
+n49-029	tale	A104	doll	
+n49-030	tale	A104	black horseman	
+n49-031	tale	A104	skull	
+n49-032	tale	A104	woman	
+n49-033	tale	A104	tsar	
+n49-034	tale	A104	royal servant	
+n49-035	tale	A105	man	
+n49-036	tale	A105	grandfather	
+n49-037	tale	A105	woman	
+n49-038	tale	A105	mare	
+n49-039	tale	A105	horse	
+n49-040	tale	A106	cat	
+n49-041	tale	A106	eldest daughter	
+n49-042	tale	A106	middle daughter	
+n49-043	tale	A106	youngest daughter	
+n49-044	tale	A108	mother	
+n49-045	tale	A108	father	
+n49-046	tale	A108	witch	
+n49-047	tale	A113	mother	
+n49-048	tale	A113	girl	
+n49-049	tale	A113	brother	
+n49-050	tale	A113	stove	
+n49-051	tale	A113	apple tree	
+n49-052	tale	A113	milk river	
+n49-053	tale	A113	hedgehog	
+n49-054	tale	A114	witch	
+n49-055	tale	A114	princess	
+n49-056	tale	A114	son	
+n49-057	tale	A114	witch s daughter	
+n49-058	tale	A114	servant	
+n49-059	tale	A114	master	
+n49-060	tale	A114	brother	
+n49-061	tale	A115	serf	
+n49-062	tale	A115	false man	
+n49-063	tale	A115	merchant	
+n49-064	tale	A115	priest	
+n49-065	tale	A115	true man	
+n49-066	tale	A115	voice	
+n49-067	tale	A115	tsar	
+n49-068	tale	A125	iron handed man	
+n50-001	tale	A125	second tsar	
+n50-002	tale	A125	head groom	
+n50-003	tale	A125	gentleman	
+n50-004	tale	A125	dragon	
+n50-005	tale	A125	three headed dragon	
+n50-006	tale	A125	six headed dragon	
+n50-007	tale	A125	nine headed dragon	
+n50-008	tale	A125	man from ships	
+n50-009	tale	A126	unknown creature	
+n50-010	tale	A126	farmer	
+n50-011	tale	A126	fool	
+n50-012	tale	A126	father	
+n50-013	tale	A126	king over sea	
+n50-014	tale	A126	prince	
+n50-015	tale	A126	queen	
+n50-016	tale	A126	princess	
+n50-017	tale	A126	enemy soldier	
+n50-018	tale	A127	tsar	
+n50-019	tale	A127	merchant s daughter	
+n50-020	tale	A127	maid	
+n50-021	tale	A127	man	
+n50-022	tale	A127	false tsaritsa	
+n50-023	tale	A127	heart	
+n50-024	tale	A127	garden	
+n50-025	tale	A127	boy	
+n50-026	tale	A128	copper maiden	
+n50-027	tale	A128	silver maiden	
+n50-028	tale	A128	golden maiden	
+n50-029	tale	A128	silver	
+n50-030	tale	A128	man	
+n50-031	tale	A128	eagle	
+n50-032	tale	A131	black sea dragon	
+n50-033	tale	A131	tsar s garden	
+n50-034	tale	A131	tsar	
+n50-035	tale	A131	dragon s door	
+n50-036	tale	A131	maiden	
+n50-037	tale	A131	five headed dragon	
+n50-038	tale	A131	eldest princess	
+n50-039	tale	A131	seven headed dragon	
+n50-040	tale	A131	middle princess	
+n50-041	tale	A131	man	
+n50-042	tale	A131	youngest princess	
+n50-043	tale	A131	twelve headed dragon	
+n50-044	tale	A131	soldier	
+n50-045	tale	A132	tsar	
+n50-046	tale	A132	eldest son	
+n50-047	tale	A132	middle son	
+n50-048	tale	A132	stallion	
+n50-049	tale	A132	stone	
+n50-050	tale	A132	horse	
+n50-051	tale	A132	eldest sister	
+n50-052	tale	A132	middle sister	
+n50-053	tale	A132	mother bird	
+n50-054	tale	A132	tailor	
+n50-055	tale	A132	youngest princess	
+n50-056	tale	A133	father	
+n50-057	tale	A133	daughter	
+n50-058	tale	A133	sister	
+n50-059	tale	A133	dragon	
+n50-060	tale	A133	mother	
+n50-061	tale	A133	cowherd	
+n50-062	tale	A133	shepherd	
+n50-063	tale	A133	swineherd	
+n50-064	tale	A135	dragon	
+n50-065	tale	A135	kingdom	
+n50-066	tale	A135	dragon s horse	
+n50-067	tale	A135	three headed dragon	
+n50-068	tale	A135	six headed dragon	
+n51-001	tale	A135	twelve headed dragon	
+n51-002	tale	A135	raven	
+n51-003	tale	A135	dragon s wife	
+n51-004	tale	A136	king of india	
+n51-005	tale	A136	queen	
+n51-006	tale	A136	peasant s son	
+n51-007	tale	A136	pike	
+n51-008	tale	A136	cow	
+n51-009	tale	A136	kitchen maid	
+n51-010	tale	A136	sea serpent	
+n51-011	tale	A136	ivan maid s son	
+n51-012	tale	A136	hut	
+n51-013	tale	A136	six headed dragon	
+n51-014	tale	A136	horse	
+n51-015	tale	A136	nine headed dragon	
+n51-016	tale	A136	twelve headed dragon	
+n51-017	tale	A136	sow	
+n51-018	tale	A136	minister	
+n51-019	tale	A136	princess	
+n51-020	tale	A136	grandfather	
+n51-021	tale	A137	golden haired tsaritsa	
+n51-022	tale	A137	ruff	
+n51-023	tale	A137	cook	
+n51-024	tale	A137	cow	
+n51-025	tale	A137	ivan cook s son	
+n51-026	tale	A137	nine headed monster	
+n51-027	tale	A137	twelve headed monster	
+n51-028	tale	A137	monster	
+n51-029	tale	A137	hut	
+n51-030	tale	A137	horse	
+n51-031	tale	A137	witch	
+n51-032	tale	A137	man	
+n51-033	tale	A138	tsar	
+n51-034	tale	A138	tiny man	
+n51-035	tale	A138	colt	
+n51-036	tale	A138	three headed dragon	
+n51-037	tale	A138	six headed dragon	
+n51-038	tale	A138	nine headed dragon	
+n51-039	tale	A138	twelve headed dragon	
+n51-040	tale	A138	dragon s horse	
+n51-041	tale	A138	dragon s mother	
+n51-042	tale	A138	cripple	
+n51-043	tale	A138	sorcerer	
+n51-044	tale	A138	princess	
+n51-045	tale	A139	tsar	
+n51-046	tale	A139	beggar	
+n51-047	tale	A139	cook	
+n51-048	tale	A139	bream	
+n51-049	tale	A139	tsaritsa	
+n51-050	tale	A139	man in mortar	
+n51-051	tale	A139	man	
+n51-052	tale	A139	princess	
+n51-053	tale	A139	dragon	
+n51-054	tale	A139	six headed dragon	
+n51-055	tale	A139	second girl	
+n51-056	tale	A139	nine headed dragon	
+n51-057	tale	A139	third girl	
+n51-058	tale	A139	twelve headed dragon	
+n51-059	tale	A139	third princess	
+n51-060	tale	A139	youngest princess	
+n51-061	tale	A139	grey horse	
+n51-062	tale	A139	black horse	
+n51-063	tale	A140	king	
+n51-064	tale	A140	whirlwind	
+n51-065	tale	A140	man s ram	
+n51-066	tale	A140	man	
+n51-067	tale	A140	three headed dragon	
+n51-068	tale	A140	princess	
+n52-001	tale	A140	six headed dragon	
+n52-002	tale	A140	twelve headed dragon	
+n52-003	tale	A140	eldest princess	
+n52-004	tale	A141	man	
+n52-005	tale	A141	woman	
+n52-006	tale	A141	bear	
+n52-007	tale	A141	hut	
+n52-008	tale	A141	stone	
+n52-009	tale	A141	youngest maiden	
+n52-010	tale	A141	bride	
+n52-011	tale	A143	priest	
+n52-012	tale	A143	burning head	
+n52-013	tale	A143	daughter	
+n52-014	tale	A143	bear	
+n52-015	tale	A143	mother	
+n52-016	tale	A144	tsar	
+n52-017	tale	A144	fool	
+n52-018	tale	A144	man	
+n52-019	tale	A144	man with firewood	
+n52-020	tale	A144	man with straw	
+n52-021	tale	A144	tsaritsa	
+n52-022	tale	A144	princess	
+n52-023	tale	A145	tsar	
+n52-024	tale	A145	princess	
+n52-025	tale	A148	dragon	
+n52-026	tale	A148	princess	
+n52-027	tale	A148	tsar	
+n52-028	tale	A148	tsaritsa	
+n52-029	tale	A149	peasant	
+n52-030	tale	A150	eldest son	
+n52-031	tale	A150	merchant	
+n52-032	tale	A150	middle son	
+n52-033	tale	A150	youngest son	
+n52-034	tale	A150	father	
+n52-035	tale	A150	labourer	
+n52-036	tale	A150	rooster	
+n52-037	tale	A150	bull	
+n52-038	tale	A150	merchant s wife	
+n52-039	tale	A150	bear	
+n52-040	tale	A151	master	
+n52-041	tale	A151	grandfather	
+n52-042	tale	A152	peasant	
+n52-043	tale	A152	mother	
+n52-044	tale	A152	grandfather	
+n52-045	tale	A152	hare	
+n52-046	tale	A153	soldier	
+n52-047	tale	A153	foreign prince	
+n52-048	tale	A153	princess	
+n52-049	tale	A153	woman	
+n52-050	tale	A153	tsar	
+n52-051	tale	A153	iron man	
+n52-052	tale	A153	comrade	
+n52-053	tale	A154	soldier	
+n52-054	tale	A154	king	
+n52-055	tale	A154	queen	
+n52-056	tale	A155	peasant	
+n52-057	tale	A155	wife	
+n52-058	tale	A155	twins	
+n52-059	tale	A155	tsar	
+n52-060	tale	A155	owner	
+n52-061	tale	A155	man	
+n52-062	tale	A155	hero	
+n52-063	tale	A155	brother	
+n52-064	tale	A155	dragon	
+n52-065	tale	A155	eldest princess	
+n52-066	tale	A155	woman	
+n52-067	tale	A155	second dragon	
+n52-068	tale	A155	third dragon	
+n53-001	tale	A155	deer	
+n53-002	tale	A155	maiden	
+n53-003	tale	A155	kerchief	
+n53-004	tale	A155	lioness	
+n53-005	tale	A156	middle son	
+n53-006	tale	A156	tsar	
+n53-007	tale	A156	woman	
+n53-008	tale	A156	horse	
+n53-009	tale	A156	inscription	
+n53-010	tale	A156	princess	
+n53-011	tale	A156	mother	
+n53-012	tale	A156	crow	
+n53-013	tale	A156	pike	
+n53-014	tale	A156	eldest brother	
+n53-015	tale	A156	bride	
+n53-016	tale	A159	falcon	
+n53-017	tale	A159	raven	
+n53-018	tale	A159	survivor	
+n53-019	tale	A159	kerchief	
+n53-020	tale	A159	overseas bird	
+n53-021	tale	A159	queen bee	
+n53-022	tale	A159	lioness	
+n53-023	tale	A159	foal	
+n53-024	tale	A159	ivan tsarevich s horse	
+n53-025	tale	A161	second man	
+n53-026	tale	A161	bird	
+n53-027	tale	A161	maiden	
+n53-028	tale	A161	baba yaga s head	
+n53-029	tale	A162	falcon	
+n53-030	tale	A162	tsar	
+n53-031	tale	A162	princess	
+n53-032	tale	A162	golden goat	
+n53-033	tale	A162	twelve headed dragon	
+n53-034	tale	A162	three headed dragon	
+n53-035	tale	A162	six headed dragon	
+n53-036	tale	A163	fox	
+n53-037	tale	A163	tsar	
+n53-038	tale	A163	wife	
+n53-039	tale	A164	fox	
+n53-040	tale	A164	wolf	
+n53-041	tale	A164	bear	
+n53-042	tale	A164	marten	
+n53-043	tale	A164	princess	
+n53-044	tale	A166	fool	
+n53-045	tale	A166	pike	
+n53-046	tale	A166	king	
+n53-047	tale	A166	princess	
+n53-048	tale	A167	poor peasant	
+n53-049	tale	A167	pike	
+n53-050	tale	A167	princess	
+n53-051	tale	A167	tsar	
+n53-052	tale	A167	boy	
+n53-053	tale	A167	child	
+n53-054	tale	A167	son	
+n53-055	tale	A167	woman	
+n53-056	tale	A167	king	
+n53-057	tale	A167	rival	
+n53-058	tale	A167	king s daughter	
+n53-059	tale	A093	father	
+n53-060	tale	A095	stepmother	
+n53-061	tale	A098	man s daughter	
+n53-062	tale	A098	girl	
+n53-063	tale	A100	bones	
+n53-064	tale	A101	tsaritsa	
+n53-065	tale	A101	elder daughter	
+n53-066	tale	A101	three eyed daughter	
+n53-067	tale	A101	gut	
+n53-068	tale	A104	mother	
+n54-001	tale	A104	hands	
+n54-002	tale	A104	tsar s servant	
+n54-003	tale	A105	hen	
+n54-004	tale	A105	eggs	
+n54-005	tale	A108	daughter	
+n54-006	tale	A113	river	
+n54-007	tale	A114	sea of fire	
+n54-008	tale	A115	spring	
+n54-009	tale	A125	prisoner	
+n54-010	tale	A125	tsar	
+n54-011	tale	A125	other tsar	
+n54-012	tale	A125	rival tsar	
+n54-013	tale	A126	thing	
+n54-014	tale	A126	king	
+n54-015	tale	A126	mother	
+n54-016	tale	A127	poor shop	
+n54-017	tale	A127	tsaritsa	
+n54-018	tale	A127	poor merchant	
+n54-019	tale	A128	eldest son	
+n54-020	tale	A128	middle son	
+n54-021	tale	A128	maiden	
+n54-022	tale	A128	maiden of silver kingdom	
+n54-023	tale	A131	dragon s house	
+n54-024	tale	A131	treasury	
+n54-025	tale	A132	youngest son	
+n54-026	tale	A132	maiden of copper palace	
+n54-027	tale	A132	second sister	
+n54-028	tale	A132	youngest bride	
+n54-029	tale	A135	horse	
+n54-030	tale	A136	daughter in law as hut	
+n54-031	tale	A136	jug	
+n54-032	tale	A136	dragon	
+n54-033	tale	A136	daughter in law as well	
+n54-034	tale	A136	daughter in law as garden	
+n54-035	tale	A137	monsters wife as apple tree	
+n54-036	tale	A137	oak	
+n54-037	tale	A137	man as ruff	
+n54-038	tale	A138	daughter in law as apple tree	
+n54-039	tale	A138	daughter in law as well	
+n54-040	tale	A138	daughter in law as bed	
+n54-041	tale	A138	legs	
+n54-042	tale	A139	goldsmith	
+n54-043	tale	A140	dragon	
+n54-044	tale	A141	turnip	
+n54-045	tale	A143	ash	
+n54-046	tale	A143	casket	
+n54-047	tale	A143	grandfather	
+n54-048	tale	A145	thief	
+n54-049	tale	A148	tsar s daughter	
+n54-050	tale	A148	hemp	
+n54-051	tale	A149	stone	
+n54-052	tale	A154	princess	
+n54-053	tale	A154	sentry	
+n54-054	tale	A155	father	
+n54-055	tale	A155	princess	
+n54-056	tale	A156	tsar s wife	
+n54-057	tale	A156	father	
+n54-058	tale	A156	stone s inscription	
+n54-059	tale	A156	hare	
+n54-060	tale	A159	ivan s horse	
+n54-061	tale	A161	kingdom	
+n54-062	tale	A161	ball	
+n54-063	tale	A161	first bird	
+n54-064	tale	A161	second bird	
+n54-065	tale	A161	third bird	
+n54-066	tale	A162	father	
+n54-067	tale	A162	dragon	
+n54-068	tale	A162	crystal mountain	
+n55-001	fable	F007	stone	
+n55-002	fable	F015	fish	
+n55-003	fable	F022	honey	
+n55-004	fable	F030	sea birds	
+n55-005	fable	F039	trap	
+n55-006	fable	F039	one of foxes	
+n55-007	fable	F045	neighbor	
+n55-008	fable	F071	owner	
+n55-009	fable	F083	river	
+n55-010	fable	F086	gardener s daughter	
+n55-011	fable	F086	tile maker s daughter	
+n55-012	fable	F091	mouse s body	
+n55-013	fable	F092	fish	
+n55-014	fable	F092	large fish	
+n55-015	fable	F092	smaller fish	
+n55-016	fable	F096	neighbor	
+n55-017	fable	F099	owner	
+n55-018	fable	F100	master	
+n55-019	fable	F100	shed	
+n55-020	fable	F121	finder	
+n55-021	fable	F121	owner	
+n55-022	fable	F121	companion	
+n55-023	fable	F130	farmer s sheep	
+n55-024	fable	F130	farmer s oxen	
+n55-025	fable	F130	wife	
+n55-026	fable	F132	friend	
+n55-027	fable	F140	bread	
+n55-028	fable	F140	meat	
+n55-029	fable	F141	well	
+n55-030	fable	F142	wind	
+n55-031	fable	F142	owner	
+n55-032	fable	F145	house	
+n55-033	fable	F147	rich man	
+n55-034	fable	F149	courtier	
+n55-035	fable	F163	loved one	
+n55-036	fable	F163	despised one	
+n55-037	fable	F165	wolf	
+n55-038	fable	F165	sheep	
+n55-039	fable	F167	wagon	
+n55-040	fable	F169	wife	
+n55-041	fable	F171	one of travelers	
+n55-042	fable	F191	countryman	
+n55-043	fable	F213	image	
+n55-044	fable	F213	bystander	
+n55-045	fable	F215	owner of field	
+n55-046	fable	F219	master	
+n55-047	fable	F219	leech	
+n55-048	fable	F221	actor s house	
+n55-049	fable	F223	thrush	
+n55-050	fable	F244	snare	
+n55-051	fable	F259	lamb	
+n55-052	fable	F259	shepherd	
+n55-053	fable	F264	father	
+n55-054	fable	F279	owner	
+n55-055	fable	F282	viper s eggs	
+n55-056	fable	F297	thorn	
+n55-057	fable	F301	neighbor	
+n55-058	fable	F302	painted lion	
+n55-059	fable	F302	thorn	
+n55-060	fable	F005	faggot	
+n55-061	fable	F035	wagon	
+n55-062	fable	F041	shepherd	
+n55-063	fable	F043	bystander	
+n55-064	fable	F047	bystander	
+n56-001	fable	F048	log	
+n56-002	fable	F060	elder woman	
+n56-003	fable	F063	neighbor	
+n56-004	fable	F069	son	
+n56-005	fable	F070	land	
+n56-006	fable	F074	meat	
+n56-007	fable	F124	wind	
+n56-008	fable	F128	huntsman	
+n56-009	fable	F131	lamb	
+n56-010	fable	F134	one of hares	
+n56-011	fable	F136	rich man	
+n56-012	fable	F136	cook	
+n56-013	fable	F144	son	
+n56-014	fable	F144	man	
+n56-015	fable	F144	citizen	
+n56-016	fable	F174	cub	
+n56-017	fable	F179	current	
+n56-018	fable	F179	flies	
+n56-019	fable	F189	person	
+n56-020	fable	F195	spider	
+n56-021	fable	F212	assembly	
+n56-022	fable	F228	man	
+n56-023	fable	F234	those who brought it	
+n56-024	fable	F234	whelp	
+n56-025	fable	F253	eagle	
+n56-026	fable	F253	hawk	
+n56-027	fable	F255	owner	
+n56-028	fable	F269	companion	
+n56-029	fable	F275	prey	
+n56-030	fable	F275	fold	
+n56-031	fable	F303	man	
+n56-032	fable	F086	first daughter	
+n56-033	fable	F086	second daughter	
+n56-034	fable	F091	water	
+n56-035	fable	F092	small fish	
+n56-036	fable	F100	bailiff	
+n56-037	fable	F121	axe	
+n56-038	fable	F130	sheep	
+n56-039	fable	F130	oxen	
+n56-040	fable	F141	summer heat	
+n56-041	fable	F171	traveler	
+n56-042	fable	F192	pitcher	
+n56-043	fable	F219	doctor	
+n56-044	fable	F248	winter	
+n56-045	fable	F264	lark s father	
+n56-046	fable	F281	child	
+n56-047	fable	F282	eggs	
+n56-048	fable	F302	son	
+n56-049	fable	F302	lion	
+n56-050	fable	F302	fever	
+n56-051	fable	F024	farmer s warmth	
+n56-052	fable	F047	pitcher	
+n56-053	fable	F060	older woman	
+n56-054	fable	F084	wolf s whelp	
+n56-055	fable	F102	prey	
+n56-056	fable	F114	milk	
+n56-057	fable	F124	object	
+n56-058	fable	F124	traveler	
+n56-059	fable	F133	stream	
+n56-060	fable	F174	lion s cub	
+n56-061	fable	F189	neighbor	
+n56-062	fable	F195	cobweb	
+n56-063	fable	F205	house	
+n56-064	fable	F267	river	
+n56-065	fable	F275	owner of fold	
+n57-001	fable	F299	cattle	
+n57-002	animal	A001	wife	
+n57-003	animal	A007	owner	
+n57-004	animal	A007	horse	
+n57-005	animal	A008	owner	
+n57-006	animal	A018	woman s cabbage	
+n57-007	animal	A018	floor	
+n57-008	animal	A018	ceiling	
+n57-009	animal	A019	pea	
+n57-010	animal	A020	bean	
+n57-011	animal	A020	pea	
+n57-012	animal	A020	hen	
+n57-013	animal	A020	roof	
+n57-014	animal	A020	hut	
+n57-015	animal	A021	bean	
+n57-016	animal	A021	hen	
+n57-017	animal	A021	eyes	
+n57-018	animal	A021	legs	
+n57-019	animal	A021	tail	
+n57-020	animal	A022	woman s body	
+n57-021	animal	A023	eyes	
+n57-022	animal	A023	tail	
+n57-023	animal	A024	legs	
+n57-024	animal	A024	eyes	
+n57-025	animal	A024	tail	
+n57-026	animal	A025	dog	
+n57-027	animal	A025	legs	
+n57-028	animal	A025	eyes	
+n57-029	animal	A025	tail	
+n57-030	animal	A026	eyes	
+n57-031	animal	A026	tail	
+n57-032	animal	A027	trap	
+n57-033	animal	A032	chick	
+n57-034	animal	A034	dog	
+n57-035	animal	A036	man	
+n57-036	animal	A037	man	
+n57-037	animal	A040	peasant	
+n57-038	animal	A041	woman	
+n57-039	animal	A041	man	
+n57-040	animal	A044	woman	
+n57-041	animal	A044	man	
+n57-042	animal	A044	lookout wolf	
+n57-043	animal	A045	white wolf	
+n57-044	animal	A046	peasant	
+n57-045	animal	A047	woman	
+n57-046	animal	A047	first bear	
+n57-047	animal	A047	second bear	
+n57-048	animal	A047	third bear	
+n57-049	animal	A048	peasant	
+n57-050	animal	A048	wife	
+n57-051	animal	A049	woman	
+n57-052	animal	A049	man	
+n57-053	animal	A049	sheep	
+n57-054	animal	A050	man	
+n57-055	animal	A050	cat	
+n57-056	animal	A050	dog	
+n57-057	animal	A018	cabbage	
+n57-058	animal	A018	woman s bones	
+n57-059	animal	A020	goats hut	
+n57-060	animal	A028	trap	
+n57-061	animal	A038	fox s first daughter	
+n57-062	animal	A044	wolf s head	
+n57-063	animal	A045	gate	
+n57-064	animal	A046	wolf s head	
+n57-065	animal	A050	woman	
+n58-001	tragedy	P01	trojan camp	
+n58-002	tragedy	P02	chorus	
+n58-003	tragedy	P02	servant	
+n58-004	tragedy	P02	messenger	
+n58-005	tragedy	P03	messenger	
+n58-006	tragedy	P03	younger son	
+n58-007	tragedy	P03	oracle	
+n58-008	tragedy	P04	priestess	
+n58-009	tragedy	P04	chorus	
+n58-010	tragedy	P04	servant	
+n58-011	tragedy	P04	dove	
+n58-012	tragedy	P05	achilles son	
+n58-013	tragedy	P05	chorus woman s husband	
+n58-014	tragedy	P06	phineus s wife	
+n58-015	tragedy	P07	zeus virgin daughter	
+n58-016	tragedy	P07	gadfly	
+n58-017	tragedy	P08	herald	
+n58-018	tragedy	P11	agamemnon s daughter	
+n58-019	tragedy	P12	sailor at nauplia	
+n58-020	tragedy	P12	herald	
+n58-021	tragedy	P12	loud mouthed speaker	
+n58-022	tragedy	P12	farmer	
+n58-023	tragedy	P13	tecmessa s mother	
+n58-024	tragedy	P13	atreus s brother	
+n58-025	tragedy	P13	agamemnon s mother s father	
+n58-026	tragedy	P13	agamemnon s mother	
+n58-027	tragedy	P13	alcmena s son	
+n58-028	tragedy	P14	agamemnon s sacrificed daughter	
+n58-029	tragedy	P15	theban herald	
+n58-030	tragedy	P15	theseus s herald	
+n58-031	tragedy	P16	merops daughter	
+n58-032	tragedy	P16	woman	
+n58-033	tragedy	P16	demeter s daughter	
+n58-034	tragedy	P18	polybus s wife	
+n58-035	tragedy	P18	laius s charioteer	
+n58-036	tragedy	P18	servant	
+n58-037	tragedy	P18	argive prisoner	
+n58-038	tragedy	P18	teiresias s daughter	
+n58-039	tragedy	P19	nemean lion	
+n58-040	tragedy	P20	laius s escort	
+n58-041	tragedy	P20	drunken man	
+n58-042	tragedy	P21	persian host	
+n58-043	tragedy	P22	admetus s mother	
+n58-044	tragedy	P22	hearth goddess	
+n58-045	tragedy	P23	electra s sister	
+n58-046	tragedy	P23	thestius daughter	
+n58-047	tragedy	P23	thestius daughter s son	
+n58-048	tragedy	P23	nisus daughter	
+n58-049	tragedy	P23	aegisthus s servant	
+n58-050	tragedy	P24	chorus s friend	
+n58-051	tragedy	P24	bull loved by phaedra s mother	
+n58-052	tragedy	P24	phaedra s sister	
+n58-053	tragedy	P24	palace servant	
+n58-054	tragedy	P24	monstrous bull	
+n58-055	tragedy	P26	golden horned deer	
+n58-056	tragedy	P26	three headed hound	
+n58-057	tragedy	P29	oedipus mother	
+n58-058	tragedy	P31	dawn s trojan husband	
+n58-059	tragedy	P32	man	
+n58-060	tragedy	P01	shepherd	
+n58-061	tragedy	P01	rhesus s father	
+n58-062	tragedy	P02	heracles daughter	
+n58-063	tragedy	P02	supposed herald	
+n58-064	tragedy	P03	delphic oracle	
+n58-065	tragedy	P03	oedipus s mother	
+n58-066	tragedy	P03	father	
+n58-067	tragedy	P03	goddess of dead	
+n58-068	tragedy	P04	babe	
+n58-069	tragedy	P04	mother	
+n58-070	tragedy	P04	woman at delphi	
+n58-071	tragedy	P04	servant of creusa	
+n58-072	tragedy	P04	creusa s father	
+n58-073	tragedy	P08	atreus wife	
+n58-074	tragedy	P15	eteocles son of iphis	
+n58-075	tragedy	P32	clytemnestra s baby	
+n59-001	myth	L1-003	forced by drug	
+n59-002	myth	L1-003	by lot	
+n59-003	myth	L1-005	snake	
+n59-004	myth	L1-005	as result of orpheus s violation	
+n59-005	myth	L1-015	oracle	
+n59-006	myth	L1-016	orion s wife	
+n59-007	myth	L1-020	by means of athena	
+n59-008	myth	L1-022	eagle	
+n59-009	myth	L1-034	brand	
+n59-010	myth	L1-034	boar	
+n59-011	myth	L1-034	land	
+n59-012	myth	L1-034	cattle	
+n59-013	myth	L1-044	oeneus s body	
+n59-014	myth	L1-045	land	
+n59-015	myth	L1-045	fleece	
+n59-016	myth	L1-053	city	
+n59-017	myth	L1-054	twins	
+n59-018	myth	L1-055	horsekeepers mare	
+n59-019	myth	L1-062	vulture	
+n59-020	myth	L1-062	knife	
+n59-021	myth	L1-067	father	
+n59-022	myth	L1-070	argus son of phrixus	
+n59-023	myth	L1-070	oracle	
+n59-024	myth	L1-076	dove	
+n59-025	myth	L1-076	boar	
+n59-026	myth	L1-076	dragon	
+n59-027	myth	L1-076	fleece	
+n59-028	myth	L1-076	ship	
+n59-029	myth	L1-076	jason s mother	
+n59-030	myth	L2-002	bull	
+n59-031	myth	L2-002	satyr	
+n59-032	myth	L2-015	sea monster	
+n59-033	myth	L2-027	cow	
+n59-034	myth	L2-027	vixen	
+n59-035	myth	L2-032	pythian priestess	
+n59-036	myth	L2-032	lion	
+n59-037	myth	L2-034	crab	
+n59-038	myth	L2-034	hind	
+n59-039	myth	L2-034	centaurs jar	
+n59-040	myth	L2-038	boar	
+n59-041	myth	L2-038	bull	
+n59-042	myth	L2-043	rest of parians	
+n59-043	myth	L2-044	sea monster	
+n59-044	myth	L2-045	sea monster	
+n59-045	myth	L2-045	cattle	
+n59-046	myth	L2-045	bull	
+n59-047	myth	L2-045	cows	
+n59-048	myth	L2-047	cowherd	
+n59-049	myth	L2-047	kine of hades	
+n59-050	myth	L2-047	pythian priestess	
+n59-051	myth	L2-047	oracle	
+n60-001	myth	L2-047	statue	
+n60-002	myth	L2-047	hercules s force	
+n60-003	myth	L2-047	son of licymnius	
+n60-004	myth	L2-050	hercules s side	
+n60-005	myth	L2-054	son of architeles	
+n60-006	myth	L2-054	lad s father	
+n60-007	myth	L2-054	poison	
+n60-008	myth	L2-055	oracle	
+n60-009	myth	L2-058	oracle	
+n60-010	myth	L3-007	bull	
+n60-011	myth	L3-014	mouse	
+n60-012	myth	L3-014	serpent	
+n60-013	myth	L3-014	glaucus s body	
+n60-014	myth	L3-014	second serpent	
+n60-015	myth	L3-014	herb	
+n60-016	myth	L3-014	dead serpent	
+n60-017	myth	L3-015	god s order	
+n60-018	myth	L3-015	cow	
+n60-019	myth	L3-015	dragon	
+n60-020	myth	L3-015	dragon s teeth	
+n60-021	myth	L3-015	five of sparti	
+n60-022	myth	L3-019	through zeus s thunder	
+n60-023	myth	L3-019	unborn child	
+n60-024	myth	L3-025	vine	
+n60-025	myth	L3-025	edonians land	
+n60-026	myth	L3-025	pirates ship	
+n60-027	myth	L3-031	twins	
+n60-028	myth	L3-036	herdsman	
+n60-029	myth	L3-038	sphinx s riddle	
+n60-030	myth	L3-038	whoever should read riddle	
+n60-031	myth	L3-039	eumenides precinct	
+n60-032	myth	L3-040	kingdom	
+n60-033	myth	L3-040	adrastus s palace	
+n60-034	myth	L3-043	expedition	
+n60-035	myth	L3-043	amphiaraus s interdiction	
+n60-036	myth	L3-045	tydeus s message	
+n60-037	myth	L3-053	melanippus s head	
+n60-038	myth	L3-056	creon s interdiction	
+n60-039	myth	L3-056	polynices s body	
+n60-040	myth	L3-060	oracle	
+n60-041	myth	L3-062	new land	
+n60-042	myth	L3-062	necklace	
+n60-043	myth	L3-062	robe	
+n60-044	myth	L3-062	servant	
+n60-045	myth	L3-066	wife	
+n60-046	myth	L3-068	child s bowels	
+n60-047	myth	L3-070	babe	
+n60-048	myth	L3-073	precinct of athena	
+n60-049	myth	L3-073	land	
+n60-050	myth	L3-075	she bear	
+n60-051	myth	L3-075	precinct of zeus	
+n60-052	myth	L3-078	cattle	
+n61-001	myth	L3-078	flesh	
+n61-002	myth	L3-078	tortoise	
+n61-003	myth	L3-078	shell	
+n61-004	myth	L3-081	raven	
+n61-005	myth	L3-081	babe	
+n61-006	myth	L3-082	dying	
+n61-007	myth	L3-098	king	
+n61-008	myth	L3-098	cow	
+n61-009	myth	L3-099	image	
+n61-010	myth	L3-104	babe	
+n61-011	myth	L3-105	bear	
+n61-012	myth	L3-110	body	
+n61-013	myth	L3-111	peleus s wife	
+n61-014	myth	L3-111	game	
+n61-015	myth	L3-111	babe	
+n61-016	myth	L3-111	child	
+n61-017	myth	L3-117	acropolis	
+n61-018	myth	L3-129	seed	
+n61-019	myth	L3-144	benthesicyme s husband	
+n61-020	myth	L3-144	wife s sister	
+n61-021	myth	L3-145	youngest daughter	
+n61-022	myth	L3-145	house	
+n61-023	myth	L3-149	future son	
+n61-024	myth	L3-149	bull of marathon	
+n61-025	myth	L3-152	oracle	
+n61-026	myth	L3-153	bull of poseidon	
+n61-027	myth	L3-154	rock	
+n61-028	myth	L1-003	stone	
+n61-029	myth	L1-055	mare	
+n61-030	myth	L1-055	one infant	
+n61-031	myth	L1-055	twins	
+n61-032	myth	L1-076	strangers who land	
+n61-033	myth	L2-002	apis s killer	
+n61-034	myth	L2-027	dog	
+n61-035	myth	L2-032	oracle	
+n61-036	myth	L2-047	cattle of hades	
+n61-037	myth	L2-047	city wall	
+n61-038	myth	L3-014	first serpent	
+n61-039	myth	L3-025	land	
+n61-040	myth	L3-025	mast	
+n61-041	myth	L3-025	vessel	
+n61-042	myth	L3-036	oedipus s horse	
+n61-043	myth	L3-053	head	
+n61-044	myth	L3-062	ground	
+n61-045	myth	L3-068	native boy	
+n61-046	myth	L3-073	babe	
+n61-047	myth	L3-073	father	
+n61-048	myth	L3-074	babe	
+n61-049	myth	L3-075	father	
+n61-050	myth	L3-105	infant	
+n61-051	myth	L3-110	island	
+n61-052	myth	L3-115	father	
