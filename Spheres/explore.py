@@ -71,7 +71,7 @@ def merge(entries):
     return canon
 
 
-def main(name='SpheresExplore.txt',
+def main(out_name='SpheresExplore.txt',
          header='# SpheresExplore.txt -- explore.py, exploratory; Propp\'s spheres of action counted in the original transcriptions.'):
     say(header)
     say('')
@@ -123,7 +123,7 @@ def main(name='SpheresExplore.txt',
                 % (100 * merged_hv / n, 100.0 * outside_only / max(1, acting)))
             say('           stories with a hero in which a hero is exposed or punished: %d of %d (%.0f%%)' % (fallen, hero_stories, 100.0 * fallen / max(1, hero_stories)))
         say('')
-    open(os.path.join(HERE, name), 'w', encoding='utf-8', newline='\n').write('\n'.join(OUT) + '\n')
+    open(os.path.join(HERE, out_name), 'w', encoding='utf-8', newline='\n').write('\n'.join(OUT) + '\n')
 
 
 def strict():
