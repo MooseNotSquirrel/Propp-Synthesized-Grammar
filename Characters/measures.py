@@ -192,6 +192,28 @@ def ranking(rows, g, out):
     return res
 
 
+def judged_heroes(rows):
+    """the kinds of the fables' heroes both readers named (Heroes/JudgedHeroes.txt), each found as the character of its
+    story whose key it joins by Spheres/explore.py's joins(); returns ({kind: share}, found, not found)"""
+    path = os.path.join(C.ROOT, 'Heroes', 'JudgedHeroes.txt')
+    judged = [l.rstrip('\n').split(' | ')[:2] for l in open(path, encoding='utf-8') if not l.startswith('#') and ' | ' in l]
+    by = collections.defaultdict(list)
+    for r in rows:
+        by[r['story']].append(r)
+    found, miss = [], 0
+    for s, name in judged:
+        if s[0] not in 'FL':
+            continue
+        k = tuple(C.SX.key(name))
+        cand = [r for r in by.get(s, []) if tuple(r['character'].split()) == k
+                or C.SX.joins(k, tuple(r['character'].split())) or C.SX.joins(tuple(r['character'].split()), k)]
+        if cand:
+            found.append(cand[0])
+        else:
+            miss += 1
+    return kind_share(found), len(found), miss
+
+
 # ---------------------------------------------------------------- the run
 def verdict(a, b):
     if a is None or b is None:
@@ -250,6 +272,13 @@ def run(amended=False):
             diff = ', '.join('%s %.0f%% against %d%%%s' % (k, sh[k], v, ' (DIFFERS BY MORE THAN 5 POINTS: to be explained)' if abs(sh[k] - v) > 5 else '')
                              for k, v in ref.items())
             out.append('  fables\' heroes, reader %s, beside PreliminaryFindings.md section 5: %s' % (L, diff))
+    if amended:
+        # KeeperLog 2026-10-28: section 5 counted one hero a fable, not the hero sphere's holders; the same count on this
+        # table, with the heroes both readers named in Heroes/JudgedHeroes.txt
+        for L in 'AB':
+            sh, n, miss = judged_heroes(cell[('fable', L)])
+            out.append('  fables\' judged heroes, one a fable, reader %s: %d found, %d not found; %s (section 5: animal 71%%, person 22%%, deity 4%%)'
+                       % (L, n, miss, ', '.join('%s %.0f%%' % (k, sh[k]) for k in KINDS if sh[k] >= 0.5)))
 
     out.append('')
     out.append('== predictions (CharacterProtocol.md section 5): HOLDS if for both readers, SPLIT if for one, FAILS if for neither')
@@ -282,6 +311,9 @@ def run(amended=False):
                                                     for g, x in res.items())))
     out.append('  6. the grouping agrees with the spheres better than shuffled profiles do, where it does not collapse: %s' % verdict(p6['A'], p6['B']))
     text = '\n'.join(out) + '\n'
+    # CharacterRun.txt holds the verdicts of record (CharacterProtocol.md section 8): a run that would change it is refused
+    if not amended and os.path.exists(OUT) and open(OUT, encoding='utf-8').read() != text:
+        raise SystemExit('refusing to overwrite the record %s: the table has changed since it was written; use run --amended' % OUT)
     open(AMENDED if amended else OUT, 'w', encoding='utf-8', newline='\n').write(text)
     print(text, end='')
 
