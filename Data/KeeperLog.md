@@ -362,3 +362,11 @@ NEXT: the owner decides on those 107 controls; then, at the owner's word, `pytho
   - `names-17`: `n57` to `n59`, 6 readers;
   - `names-18`: `n60` and `n61`, 4 readers.
 NEXT: `names-15`, at the owner's word, when the budget allows.
+**2026-10-28. The fourth name stage, first portion: `names-15` run, merged.** `n49` to `n52`, the wondertales, eight readers started at once from master fa96c73, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-15` (9b8e8d8) and merged at e87209d; no failure. The readers used 62,000 to 65,500 tokens each, some 505,000 in all. A check of form on the four batches: every item answered once, in order, with a kind and a confidence from the lists and a reason.
+- **Raised by the readers, reported and not judged:**
+  - Baba Yaga's daughters, the witch's daughter and Yagishna's daughter, between person and supernatural (here the readers differ: A says supernatural, B person, for some);
+  - old men who work wonders, a sorcerer, an iron-handed man, a tiny old man;
+  - a speaking skull, a burning head, an unseen voice, a whirlwind, a doll that works;
+  - a sea-serpent and a sow that falls to pieces.
+  - Reader A of `n51` notes one item that names two characters (the helpful old man and the tiny limb-eater).
+NEXT: `names-16` (`n53` to `n56`, 8 readers), at the owner's word, when the budget allows.
