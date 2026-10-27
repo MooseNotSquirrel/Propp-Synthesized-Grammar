@@ -203,3 +203,11 @@ NEXT: `names-7` (`n22` to `n25`, the tragedies, 8 readers), at the owner's word,
 **2026-10-27. The second name stage, third portion: `names-7` run, merged.** `n22` to `n25`, the tragedies, eight readers started at once from master ba5765a, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-7` (0b5af84) and merged at 594dd0d; no failure. Each reader used about 60,000 to 62,000 tokens, some 492,000 in all. A check of form on the four batches: every item answered once, in order, with a kind and a confidence from the lists and a reason.
 - **Raised by the readers, reported and not judged:** figures between mortal and god (Heracles, Orpheus, Dionysus as prophet, Apis, Nereus, Maia, Achilles' ghost); goddesses and spirits (the Furies and the dread goddesses, the Nereids, Earth); a river as a father (Strymon); cities that act as their peoples (Argos, the cities of Hellas, Delphi), which the two readers place differently; oracles as pronouncements; and one control-like item from a wondertale, the hut on chicken legs.
 NEXT: `names-8` (`n26` to `n28`, the tragedies, 6 readers), at the owner's word, when the budget allows.
+**2026-10-27. The second name stage, fourth portion: `names-8` run, merged.** `n26` to `n28`, the tragedies, six readers started at once from master 594dd0d, A on Opus and B on Sonnet. Each reply was saved word for word as `Report.md`, and each folder holds exactly `Kinds.txt` and `Report.md`. Committed on `run-names-8` (fe44a13) and merged at dc7795c; no failure. Each reader used about 61,000 to 62,000 tokens, some 369,000 in all. A check of form on the three batches: every item answered once, in order, with a kind and a confidence from the lists and a reason.
+- **Raised by the readers, reported and not judged:**
+  - figures between mortal and god: Heracles, Asclepius, Chiron, Aegina;
+  - groups between deity and spirit: the Fates, the Furies, the Graces, the Oceanids, the Centaurs, the Satyrs, Charon;
+  - Earth and Olympus as beings or places;
+  - things written as characters: "Polyphontes's order", "the god's interdiction", the grandfather's head, the oaks of Dodona;
+  - from a control, "the Fox's daughter".
+NEXT: `names-9` (`n29` to `n31`, the myths, 6 readers), at the owner's word, when the budget allows.
