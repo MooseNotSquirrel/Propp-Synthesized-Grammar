@@ -15,6 +15,7 @@ characters the rule does sort, are mixed in unmarked by a fixed seed.
 import collections
 import os
 import random
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -240,8 +241,117 @@ def rewrite(dry):
     return out
 
 
+KINDS = ('person', 'animal', 'deity', 'supernatural', 'object')
+CONFIDENCES = ('high', 'medium', 'low')
+# a name the transcribers wrote as a phrase, not a being ("at Zeus's order", "whoever should woo"): counted apart
+PHRASE = re.compile(r'^(?:the\s+)?(?:at|for|of|by|in|to|from|with|whoever|whom|as)\b', re.I)
+
+
+def item_key():
+    return [l.rstrip('\n').split('\t') for l in open(os.path.join(HERE, 'NameItems.tsv'), encoding='utf-8')][1:]
+
+
+def input_items(b):
+    return [l.split(' | ')[0].strip() for l in open(os.path.join(AR, 'names', 'input', b + '.txt'), encoding='utf-8') if l.strip()]
+
+
+def answers(L, b):
+    """{item: (kind, confidence, reason)} and the items in the order written"""
+    path = os.path.join(AR, 'names', 'answers', L, b, 'Kinds.txt')
+    out, order = {}, []
+    for l in open(path, encoding='utf-8'):
+        f = [x.strip() for x in l.rstrip('\n').split('|', 3)]
+        if len(f) == 4 and re.match(r'^n\d+-\d{3}$', f[0]):
+            out[f[0]] = (f[1].lower(), f[2].lower(), f[3])
+            order.append(f[0])
+    return out, order
+
+
+def batches():
+    return sorted({r[0].split('-')[0] for r in item_key()}, key=lambda b: int(b[1:]))
+
+
+def form():
+    """NamesProtocol.md's form check: one line per item, in order; a kind from the five, a confidence from the three,
+    a reason; written to Data/forms/names.txt"""
+    out, total = [], 0
+    for L in 'AB':
+        for b in batches():
+            items = input_items(b)
+            got, order = answers(L, b)
+            bad = sum(1 for i in items if i in got and (got[i][0] not in KINDS or got[i][1] not in CONFIDENCES or not got[i][2]))
+            missing = sum(1 for i in items if i not in got)
+            extra = len(set(got) - set(items))
+            in_order = order == items
+            out.append('%s %-3s items %3d, answered %3d, missing %d, unknown items %d, out-of-list answers %d, in order %s'
+                       % (L, b, len(items), len(got), missing, extra, bad, 'yes' if in_order else 'NO'))
+            total += missing + extra + bad + (0 if in_order else 1)
+    out.append('IN FORM' if total == 0 else 'NOT IN FORM: %d problem(s)' % total)
+    open(os.path.join(ROOT, 'Data', 'forms', 'names.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(out) + '\n')
+    print('\n'.join(out))
+
+
+def agreed():
+    """{(corpus, story, character): kind} where both readers give the same kind, controls and phrase-names left out;
+    and the lines of the report"""
+    key = item_key()
+    ans = {L: {} for L in 'AB'}
+    for L in 'AB':
+        for b in batches():
+            ans[L].update(answers(L, b)[0])
+    names = {}
+    for b in batches():
+        for l in open(os.path.join(AR, 'names', 'input', b + '.txt'), encoding='utf-8'):
+            f = [x.strip() for x in l.split(' | ')]
+            if len(f) >= 4:
+                names[f[0]] = f[3]
+    ctl = {l.split('\t')[0]: l.split('\t')[1].strip() for l in open(os.path.join(HERE, 'NameControls.txt'), encoding='utf-8')
+           if not l.startswith('#') and '\t' in l}
+    out, lines = {}, []
+    by = collections.defaultdict(collections.Counter)
+    phrases = []
+    for item, g, s, c, control in key:
+        a, b = ans['A'].get(item), ans['B'].get(item)
+        if control:
+            for L, x in (('A', a), ('B', b)):
+                by['controls ' + L]['n'] += 1
+                by['controls ' + L]['agree'] += bool(x) and x[0] == ctl.get(item)
+            continue
+        if PHRASE.match(names.get(item, '').split(';')[0]):
+            phrases.append(names.get(item, ''))
+            continue
+        x = by[g]
+        x['items'] += 1
+        if a and b and a[0] == b[0]:
+            x['agree'] += 1
+            x['both high'] += a[1] == 'high' and b[1] == 'high'
+            out[(g, s, c)] = a[0]
+            x['kind ' + a[0]] += 1
+    lines.append('# NameRun.txt -- names.py score: the name stage (Data/NamesProtocol.md), reported and not judged')
+    for g in ('tale', 'animal', 'fable', 'tragedy', 'myth'):
+        x = by[g]
+        if x['items']:
+            lines.append('%-8s items %3d, both readers the same kind %3d (%.0f%%), both with high confidence %3d; agreed kinds: %s'
+                         % (g, x['items'], x['agree'], 100.0 * x['agree'] / x['items'], x['both high'],
+                            ', '.join('%s %d' % (k, x['kind ' + k]) for k in KINDS if x['kind ' + k])))
+    for L in 'AB':
+        x = by['controls ' + L]
+        lines.append('controls, reader %s: %d of %d the kind the WordNet rule gives (%.0f%%)' % (L, x['agree'], x['n'], 100.0 * x['agree'] / max(1, x['n'])))
+    lines.append('phrase-names counted apart, given no kind: %d (%s)' % (len(phrases), '; '.join(sorted(phrases))))
+    return out, lines
+
+
+def score():
+    _, lines = agreed()
+    open(os.path.join(HERE, 'NameRun.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(lines) + '\n')
+    print('\n'.join(lines))
+
+
 if __name__ == '__main__':
     a = sys.argv[1:]
+    if a in (['form'], ['score']):
+        {'form': form, 'score': score}[a[0]]()
+        sys.exit(0)
     if a == ['setup', '--dry']:
         setup(True)
     elif a == ['setup']:
