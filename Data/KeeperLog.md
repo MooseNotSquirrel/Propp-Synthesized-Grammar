@@ -648,3 +648,11 @@ NEXT, at the owner's word: the tales extracted mechanically by the tables of con
 - **Meanwhile:** their collection may go on, provided no one analyses its results against the grammar while it is being built.
 - **The cross-cultural predictions** are scored after the grammar's freeze as well.
 NEXT, at the owner's word: the grammar's protocol drafted, before item (o) or the extraction.
+**2026-10-28. The probabilistic story grammar's protocol drafted, not frozen** (`StoryGrammar/StoryGrammarProtocol.md`). At the owner's word, for review.
+- **The model:** a maximum-entropy grammar of weighted constraints, joining v46, the constraint grammar of 2026-10-06 and the joint model's lesson on length. It is contrastive: a story against reorderings of its own functions.
+- **The features:** seven, with length as a control.
+- **The weights and the data:** shared weights plus genre offsets. A fifth of each corpus is held out by a fixed seed before any fit.
+- **Four self-tests;** G2 must reproduce the published constraint-grammar weights.
+- **Four predictions:** held-out stories, genre beyond length, the unseen cultures after the freeze, and the owner's (l) restated.
+- **Five decisions for the owner.**
+NEXT: the owner's review.
