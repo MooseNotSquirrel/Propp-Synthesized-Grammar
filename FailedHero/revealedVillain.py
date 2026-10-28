@@ -11,6 +11,8 @@ revealedVillain.py -- the revealed villain, route (a), from the tables (FailedHe
   python revealedVillain.py setup-b         write the stage's inputs and prompts into ActsRoles, and the item key here
   python revealedVillain.py form-b          test R2: the answers in form (Data/forms/revealed.txt)
   python revealedVillain.py setup-c [--dry] the hidden crime (section 8): the stage revealed-2, batches r3 and r4
+  python revealedVillain.py form-c          its answers in form (Data/forms/hidden.txt)
+  python revealedVillain.py score-c         its controls, then prediction 3 (FailedHero/HiddenCrimeReaders.txt)
   python revealedVillain.py score-b         R3, then prediction 1 (FailedHero/RevealedVillainReaders.txt)
 
 A story counts when its judged hero is the undergoer of an exposure (Ex), or of a recognition (Q) that follows a
@@ -377,6 +379,120 @@ def score_b():
     print(text, end='')
 
 
+def item_key_c():
+    rows = [l.rstrip('\n').split('\t') for l in open(os.path.join(HERE, 'HiddenItems.tsv'), encoding='utf-8')][1:]
+    return [(i, s, h, c) for i, s, h, c in rows]
+
+
+def answers_c(L, b):
+    """{item: (cause, hidden, event, reason)} and the items in the order written; empty for a batch not yet run"""
+    path = os.path.join(AR, 'revealed', 'answers', L, b, 'Answers.txt')
+    out, order = {}, []
+    if not os.path.exists(path):
+        return out, order
+    for l in open(path, encoding='utf-8'):
+        f = [x.strip() for x in l.rstrip('\n').split('|', 4)]
+        if len(f) == 5 and F.re_item.match(f[0]):
+            out[f[0]] = (f[1].lower(), f[2].lower(), f[3], f[4])
+            order.append(f[0])
+    return out, order
+
+
+def form_c():
+    """the two-part answers in form: every story once, in order; CAUSE and HIDDEN yes or no, HIDDEN no where CAUSE is no;
+    an event that exists where HIDDEN is yes, 0 where it is no; a reason. Written to Data/forms/hidden.txt"""
+    events = {i: {e for e, t in evs} for b, its in stage_items(BATCHES_C) for i, s, t, h, evs in its}
+    lines, total = [], 0
+    for L in 'AB':
+        for b, g in BATCHES_C:
+            items = [i for i, s, h, c in item_key_c() if i.startswith(b + '-')]
+            got, order = answers_c(L, b)
+
+            def bad(x, i):
+                c, h, e, r = x
+                return (c not in ('yes', 'no') or h not in ('yes', 'no') or (c == 'no' and h == 'yes') or not r or not e.isdigit()
+                        or (h == 'yes' and int(e) not in events[i]) or (h == 'no' and e != '0'))
+            nbad = sum(1 for i in items if i in got and bad(got[i], i))
+            missing = sum(1 for i in items if i not in got)
+            extra = len(set(got) - set(items))
+            ordered = order == items
+            total += missing + extra + nbad + (0 if ordered else 1)
+            lines.append('%s %s stories %2d, answered %2d, missing %d, unknown items %d, out of form %d, in order %s'
+                         % (L, b, len(items), len(got), missing, extra, nbad, 'yes' if ordered else 'NO'))
+    lines.append('IN FORM' if total == 0 else 'NOT IN FORM: %d problem(s)' % total)
+    open(os.path.join(F.ROOT, 'Data', 'forms', 'hidden.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(lines) + '\n')
+    print('\n'.join(lines))
+    return total == 0
+
+
+SCORED_C = os.path.join(HERE, 'HiddenCrimeReaders.txt')
+
+
+def score_c():
+    """section 8: the controls on HIDDEN (both readers at least five of six as fixed), then prediction 3, the controls left
+    out; the stricter count (both readers' discovery in the last third) reported beside it"""
+    key = item_key_c()
+    nev = {i: max(e for e, t in evs) for b, its in stage_items(BATCHES_C) for i, s, t, h, evs in its}
+    ans = {L: {} for L in 'AB'}
+    for L in 'AB':
+        for b, g in BATCHES_C:
+            ans[L].update(answers_c(L, b)[0])
+    get = lambda R, i: ans[R].get(i, ('', '', '0', ''))
+    out = ['# HiddenCrimeReaders.txt -- revealedVillain.py score-c: section 8 of FailedHero/RevealedVillainProtocol.md (adopted 2026-10-28), '
+           'the hidden crime; reader A Opus, reader B Sonnet; reported beside RevealedVillainReaders.txt, not in its place']
+    r3 = {}
+    for R in 'AB':
+        right = [i for i, s, h, c in key if c and get(R, i)[1] == c]
+        r3[R] = len(right)
+        out.append('controls, reader %s: %d of 6 as fixed on HIDDEN (%s)' % (R, len(right), ', '.join('%s %s/%s' % (s, get(R, i)[0], get(R, i)[1]) for i, s, h, c in key if c)))
+    passed = all(v >= 5 for v in r3.values())
+    out.append('controls %s' % ('PASS: the stage is scored' if passed else 'FAIL: the stage is reported and not scored'))
+    for part, k in (('CAUSE', 0), ('HIDDEN', 1)):
+        same = [get('A', i)[k] == get('B', i)[k] for i, s, h, c in key]
+        out.append('readers\' agreement on %s: %d of %d (%.0f%%)' % (part, sum(same), len(same), 100 * F.share(same)))
+    late = lambda i, e: e.isdigit() and int(e) > 0 and 3 * (int(e) - 1) >= 2 * nev[i]
+    count = {s: (i, get('A', i)[2], get('B', i)[2]) for i, s, h, c in key if get('A', i)[:2] == ('yes', 'yes') and get('B', i)[:2] == ('yes', 'yes')}
+    strict = {s for s, (i, a, b) in count.items() if late(i, a) and late(i, b)}
+    out.append('both readers CAUSE and HIDDEN yes: %s' % (', '.join('%s (events %s, %s%s)' % (s, a, b, '; late' if s in strict else '') for s, (i, a, b) in sorted(count.items())) or 'none'))
+    first = {}
+    for R in 'AB':
+        for b, g in BATCHES:
+            first.setdefault(R, {}).update(answers_b(R, b)[0])
+    k1 = {s: i for i, s, h, c in item_key()}
+    was = {s for s, i in k1.items() if first['A'].get(i, ('',))[0] == 'yes' and first['B'].get(i, ('',))[0] == 'yes'}
+    out.append('beside the first question (revealed-1, both readers yes): both %s; the first only %s; the hidden crime only %s'
+               % (' '.join(sorted(was & set(count))) or 'none', ' '.join(sorted(was - set(count))) or 'none', ' '.join(sorted(set(count) - was)) or 'none'))
+    T, J = F.table(), F.judged()
+    found = {(L, s) for L in 'AB' for g in ('tragedy', 'tale') for s, h, how, r in per_story(L, g, T, J) if h}
+    out.append('')
+    out.append('== prediction 3 (section 8): permutation test, %d permutations, p at most 0.05; floor %d stories a side; controls left out' % (F.PERMS, F.FLOOR))
+    held = {}
+    for L in 'AB':
+        rows = [(i, s, c) for i, s, h, c in key if (L, s) in found]
+        t = [s in count for i, s, c in rows if i.startswith('r3-') and not c]
+        w = [s in count for i, s, c in rows if i.startswith('r4-') and not c]
+        ts = [s in strict for i, s, c in rows if i.startswith('r3-') and not c]
+        ws = [s in strict for i, s, c in rows if i.startswith('r4-') and not c]
+        ta = [s in count for i, s, c in rows if i.startswith('r3-')]
+        wa = [s in count for i, s, c in rows if i.startswith('r4-')]
+        out.append('  %s: reported, the stricter count (discovery late) tragedies %d of %d, wondertales %d of %d; with the controls counted, tragedies %.0f%% (%d), wondertales %.0f%% (%d)'
+                   % (L, sum(ts), len(ts), sum(ws), len(ws), 100 * F.share(ta), len(ta), 100 * F.share(wa), len(wa)))
+        if not passed or len(t) < F.FLOOR or len(w) < F.FLOOR:
+            held[L] = None
+            out.append('  3. %s: %s: tragedies %d, wondertales %d' % (L, 'NOT SCORED (controls)' if not passed else 'NOT TESTABLE (floor)', len(t), len(w)))
+            continue
+        d, p = F.perm_p(t, w, lambda a, b: F.share(a) - F.share(b))
+        held[L] = d > 0 and p <= 0.05
+        out.append('  3. %s: the hero\'s own hidden crime, tragedies %.0f%% (%d of %d) against wondertales %.0f%% (%d of %d): difference %+.0f points, p %.4f: %s'
+                   % (L, 100 * F.share(t), sum(t), len(t), 100 * F.share(w), sum(w), len(w), 100 * d, p, 'holds' if held[L] else 'does not hold'))
+    out.append('  3. the hero\'s own hidden crime in more tragedies than wondertales: %s' % (F.verdict(held['A'], held['B']) if passed else 'NOT SCORED (controls)'))
+    text = '\n'.join(out) + '\n'
+    if os.path.exists(SCORED_C) and open(SCORED_C, encoding='utf-8').read() != text:
+        raise SystemExit('refusing to overwrite the record %s' % SCORED_C)
+    open(SCORED_C, 'w', encoding='utf-8', newline='\n').write(text)
+    print(text, end='')
+
+
 def run():
     text = report()
     if os.path.exists(OUT) and open(OUT, encoding='utf-8').read() != text:
@@ -386,7 +502,7 @@ def run():
 
 
 if __name__ == '__main__':
-    cmds = {'r1': r1, 'r4': r4, 'dry': dry, 'run': run, 'form-b': form_b, 'score-b': score_b}
+    cmds = {'r1': r1, 'r4': r4, 'dry': dry, 'run': run, 'form-b': form_b, 'score-b': score_b, 'form-c': form_c, 'score-c': score_c}
     a = sys.argv[1:]
     if a in (['setup-b', '--dry'], ['setup-b']):
         setup_b(len(a) == 2)
