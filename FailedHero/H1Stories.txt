@@ -1,0 +1,41 @@
+# H1Stories.txt -- FailedHeroProtocol.md test H1: invented stories whose answers are known, written before failedHero.py runs.
+# A story is a line "story NAME hero HERO" followed by its functions in order, one a line: FUNCTION | NEGATIVE (Y or blank) | PERFORMER | UNDERGOER
+# and a line "expect fused=Y|N late_neg=a/b early_neg=c/d punished_hero=Y|N|- open=Y|N", where late_neg counts the hero's functions in
+# the last third that are negative over all the hero's functions there, early_neg the same for the first two thirds, punished_hero is
+# whether the undergoer of the last U in the last third is the hero (- when the last third has no U), and open is whether the last A or a
+# is followed by no K.
+
+story fused-and-punished hero orestes
+A |  | aegisthus | agamemnon
+B |  | apollo | orestes
+C |  | orestes | orestes
+↑ |  | orestes | orestes
+A |  | orestes | clytaemestra
+E | Y | furies | orestes
+U |  | athena | orestes
+F | Y | apollo | orestes
+U |  | furies | orestes
+expect fused=Y late_neg=1/3 early_neg=1/5 punished_hero=Y open=Y
+
+story the-tale-closes hero ivan
+A |  | dragon | princess
+B |  | tsar | ivan
+C |  | ivan | ivan
+↑ |  | ivan | ivan
+D |  | witch | ivan
+E |  | ivan | witch
+F |  | witch | ivan
+I |  | ivan | dragon
+K |  | ivan | princess
+U |  | tsar | dragon
+W |  | ivan | princess
+expect fused=N late_neg=0/2 early_neg=0/7 punished_hero=N open=N
+
+story late-negatives hero fox
+a |  | wolf | wolf
+E |  | fox | wolf
+F |  | wolf | fox
+E | Y | fox | bear
+F | Y | bear | fox
+I | Y | bear | fox
+expect fused=N late_neg=2/2 early_neg=1/3 punished_hero=- open=Y
