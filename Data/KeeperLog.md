@@ -486,3 +486,8 @@ NEXT, at the owner's word:
 - **`CharacterRun-amended.txt`, rerun:** only its two judged-hero lines change. Its shares are unchanged, on 142 and 144 fables; the lines had counted 153 and 155.
 - **`PreliminaryFindings.md` section 5:** a MENDED note is set beside the paragraph, giving the new figures and the Oedipus limit. The reading's last clause now says the negation is not shown after the mend.
 NEXT: the owner's revealed-villain pattern drafted as its own protocol, for review.
+**2026-10-28. The revealed-villain protocol drafted, not frozen** (`FailedHero/RevealedVillainProtocol.md`). It is the owner's Oedipus pattern as its own measure: is the hero revealed as the cause of the harm the story turns on more often in the tragedies than in the wondertales?
+- **Two routes:** from the tables (the hero undergoes Ex, or a Q after an A), and two readers answering one question a story. The keeper recommends both, with the readers primary.
+- **Four decisions for the owner:** the route, the corpora for the readers, the question's exact wording, and who names the six controls.
+- No figure was read.
+NEXT: the owner's review.
