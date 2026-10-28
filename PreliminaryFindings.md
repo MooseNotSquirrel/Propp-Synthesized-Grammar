@@ -143,6 +143,23 @@ The measure has a limit the owner found: a villainy committed before the play an
 
 **READING, NOT FROM PROPP AND NOT TESTED:** the hero's own hidden crime, uncovered in the course of the story, is real but rare. In these corpora it belongs to tragedy, in a handful of plays, and not at all to the wondertale, whose hero causes harm openly or not at all. Three plays cannot carry a frozen comparison of rates. They are a pattern to describe, and to test on a larger tragic corpus with controls drawn from outside it.
 
+**TESTED (2026-10-28): social hierarchy in Propp's character set; one of five predictions holds, two are split, and the owner's two are not testable** (`Hierarchy/`, frozen protocol, `ProppQueue.md` item (k)). The material is the relation the act transcribers gave each act, the performer to the undergoer. Rank is the stated rank of `above` (rules, owns, commands, employs) and `below` (serves, obeys), joined to the characters of the character table. Each prediction was tested per transcriber, in the four corpora with acts.
+- **The hero above the helper** (the owner's), in the wondertales: NOT TESTABLE, too few acts carry rank. Where they do, it runs the other way, in both directions and for both transcribers:
+  - from the hero to a helper, above 1 and below 7 (A), 0 and 4 (B);
+  - from a helper to the hero, above 12 and below 1 (A), 3 and 0 (B).
+- **The false hero below** (the owner's): NOT TESTABLE, with 2 and 0 acts carrying rank in all corpora.
+- **The villain's enmity** (the keeper's, a replication of the first look): HOLDS. The villain's acts are enemy more often than those of every other sphere, in the wondertales (26% to 46% against 11% to 19%) and the tragedies (22% to 28% against 7% to 14%), for both transcribers.
+- **The relation predicts the sphere** (the keeper's): SPLIT. It beats shuffled labels in the wondertales and tragedies for both transcribers, at 35% to 44% accuracy. In the animal tales and fables it does so for one transcriber only.
+- **More stated hierarchy in the tragedies** (the keeper's): SPLIT.
+  - The tragedies have about 20% of acts above or below, the fables about 10% (holds for both).
+  - Against the wondertales it holds for one transcriber (13%, p 0.025), not the other (15%, p 0.065).
+  - The animal tales state almost none: 3% to 5%, their heroes and helpers being allies.
+- **Reported, not tested:**
+  - in the wondertales the hero stands below the dispatcher (below 10 and 33, above none);
+  - in the tragedies hero and helper stand on both sides of each other.
+
+**READING, NOT FROM PROPP AND NOT TESTED:** the owner's "the hero above the helper" is not what the readers wrote. Where the wondertales state rank, the helper commands and the hero obeys, as the grey wolf and the magic horse instruct Ivan; the hero obeys the dispatcher too. Stated rank is sparse, a fifth of the acts at most. The hero's superiority may lie in narrative rank, whom the story raises at the close, not in who gives orders from scene to scene. That kind of rank was only reported here, and the false hero's place below everyone would belong to it too.
+
 ## 6. What the X entries may hold (a cursory look, held-out fables only)
 
 About a third of the held-out events are X for both transcribers and matter. Two kinds stand out: **a spoken verdict or lesson**, a character rebuking, retorting or stating the moral, which no function of Propp's covers; and **harm from one's own act with no villain**, close to Dundes's consequence. An impression only; the X study's own discovery material is unread, and its method must be frozen first (the queue, item 3 (b2)).
