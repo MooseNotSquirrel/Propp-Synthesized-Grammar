@@ -694,3 +694,12 @@ NEXT, at the owner's word: the extraction of the 100 cross-cultural tales (secti
   - Tale ids are T, O, C and J, to stay apart from the existing P, F, A and L ids.
 - **No tale has been read.** A first look while finding the Fielde headings showed some lines of tale text, so the search was narrowed to headings. Those lines were not used.
 NEXT, at the owner's word: the event-list stage for the new corpora, run in Propp-ActsRoles, and the scoring command for predictions 3 and 4, committed before their tables are read.
+**2026-10-28. The event-list stages of the new corpora set up** (`CrossCulture/setupEvents.py`, committed 6496af6 before it wrote; Propp-ActsRoles). At the owner's word, after a dry run.
+- **The stages:** `native-events` and `eastasian-events`, modelled on `animal-events`: one reader on Opus a batch, three batches of 17, 17 and 16 tales. Each batch is 72k to 123k characters of English, about the animal batches' load in Russian.
+- **The inputs:** `native/` and `eastasian/` in Propp-ActsRoles, each with the 50 tales, a header line in the animal tales' form, the text as `extract.py` cut it, and `ListRules.md`.
+- **The rules** are the animal tales' `ListRules.md`, changed only where the corpora differ:
+  - the tales are read as they stand, in English;
+  - a new paragraph on matter that is not the tale (page heads, captions, footnote marks, scanning errors);
+  - for the Chinese tales, the collector's frame story is not listed, and is described without its title.
+- **In RUN.md:** set up, not cleared to run. No reader has started.
+NEXT, at the owner's word: run the two stages (they may share a session).
