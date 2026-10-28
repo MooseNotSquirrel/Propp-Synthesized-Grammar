@@ -214,8 +214,8 @@ def latin_outputs():
     if 'native-latin' not in t:
         reps = [
             ('native-events, eastasian-events,', 'native-events, eastasian-events, native-latin,'),
-            ("and were cleared to run at the owner's word the same day.\n",
-             "and were cleared to run at the owner's word the same day.\n"
+            ("the same day. They need nothing from each other and may run in one session.\n",
+             "the same day. They need nothing from each other and may run in one session.\n"
              "The stage `native-latin` was set up on 2026-10-28 (`CrossCulture/setupEvents.py`): three tales listed again under the "
              "rule on Latin passages added to `native/ListRules.md`. It is not yet cleared: it runs only at the owner's word.\n"),
             ("| `run-eastasian-events` |\n",
