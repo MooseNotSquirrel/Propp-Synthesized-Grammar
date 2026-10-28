@@ -660,3 +660,9 @@ NEXT: the owner's review.
 - **`HeldOut.txt`:** a fifth of each corpus's stories with functions, both transcribers' stories joined, drawn by `random.Random(20261028).sample` from the sorted story ids before any fit. The ids only were read; no figure was computed.
 - **Not built:** nothing is fitted, and the program is not written.
 NEXT, at the owner's word: section 9, step 3, the program and tests G1 to G4.
+**2026-10-28. The probabilistic story grammar's program written, and G1 FAILS** (`StoryGrammar/storyGrammar.py`). At the owner's word, section 9, step 3.
+- **The program:** the frozen model, features and weights (480 a transcriber: 80 shared, and 80 offsets for each of the five corpora); commands dry, g1 to g4 and run. The candidate groups wait, as no letter of Propp's expresses them. The myths are the 126 library stories (L1- to L3-) of section 5 and HeldOut.txt; the Epitome's E- stories are left out.
+- **G2 PASSES:** the three `Blocks/ConstraintWeights-*.txt` reproduced line for line by this program's engine. **G3 PASSES:** 74 (A) and 77 (B) held-out stories changed by noise, weights identical. **G4 PASSES:** two fits byte-identical. G3 and G4 printed only agreement; no weight was read.
+- **G1 FAILS:** rank correlation 0.774 against 0.9, signs 52 of 56. The missed weights are on constraints that hardly vary between a story and its alternatives, so a planted weight there leaves no trace. A fault in G1's design and the features' scales, not in the engine. Drafted for review: `StoryGrammar/G1Draft.md` (standardised features; tried once in scratch, 0.951).
+- **Not done:** `run` has not been run, and no fit has been read.
+NEXT, at the owner's word: the G1 amendment.
