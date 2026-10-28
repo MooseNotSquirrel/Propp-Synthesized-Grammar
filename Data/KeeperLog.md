@@ -610,3 +610,17 @@ NEXT: the owner's review.
   - The first look's pair definition cannot be recovered from its figures. The keeper did not search further, since fitting a definition to the figures would make X1 no test.
 - **X2** (the parity runs' block shares) and **X3** are not yet run; the program is not yet written.
 NEXT: the owner decides X1. Recommended: amend it so that the reference is the program's own definitions, written out and computed on the existing corpora before any new tale is read. Single functions are within a point of the first look, and the pairs are counted in order within the move, as Propp's pairs are ordered.
+**2026-10-28. X1 amended, the program built, and X1 to X3 pass; the reference written before any new tale is read** (`CrossCulture/`). At the owner's word.
+- **The amendment** (`CrossCultureProtocol.md` section 8):
+  - X1's reference is the program's own definitions, written out. Pairs are counted in order within the move.
+  - Prediction 6's rule is fixed on the acts layer: the hero's give, guide and repair acts on another character. The significance layer gives a value for the hero only, so it cannot say whether the hero helps another.
+- **`crossCulture.py`** was committed (3d02bbc) before the reference was written.
+- **X2 passes:** the block counts of the animal tales and myths equal the published ones exactly (577 of 952, 495 of 803, 575 of 1,200, 597 of 1,419).
+- **X3 passes.**
+- **X1 passes:** `Reference.txt` is reproduced, and its single-function shares lie within a point of the first look's.
+- **The reference, reported:**
+  - pairs in order: wondertales 50.3% and 52.7%, animal tales 51.6% and 47.9%, fables 33.2% and 32.4%, myths 35.7% and 34.5%, tragedies 27.5% and 25.2%;
+  - stories with a punishment (U): wondertales 40% and 27%;
+  - the hero's acts helping another: 2% to 6% in every corpus.
+  - The myths' U counts run over 172 stories, every story with function rows, where the other layers keep 126. The myths take no part in predictions 5 and 6.
+NEXT: at the owner's word, locate a complete scan of Fielde; then set up the event-list stage for the four sources, the tales chosen by their tables of contents only.
