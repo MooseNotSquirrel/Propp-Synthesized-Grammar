@@ -428,3 +428,8 @@ NEXT: at the owner's word, the fables' heroes difference explained; the layer ad
 - **Recorded beside the comparison:** `measures.py run --amended` now adds the judged-hero figure (435c71d, committed before it ran). `CharacterRun-amended.txt` gains two lines, and nothing else in it changes.
 - **A fault found and fixed on the way:** a plain `measures.py run` reads the amended table, and it overwrote the record `CharacterRun.txt`. That was caught at once, before any commit, and the file was restored from git. `run` now refuses to overwrite the record with different content.
 NEXT: at the owner's word, the layer added to `Parity.md` section 1 (`CharacterProtocol.md` section 7, step 8).
+**2026-10-28. The character layer added to `Parity.md` section 1** (`CharacterProtocol.md` section 7, step 8). At the owner's word, as drafted and shown first.
+- **Two rows:** the character table in 45, 50, 198, 32 and 126 stories, every story with Propp's functions; and the characters by describer.
+- **The bullet** that read "not yet built" now describes the table, its kinds (132 unknown, 0.0% to 2.8% by corpus), its act profiles, and the two run files.
+- **Section 2,** the analyses by corpus, is left as it is. The character measures are not yet listed there; step 8 asks for section 1 only.
+With this, the steps of `CharacterProtocol.md` section 7 are done.

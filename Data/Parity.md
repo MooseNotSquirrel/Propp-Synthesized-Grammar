@@ -4,7 +4,7 @@
 
 ## 1. The layers, by corpus
 
-**Stories with the layer from both describers, counted from the tables on 2026-10-26, after session 7.**
+**Stories with the layer from both describers, counted from the tables on 2026-10-26, after session 7; the character rows on 2026-10-28.**
 
 | Layer | Wondertale | Animal tale | Fable | Tragedy | Myth |
 |---|---|---|---|---|---|
@@ -16,11 +16,17 @@
 | Free verbs | 45 | 50 | 90 | 32 | 0 |
 | Hero, two readers | 45 | 50 | 198 | 32 | 0 |
 | Hero, judged agreed | 40 | 45 | 158 | 27 | 0 |
+| Character table | 45 | 50 | 198 | 32 | 126 |
+| Characters, describer A / B | 666 / 690 | 291 / 286 | 590 / 581 | 887 / 896 | 1,244 / 1,084 |
 
 **What remains to collect, by decision and by plan.**
 - **Collected in session 7** (`Session7Protocol.md`; `KeeperLog.md`, 2026-10-26): the animal tales' heroes by two readers, the tragedies' acts and significance for P01 to P08, and significance for the five stories that have acts (wondertale A098; fables F043, F060, F114, F124), with the heroes their readers gave taken as agreed at the owner's word. *Hero, judged agreed* counts by the word rule unchanged (`Heroes/withJudgedHeroes.py`): with its role words kept, the animal tales agree in 50 of 50 (`Parity/heroes-animal.txt`), and the five stories above in all five.
 - **The fables beyond the 90 described, and the myths beyond their functions:** not to be collected, by decisions 2 and 1. The next ancient corpus gets every layer from the start.
-- **The character-set layer** (`ProppQueue.md` item (m)): not yet built; part of the parity rule once it is.
+- **The character-set layer** (`ProppQueue.md` item (m); `CharacterProtocol.md`, frozen 2026-10-26 and amended in section 8): built for every story that has Propp's functions, from both describers.
+  - **The table:** `tables/characters.tsv`, 7,215 characters, built by `python build.py characters` after T1, T2 and T4 pass. Tests C1 to C7 pass.
+  - **Kinds:** every kind is set by two readers in four name stages, 122 answer files. The kind is used where the readers agree and is unknown otherwise: 132 characters, 0.0% to 2.8% by corpus.
+  - **Act profiles:** joined where the corpus has acts, so not for the myths.
+  - **Measures:** `Characters/CharacterRun.txt` holds the verdicts of record. `Characters/CharacterRun-amended.txt` holds the scoring after the post-measure amendment (`Characters/SenseRule.md`), reported beside the record.
 
 ## 2. The analyses, by corpus
 
