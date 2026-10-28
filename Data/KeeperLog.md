@@ -714,3 +714,17 @@ NEXT, at the owner's word: run the two stages (they may share a session).
   - two Swanton entries (T11, T17) hold two stories each;
   - several heroes are close counts, or are groups.
 NEXT, at the owner's word: the event lists checked in form and merged into Events.txt and Heroes.txt, then the transcription stage.
+**2026-10-28. The new corpora's event lists checked in form and joined; the Latin passages ruled on** (`CrossCulture/setupEvents.py`, merge committed 0ed70c9 before it ran).
+- **The form check passes for all six lists:** native 1,680 events, East Asian 1,055.
+  - Every tale is present, in batch order, numbered from 1.
+  - There are no malformed lines, and one well-formed hero line per tale.
+  - Only the form was read.
+- **The owner's ruling:** Swanton and Dorsey printed some passages in Latin, and the readers paraphrased them "politely" or "discreetly". These passages are to be translated, by the readers.
+  - The rule is drafted for `native/ListRules.md`: translate each Latin passage into plain English, and list its events without softening or omitting them.
+  - A stage, `native-latin`, is set up as a dry run only: one Opus reader relists T01, O09 and O19, the tales whose readers reported Latin.
+  - The first lists stay on record in `native/events/`.
+- **Joined:**
+  - `eastasian/Events.txt`: 50 tales, 1,055 events.
+  - `native/Events.txt`: 47 tales, 1,416 events. T01, O09 and O19 are left out until their relisting is merged.
+- **A false start:** the dry run first stopped on a RUN.md anchor, which was corrected in d7a46f4. Nothing had been written.
+NEXT, at the owner's word: write and run `native-latin`.
