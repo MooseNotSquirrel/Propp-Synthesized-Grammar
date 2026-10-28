@@ -603,3 +603,10 @@ NEXT: the owner's review.
   - Dorsey is in page images at HathiTrust.
   - For Fielde no ready text was found. A scan is to be located, and if none is complete the choice is reopened before any tale is read.
 - **Still to be decided before the freeze:** decisions 2 to 4 of section 6.
+**2026-10-28. The cross-cultural protocol frozen; test X1 FAILS on the pairs, and the work stops for the owner** (`CrossCulture/CrossCultureProtocol.md`). Frozen at the owner's word, decisions 2 to 4 taken as recommended, before any Native American or East Asian tale was read.
+- **X1** asks the program to reproduce the first look of 2026-10-21. No code was kept for that first look, only its rounded figures. Two readings of it were tried in a scratch script, writing nothing to the project.
+  - **Single functions,** the share of function rows not X: reproduced to within a point in every corpus and transcriber (wondertales 68.3% and 77.6%, animal tales 62.4% and 56.6%, fables 58.0% and 57.2%, myths 59.1% and 70.3%, tragedies 45.6% and 48.6%). Rounding puts the tragedies a point above the first look's 45% and 48%.
+  - **Pairs,** the share of covered functions with a Propp pair partner (`Ngrams/ngrams.py`'s list) in the same move: off by up to 7 points (wondertales 53.3% and 56.0% against 49%). Counted only in order within the move, they are off by up to 4.
+  - The first look's pair definition cannot be recovered from its figures. The keeper did not search further, since fitting a definition to the figures would make X1 no test.
+- **X2** (the parity runs' block shares) and **X3** are not yet run; the program is not yet written.
+NEXT: the owner decides X1. Recommended: amend it so that the reference is the program's own definitions, written out and computed on the existing corpora before any new tale is read. Single functions are within a point of the first look, and the pairs are counted in order within the move, as Propp's pairs are ordered.

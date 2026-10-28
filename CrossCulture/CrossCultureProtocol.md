@@ -1,4 +1,4 @@
-# Propp's devices across cultures: protocol (DRAFT 2026-10-28, FOR THE OWNER'S REVIEW, NOT FROZEN)
+# Propp's devices across cultures: protocol (FROZEN 2026-10-28 AT THE OWNER'S WORD, BEFORE ANY NATIVE AMERICAN OR EAST ASIAN TALE WAS READ)
 
 **Drafted 2026-10-28 at the owner's word, for `ProppQueue.md` items (l) and (e).** These hypotheses must be frozen before any Native American or East Asian tale is read, and none has been. Nothing here is built. The figures quoted in section 1 are the exploratory first look on the corpora we already have.
 
@@ -92,13 +92,13 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 ## 6. Decisions for the owner before the freeze
 
 1. **The corpora: DECIDED 2026-10-28,** two collections a region, 25 tales each, in printed order (section 2).
-2. **The catalog for the test:** Propp's functions only (recommended), or with Dundes's motifemes added to the card, which would mean transcribing the old corpora again.
-3. **The thresholds:** prediction 1's "very low" as lower than every existing corpus (recommended), or a fixed figure, for instance below 40%.
-4. **Prediction 6's significance rule:** to be fixed exactly once the significance layer's values are listed for the program. Recommended: helping means the act's value is to the advantage of its target, and the target is not the hero.
+2. **The catalog for the test: DECIDED 2026-10-28, Propp's functions only;** Dundes's motifemes reported on the new corpora.
+3. **The threshold: DECIDED 2026-10-28,** prediction 1's "very low" means lower than every existing corpus.
+4. **Prediction 6's rule: DECIDED 2026-10-28,** helping means the act's value is to the advantage of its target, the target not the hero, fixed exactly in the program against the significance layer's values before any new tale is read.
 
 ## 7. After the freeze, and the cost
 
-1. Commit this file frozen, before any tale of either corpus is opened.
+1. Commit this file frozen, before any tale of either corpus is opened (done 2026-10-28).
 2. Write and commit the program and tests X1 to X3; pass them on the existing corpora.
 3. Choose and check the sources (X4); set up the event-list stage for each corpus.
 4. Run the layers stage by stage, at the owner's word, as the animal tales were run.
