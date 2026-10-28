@@ -433,3 +433,10 @@ NEXT: at the owner's word, the layer added to `Parity.md` section 1 (`CharacterP
 - **The bullet** that read "not yet built" now describes the table, its kinds (132 unknown, 0.0% to 2.8% by corpus), its act profiles, and the two run files.
 - **Section 2,** the analyses by corpus, is left as it is. The character measures are not yet listed there; step 8 asks for section 1 only.
 With this, the steps of `CharacterProtocol.md` section 7 are done.
+**2026-10-28. The failed-hero protocol drafted, not frozen** (`FailedHero/FailedHeroProtocol.md`, `ProppQueue.md` item (j)). At the owner's word, for review. Only the tables' fields were looked at: `functions.tsv` has `negative`, position, performer and undergoer, and the myths have no judged heroes. No figure the protocol tests was read.
+- **Three predictions,** per reader, with a permutation test at p at most 0.05 and a floor of 10 stories a side:
+  1. the tragedies fuse hero and villain more than the wondertales, animal tales and fables; labelled a replication, since `PreliminaryFindings.md` section 5 already shows it;
+  2. the tragic hero's late functions carry negative marks more than the early ones, and more than the wondertale hero's;
+  3. the closing punishment falls on the hero in more tragedies than wondertales.
+- **Four decisions for the owner:** the myths' hero, what counts as late, the test, and whether prediction 1 is kept.
+NEXT: the owner reviews the draft and decides section 6; then it is frozen and built.
