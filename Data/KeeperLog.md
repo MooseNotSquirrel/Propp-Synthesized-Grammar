@@ -571,3 +571,17 @@ NEXT: the owner's review.
   - acts from the hero to a helper in the wondertales: 77 / 104; from a helper to the hero: 120 / 135;
   - acts between the false hero and the hero, all corpora: 23 / 17, before the rank relations are counted.
 NEXT: at the owner's word, the run (`python hierarchy.py run`).
+**2026-10-28. The hierarchy measures run; of five predictions one HOLDS, two are SPLIT and two NOT TESTABLE** (`Hierarchy/HierarchyRun.txt`; `hierarchy.py` a519468, committed before it ran). At the owner's word.
+- **1. The hero above the helper,** in the wondertales: **NOT TESTABLE.** Too few rank relations: from the hero to a helper, above 1 and below 7 (A), 0 and 4 (B); from a helper to the hero, above 12 and below 1 (A), 3 and 0 (B). Reported, not judged: where rank is stated at all, it runs the other way in both directions and for both transcribers. The helper stands above the hero.
+- **2. The false hero below:** **NOT TESTABLE,** with 2 and 0 rank relations in all corpora.
+- **3. The villain's enmity** (a replication): **HOLDS.** In the wondertales and tragedies, for both transcribers, the villain's acts are enemy more often than every other sphere's (wondertales 26% to 46% against 11% to 19%; tragedies 22% to 28% against 7% to 14%; every p at most 0.009). The false hero is below the floor.
+- **4. The relation predicts the sphere:** **SPLIT.**
+  - A, accuracy against shuffles: wondertales 38.8% (0 of 1,000 shuffles reach it), animal tales 35.8% (15), fables 37.1% (10), tragedies 34.7% (0); all pass.
+  - B: wondertales 44.1% (0) and tragedies 42.1% (0) pass; animal tales 16.9% (233) and fables 30.0% (132) fail.
+- **5. Stated hierarchy higher in the tragedies:** **SPLIT.** The tragedies have 19.5% and 20.0% of acts above or below, against wondertales 13.1% (A, p 0.025) and 15.1% (B, p 0.065), and fables 10.9% and 9.4% (p 0.009 and 0.005). The animal tales, reported: 3.0% and 4.5%.
+- **Reported, not judged:**
+  - the hero stands below the dispatcher in the wondertales: above 0, below 10 and 33;
+  - in the tragedies hero and helper stand on both sides: above 19 and below 15 (A), above 17 and below 8 (B);
+  - the animal tales state almost no rank, their hero and helper being allies.
+- **The keeper's reading, not from Propp and not tested:** the owner's "hero above the helper" is not what the readers wrote. Where they stated rank in the wondertales, the helper commands and the hero obeys, as the grey wolf and the magic horse instruct Ivan. The hero also obeys the dispatcher. Stated rank is sparse: 13% to 20% of acts in tale and tragedy, 3% to 5% among the beasts. The hero's superiority may be the narrative rank of the outcome, not the social rank of the acts. That is the second kind of rank in item (k), measured here only as reported.
+NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md`.

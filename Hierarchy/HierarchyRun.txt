@@ -1,0 +1,244 @@
+# HierarchyRun.txt -- hierarchy.py: Hierarchy/HierarchyProtocol.md (frozen 2026-10-28), every figure per transcriber; rank is above and below
+# the keeper's operational rules are in hierarchy.py's header
+
+== wondertales, transcriber A: 45 stories
+  1. villain    acts 1181: kin 14%, spouse 3%, above 4%, below 3%, ally 7%, enemy 28%, stranger 16%, divine 9%, self 2%, none 14%
+  1. donor      acts  788: kin 10%, spouse 4%, above 4%, below 3%, ally 9%, enemy 24%, stranger 20%, divine 10%, self 3%, none 14%
+  1. helper     acts 1202: kin 12%, spouse 4%, above 4%, below 5%, ally 8%, enemy 20%, stranger 18%, divine 10%, self 2%, none 17%
+  1. princess   acts  686: kin 10%, spouse 7%, above 12%, below 5%, ally 7%, enemy 21%, stranger 13%, divine 8%, self 2%, none 14%
+  1. dispatcher acts  269: kin 20%, spouse 5%, above 17%, below 5%, ally 3%, enemy 12%, stranger 13%, divine 9%, self 1%, none 16%
+  1. hero       acts 1306: kin 12%, spouse 5%, above 7%, below 6%, ally 6%, enemy 20%, stranger 17%, divine 7%, self 2%, none 19%
+  1. false hero acts   23: kin 4%, spouse 4%, above 9%, below 65%, enemy 13%, stranger 4%
+  2. hero       > helper     acts  77: above 1, below 7; stranger 24, divine 17, enemy 13, ally 8, below 7, spouse 4, kin 3, above 1
+  2. helper     > hero       acts 120: above 12, below 1; stranger 38, ally 22, divine 21, enemy 14, above 12, spouse 8, kin 4, below 1
+  2. false hero > hero       acts   3: above 0, below 2; below 2, kin 1
+  2. dispatcher > hero       acts  31: above 13, below 0; above 13, kin 9, stranger 6, divine 1, enemy 1, spouse 1
+  2. hero       > dispatcher acts  21: above 0, below 10; below 10, stranger 5, kin 4, divine 1, spouse 1
+  2. villain    > hero       acts 160: above 7, below 2; enemy 76, divine 31, ally 18, kin 16, stranger 10, above 7, below 2
+  2. princess   > hero       acts 112: above 33, below 0; above 33, enemy 23, stranger 17, spouse 13, ally 11, divine 9, kin 6
+  3. stated hierarchy: 13.1% of 1313 acts between characters (45 stories)
+  4. the relation predicts the sphere: 80 single-sphere holders with 3 acts, accuracy 38.8%, 0 of 1000 shuffles reach it
+  5. villain    holders  111: punished (U) 15 (14%), rewarded or wed (W) 10 (9%)
+  5. donor      holders  116: punished (U) 1 (1%), rewarded or wed (W) 10 (9%)
+  5. helper     holders  129: punished (U) 1 (1%), rewarded or wed (W) 14 (11%)
+  5. princess   holders   60: punished (U) 2 (3%), rewarded or wed (W) 14 (23%)
+  5. dispatcher holders   35: punished (U) 0 (0%), rewarded or wed (W) 6 (17%)
+  5. hero       holders   93: punished (U) 2 (2%), rewarded or wed (W) 40 (43%)
+  5. false hero holders    6: punished (U) 2 (33%), rewarded or wed (W) 0 (0%)
+
+== wondertales, transcriber B: 45 stories
+  1. villain    acts 1066: kin 10%, spouse 3%, above 6%, below 6%, ally 8%, enemy 37%, stranger 17%, divine 0%, self 2%, none 10%
+  1. donor      acts  780: kin 10%, spouse 4%, above 7%, below 4%, ally 11%, enemy 26%, stranger 25%, divine 2%, self 2%, none 10%
+  1. helper     acts 1094: kin 12%, spouse 5%, above 4%, below 6%, ally 11%, enemy 29%, stranger 20%, divine 1%, self 2%, none 11%
+  1. princess   acts  533: kin 15%, spouse 9%, above 14%, below 6%, ally 7%, enemy 24%, stranger 14%, divine 1%, self 2%, none 8%
+  1. dispatcher acts  474: kin 14%, spouse 4%, above 11%, below 3%, ally 9%, enemy 28%, stranger 20%, divine 1%, self 1%, none 10%
+  1. hero       acts 1211: kin 12%, spouse 6%, above 6%, below 7%, ally 9%, enemy 25%, stranger 19%, divine 1%, self 2%, none 13%
+  1. false hero acts   34: kin 32%, spouse 6%, above 3%, below 21%, ally 15%, stranger 15%, none 9%
+  2. hero       > helper     acts 104: above 0, below 4; enemy 34, stranger 30, ally 23, spouse 6, below 4, kin 4, divine 3
+  2. helper     > hero       acts 135: above 3, below 0; stranger 45, enemy 41, ally 27, spouse 7, divine 6, kin 6, above 3
+  2. hero       > false hero acts   5: above 0, below 0; kin 4, enemy 1
+  2. false hero > hero       acts   1: above 0, below 0; kin 1
+  2. dispatcher > hero       acts  82: above 27, below 2; above 27, enemy 21, stranger 18, kin 12, below 2, spouse 2
+  2. hero       > dispatcher acts  74: above 0, below 33; below 33, enemy 16, stranger 14, kin 7, ally 2, spouse 2
+  2. villain    > hero       acts 143: above 13, below 1; enemy 96, above 13, ally 12, stranger 11, kin 10, below 1
+  2. princess   > hero       acts  95: above 26, below 0; above 26, enemy 24, stranger 17, ally 13, spouse 9, divine 3, kin 3
+  3. stated hierarchy: 15.1% of 1415 acts between characters (45 stories)
+  4. the relation predicts the sphere: 59 single-sphere holders with 3 acts, accuracy 44.1%, 0 of 1000 shuffles reach it
+  5. villain    holders  110: punished (U) 9 (8%), rewarded or wed (W) 15 (14%)
+  5. donor      holders  159: punished (U) 1 (1%), rewarded or wed (W) 11 (7%)
+  5. helper     holders  129: punished (U) 2 (2%), rewarded or wed (W) 17 (13%)
+  5. princess   holders   57: punished (U) 1 (2%), rewarded or wed (W) 15 (26%)
+  5. dispatcher holders   66: punished (U) 2 (3%), rewarded or wed (W) 10 (15%)
+  5. hero       holders  109: punished (U) 3 (3%), rewarded or wed (W) 46 (42%)
+  5. false hero holders    8: punished (U) 4 (50%), rewarded or wed (W) 1 (12%)
+
+== animal tales, transcriber A: 50 stories
+  1. villain    acts  869: kin 0%, spouse 2%, above 1%, below 0%, ally 32%, enemy 20%, stranger 19%, self 1%, none 26%
+  1. donor      acts  467: kin 0%, spouse 2%, above 1%, below 3%, ally 24%, enemy 14%, stranger 28%, self 3%, none 26%
+  1. helper     acts  743: spouse 1%, above 0%, below 1%, ally 33%, enemy 12%, stranger 19%, self 3%, none 30%
+  1. princess   acts  118: spouse 1%, above 3%, ally 25%, enemy 26%, stranger 12%, self 1%, none 31%
+  1. dispatcher acts  245: spouse 1%, above 2%, below 2%, ally 31%, enemy 20%, stranger 16%, self 1%, none 26%
+  1. hero       acts  658: kin 0%, spouse 3%, above 0%, below 2%, ally 27%, enemy 16%, stranger 20%, self 1%, none 31%
+  1. false hero acts   23: spouse 4%, ally 26%, enemy 13%, stranger 30%, none 26%
+  2. hero       > helper     acts 146: above 0, below 3; ally 85, enemy 30, stranger 27, below 3, spouse 1
+  2. helper     > hero       acts 130: above 3, below 0; ally 75, stranger 27, enemy 24, above 3, spouse 1
+  2. dispatcher > hero       acts  52: above 0, below 0; enemy 30, ally 12, stranger 10
+  2. hero       > dispatcher acts  41: above 0, below 1; enemy 18, ally 15, stranger 7, below 1
+  2. villain    > hero       acts 123: above 4, below 0; enemy 52, ally 36, stranger 29, above 4, kin 2
+  2. princess   > hero       acts  29: above 4, below 0; ally 10, enemy 9, stranger 6, above 4
+  3. stated hierarchy: 3.0% of 1311 acts between characters (49 stories)
+  4. the relation predicts the sphere: 53 single-sphere holders with 3 acts, accuracy 35.8%, 15 of 1000 shuffles reach it
+  5. villain    holders   80: punished (U) 6 (8%), rewarded or wed (W) 1 (1%)
+  5. donor      holders   44: punished (U) 1 (2%), rewarded or wed (W) 1 (2%)
+  5. helper     holders   57: punished (U) 2 (4%), rewarded or wed (W) 5 (9%)
+  5. princess   holders   11: punished (U) 0 (0%), rewarded or wed (W) 0 (0%)
+  5. dispatcher holders   19: punished (U) 2 (11%), rewarded or wed (W) 0 (0%)
+  5. hero       holders   42: punished (U) 1 (2%), rewarded or wed (W) 6 (14%)
+  5. false hero holders    3: punished (U) 0 (0%), rewarded or wed (W) 1 (33%)
+
+== animal tales, transcriber B: 50 stories
+  1. villain    acts  786: kin 0%, spouse 2%, above 2%, below 1%, ally 37%, enemy 23%, stranger 20%, self 0%, none 16%
+  1. donor      acts  279: below 5%, ally 37%, enemy 26%, stranger 16%, self 5%, none 10%
+  1. helper     acts  398: spouse 3%, above 1%, below 2%, ally 33%, enemy 23%, stranger 19%, self 4%, none 15%
+  1. princess   acts   34: spouse 3%, ally 41%, enemy 35%, stranger 6%, none 15%
+  1. dispatcher acts  163: kin 1%, spouse 4%, above 2%, below 3%, ally 33%, enemy 25%, stranger 15%, none 17%
+  1. hero       acts  320: spouse 5%, above 2%, below 5%, ally 22%, enemy 28%, stranger 20%, none 19%
+  1. false hero acts    5: ally 20%, enemy 80%
+  2. hero       > helper     acts  91: above 1, below 0; ally 49, stranger 23, enemy 17, above 1, spouse 1
+  2. helper     > hero       acts  88: above 1, below 0; ally 44, stranger 29, enemy 12, spouse 2, above 1
+  2. dispatcher > hero       acts  25: above 3, below 0; ally 13, enemy 7, above 3, stranger 2
+  2. hero       > dispatcher acts  22: above 0, below 3; ally 13, enemy 5, below 3, stranger 1
+  2. villain    > hero       acts 116: above 5, below 0; enemy 48, ally 36, stranger 27, above 5
+  2. princess   > hero       acts  16: above 0, below 0; ally 14, enemy 2
+  3. stated hierarchy: 4.5% of 1230 acts between characters (49 stories)
+  4. the relation predicts the sphere: 71 single-sphere holders with 3 acts, accuracy 16.9%, 233 of 1000 shuffles reach it
+  5. villain    holders   80: punished (U) 2 (2%), rewarded or wed (W) 0 (0%)
+  5. donor      holders   32: punished (U) 0 (0%), rewarded or wed (W) 0 (0%)
+  5. helper     holders   36: punished (U) 0 (0%), rewarded or wed (W) 1 (3%)
+  5. princess   holders    4: punished (U) 0 (0%), rewarded or wed (W) 0 (0%)
+  5. dispatcher holders   18: punished (U) 0 (0%), rewarded or wed (W) 0 (0%)
+  5. hero       holders   35: punished (U) 0 (0%), rewarded or wed (W) 1 (3%)
+  5. false hero holders    1: punished (U) 1 (100%), rewarded or wed (W) 0 (0%)
+
+== fables, transcriber A: 198 stories
+  1. villain    acts  123: spouse 2%, above 11%, below 3%, ally 7%, enemy 29%, stranger 27%, divine 5%, self 1%, none 16%
+  1. donor      acts   44: above 5%, below 2%, ally 16%, enemy 2%, stranger 23%, divine 45%, none 7%
+  1. helper     acts   79: kin 8%, above 5%, ally 8%, enemy 13%, stranger 11%, divine 16%, self 1%, none 38%
+  1. princess   acts   82: kin 9%, spouse 5%, above 4%, ally 15%, enemy 27%, stranger 15%, divine 16%, none 11%
+  1. dispatcher acts   16: ally 6%, enemy 6%, stranger 6%, divine 25%, none 56%
+  1. hero       acts  100: kin 3%, above 9%, ally 8%, enemy 4%, stranger 26%, divine 16%, none 34%
+  1. false hero acts   33: spouse 12%, ally 9%, enemy 15%, stranger 21%, divine 18%, none 24%
+  2. hero       > helper     acts  10: above 0, below 0; kin 5, ally 2, divine 2, stranger 1
+  2. helper     > hero       acts   8: above 0, below 0; divine 4, ally 2, kin 2
+  2. hero       > false hero acts   4: above 0, below 0; spouse 4
+  2. false hero > hero       acts   5: above 0, below 0; spouse 4, ally 1
+  2. dispatcher > hero       acts   2: above 0, below 0; enemy 1, stranger 1
+  2. hero       > dispatcher acts   2: above 0, below 0; enemy 2
+  2. villain    > hero       acts  43: above 5, below 4; stranger 18, enemy 11, above 5, below 4, ally 2, spouse 2, divine 1
+  2. princess   > hero       acts  27: above 1, below 0; enemy 12, divine 4, spouse 4, ally 3, stranger 3, above 1
+  3. stated hierarchy: 10.9% of 350 acts between characters (74 stories)
+  4. the relation predicts the sphere: 35 single-sphere holders with 3 acts, accuracy 37.1%, 10 of 1000 shuffles reach it
+  5. villain    holders  120: punished (U) 5 (4%), rewarded or wed (W) 0 (0%)
+  5. donor      holders   47: punished (U) 2 (4%), rewarded or wed (W) 1 (2%)
+  5. helper     holders   52: punished (U) 1 (2%), rewarded or wed (W) 1 (2%)
+  5. princess   holders   53: punished (U) 0 (0%), rewarded or wed (W) 1 (2%)
+  5. dispatcher holders   14: punished (U) 0 (0%), rewarded or wed (W) 0 (0%)
+  5. hero       holders   53: punished (U) 3 (6%), rewarded or wed (W) 4 (8%)
+  5. false hero holders   20: punished (U) 2 (10%), rewarded or wed (W) 0 (0%)
+
+== fables, transcriber B: 198 stories
+  1. villain    acts  125: spouse 1%, above 10%, below 2%, ally 6%, enemy 46%, stranger 12%, divine 7%, self 3%, none 13%
+  1. donor      acts   65: kin 9%, above 6%, ally 29%, enemy 15%, stranger 17%, divine 20%, none 3%
+  1. helper     acts   53: kin 2%, spouse 4%, above 11%, below 4%, ally 6%, enemy 17%, stranger 15%, divine 13%, none 28%
+  1. princess   acts   57: kin 9%, spouse 9%, above 5%, ally 4%, enemy 33%, stranger 16%, divine 16%, none 9%
+  1. dispatcher acts   19: kin 5%, below 11%, ally 5%, enemy 5%, stranger 11%, divine 42%, none 21%
+  1. hero       acts   98: kin 7%, above 3%, below 3%, ally 6%, enemy 13%, stranger 22%, divine 14%, self 2%, none 29%
+  1. false hero acts    5: enemy 20%, stranger 20%, divine 40%, none 20%
+  2. hero       > helper     acts  15: above 0, below 0; kin 4, stranger 4, spouse 3, ally 2, enemy 2
+  2. helper     > hero       acts  10: above 0, below 0; stranger 3, ally 2, enemy 2, spouse 2, kin 1
+  2. dispatcher > hero       acts   5: above 0, below 2; below 2, stranger 2, enemy 1
+  2. hero       > dispatcher acts   6: above 2, below 0; above 2, enemy 2, stranger 2
+  2. villain    > hero       acts  45: above 1, below 1; enemy 30, stranger 9, divine 3, above 1, below 1, spouse 1
+  2. princess   > hero       acts  19: above 0, below 0; enemy 8, stranger 5, ally 2, divine 2, spouse 2
+  3. stated hierarchy: 9.4% of 341 acts between characters (79 stories)
+  4. the relation predicts the sphere: 30 single-sphere holders with 3 acts, accuracy 30.0%, 132 of 1000 shuffles reach it
+  5. villain    holders  133: punished (U) 5 (4%), rewarded or wed (W) 0 (0%)
+  5. donor      holders   47: punished (U) 2 (4%), rewarded or wed (W) 1 (2%)
+  5. helper     holders   44: punished (U) 1 (2%), rewarded or wed (W) 1 (2%)
+  5. princess   holders   36: punished (U) 0 (0%), rewarded or wed (W) 1 (3%)
+  5. dispatcher holders   15: punished (U) 1 (7%), rewarded or wed (W) 0 (0%)
+  5. hero       holders   58: punished (U) 3 (5%), rewarded or wed (W) 4 (7%)
+  5. false hero holders    7: punished (U) 1 (14%), rewarded or wed (W) 0 (0%)
+
+== tragedies, transcriber A: 32 stories
+  1. villain    acts 2010: kin 21%, spouse 6%, above 12%, below 2%, ally 8%, enemy 22%, stranger 4%, divine 9%, self 1%, none 16%
+  1. donor      acts 1218: kin 19%, spouse 5%, above 10%, below 4%, ally 12%, enemy 16%, stranger 6%, divine 10%, self 1%, none 16%
+  1. helper     acts 1567: kin 20%, spouse 5%, above 11%, below 5%, ally 10%, enemy 15%, stranger 5%, divine 9%, self 1%, none 18%
+  1. princess   acts 1009: kin 27%, spouse 5%, above 12%, below 6%, ally 7%, enemy 13%, stranger 5%, divine 7%, self 1%, none 16%
+  1. dispatcher acts  690: kin 19%, spouse 5%, above 8%, below 10%, ally 11%, enemy 14%, stranger 3%, divine 11%, self 2%, none 17%
+  1. hero       acts 1868: kin 21%, spouse 7%, above 10%, below 4%, ally 10%, enemy 16%, stranger 5%, divine 7%, self 1%, none 18%
+  1. false hero acts   26: kin 8%, spouse 4%, above 4%, below 8%, ally 23%, enemy 42%, divine 4%, none 8%
+  2. hero       > helper     acts 157: above 19, below 15; ally 37, kin 37, spouse 30, above 19, below 15, enemy 11, stranger 7, divine 1
+  2. helper     > hero       acts 152: above 13, below 13; ally 50, kin 31, spouse 27, above 13, below 13, stranger 12, enemy 6
+  2. hero       > false hero acts   6: above 0, below 0; enemy 6
+  2. false hero > hero       acts   5: above 0, below 0; enemy 5
+  2. dispatcher > hero       acts  88: above 0, below 13; kin 19, divine 17, below 13, enemy 12, spouse 12, ally 11, stranger 4
+  2. hero       > dispatcher acts  83: above 9, below 0; kin 24, ally 19, enemy 15, spouse 10, above 9, divine 3, stranger 3
+  2. villain    > hero       acts 183: above 17, below 5; kin 56, enemy 32, ally 30, divine 18, above 17, spouse 16, stranger 9, below 5
+  2. princess   > hero       acts  57: above 8, below 3; kin 24, spouse 10, above 8, enemy 6, divine 4, below 3, ally 1, stranger 1
+  3. stated hierarchy: 19.5% of 3518 acts between characters (32 stories)
+  4. the relation predicts the sphere: 121 single-sphere holders with 3 acts, accuracy 34.7%, 0 of 1000 shuffles reach it
+  5. villain    holders  196: punished (U) 15 (8%), rewarded or wed (W) 9 (5%)
+  5. donor      holders   88: punished (U) 4 (5%), rewarded or wed (W) 7 (8%)
+  5. helper     holders   95: punished (U) 6 (6%), rewarded or wed (W) 7 (7%)
+  5. princess   holders   58: punished (U) 5 (9%), rewarded or wed (W) 2 (3%)
+  5. dispatcher holders   65: punished (U) 3 (5%), rewarded or wed (W) 0 (0%)
+  5. hero       holders   89: punished (U) 4 (4%), rewarded or wed (W) 27 (30%)
+  5. false hero holders    4: punished (U) 2 (50%), rewarded or wed (W) 0 (0%)
+
+== tragedies, transcriber B: 32 stories
+  1. villain    acts 1958: kin 19%, spouse 5%, above 13%, below 3%, ally 7%, enemy 26%, stranger 4%, divine 9%, self 2%, none 12%
+  1. donor      acts 1253: kin 17%, spouse 4%, above 12%, below 5%, ally 14%, enemy 17%, stranger 7%, divine 10%, self 0%, none 12%
+  1. helper     acts 1200: kin 18%, spouse 5%, above 12%, below 4%, ally 10%, enemy 17%, stranger 6%, divine 12%, self 2%, none 13%
+  1. princess   acts  932: kin 20%, spouse 7%, above 16%, below 6%, ally 7%, enemy 15%, stranger 8%, divine 8%, self 1%, none 12%
+  1. dispatcher acts  849: kin 18%, spouse 4%, above 8%, below 12%, ally 17%, enemy 15%, stranger 6%, divine 10%, self 1%, none 10%
+  1. hero       acts 1644: kin 19%, spouse 4%, above 12%, below 5%, ally 10%, enemy 20%, stranger 6%, divine 6%, self 1%, none 15%
+  1. false hero acts   22: kin 9%, above 9%, below 9%, ally 27%, enemy 41%, none 5%
+  2. hero       > helper     acts 116: above 17, below 8; ally 31, kin 27, above 17, spouse 15, enemy 11, below 8, stranger 4, divine 3
+  2. helper     > hero       acts 123: above 8, below 11; ally 40, spouse 21, kin 20, below 11, divine 9, above 8, enemy 7, stranger 7
+  2. hero       > false hero acts   6: above 0, below 0; enemy 6
+  2. false hero > hero       acts   5: above 0, below 0; enemy 5
+  2. dispatcher > hero       acts 128: above 2, below 19; ally 39, kin 25, below 19, enemy 15, divine 11, stranger 10, spouse 7, above 2
+  2. hero       > dispatcher acts 129: above 23, below 2; ally 43, kin 33, above 23, enemy 17, stranger 5, spouse 4, below 2, divine 2
+  2. villain    > hero       acts 164: above 14, below 3; enemy 54, kin 46, divine 18, ally 16, above 14, stranger 8, spouse 5, below 3
+  2. princess   > hero       acts  77: above 9, below 0; enemy 21, kin 16, spouse 11, ally 10, above 9, stranger 7, divine 3
+  3. stated hierarchy: 20.0% of 3418 acts between characters (32 stories)
+  4. the relation predicts the sphere: 126 single-sphere holders with 3 acts, accuracy 42.1%, 0 of 1000 shuffles reach it
+  5. villain    holders  218: punished (U) 8 (4%), rewarded or wed (W) 6 (3%)
+  5. donor      holders   99: punished (U) 1 (1%), rewarded or wed (W) 4 (4%)
+  5. helper     holders   76: punished (U) 2 (3%), rewarded or wed (W) 5 (7%)
+  5. princess   holders   52: punished (U) 3 (6%), rewarded or wed (W) 4 (8%)
+  5. dispatcher holders   86: punished (U) 2 (2%), rewarded or wed (W) 1 (1%)
+  5. hero       holders   77: punished (U) 3 (4%), rewarded or wed (W) 14 (18%)
+  5. false hero holders    2: punished (U) 1 (50%), rewarded or wed (W) 0 (0%)
+
+== predictions (HierarchyProtocol.md section 5): p at most 0.05; floor 10 acts or stories a side
+  1. A: NOT TESTABLE (floor): hero>helper above 1 below 7; helper>hero above 12 below 1
+  2. A: NOT TESTABLE (floor): the false hero below 2, above 0, all corpora
+  3. A wondertales  villain enemy 26% against donor      12% (69 and 56 characters), p 0.0086: holds
+  3. A wondertales  villain enemy 30% against helper     11% (61 and 60 characters), p 0.0002: holds
+  3. A wondertales  villain enemy 28% against princess   14% (73 and 32 characters), p 0.0087: holds
+  3. A wondertales  villain enemy 29% against dispatcher 12% (82 and 23 characters), p 0.0065: holds
+  3. A wondertales  villain enemy 31% against hero       13% (59 and 54 characters), p 0.0003: holds
+  3. A wondertales  villain against false hero: NOT TESTABLE (floor: 86 and 3 characters)
+  3. A tragedies    villain enemy 22% against donor      10% (159 and 56 characters), p 0.0026: holds
+  3. A tragedies    villain enemy 25% against helper     7% (149 and 55 characters), p 0.0001: holds
+  3. A tragedies    villain enemy 24% against princess   11% (165 and 35 characters), p 0.0034: holds
+  3. A tragedies    villain enemy 22% against dispatcher 11% (176 and 53 characters), p 0.0028: holds
+  3. A tragedies    villain enemy 25% against hero       12% (150 and 51 characters), p 0.0017: holds
+  3. A tragedies    villain against false hero: NOT TESTABLE (floor: 184 and 2 characters)
+  4. A: wondertales accuracy 38.8%, 0 shuffles reach it; animal tales accuracy 35.8%, 15 shuffles reach it; fables accuracy 37.1%, 10 shuffles reach it; tragedies accuracy 34.7%, 0 shuffles reach it
+  5. A: stated hierarchy, tragedies 19.5% (32) against wondertales 13.1% (45), p 0.0249: holds
+  5. A: stated hierarchy, tragedies 19.5% (32) against fables 10.9% (74), p 0.0090: holds
+  1. B: NOT TESTABLE (floor): hero>helper above 0 below 4; helper>hero above 3 below 0
+  2. B: NOT TESTABLE (floor): the false hero below 0, above 0, all corpora
+  3. B wondertales  villain enemy 37% against donor      13% (65 and 76 characters), p 0.0001: holds
+  3. B wondertales  villain enemy 39% against helper     18% (58 and 60 characters), p 0.0003: holds
+  3. B wondertales  villain enemy 38% against princess   13% (77 and 35 characters), p 0.0001: holds
+  3. B wondertales  villain enemy 37% against dispatcher 19% (77 and 34 characters), p 0.0018: holds
+  3. B wondertales  villain enemy 46% against hero       15% (56 and 57 characters), p 0.0001: holds
+  3. B wondertales  villain against false hero: NOT TESTABLE (floor: 86 and 2 characters)
+  3. B tragedies    villain enemy 28% against donor      14% (183 and 66 characters), p 0.0007: holds
+  3. B tragedies    villain enemy 28% against helper     12% (187 and 46 characters), p 0.0004: holds
+  3. B tragedies    villain enemy 28% against princess   13% (192 and 33 characters), p 0.0013: holds
+  3. B tragedies    villain enemy 27% against dispatcher 12% (192 and 64 characters), p 0.0003: holds
+  3. B tragedies    villain enemy 28% against hero       14% (176 and 41 characters), p 0.0020: holds
+  3. B tragedies    villain against false hero: NOT TESTABLE (floor: 210 and 1 characters)
+  4. B: wondertales accuracy 44.1%, 0 shuffles reach it; animal tales accuracy 16.9%, 233 shuffles reach it; fables accuracy 30.0%, 132 shuffles reach it; tragedies accuracy 42.1%, 0 shuffles reach it
+  5. B: stated hierarchy, tragedies 20.0% (32) against wondertales 15.1% (45), p 0.0648: does not hold
+  5. B: stated hierarchy, tragedies 20.0% (32) against fables 9.4% (79), p 0.0053: holds
+  1. the hero above the helper, in the wondertales: NOT TESTABLE
+  2. the false hero below: NOT TESTABLE
+  3. the villain's enmity (a replication): HOLDS
+  4. the relation predicts the sphere: SPLIT
+  5. stated hierarchy higher in the tragedies: SPLIT
