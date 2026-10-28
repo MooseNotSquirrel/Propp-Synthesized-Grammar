@@ -528,3 +528,8 @@ NEXT: `revealed-1`, at the owner's word; then the form check, R3, and the scorin
   - Their wondertale yeses are a hero's carelessness: the zhikhar's shouting, the sister's neglect, Ivan freeing Koshchei.
   - The owner's pattern, a hidden crime of the hero's uncovered at the close, is narrower. The frozen question does not separate it, and only P20, P26 and P13, the controls, plainly show it.
 NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md`. Should the owner wish it, a narrower question, the hero's own crime unknown to him or hidden until the close, could be frozen and asked.
+**2026-10-28. The hidden crime: a narrower question drafted as an amendment, not adopted** (`FailedHero/HiddenCrimeDraft.md`). At the owner's word, for review; nothing else changed.
+- **The question has two parts:** CAUSE (is the hero by his own deed the cause of the harm) and HIDDEN (is that deed unknown to him, or hidden, until it is discovered), with the discovering event.
+- **It would be asked of the same 56 stories** by new readers, as `revealed-2`, about 440,000 tokens.
+- **The controls:** yes, P20, P26, P13; no, P03 and P12, whose causes are open from the start, and A098.
+- **Four decisions for the owner:** what counts, the wording, the controls, and whether to run it at all.
