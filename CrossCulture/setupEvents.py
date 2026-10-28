@@ -7,6 +7,7 @@ as the animal tales were run), set up in Propp-ActsRoles: native-events and east
   python setupEvents.py write    write it (refused if a file it writes exists with different content)
   python setupEvents.py latin dry|write   the rule on Latin passages, and the stage native-latin relisting T01, O09, O19
   python setupEvents.py merge    join each corpus's checked batches into <corpus>/Events.txt and Heroes.txt
+  python setupEvents.py merge latin   join native-latin's relisted T01, O09, O19 into native/Events.txt and Heroes.txt
 
 Modelled on the stage animal-events (2026-10-20): one reader on Opus a batch, three batches of 17, 17 and 16 tales; the
 rules file is animal/ListRules.md, changed only where the new corpora differ, as each change below says. Writes:
@@ -271,10 +272,39 @@ def merge():
                                                '; left out until relisted: ' + ', '.join(sorted(skip)) if skip else ''))
 
 
+def merge_latin():
+    """native/Events.txt and Heroes.txt rebuilt from the batches in tale order, the lines of T01, O09 and O19 taken from
+    native-latin's lists (Events-l1.txt, Heroes-l1.txt) in place of the first lists'; replaces only the 47-tale joined files
+    that merge wrote"""
+    ev = os.path.join(AR, 'native', 'events')
+    for name in ('Events', 'Heroes'):
+        first = []
+        for k in range(1, len(BATCHES) + 1):
+            first += [l.rstrip('\n') for l in open(os.path.join(ev, '%s-e%d.txt' % (name, k)), encoding='utf-8') if l.strip()]
+        relisted = [l.rstrip('\n') for l in open(os.path.join(ev, '%s-l1.txt' % name), encoding='utf-8') if l.strip()]
+        got = sorted({l.split(' |')[0] for l in relisted})
+        if got != sorted(LATIN_TALES):
+            raise SystemExit('%s-l1.txt holds %s, not %s' % (name, got, LATIN_TALES))
+        path = os.path.join(AR, 'native', name + '.txt')
+        held = '\n'.join(l for l in first if l.split(' |')[0] not in LATIN_TALES) + '\n'
+        if open(path, encoding='utf-8').read() != held:
+            raise SystemExit('refusing: %s is not the 47-tale file that merge wrote' % path)
+        by = {}
+        for l in first:
+            t = l.split(' |')[0]
+            if t not in LATIN_TALES:
+                by.setdefault(t, []).append(l)
+        for l in relisted:
+            by.setdefault(l.split(' |')[0], []).append(l)
+        lines = [l for t in CORPORA['native']['ids'] for l in by.get(t, [])]
+        open(path, 'w', encoding='utf-8', newline='\n').write('\n'.join(lines) + '\n')
+        print('%s: %d lines, %d tales; %s from native-latin' % (path, len(lines), len(by), ', '.join(LATIN_TALES)))
+
+
 if __name__ == '__main__':
     a = sys.argv[1:]
     cmds = {('dry',): lambda: main('dry'), ('write',): lambda: main('write'), ('latin', 'dry'): lambda: latin('dry'),
-            ('latin', 'write'): lambda: latin('write'), ('merge',): merge}
+            ('latin', 'write'): lambda: latin('write'), ('merge',): merge, ('merge', 'latin'): merge_latin}
     if tuple(a) not in cmds:
         sys.exit(__doc__)
     cmds[tuple(a)]()
