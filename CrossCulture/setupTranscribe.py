@@ -57,7 +57,7 @@ def rules(c):
 def prompt(c, L, k, ids):
     t = read('prompts', 'animal-transcribe-%s-b1.txt' % L)
     first = ', '.join('animal/tales/A%03d.txt' % i for i in range(1, 18))
-    reps = [("some tales from Aleksandr Afanasyev's collection of Russian folktales", 'some tales from %s' % CORPORA[c]['short']),
+    reps = [("some tales from Aleksandr Afanasyev's collection of Russian folktales", 'some tales from %s,' % CORPORA[c]['short']),
             ('Your tales are these 17, one per file, read in their original language: ' + first,
              'Your tales are these %d, one per file, read as they stand: %s' % (len(ids), ', '.join('%s/tales/%s.txt' % (c, i) for i in ids))),
             ('in the original language.', 'as the text prints them.'),
