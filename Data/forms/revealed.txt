@@ -1,0 +1,5 @@
+A r1 stories 20, answered 20, missing 0, unknown items 0, out of form 0, in order yes
+A r2 stories 36, answered 36, missing 0, unknown items 0, out of form 0, in order yes
+B r1 stories 20, answered 20, missing 0, unknown items 0, out of form 0, in order yes
+B r2 stories 36, answered 36, missing 0, unknown items 0, out of form 0, in order yes
+IN FORM

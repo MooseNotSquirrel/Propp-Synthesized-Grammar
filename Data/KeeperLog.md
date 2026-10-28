@@ -516,3 +516,15 @@ NEXT: at the owner's word, the reader stage of route (b), its six controls named
   - The stories are those with a judged hero, none for a "no single hero" entry. The question is word for word as frozen. The tragedies' titles are blank, since the stories table has none.
 - **In `RUN.md`:** the stage `revealed-1`, 4 readers, about 260,000 tokens.
 NEXT: `revealed-1`, at the owner's word; then the form check, R3, and the scoring of prediction 1.
+**2026-10-28. The revealed villain, route (b): `revealed-1` run, scored; R3 passes and prediction 1 FAILS** (`FailedHero/RevealedVillainReaders.txt`; scoring committed before any answer was read, 35b736e). At the owner's word.
+- **The run:** four readers on branch `run-revealed-1` (acb2c15), merged at 48c1984, A on Opus and B on Sonnet, about 438,000 tokens. That is more than the 260,000 estimated, since each reader read every event. Each reply was saved word for word; every answer file is in form (`Data/forms/revealed.txt`).
+- **R3:** both readers answer all six controls as fixed.
+- **The readers' agreement:** 50 of 56 stories (89%).
+- **Both readers yes:** P03, P12, P13, P20, P21, P22, P26 and P29 among the tragedies; A106, A113 and A159 among the wondertales.
+- **Prediction 1,** with the controls left out as fixed before the answers: tragedies 5 of 16 (31%) against wondertales 3 of 26 and 3 of 25 (12%), p 0.12 and 0.13. **FAILS** for both transcribers. The direction is the predicted one, the sample small. With the controls counted: 42% against 10% and 11%, reported only.
+- **Route (a) beside route (b):** they agree on 33 of 48 and 32 of 47 stories.
+- **The keeper's reading, not tested:** the readers took the question as "the hero is the cause", not "it comes as a surprise".
+  - Their tragic yeses include causes told openly from the start: P03 *Oedipus at Colonus*, P12 *Orestes*, P21 Xerxes, P22 Admetus, P29 Eteocles.
+  - Their wondertale yeses are a hero's carelessness: the zhikhar's shouting, the sister's neglect, Ivan freeing Koshchei.
+  - The owner's pattern, a hidden crime of the hero's uncovered at the close, is narrower. The frozen question does not separate it, and only P20, P26 and P13, the controls, plainly show it.
+NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md`. Should the owner wish it, a narrower question, the hero's own crime unknown to him or hidden until the close, could be frozen and asked.

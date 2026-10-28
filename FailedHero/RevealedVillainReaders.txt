@@ -1,0 +1,13 @@
+# RevealedVillainReaders.txt -- revealedVillain.py score-b: route (b) of FailedHero/RevealedVillainProtocol.md (frozen 2026-10-28); reader A Opus, reader B Sonnet; per transcriber where the judged hero is found in its table
+R3 reader A: 6 of 6 controls as fixed (P13 yes, P20 yes, P26 yes, A095 no, A098 no, A100 no)
+R3 reader B: 6 of 6 controls as fixed (P13 yes, P20 yes, P26 yes, A095 no, A098 no, A100 no)
+R3 PASS: the stage is scored
+readers' agreement: 50 of 56 stories (89%)
+both readers yes: A106 (events 3, 3), A113 (events 3, 3), A159 (events 15, 16), P03 (events 44, 42), P12 (events 10, 10), P13 (events 37, 2), P20 (events 89, 30), P21 (events 39, 39), P22 (events 50, 6), P26 (events 90, 90), P29 (events 50, 50)
+
+== prediction 1 (route b): permutation test, 10000 permutations, p at most 0.05; floor 10 stories a side; controls left out
+  A: route (a) and route (b) agree on 33 of 48 stories; with the controls counted, tragedies 42% (19), wondertales 10% (29)
+  1. A: revealed by both readers, tragedies 31% (5 of 16) against wondertales 12% (3 of 26): difference +20 points, p 0.1202: does not hold
+  B: route (a) and route (b) agree on 32 of 47 stories; with the controls counted, tragedies 42% (19), wondertales 11% (28)
+  1. B: revealed by both readers, tragedies 31% (5 of 16) against wondertales 12% (3 of 25): difference +19 points, p 0.1259: does not hold
+  1. by the readers, the hero revealed as the cause of the harm in more tragedies than wondertales: FAILS
