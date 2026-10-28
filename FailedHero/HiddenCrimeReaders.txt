@@ -1,0 +1,15 @@
+# HiddenCrimeReaders.txt -- revealedVillain.py score-c: section 8 of FailedHero/RevealedVillainProtocol.md (adopted 2026-10-28), the hidden crime; reader A Opus, reader B Sonnet; reported beside RevealedVillainReaders.txt, not in its place
+controls, reader A: 6 of 6 as fixed on HIDDEN (P03 yes/no, P12 yes/no, P13 yes/yes, P20 yes/yes, P26 yes/yes, A098 no/no)
+controls, reader B: 6 of 6 as fixed on HIDDEN (P03 yes/no, P12 yes/no, P13 yes/yes, P20 yes/yes, P26 yes/yes, A098 no/no)
+controls PASS: the stage is scored
+readers' agreement on CAUSE: 56 of 56 (100%)
+readers' agreement on HIDDEN: 53 of 56 (95%)
+both readers CAUSE and HIDDEN yes: P13 (events 35, 35), P20 (events 89, 89; late), P26 (events 90, 90; late)
+beside the first question (revealed-1, both readers yes): both P13 P20 P26; the first only A106 A113 A159 P03 P12 P21 P22 P29; the hidden crime only none
+
+== prediction 3 (section 8): permutation test, 10000 permutations, p at most 0.05; floor 10 stories a side; controls left out
+  A: reported, the stricter count (discovery late) tragedies 0 of 14, wondertales 0 of 28; with the controls counted, tragedies 16% (19), wondertales 0% (29)
+  3. A: the hero's own hidden crime, tragedies 0% (0 of 14) against wondertales 0% (0 of 28): difference +0 points, p 1.0000: does not hold
+  B: reported, the stricter count (discovery late) tragedies 0 of 14, wondertales 0 of 27; with the controls counted, tragedies 16% (19), wondertales 0% (28)
+  3. B: the hero's own hidden crime, tragedies 0% (0 of 14) against wondertales 0% (0 of 27): difference +0 points, p 1.0000: does not hold
+  3. the hero's own hidden crime in more tragedies than wondertales: FAILS
