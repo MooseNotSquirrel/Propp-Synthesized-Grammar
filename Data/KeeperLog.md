@@ -624,3 +624,9 @@ NEXT: the owner decides X1. Recommended: amend it so that the reference is the p
   - the hero's acts helping another: 2% to 6% in every corpus.
   - The myths' U counts run over 172 stories, every story with function rows, where the other layers keep 126. The myths take no part in predictions 5 and 6.
 NEXT: at the owner's word, locate a complete scan of Fielde; then set up the event-list stage for the four sources, the tales chosen by their tables of contents only.
+**2026-10-28. Fielde's text found and recorded** (`CrossCulture/CrossCultureProtocol.md` section 2), at the owner's word. Only catalog metadata was read, and no tale.
+- **The source:** the Internet Archive holds the 1893 first edition, `chinesenightsent00fielrich`. It was scanned from a University of California copy: 224 page images, a full text and PDFs, marked NOT_IN_COPYRIGHT for the US.
+- **The check:** the 1912 reissue, `cu31924023266350` from Cornell, is kept for any unreadable page. Its metadata has no rights statement, though its date is before 1930.
+- **Not reachable:** HathiTrust refused automated requests (403).
+- **Now:** all four sources have a public-domain text.
+NEXT: at the owner's word, the 25 tales of each source chosen from its table of contents alone; then the event-list stage.
