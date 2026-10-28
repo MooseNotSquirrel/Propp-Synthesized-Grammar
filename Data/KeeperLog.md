@@ -496,3 +496,13 @@ NEXT: the owner's review.
 - **R1 records route (a)'s known false positive:** a hero recognized (Q) after another's villainy counts as revealed.
 - **The dry run, counts only,** per transcriber: judged heroes found in 29 and 28 wondertales, 41 animal tales, 142 and 144 fables, and 19 tragedies. Stories with an Ex: 7, 7; 3, 1; 27, 14; 14, 14. Stories with a Q: 10, 11; 0, 0; 2, 3; 11, 12.
 NEXT: at the owner's word, route (a) run (`python revealedVillain.py run`); then the reader stage of route (b) set up, its six controls named by the keeper first.
+**2026-10-28. The revealed villain, route (a), run: prediction 2 HOLDS, but mostly on recognition scenes, the false positive R1 recorded** (`FailedHero/RevealedVillainTables.txt`). At the owner's word.
+- **Counted as revealed,** for both transcribers: 6 of 19 tragedies (32%): P14, P16, P20, P23, P25, P26. Wondertales 2 of 29 and 2 of 28 (7%): A125, A156. Permutation p 0.031 and 0.039. Reported: animal tales 3 and 1 of 41, fables 15 of 142 and 8 of 144.
+- **How the six tragedies count,** read after the result from the functions the hero undergoes:
+  - P20: an exposure, Teiresias's, then the hero's own, of a hero who performs a villainy. This is the owner's pattern.
+  - P26: a recognition, by Megara, of a hero who performs a villainy (Heracles). Plausibly the owner's pattern.
+  - P14 (Electra, recognized by Orestes), P16 (Helen, by Menelaos) and P23 (Orestes, by Electra): recognitions of kin after another's villainy. These are R1's known false positive.
+  - P25: exposures by Odysseus and Neoptolemus of Philoctetes, who performs no villainy. Not the pattern.
+- **Missed:** P03, whose judged hero is also Oedipus, undergoes no Ex or Q, though he performs a villainy.
+- **The keeper's reading, not tested:** the verdict holds, but on letters that mostly mark recognition between kin, not the uncovering of the hero's own crime. Route (a) does not carry the owner's pattern well; at most two of its six tragedies show it. This is the case the protocol foresaw for route (b), the readers, as primary.
+NEXT: at the owner's word, the reader stage of route (b), its six controls named by the keeper first.

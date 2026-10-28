@@ -1,0 +1,15 @@
+# RevealedVillainTables.txt -- revealedVillain.py: route (a) of FailedHero/RevealedVillainProtocol.md (frozen 2026-10-28), per transcriber
+# the hero revealed: the undergoer of an Ex, or of a Q after an A; the hero the judged hero, mended; the myths take no part
+wondertales  A: judged heroes  29, revealed   2 (7%): A125 A156
+wondertales  B: judged heroes  28, revealed   2 (7%): A125 A156
+animal tales A: judged heroes  41, revealed   3 (7%): A023 A024 A044
+animal tales B: judged heroes  41, revealed   1 (2%): A024
+fables       A: judged heroes 142, revealed  15 (11%): F029 F039 F066 F079 F127 F131 F154 F171 F189 F208 F240 F247 F252 F259 F300
+fables       B: judged heroes 144, revealed   8 (6%): F039 F066 F131 F171 F240 F247 F252 F259
+tragedies    A: judged heroes  19, revealed   6 (32%): P14 P16 P20 P23 P25 P26
+tragedies    B: judged heroes  19, revealed   6 (32%): P14 P16 P20 P23 P25 P26
+
+== prediction 2 (route a): permutation test, 10000 permutations, p at most 0.05; floor 10 stories a side
+  2. A: revealed, tragedies 32% (19) against wondertales 7% (29): difference +25 points, p 0.0314: holds
+  2. B: revealed, tragedies 32% (19) against wondertales 7% (28): difference +24 points, p 0.0385: holds
+  2. by the tables, the hero revealed in more tragedies than wondertales: HOLDS
