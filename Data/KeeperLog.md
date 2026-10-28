@@ -630,3 +630,15 @@ NEXT: at the owner's word, locate a complete scan of Fielde; then set up the eve
 - **Not reachable:** HathiTrust refused automated requests (403).
 - **Now:** all four sources have a public-domain text.
 NEXT: at the owner's word, the 25 tales of each source chosen from its table of contents alone; then the event-list stage.
+**2026-10-28. The 100 tales chosen and recorded before any was read** (`CrossCulture/TaleLists.md`). At the owner's word, by the frozen rule: the first 25 narratives of each source in table-of-contents order.
+- **How:** each table of contents was read from the online text, the fetch asked for the contents list only, and no tale's text was opened. Dorsey's comes from an OCR scan of the Internet Archive copy `cegihalanguageth00dorsuoft`; its spellings and page numbers are to be checked against the page images at setup.
+- **The tales:**
+  - Swanton: Sitka entries 1 to 25.
+  - Dorsey: Myths 1 to 25, almost all Rabbit, Ictinike and Coyote tales, four of them in two versions.
+  - Fielde: 1 to 25.
+  - Griffis: I to XXV.
+- **Noted from the titles:**
+  - Swanton's "Raven" is a long cycle, taken as one tale.
+  - Swanton's entry 11 names two stories, taken as one.
+  - Griffis's "Smells and Jingles" may be a set of short pieces, kept as the table of contents gives it.
+NEXT: at the owner's word, in a fresh session given its cost, the event-list stage for the 100 tales.
