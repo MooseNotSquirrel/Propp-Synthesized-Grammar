@@ -465,3 +465,12 @@ Nothing is built. NEXT: at the owner's word, section 7 steps 2 to 4 (the made-up
   - What does set him apart is a little more negation than the wondertale's hero throughout.
 NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md` (protocol section 7, step 6).
 **2026-10-28. The failed-hero finding entered in `PreliminaryFindings.md` section 5** (protocol section 7, step 6), at the owner's word. It is a TESTED paragraph after the exploratory spheres note, with its own READING, NOT FROM PROPP. The exploratory note is left as it was; the new paragraph says why its two-thirds figure differs. With this, every step of `FailedHeroProtocol.md` section 7 is done.
+**2026-10-28. A fault in `FailedHero/failedHero.py`, found after the run; the result of record is not to be cited as it stands.** Found in conversation with the owner, who asked whether Oedipus is the only tragedy whose hero is also its villain.
+- **The fault:** seven tragedies have a judged-hero entry reading "no single hero: ...", where the readers divided the play between two figures: P01, P04, P06, P18, P19, P30, P32. The protocol leaves stories without a judged hero out. `find_hero` instead matched those entries to whatever character the text joined: P01's hero came out as Rhesus, P04's as Creusa, P06's as Creon alone.
+  - Test H3 did not catch it, since it checks only that no hero is matched twice.
+  - The fault touches all three predictions in the tragedies. The same entries may occur in the other corpora and were not yet checked.
+- **A limit of the measure, not a fault of the program:** a villainy committed before the play opens is told as recognition or exposure (Q, Ex), not as A. The sphere grouping credits only the performer of A with the villain's sphere, so a hero whose crime is uncovered is not counted as fused. In P03 (Oedipus) transcriber A's fused character is "thebes", not Oedipus; B's is Oedipus. This bears hardest on the tragedies, whose villainies are often old and revealed.
+- **The record stands:** `FailedHeroRun.txt` and the `PreliminaryFindings.md` paragraph are not changed. They are to be read with this entry until the rerun.
+NEXT, at the owner's word:
+  1. mend `find_hero` so a "no single hero" entry gives no hero, with H3 extended to test it, and rerun into a second file beside the record;
+  2. the owner's revealed-villain pattern as its own frozen measure: does the hero undergo or perform the recognition or exposure of a villainy he committed, before or during the play? It may need the events or a short reader stage.
