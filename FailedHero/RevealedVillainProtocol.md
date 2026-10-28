@@ -72,3 +72,30 @@ R3's "Oedipus P03 if its hero is judged" gives way to P20. The event list shows 
 2. Write and commit the invented stories of R1, the program for route (a), and the stage's inputs, prompts and controls; dry-run.
 3. Run route (a). Then run the reader stage in portions, at the owner's word.
 4. Score, log, and enter the finding in `PreliminaryFindings.md` at the owner's word.
+
+## 8. Amendment at the owner's word, after the first reader stage
+
+**2026-10-28, the hidden crime** (`HiddenCrimeDraft.md`, adopted as drafted, the recommended decisions taken).
+
+**The reason:** both readers of `revealed-1` took the question of section 2 as "the hero is the cause", whether or not that is hidden. They said yes to causes open from the start (P03 *Oedipus at Colonus*, P12 *Orestes*) and to a wondertale hero's carelessness. The owner's pattern is narrower.
+
+**The verdict of record stands:** prediction 1 FAILS (`RevealedVillainReaders.txt`). This second question was prompted by the first one's answers, and its result is reported beside the first, never in its place.
+
+- **The question,** fixed word for word:
+  > **CAUSE:** Is the hero himself, by a deed of his own, the cause of the harm the story turns on? Answer yes or no.
+  >
+  > **HIDDEN:** If so, is that deed unknown to the hero, or hidden from those around him, until a point in the story where it is discovered? Answer yes or no (no if CAUSE is no).
+  >
+  > **EVENT:** the number of the event where the hero's part is discovered (0 if HIDDEN is no).
+  >
+  > **REASON:** one sentence.
+
+  The answer form is `ITEM | CAUSE | HIDDEN | EVENT | REASON`.
+- **What counts:** a story counts when both readers answer CAUSE yes and HIDDEN yes. Reported beside it: the stricter count, where both readers' EVENT also falls in the last third of the story's events.
+- **The stage `revealed-2`:** the same 56 stories, in batches `r3` (tragedies) and `r4` (wondertales), with new readers, A on Opus and B on Sonnet.
+- **The controls:**
+  - yes, in both parts: P20 *Oedipus the King*, P26 *Heracles*, P13 *Ajax*;
+  - no, CAUSE yes or no but HIDDEN no: P03 *Oedipus at Colonus*, P12 *Orestes*, A098 *Daughter and Stepdaughter*.
+  - Both readers must answer at least five of the six as fixed on HIDDEN, or the stage is reported and not scored.
+  - They are left out of the prediction's score.
+- **Prediction 3:** counted as above, the hero's own hidden crime is found in a higher share of tragedies than of wondertales. It is tested per transcriber: a permutation test at p at most 0.05, a floor of 10 stories a side, HOLDS, SPLIT or FAILS as before.

@@ -10,6 +10,7 @@ revealedVillain.py -- the revealed villain, route (a), from the tables (FailedHe
   python revealedVillain.py setup-b --dry   route (b): say what the reader stage would write, and write nothing
   python revealedVillain.py setup-b         write the stage's inputs and prompts into ActsRoles, and the item key here
   python revealedVillain.py form-b          test R2: the answers in form (Data/forms/revealed.txt)
+  python revealedVillain.py setup-c [--dry] the hidden crime (section 8): the stage revealed-2, batches r3 and r4
   python revealedVillain.py score-b         R3, then prediction 1 (FailedHero/RevealedVillainReaders.txt)
 
 A story counts when its judged hero is the undergoer of an exposure (Ex), or of a recognition (Q) that follows a
@@ -155,16 +156,17 @@ Then reply with a short report: the number of stories, how many you answered yes
 """
 
 
-def stage_items():
+def stage_items(batches=None):
     """[(batch, [(item, story, title, hero, [(event, text)])])]: the stories of the tragedies and wondertales with a judged
     hero, none for a "no single hero" entry"""
+    batches = batches or BATCHES
     J = F.judged()
     ev = F.collections.defaultdict(list)
     for r in F.DT.rows('events'):
         ev[r['story']].append((int(r['event']), r['text'].replace('|', '/').strip()))
     ti = {r['story']: r['title'].replace('|', '/').strip() for r in F.DT.rows('stories')}
     out = []
-    for b, g in BATCHES:
+    for b, g in batches:
         its = []
         for s in F.stories('A', g):
             gid = g + ':' + s
@@ -190,6 +192,71 @@ def setup_b(dry):
     if missing:
         raise SystemExit('controls not among the items: %s' % ' '.join(missing))
     writes.append((os.path.join(HERE, 'RevealedItems.tsv'), '\n'.join(key) + '\n'))
+    for path, text in writes:
+        if os.path.exists(path):
+            raise SystemExit('refusing to overwrite %s' % path)
+        print('%s %-46s %7d bytes' % ('would write' if dry else 'write', os.path.relpath(path, os.path.dirname(F.ROOT)), len(text.encode('utf-8'))))
+    if dry:
+        print('dry run: %d files; nothing written' % len(writes))
+        return
+    for path, text in writes:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        open(path, 'w', encoding='utf-8', newline='\n').write(text)
+    print('written: %d files' % len(writes))
+
+
+# ---------------------------------------------------------------- the hidden crime (RevealedVillainProtocol.md section 8)
+BATCHES_C = [('r3', 'tragedy'), ('r4', 'tale')]
+CONTROLS_C = {'P20': 'yes', 'P26': 'yes', 'P13': 'yes', 'P03': 'no', 'P12': 'no', 'A098': 'no'}
+QUESTION_C = """CAUSE: Is the hero himself, by a deed of his own, the cause of the harm the story turns on? Answer yes or no.
+
+HIDDEN: If so, is that deed unknown to the hero, or hidden from those around him, until a point in the story where it is discovered? Answer yes or no (no if CAUSE is no).
+
+EVENT: the number of the event where the hero's part is discovered (0 if HIDDEN is no).
+
+REASON: one sentence."""
+PROMPT_C = """You are reading the events of stories and answering one question, in two parts, about each. You start with no background on the project, and you should not look for any.
+
+Read revealed/input/{b}.txt in this repository in full. It holds {n} stories. Each begins with a line
+
+=== ITEM | STORY | TITLE | HERO
+
+followed by the story's events, one a line, each with its number. The HERO is the character two earlier readers named as the story's hero.
+
+For each story, answer from the events only:
+
+{q}
+
+Open only revealed/input/{b}.txt. Do not open, list or search any other file or folder in this repository, in particular nothing under revealed/answers/ but your own folder. Do not search the web. You are reader {L}.
+
+Write one file, and nothing else, revealed/answers/{L}/{b}/Answers.txt (create the folders): one line per story, in the order of the file, in the form
+
+ITEM | CAUSE | HIDDEN | EVENT | REASON
+
+where CAUSE and HIDDEN are yes or no, EVENT is a number, and REASON is one short sentence. Keep any working file inside revealed/answers/{L}/{b}/ and delete it before you finish.
+
+Then reply with a short report: the number of stories, how many you answered yes to both parts, and any you found hard to decide, with their item numbers.
+"""
+
+
+def setup_c(dry):
+    """revealed-2: the same stories as revealed-1, numbered in batches r3 and r4, under the two-part question"""
+    batches = stage_items(BATCHES_C)
+    writes, key = [], ['item\tstory\thero\tcontrol']
+    for b, its in batches:
+        text = ''.join('=== %s | %s | %s | %s\n%s' % (i, s, t, h, ''.join('%d: %s\n' % e for e in evs)) for i, s, t, h, evs in its)
+        writes.append((os.path.join(AR, 'revealed', 'input', b + '.txt'), text))
+        for L in 'AB':
+            writes.append((os.path.join(AR, 'prompts', 'revealed-%s-%s.txt' % (L, b)), PROMPT_C.format(b=b, n=len(its), q=QUESTION_C, L=L)))
+        key += ['\t'.join((i, s, h, CONTROLS_C.get(s, ''))) for i, s, t, h, evs in its]
+        print('%s %-8s stories %2d, events %4d, controls %d (%s)' % (b, dict(BATCHES_C)[b], len(its), sum(len(x[4]) for x in its),
+              sum(1 for x in its if x[1] in CONTROLS_C), ' '.join('%s=%s' % (x[1], CONTROLS_C[x[1]]) for x in its if x[1] in CONTROLS_C)))
+    same = [x[1] for b, its in stage_items() for x in its] == [x[1] for b, its in batches for x in its]
+    print('the same stories as revealed-1, in the same order: %s' % ('yes' if same else 'NO'))
+    missing = sorted(set(CONTROLS_C) - {x[1] for b, its in batches for x in its})
+    if missing or not same:
+        raise SystemExit('controls not among the items: %s' % ' '.join(missing) if missing else 'the stories differ from revealed-1')
+    writes.append((os.path.join(HERE, 'HiddenItems.tsv'), '\n'.join(key) + '\n'))
     for path, text in writes:
         if os.path.exists(path):
             raise SystemExit('refusing to overwrite %s' % path)
@@ -323,6 +390,9 @@ if __name__ == '__main__':
     a = sys.argv[1:]
     if a in (['setup-b', '--dry'], ['setup-b']):
         setup_b(len(a) == 2)
+        sys.exit(0)
+    if a in (['setup-c', '--dry'], ['setup-c']):
+        setup_c(len(a) == 2)
         sys.exit(0)
     if len(a) != 1 or a[0] not in cmds:
         sys.exit(__doc__)

@@ -1,4 +1,4 @@
-# The hidden crime: a draft amendment to the revealed-villain protocol (DRAFT 2026-10-28, FOR THE OWNER'S REVIEW, NOT ADOPTED)
+# The hidden crime: a draft amendment to the revealed-villain protocol (ADOPTED 2026-10-28 AT THE OWNER'S WORD, AS DRAFTED, THE RECOMMENDED DECISIONS TAKEN; entered as section 8 of `RevealedVillainProtocol.md`)
 
 **Drafted 2026-10-28 at the owner's word.** Nothing is changed: `RevealedVillainProtocol.md`, its scoring and its verdicts of record stand as they are (`RevealedVillainReaders.txt`: prediction 1 FAILS).
 

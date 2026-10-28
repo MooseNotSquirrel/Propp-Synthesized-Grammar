@@ -533,3 +533,8 @@ NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md`. Shou
 - **It would be asked of the same 56 stories** by new readers, as `revealed-2`, about 440,000 tokens.
 - **The controls:** yes, P20, P26, P13; no, P03 and P12, whose causes are open from the start, and A098.
 - **Four decisions for the owner:** what counts, the wording, the controls, and whether to run it at all.
+**2026-10-28. The hidden-crime amendment adopted as `RevealedVillainProtocol.md` section 8; `revealed-2` programmed and dry-run, not written.** At the owner's word, as drafted with the recommended decisions.
+- **The setup** (`revealedVillain.py setup-c`): the same 56 stories as `revealed-1`, in the same order, checked; batch `r3` holds 20 tragedies and `r4` 36 wondertales. The two-part question is word for word as entered.
+- **The controls:** five fall among the tragedies (P03, P12, P13, P20, P26) and one among the wondertales (A098). Left out of the score, they leave 15 tragedies, above the floor of 10.
+- **The dry run:** it would write 6 files into ActsRoles and `FailedHero/HiddenItems.tsv`. R1 and R4 still pass, and `setup-b` still refuses to overwrite `revealed-1`.
+NEXT: at the owner's word, `setup-c` writes the stage and `revealed-2` goes into `RUN.md`.
