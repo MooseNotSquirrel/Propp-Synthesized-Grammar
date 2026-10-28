@@ -446,3 +446,21 @@ NEXT: the owner reviews the draft and decides section 6; then it is frozen and b
 - the test is a permutation test at p at most 0.05, with a floor of 10 stories a side;
 - prediction 1 is kept, labelled a replication.
 Nothing is built. NEXT: at the owner's word, section 7 steps 2 to 4 (the made-up stories of H1, `failedHero.py`, tests H1 to H4, the dry run), when the budget allows.
+**2026-10-28. The failed-hero protocol run; none of the three predictions holds** (`FailedHero/FailedHeroRun.txt`; `failedHero.py`, 7407c89, committed before it ran). At the owner's word.
+- **Tests:** H1 (three invented stories, their answers corrected by hand before the program ran), H2, H3 and H4 pass.
+- **How the hero rule was applied:** the protocol's judged heroes include the 45 animal tales of session 7. Those are in `Data/Parity/heroes-animal.txt`, not `Heroes/JudgedHeroes.txt`, and are taken where both readers' names give the same key; all 45 are found.
+- **Prediction 1** (fusion higher in the tragedies, a replication): **FAILS.**
+  - Transcriber A: tragedies 54% against wondertales 36% (p 0.14), animal tales 31% (p 0.052), fables 3% (p 0.0001).
+  - Transcriber B: 50% against 44% (p 0.42), 13% (p 0.001), 1% (p 0.0001).
+  - The tragedies beat the fables clearly, but not the wondertales, for either transcriber.
+- **Prediction 2** (negative marks late): **FAILS.** Within the tragedies the hero's late functions are no more negative than the early ones (A 3.3% against 2.2%, p 0.14; B 2.7% against 3.0%, p 0.63). The second half does hold: the tragic hero's late functions are more often negative than the wondertale hero's (A 3.3% against 0.6%, p 0.011; B 2.7% against 0.6%, p 0.028).
+- **Prediction 3** (the late punishment falls on the hero): **NOT TESTABLE.** A does not hold (tragedies 1 of 10, wondertales 0 of 13, p 0.44). B is below the floor (5 tragedies with a late U).
+- **Reported, not tested:**
+  - the frame left open in 50% to 78% of stories in every corpus;
+  - in the fables the late punishment falls on the hero in 9 of 10 and 8 of 9;
+  - negative marks are mostly F-, with I- commonest in the myths;
+  - the failed hero by Propp's apparatus is 10 tragedies for each transcriber, against the hero study's 6, both naming 3 (A) and 2 (B).
+- **The keeper's reading, not from Propp and not tested:** the exploratory figure of two thirds to three quarters counted any character holding both spheres. Here only the judged hero counts, and he is fused in about half the tragedies, not clearly more than in the wondertales. The fused character of a tragedy is often not its hero.
+  - The tragic hero is not distinguished by Propp's own apparatus as the reading proposed: the hero is no more fused than the tale's, not punished at the close, and not more negative late than early.
+  - What does set him apart is a little more negation than the wondertale's hero throughout.
+NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md` (protocol section 7, step 6).
