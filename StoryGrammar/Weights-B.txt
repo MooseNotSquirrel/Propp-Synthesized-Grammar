@@ -1,0 +1,84 @@
+# Weights-B.txt -- storyGrammar.py, transcriber B: the shared weight and each corpus's offset, per feature, per unit
+# of its spread (StoryGrammarProtocol.md section 10); the spread, and the shared weight on the raw scale, at the right.
+# positive, the stories keep the constraint; negative, they prefer to break it. The length weights are a control.
+feature                                            shared     tale   animal    fable  tragedy     myth    spread       raw
+v46: move not accepted                             +0.383   +0.122   -0.178   +0.149   +0.123   +0.167   0.37327    +1.025
+v46: repairs per unit                              +0.589   +0.344   +0.138   -0.064   +0.060   +0.110   0.25742    +2.287
+preparatory before complication                    -0.332   -0.101   -0.000   -0.116   -0.489   +0.374   0.09396    -3.538
+preparatory before donor                           -0.164   -0.007   -0.313   +0.128   -0.207   +0.235   0.02463    -6.663
+preparatory before transfer                        +0.091   +0.011   +0.005   +0.170   -0.067   -0.027   0.00887   +10.294
+preparatory before struggle                        +0.240   +0.020   -0.032   +0.120   -0.095   +0.227   0.02930    +8.208
+preparatory before liquidation                     -0.070   +0.057   +0.036   -0.050   -0.065   -0.047   0.02059    -3.386
+preparatory before return                          -0.125   +0.127   +0.043   -0.065   -0.023   -0.207   0.02952    -4.227
+preparatory before arrival and claims              -0.184   +0.011   -0.020   +0.044   -0.109   -0.110   0.01710   -10.762
+preparatory before task                            +0.017   -0.073   +0.000   +0.004   +0.022   +0.064   0.00645    +2.634
+preparatory before endgame                         +0.375   +0.019   +0.051   -0.130   -0.046   +0.481   0.04266    +8.789
+complication before donor                          +0.398   +0.102   +0.142   +0.180   +0.174   -0.199   0.08490    +4.690
+complication before transfer                       +0.260   +0.069   +0.013   -0.367   +0.200   +0.345   0.02005   +12.979
+complication before struggle                       +0.442   +0.132   +0.217   -0.196   +0.179   +0.109   0.05291    +8.347
+complication before liquidation                    +0.213   +0.028   +0.095   +0.025   +0.054   +0.010   0.06464    +3.288
+complication before return                         +0.311   +0.093   +0.073   -0.223   +0.168   +0.200   0.03889    +7.995
+complication before arrival and claims             +0.000   +0.032   +0.030   +0.029   +0.106   -0.196   0.02153    +0.011
+complication before task                           +0.137   +0.171   +0.000   +0.005   +0.042   -0.081   0.01878    +7.291
+complication before endgame                        +0.422   +0.093   -0.010   +0.147   +0.129   +0.064   0.05382    +7.846
+donor before transfer                              +0.045   +0.027   +0.028   +0.100   +0.004   -0.115   0.00927    +4.819
+donor before struggle                              +0.119   +0.042   +0.075   +0.118   +0.092   -0.208   0.01644    +7.267
+donor before liquidation                           +0.299   +0.057   -0.018   +0.017   +0.085   +0.158   0.02480   +12.063
+donor before return                                +0.048   +0.144   -0.130   +0.128   -0.083   -0.011   0.01304    +3.652
+donor before arrival and claims                    +0.031   +0.038   +0.001   +0.093   -0.107   +0.006   0.00437    +7.186
+donor before task                                  -0.001   +0.131   +0.000   +0.001   +0.014   -0.147   0.00807    -0.119
+donor before endgame                               +0.107   +0.120   -0.006   +0.122   +0.068   -0.197   0.01854    +5.779
+transfer before struggle                           +0.153   -0.010   +0.001   +0.014   +0.083   +0.065   0.00687   +22.243
+transfer before liquidation                        +0.230   +0.031   +0.010   +0.010   -0.016   +0.194   0.00795   +28.923
+transfer before return                             -0.136   +0.030   +0.000   +0.013   -0.168   -0.011   0.00610   -22.327
+transfer before arrival and claims                 +0.045   +0.005   +0.000   +0.002   +0.004   +0.034   0.00474    +9.430
+transfer before task                               -0.078   +0.036   +0.000   +0.000   -0.005   -0.110   0.00262   -29.997
+transfer before endgame                            +0.022   +0.046   +0.000   +0.002   -0.018   -0.008   0.00924    +2.335
+struggle before liquidation                        +0.157   +0.060   -0.003   -0.100   +0.074   +0.125   0.01435   +10.959
+struggle before return                             +0.014   +0.074   -0.033   -0.014   +0.024   -0.037   0.01842    +0.780
+struggle before arrival and claims                 -0.022   +0.007   +0.000   +0.087   -0.016   -0.100   0.01754    -1.228
+struggle before task                               +0.011   +0.025   +0.000   -0.007   -0.046   +0.038   0.00661    +1.623
+struggle before endgame                            +0.333   +0.047   -0.005   +0.101   -0.012   +0.203   0.02516   +13.242
+liquidation before return                          -0.009   -0.017   +0.058   -0.245   +0.040   +0.155   0.01699    -0.504
+liquidation before arrival and claims              -0.074   -0.012   +0.000   -0.018   +0.001   -0.046   0.00889    -8.327
+liquidation before task                            -0.075   -0.053   +0.000   +0.012   -0.019   -0.015   0.00509   -14.763
+liquidation before endgame                         +0.093   +0.033   -0.029   +0.011   -0.036   +0.115   0.01816    +5.124
+return before arrival and claims                   +0.108   +0.017   +0.002   +0.008   +0.141   -0.060   0.00185   +58.283
+return before task                                 +0.035   -0.082   +0.000   +0.000   +0.184   -0.067   0.00128   +27.540
+return before endgame                              -0.060   +0.027   -0.002   -0.161   +0.001   +0.074   0.01985    -3.022
+arrival and claims before task                     +0.062   +0.031   +0.000   +0.001   +0.000   +0.030   0.00180   +34.450
+arrival and claims before endgame                  +0.204   +0.023   +0.002   +0.033   -0.004   +0.150   0.01296   +15.737
+task before endgame                                +0.077   +0.137   +0.000   +0.000   -0.063   +0.003   0.00595   +12.987
+γ before δ                                         +0.202   +0.010   +0.069   +0.004   +0.126   -0.007   0.00945   +21.345
+ε before ζ                                         -0.063   +0.024   +0.005   +0.090   +0.024   -0.207   0.01684    -3.768
+η before θ                                         -0.080   +0.046   -0.481   +0.283   +0.031   +0.041   0.03386    -2.374
+D before E                                         +0.236   +0.023   +0.000   +0.081   +0.033   +0.100   0.01642   +14.400
+E before F                                         -0.070   +0.014   +0.000   -0.190   +0.020   +0.086   0.02720    -2.588
+H before I                                         +0.371   +0.009   +0.039   +0.072   +0.031   +0.221   0.02691   +13.795
+Pr before Rs                                       +0.049   +0.001   +0.082   +0.022   +0.064   -0.120   0.00374   +13.068
+M before N                                         +0.179   +0.030   +0.000   +0.001   +0.019   +0.130   0.00403   +44.506
+o before L                                         -0.020   -0.020   +0.000   +0.000   +0.000   +0.000   0.00007  -273.079
+γ next to δ                                        +0.172   +0.024   -0.043   +0.008   +0.176   +0.007   0.00448   +38.405
+ε next to ζ                                        +0.135   +0.012   +0.011   -0.047   -0.016   +0.175   0.00921   +14.660
+η next to θ                                        +0.560   +0.016   +0.116   +0.171   +0.076   +0.181   0.02316   +24.186
+D next to E                                        +0.284   +0.046   +0.000   +0.115   -0.013   +0.136   0.01111   +25.538
+E next to F                                        +0.053   +0.012   +0.000   +0.086   -0.013   -0.031   0.01828    +2.924
+H next to I                                        +0.125   +0.014   -0.331   -0.037   +0.003   +0.476   0.02207    +5.643
+Pr next to Rs                                      +0.084   +0.068   +0.012   -0.137   -0.037   +0.178   0.00313   +26.739
+M next to N                                        -0.087   +0.020   +0.000   -0.042   -0.002   -0.063   0.00469   -18.549
+o next to L                                        -0.013   -0.013   +0.000   +0.000   +0.000   +0.000   0.00007  -175.475
+γ then δ within the move                           +0.472   +0.074   +0.081   -0.123   +0.520   -0.081   0.04051   +11.645
+ε then ζ within the move                           +0.286   +0.132   -0.115   +0.079   +0.338   -0.148   0.04930    +5.794
+η then θ within the move                           +1.370   +0.154   +0.453   +0.345   +0.335   +0.082   0.11735   +11.672
+D then E within the move                           +0.589   +0.173   +0.000   +0.033   +0.243   +0.141   0.05947    +9.909
+E then F within the move                           +0.215   +0.113   +0.102   -0.153   +0.164   -0.012   0.06608    +3.249
+H then I within the move                           +0.503   +0.080   -0.041   -0.134   +0.275   +0.324   0.08635    +5.827
+Pr then Rs within the move                         +0.332   +0.045   +0.083   -0.093   +0.227   +0.070   0.03417    +9.711
+M then N within the move                           +0.343   +0.123   +0.000   +0.011   +0.083   +0.126   0.03373   +10.166
+A then K within the move                           +0.490   +0.132   -0.013   +0.075   +0.225   +0.070   0.11613    +4.219
+a then K within the move                           +0.637   +0.144   +0.055   -0.048   +0.439   +0.047   0.10154    +6.269
+Q then Ex within the move                          -0.008   +0.162   +0.026   -0.032   -0.124   -0.039   0.02073    -0.362
+Ex then U within the move                          +0.144   +0.055   +0.003   -0.003   +0.033   +0.055   0.04593    +3.135
+outside blocks                                     +0.558   +0.408   +0.418   -0.348   +0.335   -0.255   0.25459    +2.190
+length: units                                      +0.020   -0.001   -0.108   +0.194   -0.030   -0.034   0.07885    +0.258
+length: moves                                      -0.323   -0.000   -0.088   -0.173   -0.014   -0.048   0.00917   -35.238

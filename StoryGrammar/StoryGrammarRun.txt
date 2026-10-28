@@ -1,0 +1,31 @@
+# StoryGrammarRun.txt -- storyGrammar.py run, StoryGrammarProtocol.md section 7: predictions 1 and 2 on the held-out stories (HeldOut.txt), per transcriber; the weights in Weights-A.txt and Weights-B.txt
+
+TRANSCRIBER A
+Prediction 1: held-out stories against 200 alternatives each, under their own corpus's weights
+  tale      9 versions: concordance 0.986 (p 0.0019) holds
+  animal   12 versions: concordance 0.975 (p 0.0006) holds
+  fable    22 versions: concordance 0.849 (p 0.0001) holds
+  tragedy   6 versions: concordance 0.982 (p 0.0145) holds
+  myth     25 versions: concordance 0.799 (p 0.0001) holds
+  prediction 1 for A: holds in every corpus
+Prediction 2: the genre named by the best-scoring weights, 68 held-out stories, five corpora (chance 0.2)
+  balanced accuracy 0.322 (p 0.0177 against chance); length alone 0.533; the grammar beyond length p 0.9992 -> does not hold
+  named (rows the corpus, columns the genre named): tale 1 1 1 6 0; animal 3 1 0 6 0; fable 1 2 6 2 8; tragedy 1 0 0 5 0; myth 4 4 6 4 6
+  length weights (reported, a control): units +0.005, moves -0.389, shared, per unit of spread
+
+TRANSCRIBER B
+Prediction 1: held-out stories against 200 alternatives each, under their own corpus's weights
+  tale      9 versions: concordance 0.994 (p 0.0019) holds
+  animal   12 versions: concordance 0.936 (p 0.0006) holds
+  fable    25 versions: concordance 0.885 (p 0.0001) holds
+  tragedy   6 versions: concordance 0.784 (p 0.0305) holds
+  myth     25 versions: concordance 0.855 (p 0.0001) holds
+  prediction 1 for B: holds in every corpus
+Prediction 2: the genre named by the best-scoring weights, 69 held-out stories, five corpora (chance 0.2)
+  balanced accuracy 0.363 (p 0.0035 against chance); length alone 0.539; the grammar beyond length p 0.9710 -> does not hold
+  named (rows the corpus, columns the genre named): tale 5 0 0 3 1; animal 2 0 0 6 2; fable 6 2 6 3 3; tragedy 2 0 0 3 1; myth 5 1 3 4 11
+  length weights (reported, a control): units +0.020, moves -0.323, shared, per unit of spread
+
+VERDICTS
+  prediction 1, the held-out stories: HOLDS
+  prediction 2, the genre beyond length: FAILS

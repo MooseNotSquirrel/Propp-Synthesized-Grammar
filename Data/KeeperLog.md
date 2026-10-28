@@ -672,3 +672,10 @@ NEXT, at the owner's word: the G1 amendment.
 - **G2 PASSES** again (the three constraint-grammar weight files, line for line). **G3 PASSES:** 74 (A) and 77 (B) held-out stories changed by noise, weights identical. **G4 PASSES:** two fits byte-identical. No weight was read.
 - **Not done:** `run` has not been run.
 NEXT, at the owner's word: section 9, step 4, the fit, predictions 1 and 2 scored, and the fitted grammar frozen.
+**2026-10-28. The probabilistic story grammar fitted, and predictions 1 and 2 scored** (`StoryGrammar/StoryGrammarRun.txt`, the record; `Weights-A.txt`, `Weights-B.txt`; `storyGrammar.py run`, committed 422dff8 before it ran). At the owner's word, section 9, step 4.
+- **Two runs ended without a result:** the first was stopped when the session closed; the second ran out of memory in `blockStream.py`'s unbounded prefix memo. The program now clears that memo past 200,000 entries, which changes no figure. Nothing was written or read before the third run.
+- **Prediction 1 HOLDS:** in every corpus, for both transcribers, held-out stories outscore their 200 alternatives. Concordance A / B: tale 0.986 / 0.994, animal 0.975 / 0.936, fable 0.849 / 0.885, tragedy 0.982 / 0.784, myth 0.799 / 0.855; every p at most 0.031.
+- **Prediction 2 FAILS:** the genre whose weights best fit a held-out story names its corpus above chance, with balanced accuracy 0.322 (p 0.018) for A and 0.363 (p 0.004) for B. But length alone does far better, at 0.533 and 0.539, so the grammar is not beyond length (p 0.999 and 0.971). The weights do not tell the genres apart; the joint model's lesson stands.
+- **Reported, not tested:** the strongest shared weights for both transcribers are Propp's pairs within the move (η then θ, a then K, D then E, A then K), v46's repairs, and staying inside blocks. The length weights are small.
+- **Not done:** the fitted grammar is not frozen. Predictions 3 and 4 wait for the cross-cultural tales.
+NEXT, at the owner's word: the fitted grammar frozen (section 9, step 4), then the extraction.
