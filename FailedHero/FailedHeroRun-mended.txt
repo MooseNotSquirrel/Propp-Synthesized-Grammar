@@ -1,0 +1,58 @@
+# FailedHeroRun-mended.txt -- the same run after the mend of 2026-10-28 (KeeperLog): a judged-hero entry marked "no single hero" gives no hero; reported beside the record FailedHeroRun.txt, not replacing it
+# FailedHeroRun.txt -- failedHero.py: FailedHero/FailedHeroProtocol.md (frozen 2026-10-28), every figure per transcriber
+# the hero: the judged hero, the myths by the hero-sphere rule (not tested); late: the last third of the functions
+wondertales  A: stories  45, hero  29 (judged); fused  11 (38%); hero's functions negative, late 2/297 (0.7%), early 14/613 (2.3%); late U  11, punished the hero   0 (0%); frame open  13 (45%); failed by Propp's apparatus   3 (10%)
+             A: no hero: judged hero not found 7, no judged hero 5, the readers named no single hero 4
+wondertales  B: stories  45, hero  28 (judged); fused  13 (46%); hero's functions negative, late 2/308 (0.6%), early 29/604 (4.8%); late U   9, punished the hero   0 (0%); frame open  13 (46%); failed by Propp's apparatus   5 (18%)
+             B: no hero: judged hero not found 8, no judged hero 5, the readers named no single hero 4
+animal tales A: stories  50, hero  41 (judged); fused  13 (32%); hero's functions negative, late 2/262 (0.8%), early 14/615 (2.3%); late U   2, punished the hero   1 (50%); frame open  30 (73%); failed by Propp's apparatus  10 (24%)
+             A: no hero: no judged hero 5, the readers named no single hero 4
+animal tales B: stories  50, hero  41 (judged); fused   6 (15%); hero's functions negative, late 1/248 (0.4%), early 12/617 (1.9%); late U   1, punished the hero   1 (100%); frame open  32 (78%); failed by Propp's apparatus   5 (12%)
+             B: no hero: no judged hero 5, the readers named no single hero 4
+fables       A: stories 198, hero 142 (judged); fused   4 (3%); hero's functions negative, late 17/184 (9.2%), early 13/473 (2.7%); late U   9, punished the hero   8 (89%); frame open  92 (65%); failed by Propp's apparatus   2 (1%)
+             A: no hero: judged hero not found 3, no judged hero 40, the readers named no single hero 13
+fables       B: stories 198, hero 144 (judged); fused   1 (1%); hero's functions negative, late 15/181 (8.3%), early 10/473 (2.1%); late U   8, punished the hero   7 (88%); frame open  97 (67%); failed by Propp's apparatus   1 (1%)
+             B: no hero: judged hero not found 1, no judged hero 40, the readers named no single hero 13
+tragedies    A: stories  32, hero  19 (judged); fused  11 (58%); hero's functions negative, late 9/356 (2.5%), early 17/698 (2.4%); late U   7, punished the hero   1 (14%); frame open  11 (58%); failed by Propp's apparatus   8 (42%)
+             A: no hero: judged hero not found 1, no judged hero 5, the readers named no single hero 7
+tragedies    B: stories  32, hero  19 (judged); fused  10 (53%); hero's functions negative, late 9/350 (2.6%), early 22/702 (3.1%); late U   3, punished the hero   1 (33%); frame open  12 (63%); failed by Propp's apparatus   8 (42%)
+             B: no hero: judged hero not found 1, no judged hero 5, the readers named no single hero 7
+myths        A: stories 126, hero  91 (hero-sphere rule); fused  40 (44%); hero's functions negative, late 6/368 (1.6%), early 12/775 (1.5%); late U  15, punished the hero   2 (13%); frame open  62 (68%); failed by Propp's apparatus  31 (34%)
+             A: no hero: no hero-sphere holder 35
+myths        B: stories 126, hero  84 (hero-sphere rule); fused  40 (48%); hero's functions negative, late 8/336 (2.4%), early 9/687 (1.3%); late U  16, punished the hero   4 (25%); frame open  54 (64%); failed by Propp's apparatus  29 (35%)
+             B: no hero: no hero-sphere holder 42
+negative marks, wondertales  A: E- 13, F- 12, B- 2, C- 2, N- 1, U- 1, θ- 1
+negative marks, wondertales  B: E- 27, F- 19, I- 5, N- 5, ζ- 5, K- 3, B- 2, Q- 1, θ- 1
+negative marks, animal tales A: F- 18, B- 4, I- 3, N- 1
+negative marks, animal tales B: F- 16, E- 1
+negative marks, fables       A: F- 18, E- 7, K- 7, θ- 6, I- 3, N- 3, C- 2, T- 1
+negative marks, fables       B: F- 14, E- 10, θ- 5, I- 4, K- 3, N- 2
+negative marks, tragedies    A: F- 35, I- 10, E- 3, C- 1, K- 1, Q- 1, θ- 1
+negative marks, tragedies    B: F- 42, Q- 5, E- 4, I- 4, C- 2, θ- 2
+negative marks, myths        A: I- 33, E- 5, F- 3, K- 2, N- 2, C- 1, Rs- 1, U- 1, W- 1
+negative marks, myths        B: I- 14, E- 7, F- 4, U- 3, N- 2
+divided play P01, A: judged hero (the readers named no single hero); not measured
+divided play P01, B: judged hero (the readers named no single hero); not measured
+divided play P04, A: judged hero (the readers named no single hero); not measured
+divided play P04, B: judged hero (the readers named no single hero); not measured
+divided play P06, A: judged hero (the readers named no single hero); not measured
+divided play P06, B: judged hero (the readers named no single hero); not measured
+divided play P08, A: judged hero (no judged hero); not measured
+divided play P08, B: judged hero (no judged hero); not measured
+the failed hero beside the hero study, tragedies A: by Propp's apparatus 8, by the hero study 6, both 3 (P09 P28 P31), the hero study's only P01 P17 P18
+the failed hero beside the hero study, tragedies B: by Propp's apparatus 8, by the hero study 6, both 2 (P13 P29), the hero study's only P01 P17 P18 P31
+
+== predictions (FailedHeroProtocol.md section 5): permutation test, 10000 permutations, p at most 0.05; floor 10 stories a side
+  1. A: fused, tragedies 58% (19) against wondertales 38% (29): difference +20 points, p 0.1396: does not hold
+  1. A: fused, tragedies 58% (19) against animal tales 32% (41): difference +26 points, p 0.0485: holds
+  1. A: fused, tragedies 58% (19) against fables 3% (142): difference +55 points, p 0.0001: holds
+  2. A: tragic hero negative late 2.5% against early 2.4% (19 plays), p 0.4987: does not hold; late, tragedies 2.5% against wondertales 0.7% (19 and 29), p 0.0742: does not hold
+  3. A: NOT TESTABLE (floor): tragedies with a late U 7, wondertales 11
+  1. B: fused, tragedies 53% (19) against wondertales 46% (28): difference +6 points, p 0.4496: does not hold
+  1. B: fused, tragedies 53% (19) against animal tales 15% (41): difference +38 points, p 0.0030: holds
+  1. B: fused, tragedies 53% (19) against fables 1% (144): difference +52 points, p 0.0001: holds
+  2. B: tragic hero negative late 2.6% against early 3.1% (19 plays), p 0.6761: does not hold; late, tragedies 2.6% against wondertales 0.6% (19 and 27), p 0.0756: does not hold
+  3. B: NOT TESTABLE (floor): tragedies with a late U 3, wondertales 9
+  1. fusion higher in the tragedies than in the wondertales, animal tales and fables (a replication): FAILS
+  2. the tragic hero's late functions negative more than the early, and more than the wondertale hero's: FAILS
+  3. the late punishment falls on the hero in more tragedies than wondertales: NOT TESTABLE

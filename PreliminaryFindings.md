@@ -122,9 +122,17 @@ The wolf is the second commonest hero but rarely does harm: the fable follows th
 - **Negative marks late:** the tragic hero's late functions are no more negative than the early ones (3.3% against 2.2%, 2.7% against 3.0%). They are more negative than the wondertale hero's (against 0.6% for both transcribers, p 0.011 and 0.028), so the prediction fails on its first half.
 - **The closing punishment:** the punishment in the last third falls on the hero in 1 of 10 and 1 of 5 tragedies, too few to test for one transcriber.
 - **Reported:** the frame stays open in half to three quarters of stories in every corpus. In the fables the late punishment falls on the hero in 9 of 10 and 8 of 9.
-- **Counted one hero a fable** (the hero study's judged heroes, on the character table): about 67% to 68% animal and 26% human, near the figures above. The character table's hero sphere is held in only a quarter of the fables, and often by people who are not the fable's hero.
+- **Counted one hero a fable** (the hero study's judged heroes, on the character table): about 67% to 68% animal and 26% human, near the figures above. After the mend below this rests on 142 and 144 fables, with the same shares. The character table's hero sphere is held in only a quarter of the fables, and often by people who are not the fable's hero.
 
-**READING, NOT FROM PROPP AND NOT TESTED:** the tragic hero differs from the tale's hero less by holding the villain's part or by falling at the end than by a little more negation throughout. In the fables, by contrast, the punishment at the close falls on the hero; that fits the note above that the fable follows the villain whose schemes go wrong.
+**MENDED (2026-10-28, `FailedHero/FailedHeroRun-mended.txt`, beside the record):** a fault found after the run gave a hero to the 24 stories whose readers named no single hero: 7 tragedies, 4 wondertales, 13 fables, and 4 animal tales. Left out, as the protocol requires, every verdict stands. The figures change:
+- fused tragic heroes 58% and 53% of 19 plays;
+- the tragic hero's late negation over the wondertale hero's no longer reaches the test (2.5% and 2.6% against 0.7% and 0.6%, p 0.074 and 0.076);
+- the closing punishment is untestable for both transcribers (7 and 3 plays with a late U);
+- the fables' one-hero figure is unchanged in its shares, on 142 and 144 fables.
+
+The measure has a limit the owner found: a villainy committed before the play and uncovered in it is told as recognition or exposure, not as A. So a hero like Oedipus may not count as fused; for one transcriber he does not.
+
+**READING, NOT FROM PROPP AND NOT TESTED:** the tragic hero differs from the tale's hero less by holding the villain's part or by falling at the end than by a little more negation throughout, and after the mend even that is not shown. In the fables, by contrast, the punishment at the close falls on the hero; that fits the note above that the fable follows the villain whose schemes go wrong.
 
 ## 6. What the X entries may hold (a cursory look, held-out fables only)
 

@@ -474,3 +474,15 @@ NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md` (prot
 NEXT, at the owner's word:
   1. mend `find_hero` so a "no single hero" entry gives no hero, with H3 extended to test it, and rerun into a second file beside the record;
   2. the owner's revealed-villain pattern as its own frozen measure: does the hero undergo or perform the recognition or exposure of a villainy he committed, before or during the play? It may need the events or a short reader stage.
+**2026-10-28. The failed-hero fault mended and the run repeated beside the record** (`FailedHero/FailedHeroRun-mended.txt`; programs eea2c95, committed before they ran). At the owner's word.
+- **The mend:** a judged-hero entry marked "no single hero" gives no hero, in `failedHero.py` and in `measures.py`'s judged-hero figure. It covers 24 stories: 7 tragedies, 4 wondertales, 13 fables, and 4 animal tales. The animal tales are A012, A021, A028 and A033, where both readers of session 7 wrote the same "no single hero".
+  - H3 now tests that no such entry is given a hero.
+  - Both programs now refuse to overwrite their record files, `FailedHeroRun.txt` and `CharacterRun.txt`.
+  - H1 to H4 pass.
+- **Repeated:** every verdict stands. Prediction 1 FAILS; prediction 2 FAILS; prediction 3 is NOT TESTABLE, now for both transcribers.
+  - Fused tragic heroes: 58% and 53% of 19 plays. The tragedies beat the animal tales (p 0.049, 0.003) and the fables, but not the wondertales (p 0.14, 0.45).
+  - The tragic hero's late negation over the wondertale hero's no longer reaches the test (p 0.074 and 0.076).
+  - The failed hero by Propp's apparatus: 8 tragedies for each transcriber.
+- **`CharacterRun-amended.txt`, rerun:** only its two judged-hero lines change. Its shares are unchanged, on 142 and 144 fables; the lines had counted 153 and 155.
+- **`PreliminaryFindings.md` section 5:** a MENDED note is set beside the paragraph, giving the new figures and the Oedipus limit. The reading's last clause now says the negation is not shown after the mend.
+NEXT: the owner's revealed-villain pattern drafted as its own protocol, for review.
