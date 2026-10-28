@@ -76,6 +76,7 @@ HELD = os.path.join(HERE, 'HeldOut.txt')
 WEIGHTS = os.path.join(HERE, 'Weights-%s.txt')
 RECORD = os.path.join(HERE, 'StoryGrammarRun.txt')
 ALTS, TEST_ALTS, SEED, L2, FLIPS = 100, 200, 46, 1.0, 10000
+CACHE = 200000
 FEATURES = (['v46: move not accepted', 'v46: repairs per unit'] + list(CG.FEATURES) +
             ['%s then %s within the move' % p for p in PAIRS] + ['outside blocks'] + ['length: units', 'length: moves'])
 NF = len(FEATURES)
@@ -205,6 +206,8 @@ def features(us, ms):
     rep = [repairs(m) for m in mvs]
     v46 = [sum(1 for r in rep if r) / max(1, len(mvs)), sum(rep) / len(us)]
     cg = list(CG.features(np.array([[CG.UI[u] for u in us]]))[0])
+    if len(GB.cache) > CACHE:
+        GB.cache.clear()  # blockStream's memo of prefixes; it holds no state, and unbounded it exhausts memory
     i, t = BS.coverage(BS.transform(list(us), GB, 'blocks'))
     return np.array(v46 + cg + unpaired(us, ms) + [1.0 - i / max(1, t)] + [len(us) / 10.0, len(set(ms)) / 10.0])
 
