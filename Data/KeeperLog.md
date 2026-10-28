@@ -683,3 +683,14 @@ NEXT, at the owner's word: the fitted grammar frozen (section 9, step 4), then t
 - **What is frozen:** the program at 422dff8, and `Weights-A.txt` and `Weights-B.txt`, by their SHA-256 hashes. No refit, and no tuning on the held-out stories.
 - **What follows:** predictions 3 and 4, scored on the cross-cultural tales by a command committed before their tables are read.
 NEXT, at the owner's word: the extraction of the 100 cross-cultural tales (section 9, step 5), or item (o).
+**2026-10-28. The 100 cross-cultural tales extracted** (`Story Language/NativeAmerican` and `EastAsian`, each with `source/`, `extract.py` and `tales/`). At the owner's word, after the story grammar's freeze, with the owner's approval of the four downloads.
+- **The sources:** Swanton (Gutenberg #78871), Dorsey and Fielde (Internet Archive OCR text), and Griffis (Gutenberg #29337). They are kept byte-exact, with their SHA-256 hashes in `extract.py`.
+- **The cut:** each tale runs from its heading to the next tale's heading. The bounds were found from headings alone, committed in `extract.py` before it ran. Lowercase-masked views were used where Dorsey's OCR spoilt three titles.
+- **Dorsey:** the free English only, from each myth's TRANSLATION. line to the next myth's title. A function-word count (no text shown) puts every file at 41% or more, so English, not interlinear.
+- **Noted in the extractors:**
+  - Fielde's frame story, "The Strayed Arrow", falls between tales, and its passages close the earlier tale.
+  - OCR running heads and captions are kept.
+  - Swanton's footnotes are not included, only their markers.
+  - Tale ids are T, O, C and J, to stay apart from the existing P, F, A and L ids.
+- **No tale has been read.** A first look while finding the Fielde headings showed some lines of tale text, so the search was narrowed to headings. Those lines were not used.
+NEXT, at the owner's word: the event-list stage for the new corpora, run in Propp-ActsRoles, and the scoring command for predictions 3 and 4, committed before their tables are read.
