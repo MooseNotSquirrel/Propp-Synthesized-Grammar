@@ -60,7 +60,7 @@ Each new corpus gets every layer from the start: event lists, Propp's functions 
 
 ## 4. Tests and self-tests, before any new tale is read
 
-- **X1. The first look reproduced.** On the five existing corpora, the program must give the first look's single-function and pair shares of section 1. This is the self-test against figures already published.
+- **X1. The reference written first** (amended 2026-10-28, section 8). The program's own definitions, written out in section 8, are computed on the five existing corpora and written to `CrossCulture/Reference.txt`, committed before any new tale is read. X1 then requires every later run to reproduce that file exactly. As a check of sense, its single-function shares must lie within a point of the first look's.
 - **X2. Blocks as the parity runs counted them.** The program must reproduce the published share of functions inside blocks (`Data/Parity.md`) for the animal tales and the myths.
 - **X3. The same answer twice.**
 - **X4. Each source's public-domain status** recorded before its tales are set up.
@@ -104,3 +104,22 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 4. Run the layers stage by stage, at the owner's word, as the animal tales were run.
 
 **The cost** is large. The animal tales took about ten reader stages for 50 tales. Two corpora of 50 tales each would be about twenty stages, several million tokens, run over several sessions. Only steps 1 and 2 fit in one session.
+
+## 8. Amendment at the owner's word, after the freeze and before any new tale is read
+
+**2026-10-28, X1 and the rule of prediction 6.**
+
+**The reason:** X1 as frozen required the first look of 2026-10-21 to be reproduced, and that first look kept no code.
+- Its single-function shares are reproduced to within a point.
+- Its pair shares are not: off by up to 7 points, and by up to 4 when counted in order within the move.
+- Its definition cannot be recovered from its figures, and fitting one to them would make X1 no test.
+
+**The definitions, written out:**
+- **A function row** is a row of `tables/functions.tsv` for the story and transcriber, every reading kept, as the first look counted. Its function is the base symbol of the raw entry (`tragedyScore.base`).
+- **Single-function coverage:** the share of function rows whose function is not X.
+- **Pairs:** a row is paired when its function is the first of one of Propp's pairs and the second follows it later in the same move, or is the second and the first precedes it in the same move. The share is counted among the rows that are not X. Propp's pairs are the list in `Ngrams/ngrams.py`: γ–δ, ε–ζ, η–θ, D–E, E–F, H–I, Pr–Rs, M–N, A–K, a–K, Q–Ex, Ex–U.
+- **Groups:** the share of functions inside one of Propp's blocks, in the blocks reading, by `blockStream.py`'s transform and coverage as `Blocks/parity.py` applies them. Test X2 holds this to the published counts.
+- **Punishment (prediction 5):** a story counts when any of its function rows is U.
+- **The hero helping another (prediction 6):** the significance layer gives an act's value for the hero only, so it cannot say whether the hero helps another. The rule is from the acts layer instead. Among the acts whose performer is the judged hero, it is the share that are of the kind give, guide or repair and whose undergoer is a character other than the hero.
+
+X1 now requires the program to reproduce `CrossCulture/Reference.txt`, written by these definitions on the existing corpora and committed before any new tale is read, with its single-function shares within a point of the first look's. X2 and X3 are unchanged.
