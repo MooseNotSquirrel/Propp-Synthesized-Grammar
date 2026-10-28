@@ -551,3 +551,12 @@ NEXT: `revealed-2`, at the owner's word; then the form check, the controls, and 
 - **The keeper's reading, not tested:** the hidden crime of the owner's Oedipus is real but rare. It is found in three of 19 tragedies (*Oedipus the King*, *Heracles*, *Ajax*) and in none of the 29 wondertales, by readers who agree almost perfectly. The wondertale hero causes harm openly or not at all. Three cases cannot carry a frozen test; they are a finding to describe, not a rate to compare.
 NEXT: at the owner's word, the failed-hero and revealed-villain findings entered in `PreliminaryFindings.md`.
 **2026-10-28. The revealed-villain and hidden-crime findings entered in `PreliminaryFindings.md` section 5,** at the owner's word. It is a TESTED paragraph after the failed-hero one, covering the three routes and their verdicts. The design fault is stated plainly: the yes-controls were the plainest cases and were left out of the score. A READING, NOT FROM PROPP, follows: the hidden crime is real but rare, three tragedies and no wondertale, a pattern to describe and to retest on a larger corpus.
+**2026-10-28. The hierarchy protocol drafted, not frozen** (`Hierarchy/HierarchyProtocol.md`, `ProppQueue.md` item (k)). At the owner's word, for review. Only the tables' fields and the relation definitions in `ActsRules.md` were read. The relation is coded per act, the performer to the undergoer: kin, spouse, above, below, ally, enemy, stranger, divine, self, none.
+- **Five predictions:**
+  1. the owner's: the hero above the helper, in the wondertales, both directions;
+  2. the owner's: the false hero below, likely not testable;
+  3. the keeper's: the villain's enmity, a replication of the first look;
+  4. the keeper's: the relation predicts the sphere;
+  5. the keeper's: stated hierarchy higher in the tragedies.
+- **Four decisions for the owner.** The myths take no part, having no acts.
+NEXT: the owner's review.
