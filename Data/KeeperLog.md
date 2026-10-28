@@ -644,3 +644,7 @@ NEXT: at the owner's word, the 25 tales of each source chosen from its table of 
 NEXT: at the owner's word, in a fresh session given its cost, the event-list stage for the 100 tales.
 **2026-10-28. The two corpus repositories set up.** The owner created Propp-NativeAmerican and Propp-EastAsian on GitHub. They are cloned to `Story Language/NativeAmerican` and `Story Language/EastAsian`, and each has a first `Readme.md` giving its two sources, their public-domain status and links, and what is to come. No tale has been extracted or read. The protocol's section 2 now names them.
 NEXT, at the owner's word: the tales extracted mechanically by the tables of contents into each repository's `tales/`. That is the first time the tales are opened, after the freeze. Then the event-list stage.
+**2026-10-28. The road reordered at the owner's word:** the probabilistic story grammar (`ProppQueue.md` item (n), step 5) is to be built, fitted on the five existing corpora and frozen before the Native American and East Asian transcriptions are read, so that those corpora stay an unseen test of it.
+- **Meanwhile:** their collection may go on, provided no one analyses its results against the grammar while it is being built.
+- **The cross-cultural predictions** are scored after the grammar's freeze as well.
+NEXT, at the owner's word: the grammar's protocol drafted, before item (o) or the extraction.
