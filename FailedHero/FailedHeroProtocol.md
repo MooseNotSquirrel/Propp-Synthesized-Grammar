@@ -1,6 +1,6 @@
-# The failed hero as Propp's own apparatus: protocol (DRAFT 2026-10-28, FOR THE OWNER'S REVIEW, NOT FROZEN)
+# The failed hero as Propp's own apparatus: protocol (FROZEN 2026-10-28 AT THE OWNER'S WORD, THE FOUR RECOMMENDED DECISIONS TAKEN)
 
-**Drafted 2026-10-28 at the owner's word, for `ProppQueue.md` item (j).** Nothing here is built and no figure it tests has been read for this purpose. The tests come first (section 3), and every program they check is committed before it runs.
+**Drafted 2026-10-28 at the owner's word, for `ProppQueue.md` item (j); frozen the same day at the owner's word**, with every decision in section 6 taken as recommended. Nothing here is built and no figure it tests has been read for this purpose. The tests come first (section 3), and every program they check is committed before it runs.
 
 ## 1. The question
 
@@ -63,14 +63,16 @@ Each is tested per reader. It **HOLDS** only if it holds for both, **SPLIT** if 
 
 ## 6. Decisions for the owner before the freeze
 
-1. **The myths' hero:** (a) left out of predictions 2 and 3, reported by the hero-sphere rule (recommended), or (b) a reader stage to judge them.
-2. **"Late":** the last third of the story's functions by position (recommended), or the last move only. The last third gives every story a late part; the last move is truer to Propp's moves, but many fables have one move only.
-3. **The test:** the permutation test and the floor of 10 stories, as above (recommended), or plain shares with no test.
-4. **Prediction 1:** keep it as a labelled replication (recommended), or drop it and report fusion only.
+**Taken 2026-10-28: the owner accepted all four recommendations.**
+
+1. **The myths' hero: DECIDED, (a).** The myths are left out of predictions 2 and 3, and their figures are reported by the hero-sphere rule, marked as a different rule. Not taken: (b), a reader stage to judge them.
+2. **"Late": DECIDED, the last third of the story's functions by position.** Not taken: the last move only. The last third gives every story a late part; the last move is truer to Propp's moves, but many fables have one move only.
+3. **The test: DECIDED, the permutation test and the floor of 10 stories,** as in section 5. Not taken: plain shares with no test.
+4. **Prediction 1: DECIDED, kept as a labelled replication.** Not taken: dropping it and reporting fusion only.
 
 ## 7. After the freeze
 
-1. Commit this file frozen.
+1. Commit this file frozen (done 2026-10-28).
 2. Write and commit the made-up stories of H1, then the program `FailedHero/failedHero.py` and tests H1 to H4.
 3. Pass the tests.
 4. Dry-run, and show the counts.

@@ -440,3 +440,9 @@ With this, the steps of `CharacterProtocol.md` section 7 are done.
   3. the closing punishment falls on the hero in more tragedies than wondertales.
 - **Four decisions for the owner:** the myths' hero, what counts as late, the test, and whether prediction 1 is kept.
 NEXT: the owner reviews the draft and decides section 6; then it is frozen and built.
+**2026-10-28. The failed-hero protocol frozen** (`FailedHero/FailedHeroProtocol.md`), at the owner's word, with all four recommendations of section 6 taken:
+- the myths are left out of predictions 2 and 3 and reported by the hero-sphere rule;
+- "late" is the last third of the story's functions;
+- the test is a permutation test at p at most 0.05, with a floor of 10 stories a side;
+- prediction 1 is kept, labelled a replication.
+Nothing is built. NEXT: at the owner's word, section 7 steps 2 to 4 (the made-up stories of H1, `failedHero.py`, tests H1 to H4, the dry run), when the budget allows.
