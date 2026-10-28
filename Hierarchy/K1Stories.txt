@@ -1,0 +1,24 @@
+# K1Stories.txt -- HierarchyProtocol.md test K1: invented stories, written before hierarchy.py runs.
+# A story: a line "story NAME hero HERO", lines "sphere CHARACTER: SPHERE SPHERE ...", its acts one a line
+# "ACT | PERFORMER | UNDERGOER | RELATION" (UNDERGOER - for none), and a line "expect ..." giving
+# counted (acts with both ends a character), hero>helper and helper>hero as above/below, and the villain's acts enemy/all.
+
+story the-tsar's-son hero ivan
+sphere ivan: hero
+sphere grey-wolf: helper donor
+sphere koshchei: villain
+give | ivan | grey-wolf | above
+obey | grey-wolf | ivan | below
+seize | koshchei | princess | enemy
+threaten | koshchei | ivan | enemy
+leave | ivan | - | none
+expect counted=4 hero>helper=1/0 helper>hero=0/1 villain_enemy=2/2
+
+story the-proud-servant hero ivan
+sphere ivan: hero
+sphere servant: helper
+sphere dragon: villain
+order | servant | ivan | above
+serve | ivan | servant | below
+plead | dragon | ivan | stranger
+expect counted=3 hero>helper=0/1 helper>hero=1/0 villain_enemy=0/1

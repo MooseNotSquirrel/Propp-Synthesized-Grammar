@@ -560,3 +560,14 @@ NEXT: at the owner's word, the failed-hero and revealed-villain findings entered
   5. the keeper's: stated hierarchy higher in the tragedies.
 - **Four decisions for the owner.** The myths take no part, having no acts.
 NEXT: the owner's review.
+**2026-10-28. The hierarchy protocol frozen; built, tested and dry-run, not run** (`Hierarchy/`). At the owner's word, all four recommendations of section 6 taken.
+- **Built:** `K1Stories.txt`, two invented stories written before the program, and `hierarchy.py`. It joins the acts to the characters with `characters.py`'s own functions.
+- **The keeper's operational rules,** fixed in the program before the run:
+  - measure 4 uses single-sphere holders only;
+  - prediction 3 leaves out a character holding both the villain's sphere and the one compared.
+- **Tests:** K1 passes. K2 passes: every character's relation counts as performer equal the table's, in all eight corpus-transcriber cells. K3 passes (about 80 seconds a run, from measure 4's shuffles).
+- **The dry run, counts only,** A / B:
+  - acts between characters: wondertales 1,313 / 1,415; animal tales 1,311 / 1,230; fables 350 / 341; tragedies 3,518 / 3,418;
+  - acts from the hero to a helper in the wondertales: 77 / 104; from a helper to the hero: 120 / 135;
+  - acts between the false hero and the hero, all corpora: 23 / 17, before the rank relations are counted.
+NEXT: at the owner's word, the run (`python hierarchy.py run`).

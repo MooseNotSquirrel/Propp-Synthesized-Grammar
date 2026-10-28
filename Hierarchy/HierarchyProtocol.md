@@ -1,6 +1,6 @@
-# Social hierarchy in Propp's character set: protocol (DRAFT 2026-10-28, FOR THE OWNER'S REVIEW, NOT FROZEN)
+# Social hierarchy in Propp's character set: protocol (FROZEN 2026-10-28 AT THE OWNER'S WORD, THE FOUR RECOMMENDED DECISIONS TAKEN)
 
-**Drafted 2026-10-28 at the owner's word, for `ProppQueue.md` item (k).** Nothing here is built. No figure it tests has been read, apart from the exploratory first look named in section 1.
+**Drafted 2026-10-28 at the owner's word, for `ProppQueue.md` item (k); frozen the same day at the owner's word**, every decision of section 6 taken as recommended. Nothing here is built. No figure it tests has been read, apart from the exploratory first look named in section 1.
 
 ## 1. The question
 
@@ -65,6 +65,8 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 
 ## 6. Decisions for the owner before the freeze
 
+**Taken 2026-10-28: the owner accepted all four recommendations.** Prediction 1 is tested in the wondertales only, the other corpora reported. Prediction 3 is kept as a labelled replication. Rank is above and below only. Narrative rank is reported only.
+
 1. **Where prediction 1 is tested:** in the wondertales only, Propp's own corpus (recommended, the other corpora reported); or in all four.
 2. **Prediction 3:** keep it as a labelled replication (recommended), or drop it, since the first look has already shown it.
 3. **Which relations are rank:** above and below only (recommended). Kin and spouse carry rank in many cultures (a father, a husband), but the field does not say who is above. Counting them would be the keeper's assumption.
@@ -72,7 +74,7 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 
 ## 7. After the freeze
 
-1. Commit this file frozen.
+1. Commit this file frozen (done 2026-10-28).
 2. Write and commit the invented stories of K1 and the program `Hierarchy/hierarchy.py`; pass K1 to K3.
 3. Dry-run, and show the counts.
 4. Run into `Hierarchy/HierarchyRun.txt`, score, log, and enter the finding in `PreliminaryFindings.md` at the owner's word.
