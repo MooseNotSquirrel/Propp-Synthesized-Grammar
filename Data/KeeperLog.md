@@ -464,3 +464,4 @@ Nothing is built. NEXT: at the owner's word, section 7 steps 2 to 4 (the made-up
   - The tragic hero is not distinguished by Propp's own apparatus as the reading proposed: the hero is no more fused than the tale's, not punished at the close, and not more negative late than early.
   - What does set him apart is a little more negation than the wondertale's hero throughout.
 NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md` (protocol section 7, step 6).
+**2026-10-28. The failed-hero finding entered in `PreliminaryFindings.md` section 5** (protocol section 7, step 6), at the owner's word. It is a TESTED paragraph after the exploratory spheres note, with its own READING, NOT FROM PROPP. The exploratory note is left as it was; the new paragraph says why its two-thirds figure differs. With this, every step of `FailedHeroProtocol.md` section 7 is done.
