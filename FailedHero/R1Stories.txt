@@ -1,0 +1,36 @@
+# R1Stories.txt -- RevealedVillainProtocol.md test R1: invented stories for route (a), written before revealedVillain.py runs.
+# A story is a line "story NAME hero HERO", its functions in order, one a line: FUNCTION | PERFORMER | UNDERGOER,
+# and a line "expect revealed=Y|N". Route (a): the hero is the undergoer of an exposure (Ex), or of a recognition (Q)
+# that follows a villainy (A) in the same story.
+
+story hero-exposed-after-his-own-A hero oedipus
+A | oedipus | laius
+B | thebes | oedipus
+C | oedipus | oedipus
+Ex | teiresias | oedipus
+expect revealed=Y
+
+story false-hero-exposed hero ivan
+A | dragon | princess
+C | ivan | ivan
+L | general | princess
+Ex | princess | general
+W | ivan | princess
+expect revealed=N
+
+story villain-exposed hero electra
+A | clytaemestra | agamemnon
+C | electra | electra
+Ex | orestes | clytaemestra
+expect revealed=N
+
+story hero-recognized-after-the-villain's-A hero ivan
+A | witch | ivan
+↑ | ivan | ivan
+Q | tsar | ivan
+expect revealed=Y
+
+story recognition-with-no-A-before hero fox
+Q | wolf | fox
+A | fox | hen
+expect revealed=N

@@ -491,3 +491,8 @@ NEXT: the owner's revealed-villain pattern drafted as its own protocol, for revi
 - **Four decisions for the owner:** the route, the corpora for the readers, the question's exact wording, and who names the six controls.
 - No figure was read.
 NEXT: the owner's review.
+**2026-10-28. The revealed-villain protocol frozen; route (a) built, tested and dry-run, not run.** At the owner's word, all four recommendations taken and the question as drafted.
+- **Built:** `FailedHero/R1Stories.txt`, five invented stories written before the program; and `FailedHero/revealedVillain.py`, which uses `failedHero.py`'s mended hero lookup. R1 and R4 pass.
+- **R1 records route (a)'s known false positive:** a hero recognized (Q) after another's villainy counts as revealed.
+- **The dry run, counts only,** per transcriber: judged heroes found in 29 and 28 wondertales, 41 animal tales, 142 and 144 fables, and 19 tragedies. Stories with an Ex: 7, 7; 3, 1; 27, 14; 14, 14. Stories with a Q: 10, 11; 0, 0; 2, 3; 11, 12.
+NEXT: at the owner's word, route (a) run (`python revealedVillain.py run`); then the reader stage of route (b) set up, its six controls named by the keeper first.

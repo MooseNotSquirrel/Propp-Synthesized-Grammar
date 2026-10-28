@@ -1,6 +1,6 @@
-# The revealed villain: protocol (DRAFT 2026-10-28, FOR THE OWNER'S REVIEW, NOT FROZEN)
+# The revealed villain: protocol (FROZEN 2026-10-28 AT THE OWNER'S WORD, THE FOUR RECOMMENDED DECISIONS TAKEN, THE QUESTION AS DRAFTED)
 
-**Drafted 2026-10-28 at the owner's word**, after the failed-hero test (`FailedHeroProtocol.md`). Nothing here is built, and no figure it tests has been read.
+**Drafted 2026-10-28 at the owner's word**, after the failed-hero test (`FailedHeroProtocol.md`); **frozen the same day at the owner's word**, every decision of section 6 taken as recommended and the question of section 2 worded exactly as drafted. Nothing here is built, and no figure it tests has been read.
 
 ## 1. The question
 
@@ -50,6 +50,8 @@ Tested per transcriber, with the readers' answers attached to each transcriber's
 
 ## 6. Decisions for the owner before the freeze
 
+**Taken 2026-10-28: the owner accepted all four recommendations, with the question worded as drafted.** Route: both, (b) primary. Corpora for the readers: (i), the tragedies and the wondertales. The question: exactly as in section 2, "knowingly or not" and "the harm the story turns on" kept. The controls: the six of R3 named by the keeper before the stage.
+
 1. **The route:** both, route (b) primary (recommended); (a) alone; or (b) alone.
 2. **The corpora for the readers:** (i) the tragedies and wondertales (recommended), or (ii) every corpus with judged heroes.
 3. **The question's wording** in section 2, to be fixed exactly as frozen. In particular: whether "knowingly or not" stays in, and whether "the harm the story turns on" should read "a harm in the story".
@@ -57,7 +59,7 @@ Tested per transcriber, with the readers' answers attached to each transcriber's
 
 ## 7. After the freeze
 
-1. Commit this file frozen.
+1. Commit this file frozen (done 2026-10-28).
 2. Write and commit the invented stories of R1, the program for route (a), and the stage's inputs, prompts and controls; dry-run.
 3. Run route (a). Then run the reader stage in portions, at the owner's word.
 4. Score, log, and enter the finding in `PreliminaryFindings.md` at the owner's word.
