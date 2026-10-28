@@ -88,3 +88,18 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 5. Only then are the cross-cultural transcriptions read, and predictions 3 and 4 scored.
 
 **The cost** is the keeper's work alone, with no readers: perhaps one session for steps 1 to 4. The G2 reproduction and the alternatives' number are the slow parts.
+
+## 10. Amendment: the features standardised, and G1 planted on that scale (2026-10-28, at the owner's word)
+
+**Why:** G1 failed as first run: a rank correlation of 0.774 against 0.9, and 52 of 56 signs. The planted weights it missed were on constraints that hardly differ between a story and its alternatives. A weight planted there leaves no trace in the data, and on the raw scale the L2 penalty pulls hardest on exactly those weights. The fault lies in G1's design and the features' scales, not the engine: G2 reproduced the frozen constraint grammar exactly. The diagnosis is in `G1Draft.md`. The first run stands in the record (commit ff79fce).
+
+**Adopted as recommended in `G1Draft.md`:**
+1. **The features standardised.** Each feature is divided by its spread over the fitting contrasts: the root mean square of alternative-minus-story, per transcriber, on the fitting stories only. A feature with no spread is left unscaled.
+   - The L2 penalty of 1.0 then applies to every constraint alike.
+   - Weights are reported per unit of spread, and converted back to the raw scale for scoring.
+   - G2 is unchanged: it reproduces the constraint grammar with that grammar's own unscaled design.
+2. **G1 planted on that scale.** Each planted shared weight is drawn from a standard normal in standardised units.
+   - The rank correlation must be at least 0.9, as frozen.
+   - **Signs, rule (b):** at least 95% of the planted weights of 0.5 or more in size must have their sign recovered.
+
+G1 to G4 are rerun on the amended program before any fit is read.

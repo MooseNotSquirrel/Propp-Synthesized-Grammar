@@ -37,6 +37,10 @@ THE FEATURES (section 3), each a violation:
      answers have no letter among Propp's functions, so by section 3 they wait.
   7. Length, a control: the number of units and of moves, each over 10.
 
+THE SCALE (section 10, the amendment of 2026-10-28): each feature is divided by its spread over the fitting contrasts, the
+root mean square of alternative-minus-story on the fitting stories, per transcriber (a feature with none left unscaled), so
+that the L2 penalty treats every constraint alike. Weights are reported per unit of spread and on the raw scale.
+
 THE WEIGHTS (section 4): shared weights plus an offset per corpus for each feature, the five corpora as the genres; a story's
 weights are the shared plus its corpus's offset. Per transcriber.
 """
@@ -225,68 +229,88 @@ def design(diffs, genre):
     return X
 
 
+def spread(diffs):
+    """section 10: the root mean square of each feature's alternative-minus-story differences; 1 where there is none"""
+    sd = np.sqrt(np.mean(np.vstack(diffs) ** 2, axis=0))
+    return np.where(sd > 0, sd, 1.0)
+
+
 def contrasts(data, K=ALTS, seed=SEED):
-    """the fitting design for one transcriber: rows of alternative-minus-story features, with weights"""
+    """the fitting design for one transcriber: rows of alternative-minus-story features, standardised, with weights; and the
+    spread they were divided by"""
     rng = np.random.default_rng(seed)
-    Ds, Ws = [], []
+    diffs, gs, Ws = [], [], []
     for g in CORPORA:
         pl = pool(data[g]['fit'])
         for s, w, us, ms in data[g]['fit']:
             fr = features(us, ms)
             fa = np.array([features(a, b) for a, b in alternatives(us, ms, pl, K, rng)])
-            Ds.append(design(fa - fr, g))
+            diffs.append(fa - fr)
+            gs.append(g)
             Ws.append(np.full(K, w / K))
-    return np.vstack(Ds), np.concatenate(Ws)
+    sd = spread(diffs)
+    return np.vstack([design(d / sd, g) for d, g in zip(diffs, gs)]), np.concatenate(Ws), sd
 
 
 def fit(L, noise=False):
-    D, W = contrasts(load(L, noise))
-    return engine(D, W)
+    """the weights per unit of spread, and the spread"""
+    D, W, sd = contrasts(load(L, noise))
+    return engine(D, W), sd
 
 
-def weights_of(w, g):
+def weights_of(fitted, g):
+    """a corpus's weights on the raw scale: the shared plus its offset, over the spread"""
+    w, sd = fitted
     j = 1 + CORPORA.index(g)
-    return w[:NF] + w[NF * j:NF * (j + 1)]
+    return (w[:NF] + w[NF * j:NF * (j + 1)]) / sd
 
 
-def weights_text(L, w):
-    out = ['# Weights-%s.txt -- storyGrammar.py, transcriber %s: the shared weight and each corpus\'s offset, per feature.' % (L, L),
+def weights_text(L, fitted):
+    w, sd = fitted
+    out = ['# Weights-%s.txt -- storyGrammar.py, transcriber %s: the shared weight and each corpus\'s offset, per feature, per unit' % (L, L),
+           '# of its spread (StoryGrammarProtocol.md section 10); the spread, and the shared weight on the raw scale, at the right.',
            '# positive, the stories keep the constraint; negative, they prefer to break it. The length weights are a control.',
-           '%-48s %8s ' % ('feature', 'shared') + ' '.join('%8s' % g for g in CORPORA)]
+           '%-48s %8s ' % ('feature', 'shared') + ' '.join('%8s' % g for g in CORPORA) + ' %9s %9s' % ('spread', 'raw')]
     for i, f in enumerate(FEATURES):
-        out.append('%-48s %+8.3f ' % (f, w[i]) + ' '.join('%+8.3f' % w[NF * (1 + j) + i] for j in range(len(CORPORA))))
+        out.append('%-48s %+8.3f ' % (f, w[i]) + ' '.join('%+8.3f' % w[NF * (1 + j) + i] for j in range(len(CORPORA)))
+                   + ' %9.5f %+9.3f' % (sd[i], w[i] / sd[i]))
     return '\n'.join(out) + '\n'
 
 
 # ---------------------------------------------------------------- the tests
 def g1():
-    """planted shared weights, drawn by a fixed seed; for each of transcriber A's fitting stories, its story and ALTS
-    alternatives are the candidates, and REPLICATES sequences are drawn from them in proportion to exp(-w . f); the fit, on
-    each drawn sequence against the other candidates, must recover the planted weights' signs (those of at least 1 in size)
-    and their order, a rank correlation of at least 0.9 over all the shared weights"""
-    REPLICATES, SCALE = 5, 3.0
+    """section 10: planted shared weights, drawn from a standard normal by a fixed seed, in standardised units; for each of
+    transcriber A's fitting stories, its story and ALTS alternatives are the candidates, the spread is taken from them as the
+    fit takes it, and REPLICATES sequences are drawn from them in proportion to exp(-z . f / spread); the fit, on each drawn
+    sequence against the other candidates, standardised, must recover the order, a rank correlation of at least 0.9 over all
+    the shared weights, and the signs of at least 95% of those planted at 0.5 or more in size (rule (b))"""
+    REPLICATES = 5
     rng = np.random.default_rng(SEED + 2)
-    planted = rng.normal(0, SCALE, NF)
+    planted = rng.normal(0, 1.0, NF)
     data = load('A')
-    Ds, Ws = [], []
+    cands = []
     for g in CORPORA:
         pl = pool(data[g]['fit'])
         for s, w, us, ms in data[g]['fit']:
-            cand = np.array([features(us, ms)] + [features(a, b) for a, b in alternatives(us, ms, pl, ALTS, rng)])
-            e = -(cand @ planted)
-            p = np.exp(e - e.max())
-            p /= p.sum()
-            for _ in range(REPLICATES):
-                c = int(rng.choice(len(cand), p=p))
-                rest = np.delete(cand, c, axis=0)
-                Ds.append(design(rest - cand[c], g))
-                Ws.append(np.full(len(rest), w / len(rest)))
+            cands.append((g, w, np.array([features(us, ms)] + [features(a, b) for a, b in alternatives(us, ms, pl, ALTS, rng)])))
+    sd = spread([c[1:] - c[0] for _, _, c in cands])
+    Ds, Ws = [], []
+    for g, w, cand in cands:
+        e = -(cand @ (planted / sd))
+        p = np.exp(e - e.max())
+        p /= p.sum()
+        for _ in range(REPLICATES):
+            c = int(rng.choice(len(cand), p=p))
+            rest = np.delete(cand, c, axis=0)
+            Ds.append(design((rest - cand[c]) / sd, g))
+            Ws.append(np.full(len(rest), w / len(rest)))
     w = engine(np.vstack(Ds), np.concatenate(Ws))[:NF]
     rho = spearmanr(planted, w).correlation
-    big = np.abs(planted) >= 1.0
+    big = np.abs(planted) >= 0.5
     signs = int((np.sign(w[big]) == np.sign(planted[big])).sum())
-    ok = rho >= 0.9 and signs == int(big.sum())
-    print('G1 planted weights: rank correlation %.3f (at least 0.9); signs recovered %d of %d planted at 1 or more' % (rho, signs, int(big.sum())))
+    ok = rho >= 0.9 and signs >= 0.95 * int(big.sum())
+    print('G1 planted weights: rank correlation %.3f (at least 0.9); signs recovered %d of %d planted at 0.5 or more (at least 95%%)'
+          % (rho, signs, int(big.sum())))
     print('G1 %s' % ('PASS' if ok else 'FAIL'))
     return ok
 
@@ -446,7 +470,7 @@ def run():
         conf = collections.Counter(zip(true, pred))
         rep.append('  named (rows the corpus, columns the genre named): ' + '; '.join(
             '%s %s' % (g, ' '.join('%d' % conf[g, h] for h in CORPORA)) for g in CORPORA))
-        rep.append('  length weights (reported, a control): units %+.3f, moves %+.3f, shared' % (w[LENGTH[0]], w[LENGTH[1]]))
+        rep.append('  length weights (reported, a control): units %+.3f, moves %+.3f, shared, per unit of spread' % (w[0][LENGTH[0]], w[0][LENGTH[1]]))
         rep.append('')
     rep.append('VERDICTS')
     rep.append('  prediction 1, the held-out stories: %s' % verdict(p1['A'], p1['B']))
