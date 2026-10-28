@@ -666,3 +666,9 @@ NEXT, at the owner's word: section 9, step 3, the program and tests G1 to G4.
 - **G1 FAILS:** rank correlation 0.774 against 0.9, signs 52 of 56. The missed weights are on constraints that hardly vary between a story and its alternatives, so a planted weight there leaves no trace. A fault in G1's design and the features' scales, not in the engine. Drafted for review: `StoryGrammar/G1Draft.md` (standardised features; tried once in scratch, 0.951).
 - **Not done:** `run` has not been run, and no fit has been read.
 NEXT, at the owner's word: the G1 amendment.
+**2026-10-28. The G1 amendment adopted, and G1 to G4 pass** (`StoryGrammar/StoryGrammarProtocol.md` section 10; `storyGrammar.py`, committed d493d91 before the rerun). At the owner's word, as recommended in `G1Draft.md`, with signs rule (b).
+- **The amendment:** each feature divided by its spread over the fitting contrasts (per transcriber, fitting stories only), so that the L2 penalty treats every constraint alike; weights reported per unit of spread and on the raw scale. G1 plants standard-normal weights in those units.
+- **G1 PASSES:** rank correlation 0.934 (at least 0.9); signs 48 of 49 planted at 0.5 or more (at least 95%). The first run's failure stands in the record (ff79fce).
+- **G2 PASSES** again (the three constraint-grammar weight files, line for line). **G3 PASSES:** 74 (A) and 77 (B) held-out stories changed by noise, weights identical. **G4 PASSES:** two fits byte-identical. No weight was read.
+- **Not done:** `run` has not been run.
+NEXT, at the owner's word: section 9, step 4, the fit, predictions 1 and 2 scored, and the fitted grammar frozen.
