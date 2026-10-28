@@ -703,3 +703,14 @@ NEXT, at the owner's word: the event-list stage for the new corpora, run in Prop
   - for the Chinese tales, the collector's frame story is not listed, and is described without its title.
 - **In RUN.md:** set up, not cleared to run. No reader has started.
 NEXT, at the owner's word: run the two stages (they may share a session).
+**2026-10-28. The event-list stages of the new corpora run** (Propp-ActsRoles `native-events` and `eastasian-events`, from 80ceeb9; merged as 94c9bb2 and de73287). At the owner's word.
+- **The run:** six readers on Opus, started together; every reply saved verbatim as `Report-eN.md`.
+- **The folder check:** each events folder holds exactly its nine files. The outputs have not been read by the keeper.
+- **Anomalies, from the readers' own reports:**
+  - eastasian e2 wrote a working copy of its tales to the session scratchpad, outside its folder, and deleted it unread.
+  - The native readers' working files were deleted before they finished.
+- **Noted for the next stage (from the reports, not judged):**
+  - the readers met Latin passages in Swanton and Dorsey, and read and paraphrased them;
+  - two Swanton entries (T11, T17) hold two stories each;
+  - several heroes are close counts, or are groups.
+NEXT, at the owner's word: the event lists checked in form and merged into Events.txt and Heroes.txt, then the transcription stage.
