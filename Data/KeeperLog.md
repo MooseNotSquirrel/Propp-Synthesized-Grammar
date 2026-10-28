@@ -586,3 +586,12 @@ NEXT: at the owner's word, the run (`python hierarchy.py run`).
 - **The keeper's reading, not from Propp and not tested:** the owner's "hero above the helper" is not what the readers wrote. Where they stated rank in the wondertales, the helper commands and the hero obeys, as the grey wolf and the magic horse instruct Ivan. The hero also obeys the dispatcher. Stated rank is sparse: 13% to 20% of acts in tale and tragedy, 3% to 5% among the beasts. The hero's superiority may be the narrative rank of the outcome, not the social rank of the acts. That is the second kind of rank in item (k), measured here only as reported.
 NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md`.
 **2026-10-28. The hierarchy finding entered in `PreliminaryFindings.md` section 5** (protocol section 7, step 4), at the owner's word. It is a TESTED paragraph with the five verdicts, followed by a READING, NOT FROM PROPP: the helper above the hero where rank is stated, and the hero's superiority perhaps narrative rather than social. Item (k) is done.
+**2026-10-28. The cross-cultural protocol drafted, not frozen** (`CrossCulture/CrossCultureProtocol.md`, `ProppQueue.md` items (l) and (e)). At the owner's word, for review. No Native American or East Asian tale has been read.
+- **Six predictions:**
+  - the owner's (l): Native American coverage lower than every existing corpus, East Asian higher than Native American, and fewer groups;
+  - the keeper's: pairs survive in the Native American tales;
+  - the owner's (e): less punishment, and a hero who helps others, in the East Asian tales.
+- **Self-tests:** the program must reproduce the first look's figures and the parity runs' block shares on the existing corpora.
+- **Four decisions for the owner:** the corpora, the catalog, the threshold for "very low", and the helping rule.
+- **Cost:** about twenty reader stages, several million tokens, over several sessions.
+NEXT: the owner's review.
