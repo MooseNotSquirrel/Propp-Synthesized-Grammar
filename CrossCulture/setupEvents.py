@@ -5,6 +5,8 @@ as the animal tales were run), set up in Propp-ActsRoles: native-events and east
 
   python setupEvents.py dry      say what would be written, and change nothing
   python setupEvents.py write    write it (refused if a file it writes exists with different content)
+  python setupEvents.py latin dry|write   the rule on Latin passages, and the stage native-latin relisting T01, O09, O19
+  python setupEvents.py merge    join each corpus's checked batches into <corpus>/Events.txt and Heroes.txt
 
 Modelled on the stage animal-events (2026-10-20): one reader on Opus a batch, three batches of 17, 17 and 16 tales; the
 rules file is animal/ListRules.md, changed only where the new corpora differ, as each change below says. Writes:
@@ -187,8 +189,92 @@ def main(mode):
         print('dry run: nothing written')
 
 
+# ---------------------------------------------------------------- the Latin passages (2026-10-28, the owner's ruling)
+# Swanton and Dorsey printed some passages in Latin. The readers of native-events paraphrased them politely; the owner ruled
+# that they are to be translated instead. The rule is added to native/ListRules.md, and the three tales whose readers
+# reported Latin are listed again by a fresh reader in the stage native-latin. The first lists stay on record in events/.
+LATIN_TALES = ['T01', 'O09', 'O19']
+LATIN_AFTER = 'Read them as they stand, and do not supply what a translator may have left out.\n'
+LATIN_RULE = ('\n**Passages in Latin are part of the tale.** (Added 2026-10-28.)\n'
+              'The collectors printed some passages in Latin rather than English. Translate each such passage into plain English as '
+              'you read it, and list its events as plainly as the rest of the tale, saying in everyday words what happens, without '
+              'softening it or leaving it out.\n')
+LATIN_PROMPT = PROMPT.replace('Events-e{k}.txt and Heroes-e{k}.txt', 'Events-l1.txt and Heroes-l1.txt')
+
+
+def latin_outputs():
+    rules = open(os.path.join(AR, 'native', 'ListRules.md'), encoding='utf-8').read()
+    if LATIN_RULE not in rules:
+        assert rules.count(LATIN_AFTER) == 1
+        rules = rules.replace(LATIN_AFTER, LATIN_AFTER + LATIN_RULE)
+    d = CORPORA['native']
+    prompt = LATIN_PROMPT.format(short=d['short'], c='native', n=len(LATIN_TALES), k=1, first=LATIN_TALES[0],
+                                 files=', '.join('native/tales/%s.txt' % t for t in LATIN_TALES))
+    t = open(os.path.join(AR, 'RUN.md'), encoding='utf-8').read()
+    if 'native-latin' not in t:
+        reps = [
+            ('native-events, eastasian-events,', 'native-events, eastasian-events, native-latin,'),
+            ("and were cleared to run at the owner's word the same day.\n",
+             "and were cleared to run at the owner's word the same day.\n"
+             "The stage `native-latin` was set up on 2026-10-28 (`CrossCulture/setupEvents.py`): three tales listed again under the "
+             "rule on Latin passages added to `native/ListRules.md`. It is not yet cleared: it runs only at the owner's word.\n"),
+            ("| `run-eastasian-events` |\n",
+             "| `run-eastasian-events` |\n"
+             "| `native-latin` | `native-latin-l1.txt` | Opus | `native/events/Events-l1.txt`, `native/events/Heroes-l1.txt` | "
+             "`native/events/Report-l1.md` | `run-native-latin` |\n"),
+            ('for `eastasian-events`, `eastasian/ListRules.md` and the folder `eastasian/tales/`; ',
+             'for `eastasian-events`, `eastasian/ListRules.md` and the folder `eastasian/tales/`; for `native-latin`, '
+             '`native/ListRules.md` and the files `native/tales/T01.txt`, `O09.txt` and `O19.txt`; '),
+        ]
+        for a, b in reps:
+            assert t.count(a) == 1, a
+            t = t.replace(a, b)
+    return {os.path.join('native', 'ListRules.md'): rules, os.path.join('prompts', 'native-latin-l1.txt'): prompt, 'RUN.md': t}
+
+
+def latin(mode):
+    out = latin_outputs()
+    for p, s in out.items():
+        old = open(os.path.join(AR, p), encoding='utf-8').read() if os.path.exists(os.path.join(AR, p)) else ''
+        print('%s: %s' % (p, 'unchanged' if old == s else 'new' if not old else 'changed, %+d characters' % (len(s) - len(old))))
+    print('native-latin-l1: %d tales, %s, %d characters' % (len(LATIN_TALES), ', '.join(LATIN_TALES),
+                                                            sum(len(tale('native', t)) for t in LATIN_TALES)))
+    if mode == 'write':
+        for p, s in out.items():
+            open(os.path.join(AR, p), 'w', encoding='utf-8', newline='\n').write(s)
+        print('written')
+    else:
+        print('dry run: nothing written')
+    return out
+
+
+# ---------------------------------------------------------------- the joined lists
+def merge():
+    """<corpus>/Events.txt and Heroes.txt, the batches joined in order, as animal/Events.txt was; the native tales listed again
+    in native-latin are left out until that stage is merged, and the first lists stay in events/"""
+    for c in CORPORA:
+        skip = set(LATIN_TALES) if c == 'native' and not os.path.exists(os.path.join(AR, c, 'events', 'Events-l1.txt')) else set()
+        for name in ('Events', 'Heroes'):
+            lines = []
+            for k in range(1, len(BATCHES) + 1):
+                lines += [l.rstrip('\n') for l in open(os.path.join(AR, c, 'events', '%s-e%d.txt' % (name, k)), encoding='utf-8')
+                          if l.strip()]
+            lines = [l for l in lines if l.split(' |')[0] not in skip]
+            if not skip and c == 'native':
+                raise SystemExit('the native-latin lists are to be joined by a later command')
+            path = os.path.join(AR, c, name + '.txt')
+            text = '\n'.join(lines) + '\n'
+            if os.path.exists(path) and open(path, encoding='utf-8').read() != text:
+                raise SystemExit('refusing to overwrite %s' % path)
+            open(path, 'w', encoding='utf-8', newline='\n').write(text)
+            print('%s: %d lines, %d tales%s' % (path, len(lines), len({l.split(' |')[0] for l in lines}),
+                                               '; left out until relisted: ' + ', '.join(sorted(skip)) if skip else ''))
+
+
 if __name__ == '__main__':
     a = sys.argv[1:]
-    if a not in (['dry'], ['write']):
+    cmds = {('dry',): lambda: main('dry'), ('write',): lambda: main('write'), ('latin', 'dry'): lambda: latin('dry'),
+            ('latin', 'write'): lambda: latin('write'), ('merge',): merge}
+    if tuple(a) not in cmds:
         sys.exit(__doc__)
-    main(a[0])
+    cmds[tuple(a)]()
