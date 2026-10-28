@@ -84,7 +84,7 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 1. Commit this file frozen (done 2026-10-28).
 2. Write `StoryGrammar/HeldOut.txt` by the fixed seed, and commit it.
 3. Write and commit the program and tests G1 to G4, and pass them.
-4. Fit, and score predictions 1 and 2. Freeze the fitted grammar.
+4. Fit, and score predictions 1 and 2. Freeze the fitted grammar (done 2026-10-28; section 11).
 5. Only then are the cross-cultural transcriptions read, and predictions 3 and 4 scored.
 
 **The cost** is the keeper's work alone, with no readers: perhaps one session for steps 1 to 4. The G2 reproduction and the alternatives' number are the slow parts.
@@ -103,3 +103,21 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
    - **Signs, rule (b):** at least 95% of the planted weights of 0.5 or more in size must have their sign recovered.
 
 G1 to G4 are rerun on the amended program before any fit is read.
+
+## 11. The fitted grammar frozen (2026-10-28, at the owner's word)
+
+**The frozen grammar** is the program at commit 422dff8 (`storyGrammar.py`), with the weights it fitted:
+- `Weights-A.txt`, SHA-256 `5e01656d37ec81b8a225d3431f46e06af6aaa007ec08b392be953499ef64731d`;
+- `Weights-B.txt`, SHA-256 `47c95e9baff7609b0f63b81d72948613523bcb416b09c3632a6afe3aab25db75`.
+
+The hashes are of the files as written, with LF line endings.
+
+**The record:** `StoryGrammarRun.txt`, SHA-256 `b9c887be3c53af4860703c52b6e373eb34a641bf49f632c3e0495402db1fbd1a`.
+- Prediction 1 HOLDS: held-out stories outscore their alternatives in every corpus, for both transcribers.
+- Prediction 2 FAILS: the genre is named above chance, at 0.32 and 0.36, but below length alone, at 0.53 and 0.54.
+
+**What may not change from here:**
+- No weight, feature, spread, setting or seed is changed or refitted.
+- The held-out stories may not be used to tune anything.
+
+**Predictions 3 and 4** are scored on the Native American and East Asian tales under these weights, by a command written and committed before those tales' tables are read. Prediction 3 uses the shared weights.

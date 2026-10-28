@@ -679,3 +679,7 @@ NEXT, at the owner's word: section 9, step 4, the fit, predictions 1 and 2 score
 - **Reported, not tested:** the strongest shared weights for both transcribers are Propp's pairs within the move (η then θ, a then K, D then E, A then K), v46's repairs, and staying inside blocks. The length weights are small.
 - **Not done:** the fitted grammar is not frozen. Predictions 3 and 4 wait for the cross-cultural tales.
 NEXT, at the owner's word: the fitted grammar frozen (section 9, step 4), then the extraction.
+**2026-10-28. The probabilistic story grammar frozen** (`StoryGrammar/StoryGrammarProtocol.md` section 11). At the owner's word, section 9, step 4 completed.
+- **What is frozen:** the program at 422dff8, and `Weights-A.txt` and `Weights-B.txt`, by their SHA-256 hashes. No refit, and no tuning on the held-out stories.
+- **What follows:** predictions 3 and 4, scored on the cross-cultural tales by a command committed before their tables are read.
+NEXT, at the owner's word: the extraction of the 100 cross-cultural tales (section 9, step 5), or item (o).
