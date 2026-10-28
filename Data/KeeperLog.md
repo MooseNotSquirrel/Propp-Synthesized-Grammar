@@ -728,3 +728,16 @@ NEXT, at the owner's word: the event lists checked in form and merged into Event
   - `native/Events.txt`: 47 tales, 1,416 events. T01, O09 and O19 are left out until their relisting is merged.
 - **A false start:** the dry run first stopped on a RUN.md anchor, which was corrected in d7a46f4. Nothing had been written.
 NEXT, at the owner's word: write and run `native-latin`.
+**2026-10-28. `native-latin` run, and the native event lists completed** (Propp-ActsRoles, from e77e3a6; merged 147dffe; joined 7134616 by `setupEvents.py merge latin`, committed e4587cd before it ran). At the owner's word.
+- **The run:** one Opus reader relisted T01, O09 and O19 under the rule on Latin passages. Its reply is saved verbatim, and the folder holds exactly its three files.
+- **The form check passes:** T01 has 316 events, O09 38 and O19 33, numbered from 1, with no malformed lines and three hero lines.
+- **Against the first lists**, by their counts only:
+  - T01 210 → 316, O09 26 → 38, O19 28 → 33.
+  - The rise in T01 is larger than its four Latin passages can account for, so it is partly a second reader's finer division of the events. Both lists stay on record.
+- **The reader's report flags,** for the next stages:
+  - T01's "Supplementary to Story 1" section is listed as part of the tale, as the first reader also did.
+  - T01's footnoted duplicate paragraph is listed where it stands.
+  - O09 has a broken word in a Latin passage.
+  - O19 ends "He did wrong!", which the reader did not treat as a moral.
+- **Joined:** `native/Events.txt` has 50 tales and 1,803 events; `native/Heroes.txt` has 50 lines. With `eastasian/` (50 tales, 1,055 events), the new corpora's event lists are complete.
+NEXT, at the owner's word: the transcription stage (Propp's functions on card C, two blind transcribers), as `animal-transcribe` was.
