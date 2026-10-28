@@ -202,7 +202,8 @@ def judged_heroes(rows):
         by[r['story']].append(r)
     found, miss = [], 0
     for s, name in judged:
-        if s[0] not in 'FL':
+        # an entry the readers marked "no single hero" names no hero (mended 2026-10-28, KeeperLog)
+        if s[0] not in 'FL' or name.lower().startswith('no single hero'):
             continue
         k = tuple(C.SX.key(name))
         cand = [r for r in by.get(s, []) if tuple(r['character'].split()) == k

@@ -7,7 +7,8 @@ failedHero.py -- the failed hero as Propp's own apparatus (FailedHero/FailedHero
   python failedHero.py h3     test H3: every judged hero found once or listed as not found
   python failedHero.py h4     test H4: two runs byte-identical
   python failedHero.py dry    counts only: stories, judged heroes found, stories with a U, stories with a negative mark
-  python failedHero.py run    write FailedHero/FailedHeroRun.txt
+  python failedHero.py run    write FailedHero/FailedHeroRun.txt (the record; refused if it would change)
+  python failedHero.py run --mended   write FailedHero/FailedHeroRun-mended.txt, after the mend of 2026-10-28, beside the record
 
 Every figure is given for transcribers A and B separately. The hero is the judged hero (Heroes/JudgedHeroes.txt), found
 as the character of its story whose key it joins; for the myths, which have none, the hero-sphere holder with the most
@@ -109,9 +110,15 @@ def judged():
     return out
 
 
+def no_single(name):
+    return name.lower().startswith('no single hero')
+
+
 def find_hero(name, chars):
     """the character of the story the judged hero's name joins: an exact key first, else the one joined; None when none
-    or more than one"""
+    or more than one, and None for an entry the readers marked "no single hero" (mended 2026-10-28, KeeperLog)"""
+    if no_single(name):
+        return None
     k = tuple(SX.key(name))
     exact = [c for c in chars if tuple(c.split()) == k]
     if len(exact) == 1:
@@ -129,6 +136,8 @@ def heroes(g, L, s, chars, J):
         return max(hs, key=lambda r: (int(r['performs']), r['character']))['character'], 'hero-sphere rule'
     if s not in J:
         return None, 'no judged hero'
+    if no_single(J[s]):
+        return None, 'the readers named no single hero'
     h = find_hero(J[s], chars)
     return (h, 'judged') if h else (None, 'judged hero not found')
 
@@ -228,11 +237,16 @@ def h3():
     ok = True
     for g in CORPORA[:-1]:
         for L in 'AB':
-            found = missing = twice = 0
+            found = missing = twice = nosingle = given = 0
             for s, (n, ents) in stories(L, g).items():
                 if s not in J:
                     continue
                 chars = T.get((g, L, s), {})
+                # an entry marked "no single hero" must give no hero (the fault of 2026-10-28)
+                if no_single(J[s]):
+                    nosingle += 1
+                    given += heroes(g, L, s, chars, J)[0] is not None
+                    continue
                 k = tuple(SX.key(J[s]))
                 exact = [c for c in chars if tuple(c.split()) == k]
                 cand = [c for c in chars if SX.joins(k, tuple(c.split())) or SX.joins(tuple(c.split()), k)]
@@ -240,10 +254,10 @@ def h3():
                 h = find_hero(J[s], chars)
                 found += h is not None
                 missing += h is None
-            good = not twice
+            good = not twice and not given
             ok &= good
-            print('H3 %-8s %s judged heroes found %d, listed as not found %d, matched to two exact keys %d: %s'
-                  % (g, L, found, missing, twice, 'pass' if good else 'FAIL'))
+            print('H3 %-8s %s judged heroes found %d, listed as not found %d, matched to two exact keys %d; "no single hero" %d, given a hero %d: %s'
+                  % (g, L, found, missing, twice, nosingle, given, 'pass' if good else 'FAIL'))
     print('H3 %s' % ('PASS' if ok else 'FAIL'))
     return ok
 
@@ -413,15 +427,27 @@ def report():
     return '\n'.join(out) + '\n'
 
 
-def run():
+MENDED = os.path.join(HERE, 'FailedHeroRun-mended.txt')
+
+
+def run(mended=False):
     text = report()
-    open(OUT, 'w', encoding='utf-8', newline='\n').write(text)
+    if mended:
+        text = ('# FailedHeroRun-mended.txt -- the same run after the mend of 2026-10-28 (KeeperLog): a judged-hero entry marked "no single '
+                'hero" gives no hero; reported beside the record FailedHeroRun.txt, not replacing it\n') + text
+    elif os.path.exists(OUT) and open(OUT, encoding='utf-8').read() != text:
+        # FailedHeroRun.txt is the run of record: a run that would change it is refused
+        raise SystemExit('refusing to overwrite the record %s; use run --mended' % OUT)
+    open(MENDED if mended else OUT, 'w', encoding='utf-8', newline='\n').write(text)
     print(text, end='')
 
 
 if __name__ == '__main__':
     cmds = {'h1': h1, 'h2': h2, 'h3': h3, 'h4': h4, 'dry': dry, 'run': run}
     a = sys.argv[1:]
+    if a == ['run', '--mended']:
+        run(mended=True)
+        sys.exit(0)
     if len(a) != 1 or a[0] not in cmds:
         sys.exit(__doc__)
     r = cmds[a[0]]()
