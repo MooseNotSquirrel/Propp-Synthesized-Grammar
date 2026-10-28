@@ -642,3 +642,5 @@ NEXT: at the owner's word, the 25 tales of each source chosen from its table of 
   - Swanton's entry 11 names two stories, taken as one.
   - Griffis's "Smells and Jingles" may be a set of short pieces, kept as the table of contents gives it.
 NEXT: at the owner's word, in a fresh session given its cost, the event-list stage for the 100 tales.
+**2026-10-28. The two corpus repositories set up.** The owner created Propp-NativeAmerican and Propp-EastAsian on GitHub. They are cloned to `Story Language/NativeAmerican` and `Story Language/EastAsian`, and each has a first `Readme.md` giving its two sources, their public-domain status and links, and what is to come. No tale has been extracted or read. The protocol's section 2 now names them.
+NEXT, at the owner's word: the tales extracted mechanically by the tables of contents into each repository's `tales/`. That is the first time the tales are opened, after the freeze. Then the event-list stage.
