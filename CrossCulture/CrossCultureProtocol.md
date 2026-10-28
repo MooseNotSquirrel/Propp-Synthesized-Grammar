@@ -40,6 +40,18 @@ Each new corpus gets every layer from the start: event lists, Propp's functions 
 - **East Asian, the keeper's candidates, to be checked:** English translations published by 1930 of folk tales, not literary tales. For example: Mitford, *Tales of Old Japan* (1871); Ozaki, *Japanese Fairy Book* (1908); Allen, *Korean Tales* (1889); Griffis, *Korean Fairy Tales* (1911). Giles's *Strange Stories from a Chinese Studio* (1880) is literary, a recommended exclusion. The owner chooses. The rule recommended: the first 50 tales of the collections chosen, in their printed order.
 - **A caution:** these are English translations, often by Western collectors of their day. The text the readers judge is the translator's, as Afanasyev's is read in English for the animal tales.
 
+**DECIDED 2026-10-28 by the owner, with the keeper, before any tale was read: two collections for each region, 25 tales each, in printed order.** The culture is noted on each tale. The tests run on the region, 50 tales a corpus, and the split by culture is reported.
+
+| Region | Source | Culture | Status | Text |
+|---|---|---|---|---|
+| Native American | John R. Swanton, *Tlingit Myths and Texts*, Bureau of American Ethnology Bulletin 39 (1909) | Tlingit, Northwest Coast | Public domain: a United States government work; the Smithsonian repository marks it "No Copyright - United States" | [Project Gutenberg #78871](https://gutenberg.org/cache/epub/78871/pg78871-images.html); [Smithsonian repository](https://repository.si.edu/items/55770de0-955f-4e39-a7ff-f6e8dacc4f59/full) |
+| Native American | James Owen Dorsey, *The Ȼegiha Language*, Contributions to North American Ethnology 6 (1890) | Omaha and Ponca, Plains | Public domain: a United States government work (G.P.O., 1890) | Page images at HathiTrust, through [the Online Books Page](https://onlinebooks.library.upenn.edu/webbin/who/Dorsey%2c%20James%20Owen%2c%201848%2d1895); [USGS record](https://pubs.usgs.gov/publication/70037983). The texts are in Ȼegiha with interlinear and free English translations, and only the free English translation is used |
+| East Asian | Adele M. Fielde, *Chinese Nights' Entertainment: Forty Stories Told by Almond-Eyed Folk Actors* (G. P. Putnam's Sons, 1893), stories heard from Swatow tellers | Chinese (Teochew, Swatow) | Public domain: published in the United States before 1930 | No ready text found. A scan is to be located (a [HathiTrust record](https://catalog.hathitrust.org/Record/001257464) exists for a related Fielde title; the 1912 reissue is *Chinese Fairy Tales*). If no complete scan can be had, decision 1 is reopened before any tale is read |
+| East Asian | William Elliot Griffis, *Japanese Fairy World: Stories from the Wonder-Lore of Japan* (1880; the digitized text is the London printing of 1887) | Japanese | Public domain: published before 1930 | [Project Gutenberg #29337](https://www.gutenberg.org/ebooks/29337) |
+
+- **Order:** each source's tales are taken in the order of its table of contents, the first 25 that are narratives, a list or a note being passed over. Which items count is decided from the table of contents and the titles alone, before any tale is read.
+- **Left out by decision:** Mitford's *Tales of Old Japan*, mostly samurai history and legend, and Giles's *Strange Stories from a Chinese Studio*, a literary work.
+
 ## 3. The catalog the metric counts (decision 2)
 
 **Recommended: Propp's functions only, for the test.** Single functions, Propp's pairs, and his blocks, as the first look and the parity runs counted them. This keeps the new corpora comparable with the five already transcribed.
@@ -79,7 +91,7 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 
 ## 6. Decisions for the owner before the freeze
 
-1. **The corpora:** the Native American rule (Dundes's types, recommended, or one collection), and which East Asian collections.
+1. **The corpora: DECIDED 2026-10-28,** two collections a region, 25 tales each, in printed order (section 2).
 2. **The catalog for the test:** Propp's functions only (recommended), or with Dundes's motifemes added to the card, which would mean transcribing the old corpora again.
 3. **The thresholds:** prediction 1's "very low" as lower than every existing corpus (recommended), or a fixed figure, for instance below 40%.
 4. **Prediction 6's significance rule:** to be fixed exactly once the significance layer's values are listed for the program. Recommended: helping means the act's value is to the advantage of its target, and the target is not the hero.

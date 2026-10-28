@@ -595,3 +595,11 @@ NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md`.
 - **Four decisions for the owner:** the corpora, the catalog, the threshold for "very low", and the helping rule.
 - **Cost:** about twenty reader stages, several million tokens, over several sessions.
 NEXT: the owner's review.
+**2026-10-28. The cross-cultural sources chosen** (`CrossCulture/CrossCultureProtocol.md` section 2), by the owner with the keeper, before any tale was read: two collections a region, 25 tales each, in printed order.
+- **Native American:** Swanton, *Tlingit Myths and Texts* (1909), and Dorsey, *The Ȼegiha Language* (1890), its free English translations only.
+- **East Asian:** Fielde, *Chinese Nights' Entertainment* (1893), and Griffis, *Japanese Fairy World* (1880).
+- **Status, checked on the web, without opening any tale:** all four are public domain.
+  - Swanton and Griffis are on Project Gutenberg (#78871, #29337).
+  - Dorsey is in page images at HathiTrust.
+  - For Fielde no ready text was found. A scan is to be located, and if none is complete the choice is reopened before any tale is read.
+- **Still to be decided before the freeze:** decisions 2 to 4 of section 6.
