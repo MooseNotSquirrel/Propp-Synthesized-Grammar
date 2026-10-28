@@ -52,6 +52,15 @@ Tested per transcriber, with the readers' answers attached to each transcriber's
 
 **Taken 2026-10-28: the owner accepted all four recommendations, with the question worded as drafted.** Route: both, (b) primary. Corpora for the readers: (i), the tragedies and the wondertales. The question: exactly as in section 2, "knowingly or not" and "the harm the story turns on" kept. The controls: the six of R3 named by the keeper before the stage.
 
+**The six controls of R3, named 2026-10-28 from the event lists before the stage, at the owner's word:**
+- **yes:**
+  - P20, *Oedipus the King*: the hero learns he killed his father and married his mother;
+  - P26, *Heracles*: he kills his children in madness and learns it;
+  - P13, *Ajax*: he slaughters the herds, taking them for his enemies.
+- **no**, wondertales with a separate villain, the stepmother: A095 *Jack Frost*, A098 *Daughter and Stepdaughter*, A100 *Khavroshechka*.
+
+R3's "Oedipus P03 if its hero is judged" gives way to P20. The event list shows that P03 is *Oedipus at Colonus*, whose crime is known from the start, so nothing in it is revealed.
+
 1. **The route:** both, route (b) primary (recommended); (a) alone; or (b) alone.
 2. **The corpora for the readers:** (i) the tragedies and wondertales (recommended), or (ii) every corpus with judged heroes.
 3. **The question's wording** in section 2, to be fixed exactly as frozen. In particular: whether "knowingly or not" stays in, and whether "the harm the story turns on" should read "a harm in the story".

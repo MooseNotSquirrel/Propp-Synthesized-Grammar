@@ -506,3 +506,13 @@ NEXT: at the owner's word, route (a) run (`python revealedVillain.py run`); then
 - **Missed:** P03, whose judged hero is also Oedipus, undergoes no Ex or Q, though he performs a villainy.
 - **The keeper's reading, not tested:** the verdict holds, but on letters that mostly mark recognition between kin, not the uncovering of the hero's own crime. Route (a) does not carry the owner's pattern well; at most two of its six tragedies show it. This is the case the protocol foresaw for route (b), the readers, as primary.
 NEXT: at the owner's word, the reader stage of route (b), its six controls named by the keeper first.
+**2026-10-28. The revealed villain, route (b): the reader stage written; no reader started.** At the owner's word.
+- **The controls,** named from the event lists before the stage and recorded in the protocol: yes, P20 *Oedipus the King*, P26 *Heracles*, P13 *Ajax*; no, A095, A098, A100, three stepmother wondertales.
+  - The protocol's "Oedipus P03" gives way to P20. P03 is *Oedipus at Colonus*, whose crime is known from the start.
+- **Written** (`revealedVillain.py setup-b`, as the dry run said):
+  - `revealed/input/r1.txt`: 20 tragedies, 1,957 events;
+  - `revealed/input/r2.txt`: 36 wondertales, 1,281 events;
+  - four prompts in ActsRoles, and `FailedHero/RevealedItems.tsv` here.
+  - The stories are those with a judged hero, none for a "no single hero" entry. The question is word for word as frozen. The tragedies' titles are blank, since the stories table has none.
+- **In `RUN.md`:** the stage `revealed-1`, 4 readers, about 260,000 tokens.
+NEXT: `revealed-1`, at the owner's word; then the form check, R3, and the scoring of prediction 1.
