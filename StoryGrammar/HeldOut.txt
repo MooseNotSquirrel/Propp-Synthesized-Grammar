@@ -1,0 +1,7 @@
+# HeldOut.txt -- StoryGrammar/StoryGrammarProtocol.md section 5 (frozen 2026-10-28): a fifth of each corpus's stories with functions,
+# drawn by random.Random(20261028).sample from the sorted story ids (both transcribers' stories joined), before any fit; never seen in fitting or tuning
+tale 9 of 45: A098 A126 A150 A153 A154 A156 A161 A163 A164
+animal 10 of 50: A003 A014 A032 A036 A038 A040 A045 A046 A047 A048
+fable 40 of 198: F004 F005 F015 F021 F023 F029 F039 F040 F066 F085 F091 F092 F093 F096 F102 F122 F155 F175 F197 F198 F207 F212 F224 F228 F239 F240 F246 F250 F252 F266 F273 F276 F278 F279 F281 F286 F295 F299 F300 F304
+tragedy 6 of 32: P02 P03 P07 P16 P19 P22
+myth 25 of 126: L1-001 L1-010 L1-011 L1-045 L1-070 L1-076 L2-005 L3-003 L3-012 L3-026 L3-030 L3-036 L3-039 L3-045 L3-060 L3-066 L3-068 L3-075 L3-098 L3-109 L3-136 L3-139 L3-145 L3-147 L3-153

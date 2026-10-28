@@ -1,6 +1,6 @@
-# The probabilistic story grammar: protocol (DRAFT 2026-10-28, FOR THE OWNER'S REVIEW, NOT FROZEN)
+# The probabilistic story grammar: protocol (FROZEN 2026-10-28 AT THE OWNER'S WORD, THE FIVE RECOMMENDED DECISIONS TAKEN)
 
-**Drafted 2026-10-28 at the owner's word**, `ProppQueue.md` item (n), step 5 of the road, moved ahead of the cross-cultural analysis. It is to be built, fitted on the five existing corpora, and frozen before any Native American or East Asian transcription is read, so that those corpora remain an unseen test. Nothing here is built or fitted.
+**Drafted 2026-10-28 at the owner's word, and frozen the same day at the owner's word**, every decision of section 8 taken as recommended, `ProppQueue.md` item (n), step 5 of the road, moved ahead of the cross-cultural analysis. It is to be built, fitted on the five existing corpora, and frozen before any Native American or East Asian transcription is read, so that those corpora remain an unseen test. Nothing here is built or fitted.
 
 ## 1. What it is
 
@@ -71,6 +71,8 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 
 ## 8. Decisions for the owner before the freeze
 
+**Taken 2026-10-28: the owner accepted all five recommendations:** a contrastive model; the seven features of section 3; shared weights plus genre offsets; a fifth of each corpus held out; sampled stories reported as illustration.
+
 1. **The model:** contrastive (recommended) or generative.
 2. **The features:** the seven of section 3 (recommended), or fewer, for instance without the candidate groups until they are frozen in `Candidates.md`.
 3. **The weights:** shared plus genre offsets (recommended), or separate for each genre.
@@ -79,7 +81,7 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 
 ## 9. After the freeze, and the cost
 
-1. Commit this file frozen.
+1. Commit this file frozen (done 2026-10-28).
 2. Write `StoryGrammar/HeldOut.txt` by the fixed seed, and commit it.
 3. Write and commit the program and tests G1 to G4, and pass them.
 4. Fit, and score predictions 1 and 2. Freeze the fitted grammar.

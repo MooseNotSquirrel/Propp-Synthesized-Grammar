@@ -656,3 +656,7 @@ NEXT, at the owner's word: the grammar's protocol drafted, before item (o) or th
 - **Four predictions:** held-out stories, genre beyond length, the unseen cultures after the freeze, and the owner's (l) restated.
 - **Five decisions for the owner.**
 NEXT: the owner's review.
+**2026-10-28. The probabilistic story grammar's protocol frozen, and the held-out stories drawn** (`StoryGrammar/`). At the owner's word, all five recommendations of section 8 taken.
+- **`HeldOut.txt`:** a fifth of each corpus's stories with functions, both transcribers' stories joined, drawn by `random.Random(20261028).sample` from the sorted story ids before any fit. The ids only were read; no figure was computed.
+- **Not built:** nothing is fitted, and the program is not written.
+NEXT, at the owner's word: section 9, step 3, the program and tests G1 to G4.
