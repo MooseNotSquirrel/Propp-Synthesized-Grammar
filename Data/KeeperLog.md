@@ -538,3 +538,5 @@ NEXT: at the owner's word, the finding entered in `PreliminaryFindings.md`. Shou
 - **The controls:** five fall among the tragedies (P03, P12, P13, P20, P26) and one among the wondertales (A098). Left out of the score, they leave 15 tragedies, above the floor of 10.
 - **The dry run:** it would write 6 files into ActsRoles and `FailedHero/HiddenItems.tsv`. R1 and R4 still pass, and `setup-b` still refuses to overwrite `revealed-1`.
 NEXT: at the owner's word, `setup-c` writes the stage and `revealed-2` goes into `RUN.md`.
+**2026-10-28. `revealed-2` written; no reader started.** At the owner's word. `revealedVillain.py setup-c` wrote `revealed/input/r3.txt` and `r4.txt` and their four prompts into ActsRoles, and `FailedHero/HiddenItems.tsv` here, as the dry run said. The stage `revealed-2` is in `RUN.md`: 4 new readers, about 440,000 tokens.
+NEXT: `revealed-2`, at the owner's word; then the form check, the controls, and prediction 3. The form check and scoring for the two-part answers (`form-c`, `score-c`) are to be written and committed before any answer is read.
