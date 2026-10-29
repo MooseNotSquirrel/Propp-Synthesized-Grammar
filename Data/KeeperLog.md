@@ -763,3 +763,8 @@ NEXT, at the owner's word: run the two stages, 14 readers in all.
   - P02 scores 0.695.
   - B's other four plays score 0.795 to 1.000. A's six score 0.910 to 1.000.
   - It is a difference between the transcribers on particular plays, not a mark of the genre.
+- **P16 (Euripides' *Helen*), A against B** (exploratory, the frozen weights as printed; both concordances reproduce the record, 0.995 and 0.370):
+  - **The moves:** A divides the play into 8 moves of 50 functions, and B into 5 moves of 67, with 55 of B's functions in one closing move.
+  - **The constraint that tips it:** B's closing move holds six interdictions (γ) and one violation (δ), most of the γs after the δ. So "γ then δ within the move" is broken by the real order far more than by its shuffles, a weighted −1.37, the largest single term.
+  - **What both share:** the recognition and reunion (Q, W, Ex) come before the trickery of the escape (η, θ). "Preparatory before endgame" therefore counts against the real order for both A and B.
+  - **The reading:** *Helen* puts Propp's endgame in the middle and his preparatory trickery after it. B's extra unanswered interdictions turn that inversion into a loss.
