@@ -7,7 +7,7 @@ section 3), set up in Propp-ActsRoles: native-transcribe and eastasian-transcrib
   python setupTranscribe.py write    write it (refused if a file it writes exists with different content)
 
 Modelled on animal-transcribe (2026-10-20): two blind transcribers, A on Opus and B on Sonnet, three batches each, the
-batches of the event lists (setupEvents.py). Writes:
+batches of the event lists (setupEvents.py) for the East Asian tales, four batches for the native. Writes:
   ActsRoles/<native or eastasian>/TranscribeRules-C.md   animal/AfanasyevRules-C.md with the definitions card and every stage
       unchanged; only its title, its opening sentence and its paragraph on language change, the last taking the event rules'
       wording for these corpora (English as it stands; matter that is not the tale; for the native tales the Latin passages,
@@ -21,7 +21,10 @@ import sys
 
 import setupEvents as SE
 
-AR, CORPORA, BATCHES = SE.AR, SE.CORPORA, SE.BATCHES
+AR, CORPORA = SE.AR, SE.CORPORA
+# the native tales in four batches, at the owner's word (2026-10-28): the event lists' three batches held 695, 410 and 698
+# events, against 508 for the largest animal batch; this is the most even split in tale order, 454, 462, 444 and 443 events
+BATCHES = {'native': [(0, 6), (6, 26), (26, 40), (40, 50)], 'eastasian': SE.BATCHES}
 STAGES = {'native': 'native-transcribe', 'eastasian': 'eastasian-transcribe'}
 RULES = 'TranscribeRules-C.md'
 OLD_LANG = ('**Read each tale in its original language; write in English.**\n'
@@ -74,7 +77,7 @@ def run_md():
     t = read('RUN.md')
     if 'native-transcribe' in t:
         return t
-    row = ("| `%s` | `%s-A-b1.txt` to `-b3`, `%s-B-b1.txt` to `-b3` | `-A-`: Opus; `-B-`: Sonnet | "
+    row = ("| `%s` | `%s-A-b1.txt` to `-b%d`, `%s-B-b1.txt` to `-b%d` | `-A-`: Opus; `-B-`: Sonnet | "
            "`%s/transcriptions/<A or B>/<batch>/Streams.txt` and `Notes.txt` | `Report.md` in that folder | `run-%s` |\n")
     reps = [('native-events, eastasian-events, native-latin,',
              'native-events, eastasian-events, native-latin, native-transcribe, eastasian-transcribe,'),
@@ -84,7 +87,7 @@ def run_md():
              "after the event lists were joined, and are not yet cleared: they run only at the owner's word. They need nothing from "
              "each other and may run in one session.\n"),
             ('| `run-native-latin` |\n',
-             '| `run-native-latin` |\n' + ''.join(row % (STAGES[c], STAGES[c], STAGES[c], c, STAGES[c]) for c in CORPORA)),
+             '| `run-native-latin` |\n' + ''.join(row % (STAGES[c], STAGES[c], len(BATCHES[c]), STAGES[c], len(BATCHES[c]), c, STAGES[c]) for c in CORPORA)),
             ('`native/ListRules.md` and the files `native/tales/T01.txt`, `O09.txt` and `O19.txt`; ',
              '`native/ListRules.md` and the files `native/tales/T01.txt`, `O09.txt` and `O19.txt`; ' +
              ''.join('for `%s`, `%s/%s`, `%s/Events.txt`, `%s/Heroes.txt` and the folder `%s/tales/`; ' % (STAGES[c], c, RULES, c, c, c)
@@ -100,7 +103,7 @@ def outputs():
     for c, d in CORPORA.items():
         out[os.path.join(c, RULES)] = rules(c)
         for L in 'AB':
-            for k, (a, b) in enumerate(BATCHES, 1):
+            for k, (a, b) in enumerate(BATCHES[c], 1):
                 out[os.path.join('prompts', '%s-%s-b%d.txt' % (STAGES[c], L, k))] = prompt(c, L, k, d['ids'][a:b])
     out['RUN.md'] = run_md()
     return out
