@@ -1,0 +1,38 @@
+# ExploreConcordance.txt -- exploreConcordance.py: EXPLORATORY, outside the predictions; the frozen grammar, unchanged
+# per held-out version: functions, sections reached (of 10), share of alternatives tied, concordance (ties a half),
+# and concordance among the untied alternatives; per corpus the means, weighted as the record weights them
+
+TRANSCRIBER A (weights byte-identical to Weights-A.txt)
+  corpus     n functions  sections    tied concordance    untied
+  tale       9      29.6       6.6      0%       0.986     0.986
+  animal    12      18.4       5.1      0%       0.975     0.975
+  fable     22       4.8       2.9      3%       0.849     0.862
+  tragedy    6      42.7       8.3      0%       0.982     0.982
+  myth      25       8.9       3.6      0%       0.799     0.799
+  the tragedies one by one:
+    P02      functions  36, sections  8, tied   0%, concordance 1.000, untied 1.000
+    P03      functions  61, sections  9, tied   0%, concordance 0.910, untied 0.910
+    P07      functions  34, sections  9, tied   0%, concordance 0.995, untied 0.995
+    P16      functions  50, sections  8, tied   0%, concordance 0.995, untied 0.995
+    P19      functions  47, sections  8, tied   0%, concordance 0.995, untied 0.995
+    P22      functions  28, sections  8, tied   0%, concordance 1.000, untied 1.000
+
+TRANSCRIBER B (weights byte-identical to Weights-B.txt)
+  corpus     n functions  sections    tied concordance    untied
+  tale       9      33.1       6.8      0%       0.994     0.994
+  animal    12      14.4       4.2      0%       0.936     0.936
+  fable     25       4.4       2.5      4%       0.885     0.901
+  tragedy    6      41.8       7.5      0%       0.784     0.784
+  myth      25      11.2       4.2      0%       0.855     0.856
+  the tragedies one by one:
+    P02      functions  30, sections  8, tied   0%, concordance 0.695, untied 0.695
+    P03      functions  54, sections  8, tied   0%, concordance 0.850, untied 0.850
+    P07      functions  21, sections  6, tied   0%, concordance 0.795, untied 0.795
+    P16      functions  67, sections  7, tied   0%, concordance 0.370, untied 0.370
+    P19      functions  52, sections  8, tied   0%, concordance 0.995, untied 0.995
+    P22      functions  27, sections  8, tied   0%, concordance 1.000, untied 1.000
+
+ACROSS ALL HELD-OUT VERSIONS, BOTH TRANSCRIBERS (151): rank correlations (Spearman)
+  sections reached  with concordance +0.56; with untied concordance +0.52
+  functions         with concordance +0.51; with untied concordance +0.47
+  share tied        with concordance -0.29; with untied concordance -0.17

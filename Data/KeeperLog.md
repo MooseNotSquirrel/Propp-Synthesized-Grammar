@@ -753,3 +753,13 @@ NEXT, at the owner's word: the transcription stage (Propp's functions on card C,
 - **The prompts** are `animal-transcribe`'s word for word, but for the corpus, the rules' name, the tales and the language.
 - **In RUN.md:** set up, not cleared. No reader has started.
 NEXT, at the owner's word: run the two stages, 14 readers in all.
+**2026-10-28. Exploratory: why some held-out concordances are lower** (`StoryGrammar/exploreConcordance.py`, committed 08c85a6 before it ran; `StoryGrammar/ExploreConcordance.txt`). Asked by the owner, outside the predictions; the frozen grammar is unchanged. The weights were recomputed and found byte-identical to the frozen files, and every corpus's concordance reproduced the record.
+- **Ties explain little:** only the fables have any, 3% (A) and 4% (B). Concordance among the untied alternatives rises only to 0.862 and 0.901.
+- **Spread explains much:** across the 151 held-out versions, the sections a story reaches correlate +0.56 with its concordance, and its number of functions +0.51.
+  - The fables reach 2.5 to 2.9 sections on average, and the myths 3.6 to 4.2. The wondertales reach 6.6 to 6.8, and the tragedies 7.5 to 8.3.
+  - Spread and length go together here, so the two cannot be told apart from this.
+- **Tragedy B's 0.784 is two plays:**
+  - P16 scores 0.370: under B's transcription its real order scores worse than most of its shuffles.
+  - P02 scores 0.695.
+  - B's other four plays score 0.795 to 1.000. A's six score 0.910 to 1.000.
+  - It is a difference between the transcribers on particular plays, not a mark of the genre.
