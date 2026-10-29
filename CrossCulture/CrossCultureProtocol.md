@@ -125,3 +125,16 @@ Each is tested per transcriber: HOLDS if for both, SPLIT if for one, FAILS if fo
 - **The hero helping another (prediction 6):** the significance layer gives an act's value for the hero only, so it cannot say whether the hero helps another. The rule is from the acts layer instead. Among the acts whose performer is the judged hero, it is the share that are of the kind give, guide or repair and whose undergoer is a character other than the hero.
 
 X1 now requires the program to reproduce `CrossCulture/Reference.txt`, written by these definitions on the existing corpora and committed before any new tale is read, with its single-function shares within a point of the first look's. X2 and X3 are unchanged.
+
+## 9. A known departure from Propp on the card, kept (2026-10-28, at the owner's word)
+
+**The departure.** Card C defines the violation (δ) as "the prohibition is broken, or the order is not obeyed". Propp (p. 27) makes the forms of violation correspond to the forms of interdiction. Since his inverted interdiction (γ²) is an order, his inverted violation is the order *carried out*.
+
+So under the card, an obeyed order is a γ with no δ, and a disobeyed order is a δ. The departure was found in P16 (`Data/KeeperLog.md`, 2026-10-28). It is on every card in use, including the new corpora's `TranscribeRules-C.md`.
+
+**Kept, at the owner's word.** The card is not changed for the new corpora, so that all seven corpora are measured by one instrument, as section 2 requires.
+
+**What follows from it:**
+- How a transcriber reads the card's broad γ, every order or only a prohibition, can move a story's score under the story grammar's constraint "γ then δ within the move".
+- That difference between the transcribers is to be watched in the new corpora's transcriptions.
+- The mend belongs to a later version of the story grammar (`ProppQueue.md` item (p)), not to the card.

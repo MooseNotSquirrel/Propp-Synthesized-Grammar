@@ -197,6 +197,10 @@ The grammar names the genre better than chance, but much worse than story length
 
 - **It does not write stories from scratch.** It judges an order against nearby alternatives. The protocol allowed a few sequences sampled from each genre's weights, as illustration only; the run did not produce them.
 - **It has not been compared with Propp's plain numerical order.** The earlier constraint grammar was. So the high concordances show that the grammar beats shuffled versions of each story, not that it beats Propp's numbering.
+- **One of its constraints disagrees with the transcription card.**
+  - The card counts an order that is *obeyed* as an interdiction (γ) with no violation (δ), but Propp counts the obeyed order as the violation's inverted form (p. 27).
+  - So the constraint "interdiction then violation" counts every obeyed order against a story. This is why one transcriber's reading of Euripides' *Helen*, full of commands that are obeyed, scores below its own shuffles.
+  - The card is kept, at the owner's word, so that all the corpora stay comparable. The mend waits for a later version of the grammar.
 - **Its readers are language models.** Their shared understanding is largely modern and Western. That is a risk to every cross-cultural reading here, and it is reported with every result.
 - **It is frozen** (protocol section 11): the program at commit 422dff8, and the two weight files fixed by their hashes. No weight may be refitted or tuned. Its two remaining predictions will be scored on the new tales by a command written before their transcriptions are read:
   - 3: the unseen cultures' stories outscore their alternatives;

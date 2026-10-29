@@ -783,3 +783,7 @@ NEXT, at the owner's word: run the two stages, 14 readers in all.
   - Of the violation he writes that its forms "correspond to the forms of interdiction". So the inverted violation is the order carried out. The catalog says so too (`SemanticCatalog.md`, violation: "in the inverted form, the order is carried out").
   - Propp adds that following an order brings the same consequences as breaking an interdiction.
 - **Card C's δ, "the order is not obeyed", is therefore not Propp's.** It is the same on every card in use: Afanasyev's A and U, the animal tales, Aesop, the tragedies, and the new corpora's rules, which are written and not yet run. Under it, an obeyed order has a γ and no δ, which the grammar's pair constraint counts against the story. Recorded; nothing changed. Whether to change the card before the new corpora are transcribed is the owner's decision. Changing it would part them from the five corpora transcribed under it.
+**2026-10-28. Card C kept, at the owner's word.**
+- The departure from Propp on δ is recorded in `CrossCulture/CrossCultureProtocol.md` section 9 and in `StoryGrammar/StoryGrammarDesign.md` section 10.
+- The mend is queued as `ProppQueue.md` item (p), for a later version of the story grammar, after predictions 3 and 4.
+- No card, rule or frozen file was changed.
