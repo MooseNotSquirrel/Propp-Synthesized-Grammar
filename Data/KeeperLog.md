@@ -768,3 +768,13 @@ NEXT, at the owner's word: run the two stages, 14 readers in all.
   - **The constraint that tips it:** B's closing move holds six interdictions (γ) and one violation (δ), most of the γs after the δ. So "γ then δ within the move" is broken by the real order far more than by its shuffles, a weighted −1.37, the largest single term.
   - **What both share:** the recognition and reunion (Q, W, Ex) come before the trickery of the escape (η, θ). "Preparatory before endgame" therefore counts against the real order for both A and B.
   - **The reading:** *Helen* puts Propp's endgame in the middle and his preparatory trickery after it. B's extra unanswered interdictions turn that inversion into a loss.
+- **P16's interdictions, from the transcribers' notes:**
+  - A codes one γ in the closing move: the old woman's order to keep away. Menelaos's refusal is its δ. A also codes a second δ, Theonoe breaking her brother's order.
+  - B codes eight γs in moves IV and V. Two answer to ones A also saw (the order to keep away, Theonoe's command). The rest are commands that are obeyed:
+    - Menelaos to Helen, "stay where you are";
+    - Menelaos to the messenger, to have them wait at the beach;
+    - Helen to Menelaos, to escape;
+    - Menelaos to his comrades, to carry the bull and to kill the barbarians;
+    - the Egyptian sailors to each other.
+  - **Both follow card C.** The card defines γ as "forbidden to do something, or ordered to do something", and δ as "the prohibition is broken, or the order is not obeyed". An obeyed order therefore has a γ and no δ, and the constraint "γ then δ within the move" counts each one against the story. B read the card's γ broadly, and A narrowly.
+  - **A mismatch, recorded and not mended:** the card and the grammar's pair constraint disagree on obeyed orders. Both are frozen. The keeper's recollection, to be checked against Propp's text, is that Propp counts an order carried out as a form of δ. If so, the card's δ is the narrower of the two. The same will hold for the new corpora's transcriptions.
