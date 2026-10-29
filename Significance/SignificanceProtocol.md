@@ -28,7 +28,7 @@ The stories of the two-layer test that have a judged hero (`Heroes/`, the reader
 Each describer describes the acts of the same transcriber letter: describer A (Opus) the acts of act describer A, describer B (Sonnet) those of B, so that each new layer sits on one act layer.
 Nine batches per describer: the tales in four (s1 to s4), the fables in one (s5), the plays two at a time as before (s6 to s9); the input files number every act e0001 onward.
 The describers read each story's text, in the original language for the tales, and nothing else in the repository but their input file and the rules; they are told no system of analysis, and Propp is not named to them.
-Two stages, `sig-1` (s1 to s5, ten describers) and `sig-2` (s6 to s9, eight), each in a fresh cloud session, as `RUN.md` in `Story Language/Projects/ActsRoles` describes.
+Two stages, `sig-1` (s1 to s5, ten describers) and `sig-2` (s6 to s9, eight), each in a fresh cloud session, as `RUN.md` in `StoryLanguage/Projects/ActsRoles` describes.
 
 ## The mapping to Propp's functions
 

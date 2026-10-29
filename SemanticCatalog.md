@@ -37,7 +37,7 @@ The **empty structure charge** is Lévi-Strauss's objection that abstracting for
 
 # Part I: The argument, that Propp's structures carry meaning
 
-**From `SemanticBundling.md`, Part I, unchanged.** Its file references (`Readme.md`, `ProppMidLevelGroupsEbnf.txt`, `ResolvedMoves.txt`) are to the first project, `Story Language/Projects/RegularProppGrammar`. Its own opening read:
+**From `SemanticBundling.md`, Part I, unchanged.** Its file references (`Readme.md`, `ProppMidLevelGroupsEbnf.txt`, `ResolvedMoves.txt`) are to the first project, `StoryLanguage/Projects/RegularProppGrammar`. Its own opening read:
 
 > This file is a draft, and Part III explains why it cannot be finished inside this project.
 > It argues that Propp's structures carry meaning, against the charge that his method leaves an empty schema.

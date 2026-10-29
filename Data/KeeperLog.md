@@ -642,7 +642,7 @@ NEXT: at the owner's word, the 25 tales of each source chosen from its table of 
   - Swanton's entry 11 names two stories, taken as one.
   - Griffis's "Smells and Jingles" may be a set of short pieces, kept as the table of contents gives it.
 NEXT: at the owner's word, in a fresh session given its cost, the event-list stage for the 100 tales.
-**2026-10-28. The two corpus repositories set up.** The owner created Propp-NativeAmerican and Propp-EastAsian on GitHub. They are cloned to `Story Language/Projects/NativeAmerican` and `Story Language/Projects/EastAsian`, and each has a first `Readme.md` giving its two sources, their public-domain status and links, and what is to come. No tale has been extracted or read. The protocol's section 2 now names them.
+**2026-10-28. The two corpus repositories set up.** The owner created Propp-NativeAmerican and Propp-EastAsian on GitHub. They are cloned to `StoryLanguage/Projects/NativeAmerican` and `StoryLanguage/Projects/EastAsian`, and each has a first `Readme.md` giving its two sources, their public-domain status and links, and what is to come. No tale has been extracted or read. The protocol's section 2 now names them.
 NEXT, at the owner's word: the tales extracted mechanically by the tables of contents into each repository's `tales/`. That is the first time the tales are opened, after the freeze. Then the event-list stage.
 **2026-10-28. The road reordered at the owner's word:** the probabilistic story grammar (`ProppQueue.md` item (n), step 5) is to be built, fitted on the five existing corpora and frozen before the Native American and East Asian transcriptions are read, so that those corpora stay an unseen test of it.
 - **Meanwhile:** their collection may go on, provided no one analyses its results against the grammar while it is being built.
@@ -683,7 +683,7 @@ NEXT, at the owner's word: the fitted grammar frozen (section 9, step 4), then t
 - **What is frozen:** the program at 422dff8, and `Weights-A.txt` and `Weights-B.txt`, by their SHA-256 hashes. No refit, and no tuning on the held-out stories.
 - **What follows:** predictions 3 and 4, scored on the cross-cultural tales by a command committed before their tables are read.
 NEXT, at the owner's word: the extraction of the 100 cross-cultural tales (section 9, step 5), or item (o).
-**2026-10-28. The 100 cross-cultural tales extracted** (`Story Language/Projects/NativeAmerican` and `EastAsian`, each with `source/`, `extract.py` and `tales/`). At the owner's word, after the story grammar's freeze, with the owner's approval of the four downloads.
+**2026-10-28. The 100 cross-cultural tales extracted** (`StoryLanguage/Projects/NativeAmerican` and `EastAsian`, each with `source/`, `extract.py` and `tales/`). At the owner's word, after the story grammar's freeze, with the owner's approval of the four downloads.
 - **The sources:** Swanton (Gutenberg #78871), Dorsey and Fielde (Internet Archive OCR text), and Griffis (Gutenberg #29337). They are kept byte-exact, with their SHA-256 hashes in `extract.py`.
 - **The cut:** each tale runs from its heading to the next tale's heading. The bounds were found from headings alone, committed in `extract.py` before it ran. Lowercase-masked views were used where Dorsey's OCR spoilt three titles.
 - **Dorsey:** the free English only, from each myth's TRANSLATION. line to the next myth's title. A function-word count (no text shown) puts every file at 41% or more, so English, not interlinear.
@@ -778,7 +778,7 @@ NEXT, at the owner's word: run the two stages, 14 readers in all.
     - the Egyptian sailors to each other.
   - **Both follow card C.** The card defines γ as "forbidden to do something, or ordered to do something", and δ as "the prohibition is broken, or the order is not obeyed". An obeyed order therefore has a γ and no δ, and the constraint "γ then δ within the move" counts each one against the story. B read the card's γ broadly, and A narrowly.
   - **A mismatch, recorded and not mended:** the card and the grammar's pair constraint disagree on obeyed orders. Both are frozen. The keeper's recollection, to be checked against Propp's text, is that Propp counts an order carried out as a form of δ. If so, the card's δ is the narrower of the two. The same will hold for the new corpora's transcriptions.
-- **Propp checked** (`Propp PDF/Markdown/Propp Morphology Full.md`, p. 27):
+- **Propp checked** (`ProppPDF/Markdown/Propp Morphology Full.md`, p. 27):
   - The inverted form of the interdiction (γ²) is "an order or a suggestion".
   - Of the violation he writes that its forms "correspond to the forms of interdiction". So the inverted violation is the order carried out. The catalog says so too (`SemanticCatalog.md`, violation: "in the inverted form, the order is carried out").
   - Propp adds that following an order brings the same consequences as breaking an interdiction.
@@ -787,14 +787,20 @@ NEXT, at the owner's word: run the two stages, 14 readers in all.
 - The departure from Propp on δ is recorded in `CrossCulture/CrossCultureProtocol.md` section 9 and in `StoryGrammar/StoryGrammarDesign.md` section 10.
 - The mend is queued as `ProppQueue.md` item (p), for a later version of the story grammar, after predictions 3 and 4.
 - No card, rule or frozen file was changed.
-**2026-10-29. Story Language reorganised, at the owner's word.**
-- **Moved into `Story Language/Projects`:** every project:
+**2026-10-29. StoryLanguage reorganised, at the owner's word.**
+- **Moved into `StoryLanguage/Projects`:** every project:
   - `RegularProppGrammar`, renamed from `Project Files`;
   - ActsRoles, Aesop, Afanasyev, AnimalTales, Apollodorus, EastAsian, Fables, NativeAmerican, SynthesizedProppGrammar, Tragedy and XStudy;
   - `Other collections to measure.md`.
-- **Moved into `Archive`:** Chat Library, Jack and the Beanstalk, Temporary and Toolchain document, and four loose files.
-- **Left at the top:** Delivery, Logic Thread and Propp PDF.
+- **Moved into `Archive`:** ChatLibrary, JackAndTheBeanstalk, Temporary and ToolchainDocument, and four loose files.
+- **Left at the top:** Delivery, LogicThread and ProppPDF.
 - **The references:** written paths and every mention of `Project Files` were rewritten by a script.
   - The readers' replies saved verbatim (107 `Report*.md` files) are left as written.
   - The projects find one another by relative sibling paths, which the move keeps. The only absolute paths in code, in `XStudy/xForm.py`, were rewritten.
   - The GitHub repositories keep their names.
+**2026-10-29. Folder names normalised to UpperCamelCase, at the owner's word.**
+- **The renames:** every folder under the top folder whose name held a space was renamed, by removing each space and capitalising the letter after it. That covered 31 folders: `LogicThread`, `ProppPDF`, and 29 under `Archive`. None was in a project or a git repository.
+- **The top folder:** it is to become `StoryLanguage`. References were rewritten ahead of the rename: 80 mentions of "Story Language", and the old names of the renamed folders.
+- **ActsRoles:** it moved into `Projects`, completing the reorganisation.
+- **Delivery:** its build manifests (`Package1.manifest`, `Package2.manifest`) still named their sources from the top folder as it was before the move into `Projects`. The 125 rows now point under `Projects/`, and every source exists.
+- **Left as written:** the readers' verbatim replies. Files whose own names hold spaces were not renamed.

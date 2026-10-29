@@ -3,7 +3,7 @@
 cand.py -- the candidate acts of oath, prayer and curse, tested on eight plays no describer
 has described in free verbs (CandProtocol.md).
 
-  python cand.py setup    copies P01-P08 into Story Language/Projects/ActsRoles/held/ and writes the prompts
+  python cand.py setup    copies P01-P08 into StoryLanguage/Projects/ActsRoles/held/ and writes the prompts
   python cand.py form     checks the descriptions' form
   python cand.py score    writes Cand/CandRun.txt
 

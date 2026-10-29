@@ -1,6 +1,6 @@
 # The sources of Dundes's North American tales
 
-**Compiled 2026-10-20 from Alan Dundes, *The Morphology of North American Indian Folktales* (doctoral dissertation, Indiana University, 1962), read under fair use for its citations only.** Nothing of its text is reproduced beyond what identifying a source needs. The dissertation is the owner's purchased copy (`Propp PDF/`, held outside the published set).
+**Compiled 2026-10-20 from Alan Dundes, *The Morphology of North American Indian Folktales* (doctoral dissertation, Indiana University, 1962), read under fair use for its citations only.** Nothing of its text is reproduced beyond what identifying a source needs. The dissertation is the owner's purchased copy (`ProppPDF/`, held outside the published set).
 
 ## How Dundes chose his tales
 

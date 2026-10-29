@@ -50,7 +50,7 @@ Each new corpus gets every layer from the start: event lists, Propp's functions 
 | East Asian | William Elliot Griffis, *Japanese Fairy World: Stories from the Wonder-Lore of Japan* (1880; the digitized text is the London printing of 1887) | Japanese | Public domain: published before 1930 | [Project Gutenberg #29337](https://www.gutenberg.org/ebooks/29337) |
 
 - **Order:** each source's tales are taken in the order of its table of contents, the first 25 that are narratives, a list or a note being passed over. Which items count is decided from the table of contents and the titles alone, before any tale is read.
-- **Where the texts are kept:** two corpus repositories, created by the owner on 2026-10-28, one corpus to a repository as before. They are `Story Language/Projects/NativeAmerican` (Propp-NativeAmerican) and `Story Language/Projects/EastAsian` (Propp-EastAsian). The readers' inputs go in Propp-ActsRoles (`native/`, `eastasian/`), as the animal tales' did.
+- **Where the texts are kept:** two corpus repositories, created by the owner on 2026-10-28, one corpus to a repository as before. They are `StoryLanguage/Projects/NativeAmerican` (Propp-NativeAmerican) and `StoryLanguage/Projects/EastAsian` (Propp-EastAsian). The readers' inputs go in Propp-ActsRoles (`native/`, `eastasian/`), as the animal tales' did.
 - **The tales chosen:** the 100 tales, 25 from each source, are listed in `CrossCulture/TaleLists.md`. They were chosen by this rule from the tables of contents alone and recorded on 2026-10-28, before any tale was read.
 - **Left out by decision:** Mitford's *Tales of Old Japan*, mostly samurai history and legend, and Giles's *Strange Stories from a Chinese Studio*, a literary work.
 

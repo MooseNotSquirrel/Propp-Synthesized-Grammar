@@ -2,7 +2,7 @@
 """
 xTestSetup.py -- the X study's stage 5 material (XStudyProtocol.md): the
 held-out stories, the genres' rules with the candidate acts added, and the
-prompts, written into Story Language/Projects/XStudy/test/ and prompts/.
+prompts, written into StoryLanguage/Projects/XStudy/test/ and prompts/.
 
   python xTestSetup.py
 

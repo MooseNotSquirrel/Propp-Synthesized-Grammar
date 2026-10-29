@@ -2,7 +2,7 @@
 """
 layers.py -- the animal tales described in acts, significance and free verbs (LayersProtocol.md).
 
-  python layers.py setup        writes the prompts for animal-acts and animal-free into Story Language/Projects/ActsRoles
+  python layers.py setup        writes the prompts for animal-acts and animal-free into StoryLanguage/Projects/ActsRoles
   python layers.py form-acts    checks the act descriptions' form
   python layers.py form-free    checks the free descriptions' form
   python layers.py setup-sig    writes the significance describers' inputs and prompts (after form-acts)

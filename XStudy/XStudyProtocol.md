@@ -22,7 +22,7 @@ Counting events where both agree keeps out a function one transcriber simply mis
 | Fable | the 100 drawn Aesop fables (Propp-Aesop) | the 99 held-out fables (Propp-Fables) |
 | Tragedy | P01-P16 | P17-P32 |
 
-`xTargets.py` selects the events and writes the labelers' material into the transcriber-side repository `Story Language/Projects/XStudy`.
+`xTargets.py` selects the events and writes the labelers' material into the transcriber-side repository `StoryLanguage/Projects/XStudy`.
 Nothing there names Propp, functions, transcriptions or the reason the events were chosen.
 
 ## Stage 1: labeling

@@ -3,7 +3,7 @@
 xPrepare.py -- the X study's material for the grouping and assignment stages
 (XStudyProtocol.md), from the labels.
 
-  python xPrepare.py   writes, in Story Language/Projects/XStudy:
+  python xPrepare.py   writes, in StoryLanguage/Projects/XStudy:
                        group/Labels.txt  every label of both labelers, one per line, in a
                                          random order (seed 46), with no story, genre or event
                        assign/b1..b4.txt the stories with their marked events, each marked event

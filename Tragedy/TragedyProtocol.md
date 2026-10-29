@@ -5,7 +5,7 @@ The claim is speculation, not Propp's; it is the claim the Apollodorus test fail
 Everything below is fixed before any play is transcribed.
 
 **It uses the machinery of the Aesop test.**
-The transcriber half lives in its own repository, `Story Language/Projects/Tragedy` (GitHub `Propp-Tragedy`), which holds nothing of the grammar, the thresholds or the scoring; the keeper's half lives here until every play is transcribed.
+The transcriber half lives in its own repository, `StoryLanguage/Projects/Tragedy` (GitHub `Propp-Tragedy`), which holds nothing of the grammar, the thresholds or the scoring; the keeper's half lives here until every play is transcribed.
 Fresh language-model instances list each play's events and transcribe it, run as cloud sessions on that repository: transcriber A on Opus, transcriber B on Sonnet.
 They work from `TragedyRules.md`, carried over from the Aesop rules as amended by the Aesop pilot, with the definitions card in place of Propp's chapters and the relevance mark on every entry.
 

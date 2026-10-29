@@ -54,7 +54,7 @@ def native(path):
 
 
 def files(name, patterns, reader=None):
-    """the rows of the files each pattern names (paths relative to Story Language, '%s' for the reader), pattern by
+    """the rows of the files each pattern names (paths relative to StoryLanguage, '%s' for the reader), pattern by
     pattern, each pattern's files sorted as glob's sorted() sorted them, each file's rows in their order"""
     d = _by_file(name)
     for pat in patterns:

@@ -25,8 +25,8 @@
 ## 2026-09-28 to 10-06: Propp's model tested on other genres
 
 **Why:** to see whether Propp's morphology holds beyond the Russian wondertale.
-**09-28 to 09-29, Greek myth (Apollodorus):** the claim fails: coverage 57% to 70%, acceptance low, order little better than shuffled (`Story Language/Projects/Apollodorus`).
-**09-29, Aesop's fables:** the claim fails; the fable's kernel is want, trick, complicity, harm (`Story Language/Projects/Aesop`).
+**09-28 to 09-29, Greek myth (Apollodorus):** the claim fails: coverage 57% to 70%, acceptance low, order little better than shuffled (`StoryLanguage/Projects/Apollodorus`).
+**09-29, Aesop's fables:** the claim fails; the fable's kernel is want, trick, complicity, harm (`StoryLanguage/Projects/Aesop`).
 **09-29 to 10-06, Greek tragedy, 32 plays:** run one play at a time, sealed until the model was frozen; the tragedy order model holds on unseen plays, about twice as strong as Propp's; tragedy covers far fewer events with Propp's functions (`Tragedy/`).
 **09-30, blocks:** Propp's pairs and groups are told together beyond chance in every genre (`Blocks/`); the fable grammar fails its held-out test on coverage while its order holds; the claim that order inside a block is near obligatory withdrawn (the definitions card fixes it).
 
@@ -42,7 +42,7 @@
 **10-06 to 10-11, the X study:** of sixteen candidate acts, only threats and demands recur by the frozen threshold; the others are Propp's functions with other roles (`XStudy/`). Trickery measured: mostly after the villainy.
 **10-12:** the FailedHero, falling by unrepaired villainy in about one tragedy in five; judged heroes, readers agreeing almost always in tales, less in fables and tragedy (`Heroes/`).
 **10-12, a catalog of role-free acts and relations:** describes more than Propp's functions and is agreed on better, but cannot recover them (`TwoLayer/`). **The owner's decision, option B:** the act catalog becomes the primary instrument.
-**10-12, delivery:** two packages built for SourceForge and the publication gate cleared (`Story Language/Delivery`).
+**10-12, delivery:** two packages built for SourceForge and the publication gate cleared (`StoryLanguage/Delivery`).
 
 ## 2026-10-13 to 10-14: meaning and genre with the act catalog
 

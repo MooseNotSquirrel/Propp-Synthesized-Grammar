@@ -8,7 +8,7 @@ Every genre result of this project rests on blind transcription by language mode
 
 ## The material
 
-**The tales:** the 45 tales whose schemes Propp printed in Appendix III, as the first project holds them (`TaleTokenStreamsV4Utf8.txt`, numbers 93 to 167, the collection's modern numbering). Their texts are in the transcriber repository `Story Language/Projects/Afanasyev` (GitHub Propp-Afanasyev), in the original language, from Russian Wikisource, which follows the academic edition of 1984-85.
+**The tales:** the 45 tales whose schemes Propp printed in Appendix III, as the first project holds them (`TaleTokenStreamsV4Utf8.txt`, numbers 93 to 167, the collection's modern numbering). Their texts are in the transcriber repository `StoryLanguage/Projects/Afanasyev` (GitHub Propp-Afanasyev), in the original language, from Russian Wikisource, which follows the academic edition of 1984-85.
 
 **Propp's answer:** each tale's scheme as `embedCorpus.py` derives it from that file: per move, the base symbols with varieties and signs dropped. Branching braces are flattened in printed order, every branch kept, since Propp uses them for repeated and parallel episodes; an embedded move is expanded where it stands. Propp's schemes print no preparatory functions (p.116), so they are left out of ours before comparing.
 

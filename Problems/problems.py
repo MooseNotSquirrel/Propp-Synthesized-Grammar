@@ -3,7 +3,7 @@
 problems.py -- the test of the genres' problem structures (ProblemsProtocol.md).
 
   python problems.py setup-acts   writes the act describers' material and prompts
-                                  into Story Language/Projects/ActsRoles/problems/
+                                  into StoryLanguage/Projects/ActsRoles/problems/
   python problems.py form-acts    checks the act descriptions' form
   python problems.py setup-sig    writes the significance describers' inputs and prompts,
                                   from the act descriptions
