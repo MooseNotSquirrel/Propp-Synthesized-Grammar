@@ -3,7 +3,7 @@
 significance.py -- the test of a significance layer (SignificanceProtocol.md).
 
   python significance.py setup   writes the describers' material, rules and prompts
-                                 into Story Language/ActsRoles/sig/
+                                 into Story Language/Projects/ActsRoles/sig/
   python significance.py form    checks the returned descriptions' form
   python significance.py score   scores them; writes Significance/SignificanceRun.txt
 

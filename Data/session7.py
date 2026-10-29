@@ -3,7 +3,7 @@
 session7.py -- the reader stages of Data/Plan.md session 7 (Data/Session7Protocol.md).
 
   python session7.py setup1 --dry   say what run 1's setup would write, and write nothing
-  python session7.py setup1         write run 1's material and prompts into Story Language/ActsRoles:
+  python session7.py setup1         write run 1's material and prompts into Story Language/Projects/ActsRoles:
                                     the animal tales for the hero readers (heroes/stories/ah1.txt, ah2.txt;
                                     prompts hero-A-ah1 ... hero-B-ah2), and the act describers' prompts for
                                     P01 to P08 (hacts-A-g13 ... hacts-B-g16), with P05 to P08's cast lists

@@ -2,7 +2,7 @@
 """
 free.py -- the bottom-up test: acts described in the describers' own verbs (FreeProtocol.md).
 
-  python free.py setup     writes the rules and prompts into Story Language/ActsRoles/free/
+  python free.py setup     writes the rules and prompts into Story Language/Projects/ActsRoles/free/
   python free.py form      checks the descriptions' form
   python free.py score     scores them; writes Free/FreeRun.txt
 

@@ -25,8 +25,8 @@
 ## 2026-09-28 to 10-06: Propp's model tested on other genres
 
 **Why:** to see whether Propp's morphology holds beyond the Russian wondertale.
-**09-28 to 09-29, Greek myth (Apollodorus):** the claim fails: coverage 57% to 70%, acceptance low, order little better than shuffled (`Story Language/Apollodorus`).
-**09-29, Aesop's fables:** the claim fails; the fable's kernel is want, trick, complicity, harm (`Story Language/Aesop`).
+**09-28 to 09-29, Greek myth (Apollodorus):** the claim fails: coverage 57% to 70%, acceptance low, order little better than shuffled (`Story Language/Projects/Apollodorus`).
+**09-29, Aesop's fables:** the claim fails; the fable's kernel is want, trick, complicity, harm (`Story Language/Projects/Aesop`).
 **09-29 to 10-06, Greek tragedy, 32 plays:** run one play at a time, sealed until the model was frozen; the tragedy order model holds on unseen plays, about twice as strong as Propp's; tragedy covers far fewer events with Propp's functions (`Tragedy/`).
 **09-30, blocks:** Propp's pairs and groups are told together beyond chance in every genre (`Blocks/`); the fable grammar fails its held-out test on coverage while its order holds; the claim that order inside a block is near obligatory withdrawn (the definitions card fixes it).
 

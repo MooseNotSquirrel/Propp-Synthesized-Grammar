@@ -642,7 +642,7 @@ NEXT: at the owner's word, the 25 tales of each source chosen from its table of 
   - Swanton's entry 11 names two stories, taken as one.
   - Griffis's "Smells and Jingles" may be a set of short pieces, kept as the table of contents gives it.
 NEXT: at the owner's word, in a fresh session given its cost, the event-list stage for the 100 tales.
-**2026-10-28. The two corpus repositories set up.** The owner created Propp-NativeAmerican and Propp-EastAsian on GitHub. They are cloned to `Story Language/NativeAmerican` and `Story Language/EastAsian`, and each has a first `Readme.md` giving its two sources, their public-domain status and links, and what is to come. No tale has been extracted or read. The protocol's section 2 now names them.
+**2026-10-28. The two corpus repositories set up.** The owner created Propp-NativeAmerican and Propp-EastAsian on GitHub. They are cloned to `Story Language/Projects/NativeAmerican` and `Story Language/Projects/EastAsian`, and each has a first `Readme.md` giving its two sources, their public-domain status and links, and what is to come. No tale has been extracted or read. The protocol's section 2 now names them.
 NEXT, at the owner's word: the tales extracted mechanically by the tables of contents into each repository's `tales/`. That is the first time the tales are opened, after the freeze. Then the event-list stage.
 **2026-10-28. The road reordered at the owner's word:** the probabilistic story grammar (`ProppQueue.md` item (n), step 5) is to be built, fitted on the five existing corpora and frozen before the Native American and East Asian transcriptions are read, so that those corpora stay an unseen test of it.
 - **Meanwhile:** their collection may go on, provided no one analyses its results against the grammar while it is being built.
@@ -683,7 +683,7 @@ NEXT, at the owner's word: the fitted grammar frozen (section 9, step 4), then t
 - **What is frozen:** the program at 422dff8, and `Weights-A.txt` and `Weights-B.txt`, by their SHA-256 hashes. No refit, and no tuning on the held-out stories.
 - **What follows:** predictions 3 and 4, scored on the cross-cultural tales by a command committed before their tables are read.
 NEXT, at the owner's word: the extraction of the 100 cross-cultural tales (section 9, step 5), or item (o).
-**2026-10-28. The 100 cross-cultural tales extracted** (`Story Language/NativeAmerican` and `EastAsian`, each with `source/`, `extract.py` and `tales/`). At the owner's word, after the story grammar's freeze, with the owner's approval of the four downloads.
+**2026-10-28. The 100 cross-cultural tales extracted** (`Story Language/Projects/NativeAmerican` and `EastAsian`, each with `source/`, `extract.py` and `tales/`). At the owner's word, after the story grammar's freeze, with the owner's approval of the four downloads.
 - **The sources:** Swanton (Gutenberg #78871), Dorsey and Fielde (Internet Archive OCR text), and Griffis (Gutenberg #29337). They are kept byte-exact, with their SHA-256 hashes in `extract.py`.
 - **The cut:** each tale runs from its heading to the next tale's heading. The bounds were found from headings alone, committed in `extract.py` before it ran. Lowercase-masked views were used where Dorsey's OCR spoilt three titles.
 - **Dorsey:** the free English only, from each myth's TRANSLATION. line to the next myth's title. A function-word count (no text shown) puts every file at 41% or more, so English, not interlinear.
@@ -787,3 +787,14 @@ NEXT, at the owner's word: run the two stages, 14 readers in all.
 - The departure from Propp on δ is recorded in `CrossCulture/CrossCultureProtocol.md` section 9 and in `StoryGrammar/StoryGrammarDesign.md` section 10.
 - The mend is queued as `ProppQueue.md` item (p), for a later version of the story grammar, after predictions 3 and 4.
 - No card, rule or frozen file was changed.
+**2026-10-29. Story Language reorganised, at the owner's word.**
+- **Moved into `Story Language/Projects`:** every project:
+  - `RegularProppGrammar`, renamed from `Project Files`;
+  - ActsRoles, Aesop, Afanasyev, AnimalTales, Apollodorus, EastAsian, Fables, NativeAmerican, SynthesizedProppGrammar, Tragedy and XStudy;
+  - `Other collections to measure.md`.
+- **Moved into `Archive`:** Chat Library, Jack and the Beanstalk, Temporary and Toolchain document, and four loose files.
+- **Left at the top:** Delivery, Logic Thread and Propp PDF.
+- **The references:** written paths and every mention of `Project Files` were rewritten by a script.
+  - The readers' replies saved verbatim (107 `Report*.md` files) are left as written.
+  - The projects find one another by relative sibling paths, which the move keeps. The only absolute paths in code, in `XStudy/xForm.py`, were rewritten.
+  - The GitHub repositories keep their names.

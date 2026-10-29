@@ -12,7 +12,7 @@
 ## The repositories
 
 **Transcriber repositories** (Propp-Afanasyev, Propp-Aesop, Propp-Fables, Propp-Tragedy, Propp-XStudy, Propp-ActsRoles, Propp-Apollodorus) hold only the stories, their event lists, the rules, the prompts and `RUN.md`; nothing of the keeper's.
-**The keeper's repositories** (the first project, `Project Files`, and the second, `SynthesizedProppGrammar`) hold the protocols, programs, results and logs. Each study has its folder: a protocol, its programs, its outputs and a keeper log.
+**The keeper's repositories** (the first project, `RegularProppGrammar`, and the second, `SynthesizedProppGrammar`) hold the protocols, programs, results and logs. Each study has its folder: a protocol, its programs, its outputs and a keeper log.
 
 ## Test first
 
@@ -51,4 +51,4 @@
 
 **Each finding goes into `PreliminaryFindings.md`** marked as established, tested, tentative or withdrawn, and a reading is labelled as the keeper's, not Propp's and not the owner's.
 **A claim found too strong is withdrawn in so many words,** where it stood.
-**The queue** (`Project Files/ProppQueue.md`) names what is done and what is next, and each session begins by reading it.
+**The queue** (`RegularProppGrammar/ProppQueue.md`) names what is done and what is next, and each session begins by reading it.

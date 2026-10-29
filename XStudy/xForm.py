@@ -2,10 +2,10 @@
 """xForm.py GENRE -- form check of a stage 5 transcription: every event has an entry, every symbol is
 Propp's or a candidate act, every entry is marked Y or N. Parses nothing, judges nothing."""
 import sys,re,glob,collections,os
-sys.path.insert(0,r'C:/Users/Steve1/Desktop/Story Language/SynthesizedProppGrammar/Tragedy')
+sys.path.insert(0,r'C:/Users/Steve1/Desktop/Story Language/Projects/SynthesizedProppGrammar/Tragedy')
 import tragedyScore as TS
-X=r'C:/Users/Steve1/Desktop/Story Language/XStudy'
-CANDS=[l.split('|')[1].strip() for l in open(r'C:/Users/Steve1/Desktop/Story Language/SynthesizedProppGrammar/XStudy/Candidates.md',encoding='utf-8') if l.startswith('| x')]
+X=r'C:/Users/Steve1/Desktop/Story Language/Projects/XStudy'
+CANDS=[l.split('|')[1].strip() for l in open(r'C:/Users/Steve1/Desktop/Story Language/Projects/SynthesizedProppGrammar/XStudy/Candidates.md',encoding='utf-8') if l.startswith('| x')]
 g=sys.argv[1]
 def events():
     ev=collections.defaultdict(set)

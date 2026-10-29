@@ -4,7 +4,7 @@ names.py -- the name stage (Data/NamesProtocol.md, frozen 2026-10-26): the chara
 leaves unknown, given to two readers to sort.
 
   python names.py setup --dry   say what the setup would write, and write nothing
-  python names.py setup         write the batches and prompts into Story Language/ActsRoles (names/input/n1.txt ...
+  python names.py setup         write the batches and prompts into Story Language/Projects/ActsRoles (names/input/n1.txt ...
                                 n8.txt; prompts names-A-n1 ... names-B-n8), and on the keeper's side the item key
                                 (Characters/NameItems.tsv) and the controls (Characters/NameControls.txt)
   python names.py setup2 --dry  the second stage (Characters/KindRule.md, adopted 2026-10-27): say what it would write

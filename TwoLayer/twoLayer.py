@@ -3,7 +3,7 @@
 twoLayer.py -- the test of a catalog of acts and relations (TwoLayerProtocol.md).
 
   python twoLayer.py setup   writes the transcribers' material, prompts and run file
-                             into Story Language/ActsRoles
+                             into Story Language/Projects/ActsRoles
   python twoLayer.py score   scores the act transcriptions against the original
                              function transcriptions; writes TwoLayer/TwoLayerRun.txt
 

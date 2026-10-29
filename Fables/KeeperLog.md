@@ -4,7 +4,7 @@
 `FableEBNF01.txt`, `fableGrammar.py`, `FablePrediction.txt` and `fableDraw.py` were committed before the draw (second project c7ac5c1).
 
 **The draw.**
-`fableDraw.py` drew 100 of the 210 undrawn fables with seed 3401 into the new repository's `Sample.txt` (`Story Language/Fables`, GitHub Propp-Fables).
+`fableDraw.py` drew 100 of the 210 undrawn fables with seed 3401 into the new repository's `Sample.txt` (`Story Language/Projects/Fables`, GitHub Propp-Fables).
 
 **F001 dropped before any run, as a flaw of the instrument, not a result.**
 `AesopRules.md` uses F001, "The Lion And The Mouse", as its worked example: its first event, its hero ("the Mouse") and two sample transcription lines. In the first Aesop run F001 was not drawn; here it was, and a lister or transcriber would be copying the rules' example rather than reading the fable.

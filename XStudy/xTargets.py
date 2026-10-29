@@ -4,7 +4,7 @@ xTargets.py -- the X study's target events (XStudyProtocol.md).
 
   python xTargets.py     writes XStudy/Targets.txt (keeper side: every target event,
                          discovery and test, with its genre and link) and the
-                         labelers' material, Story Language/XStudy/stories/b1..b4.txt
+                         labelers' material, Story Language/Projects/XStudy/stories/b1..b4.txt
                          (discovery only)
 
 A target event: in the original transcriptions, both transcribers wrote only

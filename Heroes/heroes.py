@@ -2,7 +2,7 @@
 """
 heroes.py -- judged heroes against the counting rule (HeroProtocol.md).
 
-  python heroes.py setup   writes the readers' material and prompts into Story Language/ActsRoles/heroes/
+  python heroes.py setup   writes the readers' material and prompts into Story Language/Projects/ActsRoles/heroes/
   python heroes.py score   writes Heroes/HeroRun.txt and Heroes/JudgedHeroes.txt
 
 Written in full before any reader saw a story.
