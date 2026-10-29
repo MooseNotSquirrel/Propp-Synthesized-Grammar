@@ -741,3 +741,15 @@ NEXT, at the owner's word: write and run `native-latin`.
   - O19 ends "He did wrong!", which the reader did not treat as a moral.
 - **Joined:** `native/Events.txt` has 50 tales and 1,803 events; `native/Heroes.txt` has 50 lines. With `eastasian/` (50 tales, 1,055 events), the new corpora's event lists are complete.
 NEXT, at the owner's word: the transcription stage (Propp's functions on card C, two blind transcribers), as `animal-transcribe` was.
+**2026-10-28. The new corpora's transcription stages set up** (`CrossCulture/setupTranscribe.py`, committed before it wrote; Propp-ActsRoles). At the owner's word, after a dry run.
+- **The stages:** `native-transcribe` and `eastasian-transcribe`, Propp's functions on card C, modelled on `animal-transcribe`. Each has two blind transcribers, A on Opus and B on Sonnet.
+- **The batches:**
+  - East Asian: the event lists' three batches, of 367, 358 and 330 events.
+  - Native: four batches at the owner's word, of 454, 462, 444 and 443 events, the most even split in tale order (T01–T06, T07–O01, O02–O15, O16–O25). As three batches they would have held 695, 410 and 698 events, against 508 for the largest animal batch.
+- **The rules:** `TranscribeRules-C.md` is `animal/AfanasyevRules-C.md`, with the card and every stage unchanged. Only three parts change:
+  - the title;
+  - the opening sentence;
+  - the paragraph on language, which takes the event rules' wording (English as it stands; matter that is not the tale; the Latin rule for the native tales, the frame story for the East Asian). Notes quote the text as printed.
+- **The prompts** are `animal-transcribe`'s word for word, but for the corpus, the rules' name, the tales and the language.
+- **In RUN.md:** set up, not cleared. No reader has started.
+NEXT, at the owner's word: run the two stages, 14 readers in all.
