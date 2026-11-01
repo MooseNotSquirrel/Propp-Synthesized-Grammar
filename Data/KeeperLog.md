@@ -804,3 +804,10 @@ NEXT, at the owner's word: run the two stages, 14 readers in all.
 - **ActsRoles:** it moved into `Projects`, completing the reorganisation.
 - **Delivery:** its build manifests (`Package1.manifest`, `Package2.manifest`) still named their sources from the top folder as it was before the move into `Projects`. The 125 rows now point under `Projects/`, and every source exists.
 - **Left as written:** the readers' verbatim replies. Files whose own names hold spaces were not renamed.
+**2026-10-31. The story grammar by levels: protocol frozen** (`StoryGrammar/LevelsProtocol.md`). At the owner's word, all four recommendations taken.
+- **The levels:** section order, pairs, blocks and the whole move, with length left out.
+- **The stories:** held-out only for the existing corpora.
+- **Reported, and one prediction:** reported only for the existing corpora. For the new corpora, one prediction: the concordance against inner shuffles is higher than against section shuffles. It is a reading the keeper offered from the owner's question, not from Propp.
+- **The section orders:** compared by permutation.
+- **Not built:** `levels.py` is not written, and nothing has run.
+NEXT, at the owner's word, after the weekly budget resets: write and commit `levels.py`, pass L1 to L4, and run it on the existing corpora.

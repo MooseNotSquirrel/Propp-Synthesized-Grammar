@@ -1,4 +1,4 @@
-# The story grammar by levels: protocol (DRAFT 2026-10-31, for the owner's review; nothing built or run)
+# The story grammar by levels: protocol (FROZEN 2026-10-31 AT THE OWNER'S WORD, THE FOUR RECOMMENDED DECISIONS TAKEN; nothing built or run)
 
 **Asked by the owner on 2026-10-31.** The frozen story grammar adds all its constraints into one score. A culture might use Propp's devices, his pairs and his blocks, and still order the large sections of a tale in its own way; one blended score would hide that. This protocol separates the grammar's levels, so that each can be read on its own, in the existing corpora and in the new ones.
 
@@ -54,6 +54,13 @@ The grammar's 80 constraints (`StoryGrammarDesign.md` section 4) fall into four 
 
 ## 5. Decisions for the owner
 
+**Taken 2026-10-31: the owner accepted all four recommendations.**
+- The four levels of section 1, with length left out.
+- Held-out stories only for the existing corpora.
+- Reported only for the existing corpora, and for the new corpora the one prediction as worded in decision 3, now frozen: in each new corpus, the concordance against inner shuffles is higher than against section shuffles.
+- Section orders compared by the permutation test.
+
+
 1. **The levels:** the four of section 1, length left out (recommended), or another grouping.
 2. **The stories:** held-out only for the existing corpora (recommended), or all of them.
 3. **Reported only, or with one prediction for the new corpora.**
@@ -65,7 +72,7 @@ The grammar's 80 constraints (`StoryGrammarDesign.md` section 4) fall into four 
 
 ## 6. Order of work, and the cost
 
-1. The owner's review and decisions; this file frozen.
+1. The owner's review and decisions; this file frozen (done 2026-10-31).
 2. The program, `StoryGrammar/levels.py`, written and committed, and L1 to L4 passed, all before any figure is read. Its commands score the existing corpora now, and the new corpora later, by one command each.
 3. Run on the five existing corpora (exploratory), at the owner's word. Planned for after the weekly budget resets.
 4. **On the new corpora:** run only after the frozen grammar's predictions 3 and 4 are scored, and only from tables built after this file and the program are committed.
