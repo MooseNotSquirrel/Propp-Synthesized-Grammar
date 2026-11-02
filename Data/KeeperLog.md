@@ -875,3 +875,19 @@ NEXT, at the owner's word: `predict34.py run` (predictions 3 and 4), then `level
 - **Cautions, stated with the result:**
   - The transcribers are language models reading English translations by Western collectors, on Propp's card. A Proppian order may partly be theirs rather than the tales'. This is CrossCultureProtocol.md's stated risk.
   - Beating shuffles shows ordered narrative, not Propp's order in particular. The controls are queued as item (q).
+**2026-11-02. The new corpora's act and free-verb stages run** (Propp-ActsRoles `native-acts`, `eastasian-acts`, `native-free` and `eastasian-free`, set up by `CrossCulture/setupLayers.py` and cleared at 70bddb8; merged d0af8b0, a068c68, ed3bc16 and dcee5aa). At the owner's word.
+- **The run:** 28 describers, A on Opus and B on Sonnet. Every reply is saved verbatim as its folder's `Report.md`. Each of the 28 folders holds exactly `Notes.txt` and `Report.md`. The outputs have not been read by the keeper.
+- **A deviation from RUN.md's "all at once":** the app runs at most 20 subagents together.
+  - All 14 act describers started at once.
+  - `native-free` started 6 of its 8 together, B-b3 and B-b4 later.
+  - The six `eastasian-free` describers started together, after the others had freed their slots and before any of that stage's files existed.
+  - The cost of the stagger: native-free B-b1 reports that it listed its parent folder and saw a sibling folder, b2, which it did not open. No other describer reports seeing another's files.
+- **Working files:** several describers kept them in their own scratchpads, outside the repository, and say so. Nothing stray is in the repository.
+- **Flagged most often by the describers,** for the form check:
+  - performers the passive text does not name;
+  - acts with a thing as performer (tide, disease, thunder);
+  - relations the table lacks (in-laws, neighbours, claimed kin);
+  - feelings and non-acts written as acts;
+  - where to split an event into several acts;
+  - the Latin passages, translated in the notes.
+NEXT, at the owner's word: the four stages checked in form and copied to the corpus repositories; then the significance stage, set up from the act descriptions; then heroes.
