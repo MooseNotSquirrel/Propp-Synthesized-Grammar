@@ -238,7 +238,10 @@ def recorded():
 
 
 # ---------------------------------------------------------------- the report
-def report(weights, datas, corpora, part, title):
+def report(weights, datas, corpora, part, title, wfun=None, tested=None):
+    """wfun(fitted, corpus): the raw weights a corpus is scored by, its genre's by default; tested, if given, collects
+    {(corpus, transcriber): (mean, p)} of the inner-minus-section test"""
+    wfun = wfun or S.weights_of
     rep = [title, '']
     m3 = {}
     for L in 'AB':
@@ -249,7 +252,7 @@ def report(weights, datas, corpora, part, title):
         m2 = []
         for g in corpora:
             items = data[g][part]
-            rows = measure(S.weights_of(w, g), items, S.pool(data[g]['fit']))
+            rows = measure(wfun(w, g), items, S.pool(data[g]['fit']))
             rep.append('    %-9s %4d ' % (g, len(rows)) + ' '.join('%7.3f' % wmean(rows, 'm1', k)[0] if k != 'sections' else '%9.3f' % wmean(rows, 'm1', k)[0]
                                                          for k in list(LEVELS) + ['all']))
             m2.append((g, rows))
@@ -267,6 +270,8 @@ def report(weights, datas, corpora, part, title):
                 rep.append('    %-9s %3d stories: fewer than 10, not tested' % (g, stories))
                 continue
             obs, p = flip(d, S.SEED)
+            if tested is not None:
+                tested[(g, L)] = (obs, p)
             rep.append('    %-9s %3d stories: mean %+.3f (p %.4f)' % (g, stories, obs, p))
         rep.append('  M3, each corpus\'s order of the sections (all stories), and Kendall\'s tau with Propp\'s order:')
         for g in corpora:
@@ -367,11 +372,36 @@ def run():
     print(text, end='')
 
 
+NEW_OUT = os.path.join(HERE, 'LevelsNew.txt')
+
+
 def new():
-    if not os.path.exists(PRED34) or any(g not in S.C.PATS for g in NEW):
+    """the new corpora, all their stories, under the shared weights (as prediction 3 scores them); and the frozen prediction
+    of LevelsProtocol.md decision 3: in each new corpus, concordance against inner shuffles above that against section
+    shuffles, by the paired sign-flip test at p at most 0.05 with at least 10 stories; per transcriber, HOLDS, SPLIT or FAILS"""
+    import predict34 as P34
+    if not os.path.exists(PRED34) or not P34.present():
         raise SystemExit('refused: the new corpora are scored only after predictions 3 and 4 are on record (%s) and their '
                          'tables exist' % os.path.basename(PRED34))
-    raise SystemExit('the new corpora\'s command is to be completed, and committed, when their tables exist')
+    weights = {L: frozen(L) for L in 'AB'}
+    datas = {L: {c: {'fit': P34.load_new(c, L), 'all': P34.load_new(c, L)} for c in NEW} for L in 'AB'}
+    tested = {}
+    text = report(weights, datas, NEW, 'all',
+                  '# LevelsNew.txt -- levels.py new: LevelsProtocol.md on the Native American and East Asian tales, all stories, '
+                  'under the frozen grammar\'s shared weights; the frozen prediction of decision 3 below.',
+                  wfun=lambda fitted, c: P34.shared(fitted), tested=tested)
+    lines = ['THE FROZEN PREDICTION (LevelsProtocol.md decision 3): inner-shuffle concordance above section-shuffle concordance']
+    for c in NEW:
+        cells = {L: tested.get((c, L)) for L in 'AB'}
+        ok = {L: bool(cells[L]) and cells[L][0] > 0 and cells[L][1] <= 0.05 for L in 'AB'}
+        lines.append('  %-9s A %s, B %s -> %s' % (c, '%+.3f (p %.4f)' % cells['A'] if cells['A'] else 'not tested',
+                                                   '%+.3f (p %.4f)' % cells['B'] if cells['B'] else 'not tested',
+                                                   S.verdict(ok['A'], ok['B'])))
+    text += '\n'.join(lines) + '\n'
+    if os.path.exists(NEW_OUT) and open(NEW_OUT, encoding='utf-8').read() != text:
+        raise SystemExit('refusing to overwrite %s with different content' % NEW_OUT)
+    open(NEW_OUT, 'w', encoding='utf-8', newline='\n').write(text)
+    print(text, end='')
 
 
 if __name__ == '__main__':

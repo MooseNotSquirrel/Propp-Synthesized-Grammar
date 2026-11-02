@@ -24,7 +24,7 @@ OUT = os.path.join(HERE, 'tables')
 sys.path.insert(0, os.path.join(ROOT, 'Tragedy'))
 import tragedyScore as TS  # noqa: E402
 
-ID = re.compile(r'^([AFPS]\d{2,3}|L\d-\d{3}|E-\d{3})(?:/(\w+))?$')
+ID = re.compile(r'^([AFPS]\d{2,3}|L\d-\d{3}|E-\d{3}|[TOCJ]\d{2})(?:/(\w+))?$')
 MODEL = {'A': 'Opus', 'B': 'Sonnet'}
 
 # corpus, genre, language, repository, the event lists, the function transcriptions as (card, glob with %s for the reader)
@@ -41,6 +41,11 @@ CORPORA = [
      [('Tragedy', 'Tragedy/transcriptions/%s/P[0-9][0-9]/Notes.txt')]),
     ('myth', 'myth', 'English', 'Apollodorus', ['Apollodorus/Apollodorus/ApollodorusEvents.txt'],
      [('Myth', 'Apollodorus/Apollodorus/transcriptions/%s/*/Notes.txt')]),
+    # the cross-cultural corpora (CrossCulture/CrossCultureProtocol.md), added 2026-11-02 after the story grammar's freeze
+    ('native', 'native tale', 'English', 'NativeAmerican', ['NativeAmerican/Events.txt'],
+     [('C', 'NativeAmerican/transcriptions/%s/*/Notes.txt')]),
+    ('eastasian', 'east asian tale', 'English', 'EastAsian', ['EastAsian/Events.txt'],
+     [('C', 'EastAsian/transcriptions/%s/*/Notes.txt')]),
 ]
 PROPP = 'SynthesizedProppGrammar/TaleTokenStreamsV4Utf8.txt'
 CENSUS = []   # (file, lines, kept, {reason: n}, [unexplained line numbers])
