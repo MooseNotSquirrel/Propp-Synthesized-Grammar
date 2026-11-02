@@ -154,6 +154,22 @@ Apollodorus/Apollodorus/transcriptions/B/b06/Notes.txt	lines 330	kept 330	-	unex
 Apollodorus/Apollodorus/transcriptions/B/b07/Notes.txt	lines 317	kept 317	-	unexplained 0
 Apollodorus/Apollodorus/transcriptions/B/b08/Notes.txt	lines 324	kept 308	blank 16	unexplained 0
 Apollodorus/Apollodorus/transcriptions/B/b09/Notes.txt	lines 151	kept 151	-	unexplained 0
+NativeAmerican/Events.txt	lines 1803	kept 1803	-	unexplained 0
+NativeAmerican/transcriptions/A/b1/Notes.txt	lines 481	kept 481	-	unexplained 0
+NativeAmerican/transcriptions/A/b2/Notes.txt	lines 519	kept 519	-	unexplained 0
+NativeAmerican/transcriptions/A/b3/Notes.txt	lines 493	kept 493	-	unexplained 0
+NativeAmerican/transcriptions/A/b4/Notes.txt	lines 463	kept 463	-	unexplained 0
+NativeAmerican/transcriptions/B/b1/Notes.txt	lines 477	kept 477	-	unexplained 0
+NativeAmerican/transcriptions/B/b2/Notes.txt	lines 506	kept 506	-	unexplained 0
+NativeAmerican/transcriptions/B/b3/Notes.txt	lines 460	kept 460	-	unexplained 0
+NativeAmerican/transcriptions/B/b4/Notes.txt	lines 472	kept 472	-	unexplained 0
+EastAsian/Events.txt	lines 1055	kept 1055	-	unexplained 0
+EastAsian/transcriptions/A/b1/Notes.txt	lines 471	kept 471	-	unexplained 0
+EastAsian/transcriptions/A/b2/Notes.txt	lines 382	kept 382	-	unexplained 0
+EastAsian/transcriptions/A/b3/Notes.txt	lines 344	kept 344	-	unexplained 0
+EastAsian/transcriptions/B/b1/Notes.txt	lines 436	kept 436	-	unexplained 0
+EastAsian/transcriptions/B/b2/Notes.txt	lines 385	kept 385	-	unexplained 0
+EastAsian/transcriptions/B/b3/Notes.txt	lines 347	kept 347	-	unexplained 0
 SynthesizedProppGrammar/TaleTokenStreamsV4Utf8.txt	lines 601	kept 176	blank 46, heading or comment 379	unexplained 0
 SynthesizedProppGrammar/ResolvedMoves.txt	lines 100	kept 84	heading or comment 16	unexplained 0
 Aesop/Fables.txt	lines 313	kept 313	-	unexplained 0

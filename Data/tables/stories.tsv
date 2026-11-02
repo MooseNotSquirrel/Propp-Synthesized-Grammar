@@ -49,6 +49,56 @@ animal:A047	animal	animal tale	A047	AnimalTales	Russian		24
 animal:A048	animal	animal tale	A048	AnimalTales	Russian		39	
 animal:A049	animal	animal tale	A049	AnimalTales	Russian		9	
 animal:A050	animal	animal tale	A050	AnimalTales	Russian		11	
+eastasian:C01	eastasian	east asian tale	C01	EastAsian	English		31	
+eastasian:C02	eastasian	east asian tale	C02	EastAsian	English		39	
+eastasian:C03	eastasian	east asian tale	C03	EastAsian	English		26	
+eastasian:C04	eastasian	east asian tale	C04	EastAsian	English		21	
+eastasian:C05	eastasian	east asian tale	C05	EastAsian	English		10	
+eastasian:C06	eastasian	east asian tale	C06	EastAsian	English		8	
+eastasian:C07	eastasian	east asian tale	C07	EastAsian	English		7	
+eastasian:C08	eastasian	east asian tale	C08	EastAsian	English		28	
+eastasian:C09	eastasian	east asian tale	C09	EastAsian	English		21	
+eastasian:C10	eastasian	east asian tale	C10	EastAsian	English		11	
+eastasian:C11	eastasian	east asian tale	C11	EastAsian	English		22	
+eastasian:C12	eastasian	east asian tale	C12	EastAsian	English		15	
+eastasian:C13	eastasian	east asian tale	C13	EastAsian	English		18	
+eastasian:C14	eastasian	east asian tale	C14	EastAsian	English		36	
+eastasian:C15	eastasian	east asian tale	C15	EastAsian	English		15	
+eastasian:C16	eastasian	east asian tale	C16	EastAsian	English		16	
+eastasian:C17	eastasian	east asian tale	C17	EastAsian	English		43	
+eastasian:C18	eastasian	east asian tale	C18	EastAsian	English		29	
+eastasian:C19	eastasian	east asian tale	C19	EastAsian	English		36	
+eastasian:C20	eastasian	east asian tale	C20	EastAsian	English		8	
+eastasian:C21	eastasian	east asian tale	C21	EastAsian	English		9	
+eastasian:C22	eastasian	east asian tale	C22	EastAsian	English		15	
+eastasian:C23	eastasian	east asian tale	C23	EastAsian	English		25	
+eastasian:C24	eastasian	east asian tale	C24	EastAsian	English		34	
+eastasian:C25	eastasian	east asian tale	C25	EastAsian	English		22	
+eastasian:J01	eastasian	east asian tale	J01	EastAsian	English		13	
+eastasian:J02	eastasian	east asian tale	J02	EastAsian	English		21	
+eastasian:J03	eastasian	east asian tale	J03	EastAsian	English		15	
+eastasian:J04	eastasian	east asian tale	J04	EastAsian	English		25	
+eastasian:J05	eastasian	east asian tale	J05	EastAsian	English		25	
+eastasian:J06	eastasian	east asian tale	J06	EastAsian	English		22	
+eastasian:J07	eastasian	east asian tale	J07	EastAsian	English		17	
+eastasian:J08	eastasian	east asian tale	J08	EastAsian	English		23	
+eastasian:J09	eastasian	east asian tale	J09	EastAsian	English		19	
+eastasian:J10	eastasian	east asian tale	J10	EastAsian	English		11	
+eastasian:J11	eastasian	east asian tale	J11	EastAsian	English		17	
+eastasian:J12	eastasian	east asian tale	J12	EastAsian	English		29	
+eastasian:J13	eastasian	east asian tale	J13	EastAsian	English		22	
+eastasian:J14	eastasian	east asian tale	J14	EastAsian	English		3	
+eastasian:J15	eastasian	east asian tale	J15	EastAsian	English		16	
+eastasian:J16	eastasian	east asian tale	J16	EastAsian	English		49	
+eastasian:J17	eastasian	east asian tale	J17	EastAsian	English		33	
+eastasian:J18	eastasian	east asian tale	J18	EastAsian	English		18	
+eastasian:J19	eastasian	east asian tale	J19	EastAsian	English		13	
+eastasian:J20	eastasian	east asian tale	J20	EastAsian	English		24	
+eastasian:J21	eastasian	east asian tale	J21	EastAsian	English		20	
+eastasian:J22	eastasian	east asian tale	J22	EastAsian	English		35	
+eastasian:J23	eastasian	east asian tale	J23	EastAsian	English		11	
+eastasian:J24	eastasian	east asian tale	J24	EastAsian	English		9	
+eastasian:J25	eastasian	east asian tale	J25	EastAsian	English		20	
 fable:F001	fable	fable	F001	Aesop/Fables.txt	English	The Lion And The Mouse	0	
 fable:F002	fable	fable	F002	Aesop/Fables.txt	English	The Wolf And The Lamb	0	
 fable:F003	fable	fable	F003	Aesop/Fables.txt	English	The Ass And The Grasshopper	0	
@@ -774,6 +824,56 @@ myth:L3-151	myth	myth	L3-151	Apollodorus	English		14
 myth:L3-152	myth	myth	L3-152	Apollodorus	English		7	
 myth:L3-153	myth	myth	L3-153	Apollodorus	English		8	
 myth:L3-154	myth	myth	L3-154	Apollodorus	English		8	
+native:O01	native	native tale	O01	NativeAmerican	English		20	
+native:O02	native	native tale	O02	NativeAmerican	English		15	
+native:O03	native	native tale	O03	NativeAmerican	English		29	
+native:O04	native	native tale	O04	NativeAmerican	English		16	
+native:O05	native	native tale	O05	NativeAmerican	English		20	
+native:O06	native	native tale	O06	NativeAmerican	English		37	
+native:O07	native	native tale	O07	NativeAmerican	English		17	
+native:O08	native	native tale	O08	NativeAmerican	English		17	
+native:O09	native	native tale	O09	NativeAmerican	English		38	
+native:O10	native	native tale	O10	NativeAmerican	English		63	
+native:O11	native	native tale	O11	NativeAmerican	English		55	
+native:O12	native	native tale	O12	NativeAmerican	English		27	
+native:O13	native	native tale	O13	NativeAmerican	English		55	
+native:O14	native	native tale	O14	NativeAmerican	English		25	
+native:O15	native	native tale	O15	NativeAmerican	English		30	
+native:O16	native	native tale	O16	NativeAmerican	English		44	
+native:O17	native	native tale	O17	NativeAmerican	English		86	
+native:O18	native	native tale	O18	NativeAmerican	English		25	
+native:O19	native	native tale	O19	NativeAmerican	English		33	
+native:O20	native	native tale	O20	NativeAmerican	English		33	
+native:O21	native	native tale	O21	NativeAmerican	English		14	
+native:O22	native	native tale	O22	NativeAmerican	English		48	
+native:O23	native	native tale	O23	NativeAmerican	English		78	
+native:O24	native	native tale	O24	NativeAmerican	English		59	
+native:O25	native	native tale	O25	NativeAmerican	English		23	
+native:T01	native	native tale	T01	NativeAmerican	English		316	
+native:T02	native	native tale	T02	NativeAmerican	English		9	
+native:T03	native	native tale	T03	NativeAmerican	English		56	
+native:T04	native	native tale	T04	NativeAmerican	English		30	
+native:T05	native	native tale	T05	NativeAmerican	English		15	
+native:T06	native	native tale	T06	NativeAmerican	English		28	
+native:T07	native	native tale	T07	NativeAmerican	English		31	
+native:T08	native	native tale	T08	NativeAmerican	English		42	
+native:T09	native	native tale	T09	NativeAmerican	English		34	
+native:T10	native	native tale	T10	NativeAmerican	English		22	
+native:T11	native	native tale	T11	NativeAmerican	English		22	
+native:T12	native	native tale	T12	NativeAmerican	English		6	
+native:T13	native	native tale	T13	NativeAmerican	English		19	
+native:T14	native	native tale	T14	NativeAmerican	English		6	
+native:T15	native	native tale	T15	NativeAmerican	English		23	
+native:T16	native	native tale	T16	NativeAmerican	English		13	
+native:T17	native	native tale	T17	NativeAmerican	English		23	
+native:T18	native	native tale	T18	NativeAmerican	English		35	
+native:T19	native	native tale	T19	NativeAmerican	English		17	
+native:T20	native	native tale	T20	NativeAmerican	English		42	
+native:T21	native	native tale	T21	NativeAmerican	English		16	
+native:T22	native	native tale	T22	NativeAmerican	English		26	
+native:T23	native	native tale	T23	NativeAmerican	English		14	
+native:T24	native	native tale	T24	NativeAmerican	English		33	
+native:T25	native	native tale	T25	NativeAmerican	English		18	
 tale:A093	tale	wondertale	A093	Afanasyev	Russian	The Witch and the Sun's Sister	29	Y
 tale:A095	tale	wondertale	A095	Afanasyev	Russian	Jack Frost	18	Y
 tale:A098	tale	wondertale	A098	Afanasyev	Russian	Daughter and Stepdaughter	22	Y

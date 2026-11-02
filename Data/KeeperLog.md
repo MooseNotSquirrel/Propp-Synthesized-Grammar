@@ -846,3 +846,17 @@ NEXT, at the owner's word: the transcriptions checked in form and built into the
   - The large-scale order is the wondertale's own. The tragedies keep no trace of it, and the animal tales little.
   - The pairs travel further. In the tragedies, under A, the real order beats the inner shuffles far more than the section shuffles.
   - But the difference is not significant in any corpus that could be tested.
+**2026-11-02. The new corpora checked in form and built into the tables; their scoring committed first** (`CrossCulture/newCorpora.py`, `Data/build.py`, `StoryGrammar/predict34.py` and `levels.py new`, all in 7466edf, before any new table existed). At the owner's word.
+- **In form:** all 14 batches. Every entry has eleven fields and names a listed event of a tale in its batch; every function reads; every flag is Y or N; every listed event is covered in every version; each folder holds exactly its three files.
+  - Native A 1,956 entries, B 1,915. East Asian A 1,197, B 1,168.
+  - Versions: T11 and C05, by both transcribers.
+- **Copied byte for byte** to Propp-NativeAmerican (a31a126) and Propp-EastAsian (2120a95): `Events.txt`, `Heroes.txt` and `transcriptions/`, 46 files.
+- **Built:** `build.py` now lists the two corpora, and its id pattern takes T, O, C and J. T1, T2 and T4 pass.
+  - Against a snapshot taken before the build, every row of every existing table is unchanged and in order.
+  - The new rows are 100 stories, 2,858 events and 6,236 function rows, all the new corpora's.
+  - G2, X1 and the parity self-test still pass.
+- **Counted, not scored** (`predict34.py dry`): stories with at least three units:
+  - native: 50 (A, 51 versions) and 49 (B);
+  - East Asian: 44 (A) and 46 (B).
+- **Not run:** `predict34.py run` and `levels.py new`.
+NEXT, at the owner's word: `predict34.py run` (predictions 3 and 4), then `levels.py new`; then the other layers of the new corpora.
