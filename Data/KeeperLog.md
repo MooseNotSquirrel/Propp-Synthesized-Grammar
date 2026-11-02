@@ -826,3 +826,23 @@ NEXT, at the owner's word, after the weekly budget resets: write and commit `lev
   - **Latin passages:** translated in the notes, as the rule on Latin asks.
   - **O25's gaps,** marked "* * *" in the printed text.
 NEXT, at the owner's word: the transcriptions checked in form and built into the tables; then the scoring command for predictions 3 and 4, committed before those tables are read.
+**2026-11-01. The story grammar by levels, on the five existing corpora** (`StoryGrammar/levels.py`, committed df40e52 before any test; `StoryGrammar/LevelsRun.txt`). EXPLORATORY, reported only; the frozen grammar is unchanged.
+- **Tests:** L1 to L4 pass. The record is reproduced; 302 shuffles were checked; a planted culture with its sections reversed is caught; two reports are byte-identical.
+- **M1, the levels one at a time:** the wondertales are strongest on section order (0.976 A, 0.996 B) and on pairs (0.959, 0.977). In the animal tales (A) and the tragedies (A), the pairs carry more than the section order. In the myths, section order is weak (0.711, 0.762).
+- **M2, the targeted shuffles,** under the whole grammar, section / inner:
+  - wondertales 0.877 / 0.916 (A), 0.913 / 0.961 (B);
+  - tragedies 0.682 / 0.948 (A), 0.634 / 0.672 (B);
+  - myths 0.717 / 0.831 (A), 0.788 / 0.720 (B);
+  - fables 0.720 / 0.663 (A), 0.850 / 0.850 (B).
+  - Where tested (at least 10 stories), inner minus section is not significant in any corpus.
+- **M3, each corpus's own section order,** Kendall's tau with Propp's (A / B):
+  - wondertales +0.644 / +0.644;
+  - fables +0.378 / +0.511;
+  - myths +0.333 / +0.289;
+  - animal tales +0.067 / +0.111;
+  - tragedies +0.022 / −0.022.
+  - Against the wondertales: the animal tales and the tragedies differ for both transcribers (p at most 0.002). The fables differ for A only (p 0.041). The myths do not differ (p 0.081, 0.054).
+- **A reading, the keeper's, not Propp's:**
+  - The large-scale order is the wondertale's own. The tragedies keep no trace of it, and the animal tales little.
+  - The pairs travel further. In the tragedies, under A, the real order beats the inner shuffles far more than the section shuffles.
+  - But the difference is not significant in any corpus that could be tested.

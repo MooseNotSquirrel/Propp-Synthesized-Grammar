@@ -1,0 +1,79 @@
+# LevelsRun.txt -- levels.py run: LevelsProtocol.md on the five existing corpora, EXPLORATORY, reported only; the frozen grammar unchanged.
+# M1 and M2 on the held-out stories; M3 on all stories; per transcriber.
+
+TRANSCRIBER A
+  M1, concordance by level against the run's 200 alternatives (held stories):
+    corpus       n    move  sections   pairs  blocks     all
+    tale         9   0.794     0.976   0.959   0.898   0.986
+    animal      12   0.785     0.852   0.912   0.876   0.975
+    fable       22   0.625     0.708   0.679   0.667   0.849
+    tragedy      6   0.776     0.816   0.914   0.750   0.982
+    myth        25   0.823     0.711   0.738   0.647   0.799
+  M2, concordance against section shuffles / inner shuffles, by level (versions applicable, of n):
+    corpus       applicable            move        sections           pairs          blocks             all
+    tale          9 / 9     of   9  0.750 /  0.664  0.968 /  0.444  0.691 /  0.898  0.304 /  0.562  0.877 /  0.916
+    animal       12 / 12    of  12  0.688 /  0.722  0.842 /  0.300  0.662 /  0.859  0.410 /  0.603  0.859 /  0.899
+    fable        21 / 17    of  22  0.567 /  0.545  0.699 /  0.500  0.534 /  0.547  0.464 /  0.546  0.720 /  0.663
+    tragedy       6 / 6     of   6  0.520 /  0.761  0.785 /  0.500  0.823 /  0.942  0.174 /  0.603  0.682 /  0.948
+    myth         24 / 20    of  25  0.746 /  0.671  0.708 /  0.474  0.530 /  0.720  0.408 /  0.522  0.717 /  0.831
+  inner minus section, the whole grammar, versions where both apply (paired sign-flip, one-sided):
+    tale        9 stories: fewer than 10, not tested
+    animal     10 stories: mean +0.040 (p 0.2810)
+    fable      14 stories: mean -0.101 (p 0.8820)
+    tragedy     6 stories: fewer than 10, not tested
+    myth       19 stories: mean +0.069 (p 0.2033)
+  M3, each corpus's order of the sections (all stories), and Kendall's tau with Propp's order:
+    tale      tau +0.644: complication < donor < transfer < preparatory < struggle < task < arrival and claims < liquidation < return < endgame
+              precedence (row before column, %): prep -- 23 54 48 49 67 84 50 58 79; comp 77 -- 87 95 93 90 93 90 93 97; dono 46 13 -- 57 70 90 85 70 86 96; tran 52  5 43 -- 60 95 91 99 66 99; stru 51  7 30 40 -- 78 85 86 39 90; liqu 33 10 10  5 22 -- 62 50 16 91; retu 16  7 15  9 15 38 -- 77  2 75; arri 50 10 30  0 14 50 23 -- 59 90; task 42  7 14 34 61 84 98 41 -- 94; endg 21  3  4  0 10  9 25 10  6 --
+    animal    tau +0.067: complication < task < endgame < transfer < donor < preparatory < liquidation < arrival and claims < struggle < return
+              precedence (row before column, %): prep -- 20 22 17 86 37 58 33  0 54; comp 80 -- 80 99 89 89 95 99 61 72; dono 78 20 -- 99 75 91 64 -- 25  0; tran 83  0  0 -- 99 99 99 -- -- --; stru 14 11 25  0 -- 63 62 50  0 20; liqu 63 11  9  0 37 -- 74 99 18  0; retu 42  5 36  0 38 26 -- -- --  0; arri 67  0 -- -- 50  0 -- -- -- --; task 99 39 75 -- 99 82 -- -- -- --; endg 46 28 99 -- 80 99 99 -- -- --
+    fable     tau +0.378: complication < preparatory < donor < task < return < struggle < arrival and claims < liquidation < endgame < transfer
+              precedence (row before column, %): prep -- 34 55 -- 99 71 57 50 99 93; comp 66 -- 94 99 62 97 67 69 55 96; dono 45  6 -- 99 99 99 75 83  0 78; tran --  0  0 -- -- -- -- -- -- --; stru  0 38  0 -- -- 75 50 99 -- 99; liqu 29  3  0 -- 25 -- 50  0 -- 80; retu 43 33 25 -- 50 50 -- 99 -- 80; arri 50 31 17 --  0 99  0 -- 50 94; task  0 45 99 -- -- -- -- 50 -- 99; endg  7  4 22 --  0 20 20  6  0 --
+    tragedy   tau +0.022: complication < arrival and claims < task < liquidation < donor < preparatory < return < endgame < transfer < struggle
+              precedence (row before column, %): prep -- 32 46 65 62 55 62 21 35 52; comp 68 -- 73 78 82 74 75 47 50 73; dono 54 27 -- 62 54 60 61 33 39 54; tran 35 22 38 -- 53 62 36 20 -- 44; stru 38 18 46 47 -- 57 69 11 10 49; liqu 45 26 40 38 43 -- 63 75 71 68; retu 38 25 39 64 31 37 -- 80 53 59; arri 79 53 67 80 89 25 20 -- -- 81; task 65 50 61 -- 90 29 47 -- -- 66; endg 48 27 46 56 51 32 41 19 34 --
+    myth      tau +0.333: complication < arrival and claims < donor < task < preparatory < liquidation < transfer < struggle < return < endgame
+              precedence (row before column, %): prep -- 39 50 89 65 53 53 57 42 74; comp 61 -- 60 93 84 85 87 94 61 85; dono 50 40 -- 78 74 71 78 50 63 76; tran 11  7 22 -- 43 69 65 -- 29 75; stru 35 16 26 57 -- 42 51  0 38 79; liqu 47 15 29 31 58 -- 82  0 46 81; retu 47 13 22 35 49 18 --  0 35 61; arri 43  6 50 -- 99 99 99 -- -- 99; task 58 39 37 71 62 54 65 -- -- 84; endg 26 15 24 25 21 19 39  0 16 --
+  M3, tau compared with the tale (permutation of the corpus labels over stories, two-sided):
+    animal    difference -0.578 (p 0.0010)
+    fable     difference -0.267 (p 0.0410)
+    tragedy   difference -0.622 (p 0.0020)
+    myth      difference -0.311 (p 0.0809)
+
+TRANSCRIBER B
+  M1, concordance by level against the run's 200 alternatives (held stories):
+    corpus       n    move  sections   pairs  blocks     all
+    tale         9   0.842     0.996   0.977   0.875   0.994
+    animal      12   0.764     0.697   0.836   0.806   0.936
+    fable       25   0.739     0.767   0.653   0.642   0.885
+    tragedy      6   0.758     0.863   0.675   0.687   0.784
+    myth        25   0.738     0.762   0.781   0.639   0.855
+  M2, concordance against section shuffles / inner shuffles, by level (versions applicable, of n):
+    corpus       applicable            move        sections           pairs          blocks             all
+    tale          9 / 9     of   9  0.764 /  0.795  0.990 /  0.611  0.785 /  0.951  0.311 /  0.606  0.913 /  0.961
+    animal       12 / 12    of  12  0.658 /  0.649  0.720 /  0.600  0.591 /  0.756  0.410 /  0.555  0.703 /  0.754
+    fable        21 / 17    of  25  0.642 /  0.642  0.793 /  0.500  0.566 /  0.538  0.470 /  0.536  0.850 /  0.850
+    tragedy       6 / 6     of   6  0.648 /  0.730  0.828 /  0.333  0.612 /  0.787  0.230 /  0.435  0.634 /  0.672
+    myth         25 / 23    of  25  0.696 /  0.604  0.780 /  0.636  0.584 /  0.714  0.414 /  0.531  0.788 /  0.720
+  inner minus section, the whole grammar, versions where both apply (paired sign-flip, one-sided):
+    tale        9 stories: fewer than 10, not tested
+    animal     10 stories: mean +0.050 (p 0.2641)
+    fable      11 stories: mean -0.006 (p 0.5135)
+    tragedy     6 stories: fewer than 10, not tested
+    myth       22 stories: mean -0.066 (p 0.8408)
+  M3, each corpus's order of the sections (all stories), and Kendall's tau with Propp's order:
+    tale      tau +0.644: complication < donor < transfer < preparatory < struggle < arrival and claims < task < return < liquidation < endgame
+              precedence (row before column, %): prep -- 24 44 39 60 75 89 54 50 85; comp 76 -- 79 84 87 87 94 82 81 99; dono 56 21 -- 67 76 87 90 67 85 97; tran 61 16 33 -- 60 96 97 67 77 99; stru 40 13 24 40 -- 79 80 74 30 95; liqu 25 13 13  4 21 -- 60  0 23 77; retu 11  6 10  3 20 40 -- 75 23 90; arri 46 18 33 33 26 99 25 -- 99 92; task 50 19 15 23 70 77 77  0 -- 99; endg 15  1  3  0  5 23 10  8  1 --
+    animal    tau +0.111: complication < transfer < arrival and claims < endgame < donor < preparatory < liquidation < return < struggle
+              precedence (row before column, %): prep -- 23 17  0 80 34 74  0 -- 48; comp 77 -- 86 99 99 94 82 99 -- 64; dono 83 14 -- 99 99 64 22 -- --  0; tran 99  0  0 -- 99 99 99 -- -- --; stru 20  0  0  0 -- 45 62 -- -- 50; liqu 66  6 36  0 55 -- 67 -- --  0; retu 26 18 78  0 38 33 -- -- --  0; arri 99  0 -- -- -- -- -- -- -- 99; task -- -- -- -- -- -- -- -- -- --; endg 52 36 99 -- 50 99 99  0 -- --
+    fable     tau +0.511: complication < donor < preparatory < struggle < arrival and claims < return < task < transfer < endgame < liquidation
+              precedence (row before column, %): prep -- 39 40 99 99 78 44 25 99 86; comp 61 -- 96 33 93 99 80 86 86 97; dono 60  4 -- 99 50 89 88 99 -- 99; tran  0 67  0 -- -- -- -- -- -- --; stru  0  7 50 -- -- 99 57 99 -- 99; liqu 22  0 11 --  0 -- 25  0 -- 40; retu 56 20 12 -- 43 75 -- -- -- 33; arri 75 14  0 --  0 99 -- -- -- 99; task  0 14 -- -- -- -- -- -- -- 99; endg 14  3  0 --  0 60 67  0  0 --
+    tragedy   tau -0.022: complication < arrival and claims < task < return < donor < endgame < preparatory < transfer < struggle < liquidation
+              precedence (row before column, %): prep -- 33 36 47 56 55 58 29 65 38; comp 67 -- 66 80 80 76 71 71 63 60; dono 64 34 -- 78 71 79 56 35 33 47; tran 53 20 22 -- 65 40 15 50 -- 38; stru 44 20 29 35 -- 57 70 25  0 41; liqu 45 24 21 60 43 -- 57  0  0 31; retu 42 29 44 85 30 43 -- 99 85 44; arri 71 29 65 50 75 99  0 -- -- 69; task 35 37 67 -- 99 99 15 -- -- 38; endg 62 40 53 62 59 69 56 31 62 --
+    myth      tau +0.289: arrival and claims < complication < task < preparatory < transfer < struggle < donor < liquidation < return < endgame
+              precedence (row before column, %): prep -- 50 66 63 63 76 67 50 29 89; comp 50 -- 69 69 77 86 81 27 67 86; dono 34 31 -- 57 63 75 85  0 47 78; tran 37 31 43 -- 52 87 78 50 37 83; stru 37 23 37 48 -- 75 71 50 53 92; liqu 24 14 25 13 25 -- 81  0 21 73; retu 33 19 15 22 29 19 --  0  8 74; arri 50 73 99 50 50 99 99 -- -- 99; task 71 33 53 63 47 79 92 -- -- 70; endg 11 14 22 17  8 27 26  0 30 --
+  M3, tau compared with the tale (permutation of the corpus labels over stories, two-sided):
+    animal    difference -0.533 (p 0.0010)
+    fable     difference -0.133 (p 0.3966)
+    tragedy   difference -0.667 (p 0.0010)
+    myth      difference -0.356 (p 0.0539)
+
