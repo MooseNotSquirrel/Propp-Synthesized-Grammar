@@ -26,10 +26,10 @@ import setupTranscribe as ST  # noqa: E402
 AR, CORPORA, BATCHES = ST.AR, ST.CORPORA, ST.BATCHES
 LAYERS = {'acts': LY.ACTS_PROMPT, 'free': LY.FREE_PROMPT}
 READING = {
-    'native': ('They are English translations from scanned books, read as they stand. Where a passage is printed in Latin, '
+    'native': ('They are English translations from scanned books. Where a passage is printed in Latin, '
                'translate it as you read and describe it as plainly as the rest. Page headings, page numbers, captions, '
                'footnote marks and scanning errors are not part of the tale.'),
-    'eastasian': ('They are English translations from scanned books, read as they stand. Page headings, page numbers, '
+    'eastasian': ('They are English translations from scanned books. Page headings, page numbers, '
                   'captions, footnote marks and scanning errors are not part of the tale; nor, in the Chinese tales '
                   '(identifiers beginning C), is the collector\'s story of the children and their teacher in which the '
                   'tales are told.'),
