@@ -58,7 +58,9 @@ FILL_STAGE = 'native-fill'
 def fill_prompt(c, layer, L, k):
     t, evs = FILLS[(c, layer, L, k)]
     p = SL.prompt(c, layer, L, k, [t])
-    reps = [('Your tales are these 1, one per file,', 'Your tale is this one,'),
+    reps = [('Your tales are these 1, one per file, read as they stand:', 'Your tale is this one, read as it stands:'),
+            ('They are English translations from scanned books.', 'It is an English translation from a scanned book.'),
+            ('Their events are in', 'Its events are in'),
             ('For each story, read the whole story first. Then write the entries the rules require for each of its listed '
              'events, in the listed order',
              'Read the whole story first. Then write the entries the rules require for its listed events %s only, in the '
