@@ -811,3 +811,18 @@ NEXT, at the owner's word: run the two stages, 14 readers in all.
 - **The section orders:** compared by permutation.
 - **Not built:** `levels.py` is not written, and nothing has run.
 NEXT, at the owner's word, after the weekly budget resets: write and commit `levels.py`, pass L1 to L4, and run it on the existing corpora.
+**2026-11-01. The new corpora transcribed on card C** (Propp-ActsRoles `native-transcribe` and `eastasian-transcribe`, from d0b0913; merged 3480060 and d7795e8). At the owner's word.
+- **The run:** 14 readers, started together: A on Opus, B on Sonnet; 8 native batches and 6 East Asian. Every reply is saved verbatim as its folder's `Report.md`. Each folder holds exactly `Streams.txt`, `Notes.txt` and `Report.md`. The outputs have not been read by the keeper.
+- **Versions:** two tales were transcribed once per hero, because Heroes.txt names two: C05 by both East Asian transcribers, and T11 by both native ones.
+- **Anomalies, from the readers' own reports:**
+  - eastasian B-b1 and native B-b1 kept their working files outside their folders;
+  - native A-b2 briefly made an empty file outside its folder and deleted it.
+  - No folder holds anything beyond its three files.
+- **Flagged most often by the readers, for the form check and for item (q):**
+  - **The card's request rule** (a request is the asker's lack, a) opens many new moves, and readers were unsure where it meets γ (orders) and B (the hero asked).
+  - **The mixed-event rule:** one entry per act, against one X only where no act has a function.
+  - **Harm with no villain** (illness, accident, shipwreck): A or a.
+  - **The hero's own harmful acts:** A or K.
+  - **Latin passages:** translated in the notes, as the rule on Latin asks.
+  - **O25's gaps,** marked "* * *" in the printed text.
+NEXT, at the owner's word: the transcriptions checked in form and built into the tables; then the scoring command for predictions 3 and 4, committed before those tables are read.
