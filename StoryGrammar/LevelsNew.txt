@@ -1,0 +1,45 @@
+# LevelsNew.txt -- levels.py new: LevelsProtocol.md on the Native American and East Asian tales, all stories, under the frozen grammar's shared weights; the frozen prediction of decision 3 below.
+
+TRANSCRIBER A
+  M1, concordance by level against the run's 200 alternatives (all stories):
+    corpus       n    move  sections   pairs  blocks     all
+    native      51   0.776     0.851   0.886   0.790   0.941
+    eastasian   45   0.823     0.829   0.866   0.817   0.926
+  M2, concordance against section shuffles / inner shuffles, by level (versions applicable, of n):
+    corpus       applicable            move        sections           pairs          blocks             all
+    native       50 / 50    of  51  0.708 /  0.689  0.860 /  0.459  0.726 /  0.754  0.429 /  0.625  0.838 /  0.850
+    eastasian    45 / 41    of  45  0.696 /  0.742  0.822 /  0.487  0.640 /  0.802  0.406 /  0.593  0.797 /  0.877
+  inner minus section, the whole grammar, versions where both apply (paired sign-flip, one-sided):
+    native     48 stories: mean +0.019 (p 0.3127)
+    eastasian  40 stories: mean +0.081 (p 0.0208)
+  M3, each corpus's order of the sections (all stories), and Kendall's tau with Propp's order:
+    native    tau +0.644: complication < transfer < donor < preparatory < liquidation < task < struggle < return < arrival and claims < endgame
+              precedence (row before column, %): prep -- 21 43 52 96 58 69 50 56 77; comp 79 -- 94 90 91 93 79 97 99 98; dono 57  6 -- 50 71 71 69 83 64 81; tran 48 10 50 -- 99 53 75 99 62 89; stru  4  9 29  0 -- 65 64 89  0 91; liqu 42  7 29 47 35 -- 68 62 75 76; retu 31 21 31 25 36 32 -- 83  0 77; arri 50  3 17  0 11 38 17 -- 99 87; task 44  0 36 38 99 25 99  0 -- 40; endg 23  2 19 11  9 24 23 13 60 --
+    eastasian tau +0.644: complication < donor < transfer < preparatory < arrival and claims < struggle < return < task < liquidation < endgame
+              precedence (row before column, %): prep -- 21 42 69 87 72 63 40 99 79; comp 79 -- 79 91 91 94 79 99 78 96; dono 58 21 -- 77 99 76 77 60 83 90; tran 31  9 23 -- 87 88 86 99 99 99; stru 13  9  1 13 -- 74 94  0 50 89; liqu 28  6 24 12 26 -- 43  0 50 68; retu 37 21 23 14  6 57 -- 20 75 73; arri 60  0 40  0 99 99 80 -- -- 99; task  0 22 17  0 50 50 25 -- -- 67; endg 21  4 10  0 11 32 27  0 33 --
+  M3, tau compared with the native (permutation of the corpus labels over stories, two-sided):
+    eastasian difference +0.000 (p 1.0000)
+
+TRANSCRIBER B
+  M1, concordance by level against the run's 200 alternatives (all stories):
+    corpus       n    move  sections   pairs  blocks     all
+    native      50   0.817     0.862   0.890   0.827   0.964
+    eastasian   47   0.824     0.880   0.874   0.794   0.943
+  M2, concordance against section shuffles / inner shuffles, by level (versions applicable, of n):
+    corpus       applicable            move        sections           pairs          blocks             all
+    native       50 / 49    of  50  0.723 /  0.718  0.838 /  0.500  0.732 /  0.751  0.397 /  0.560  0.857 /  0.869
+    eastasian    45 / 42    of  47  0.702 /  0.740  0.875 /  0.549  0.711 /  0.772  0.430 /  0.569  0.868 /  0.927
+  inner minus section, the whole grammar, versions where both apply (paired sign-flip, one-sided):
+    native     48 stories: mean +0.012 (p 0.3598)
+    eastasian  39 stories: mean +0.046 (p 0.0330)
+  M3, each corpus's order of the sections (all stories), and Kendall's tau with Propp's order:
+    native    tau +0.644: complication < donor < transfer < preparatory < liquidation < arrival and claims < struggle < task < endgame < return
+              precedence (row before column, %): prep -- 31 45 50 82 55 62 60 79 52; comp 69 -- 79 80 87 89 85 94 99 92; dono 55 21 -- 56 96 82 70 50 67 72; tran 50 20 44 -- 99 67 76 40 99 53; stru 18 13  4  0 -- 56 92 98  0 83; liqu 45 11 18 33 44 -- 64 88 50 72; retu 38 15 30 24  8 36 -- 50 -- 33; arri 40  6 50 60  2 12 50 -- 99 80; task 21  0 33  0 99 50 --  0 -- 83; endg 48  8 28 47 17 28 67 20 17 --
+    eastasian tau +0.511: complication < donor < transfer < preparatory < arrival and claims < task < return < struggle < liquidation < endgame
+              precedence (row before column, %): prep -- 23 31 69 84 74 62 69 73 91; comp 77 -- 81 81 91 96 87 99 77 93; dono 69 19 -- 85 99 79 83 50 60 95; tran 31 19 15 -- 88 83 99 -- 99 99; stru 16  9  1 12 -- 76 84  0 50 99; liqu 26  4 21 17 24 -- 21  0  0 75; retu 38 13 17  0 16 79 -- 99 50 89; arri 31  0 50 -- 99 99  0 -- -- 99; task 27 23 40  0 50 99 50 -- -- 99; endg  9  7  5  0  0 25 11  0  0 --
+  M3, tau compared with the native (permutation of the corpus labels over stories, two-sided):
+    eastasian difference -0.133 (p 0.6344)
+
+THE FROZEN PREDICTION (LevelsProtocol.md decision 3): inner-shuffle concordance above section-shuffle concordance
+  native    A +0.019 (p 0.3127), B +0.012 (p 0.3598) -> FAILS
+  eastasian A +0.081 (p 0.0208), B +0.046 (p 0.0330) -> HOLDS

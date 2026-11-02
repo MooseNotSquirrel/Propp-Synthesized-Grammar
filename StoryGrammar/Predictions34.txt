@@ -1,0 +1,25 @@
+# Predictions34.txt -- predict34.py run: the frozen story grammar's predictions 3 and 4 (StoryGrammarProtocol.md section 7) on the Native American and East Asian tales, per transcriber; the grammar frozen, unchanged
+
+TRANSCRIBER A
+Prediction 3: each new corpus against 200 alternatives a version, under the shared weights
+  native     50 stories,  51 versions: concordance 0.943 (p 0.0001) holds
+    reported: under each genre's weights: tale 0.950; animal 0.935; fable 0.942; tragedy 0.943; myth 0.927; best fit tale
+  eastasian  44 stories,  45 versions: concordance 0.927 (p 0.0001) holds
+    reported: under each genre's weights: tale 0.947; animal 0.919; fable 0.935; tragedy 0.931; myth 0.921; best fit tale
+  prediction 3 for A: holds in both corpora
+Prediction 4: East Asian minus Native American, story means 0.927 against 0.943: difference -0.016 (p 0.7004) -> does not hold
+
+TRANSCRIBER B
+Prediction 3: each new corpus against 200 alternatives a version, under the shared weights
+  native     49 stories,  50 versions: concordance 0.962 (p 0.0001) holds
+    reported: under each genre's weights: tale 0.960; animal 0.958; fable 0.953; tragedy 0.953; myth 0.956; best fit tale
+  eastasian  46 stories,  47 versions: concordance 0.937 (p 0.0001) holds
+    reported: under each genre's weights: tale 0.926; animal 0.927; fable 0.925; tragedy 0.934; myth 0.907; best fit tragedy
+  prediction 3 for B: holds in both corpora
+Prediction 4: East Asian minus Native American, story means 0.937 against 0.962: difference -0.025 (p 0.8786) -> does not hold
+
+VERDICTS
+  prediction 3 in the native tales: HOLDS
+  prediction 3 in the eastasian tales: HOLDS
+  prediction 3, the unseen cultures: HOLDS
+  prediction 4, Native American lower than East Asian: FAILS

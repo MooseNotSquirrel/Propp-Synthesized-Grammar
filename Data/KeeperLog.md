@@ -860,3 +860,18 @@ NEXT, at the owner's word: the transcriptions checked in form and built into the
   - East Asian: 44 (A) and 46 (B).
 - **Not run:** `predict34.py run` and `levels.py new`.
 NEXT, at the owner's word: `predict34.py run` (predictions 3 and 4), then `levels.py new`; then the other layers of the new corpora.
+**2026-11-02. Predictions 3 and 4 scored, and the levels on the new corpora** (`StoryGrammar/Predictions34.txt`, the record; `StoryGrammar/LevelsNew.txt`). At the owner's word. The weights were recomputed and found byte-identical to the frozen files.
+- **Prediction 3 HOLDS,** in both corpora for both transcribers. The unseen cultures' tales outscore their 200 alternatives under the shared weights:
+  - Native American 0.943 (A) and 0.962 (B);
+  - East Asian 0.927 (A) and 0.937 (B);
+  - every p 0.0001.
+- **Prediction 4 FAILS:** the Native American tales are not lower than the East Asian; they are slightly higher. East Asian minus Native American is −0.016 (A, p 0.70) and −0.025 (B, p 0.88).
+- **Reported:**
+  - The best-fitting genre's weights are the wondertale's for three of the four cells, and the tragedy's for East Asian B. All genres lie within 0.04 of one another.
+  - **Levels:** each new corpus's section order has Kendall's tau +0.644 with Propp's, the wondertales' own figure, except East Asian B at +0.511. The two corpora do not differ (p 1.00, 0.63).
+- **The levels' frozen prediction** (inner-shuffle concordance above section-shuffle concordance):
+  - Native American FAILS: +0.019 (p 0.31), +0.012 (p 0.36).
+  - East Asian HOLDS: +0.081 (p 0.021), +0.046 (p 0.033).
+- **Cautions, stated with the result:**
+  - The transcribers are language models reading English translations by Western collectors, on Propp's card. A Proppian order may partly be theirs rather than the tales'. This is CrossCultureProtocol.md's stated risk.
+  - Beating shuffles shows ordered narrative, not Propp's order in particular. The controls are queued as item (q).
