@@ -26,13 +26,13 @@ import setupTranscribe as ST  # noqa: E402
 AR, CORPORA, BATCHES = ST.AR, ST.CORPORA, ST.BATCHES
 LAYERS = {'acts': LY.ACTS_PROMPT, 'free': LY.FREE_PROMPT}
 READING = {
-    'native': ('read as they stand: they are English translations from scanned books. Where a passage is printed in Latin, '
+    'native': ('They are English translations from scanned books, read as they stand. Where a passage is printed in Latin, '
                'translate it as you read and describe it as plainly as the rest. Page headings, page numbers, captions, '
-               'footnote marks and scanning errors are not part of the tale'),
-    'eastasian': ('read as they stand: they are English translations from scanned books. Page headings, page numbers, '
+               'footnote marks and scanning errors are not part of the tale.'),
+    'eastasian': ('They are English translations from scanned books, read as they stand. Page headings, page numbers, '
                   'captions, footnote marks and scanning errors are not part of the tale; nor, in the Chinese tales '
                   '(identifiers beginning C), is the collector\'s story of the children and their teacher in which the '
-                  'tales are told'),
+                  'tales are told.'),
 }
 
 
@@ -43,7 +43,7 @@ def stage(c, layer):
 def prompt(c, layer, L, k, ids):
     t = LAYERS[layer]
     files = ', '.join('%s/tales/%s.txt' % (c, i) for i in ids)
-    reps = [('read in their original language', READING[c]),
+    reps = [('read in their original language: {files}.', 'read as they stand: {files}. ' + READING[c]),
             ('in the original language.', 'as the text prints them.'),
             ('animal/', c + '/')]
     for a, b in reps:
