@@ -8,6 +8,7 @@ the animal tales' were (Animal/layers.py, 2026-10-20).
   python newLayers.py copy           acts/ and free/ copied byte for byte to NativeAmerican/ and EastAsian/
   python newLayers.py sig dry|write  the significance stages native-sig and eastasian-sig: inputs, prompts, RUN.md
   python newLayers.py form-sig       the significance descriptions' form, after the stages run
+  python newLayers.py fill dry|write the stage native-fill: the two gaps the form check found, filled in supplement folders
 
 THE FORM CHECKS, per corpus, describer and batch (the transcription batches): every line of Notes.txt is an entry, blank or a
 heading; an act entry has ten fields, a free entry nine; its tale is one of the batch's and its event one of the tale's; an act
@@ -47,6 +48,69 @@ ACTS = set(FR.N.T.ACTS)
 ENTRY = re.compile(r'^([TOCJ]\d{2})$')
 CAP = 450
 SIG_STAGE = {c: '%s-sig' % c for c in CORPORA}
+# the two gaps the form check found (2026-11-02), filled at the owner's word by a fresh describer of the same letter and model,
+# for those events only, in a supplement folder beside the batch; the batch's own file stays as written
+FILLS = {('native', 'acts', 'B', 3): ('O10', [62, 63]), ('native', 'free', 'B', 2): ('T18', [32, 33, 34, 35])}
+FILL_DIR = 's1'
+FILL_STAGE = 'native-fill'
+
+
+def fill_prompt(c, layer, L, k):
+    t, evs = FILLS[(c, layer, L, k)]
+    p = SL.prompt(c, layer, L, k, [t])
+    reps = [('Your tales are these 1, one per file,', 'Your tale is this one,'),
+            ('For each story, read the whole story first. Then write the entries the rules require for each of its listed '
+             'events, in the listed order',
+             'Read the whole story first. Then write the entries the rules require for its listed events %s only, in the '
+             'listed order' % ', '.join(map(str, evs))),
+            ('%s/%s/%s/b%d/' % (c, layer, L, k), '%s/%s/%s/%s/' % (c, layer, L, FILL_DIR))]
+    for a, b in reps:
+        assert a in p, a
+        p = p.replace(a, b)
+    return p
+
+
+def fill_run_md():
+    t = open(os.path.join(AR, 'RUN.md'), encoding='utf-8').read()
+    if FILL_STAGE in t:
+        return t
+    names = ['%s-%s-%s.txt' % (SL.stage(c, layer), L, FILL_DIR) for (c, layer, L, k) in FILLS]
+    anchor_list = 'native-free, eastasian-free,'
+    anchor_clear = ("after the new corpora's transcriptions were merged, and were cleared to run at the owner's word the same "
+                    "day. They need nothing from each other and may run in one session.\n")
+    anchor_row = '| `run-eastasian-free` |\n'
+    anchor_in = 'the folder `eastasian/tales/`; for `animal-transcribe`, '
+    for a in (anchor_list, anchor_clear, anchor_row, anchor_in):
+        assert t.count(a) == 1, a
+    t = t.replace(anchor_list, anchor_list + ' ' + FILL_STAGE + ',')
+    t = t.replace(anchor_clear, anchor_clear + (
+        "The stage `%s` was set up on 2026-11-02 (`CrossCulture/newLayers.py`): the two gaps the form check found, O10 events "
+        "62 and 63 in `native/acts/B/b3/` and T18 events 32 to 35 in `native/free/B/b2/`, described by fresh describers B, "
+        "written in supplement folders `%s/` beside the batches. It is not yet cleared: it runs only at the owner's word.\n"
+        % (FILL_STAGE, FILL_DIR)))
+    t = t.replace(anchor_row, anchor_row + (
+        "| `%s` | `%s` | Sonnet | `native/acts/B/%s/Notes.txt`, `native/free/B/%s/Notes.txt` | `Report.md` in each folder | "
+        "`run-%s` |\n" % (FILL_STAGE, '`, `'.join(names), FILL_DIR, FILL_DIR, FILL_STAGE)))
+    t = t.replace(anchor_in, 'the folder `eastasian/tales/`; for `%s`, `ActsRules.md`, `free/FreeRules.md`, `native/Events.txt`, '
+                  '`native/tales/O10.txt` and `native/tales/T18.txt`; for `animal-transcribe`, ' % FILL_STAGE)
+    return t
+
+
+def fill(mode):
+    out = {os.path.join('prompts', '%s-%s-%s.txt' % (SL.stage(c, layer), L, FILL_DIR)): fill_prompt(c, layer, L, k)
+           for (c, layer, L, k) in FILLS}
+    out['RUN.md'] = fill_run_md()
+    read = lambda p: open(os.path.join(AR, p), encoding='utf-8').read()
+    for p in sorted(out):
+        old = read(p) if os.path.exists(os.path.join(AR, p)) else ''
+        print('%s: %s' % (p, 'unchanged' if old == out[p] else 'new' if not old else 'changed, %+d characters' % (len(out[p]) - len(old))))
+    if mode == 'write':
+        for p, s in out.items():
+            open(os.path.join(AR, p), 'w', encoding='utf-8', newline='\n').write(s)
+        print('written to %s' % AR)
+    else:
+        print('dry run: nothing written')
+    return out
 
 
 def listed(c):
@@ -72,9 +136,10 @@ def title(c, s):
 
 
 def entries(c, layer, L, k):
-    """[(line, fields)] of one batch's Notes.txt, and the lines that are not entries"""
+    """[(line, fields)] of one batch's Notes.txt (k a batch number, or a folder name such as 's1'), and the lines that are
+    not entries"""
     n = 10 if layer == 'acts' else 9
-    path = os.path.join(AR, c, layer, L, 'b%d' % k, 'Notes.txt')
+    path = os.path.join(AR, c, layer, L, 'b%d' % k if isinstance(k, int) else k, 'Notes.txt')
     out, odd = [], []
     for i, line in enumerate(open(path, encoding='utf-8'), 1):
         s = line.strip()
@@ -122,6 +187,20 @@ def form(layer):
                         longer += len(f[3].split()) > 6
                         if f[6][:1].upper() not in ('Y', 'N'):
                             faults.append('line %d: flag' % i)
+                fill = FILLS.get((c, layer, L, k))
+                if fill and os.path.exists(os.path.join(AR, c, layer, L, FILL_DIR)):
+                    folder = os.path.join(AR, c, layer, L, FILL_DIR)
+                    if sorted(os.listdir(folder)) != ['Notes.txt', 'Report.md']:
+                        faults.append('supplement folder holds %s' % sorted(os.listdir(folder)))
+                    srows, sodd = entries(c, layer, L, FILL_DIR)
+                    faults += ['supplement line %d is not an entry' % i for i in sodd]
+                    for i, f in srows:
+                        ev = re.match(r'^ev (\d+)$', f[1])
+                        if f[0] != fill[0] or not ev or int(ev.group(1)) not in fill[1]:
+                            faults.append('supplement line %d: tale or event outside the fill' % i)
+                            continue
+                        seen[f[0]].add(int(ev.group(1)))
+                    rows = rows + srows
                 for t in tales:
                     missing = sorted({e for e, _ in evs[t]} - seen[t])
                     if missing:
@@ -156,7 +235,10 @@ def copy():
 def acts_of(c, L):
     """{tale: [(event, act, performer, undergoer, relation, note)]} for one describer, in file order"""
     out = collections.defaultdict(list)
-    for k in range(1, len(BATCHES[c]) + 1):
+    names = list(range(1, len(BATCHES[c]) + 1))
+    if any(key[:3] == (c, 'acts', L) for key in FILLS) and os.path.exists(os.path.join(AR, c, 'acts', L, FILL_DIR)):
+        names.append(FILL_DIR)
+    for k in names:
         for i, f in entries(c, 'acts', L, k)[0]:
             ev = re.match(r'^ev (\d+)$', f[1])
             out[f[0]].append((int(ev.group(1)), f[2].lower(), f[3], f[4], f[5].lower(), f[9]))
@@ -300,7 +382,8 @@ def form_sig():
 if __name__ == '__main__':
     a = sys.argv[1:]
     cmds = {('form-acts',): lambda: form('acts'), ('form-free',): lambda: form('free'), ('copy',): copy,
-            ('sig', 'dry'): lambda: sig('dry'), ('sig', 'write'): lambda: sig('write'), ('form-sig',): form_sig}
+            ('sig', 'dry'): lambda: sig('dry'), ('sig', 'write'): lambda: sig('write'), ('form-sig',): form_sig,
+            ('fill', 'dry'): lambda: fill('dry'), ('fill', 'write'): lambda: fill('write')}
     if tuple(a) not in cmds:
         sys.exit(__doc__)
     r = cmds[tuple(a)]()
