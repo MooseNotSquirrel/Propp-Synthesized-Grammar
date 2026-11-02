@@ -64,7 +64,8 @@ def run_md():
                      % (stage(c, layer), 'ActsRules.md' if layer == 'acts' else 'free/FreeRules.md', c, c)
                      for layer in LAYERS for c in CORPORA)
     anchor_list = 'native-transcribe, eastasian-transcribe,'
-    anchor_clear = "and were cleared to run at the owner's word on 2026-11-01.\n"
+    anchor_clear = ("and were cleared to run at the owner's word on 2026-11-01. They need nothing from each other and may run "
+                    "in one session.\n")
     anchor_row = '| `run-eastasian-transcribe` |\n'
     anchor_in = 'the folder `eastasian/tales/`; for `animal-transcribe`, '
     for a in (anchor_list, anchor_row, anchor_in):
