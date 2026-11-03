@@ -39,7 +39,10 @@ PATS = collections.OrderedDict([('tale', ['Afanasyev/transcriptions/U/%s/b*/Note
                                 ('animal', ['AnimalTales/transcriptions/%s/b*/Notes.txt']),
                                 ('fable', ['Aesop/transcriptions/%s/b*/Notes.txt', 'Fables/transcriptions/%s/b*/Notes.txt']),
                                 ('tragedy', ['Tragedy/transcriptions/%s/P[0-9][0-9]/Notes.txt']),
-                                ('myth', ['Apollodorus/Apollodorus/transcriptions/%s/b*/Notes.txt'])])
+                                ('myth', ['Apollodorus/Apollodorus/transcriptions/%s/b*/Notes.txt']),
+                                # the cross-cultural corpora, 2026-11-03 (CrossCultureProtocol.md: the instruments unchanged)
+                                ('native', ['NativeAmerican/transcriptions/%s/b*/Notes.txt']),
+                                ('eastasian', ['EastAsian/transcriptions/%s/b*/Notes.txt'])])
 COLUMNS = ['story', 'reader', 'corpus', 'character', 'names', 'head', 'kind', 'kind_by', 'group', 'spheres', 'performs',
            'undergoes', 'layers', 'acts', 'relations']
 CUT = re.compile(r"\b(?:of|with|from|in|at|on|to|for)\b|,|;|\(|/|\band\b|\bor\b")
@@ -137,7 +140,7 @@ def entries(L, g):
     st = collections.OrderedDict()
     for r in DT.files('functions', PATS[g], L):
         base = DT.local(r['story'])
-        if not re.match(r'^([PFA]\d{2}|L\d-\d{3})', base):
+        if not re.match(r'^([PFA]\d{2}|L\d-\d{3}|[TOCJ]\d{2})', base):
             continue
         st.setdefault(base, collections.OrderedDict()).setdefault(r['version'] or '1', []).append(
             (TS.base(r['raw']), r['performer'].strip(), r['undergoer'].strip(), r['event']))
@@ -146,7 +149,7 @@ def entries(L, g):
 
 def layer_rows(name):
     """{(global story, reader): [rows]} of the acts or free-verb table, one study each, the first present"""
-    order = ACT_STUDIES if name == 'acts' else ['free', 'animal']
+    order = ACT_STUDIES if name == 'acts' else ['free', 'animal', 'native', 'eastasian']
     by = collections.defaultdict(lambda: collections.defaultdict(list))
     for r in DT.rows(name):
         if not r.get('id_flag'):
@@ -414,7 +417,7 @@ def second_stage():
         except (OSError, IndexError):
             _SECOND.append(set())
     return _SECOND[0]
-ACT_STUDIES = ['twolayer', 'problems', 'held', 'animal']   # one act study per story and reader, the first present
+ACT_STUDIES = ['twolayer', 'problems', 'held', 'animal', 'native', 'eastasian']   # one act study per story and reader, the first present
 CYR = re.compile('[Ѐ-ӿ]')
 
 
