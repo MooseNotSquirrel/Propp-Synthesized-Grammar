@@ -1022,3 +1022,15 @@ NEXT, at the owner's word: the review and decisions, then the programs.
 - Reported only, with one frozen prediction: the wondertales' most common F2 shape is fall then rise, per describer, by a sign test at p at most 0.05.
 - F2's halves as written; all stories, with the agreed-hero subset beside them; the networks from the acts layer alone; at least 6 scored acts per arc.
 NEXT, at the owner's word: `StoryModels/arcs.py` and `networks.py` written and committed, and their tests passed, before any figure is read.
+**2026-11-03. Step 4: `StoryModels/arcs.py` and `networks.py` written and committed (3550d0d) before any test ran** (with `common.py`). At the owner's word. Not run.
+- **Tests:**
+  - A1 PASS: the 20 sampled story-describers in `A1Sample.txt` agree line for line with an independent count from the raw table (awk and sort).
+  - A2 PASS: 180 planted arcs, all classed as built.
+  - N-a PASS.
+  - N-b PASS: 51,680 name parts; 45,770 nodes, 5,910 dropped with a reason, none lost.
+  - T PASS for both programs.
+- **A3: not so for either describer.** Shuffled arcs cluster as tightly as real ones, so the run will report F3 as finding no shapes, as the protocol provides; F2's rule stands. No figure was shown.
+- **Found before the run, a count and not a result: the lister's hero is found in no wondertale network.**
+  - The networks found the hero in 0 / 0 of 45 wondertales, 34 / 17 of 50 animal tales, 87 / 87 of 90 Fables, 32 / 32 tragedies, 38 / 45 native and 40 / 42 East Asian tales.
+  - The Afanasyev acts name characters in Russian, while the hero line is English (`SigRules.md` allows this). Under the frozen rule the wondertales would leave N1 to N3.
+  - An amendment is put to the owner. Nothing is run until the owner decides.
