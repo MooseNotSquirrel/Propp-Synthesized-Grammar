@@ -1034,3 +1034,14 @@ NEXT, at the owner's word: `StoryModels/arcs.py` and `networks.py` written and c
   - The networks found the hero in 0 / 0 of 45 wondertales, 34 / 17 of 50 animal tales, 87 / 87 of 90 Fables, 32 / 32 tragedies, 38 / 45 native and 40 / 42 East Asian tales.
   - The Afanasyev acts name characters in Russian, while the hero line is English (`SigRules.md` allows this). Under the frozen rule the wondertales would leave N1 to N3.
   - An amendment is put to the owner. Nothing is run until the owner decides.
+**2026-11-03. `ArcsNetworksProtocol.md` AMENDED at the owner's word, before any result was read: the hero found by part** (4322926).
+- **The fallback:** where no name joins the lister's hero, the hero's node is the one the story's significance rows put in the hero's place most often, if it holds at least half of those rows. That is the performer where the part is does or both, and the undergoer where it is undergoes or both.
+- **Tests:** N-a passes with two new planted cases (found by part; under half, not found). N-b and T pass.
+- **Heroes found, A / B, by name + by part (not found):**
+  - wondertales 0 + 39 (6) / 0 + 43 (2);
+  - animal tales 34 + 16 (0) / 17 + 33 (0);
+  - Fables 87 + 3 (0) / 87 + 3 (0);
+  - tragedies 32 + 0 (0) / 32 + 0 (0);
+  - native 38 + 3 (9) / 45 + 5 (0);
+  - East Asian 40 + 4 (6) / 42 + 8 (0).
+NEXT, at the owner's word: the run, `arcs.py run` and `networks.py run`.
