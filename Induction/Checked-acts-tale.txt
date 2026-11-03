@@ -1,0 +1,25 @@
+# Checked-acts-tale.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 6 of 25 candidates
+  decide then marry  49.0 1.58 0.0040  43.0 1.70 0.0010
+  give then recognize  39.0 1.64 0.0050  40.0 1.66 0.0040
+  receive then transform  55.0 1.50 0.0120  22.0 1.84 0.0030
+  send then marry  58.0 1.35 0.0270  63.0 1.41 0.0180
+  test then marry  36.0 1.66 0.0020  28.0 1.50 0.0120
+  win then marry  35.0 1.92 0.0010  35.0 1.69 0.0040
+Q3. Propp's pairs occurring at least 5 times: 12; confirmed 0 (); recall 0.00; precision 0.00
+Q2. blocks: 0
+
+## A
+P3. relations holding again on the checking half: 25 of 28 with data (28 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.3825, unigram -3.4009, bigram -3.9857: a grammar (beats the unigram)
+
+## B
+P3. relations holding again on the checking half: 15 of 15 with data (15 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.4222, unigram -3.4578, bigram -4.1584: a grammar (beats the unigram)
+
+H5. A and B sections agree: ARI 0.230 over 35 units
+
+## THE ACT LAYER'S SELF-TEST (reported, not a gate): act states against the sections of the functions at their events
+A: 933 act tokens; ARI 0.064, above 100.0% of permuted assignments: falls into Propp's sections
+B: 811 act tokens; ARI 0.101, above 100.0% of permuted assignments: falls into Propp's sections

@@ -1105,3 +1105,14 @@ NEXT, at the owner's word: the self-test. `induce.py induce functions tale`, com
   - It does not find his ten sections or his adjacent pairs. The any-distance pair statistic rewards long-range order over his local pairs.
   - A test that should come before trusting the other corpora would be a reading of why, not a retuning.
 NEXT, at the owner's word: whether to run the other corpora (labelled), and the act layer with its own self-test.
+**2026-11-03. Step 5: the act layer's self-test run on the wondertales** (`Induction/Induced-acts-tale.*` committed a69b0cc before the check; `Checked-acts-tale.txt`). At the owner's word. This test is reported, not a gate.
+- **The self-test passes its bar for both describers:** act states against the sections of the functions at their events.
+  - A: 933 tokens, ARI 0.064; B: 811 tokens, ARI 0.101. Each is above all 1,000 permuted assignments.
+  - The program's words "falls into Propp's sections" hold only in that sense. The agreement is far above chance and far from close: an ARI of 0.06 to 0.10.
+- **The model:** K is 3 (A) and 4 (B). The states run from an opening state (leave, forbid, send, give, test), through deception and conflict (deceive, be-taken-in, pursue, fight, win), to a close (expose, punish, repair, marry, return).
+- **On the checking half:**
+  - The order is stable: 25 of 28 and 15 of 15 relations hold again. A and B share 7 of 36.
+  - The HMM beats the unigram narrowly (-3.38 against -3.40; -3.42 against -3.46) and the bigram widely.
+  - 6 pairs are confirmed, all long-range, four of them ending in marry. None of the 12 act counterparts of Propp's pairs is confirmed (recall 0). There are no blocks.
+- **The keeper's reading, not from Propp:** the acts, described without his card, show the same coarse arc the functions did, opening, conflict and close, and it lines up with his sections beyond chance. Neither layer shows his ten sections or his close pairs. The arc, not the fine structure, is what this tool recovers.
+NEXT, at the owner's word: the other corpora, both layers, labelled as an unverified tool's output (the functions self-test failed).
