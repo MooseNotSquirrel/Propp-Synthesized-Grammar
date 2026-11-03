@@ -927,3 +927,5 @@ NEXT, at the owner's word, budget allowing: `native-sig-1`, then `native-sig-2`.
 - **The form check:** every act is described in all 6 batches (A 440, 440, 428; B 334, 317, 330), with no act missing and no id unknown.
 - **One slip:** 33 lines of B-q3 write the place field as "-" instead of "none", each with "-" as its problem label. It is the slip of eastasian B-q2's link field, in another field. Awaiting the owner's ruling on whether to read it as "none" too.
 - **Not run:** `native-sig-2` (q4 to q6).
+- **Ruled 2026-11-02, at the owner's word:** the 33 "-" places in native-sig B-q3 are read as "none", meaning no place in a problem. The file is unchanged; `newLayers.py` reads them so. `native-sig-1` is in form.
+NEXT, at the owner's word, budget allowing: `native-sig-2`.
