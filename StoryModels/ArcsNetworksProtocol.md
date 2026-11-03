@@ -1,4 +1,4 @@
-# The hero's fortune arc and the character networks: protocol (DRAFT 2026-11-03, FOR THE OWNER'S REVIEW; nothing built or run)
+# The hero's fortune arc and the character networks: protocol (FROZEN 2026-11-03 AT THE OWNER'S WORD, THE FIVE RECOMMENDED DECISIONS TAKEN; nothing built or run)
 
 **Asked by the owner on 2026-11-02** (ProppQueue.md item (s), 1 and 2; the order of work, step 4). Two models built on data already collected, with no readers:
 - the hero's fortune over a story, act by act;
@@ -115,6 +115,13 @@ Neither model assumes Propp's functions. Both are read from the act and signific
 
 ## 5. Decisions for the owner
 
+**Taken 2026-11-03: the owner accepted all five recommendations.**
+- Reported only, with one prediction, now frozen: *the wondertales' most common F2 shape is fall then rise*, tested per describer by a sign test of fall-then-rise against each other shape's count, at p at most 0.05.
+- F2's halves and thresholds as written.
+- All the stories, with the agreed-hero subset reported beside them.
+- The networks' names from the acts layer alone.
+- 6 scored acts the minimum for an arc.
+
 1. **Reported only, or with predictions.**
    - **Recommended:** reported only (exploratory) for every corpus, with one prediction frozen before the program is written:
      - *the wondertales' most common F2 shape is fall then rise*;
@@ -130,7 +137,7 @@ Neither model assumes Propp's functions. Both are read from the act and signific
 
 ## 6. Order of work, and the cost
 
-1. The owner's review and decisions; this file frozen.
+1. The owner's review and decisions; this file frozen (done 2026-11-03).
 2. **The program,** `StoryModels/arcs.py` and `StoryModels/networks.py`. Written and committed, with A1 to A3, N-a, N-b and T passed, before any figure is read.
 3. **The run** on the six corpora, at the owner's word: `Arcs.txt` and `Networks.txt`, with the arcs' mean curves drawn per corpus.
 

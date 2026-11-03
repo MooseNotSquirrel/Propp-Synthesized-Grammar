@@ -1018,3 +1018,7 @@ NEXT, at the owner's word: step 4, the fortune arcs and the character networks (
 - **Tests:** A1 to A3, N-a, N-b and T, before any figure is read.
 - **Five decisions for the owner.** Recommended: reported only, with one frozen prediction, that the wondertales' most common shape is fall then rise.
 NEXT, at the owner's word: the review and decisions, then the programs.
+**2026-11-03. `StoryModels/ArcsNetworksProtocol.md` FROZEN at the owner's word, all five recommendations taken.**
+- Reported only, with one frozen prediction: the wondertales' most common F2 shape is fall then rise, per describer, by a sign test at p at most 0.05.
+- F2's halves as written; all stories, with the agreed-hero subset beside them; the networks from the acts layer alone; at least 6 scored acts per arc.
+NEXT, at the owner's word: `StoryModels/arcs.py` and `networks.py` written and committed, and their tests passed, before any figure is read.
