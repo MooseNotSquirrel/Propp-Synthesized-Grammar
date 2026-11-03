@@ -248,7 +248,7 @@ def report():
         rep.append(row)
 
     rep += ['', '## F4. The fortune at the end, and the lowest point (means; agreed-hero stories in brackets)']
-    rep.append('%-16s %26s %26s %26s' % ('corpus', 'end', 'lowest point', 'time of lowest point'))
+    rep.append('%-16s %30s %30s %30s' % ('corpus', 'end', 'lowest point', 'time of lowest point'))
     for g in C.ORDER:
         cells = [[], [], []]
         for L in C.READERS:
@@ -259,7 +259,7 @@ def report():
                 lows = [low(p) for p in pts]
                 for j, v in enumerate((ends, [l[0] for l in lows], [l[1] for l in lows])):
                     cells[j].append('%+.2f' % np.mean(v) if v else '-')
-        rep.append('%-16s' % C.NAMES[g] + ''.join('%27s' % ('%s (%s) / %s (%s)' % tuple(c)) for c in cells))
+        rep.append('%-16s' % C.NAMES[g] + ''.join('%31s' % ('%s (%s) / %s (%s)' % tuple(c)) for c in cells))
 
     rep += ['', '## F4. The mean arc, 20 points from the first act to the last (the scale shared by every row)']
     curves = {}
