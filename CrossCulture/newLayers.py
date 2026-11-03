@@ -358,19 +358,45 @@ def sig(mode):
     return out
 
 
+def read_sig(c, L, q):
+    """as significance.read_sig, but from the file itself: that reads the built tables, which do not yet hold these files"""
+    path = os.path.join(AR, c, 'sig', L, 'q%d' % q, 'Significance.txt')
+    out, probs, faults = {}, {}, []
+    if not os.path.exists(path):
+        return out, probs, ['%s q%d: no file' % (L, q)]
+    for i, line in enumerate(open(path, encoding='utf-8'), 1):
+        s = line.strip()
+        if not s or s.startswith('#'):
+            continue
+        f = [x.strip() for x in line.rstrip('\n').split('|', 8)]
+        if len(f) >= 3 and f[1].lower() == 'problem':
+            probs[(f[0], f[2].lower())] = ' | '.join(f[3:])
+            continue
+        if not re.match(r'^e\d{4}$', f[0]):
+            faults.append('%s q%d line %d: not an entry' % (L, q, i))
+            continue
+        if len(f) < 9:
+            faults.append('%s q%d line %d: %d fields' % (L, q, i, len(f)))
+            continue
+        part, value, place, prob, link, target = (x.lower() for x in f[1:7])
+        bad = [x for x, okl in ((part, SG.PARTS), (value, SG.VALUES), (place, SG.PLACES), (link, SG.LINKS)) if x not in okl]
+        if bad:
+            faults.append('%s q%d %s: not in the lists: %s' % (L, q, f[0], ', '.join(bad)))
+        out[f[0]] = (part, value, place, prob, link, target)
+    return out, probs, faults
+
+
 def form_sig():
     ok = True
     for c in CORPORA:
         batches, text, counts = sig_inputs(c)
         for L in 'AB':
             for q in range(1, len(batches) + 1):
+                if not os.path.exists(os.path.join(AR, c, 'sig', L, 'q%d' % q)):
+                    print('%-9s %s q%d not yet run' % (c, L, q))
+                    continue
                 ids = re.findall(r'^    (e\d{4}) \|', text[(L, q)], re.M)
-                saved = SG.SIG
-                SG.SIG = os.path.join(AR, c, 'sig')
-                try:
-                    sigd, probs, faults = SG.read_sig(L, 'q%d' % q)
-                finally:
-                    SG.SIG = saved
+                sigd, probs, faults = read_sig(c, L, q)
                 missing = [i for i in ids if i not in sigd]
                 extra = sorted(set(sigd) - set(ids))
                 bad = len(missing) + len(extra) + len(faults)
