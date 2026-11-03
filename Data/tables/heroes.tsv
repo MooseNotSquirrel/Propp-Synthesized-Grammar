@@ -49,6 +49,56 @@ animal:A047	A	Opus	heroes	the Goat	medium	the Goat leads the flight, frightens o
 animal:A048	A	Opus	heroes	the peasant	medium	he harms the Bear, the Fox and the Gadfly in turn and by a last trick escapes their joint revenge	23	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
 animal:A049	A	Opus	heroes	the old man	medium	the Wolf's visits strip him of his livestock and his wife until he drives the Wolf off and is left alone	24	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
 animal:A050	A	Opus	heroes	the old man	medium	the Wolf's demands for his wife press on him, and he gives up his animals instead to keep her	25	4	ActsRoles/heroes/answers/A/ah2/Heroes.txt
+eastasian:C01	A	Opus	heroes	the five brothers	medium	the eldest brother's mishap sets it going, but each brother in turn takes the sentence and together they come home safe	1	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C02	A	Opus	heroes	the youngest son	high	he loses his basket to the princess and through his own tricks wins it back along with her hand	2	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C03	A	Opus	heroes	the husband	high	the story follows his bluff about his sense of smell through its lucky successes to his end as ants	3	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C04	A	Opus	heroes	the thriftless man	medium	his despair and his find among the apes drive the story, with the neighbour as a foil who pays for it	4	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C05	A	Opus	heroes	no single hero: the big boy; the little boy	medium	the big boy's scheme for the cake drives it, and the little boy is the one who suffers it and is left waiting	5	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C06	A	Opus	heroes	the fool	high	the story follows his coaching and his mixed-up answers at his in-laws' door	6	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C07	A	Opus	heroes	the foolish son	high	it turns on his literal imitation of his brother-in-law on his first visit	7	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C08	A	Opus	heroes	the old woman	high	the boar's threat to her granddaughter sets it going, and she gathers the gifts and finishes the boar	8	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C09	A	Opus	heroes	no single hero: the old woman; the neighbour	medium	the telling splits evenly between the honest woman's reward and the neighbour's punished imitation	9	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C10	A	Opus	heroes	the blind boy	high	his questions about the sky and sun and his fall into the flour are the whole story	10	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C11	A	Opus	heroes	the youngest daughter	medium	her father's promise starts it, but she takes it on, goes to the serpent and frees him	11	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C12	A	Opus	heroes	Kong Hia Chiang	high	the story follows his arrest over the birds' message and his rise once it is proved true	12	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C13	A	Opus	heroes	the grandmother	medium	her want of a grandson starts it and her plan with the shell shapes it until she loses him	13	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C14	A	Opus	heroes	the young girl	high	she solves the wives' riddle, becomes head of the household and outwits the buyer and the Mandarin	14	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C15	A	Opus	heroes	no single hero: the hunchback; the widow	medium	both are matched by the go-betweens and the ending is the two of them seeing each other's flaw	15	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C16	A	Opus	heroes	the youth	high	his mistaken betrothal, his flight and his attack lead to his marrying the same girl after all	16	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C17	A	Opus	heroes	no single hero: the wife; the simpleton	medium	her effort to educate him frames the story while his blunders fill it, ending with her giving up	17	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C18	A	Opus	heroes	the clever young wife	medium	her misery at being married to a fool drives it, though Mr. Seven-Eight brings it to its end	18	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C19	A	Opus	heroes	the widow	medium	her forced marriage and loss of her rights start it and the ending restores her and her son, though the magistrate does the work	19	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C20	A	Opus	heroes	the poor man	high	his gifts to the lawyer and his discovery of the repayment he can expect make up the story	20	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C21	A	Opus	heroes	the singing prisoner	high	the story follows how his reciting brings him from neglect in prison to release	21	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C22	A	Opus	heroes	the provincial judge	low	the murder and the parents' plea start it, but he is the one who acts to settle it with his trick	22	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C23	A	Opus	heroes	the bride	high	the old woman's extortion is aimed at her and she defeats it with the ladle before the magistrate	23	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C24	A	Opus	heroes	no single hero: the young man; the wife	medium	the first half follows his scheme to win her by murder and the second her discovery and vengeance	24	4	ActsRoles/heroes/answers/A/eh1/Heroes.txt
+eastasian:C25	A	Opus	heroes	no single hero: the poor man; the magistrate	medium	the poor man's loss starts it and he gets the garlic back, but the telling follows the magistrate's trick that solves it	1	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J01	A	Opus	heroes	Shokujo	medium	the story follows her marriage, her fall into idleness, the separation and her yearly crossing to her husband	2	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J02	A	Opus	heroes	no single hero: the Kyoto frog; the Osaka frog	high	the two frogs' journeys run in parallel and end with the same mistake and return	3	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J03	A	Opus	heroes	Bimbo	medium	the farmer finds the thunder-child, prospers through him and is followed to the end of his days after the boy leaves	4	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J04	A	Opus	heroes	the old man	high	the story follows his loss of the sparrow, his visit and modest choice, and ends with his lasting ease	5	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J05	A	Opus	heroes	Princess Hotaru	medium	her coming of age and impossible task drive the story, which ends with her marriage to the prince who meets it	6	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J06	A	Opus	heroes	the crab	high	the crab is cheated and beaten by the ape, is avenged with his friends' help and ends married and at peace	7	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J07	A	Opus	heroes	the tinker	medium	the tinker buys the magic kettle, makes his fortune exhibiting it and retires rich	8	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J08	A	Opus	heroes	Momotaro	high	the story follows him from his birth in the peach through his conquest of the demons to his happy life	9	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J09	A	Opus	heroes	no single hero: the badger; the cub	medium	the badger's treachery runs the story until the cub's revenge takes over and brings about his death	10	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J10	A	Opus	heroes	the seven Patrons of Happiness	low	the seven gods act together as a group throughout and no one of them stands out	11	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J11	A	Opus	heroes	Shino	low	the oni's mission, journey and humiliating defeat make up the story, though Daikoku is the one who wins	12	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J12	A	Opus	heroes	Benkei	medium	after the bell's history he steals it, fails to make it serve Hiyeisan and gives it back in a rage	13	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J13	A	Opus	heroes	Little Silver	high	the story is her dream from falling asleep to waking and laughing at it	14	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J14	A	Opus	heroes	Yoshitsune	medium	the short account is only about the boy's training by the tengus	15	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J15	A	Opus	heroes	Kintaro	high	the story follows the boy from his birth in the forest to becoming a soldier under his father's name	16	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J16	A	Opus	heroes	Jiraiya	high	the story follows him from his rescue as an infant through his magic, his marriage and his war to his peaceful end	17	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J17	A	Opus	heroes	no single hero: the tortoise; the monkey; the jelly-fish	medium	the tortoise's errand, the monkey's escape and the jelly-fish's punishment each take a turn at the centre	18	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J18	A	Opus	heroes	no single hero: the Queen; Lord Cuttle-fish	medium	the Queen's secret outing frames the story, but the concert and the ending stay with Lord Cuttle-fish	19	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J19	A	Opus	heroes	Yorimasa	high	he resolves to kill the beast, shoots it and is rewarded with a sword and a wife	20	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J20	A	Opus	heroes	Tsuna	high	he cuts off the oni's arm, guards it and is tricked into losing it	21	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J21	A	Opus	heroes	no single hero: Raiko; Tsuna	medium	Raiko's sickness and wounding of the imp open the story, then Tsuna leads the killing of the spider	22	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J22	A	Opus	heroes	Raiko	high	he leads the expedition, tricks and beheads the doji and is made a court noble	23	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J23	A	Opus	heroes	the sazaye	high	his boastful trust in his shell leads to his capture and cooking	24	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J24	A	Opus	heroes	Kisaburo	medium	the miser's scheme sets the story going, and he gets the last word with his clever payment	25	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
+eastasian:J25	A	Opus	heroes	no single hero: the people of Omi; the people of Suruga; the Chinese king	low	the story is a run of separate episodes about the new lake and mountain with no one character carried through	26	4	ActsRoles/heroes/answers/A/eh2/Heroes.txt
 tragedy:P25	A	Opus	heroes	Philoctetes	medium	the story follows the abandoned Philoctetes from his isolation and the theft of his bow to his recovering it and consenting to go to Troy, though Neoptolemus's change of heart runs close beside it	1	4	ActsRoles/heroes/answers/A/h10/Heroes.txt
 tragedy:P26	A	Opus	heroes	Heracles	medium	the threat to his family sets it going and the story follows his return, his god-sent madness and slaughter of his family, and his choice to live on with Theseus	2	4	ActsRoles/heroes/answers/A/h10/Heroes.txt
 tragedy:P27	A	Opus	heroes	no single hero: Orestes; Furies	medium	the first part follows Orestes's flight and trial to his acquittal, and the rest follows the Furies' wrath until they accept a home in Athens	3	4	ActsRoles/heroes/answers/A/h10/Heroes.txt
@@ -324,6 +374,56 @@ tragedy:P21	A	Opus	heroes	Xerxes	medium	the story turns on his expedition, his d
 tragedy:P22	A	Opus	heroes	Admetus	medium	his escape from death sets it going, he suffers his wife's loss and he receives her back at the end	6	4	ActsRoles/heroes/answers/A/h9/Heroes.txt
 tragedy:P23	A	Opus	heroes	Orestes	high	he returns from exile, plans and carries out the vengeance, and is driven off by the Furies	7	4	ActsRoles/heroes/answers/A/h9/Heroes.txt
 tragedy:P24	A	Opus	heroes	Hippolytus	high	Aphrodite's vengeance on him sets it going and the story follows him through false accusation, exile and death	8	4	ActsRoles/heroes/answers/A/h9/Heroes.txt
+native:T01	A	Opus	heroes	Raven	high	every episode follows Raven's schemes, from winning the daylight to shaping the world, and he is present throughout	1	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T02	A	Opus	heroes	Raven	low	after a brief aside about Tsel, the killing of the clam is set going by Raven's plan, though the mink and the people carry it out	2	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T03	A	Opus	heroes	no single hero: Kackalk; Lqayak	medium	Kackalk leads and revives his brothers each time, but Lqayak drives the key exploits and the ending turns on his disgrace and becoming thunder	3	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T04	A	Opus	heroes	the man	medium	after Natsalane's opening creation, the story follows the husband's pursuit and rescue of his wife from the killer whales	4	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T05	A	Opus	heroes	Kaka	high	the story follows Kaka's capture by the land otters, his ordeal on the log, and his rise to great shaman	5	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T06	A	Opus	heroes	the man	medium	the drowned sister's help comes to him, and the telling stays with his fishing, his slip of the tongue, and his search for his helpers	6	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T07	A	Opus	heroes	the man	medium	the famine-stricken father receives his drowned son's help and loses him again, with the telling staying with him and his wife	7	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T08	A	Opus	heroes	the boy	high	the youth finds the wolf pup, follows it to the wolf town, and returns with gifts that make him rich	8	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T09	A	Opus	heroes	the man	high	the hunter's stay with Wolverine-man and his gain of the trap bring him wealth, and the story follows him throughout	9	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T10	A	Opus	heroes	no single hero: the elder brother; the younger brother	medium	after the sister's death the brothers act together for revenge, the elder doing the deed and the younger's words bringing their shared doom	10	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T11	A	Opus	heroes	no single hero: the eldest brother; the little boy	medium	the account joins two separate stories, the brothers' killing of the devilfish and the cry-baby taken by the land otter	11	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T12	A	Opus	heroes	the chief's daughter	high	the story follows her trapped by the clam until the tide drowns her and she is mourned	12	4	ActsRoles/heroes/answers/A/nh1/Heroes.txt
+native:T13	A	Opus	heroes	Root-stump	high	born to the bereft woman, he defeats the thing that carried off the people, kills the canoe maker and prospers	1	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T14	A	Opus	heroes	the people	low	no individual is followed; the boys' act brings the winter and the people as a whole suffer and escape to the summer town	2	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T15	A	Opus	heroes	no single hero: the porcupine; the man	medium	the porcupine's wish to go home and his stranding drive the first part, then the telling shifts to the hunter who is killed in his own trap	3	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T16	A	Opus	heroes	the poor man	high	the story follows the mocked fisherman's loss of the abalone and his later success and wealth	4	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T17	A	Opus	heroes	no single hero: the four brothers; the older child	medium	the first part follows the brothers bringing home the paint through the storm, the second the child who burns his sister, giving the creek its name	5	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T18	A	Opus	heroes	no single hero: the four men; the people	low	a string of separate episodes, of which the land-otter hunt of the four men and the people's revenge on the murderers are the fullest	6	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T19	A	Opus	heroes	Kats	medium	the story follows his marriage to the bear, his return home and his death for breaking her rule, with an aftermath among the cubs	7	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T20	A	Opus	heroes	no single hero: the companion; the bow man	medium	two separate adventures: the surviving hunter who heals the sea-lion chief's son and gets home, and the canoe crew judged and honored by the Gonaqadet, voiced by the bow man	8	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T21	A	Opus	heroes	the man	high	the bereaved man's feast for his dead kinsmen sets it going, and the bears come to console him	9	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T22	A	Opus	heroes	the chief's daughter	medium	her mockery and marriage to the frog set it going and the story ends with her recovery and death, though her father drives the rescue	10	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T23	A	Opus	heroes	the frog tribe	low	the frogs, taking themselves to be asked, honor the dead chief through the frog that burns itself, which is what the story turns on	11	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T24	A	Opus	heroes	the Kiksadi youth	high	the story follows him from capturing his brant wives to following them, saving the brants in war and becoming one of them	12	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:T25	A	Opus	heroes	the woman	medium	she is saved by the birds and her family's efforts to recover her drive the story until she is returned	13	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O01	A	Opus	heroes	the Rabbit	high	he goes to the Winter, learns what he fears and kills him	14	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O02	A	Opus	heroes	the Rabbit	high	his resentment of the long-footed trail-maker leads him to snare the Sun and be scorched	15	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O03	A	Opus	heroes	the Rabbit	high	he defies his grandmother, kills the Black bear chief, is killed and revived, and destroys the Black bears	16	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O04	A	Opus	heroes	no single hero: the Rabbit; the grandmother	low	the Rabbit sets the trick, but the telling follows the grandmother's misadventure with the bear's member and its outcome	17	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O05	A	Opus	heroes	the Rabbit	high	he provokes and endures the giant and finally kills him	18	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O06	A	Opus	heroes	the Rabbit	high	he seeks feathers, kills the eagles, returns home and destroys the devouring hill	19	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O07	A	Opus	heroes	the Rabbit	high	he defies the warning, gets swallowed, kills the Hill and brings home the fat	20	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O08	A	Opus	heroes	the Rabbit	high	he scouts against advice, is shot, escapes and cures himself	21	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O09	A	Opus	heroes	Ictinike	medium	after the Rabbit's trick the telling stays with Ictinike's suffering, shame and his final fooling of the village	22	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O10	A	Opus	heroes	no single hero: the Rabbit; the Rabbit's son	medium	the Rabbit's mistreatment by the Grizzly bear sets it going, but the son he makes from the blood clot avenges him and is celebrated at the end	23	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O11	A	Opus	heroes	the Rabbit	high	robbed and stuck by Ictinike, he is freed, outshines the impostor and kills him	24	4	ActsRoles/heroes/answers/A/nh2/Heroes.txt
+native:O12	A	Opus	heroes	Siçemakan	high	the story follows his tricks on the women and on his grandmother from start to finish	1	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O13	A	Opus	heroes	Ictinike	high	every episode follows his schemes for food and his wish to live as an Elk, and their outcomes	2	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O14	A	Opus	heroes	Ictinike	high	the story follows his wish to live as the Elk and his betrayal of them	3	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O15	A	Opus	heroes	Ictinike	high	he is dropped into the tree, escapes, and plots and takes his revenge on the Buzzard	4	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O16	A	Opus	heroes	no single hero: the sister; the brothers	medium	her abduction drives the story, but the second half follows the brothers' search and rescue of her	5	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O17	A	Opus	heroes	no single hero: the left-handed one; the other head-man	medium	the two abandoned boys raise and lead the deserted children and take revenge on the parents, though Ictinike drives the ending	6	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O18	A	Opus	heroes	Ictinike	medium	the story follows his being tricked by the Coyote and his getting even with him	7	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O19	A	Opus	heroes	the Coyote	high	his scheme to win the chief's daughter drives the story and ends with his death	8	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O20	A	Opus	heroes	the Coyote	high	his wish to live as a Buffalo-bull drives the story and ends with his death	9	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O21	A	Opus	heroes	Waha'ɛi'ɛige	high	the story follows his visit to the village, his attack on the chiefs and his escape	10	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O22	A	Opus	heroes	the Orphan	high	he gains the dogs, kills the monster, exposes the impostor and marries the chief's daughter	11	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O23	A	Opus	heroes	the boy (the Orphan)	high	the poor boy gains the dogs, kills the monster's heads, exposes the black man and is made son-in-law	12	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O24	A	Opus	heroes	the Orphan	medium	his hunger and his search for his wife frame the story, though the middle follows the Buffalo-calf's journey	13	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
+native:O25	A	Opus	heroes	Waha'ɛi'ɛige	medium	the story follows his pursuit of the Buffalo-woman and their sons and his destruction of the Buffaloes	14	4	ActsRoles/heroes/answers/A/nh3/Heroes.txt
 animal:A001	B	Sonnet	heroes	the Fox	high	the Fox tricks the Old Man, the Wolf and several peasants and ends by eating the Cockerel.	1	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
 animal:A002	B	Sonnet	heroes	the Fox	high	the Fox tricks the Wolf into freezing his tail and rides him, and the telling stays with her cunning.	2	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
 animal:A003	B	Sonnet	heroes	the Fox	high	the Fox lures the Wolf into freezing his tail and leaves him to be killed.	3	4	ActsRoles/heroes/answers/B/ah1/Heroes.txt
@@ -374,6 +474,56 @@ animal:A047	B	Sonnet	heroes	the Goat	high	he leads the escape and tricks the bea
 animal:A048	B	Sonnet	heroes	the Peasant	medium	he defeats the Bear and the Fox and Gadfly by trick and fright and ends unharmed	23	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
 animal:A049	B	Sonnet	heroes	the old man	medium	he loses his livestock and wife to the Wolf and ends grieving alone	24	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
 animal:A050	B	Sonnet	heroes	the old man	medium	he keeps giving substitutes to the Wolf and finally keeps his wife	25	4	ActsRoles/heroes/answers/B/ah2/Heroes.txt
+eastasian:C01	B	Sonnet	heroes	no single hero: the eldest brother; the fifth brother	low	the eldest brother's misfortune starts it, but the brothers take his doom in turn and the last one outwits it	1	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C02	B	Sonnet	heroes	the youngest son	high	he loses the basket, fails again, then wins the princess by his banana scheme	2	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C03	B	Sonnet	heroes	the husband	high	the story follows his bluffs and lucky escapes until he is tossed into the sky and becomes ants	3	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C04	B	Sonnet	heroes	the thriftless man	medium	he gets rich from the apes, though the story turns to his imitator at the end	4	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C05	B	Sonnet	heroes	the big boy	low	the telling follows his scheme to eat the cake, though the little boy is the one wronged	5	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C06	B	Sonnet	heroes	the fool	high	the story follows his coached answers and his blunder with the mother-in-law	6	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C07	B	Sonnet	heroes	the fool	high	the story follows him copying his brother-in-law's fit	7	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C08	B	Sonnet	heroes	the old woman	high	she is threatened by the boar and defeats it with the help she gathers	8	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C09	B	Sonnet	heroes	no single hero: the honest old woman; the busybody neighbour	medium	the story is two parallel halves, the first woman's reward and the neighbour's failed imitation	9	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C10	B	Sonnet	heroes	the blind boy	high	the story follows his attempts to picture the sky and ends with his fall	10	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C11	B	Sonnet	heroes	the youngest daughter	high	she saves her family by agreeing to marry the serpent and then disenchants him	11	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C12	B	Sonnet	heroes	Kong Hia Chiang	high	the story follows his imprisonment and rise through understanding the birds	12	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C13	B	Sonnet	heroes	no single hero: the grandmother; the man in the shell	medium	she seeks the child and takes his shell, and he is born and then leaves for the sea	13	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C14	B	Sonnet	heroes	the young girl	high	she solves the wives' problem, becomes head of the family, and wins the family's wealth and the Mandarin's test	14	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C15	B	Sonnet	heroes	no single hero: the hunchback; the harelipped widow	medium	the story follows both deceived matches equally to the final exchange	15	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C16	B	Sonnet	heroes	the youth	high	the story follows his betrothal, flight and unwitting marriage to the girl he struck	16	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C17	B	Sonnet	heroes	no single hero: the simpleton; his wife	medium	she tries to educate him throughout while his blunders carry each episode	17	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C18	B	Sonnet	heroes	the clever young wife	medium	the story follows her riddle-solving, her despair and her turning back from the pool	18	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C19	B	Sonnet	heroes	the widow	medium	the story follows her wrongs and her recovery of her son's inheritance, though the magistrate does the key work	19	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C20	B	Sonnet	heroes	the poor man	high	he finds out the lawyer's plan and escapes it by stopping the gifts	20	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C21	B	Sonnet	heroes	the singing prisoner	high	the story follows his making the best of prison until he is freed	21	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C22	B	Sonnet	heroes	the famous judge	low	the story follows the investigation and the trick that unmasks the murderer	22	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C23	B	Sonnet	heroes	the bride	high	she defeats the old woman's extortion by a counterclaim before the magistrate	23	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C24	B	Sonnet	heroes	no single hero: the merchant's son; the curd-maker's wife	medium	the first half follows his murderous scheme and the second her revenge	24	4	ActsRoles/heroes/answers/B/eh1/Heroes.txt
+eastasian:C25	B	Sonnet	heroes	no single hero: the poor man; the magistrate	low	the poor man's loss starts it, but the magistrate's trick carries it to the thief and the telling ends on his fame	1	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J01	B	Sonnet	heroes	the Weaving Princess (Shokujo)	medium	her change after marriage and her separation from her husband drive the story, which ends with her crossing the bridge	2	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J02	B	Sonnet	heroes	no single hero: the Kyoto frog; the Osaka frog	medium	two frogs each set out with their own want and the story follows both equally to their shared mistaken conclusion	3	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J03	B	Sonnet	heroes	Bimbo	medium	the story follows the farmer who finds, adopts and loses the thunder child and is enriched by him, though Raitaro is a close second	4	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J04	B	Sonnet	heroes	the old man	high	his pet's loss and recovery and his modest choice of the light basket bring his reward	5	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J05	B	Sonnet	heroes	Princess Hotaru	medium	her impossible task sets the suitors off and the story ends with her marriage	6	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J06	B	Sonnet	heroes	the crab	high	he is wronged by the ape, takes revenge through his allies, and ends prosperous	7	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J07	B	Sonnet	heroes	the tinker	medium	he buys the kettle, makes his fortune from it and retires in gratitude	8	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J08	B	Sonnet	heroes	Momotaro	high	the story follows his birth, his quest against the demons and his triumphant return	9	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J09	B	Sonnet	heroes	the cub	medium	the mother's death sets the cub on revenge, which it achieves, though the badger's treachery drives the middle	10	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J10	B	Sonnet	heroes	the seven Patrons of Happiness	low	a group story in which no one of the seven is followed more than the others	11	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J11	B	Sonnet	heroes	Daikoku	medium	the idols' plot threatens him, he defeats it through his rat, and he is left at peace	12	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J12	B	Sonnet	heroes	no single hero: Benkei; the bell	medium	the story passes from the bell's insult to Benkei's theft and its repeated cry to go home	13	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J13	B	Sonnet	heroes	Little Silver	high	the story follows her dream and her waking disillusion with the tapir	14	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J14	B	Sonnet	heroes	Yoshitsune	medium	the short account follows the boy learning arms and magic from the tengus	15	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J15	B	Sonnet	heroes	Kintaro	medium	the story follows his birth in the wild, his growing strength and his adoption by Raiko	16	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J16	B	Sonnet	heroes	Jiraiya	high	the story follows him from orphan to robber to pupil of magic to champion of the poor and his end	17	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J17	B	Sonnet	heroes	no single hero: the tortoise; the monkey; the jelly-fish	low	the tortoise's mission, the monkey's escape and the jelly-fish's punishment each take a share	18	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J18	B	Sonnet	heroes	Lord Cuttle-fish	medium	the telling stays on his concert and his gorging and headache the next morning	19	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J19	B	Sonnet	heroes	Yorimasa	high	the story follows his watch, his shooting of the beast and his rewards	20	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J20	B	Sonnet	heroes	Tsuna	high	the story follows his watch at the gate, his loss of the oni's arm and the arm's theft through his pride	21	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J21	B	Sonnet	heroes	no single hero: Raiko; Tsuna	low	Raiko's sickness and Tsuna's hunt of the spider share the story, which then turns to the Tango expedition	22	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J22	B	Sonnet	heroes	Raiko	high	he leads the plan, tricks and kills the demons and is rewarded	23	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J23	B	Sonnet	heroes	the sazaye	high	his pride in his shell leads to his being bought and cooked	24	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J24	B	Sonnet	heroes	Kisaburo	medium	the miser's scheme and his clever payment in jingles decide the outcome	25	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
+eastasian:J25	B	Sonnet	heroes	no single hero: the people; the Chinese king	low	the story moves from the people naming the lake and mountain to the king's failed search for the elixir	26	4	ActsRoles/heroes/answers/B/eh2/Heroes.txt
 tragedy:P25	B	Sonnet	heroes	Philoctetes	high	the story follows his abandonment, his deception and loss of the bow, and his final consent to go to Troy	1	4	ActsRoles/heroes/answers/B/h10/Heroes.txt
 tragedy:P26	B	Sonnet	heroes	Heracles	high	the story follows his return, his rescue of his family, his madness and its aftermath, and his decision to live	2	4	ActsRoles/heroes/answers/B/h10/Heroes.txt
 tragedy:P27	B	Sonnet	heroes	Orestes	medium	the story follows the matricide's flight, pursuit and acquittal, though the Furies' reconciliation takes much of the telling	3	4	ActsRoles/heroes/answers/B/h10/Heroes.txt
@@ -649,6 +799,56 @@ tragedy:P21	B	Sonnet	heroes	Xerxes	medium	The story is about the disaster of his
 tragedy:P22	B	Sonnet	heroes	Admetus	medium	His fate sets the story going and the telling stays with his loss and recovery of Alcestis, though she acts to save him.	6	4	ActsRoles/heroes/answers/B/h9/Heroes.txt
 tragedy:P23	B	Sonnet	heroes	Orestes	high	The story follows his return, his vengeance on Aegisthus and his mother, and his pursuit by the Furies.	7	4	ActsRoles/heroes/answers/B/h9/Heroes.txt
 tragedy:P24	B	Sonnet	heroes	Hippolytus	high	The story follows his scorn of Aphrodite, his false accusation and his ruin and death.	8	4	ActsRoles/heroes/answers/B/h9/Heroes.txt
+native:T01	B	Sonnet	heroes	Raven	high	the story follows Raven's deeds and tricks throughout, from stealing the daylight to shaping the world.	1	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T02	B	Sonnet	heroes	no single hero: the little mink; the people	low	the brief tale divides between the mink who lures the clam and the people who kill it, with Raven only prompting.	2	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T03	B	Sonnet	heroes	Kackalk	high	the eldest brother leads, revives his brothers repeatedly and defeats the giant and the bear chief.	3	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T04	B	Sonnet	heroes	the man	medium	the husband's loss of his wife and his journey under the sea to recover her carry the main action, framed by the whales' origin.	4	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T05	B	Sonnet	heroes	Kaka	high	the story follows his abduction by the land otters and his recovery as a shaman.	5	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T06	B	Sonnet	heroes	the man	medium	his dealings with his otter sister and nephews, and his loss of them, drive the telling.	6	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T07	B	Sonnet	heroes	the father	medium	the father fishes with his returned son and the telling stays with his experience until the son vanishes.	7	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T08	B	Sonnet	heroes	the youth	high	his lost wolf pup sets the story going, and he recovers it and gains wealth from the wolf chief.	8	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T09	B	Sonnet	heroes	the man	high	he is taken in by Wolverine-man, learns the trap and grows wealthy from it.	9	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T10	B	Sonnet	heroes	no single hero: the elder brother; the younger brother	medium	the two brothers share the revenge on the halibut chief and the doom that ends them as ducks.	10	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T11	B	Sonnet	heroes	no single hero: the youngest brother; the little boy	medium	the story splits between the hunters' fight with the devilfish and the cry-baby boy taken by the otter man.	11	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T12	B	Sonnet	heroes	the chief's daughter	high	she is caught by the clam and drowned, and the story ends with her mourning.	12	4	ActsRoles/heroes/answers/B/nh1/Heroes.txt
+native:T13	B	Sonnet	heroes	Root-stump	high	The story follows his birth, growth and destruction of the thing that took the people, and ends with his triumph.	1	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T14	B	Sonnet	heroes	the people	medium	Their hunger in the false winter sets it going and they act to escape it by following the jay.	2	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T15	B	Sonnet	heroes	the porcupine	medium	His stranding of the beaver and his own longing for home drive the telling, though the last part shifts to the hunter.	3	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T16	B	Sonnet	heroes	the poor man	high	His loss of the abalone and his later wealth in fish are the whole arc.	4	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T17	B	Sonnet	heroes	no single hero: the four brothers; the boy who burned his sister	low	The blue paint voyage and the clam-digging episode are two unrelated tellings with different characters.	5	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T18	B	Sonnet	heroes	no single hero: the people; the four hunters	low	A chain of unconnected adventures among different groups with no continuing character.	6	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T19	B	Sonnet	heroes	Kats	high	His bear marriage, his return, his broken prohibition and his death are the story's line.	7	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T20	B	Sonnet	heroes	no single hero: the surviving hunter; the steersman and bow man	medium	The first half follows the surviving hunter who cures the sea-lion, the second a different canoe's crew.	8	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T21	B	Sonnet	heroes	the man	high	His grief and feast for the dead is resolved when the bears comfort him.	9	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T22	B	Sonnet	heroes	the chief's daughter	high	Her mockery of frogs leads to her capture, rescue and death.	10	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T23	B	Sonnet	heroes	no single hero: the Kiksadi; the Kagwantan	low	The two camps share the events at the pyre and the frog's honouring, with no individual followed.	11	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T24	B	Sonnet	heroes	the youth	high	He takes the brant wives, loses them, follows them and becomes one of the brants.	12	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:T25	B	Sonnet	heroes	the woman	medium	Her drowning, survival among the birds and return to her father form the line, though her father drives much of the action.	13	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O01	B	Sonnet	heroes	the Rabbit	high	He tricks and kills the Winter, and the telling stays with him.	14	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O02	B	Sonnet	heroes	the Rabbit	high	His hatred of the trail-maker, his snaring of the Sun and his scorching are the story.	15	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O03	B	Sonnet	heroes	the Rabbit	high	His killing of the bear chief, his own death and revival and his destruction of the bears.	16	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O04	B	Sonnet	heroes	no single hero: the Rabbit; the grandmother	medium	The Rabbit acts but the misfortune and the outcome of her mishap fall on his grandmother.	17	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O05	B	Sonnet	heroes	the Rabbit	high	He shames the men, withstands the giant and kills him.	18	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O06	B	Sonnet	heroes	the Rabbit	high	His feather hunt in the sky and his killing of the hill are his own exploits.	19	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O07	B	Sonnet	heroes	the Rabbit	high	He enters and kills the Hill, refuses chieftainship and proves it to his grandmother.	20	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O08	B	Sonnet	heroes	the Rabbit	high	He is shot while scouting and cures himself.	21	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O09	B	Sonnet	heroes	Ictinike	medium	He is the one tricked, shamed and left sad and naked, and the telling follows him to its end.	22	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O10	B	Sonnet	heroes	no single hero: the Rabbit; the Rabbit's son	medium	The Rabbit suffers under the Grizzly bear until his wished-for son acts and kills the bears.	23	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O11	B	Sonnet	heroes	the Rabbit	medium	He is tricked, stuck to the tree and then frees himself, outshoots Ictinike and destroys him.	24	4	ActsRoles/heroes/answers/B/nh2/Heroes.txt
+native:O12	B	Sonnet	heroes	Siçemakan	high	he plans and carries out the trick on the women and then on his grandmother, and the telling stays with him throughout	1	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O13	B	Sonnet	heroes	Ictinike	high	the story follows his run of schemes and mishaps with the Turkeys, tree, turtle and Elk, ending with his betrayal of the Elk	2	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O14	B	Sonnet	heroes	Ictinike	high	he sets out, joins the Elk, leads them to the men, and the story ends with him naming the survivors	3	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O15	B	Sonnet	heroes	Ictinike	high	he is dropped into the tree by the Buzzard and the story follows his escape and his revenge on the Buzzard	4	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O16	B	Sonnet	heroes	no single hero: the sister; the youngest brother	low	the sister's lapse sets the story going and she is carried off, while the youngest brother finds and frees her, with Ictinike only a brief instigator	5	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O17	B	Sonnet	heroes	no single hero: the left-handed head-man; the other head-man	low	the two abandoned boys lead the children and avenge themselves together, while Ictinike only appears in the later part	6	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O18	B	Sonnet	heroes	no single hero: Ictinike; the Coyote	medium	each tricks and injures the other in turn and the story gives both equal weight	7	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O19	B	Sonnet	heroes	the Coyote	high	his scheme to win the chief's daughter drives the story and it ends with his death	8	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O20	B	Sonnet	heroes	the Coyote	high	his wish to live as a Buffalo drives the story through his transformation, his misuse of it, and his death	9	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O21	B	Sonnet	heroes	Waha'ɛi'ɛige	high	his insistence on going to the village, his boast and his escape make up the whole story	10	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O22	B	Sonnet	heroes	the Orphan	high	he gets the dogs and sword, kills the monster, and wins back his deed and the chief's daughter	11	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O23	B	Sonnet	heroes	the boy	high	the poor boy gains the gun, dogs and sword, kills the monster, and proves his claim against the black man	12	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O24	B	Sonnet	heroes	the Orphan	high	his mistreatment starts the story and he follows the Buffalo-woman and recovers her and their child	13	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
+native:O25	B	Sonnet	heroes	Waha'ɛi'ɛige	medium	he sets out poor, follows his wife and the Buffaloes across the water, and ends by destroying them	14	4	ActsRoles/heroes/answers/B/nh3/Heroes.txt
 tale:A093	lister		events	Ivan-tsarevich			1	3	Afanasyev/Heroes.txt
 tale:A095	lister		events	Marfusha, the stepdaughter			2	3	Afanasyev/Heroes.txt
 tale:A098	lister		events	the old man's daughter			3	3	Afanasyev/Heroes.txt

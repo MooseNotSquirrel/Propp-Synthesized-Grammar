@@ -993,3 +993,21 @@ NEXT, at the owner's word: step 3, confirming which layers the myths lack.
   - The fortune arcs need significance and heroes. The character networks and the acts-layer induction need acts. All three run on the tales, animal tales, Fables, tragedies and the two new corpora, without the myths and Aesop, unless new reader stages describe those.
   - The functions-layer induction can include both. A network from the functions' performers alone would be a lesser stand-in.
 NEXT, at the owner's word: copy and build the new heroes, rebuild `characters.tsv`, then step 4.
+**2026-11-03. The new corpora's heroes and characters built into the tables** (`Characters/characters.py` extended and committed before it ran). At the owner's word.
+- **Heroes:**
+  - `build.py` already globbed every ActsRoles `heroes/answers/<L>/*/Heroes.txt`, so a rebuild took them in: 200 new rows, 50 per reader per corpus, and no earlier row changed.
+  - The answers stay in ActsRoles, not copied to the corpus repositories, as `animal-heroes`' were. T1, T2 and T4 PASS.
+- **Characters: `characters.py` given the two corpora, its rules unchanged:**
+  - their function files in PATS;
+  - their ids (`[TOCJ]\d{2}`) in the story filter;
+  - their act and free-verb studies in the join order.
+- **The build:**
+  - 2016 new character rows, 100 story-readings per corpus. Every earlier row is unchanged and in its order, in both `characters.tsv` and `unjoined.tsv`.
+  - C1, C2, C6 and C7 PASS; T1, T2 and T4 PASS.
+- **Two notes for the character networks:**
+  - The new corpora have no name stage, so a kind WordNet does not give is "unknown": 91 native and 122 East Asian characters.
+  - The name join is weaker there than in the English corpora before. Unjoined act and free-verb mentions are 3443 against 6489 joined act mentions (native) and 3188 against 2993 (East Asian); for the animal tales the figures are 1225 against 5853.
+  - The protocol is frozen and is not tuned. Any network on acts should report the joined share per corpus.
+- **The epitome myths stay out of `characters.tsv`,** as before: the story filter admits only the Library's `L` ids.
+- `Coverage.txt` rerun: the new corpora now have every layer.
+NEXT, at the owner's word: step 4, the fortune arcs and the character networks (protocol first).

@@ -2,13 +2,13 @@
 
 corpus (source)          listed events      functions           acts           free   significance         heroes       problems     characters
 animal (AnimalTales)         50     50        50 / 50        50 / 50        50 / 50        50 / 50        50 / 50        50 / 50        50 / 50
-eastasian (EastAsian)        50     50        50 / 50        50 / 50        50 / 50        50 / 50          0 / 0        48 / 49          0 / 0
+eastasian (EastAsian)        50     50        50 / 50        50 / 50        50 / 50        50 / 50        50 / 50        48 / 49        50 / 50
 fable (Aesop)               214    102      102 / 102          0 / 0          0 / 0          0 / 0        99 / 99          0 / 0      198 / 198
 fable (Fables)               99     99        99 / 99        90 / 90        90 / 90        90 / 90        99 / 99        89 / 89      198 / 198
 myth (Apollodorus)          412    412      172 / 172          0 / 0          0 / 0          0 / 0          0 / 0          0 / 0      126 / 126
-native (NativeAmerican)      50     50        50 / 50        50 / 50        50 / 50        50 / 50          0 / 0        50 / 50          0 / 0
+native (NativeAmerican)      50     50        50 / 50        50 / 50        50 / 50        50 / 50        50 / 50        50 / 50        50 / 50
 tale (Afanasyev)             45     45        45 / 45        45 / 45        45 / 45        45 / 45        45 / 45        45 / 45        45 / 45
 tragedy (Tragedy)            32     32        32 / 32        32 / 32        32 / 32        32 / 32        32 / 32        32 / 32        32 / 32
 
-# characters.tsv was last built 2026-10-27; its column counts a whole corpus, not a source.
-# characters.tsv corpora: animal, fable, myth, tale, tragedy
+# characters.tsv was last built 2026-11-03; its column counts a whole corpus, not a source.
+# characters.tsv corpora: animal, eastasian, fable, myth, native, tale, tragedy

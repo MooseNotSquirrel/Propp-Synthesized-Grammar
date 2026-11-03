@@ -481,6 +481,8 @@ ActsRoles/eastasian/sig/input/B-q4.txt	lines 562	kept 550	blank 12	unexplained 0
 ActsRoles/eastasian/sig/B/q4/Significance.txt	lines 304	kept 304	-	unexplained 0
 ActsRoles/heroes/answers/A/ah1/Heroes.txt	lines 25	kept 25	-	unexplained 0
 ActsRoles/heroes/answers/A/ah2/Heroes.txt	lines 25	kept 25	-	unexplained 0
+ActsRoles/heroes/answers/A/eh1/Heroes.txt	lines 24	kept 24	-	unexplained 0
+ActsRoles/heroes/answers/A/eh2/Heroes.txt	lines 26	kept 26	-	unexplained 0
 ActsRoles/heroes/answers/A/h10/Heroes.txt	lines 8	kept 8	-	unexplained 0
 ActsRoles/heroes/answers/A/h1/Heroes.txt	lines 23	kept 23	-	unexplained 0
 ActsRoles/heroes/answers/A/h2/Heroes.txt	lines 22	kept 22	-	unexplained 0
@@ -491,8 +493,13 @@ ActsRoles/heroes/answers/A/h6/Heroes.txt	lines 48	kept 48	-	unexplained 0
 ActsRoles/heroes/answers/A/h7/Heroes.txt	lines 8	kept 8	-	unexplained 0
 ActsRoles/heroes/answers/A/h8/Heroes.txt	lines 8	kept 8	-	unexplained 0
 ActsRoles/heroes/answers/A/h9/Heroes.txt	lines 8	kept 8	-	unexplained 0
+ActsRoles/heroes/answers/A/nh1/Heroes.txt	lines 12	kept 12	-	unexplained 0
+ActsRoles/heroes/answers/A/nh2/Heroes.txt	lines 24	kept 24	-	unexplained 0
+ActsRoles/heroes/answers/A/nh3/Heroes.txt	lines 14	kept 14	-	unexplained 0
 ActsRoles/heroes/answers/B/ah1/Heroes.txt	lines 25	kept 25	-	unexplained 0
 ActsRoles/heroes/answers/B/ah2/Heroes.txt	lines 25	kept 25	-	unexplained 0
+ActsRoles/heroes/answers/B/eh1/Heroes.txt	lines 24	kept 24	-	unexplained 0
+ActsRoles/heroes/answers/B/eh2/Heroes.txt	lines 26	kept 26	-	unexplained 0
 ActsRoles/heroes/answers/B/h10/Heroes.txt	lines 8	kept 8	-	unexplained 0
 ActsRoles/heroes/answers/B/h1/Heroes.txt	lines 23	kept 23	-	unexplained 0
 ActsRoles/heroes/answers/B/h2/Heroes.txt	lines 22	kept 22	-	unexplained 0
@@ -503,6 +510,9 @@ ActsRoles/heroes/answers/B/h6/Heroes.txt	lines 48	kept 48	-	unexplained 0
 ActsRoles/heroes/answers/B/h7/Heroes.txt	lines 8	kept 8	-	unexplained 0
 ActsRoles/heroes/answers/B/h8/Heroes.txt	lines 8	kept 8	-	unexplained 0
 ActsRoles/heroes/answers/B/h9/Heroes.txt	lines 8	kept 8	-	unexplained 0
+ActsRoles/heroes/answers/B/nh1/Heroes.txt	lines 12	kept 12	-	unexplained 0
+ActsRoles/heroes/answers/B/nh2/Heroes.txt	lines 24	kept 24	-	unexplained 0
+ActsRoles/heroes/answers/B/nh3/Heroes.txt	lines 14	kept 14	-	unexplained 0
 Afanasyev/Heroes.txt	lines 45	kept 45	-	unexplained 0
 AnimalTales/Heroes.txt	lines 50	kept 50	-	unexplained 0
 Aesop/Heroes.txt	lines 103	kept 103	-	unexplained 0
