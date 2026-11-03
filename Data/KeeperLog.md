@@ -929,3 +929,11 @@ NEXT, at the owner's word, budget allowing: `native-sig-1`, then `native-sig-2`.
 - **Not run:** `native-sig-2` (q4 to q6).
 - **Ruled 2026-11-02, at the owner's word:** the 33 "-" places in native-sig B-q3 are read as "none", meaning no place in a problem. The file is unchanged; `newLayers.py` reads them so. `native-sig-1` is in form.
 NEXT, at the owner's word, budget allowing: `native-sig-2`.
+**2026-11-02. `native-sig-2` run; the new corpora's significance complete** (Propp-ActsRoles, from 1227f54; merged 37e3c3e). At the owner's word.
+- **The run:** 6 describers, q4 to q6, A on Opus and B on Sonnet, started together. Every reply is saved verbatim. Each folder holds exactly its two files.
+- **The form check:** all 20 significance batches of both corpora are in form, with every act described, none missing, no id unknown and no fault. (The owner's two rulings, read as "none": the "-" links in eastasian B-q2, and the "-" places in native B-q3.)
+  - Native: A 2,594 acts, B 2,106.
+  - East Asian: A 1,544, B 1,220.
+- **Copied byte for byte** to Propp-NativeAmerican (9d38800) and Propp-EastAsian (2af68c0): `sig/` with its inputs, 100 files.
+- **Layers now complete for both new corpora:** event lists, card-C transcriptions, acts, free verbs and significance.
+NEXT, at the owner's word: the heroes stage (two readers), as `animal-heroes` was; then the acts, free verbs and significance built into the tables; then CrossCultureProtocol.md's predictions.
