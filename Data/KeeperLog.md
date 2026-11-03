@@ -1071,3 +1071,10 @@ NEXT, at the owner's word: the run, `arcs.py run` and `networks.py run`.
 - **The split:** the program's own halves, seed 20261103, not `HeldOut.txt`.
 - **Five decisions for the owner.**
 NEXT, at the owner's word: the review and decisions.
+**2026-11-03. `Induction/InductionProtocol.md` FROZEN at the owner's word, all five recommendations taken.**
+- K is chosen from 2 to 12 by cross-validation.
+- The program's own halves (seed 20261103).
+- The self-test's bars as written. On a FAIL the other corpora are run and labelled.
+- The self-test is the one verdict.
+- The act layer's self-test is reported, not a gate.
+NEXT, at the owner's word: `split.py` (Split.txt committed), then `induce.py` with I1 to I3 and T passed before any figure is read.

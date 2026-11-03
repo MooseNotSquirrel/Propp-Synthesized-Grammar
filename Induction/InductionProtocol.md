@@ -1,4 +1,4 @@
-# Grammar induction: protocol (DRAFT 2026-11-03, FOR THE OWNER'S REVIEW; nothing built or run)
+# Grammar induction: protocol (FROZEN 2026-11-03 AT THE OWNER'S WORD, THE FIVE RECOMMENDED DECISIONS TAKEN; nothing built or run)
 
 **Asked by the owner on 2026-11-02** (ProppQueue.md item (r); the order of work, step 5). The aim is a tool that infers a corpus's own Propp-style grammar instead of assuming Propp's.
 - **The order of work:** it is tried first on the Russian wondertales, where the answer is known, and trusted elsewhere only if it finds Propp there.
@@ -122,6 +122,13 @@
 
 ## 8. Decisions for the owner
 
+**Taken 2026-11-03: the owner accepted all five recommendations.**
+- K chosen from 2 to 12 by five-fold cross-validation.
+- The program's own halves, seed 20261103.
+- The self-test's bars as in section 6. On a FAIL the other corpora are run and labelled as an unverified tool's output.
+- The self-test is the one verdict; everything else is reported only.
+- The act layer's self-test event-aligned and reported, not a gate.
+
 1. **The number of states:** chosen from 2 to 12 by cross-validation (recommended), or fixed at 10, Propp's section count.
 2. **The checking stories:** the program's own halves (recommended), or the story grammar's `HeldOut.txt` (9 wondertales to check on).
 3. **The self-test's bars:** as in section 6 (recommended), or other bars. Also whether a FAIL stops the other corpora (they are run but labelled, recommended) or withholds them.
@@ -130,7 +137,7 @@
 
 ## 9. Order of work, and the cost
 
-1. The owner's review and decisions; this file frozen.
+1. The owner's review and decisions; this file frozen (done 2026-11-03).
 2. **`Induction/split.py` writes `Split.txt`,** committed.
 3. **The programs** (`Induction/induce.py`, with its own small HMM in numpy, since `hmmlearn` is not installed) are written and committed. I1 to I3 and T must pass before any figure is read.
 4. **The self-test** on the wondertales' functions, at the owner's word: the verdict.
