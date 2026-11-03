@@ -42,6 +42,7 @@ def main():
     chars = collections.defaultdict(set)
     for r in rows('characters'):
         chars[(r['reader'], r['corpus'])].add(r['story'])
+    kept = sorted({c for _, c in chars})
     built = time.strftime('%Y-%m-%d', time.localtime(os.path.getmtime(os.path.join(TABLES, 'characters.tsv'))))
     rep = ['# Coverage.txt -- coverage.py: stories with rows in each layer, transcriber A / B; a count, no model', '',
            '%-24s %6s %6s' % ('corpus (source)', 'listed', 'events') + ''.join('%15s' % n for n in READ)
@@ -51,7 +52,7 @@ def main():
                    + ''.join('%15s' % ('%d / %d' % (len(have[(n, 'A', g)]), len(have[(n, 'B', g)]))) for n in READ)
                    + '%15s' % ('%d / %d' % (len(chars[('A', g[0])]), len(chars[('B', g[0])]))))
     rep += ['', '# characters.tsv was last built %s; its column counts a whole corpus, not a source.' % built,
-            '# characters.tsv corpora: %s' % ', '.join(sorted({c for _, c in chars}))]
+            '# characters.tsv corpora: %s' % ', '.join(kept)]
     text = '\n'.join(rep) + '\n'
     open(OUT, 'w', encoding='utf-8', newline='\n').write(text)
     print(text, end='')
