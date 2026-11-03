@@ -908,3 +908,15 @@ NEXT, at the owner's word: the four stages checked in form and copied to the cor
   - The rules (`sig/SigRules.md`) and the prompt are the significance stage's, unchanged but for the corpus, the paths and the reading of the tales.
   - The 20 describers fit the app's limit of 20, so both stages can start at once.
 NEXT, at the owner's word: write and run `native-sig` and `eastasian-sig`; then heroes.
+**2026-11-02. `eastasian-sig` run, the first of three significance portions** (Propp-ActsRoles, from cba566b; merged 4c74d98). At the owner's word, for budget.
+- **The portions:** `eastasian-sig` (q1–q4), `native-sig-1` (q1–q3) and `native-sig-2` (q4–q6), each starting all its describers at once. The two native portions are set up and not cleared.
+- **The run:** 8 describers, A on Opus and B on Sonnet, started together. Every reply is saved verbatim. Each folder holds exactly `Significance.txt` and `Report.md`.
+- **The form check** (`newLayers.py form-sig`, now reading the files themselves, afca784):
+  - Every act is described in all 8 batches: A 392, 391, 380, 381; B 317, 337, 279, 287. No act is missing and no id is unknown.
+  - Problem lines number 17 to 31 a batch.
+  - **One slip:** five lines in B-q2 write the link field as "-" instead of "none" (e0376, e0415, e0493, e0502, e0630). Every other field of those lines is in the lists. The keeper proposes reading "-" as "none"; awaiting the owner's ruling.
+- **Commonly flagged by the describers:**
+  - heroes who are a pair (C05) or a group (J10);
+  - problems that exist before any listed act opens them;
+  - acts valued by outcome, against their intent (a wife's sensible orders that her simpleton husband misapplies).
+NEXT, at the owner's word: the ruling on the B-q2 slip; then `native-sig-1` and `native-sig-2`.
