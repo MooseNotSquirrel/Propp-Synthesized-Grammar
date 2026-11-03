@@ -18,7 +18,8 @@ How the protocol's words are read here:
   weighted 1 over the story's versions); a story votes for i first when its count for i, j is above its count for j, i.
   Functions "in at least 5 stories" are counted on the induction half.
 - P2. A relation is dropped from the Hasse list when its second can be reached from its first through other relations.
-  The linear order is by Copeland score, ties by Propp's number and then by name.
+  The linear order is by Copeland score, ties by name; tau is taken on the scores, ties kept (corrected 2026-11-03,
+  before any figure was read, after test I2 found that breaking ties by Propp's number gave his order to shuffled tales).
 - Q1. The count of y after x anywhere later in the same move, weighted as in P1; the null shuffles each move 1,000 times
   (seed 46); candidates need both transcribers on the induction half, confirmation both on the checking half. A Propp pair
   "occurs at least 5 times" when its count on the checking half is at least 5 for both transcribers.
@@ -146,19 +147,28 @@ def hasse(rel):
     return keep
 
 
-def copeland(toks, rel):
-    sc = collections.Counter()
+def scores(toks, rel):
+    sc = {t: 0 for t in toks}
     for a, b in rel:
         sc[a] += 1
         sc[b] -= 1
-    return sorted(toks, key=lambda t: (-sc[t], order_key(t)))
+    return sc
 
 
-def tau_propp(order):
-    xs = [t for t in order if t in TS.NUM]
-    if len(xs) < 3:
+def copeland(toks, rel):
+    """the linear order for reading: by Copeland score, ties by name (never by Propp's number, which test I2 showed
+    would carry his order into the induced one)"""
+    sc = scores(toks, rel)
+    return sorted(toks, key=lambda t: (-sc[t], t))
+
+
+def tau_propp(toks, rel):
+    """Kendall's tau of the Copeland scores, ties kept as ties, against Propp's numbering"""
+    sc = scores(toks, rel)
+    xs = [t for t in toks if t in TS.NUM]
+    if len(xs) < 3 or len({sc[t] for t in xs}) < 2:
         return float('nan'), 1.0
-    r = kendalltau(list(range(len(xs))), [TS.NUM[t] for t in xs])
+    r = kendalltau([-sc[t] for t in xs], [TS.NUM[t] for t in xs])
     return float(r[0]), float(r[1])
 
 
@@ -452,7 +462,7 @@ def induce_half(layer, ind_by_L, seed=SEED):
         assign, places, rank = sections(model, seqs, voc[L])
         stats[L] = pair_stats(items, voc[L][:-2])
         res[L] = {'vocab': voc[L], 'eligible': toks, 'relations': rel, 'hasse': hasse(rel), 'order': order,
-                  'tau': tau_propp(order) if layer == 'functions' else None,
+                  'tau': tau_propp(toks, rel) if layer == 'functions' else None, 'scores': scores(toks, rel),
                   'K': K, 'cv': table, 'loglik': model[0], 'pi': model[1].tolist(), 'A': model[2].tolist(),
                   'E': model[3].tolist(), 'assign': assign, 'places': places,
                   'rank': {str(k): v for k, v in rank.items()}}
@@ -696,7 +706,8 @@ def i1():
     for L, r in res.items():
         xs = [t for t in r['assign'] if t in true]
         ari = adjusted_rand_score([true[t] for t in xs], [r['assign'][t] for t in xs])
-        tau = kendalltau(list(range(len([t for t in r['order'] if t in true]))), [true[t] for t in r['order'] if t in true])[0]
+        ts = [t for t in r['eligible'] if t in true]
+        tau = kendalltau([-r['scores'][t] for t in ts], [true[t] for t in ts])[0]
         ok += [('%s K %d within 2 of 10' % (L, r['K']), abs(r['K'] - 10) <= 2), ('%s ARI %.3f at least 0.8' % (L, ari), ari >= 0.8),
                ('%s P2 tau %.3f at least 0.8' % (L, tau), tau >= 0.8)]
     items, _ = planted(True, SEED + 7)
