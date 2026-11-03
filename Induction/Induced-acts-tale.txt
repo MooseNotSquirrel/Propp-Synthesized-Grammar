@@ -1,0 +1,49 @@
+# Induced-acts-tale.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 34: arrive-unknown be-taken-in deceive decide disobey do-task escape expose fight forbid give guide harm lament leave lose marry plead punish pursue receive recognize repair respond return reveal-information seek-information send set-task test threaten transform want win
+P2. relations 28; the Hasse list: be-taken-in<return, deceive<recognize, deceive<return, decide<marry, forbid<marry, forbid<recognize, forbid<return, forbid<transform, give<recognize, give<return, harm<recognize, leave<escape, leave<punish, leave<recognize, leave<repair, leave<return, lose<marry, lose<recognize, lose<return, lose<transform, plead<return, receive<recognize, seek-information<recognize, send<marry, send<recognize, test<marry, want<lament, want<return
+P2. the linear order (Copeland): leave forbid lose deceive give send want be-taken-in decide harm plead receive seek-information test arrive-unknown disobey do-task expose fight guide pursue respond reveal-information set-task threaten win escape lament punish repair transform marry return recognize
+H2. K = 3; cross-validated log-likelihood per symbol: 2 -3.3935, 3 -3.3895, 4 -3.4197, 5 -3.4611, 6 -3.4836, 7 -3.5105, 8 -3.4912, 9 -3.5351, 10 -3.5934, 11 -3.5651, 12 -3.5856
+H3. S1 (place 0.41): claim-falsely do-task forbid give guide leave lose plead receive recognize respond reveal-information seek-information send set-task test want
+H3. S2 (place 0.48): arrive-unknown be-taken-in deceive decide disobey escape harm lament pursue threaten win
+H3. S3 (place 0.67): expose fight mark marry punish repair return transform
+
+## B
+P1. eligible (in at least 5 stories): 33: arrive-unknown be-taken-in deceive decide disobey do-task escape expose fight forbid give guide harm lament leave lose marry plead punish pursue receive recognize repair respond return reveal-information seek-information send set-task test threaten transform win
+P2. relations 15; the Hasse list: deceive<escape, decide<marry, forbid<return, harm<return, leave<escape, leave<give, leave<punish, leave<return, leave<reveal-information, plead<escape, receive<marry, respond<punish, send<marry, send<punish, test<marry
+P2. the linear order (Copeland): leave send deceive decide forbid harm plead receive respond test arrive-unknown be-taken-in disobey do-task expose fight guide lament lose pursue recognize repair seek-information set-task threaten transform win give reveal-information escape punish return marry
+H2. K = 4; cross-validated log-likelihood per symbol: 2 -3.3955, 3 -3.3986, 4 -3.3886, 5 -3.4504, 6 -3.4743, 7 -3.4623, 8 -3.4904, 9 -3.5331, 10 -3.5821, 11 -3.6027, 12 -3.6283
+H3. S1 (place 0.42): lose respond test want
+H3. S2 (place 0.46): arrive-unknown decide disobey do-task forbid give guide harm lament leave mark plead receive reveal-information seek-information send set-task transform
+H3. S3 (place 0.51): be-taken-in deceive escape fight pursue threaten win
+H3. S4 (place 0.73): expose marry punish recognize repair return
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 25
+  deceive then recognize  39.0 1.60 0.0020  25.0 1.86 0.0040
+  deceive then return  51.0 1.59 0.0020  29.0 1.66 0.0050
+  decide then marry  40.0 1.54 0.0080  25.0 1.91 0.0010
+  decide then recognize  29.0 1.61 0.0100  22.0 1.91 0.0020
+  disobey then escape  37.0 1.69 0.0010  20.0 1.75 0.0060
+  fight then recognize  34.0 1.78 0.0040  16.0 1.98 0.0100
+  fight then transform  75.0 1.78 0.0010  35.0 1.83 0.0020
+  forbid then return  42.0 1.51 0.0060  20.0 1.66 0.0040
+  give then recognize  122.0 1.58 0.0020  96.0 1.76 0.0020
+  harm then recognize  97.0 1.51 0.0010  78.0 1.78 0.0010
+  leave then escape  82.0 1.62 0.0010  49.0 1.66 0.0020
+  leave then guide  76.0 1.53 0.0030  43.0 1.70 0.0010
+  leave then recognize  52.0 1.72 0.0010  25.0 1.93 0.0010
+  leave then repair  48.0 1.52 0.0040  67.0 1.68 0.0010
+  leave then return  50.0 1.60 0.0010  27.0 1.70 0.0010
+  lose then return  33.0 1.61 0.0030  18.0 1.65 0.0100
+  plead then recognize  72.0 1.55 0.0040  44.0 1.62 0.0020
+  receive then recognize  44.0 1.56 0.0030  21.0 1.75 0.0050
+  receive then transform  60.0 1.56 0.0020  37.0 1.76 0.0020
+  send then marry  87.0 1.55 0.0020  55.0 1.70 0.0010
+  test then guide  76.0 1.50 0.0060  56.0 1.58 0.0050
+  test then marry  62.0 1.83 0.0010  27.0 1.72 0.0030
+  test then recognize  48.0 1.73 0.0020  24.0 1.92 0.0020
+  win then escape  50.0 1.63 0.0030  66.0 1.56 0.0010
+  win then marry  41.0 1.75 0.0010  37.0 1.70 0.0020
+P3. relations in both transcribers over relations in either: 7 of 36

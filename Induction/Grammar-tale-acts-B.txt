@@ -1,0 +1,7 @@
+(* induced grammar, tale, acts layer, transcriber B (induce.py, the induction half) *)
+(* states in order of their place in the move; rules of probability at least 0.05 *)
+move = S2 (* 1.00 *) ;
+S1 = ( respond (* 0.29 *) | test (* 0.18 *) | plead (* 0.14 *) | give (* 0.06 *) | lose (* 0.05 *) ) , ( S1 (* 0.75 *) | S2 (* 0.13 *) | S3 (* 0.05 *) | S4 (* 0.06 *) ) ;
+S2 = ( give (* 0.13 *) | harm (* 0.09 *) | reveal-information (* 0.09 *) | plead (* 0.08 *) | send (* 0.08 *) | forbid (* 0.06 *) | leave (* 0.06 *) ) , ( S1 (* 0.10 *) | S2 (* 0.82 *) | S3 (* 0.05 *) ) ;
+S3 = ( deceive (* 0.14 *) | win (* 0.12 *) | harm (* 0.11 *) | be-taken-in (* 0.07 *) | fight (* 0.05 *) | escape (* 0.05 *) ) , ( S2 (* 0.07 *) | S3 (* 0.89 *) ) ;
+S4 = ( repair (* 0.10 *) | punish (* 0.09 *) | marry (* 0.08 *) | return (* 0.08 *) | expose (* 0.07 *) | receive (* 0.07 *) | harm (* 0.07 *) | send (* 0.06 *) | reveal-information (* 0.05 *) ) , ( S2 (* 0.14 *) | S4 (* 0.86 *) | end (* 0.14 *) ) ;
