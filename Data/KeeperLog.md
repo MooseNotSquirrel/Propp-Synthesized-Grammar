@@ -975,3 +975,11 @@ NEXT, at the owner's word: step 2, the heroes stage for the new corpora.
   - Low confidence: A 1 + 3, B 3 + 5.
   - Not read by the keeper.
 - **Not run:** `native-heroes` (6 readers).
+**2026-11-03. `native-heroes` run, the second part; the heroes stage is complete** (Propp-ActsRoles afff0bc; merged 3bd1530). At the owner's word.
+- **The run:** 6 readers (A on Opus, B on Sonnet; batches nh1 to nh3), started together. Every reply is saved verbatim. Each folder holds exactly `Heroes.txt` and `Report.md`, and every answer file lists every story of its batch, in order (12, 24 and 14 stories).
+- **As the readers report:**
+  - "No single hero": A 3 + 6 + 2, B 3 + ? + 3.
+  - Low confidence: A 1 + 4 + 0, B 1 + ? + 2.
+  - Not read by the keeper.
+- **One deviation, recorded:** B-nh2's final reply was the single word "placeholder", and it is saved as written. Its `Heroes.txt` is complete and in form (24 stories), so the answers stand; only its report's counts are missing.
+NEXT, at the owner's word: step 3, confirming which layers the myths lack.
