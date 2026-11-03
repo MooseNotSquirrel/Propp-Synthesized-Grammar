@@ -314,7 +314,7 @@ def sig_run_md(batches):
     anchor_clear = ("after the new corpora's transcriptions were merged, and were cleared to run at the owner's word the same "
                     "day. They need nothing from each other and may run in one session.\n")
     anchor_row = '| `run-eastasian-free` |\n'
-    anchor_in = 'the folder `eastasian/tales/`; for `animal-transcribe`, '
+    anchor_in = 'for `animal-transcribe`, `animal/AfanasyevRules-C.md`'
     for a in (anchor_list, anchor_clear, anchor_row, anchor_in):
         assert t.count(a) == 1, a
     row = ("| `{s}` | `{s}-A-q1.txt` to `-q{n}`, `{s}-B-q1.txt` to `-q{n}` | `-A-`: Opus; `-B-`: Sonnet | "
