@@ -937,3 +937,9 @@ NEXT, at the owner's word, budget allowing: `native-sig-2`.
 - **Copied byte for byte** to Propp-NativeAmerican (9d38800) and Propp-EastAsian (2af68c0): `sig/` with its inputs, 100 files.
 - **Layers now complete for both new corpora:** event lists, card-C transcriptions, acts, free verbs and significance.
 NEXT, at the owner's word: the heroes stage (two readers), as `animal-heroes` was; then the acts, free verbs and significance built into the tables; then CrossCultureProtocol.md's predictions.
+**2026-11-02. Exploratory: each corpus's composition by section** (`StoryGrammar/composition.py`, committed 0ca6264 before it ran; `StoryGrammar/Composition.txt`). At the owner's word.
+- **The question:** whether fables lean on Propp's preparatory section, and whether the story grammar can see it.
+- **Fables do not lean on it:** their preparatory share is 17 / 19 per cent (A / B), about the wondertales' 19 / 20. Their excess is **complication**: villainy, lack, mediation and the decision to act, 39 / 44 per cent against 24 / 26. They have little struggle (4 / 6) and reach only 2.6 sections a story.
+- **The preparatory-heavy genre is the animal tales**, at 41 / 48 per cent, largely trickery and complicity.
+- **The wondertales are the most evenly spread,** with real weight in the donor, struggle and return sections: 6.7 / 6.8 sections a story.
+- **The story grammar cannot see composition.** It scores order against shuffles of a story's own functions, so a story's mix of sections is held fixed by design. This is part of why prediction 2 failed. Composition features are added to `ProppQueue.md` item (q), for the grammar's second version.

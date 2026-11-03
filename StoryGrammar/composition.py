@@ -2,7 +2,7 @@
 """
 composition.py -- EXPLORATORY: each corpus's functions by Propp's ten sections, the composition the story grammar does not see
 (it scores order against shuffles of a story's own functions, so a story's mix of sections is held fixed). Asked by the owner on
-2026-11-02, after he asked whether fables lean on Propp's preparatory section.
+2026-11-02, on the question whether fables lean on Propp's preparatory section.
 
   python composition.py    write StoryGrammar/Composition.txt
 
