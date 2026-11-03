@@ -195,12 +195,18 @@ ACT_SOURCES = [('twolayer', ['ActsRoles/tale/acts/%s/*/Notes.txt', 'ActsRoles/fa
                              'ActsRoles/tragedy/acts/%s/*/Notes.txt'], 'acts'),
                ('problems', ['ActsRoles/problems/acts/%s/*/Notes.txt'], 'pacts'),
                ('animal', ['ActsRoles/animal/acts/%s/*/Notes.txt'], 'aacts'),
-               ('held', ['ActsRoles/held/acts/%s/*/Notes.txt'], 'hacts')]
+               ('held', ['ActsRoles/held/acts/%s/*/Notes.txt'], 'hacts'),
+               # the cross-cultural corpora, 2026-11-03 (their s1 supplement folders, the owner's fills, are globbed too)
+               ('native', ['ActsRoles/native/acts/%s/*/Notes.txt'], 'native-acts'),
+               ('eastasian', ['ActsRoles/eastasian/acts/%s/*/Notes.txt'], 'eastasian-acts')]
 SIG_SOURCES = [('significance', 'ActsRoles/sig'), ('problems', 'ActsRoles/problems/sig'),
-               ('animal', 'ActsRoles/animal/sig'), ('held', 'ActsRoles/held/sig'), ('five', 'ActsRoles/five/sig')]
-FREE_SOURCES = [('free', 'ActsRoles/free/%s/*/Notes.txt'), ('animal', 'ActsRoles/animal/free/%s/*/Notes.txt')]
+               ('animal', 'ActsRoles/animal/sig'), ('held', 'ActsRoles/held/sig'), ('five', 'ActsRoles/five/sig'),
+               ('native', 'ActsRoles/native/sig'), ('eastasian', 'ActsRoles/eastasian/sig')]
+FREE_SOURCES = [('free', 'ActsRoles/free/%s/*/Notes.txt'), ('animal', 'ActsRoles/animal/free/%s/*/Notes.txt'),
+                ('native', 'ActsRoles/native/free/%s/*/Notes.txt'), ('eastasian', 'ActsRoles/eastasian/free/%s/*/Notes.txt')]
 HERO_LISTS = [('Afanasyev/Heroes.txt', 'tale'), ('AnimalTales/Heroes.txt', 'animal'), ('Aesop/Heroes.txt', 'fable'),
-              ('Fables/Heroes.txt', 'fable'), ('Tragedy/plays/P[0-9][0-9]/Hero.txt', 'tragedy')]
+              ('Fables/Heroes.txt', 'fable'), ('Tragedy/plays/P[0-9][0-9]/Hero.txt', 'tragedy'),
+              ('NativeAmerican/Heroes.txt', 'native'), ('EastAsian/Heroes.txt', 'eastasian')]
 LOCAL = {}      # local id -> global id, from the story table
 ALIASES = {}    # (file, alias) -> (story, source)
 EID = re.compile(r'^(e\d{4})$')
@@ -319,7 +325,7 @@ def read_sig_input(path):
     kept, dropped, odd = 0, collections.Counter(), []
     for i, line in enumerate(open(path, encoding='utf-8'), 1):
         s = line.strip()
-        m = re.match(r'^story:\s*([AFP]\d{2,3})', s)
+        m = re.match(r'^story:\s*([AFP]\d{2,3}|[TOCJ]\d{2})', s)
         e = re.match(r'^ev\s+(\d+)\s*\|', s)
         a = re.match(r'^(e\d{4})\s*\|', s)
         if m:
