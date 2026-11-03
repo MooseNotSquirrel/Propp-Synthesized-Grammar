@@ -5,7 +5,7 @@ the animal tales' were (Animal/layers.py, 2026-10-20).
 
   python newLayers.py form-acts      the act descriptions' form (reads no note's text)
   python newLayers.py form-free      the free descriptions' form
-  python newLayers.py copy           acts/ and free/ copied byte for byte to NativeAmerican/ and EastAsian/
+  python newLayers.py copy           acts/, free/ and sig/ (with its inputs) copied byte for byte to NativeAmerican/ and EastAsian/
   python newLayers.py sig dry|write  the significance stages native-sig and eastasian-sig: inputs, prompts, RUN.md
   python newLayers.py form-sig       the significance descriptions' form, after the stages run
   python newLayers.py fill dry|write the stage native-fill: the two gaps the form check found, filled in supplement folders
@@ -219,7 +219,7 @@ def form(layer):
 def copy():
     pairs = []
     for c, repo in REPO.items():
-        for layer in ('acts', 'free'):
+        for layer in ('acts', 'free', 'sig'):
             for f in glob.glob(os.path.join(AR, c, layer, '*', '*', '*')):
                 pairs.append((f, os.path.join(P, repo, os.path.relpath(f, os.path.join(AR, c)))))
     clash = [d for s, d in pairs if os.path.exists(d) and not filecmp.cmp(s, d, shallow=False)]
