@@ -920,3 +920,5 @@ NEXT, at the owner's word: write and run `native-sig` and `eastasian-sig`; then 
   - problems that exist before any listed act opens them;
   - acts valued by outcome, against their intent (a wife's sensible orders that her simpleton husband misapplies).
 NEXT, at the owner's word: the ruling on the B-q2 slip; then `native-sig-1` and `native-sig-2`.
+- **Ruled 2026-11-02, at the owner's word:** the five "-" links in eastasian-sig B-q2 are read as "none", meaning no link. The file is unchanged; `newLayers.py` reads them so (commit above). `eastasian-sig` is in form.
+NEXT, at the owner's word, budget allowing: `native-sig-1`, then `native-sig-2`.
