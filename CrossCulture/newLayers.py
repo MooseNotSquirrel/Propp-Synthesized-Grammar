@@ -325,9 +325,9 @@ def sig_run_md(batches):
         "from the act descriptions after those were merged and found in form, and are not yet cleared: they run only at the "
         "owner's word. They need nothing from each other and may run in one session.\n" % ', '.join('`%s`' % x for x in names)))
     t = t.replace(anchor_row, anchor_row + ''.join(row.format(s=SIG_STAGE[c], n=len(batches[c]), c=c) for c in CORPORA))
-    t = t.replace(anchor_in, 'the folder `eastasian/tales/`; ' + ''.join(
+    t = t.replace(anchor_in, ''.join(
         'for `%s`, `sig/SigRules.md`, the files `%s/sig/input/A-q1.txt` to `B-q%d.txt`, and the folder `%s/tales/`; '
-        % (SIG_STAGE[c], c, len(batches[c]), c) for c in CORPORA) + 'for `animal-transcribe`, ')
+        % (SIG_STAGE[c], c, len(batches[c]), c) for c in CORPORA) + anchor_in)
     return t
 
 
