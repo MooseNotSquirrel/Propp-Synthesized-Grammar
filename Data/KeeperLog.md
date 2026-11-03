@@ -943,3 +943,24 @@ NEXT, at the owner's word: the heroes stage (two readers), as `animal-heroes` wa
 - **The preparatory-heavy genre is the animal tales**, at 41 / 48 per cent, largely trickery and complicity.
 - **The wondertales are the most evenly spread,** with real weight in the donor, struggle and return sections: 6.7 / 6.8 sections a story.
 - **The story grammar cannot see composition.** It scores order against shuffles of a story's own functions, so a story's mix of sections is held fixed by design. This is part of why prediction 2 failed. Composition features are added to `ProppQueue.md` item (q), for the grammar's second version.
+**2026-11-03. The new corpora's acts, free verbs and significance built into the tables** (`Data/build.py`, its sources committed a1acb61 before it ran). The first step of the owner's order of work.
+- **What was added:** the native and eastasian studies in `build.py`'s act, free-verb and significance sources (the s1 supplement folders included by the same globs), their event listers' heroes, and the T, O, C and J ids in the significance-input reader.
+- **T1, T2 and T4 pass.**
+- **Against a snapshot taken before the build:**
+  - `events.tsv`, `functions.tsv` and `stories.tsv` are byte-identical.
+  - Every other table keeps every earlier row, unchanged and in order.
+  - (`newCorpora.py compare` reports "NO" for those three, because it strips new rows from one side only. Byte identity settles them.)
+- **New rows:**
+
+  | Table | Native A | Native B | East Asian A | East Asian B |
+  |---|---|---|---|---|
+  | acts | 2,594 | 2,106 | 1,544 | 1,220 |
+  | significance | 2,594 | 2,106 | 1,544 | 1,220 |
+  | free verbs | 3,127 | 2,627 | 1,867 | 1,757 |
+  | problems | 164 | 131 | 98 | 81 |
+
+  - Heroes: the 50 listers' heroes of each corpus.
+  - Acts and significance agree to the act, and the free verbs match the form check's totals with the two fills.
+- **The owner's two rulings stay with the readers of the tables:** "-" is read as "none" for the eastasian B-q2 links and the native B-q3 places. The build keeps every raw value as written.
+- **A counting note, not a fault:** counting the tables with Python's csv module undercounts, because it takes the notes' double quotes as quoting. Rows are counted by line.
+NEXT, at the owner's word: step 2, the heroes stage for the new corpora.

@@ -978,6 +978,106 @@ tragedy:P29	lister		events	Eteocles			1	2	Tragedy/plays/P29/Hero.txt
 tragedy:P30	lister		events	Pentheus			1	2	Tragedy/plays/P30/Hero.txt
 tragedy:P31	lister		events	Hecuba			1	2	Tragedy/plays/P31/Hero.txt
 tragedy:P32	lister		events	Agamemnon			1	2	Tragedy/plays/P32/Hero.txt
+native:T01	lister		events	Raven			1	3	NativeAmerican/Heroes.txt
+native:T02	lister		events	the Big Clam			2	3	NativeAmerican/Heroes.txt
+native:T03	lister		events	Lqayak, the youngest brother			3	3	NativeAmerican/Heroes.txt
+native:T04	lister		events	the man whose wife the killer whales carry off			4	3	NativeAmerican/Heroes.txt
+native:T05	lister		events	Kaka			5	3	NativeAmerican/Heroes.txt
+native:T06	lister		events	the man (the land-otter sister's brother)			6	3	NativeAmerican/Heroes.txt
+native:T07	lister		events	the father, Saki			7	3	NativeAmerican/Heroes.txt
+native:T08	lister		events	the youth who finds the wolf-chief's son			8	3	NativeAmerican/Heroes.txt
+native:T09	lister		events	the hunter who stays with Wolverine-man			9	3	NativeAmerican/Heroes.txt
+native:T10	lister		events	the elder brother			10	3	NativeAmerican/Heroes.txt
+native:T11	lister		events	the eldest brother; the second brother			11	3	NativeAmerican/Heroes.txt
+native:T12	lister		events	the chief's daughter			12	3	NativeAmerican/Heroes.txt
+native:T13	lister		events	Root-stump			13	3	NativeAmerican/Heroes.txt
+native:T14	lister		events	the people of the town		moral: People in olden times were very particular about things, for only a piece of seaweed brought winter on	14	3	NativeAmerican/Heroes.txt
+native:T15	lister		events	the Porcupine			15	3	NativeAmerican/Heroes.txt
+native:T16	lister		events	the poor man			16	3	NativeAmerican/Heroes.txt
+native:T17	lister		events	the eldest brother			17	3	NativeAmerican/Heroes.txt
+native:T18	lister		events	the hunter who trapped the land otter			18	3	NativeAmerican/Heroes.txt
+native:T19	lister		events	Kats			19	3	NativeAmerican/Heroes.txt
+native:T20	lister		events	the hunter who survived at the sea-lion rock			20	3	NativeAmerican/Heroes.txt
+native:T21	lister		events	the man who feasted his dead friends			21	3	NativeAmerican/Heroes.txt
+native:T22	lister		events	the town chief's daughter			22	3	NativeAmerican/Heroes.txt
+native:T23	lister		events	the Kiksadi			23	3	NativeAmerican/Heroes.txt
+native:T24	lister		events	the Kiksadi youth			24	3	NativeAmerican/Heroes.txt
+native:T25	lister		events	the woman saved by the birds			25	3	NativeAmerican/Heroes.txt
+native:O01	lister		events	the Rabbit			26	3	NativeAmerican/Heroes.txt
+native:O02	lister		events	the Rabbit			27	3	NativeAmerican/Heroes.txt
+native:O03	lister		events	the Rabbit			28	3	NativeAmerican/Heroes.txt
+native:O04	lister		events	the Rabbit's grandmother			29	3	NativeAmerican/Heroes.txt
+native:O05	lister		events	the Rabbit			30	3	NativeAmerican/Heroes.txt
+native:O06	lister		events	the Rabbit			31	3	NativeAmerican/Heroes.txt
+native:O07	lister		events	the Rabbit			32	3	NativeAmerican/Heroes.txt
+native:O08	lister		events	the Rabbit			33	3	NativeAmerican/Heroes.txt
+native:O09	lister		events	Ictinike			34	3	NativeAmerican/Heroes.txt
+native:O10	lister		events	the Rabbit			35	3	NativeAmerican/Heroes.txt
+native:O11	lister		events	the Rabbit (the Rabbit's son)			36	3	NativeAmerican/Heroes.txt
+native:O12	lister		events	Siçemakan			37	3	NativeAmerican/Heroes.txt
+native:O13	lister		events	Ictinike			38	3	NativeAmerican/Heroes.txt
+native:O14	lister		events	Ictinike			39	3	NativeAmerican/Heroes.txt
+native:O15	lister		events	Ictinike			40	3	NativeAmerican/Heroes.txt
+native:O16	lister		events	the four brothers			41	3	NativeAmerican/Heroes.txt
+native:O17	lister		events	the two leading boys (the two head-men)			42	3	NativeAmerican/Heroes.txt
+native:O18	lister		events	the Coyote			43	3	NativeAmerican/Heroes.txt
+native:O19	lister		events	the Coyote			44	3	NativeAmerican/Heroes.txt
+native:O20	lister		events	the Coyote			45	3	NativeAmerican/Heroes.txt
+native:O21	lister		events	Waha'ɛi'ɛige (the Rabbit)			46	3	NativeAmerican/Heroes.txt
+native:O22	lister		events	the Orphan			47	3	NativeAmerican/Heroes.txt
+native:O23	lister		events	the Orphan			48	3	NativeAmerican/Heroes.txt
+native:O24	lister		events	the Orphan			49	3	NativeAmerican/Heroes.txt
+native:O25	lister		events	Waha'ɛi'ɛige			50	3	NativeAmerican/Heroes.txt
+eastasian:C01	lister		events	the eldest brother			1	3	EastAsian/Heroes.txt
+eastasian:C02	lister		events	the youngest son			2	3	EastAsian/Heroes.txt
+eastasian:C03	lister		events	the man with the "sense of smell"			3	3	EastAsian/Heroes.txt
+eastasian:C04	lister		events	the thriftless man			4	3	EastAsian/Heroes.txt
+eastasian:C05	lister		events	the big boy; the little boy			5	3	EastAsian/Heroes.txt
+eastasian:C06	lister		events	the foolish son			6	3	EastAsian/Heroes.txt
+eastasian:C07	lister		events	the foolish son		moral: Don't try to be just like your brother-in-law	7	3	EastAsian/Heroes.txt
+eastasian:C08	lister		events	the old woman			8	3	EastAsian/Heroes.txt
+eastasian:C09	lister		events	the honest old woman			9	3	EastAsian/Heroes.txt
+eastasian:C10	lister		events	the blind boy			10	3	EastAsian/Heroes.txt
+eastasian:C11	lister		events	the youngest daughter			11	3	EastAsian/Heroes.txt
+eastasian:C12	lister		events	Kong Hia Chiang			12	3	EastAsian/Heroes.txt
+eastasian:C13	lister		events	the grandmother		moral: One may, by urgent appeal to the gods, get a son; but the son thus gotten may be a sprite or a demon	13	3	EastAsian/Heroes.txt
+eastasian:C14	lister		events	the young girl who becomes head of the family			14	3	EastAsian/Heroes.txt
+eastasian:C15	lister		events	the hunchback			15	3	EastAsian/Heroes.txt
+eastasian:C16	lister		events	the youth		moral: No two can ever be coupled except by link of fate; no two can ever be sundered if foreordained to mate	16	3	EastAsian/Heroes.txt
+eastasian:C17	lister		events	the simpleton			17	3	EastAsian/Heroes.txt
+eastasian:C18	lister		events	the clever wife			18	3	EastAsian/Heroes.txt
+eastasian:C19	lister		events	the young widow			19	3	EastAsian/Heroes.txt
+eastasian:C20	lister		events	the lawyer		moral: The society of the great impoverishes one, while by consorting with beggars one may get a handful of rice	20	3	EastAsian/Heroes.txt
+eastasian:C21	lister		events	the singing prisoner			21	3	EastAsian/Heroes.txt
+eastasian:C22	lister		events	the murderer (the man with the sooty back)			22	3	EastAsian/Heroes.txt
+eastasian:C23	lister		events	the bride			23	3	EastAsian/Heroes.txt
+eastasian:C24	lister		events	the bean-curd maker's wife			24	3	EastAsian/Heroes.txt
+eastasian:C25	lister		events	the poor man			25	3	EastAsian/Heroes.txt
+eastasian:J01	lister		events	Shokujo, the Weaving Princess			26	3	EastAsian/Heroes.txt
+eastasian:J02	lister		events	the frog of the Kyoto well		moral: It is vain to teach frogs philosophy; all such labor is like pouring water in a frog's face	27	3	EastAsian/Heroes.txt
+eastasian:J03	lister		events	Bimbo (Kanemochi)			28	3	EastAsian/Heroes.txt
+eastasian:J04	lister		events	the old man			29	3	EastAsian/Heroes.txt
+eastasian:J05	lister		events	Princess Hotaru			30	3	EastAsian/Heroes.txt
+eastasian:J06	lister		events	the crab			31	3	EastAsian/Heroes.txt
+eastasian:J07	lister		events	the badger tea-kettle			32	3	EastAsian/Heroes.txt
+eastasian:J08	lister		events	Momotaro			33	3	EastAsian/Heroes.txt
+eastasian:J09	lister		events	the badger			34	3	EastAsian/Heroes.txt
+eastasian:J10	lister		events	the seven Patrons of Happiness			35	3	EastAsian/Heroes.txt
+eastasian:J11	lister		events	the oni Shino			36	3	EastAsian/Heroes.txt
+eastasian:J12	lister		events	the bell			37	3	EastAsian/Heroes.txt
+eastasian:J13	lister		events	Little Silver			38	3	EastAsian/Heroes.txt
+eastasian:J14	lister		events	Yoshitsune			39	3	EastAsian/Heroes.txt
+eastasian:J15	lister		events	Kintaro			40	3	EastAsian/Heroes.txt
+eastasian:J16	lister		events	Jiraiya			41	3	EastAsian/Heroes.txt
+eastasian:J17	lister		events	the tortoise			42	3	EastAsian/Heroes.txt
+eastasian:J18	lister		events	Lord Cuttle-fish			43	3	EastAsian/Heroes.txt
+eastasian:J19	lister		events	Yorimasa			44	3	EastAsian/Heroes.txt
+eastasian:J20	lister		events	Watanabe Tsuna			45	3	EastAsian/Heroes.txt
+eastasian:J21	lister		events	Watanabe Tsuna			46	3	EastAsian/Heroes.txt
+eastasian:J22	lister		events	Raiko			47	3	EastAsian/Heroes.txt
+eastasian:J23	lister		events	the sazaye		moral: the sazaye, though a slow moving creature, is apt to be too proud of his defence and trust too much to his fancied security	48	3	EastAsian/Heroes.txt
+eastasian:J24	lister		events	Kisaburo			49	3	EastAsian/Heroes.txt
+eastasian:J25	lister		events	the Chinese king			50	3	EastAsian/Heroes.txt
 tale:A093	judged		heroes	Ivan-tsarevich		agrees with the rule	2	3	SynthesizedProppGrammar/Heroes/JudgedHeroes.txt
 tale:A095	judged		heroes	Marfusha		agrees with the rule	3	3	SynthesizedProppGrammar/Heroes/JudgedHeroes.txt
 tale:A098	judged		heroes	the old man's daughter		agrees with the rule	4	3	SynthesizedProppGrammar/Heroes/JudgedHeroes.txt

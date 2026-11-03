@@ -937,3 +937,477 @@ fable:F043	B	Sonnet	five	v1	p1	the man's boast is challenged and he must prove i
 fable:F060	B	Sonnet	five	v1	p1	the man loses all his hair to the two women	36	4	ActsRoles/five/sig/B/v1/Significance.txt
 fable:F114	B	Sonnet	five	v1	p1	the daydream is lost when the pail falls	41	4	ActsRoles/five/sig/B/v1/Significance.txt
 fable:F124	B	Sonnet	five	v1	p1	the travellers wait in vain for what proves to be a bundle of sticks	45	4	ActsRoles/five/sig/B/v1/Significance.txt
+native:T01	A	Opus	native	q1	p1	a world is yet to be made	2	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p2	there is no light in the world; a man up the Nass keeps it for himself	6	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p3	there is no water to drink in the world; Petrel keeps it covered	24	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p4	Raven is caught at the spring and held in Petrel's smoke hole	34	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p5	the people in the dark refuse to take Raven across and mock him	47	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p6	Raven wants the spring salmon but cannot get it	63	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p7	Raven has nothing of his own to give Bear in return for his meal	82	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p8	Raven kills Bear and his wife and must keep the killing hidden	93	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p9	Raven loses his nose to the fishermen whose bait he steals	128	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p10	Raven lures Deer to his death	151	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p11	the tide woman mocks Raven, and the tide does not yet run regularly	166	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p12	Raven mourns his wife	186	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p13	Raven and Petrel quarrel, and Petrel loses Raven in his fog	189	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p14	fire floats offshore out of reach	201	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p15	a strange thing lies far out on the sea, and Raven has nothing to feast his mother with	208	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p16	Raven plots against the killer whales and kills them	222	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p17	Raven's companion gets more whale grease than he	236	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p18	Raven is shut in a grease box and thrown off a cliff	242	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p19	Raven is shut inside the dead whale	254	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p20	the sea gull keeps the herring from Raven	274	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p21	Raven's gizzard is twisted off and used as a ball	288	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p22	Raven wants the daughter of the man rich in salmon	300	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p23	the storm stalls the canoe and Raven tires	305	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p24	Raven wants a seal but cannot catch one	311	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p25	Raven cannot make the bay into a Nass	323	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p26	Raven has no provisions for his mother's feast	328	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p27	Raven desires the four women on the island and lacks the means to approach them	334	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p28	Raven wants to see the Gonaqadet's blanket and hat	347	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p29	Raven wants to learn what is under the ocean	354	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p30	the rising water endangers and destroys the people	357	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p31	Cakaku has far more grease than Raven	370	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p32	Raven is caught and shut in a grease box again	379	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p33	Raven plots the death of a bear at his feast	387	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p34	Raven can never get full	395	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p35	some created things would hurt human beings	400	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p36	Raven is hungry and wants to eat the sculpin	416	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p37	Raven parts with his troublesome blanket	423	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p38	the rough sea makes Raven's wife have him put his fat ashore	431	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p39	the wild celery scolds Raven	456	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T01	A	Opus	native	q1	p40	Raven wants the beaver, and the earth lacks a sound post	464	4	ActsRoles/native/sig/A/q1/Significance.txt
+native:T02	A	Opus	native	q2	p1	Tsel is swallowed by a halibut	1	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T02	A	Opus	native	q2	p2	the big clam shuts its shell on passing canoes	6	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T03	A	Opus	native	q2	p1	the brothers are far from home with nothing to eat	16	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T03	A	Opus	native	q2	p2	the brothers are smashed going down the cliff	18	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T03	A	Opus	native	q2	p3	the brothers want the one-legged giant's salmon spear	33	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T03	A	Opus	native	q2	p4	the one-legged giant tears the brothers to pieces for his spear	41	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T03	A	Opus	native	q2	p5	the two-headed bear chief and his town stand against the brothers	61	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T03	A	Opus	native	q2	p6	the players cut the brothers in two with their rolling object	79	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T03	A	Opus	native	q2	p7	Lqayak wants to be among the bow-carrying Athapascans	94	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T03	A	Opus	native	q2	p8	Lqayak is shamed for going with his sister	97	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T04	A	Opus	native	q2	p1	Natsalane's carved killer whales will not swim	108	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T04	A	Opus	native	q2	p2	the killer whales carry off the man's wife	114	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T04	A	Opus	native	q2	p3	the killer whales pursue him and attack the sharks who helped him	146	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T05	A	Opus	native	q2	p1	Kaka is taken by the land otters	159	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T06	A	Opus	native	q2	p1	the man's family has nothing to live on at the camp	186	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T06	A	Opus	native	q2	p2	the man's sister has been lost to the land otters	190	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T06	A	Opus	native	q2	p3	the sister sings tails onto the man's children	205	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T06	A	Opus	native	q2	p4	the uncle's words about their tails drive the nephews away	214	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T07	A	Opus	native	q2	p1	famine leaves the couple without food	232	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T07	A	Opus	native	q2	p2	the couple's drowned son is lost to them	238	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T08	A	Opus	native	q2	p1	famine kills the people of the youth's town	277	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T08	A	Opus	native	q2	p2	the brother-in-law's insult drives the dog away	291	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T08	A	Opus	native	q2	p3	the youth kills people of a healthy town with his blanket	341	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T09	A	Opus	native	q2	p1	the hunter cannot get at any game	346	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T09	A	Opus	native	q2	p2	Wolverine-man is shamed when his guest sees him with his tree-wife	369	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T09	A	Opus	native	q2	p3	Coward catches nothing	385	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T10	A	Opus	native	q2	p1	the halibut people kill the brothers' sister	398	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T10	A	Opus	native	q2	p2	the younger brother's bad words sink the brothers to the killer whales' house	424	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T11	A	Opus	native	q2	p1	the devilfish sweeps the camp into the sea	436	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T11	A	Opus	native	q2	p2	the dying devilfish takes the brothers down with it	452	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T11	A	Opus	native	q2	p3	a little boy cries all the time	460	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T11	A	Opus	native	q2	p4	the land otters take the boy and feed him spiders	464	4	ActsRoles/native/sig/A/q2/Significance.txt
+native:T12	A	Opus	native	q3	p1	famine in the town	1	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T12	A	Opus	native	q3	p2	the chief's daughter is held fast by a clam as the tide rises	4	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T13	A	Opus	native	q3	p1	a thing from the air carries off the people of the town	12	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T13	A	Opus	native	q3	p2	a canoe maker in the woods kills people	24	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T14	A	Opus	native	q3	p1	winter returns and the town runs out of food	40	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T15	A	Opus	native	q3	p1	the porcupine is hungry and wants to go to his own place	47	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T15	A	Opus	native	q3	p2	the bear threatens the beaver	52	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T15	A	Opus	native	q3	p3	the beaver is left stranded in the tree	56	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T15	A	Opus	native	q3	p4	the porcupine is dunked and stranded on an island	60	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T15	A	Opus	native	q3	p5	the hunter kills a ground hog, of the porcupine's new friend's kind	74	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T16	A	Opus	native	q3	p1	the poor man catches nothing and is mocked	85	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T16	A	Opus	native	q3	p2	the poor man loses the abalone	92	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T17	A	Opus	native	q3	p1	the brothers are caught in a rough sea for taking the paint	110	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T17	A	Opus	native	q3	p2	lasting bad weather keeps everyone from fishing	120	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T17	A	Opus	native	q3	p3	the little boy buries his baby sister in the fire	124	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T18	A	Opus	native	q3	p1	a man dies hanging from his tree-climber	137	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T18	A	Opus	native	q3	p2	a devilfish takes the two men's canoe	148	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T18	A	Opus	native	q3	p3	a land-otter-man attacks the hunters	159	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T18	A	Opus	native	q3	p4	murderers kill a woman and others of the hunters' town	172	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T18	A	Opus	native	q3	p5	the people have no flint	185	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T19	A	Opus	native	q3	p2	Kats is killed by his bear children	193	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T19	A	Opus	native	q3	p1	Kats longs to go back to his people	196	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T19	A	Opus	native	q3	p3	Kats's bear child kills the people at White Stone Narrows	204	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T20	A	Opus	native	q3	p1	the sea-lion chief's son is speared	214	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T20	A	Opus	native	q3	p2	the hero's companion is drowned and he is stranded on the sea-lion rock	216	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T20	A	Opus	native	q3	p3	the second canoe's hunters have no luck	246	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T20	A	Opus	native	q3	p4	the hunters wound the Gonaqadet's slave and are taken into his house	250	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T21	A	Opus	native	q3	p1	disease kills all the man's kinsmen and friends	274	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T22	A	Opus	native	q3	p1	the chief's daughter is taken away by the frog people	295	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T22	A	Opus	native	q3	p2	the frogs' ways stay in her after her return	327	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T23	A	Opus	native	q3	p1	the Kiksadi fear attack and go short of food	334	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T23	A	Opus	native	q3	p2	a Kagwantan chief dies	338	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T24	A	Opus	native	q3	p1	the youth takes the brant girls' skins and holds them as wives	353	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T24	A	Opus	native	q3	p2	the youth's wives leave him	364	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T24	A	Opus	native	q3	p3	war between the brants and the herons	386	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T25	A	Opus	native	q3	p1	the women's canoe is upset and she is near drowning	402	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:T25	A	Opus	native	q3	p2	the birds keep the woman from her family	408	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:O01	A	Opus	native	q3	p1	the Winter kills people and brings the cold	424	4	ActsRoles/native/sig/A/q3/Significance.txt
+native:O02	A	Opus	native	q4	p1	someone with a very long foot always goes ahead of the Rabbit	1	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O02	A	Opus	native	q4	p2	the Sun is caught fast in the Rabbit's snare	8	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O02	A	Opus	native	q4	p3	the Rabbit is scorched by the Sun's heat	17	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O03	A	Opus	native	q4	p1	the Black bears abuse and eat men	22	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O03	A	Opus	native	q4	p2	the Black bears kill the Rabbit and tear him to pieces	39	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O04	A	Opus	native	q4	p1	the grandmother is entered by the bear's member and disgraced	67	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O05	A	Opus	native	q4	p1	the giant takes all the game and the people fear him	95	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O06	A	Opus	native	q4	p1	the Rabbit wants feathers for himself	128	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O06	A	Opus	native	q4	p2	the Rabbit is stranded in the sky and fears to start home	152	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O06	A	Opus	native	q4	p3	a hill draws passers-by into its mouth	167	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O07	A	Opus	native	q4	p1	the Hill draws people into its mouth	188	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O07	A	Opus	native	q4	p2	the grandmother has no fat	208	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O08	A	Opus	native	q4	p1	long-footed enemies are about, seeking the Rabbit	224	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O08	A	Opus	native	q4	p2	the Rabbit is shot through the body	231	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O09	A	Opus	native	q4	p1	the Rabbit uses Ictinike and leaves him shamed and bearing young	251	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O09	A	Opus	native	q4	p2	Ictinike is left without a robe	279	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O10	A	Opus	native	q4	p1	the Grizzly bear takes all the Rabbit's kill and keeps him hungry and abused	304	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O10	A	Opus	native	q4	p2	the Rabbit's son lacks arrows and fine clothing	375	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O11	A	Opus	native	q4	p1	Ictinike makes the Rabbit stick fast in a tree	382	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O11	A	Opus	native	q4	p2	Ictinike takes the Rabbit's clothing and passes himself off as him	390	4	ActsRoles/native/sig/A/q4/Significance.txt
+native:O12	A	Opus	native	q5	p1	Siçemakan takes the women's beans and must escape their blame	1	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O12	A	Opus	native	q5	p2	Siçemakan fools his grandmother into a mock dance	29	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O13	A	Opus	native	q5	p1	Ictinike wants to eat the Turkeys	39	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O13	A	Opus	native	q5	p2	the tree traps Ictinike by the hands	60	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O13	A	Opus	native	q5	p3	the Wolves eat Ictinike's roasted Turkeys	67	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O13	A	Opus	native	q5	p4	a stranger eats Ictinike's turtle while he sleeps	77	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O13	A	Opus	native	q5	p5	Ictinike leads the Elk to their killing by the men	85	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O14	A	Opus	native	q5	p1	Ictinike wants to live as the Elk do	128	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O14	A	Opus	native	q5	p2	Ictinike leads the Elk to their killing by the men	147	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O15	A	Opus	native	q5	p1	Ictinike wants to cross the great water	168	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O15	A	Opus	native	q5	p2	the Buzzard drops Ictinike into a hollow tree	173	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O16	A	Opus	native	q5	p2	the Male-elk carries off the sister	223	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O16	A	Opus	native	q5	p1	the brothers' food runs low	227	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O17	A	Opus	native	q5	p1	the children are abandoned by their parents	271	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O17	A	Opus	native	q5	p2	the grown children lack wives	303	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O17	A	Opus	native	q5	p3	the camp is attacked by the foe	315	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O18	A	Opus	native	q5	p1	the Coyote's trick gets Ictinike dragged and kicked by the Colt	391	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O18	A	Opus	native	q5	p2	Ictinike's payback costs the Coyote his tail	405	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O19	A	Opus	native	q5	p1	the Coyote wants the chief's daughter	427	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O19	A	Opus	native	q5	p2	the Coyote wrongs the chief's daughter and is found out	453	4	ActsRoles/native/sig/A/q5/Significance.txt
+native:O20	A	Opus	native	q6	p1	the Coyote longs to live as the Buffaloes live	1	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O20	A	Opus	native	q6	p2	the Coyote loses his Buffalo form and his place among the bulls	23	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O21	A	Opus	native	q6	p1	the villagers seize and mock the Rabbit	47	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O21	A	Opus	native	q6	p2	the villagers set out to trap and kill the Rabbit	60	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O22	A	Opus	native	q6	p2	the seven-headed Water-monster demands the chief's daughter and threatens the tribe	69	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O22	A	Opus	native	q6	p1	the household's food is gone	93	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O22	A	Opus	native	q6	p3	the black man takes credit for the hero's deed and the bride it earned	109	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O23	A	Opus	native	q6	p1	the seven-headed Water-monster demands the chief's daughter and threatens the tribe	152	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O23	A	Opus	native	q6	p2	the black man takes credit for the hero's deed and the bride it earned	210	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O24	A	Opus	native	q6	p1	the Orphan is denied the fat meat he longs for	304	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O24	A	Opus	native	q6	p2	Ictinike steals the Orphan's newborn calf from its mother	342	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O24	A	Opus	native	q6	p3	the Buffaloes hold the Orphan's wife and child, and he must win them back	382	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O25	A	Opus	native	q6	p1	Waha'ɛi'ɛige is poor and left without the meat his sister's household eats	394	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:O25	A	Opus	native	q6	p2	the Buffaloes test Waha'ɛi'ɛige and carry off his wife and sons	401	4	ActsRoles/native/sig/A/q6/Significance.txt
+native:T01	B	Sonnet	native	q1	p1	the world has no light because a man far up the Nass keeps it for himself	4	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p2	there is no drinking water because Petrel keeps an everlasting spring covered for himself	22	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p3	Raven wants the spring salmon but does not know how to catch it	56	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p4	Raven is shamed by Bear's generosity and cannot repay it, and the story ends with Bear and his wife eaten	72	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p5	Raven loses his nose to the fishing people and has to get it back	111	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p6	Raven wants the fat hanging from the deer's nose	124	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p7	Raven wants to eat the deer	128	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p8	the tide woman mocks Raven while he eats, so he forces her to set the tides	139	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p9	Raven quarrels with Petrel over who is older and is humbled in the fog	155	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p10	Raven wants the fire floating offshore	165	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p11	Raven wants to know what the floating object is, and has nothing to give a feast for his mother	171	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p12	Raven plots against the killer whales	182	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p13	the other man gets more whale grease than Raven	191	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p14	Raven is shut in a grease box and thrown down a cliff	196	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p15	Raven wants to eat the whale from the inside	203	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p16	Raven is shut inside the dead whale	209	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p17	the town people cut up Raven's whale	215	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p18	Raven wants the herring the gull brings	224	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p19	the people take Raven's gizzard	234	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p20	Raven wants the salmon the Fog-on-the-Salmon man keeps	242	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p21	Raven wants a seal and does not get one	250	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p22	Raven cannot make the bay into a river like the Nass	257	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p23	Raven has no food for a feast and goes to the ground hogs	261	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p24	Raven wants to get women's genitals from the island	266	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p25	Raven wants to see the Gonaqadet's blanket and hat	278	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p26	Raven wants to see everything under the ocean	282	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p27	Cakaku has far more whale grease than Raven	294	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p28	Cakaku shuts Raven in a grease box	302	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p29	Raven wants to eat a bear	308	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p30	Raven can never get full	315	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p31	Raven is very hungry and wants the sculpin	329	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p32	Raven's blanket keeps blowing away	333	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p33	the rough sea frightens Raven's wife	339	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p34	the wild celery scolds Raven	354	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T01	B	Sonnet	native	q1	p35	Raven wants the beaver for the post under the earth	359	4	ActsRoles/native/sig/B/q1/Significance.txt
+native:T02	B	Sonnet	native	q2	p1	the big clam shuts its valves on passing canoes and destroys them	4	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T03	B	Sonnet	native	q2	p1	the brothers are stranded hungry at the cliff at the edge of the world	14	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T03	B	Sonnet	native	q2	p2	the brothers are smashed to pieces when they descend the cliff	18	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T03	B	Sonnet	native	q2	p3	the one-legged giant hunts down the thieves and kills the brothers	35	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T03	B	Sonnet	native	q2	p4	the bear people's town where the brothers are killed in the game	43	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T03	B	Sonnet	native	q2	p5	Lqayak's shame over his sister and his casting out	67	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T04	B	Sonnet	native	q2	p1	the killer whales carry off the man's wife	78	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T04	B	Sonnet	native	q2	p2	the killer whales pursue the man and make war on the sharks who helped him	100	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T05	B	Sonnet	native	q2	p1	the land otters have taken Kaka and are turning him into one of them	109	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T06	B	Sonnet	native	q2	p1	the man and his family are short of food at their halibut camp	126	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T06	B	Sonnet	native	q2	p2	the nephews are offended by the man's words and leave him	145	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T06	B	Sonnet	native	q2	p3	the nephews vanish and he cannot find his helpers again	156	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T07	B	Sonnet	native	q2	p1	the famine and the failed fishing leave the man and his wife nearly without food	162	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T07	B	Sonnet	native	q2	p2	the son vanishes again for good	193	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T08	B	Sonnet	native	q2	p1	the famine in the youth's town	199	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T08	B	Sonnet	native	q2	p2	the wolf-chief's son is lost after the brother-in-law insults it	211	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T08	B	Sonnet	native	q2	p3	the youth's town lies dead and he must restore it	238	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T09	B	Sonnet	native	q2	p1	the hunter cannot get game	249	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T09	B	Sonnet	native	q2	p2	Wolverine-man's resentment and trick against the hunter	267	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T10	B	Sonnet	native	q2	p1	the halibut people kill the chief's daughter	288	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T10	B	Sonnet	native	q2	p2	the bad wish sinks the canoe and the brothers are lost	307	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T11	B	Sonnet	native	q2	p1	the devilfish destroys the camp and the hunters' friends	315	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T11	B	Sonnet	native	q2	p2	the crying boy is taken by the land-otter-man and eaten out by spiders	332	4	ActsRoles/native/sig/B/q2/Significance.txt
+native:T12	B	Sonnet	native	q3	p1	the chief's daughter is trapped by a clam and drowned by the tide	1	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T13	B	Sonnet	native	q3	p1	the thing from the air carries off the townspeople	8	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T13	B	Sonnet	native	q3	p2	the canoe maker in the woods kills people who get into his canoe	17	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T14	B	Sonnet	native	q3	p1	winter returns and the people run short of food	31	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T15	B	Sonnet	native	q3	p1	the beaver is left stranded up a tree by his friend	38	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T15	B	Sonnet	native	q3	p2	the porcupine is stranded on an island by the beaver	47	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T15	B	Sonnet	native	q3	p3	the man traps and skins the porcupine's friend the ground hog	57	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T16	B	Sonnet	native	q3	p1	the poor man catches nothing and is laughed at	66	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T17	B	Sonnet	native	q3	p1	the storm that follows the taking of the blue paint	81	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T17	B	Sonnet	native	q3	p2	the little boy burns his baby sister by mishearing his mother	94	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T18	B	Sonnet	native	q3	p1	a man is hanged by his tree-climber and the people take revenge on the board	107	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T18	B	Sonnet	native	q3	p2	the devilfish takes the two men's canoe	115	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T18	B	Sonnet	native	q3	p3	the land-otter-man attacks the four hunters	124	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T18	B	Sonnet	native	q3	p4	the woman and child lost and many people disappeared, killed by murderers	134	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T18	B	Sonnet	native	q3	p5	the people have no flint	144	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T19	B	Sonnet	native	q3	p1	Kats is kept among the bears away from his people	148	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T19	B	Sonnet	native	q3	p2	Kats breaks the bear wife's prohibition and is killed by the cubs	154	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T19	B	Sonnet	native	q3	p3	Kats's child kills the people at White Stone Narrows	162	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T20	B	Sonnet	native	q3	p1	the hunter's friend is drowned and he is stranded on the sea-lion rock	168	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T20	B	Sonnet	native	q3	p2	the sick man in the house has a spear in him	179	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T20	B	Sonnet	native	q3	p3	the second canoe's hunters wound the Gonaqadet's slave and are taken	194	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T21	B	Sonnet	native	q3	p1	the man's relatives are dead and he is lonely	215	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T22	B	Sonnet	native	q3	p1	the chief's daughter is taken to live with the frogs	233	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T22	B	Sonnet	native	q3	p2	the woman is left frog-like and cannot eat, and dies	256	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T23	B	Sonnet	native	q3	p1	the Kagwantan chief dies and must be honored	262	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T24	B	Sonnet	native	q3	p1	the youth's wives leave him and go home with the brants	277	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T24	B	Sonnet	native	q3	p2	the brants and herons go to war	301	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T25	B	Sonnet	native	q3	p1	the women are drowned and the woman is lost	314	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:T25	B	Sonnet	native	q3	p2	the birds keep the woman from her father	318	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:O01	B	Sonnet	native	q3	p1	the Winter kills and eats men	334	4	ActsRoles/native/sig/B/q3/Significance.txt
+native:O02	B	Sonnet	native	q4	p1	an unseen long-footed walker always passes before the Rabbit, who wants to know and catch him	1	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O02	B	Sonnet	native	q4	p2	the caught Sun demands release and his heat endangers the Rabbit who must free him	8	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O03	B	Sonnet	native	q4	p1	the Black bears abuse and eat men, and the Rabbit means to destroy them	19	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O03	B	Sonnet	native	q4	p2	the Rabbit's taunt with the chief's scrotum brings the bears' revenge and his death	34	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O04	B	Sonnet	native	q4	p1	the Rabbit tricks his grandmother into a shameful mishap and then shames and exiles her	57	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O05	B	Sonnet	native	q4	p1	the giant takes all the game by terror and now threatens to destroy the Rabbit	83	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O06	B	Sonnet	native	q4	p1	the Rabbit lacks feathers and must get them and bring them home	112	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O06	B	Sonnet	native	q4	p2	a hill draws passers-by into its mouth and swallows them	148	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O07	B	Sonnet	native	q4	p1	the Hill draws people into its mouth and devours them	166	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O08	B	Sonnet	native	q4	p1	the Rabbit is shot through the body by the long-footed men and needs a cure	194	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O09	B	Sonnet	native	q4	p1	Ictinike's plan against the Rabbit turns on himself and leaves him shamed, in pain, robeless and talked about	216	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O10	B	Sonnet	native	q4	p1	the Grizzly bear makes the Rabbit hunt for him, takes all the meat and mistreats him	257	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O11	B	Sonnet	native	q4	p1	Ictinike sticks the Rabbit to a tree and steals his clothing	326	4	ActsRoles/native/sig/B/q4/Significance.txt
+native:O12	B	Sonnet	native	q5	p1	Siçemakan wants the women's beans from their field	1	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O12	B	Sonnet	native	q5	p2	the women accuse Siçemakan of carrying off their beans	20	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O13	B	Sonnet	native	q5	p1	Ictinike wants to eat and fill himself	40	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O13	B	Sonnet	native	q5	p2	the tree branch grips Ictinike and will not let him go	57	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O13	B	Sonnet	native	q5	p3	Ictinike tempts the Elk and joins them to lead them to the men	75	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O14	B	Sonnet	native	q5	p1	Ictinike wants to join the Elk and have their food, and the Elk have to find a way of escape for the children	109	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O15	B	Sonnet	native	q5	p1	the Buzzard puts Ictinike into a hollow tree and he is stuck there	144	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O15	B	Sonnet	native	q5	p2	Ictinike wants to get even with the Buzzard	165	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O16	B	Sonnet	native	q5	p1	the brothers need food, and the sister calls the animals	185	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O16	B	Sonnet	native	q5	p2	the brothers' food runs low and they go hunting	196	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O16	B	Sonnet	native	q5	p3	the Male elk takes the sister and the brothers must get her back	199	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O17	B	Sonnet	native	q5	p1	the people abandon the children, and the children have to survive and answer it	240	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O17	B	Sonnet	native	q5	p2	the camp is attacked by an enemy	278	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O18	B	Sonnet	native	q5	p1	the Coyote wants to eat the sleeping Colt	346	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O18	B	Sonnet	native	q5	p2	Ictinike wants to get even with the Coyote	358	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O18	B	Sonnet	native	q5	p3	the Coyote has lost his tail	374	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O19	B	Sonnet	native	q5	p1	the Coyote wants the chief's daughter	381	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O19	B	Sonnet	native	q5	p2	the Coyote deceives the chief's household and uses the daughter	405	4	ActsRoles/native/sig/B/q5/Significance.txt
+native:O20	B	Sonnet	native	q6	p1	the Coyote wants to live as the Buffalo-bulls live and must pass their test	1	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O20	B	Sonnet	native	q6	p2	the Coyote cannot keep the bull life and ends up a Coyote again	22	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O21	B	Sonnet	native	q6	p1	the Rabbit is mocked and surrounded by the village chiefs and their people	45	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O22	B	Sonnet	native	q6	p1	the seven-headed Water-monster threatens the tribe and the chief's daughter	64	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O22	B	Sonnet	native	q6	p2	the black man takes the monster's heads and wins the chief's daughter	99	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O23	B	Sonnet	native	q6	p1	the boy has nothing: no lodge, no kin, no way to live	141	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O23	B	Sonnet	native	q6	p2	the seven-headed Water-monster demands the chief's daughter and threatens the tribe	142	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O23	B	Sonnet	native	q6	p3	the black man takes the monster's heads and wins credit and the chief's daughter	194	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O24	B	Sonnet	native	q6	p1	the Orphan is denied fat meat and mistreated by his sister	266	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O24	B	Sonnet	native	q6	p2	the Buffalo-woman's calf is stolen and she and the child are kept from the Orphan	293	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O25	B	Sonnet	native	q6	p1	the poor Waha'ɛi'ɛige is badly treated by his sister and sets the birds on her field	349	4	ActsRoles/native/sig/B/q6/Significance.txt
+native:O25	B	Sonnet	native	q6	p2	the Buffaloes take his wife and sons beyond the great water and keep her from him	354	4	ActsRoles/native/sig/B/q6/Significance.txt
+eastasian:C01	A	Opus	eastasian	q1	p1	the neighbours' boys drown in the eldest brother's charge	1	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C01	A	Opus	eastasian	q1	p2	the eldest brother is condemned to die for the drowning	14	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C02	A	Opus	eastasian	q1	p1	the pious father falls into poverty	52	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C02	A	Opus	eastasian	q1	p2	the youngest son wants to win a princess in marriage	67	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C02	A	Opus	eastasian	q1	p3	the princess takes the youngest son's basket	69	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C02	A	Opus	eastasian	q1	p4	the youngest son starves in the mountains	89	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C02	A	Opus	eastasian	q1	p5	the youngest son grows horns that fasten him to the trees	91	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C03	A	Opus	eastasian	q1	p1	the man cannot provide for his family and his wife berates him	124	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C03	A	Opus	eastasian	q1	p2	the emperor's jade seal is lost and the man must find it or be exposed	137	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C03	A	Opus	eastasian	q1	p3	the empress's test puts the man in danger of losing his head	154	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C03	A	Opus	eastasian	q1	p4	the court takes the man for a god and casts him into the sky	160	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C04	A	Opus	eastasian	q1	p1	the poor, scolded man is driven to seek his death	166	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C04	A	Opus	eastasian	q1	p2	the apes are robbed by the one they made their king	182	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C05	A	Opus	eastasian	q1	p1	the big boy covets the little boy's cake	199	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C06	A	Opus	eastasian	q1	p1	the foolish son's want of sense is shown to his bride's family	215	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C07	A	Opus	eastasian	q1	p1	the foolish son disgraces himself by copying his brother-in-law	225	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C08	A	Opus	eastasian	q1	p1	the boar threatens to eat the old woman's granddaughter	234	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C09	A	Opus	eastasian	q1	p1	a bird wounded by a hunter falls before the old woman	288	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C09	A	Opus	eastasian	q1	p2	the old woman cannot pay her debts	294	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C09	A	Opus	eastasian	q1	p3	the busybody maims a bird to win the same fortune	302	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C09	A	Opus	eastasian	q1	p4	the busybody runs deep into debt	310	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C10	A	Opus	eastasian	q1	p1	the blind boy cannot know what the sky and the sun are like	318	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C10	A	Opus	eastasian	q1	p2	the blind boy falls into a pan of flour	334	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C11	A	Opus	eastasian	q1	p1	the fairy serpent seizes the youngest daughter's father	339	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C11	A	Opus	eastasian	q1	p2	the father has promised a daughter to the serpent and pines over it	348	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C11	A	Opus	eastasian	q1	p3	the serpent calls for his bride and wasps plague the family	364	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C11	A	Opus	eastasian	q1	p4	the well runs dry and the serpent husband is dying of thirst	375	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C12	A	Opus	eastasian	q1	p1	Kong Hia Chiang is accused of stealing the sheep and jailed	385	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C12	A	Opus	eastasian	q1	p2	enemies approach the unguarded western border	393	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C13	A	Opus	eastasian	q1	p1	the grandmother has no descendants	408	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C13	A	Opus	eastasian	q1	p2	the grandson keeps to his shell and is not like other people	421	4	ActsRoles/eastasian/sig/A/q1/Significance.txt
+eastasian:C14	A	Opus	eastasian	q2	p1	the daughters-in-law must bring fire and wind wrapped in paper or never return	1	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C14	A	Opus	eastasian	q2	p2	the gem expert tries to cheat the girl of the jade hidden in her stone pile	28	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C14	A	Opus	eastasian	q2	p3	the Mandarin fines the young head of the family for impudence	43	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C15	A	Opus	eastasian	q2	p1	the rich hunchback wants a pretty wife	55	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C15	A	Opus	eastasian	q2	p2	the go-betweens scheme to marry the hunchback to a harelipped widow, each hiding the deformity	58	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C16	A	Opus	eastasian	q2	p1	the youth wants a wife and is betrothed to an infant instead of the girl he saw	77	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C16	A	Opus	eastasian	q2	p2	the youth strikes his child bride and believes he has killed her	92	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C17	A	Opus	eastasian	q2	p1	the bride finds her husband a simpleton and tries to educate him	101	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C17	A	Opus	eastasian	q2	p2	the simpleton's folly is exposed at his father-in-law's feast	105	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C17	A	Opus	eastasian	q2	p3	the simpleton causes damage and gets hurt by misapplying his wife's rules for parting fighters	125	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C17	A	Opus	eastasian	q2	p4	the simpleton loses his wife's money in trading	141	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C18	A	Opus	eastasian	q2	p1	the wife wants to sell her cloth but must trust it to her foolish husband	172	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C18	A	Opus	eastasian	q2	p2	the wife, shown she is a flower wed to a clod, despairs and is near suicide	191	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C19	A	Opus	eastasian	q2	p1	the orphan girl is married against her wish to a rich old man	209	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C19	A	Opus	eastasian	q2	p2	the stepson's hostility threatens the young wife's and her son's rights	215	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C20	A	Opus	eastasian	q2	p1	the lawyer takes the peasant's gifts with no return, a debt he means to repay by trickery	259	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C21	A	Opus	eastasian	q2	p1	the friendless man lies bound and unfed in prison	270	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C22	A	Opus	eastasian	q2	p1	a man is murdered and the killer is sought	281	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C23	A	Opus	eastasian	q2	p1	the old woman tries to extort two hundred ounces from the bride over a lent cat	302	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C24	A	Opus	eastasian	q2	p1	the rich man's son murders the wife's husband to win her, and she later avenges him	337	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C24	A	Opus	eastasian	q2	p2	the wife has killed her second husband, and his death must be answered	376	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:C25	A	Opus	eastasian	q2	p1	the poor man's garlic is stolen	388	4	ActsRoles/eastasian/sig/A/q2/Significance.txt
+eastasian:J01	A	Opus	eastasian	q3	p1	Shokujo's over-serious habits trouble her father	1	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J01	A	Opus	eastasian	q3	p2	Shokujo forsakes her loom after marriage	4	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J01	A	Opus	eastasian	q3	p3	the lovers are kept apart save once a year	8	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J02	A	Opus	eastasian	q3	p1	the Kyoto frog does not know the great ocean	20	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J02	A	Opus	eastasian	q3	p2	the Osaka father wants his son made wise	31	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J03	A	Opus	eastasian	q3	p1	the farmer Bimbo is childless and poor	54	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J04	A	Opus	eastasian	q3	p2	the old man's pet sparrow is maimed and lost	75	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J04	A	Opus	eastasian	q3	p3	the wife's greed for a gift of her own	98	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J04	A	Opus	eastasian	q3	p1	the old man has no son	113	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J05	A	Opus	eastasian	q3	p1	Princess Hotaru must find a suitor who truly loves her	117	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J06	A	Opus	eastasian	q3	p1	the ape robs and beats the crab	164	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J07	A	Opus	eastasian	q3	p1	the badger-kettle is caught and shut in a keg	202	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J07	A	Opus	eastasian	q3	p2	the tinker wants to make his fortune	212	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J08	A	Opus	eastasian	q3	p1	the old couple have no child	233	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J08	A	Opus	eastasian	q3	p2	the onis ravage the land and hold the treasures	239	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J09	A	Opus	eastasian	q3	p1	the hunter has killed nearly all foxes and badgers, and the survivors starve	276	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J09	A	Opus	eastasian	q3	p2	the badger's betrayal kills the fox and brings the cub's revenge	292	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J11	A	Opus	eastasian	q3	p1	the Buddhist idols are vexed that Daikoku is still worshipped	325	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J12	A	Opus	eastasian	q3	p1	a woman's touch defiles the bell	350	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J12	A	Opus	eastasian	q3	p2	Benkei steals the bell from Miidera	364	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J13	A	Opus	eastasian	q3	p1	Little Silver fears bad dreams	388	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J13	A	Opus	eastasian	q3	p2	the ghosts try to swamp the junk	395	4	ActsRoles/eastasian/sig/A/q3/Significance.txt
+eastasian:J15	A	Opus	eastasian	q4	p1	Kintaro's father disgraced and the family's name and rank lost	5	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J15	A	Opus	eastasian	q4	p2	the old mother-tengu defies Kintaro's rule	13	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J16	A	Opus	eastasian	q4	p1	Ogata's castle taken and Ogata slain, the family's name and fortunes lost	25	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J16	A	Opus	eastasian	q4	p4	the war between the clans, with the serpent's son Orochimaru on the enemy side	52	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J16	A	Opus	eastasian	q4	p2	the innocent merchant Fukutaro condemned to death	56	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J16	A	Opus	eastasian	q4	p3	Jiraiya hanged	59	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J16	A	Opus	eastasian	q4	p5	Jiraiya and his wife poisoned and near death	84	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J16	A	Opus	eastasian	q4	p6	the princess Tagoto carried off by Orochimaru	86	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J17	A	Opus	eastasian	q4	p1	the Queen of the World under the Sea falls sick	113	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J17	A	Opus	eastasian	q4	p2	the jelly-fish betrays the Queen's purpose to the monkey, who escapes	139	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J18	A	Opus	eastasian	q4	p1	the Queen's sickness, carried over from the earlier tale	174	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J18	A	Opus	eastasian	q4	p2	the Queen's curiosity about the strange music from Lord Cuttle-fish's mansion	178	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J19	A	Opus	eastasian	q4	p1	a frightful beast on the palace roof robs the emperor of sleep and health	206	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J20	A	Opus	eastasian	q4	p1	Kioto overrun by thieves and by oni who seize people in the dark	227	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J20	A	Opus	eastasian	q4	p2	the oni seizes Tsuna and drags him into the air	233	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J20	A	Opus	eastasian	q4	p3	the oni wins back its arm	243	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J21	A	Opus	eastasian	q4	p1	Raiko falls sick and is plagued by the demons' imp	264	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J21	A	Opus	eastasian	q4	p2	the oni of Tango, who hold prisoners and carry off maidens	285	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J22	A	Opus	eastasian	q4	p1	the cannibal demons of Tango, who eat people and hold the maidens of Kioto	293	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J22	A	Opus	eastasian	q4	p2	the doji's severed head attacks Raiko	333	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J23	A	Opus	eastasian	q4	p1	the sazaye, trusting his shell, is caught, sold and eaten	353	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J24	A	Opus	eastasian	q4	p1	Kichibei wants payment for the smell of his eels	365	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:J25	A	Opus	eastasian	q4	p1	the old Chinese king does not want to die and seeks the elixir of life	387	4	ActsRoles/eastasian/sig/A/q4/Significance.txt
+eastasian:C01	B	Sonnet	eastasian	q1	p1	the drowned boys bring a death sentence on the eldest, and the brothers must keep him from it	1	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C02	B	Sonnet	eastasian	q1	p1	the pious man's offerings to the gods leave his family poor	45	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C02	B	Sonnet	eastasian	q1	p2	the princess keeps the youngest son's basket and he works to win it back	56	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C03	B	Sonnet	eastasian	q1	p1	the wife berates the husband for not earning enough	98	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C03	B	Sonnet	eastasian	q1	p2	the emperor sets the man to find the seal on pain of being found a fraud	109	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C03	B	Sonnet	eastasian	q1	p3	the empress tests his smelling with a covered basket and he fears for his head	123	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C03	B	Sonnet	eastasian	q1	p4	the court takes him for a god and tosses him to the sky	129	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C04	B	Sonnet	eastasian	q1	p1	the thriftless man is wretched with a scolding wife and no means	134	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C04	B	Sonnet	eastasian	q1	p2	the apes are robbed of their treasure by the man they took for their king	149	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C05	B	Sonnet	eastasian	q1	p1	the big boy wants the little boy's cake	163	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C06	B	Sonnet	eastasian	q1	p1	the mother fears her foolish son's folly will be found out on his first visit	175	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C07	B	Sonnet	eastasian	q1	p1	the mother fears her foolish son will disgrace her on his first visit	184	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C08	B	Sonnet	eastasian	q1	p1	the boar threatens to eat the old woman's granddaughter	192	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C09	B	Sonnet	eastasian	q1	p1	the bird is wounded by a hunter and falls before the old woman	222	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C09	B	Sonnet	eastasian	q1	p2	the old woman cannot pay her debts and falls ill	227	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C09	B	Sonnet	eastasian	q1	p3	the busybody maims a bird to copy the old woman's luck	235	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C10	B	Sonnet	eastasian	q1	p1	the blind boy does not know what the sky and sun are like	246	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C11	B	Sonnet	eastasian	q1	p1	the fairy serpent forces the father to promise him a daughter	262	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C11	B	Sonnet	eastasian	q1	p2	the serpent's wasps plague the daughters until one goes to him	286	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C11	B	Sonnet	eastasian	q1	p3	the serpent is under a wicked enchantment and dying of thirst	293	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C12	B	Sonnet	eastasian	q1	p1	the sheep taken from the shepherd gets Kong Hia Chiang sent to prison	300	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C12	B	Sonnet	eastasian	q1	p2	enemy troops are coming to the unguarded western pass	306	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C13	B	Sonnet	eastasian	q1	p1	the woman has no grandchild	318	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C13	B	Sonnet	eastasian	q1	p2	the grandson is parted from his shell	329	4	ActsRoles/eastasian/sig/B/q1/Significance.txt
+eastasian:C14	B	Sonnet	eastasian	q2	p1	the father-in-law's impossible condition (fire and wind in paper) threatens to bar his daughters-in-law from home for good	1	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C14	B	Sonnet	eastasian	q2	p2	the gem expert tries to buy the heap cheaply to get the jade hidden in it	23	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C14	B	Sonnet	eastasian	q2	p3	the Mandarin fines the young head of the family and sets her impossible tasks and riddles	36	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C15	B	Sonnet	eastasian	q2	p1	the hunchback wants a pretty wife	47	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C15	B	Sonnet	eastasian	q2	p2	the go-betweens plot to marry the hunchback to the harelipped widow by hiding both defects	50	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C16	B	Sonnet	eastasian	q2	p1	the youth wants a wife and is tricked into betrothal to an infant	68	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C16	B	Sonnet	eastasian	q2	p2	the youth believes he has killed his betrothed and lives in exile and fear	80	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C17	B	Sonnet	eastasian	q2	p1	the husband is a simpleton whom his wife tries to teach sense	90	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C18	B	Sonnet	eastasian	q2	p1	the clever wife wants her cloth sold at the proper price	152	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C18	B	Sonnet	eastasian	q2	p2	the gift of the clod and blossom drives the wife toward drowning herself	171	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C19	B	Sonnet	eastasian	q2	p1	the young woman is bought by the old widower and sent to him against her will	187	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C19	B	Sonnet	eastasian	q2	p2	the widow and her son are in danger from the hostile stepson and have no one to protect them	192	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C20	B	Sonnet	eastasian	q2	p1	the poor man fears lawsuits and seeks an ally while the lawyer plans to trap him	228	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C21	B	Sonnet	eastasian	q2	p1	the friendless man is imprisoned, bound and unfed	237	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C22	B	Sonnet	eastasian	q2	p1	the murderer is sought for the killing and the magistrate tries to prove guilt	247	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C23	B	Sonnet	eastasian	q2	p1	the old woman schemes to extort two hundred ounces of silver from the bride through the lost cat	264	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C24	B	Sonnet	eastasian	q2	p1	the merchant's son covets the wife and has her husband killed	291	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C24	B	Sonnet	eastasian	q2	p2	the wife must answer for the killing of her second husband	323	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:C25	B	Sonnet	eastasian	q2	p1	the poor man's garlic is stolen	331	4	ActsRoles/eastasian/sig/B/q2/Significance.txt
+eastasian:J01	B	Sonnet	eastasian	q3	p1	the sun-king finds his daughter too serious and wants her livelier	1	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J01	B	Sonnet	eastasian	q3	p2	Shokujo and Kingin are parted and may meet only once a year	6	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J02	B	Sonnet	eastasian	q3	p1	the Kyoto frog is sneered at for not knowing the great ocean and sets out to see it	17	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J03	B	Sonnet	eastasian	q3	p1	the poor farmer Bimbo, childless and short of rain, lacks a son and a living	40	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J03	B	Sonnet	eastasian	q3	p2	the foster son Raitaro leaves the old couple	49	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J04	B	Sonnet	eastasian	q3	p1	the old man's pet sparrow is hurt and driven away	58	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J04	B	Sonnet	eastasian	q3	p2	the old woman greedily wants a gift from the sparrows	75	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J05	B	Sonnet	eastasian	q3	p1	Princess Hotaru is followed by suitors and wants only one who will perform an impossible task	87	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J06	B	Sonnet	eastasian	q3	p1	the ape cheats and beats the crab	121	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J07	B	Sonnet	eastasian	q3	p1	the badger-kettle is hunted and shut in a keg	146	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J08	B	Sonnet	eastasian	q3	p1	the old couple have no child	167	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J08	B	Sonnet	eastasian	q3	p2	the oni ravage the shores and keep the treasures on their island	172	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J09	B	Sonnet	eastasian	q3	p1	the hunted badger and foxes starve and must outwit the hunter	195	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J09	B	Sonnet	eastasian	q3	p2	the badger betrays the fox and her cub seeks revenge	205	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J10	B	Sonnet	eastasian	q3	p1	the Patrons tie the marriage threads carelessly, so many marriages are unhappy	218	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J11	B	Sonnet	eastasian	q3	p1	the Buddhist idols are vexed that Daikoku is still worshipped and want to be rid of him	231	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J12	B	Sonnet	eastasian	q3	p1	a woman's touch spoils the bell's polish	252	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J12	B	Sonnet	eastasian	q3	p2	the bell is stolen from Miidera and longs to return	265	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J13	B	Sonnet	eastasian	q3	p1	Little Silver fears bad dreams of ghosts and uses the tapir picture to keep them off	287	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J13	B	Sonnet	eastasian	q3	p2	the ghosts try to swamp the junk Little Silver is on	292	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J13	B	Sonnet	eastasian	q3	p3	Little Silver does not know what the Shoji's house is for	305	4	ActsRoles/eastasian/sig/B/q3/Significance.txt
+eastasian:J15	B	Sonnet	eastasian	q4	p1	the hero's father is disgraced and dies, leaving his widow and son outcast in the wilds	5	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J15	B	Sonnet	eastasian	q4	p2	the old mother-tengu refuses to obey the boy who rules the forest	13	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J16	B	Sonnet	eastasian	q4	p1	Jiraiya's father is slain and his house lost; Jiraiya wants to restore his family's name and fortune	23	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J16	B	Sonnet	eastasian	q4	p3	the serpent's son Orochimaru ravages the land, endangers Jiraiya and carries off Tagoto	30	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J16	B	Sonnet	eastasian	q4	p2	the poor suffer under greedy money-lenders and an innocent merchant is sentenced to death	42	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J17	B	Sonnet	eastasian	q4	p1	the Queen of the Under-world is sick and needs a cure	87	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J17	B	Sonnet	eastasian	q4	p2	the monkey learns of the Queen's plan and gets away with his liver	108	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J18	B	Sonnet	eastasian	q4	p1	the Queen may find Lord Cuttle-fish's undignified revelry unseemly	132	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J19	B	Sonnet	eastasian	q4	p1	the beast keeps the emperor from sleep and wastes him	150	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J20	B	Sonnet	eastasian	q4	p1	oni terrorize Kioto and seize people at the gate	167	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J20	B	Sonnet	eastasian	q4	p2	the oni takes back its severed arm from Tsuna	180	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J21	B	Sonnet	eastasian	q4	p1	the oni make Raiko sick with an imp's tormenting	195	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J21	B	Sonnet	eastasian	q4	p2	the demons seize maidens of Kioto and hold them in their den	212	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J22	B	Sonnet	eastasian	q4	p1	the demons of Tango eat people and hold maidens captive in their den	218	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J23	B	Sonnet	eastasian	q4	p1	the sazaye's pride in his shell leads him to be caught and eaten	260	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J24	B	Sonnet	eastasian	q4	p1	Kichibei demands payment of Kisaburo for the smell of his eels	273	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
+eastasian:J25	B	Sonnet	eastasian	q4	p1	the Chinese king lacks the elixir of life and goes to seek it, but dies before the top	292	4	ActsRoles/eastasian/sig/B/q4/Significance.txt
