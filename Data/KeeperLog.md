@@ -1045,3 +1045,21 @@ NEXT, at the owner's word: `StoryModels/arcs.py` and `networks.py` written and c
   - native 38 + 3 (9) / 45 + 5 (0);
   - East Asian 40 + 4 (6) / 42 + 8 (0).
 NEXT, at the owner's word: the run, `arcs.py run` and `networks.py run`.
+**2026-11-03. Step 4 RUN: the fortune arcs and the character networks** (`StoryModels/Arcs.txt`, `Networks.txt`). At the owner's word. The programs were committed and tested before they ran. The F4 columns were widened afterwards, committed, and the file rerun; only whitespace changed.
+- **THE PREDICTION FAILS for both describers:** the wondertales' most common F2 shape is rise (A 71%, B 80%), not fall then rise (13%, 9%). The verdict stands.
+- **The arcs, as reported** (exploratory):
+  - The wondertales end highest (mean end +0.41 / +0.46). Their lowest point is shallow (-0.06) and early (0.17 of the way through).
+  - The Fables end lowest (-0.05 / -0.02), with the deepest low (-0.31 / -0.29) at mid-story. They are the most often "fall" (39%).
+  - The wondertales differ in shape from every other corpus (p at most 0.004, both describers). The animal tales, tragedies and the two new corpora mostly do not differ from one another.
+  - F3 finds no shapes (A3): shuffled arcs cluster as tightly as real ones.
+  - F5: the wondertales repair 95% / 93% of their problems, the Fables 37% / 42%.
+  - 52 / 59 Fables have fewer than 6 scored acts and are not in F2 to F4.
+- **The networks, as reported** (exploratory):
+  - The hero is the most central character in 53% to 94% of stories by corpus. East Asian A is lowest (53%, against B's 77%).
+  - Agency is 0.55 to 0.62 everywhere, and the acts layer and the significance part agree.
+  - Deception is highest in the animal tales (18% / 19% of acts, above every other corpus at p at most 0.0005). It is lowest in the tragedies (3%).
+  - N4: no single figure holds a corpus. The fox comes nearest in the animal tales: A 40%, and for B 16% under one head but split across лиса, fox, лисица and лисичка. Rabbit and Ictinike lead the Native American tales (17% / 18%).
+- **Two cautions for the reading:**
+  - N4's heads do not merge Russian and English, or diminutives (protocol: reported, not mended).
+  - The East Asian networks differ between describers (A: 14.7 nodes, density 0.07, hero's share 33%; B: 9.6, 0.21, 65%).
+- **The keeper's reading, not from Propp:** helps outnumber harms in the wondertale's acts, so the villainy's early dip is shallow and the arc reads as a rise. The fall-then-rise rule looks at halves and sees no fall. Propp's sequence is there in F4's early low point and F5's near-complete repair, but not as a falling first half.
