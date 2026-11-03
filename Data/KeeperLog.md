@@ -964,3 +964,14 @@ NEXT, at the owner's word: the heroes stage (two readers), as `animal-heroes` wa
 - **The owner's two rulings stay with the readers of the tables:** "-" is read as "none" for the eastasian B-q2 links and the native B-q3 places. The build keeps every raw value as written.
 - **A counting note, not a fault:** counting the tables with Python's csv module undercounts, because it takes the notes' double quotes as quoting. Rows are counted by line.
 NEXT, at the owner's word: step 2, the heroes stage for the new corpora.
+**2026-11-03. The new corpora's heroes stage set up; `eastasian-heroes` run, the first of two parts** (`CrossCulture/setupHeroes.py`, committed 1b3ca3a before it wrote; Propp-ActsRoles 15b2319; merged 63b2122). At the owner's word, in two parts for budget.
+- **The stage, as `animal-heroes`:**
+  - Each reader is given its tales as numbered event lists only, and names each tale's hero, with a confidence and a reason, or "no single hero".
+  - The prompt is `Heroes/heroes.py`'s, unchanged. A on Opus, B on Sonnet.
+  - Batches are balanced by events: native nh1 to nh3 (611, 612 and 580 events); East Asian eh1 and eh2 (523 and 532).
+- **`eastasian-heroes`:** 4 readers, started together. Every reply is saved verbatim. Each folder holds exactly `Heroes.txt` and `Report.md`, and every answer file lists every story of its batch, in order.
+- **As the readers report:**
+  - "No single hero": A 5 + 7, B 6 + 6.
+  - Low confidence: A 1 + 3, B 3 + 5.
+  - Not read by the keeper.
+- **Not run:** `native-heroes` (6 readers).
