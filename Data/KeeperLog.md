@@ -983,3 +983,13 @@ NEXT, at the owner's word: step 2, the heroes stage for the new corpora.
   - Not read by the keeper.
 - **One deviation, recorded:** B-nh2's final reply was the single word "placeholder", and it is saved as written. Its `Heroes.txt` is complete and in form (24 stories), so the answers stand; only its report's counts are missing.
 NEXT, at the owner's word: step 3, confirming which layers the myths lack.
+**2026-11-03. Step 3 of the order of work: which layers each corpus has** (`Data/coverage.py`, committed before it ran; `Data/Coverage.txt`). A count, no model. At the owner's word.
+- **The myths (Apollodorus):** 412 stories, events for all. Functions for 172 (126 Library, 46 Epitome), both transcribers. No acts, free verbs, significance, readers' heroes or problems. `characters.tsv` has them from the functions alone, for the 126 Library stories.
+- **Aesop:** 214 listed, 102 with events: functions and readers' heroes only. **The Fables:** acts, free verbs and significance for 90 of 99.
+- **Every other corpus** has every layer for every story, but two things are not yet in the tables:
+  - the new corpora's readers' heroes (run, not yet copied or built);
+  - their characters (`characters.tsv` was last built 2026-10-27).
+- **What follows for the models:**
+  - The fortune arcs need significance and heroes. The character networks and the acts-layer induction need acts. All three run on the tales, animal tales, Fables, tragedies and the two new corpora, without the myths and Aesop, unless new reader stages describe those.
+  - The functions-layer induction can include both. A network from the functions' performers alone would be a lesser stand-in.
+NEXT, at the owner's word: copy and build the new heroes, rebuild `characters.tsv`, then step 4.
