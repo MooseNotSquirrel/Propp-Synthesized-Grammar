@@ -1011,3 +1011,10 @@ NEXT, at the owner's word: copy and build the new heroes, rebuild `characters.ts
 - **The epitome myths stay out of `characters.tsv`,** as before: the story filter admits only the Library's `L` ids.
 - `Coverage.txt` rerun: the new corpora now have every layer.
 NEXT, at the owner's word: step 4, the fortune arcs and the character networks (protocol first).
+**2026-11-03. Step 4: the fortune arc and character network protocol drafted** (`StoryModels/ArcsNetworksProtocol.md`), for the owner's review. Nothing built or run. At the owner's word.
+- **Scope:** the six corpora with acts and significance (wondertales, animal tales, Fables, tragedies, Native American, East Asian). The myths and Aesop are named as left out.
+- **The arcs:** the lister's hero's fortune, act by act, from the significance layer's helps and harms. Measures F1 to F5: shapes by a fixed rule and by clustering, the corpora compared by permutation, and the problems' course.
+- **The networks:** from the acts layer alone, not the functions' characters, whose join is weak in the new corpora. Measures N1 to N6: centrality, agency, deception, one figure across a cycle, and size.
+- **Tests:** A1 to A3, N-a, N-b and T, before any figure is read.
+- **Five decisions for the owner.** Recommended: reported only, with one frozen prediction, that the wondertales' most common shape is fall then rise.
+NEXT, at the owner's word: the review and decisions, then the programs.
