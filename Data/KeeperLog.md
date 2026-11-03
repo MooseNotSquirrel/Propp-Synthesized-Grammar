@@ -1063,3 +1063,11 @@ NEXT, at the owner's word: the run, `arcs.py run` and `networks.py run`.
   - N4's heads do not merge Russian and English, or diminutives (protocol: reported, not mended).
   - The East Asian networks differ between describers (A: 14.7 nodes, density 0.07, hero's share 33%; B: 9.6, 0.21, 65%).
 - **The keeper's reading, not from Propp:** helps outnumber harms in the wondertale's acts, so the villainy's early dip is shallow and the arc reads as a rise. The fall-then-rise rule looks at halves and sees no fall. Propp's sequence is there in F4's early low point and F5's near-complete repair, but not as a falling first half.
+**2026-11-03. Step 5: the grammar induction protocol drafted** (`Induction/InductionProtocol.md`), for the owner's review. Nothing built or run. At the owner's word.
+- **Three layers:** the corpus's own order (a precedence table and partial order); its own pairs and blocks (`ngrams.py`'s statistic within the move); and a small HMM whose states are the induced sections, written as a regular grammar in v46's style.
+- **The self-test:** on the wondertales' functions, against Propp's sections (ARI), his order (tau) and his pairs (recall). It gates trust in the other corpora.
+- **The act layer:** the same induction, its self-test event-aligned to the functions' sections.
+- **Tool tests:** I1 (a planted grammar), I2 (shuffled wondertales must fail), I3 (the split) and T.
+- **The split:** the program's own halves, seed 20261103, not `HeldOut.txt`.
+- **Five decisions for the owner.**
+NEXT, at the owner's word: the review and decisions.
