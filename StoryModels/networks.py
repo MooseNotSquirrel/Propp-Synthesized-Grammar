@@ -14,8 +14,11 @@ How the protocol's words are read here:
   explore.merge joins them, and each joined name is a node.
 - A node's degree is the number of acts it performs plus the number it undergoes, each act counted once on each side.
   An edge is a performer and undergoer pair, weighted by its acts.
-- The hero's nodes are those whose name is the same as one of the lister's hero names (common.same). A story with none
-  is "hero not found", left out of N1 to N3 and counted.
+- The hero's nodes are those whose name is the same as one of the lister's hero names (common.same). Where none is
+  (the amendment of 2026-11-03, at the owner's word: the Russian tales' acts name the hero in Russian), the node the
+  story's significance rows put in the hero's place most often, the performer where the part is does or both and the
+  undergoer where it is undergoes or both, if it holds at least half of those rows. A story with neither is "hero not
+  found", left out of N1 to N3 and counted.
 - N1: the hero is the most central when the nodes of highest degree are all the hero's (1), half when they share the top
   with others (0.5). N4: each story's top nodes share its one count, by their head word (explore.head).
 - N6: two-sided permutation tests of the mean difference, the corpus labels permuted over stories, 10,000 times.
@@ -59,8 +62,27 @@ def parts(raw):
 
 
 # ---------------------------------------------------------------- one story's network
-def network(acts, hero):
-    """acts: [(act, performer field, undergoer field)]; hero: the lister's hero names.
+def by_part(sig, canon, nodes):
+    """the amendment's hero: the node in the hero's place in most of the significance rows that give the hero a place,
+    if in at least half of them; [(part, performer field, undergoer field)] -> set of nodes, empty if none"""
+    held, n = collections.Counter(), 0
+    for part, praw, uraw in sig:
+        side = {'does': [praw], 'undergoes': [uraw], 'both': [praw, uraw]}.get(part)
+        if side is None:
+            continue
+        n += 1
+        here = {canon.get(SX.key(p), SX.key(p)) for raw in side for p, why in parts(raw) if not why}
+        for k in here & nodes:
+            held[k] += 1
+    if not held:
+        return set()
+    top = max(held.values())
+    return {k for k, v in held.items() if v == top} if top >= n / 2 else set()
+
+
+def network(acts, hero, sig=()):
+    """acts: [(act, performer field, undergoer field)]; hero: the lister's hero names; sig: the story's significance
+    rows as [(part, performer field, undergoer field)], for the amendment's fallback.
     A dict of the story's measures, its names and drops (for N-b)."""
     rows, dropped, read = [], collections.Counter(), []
     for act, praw, uraw in acts:
@@ -89,7 +111,11 @@ def network(acts, hero):
     deg = {n: out_d[n] + in_d[n] for n in nodes}
     top = [n for n in nodes if deg[n] == max(deg.values())] if nodes else []
     hnodes = {n for n in nodes if any(C.same(' '.join(n), h) for h in hero)}
-    m = {'acts': len(rows), 'nodes': len(nodes), 'edges': len(edges),
+    how = 'name' if hnodes else ''
+    if not hnodes:
+        hnodes = by_part(sig, canon, set(nodes))
+        how = 'part' if hnodes else ''
+    m = {'how': how,'acts': len(rows), 'nodes': len(nodes), 'edges': len(edges),
          'density': len(edges) / (len(nodes) * (len(nodes) - 1)) if len(nodes) > 1 else 0.0,
          'dropped': dropped, 'read': read, 'canon': canon, 'node_set': set(nodes),
          'top_heads': [SX.head(n) for n in top], 'hero_found': bool(hnodes),
@@ -115,7 +141,8 @@ def stories():
     out = []
     for (s, L), rows in C.by_story('acts').items():
         acts = [(r['act'], r['performer'], r['undergoer']) for r in C.in_order(rows)]
-        m = network(acts, lister.get(s, []))
+        srows = [(r['part'], r['performer'], r['undergoer']) for r in sig.get((s, L), [])]
+        m = network(acts, lister.get(s, []), srows)
         parts_ = collections.Counter(r['part'] for r in sig.get((s, L), []))
         d, u = parts_['does'] + parts_['both'], parts_['undergoes'] + parts_['both']
         out.append((s, L, C.corpus(s), m, d / (d + u) if d + u else None))
@@ -158,13 +185,15 @@ def report():
         return ' / '.join(out)
 
     rep.append('## N5. Size, and the hero found')
-    rep.append('%-16s %14s %14s %14s %14s %16s %18s' % ('corpus', 'networks', 'acts', 'nodes', 'edges', 'density', 'hero not found'))
+    rep.append('%-16s %14s %14s %14s %14s %16s %18s %18s %18s' % ('corpus', 'networks', 'acts', 'nodes', 'edges', 'density',
+                                                                  'hero by name', 'hero by part', 'hero not found'))
     for g in C.ORDER:
         c = lambda f: ' / '.join(fmt([f(x) for x in sel(g, L)]) for L in C.READERS)
-        rep.append('%-16s %14s %14s %14s %14s %16s %18s' % (
+        n = lambda how: ' / '.join(str(sum(1 for x in sel(g, L) if x[3]['how'] == how)) for L in C.READERS)
+        rep.append('%-16s %14s %14s %14s %14s %16s %18s %18s %18s' % (
             C.NAMES[g], ' / '.join(str(len(sel(g, L))) for L in C.READERS), c(lambda x: x[3]['acts']),
             c(lambda x: x[3]['nodes']), c(lambda x: x[3]['edges']), c(lambda x: x[3]['density']),
-            ' / '.join(str(sum(1 for x in sel(g, L) if not x[3]['hero_found'])) for L in C.READERS)))
+            n('name'), n('part'), n('')))
     drops = collections.Counter()
     for x in st:
         drops.update(x[3]['dropped'])
@@ -242,6 +271,12 @@ def na():
     ok.append(('hero doing every act: N2 = 1', solo['agency'] == 1.0))
     trick = network([('deceive', 'Raven', 'the chief'), ('deceive', 'the chief', 'Raven'), ('deceive', 'Raven', 'Gull')], ['Raven'])
     ok.append(('deceiver share 2 of 3', abs(trick['deceiver'] - 2 / 3) < EPS and trick['deception'] == 1.0))
+    russian = [('harm', 'Змей', 'Иван'), ('fight', 'Иван', 'Змей'), ('give', 'баба-яга', 'Иван')]
+    fb = network(russian, ['Ivan'], [('undergoes', 'Змей', 'Иван'), ('does', 'Иван', 'Змей'), ('undergoes', 'баба-яга', 'Иван')])
+    ok.append(('fallback: the hero found by part', fb['how'] == 'part' and fb['central'] == 1.0))
+    split = network(russian, ['Ivan'], [('does', 'Змей', 'Иван'), ('does', 'Иван', 'Змей'), ('does', 'баба-яга', 'Иван'),
+                                        ('neither', 'Змей', 'Иван')])
+    ok.append(('fallback: under half, not found', split['how'] == '' and not split['hero_found']))
     for name, v in ok:
         print('N-a %-40s %s' % (name, 'PASS' if v else 'FAIL'))
     print('N-a: %s' % ('PASS' if all(v for _, v in ok) else 'FAIL'))

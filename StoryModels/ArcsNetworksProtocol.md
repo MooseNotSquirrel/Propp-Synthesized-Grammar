@@ -76,6 +76,15 @@ Neither model assumes Propp's functions. Both are read from the act and signific
 
 **The hero.** The hero's node is the one whose name joins the lister's hero, by the same key. Where none joins, the story is counted as "hero not found" and left out of N2 and N3, and the number is reported.
 
+**AMENDED 2026-11-03 AT THE OWNER'S WORD, before any result was read.**
+- **Why:** the tests' run found the lister's hero in no wondertale network and in 34 / 17 of the 50 animal tales. The Afanasyev acts name characters in Russian, and the hero line is in English (`SigRules.md` allows it).
+- **The fallback:** where no name joins, the hero's node is the one the significance rows of the same story and describer put in the hero's place most often:
+  - the performer where the part is does or both;
+  - the undergoer where it is undergoes or both.
+- **The condition:** that node must hold at least half of those rows; otherwise the hero is not found.
+- **Reporting:** how each hero was found, by name or by part, is counted per corpus.
+- **Everything else stands.**
+
 **N1. Centrality.**
 - **The measure:** each node's weighted degree, in and out.
 - **Per corpus:** the share of stories in which the hero is the most central character (ties counted as a half), and the hero's mean share of all the story's acts.
