@@ -1,0 +1,60 @@
+# Checked-functions-tale.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 27 of 39 candidates
+  A then B  20.0 1.55 0.0140  29.0 1.72 0.0010
+  A then C  9.0 1.82 0.0110  13.0 1.55 0.0370
+  A then D  15.0 1.78 0.0140  18.0 1.84 0.0100
+  A then E  18.0 1.82 0.0060  21.0 1.84 0.0030
+  A then F  31.0 1.73 0.0010  40.0 1.75 0.0010
+  A then H  10.0 1.99 0.0040  13.0 2.02 0.0020
+  A then I  32.0 1.83 0.0010  29.0 1.85 0.0010
+  A then K  19.0 2.01 0.0010  16.0 1.78 0.0030
+  A then down  10.0 1.81 0.0100  10.0 1.99 0.0020
+  A then W  15.0 2.02 0.0010  10.0 2.01 0.0020
+  a then up  20.0 1.54 0.0320  22.0 1.90 0.0010
+  a then D  5.0 2.06 0.0310  15.0 1.88 0.0060
+  a then F  31.0 1.99 0.0010  64.0 1.91 0.0010
+  a then K  15.0 1.98 0.0010  21.0 1.99 0.0010
+  a then down  6.0 2.01 0.0180  10.0 1.99 0.0020
+  a then W  12.0 1.94 0.0010  15.0 2.00 0.0020
+  B then I  31.0 1.77 0.0030  58.0 1.54 0.0010
+  C then H  15.0 1.97 0.0010  21.0 1.69 0.0090
+  C then I  21.0 1.92 0.0010  31.0 1.72 0.0010
+  up then H  19.0 1.92 0.0030  26.0 1.73 0.0020
+  up then I  32.0 1.66 0.0020  36.0 1.44 0.0210
+  F then K  23.0 1.90 0.0010  25.0 1.86 0.0010
+  F then down  14.0 1.99 0.0010  22.0 1.97 0.0010
+  F then W  30.0 1.88 0.0010  42.0 1.93 0.0010
+  I then down  17.0 1.91 0.0010  23.0 1.82 0.0020
+  M then W  10.0 2.01 0.0070  14.0 1.98 0.0010
+  N then W  10.0 2.02 0.0070  10.0 2.02 0.0090
+Q3. Propp's pairs occurring at least 5 times: 10; confirmed 2 (A K, a K); recall 0.20; precision 0.07
+Q2. blocks: 10
+  A B I  (Propp's pairs 0 of 3)
+  A C H  (Propp's pairs 0 of 3)
+  A C I  (Propp's pairs 0 of 3)
+  A F K  (Propp's pairs 1 of 3)
+  A F W  (Propp's pairs 0 of 3)
+  A F down  (Propp's pairs 0 of 3)
+  A I down  (Propp's pairs 0 of 3)
+  a F K  (Propp's pairs 1 of 3)
+  a F W  (Propp's pairs 0 of 3)
+  a F down  (Propp's pairs 0 of 3)
+
+## A
+P3. relations holding again on the checking half: 17 of 18 with data (18 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.0284, unigram -3.3034, bigram -2.9831: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+## B
+P3. relations holding again on the checking half: 35 of 36 with data (36 relations)
+H5. log-likelihood per symbol on the checking half: HMM -2.9619, unigram -3.2708, bigram -3.1706: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+H5. A and B sections agree: ARI 0.323 over 32 units
+
+## THE SELF-TEST (frozen 2026-11-03): S1 sections, S2 order, S3 pairs
+S3: recall 0.20: does not hold
+A: S1 fails, S2 fails, S3 fails
+B: S1 fails, S2 fails, S3 fails
+VERDICT: FAILS

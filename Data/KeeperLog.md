@@ -1088,3 +1088,20 @@ NEXT, at the owner's word: `split.py` (Split.txt committed), then `induce.py` wi
   - On rerun all four PASS. I2's shuffled tales fail S1 (ARI above only 61% / 57% of permutations) and S2 (tau -0.01 / 0.09), and Q1 confirms 0.
 - No real figure was shown. T compared two inductions without printing them.
 NEXT, at the owner's word: the self-test. `induce.py induce functions tale`, committed, then `induce.py check functions tale`.
+**2026-11-03. Step 5: THE SELF-TEST FAILS** (`Induction/Induced-functions-tale.*` committed 49614af before the check; `Checked-functions-tale.txt`). At the owner's word.
+- **S1, the sections:**
+  - A: ARI 0.008, above 53% of permuted assignments.
+  - B: ARI 0.157, above 99.1%, but the tau of the states' place against Propp's section order is 0.44, under 0.6.
+  - K was chosen as 6 (A) and 4 (B), not near ten.
+- **S2, the order:** tau with Propp's numbering 0.23 (A, p 0.14) and 0.23 (B, p 0.12).
+- **S3, the pairs:** 2 of Propp's 10 occurring pairs confirmed (A K, a K): recall 0.20, under 0.5.
+- **VERDICT: FAILS, for both transcribers.** By the frozen protocol, the other corpora may be run but are reported only as an unverified tool's output.
+- **Reported beside the verdict:**
+  - The induced order is stable: 17 of 18 (A) and 35 of 36 (B) relations hold again on the checking half. A and B share 16 of 38.
+  - The HMM beats the unigram on the checking half for both. It beats the bigram for B only.
+  - 27 pairs are confirmed, almost all long-range ("A then I", "F then W").
+- **The keeper's reading, not from Propp:**
+  - The tool finds a coarse arc: villainy or lack first (A, a, with β); the donor's gift and the struggle in the middle; the return, recognition and wedding last.
+  - It does not find his ten sections or his adjacent pairs. The any-distance pair statistic rewards long-range order over his local pairs.
+  - A test that should come before trusting the other corpora would be a reading of why, not a retuning.
+NEXT, at the owner's word: whether to run the other corpora (labelled), and the act layer with its own self-test.
