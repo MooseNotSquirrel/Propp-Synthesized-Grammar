@@ -891,3 +891,20 @@ NEXT, at the owner's word: `predict34.py run` (predictions 3 and 4), then `level
   - where to split an event into several acts;
   - the Latin passages, translated in the notes.
 NEXT, at the owner's word: the four stages checked in form and copied to the corpus repositories; then the significance stage, set up from the act descriptions; then heroes.
+**2026-11-02. The new corpora's acts and free verbs in form, gaps filled, copied; significance set up as a dry run** (`CrossCulture/newLayers.py`). At the owner's word.
+- **The form checks** (newLayers.py, committed 21af340 before it ran) found two gaps:
+  - native-acts B-b3 had no entries for O10 events 62 and 63;
+  - native-free B-b2 had none for T18 events 32 to 35.
+  - Both describers had reported full coverage.
+- **The fill** (`native-fill`, at the owner's word): two fresh Sonnet describers filled the gaps in supplement folders (`native/acts/B/s1/`, `native/free/B/s1/`). The batches' own files are unchanged. Merged at 0074439. Both form checks now pass.
+- **The phrase's six-word limit** (FreeRules) is reported, not counted as a fault (newLayers.py 30a9098).
+  - No measure reads the phrase.
+  - The earlier free stages, found in form, exceed it too: the animal tales' B-b1 in 249 of 778 phrases.
+  - Here, 43 to 216 phrases run over in seven batches, all of describer B but native A-b4.
+- **Copied byte for byte** to Propp-NativeAmerican (7123354) and Propp-EastAsian (bb4e3de): `acts/` and `free/`, 60 files.
+- **Significance, dry run only** (`native-sig`, `eastasian-sig`):
+  - A on Opus, B on Sonnet, each describing its own letter's acts.
+  - Batches are runs of tales, at most 450 acts each (the animal stage's largest held 442). Native has 6 batches, of 410 to 445 acts (A) and 317 to 393 (B), T01 alone in q1. East Asian has 4, of 380 to 392 (A) and 279 to 337 (B).
+  - The rules (`sig/SigRules.md`) and the prompt are the significance stage's, unchanged but for the corpus, the paths and the reading of the tales.
+  - The 20 describers fit the app's limit of 20, so both stages can start at once.
+NEXT, at the owner's word: write and run `native-sig` and `eastasian-sig`; then heroes.
