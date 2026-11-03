@@ -1078,3 +1078,13 @@ NEXT, at the owner's word: the review and decisions.
 - The self-test is the one verdict.
 - The act layer's self-test is reported, not a gate.
 NEXT, at the owner's word: `split.py` (Split.txt committed), then `induce.py` with I1 to I3 and T passed before any figure is read.
+**2026-11-03. Step 5: `Induction/` written and tested; not yet run on any real result.** At the owner's word.
+- **The split:** `strings.py` and `split.py` were committed (4c0b980) before `Split.txt` was written and committed. The wondertales split 23 / 22.
+- **`induce.py` committed (6df38b8)** before any test ran. It has its own HMM in numpy, with the random starts run in parallel on 4 cores, picked in start order.
+- **Tests (`Induction/ToolTests.txt`):**
+  - I1 PASS: the planted states were recovered with ARI 1.000; K was 12 and 11 against 10; the order tau 0.93 and 0.94; both planted pairs were confirmed and no others.
+  - I3 PASS, and T PASS.
+  - **I2 FAILED at first, on S2:** shuffled tales give no order relations, so every Copeland score is 0. The program broke ties by Propp's number, giving his order back (tau 0.84 / 0.88). This was a fault of the program: ties are now kept as ties, tau is taken on the scores, and the order is printed with ties by name (committed).
+  - On rerun all four PASS. I2's shuffled tales fail S1 (ARI above only 61% / 57% of permutations) and S2 (tau -0.01 / 0.09), and Q1 confirms 0.
+- No real figure was shown. T compared two inductions without printing them.
+NEXT, at the owner's word: the self-test. `induce.py induce functions tale`, committed, then `induce.py check functions tale`.

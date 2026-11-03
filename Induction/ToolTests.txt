@@ -1,0 +1,45 @@
+# ToolTests.txt -- induce.py's tests, before any figure was read: the first run (at 6df38b8), then the rerun after the I2 fix
+## first run
+== i1 10:30:47
+I1 A K 12 within 2 of 10                    PASS
+I1 A ARI 1.000 at least 0.8                 PASS
+I1 A P2 tau 0.932 at least 0.8              PASS
+I1 B K 11 within 2 of 10                    PASS
+I1 B ARI 1.000 at least 0.8                 PASS
+I1 B P2 tau 0.941 at least 0.8              PASS
+I1 Q1 both planted pairs confirmed          PASS
+I1 Q1 others confirmed 0, at most 2         PASS
+I1: PASS
+== i2 10:46:00
+I2 A S1 fails (ARI above 60.7%, tau 0.15)        PASS
+I2 A S2 fails (tau 0.84, p 0.000)                FAIL
+I2 B S1 fails (ARI above 56.6%, tau 0.11)        PASS
+I2 B S2 fails (tau 0.88, p 0.000)                FAIL
+I2 Q1 confirms 0, at most 2                      PASS
+I2: FAIL
+== t 10:53:37
+T two inductions of the wondertales byte-identical: PASS (not shown)
+== done 11:05:58
+## rerun
+== i2 11:06:40
+I2 A S1 fails (ARI above 60.7%, tau 0.15)        PASS
+I2 A S2 fails (tau -0.01, p 0.962)               PASS
+I2 B S1 fails (ARI above 56.6%, tau 0.11)        PASS
+I2 B S2 fails (tau 0.09, p 0.597)                PASS
+I2 Q1 confirms 0, at most 2                      PASS
+I2: PASS
+== i1 11:13:54
+I1 A K 12 within 2 of 10                    PASS
+I1 A ARI 1.000 at least 0.8                 PASS
+I1 A P2 tau 0.935 at least 0.8              PASS
+I1 B K 11 within 2 of 10                    PASS
+I1 B ARI 1.000 at least 0.8                 PASS
+I1 B P2 tau 0.950 at least 0.8              PASS
+I1 Q1 both planted pairs confirmed          PASS
+I1 Q1 others confirmed 0, at most 2         PASS
+I1: PASS
+== i3 11:28:16
+I3 15 checks, failed 0: PASS
+== t 11:28:20
+T two inductions of the wondertales byte-identical: PASS (not shown)
+== done 11:40:11
