@@ -922,3 +922,8 @@ NEXT, at the owner's word: write and run `native-sig` and `eastasian-sig`; then 
 NEXT, at the owner's word: the ruling on the B-q2 slip; then `native-sig-1` and `native-sig-2`.
 - **Ruled 2026-11-02, at the owner's word:** the five "-" links in eastasian-sig B-q2 are read as "none", meaning no link. The file is unchanged; `newLayers.py` reads them so (commit above). `eastasian-sig` is in form.
 NEXT, at the owner's word, budget allowing: `native-sig-1`, then `native-sig-2`.
+**2026-11-02. `native-sig-1` run, the second significance portion** (Propp-ActsRoles, from 63bdbb8; merged 7fa071f). At the owner's word.
+- **The run:** 6 describers, A on Opus and B on Sonnet, q1 to q3, started together. Every reply is saved verbatim. Each folder holds exactly `Significance.txt` and `Report.md`.
+- **The form check:** every act is described in all 6 batches (A 440, 440, 428; B 334, 317, 330), with no act missing and no id unknown.
+- **One slip:** 33 lines of B-q3 write the place field as "-" instead of "none", each with "-" as its problem label. It is the slip of eastasian B-q2's link field, in another field. Awaiting the owner's ruling on whether to read it as "none" too.
+- **Not run:** `native-sig-2` (q4 to q6).
