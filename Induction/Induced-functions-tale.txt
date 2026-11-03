@@ -1,0 +1,72 @@
+# Induced-functions-tale.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 26: β γ δ ε ζ η θ A a B C up D E F G H I K down Rs o M N U W
+P2. relations 18; the Hasse list: η<θ, A<B, A<C, A<F, a<up, a<F, C<I, up<I, F<I, F<K, F<W, K<down
+P2. the linear order (Copeland): A a F η C D E G H M N Rs U o up β γ δ ε ζ B θ K W down I
+P3. Kendall tau with Propp's numbering 0.226, p 0.1423
+H2. K = 6; cross-validated log-likelihood per symbol: 2 -3.1452, 3 -3.0605, 4 -3.0402, 5 -3.0289, 6 -2.9822, 7 -3.0612, 8 -3.0012, 9 -3.0055, 10 -2.9922, 11 -3.1040, 12 -3.0604
+H3. S1 (place 0.05): β A a
+H3. S2 (place 0.37): δ B D
+H3. S3 (place 0.41): γ C up E
+H3. S4 (place 0.55): η θ F G H J I o L M N
+H3. S5 (place 0.65): ε ζ Pr Rs
+H3. S6 (place 0.83): K down Q Ex T U W
+S1. against Propp's sections: ARI 0.008, above 53.2% of permuted assignments; tau of place and section 0.422: does not hold
+S2. P2's order against Propp's numbering: does not hold
+
+## B
+P1. eligible (in at least 5 stories): 26: γ δ ε ζ η θ A a B C up D E F G H I K down Rs o M N Q U W
+P2. relations 36; the Hasse list: A<B, A<C, A<up, A<F, a<up, a<F, B<I, C<H, up<D, up<H, up<K, D<E, E<down, F<η, F<I, F<K, H<I, I<down, down<W
+P2. the linear order (Copeland): A a up F C B D G M N Q Rs U o γ δ ε ζ θ H η E W K I down
+P3. Kendall tau with Propp's numbering 0.234, p 0.1229
+H2. K = 4; cross-validated log-likelihood per symbol: 2 -3.0761, 3 -2.9583, 4 -2.9170, 5 -2.9244, 6 -2.9713, 7 -2.9333, 8 -2.9432, 9 -3.0257, 10 -3.0100, 11 -3.0140, 12 -3.0138
+H3. S1 (place 0.03): β A a
+H3. S2 (place 0.44): γ δ B C up D E F G H L
+H3. S3 (place 0.59): ε ζ η θ I Pr Rs o M N T
+H3. S4 (place 0.84): J K down Q Ex U W
+S1. against Propp's sections: ARI 0.157, above 99.1% of permuted assignments; tau of place and section 0.442: does not hold
+S2. P2's order against Propp's numbering: does not hold
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 39
+  A then B  19.0 1.91 0.0010  31.0 1.89 0.0010
+  A then C  13.0 1.74 0.0060  25.0 1.84 0.0010
+  A then D  11.0 1.85 0.0100  17.0 1.80 0.0020
+  A then E  12.0 1.85 0.0030  23.0 1.92 0.0010
+  A then F  34.0 1.89 0.0010  47.0 1.91 0.0010
+  A then G  18.0 2.02 0.0010  15.0 2.03 0.0020
+  A then H  17.0 2.00 0.0010  18.0 1.99 0.0010
+  A then I  35.0 1.90 0.0010  36.0 1.91 0.0010
+  A then K  29.0 1.66 0.0030  30.0 1.83 0.0010
+  A then down  15.0 2.00 0.0010  20.0 1.90 0.0010
+  A then W  18.0 1.98 0.0010  17.0 2.02 0.0010
+  a then up  18.0 1.99 0.0010  15.0 1.66 0.0050
+  a then D  24.0 2.02 0.0010  19.0 1.99 0.0010
+  a then E  29.0 2.01 0.0010  19.0 1.87 0.0030
+  a then F  28.0 1.80 0.0010  51.0 1.71 0.0010
+  a then K  19.0 1.74 0.0010  15.0 2.00 0.0010
+  a then down  12.0 1.98 0.0030  10.0 1.99 0.0020
+  a then W  14.0 2.02 0.0010  13.0 2.01 0.0020
+  B then I  18.0 1.82 0.0010  40.0 1.82 0.0010
+  C then H  17.0 1.97 0.0010  21.0 1.75 0.0020
+  C then I  24.0 2.02 0.0010  31.0 1.88 0.0010
+  up then H  17.0 1.79 0.0050  15.0 1.86 0.0020
+  up then I  26.0 2.00 0.0010  28.0 1.87 0.0010
+  D then I  25.0 1.76 0.0050  22.0 1.90 0.0010
+  D then K  24.0 1.93 0.0010  14.0 1.75 0.0050
+  E then H  22.0 1.78 0.0020  17.0 1.89 0.0040
+  E then I  29.0 1.80 0.0010  24.0 1.93 0.0010
+  E then K  26.0 1.94 0.0010  14.0 1.77 0.0050
+  E then Rs  34.0 2.00 0.0010  22.0 1.96 0.0050
+  F then I  36.0 1.53 0.0030  71.0 1.65 0.0010
+  F then K  28.0 1.72 0.0010  47.0 1.75 0.0010
+  F then down  24.0 1.98 0.0010  49.0 1.91 0.0010
+  F then Pr  16.0 2.00 0.0050  18.0 2.00 0.0020
+  F then Rs  45.0 1.99 0.0010  22.0 1.99 0.0030
+  F then W  19.0 2.00 0.0010  30.0 2.00 0.0010
+  I then down  20.0 2.01 0.0010  23.0 1.64 0.0070
+  K then W  17.0 1.99 0.0020  13.0 1.99 0.0010
+  M then W  10.0 1.98 0.0040  12.0 2.03 0.0010
+  N then W  10.0 1.99 0.0010  16.0 2.03 0.0010
+P3. relations in both transcribers over relations in either: 16 of 38
