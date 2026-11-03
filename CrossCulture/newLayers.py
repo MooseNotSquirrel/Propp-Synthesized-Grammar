@@ -381,6 +381,8 @@ def read_sig(c, L, q):
         part, value, place, prob, link, target = (x.lower() for x in f[1:7])
         if link == '-':
             link = 'none'   # the owner's ruling of 2026-11-02: a "-" link means no link (five lines in eastasian B-q2)
+        if place == '-':
+            place = 'none'  # the owner's ruling of 2026-11-02: a "-" place means no place in a problem (33 lines in native B-q3)
         bad = [x for x, okl in ((part, SG.PARTS), (value, SG.VALUES), (place, SG.PLACES), (link, SG.LINKS)) if x not in okl]
         if bad:
             faults.append('%s q%d %s: not in the lists: %s' % (L, q, f[0], ', '.join(bad)))
