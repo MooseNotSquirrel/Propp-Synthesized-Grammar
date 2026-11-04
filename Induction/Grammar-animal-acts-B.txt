@@ -1,0 +1,10 @@
+(* induced grammar, animal, acts layer, transcriber B (induce.py, the induction half) *)
+(* states in order of their place in the move; rules of probability at least 0.05 *)
+move = S1 (* 0.65 *) | S3 (* 0.09 *) | S4 (* 0.12 *) | S6 (* 0.14 *) ;
+S1 = ( decide (* 0.26 *) | threaten (* 0.11 *) | lose (* 0.10 *) | leave (* 0.08 *) | receive (* 0.08 *) | forbid (* 0.08 *) | want (* 0.06 *) ) , ( S1 (* 0.52 *) | S3 (* 0.27 *) | S4 (* 0.21 *) ) ;
+S2 = ( respond (* 0.46 *) | forbid (* 0.16 *) | expose (* 0.11 *) ) , ( S1 (* 0.09 *) | S2 (* 0.23 *) | S3 (* 0.23 *) | S4 (* 0.45 *) ) ;
+S3 = ( plead (* 0.46 *) | give (* 0.14 *) | send (* 0.11 *) | test (* 0.09 *) | repair (* 0.07 *) | forbid (* 0.07 *) ) , ( S2 (* 0.72 *) | S6 (* 0.27 *) ) ;
+S4 = ( deceive (* 0.61 *) | lament (* 0.12 *) | threaten (* 0.08 *) ) , ( S2 (* 0.08 *) | S4 (* 0.29 *) | S5 (* 0.62 *) ) ;
+S5 = ( be-taken-in (* 0.42 *) | seek-information (* 0.33 *) | disobey (* 0.09 *) | lose (* 0.06 *) ) , ( S6 (* 0.93 *) ) ;
+S6 = ( harm (* 0.43 *) | reveal-information (* 0.23 *) | deceive (* 0.11 *) | give (* 0.06 *) ) , ( S1 (* 0.21 *) | S3 (* 0.26 *) | S5 (* 0.10 *) | S6 (* 0.07 *) | S7 (* 0.36 *) ) ;
+S7 = ( escape (* 0.28 *) | harm (* 0.18 *) | decide (* 0.05 *) ) , ( S1 (* 0.07 *) | S5 (* 0.08 *) | S7 (* 0.84 *) | end (* 0.22 *) ) ;

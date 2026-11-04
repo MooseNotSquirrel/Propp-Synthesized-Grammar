@@ -1,0 +1,5 @@
+(* induced grammar, animal, acts layer, transcriber A (induce.py, the induction half) *)
+(* states in order of their place in the move; rules of probability at least 0.05 *)
+move = S1 (* 0.47 *) | S2 (* 0.53 *) ;
+S1 = ( be-taken-in (* 0.14 *) | seek-information (* 0.12 *) | plead (* 0.12 *) | leave (* 0.06 *) | decide (* 0.05 *) ) , ( S1 (* 0.07 *) | S2 (* 0.93 *) | end (* 0.07 *) ) ;
+S2 = ( deceive (* 0.20 *) | harm (* 0.19 *) | respond (* 0.10 *) | reveal-information (* 0.08 *) | threaten (* 0.06 *) | forbid (* 0.05 *) | receive (* 0.05 *) ) , ( S1 (* 0.72 *) | S2 (* 0.28 *) ) ;

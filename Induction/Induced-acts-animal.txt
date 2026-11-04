@@ -1,0 +1,32 @@
+# Induced-acts-animal.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 22: be-taken-in deceive decide escape expose forbid give guide harm lament leave lose plead receive repair respond return reveal-information seek-information send threaten want
+P2. relations 3; the Hasse list: leave<be-taken-in, leave<deceive, leave<harm
+P2. the linear order (Copeland): leave decide escape expose forbid give guide lament lose plead receive repair respond return reveal-information seek-information send threaten want be-taken-in deceive harm
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -3.1875, 3 -3.2417, 4 -3.2030, 5 -3.2512, 6 -3.2851, 7 -3.2557, 8 -3.3010, 9 -3.2109, 10 -3.2909, 11 -3.3616, 12 -3.2308
+H3. S1 (place 0.50): be-taken-in disobey expose fight guide leave lose mark plead punish repair seek-information send want
+H3. S2 (place 0.50): claim-falsely deceive decide escape forbid give harm lament marry pursue receive recognize respond return reveal-information test threaten transform win
+
+## B
+P1. eligible (in at least 5 stories): 22: be-taken-in deceive decide escape expose forbid give guide harm lament leave lose plead receive repair respond return reveal-information seek-information send test threaten
+P2. relations 1; the Hasse list: be-taken-in<escape
+P2. the linear order (Copeland): be-taken-in deceive decide expose forbid give guide harm lament leave lose plead receive repair respond return reveal-information seek-information send test threaten escape
+H2. K = 7; cross-validated log-likelihood per symbol: 2 -3.3179, 3 -3.3521, 4 -3.4371, 5 -3.4612, 6 -3.3737, 7 -3.3032, 8 -3.3751, 9 -3.4304, 10 -3.4045, 11 -3.3517, 12 -3.3586
+H3. S1 (place 0.29): decide leave lose marry receive threaten want
+H3. S2 (place 0.41): do-task expose forbid guide respond set-task
+H3. S3 (place 0.42): give plead repair send test
+H3. S4 (place 0.49): deceive fight lament
+H3. S5 (place 0.58): be-taken-in claim-falsely disobey seek-information
+H3. S6 (place 0.62): harm pursue return reveal-information win
+H3. S7 (place 0.72): escape recognize
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 6
+  decide then give  21.0 1.88 0.0010  22.0 1.86 0.0050
+  leave then be-taken-in  44.0 1.72 0.0010  27.0 1.80 0.0020
+  leave then deceive  93.0 1.66 0.0010  54.0 1.76 0.0010
+  leave then escape  10.0 1.95 0.0070  10.0 1.98 0.0100
+  leave then harm  85.0 1.62 0.0010  53.0 1.79 0.0010
+  leave then seek-information  40.0 1.53 0.0080  24.0 1.91 0.0030
+P3. relations in both transcribers over relations in either: 0 of 4
