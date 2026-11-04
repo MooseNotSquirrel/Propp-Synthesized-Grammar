@@ -1,0 +1,39 @@
+# Induced-functions-myth.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 24: γ δ ζ η θ A a B up D E F G H I K down Pr Rs M N Ex U W
+P2. relations 6; the Hasse list: A<B, A<up, A<I, A<K, A<U, A<W
+P2. the linear order (Copeland): A D E Ex F G H M N Pr Rs a down γ δ ζ η θ B I K U W up
+P3. Kendall tau with Propp's numbering 0.248, p 0.1472
+H2. K = 5; cross-validated log-likelihood per symbol: 2 -2.7808, 3 -2.7478, 4 -2.7571, 5 -2.6988, 6 -2.7400, 7 -2.8007, 8 -2.7981, 9 -2.8513, 10 -2.8495, 11 -2.8125, 12 -2.8737
+H3. S1 (place 0.12): A a o
+H3. S2 (place 0.17): δ ε ζ J
+H3. S3 (place 0.47): γ C up D E F M N
+H3. S4 (place 0.68): G H I down Pr Rs
+H3. S5 (place 0.71): β η θ B K L Q Ex U W
+S1. against Propp's sections: ARI 0.221, above 99.9% of permuted assignments; tau of place and section 0.344: does not hold
+S2. P2's order against Propp's numbering: does not hold
+
+## B
+P1. eligible (in at least 5 stories): 24: ζ η θ A a B C up D E F G H I K down Pr Rs M N Q Ex U W
+P2. relations 9; the Hasse list: A<I, A<Rs, A<U, H<I, I<K, K<W
+P2. the linear order (Copeland): A H B C D E Ex F G I M N Pr Q a down up ζ η θ K Rs U W
+P3. Kendall tau with Propp's numbering 0.391, p 0.0195
+H2. K = 5; cross-validated log-likelihood per symbol: 2 -2.9958, 3 -2.9892, 4 -2.9769, 5 -2.9739, 6 -3.0114, 7 -3.0497, 8 -3.0601, 9 -3.1118, 10 -3.0526, 11 -3.1311, 12 -3.1657
+H3. S1 (place 0.14): A a B C L M
+H3. S2 (place 0.42): γ δ ε ζ η θ λ up down Pr Rs Ex
+H3. S3 (place 0.45): β D E F G H I N Q T
+H3. S4 (place 0.67): J K U
+H3. S5 (place 0.86): W
+S1. against Propp's sections: ARI 0.234, above 99.9% of permuted assignments; tau of place and section 0.368: does not hold
+S2. P2's order against Propp's numbering: does not hold
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 6
+  A then I  49.0 1.83 0.0010  97.0 1.55 0.0010
+  A then K  17.0 1.69 0.0010  48.0 1.57 0.0010
+  A then U  19.0 2.00 0.0010  39.0 1.92 0.0010
+  A then W  19.0 1.65 0.0040  29.0 1.81 0.0010
+  B then U  8.5 2.05 0.0040  8.0 1.99 0.0060
+  K then W  7.0 2.02 0.0090  13.0 2.01 0.0010
+P3. relations in both transcribers over relations in either: 4 of 11
