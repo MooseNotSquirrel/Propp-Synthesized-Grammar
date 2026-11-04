@@ -69,3 +69,28 @@ Each is a lead from seen data, and would need its own protocol frozen by the own
 4. **The preparatory units handled by a stated rule,** once it is known why they stand where they do.
 5. **A state shape that allows order inside a section,** or a target other than ARI against the ten sections.
 6. **Unseen stories.** The wondertales and Propp's strings have been seen, and so have the other corpora's outputs. Validation would likely need new tales transcribed by readers.
+
+## Added 2026-11-04: the preparatory moves read
+
+The keeper read 12 moves drawn by a fixed seed (20261104) from the 265 that hold a preparatory unit after an A or a, then counted what follows such units (`Audit-prepwhy.txt`). Added after the audit, at the owner's word. No reader was used; the sample is small and the classes below are the keeper's judgment.
+
+**What follows them:**
+
+| | A next in this move | None here; the next move has one | Last move of the story |
+|---|---|---|---|
+| **A** (192) | 4% | 61% | 35% |
+| **B** (246) | 7% | 43% | 50% |
+
+That middle column is an upper bound on units that really prepare the next villainy: it records only that one comes next.
+
+**Two causes, both visible in the reading:**
+1. **The card's own move rule files them there.** `Afanasyev/AfanasyevRules-C.md` line 97: "events after a move has begun and before the next villainy or lack belong to the move already begun." So an absentation or a reconnaissance leading into the next villainy is written at the end of the move before (A101 β; A106 β γ δ; A155 ε ζ). The readers followed the card. Propp's sentence that a new villainy opens a new move does not require this; the rule is the card's reading of it.
+2. **Symbols given by content, not by place.** The definitions do not tie the preparatory functions to what precedes a villainy. γ is "someone is forbidden to do something, or ordered to do something", so any order gets it (A100's cow; A139's rope). Tricks by the hero get η and θ (A108, A150, A154, A161), though the card's η names the villain.
+
+**A third, smaller:** some moves hold more than one A or a (18 and 29 of them, against none in Propp's strings), which the card allows for a repeated harm toward the same end.
+
+**So the preparatory finding lies mostly in the card, not in the tales and not in the readers' care.** The first cause can be tested without readers, by moving the units to the next move under a stated rule. The second needs a recoding, which belongs with card D at step 7.
+
+**Two more facts for any repair:**
+- **The ten sections are this project's grouping** (`constraintGrammar.SECTION_GROUPS`). No citation to Propp stands beside them in the code; how far they are his has not been checked.
+- **No unseen tales are at hand.** `Afanasyev/source` holds the 45 tales' pages and no others, and Propp's strings number the same 45.

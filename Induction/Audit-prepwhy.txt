@@ -1,0 +1,10 @@
+# Audit-prepwhy.txt -- ADDED AFTER A SAMPLE OF MOVES WAS READ: what follows the preparatory units that stand after the first A or a of their move
+A: moves 143; by A or a in the move: none 3, one 122, two 12, three or more 6; units per move 9.1
+   none in this move; the next move has one      117 (61%)
+   none later: the last move of the story         68 (35%)
+   a further A or a later in the same move         7 (4%)
+B: moves 129; by A or a in the move: none 1, one 99, two 24, three or more 5; units per move 11.2
+   none later: the last move of the story        122 (50%)
+   none in this move; the next move has one      106 (43%)
+   a further A or a later in the same move        18 (7%)
+Propp: moves 84; by A or a in the move: none 1, one 83, two 0, three or more 0; units per move 8.9

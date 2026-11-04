@@ -1174,3 +1174,4 @@ NEXT, at the owner's word: the review and decisions.
 - **Added after seeing results, and said so:** U6 (faults found in U1's generator and U5's ranking) and `Audit-prep.txt`. The keeper's design fault: no power test before the freeze.
 - **Step 6's E2 prediction is no longer fully blind:** U3 is a related measure and came out split. The prediction stands unchanged.
 NEXT, at the owner's word: talk it through; whether to read the preparatory moves, a modified tool's protocol, or step 6.
+**2026-11-04. The preparatory moves read, at the owner's word** (`Induction/AuditReport.md`, last section; `Induction/Audit-prepwhy.txt`). Mostly the card: line 97 of the rules files what leads into the next villainy in the move before, and the definitions let symbols be given by content wherever they fall. The owner's point recorded: the key thing to fix is retrieving Propp's model from his corpus; the owner has no interest in teaching to the test. To be talked through.
