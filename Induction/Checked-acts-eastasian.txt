@@ -1,0 +1,18 @@
+# Checked-acts-eastasian.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 1 of 6 candidates
+  harm then repair  56.0 1.58 0.0020  49.0 1.72 0.0010
+Q3. Propp's pairs occurring at least 5 times: 7; confirmed 1 (harm repair); recall 0.14; precision 1.00
+Q2. blocks: 0
+
+## A
+P3. relations holding again on the checking half: 2 of 2 with data (2 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.3448, unigram -3.3118, bigram -4.1070: NOT A GRAMMAR (does not beat the unigram)
+
+## B
+P3. relations holding again on the checking half: 0 of 0 with data (0 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.3446, unigram -3.3202, bigram -4.5116: NOT A GRAMMAR (does not beat the unigram)
+
+H5. A and B sections agree: ARI 0.160 over 35 units
+
+# the self-test: VERDICT: FAILS; THESE ARE THE OUTPUTS OF AN UNVERIFIED TOOL
