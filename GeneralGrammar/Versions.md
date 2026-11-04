@@ -89,4 +89,32 @@ On G1: passes F 0.97, up from 0.10. Branches found in all G3 corpora. Against Pr
 
 One change. **The order may also be read from precedence among units at most d apart** (d of 2, 4 or 8), beside the likelihood over immediate neighbours; the method for a corpus is chosen by held-out score. Passes are still not given: the window runs over the whole story, and the choice of d is how far it is allowed to reach. Fresh draws.
 
-**Result:** not yet run.
+**Result: RUNG 1 PASSES** (`Rung1-v3.txt`). No real string was read.
+
+| | Required | Met at 45 stories |
+|---|---|---|
+| G1 | ordered | 20 of 20 |
+| G2 | ordered | 20 of 20 |
+| G3 | ordered | 10 of 10 |
+| G4 | not ordered | 10 of 10 |
+| G5 | bigram | 10 of 10 |
+| G6 | not ordered | 10 of 10 |
+| G7 | unigram | 10 of 10 |
+| G8 | ordered | 20 of 20 |
+
+All are met at 20 and 100 stories too. **Against Propp's order, G2 gave a median of 0.006 (at most 0.267), none reaching the bars; 90% reached them on their own scrambled order.** Branches found in all G3 corpora; false branches 0.002.
+
+| 45 stories | Relation tau | Order tau | Pair recall | Pass F |
+|---|---|---|---|---|
+| G1, 10th percentile (the protocol's bars) | 1.000 | 0.995 | 0.833 | 0.943 |
+| G8, 10th percentile | 0.993 | 0.971 | 0.541 | 0.835 |
+
+**What this does and does not show:**
+1. **It shows the tool retrieves an ordered grammar when one is there, says otherwise when none is, and does not lean to Propp.**
+2. **It does not show the tool will retrieve anything from real strings.** The generators are of the same family as the model, written by the same hand, and real tales will be messier. The verdict's two thresholds were read from generated corpora: G5 reached a ratio of 0.87 against the bar of 0.90, a thin margin.
+3. **Pair recall tops out at 0.83 by construction:** two of his twelve pairs (A with K, a with K) stand far apart, and links read neighbours only.
+4. **Acceptance is not comparable to V46's yet.** Any single slip breaks a strict partial order, so G1 accepts only 34% and G8 12% with the true order fully recovered. V46's 80 of 84 is a different measure.
+
+**The owner's call before rung 2: the bars.** The keeper recommends G8's, as the harder and nearer to his strings' length; the protocol's rule gives G1's.
+
+**Still to write before rung 2:** the blocks of level 4 (secondary); the check of the ten sections against Propp's text.
