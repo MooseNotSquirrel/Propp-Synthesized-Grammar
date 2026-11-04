@@ -1,0 +1,21 @@
+# Induced-acts-fable.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 14: deceive decide escape expose give harm lament lose plead respond reveal-information seek-information test want
+P2. relations 0; the Hasse list: 
+P2. the linear order (Copeland): deceive decide escape expose give harm lament lose plead respond reveal-information seek-information test want
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -3.3456, 3 -3.4949, 4 -3.4529, 5 -3.5486, 6 -3.7746, 7 -3.6279, 8 -3.7199, 9 -3.6501, 10 -3.6138, 11 -3.6518, 12 -3.8464
+H3. S1 (place 0.34): be-taken-in claim-falsely deceive decide disobey escape fight give harm leave lose mark plead punish pursue repair return send want win
+H3. S2 (place 0.66): arrive-unknown expose forbid guide lament receive recognize respond reveal-information seek-information test transform
+
+## B
+P1. eligible (in at least 5 stories): 12: deceive decide escape expose give harm lament lose plead respond reveal-information test
+P2. relations 0; the Hasse list: 
+P2. the linear order (Copeland): deceive decide escape expose give harm lament lose plead respond reveal-information test
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -3.2966, 3 -3.6797, 4 -3.5150, 5 -3.7091, 6 -3.5324, 7 -3.6110, 8 -3.6800, 9 -3.8389, 10 -3.6611, 11 -3.6998, 12 -3.8887
+H3. S1 (place 0.23): be-taken-in claim-falsely deceive decide disobey fight forbid harm pursue receive repair reveal-information seek-information send test want
+H3. S2 (place 0.68): do-task escape expose give lament leave lose plead punish recognize respond return set-task transform win
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 0
+P3. relations in both transcribers over relations in either: 0 of 0

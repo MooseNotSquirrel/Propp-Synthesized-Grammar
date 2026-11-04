@@ -1,0 +1,5 @@
+(* induced grammar, fable, acts layer, transcriber A (induce.py, the induction half) *)
+(* states in order of their place in the move; rules of probability at least 0.05 *)
+move = S1 (* 0.84 *) | S2 (* 0.16 *) ;
+S1 = ( harm (* 0.27 *) | plead (* 0.09 *) | want (* 0.08 *) | deceive (* 0.07 *) | give (* 0.06 *) | decide (* 0.05 *) | escape (* 0.05 *) ) , ( S1 (* 0.68 *) | S2 (* 0.32 *) ) ;
+S2 = ( respond (* 0.13 *) | expose (* 0.10 *) | reveal-information (* 0.07 *) | lament (* 0.07 *) | harm (* 0.06 *) | seek-information (* 0.06 *) ) , ( S2 (* 1.00 *) | end (* 0.27 *) ) ;
