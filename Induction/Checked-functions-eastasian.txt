@@ -1,0 +1,23 @@
+# Checked-functions-eastasian.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 4 of 7 candidates
+  A then η  7.0 1.99 0.0200  10.0 1.83 0.0040
+  A then K  8.0 2.02 0.0120  11.0 2.00 0.0010
+  a then γ  6.0 1.99 0.0370  6.0 2.00 0.0330
+  a then K  7.0 1.79 0.0420  13.0 2.06 0.0010
+Q3. Propp's pairs occurring at least 5 times: 7; confirmed 2 (A K, a K); recall 0.29; precision 0.50
+Q2. blocks: 0
+
+## A
+P3. relations holding again on the checking half: 1 of 1 with data (1 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.1761, unigram -3.2247, bigram -3.5713: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+## B
+P3. relations holding again on the checking half: 4 of 4 with data (4 relations)
+H5. log-likelihood per symbol on the checking half: HMM -2.9251, unigram -3.1376, bigram -3.4866: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+H5. A and B sections agree: ARI 0.331 over 29 units
+
+# the self-test: VERDICT: FAILS; THESE ARE THE OUTPUTS OF AN UNVERIFIED TOOL
