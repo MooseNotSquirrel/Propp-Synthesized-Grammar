@@ -1,0 +1,42 @@
+# Induced-acts-native.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 32: arrive-unknown be-taken-in deceive decide disobey escape expose fight forbid give guide harm lament leave lose marry plead punish pursue receive recognize repair respond return reveal-information seek-information send test threaten transform want win
+P2. relations 0; the Hasse list: 
+P2. the linear order (Copeland): arrive-unknown be-taken-in deceive decide disobey escape expose fight forbid give guide harm lament leave lose marry plead punish pursue receive recognize repair respond return reveal-information seek-information send test threaten transform want win
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -3.3180, 3 -3.3249, 4 -3.3737, 5 -3.3552, 6 -3.4033, 7 -3.3948, 8 -3.4726, 9 -3.5141, 10 -3.4947, 11 -3.4818, 12 -3.5179
+H3. S1 (place 0.46): arrive-unknown be-taken-in claim-falsely deceive decide guide lament leave marry receive recognize return reveal-information seek-information send
+H3. S2 (place 0.53): disobey do-task escape expose fight forbid give harm lose mark plead punish pursue repair respond test threaten transform want win
+
+## B
+P1. eligible (in at least 5 stories): 32: arrive-unknown be-taken-in deceive decide disobey escape expose fight forbid give guide harm lament leave lose marry plead punish pursue receive recognize repair respond return reveal-information seek-information send test threaten transform want win
+P2. relations 1; the Hasse list: decide<deceive
+P2. the linear order (Copeland): decide arrive-unknown be-taken-in disobey escape expose fight forbid give guide harm lament leave lose marry plead punish pursue receive recognize repair respond return reveal-information seek-information send test threaten transform want win deceive
+H2. K = 3; cross-validated log-likelihood per symbol: 2 -3.3772, 3 -3.3409, 4 -3.4060, 5 -3.4677, 6 -3.5078, 7 -3.5067, 8 -3.5288, 9 -3.5602, 10 -3.6139, 11 -3.6780, 12 -3.5971
+H3. S1 (place 0.43): arrive-unknown decide disobey forbid give guide marry plead recognize respond return reveal-information seek-information test threaten
+H3. S2 (place 0.52): be-taken-in claim-falsely deceive fight lose send win
+H3. S3 (place 0.57): do-task escape expose harm lament leave mark punish pursue receive repair set-task transform want
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 20
+  be-taken-in then punish  21.0 2.00 0.0010  15.0 2.02 0.0060
+  deceive then punish  56.0 1.99 0.0010  60.0 2.01 0.0010
+  decide then punish  17.0 1.69 0.0100  13.0 2.01 0.0030
+  fight then win  10.0 2.02 0.0060  8.0 2.01 0.0080
+  forbid then punish  58.0 1.84 0.0010  31.0 1.95 0.0010
+  give then punish  30.0 1.97 0.0020  33.0 1.96 0.0010
+  give then transform  245.0 1.51 0.0050  121.0 1.57 0.0080
+  harm then punish  103.0 1.64 0.0030  83.0 1.73 0.0030
+  lament then punish  12.0 2.00 0.0020  10.0 1.98 0.0090
+  plead then punish  15.0 1.99 0.0090  15.0 1.88 0.0080
+  receive then claim-falsely  30.0 1.99 0.0010  14.0 2.00 0.0060
+  receive then marry  69.0 1.80 0.0010  58.0 1.84 0.0020
+  receive then punish  48.0 1.84 0.0020  38.0 1.96 0.0020
+  respond then punish  35.0 1.95 0.0020  30.0 1.95 0.0010
+  reveal-information then punish  53.0 1.80 0.0010  43.0 1.72 0.0010
+  seek-information then marry  65.0 1.71 0.0030  38.0 1.84 0.0010
+  seek-information then punish  52.0 1.86 0.0010  26.0 1.78 0.0010
+  send then punish  60.0 1.94 0.0010  54.0 1.97 0.0010
+  test then punish  20.0 2.02 0.0010  20.0 2.03 0.0030
+  threaten then pursue  8.0 2.04 0.0080  11.0 1.96 0.0080
+P3. relations in both transcribers over relations in either: 0 of 1
