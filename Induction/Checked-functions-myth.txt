@@ -1,0 +1,25 @@
+# Checked-functions-myth.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 5 of 6 candidates
+  A then I  32.0 1.87 0.0010  42.0 1.82 0.0010
+  A then K  21.0 1.74 0.0010  52.0 1.80 0.0010
+  A then U  12.0 1.86 0.0020  29.0 1.99 0.0010
+  A then W  16.0 1.77 0.0040  27.0 1.92 0.0010
+  K then W  7.0 1.96 0.0130  14.0 1.74 0.0060
+Q3. Propp's pairs occurring at least 5 times: 6; confirmed 1 (A K); recall 0.17; precision 0.20
+Q2. blocks: 1
+  A K W  (Propp's pairs 1 of 3)
+
+## A
+P3. relations holding again on the checking half: 6 of 6 with data (6 relations)
+H5. log-likelihood per symbol on the checking half: HMM -2.6085, unigram -2.8891, bigram -2.8815: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+## B
+P3. relations holding again on the checking half: 9 of 9 with data (9 relations)
+H5. log-likelihood per symbol on the checking half: HMM -2.9324, unigram -2.9810, bigram -3.2157: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+H5. A and B sections agree: ARI 0.002 over 30 units
+
+# the self-test: VERDICT: FAILS; THESE ARE THE OUTPUTS OF AN UNVERIFIED TOOL
