@@ -1,0 +1,28 @@
+# Checked-functions-tragedy.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 9 of 18 candidates
+  A then γ  52.0 1.57 0.0020  114.0 1.43 0.0010
+  A then I  13.0 1.53 0.0490  13.0 1.74 0.0120
+  a then γ  24.0 1.66 0.0040  59.0 1.84 0.0010
+  a then η  12.0 2.00 0.0020  9.0 2.02 0.0040
+  a then C  14.0 1.65 0.0150  17.0 1.99 0.0010
+  a then up  12.0 1.74 0.0110  9.0 1.62 0.0390
+  a then F  32.0 2.00 0.0010  54.0 1.99 0.0010
+  a then I  7.0 2.00 0.0160  10.0 1.80 0.0400
+  a then K  17.0 1.98 0.0010  12.0 2.01 0.0010
+Q3. Propp's pairs occurring at least 5 times: 6; confirmed 1 (a K); recall 0.17; precision 0.11
+Q2. blocks: 0
+
+## A
+P3. relations holding again on the checking half: 15 of 16 with data (16 relations)
+H5. log-likelihood per symbol on the checking half: HMM -2.7662, unigram -2.9975, bigram -3.2489: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+## B
+P3. relations holding again on the checking half: 9 of 9 with data (9 relations)
+H5. log-likelihood per symbol on the checking half: HMM -2.6614, unigram -2.9116, bigram -3.0102: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+H5. A and B sections agree: ARI 0.221 over 30 units
+
+# the self-test: VERDICT: FAILS; THESE ARE THE OUTPUTS OF AN UNVERIFIED TOOL
