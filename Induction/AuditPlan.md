@@ -49,6 +49,21 @@ More than one may hold.
 - **Explanation 5** gains if the true sections do not beat at least 95% of the random partitions in U3, for A and B. If they do beat them, the strings carry his sections and the tool failed to find them.
 - **Explanation 6** gains for S3 if U4a's near classes reach recall of at least 0.5 where the any-distance count does not.
 
+## U6, added after U1 and U5 were read (2026-11-04; written and committed before any U6 figure)
+
+**Why it was added, and that it is not blind.** Reading U1 and U5, the keeper saw two faults in this plan's own design. Both flatter or blur a reading fixed above, so they are tested rather than argued.
+- **U5 ranked each merging by Propp's section index.** The tool ranks its states by their place in the move. So U5's "perfect" answer was given a tau of 1 that no answer from the tool could be given for free.
+- **U1's generator copies the reader's section transitions, cycles and all.** Its sections are true as groups, but their order is only what the reader's strings have. At four times the size the tool found the sections exactly (ARI 1.000) with a state-section tau of 0.297. So U1 tested "true groupings with the readers' order", not Propp's claim that the order is strict.
+
+**U6a. The bars, with real places.** Propp's sections, and each merging of them at K of 4, 5, 6 and 10, handed over as states and ranked by their place in the real strings of the induction half, for A, B and Propp. The same at K 10 on generated strings.
+
+**U6b. Power with the order strict.** U1's chain with every transition to an earlier section struck and the rows renormalized, so sections and order are both true by construction. The tool unchanged, at the real size, 10 corpora per transcriber; order only at sixteen times the size, 5 per transcriber. Tests first: planted strings give tau of +1 and −1, and the forward generator makes no backward step.
+
+**How U6 will be read, fixed now. These add to the readings above and replace none of them.**
+- **Explanation 2, for S1:** the U5 reading is withdrawn if at K of 4 to 6 no merging reaches tau of 0.6 under real places. Then the perfect merging could not satisfy S1 on these strings, and the explanation stands.
+- **Explanation 2, for S2:** the U1 reading is narrowed if the order test reaches 0.6 at sixteen times the size under the forward chain. Then the bar is reachable when the order is strict and not when it is as the readers wrote it.
+- **Explanation 3:** if S1 and S2 together hold in fewer than half of U6b's corpora, it stands in the strong form: the test could not have passed even had Propp's order been strictly true. If they hold in at least half, the test had power for a strict order, and the real failure counts against a strict section order in these strings.
+
 ## What may follow, and its limits
 
 - No modification is adopted here. If a modified tool is wanted, it needs its own protocol, frozen by the owner.

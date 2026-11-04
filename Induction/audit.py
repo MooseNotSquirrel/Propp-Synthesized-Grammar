@@ -538,8 +538,141 @@ def u1():
     save('u1')
 
 
+# ---------------------------------------------------------------- U6, added after U1 and U5 were read
+def generate_forward(items, m, rng):
+    """generate()'s chain with every transition to an earlier section struck and the row renormalized: Propp's order true"""
+    start, row, em, mem = chain_params(items)
+    row = row.copy()
+    for k in range(NSEC):
+        row[k, :k] = 0.0
+        row[k] = row[k] / row[k].sum() if row[k].sum() > 0 else np.eye(NSEC + 1)[NSEC]
+    out = []
+    for c in range(m):
+        for s, w, ms, _ in items:
+            moves = []
+            for _ in ms:
+                k = rng.choice(NSEC, p=start)
+                mv = []
+                while len(mv) < 500:
+                    if em[k].sum() > 0:
+                        mv.append(mem[k][rng.choice(len(mem[k]), p=em[k] / em[k].sum())])
+                    nx = rng.choice(NSEC + 1, p=row[k])
+                    if nx == NSEC:
+                        break
+                    k = nx
+                moves.append(mv)
+            moves = [mv for mv in moves if mv]
+            if sum(map(len, moves)) >= 3:
+                out.append(('%s-%d' % (s, c), 1.0, moves, None))
+    return out
+
+
+def group_places(items, grp):
+    """each group's place as sections() defines a state's: the mean relative position in the move of the units credited to it"""
+    tot, n = collections.Counter(), collections.Counter()
+    for _, _, ms, _ in items:
+        for mv in ms:
+            for t, u in enumerate(mv):
+                if u in CG.SEC:
+                    tot[grp[CG.SEC[u]]] += t / (len(mv) - 1) if len(mv) > 1 else 0.0
+                    n[grp[CG.SEC[u]]] += 1
+    return {g: tot[g] / n[g] for g in n}
+
+
+def ranked_tau(items, toks, grp):
+    """state-section tau when the groups are handed over as states and ranked by place, as the tool ranks its states"""
+    pl = group_places(items, grp)
+    order = sorted(pl, key=lambda g: (pl[g], g))
+    rank = {g: r for r, g in enumerate(order)}
+    xs = [t for t in toks if t in CG.SEC and grp[CG.SEC[t]] in rank]
+    return float(kendalltau([rank[grp[CG.SEC[t]]] for t in xs], [CG.SEC[t] for t in xs])[0]), {t: rank[grp[CG.SEC[t]]] for t in xs}
+
+
+def u6_tests():
+    say('tests: planted strings in section order, ten sections handed over')
+    by = collections.defaultdict(list)
+    for t in FUNCS:
+        by[CG.SEC[t]].append(t)
+    mv = [by[k][0] for k in range(NSEC) if by[k]]
+    items = [('s%d' % i, 1.0, [mv], None) for i in range(5)]
+    t, _ = ranked_tau(items, mv, {k: k for k in range(NSEC)})
+    say('  in order: tau %+.3f (expect +1)' % t)
+    assert abs(t - 1) < 1e-9
+    t, _ = ranked_tau([('s', 1.0, [mv[::-1]], None)], mv, {k: k for k in range(NSEC)})
+    say('  reversed: tau %+.3f (expect -1)' % t)
+    assert abs(t + 1) < 1e-9
+    h = strings_of()['A'][0]
+    back = 0
+    for _, _, ms, _ in generate_forward(h, 4, np.random.default_rng(1)):
+        for m_ in ms:
+            s_ = [CG.SEC[u] for u in m_]
+            back += sum(1 for a, b in zip(s_, s_[1:]) if b < a)
+    say('  the forward generator, backward steps in four times the size: %d (expect 0)' % back)
+    assert back == 0
+
+
+def u6():
+    say('# Audit-u6.txt -- ADDED AFTER U1 AND U5 WERE READ (see AuditPlan.md): the strict order, and the places the tool really uses')
+    u6_tests()
+    h = strings_of()
+    say('## a. Propp\'s sections handed over as states, ranked by their place in the real strings of the induction half')
+    for L in READ:
+        ind = h[L][0]
+        toks = I.eligible(ind)
+        pl = group_places(ind, {k: k for k in range(NSEC)})
+        say('%-6s places by section: %s' % (L, ' '.join('%d:%.2f' % (k + 1, pl[k]) if k in pl else '%d:-' % (k + 1) for k in range(NSEC))))
+        for K in (4, 5, 6, 10):
+            res = []
+            for cuts in itertools.combinations(range(1, NSEC), K - 1):
+                bounds = [0] + list(cuts) + [NSEC]
+                grp = {s: g for g in range(K) for s in range(bounds[g], bounds[g + 1])}
+                t, assign = ranked_tau(ind, toks, grp)
+                if len(set(assign.values())) >= 2 and t == t:
+                    res.append((t, assign))
+            good = sum(1 for r in res if r[0] >= .6)
+            best = max(res, key=lambda r: r[0])
+            v = I.s1(best[1], toks)
+            say('  K %2d, %3d mergings: tau at least 0.6 in %3d; mean tau %+.3f; best tau %+.3f (ARI %.3f, above %.1f%%; S1 %s)'
+                % (K, len(res), good, np.mean([r[0] for r in res]), best[0], v[0], 100 * v[1], 'holds' if I.s1_holds(v) else 'fails'))
+    say('## the same measure at K 10 on generated strings, sixteen times the size, and their shape')
+    for L in 'AB':
+        ind = h[L][0]
+        um = lambda x: np.mean([len(mv) for _, _, ms, _ in x for mv in ms])
+        say('%s real strings: units per move %.1f' % (L, um(ind)))
+        for name, gen in (('chain as U1', generate), ('forward', generate_forward)):
+            x = gen(ind, 16, np.random.default_rng([SEED, ord(L), 61]))
+            t, _ = ranked_tau(x, I.eligible(x), {k: k for k in range(NSEC)})
+            say('%s %-12s tau with the true sections handed over %+.3f; units per move %.1f' % (L, name, t, um(x)))
+    save('u6')
+    say('## b. The tool unchanged, on strings from the forward chain: sections true AND their order strict')
+    for L in 'AB':
+        ind = h[L][0]
+        rows = []
+        for r in range(10):
+            c = core(generate_forward(ind, 1, np.random.default_rng([SEED, ord(L), 6, r])))
+            rows.append(c)
+            say('%s forward x1 #%2d: %s' % (L, r + 1, line(c)))
+            save('u6')
+        both = sum(1 for c in rows if c['S1'] and c['S2'])
+        say('%s forward x1: S1 holds %d of 10; S2 holds %d of 10; both %d of 10; mean K %.1f, ARI %.3f, state-section tau %.3f, order tau %.3f'
+            % (L, sum(c['S1'] for c in rows), sum(c['S2'] for c in rows), both, np.mean([c['K'] for c in rows]),
+               np.mean([c['s1'][0] for c in rows]), np.mean([c['s1'][2] for c in rows]), np.nanmean([c['tau'][0] for c in rows])))
+        save('u6')
+    say('## order only, forward chain, sixteen times the size')
+    for L in 'AB':
+        ind = h[L][0]
+        ts = []
+        for r in range(5):
+            x = generate_forward(ind, 16, np.random.default_rng([SEED, ord(L), 616, r]))
+            toks = I.eligible(x)
+            rel, _, _ = I.relations(x, toks)
+            ts.append((I.tau_propp(toks, rel)[0], len(rel)))
+        say('%s forward x16: order tau %s (relations %s)' % (L, ' '.join('%+.3f' % t[0] for t in ts), ' '.join(str(t[1]) for t in ts)))
+    save('u6')
+
+
 if __name__ == '__main__':
-    fns = {'u0': u0, 'u1': u1, 'u2': u2, 'u3': u3, 'u4': u4, 'u5': u5}
+    fns = {'u0': u0, 'u1': u1, 'u2': u2, 'u3': u3, 'u4': u4, 'u5': u5, 'u6': u6}
     a = sys.argv[1:]
     if len(a) != 1 or a[0] not in fns:
         sys.exit(__doc__)
