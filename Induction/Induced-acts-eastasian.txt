@@ -1,0 +1,27 @@
+# Induced-acts-eastasian.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 26: be-taken-in deceive decide escape expose fight forbid give guide harm lament leave lose marry plead punish receive repair respond return reveal-information seek-information send test transform want
+P2. relations 2; the Hasse list: leave<seek-information, plead<deceive
+P2. the linear order (Copeland): leave plead be-taken-in decide escape expose fight forbid give guide harm lament lose marry punish receive repair respond return reveal-information send test transform want deceive seek-information
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -3.4914, 3 -3.5527, 4 -3.6376, 5 -3.6191, 6 -3.6871, 7 -3.7858, 8 -3.8104, 9 -3.8663, 10 -3.8734, 11 -3.8709, 12 -3.9584
+H3. S1 (place 0.46): do-task fight forbid give guide marry pursue receive recognize repair seek-information transform want win
+H3. S2 (place 0.53): be-taken-in claim-falsely deceive decide disobey escape expose harm lament leave lose mark plead punish respond return reveal-information send set-task test threaten
+
+## B
+P1. eligible (in at least 5 stories): 25: be-taken-in deceive decide do-task expose forbid give harm lament leave lose marry plead punish receive recognize repair respond return reveal-information seek-information send test transform want
+P2. relations 0; the Hasse list: 
+P2. the linear order (Copeland): be-taken-in deceive decide do-task expose forbid give harm lament leave lose marry plead punish receive recognize repair respond return reveal-information seek-information send test transform want
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -3.4375, 3 -3.5112, 4 -3.6022, 5 -3.5889, 6 -3.7246, 7 -3.7318, 8 -3.7042, 9 -3.8820, 10 -3.8600, 11 -3.8252, 12 -3.9698
+H3. S1 (place 0.47): arrive-unknown decide fight give guide leave mark marry pursue receive repair return send transform want
+H3. S2 (place 0.52): be-taken-in claim-falsely deceive disobey do-task escape expose forbid harm lament lose plead punish recognize respond reveal-information seek-information set-task test threaten win
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 6
+  expose then punish  22.0 1.79 0.0070  12.0 1.86 0.0070
+  forbid then punish  15.0 1.98 0.0030  13.0 1.99 0.0030
+  forbid then repair  12.0 2.02 0.0090  13.0 1.99 0.0020
+  harm then repair  18.0 1.89 0.0040  17.0 1.86 0.0050
+  reveal-information then repair  16.0 1.88 0.0050  15.0 1.95 0.0060
+  send then punish  15.0 2.04 0.0030  15.0 1.98 0.0040
+P3. relations in both transcribers over relations in either: 0 of 2

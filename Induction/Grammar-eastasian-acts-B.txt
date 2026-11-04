@@ -1,0 +1,5 @@
+(* induced grammar, eastasian, acts layer, transcriber B (induce.py, the induction half) *)
+(* states in order of their place in the move; rules of probability at least 0.05 *)
+move = S1 (* 0.91 *) | S2 (* 0.09 *) ;
+S1 = ( give (* 0.12 *) | leave (* 0.10 *) | receive (* 0.08 *) | decide (* 0.07 *) | send (* 0.06 *) | transform (* 0.06 *) | marry (* 0.06 *) | repair (* 0.05 *) ) , ( S1 (* 0.81 *) | S2 (* 0.19 *) | end (* 0.09 *) ) ;
+S2 = ( reveal-information (* 0.12 *) | respond (* 0.11 *) | deceive (* 0.10 *) | harm (* 0.10 *) | seek-information (* 0.07 *) ) , ( S1 (* 0.10 *) | S2 (* 0.90 *) ) ;
