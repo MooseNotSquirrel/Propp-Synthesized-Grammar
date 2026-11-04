@@ -1153,3 +1153,8 @@ NEXT, at the owner's word: the other corpora, both layers, labelled as an unveri
   - The acts carry a sequence in the wondertales and little elsewhere.
   - Any change to the pair statistic or the model would need a protocol of its own, not a retuning of this one.
 NEXT, at the owner's word: step 6.
+**2026-11-04. Step 6: the structure and controls protocol drafted** (`StoryModels/StructureProtocol.md`), for the owner's review. Nothing built or run. At the owner's word.
+- **Part A (item (s) 3 to 6):** move architecture (moves, nesting, trebling, stringing); predictability (bits saved over the unigram, at a common training size); openings and endings, with a fixed rule for the etiological close; and families of tales by edit distance, tested by culture and by genre, with length and contents controlled.
+- **Part B (item (q)):** Propp's plain numerical order as a baseline; scrambled sections refitted 200 times; composition naming the corpus, against length.
+- **Three predictions recommended, of six decisions:** the true sections beat the scrambles in the wondertales; shares and length beat length alone; the etiological close is commoner in the Native American tales than in the wondertales (the last two labelled not from Propp).
+NEXT, at the owner's word: the review and decisions.
