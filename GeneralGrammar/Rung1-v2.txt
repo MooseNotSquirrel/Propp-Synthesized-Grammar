@@ -1,0 +1,44 @@
+# Rung1-v2.txt -- generated grammars only; no real string read. Rules in Versions.md.
+## 45 stories
+G1 required ordered     met 19 of 20 | shapes [('local order', 1), ('ordered passes', 19)] | mean coverage 0.93 | units 23.0, symbols 32, level-2 ops 0.6, 20s
+G2 required ordered     met 17 of 20 | shapes [('local order', 3), ('ordered passes', 17)] | mean coverage 0.90 | units 23.4, symbols 32, level-2 ops 0.6, 24s
+G3 required ordered     met 10 of 10 | shapes [('ordered passes', 10)] | mean coverage 0.98 | units 17.2, symbols 22, level-2 ops 0.6, 14s
+G4 required not ordered met  9 of 10 | shapes [('local order', 9), ('ordered passes', 1)] | mean coverage 0.30 | units 16.1, symbols 30, level-2 ops 0.0, 9s
+G5 required bigram      met 10 of 10 | shapes [('bigram', 10)] | mean coverage 0.38 | units 16.3, symbols 25, level-2 ops 0.3, 15s
+G6 required not ordered met 10 of 10 | shapes [('bigram', 5), ('hmm', 5)] | mean coverage 0.02 | units 15.9, symbols 29, level-2 ops 0.5, 18s
+G7 required unigram     met 10 of 10 | shapes [('unigram', 10)] | mean coverage 0.02 | units 17.1, symbols 27, level-2 ops 1.0, 11s
+G8 required ordered     met  1 of 20 | shapes [('bigram', 12), ('hmm', 7), ('ordered passes', 1)] | mean coverage 0.30 | units 20.2, symbols 29, level-2 ops 0.5, 20s
+## 20 stories
+G1 required ordered     met  4 of  5 | shapes [('local order', 1), ('ordered passes', 4)] | mean coverage 0.81 | units 23.0, symbols 32, level-2 ops 0.8, 17s
+G2 required ordered     met  4 of  5 | shapes [('local order', 1), ('ordered passes', 4)] | mean coverage 0.76 | units 23.2, symbols 32, level-2 ops 0.6, 17s
+G3 required ordered     met  5 of  5 | shapes [('ordered passes', 5)] | mean coverage 0.85 | units 15.2, symbols 21, level-2 ops 0.4, 10s
+G4 required not ordered met  4 of  5 | shapes [('local order', 4), ('ordered passes', 1)] | mean coverage 0.40 | units 16.1, symbols 29, level-2 ops 0.0, 8s
+G5 required bigram      met  5 of  5 | shapes [('bigram', 5)] | mean coverage 0.28 | units 15.3, symbols 21, level-2 ops 0.4, 11s
+G6 required not ordered met  5 of  5 | shapes [('bigram', 5)] | mean coverage 0.03 | units 16.9, symbols 20, level-2 ops 1.2, 12s
+G7 required unigram     met  5 of  5 | shapes [('unigram', 5)] | mean coverage 0.01 | units 17.5, symbols 22, level-2 ops 1.2, 8s
+G8 required ordered     met  0 of  5 | shapes [('bigram', 4), ('hmm', 1)] | mean coverage 0.24 | units 19.3, symbols 24, level-2 ops 0.6, 13s
+## 100 stories
+G1 required ordered     met  5 of  5 | shapes [('ordered passes', 5)] | mean coverage 0.99 | units 22.8, symbols 32, level-2 ops 0.6, 25s
+G2 required ordered     met  5 of  5 | shapes [('ordered passes', 5)] | mean coverage 1.00 | units 24.4, symbols 32, level-2 ops 0.6, 27s
+G3 required ordered     met  5 of  5 | shapes [('ordered passes', 5)] | mean coverage 0.99 | units 17.4, symbols 22, level-2 ops 0.4, 18s
+G4 required not ordered met  4 of  5 | shapes [('local order', 4), ('ordered passes', 1)] | mean coverage 0.33 | units 15.7, symbols 30, level-2 ops 0.0, 12s
+G5 required bigram      met  5 of  5 | shapes [('bigram', 5)] | mean coverage 0.68 | units 15.7, symbols 29, level-2 ops 0.6, 20s
+G6 required not ordered met  5 of  5 | shapes [('hmm', 5)] | mean coverage 0.03 | units 14.7, symbols 29, level-2 ops 1.4, 21s
+G7 required unigram     met  5 of  5 | shapes [('unigram', 5)] | mean coverage 0.02 | units 17.2, symbols 28, level-2 ops 1.4, 15s
+G8 required ordered     met  0 of  5 | shapes [('bigram', 3), ('hmm', 2)] | mean coverage 0.40 | units 21.0, symbols 32, level-2 ops 0.6, 24s
+## the bars (G1, 45 stories, 10th percentile), and medians
+rel_tau  bar 1.000; G1 median 1.000; G2 own median 1.000
+ord_tau  bar 0.986; G1 median 0.999; G2 own median 0.999
+recall   bar 0.833; G1 median 0.833; G2 own median 0.833
+F        bar 0.913; G1 median 0.968; G2 own median 0.959
+G1 relations scored: median 498; acceptance 0.38; shuffled 0.000
+G2 reach the tau bars on their own order: 85% (need 80%)
+G2 reach the tau bars on Propp's order: 0% (need at most 5%); ord tau against Propp, median -0.074, max 0.207
+G3 corpora flagging at least half the cross-branch pairs: 100% (need 80%); G1 mean share of pairs falsely flagged 0.002 (need at most 0.05)
+## G8, the harder Propp, 45 stories, beside G1: 10th percentile and median
+rel_tau  0.986; 1.000
+ord_tau  0.037; 0.500
+recall   0.555; 0.700
+F        0.119; 0.239
+G8 acceptance 0.47; shuffled 0.038; ratio of slot to bigram gain, medians: G1 1.065, G3 1.030, G4 1.056, G5 0.805, G6 0.341, G8 0.887
+RUNG 1: FAILS

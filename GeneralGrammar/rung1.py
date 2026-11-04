@@ -55,7 +55,7 @@ def work(a):
     cuts = [X.cuts_of([p for p in st[i] if p]) for i in keep]
     f = G.fit(flat)
     r = {'g': g, 'size': size, 'rep': rep, 'shape': f['shape'], 'ordered': f['ordered'], 'coverage': f['coverage'], 'cv': f['cv'], 'steps': f['steps'],
-         'K': f['hmm_K'], 'ops': f['ops'], 'symbols': f['symbols'], 'units': sum(map(len, flat)) / len(flat), 'secs': time.time() - t0}
+         'K': f['hmm_K'], 'method': f['method'], 'ops': f['ops'], 'symbols': f['symbols'], 'units': sum(map(len, flat)) / len(flat), 'secs': time.time() - t0}
     if g in ('G1', 'G2', 'G8'):
         num = C.numbering(tr['slots'])
         r['rel_tau'], r['rel_n'] = C.relation_tau(f['relations'], num)

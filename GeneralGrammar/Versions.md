@@ -66,4 +66,27 @@ Changes, each from what version 1 taught, and all before any real string:
 
 **The bars are for the owner.** The protocol's rule sets them from G1, which proved too easy. G8's figures are reported beside them.
 
+**Result: RUNG 1 FAILS, on G8 alone** (`Rung1-v2.txt`). No real string was read.
+
+| | Required | Met |
+|---|---|---|
+| G1 | ordered | 19 of 20 |
+| G2 | ordered | 17 of 20 |
+| G3 | ordered | 10 of 10 |
+| G4 | not ordered | 9 of 10 |
+| G5, G6, G7 | as required | all |
+| **G8** | **ordered** | **1 of 20** |
+
+On G1: passes F 0.97, up from 0.10. Branches found in all G3 corpora. Against Propp's order, G2 gave a median of −0.07, none reaching the bars. G1's false branches 0.002.
+
+**What was learned:**
+1. **The slips and the verdict worked.**
+2. **On G8 what is stated is right, but little is stated:** relation tau about 1.0, on 20 to 245 relations, and coverage 0.30. Order tau has a median of only 0.50. The search reads order from immediate neighbours alone, and those are what slips disturb.
+3. **One G2 corpus gave order tau −0.03, coverage 0.38 and F 0.0.** A rotated order may fit nearly as well, because a story's passes make a cycle. Reading across longer distances should settle this too.
+4. **The bars by the protocol's rule are now relation tau 1.000 and order tau 0.986,** too high to ask of real strings. G8's are 0.986 and 0.037, too low. So the owner's decision on bars stands open.
+
+## Version 3 (2026-11-04)
+
+One change. **The order may also be read from precedence among units at most d apart** (d of 2, 4 or 8), beside the likelihood over immediate neighbours; the method for a corpus is chosen by held-out score. Passes are still not given: the window runs over the whole story, and the choice of d is how far it is allowed to reach. Fresh draws.
+
 **Result:** not yet run.

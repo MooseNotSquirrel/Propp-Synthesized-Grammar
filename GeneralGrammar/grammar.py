@@ -1,4 +1,4 @@
-"""grammar.py -- the general story grammar, version 2 (GeneralGrammarProtocol.md, frozen 2026-11-04).
+"""grammar.py -- the general story grammar, version 3 (GeneralGrammarProtocol.md, frozen 2026-11-04).
 
 It takes stories as lists of symbols and knows nothing of any alphabet. No Propp order, section, pair or move rule is here,
 and test_rung0.py fails if this file imports anything that holds them. Symbols are numbered by first appearance, so a
@@ -26,6 +26,7 @@ FLIPS, ALPHA = 2000, 0.05
 COVERAGE, RATIO = 0.7, 0.9
 WINDOWS = (0, 2, 4, 8)
 L2_GRID = (1.0, 2)
+METHODS = (1, 2, 4, 8)    # 1: the likelihood over immediate neighbours; d > 1: precedence among units at most d apart
 
 
 # ---------------------------------------------------------------- symbols
@@ -232,6 +233,72 @@ def search(T, S, rng, starts, warm=None):
         c = climb(o, T, S, rng)
         v = objective(c, T, S)
         if v > score + 1e-9:
+            best, score = c, v
+    return best
+
+
+def window_counts(units_by_story, idx, d):
+    """W[x][y]: how often x stands before y, at most d places apart, in the same story"""
+    n = len(idx)
+    W = [[0] * n for _ in range(n)]
+    for s in units_by_story:
+        ids = [idx[u] for u in s]
+        for i, x in enumerate(ids):
+            for y in ids[i + 1:i + 1 + d]:
+                W[x][y] += 1
+    return W
+
+
+def forward_sum(order, W):
+    pos = {x: i for i, x in enumerate(order)}
+    n = len(order)
+    return sum(W[x][y] for x in range(n) for y in range(n) if pos[x] < pos[y])
+
+
+def climb_window(order, W, rng):
+    """insertion moves on the sum of forward precedence"""
+    n = len(order)
+    order = list(order)
+    for _ in range(30):
+        moved = False
+        items = list(range(n))
+        rng.shuffle(items)
+        for x in items:
+            i = order.index(x)
+            best, bestj = 0, i
+            cum = 0
+            for j in range(i - 1, -1, -1):
+                m = order[j]
+                cum += W[x][m] - W[m][x]
+                if cum > best:
+                    best, bestj = cum, j
+            cum = 0
+            for j in range(i + 1, n):
+                m = order[j]
+                cum += W[m][x] - W[x][m]
+                if cum > best:
+                    best, bestj = cum, j
+            if bestj != i:
+                order.pop(i)
+                order.insert(bestj, x)
+                moved = True
+        if not moved:
+            break
+    return order
+
+
+def order_of(units_by_story, idx, T, S, rng, starts, method, warm=None):
+    """the slot order by the given method"""
+    if method == 1:
+        return search(T, S, rng, starts, warm=warm)
+    W = window_counts(units_by_story, idx, method)
+    n = len(S)
+    best, score = None, -1
+    runs = ([list(warm)] if warm is not None else []) + [rng.sample(range(n), n) for _ in range(starts)]
+    for o in runs:
+        c = climb_window(o, W, rng)
+        v = forward_sum(c, W)
+        if v > score:
             best, score = c, v
     return best
 
@@ -459,7 +526,7 @@ def member_terms(chosen_train, chosen_test):
     return out
 
 
-def slot_cv(stories, ops, folds, seed, starts, grid=(L2_GRID,), restarts=True):
+def slot_cv(stories, ops, folds, seed, starts, grid=(L2_GRID,), restarts=True, method=1):
     """per-story held-out likelihood of the slot grammar over these units, for each (beta, window) in the grid"""
     parsed = [apply_ops(s, ops) for s in stories]
     units = [p[0] for p in parsed]
@@ -471,7 +538,7 @@ def slot_cv(stories, ops, folds, seed, starts, grid=(L2_GRID,), restarts=True):
         ts = set(test)
         train = [i for i in range(len(stories)) if i not in ts]
         T, S, E = counts([units[i] for i in train], idx)
-        order = search(T, S, random.Random(seed + f), starts)
+        order = order_of([units[i] for i in train], idx, T, S, random.Random(seed + f), starts, method)
         mem = member_terms([chosen[i] for i in train], [chosen[i] for i in test])
         for g in res:
             m = slot_model(T, S, E, order, g[0], restarts, g[1])
@@ -535,8 +602,10 @@ def rivals(stories, vocab, ops, folds, seed):
             for i in test:
                 bi[b][i] = score_story(stories[i], idx, st, P)
     out = {'unigram': uni, 'bigram': max(bi.values(), key=lambda v: v.sum())}
-    sr = slot_cv(stories, ops, folds, seed, CV_STARTS, grid=[(b, w) for b in BETAS for w in WINDOWS], restarts=True)
-    s1 = slot_cv(stories, ops, folds, seed, CV_STARTS, grid=[(b, 0) for b in BETAS], restarts=False)
+    by = {m: slot_cv(stories, ops, folds, seed, CV_STARTS, method=m)[L2_GRID].sum() for m in METHODS}
+    method = max(METHODS, key=lambda m: (by[m], -m))
+    sr = slot_cv(stories, ops, folds, seed, CV_STARTS, grid=[(b, w) for b in BETAS for w in WINDOWS], restarts=True, method=method)
+    s1 = slot_cv(stories, ops, folds, seed, CV_STARTS, grid=[(b, 0) for b in BETAS], restarts=False, method=method)
     bestg = max(sr, key=lambda g: (sr[g].sum(), -g[0], -g[1]))
     out['slots'] = sr[bestg]
     out['one pass'] = max(s1.values(), key=lambda v: v.sum())
@@ -558,7 +627,7 @@ def rivals(stories, vocab, ops, folds, seed):
         if bestv is None or res.sum() > bestv.sum():
             bestK, bestv = K, res
     out['hmm'] = bestv
-    return out, bestK, bestg
+    return out, bestK, bestg, method
 
 
 def shape_of(cv, seed, coverage):
@@ -587,7 +656,7 @@ def shape_of(cv, seed, coverage):
 
 
 # ---------------------------------------------------------------- level 4
-def bootstrap_order(units, idx, order, seed, boots=BOOTSTRAPS):
+def bootstrap_order(units, idx, order, seed, boots=BOOTSTRAPS, method=1):
     n = len(idx)
     before = np.zeros((n, n))
     both = np.zeros((n, n))
@@ -596,7 +665,7 @@ def bootstrap_order(units, idx, order, seed, boots=BOOTSTRAPS):
     for _ in range(boots):
         pick = [units[rng.randrange(m)] for _ in range(m)]
         T, S, E = counts(pick, idx)
-        o = search(T, S, rng, BOOT_STARTS, warm=order)
+        o = order_of(pick, idx, T, S, rng, BOOT_STARTS, method, warm=order)
         present = {i for s in pick for i in (idx[u] for u in s)}
         rank = {x: r for r, x in enumerate(o)}
         for x in present:
@@ -650,14 +719,14 @@ def fit(raw, seed=20261104, boots=BOOTSTRAPS, starts=ORDER_STARTS):
     stories = [s for s in stories if s]
     folds = folds_of(len(stories), seed)
     ops = level2(stories, vocab, folds, seed)
-    cv, K, grid = rivals(stories, vocab, ops, folds, seed)
+    cv, K, grid, method = rivals(stories, vocab, ops, folds, seed)
     parsed = [apply_ops(s, ops) for s in stories]
     units = [p[0] for p in parsed]
     uv = vocab_of(units)
     idx = {u: i for i, u in enumerate(uv)}
     T, S, E = counts(units, idx)
-    order = search(T, S, random.Random(seed), starts)
-    before, both = bootstrap_order(units, idx, order, seed, boots)
+    order = order_of(units, idx, T, S, random.Random(seed), starts, method)
+    before, both = bootstrap_order(units, idx, order, seed, boots, method)
     rel = []
     n = len(uv)
     with np.errstate(divide='ignore', invalid='ignore'):
@@ -703,7 +772,7 @@ def fit(raw, seed=20261104, boots=BOOTSTRAPS, starts=ORDER_STARTS):
         base_cuts.append(out)
     lk = links(stories, vocab, seed)
     return {
-        'shape': shape, 'ordered': bool(ordered), 'coverage': coverage, 'steps': steps, 'hmm_K': K, 'beta_window': list(grid),
+        'shape': shape, 'ordered': bool(ordered), 'coverage': coverage, 'steps': steps, 'hmm_K': K, 'beta_window': list(grid), 'method': method,
         'cv': {k: float(v.sum()) for k, v in cv.items()},
         'symbols': len(real), 'units': [u for u in uv], 'ops': [list(o) for o in ops],
         'order': base_order, 'relations': sorted(base_rel), 'links': sorted((x, y) for x, y in lk),

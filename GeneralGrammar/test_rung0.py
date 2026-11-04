@@ -48,6 +48,16 @@ def objective_check():
         best = max(itertools.permutations(range(n)), key=lambda o: G.objective(list(o), T, S))
         got = G.search(T, S, random.Random(trial), 30)
         ok('search reaches the brute-force optimum, trial %d' % trial, abs(G.objective(got, T, S) - G.objective(list(best), T, S)) < 1e-9)
+    n = 7
+    for trial in range(5):
+        W = [[rng.randrange(0, 6) for _ in range(n)] for _ in range(n)]
+        best = max(itertools.permutations(range(n)), key=lambda o: G.forward_sum(list(o), W))
+        o = max((G.climb_window(rng.sample(range(n), n), W, random.Random(trial + k)) for k in range(30)), key=lambda c: G.forward_sum(c, W))
+        ok('the window search reaches the brute-force optimum, trial %d' % trial, G.forward_sum(o, W) == G.forward_sum(list(best), W))
+    W = G.window_counts([['a', 'b', 'c']], {'a': 0, 'b': 1, 'c': 2}, 1)
+    ok('window counts, d 1', W == [[0, 1, 0], [0, 0, 1], [0, 0, 0]])
+    W = G.window_counts([['a', 'b', 'c']], {'a': 0, 'b': 1, 'c': 2}, 2)
+    ok('window counts, d 2', W == [[0, 1, 1], [0, 0, 1], [0, 0, 0]])
     # the running increments against the whole figure: a climb never lowers it
     o = list(range(n))
     v0 = G.objective(o, T, S)
