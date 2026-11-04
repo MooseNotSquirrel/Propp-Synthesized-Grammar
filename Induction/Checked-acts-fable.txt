@@ -1,0 +1,17 @@
+# Checked-acts-fable.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 0 of 0 candidates
+Q3. Propp's pairs occurring at least 5 times: 3; confirmed 0 (); recall 0.00; precision -
+Q2. blocks: 0
+
+## A
+P3. relations holding again on the checking half: 0 of 0 with data (0 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.6568, unigram -3.5309, bigram -4.1928: NOT A GRAMMAR (does not beat the unigram)
+
+## B
+P3. relations holding again on the checking half: 0 of 0 with data (0 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.4248, unigram -3.3921, bigram -3.8095: NOT A GRAMMAR (does not beat the unigram)
+
+H5. A and B sections agree: ARI -0.023 over 29 units
+
+# the self-test: VERDICT: FAILS; THESE ARE THE OUTPUTS OF AN UNVERIFIED TOOL
