@@ -118,3 +118,27 @@ All are met at 20 and 100 stories too. **Against Propp's order, G2 gave a median
 **The bars for rung 2: G8's, by the owner's decision, 2026-11-04,** in place of the protocol's rule, which gave G1's: relation tau 0.993, order tau 0.971, pair recall 0.541, pass F 0.835.
 
 **Not yet written:** the blocks of level 4 (secondary), and the check of the ten sections against Propp's text. Rung 2's claims do not need them.
+
+**Rung 2, version 3, on Propp's own strings** (`Rung2-v3.txt`), with G8's bars. Given his functions, the tool, knowing nothing of him, returned:
+
+`A a B C up D E F G H I K down Pr Rs o L M N T Q Ex U W`
+
+| Claim | Result | Bar | |
+|---|---|---|---|
+| Shape | ordered passes | | HOLDS |
+| Order tau | 0.984 | 0.971 | HOLDS |
+| Pair recall | 0.778 (7 of 9) | 0.541 | HOLDS |
+| Relation tau | 0.984 (on 256 relations) | 0.993 | FAILS, narrowly |
+| Pass F | 0.661 | 0.835 | FAILS |
+
+Beside it: fitted on one half alone, order tau 0.856. 55 of 84 moves break no relation (shuffled 0.002), not comparable to V46's 80 of 84. The frozen self-test's order figures were 0.23 on the readers' strings and 0.43 on his.
+
+**What this does not show:** the alphabet was given. He coded these strings with his scheme in hand, and they have no preparatory units. The readers' strings (rung 3) are not yet run.
+
+## The owner's input, 2026-11-04: leaves first
+
+The owner proposes that stepwise refinement should begin with the largest and most basic item: can Propp's functions plus candidates be retrieved from a corpus at all, from its verbs and acts, with correlation shown? Then up the hierarchy to pairs, with the distance between them, then groups, with order inferred and allowed to float, since deception has been found after villainy. The model adapts to each corpus to give its internal structure. The owner's speculation: functions plus candidates are about 80% correct for nearly all corpora.
+
+**The keeper's first measures on it, exploratory, from the tables:**
+- **Units given a function rather than X:** wondertales 71% to 73%; myths 65%; animal tales 60%; fables 58%; East Asian 55%; Native American 49%; tragedies 47%. This is a share labelled, not a share correct.
+- **On one wondertale event, one reader, the act explains 28% of the uncertainty of the function** (4.63 bits, 3.33 given the act; a low estimate, as an event's acts and functions are crossed).
