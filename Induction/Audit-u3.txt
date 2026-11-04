@@ -1,0 +1,12 @@
+# Audit-u3.txt -- do the strings fit Propp's sections? a chain over sections; log-likelihood per symbol on the checking half
+## A
+true sections -2.9888; random partitions mean -3.1628, 95th -3.0628, best -2.9418; true above 99.78% of them: above the 95%% line
+unigram -3.3034; bigram -2.9831; a one-section chain -3.2933
+the record's HMM -3.0284 (K 6)
+## B
+true sections -3.1048; random partitions mean -3.1666, 95th -3.0701, best -2.9094; true above 85.18% of them: NOT above the 95% line
+unigram -3.2708; bigram -3.1706; a one-section chain -3.2638
+the record's HMM -2.9619 (K 4)
+## Propp
+true sections -2.4861; random partitions mean -2.6312, 95th -2.4437, best -2.1971; true above 89.75% of them: NOT above the 95% line
+unigram -3.0857; bigram -1.7221; a one-section chain -3.0739

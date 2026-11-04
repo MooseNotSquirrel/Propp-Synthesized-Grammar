@@ -1,0 +1,31 @@
+# Audit-u5.txt -- the bars: every merging of Propp's ten sections into K consecutive groups, a perfect K-state answer
+## A: 26 eligible functions
+K  2,   9 mergings: best ARI 0.248 (above 100.0%, tau 0.765; S1 holds); mean ARI 0.167, mean tau 0.656
+K  3,  36 mergings: best ARI 0.449 (above 100.0%, tau 0.881; S1 holds); mean ARI 0.300, mean tau 0.790
+K  4,  84 mergings: best ARI 0.627 (above 100.0%, tau 0.937; S1 holds); mean ARI 0.416, mean tau 0.856
+K  5, 126 mergings: best ARI 0.767 (above 100.0%, tau 0.966; S1 holds); mean ARI 0.524, mean tau 0.899
+K  6, 126 mergings: best ARI 0.854 (above 100.0%, tau 0.981; S1 holds); mean ARI 0.626, mean tau 0.929
+K  7,  84 mergings: best ARI 0.916 (above 100.0%, tau 0.989; S1 holds); mean ARI 0.723, mean tau 0.952
+K  8,  36 mergings: best ARI 0.943 (above 100.0%, tau 0.993; S1 holds); mean ARI 0.818, mean tau 0.971
+K  9,   9 mergings: best ARI 0.971 (above 100.0%, tau 0.997; S1 holds); mean ARI 0.910, mean tau 0.987
+K 10,   1 mergings: best ARI 1.000 (above 100.0%, tau 1.000; S1 holds); mean ARI 1.000, mean tau 1.000
+## B: 26 eligible functions
+K  2,   9 mergings: best ARI 0.222 (above 100.0%, tau 0.760; S1 holds); mean ARI 0.159, mean tau 0.674
+K  3,  36 mergings: best ARI 0.398 (above 100.0%, tau 0.871; S1 holds); mean ARI 0.287, mean tau 0.801
+K  4,  84 mergings: best ARI 0.575 (above 100.0%, tau 0.931; S1 holds); mean ARI 0.401, mean tau 0.864
+K  5, 126 mergings: best ARI 0.719 (above 100.0%, tau 0.961; S1 holds); mean ARI 0.508, mean tau 0.905
+K  6, 126 mergings: best ARI 0.817 (above 100.0%, tau 0.977; S1 holds); mean ARI 0.610, mean tau 0.933
+K  7,  84 mergings: best ARI 0.909 (above 100.0%, tau 0.990; S1 holds); mean ARI 0.710, mean tau 0.955
+K  8,  36 mergings: best ARI 0.938 (above 100.0%, tau 0.993; S1 holds); mean ARI 0.808, mean tau 0.973
+K  9,   9 mergings: best ARI 0.968 (above 100.0%, tau 0.997; S1 holds); mean ARI 0.904, mean tau 0.988
+K 10,   1 mergings: best ARI 1.000 (above 100.0%, tau 1.000; S1 holds); mean ARI 1.000, mean tau 1.000
+## Propp: 19 eligible functions
+K  2,   8 mergings: best ARI 0.244 (above 100.0%, tau 0.769; S1 holds); mean ARI 0.175, mean tau 0.680
+K  3,  36 mergings: best ARI 0.445 (above 100.0%, tau 0.885; S1 holds); mean ARI 0.292, mean tau 0.786
+K  4,  84 mergings: best ARI 0.623 (above 100.0%, tau 0.939; S1 holds); mean ARI 0.417, mean tau 0.862
+K  5, 126 mergings: best ARI 0.779 (above 100.0%, tau 0.970; S1 holds); mean ARI 0.532, mean tau 0.907
+K  6, 126 mergings: best ARI 0.867 (above 100.0%, tau 0.983; S1 holds); mean ARI 0.640, mean tau 0.938
+K  7,  84 mergings: best ARI 0.943 (above 100.0%, tau 0.993; S1 holds); mean ARI 0.740, mean tau 0.960
+K  8,  36 mergings: best ARI 1.000 (above 100.0%, tau 1.000; S1 holds); mean ARI 0.834, mean tau 0.976
+K  9,   9 mergings: best ARI 1.000 (above 100.0%, tau 1.000; S1 holds); mean ARI 0.920, mean tau 0.989
+K 10,   1 mergings: best ARI 1.000 (above 100.0%, tau 1.000; S1 holds); mean ARI 1.000, mean tau 1.000

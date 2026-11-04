@@ -1,0 +1,37 @@
+# Audit-u1.txt -- the power of the test: strings generated from a chain over Propp's TRUE sections; the tool unchanged
+#  the sections are true by construction, so a tool with power should satisfy S1 and S2 here
+A x1 # 1: K  3  ARI +0.275 (above 100.0%)  state-section tau +0.521  S1 fails  order tau +0.101 (p 0.524)  S2 fails  relations 10
+A x1 # 2: K  4  ARI +0.450 (above 100.0%)  state-section tau +0.466  S1 fails  order tau +0.251 (p 0.101)  S2 fails  relations 6
+A x1 # 3: K  4  ARI +0.374 (above 100.0%)  state-section tau +0.306  S1 fails  order tau +0.270 (p 0.092)  S2 fails  relations 4
+A x1 # 4: K  4  ARI +0.484 (above 100.0%)  state-section tau +0.059  S1 fails  order tau +0.190 (p 0.222)  S2 fails  relations 4
+A x1 # 5: K  4  ARI +0.609 (above 100.0%)  state-section tau +0.405  S1 fails  order tau +0.079 (p 0.631)  S2 fails  relations 1
+A x1 # 6: K  3  ARI +0.233 (above 100.0%)  state-section tau +0.564  S1 fails  order tau +0.075 (p 0.644)  S2 fails  relations 1
+A x1 # 7: K  3  ARI +0.271 (above 100.0%)  state-section tau +0.732  S1 holds  order tau +0.161 (p 0.298)  S2 fails  relations 2
+A x1 # 8: K  3  ARI +0.207 (above 100.0%)  state-section tau +0.518  S1 fails  order tau +0.243 (p 0.107)  S2 fails  relations 5
+A x1 # 9: K  3  ARI +0.319 (above 100.0%)  state-section tau +0.849  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+A x1 #10: K  3  ARI +0.325 (above 100.0%)  state-section tau +0.138  S1 fails  order tau +0.035 (p 0.824)  S2 fails  relations 2
+A x1: S1 holds 2 of 10; S2 holds 0 of 10; both 0 of 10; mean K 3.4, ARI 0.355, state-section tau 0.456, order tau 0.156
+B x1 # 1: K  4  ARI +0.500 (above 100.0%)  state-section tau +0.478  S1 fails  order tau +0.153 (p 0.335)  S2 fails  relations 2
+B x1 # 2: K  4  ARI +0.462 (above 100.0%)  state-section tau +0.325  S1 fails  order tau +0.146 (p 0.376)  S2 fails  relations 3
+B x1 # 3: K  4  ARI +0.577 (above 100.0%)  state-section tau +0.435  S1 fails  order tau +0.171 (p 0.304)  S2 fails  relations 5
+B x1 # 4: K  5  ARI +0.634 (above 100.0%)  state-section tau +0.465  S1 fails  order tau +0.212 (p 0.185)  S2 fails  relations 5
+B x1 # 5: K  5  ARI +0.555 (above 100.0%)  state-section tau +0.565  S1 fails  order tau +0.158 (p 0.298)  S2 fails  relations 6
+B x1 # 6: K  5  ARI +0.500 (above 100.0%)  state-section tau +0.466  S1 fails  order tau +0.144 (p 0.360)  S2 fails  relations 2
+B x1 # 7: K  4  ARI +0.461 (above 100.0%)  state-section tau -0.021  S1 fails  order tau +0.115 (p 0.453)  S2 fails  relations 10
+B x1 # 8: K  4  ARI +0.395 (above 100.0%)  state-section tau +0.560  S1 fails  order tau +0.209 (p 0.185)  S2 fails  relations 5
+B x1 # 9: K  4  ARI +0.352 (above 100.0%)  state-section tau +0.410  S1 fails  order tau +0.266 (p 0.098)  S2 fails  relations 7
+B x1 #10: K  5  ARI +0.749 (above 100.0%)  state-section tau +0.577  S1 fails  order tau +0.069 (p 0.671)  S2 fails  relations 3
+B x1: S1 holds 0 of 10; S2 holds 0 of 10; both 0 of 10; mean K 4.4, ARI 0.518, state-section tau 0.426, order tau 0.164
+A x2 # 1: K  7  ARI +0.624 (above 100.0%)  state-section tau +0.624  S1 holds  order tau +0.246 (p 0.072)  S2 fails  relations 25
+A x2 # 2: K  5  ARI +0.597 (above 100.0%)  state-section tau +0.484  S1 fails  order tau +0.075 (p 0.593)  S2 fails  relations 13
+A x2 # 3: K  5  ARI +0.598 (above 100.0%)  state-section tau +0.384  S1 fails  order tau +0.319 (p 0.030)  S2 fails  relations 11
+A x2 # 4: K  7  ARI +0.798 (above 100.0%)  state-section tau +0.371  S1 fails  order tau +0.144 (p 0.291)  S2 fails  relations 39
+A x2 # 5: K  6  ARI +0.545 (above 100.0%)  state-section tau +0.539  S1 fails  order tau +0.303 (p 0.028)  S2 fails  relations 24
+A x2: S1 holds 1 of 5; S2 holds 0 of 5; both 0 of 5; mean K 6.0, ARI 0.633, state-section tau 0.481, order tau 0.217
+A x4 # 1: K  8  ARI +0.840 (above 100.0%)  state-section tau +0.609  S1 holds  order tau +0.268 (p 0.038)  S2 fails  relations 61
+A x4 # 2: K 10  ARI +1.000 (above 100.0%)  state-section tau +0.297  S1 fails  order tau +0.308 (p 0.017)  S2 fails  relations 56
+A x4 # 3: K 12  ARI +1.000 (above 100.0%)  state-section tau +0.488  S1 fails  order tau +0.296 (p 0.025)  S2 fails  relations 45
+A x4: S1 holds 1 of 3; S2 holds 0 of 3; both 0 of 3; mean K 10.0, ARI 0.947, state-section tau 0.465, order tau 0.291
+## order only, sixteen times the size
+A x16: order tau +0.487 +0.417 +0.357 +0.467 +0.450 (relations 110 99 110 99 117)
+B x16: order tau +0.316 +0.350 +0.348 +0.419 +0.249 (relations 74 72 82 66 70)

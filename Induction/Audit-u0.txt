@@ -1,0 +1,18 @@
+# Audit-u0.txt -- the code: does the program compute what the protocol says?
+A: K 6, record 6: agree
+A: sections agree
+A: relations agree
+A: S1 recomputed ARI 0.008, tau 0.422; S2 tau 0.226 (Induced-functions-tale.txt gives 0.008, 0.422, 0.226)
+  A then B: plain loops 19.0, matrix 19.0
+  A then F: plain loops 34.0, matrix 34.0
+  F then K: plain loops 28.0, matrix 28.0
+  a then F: plain loops 28.0, matrix 28.0
+  M then N: plain loops 21.0, matrix 21.0
+  D then E: plain loops 75.0, matrix 75.0
+  H then I: plain loops 39.0, matrix 39.0
+  γ then δ: plain loops 8.0, matrix 8.0
+  precedence A, F: plain loops 34.0, matrix 34.0
+  precedence η, θ: plain loops 18.0, matrix 18.0
+  eligible functions with no Propp section: 0
+  A093: units read 29, table rows 34, of them marked Y 34
+U0: count mismatches 0

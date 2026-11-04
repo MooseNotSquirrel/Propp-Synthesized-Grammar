@@ -1,0 +1,28 @@
+# Audit-u2.txt -- Propp's own strings under the frozen tool, unchanged, on the same split
+stories 23 + 22; moves 84; units 746
+K 11  ARI +0.056 (above  64.9%)  state-section tau +0.737  S1 fails  order tau +0.426 (p 0.016)  S2 fails  relations 42
+H3 sections:
+  S1 (place 0.00): A a
+  S2 (place 0.12): B
+  S3 (place 0.21): C
+  S4 (place 0.33): up
+  S5 (place 0.44): D o
+  S6 (place 0.55): E L
+  S7 (place 0.57): F H M
+  S8 (place 0.66): G J I N
+  S9 (place 0.77): K Q Ex U
+  S10 (place 0.88): down T
+  S11 (place 0.93): Pr Rs W
+H2: 2 -2.6958, 3 -2.4764, 4 -2.3132, 5 -2.2500, 6 -2.1354, 7 -2.1341, 8 -2.0859, 9 -2.0436, 10 -1.9296, 11 -1.8609, 12 -1.9449
+P2 order: A C up B a D G H M N Pr Rs U F I E W K down
+Q1: candidates 86, confirmed 75
+Q3: Propp's pairs occurring at least 5 times 7 (D E, E F, H I, Pr Rs, M N, A K, a K); confirmed 4 (D E, H I, A K, a K); recall 0.57; S3 holds
+ALL THREE: do not all hold (reported beside the record; this replaces nothing)
+
+## The closeness of the strings: normalized edit distance by story, on all the stories
+A and B: same story 0.404; another story 0.831
+A and Propp: same story 0.695; another story 0.829
+B and Propp: same story 0.704; another story 0.831
+A: units per story 28.9; moves per story 3.18; preparatory 19%; sections 19 24 18 3 11 5 8 1 5 7
+B: units per story 32.0; moves per story 2.87; preparatory 20%; sections 20 26 21 3 10 4 5 1 5 6
+Propp: units per story 16.6; moves per story 1.87; preparatory 0%; sections 0 35 18 4 9 7 11 2 4 11

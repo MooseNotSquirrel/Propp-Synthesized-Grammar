@@ -1,0 +1,30 @@
+# Audit-u4.txt -- the tool's choices, one at a time. EXPLORATORY and many: a lone good figure means little; none of this is a pass
+## a. Pairs: the n-gram study's classes, within the move
+A+B: Propp's pairs occurring at least 5 times, adjacent or near, on the checking half: 9; confirmed 6 (γ δ, η θ, D E, E F, H I, M N): recall 0.67; S3's bar of 0.5 met
+  adjacent  confirmed 10, of them Propp's 6 (H I, E F, M N, η θ, γ δ, D E); others: A B, B C, up D, U W
+  near      confirmed  0, of them Propp's 0 (); others: 
+Propp: Propp's pairs occurring at least 5 times, adjacent or near, on the checking half: 6; confirmed 5 (D E, E F, H I, Pr Rs, M N): recall 0.83; S3's bar of 0.5 met
+  adjacent  confirmed 17, of them Propp's 5 (H I, E F, M N, D E, Pr Rs); others: A B, A C, a B, B C, C up, up D, up H, F G, I K, K down, down Pr, U W
+  near      confirmed 32, of them Propp's 0 (); others: A up, A D, A E, A H, a C, a up, a D, B up, B D, B E, B H, C D, C E, C F, C H, C I, C K, up E, up F, up I, up down, D F, D G, E K, E down, G down, H K, H down, I down, K Pr, K Rs, down Rs
+## b. Order: S2's tau under other ways of reading the order
+A      induction half  functions 26: as frozen tau +0.226 (relations  18, score 0: 16); looser tau +0.335 (relations  89); mean position tau +0.376 (p 0.0072), shuffles 95th +0.228
+A      all stories     functions 30: as frozen tau +0.251 (relations  77, score 0: 10); looser tau +0.352 (relations 175); mean position tau +0.502 (p 0.0001), shuffles 95th +0.203
+B      induction half  functions 26: as frozen tau +0.234 (relations  36, score 0: 14); looser tau +0.263 (relations 101); mean position tau +0.431 (p 0.0020), shuffles 95th +0.240
+B      all stories     functions 31: as frozen tau +0.261 (relations 101, score 0: 10); looser tau +0.415 (relations 197); mean position tau +0.521 (p 0.0000), shuffles 95th +0.215
+Propp  induction half  functions 19: as frozen tau +0.426 (relations  42, score 0:  8); looser tau +0.621 (relations  99); mean position tau +0.824 (p 0.0000), shuffles 95th +0.282
+Propp  all stories     functions 24: as frozen tau +0.333 (relations  88, score 0:  8); looser tau +0.620 (relations 162); mean position tau +0.686 (p 0.0000), shuffles 95th +0.214
+## c. States: S1 under other model shapes, the induction half; log-likelihood per symbol on the checking half beside it
+A      K 10 free            ARI +0.092 (above  91.4%), state-section tau +0.490: S1 fails; checking -2.9200
+A      K 10 forward-only    ARI +0.225 (above  99.8%), state-section tau +0.362: S1 fails; checking -2.9804
+A      K 6 forward-only     ARI +0.179 (above  99.5%), state-section tau +0.122: S1 fails; checking -3.0565
+B      K 10 free            ARI +0.376 (above 100.0%), state-section tau +0.385: S1 fails; checking -2.9303
+B      K 10 forward-only    ARI +0.322 (above 100.0%), state-section tau +0.481: S1 fails; checking -3.1226
+B      K 4 forward-only     ARI +0.124 (above  97.8%), state-section tau +0.214: S1 fails; checking -3.0849
+Propp  K 10 free            ARI +0.087 (above  76.9%), state-section tau +0.818: S1 fails; checking -2.1367
+Propp  K 10 forward-only    ARI +0.230 (above  98.8%), state-section tau +0.796: S1 holds; checking -2.1325
+## d. Data: the tool on all 45 stories (S1 and S2 only); and with the preparatory units removed
+A      all stories:      K 12  ARI +0.307 (above 100.0%)  state-section tau +0.434  S1 fails  order tau +0.251 (p 0.065)  S2 fails  relations 77
+B      all stories:      K  8  ARI +0.123 (above  97.6%)  state-section tau +0.598  S1 fails  order tau +0.261 (p 0.048)  S2 fails  relations 101
+Propp  all stories:      K 12  ARI +0.051 (above  70.9%)  state-section tau +0.768  S1 fails  order tau +0.333 (p 0.029)  S2 fails  relations 88
+A      no preparatory:   K  8  ARI +0.220 (above  98.4%)  state-section tau +0.766  S1 holds  order tau +0.315 (p 0.084)  S2 fails  relations 17
+B      no preparatory:   K  8  ARI +0.188 (above  97.3%)  state-section tau +0.754  S1 holds  order tau +0.383 (p 0.026)  S2 fails  relations 35
