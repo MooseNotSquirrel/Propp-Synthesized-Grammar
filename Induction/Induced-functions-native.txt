@@ -1,0 +1,50 @@
+# Induced-functions-native.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 19: β γ δ η θ A a B C up F G H I K down T U W
+P2. relations 2; the Hasse list: A<I, up<K
+P2. the linear order (Copeland): A up B C F G H T U W a down β γ δ η θ I K
+P3. Kendall tau with Propp's numbering 0.201, p 0.2975
+H2. K = 3; cross-validated log-likelihood per symbol: 2 -3.0203, 3 -2.9762, 4 -2.9908, 5 -3.0087, 6 -3.1148, 7 -3.0513, 8 -3.1177, 9 -3.1211, 10 -3.1821, 11 -3.1464, 12 -3.1228
+H3. S1 (place 0.06): A a
+H3. S2 (place 0.58): β γ δ B C up D E F G H J I down M N T
+H3. S3 (place 0.68): ε ζ η θ K Pr Rs o L Q Ex U W
+S1. against Propp's sections: ARI -0.020, above 29.9% of permuted assignments; tau of place and section 0.170: does not hold
+S2. P2's order against Propp's numbering: does not hold
+
+## B
+P1. eligible (in at least 5 stories): 19: γ δ η θ A a B C up D E F G H I K down T U
+P2. relations 3; the Hasse list: A<I, A<K, up<I
+P2. the linear order (Copeland): A up B C D E F G H T U a down γ δ η θ K I
+P3. Kendall tau with Propp's numbering 0.274, p 0.1512
+H2. K = 10; cross-validated log-likelihood per symbol: 2 -3.0504, 3 -2.9594, 4 -2.9678, 5 -3.0523, 6 -3.0200, 7 -3.0968, 8 -3.1472, 9 -3.1559, 10 -2.9555, 11 -3.1015, 12 -3.1745
+H3. S1 (place 0.09): A a
+H3. S2 (place 0.34): ε C D Pr W
+H3. S3 (place 0.35): B
+H3. S4 (place 0.53): ζ up E
+H3. S5 (place 0.54): η
+H3. S6 (place 0.55): F
+H3. S7 (place 0.61): γ H o Ex
+H3. S8 (place 0.67): θ
+H3. S9 (place 0.73): G K down Rs T
+H3. S10 (place 0.74): β δ J I L M Q U
+S1. against Propp's sections: ARI -0.039, above 15.1% of permuted assignments; tau of place and section 0.338: does not hold
+S2. P2's order against Propp's numbering: does not hold
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 14
+  A then F  10.0 2.03 0.0060  8.0 2.00 0.0090
+  A then I  23.0 2.00 0.0010  26.0 2.02 0.0010
+  A then K  16.0 2.00 0.0020  32.0 1.60 0.0050
+  A then down  10.0 1.99 0.0040  9.0 2.03 0.0040
+  A then U  10.0 1.99 0.0040  14.0 1.98 0.0010
+  a then γ  12.0 1.99 0.0020  10.0 1.83 0.0050
+  a then η  28.0 2.02 0.0010  13.0 2.01 0.0030
+  a then θ  14.0 2.03 0.0010  9.0 1.96 0.0050
+  a then H  9.0 2.03 0.0040  16.0 2.02 0.0030
+  a then K  26.0 2.00 0.0010  21.0 2.00 0.0010
+  C then up  11.0 1.82 0.0060  9.0 1.99 0.0020
+  up then γ  10.0 1.86 0.0100  12.0 1.84 0.0050
+  up then K  11.0 1.83 0.0030  14.0 1.86 0.0030
+  H then I  14.0 1.85 0.0030  24.0 1.97 0.0010
+P3. relations in both transcribers over relations in either: 1 of 4
