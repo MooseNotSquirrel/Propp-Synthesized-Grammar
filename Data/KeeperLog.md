@@ -1165,3 +1165,12 @@ NEXT, at the owner's word: the review and decisions.
   - 16 (A) and 14 (B) of the 26 eligible functions have a Copeland score of 0, so S2's tau rests on few relations.
   - Test I1's planted grammar had disjoint vocabularies and clean states, far easier than the wondertales, so passing it did not show the tool could find Propp's structure at this size.
 - `Data/tables/resolved.tsv` holds Propp's own strings for the 45 tales (84 moves), which the tool has never been run on.
+**2026-11-04. The audit of the failed self-test done** (`Induction/AuditReport.md`, plan `AuditPlan.md`, figures `Audit-*.txt`). **The FAILS verdict stands.** No readers.
+- **S1 is a real finding:** with sections and a strict order true by construction, S1 holds in 20 of 20 corpora at this size; real ARI (0.008, 0.157) lies under all 40 generated corpora. Propp's ten sections handed over exactly would themselves fail S1 on the readers' strings (tau 0.43, 0.42).
+- **S2 could not pass:** 0 of 40 generated corpora; at sixteen times the size at most 0.624. By mean position the same strings show order (p 0.007, 0.002). The generators have no order inside sections, so S2's power may be understated.
+- **S3 is a design choice:** recall 0.20 any-distance, 0.67 adjacent.
+- **Explanations:** code, does not stand; bars, stands for S2; power, stands for S1 and S2 together; transcriptions, loses as the account, with a real difference left; sections not in the strings, split (A 99.78%, B 85.18%, Propp 89.75%); design choice, gains for S3.
+- **Not anticipated:** 80% and 87% of the readers' preparatory units stand after the first A or a of their move, reason unknown; removed, S1 holds for both (exploratory).
+- **Added after seeing results, and said so:** U6 (faults found in U1's generator and U5's ranking) and `Audit-prep.txt`. The keeper's design fault: no power test before the freeze.
+- **Step 6's E2 prediction is no longer fully blind:** U3 is a related measure and came out split. The prediction stands unchanged.
+NEXT, at the owner's word: talk it through; whether to read the preparatory moves, a modified tool's protocol, or step 6.

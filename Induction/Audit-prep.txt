@@ -1,0 +1,5 @@
+# Audit-prep.txt -- ADDED AFTER U6 WAS READ: where the preparatory units (Propp's first section) stand in the readers' moves
+A: moves 143; with a preparatory unit 70; opening with one 15; preparatory units 241; after the first A or a of their move 192 (80%)
+   mean relative place (count): η 0.51 (66) θ 0.58 (52) γ 0.45 (38) β 0.40 (25) ε 0.54 (22) δ 0.56 (21) ζ 0.63 (17)
+B: moves 129; with a preparatory unit 73; opening with one 15; preparatory units 282; after the first A or a of their move 246 (87%)
+   mean relative place (count): η 0.51 (83) θ 0.56 (58) γ 0.50 (46) ε 0.54 (31) ζ 0.62 (29) δ 0.60 (23) β 0.12 (12)
