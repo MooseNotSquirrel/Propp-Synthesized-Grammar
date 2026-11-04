@@ -1,0 +1,5 @@
+(* induced grammar, tragedy, acts layer, transcriber A (induce.py, the induction half) *)
+(* states in order of their place in the move; rules of probability at least 0.05 *)
+move = S1 (* 1.00 *) ;
+S1 = ( harm (* 0.24 *) | give (* 0.08 *) | deceive (* 0.08 *) | fight (* 0.05 *) ) , ( S1 (* 0.77 *) | S2 (* 0.23 *) ) ;
+S2 = ( plead (* 0.12 *) | forbid (* 0.12 *) | respond (* 0.10 *) | decide (* 0.09 *) | reveal-information (* 0.09 *) | harm (* 0.07 *) ) , ( S1 (* 0.07 *) | S2 (* 0.93 *) ) ;

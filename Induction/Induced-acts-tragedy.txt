@@ -1,0 +1,26 @@
+# Induced-acts-tragedy.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 32: arrive-unknown be-taken-in deceive decide disobey do-task escape expose fight forbid give guide harm lament leave lose marry plead punish pursue receive recognize repair respond return reveal-information seek-information send test threaten want win
+P2. relations 9; the Hasse list: marry<repair, receive<be-taken-in, want<deceive, want<decide, want<forbid, want<plead, want<respond, want<reveal-information, want<threaten
+P2. the linear order (Copeland): want marry receive arrive-unknown disobey do-task escape expose fight give guide harm lament leave lose punish pursue recognize return seek-information send test win be-taken-in deceive decide forbid plead repair respond reveal-information threaten
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -3.1313, 3 -3.1355, 4 -3.1343, 5 -3.1420, 6 -3.1494, 7 -3.1591, 8 -3.1911, 9 -3.2198, 10 -3.2166, 11 -3.2499, 12 -3.2437
+H3. S1 (place 0.41): be-taken-in deceive do-task escape fight harm mark marry receive transform win
+H3. S2 (place 0.53): arrive-unknown claim-falsely decide disobey expose forbid give guide lament leave lose plead punish pursue recognize repair respond return reveal-information seek-information send set-task test threaten want
+
+## B
+P1. eligible (in at least 5 stories): 31: arrive-unknown be-taken-in deceive decide disobey do-task escape expose fight forbid give guide harm lament leave lose marry plead punish receive recognize repair respond return reveal-information seek-information send test threaten want win
+P2. relations 3; the Hasse list: arrive-unknown<reveal-information, harm<repair, threaten<repair
+P2. the linear order (Copeland): arrive-unknown harm threaten be-taken-in deceive decide disobey do-task escape expose fight forbid give guide lament leave lose marry plead punish receive recognize respond return seek-information send test want win reveal-information repair
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -3.0720, 3 -3.0765, 4 -3.0842, 5 -3.0978, 6 -3.1118, 7 -3.1494, 8 -3.1428, 9 -3.1519, 10 -3.1709, 11 -3.1891, 12 -3.1928
+H3. S1 (place 0.44): arrive-unknown deceive do-task fight harm lose marry punish pursue repair seek-information set-task transform win
+H3. S2 (place 0.52): be-taken-in claim-falsely decide disobey escape expose forbid give guide lament leave mark plead receive recognize respond return reveal-information send test threaten want
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 5
+  want then deceive  79.0 1.66 0.0010  65.0 1.55 0.0070
+  want then forbid  243.0 1.54 0.0010  205.0 1.58 0.0010
+  want then punish  24.0 1.92 0.0010  11.0 1.97 0.0090
+  want then respond  193.0 1.53 0.0010  152.0 1.54 0.0010
+  want then reveal-information  174.0 1.62 0.0010  172.0 1.58 0.0020
+P3. relations in both transcribers over relations in either: 0 of 12
