@@ -115,6 +115,6 @@ All are met at 20 and 100 stories too. **Against Propp's order, G2 gave a median
 3. **Pair recall tops out at 0.83 by construction:** two of his twelve pairs (A with K, a with K) stand far apart, and links read neighbours only.
 4. **Acceptance is not comparable to V46's yet.** Any single slip breaks a strict partial order, so G1 accepts only 34% and G8 12% with the true order fully recovered. V46's 80 of 84 is a different measure.
 
-**The owner's call before rung 2: the bars.** The keeper recommends G8's, as the harder and nearer to his strings' length; the protocol's rule gives G1's.
+**The bars for rung 2: G8's, by the owner's decision, 2026-11-04,** in place of the protocol's rule, which gave G1's: relation tau 0.993, order tau 0.971, pair recall 0.541, pass F 0.835.
 
-**Still to write before rung 2:** the blocks of level 4 (secondary); the check of the ten sections against Propp's text.
+**Not yet written:** the blocks of level 4 (secondary), and the check of the ten sections against Propp's text. Rung 2's claims do not need them.
