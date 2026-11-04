@@ -696,8 +696,44 @@ def prep():
     save('prep')
 
 
+def prepwhy():
+    """added after the preparatory moves were read: which of the mid-move preparatory units lead into a further villainy or lack"""
+    say('# Audit-prepwhy.txt -- ADDED AFTER A SAMPLE OF MOVES WAS READ: what follows the preparatory units that stand after the first A or a of their move')
+    h = strings_of()
+    for L in ('A', 'B', 'Propp'):
+        lacks = collections.Counter()
+        cls = collections.Counter()
+        un = 0
+        for _, _, ms, _ in h[L][0] + h[L][1]:
+            for i, m_ in enumerate(ms):
+                lk = [t for t, u in enumerate(m_) if u in ('A', 'a')]
+                lacks[min(len(lk), 3)] += 1
+                un += len(m_)
+                if not lk:
+                    continue
+                for t, u in enumerate(m_):
+                    if CG.SEC.get(u) == 0 and t > lk[0]:
+                        later = [x for x in lk if x > t]
+                        if later:
+                            cls['a further A or a later in the same move'] += 1
+                        else:
+                            nxt = ms[i + 1] if i + 1 < len(ms) else None
+                            if nxt is not None and any(v in ('A', 'a') for v in nxt):
+                                cls['none in this move; the next move has one'] += 1
+                            elif nxt is None:
+                                cls['none later: the last move of the story'] += 1
+                            else:
+                                cls['none in this move or the next'] += 1
+        tm = sum(lacks.values())
+        say('%s: moves %d; by A or a in the move: none %d, one %d, two %d, three or more %d; units per move %.1f' % (L, tm, lacks[0], lacks[1], lacks[2], lacks[3], un / tm))
+        tot = sum(cls.values()) or 1
+        for k, v in cls.most_common():
+            say('   %-45s %3d (%.0f%%)' % (k, v, 100 * v / tot))
+    save('prepwhy')
+
+
 if __name__ == '__main__':
-    fns = {'u0': u0, 'u1': u1, 'u2': u2, 'u3': u3, 'u4': u4, 'u5': u5, 'u6': u6, 'prep': prep}
+    fns = {'u0': u0, 'u1': u1, 'u2': u2, 'u3': u3, 'u4': u4, 'u5': u5, 'u6': u6, 'prep': prep, 'prepwhy': prepwhy}
     a = sys.argv[1:]
     if len(a) != 1 or a[0] not in fns:
         sys.exit(__doc__)
