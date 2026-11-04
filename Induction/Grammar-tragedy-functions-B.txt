@@ -1,0 +1,7 @@
+(* induced grammar, tragedy, functions layer, transcriber B (induce.py, the induction half) *)
+(* states in order of their place in the move; rules of probability at least 0.05 *)
+move = S1 (* 1.00 *) ;
+S1 = ( A (* 0.53 *) | a (* 0.41 *) ) , ( S2 (* 0.56 *) | S3 (* 0.08 *) | S4 (* 0.36 *) ) ;
+S2 = ( F (* 0.21 *) | B (* 0.11 *) | γ (* 0.10 *) | C (* 0.09 *) | up (* 0.05 *) ) , ( S2 (* 0.88 *) | S3 (* 0.06 *) | S4 (* 0.06 *) | end (* 0.16 *) ) ;
+S3 = ( η (* 0.25 *) | θ (* 0.17 *) | γ (* 0.12 *) | B (* 0.08 *) | F (* 0.05 *) ) , ( S3 (* 0.93 *) | S4 (* 0.07 *) | end (* 0.07 *) ) ;
+S4 = ( A (* 0.24 *) | γ (* 0.18 *) | H (* 0.08 *) | I (* 0.05 *) | Rs (* 0.05 *) ) , ( S2 (* 0.14 *) | S4 (* 0.86 *) | end (* 0.18 *) ) ;
