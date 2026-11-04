@@ -671,8 +671,33 @@ def u6():
     save('u6')
 
 
+def prep():
+    """added after U6 was read: where the preparatory units stand in the readers' moves, on all the stories"""
+    say('# Audit-prep.txt -- ADDED AFTER U6 WAS READ: where the preparatory units (Propp\'s first section) stand in the readers\' moves')
+    h = strings_of()
+    for L in 'AB':
+        tot, n = collections.Counter(), collections.Counter()
+        moves = withp = starts = units = after = 0
+        for _, _, ms, _ in h[L][0] + h[L][1]:
+            for m_ in ms:
+                moves += 1
+                ps = [t for t, u in enumerate(m_) if CG.SEC.get(u) == 0]
+                withp += bool(ps)
+                starts += bool(ps) and ps[0] == 0
+                lack = [t for t, u in enumerate(m_) if u in ('A', 'a')]
+                for t in ps:
+                    units += 1
+                    after += bool(lack) and t > lack[0]
+                    tot[m_[t]] += t / (len(m_) - 1) if len(m_) > 1 else 0.0
+                    n[m_[t]] += 1
+        say('%s: moves %d; with a preparatory unit %d; opening with one %d; preparatory units %d; after the first A or a of their move %d (%.0f%%)'
+            % (L, moves, withp, starts, units, after, 100 * after / units))
+        say('   mean relative place (count): ' + ' '.join('%s %.2f (%d)' % (u, tot[u] / n[u], n[u]) for u in sorted(n, key=lambda u: -n[u])))
+    save('prep')
+
+
 if __name__ == '__main__':
-    fns = {'u0': u0, 'u1': u1, 'u2': u2, 'u3': u3, 'u4': u4, 'u5': u5, 'u6': u6}
+    fns = {'u0': u0, 'u1': u1, 'u2': u2, 'u3': u3, 'u4': u4, 'u5': u5, 'u6': u6, 'prep': prep}
     a = sys.argv[1:]
     if len(a) != 1 or a[0] not in fns:
         sys.exit(__doc__)

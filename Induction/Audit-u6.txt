@@ -1,0 +1,54 @@
+# Audit-u6.txt -- ADDED AFTER U1 AND U5 WERE READ (see AuditPlan.md): the strict order, and the places the tool really uses
+tests: planted strings in section order, ten sections handed over
+  in order: tau +1.000 (expect +1)
+  reversed: tau -1.000 (expect -1)
+  the forward generator, backward steps in four times the size: 0 (expect 0)
+## a. Propp's sections handed over as states, ranked by their place in the real strings of the induction half
+A      places by section: 1:0.54 2:0.20 3:0.46 4:0.55 5:0.60 6:0.66 7:0.79 8:0.46 9:0.56 10:0.82
+  K  4,  84 mergings: tau at least 0.6 in  58; mean tau +0.637; best tau +0.901 (ARI 0.502, above 100.0%; S1 holds)
+  K  5, 126 mergings: tau at least 0.6 in  70; mean tau +0.618; best tau +0.913 (ARI 0.538, above 100.0%; S1 holds)
+  K  6, 126 mergings: tau at least 0.6 in  56; mean tau +0.587; best tau +0.918 (ARI 0.557, above 100.0%; S1 holds)
+  K 10,   1 mergings: tau at least 0.6 in   0; mean tau +0.429; best tau +0.429 (ARI 1.000, above 100.0%; S1 fails)
+B      places by section: 1:0.55 2:0.26 3:0.46 4:0.59 5:0.62 6:0.72 7:0.79 8:0.50 9:0.54 10:0.87
+  K  4,  84 mergings: tau at least 0.6 in  59; mean tau +0.665; best tau +0.906 (ARI 0.490, above 100.0%; S1 holds)
+  K  5, 126 mergings: tau at least 0.6 in  75; mean tau +0.636; best tau +0.923 (ARI 0.547, above 100.0%; S1 holds)
+  K  6, 126 mergings: tau at least 0.6 in  65; mean tau +0.596; best tau +0.929 (ARI 0.568, above 100.0%; S1 holds)
+  K 10,   1 mergings: tau at least 0.6 in   0; mean tau +0.423; best tau +0.423 (ARI 1.000, above 100.0%; S1 fails)
+Propp  places by section: 1:- 2:0.17 3:0.51 4:0.60 5:0.57 6:0.75 7:0.86 8:0.50 9:0.64 10:0.93
+  K  4,  84 mergings: tau at least 0.6 in  81; mean tau +0.830; best tau +0.939 (ARI 0.623, above 100.0%; S1 holds)
+  K  5, 126 mergings: tau at least 0.6 in 124; mean tau +0.845; best tau +0.970 (ARI 0.779, above 100.0%; S1 holds)
+  K  6, 126 mergings: tau at least 0.6 in 126; mean tau +0.847; best tau +0.980 (ARI 0.844, above 100.0%; S1 holds)
+  K 10,   1 mergings: tau at least 0.6 in   1; mean tau +0.868; best tau +0.868 (ARI 1.000, above 100.0%; S1 holds)
+## the same measure at K 10 on generated strings, sixteen times the size, and their shape
+A real strings: units per move 8.8
+A chain as U1  tau with the true sections handed over +0.550; units per move 9.1
+A forward      tau with the true sections handed over +0.721; units per move 5.9
+B real strings: units per move 10.8
+B chain as U1  tau with the true sections handed over +0.622; units per move 10.9
+B forward      tau with the true sections handed over +0.739; units per move 6.4
+## b. The tool unchanged, on strings from the forward chain: sections true AND their order strict
+A forward x1 # 1: K  8  ARI +1.000 (above 100.0%)  state-section tau +0.919  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+A forward x1 # 2: K  7  ARI +0.902 (above 100.0%)  state-section tau +0.893  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+A forward x1 # 3: K  5  ARI +0.691 (above 100.0%)  state-section tau +0.748  S1 holds  order tau +0.240 (p 0.182)  S2 fails  relations 2
+A forward x1 # 4: K  9  ARI +0.637 (above 100.0%)  state-section tau +0.825  S1 holds  order tau +0.184 (p 0.362)  S2 fails  relations 1
+A forward x1 # 5: K  9  ARI +0.977 (above 100.0%)  state-section tau +0.803  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+A forward x1 # 6: K  6  ARI +0.749 (above 100.0%)  state-section tau +0.912  S1 holds  order tau +0.285 (p 0.145)  S2 fails  relations 1
+A forward x1 # 7: K  7  ARI +0.869 (above 100.0%)  state-section tau +0.867  S1 holds  order tau +0.036 (p 0.850)  S2 fails  relations 1
+A forward x1 # 8: K  7  ARI +0.938 (above 100.0%)  state-section tau +0.885  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+A forward x1 # 9: K  4  ARI +0.641 (above 100.0%)  state-section tau +0.934  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+A forward x1 #10: K  7  ARI +0.809 (above 100.0%)  state-section tau +0.806  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+A forward x1: S1 holds 10 of 10; S2 holds 0 of 10; both 0 of 10; mean K 6.9, ARI 0.821, state-section tau 0.859, order tau 0.186
+B forward x1 # 1: K  5  ARI +0.762 (above 100.0%)  state-section tau +0.802  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+B forward x1 # 2: K  7  ARI +0.880 (above 100.0%)  state-section tau +0.806  S1 holds  order tau +0.169 (p 0.400)  S2 fails  relations 1
+B forward x1 # 3: K  5  ARI +0.758 (above 100.0%)  state-section tau +0.814  S1 holds  order tau +0.143 (p 0.450)  S2 fails  relations 1
+B forward x1 # 4: K  6  ARI +0.905 (above 100.0%)  state-section tau +0.843  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+B forward x1 # 5: K  5  ARI +0.680 (above 100.0%)  state-section tau +0.844  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+B forward x1 # 6: K  6  ARI +0.862 (above 100.0%)  state-section tau +0.904  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+B forward x1 # 7: K  6  ARI +0.792 (above 100.0%)  state-section tau +0.920  S1 holds  order tau +0.401 (p 0.039)  S2 fails  relations 2
+B forward x1 # 8: K  5  ARI +0.719 (above 100.0%)  state-section tau +0.960  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+B forward x1 # 9: K  7  ARI +0.792 (above 100.0%)  state-section tau +0.857  S1 holds  order tau +nan (p 1.000)  S2 fails  relations 0
+B forward x1 #10: K  5  ARI +0.688 (above 100.0%)  state-section tau +0.946  S1 holds  order tau +0.452 (p 0.025)  S2 fails  relations 1
+B forward x1: S1 holds 10 of 10; S2 holds 0 of 10; both 0 of 10; mean K 5.7, ARI 0.784, state-section tau 0.870, order tau 0.292
+## order only, forward chain, sixteen times the size
+A forward x16: order tau +0.561 +0.561 +0.567 +0.567 +0.563 (relations 232 221 228 216 219)
+B forward x16: order tau +0.612 +0.624 +0.596 +0.610 +0.579 (relations 219 223 238 237 224)
