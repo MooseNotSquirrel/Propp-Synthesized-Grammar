@@ -1,4 +1,4 @@
-# How the stories are built, and the story grammar's controls: protocol (DRAFT 2026-11-04, FOR THE OWNER'S REVIEW; nothing built or run)
+# How the stories are built, and the story grammar's controls: protocol (FROZEN 2026-11-04 AT THE OWNER'S WORD, THE SIX RECOMMENDED DECISIONS TAKEN; nothing built or run)
 
 **Asked by the owner on 2026-11-02** (the order of work, step 6). Two parts, no readers:
 - **Part A,** the rest of ProppQueue.md item (s): move architecture, predictability, openings and endings, and families of tales.
@@ -127,6 +127,8 @@ Compared by a permutation test (the labels of the checking half, 10,000 times) a
 
 ## 9. Decisions for the owner
 
+**Taken 2026-11-04: the owner accepted all six recommendations.** The three predictions of decision 1 are now frozen. The keeper had seen three random closing events per corpus and a total count of resumed moves before this file was frozen, and said so to the owner; the close prediction is not fully blind.
+
 1. **Reported only, or with predictions.** Recommended: Part A reported only, and three predictions frozen, the three questions these models exist to ask:
    - *E2: in the wondertales, the true sections' held-out concordance is above at least 95% of the scrambles,* per transcriber (HOLDS, SPLIT or FAILS). If it fails, the backbone cannot be called Propp's in particular. This follows from Propp's sections being his claim about the wondertale.
    - *F2: shares and length together name the corpus better than length alone,* by the paired test, p at most 0.05, per transcriber. The keeper's expectation, *not from Propp*, from `Composition.txt`.
@@ -139,7 +141,7 @@ Compared by a permutation test (the labels of the checking half, 10,000 times) a
 
 ## 10. Order of work, and the cost
 
-1. The owner's review and decisions; this file frozen.
+1. The owner's review and decisions; this file frozen (done 2026-11-04).
 2. **The programs,** `StoryModels/architecture.py`, `predictability.py`, `openings.py` and `families.py`, and `StoryGrammar/controls.py`, written and committed, and X1 to X6 and T passed, before any figure is read.
 3. **The run,** at the owner's word, in parts if the owner wishes: Part A's four, then Part B.
 

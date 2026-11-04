@@ -1158,3 +1158,10 @@ NEXT, at the owner's word: step 6.
 - **Part B (item (q)):** Propp's plain numerical order as a baseline; scrambled sections refitted 200 times; composition naming the corpus, against length.
 - **Three predictions recommended, of six decisions:** the true sections beat the scrambles in the wondertales; shares and length beat length alone; the etiological close is commoner in the Native American tales than in the wondertales (the last two labelled not from Propp).
 NEXT, at the owner's word: the review and decisions.
+**2026-11-04. `StoryModels/StructureProtocol.md` FROZEN at the owner's word, all six recommendations taken;** three predictions frozen. Programs not yet written.
+**2026-11-04. An audit of the failed self-test asked for by the owner** (ProppQueue.md 5a), to be talked through at the next break: why it failed, and whether a modification of the model can help. The owner calls it a pretty big failure that casts doubt on the rest of the runs. The verdict of record stands; anything mended is reported beside it.
+- **Three things the keeper noticed while looking, none yet tested:**
+  - On the same tales, `Ngrams/ConfirmRun.txt` confirmed 6 of 10 of Propp's pairs by an adjacent-or-near statistic (HOLDS), where the induction's any-distance statistic confirmed 2 of 10.
+  - 16 (A) and 14 (B) of the 26 eligible functions have a Copeland score of 0, so S2's tau rests on few relations.
+  - Test I1's planted grammar had disjoint vocabularies and clean states, far easier than the wondertales, so passing it did not show the tool could find Propp's structure at this size.
+- `Data/tables/resolved.tsv` holds Propp's own strings for the 45 tales (84 moves), which the tool has never been run on.
