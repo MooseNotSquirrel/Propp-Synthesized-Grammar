@@ -67,7 +67,7 @@ def probability_check():
     S = [rng.randrange(0, 4) for _ in range(n)]
     E = [rng.randrange(0, 4) for _ in range(n)]
     order = [3, 1, 0, 5, 2, 4]
-    for name, m in (('slots', G.slot_model(T, S, E, order, 1.0, True)), ('one pass', G.slot_model(T, S, E, order, 1.0, False)), ('bigram', G.bigram_model(T, S, E, 1.0)), ('unigram', G.unigram_model(T, S, E))):
+    for name, m in (('slots', G.slot_model(T, S, E, order, 1.0, True)), ('slots with slips', G.slot_model(T, S, E, order, 1.0, True, 3)), ('one pass', G.slot_model(T, S, E, order, 1.0, False)), ('bigram', G.bigram_model(T, S, E, 1.0)), ('unigram', G.unigram_model(T, S, E))):
         ok('%s: rows and start sum to 1' % name, np.allclose(m[1].sum(1), 1) and abs(m[0].sum() - 1) < 1e-9)
 
 
@@ -104,6 +104,7 @@ def ops_check():
     u, ch = G.apply_ops(['a', 'b', 'c'], [('merge', 'a', 'c', 'a|c')])
     ok('a merge parses', u == ['a|c', 'b', 'a|c'] and ch == [('a|c', 'a'), ('a|c', 'c')])
     ok('expansion', G.expand('a+b', [('join', 'a', 'b', 'a+b')]) == ['a', 'b'])
+    ok('spans: a join adds, a merge does not', G.spans_of(['a', 'b', 'c', 'd'], [('join', 'a', 'b', 'a+b'), ('merge', 'c', 'd', 'c|d')]) == [2, 1, 1])
 
 
 def planted_check():

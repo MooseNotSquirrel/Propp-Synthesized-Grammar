@@ -47,6 +47,33 @@ def g1(propp_slots, propp_pairs, m, rng, opener):
     return stories, {'slots': propp_slots, 'pairs': propp_pairs}
 
 
+def g8(propp_slots, propp_pairs, m, rng, opener):
+    """added at version 2, as v1's G1 proved too easy: unequal rates, some functions rare (Beta(1, 3) a corpus), more slips (0.25),
+    about 17 units a story. Rates stipulated, the length taken from the audit's figure for his strings."""
+    pairs = {x: y for x, y in propp_pairs}
+    where = {u: k for k, alt in enumerate(propp_slots) for u in alt}
+    rates = rng.beta(1, 3, len(propp_slots))
+    stories = []
+    for _ in range(m):
+        s = []
+        for _ in range(n_passes(rng)):
+            on = {}
+            for k, alt in enumerate(propp_slots):
+                if rng.random() < rates[k]:
+                    on[k] = alt[rng.integers(len(alt))]
+            on[opener] = propp_slots[opener][rng.integers(len(propp_slots[opener]))]
+            for x, y in pairs.items():
+                if x in on.values() and y in where and rng.random() < P_PAIR:
+                    on[where[y]] = y
+            mv = [on[k] for k in sorted(on)]
+            for i in range(len(mv) - 1):
+                if rng.random() < 0.25:
+                    mv[i], mv[i + 1] = mv[i + 1], mv[i]
+            s.append(mv)
+        stories.append(s)
+    return stories, {'slots': propp_slots, 'pairs': propp_pairs}
+
+
 def relabel(stories, truth, rng):
     syms = sorted({u for alt in truth['slots'] for u in alt})
     perm = list(rng.permutation(syms))

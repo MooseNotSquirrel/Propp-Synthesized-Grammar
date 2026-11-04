@@ -23,18 +23,20 @@ OPENER = None
 
 def plan():
     out = []
-    for g in ('G1', 'G2'):
+    for g in ('G1', 'G2', 'G8'):
         out += [(g, 45, r) for r in range(20)]
     for g in ('G3', 'G4', 'G5', 'G6', 'G7'):
         out += [(g, 45, r) for r in range(10)]
-    for g in ('G1', 'G2', 'G3', 'G4', 'G5', 'G6', 'G7'):
+    for g in ('G1', 'G2', 'G3', 'G4', 'G5', 'G6', 'G7', 'G8'):
         out += [(g, s, r) for s in (20, 100) for r in range(5)]
     return out
 
 
-def make(g, size, rep, slots, pairs):
-    rng = np.random.default_rng([SEED, int(g[1]), size, rep])
+def make(g, size, rep, slots, pairs, seed):
+    rng = np.random.default_rng([seed, int(g[1]), size, rep])
     opener = next(i for i, alt in enumerate(slots) if len(alt) == 2)
+    if g == 'G8':
+        return X.g8(slots, pairs, size, rng, opener)
     if g in ('G1', 'G2'):
         st, tr = X.g1(slots, pairs, size, rng, opener)
         if g == 'G2':
@@ -44,9 +46,9 @@ def make(g, size, rep, slots, pairs):
 
 
 def work(a):
-    (g, size, rep), slots, pairs = a
+    (g, size, rep), slots, pairs, seed = a
     t0 = time.time()
-    st, tr = make(g, size, rep, slots, pairs)
+    st, tr = make(g, size, rep, slots, pairs, seed)
     flat = [X.flat(s) for s in st]
     keep = [i for i, f in enumerate(flat) if f]
     flat = [flat[i] for i in keep]
@@ -54,7 +56,7 @@ def work(a):
     f = G.fit(flat)
     r = {'g': g, 'size': size, 'rep': rep, 'shape': f['shape'], 'ordered': f['ordered'], 'coverage': f['coverage'], 'cv': f['cv'], 'steps': f['steps'],
          'K': f['hmm_K'], 'ops': f['ops'], 'symbols': f['symbols'], 'units': sum(map(len, flat)) / len(flat), 'secs': time.time() - t0}
-    if g in ('G1', 'G2'):
+    if g in ('G1', 'G2', 'G8'):
         num = C.numbering(tr['slots'])
         r['rel_tau'], r['rel_n'] = C.relation_tau(f['relations'], num)
         r['ord_tau'] = C.order_tau(f['order'], num)
@@ -83,7 +85,7 @@ def pct(xs, p):
 
 def summary(rows, version):
     out = ['# Rung1-%s.txt -- generated grammars only; no real string read. Rules in Versions.md.' % version]
-    req = {'G1': 'ordered', 'G2': 'ordered', 'G3': 'ordered', 'G4': 'not ordered', 'G5': 'bigram', 'G6': 'not ordered', 'G7': 'unigram'}
+    req = {'G1': 'ordered', 'G2': 'ordered', 'G3': 'ordered', 'G4': 'not ordered', 'G5': 'bigram', 'G6': 'not ordered', 'G7': 'unigram', 'G8': 'ordered'}
     def met(r):
         q = req[r['g']]
         return r['ordered'] if q == 'ordered' else (not r['ordered']) if q == 'not ordered' else r['shape'] == q
@@ -117,6 +119,13 @@ def summary(rows, version):
     fb = np.mean([r['false_branch'] for r in g1])
     out.append('G3 corpora flagging at least half the cross-branch pairs: %.0f%% (need 80%%); G1 mean share of pairs falsely flagged %.3f (need at most 0.05)' % (100 * br, fb))
     allok = allok and own >= .8 and false <= .05 and br >= .8 and fb <= .05
+    g8 = [r for r in rows if r['g'] == 'G8' and r['size'] == 45]
+    out.append('## G8, the harder Propp, 45 stories, beside G1: 10th percentile and median')
+    for k in ('rel_tau', 'ord_tau', 'recall', 'F'):
+        out.append('%-8s %.3f; %.3f' % (k, pct([r[k] for r in g8], 10), pct([r[k] for r in g8], 50)))
+    ratio = lambda g_: pct([r['steps']['ratio'] for r in rows if r['g'] == g_ and r['size'] == 45], 50)
+    out.append('G8 acceptance %.2f; shuffled %.3f; ratio of slot to bigram gain, medians: G1 %.3f, G3 %.3f, G4 %.3f, G5 %.3f, G6 %.3f, G8 %.3f'
+               % (np.mean([r['accept'][0] / r['accept'][1] for r in g8]), np.mean([r['accept'][2] for r in g8]), ratio('G1'), ratio('G3'), ratio('G4'), ratio('G5'), ratio('G6'), ratio('G8')))
     out.append('RUNG 1: %s' % ('PASSES' if allok else 'FAILS'))
     return out
 
@@ -124,7 +133,8 @@ def summary(rows, version):
 if __name__ == '__main__':
     version = sys.argv[1]
     slots, pairs = C.propp()
-    jobs = [(p, slots, pairs) for p in plan()]
+    seed = SEED + int(version[1:])  # fresh draws each version
+    jobs = [(p, slots, pairs, seed) for p in plan()]
     rows = []
     path = os.path.join(HERE, 'Rung1-%s.json' % version)
     with multiprocessing.Pool(4) as pool:

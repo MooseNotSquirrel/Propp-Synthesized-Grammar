@@ -1,4 +1,4 @@
-"""grammar.py -- the general story grammar, version 1 (GeneralGrammarProtocol.md, frozen 2026-11-04).
+"""grammar.py -- the general story grammar, version 2 (GeneralGrammarProtocol.md, frozen 2026-11-04).
 
 It takes stories as lists of symbols and knows nothing of any alphabet. No Propp order, section, pair or move rule is here,
 and test_rung0.py fails if this file imports anything that holds them. Symbols are numbered by first appearance, so a
@@ -23,7 +23,9 @@ SUPPORT = 0.95
 L2_GAIN, L2_TRIES, L2_MAX = 2.0, 10, 12
 LINK_SHUFFLES, LINK_P, LINK_LIFT, LINK_MIN = 500, 0.01, 1.5, 3
 FLIPS, ALPHA = 2000, 0.05
-COVERAGE = 0.3
+COVERAGE, RATIO = 0.7, 0.9
+WINDOWS = (0, 2, 4, 8)
+L2_GRID = (1.0, 2)
 
 
 # ---------------------------------------------------------------- symbols
@@ -73,6 +75,27 @@ def apply_ops(story, ops):
                     chosen.append((name, u))
                     units[i] = name
     return units, chosen
+
+
+def spans_of(story, ops):
+    """how many base symbols each unit of the parsed story stands for: a join adds, a merge does not"""
+    units, n = list(story), [1] * len(story)
+    for kind, x, y, name in ops:
+        if kind == 'join':
+            ou, on, i = [], [], 0
+            while i < len(units):
+                if i + 1 < len(units) and units[i] == x and units[i + 1] == y:
+                    ou.append(name)
+                    on.append(n[i] + n[i + 1])
+                    i += 2
+                else:
+                    ou.append(units[i])
+                    on.append(n[i])
+                    i += 1
+            units, n = ou, on
+        else:
+            units = [name if u == x or u == y else u for u in units]
+    return n
 
 
 def expand(unit, ops):
@@ -246,8 +269,9 @@ def bigram_model(T, S, E, beta):
     return st, P
 
 
-def slot_model(T, S, E, order, beta, restarts):
-    """restarts: (1 - r_x) F_x + r_x R, with one R for all; otherwise one pass: (1 - e) F_x + e U, with one e for all"""
+def slot_model(T, S, E, order, beta, restarts, window=0):
+    """restarts: (1 - r_x - s_x) F_x + r_x R + s_x L_x, with one R for all, and L a slip back of at most `window` slots;
+    otherwise one pass: (1 - e) F_x + e U, with one e for all"""
     n = len(S)
     U = unigram_of(T, S, E)
     A = np.array(T, float)
@@ -260,20 +284,38 @@ def slot_model(T, S, E, order, beta, restarts):
     Uf = U[None, :] * mask
     Uf = Uf / Uf.sum(1, keepdims=True)
     F = (F_counts + beta * Uf) / (F_counts.sum(1, keepdims=True) + beta)
-    B = A * (~fwd)
-    Bt = B.sum(1)
-    if restarts:
-        Nt = F_counts.sum(1) + Bt
-        r = (Bt + 0.5) / (Nt + 1.0)
-        Rc = B.sum(0) + np.array(S, float)
-        R = (Rc + 0.5) / (Rc.sum() + 0.5 * n)
-        Rx = np.append(R, 0.0)
-        P = (1 - r)[:, None] * F + r[:, None] * Rx[None, :]
-        return R, P, F, r, Rx
-    e = (Bt.sum() + 0.5) / (F_counts.sum() + Bt.sum() + 1.0)
-    P = (1 - e) * F + e * U[None, :]
-    st = (np.array(S, float) + 0.5) / (sum(S) + 0.5 * n)
-    return st, P, F, np.full(n, e), U
+    if not restarts:
+        Bt = (A * (~fwd)).sum(1)
+        e = (Bt.sum() + 0.5) / (F_counts.sum() + Bt.sum() + 1.0)
+        P = (1 - e) * F + e * U[None, :]
+        st = (np.array(S, float) + 0.5) / (sum(S) + 0.5 * n)
+        return st, P, F, np.full(n, e), U, np.zeros((n, n + 1))
+    dist = rank[:, None] - rank[None, :]             # x's rank less y's: positive is a step back
+    near = (dist >= 1) & (dist <= window)
+    far = (~fwd) & (~near)
+    Bfar, Bnear = A * far, A * near
+    Nt = F_counts.sum(1) + Bfar.sum(1) + Bnear.sum(1)
+    r = (Bfar.sum(1) + 0.5) / (Nt + 1.0)
+    Rc = Bfar.sum(0) + np.array(S, float)
+    R = (Rc + 0.5) / (Rc.sum() + 0.5 * n)
+    Rx = np.append(R, 0.0)
+    L = np.zeros((n, n + 1))
+    if window:
+        d = np.array([(Bnear * (dist == k)).sum() for k in range(1, window + 1)]) + 0.5
+        d = d / d.sum()
+        for k in range(1, window + 1):
+            L[:, :n] += d[k - 1] * (dist == k)
+        tot = L.sum(1, keepdims=True)
+        L = np.where(tot > 0, L / np.where(tot > 0, tot, 1), 0.0)
+        sl = np.where(tot[:, 0] > 0, (Bnear.sum() + 0.5) / (Nt.sum() + 1.0), 0.0)
+    else:
+        sl = np.zeros(n)
+    Fw = np.clip(1 - r - sl, 1e-6, None)
+    P = Fw[:, None] * F + r[:, None] * Rx[None, :] + sl[:, None] * L
+    tot = P.sum(1, keepdims=True)
+    Pfs = (Fw[:, None] * F + sl[:, None] * L) / tot
+    P = P / tot
+    return R, P, F, r / tot[:, 0], Rx, Pfs
 
 
 # ---------------------------------------------------------------- the free HMM
@@ -417,31 +459,31 @@ def member_terms(chosen_train, chosen_test):
     return out
 
 
-def slot_cv(stories, ops, folds, seed, starts, beta=1.0, restarts=True, betas=None):
-    """per-story held-out likelihood of the slot grammar over these units"""
+def slot_cv(stories, ops, folds, seed, starts, grid=(L2_GRID,), restarts=True):
+    """per-story held-out likelihood of the slot grammar over these units, for each (beta, window) in the grid"""
     parsed = [apply_ops(s, ops) for s in stories]
     units = [p[0] for p in parsed]
     chosen = [p[1] for p in parsed]
     vocab = vocab_of(units)
     idx = {u: i for i, u in enumerate(vocab)}
-    res = {b: np.zeros(len(stories)) for b in (betas or [beta])}
+    res = {g: np.zeros(len(stories)) for g in grid}
     for f, test in enumerate(folds):
         ts = set(test)
         train = [i for i in range(len(stories)) if i not in ts]
         T, S, E = counts([units[i] for i in train], idx)
         order = search(T, S, random.Random(seed + f), starts)
         mem = member_terms([chosen[i] for i in train], [chosen[i] for i in test])
-        for b in res:
-            m = slot_model(T, S, E, order, b, restarts)
+        for g in res:
+            m = slot_model(T, S, E, order, g[0], restarts, g[1])
             for k, i in enumerate(test):
-                res[b][i] = score_story(units[i], idx, m[0], m[1]) + mem[k]
+                res[g][i] = score_story(units[i], idx, m[0], m[1]) + mem[k]
     return res
 
 
 def level2(stories, vocab, folds, seed):
-    """greedy joins and merges, each kept only if held-out likelihood rises by L2_GAIN"""
+    """greedy joins and merges, each kept only if held-out likelihood rises by L2_GAIN and by a paired test over stories"""
     ops = []
-    cur = slot_cv(stories, ops, folds, seed, L2_STARTS)[1.0].sum()
+    cur = slot_cv(stories, ops, folds, seed, L2_STARTS)[L2_GRID]
     tried = set()
     for _ in range(L2_MAX):
         units = [apply_ops(s, ops)[0] for s in stories]
@@ -449,14 +491,14 @@ def level2(stories, vocab, folds, seed):
         lk = links(units, v, seed)
         cand = sorted(lk, key=lambda p: (lk[p][2], -lk[p][1], v.index(p[0]), v.index(p[1])))[:L2_TRIES]
         options = [('join', x, y) for x, y in cand] + [('merge', x, y) for x, y in merge_candidates(units, v)]
-        best, bestv = None, cur + L2_GAIN
+        best, bestv = None, None
         for kind, x, y in options:
             if (kind, x, y) in tried:
                 continue
             tried.add((kind, x, y))
             name = ('%s+%s' if kind == 'join' else '%s|%s') % (x, y)
-            val = slot_cv(stories, ops + [(kind, x, y, name)], folds, seed, L2_STARTS)[1.0].sum()
-            if val > bestv:
+            val = slot_cv(stories, ops + [(kind, x, y, name)], folds, seed, L2_STARTS)[L2_GRID]
+            if val.sum() > cur.sum() + L2_GAIN and flip_p(val, cur, seed) <= ALPHA and (bestv is None or val.sum() > bestv.sum()):
                 best, bestv = (kind, x, y, name), val
         if best is None:
             break
@@ -493,9 +535,10 @@ def rivals(stories, vocab, ops, folds, seed):
             for i in test:
                 bi[b][i] = score_story(stories[i], idx, st, P)
     out = {'unigram': uni, 'bigram': max(bi.values(), key=lambda v: v.sum())}
-    sr = slot_cv(stories, ops, folds, seed, CV_STARTS, betas=BETAS, restarts=True)
-    s1 = slot_cv(stories, ops, folds, seed, CV_STARTS, betas=BETAS, restarts=False)
-    out['slots'] = max(sr.values(), key=lambda v: v.sum())
+    sr = slot_cv(stories, ops, folds, seed, CV_STARTS, grid=[(b, w) for b in BETAS for w in WINDOWS], restarts=True)
+    s1 = slot_cv(stories, ops, folds, seed, CV_STARTS, grid=[(b, 0) for b in BETAS], restarts=False)
+    bestg = max(sr, key=lambda g: (sr[g].sum(), -g[0], -g[1]))
+    out['slots'] = sr[bestg]
     out['one pass'] = max(s1.values(), key=lambda v: v.sum())
     # the HMM: base symbols and an end symbol; K by the same held-out score (slightly in its favour)
     V = len(vocab) + 1
@@ -515,24 +558,32 @@ def rivals(stories, vocab, ops, folds, seed):
         if bestv is None or res.sum() > bestv.sum():
             bestK, bestv = K, res
     out['hmm'] = bestv
-    return out, bestK
+    return out, bestK, bestg
 
 
-def shape_of(cv, seed):
-    """the ladder: a richer shape is taken only if it beats the current one, paired over stories, one-sided p at most ALPHA"""
+def shape_of(cv, seed, coverage):
+    """Is there an order? and, apart from that, which shape predicts? The bigram holds the slot grammar inside it, so it will
+    always win with enough data: beating it cannot be the test of order. Ordered means: the slots beat the unigram, keep at
+    least RATIO of what the bigram gains, and the bootstrap's partial order covers at least COVERAGE of the pairs."""
+    steps = {'slots over one pass': flip_p(cv['slots'], cv['one pass'], seed)}
+    slot = 'slots' if steps['slots over one pass'] <= ALPHA else 'one pass'
+    gain_s = cv[slot].sum() - cv['unigram'].sum()
+    gain_b = cv['bigram'].sum() - cv['unigram'].sum()
+    steps['slots over unigram'] = flip_p(cv[slot], cv['unigram'], seed)
+    steps['ratio'] = float(gain_s / gain_b) if gain_b > 0 else 0.0
+    if steps['slots over unigram'] <= ALPHA and gain_b > 0 and steps['ratio'] >= RATIO and coverage >= COVERAGE:
+        return ('ordered passes' if slot == 'slots' else 'one ordered pass'), True, steps
     cur = 'unigram'
-    steps = {}
-    slot = 'one pass'
-    p = flip_p(cv['slots'], cv['one pass'], seed)
-    if p <= ALPHA:
-        slot = 'slots'
-    steps['slots over one pass'] = p
-    for c in (slot, 'bigram', 'hmm'):
+    for c in ('bigram', 'hmm'):
         p = flip_p(cv[c], cv[cur], seed)
         steps['%s over %s' % (c, cur)] = p
         if p <= ALPHA:
             cur = c
-    return cur, steps
+    p = flip_p(cv[slot], cv[cur], seed)
+    steps['slots over %s' % cur] = p
+    if p <= ALPHA:
+        cur = 'local order'
+    return cur, False, steps
 
 
 # ---------------------------------------------------------------- level 4
@@ -558,14 +609,14 @@ def bootstrap_order(units, idx, order, seed, boots=BOOTSTRAPS):
 
 
 def passes_of(units, idx, model):
-    """where a restart is the likelier reading of a step: cuts, as unit positions"""
-    _, _, F, r, Rx = model
+    """where a restart is the likelier reading of a step than going forward or slipping back: cuts, as unit positions"""
+    _, _, _, r, Rx, Pfs = model
     out = []
     for s in units:
         cuts = []
         for t, (a, b) in enumerate(zip(s, s[1:])):
             i, j = idx[a], idx[b]
-            if r[i] * Rx[j] > (1 - r[i]) * F[i, j]:
+            if r[i] * Rx[j] > Pfs[i, j]:
                 cuts.append(t + 1)
         out.append(cuts)
     return out
@@ -588,7 +639,7 @@ def branches(pass_lists, vocab):
             k = len(has[x] & has[y])
             e = len(has[x]) * len(has[y]) / P
             p = hypergeom.cdf(k, P, len(has[x]), len(has[y]))
-            if p <= 0.001 and k <= 0.25 * e:
+            if p <= 0.01 and k <= 0.25 * e:
                 out.append((x, y, k, round(e, 2), float(p)))
     return out
 
@@ -599,8 +650,7 @@ def fit(raw, seed=20261104, boots=BOOTSTRAPS, starts=ORDER_STARTS):
     stories = [s for s in stories if s]
     folds = folds_of(len(stories), seed)
     ops = level2(stories, vocab, folds, seed)
-    cv, K = rivals(stories, vocab, ops, folds, seed)
-    shape, steps = shape_of(cv, seed)
+    cv, K, grid = rivals(stories, vocab, ops, folds, seed)
     parsed = [apply_ops(s, ops) for s in stories]
     units = [p[0] for p in parsed]
     uv = vocab_of(units)
@@ -619,9 +669,8 @@ def fit(raw, seed=20261104, boots=BOOTSTRAPS, starts=ORDER_STARTS):
     real = [u for u in uv if u != RARE]
     pairs = len(real) * (len(real) - 1) / 2
     coverage = len(rel) / pairs if pairs else 0.0
-    betas = {b: slot_cv(stories, ops, folds, seed, CV_STARTS, betas=[b])[b].sum() for b in BETAS}
-    beta = max(BETAS, key=lambda b: (betas[b], -b))
-    model = slot_model(T, S, E, order, beta, True)
+    shape, ordered, steps = shape_of(cv, seed, coverage)
+    model = slot_model(T, S, E, order, grid[0], True, grid[1])
     cuts = passes_of(units, idx, model)
     plist = []
     for s, c in zip(units, cuts):
@@ -644,17 +693,17 @@ def fit(raw, seed=20261104, boots=BOOTSTRAPS, starts=ORDER_STARTS):
     for x in order:
         base_order += [u for u in expand(uv[x], ops) if u != RARE]
     base_cuts = []
-    for s, c in zip(units, cuts):
+    for s0, s, c in zip(stories, units, cuts):
         pos, k, out = 0, set(c), []
+        sp = spans_of(s0, ops)
         for t, u in enumerate(s):
             if t in k:
                 out.append(pos)
-            pos += len(expand(u, ops)) if ops else 1
+            pos += sp[t]
         base_cuts.append(out)
-    ordered = shape in ('one pass', 'slots') and coverage >= COVERAGE
     lk = links(stories, vocab, seed)
     return {
-        'shape': shape, 'ordered': bool(ordered), 'coverage': coverage, 'steps': steps, 'hmm_K': K,
+        'shape': shape, 'ordered': bool(ordered), 'coverage': coverage, 'steps': steps, 'hmm_K': K, 'beta_window': list(grid),
         'cv': {k: float(v.sum()) for k, v in cv.items()},
         'symbols': len(real), 'units': [u for u in uv], 'ops': [list(o) for o in ops],
         'order': base_order, 'relations': sorted(base_rel), 'links': sorted((x, y) for x, y in lk),
