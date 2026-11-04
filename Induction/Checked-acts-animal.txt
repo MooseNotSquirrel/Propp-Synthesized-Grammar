@@ -1,0 +1,18 @@
+# Checked-acts-animal.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 1 of 6 candidates
+  leave then escape  34.0 1.75 0.0010  42.0 1.67 0.0010
+Q3. Propp's pairs occurring at least 5 times: 6; confirmed 0 (); recall 0.00; precision 0.00
+Q2. blocks: 0
+
+## A
+P3. relations holding again on the checking half: 3 of 3 with data (3 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.1147, unigram -3.1185, bigram -3.7726: a grammar (beats the unigram)
+
+## B
+P3. relations holding again on the checking half: 1 of 1 with data (1 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.1672, unigram -3.1463, bigram -3.6890: NOT A GRAMMAR (does not beat the unigram)
+
+H5. A and B sections agree: ARI 0.012 over 30 units
+
+# the self-test: VERDICT: FAILS; THESE ARE THE OUTPUTS OF AN UNVERIFIED TOOL
