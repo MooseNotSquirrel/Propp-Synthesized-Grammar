@@ -1,0 +1,19 @@
+# Checked-acts-native.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 2 of 20 candidates
+  harm then punish  35.0 1.97 0.0010  20.0 1.91 0.0050
+  send then punish  24.0 2.00 0.0040  16.0 1.88 0.0150
+Q3. Propp's pairs occurring at least 5 times: 8; confirmed 0 (); recall 0.00; precision 0.00
+Q2. blocks: 0
+
+## A
+P3. relations holding again on the checking half: 0 of 0 with data (0 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.3140, unigram -3.3249, bigram -4.0402: a grammar (beats the unigram)
+
+## B
+P3. relations holding again on the checking half: 1 of 1 with data (1 relations)
+H5. log-likelihood per symbol on the checking half: HMM -3.3799, unigram -3.3621, bigram -4.1303: NOT A GRAMMAR (does not beat the unigram)
+
+H5. A and B sections agree: ARI 0.033 over 35 units
+
+# the self-test: VERDICT: FAILS; THESE ARE THE OUTPUTS OF AN UNVERIFIED TOOL
