@@ -1,0 +1,5 @@
+(* induced grammar, fable, functions layer, transcriber B (induce.py, the induction half) *)
+(* states in order of their place in the move; rules of probability at least 0.05 *)
+move = S1 (* 1.00 *) ;
+S1 = ( A (* 0.40 *) | a (* 0.38 *) | η (* 0.06 *) ) , ( S1 (* 0.15 *) | S2 (* 0.85 *) ) ;
+S2 = ( K (* 0.07 *) | F (* 0.07 *) | η (* 0.07 *) | θ (* 0.05 *) ) , ( S2 (* 1.00 *) | end (* 0.35 *) ) ;

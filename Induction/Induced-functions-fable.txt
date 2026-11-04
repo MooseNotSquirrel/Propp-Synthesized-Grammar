@@ -1,0 +1,31 @@
+# Induced-functions-fable.txt -- induce.py induce: the induction half only (InductionProtocol.md, frozen 2026-11-03)
+#  per transcriber A (Opus) and B (Sonnet)
+
+## A
+P1. eligible (in at least 5 stories): 17: γ η θ A a B up D E F H I K Rs L Ex U
+P2. relations 2; the Hasse list: a<F, a<K
+P2. the linear order (Copeland): a A B D E Ex H I L Rs U up γ η θ F K
+P3. Kendall tau with Propp's numbering 0.221, p 0.2864
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -2.8497, 3 -2.9128, 4 -2.9070, 5 -2.9787, 6 -2.9654, 7 -3.0611, 8 -2.9480, 9 -2.9499, 10 -3.1335, 11 -3.0081, 12 -2.9624
+H3. S1 (place 0.14): β ζ A a C up H Pr
+H3. S2 (place 0.73): γ δ ε η θ B D E F I K down Rs o L M N Q Ex T U W
+S1. against Propp's sections: ARI 0.034, above 72.2% of permuted assignments; tau of place and section 0.201: does not hold
+S2. P2's order against Propp's numbering: does not hold
+
+## B
+P1. eligible (in at least 5 stories): 14: η θ A a B C E F H I K Rs Ex U
+P2. relations 2; the Hasse list: a<F, a<K
+P2. the linear order (Copeland): a A B C E Ex H I Rs U η θ F K
+P3. Kendall tau with Propp's numbering 0.249, p 0.2791
+H2. K = 2; cross-validated log-likelihood per symbol: 2 -2.6247, 3 -2.7850, 4 -2.7407, 5 -2.7812, 6 -2.7039, 7 -2.7200, 8 -2.7014, 9 -2.7108, 10 -2.7987, 11 -2.6924, 12 -2.8166
+H3. S1 (place 0.06): β A a up G H Pr L
+H3. S2 (place 0.71): γ ε ζ η θ B C D E F I K down Rs o M N Q Ex T U W
+S1. against Propp's sections: ARI -0.050, above 0.0% of permuted assignments; tau of place and section 0.155: does not hold
+S2. P2's order against Propp's numbering: does not hold
+
+Q1. candidate pairs, both transcribers (count, lift, p for A; then B): 4
+  A then K  13.5 1.99 0.0020  11.5 1.98 0.0020
+  a then η  8.0 1.77 0.0100  9.0 1.78 0.0070
+  a then F  9.0 2.00 0.0010  12.0 2.01 0.0010
+  a then K  10.5 2.01 0.0010  10.5 2.00 0.0010
+P3. relations in both transcribers over relations in either: 2 of 2
