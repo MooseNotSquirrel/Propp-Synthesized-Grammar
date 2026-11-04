@@ -1,10 +1,10 @@
-# A general story grammar: protocol (DRAFT 2026-11-04, for the owner's review; nothing built or run)
+# A general story grammar: protocol (FROZEN 2026-11-04 AT THE OWNER'S WORD, THE SIX RECOMMENDED DECISIONS TAKEN; nothing built or run)
 
 **Asked by the owner on 2026-11-04,** after the audit of the failed self-test (`Induction/AuditReport.md`). The task, in the owner's terms: a general model that retrieves Propp's model from his corpus, and adapts to a different corpus to retrieve its model, without forcing Propp onto it. Propp's functions and the acts are the base. There must be flexibility in moving up from that base, and candidates may be added to it.
 
 **What it does not change.** The FAILS verdict of `InductionProtocol.md`, the frozen story grammar and its verdicts, and `StoryModels/StructureProtocol.md` all stand.
 
-**The precedent, at the owner's word.** The regular grammar was given its shape from the wondertales, accepted 80 of 84 moves (shuffles 0.8%), and was then tried on other corpora. This model follows that course, so it does not need unseen wondertales before going on. What it needs is rung 1, below.
+**The precedent, at the owner's word.** V46, the regular language with the shape of V43, accepted 80 of 84 moves (shuffles 0.8%) and was then tried on other corpora. This model follows that course, so it does not need unseen wondertales before going on. What it needs is rung 1, below.
 
 ## 1. How much Propp is in it
 
@@ -82,7 +82,7 @@ Each rung is committed before the next is run.
 
 **G2 is the test of not forcing Propp.** G3 to G7 test that it can answer otherwise. **The bars for rung 2 are set here, by a rule fixed now:** each is the value that at least 90% of G1 corpora reach at the real size, with at most 5% of G2's relabelled answers scored against Propp's order reaching it. If rung 1 fails, the model is wrong, and no real string is read.
 
-**Rung 2. Propp's own strings: the retrieval.** The 45 tales of `resolved.tsv`, 84 moves, fitted on all of them, as the regular grammar was. His claims, each HOLDS or FAILS against rung 1's bars:
+**Rung 2. Propp's own strings: the retrieval.** The 45 tales of `resolved.tsv`, 84 moves, fitted on all of them, as V46 was. His claims, each HOLDS or FAILS against rung 1's bars:
 
 | Claim | Score |
 |---|---|
@@ -90,7 +90,7 @@ Each rung is committed before the next is run.
 | **Order** | Kendall tau with his numbering, over the ordered pairs |
 | **Pairs** | Recall of his pairs in the joins or links |
 | **Moves** | The inferred passes against his 84 moves: boundary F-score |
-| **Acceptance, reported beside the regular grammar** | How many of the 84 moves break no relation of the partial order, against shuffled moves, beside 80 of 84 and 0.8% |
+| **Acceptance, reported beside V46** | How many of the 84 moves break no relation of the partial order, against shuffled moves, beside 80 of 84 and 0.8% |
 
 Blocks against the ten sections are reported as secondary (section 6, decision 1). His strings have no preparatory units, so **functions 1 to 7 cannot be retrieved at this rung.** A fit on one half, read on the other, goes beside it.
 
@@ -115,16 +115,23 @@ Reported, with no prediction frozen, unless the owner wants one.
 - **Candidates:** the sixteen X-study acts (`XStudy/Candidates.md`) and oath, prayer and curse need coded strings. Those exist only where they were transcribed, so most wait for card D at step 7. The audit's finding points the same way: the hero's tricks now coded η could go to `xDec`.
 - **How one is judged:** coverage (X's share falls), bits per event, and whether the grammar gains. Likelihoods over different alphabets are not comparable directly, so every event, X included, is scored in bits.
 
-## 5. If a rung fails
+## 5. Stepwise refinement
 
-- **Nothing is rescored.** A failed version's verdict stays on record.
-- **A revision is a new numbered version,** like the regular grammar's. It must pass rungs 0 and 1 again, and the count of versions is reported with any final result. (Decision 2.)
-- **No revision may use Propp's order, sections or pairs in the tool.**
+**The owner, 2026-11-04:** building a general model on Propp's example is very hard, and may need stepwise refinement, moving forward incrementally and improving the model as we learn from each attempt. That is the method here, not a fallback.
+
+- **Each attempt is a numbered version** (`GeneralGrammar/Versions.md`): what it changed, why, what it scored, and what was learned.
+- **Nothing is rescored.** A version's result stays on record.
+- **Every version passes rungs 0 and 1 again.** Those are the regression suite. Whatever is learned from a failure may add a generator, and none is ever removed.
+- **No version may use Propp's order, sections or pairs in the tool.** Rung 1's relabelled Propp enforces this: a refinement that only helps Propp fails there.
+- **The count of versions is reported with any result.**
+- **The data may be collected again.** The owner is not averse to rerunning all of the data collection if the cards prove wrong or bake in too much Propp. So a failure at rung 3 or 4 may lead to a new card and new transcriptions, as well as to a new version of the tool. Old strings stay on record.
 
 ## 6. Decisions for the owner
 
+**Taken 2026-11-04: the owner accepted all six recommendations.**
+
 1. **The target.** Recommended: order, pairs, moves and shape are the claims; the ten sections are secondary. They are this project's grouping (`constraintGrammar.SECTION_GROUPS`), and the keeper would first check against Propp's text how far they are his.
-2. **Revisions.** Recommended: allowed and numbered, as in section 5. Forbidding them would be stricter than the regular grammar's course. Allowing them is the risk of teaching to the test, which rung 1 and the reported count guard against.
+2. **Revisions.** Recommended: allowed and numbered, as in section 5. Forbidding them would be stricter than V46's course. Allowing them is the risk of teaching to the test, which rung 1 and the reported count guard against.
 3. **Whole stories, no move labels.** Recommended. The cost: the moves are harder to get than if they were given.
 4. **Bars from rung 1, by the rule in section 3.** Recommended, in place of fixed bars like the old 0.6.
 5. **Fit rung 2 on all 45.** Recommended, by the owner's precedent, with the half-split reported beside it.
@@ -132,7 +139,7 @@ Reported, with no prediction frozen, unless the owner wants one.
 
 ## 7. Order of work and cost
 
-1. The owner's review and decisions; this file frozen.
+1. The owner's review and decisions; this file frozen (done 2026-11-04).
 2. **Program and rung 0:** `GeneralGrammar/grammar.py` (the tool), `score.py` (the only file that knows Propp), `generators.py`; committed before anything runs.
 3. **Rung 1,** bars committed. The owner sees it before any real string is read.
 4. **Rungs 2 and 3,** then the owner's word for rung 4.
