@@ -1116,3 +1116,40 @@ NEXT, at the owner's word: whether to run the other corpora (labelled), and the 
   - 6 pairs are confirmed, all long-range, four of them ending in marry. None of the 12 act counterparts of Propp's pairs is confirmed (recall 0). There are no blocks.
 - **The keeper's reading, not from Propp:** the acts, described without his card, show the same coarse arc the functions did, opening, conflict and close, and it lines up with his sections beyond chance. Neither layer shows his ten sections or his close pairs. The arc, not the fine structure, is what this tool recovers.
 NEXT, at the owner's word: the other corpora, both layers, labelled as an unverified tool's output (the functions self-test failed).
+**2026-11-04. Step 5 DONE: the other corpora induced and checked** (`Induction/Induced-*`, `Checked-*`, `Grammar-*`; 11 corpus-layers). At the owner's word. Each corpus's induced files were committed before its check ran. The self-test FAILED, so ALL OF THIS IS THE OUTPUT OF AN UNVERIFIED TOOL, reported only.
+- **Function layer, A / B, wondertales first for comparison:**
+
+| Corpus | K | Order relations | Pairs confirmed | Propp's pairs confirmed | A-B sections (ARI) |
+|---|---|---|---|---|---|
+| wondertales | 6 / 4 | 18 / 36 | 27 | 2 of 10 | 0.323 |
+| animal tales | 10 / 5 | 5 / 2 | 4 | 0 of 2 | 0.112 |
+| fables | 2 / 2 | 2 / 2 | 2 | 0 of 2 | 0.599 |
+| tragedies | 3 / 4 | 16 / 9 | 9 | 1 of 6 | 0.221 |
+| myths | 5 / 5 | 6 / 9 | 5 | 1 of 6 | 0.002 |
+| Native American | 3 / 10 | 2 / 3 | 8 | 3 of 6 | 0.002 |
+| East Asian | 3 / 5 | 1 / 4 | 4 | 2 of 7 | 0.331 |
+
+  - Every function-layer HMM beats the unigram on the checking half.
+  - Against Propp's sections, the ARI clears the 95% bar only for the myths (A, B) and East Asian A. No corpus reaches a section-order tau of 0.6 or S2's order.
+  - In every corpus and for both transcribers, A and a stand in the earliest state or states. Animal A splits them across its first two.
+- **Act layer, A / B:**
+
+| Corpus | K | Order relations | Pairs confirmed | Propp's counterparts confirmed | Beats the unigram | A-B sections (ARI) |
+|---|---|---|---|---|---|---|
+| wondertales | 3 / 4 | 28 / 15 | 6 | 0 of 12 | yes / yes | 0.230 |
+| animal tales | 2 / 7 | 3 / 1 | 1 | 0 of 6 | yes / no | 0.012 |
+| Fables | 2 / 2 | 0 / 0 | 0 | 0 of 3 | no / no | -0.023 |
+| tragedies | 2 / 2 | 9 / 3 | 0 | 0 of 9 | yes / yes | 0.125 |
+| Native American | 2 / 3 | 0 / 1 | 2 | 0 of 8 | yes / no | 0.033 |
+| East Asian | 2 / 2 | 2 / 0 | 1 | 1 of 7 (harm repair) | no / no | 0.160 |
+
+  - Outside the wondertales, 6 of the 10 act-layer models do not beat the unigram, and those that do beat it narrowly.
+- **What can be said:**
+  - **The induced sections do not replicate well between transcribers,** which item (r) required: an ARI of 0.002 in the myths and Native American tales. The fables' 0.599 is at K = 2 for both.
+  - **The order relations are few but stable:** on the checking half, all hold but one in the functions (tragedies A, 15 of 16) and one in the acts (tragedies A, 8 of 9).
+  - **Corpus size limits this:** a relation needs 10 stories holding both functions, and each induction half has 16 to 62 stories.
+- **The keeper's reading, not from Propp:**
+  - Across corpora the functions show one robust fact: a story opens on villainy or lack. The rest of the section structure is not stable enough at this size.
+  - The acts carry a sequence in the wondertales and little elsewhere.
+  - Any change to the pair statistic or the model would need a protocol of its own, not a retuning of this one.
+NEXT, at the owner's word: step 6.
