@@ -1,0 +1,6 @@
+(* induced grammar, eastasian, functions layer, transcriber A (induce.py, the induction half) *)
+(* states in order of their place in the move; rules of probability at least 0.05 *)
+move = S1 (* 1.00 *) ;
+S1 = ( a (* 0.53 *) | A (* 0.34 *) ) , ( S2 (* 1.00 *) ) ;
+S2 = ( η (* 0.13 *) | θ (* 0.11 *) | F (* 0.11 *) | C (* 0.10 *) | B (* 0.08 *) | up (* 0.07 *) | A (* 0.06 *) ) , ( S2 (* 0.78 *) | S3 (* 0.20 *) | end (* 0.10 *) ) ;
+S3 = ( K (* 0.10 *) | down (* 0.08 *) | W (* 0.08 *) | Ex (* 0.06 *) ) , ( S3 (* 1.00 *) | end (* 0.29 *) ) ;
