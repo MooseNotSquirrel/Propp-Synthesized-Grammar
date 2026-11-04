@@ -1,0 +1,21 @@
+# Checked-functions-fable.txt -- induce.py check: the checking half against what the induction half gave
+
+Q1. confirmed on the checking half, both transcribers: 2 of 4 candidates
+  a then η  9.0 1.79 0.0350  13.0 1.83 0.0060
+  a then F  12.5 2.00 0.0010  10.0 1.81 0.0020
+Q3. Propp's pairs occurring at least 5 times: 2; confirmed 0 (); recall 0.00; precision 0.00
+Q2. blocks: 0
+
+## A
+P3. relations holding again on the checking half: 2 of 2 with data (2 relations)
+H5. log-likelihood per symbol on the checking half: HMM -2.7799, unigram -2.9462, bigram -3.1162: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+## B
+P3. relations holding again on the checking half: 2 of 2 with data (2 relations)
+H5. log-likelihood per symbol on the checking half: HMM -2.5859, unigram -2.7226, bigram -2.6919: a grammar (beats the unigram)
+S1 does not hold; S2 does not hold
+
+H5. A and B sections agree: ARI 0.599 over 29 units
+
+# the self-test: VERDICT: FAILS; THESE ARE THE OUTPUTS OF AN UNVERIFIED TOOL
