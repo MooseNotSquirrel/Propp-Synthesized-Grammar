@@ -1,0 +1,15 @@
+# Rung2-v3.txt -- Propp's own strings, the tool unchanged, the bars G8's
+stories 45, moves 84, symbols modelled 24, units per story 16.6
+SHAPE: ordered passes (ordered: True); coverage 0.93; order method d=8; (beta, window) [1.0, 0]; steps {'slots over one pass': 0.0005, 'slots over unigram': 0.0005, 'ratio': 0.9918}
+held-out gain over the unigram, nats per story: unigram 0.00, bigram 27.00, slots 26.77, one pass 25.14, hmm 19.96
+relation tau  0.984 against the bar 0.993: FAILS
+order tau     0.984 against the bar 0.971: HOLDS
+pair recall   0.778 against the bar 0.541: HOLDS
+pass F        0.661 against the bar 0.835: FAILS
+relations scored 256; pairs found 7 of 9
+acceptance 55 of 84 moves break no relation; shuffled 0.002 (not comparable to V46's 80 of 84, Versions.md)
+order: A a B C up D E F G H I K down Pr Rs o L M N T Q Ex U W
+level 2: 
+links: A-B A-C B-C C-up D-E E-F Ex-U F-G F-H G-H G-K G-o H-I I-K K-T K-down L-M L-Q M-N Pr-Rs Q-Ex U-W a-B a-C down-Pr down-W down-a o-L up-D up-H
+branches: A/a B/Pr E/H down/N
+## beside it, fitted on the induction half (23 stories): shape ordered passes, order tau 0.856, relation tau 1.000; checking half: 27 of 38 moves accepted, shuffled 0.001
