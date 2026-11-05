@@ -3,7 +3,11 @@ and knows no alphabet. Symbols are numbered by first appearance, so a renaming g
 
 Tight: closeness passes, commonest distance 1. Near: closeness passes, commonest distance 2 to 4.
 Spanning: direction passes, closeness does not, bound either way at least 0.5. False discovery rate 0.05 per test.
-A pair found on one half is confirmed when the same test passes at p at most 0.05 on the other."""
+A pair found on one half is confirmed when the same test passes at p at most 0.05 on the other.
+Where no shuffle reaches the observed figure, p is taken from a normal tail on the shuffles' own mean and spread, capped at 1/(shuffles+1):
+2,000 shuffles alone cannot give a p small enough for the false discovery rate over hundreds of pairs."""
+import math
+
 import numpy as np
 
 MIN_STORIES = 5
@@ -54,6 +58,21 @@ def bh(ps, q=FDR):
     return out
 
 
+def tail(hits, obs, acc, shuffles, sign):
+    """the shuffles' share reaching the observed figure, or below their resolution a normal tail"""
+    p = (hits + 1) / (shuffles + 1)
+    n = len(obs)
+    with np.errstate(divide='ignore', invalid='ignore'):
+        mu = acc[1] / acc[0]
+        sd = np.sqrt(np.maximum(acc[2] / acc[0] - mu * mu, 0.0))
+    for x in range(n):
+        for y in range(n):
+            if hits[x, y] == 0 and acc[0][x, y] > 1 and sd[x, y] > 0 and np.isfinite(obs[x, y]):
+                z = sign * (obs[x, y] - mu[x, y]) / sd[x, y]
+                p[x, y] = min(p[x, y], 0.5 * math.erfc(z / math.sqrt(2)))
+    return p
+
+
 def stats(stories, idx, seed, shuffles=SHUFFLES):
     """the tests for every ordered pair of symbols standing together in at least MIN_STORIES stories"""
     n = len(idx)
@@ -72,6 +91,7 @@ def stats(stories, idx, seed, shuffles=SHUFFLES):
         share = before / (before + before.T)
     rng = np.random.default_rng(seed)
     lc, ld = np.zeros((n, n)), np.zeros((n, n))
+    acc = {k: [np.zeros((n, n)), np.zeros((n, n)), np.zeros((n, n))] for k in 'cd'}
     for _ in range(shuffles):
         d2, c2, b2 = tally([rng.permutation(s) for s in seqs], n)
         with np.errstate(divide='ignore', invalid='ignore'):
@@ -79,7 +99,13 @@ def stats(stories, idx, seed, shuffles=SHUFFLES):
             s2 = b2 / (b2 + b2.T)
         lc += m2 <= mean + 1e-12
         ld += np.nan_to_num(s2, nan=0.0) >= np.nan_to_num(share, nan=1.0) - 1e-12
-    pc, pd = (lc + 1) / (shuffles + 1), (ld + 1) / (shuffles + 1)
+        for k, v in (('c', m2), ('d', s2)):
+            f = np.isfinite(v)
+            acc[k][0] += f
+            acc[k][1] += np.where(f, v, 0.0)
+            acc[k][2] += np.where(f, v * v, 0.0)
+    pc = tail(lc, mean, acc['c'], shuffles, -1)
+    pd = tail(ld, share, acc['d'], shuffles, 1)
     # the commonest distance, and the bound
     modes = {}
     for s in seqs:

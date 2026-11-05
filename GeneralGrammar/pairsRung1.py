@@ -128,7 +128,7 @@ def test():
         bad += 0 if c else 1
     src = open(os.path.join(HERE, 'pairs.py'), encoding='utf-8').read()
     imports = re.findall(r'^\s*(?:from|import)\s+([\w.]+)', src, re.M)
-    ok('source: numpy only', set(imports) == {'numpy'}, str(imports))
+    ok('source: numpy and math only', set(imports) == {'numpy', 'math'}, str(imports))
     ok('source: no Propp', 'Propp' not in src and 'PROPP' not in src)
     d, c, b = Q.tally([np.array([0, 1, 2, 1])], 3)
     ok('hand-worked: 0 to next 1 is 1, 0 to next 2 is 2', d[0, 1] == 1 and d[0, 2] == 2 and c[0, 1] == 1)
