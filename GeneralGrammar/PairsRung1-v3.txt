@@ -1,0 +1,16 @@
+# PairsRung1-v3.txt -- generated strings only; no real string read. Rules in PairsProtocol.md section 3
+G1: candidates 834; found 184.1; confirmed 19.0; by kind {'near': 4.0, 'spanning': 5.1, 'tight': 9.9}
+G2: candidates 890; found 181.1; confirmed 17.4; by kind {'near': 3.3, 'spanning': 4.3, 'tight': 9.7}
+G4: candidates 374; found 76.2; confirmed 47.7; by kind {'near': 17.0, 'spanning': 7.5, 'tight': 23.2}
+G5: candidates 234; found 34.5; confirmed 11.1; by kind {'near': 0.9, 'spanning': 0.8, 'tight': 9.4}
+G7: candidates 260; found 20.0; confirmed 0.2; by kind {'near': 0.1, 'spanning': 0.1}
+G8: candidates 478; found 110.7; confirmed 9.6; by kind {'near': 1.9, 'spanning': 1.8, 'tight': 6.0}
+G9: candidates 452; found 121.8; confirmed 9.6; by kind {'near': 1.9, 'spanning': 3.0, 'tight': 4.8}
+G9: close recall median 0.500, spanning median 0.250; BARS (10th percentile) close 0.288, spanning 0.000; other spanning called per corpus, mean 2.4, of about 452 candidates
+G9: other close pairs per corpus, mean 2.0; A-K and a-K found as spanning, mean of 2: 0.00 (planted beside the other opener of K, so not gated)
+gate G9: corpora finding at least 80% of planted spanning pairs: 20% (need 80%)
+gate G2: reach the bars on their own pairs 100%; on Propp's pairs 0% (need at most 5%); recall of his pairs, median close 0.000, span 0.000
+gate G7: share of candidates called pairs 0.001 (need at most 0.05)
+gate G4: inside-episode pairs found, mean 0.787; spanning across episodes, share of candidates 0.000 (need at most 0.05)
+beside: G8 close 0.472, spanning 0.000; G1 close 0.750, spanning 0.000; other spanning per corpus G1 4.9, G8 1.8
+RUNG 1: FAILS

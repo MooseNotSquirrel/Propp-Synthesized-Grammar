@@ -165,4 +165,6 @@ A departure from the protocol, by section 3's rule, on generated strings only. *
 
 One addition, to all three kinds: **dependence,** over all the stories: those with x have y more than chance allows (one-sided hypergeometric, p at most 0.05). **Gates changed with it, on generated strings only, and said so:** G9's spanning gate counts the planted C-W and G-U; A-K and a-K are reported beside it, as they stand beside K's other opener. G2's gates count close pairs. Fresh draws.
 
-**Result:** not yet run.
+**Result: RUNG 1 FAILS, on spanning pairs** (`PairsRung1-v3.txt`). No real string was read. **Close pairs:** recall median 0.50 on G9 (bar 0.29), 0.75 on G1; other close pairs about 2 a corpus, down from about 25. G2: 0% reach the bar against Propp's pairs. G7: 0.1%. G4: inside-episode pairs 0.79, none spanning across episodes. **Spanning:** 20% of corpora at the gate (need 80%); A-K and a-K never found (0 of 2 on average); other spanning about 2 a corpus.
+
+**What was learned:** dependence cleared most of the false pairs, at some cost in recall. The tool now finds close pairs fairly and does not lean to Propp. It does not find spanning pairs at this size. Three versions stop here, for the owner.
