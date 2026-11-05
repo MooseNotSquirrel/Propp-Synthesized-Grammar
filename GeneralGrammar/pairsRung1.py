@@ -16,7 +16,7 @@ import pairs as Q  # noqa: E402
 import generators as X  # noqa: E402
 import score as C  # noqa: E402
 
-SEED = 20261107
+SEED = 20261107 + 2  # version 2's fresh draws
 EXTRA = [('C', 'W'), ('G', 'U')]        # G9's planted spanning pairs, beside A-K and a-K in his list
 SPAN = {('A', 'K'), ('a', 'K'), ('C', 'W'), ('G', 'U')}
 
@@ -40,7 +40,13 @@ def fit(flat):
     return found, Q.confirm(found, [flat[i] for i in b]), cands
 
 
+def eligible(flat, ps):
+    """pairs both of whose symbols stand together in at least 5 stories of the corpus"""
+    return [p for p in ps if sum(1 for s in flat if p[0] in s and p[1] in s) >= 5]
+
+
 def recalls(conf, truth_pairs, span):
+    span = [p for p in span if p in truth_pairs]
     close = [p for p in truth_pairs if p not in span]
     r1 = sum(1 for p in close if p in conf and conf[p]['kind'] in ('tight', 'near')) / max(1, len(close))
     r2 = sum(1 for p in span if p in conf and conf[p]['kind'] == 'spanning') / max(1, len(span))
@@ -58,15 +64,15 @@ def work(a):
     tp = [tuple(p) for p in pairs]
     if g in ('G1', 'G8', 'G9'):
         allp = tp + (EXTRA if g == 'G9' else [])
-        r['close'], r['span'] = recalls(conf, allp, SPAN)
+        r['close'], r['span'] = recalls(conf, eligible(flat, allp), SPAN)
         known = set(allp)
         r['other_spanning'] = sum(1 for p, f in conf.items() if f['kind'] == 'spanning' and p not in known)
     if g == 'G2':
         mp = tr['map']
         own = [(mp[x], mp[y]) for x, y in tp]
         sp = {(mp[x], mp[y]) for x, y in SPAN if x in mp and y in mp and (x, y) in tp}
-        r['close'], r['span'] = recalls(conf, own, sp)
-        r['close_propp'], r['span_propp'] = recalls(conf, tp, {p for p in SPAN if p in tp})
+        r['close'], r['span'] = recalls(conf, eligible(flat, own), sp)
+        r['close_propp'], r['span_propp'] = recalls(conf, eligible(flat, tp), {p for p in SPAN if p in tp})
     if g == 'G4':
         ep = {u: i for i, e in enumerate(tr['episodes']) for u in e}
         ins = {(e[i], e[j]) for e in tr['episodes'] for i in range(5) for j in range(i + 1, 5)}

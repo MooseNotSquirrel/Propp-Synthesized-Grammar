@@ -1,8 +1,9 @@
-"""pairs.py -- pairs with the distance between them (PairsProtocol.md, frozen 2026-11-04), version 1. It takes stories as lists of symbols
+"""pairs.py -- pairs with the distance between them (PairsProtocol.md, frozen 2026-11-04), version 2. It takes stories as lists of symbols
 and knows no alphabet. Symbols are numbered by first appearance, so a renaming gives the same pairs, name for name.
 
 Tight: closeness passes, commonest distance 1. Near: closeness passes, commonest distance 2 to 4.
-Spanning: direction passes, closeness does not, bound either way at least 0.5. False discovery rate 0.05 per test.
+Spanning: direction passes, closeness does not, bound either way at least 0.5. A test passes at p at most 0.05 on the finding half
+(version 2: the false discovery rate of version 1 was too harsh on a half-sample, and the confirming half already guards).
 A pair found on one half is confirmed when the same test passes at p at most 0.05 on the other.
 Where no shuffle reaches the observed figure, p is taken from a normal tail on the shuffles' own mean and spread, capped at 1/(shuffles+1):
 2,000 shuffles alone cannot give a p small enough for the false discovery rate over hundreds of pairs."""
@@ -142,8 +143,8 @@ def analyse(stories, seed=20261104, shuffles=SHUFFLES):
     n = len(idx)
     st = stats(stories, idx, seed, shuffles)
     cand = [(x, y) for x in range(n) for y in range(n) if x != y and st['both'][x, y] >= MIN_STORIES]
-    close = bh([st['pc'][p] for p in cand])
-    direct = bh([st['pd'][p] for p in cand])
+    close = [st['pc'][p] <= FDR for p in cand]
+    direct = [st['pd'][p] <= FDR for p in cand]
     out = {}
     for k, (x, y) in enumerate(cand):
         h = st['modes'].get((x, y), {})

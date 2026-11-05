@@ -142,3 +142,19 @@ The owner proposes that stepwise refinement should begin with the largest and mo
 **The keeper's first measures on it, exploratory, from the tables:**
 - **Units given a function rather than X:** wondertales 71% to 73%; myths 65%; animal tales 60%; fables 58%; East Asian 55%; Native American 49%; tragedies 47%. This is a share labelled, not a share correct.
 - **On one wondertale event, one reader, the act explains 28% of the uncertainty of the function** (4.63 bits, 3.33 given the act; a low estimate, as an event's acts and functions are crossed).
+
+# The pairs tool's versions (`PairsProtocol.md`)
+
+## Pairs, version 1 (2026-11-04)
+
+The frozen design. One detail added before the run: where no shuffle reached the observed figure, p comes from a normal tail, as 2,000 shuffles alone could not satisfy the false discovery rate over hundreds of pairs.
+
+**Result: RUNG 1 FAILS** (`PairsRung1-v1.txt`). Recall 0 on the planted pairs, even tight ones, on the easy G1. G7 and G4 gave no false pairs.
+
+**What was learned, from one corpus inspected directly:** nothing is broken. His tight pairs reach p of about .001 to .005 on a half-sample of 23 stories, and the correction over about 450 candidates asks for far less. Some planted pairs stand together in only 2 stories, so counting them was unfair. Direction across whole stories is also diluted, at shares of 0.65 to 0.78, as a second pass can place x after an earlier y.
+
+## Pairs, version 2 (2026-11-05)
+
+A departure from the protocol, by section 3's rule, on generated strings only. **A test passes at p at most 0.05 on each of the two halves,** which gives about 1 false pair in 450 by chance, in place of the false discovery rate on the first half. **Recall counts only pairs both of whose symbols stand together in at least 5 stories.** Fresh draws.
+
+**Result:** not yet run.
