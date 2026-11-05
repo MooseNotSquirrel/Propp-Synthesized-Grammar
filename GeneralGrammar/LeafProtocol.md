@@ -1,4 +1,4 @@
-# The leaves: can a corpus's functions be retrieved from its verbs and acts? Protocol (DRAFT 2026-11-04, for the owner's review; nothing built or run)
+# The leaves: can a corpus's functions be retrieved from its verbs and acts? Protocol (FROZEN 2026-11-04 AT THE OWNER'S WORD, THE SIX RECOMMENDED DECISIONS TAKEN; nothing built or run)
 
 **Asked by the owner on 2026-11-04.** Stepwise refinement begins with the largest and most basic item. Before any structure, can Propp's functions plus candidates be retrieved from a corpus, from its verbs and acts, with correlation shown? Then up the hierarchy.
 
@@ -113,6 +113,8 @@ The target is a probabilistic, inferred version of what V46 is, for each corpus:
 
 ## 9. Decisions for the owner
 
+**Taken 2026-11-04: the owner accepted all six recommendations.**
+
 1. **The three predictions.** Recommended: frozen as written.
 2. **The second thesaurus.** Your question is whether the wrong one was chosen. Recommended: add the public-domain Moby Thesaurus, the alternative you were offered in October, downloaded at your word, and report VerbNet's classes too if its license allows.
 3. **The 80%.** Recommended: reported three ways, none a verdict, until the figures can be seen.
@@ -122,7 +124,7 @@ The target is a probabilistic, inferred version of what V46 is, for each corpus:
 
 ## 10. Order of work and cost
 
-1. The owner's review and decisions; this file frozen.
+1. The owner's review and decisions; this file frozen (done 2026-11-04).
 2. The program `GeneralGrammar/leaves.py` and its tests, committed before anything is run.
 3. Section 2 and L1, then L2, with the clusters committed before any label is read, then L3 and L4.
 
