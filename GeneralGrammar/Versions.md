@@ -157,4 +157,12 @@ The frozen design. One detail added before the run: where no shuffle reached the
 
 A departure from the protocol, by section 3's rule, on generated strings only. **A test passes at p at most 0.05 on each of the two halves,** which gives about 1 false pair in 450 by chance, in place of the false discovery rate on the first half. **Recall counts only pairs both of whose symbols stand together in at least 5 stories.** Fresh draws.
 
+**Result: RUNG 1 FAILS, on spanning pairs** (`PairsRung1-v2.txt`). No real string was read. Close pairs: recall median 0.61 on G9, 0.90 on G1. G2: 0% reach the bars against Propp's pairs. G7: 0.3% of candidates called pairs. G4: no spanning across episodes. **Spanning:** recall median 0.25, 0% of corpora at the gate, and about 20 false spanning pairs a corpus.
+
+**What was learned:** in ordered strings nearly everything comes before something, so direction alone cannot pick out a spanning pair. Close pairs have the same trouble more mildly. Neighbouring slots stand near each other. What is missing is what a pair means: one calls for the other. And where x is nearly universal, as A or a is, dependence cannot be seen: K follows either opener, so A-K is hard to find in strings at all. V46 took it from Propp's text.
+
+## Pairs, version 3 (2026-11-05)
+
+One addition, to all three kinds: **dependence,** over all the stories: those with x have y more than chance allows (one-sided hypergeometric, p at most 0.05). **Gates changed with it, on generated strings only, and said so:** G9's spanning gate counts the planted C-W and G-U; A-K and a-K are reported beside it, as they stand beside K's other opener. G2's gates count close pairs. Fresh draws.
+
 **Result:** not yet run.

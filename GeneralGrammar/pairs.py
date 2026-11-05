@@ -1,4 +1,4 @@
-"""pairs.py -- pairs with the distance between them (PairsProtocol.md, frozen 2026-11-04), version 2. It takes stories as lists of symbols
+"""pairs.py -- pairs with the distance between them (PairsProtocol.md, frozen 2026-11-04), version 3. It takes stories as lists of symbols
 and knows no alphabet. Symbols are numbered by first appearance, so a renaming gives the same pairs, name for name.
 
 Tight: closeness passes, commonest distance 1. Near: closeness passes, commonest distance 2 to 4.
@@ -172,6 +172,22 @@ def confirm(found, stories, seed=20261105, shuffles=SHUFFLES):
             p = st['pd'][x, y] if f['kind'] == 'spanning' else st['pc'][x, y]
             if p <= CONFIRM_P:
                 out[(a, b)] = dict(f, p=float(p))
+    return out
+
+
+def dependent(pairs_found, stories, alpha=0.05):
+    """version 3: one calls for the other. Over all the stories, do those with x have y more than chance allows (one-sided hypergeometric)?"""
+    m = len(stories)
+    sets = [set(s) for s in stories]
+    out = {}
+    for (a, b), f in pairs_found.items():
+        na = sum(a in t for t in sets)
+        nb = sum(b in t for t in sets)
+        k = sum(a in t and b in t for t in sets)
+        tot = math.comb(m, nb)
+        p = sum(math.comb(na, i) * math.comb(m - na, nb - i) for i in range(k, min(na, nb) + 1)) / tot
+        if p <= alpha:
+            out[(a, b)] = dict(f, dep_p=p)
     return out
 
 

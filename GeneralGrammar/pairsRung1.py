@@ -16,7 +16,7 @@ import pairs as Q  # noqa: E402
 import generators as X  # noqa: E402
 import score as C  # noqa: E402
 
-SEED = 20261107 + 2  # version 2's fresh draws
+SEED = 20261107 + 3  # version 3's fresh draws
 EXTRA = [('C', 'W'), ('G', 'U')]        # G9's planted spanning pairs, beside A-K and a-K in his list
 SPAN = {('A', 'K'), ('a', 'K'), ('C', 'W'), ('G', 'U')}
 
@@ -37,7 +37,7 @@ def corpus(g, rep, slots, pairs):
 def fit(flat):
     a, b = Q.halves(len(flat))
     found, cands, _, _ = Q.analyse([flat[i] for i in a])
-    return found, Q.confirm(found, [flat[i] for i in b]), cands
+    return found, Q.dependent(Q.confirm(found, [flat[i] for i in b]), flat), cands
 
 
 def eligible(flat, ps):
@@ -64,15 +64,17 @@ def work(a):
     tp = [tuple(p) for p in pairs]
     if g in ('G1', 'G8', 'G9'):
         allp = tp + (EXTRA if g == 'G9' else [])
-        r['close'], r['span'] = recalls(conf, eligible(flat, allp), SPAN)
+        r['close'], r['span'] = recalls(conf, eligible(flat, allp), set(EXTRA) if g == 'G9' else set())
+        r['ak'] = sum(1 for p in (('A', 'K'), ('a', 'K')) if p in conf and conf[p]['kind'] == 'spanning')
         known = set(allp)
         r['other_spanning'] = sum(1 for p, f in conf.items() if f['kind'] == 'spanning' and p not in known)
+        r['other_close'] = sum(1 for p, f in conf.items() if f['kind'] != 'spanning' and p not in known)
     if g == 'G2':
         mp = tr['map']
         own = [(mp[x], mp[y]) for x, y in tp]
         sp = {(mp[x], mp[y]) for x, y in SPAN if x in mp and y in mp and (x, y) in tp}
-        r['close'], r['span'] = recalls(conf, eligible(flat, own), sp)
-        r['close_propp'], r['span_propp'] = recalls(conf, eligible(flat, tp), {p for p in SPAN if p in tp})
+        r['close'], r['span'] = recalls(conf, eligible(flat, own), set())
+        r['close_propp'], r['span_propp'] = recalls(conf, eligible(flat, tp), set())
     if g == 'G4':
         ep = {u: i for i, e in enumerate(tr['episodes']) for u in e}
         ins = {(e[i], e[j]) for e in tr['episodes'] for i in range(5) for j in range(i + 1, 5)}
@@ -107,10 +109,11 @@ def run(version):
     bars = {'close': pct([r['close'] for r in g9], 10), 'span': pct([r['span'] for r in g9], 10)}
     s9 = np.mean([r['span'] >= .8 for r in g9])
     out.append('G9: close recall median %.3f, spanning median %.3f; BARS (10th percentile) close %.3f, spanning %.3f; other spanning called per corpus, mean %.1f, of about %.0f candidates' % (pct([r['close'] for r in g9], 50), pct([r['span'] for r in g9], 50), bars['close'], bars['span'], np.mean([r['other_spanning'] for r in g9]), np.mean([r['cands'] for r in g9])))
+    out.append('G9: other close pairs per corpus, mean %.1f; A-K and a-K found as spanning, mean of 2: %.2f (planted beside K's other opener, so not gated)' % (np.mean([r['other_close'] for r in g9]), np.mean([r['ak'] for r in g9])))
     out.append('gate G9: corpora finding at least 80%% of planted spanning pairs: %.0f%% (need 80%%)' % (100 * s9))
     g2 = by('G2')
-    own = np.mean([r['close'] >= bars['close'] and r['span'] >= bars['span'] for r in g2])
-    false = np.mean([r['close_propp'] >= bars['close'] and r['span_propp'] >= bars['span'] for r in g2])
+    own = np.mean([r['close'] >= bars['close'] for r in g2])
+    false = np.mean([r['close_propp'] >= bars['close'] for r in g2])
     out.append('gate G2: reach the bars on their own pairs %.0f%%; on Propp\'s pairs %.0f%% (need at most 5%%); recall of his pairs, median close %.3f, span %.3f' % (100 * own, 100 * false, pct([r['close_propp'] for r in g2], 50), pct([r['span_propp'] for r in g2], 50)))
     g7 = np.mean([r['confirmed'] / max(1, r['cands']) for r in by('G7')])
     out.append('gate G7: share of candidates called pairs %.3f (need at most 0.05)' % g7)
@@ -161,6 +164,8 @@ def test():
     ok('a planted spanning pair is found as spanning', f2.get(('s', 't'), {}).get('kind') == 'spanning', str(f2.get(('s', 't'))))
     st3 = [rng.sample(list('abcdefgh'), 6) for _ in range(40)]
     st3 += [rng.sample(list('abcdefgh'), 6) for _ in range(40)]
+    dep = Q.dependent({('p', 'q'): {}, ('p', 'r'): {}}, [['p', 'q']] * 10 + [['r', 'z']] * 10)
+    ok('dependence: p with q, not p with r', ('p', 'q') in dep and ('p', 'r') not in dep)
     f3, c3, _, _ = Q.analyse(st3[:40], shuffles=300)
     k3 = Q.confirm(f3, st3[40:], shuffles=300)
     ok('shuffled stories give few pairs, over both halves', len(k3) <= .05 * c3, '%d of %d' % (len(k3), c3))

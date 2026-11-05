@@ -1,0 +1,1415 @@
+[
+{
+"g": "G1",
+"rep": 0,
+"found": 278,
+"confirmed": 79,
+"cands": 996,
+"kinds": {
+"tight": 20,
+"spanning": 39,
+"near": 20
+},
+"close": 0.9,
+"span": 0.0,
+"other_spanning": 39
+},
+{
+"g": "G1",
+"rep": 1,
+"found": 164,
+"confirmed": 51,
+"cands": 938,
+"kinds": {
+"spanning": 18,
+"near": 17,
+"tight": 16
+},
+"close": 0.7,
+"span": 0.0,
+"other_spanning": 18
+},
+{
+"g": "G1",
+"rep": 2,
+"found": 174,
+"confirmed": 62,
+"cands": 762,
+"kinds": {
+"tight": 16,
+"spanning": 34,
+"near": 12
+},
+"close": 0.9,
+"span": 0.0,
+"other_spanning": 34
+},
+{
+"g": "G1",
+"rep": 3,
+"found": 152,
+"confirmed": 76,
+"cands": 790,
+"kinds": {
+"near": 23,
+"tight": 25,
+"spanning": 28
+},
+"close": 0.8,
+"span": 0.0,
+"other_spanning": 27
+},
+{
+"g": "G1",
+"rep": 4,
+"found": 193,
+"confirmed": 64,
+"cands": 962,
+"kinds": {
+"near": 21,
+"tight": 18,
+"spanning": 25
+},
+"close": 0.9,
+"span": 0.5,
+"other_spanning": 24
+},
+{
+"g": "G1",
+"rep": 5,
+"found": 234,
+"confirmed": 51,
+"cands": 986,
+"kinds": {
+"tight": 19,
+"near": 19,
+"spanning": 13
+},
+"close": 0.7,
+"span": 0.0,
+"other_spanning": 13
+},
+{
+"g": "G1",
+"rep": 6,
+"found": 176,
+"confirmed": 49,
+"cands": 926,
+"kinds": {
+"tight": 21,
+"spanning": 11,
+"near": 17
+},
+"close": 0.7,
+"span": 0.0,
+"other_spanning": 11
+},
+{
+"g": "G1",
+"rep": 7,
+"found": 129,
+"confirmed": 57,
+"cands": 816,
+"kinds": {
+"tight": 22,
+"spanning": 24,
+"near": 11
+},
+"close": 0.9,
+"span": 0.0,
+"other_spanning": 24
+},
+{
+"g": "G1",
+"rep": 8,
+"found": 175,
+"confirmed": 67,
+"cands": 810,
+"kinds": {
+"tight": 20,
+"near": 15,
+"spanning": 32
+},
+"close": 1.0,
+"span": 0.0,
+"other_spanning": 32
+},
+{
+"g": "G1",
+"rep": 9,
+"found": 134,
+"confirmed": 46,
+"cands": 782,
+"kinds": {
+"near": 20,
+"tight": 16,
+"spanning": 10
+},
+"close": 0.9,
+"span": 0.0,
+"other_spanning": 10
+},
+{
+"g": "G2",
+"rep": 0,
+"found": 169,
+"confirmed": 57,
+"cands": 902,
+"kinds": {
+"tight": 17,
+"spanning": 24,
+"near": 16
+},
+"close": 0.9,
+"span": 0.5,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 1,
+"found": 210,
+"confirmed": 74,
+"cands": 688,
+"kinds": {
+"tight": 15,
+"spanning": 45,
+"near": 14
+},
+"close": 0.5,
+"span": 1.0,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 2,
+"found": 157,
+"confirmed": 52,
+"cands": 826,
+"kinds": {
+"spanning": 24,
+"tight": 16,
+"near": 12
+},
+"close": 0.5,
+"span": 0.0,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 3,
+"found": 134,
+"confirmed": 43,
+"cands": 600,
+"kinds": {
+"tight": 14,
+"near": 13,
+"spanning": 16
+},
+"close": 0.8,
+"span": 0.5,
+"close_propp": 0.1,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 4,
+"found": 219,
+"confirmed": 76,
+"cands": 1036,
+"kinds": {
+"spanning": 27,
+"tight": 24,
+"near": 25
+},
+"close": 1.0,
+"span": 0.0,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 5,
+"found": 180,
+"confirmed": 63,
+"cands": 862,
+"kinds": {
+"spanning": 28,
+"tight": 17,
+"near": 18
+},
+"close": 0.8,
+"span": 0.0,
+"close_propp": 0.1,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 6,
+"found": 221,
+"confirmed": 66,
+"cands": 988,
+"kinds": {
+"tight": 19,
+"spanning": 29,
+"near": 18
+},
+"close": 1.0,
+"span": 0.0,
+"close_propp": 0.3,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 7,
+"found": 162,
+"confirmed": 45,
+"cands": 858,
+"kinds": {
+"tight": 17,
+"near": 16,
+"spanning": 12
+},
+"close": 0.7,
+"span": 0.5,
+"close_propp": 0.1,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 8,
+"found": 224,
+"confirmed": 72,
+"cands": 958,
+"kinds": {
+"near": 17,
+"tight": 21,
+"spanning": 34
+},
+"close": 0.9,
+"span": 0.0,
+"close_propp": 0.0,
+"span_propp": 0.5
+},
+{
+"g": "G2",
+"rep": 9,
+"found": 150,
+"confirmed": 53,
+"cands": 688,
+"kinds": {
+"spanning": 13,
+"near": 18,
+"tight": 22
+},
+"close": 1.0,
+"span": 0.0,
+"close_propp": 0.2222222222222222,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 10,
+"found": 127,
+"confirmed": 45,
+"cands": 704,
+"kinds": {
+"spanning": 20,
+"tight": 17,
+"near": 8
+},
+"close": 0.8,
+"span": 0.5,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 11,
+"found": 139,
+"confirmed": 61,
+"cands": 774,
+"kinds": {
+"near": 15,
+"tight": 15,
+"spanning": 31
+},
+"close": 0.9,
+"span": 0.5,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 12,
+"found": 146,
+"confirmed": 50,
+"cands": 996,
+"kinds": {
+"tight": 20,
+"near": 19,
+"spanning": 11
+},
+"close": 0.7,
+"span": 0.5,
+"close_propp": 0.1,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 13,
+"found": 262,
+"confirmed": 69,
+"cands": 928,
+"kinds": {
+"tight": 21,
+"spanning": 33,
+"near": 15
+},
+"close": 0.7,
+"span": 0.5,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 14,
+"found": 142,
+"confirmed": 50,
+"cands": 840,
+"kinds": {
+"spanning": 17,
+"tight": 19,
+"near": 14
+},
+"close": 0.8,
+"span": 0.5,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 15,
+"found": 141,
+"confirmed": 43,
+"cands": 544,
+"kinds": {
+"tight": 16,
+"spanning": 21,
+"near": 6
+},
+"close": 0.8,
+"span": 0.5,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 16,
+"found": 215,
+"confirmed": 63,
+"cands": 1014,
+"kinds": {
+"tight": 21,
+"near": 15,
+"spanning": 27
+},
+"close": 1.0,
+"span": 0.0,
+"close_propp": 0.0,
+"span_propp": 0.5
+},
+{
+"g": "G2",
+"rep": 17,
+"found": 150,
+"confirmed": 47,
+"cands": 692,
+"kinds": {
+"spanning": 12,
+"near": 18,
+"tight": 17
+},
+"close": 0.8,
+"span": 0.5,
+"close_propp": 0.1,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 18,
+"found": 185,
+"confirmed": 59,
+"cands": 830,
+"kinds": {
+"spanning": 26,
+"tight": 18,
+"near": 15
+},
+"close": 1.0,
+"span": 0.0,
+"close_propp": 0.0,
+"span_propp": 0.0
+},
+{
+"g": "G2",
+"rep": 19,
+"found": 213,
+"confirmed": 89,
+"cands": 1040,
+"kinds": {
+"spanning": 34,
+"tight": 22,
+"near": 33
+},
+"close": 1.0,
+"span": 0.0,
+"close_propp": 0.3,
+"span_propp": 0.0
+},
+{
+"g": "G4",
+"rep": 0,
+"found": 84,
+"confirmed": 44,
+"cands": 426,
+"kinds": {
+"tight": 23,
+"near": 13,
+"spanning": 8
+},
+"inside": 0.7166666666666667,
+"across_span": 0.0
+},
+{
+"g": "G4",
+"rep": 1,
+"found": 70,
+"confirmed": 54,
+"cands": 388,
+"kinds": {
+"tight": 26,
+"near": 15,
+"spanning": 13
+},
+"inside": 0.85,
+"across_span": 0.0
+},
+{
+"g": "G4",
+"rep": 2,
+"found": 63,
+"confirmed": 50,
+"cands": 202,
+"kinds": {
+"near": 13,
+"spanning": 12,
+"tight": 25
+},
+"inside": 0.8,
+"across_span": 0.0
+},
+{
+"g": "G4",
+"rep": 3,
+"found": 69,
+"confirmed": 43,
+"cands": 254,
+"kinds": {
+"tight": 23,
+"near": 16,
+"spanning": 4
+},
+"inside": 0.6833333333333333,
+"across_span": 0.0
+},
+{
+"g": "G4",
+"rep": 4,
+"found": 81,
+"confirmed": 59,
+"cands": 438,
+"kinds": {
+"tight": 29,
+"near": 22,
+"spanning": 8
+},
+"inside": 0.8666666666666667,
+"across_span": 0.0
+},
+{
+"g": "G4",
+"rep": 5,
+"found": 78,
+"confirmed": 50,
+"cands": 478,
+"kinds": {
+"tight": 23,
+"near": 21,
+"spanning": 6
+},
+"inside": 0.8,
+"across_span": 0.0
+},
+{
+"g": "G4",
+"rep": 6,
+"found": 102,
+"confirmed": 46,
+"cands": 510,
+"kinds": {
+"tight": 24,
+"near": 16,
+"spanning": 6
+},
+"inside": 0.7166666666666667,
+"across_span": 0.0
+},
+{
+"g": "G4",
+"rep": 7,
+"found": 71,
+"confirmed": 44,
+"cands": 378,
+"kinds": {
+"tight": 25,
+"near": 17,
+"spanning": 2
+},
+"inside": 0.7,
+"across_span": 0.0
+},
+{
+"g": "G4",
+"rep": 8,
+"found": 85,
+"confirmed": 51,
+"cands": 332,
+"kinds": {
+"tight": 29,
+"near": 16,
+"spanning": 6
+},
+"inside": 0.7166666666666667,
+"across_span": 0.0
+},
+{
+"g": "G4",
+"rep": 9,
+"found": 69,
+"confirmed": 45,
+"cands": 252,
+"kinds": {
+"near": 17,
+"spanning": 9,
+"tight": 19
+},
+"inside": 0.7166666666666667,
+"across_span": 0.003968253968253968
+},
+{
+"g": "G5",
+"rep": 0,
+"found": 41,
+"confirmed": 11,
+"cands": 228,
+"kinds": {
+"tight": 8,
+"spanning": 3
+}
+},
+{
+"g": "G5",
+"rep": 1,
+"found": 21,
+"confirmed": 10,
+"cands": 110,
+"kinds": {
+"tight": 9,
+"spanning": 1
+}
+},
+{
+"g": "G5",
+"rep": 2,
+"found": 30,
+"confirmed": 16,
+"cands": 222,
+"kinds": {
+"tight": 12,
+"near": 2,
+"spanning": 2
+}
+},
+{
+"g": "G5",
+"rep": 3,
+"found": 33,
+"confirmed": 12,
+"cands": 234,
+"kinds": {
+"tight": 10,
+"spanning": 2
+}
+},
+{
+"g": "G5",
+"rep": 4,
+"found": 49,
+"confirmed": 23,
+"cands": 382,
+"kinds": {
+"tight": 22,
+"near": 1
+}
+},
+{
+"g": "G5",
+"rep": 5,
+"found": 40,
+"confirmed": 16,
+"cands": 192,
+"kinds": {
+"tight": 12,
+"near": 4
+}
+},
+{
+"g": "G5",
+"rep": 6,
+"found": 63,
+"confirmed": 13,
+"cands": 408,
+"kinds": {
+"near": 1,
+"spanning": 1,
+"tight": 11
+}
+},
+{
+"g": "G5",
+"rep": 7,
+"found": 19,
+"confirmed": 8,
+"cands": 104,
+"kinds": {
+"tight": 7,
+"near": 1
+}
+},
+{
+"g": "G5",
+"rep": 8,
+"found": 24,
+"confirmed": 15,
+"cands": 222,
+"kinds": {
+"spanning": 2,
+"tight": 13
+}
+},
+{
+"g": "G5",
+"rep": 9,
+"found": 20,
+"confirmed": 12,
+"cands": 118,
+"kinds": {
+"tight": 11,
+"near": 1
+}
+},
+{
+"g": "G7",
+"rep": 0,
+"found": 31,
+"confirmed": 2,
+"cands": 256,
+"kinds": {
+"near": 1,
+"tight": 1
+}
+},
+{
+"g": "G7",
+"rep": 1,
+"found": 18,
+"confirmed": 0,
+"cands": 276,
+"kinds": {}
+},
+{
+"g": "G7",
+"rep": 2,
+"found": 30,
+"confirmed": 1,
+"cands": 302,
+"kinds": {
+"spanning": 1
+}
+},
+{
+"g": "G7",
+"rep": 3,
+"found": 29,
+"confirmed": 0,
+"cands": 304,
+"kinds": {}
+},
+{
+"g": "G7",
+"rep": 4,
+"found": 15,
+"confirmed": 0,
+"cands": 298,
+"kinds": {}
+},
+{
+"g": "G7",
+"rep": 5,
+"found": 19,
+"confirmed": 1,
+"cands": 244,
+"kinds": {
+"tight": 1
+}
+},
+{
+"g": "G7",
+"rep": 6,
+"found": 25,
+"confirmed": 3,
+"cands": 296,
+"kinds": {
+"spanning": 2,
+"tight": 1
+}
+},
+{
+"g": "G7",
+"rep": 7,
+"found": 16,
+"confirmed": 0,
+"cands": 338,
+"kinds": {}
+},
+{
+"g": "G7",
+"rep": 8,
+"found": 13,
+"confirmed": 0,
+"cands": 270,
+"kinds": {}
+},
+{
+"g": "G7",
+"rep": 9,
+"found": 24,
+"confirmed": 1,
+"cands": 290,
+"kinds": {
+"near": 1
+}
+},
+{
+"g": "G8",
+"rep": 0,
+"found": 115,
+"confirmed": 38,
+"cands": 512,
+"kinds": {
+"tight": 15,
+"spanning": 9,
+"near": 14
+},
+"close": 0.7777777777777778,
+"span": 0.0,
+"other_spanning": 9
+},
+{
+"g": "G8",
+"rep": 1,
+"found": 71,
+"confirmed": 26,
+"cands": 340,
+"kinds": {
+"tight": 8,
+"spanning": 12,
+"near": 6
+},
+"close": 0.6,
+"span": 0.5,
+"other_spanning": 11
+},
+{
+"g": "G8",
+"rep": 2,
+"found": 84,
+"confirmed": 35,
+"cands": 476,
+"kinds": {
+"tight": 14,
+"spanning": 16,
+"near": 5
+},
+"close": 1.0,
+"span": 0.0,
+"other_spanning": 16
+},
+{
+"g": "G8",
+"rep": 3,
+"found": 84,
+"confirmed": 37,
+"cands": 552,
+"kinds": {
+"tight": 13,
+"near": 9,
+"spanning": 15
+},
+"close": 0.4,
+"span": 0.5,
+"other_spanning": 14
+},
+{
+"g": "G8",
+"rep": 4,
+"found": 86,
+"confirmed": 14,
+"cands": 266,
+"kinds": {
+"tight": 8,
+"spanning": 6
+},
+"close": 0.6666666666666666,
+"span": 0.0,
+"other_spanning": 6
+},
+{
+"g": "G8",
+"rep": 5,
+"found": 95,
+"confirmed": 31,
+"cands": 350,
+"kinds": {
+"tight": 7,
+"spanning": 20,
+"near": 4
+},
+"close": 0.5555555555555556,
+"span": 0.5,
+"other_spanning": 19
+},
+{
+"g": "G8",
+"rep": 6,
+"found": 44,
+"confirmed": 28,
+"cands": 214,
+"kinds": {
+"spanning": 12,
+"near": 4,
+"tight": 12
+},
+"close": 0.75,
+"span": 0.5,
+"other_spanning": 11
+},
+{
+"g": "G8",
+"rep": 7,
+"found": 146,
+"confirmed": 82,
+"cands": 680,
+"kinds": {
+"tight": 23,
+"spanning": 25,
+"near": 34
+},
+"close": 0.625,
+"span": 0.5,
+"other_spanning": 24
+},
+{
+"g": "G8",
+"rep": 8,
+"found": 196,
+"confirmed": 82,
+"cands": 580,
+"kinds": {
+"spanning": 50,
+"tight": 13,
+"near": 19
+},
+"close": 0.5555555555555556,
+"span": 0.5,
+"other_spanning": 49
+},
+{
+"g": "G8",
+"rep": 9,
+"found": 159,
+"confirmed": 75,
+"cands": 600,
+"kinds": {
+"tight": 25,
+"spanning": 19,
+"near": 31
+},
+"close": 0.8,
+"span": 0.5,
+"other_spanning": 18
+},
+{
+"g": "G8",
+"rep": 10,
+"found": 146,
+"confirmed": 50,
+"cands": 520,
+"kinds": {
+"spanning": 16,
+"near": 22,
+"tight": 12
+},
+"close": 0.625,
+"span": 0.5,
+"other_spanning": 15
+},
+{
+"g": "G8",
+"rep": 11,
+"found": 150,
+"confirmed": 45,
+"cands": 480,
+"kinds": {
+"tight": 17,
+"spanning": 16,
+"near": 12
+},
+"close": 0.7,
+"span": 0.5,
+"other_spanning": 15
+},
+{
+"g": "G8",
+"rep": 12,
+"found": 147,
+"confirmed": 47,
+"cands": 606,
+"kinds": {
+"near": 14,
+"spanning": 21,
+"tight": 12
+},
+"close": 0.4444444444444444,
+"span": 0.0,
+"other_spanning": 21
+},
+{
+"g": "G8",
+"rep": 13,
+"found": 125,
+"confirmed": 41,
+"cands": 498,
+"kinds": {
+"tight": 12,
+"near": 11,
+"spanning": 18
+},
+"close": 0.5555555555555556,
+"span": 0.0,
+"other_spanning": 18
+},
+{
+"g": "G8",
+"rep": 14,
+"found": 64,
+"confirmed": 20,
+"cands": 278,
+"kinds": {
+"spanning": 14,
+"tight": 5,
+"near": 1
+},
+"close": 0.375,
+"span": 0.5,
+"other_spanning": 13
+},
+{
+"g": "G8",
+"rep": 15,
+"found": 85,
+"confirmed": 25,
+"cands": 332,
+"kinds": {
+"spanning": 11,
+"near": 5,
+"tight": 9
+},
+"close": 0.5555555555555556,
+"span": 0.0,
+"other_spanning": 11
+},
+{
+"g": "G8",
+"rep": 16,
+"found": 122,
+"confirmed": 36,
+"cands": 664,
+"kinds": {
+"tight": 14,
+"near": 17,
+"spanning": 5
+},
+"close": 0.4,
+"span": 0.0,
+"other_spanning": 5
+},
+{
+"g": "G8",
+"rep": 17,
+"found": 46,
+"confirmed": 18,
+"cands": 290,
+"kinds": {
+"spanning": 7,
+"tight": 9,
+"near": 2
+},
+"close": 0.625,
+"span": 0.5,
+"other_spanning": 6
+},
+{
+"g": "G8",
+"rep": 18,
+"found": 101,
+"confirmed": 47,
+"cands": 468,
+"kinds": {
+"spanning": 21,
+"near": 9,
+"tight": 17
+},
+"close": 0.625,
+"span": 0.5,
+"other_spanning": 20
+},
+{
+"g": "G8",
+"rep": 19,
+"found": 175,
+"confirmed": 75,
+"cands": 536,
+"kinds": {
+"tight": 20,
+"spanning": 22,
+"near": 33
+},
+"close": 0.875,
+"span": 0.0,
+"other_spanning": 22
+},
+{
+"g": "G9",
+"rep": 0,
+"found": 135,
+"confirmed": 37,
+"cands": 564,
+"kinds": {
+"tight": 13,
+"near": 15,
+"spanning": 9
+},
+"close": 0.5714285714285714,
+"span": 0.25,
+"other_spanning": 8
+},
+{
+"g": "G9",
+"rep": 1,
+"found": 191,
+"confirmed": 127,
+"cands": 568,
+"kinds": {
+"tight": 30,
+"spanning": 56,
+"near": 41
+},
+"close": 0.7,
+"span": 0.3333333333333333,
+"other_spanning": 55
+},
+{
+"g": "G9",
+"rep": 2,
+"found": 101,
+"confirmed": 51,
+"cands": 446,
+"kinds": {
+"tight": 19,
+"spanning": 21,
+"near": 11
+},
+"close": 0.7142857142857143,
+"span": 0.5,
+"other_spanning": 19
+},
+{
+"g": "G9",
+"rep": 3,
+"found": 214,
+"confirmed": 108,
+"cands": 650,
+"kinds": {
+"tight": 21,
+"spanning": 59,
+"near": 28
+},
+"close": 0.6666666666666666,
+"span": 0.25,
+"other_spanning": 58
+},
+{
+"g": "G9",
+"rep": 4,
+"found": 56,
+"confirmed": 18,
+"cands": 300,
+"kinds": {
+"near": 3,
+"tight": 8,
+"spanning": 7
+},
+"close": 0.5714285714285714,
+"span": 0.25,
+"other_spanning": 6
+},
+{
+"g": "G9",
+"rep": 5,
+"found": 118,
+"confirmed": 46,
+"cands": 518,
+"kinds": {
+"tight": 12,
+"spanning": 25,
+"near": 9
+},
+"close": 0.5,
+"span": 0.25,
+"other_spanning": 24
+},
+{
+"g": "G9",
+"rep": 6,
+"found": 104,
+"confirmed": 37,
+"cands": 658,
+"kinds": {
+"spanning": 14,
+"tight": 13,
+"near": 10
+},
+"close": 0.4444444444444444,
+"span": 0.25,
+"other_spanning": 13
+},
+{
+"g": "G9",
+"rep": 7,
+"found": 128,
+"confirmed": 36,
+"cands": 656,
+"kinds": {
+"spanning": 9,
+"near": 11,
+"tight": 16
+},
+"close": 0.625,
+"span": 0.25,
+"other_spanning": 8
+},
+{
+"g": "G9",
+"rep": 8,
+"found": 106,
+"confirmed": 46,
+"cands": 506,
+"kinds": {
+"tight": 15,
+"spanning": 25,
+"near": 6
+},
+"close": 0.5714285714285714,
+"span": 0.75,
+"other_spanning": 22
+},
+{
+"g": "G9",
+"rep": 9,
+"found": 94,
+"confirmed": 32,
+"cands": 418,
+"kinds": {
+"spanning": 11,
+"tight": 13,
+"near": 8
+},
+"close": 0.7142857142857143,
+"span": 0.0,
+"other_spanning": 11
+},
+{
+"g": "G9",
+"rep": 10,
+"found": 118,
+"confirmed": 31,
+"cands": 492,
+"kinds": {
+"tight": 10,
+"spanning": 14,
+"near": 7
+},
+"close": 0.5,
+"span": 0.5,
+"other_spanning": 13
+},
+{
+"g": "G9",
+"rep": 11,
+"found": 210,
+"confirmed": 71,
+"cands": 704,
+"kinds": {
+"near": 25,
+"tight": 23,
+"spanning": 23
+},
+"close": 0.8,
+"span": 0.0,
+"other_spanning": 23
+},
+{
+"g": "G9",
+"rep": 12,
+"found": 132,
+"confirmed": 55,
+"cands": 628,
+"kinds": {
+"near": 14,
+"spanning": 26,
+"tight": 15
+},
+"close": 0.6,
+"span": 0.0,
+"other_spanning": 26
+},
+{
+"g": "G9",
+"rep": 13,
+"found": 159,
+"confirmed": 63,
+"cands": 568,
+"kinds": {
+"spanning": 29,
+"tight": 18,
+"near": 16
+},
+"close": 0.7,
+"span": 0.5,
+"other_spanning": 28
+},
+{
+"g": "G9",
+"rep": 14,
+"found": 73,
+"confirmed": 20,
+"cands": 404,
+"kinds": {
+"spanning": 11,
+"tight": 6,
+"near": 3
+},
+"close": 0.16666666666666666,
+"span": 0.25,
+"other_spanning": 10
+},
+{
+"g": "G9",
+"rep": 15,
+"found": 67,
+"confirmed": 24,
+"cands": 286,
+"kinds": {
+"tight": 12,
+"spanning": 10,
+"near": 2
+},
+"close": 0.375,
+"span": 0.25,
+"other_spanning": 9
+},
+{
+"g": "G9",
+"rep": 16,
+"found": 125,
+"confirmed": 42,
+"cands": 414,
+"kinds": {
+"near": 8,
+"tight": 15,
+"spanning": 19
+},
+"close": 0.7142857142857143,
+"span": 0.6666666666666666,
+"other_spanning": 17
+},
+{
+"g": "G9",
+"rep": 17,
+"found": 129,
+"confirmed": 69,
+"cands": 404,
+"kinds": {
+"tight": 18,
+"spanning": 38,
+"near": 13
+},
+"close": 0.7142857142857143,
+"span": 0.5,
+"other_spanning": 36
+},
+{
+"g": "G9",
+"rep": 18,
+"found": 100,
+"confirmed": 31,
+"cands": 428,
+"kinds": {
+"tight": 9,
+"spanning": 11,
+"near": 11
+},
+"close": 0.5714285714285714,
+"span": 0.5,
+"other_spanning": 9
+},
+{
+"g": "G9",
+"rep": 19,
+"found": 115,
+"confirmed": 37,
+"cands": 492,
+"kinds": {
+"spanning": 20,
+"tight": 9,
+"near": 8
+},
+"close": 0.6666666666666666,
+"span": 0.5,
+"other_spanning": 18
+}
+]
