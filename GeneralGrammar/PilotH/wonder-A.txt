@@ -1,0 +1,11 @@
+You are transcribing some tales from Aleksandr Afanasyev's collection of Russian folktales into Vladimir Propp's notation for the functions of the folktale. You start with no background on the project, and you should not look for any.
+
+Read AfanasyevRules-C.md in this repository first, in full, and follow it exactly; its definitions card is your guide to Propp's functions. Your tales are these 15, one per file, read in their original language: tales/A098.txt, tales/A108.txt, tales/A115.txt, tales/A125.txt, tales/A131.txt, tales/A133.txt, tales/A141.txt, tales/A143.txt, tales/A149.txt, tales/A151.txt, tales/A152.txt, tales/A159.txt, tales/A163.txt, tales/A166.txt, tales/A167.txt. Their events are in Events.txt and each tale's hero in Heroes.txt.
+
+Your task is Stage 3, transcription, for these tales only. For each, read the whole tale first. Then write the entries the rules require for each of its listed events, in the listed order, keeping the listed hero: one entry per act, and one X for an event none of whose acts fulfills a function, each marked Y or N for whether it matters to the course of the tale. Where Heroes.txt names more than one hero, transcribe the tale once for each, with identifiers suffixed /1, /2, and so on, in the order named.
+
+Open only AfanasyevRules-C.md, your tale files, Events.txt, Heroes.txt and your own output folder. Do not open, list or search any other folder in this repository, in particular nothing under transcriptions/ but your own folder, and do not open any other rules file. Do not search the web, and do not use any published analysis of these tales in Propp's terms. You are transcriber A.
+
+Write two files, and nothing else, in transcriptions/PilotH/A/ (create it): Streams.txt and Notes.txt, in the formats of the rules' section "Transcription formats". Keep any working file inside that folder, and delete it before you finish. Every note quotes the words of the text its entry rests on, in the original language.
+
+Then reply with the report the rules' last section asks for: every place where a rule left you unsure what to write, with the tale and event. Do not summarize results or comment on how well Propp fits.
