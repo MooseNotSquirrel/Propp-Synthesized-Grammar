@@ -1,4 +1,4 @@
-# Up the tree: pairs, with the distance between them: protocol (DRAFT 2026-11-04, for the owner's review; nothing built or run)
+# Up the tree: pairs, with the distance between them: protocol (FROZEN 2026-11-04 AT THE OWNER'S WORD, THE SIX RECOMMENDED DECISIONS TAKEN; nothing run)
 
 **Asked by the owner on 2026-11-04,** as the next step of the climb: leaves, then pairs with the distance between them, then groups, with order inferred and allowed to float. The target is a tree of the kind V46 presents, inferred per corpus (`LeafProtocol.md` section 8).
 
@@ -85,6 +85,8 @@ Groups themselves are not built here. They are the next rung of the climb.
 
 ## 7. Decisions for the owner
 
+**Taken 2026-11-04: the owner accepted all six recommendations.**
+
 1. **Three kinds, by the rule in section 2.** Recommended.
 2. **Whole stories, no move labels.** Recommended, as in the general grammar. Pairs within moves reported beside, for the corpora that have them.
 3. **Bars from G9.** Recommended, by the course you chose for G8.
@@ -94,7 +96,7 @@ Groups themselves are not built here. They are the next rung of the climb.
 
 ## 8. Order of work and cost
 
-1. The owner's decisions; this file frozen.
+1. The owner's decisions; this file frozen (done 2026-11-04).
 2. `pairs.py`, G9, rung 0; committed.
 3. Rung 1, reported to the owner before any real string is read.
 4. Rungs 2 to 4 and section 4, then the report.
