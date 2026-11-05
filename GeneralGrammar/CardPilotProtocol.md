@@ -1,4 +1,4 @@
-# Does the card write the order in? A pilot: protocol (DRAFT 2026-11-04, for the owner's review; nothing set up or run)
+# Does the card write the order in? A pilot: protocol (FROZEN 2026-11-04 AT THE OWNER'S WORD, THE SIX RECOMMENDED DECISIONS TAKEN; nothing set up or run)
 
 **Asked by the owner on 2026-11-04,** after `LeafReport.md`: the order of the tales sits in the function labels and hardly at all in the acts. Either functions really carry a tale's structure, or readers holding a card that lists functions in Propp's order write his order in. Strings already collected cannot separate these.
 
@@ -97,6 +97,8 @@ Corpora may differ, and readers may split: each is reported as it falls.
 
 ## 7. Decisions for the owner
 
+**Taken 2026-11-04: the owner accepted all six recommendations.**
+
 1. **Two cells, H and S.** Recommended. S alone would cost half, but could not tell a card effect from a run effect.
 2. **15 tales in each corpus.** Recommended, on the table above. 10 would save a third and could show only a collapse.
 3. **The reading rule's numbers (0.5, 0.10, 0.30).** Recommended as written. They are the keeper's judgment from the noise table, and set before any new string.
@@ -106,7 +108,7 @@ Corpora may differ, and readers may split: each is reported as it falls.
 
 ## 8. Order of work and cost
 
-1. The owner's review and decisions; this file frozen.
+1. The owner's review and decisions; this file frozen (done 2026-11-04).
 2. The S rules, the key, the draw, the prompts, the measure and the tests; the owner reads the S card.
 3. Part 1, then part 2, at the owner's word.
 4. The strings committed; the key applied; the measure run; the report.
