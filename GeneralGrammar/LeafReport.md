@@ -96,7 +96,7 @@ The 80% was the keeper's judgment. By hit rate the same models reach 84% and 76%
 
 Clustered on acts, relation and significance, with verbs not among the features. Reading the samples is the keeper's judgment.
 
-**Tragedies: the clear result.** 26 clusters replicate, and the verbs inside them, not used to make them, name:
+**Tragedies: the clear result.** 24 clusters replicate, and the verbs inside them, not used to make them, name:
 - **Threats** (threaten: two clusters).
 - **Curses** (curse: two clusters, with some strays).
 - **Prayer and invocation** (pray).
@@ -105,7 +105,7 @@ Clustered on acts, relation and significance, with verbs not among the features.
 - **Vows and promises** (promise, vow, swear).
 - **Foretelling and reports** (foretell, tell).
 - **Arrival and return,** **orders,** **sending and summoning,** **plans and decisions.**
-- **Two mixed clusters of the act `other`** (birth and descent, staging).
+- **Three mixed clusters of the act `other`** (birth and descent, staging, gods and events).
 
 **These are very largely candidates already on the record.** Threats is the one X-study candidate that held. Oath, prayer and curse are the `Cand` study's. Begging, sending and arriving were X-study candidates that took Propp's events. They were found again here without being looked for, from events his alphabet left unnamed, by two readers.
 
