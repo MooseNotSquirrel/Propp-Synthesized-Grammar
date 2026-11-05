@@ -162,12 +162,88 @@ def report(corpus, hdir, sdir, num, propp=None):
     return out
 
 
+def old_notes(corpus_story, reader, tales):
+    """the old strings of the same tales (card C, tables), as a third figure"""
+    import csv
+    csv.field_size_limit(10 ** 9)
+    out = collections.OrderedDict()
+    sys.path.insert(0, os.path.join(os.path.dirname(HERE), 'Induction'))
+    import strings as ST
+    TS = ST.TS
+    for r in csv.DictReader(open(os.path.join(os.path.dirname(HERE), 'Data/tables/functions.tsv'), encoding='utf-8', newline=''), delimiter='\t', quoting=csv.QUOTE_NONE):
+        c, _, t = r['story'].partition(':')
+        if c != corpus_story or r['card'] != 'C' or r['reader'] != reader or t not in tales or r['version'] not in ('', '1'):
+            continue
+        try:
+            e = int(r['event'])
+        except ValueError:
+            continue
+        ks = ['X'] if r['function'] == 'X' else [k for k in TS.key(r['function']) if k in TS.NUM]
+        out.setdefault(t, collections.OrderedDict()).setdefault(e, []).extend(ks)
+    return out
+
+
+def with_prep(notes, num):
+    out = {}
+    for t, ev in notes.items():
+        x = [u for e in ev for u in ev[e] if u in num]
+        if len(x) >= 2:
+            out[t] = x
+    return out
+
+
+def adjacent_pairs(strs, pairs):
+    """his pairs seen adjacent in at least 2 stories"""
+    n = collections.Counter()
+    for x in strs:
+        for p in set(zip(x, x[1:])):
+            n[p] += 1
+    live = [p for p in pairs if n[p] >= 1]
+    return sorted('%s-%s' % p for p in pairs if n[p] >= 2), len(live)
+
+
+def extra(corpus_story, H, S, num, pairs, tales):
+    """beside the reading, not deciding"""
+    import grammar as G
+    out = ['## beside the reading, not deciding']
+    for r in 'AB':
+        O = old_notes(corpus_story, r, tales)
+        os_, hs, ss = strings_of(O, num), strings_of(H[r], num), strings_of(S[r], num)
+        out.append('%s: tau on the old strings of these tales %.3f (%d); given a function, old %.3f' % (r, *tau(list(os_.values()), num), covered(O)))
+        hp, sp = with_prep(H[r], num), with_prep(S[r], num)
+        out.append('%s: with preparatory units: H %.3f (%d), S %.3f (%d)' % (r, *tau(list(hp.values()), num), *tau(list(sp.values()), num)))
+        for lab, x in (('H', hp), ('S', sp)):
+            f = G.fit(list(x.values()), boots=200)
+            ot = None
+            seen = [u for u in f['order'] if u in num and u not in PREP]
+            ot = kendalltau(range(len(seen)), [num[u] for u in seen])[0] if len(seen) > 3 else float('nan')
+            ap, _ = adjacent_pairs(list(x.values()), pairs)
+            out.append('%s %s: tool (15 stories, below its tested 20): %s, coverage %.2f, order tau %.3f; his pairs adjacent in 2 stories or more: %s' % (r, lab, f['shape'], f['coverage'], ot, ' '.join(ap)))
+        out.append('%s: units per story: old %.1f, H %.1f, S %.1f' % (r, np.mean([len(v) for v in os_.values()]), np.mean([len(v) for v in hs.values()]), np.mean([len(v) for v in ss.values()])))
+    return out
+
+
 if __name__ == '__main__':
     sys.path.insert(0, HERE)
     import score as C
-    slots, _ = C.propp()
+    slots, pairs = C.propp()
     num = C.numbering(slots)
     corpus, hdir, sdir = sys.argv[1:4]
-    lines = report(corpus, hdir, sdir, num)
+    key = json.load(open(os.path.join(HERE, 'PilotKey.json'), encoding='utf-8'))
+    propp = None
+    story = {'wonder': 'tale', 'east': 'eastasian'}[corpus]
+    if corpus == 'wonder':
+        import leaves as L
+        d = L.load()
+        propp = {}
+        for s, b in d['propp'].items():
+            t = s.split(':', 1)[1]
+            propp[t] = collections.Counter({k: v for k, v in b.items() if k not in PREP})
+    lines = report(corpus, hdir, sdir, num, propp)
+    code = {c: norm(s) for s, c in key['symbols'].items()}
+    tales = {v: k for k, v in key['tales'][corpus].items()}
+    H = {r: parse_notes(os.path.join(hdir, r, 'Notes.txt')) for r in 'AB'}
+    S = {r: parse_notes(os.path.join(sdir, r, 'Notes.txt'), code, tales) for r in 'AB'}
+    lines += extra(story, H, S, num, pairs, set(key['tales'][corpus]))
     open(os.path.join(HERE, 'Pilot-%s.txt' % corpus), 'w', encoding='utf-8', newline='\n').write('\n'.join(lines) + '\n')
     print('\n'.join(lines))
