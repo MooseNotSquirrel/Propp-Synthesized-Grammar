@@ -2,8 +2,8 @@
 
 Details the protocol left open, fixed here before any figure is read:
 - Rows. Functions: every row, X kept as a class; the wondertales on card U, as the induction read them; first version only.
-  Acts: one study per story and reader, twolayer before held, animal, native, eastasian ('problems' left out). Significance: significance,
-  five, held, animal, native, eastasian, likewise. The fables are those with acts (the 90 of Fables).
+  Acts and significance: each story and reader has one study (StoryModels/common.py), whichever it is. A first run left the
+  'problems' study out, in error, and so lost about half of the tales, plays and fables; build_features now checks the counts.
 - An event's primary label is its first function that is not X, or else X.
 - Judged measure: "share of the ceiling" (P1, the reasonable answer) is macro F1 over the ceiling's macro F1, because the hit rate
   has a high floor from X. Hit rate and normalized mutual information stand beside it. P2: F5 against F2, per-story hit, one-sided
@@ -45,8 +45,9 @@ READERS = 'AB'
 CACHE = os.path.join(tempfile.gettempdir(), 'leaves-cache-%d.pkl' % SEED)
 WORDNET = 'C:/Users/Steve1/nltk_wordnet'
 MOBY = 'C:/Users/Steve1/moby_thesaurus/x/files/mthesaur.txt'
-ACT_STUDIES = ['twolayer', 'held', 'animal', 'native', 'eastasian']
-SIG_STUDIES = ['significance', 'five', 'held', 'animal', 'native', 'eastasian']
+ACT_STUDIES = ['twolayer', 'problems', 'held', 'animal', 'native', 'eastasian']
+SIG_STUDIES = ['significance', 'problems', 'five', 'held', 'animal', 'native', 'eastasian']
+EXPECT = {'tale': 45, 'animal': 50, 'fable': 90, 'tragedy': 32, 'native': 50, 'eastasian': 50}  # Data/Coverage.txt
 KS = (8, 16, 24, 32, 48, 64, 96)
 PREP = set('βγδεζηθλ')
 STEPS = ['F1', 'F2', 'F3', 'F4', 'F5', 'F6']
@@ -125,6 +126,11 @@ def build_features():
                 ev[e]['sig'] += ['part=' + r['part'], 'value=' + r['value'], 'place=' + r['place'], 'link=' + r['link'], 'problem=' + p]
         events = [dict(e=e, **ev[e]) for e in sorted(ev)]
         out[(story.split(':')[0], reader)].append((story, events))
+    for c, n in EXPECT.items():
+        for r in READERS:
+            got = len(out.get((c, r), []))
+            if got != n:
+                raise SystemExit('leaves: %s reader %s has %d stories, Coverage.txt says %d' % (c, r, got, n))
     return {'features': dict(out), 'text': text}
 
 
