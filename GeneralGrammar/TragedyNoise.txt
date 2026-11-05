@@ -1,0 +1,9 @@
+# TragedyNoise.txt -- 32 plays, 3262 events
+A all events: tau 0.229 on 24 functions
+A 300 events, even across plays: tau 0.31 [-0.07, 0.65] on 11 functions
+A 400 events, even across plays: tau 0.30 [-0.03, 0.57] on 13 functions
+A 600 events, even across plays: tau 0.30 [0.06, 0.52] on 16 functions
+B all events: tau 0.238 on 23 functions
+B 300 events, even across plays: tau 0.32 [-0.09, 0.69] on 10 functions
+B 400 events, even across plays: tau 0.32 [0.00, 0.61] on 12 functions
+B 600 events, even across plays: tau 0.30 [0.04, 0.57] on 15 functions
