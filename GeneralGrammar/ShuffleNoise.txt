@@ -1,0 +1,12 @@
+# ShuffleNoise.txt -- existing strings only
+wonder: 488 events in 15 tales; per tale 20 to 63; 16.0 words an event
+east: 376 events in 15 tales; per tale 13 to 36; 14.6 words an event
+## tau with his order (no preparatory units), when labels are replaced at rate p; 300 draws of the replacement
+wonder A  p 0.0: 0.76 [0.76, 0.76]  p 0.2: 0.67 [0.53, 0.79]  p 0.4: 0.54 [0.34, 0.71]  p 0.6: 0.39 [0.17, 0.59]  p 0.8: 0.21 [-0.06, 0.46]
+wonder B  p 0.0: 0.72 [0.72, 0.72]  p 0.2: 0.66 [0.56, 0.77]  p 0.4: 0.57 [0.42, 0.70]  p 0.6: 0.43 [0.23, 0.61]  p 0.8: 0.24 [-0.01, 0.46]
+east   A  p 0.0: 0.75 [0.75, 0.75]  p 0.2: 0.67 [0.53, 0.80]  p 0.4: 0.55 [0.38, 0.73]  p 0.6: 0.40 [0.15, 0.61]  p 0.8: 0.22 [-0.04, 0.49]
+east   B  p 0.0: 0.67 [0.67, 0.67]  p 0.2: 0.58 [0.44, 0.71]  p 0.4: 0.48 [0.31, 0.65]  p 0.6: 0.34 [0.08, 0.55]  p 0.8: 0.19 [-0.08, 0.46]
+## two whole-tale codings of the same 15 wondertales: kappa, event by event
+reader A: H with S 0.743; old with H 0.785; old with S 0.774
+reader B: H with S 0.607; old with H 0.692; old with S 0.587
+A with B: H 0.695; S 0.625; A under H with B under S 0.532
