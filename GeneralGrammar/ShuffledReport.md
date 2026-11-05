@@ -34,3 +34,30 @@ Kappa of A with B, coded apart: 0.555.
 ## Cost
 
 No failures. The owner's usage figure gives the measure.
+
+# The East Asian tales (2026-11-04)
+
+`Shuffled-east.txt`; TaleCoding a4f6a23. 376 events from 15 tales, all coded, no code off the card. The baseline is the old strings, so run noise of up to 0.12 stays in the comparison.
+
+| Reader | Tau, coded apart | Whole-tale tau | Kappa with whole-tale | Expected at that rate | Null 95th | Reading |
+|---|---|---|---|---|---|---|
+| **A** (Opus) | **0.695** | 0.785 | 0.507 | 0.360 to 0.708 | 0.259 | **IN THE EVENTS** |
+| **B** (Sonnet) | **0.440** | 0.711 | 0.453 | 0.249 to 0.641 | 0.268 | **IN PART** |
+
+Kappa of A with B, coded apart: 0.618.
+
+**Reader B is "in part" only because it is under the bar of 0.5.** It stands above the null and inside what worse coding alone predicts, so nothing points to the order needing the sequence. Neither reader in either corpus came near "needs the sequence".
+
+**Beside the reading:**
+- **The words alone give no place:** R squared −0.121 on held-out tales.
+- **Recognition:** all six of A's batches named Propp; three of B's six did. A's readers said lines often showed "whether an event fell early, in the middle or late".
+- **With preparatory units the tau falls:** 0.473 and 0.364. Those functions do not keep his early place here: η 0.42, 0.47 and θ 0.54, 0.36 coded alone, γ about 0.48. β is 0.34 in reader A, against 0.14 whole-tale.
+
+## The two corpora together
+
+| Tau, no preparatory units | Whole-tale A, B | Coded apart A, B |
+|---|---|---|
+| Wondertales (15) | 0.74, 0.62 | 0.58, 0.56 |
+| East Asian (15) | 0.79, 0.71 | 0.70, 0.44 |
+
+**That two unrelated traditions give about the same order, coded apart, cuts two ways.** It may be that Propp's order reaches beyond the Russian tale. Or it may be narrative logic that any story would show. The contrast needed is a corpus with a different form. Whole-tale tragedies stand at about 0.2, so a coded-apart run there would show whether this test can say no.

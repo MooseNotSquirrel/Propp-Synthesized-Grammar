@@ -1,0 +1,12 @@
+# Shuffled-east.txt -- ShuffledProtocol.md, the frozen reading; 376 events
+A: 376 of 376 events coded; codes not on the card 0
+B: 376 of 376 events coded; codes not on the card 0
+kappa A with B, coded apart: 0.618
+A: tau 0.695 on 16 functions; whole-tale 0.785; kappa with whole-tale 0.507 (agreement 0.601); expected at that rate [0.360, 0.708]; null 95th 0.259: IN THE EVENTS
+B: tau 0.440 on 15 functions; whole-tale 0.711; kappa with whole-tale 0.453 (agreement 0.572); expected at that rate [0.249, 0.641]; null 95th 0.268: IN PART
+## beside the reading, not deciding
+place from the words alone, held-out tales, R squared -0.121
+A: with preparatory units tau 0.473 (21); given a symbol 0.612, whole-tale 0.556
+   mean place apart / whole-tale: A 0.39/0.33 K 0.85/0.72 W 0.70/0.76 a 0.42/0.33 β 0.34/0.14 γ 0.47/0.40 δ 0.47/0.38 η 0.42/0.50 θ 0.54/0.60
+B: with preparatory units tau 0.364 (19); given a symbol 0.556, whole-tale 0.548
+   mean place apart / whole-tale: A 0.49/0.33 K 0.73/0.74 W 0.70/0.73 a 0.44/0.40 γ 0.49/0.43 δ 0.45/0.42 η 0.47/0.52 θ 0.36/0.64
