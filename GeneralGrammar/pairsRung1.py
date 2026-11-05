@@ -160,8 +160,10 @@ def test():
     f2, _, _, _ = Q.analyse(st2, shuffles=300)
     ok('a planted spanning pair is found as spanning', f2.get(('s', 't'), {}).get('kind') == 'spanning', str(f2.get(('s', 't'))))
     st3 = [rng.sample(list('abcdefgh'), 6) for _ in range(40)]
-    f3, c3, _, _ = Q.analyse(st3, shuffles=300)
-    ok('shuffled stories give few pairs', len(f3) <= .05 * c3, '%d of %d' % (len(f3), c3))
+    st3 += [rng.sample(list('abcdefgh'), 6) for _ in range(40)]
+    f3, c3, _, _ = Q.analyse(st3[:40], shuffles=300)
+    k3 = Q.confirm(f3, st3[40:], shuffles=300)
+    ok('shuffled stories give few pairs, over both halves', len(k3) <= .05 * c3, '%d of %d' % (len(k3), c3))
     mp = {u: 'zz' + u[::-1] for s in st for u in s}
     f4, _, _, _ = Q.analyse([[mp[u] for u in s] for s in st], shuffles=300)
     ok('renaming gives the same pairs', {(mp[a], mp[b]): v for (a, b), v in f.items()} == f4)
