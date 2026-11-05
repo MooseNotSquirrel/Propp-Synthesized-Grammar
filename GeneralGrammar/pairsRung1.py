@@ -109,7 +109,7 @@ def run(version):
     bars = {'close': pct([r['close'] for r in g9], 10), 'span': pct([r['span'] for r in g9], 10)}
     s9 = np.mean([r['span'] >= .8 for r in g9])
     out.append('G9: close recall median %.3f, spanning median %.3f; BARS (10th percentile) close %.3f, spanning %.3f; other spanning called per corpus, mean %.1f, of about %.0f candidates' % (pct([r['close'] for r in g9], 50), pct([r['span'] for r in g9], 50), bars['close'], bars['span'], np.mean([r['other_spanning'] for r in g9]), np.mean([r['cands'] for r in g9])))
-    out.append('G9: other close pairs per corpus, mean %.1f; A-K and a-K found as spanning, mean of 2: %.2f (planted beside K's other opener, so not gated)' % (np.mean([r['other_close'] for r in g9]), np.mean([r['ak'] for r in g9])))
+    out.append('G9: other close pairs per corpus, mean %.1f; A-K and a-K found as spanning, mean of 2: %.2f (planted beside the other opener of K, so not gated)' % (np.mean([r['other_close'] for r in g9]), np.mean([r['ak'] for r in g9])))
     out.append('gate G9: corpora finding at least 80%% of planted spanning pairs: %.0f%% (need 80%%)' % (100 * s9))
     g2 = by('G2')
     own = np.mean([r['close'] >= bars['close'] for r in g2])
