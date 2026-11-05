@@ -1,0 +1,15 @@
+# TragedyApart.txt -- TragedyApartProtocol.md, the frozen reading; 480 events
+A: 480 of 480 coded; codes off the card 0
+B: 480 of 480 coded; codes off the card 0
+kappa A with B, coded apart: 0.612
+A: coded apart tau 0.117 (19); whole-play, same events, 0.134 (15); D -0.177 [-0.458, 0.258] on 14 shared; kappa with whole-play 0.515; null 95th 0.247: THE TEST SAYS NO
+B: coded apart tau 0.243 (16); whole-play, same events, 0.426 (13); D -0.214 [-0.472, 0.371] on 12 shared; kappa with whole-play 0.468; null 95th 0.293: THE TEST SAYS NO
+## beside the reading, not deciding
+A: wonder coded apart 0.575, tragedies 0.117; difference 90% interval [0.084, 0.634]
+A: east coded apart 0.695, tragedies 0.117; difference 90% interval [0.027, 0.692]
+A: with preparatory units tau 0.113 (24); given a symbol 0.562, whole-play 0.412
+   mean place: o 0.16 β 0.18 B 0.34 W 0.34 I 0.41 a 0.43 down 0.43 η 0.44 H 0.46 G 0.46 E 0.46 A 0.47 δ 0.49 up 0.53 F 0.53 C 0.56 Ex 0.56 Rs 0.60 γ 0.60 Pr 0.72 θ 0.72 K 0.83 Q 0.83 U 0.89
+B: wonder coded apart 0.563, tragedies 0.243; difference 90% interval [-0.128, 0.547]
+B: east coded apart 0.440, tragedies 0.243; difference 90% interval [-0.218, 0.529]
+B: with preparatory units tau 0.195 (20); given a symbol 0.512, whole-play 0.442
+   mean place: δ 0.24 W 0.33 B 0.35 down 0.35 η 0.38 I 0.42 up 0.43 C 0.47 a 0.47 A 0.47 F 0.51 γ 0.56 G 0.60 Ex 0.61 H 0.63 E 0.70 K 0.71 θ 0.74 Rs 0.83 Q 0.87

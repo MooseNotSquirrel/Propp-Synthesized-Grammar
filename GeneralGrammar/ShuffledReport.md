@@ -61,3 +61,30 @@ Kappa of A with B, coded apart: 0.618.
 | East Asian (15) | 0.79, 0.71 | 0.70, 0.44 |
 
 **That two unrelated traditions give about the same order, coded apart, cuts two ways.** It may be that Propp's order reaches beyond the Russian tale. Or it may be narrative logic that any story would show. The contrast needed is a corpus with a different form. Whole-tale tragedies stand at about 0.2, so a coded-apart run there would show whether this test can say no.
+
+# The tragedies: can the test say no? (2026-11-04)
+
+`TragedyApartProtocol.md`; `TragedyApart.txt`, from `tragedyApart.py`; TaleCoding 2b84b49. 480 events sampled from 32 plays, all coded, no code off the card.
+
+| Reader | Tau, coded apart | Whole-play, same events | D, on shared functions | Kappa with whole-play | Reading |
+|---|---|---|---|---|---|
+| **A** (Opus) | **0.117** | 0.134 | −0.177 [−0.458, 0.258] | 0.515 | **THE TEST SAYS NO** |
+| **B** (Sonnet) | **0.243** | 0.426 | −0.214 [−0.472, 0.371] | 0.468 | **THE TEST SAYS NO** |
+
+Kappa of A with B, coded apart: 0.612. The keeper's expectation held.
+
+## All three corpora, coded apart
+
+| Tau with his order | A | B |
+|---|---|---|
+| Wondertales | 0.575 | 0.563 |
+| East Asian | 0.695 | 0.440 |
+| **Tragedies** | **0.117** | **0.243** |
+
+**The same card and method, by readers who recognized it just as often** (all six of A's batches, four of B's six), give a low tau on plays. So the labels do not bring his order regardless of story. This removes the reading that would have undercut the last two reports.
+
+**How firm the contrast is.** Reader A: tragedies below wondertales, 90% interval of the difference 0.084 to 0.634, and below East Asian, 0.027 to 0.692. Reader B: the intervals include 0 (−0.128 to 0.547, −0.218 to 0.529). So the direction is the same in both readers, and clear only in A. These are small samples, measuring about 15 functions.
+
+**What it bears on narrative logic.** Plays are stories too, with harms and repairs, and they do not show his order. So the order is not what every story shows, and "narrative logic in general" is weaker for this. It is not gone. Some functions keep their late place in plays too (K, Q and U stand late in both readers), and a logic particular to tales would still fit. Wedding stands early here (0.34, 0.33), against about 0.75 in the tales; so do arrival and return.
+
+**The cost:** from 29% to 47% of the budget, 18 points, including the keeper's setup, for 12 subagents and 480 lines. The East Asian part, 12 subagents and 376 lines, took 26 by the owner's figure.
