@@ -138,3 +138,8 @@ The tool has so far been shown only on generated strings and his own, so all of 
 3. **Functions cannot yet be recovered blind.** With the labels to learn from, about 60% of the ceiling; without them, little.
 4. **The candidates are real in tragedy,** and found from below.
 5. **The most important open question is priming,** and strings alone cannot answer it. It takes data collected differently.
+
+## Corrections, 2026-11-04, after this report
+
+- **The event lists.** `LeafProtocol.md` and the keeper's account said the lists came from listers whose rules held Propp's card. That is so of the earlier fables and plays. The East Asian listers' rules do not name him (`ActsRoles/eastasian/ListRules.md`), and the wondertale listers' file named him in its first lines, with a prompt saying his functions played no part and not to read as far as the card.
+- **The East Asian order.** The 0.96 and 0.95 above are from the order tool on 16 functions. The simple mean-position measure on about 20 functions gives 0.74 and 0.60 (`PilotNoise.txt`). The wondertales are steadier: 0.76, 0.79 by the tool, 0.78, 0.77 by mean position. "Very strong" overstates the East Asian result.

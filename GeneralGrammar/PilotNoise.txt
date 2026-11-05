@@ -1,0 +1,10 @@
+tale       A all 45: tau 0.778 (25 functions);  10 tales 0.76 [0.63, 0.86] sd 0.07, 17 fn  15 tales 0.78 [0.67, 0.87] sd 0.06, 20 fn  20 tales 0.79 [0.70, 0.86] sd 0.05, 21 fn  30 tales 0.79 [0.72, 0.86] sd 0.04, 23 fn
+tale       B all 45: tau 0.771 (25 functions);  10 tales 0.75 [0.63, 0.86] sd 0.07, 17 fn  15 tales 0.78 [0.69, 0.86] sd 0.05, 19 fn  20 tales 0.79 [0.71, 0.86] sd 0.05, 21 fn  30 tales 0.77 [0.71, 0.83] sd 0.04, 24 fn
+eastasian  A all 43: tau 0.744 (20 functions);  10 tales 0.68 [0.48, 0.86] sd 0.12, 11 fn  15 tales 0.69 [0.55, 0.82] sd 0.08, 14 fn  20 tales 0.71 [0.59, 0.83] sd 0.07, 15 fn  30 tales 0.72 [0.63, 0.81] sd 0.06, 18 fn
+eastasian  B all 43: tau 0.598 (19 functions);  10 tales 0.67 [0.44, 0.88] sd 0.14, 10 fn  15 tales 0.70 [0.50, 0.86] sd 0.11, 13 fn  20 tales 0.69 [0.52, 0.84] sd 0.10, 15 fn  30 tales 0.66 [0.54, 0.78] sd 0.08, 17 fn
+tragedy    A all 32: tau 0.221 (24 functions);  10 tales 0.27 [0.07, 0.48] sd 0.13, 18 fn  15 tales 0.25 [0.08, 0.42] sd 0.10, 21 fn  20 tales 0.25 [0.10, 0.40] sd 0.09, 22 fn  30 tales 0.22 [0.16, 0.32] sd 0.04, 24 fn
+tragedy    B all 32: tau 0.206 (23 functions);  10 tales 0.30 [0.05, 0.56] sd 0.16, 17 fn  15 tales 0.25 [0.07, 0.45] sd 0.11, 20 fn  20 tales 0.24 [0.10, 0.40] sd 0.09, 21 fn  30 tales 0.23 [0.17, 0.31] sd 0.05, 23 fn
+native     A all 50: tau 0.454 (24 functions);  10 tales 0.49 [0.23, 0.72] sd 0.16, 11 fn  15 tales 0.48 [0.24, 0.69] sd 0.14, 15 fn  20 tales 0.46 [0.23, 0.69] sd 0.14, 17 fn  30 tales 0.44 [0.28, 0.63] sd 0.11, 20 fn
+native     B all 47: tau 0.584 (24 functions);  10 tales 0.55 [0.27, 0.77] sd 0.15, 12 fn  15 tales 0.55 [0.32, 0.75] sd 0.13, 15 fn  20 tales 0.57 [0.37, 0.74] sd 0.11, 18 fn  30 tales 0.56 [0.43, 0.69] sd 0.08, 21 fn
+shuffled within story tale A, 10 tales: 0.01 [-0.29, 0.29]
+shuffled within story eastasian A, 10 tales: -0.02 [-0.40, 0.33]
