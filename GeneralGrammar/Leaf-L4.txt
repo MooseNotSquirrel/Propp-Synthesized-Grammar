@@ -1,0 +1,43 @@
+# Leaf-L4.txt -- each alphabet through grammar.py version 3, unchanged. Exploratory; the tool has been shown only on generated strings and his own
+## tale
+functions  A bigram            cov 0.49 ratio 1.14 d4 | B bigram            cov 0.39 ratio 1.19 d2 | same verdict: True  order tau A,B 0.81 | 23 stories, 23 units
+acts       A unigram           cov 0.22 ratio 0.00 d8 | B unigram           cov 0.29 ratio 0.00 d8 | same verdict: True  order tau A,B 0.57 | 23 stories, 33 units
+D          A unigram           cov 0.15 ratio 0.00 d4 | B unigram           cov 0.23 ratio 0.00 d8 | same verdict: True  order tau A,B - | 23 stories, 36 units
+E          A local order       cov 0.21 ratio 2.56 d8 | B unigram           cov 0.25 ratio 0.00 d8 | same verdict: False order tau A,B - | 23 stories, 36 units
+  A functions order: β γ δ a A B ε up C D E G F H ζ M η θ Pr Rs I o N K down Q U W
+  B functions order: a A B up γ δ C D E G H F M N ε ζ η θ I Rs Q down U K W
+## animal
+functions  A bigram            cov 0.27 ratio 0.92 d1 | B bigram            cov 0.30 ratio 0.86 d1 | same verdict: True  order tau A,B 0.12 | 48 stories, 16 units
+acts       A bigram            cov 0.22 ratio 1.04 d2 | B hmm               cov 0.05 ratio 1.04 d1 | same verdict: False order tau A,B 0.28 | 50 stories, 22 units
+D          A bigram            cov 0.30 ratio 0.81 d8 | B bigram            cov 0.20 ratio 0.84 d1 | same verdict: True  order tau A,B - | 50 stories, 26 units
+E          A bigram            cov 0.36 ratio 0.79 d8 | B bigram            cov 0.19 ratio 0.87 d1 | same verdict: True  order tau A,B - | 50 stories, 26 units
+  A functions order: a η δ D B C β up F θ A H I U K down Pr γ Rs
+  B functions order: Pr a B C γ Rs η K θ δ up A I down F
+## fable
+functions  A bigram            cov 0.62 ratio 1.07 d4 | B unigram           cov 0.00 ratio 0.00 d1 | same verdict: False order tau A,B -0.33 | 31 stories, 4 units
+acts       A unigram           cov 0.17 ratio 1.24 d1 | B bigram            cov 0.36 ratio 0.89 d1 | same verdict: False order tau A,B 0.50 | 39 stories, 4 units
+D          A unigram           cov 0.34 ratio 0.00 d2 | B bigram            cov 0.39 ratio 0.60 d2 | same verdict: False order tau A,B - | 44 stories, 5 units
+E          A unigram           cov 0.24 ratio 1.20 d1 | B bigram            cov 0.37 ratio 0.78 d8 | same verdict: False order tau A,B - | 44 stories, 5 units
+  A functions order: a F η γ A L Ex
+  B functions order: A a F
+## tragedy
+functions  A unigram           cov 0.19 ratio 0.00 d8 | B unigram           cov 0.02 ratio 0.45 d1 | same verdict: True  order tau A,B 0.38 | 16 stories, 45 units
+acts       A unigram           cov 0.03 ratio 0.00 d4 | B unigram           cov 0.09 ratio 0.00 d4 | same verdict: True  order tau A,B 0.50 | 16 stories, 88 units
+D          A hmm               cov 0.02 ratio 0.00 d1 | B hmm               cov 0.04 ratio 0.00 d4 | same verdict: True  order tau A,B - | 16 stories, 101 units
+E          A hmm               cov 0.01 ratio 0.00 d2 | B hmm               cov 0.07 ratio 0.00 d8 | same verdict: True  order tau A,B - | 16 stories, 101 units
+  A functions order: β Rs W A a B C up G η θ D H I J Q γ down δ F K Pr U Ex
+  B functions order: A a γ up B β o D η θ H F E δ I U C K W Rs down J Q Ex Pr
+## native
+functions  A bigram            cov 0.23 ratio 1.05 d1 | B bigram            cov 0.47 ratio 0.85 d4 | same verdict: True  order tau A,B 0.57 | 50 stories, 16 units
+acts       A unigram           cov 0.01 ratio 0.00 d1 | B unigram           cov 0.20 ratio 0.00 d4 | same verdict: True  order tau A,B 0.17 | 50 stories, 29 units
+D          A hmm               cov 0.29 ratio 1.09 d4 | B bigram            cov 0.29 ratio 1.01 d4 | same verdict: False order tau A,B - | 50 stories, 36 units
+E          A bigram            cov 0.05 ratio 1.19 d1 | B bigram            cov 0.23 ratio 0.89 d2 | same verdict: True  order tau A,B - | 50 stories, 36 units
+  A functions order: a T γ δ η θ A Rs β B C up D o E γ Q H I F U K G down δ W ε ζ
+  B functions order: a ε γ δ η θ A B C D up G H E I Q U Rs F T K down W
+## eastasian
+functions  A bigram            cov 0.66 ratio 0.99 d4 | B bigram            cov 0.60 ratio 1.02 d8 | same verdict: True  order tau A,B 0.87 | 44 stories, 12 units
+acts       A unigram           cov 0.17 ratio 0.00 d8 | B unigram           cov 0.09 ratio 0.00 d2 | same verdict: True  order tau A,B 0.35 | 49 stories, 17 units
+D          A bigram            cov 0.17 ratio 1.14 d8 | B bigram            cov 0.15 ratio 1.06 d8 | same verdict: True  order tau A,B - | 50 stories, 21 units
+E          A hmm               cov 0.14 ratio 1.39 d4 | B bigram            cov 0.21 ratio 1.18 d8 | same verdict: False order tau A,B - | 50 stories, 21 units
+  A functions order: a β γ A B C up D E F η θ ε G ζ H I Ex K down U W
+  B functions order: a γ ε β A B C up D E F G η θ H I Ex down K U W

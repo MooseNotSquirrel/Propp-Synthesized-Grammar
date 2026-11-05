@@ -1,0 +1,33 @@
+# Leaf-L3.txt -- leaves his list may lack: the events the readers left X, clustered per corpus and reader; a cluster replicates at Jaccard 0.3 or more and stands in at least 10 stories
+## tale: X events A 296, B 225, both 184; k 8, 8
+kept A2~B1: Jaccard 0.42, 50 events in 19 stories; acts [('reveal-information', 10), ('give', 10), ('other', 10), ('plead', 8), ('seek-information', 6)]; verbs [('tell', 16), ('ask', 14), ('find', 7), ('meet', 7), ('take', 6), ('order', 6), ('praise', 5), ('give', 5), ('eat', 5), ('warn', 4)]
+kept A7~B2: Jaccard 0.32, 39 events in 13 stories; acts [('reveal-information', 8), ('give', 8), ('respond', 5), ('test', 4), ('seek-information', 4)]; verbs [('tell', 13), ('ask', 8), ('find', 6), ('leave', 5), ('nurse', 4), ('threaten', 4), ('give', 4), ('scold', 3), ('order', 3), ('tie', 3)]
+kept A4~B4: Jaccard 0.37, 36 events in 16 stories; acts [('reveal-information', 14), ('forbid', 6), ('send', 5), ('other', 5), ('give', 5)]; verbs [('tell', 10), ('send', 9), ('ask', 5), ('take', 4), ('call', 3), ('answer', 3), ('order', 3), ('give', 3), ('bring', 3), ('bark', 2)]
+kept A1~B2: Jaccard 0.34, 31 events in 11 stories; acts [('other', 15), ('plead', 5), ('receive', 4), ('seek-information', 4), ('send', 3)]; verbs [('tell', 9), ('find', 8), ('ask', 8), ('search', 4), ('christen', 4), ('allow', 3), ('threaten', 3), ('ride', 3), ('give', 3), ('meet', 3)]
+kept A5~B5: Jaccard 0.67, 29 events in 10 stories; acts [('give', 9), ('reveal-information', 4), ('other', 4), ('guide', 4), ('forbid', 4)]; verbs [('tell', 9), ('send', 5), ('take', 4), ('plant', 2), ('ask', 2), ('feed', 2), ('beg', 2), ('treat', 2), ('feast', 2), ('leave', 2)]
+## animal: X events A 511, B 588, both 447; k 96, 64
+kept A18~B47: Jaccard 0.53, 14 events in 11 stories; acts [('receive', 15)]; verbs [('eat', 13), ('find', 8), ('purr', 3), ('catch', 2), ('drive', 2), ('gather', 2), ('get', 2), ('see', 2), ('sleep', 2), ('run', 2)]
+## fable: X events A 86, B 94, both 73; k 32, 48
+## tragedy: X events A 901, B 887, both 753; k 96, 96
+kept A3~B27: Jaccard 0.50, 16 events in 11 stories; acts [('harm', 17), ('lament', 1), ('plead', 1), ('expose', 1)]; verbs [('curse', 19), ('see', 3), ('pray', 3), ('take', 3), ('sack', 2), ('kill', 2), ('foretell', 1), ('find', 1), ('cry', 1), ('scold', 1)]
+## native: X events A 978, B 924, both 804; k 96, 64
+kept A7~B15: Jaccard 0.40, 18 events in 16 stories; acts [('leave', 19), ('decide', 1), ('lament', 1), ('reveal-information', 1)]; verbs [('go', 19), ('leave', 8), ('camp', 6), ('cross', 2), ('run', 2), ('build', 2), ('trap', 2), ('decide', 1), ('move', 1), ('find', 1)]
+kept A3~B24: Jaccard 0.30, 17 events in 10 stories; acts [('lose', 17), ('decide', 1), ('seek-information', 1), ('send', 1), ('give', 1)]; verbs [('strike', 6), ('try', 3), ('fall', 3), ('spear', 3), ('pull', 2), ('go', 2), ('send', 2), ('bring', 2), ('catch', 2), ('fill', 2)]
+kept A23~B47: Jaccard 0.54, 15 events in 11 stories; acts [('return', 14), ('send', 2), ('guide', 2), ('seek-information', 1), ('deceive', 1)]; verbs [('go', 9), ('come', 4), ('say', 4), ('return', 2), ('bring', 2), ('carry', 2), ('ask', 1), ('answer', 1), ('come home', 1), ('watch', 1)]
+kept A29~B16: Jaccard 0.38, 13 events in 10 stories; acts [('deceive', 8), ('plead', 4), ('seek-information', 3), ('recognize', 2), ('expose', 1)]; verbs [('ask', 5), ('see', 3), ('beg', 3), ('lie', 2), ('say', 2), ('hide', 2), ('blame', 1), ('cry out', 1), ('hush', 1), ('spit out', 1)]
+## eastasian: X events A 501, B 503, both 415; k 96, 96
+kept A29~B7: Jaccard 0.45, 30 events in 12 stories; acts [('other', 32), ('want', 2), ('win', 1), ('leave', 1), ('respond', 1)]; verbs [('name', 6), ('drink', 5), ('eat', 4), ('bury', 3), ('pour', 3), ('die', 2), ('laugh', 2), ('come', 2), ('dance', 2), ('rest', 2)]
+kept A4~B1: Jaccard 0.32, 20 events in 12 stories; acts [('other', 24), ('forbid', 2), ('give', 1), ('decide', 1), ('expose', 1)]; verbs [('build', 4), ('order', 3), ('come', 3), ('plant', 2), ('cut', 2), ('learn', 2), ('destroy', 2), ('laugh', 2), ('crowd', 2), ('hire', 2)]
+kept A13~B52: Jaccard 0.60, 12 events in 10 stories; acts [('send', 12), ('lose', 1), ('reveal-information', 1)]; verbs [('send', 11), ('call', 5), ('summon', 3), ('stop', 2), ('strike', 1), ('hear', 1), ('confirm', 1), ('see', 1), ('hire', 1), ('offer', 1)]
+kept A18~B62: Jaccard 0.31, 12 events in 11 stories; acts [('receive', 13), ('repair', 2), ('give', 1), ('forbid', 1)]; verbs [('find', 4), ('eat', 2), ('add', 2), ('buy', 2), ('get', 2), ('wake', 2), ('overhear', 2), ('gather', 1), ('fetch', 1), ('cook', 1)]
+## found in one corpus only: a kept cluster whose acts are unlike (cosine under 0.5) every kept cluster of the other corpora
+tale A2: [('reveal-information', 10), ('give', 10), ('other', 10), ('plead', 8)] (closest elsewhere 0.47)
+tale A7: [('reveal-information', 8), ('give', 8), ('respond', 5), ('test', 4)] (closest elsewhere 0.31)
+tale A4: [('reveal-information', 14), ('forbid', 6), ('send', 5), ('other', 5)] (closest elsewhere 0.32)
+tale A5: [('give', 9), ('reveal-information', 4), ('other', 4), ('guide', 4)] (closest elsewhere 0.35)
+tragedy A3: [('harm', 17), ('lament', 1), ('plead', 1), ('expose', 1)] (closest elsewhere 0.06)
+native A7: [('leave', 19), ('decide', 1), ('lament', 1), ('reveal-information', 1)] (closest elsewhere 0.17)
+native A3: [('lose', 17), ('decide', 1), ('seek-information', 1), ('send', 1)] (closest elsewhere 0.21)
+native A23: [('return', 14), ('send', 2), ('guide', 2), ('seek-information', 1)] (closest elsewhere 0.20)
+native A29: [('deceive', 8), ('plead', 4), ('seek-information', 3), ('recognize', 2)] (closest elsewhere 0.46)
+eastasian A13: [('send', 12), ('lose', 1), ('reveal-information', 1)] (closest elsewhere 0.32)

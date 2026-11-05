@@ -1,0 +1,159 @@
+# Leaf-L3-samples.txt -- 20 events from each replicating cluster (seeded), for the keeper's reading
+## tale A2~B1: [('reveal-information', 10), ('give', 10), ('other', 10)]
+tale:A141 ev 6: The bear feeds them porridge, saying he will marry whichever does not eat, and Repka alone does not eat
+tale:A127 ev 30: The tsar goes to see the garden, finds a lovely little boy in it and takes him to the palace
+tale:A127 ev 12: At the palace all marvel at the crown; the old man asks only for an eye, and the angry tsar threatens him with prison, then orders an eye cu
+tale:A162 ev 7: Ivan takes service with that kingdom's tsar
+tale:A136 ev 55: They pitch their tents in the forbidden meadows of the king of India, and the king sends his first minister to ask who they are
+tale:A143 ev 23: Nadzei meets Gorynya the warrior digging mountains with his foot and praises his strength
+tale:A156 ev 16: She feeds him and he tells her he seeks his mother
+tale:A159 ev 9: Marya Morevna meets him at her white tents and invites him to stay
+tale:A114 ev 14: Walking underground, the sister comes to a hut on chicken legs and bids it turn round to her
+tale:A143 ev 14: The bear comes out of the forest and grazes the oats, and Nadzei marvels at this strange horse
+tale:A163 ev 8: The tsar asks to see the bridegroom
+tale:A136 ev 60: The king receives Ivan-tsarevich and his brothers with honour and feasts them
+tale:A136 ev 20: Burya orders a hut on hen's legs to turn round; they go in, find a meal laid, eat and rest
+tale:A156 ev 55: On the wedding day the old woman tells Ivan the bride is being brought to church
+tale:A159 ev 8: He finds a slain army and a survivor tells him Marya Morevna destroyed it
+## tale A7~B2: [('reveal-information', 8), ('give', 8), ('respond', 5)]
+tale:A136 ev 74: In the morning Burya tells Ivan-tsarevich his wife is tamed and bids them live happily and remember him
+tale:A154 ev 23: The princess tells the king she slept peacefully
+tale:A114 ev 21: The witch has the oven heated hot
+tale:A156 ev 41: Ivan lets down his mother and the princess to his brothers
+tale:A159 ev 18: At a palace the falcon and his sister Marya greet him, and he stays three days
+tale:A101 ev 25: The mother drops from the second flock, throws off her skins, nurses the baby in tears, and says that in two days she will fly away
+tale:A153 ev 16: The princess tells the tsar she spent a quiet night
+tale:A156 ev 58: The eldest brother meets them on the way to the palace and turns back in shame
+tale:A156 ev 18: At the next house Ivan finds his mother, and they embrace and weep
+tale:A101 ev 28: The mother drops from the flock again, throws her skins on the bush, nurses the baby, says farewell and hands him back to the tutor
+tale:A156 ev 43: The brothers threaten the mother and the princess into keeping silent about Ivan
+tale:A156 ev 13: Ivan leaves his horse and gives his brothers a glass of his blood, which will blacken if he dies
+tale:A095 ev 12: The two daughters, growing cold, quarrel over which of them the groom will take
+## tale A4~B4: [('reveal-information', 14), ('forbid', 6), ('send', 5)]
+tale:A095 ev 7: Next morning the old woman sends the old man to wake the newlyweds
+tale:A159 ev 11: Marya Morevna takes him to her kingdom
+tale:A098 ev 18: Next morning the woman sends the old man to the forest, boasting of the carts and herds her daughter will bring
+tale:A152 ev 4: The peasant rejoices at his wife's return, and she tells him all about the bear and the son
+tale:A159 ev 22: Ivan reaches Marya Morevna, who reproaches him for releasing Koshchei
+tale:A101 ev 30: Ivan seizes Marya; she turns into a frog, a lizard, every kind of vermin and at last a spindle
+tale:A132 ev 37: The tailor takes the dresses to the tsar, and the princesses recognise them, guess the tsarevich is alive, and keep silent
+tale:A141 ev 9: Repka lives with the bear nearly a year and becomes pregnant
+tale:A141 ev 41: He sends up the youngest, calling her his own wife
+tale:A127 ev 7: The tsar begins to think the merchant deceived him, since his wife is witless and can do nothing
+tale:A154 ev 33: His queen praises a garden thirty versts from the city
+tale:A098 ev 9: The wife sends the old man to see what his daughter has spun
+tale:A101 ev 29: Ivan burns her skins
+## tale A1~B2: [('other', 15), ('plead', 5), ('receive', 4)]
+tale:A156 ev 11: At a steep mountain he meets his brothers and they ride on together
+tale:A132 ev 13: Neither brother can move the stone, but the youngest hurls it far away
+tale:A143 ev 3: At home his daughter helps him from his horse, and as his head aches she puts him to bed
+tale:A143 ev 6: The daughter's pregnancy advances by the hour, she gives birth to a son, and he is christened Nadzei the priest's grandson
+tale:A136 ev 38: In the morning the brothers find the hut fallen apart and the plate full of blood, search three days for Burya, decide he is dead and get re
+tale:A114 ev 12: The brother, angry, bursts open the door and finds only the dolls cuckooing for the earth to swallow his sister
+tale:A159 ev 62: Ivan and Marya Morevna visit the raven, the eagle and the falcon, who welcome them with joy
+tale:A143 ev 17: The grandfather is horrified, and they marvel; Nadzei asks what work to give the horse, and the grandfather tells him to haul firewood
+tale:A159 ev 2: Ivan buries his parents and walks in the garden with his sisters
+tale:A136 ev 16: Burya pounds the wall and threatens to break out, and the king comes to him
+tale:A141 ev 11: Repka gives birth to a son, half man and half bear, who is christened Ivashko-Medvedko
+tale:A136 ev 12: Ivan-tsarevich is angry that a cow's son should be eldest
+tale:A136 ev 54: The brothers kneel and admit their fault, and they ride on together
+## tale A5~B5: [('give', 9), ('reveal-information', 4), ('other', 4)]
+tale:A141 ev 24: Usynya tells the returning brothers he cooked nothing because of the stove fumes
+tale:A138 ev 38: The old men leave Ivan and go to the tsar
+tale:A164 ev 15: The fox has Kuzenka roast the last hen and the cock
+tale:A132 ev 23: He goes back and takes all three sisters with him, since they love him and will not part from him
+tale:A163 ev 10: On a dirty footbridge the fox pushes him into the mud and smears him with it
+tale:A141 ev 40: Ivashko takes the maidens to the hole, sends up the eldest calling her Usynya's wife, and the second calling her Gorynya's wife, and they ar
+tale:A138 ev 44: She turns back into a pin, Ivan puts it in his collar and rides on
+tale:A141 ev 29: Ivashko serves the brothers a big dinner, and they marvel that Baba Yaga did not come to him
+tale:A100 ev 14: Khavroshechka does so, going hungry rather than eating the meat and watering the bones daily
+tale:A164 ev 11: The fox has Kuzenka roast another hen and rolls in the meadows again
+## animal A18~B47: [('receive', 15)]
+animal:A007 ev 32: The Fox lays in a store of chickens, keeps them under her and eats them bit by bit
+animal:A001 ev 10: The Fox gathers up the scattered fish and eats them
+animal:A005 ev 23: The Fox eats the Wolf's brains
+animal:A001 ev 2: The Old Man catches a whole cartload of fish and drives home
+animal:A041 ev 13: They see the Cat gnawing a whole side of beef, purring "Not enough!"
+animal:A018 ev 9: He finds millstones that turn out pies and porridge, eats and drinks his fill, and lies down to sleep
+animal:A003 ev 1: The Fox gets hold of some fish somewhere
+animal:A004 ev 1: The Old Man's cockerel finds an ear of wheat, and the Old Woman's hen finds a poppy head
+## tragedy A3~B27: [('harm', 17), ('lament', 1), ('plead', 1)]
+tragedy:P02 ev 17: Iolaus sees the herald Copreus coming and curses him and Eurystheus
+tragedy:P07 ev 73: The maidens curse the herald to perish in the waves.
+tragedy:P07 ev 71: The maidens curse the herald, wishing he had perished at sea.
+tragedy:P02 ev 4: Iolaus and Heracles sack Sparta
+tragedy:P01 ev 66: The charioteer curses whoever did the deed
+tragedy:P05 ev 68: The chorus curses Helen, praying she never reach home
+tragedy:P08 ev 74: Aegisthus prays to the Nymphs for his and his wife's good fortune and for harm to his enemies, Orestes and Electra
+tragedy:P07 ev 74: The maidens curse the herald to be destroyed by the Nile.
+tragedy:P07 ev 6: The maidens call down death at sea on the sons of Aegyptus if they lay hands on them.
+tragedy:P04 ev 39: The chorus curses Xuthus and prays that the boy may die before he comes to Athens
+## native A7~B15: [('leave', 19), ('decide', 1), ('lament', 1)]
+native:O09 ev 17: Ictinike goes off very sad
+native:T17 ev 13: Two women go with their children to dig clams and camp in a small inlet
+native:T09 ev 28: They build a house of dry sticks in a lower valley and start trapping
+native:O09 ev 14: The Rabbit goes off
+native:O05 ev 2: The giant He-for-whom-they-shoot-Deer goes there too
+native:T02 ev 1: Some girls cross the bay in a canoe to a strawberry patch
+native:T25 ev 1: Some women go out at low tide to an island to dig shellfish
+native:T23 ev 1: Fearing attack, the Kiksadi and the Kagwantan camp on the two parts of St. Lazaria island
+native:T03 ev 55: The ashamed sister goes down into Mount Edgecumbe through the crater
+native:O11 ev 15: The younger daughter goes off in a bad mood
+## native A3~B24: [('lose', 17), ('decide', 1), ('seek-information', 1)]
+native:T01 ev 235: Raven tries tobacco leaves and other things, in vain
+native:O16 ev 36: The third does the same
+native:O16 ev 35: The second strikes the ground and barely makes a crack
+native:O16 ev 34: The eldest strikes the ground with his club, as his grandfather taught, and barely makes a small crack
+native:T09 ev 11: Wolverine-man sends him daily to the ground-hog places, but he brings nothing while Wolverine-man brings loads
+native:T11 ev 4: Everything the hunters spear that day gets away
+## native A23~B47: [('return', 14), ('send', 2), ('guide', 2)]
+native:O24 ev 8: At night he goes home
+native:T22 ev 20: She comes down the trench with her frog husband beside her
+native:O22 ev 21: She goes home
+native:O24 ev 9: Next morning the husband brings home another deer, and the Orphan says again he will eat fat meat
+native:O17 ev 61: Ictinike says he will go home in four days, and does
+native:O24 ev 3: The husband comes home carrying a deer
+native:O10 ev 1: The Grizzly bear comes home from scouting for the Rabbit
+## native A29~B16: [('deceive', 8), ('plead', 4), ('seek-information', 3)]
+native:T24 ev 22: At the brants' real home he hides his bag of bows and arrows in the woods
+native:O15 ev 18: He sees a Crow and a Magpie and begs them to help by eating him while he plays dead
+native:T08 ev 28: He sees his little wolf playing before its father
+native:O19 ev 2: The Coyote asks the Puma to do as he says
+native:O13 ev 49: The Elk ask Ictinike to find their children a way of escape
+## eastasian A29~B7: [('other', 32), ('want', 2), ('win', 1)]
+eastasian:J25 ev 2: In the morning all is calm and bright again
+eastasian:J13 ev 11: The Shoji drink the wine till they reel
+eastasian:J18 ev 2: The news of her recovery fills the Under-world with joy, and music and dancing begin again
+eastasian:J13 ev 13: They throw down their cups, rest, and drink again
+eastasian:J25 ev 1: One night in ancient times a terrible earthquake shakes the world, with floods from the sky and a roar like fighting dragons
+eastasian:J25 ev 20: The Buddhists also name it Fuji, the sacred mountain
+eastasian:J13 ev 10: A troop of red-haired Shoji come down from the hills to the jar
+eastasian:J03 ev 15: When they die, their ashes are mixed in one urn and buried under a tomb carved as a white dragon
+eastasian:J18 ev 13: The guests sit and fan themselves, and the lobster eats the candle stump and joins the party
+eastasian:J25 ev 7: Suruga cottagers wake to find their valley homes high on a mountain slope beneath a snowy peak
+eastasian:J15 ev 16: His mother stays in the mountains and lives to a great age
+eastasian:J13 ev 12: They dance wildly round the jar
+eastasian:J25 ev 5: Seeing its outline from the hills, they name it the lake of the lute, and others the Lake of Omi
+eastasian:J25 ev 6: Sailors off Suruga wonder at a towering white shape and think they are lost, until they know the landmarks on shore
+## eastasian A4~B1: [('other', 24), ('forbid', 2), ('give', 1)]
+eastasian:J01 ev 11: No rain falls, and the seventh night of the seventh month comes clear
+eastasian:J12 ev 23: The monks strike it again, and it moans again that it wants to go back to Miidera
+eastasian:C09 ev 9: She cuts the melon from its stalk and hears it clink
+eastasian:C19 ev 23: He learns the will by heart and destroys it
+eastasian:C09 ev 6: She builds a trellis, and a melon forms and grows very large
+eastasian:J07 ev 12: He hires a showman, builds a theatre, has scenery painted, puts up handbills, and opens the show
+eastasian:J07 ev 13: The theatre fills with people who come to stay all day
+eastasian:J08 ev 5: He grows up very strong, brave and good
+eastasian:C09 ev 5: She plants the seed, and a melon plant comes up
+## eastasian A13~B52: [('send', 12), ('lose', 1), ('reveal-information', 1)]
+eastasian:C12 ev 12: The magistrate sends a courier to the military officers, and a scout is sent west
+eastasian:C19 ev 31: An assembly is called of gentry, officials, elders, and the widow with her child
+eastasian:J05 ev 22: He sends his chamberlain to ask her father for her hand
+eastasian:J01 ev 6: The sun-king calls up myriads of magpies, which form a bridge across the river
+eastasian:C14 ev 29: A Mandarin passing by sees the inscription, stops, and sends for the head of the family
+eastasian:C02 ev 13: The princess sends the handmaid to bring the gems
+## eastasian A18~B62: [('receive', 13), ('repair', 2), ('give', 1)]
+eastasian:C08 ev 1: A poor old woman gathering sticks in the wood finds a stalk of sugar-cane and adds it to her bundle
+eastasian:J08 ev 1: A childless old woman, washing clothes at the brook, sees a peach floating by and picks it up
+eastasian:J25 ev 3: The people of Omi wake to find a great sheet of blue water where their fields had been
+eastasian:J12 ev 1: After Buddha's death the bell from his temple in India passes to the Dragon King under the sea
