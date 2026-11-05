@@ -1,0 +1,16 @@
+# Pilot-wonder.txt -- CardPilotProtocol.md, the frozen reading
+kappa A with B: H 0.695, S 0.625; given a function: H 0.645 0.689, S 0.715 0.871
+codes not on the card: none
+A: tau H 0.712 (20), S 0.740 (21); H minus S on 19 shared functions -0.059 [-0.155, 0.066]; cosine with his strings H 0.691, S 0.696: SURVIVES
+B: tau H 0.734 (18), S 0.621 (24); H minus S on 18 shared functions 0.000 [-0.078, 0.148]; cosine with his strings H 0.696, S 0.646: IN PART
+## beside the reading, not deciding
+A: tau on the old strings of these tales 0.828 (20); given a function, old 0.660
+A: with preparatory units: H 0.764 (26), S 0.668 (27)
+A H: tool (15 stories, below its tested 20): bigram, coverage 0.54, order tau 0.842; his pairs adjacent in 2 stories or more: A-K D-E E-F H-I M-N Pr-Rs a-K γ-δ η-θ
+A S: tool (15 stories, below its tested 20): bigram, coverage 0.48, order tau 0.861; his pairs adjacent in 2 stories or more: D-E E-F H-I Pr-Rs a-K γ-δ η-θ
+A: units per story: old 21.6, H 23.2, S 23.0
+B: tau on the old strings of these tales 0.751 (19); given a function, old 0.686
+B: with preparatory units: H 0.664 (24), S 0.573 (31)
+B H: tool (15 stories, below its tested 20): bigram, coverage 0.42, order tau 0.611; his pairs adjacent in 2 stories or more: A-K D-E E-F Ex-U H-I M-N Pr-Rs a-K γ-δ η-θ
+B S: tool (15 stories, below its tested 20): bigram, coverage 0.59, order tau 0.563; his pairs adjacent in 2 stories or more: D-E E-F H-I Pr-Rs Q-Ex γ-δ η-θ
+B: units per story: old 24.9, H 23.5, S 31.1

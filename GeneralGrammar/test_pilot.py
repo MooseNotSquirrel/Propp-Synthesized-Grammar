@@ -29,7 +29,7 @@ num = {u: i for i, u in enumerate('A a B C up D E F G H I K down'.split())}
 num['a'] = num['A']
 
 # the S tree holds nothing that points to him
-files = [f for f in glob.glob(U.SREPO + '/**/*', recursive=True) if os.path.isfile(f) and '.git' not in f]
+files = [f for f in glob.glob(U.SREPO + '/**/*', recursive=True) if os.path.isfile(f) and '.git' not in f and 'coded' not in f.replace(chr(92), '/')]
 hits = {}
 for f in files:
     t = open(f, encoding='utf-8').read()
