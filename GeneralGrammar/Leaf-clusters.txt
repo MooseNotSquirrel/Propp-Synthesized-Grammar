@@ -6,8 +6,8 @@ animal|A|D                 k 32     largest 0.07; k by held-out 96
 animal|A|D                 k 96     largest 0.04; k by held-out 96
 animal|A|E                 k 32     largest 0.07; k by held-out 96
 animal|A|E                 k 96     largest 0.02; k by held-out 96
-animal|A|moby              k given  largest 0.11; k by held-out 171
-animal|A|wordnet           k given  largest 0.12; k by held-out 150
+animal|A|moby              k given  largest 0.10; k by held-out 175
+animal|A|wordnet           k given  largest 0.13; k by held-out 149
 animal|B|A                 k 8      largest 0.61 DEGENERATE; k by held-out 8
 animal|B|A                 k 32     largest 0.36 DEGENERATE; k by held-out 8
 animal|B|C                 k 32     largest 0.13; k by held-out 32
@@ -15,16 +15,16 @@ animal|B|D                 k 32     largest 0.07; k by held-out 96
 animal|B|D                 k 96     largest 0.03; k by held-out 96
 animal|B|E                 k 32     largest 0.07; k by held-out 96
 animal|B|E                 k 96     largest 0.03; k by held-out 96
-animal|B|moby              k given  largest 0.12; k by held-out 227
-animal|B|wordnet           k given  largest 0.14; k by held-out 212
+animal|B|moby              k given  largest 0.12; k by held-out 225
+animal|B|wordnet           k given  largest 0.14; k by held-out 211
 eastasian|A|A              k 8      largest 0.72 DEGENERATE; k by held-out 8
 eastasian|A|A              k 32     largest 0.48 DEGENERATE; k by held-out 8
 eastasian|A|C              k 32     largest 0.23; k by held-out 32
 eastasian|A|D              k 32     largest 0.09; k by held-out 96
 eastasian|A|D              k 96     largest 0.04; k by held-out 96
 eastasian|A|E              k 32     largest 0.06; k by held-out 32
-eastasian|A|moby           k given  largest 0.07; k by held-out 273
-eastasian|A|wordnet        k given  largest 0.10; k by held-out 224
+eastasian|A|moby           k given  largest 0.06; k by held-out 281
+eastasian|A|wordnet        k given  largest 0.10; k by held-out 223
 eastasian|B|A              k 8      largest 0.72 DEGENERATE; k by held-out 8
 eastasian|B|A              k 32     largest 0.50 DEGENERATE; k by held-out 8
 eastasian|B|C              k 32     largest 0.14; k by held-out 32
@@ -32,26 +32,28 @@ eastasian|B|D              k 32     largest 0.07; k by held-out 64
 eastasian|B|D              k 64     largest 0.07; k by held-out 64
 eastasian|B|E              k 16     largest 0.13; k by held-out 16
 eastasian|B|E              k 32     largest 0.07; k by held-out 16
-eastasian|B|moby           k given  largest 0.09; k by held-out 284
-eastasian|B|wordnet        k given  largest 0.12; k by held-out 250
-fable|A|A                  k 8      largest 0.71 DEGENERATE; k by held-out 8
-fable|A|A                  k 32     largest 0.36 DEGENERATE; k by held-out 8
-fable|A|C                  k 16     largest 0.21; k by held-out 16
-fable|A|C                  k 32     largest 0.14; k by held-out 16
-fable|A|D                  k 24     largest 0.08; k by held-out 24
-fable|A|D                  k 32     largest 0.05; k by held-out 24
-fable|A|E                  k 24     largest 0.08; k by held-out 24
+eastasian|B|moby           k given  largest 0.07; k by held-out 288
+eastasian|B|wordnet        k given  largest 0.12; k by held-out 249
+fable|A|A                  k 8      largest 0.73 DEGENERATE; k by held-out 8
+fable|A|A                  k 32     largest 0.41 DEGENERATE; k by held-out 8
+fable|A|C                  k 24     largest 0.17; k by held-out 24
+fable|A|C                  k 32     largest 0.17; k by held-out 24
+fable|A|D                  k 32     largest 0.06; k by held-out 64
+fable|A|D                  k 64     largest 0.06; k by held-out 64
+fable|A|E                  k 24     largest 0.09; k by held-out 24
 fable|A|E                  k 32     largest 0.08; k by held-out 24
-fable|A|moby               k given  largest 0.07; k by held-out 102
-fable|A|wordnet            k given  largest 0.12; k by held-out 91
+fable|A|moby               k given  largest 0.06; k by held-out 144
+fable|A|wordnet            k given  largest 0.13; k by held-out 124
 fable|B|A                  k 8      largest 0.76 DEGENERATE; k by held-out 8
-fable|B|A                  k 32     largest 0.46 DEGENERATE; k by held-out 8
-fable|B|C                  k 16     largest 0.19; k by held-out 16
-fable|B|C                  k 32     largest 0.14; k by held-out 16
-fable|B|D                  k 32     largest 0.08; k by held-out 32
-fable|B|E                  k 32     largest 0.08; k by held-out 32
-fable|B|moby               k given  largest 0.06; k by held-out 101
-fable|B|wordnet            k given  largest 0.12; k by held-out 100
+fable|B|A                  k 32     largest 0.49 DEGENERATE; k by held-out 8
+fable|B|C                  k 24     largest 0.13; k by held-out 24
+fable|B|C                  k 32     largest 0.13; k by held-out 24
+fable|B|D                  k 32     largest 0.09; k by held-out 96
+fable|B|D                  k 96     largest 0.03; k by held-out 96
+fable|B|E                  k 24     largest 0.08; k by held-out 24
+fable|B|E                  k 32     largest 0.07; k by held-out 24
+fable|B|moby               k given  largest 0.06; k by held-out 142
+fable|B|wordnet            k given  largest 0.12; k by held-out 132
 native|A|A                 k 8      largest 0.63 DEGENERATE; k by held-out 8
 native|A|A                 k 32     largest 0.37 DEGENERATE; k by held-out 8
 native|A|C                 k 32     largest 0.20; k by held-out 48
@@ -60,8 +62,8 @@ native|A|D                 k 32     largest 0.09; k by held-out 96
 native|A|D                 k 96     largest 0.03; k by held-out 96
 native|A|E                 k 32     largest 0.06; k by held-out 64
 native|A|E                 k 64     largest 0.04; k by held-out 64
-native|A|moby              k given  largest 0.11; k by held-out 277
-native|A|wordnet           k given  largest 0.12; k by held-out 245
+native|A|moby              k given  largest 0.08; k by held-out 275
+native|A|wordnet           k given  largest 0.12; k by held-out 244
 native|B|A                 k 8      largest 0.64 DEGENERATE; k by held-out 8
 native|B|A                 k 32     largest 0.41 DEGENERATE; k by held-out 8
 native|B|C                 k 32     largest 0.12; k by held-out 48
@@ -70,43 +72,43 @@ native|B|D                 k 32     largest 0.09; k by held-out 96
 native|B|D                 k 96     largest 0.04; k by held-out 96
 native|B|E                 k 32     largest 0.10; k by held-out 64
 native|B|E                 k 64     largest 0.04; k by held-out 64
-native|B|moby              k given  largest 0.14; k by held-out 289
-native|B|wordnet           k given  largest 0.15; k by held-out 264
-tale|A|A                   k 8      largest 0.62 DEGENERATE; k by held-out 8
-tale|A|A                   k 32     largest 0.36 DEGENERATE; k by held-out 8
-tale|A|C                   k 32     largest 0.10; k by held-out 48
-tale|A|C                   k 48     largest 0.08; k by held-out 48
-tale|A|D                   k 32     largest 0.07; k by held-out 64
-tale|A|D                   k 64     largest 0.03; k by held-out 64
+native|B|moby              k given  largest 0.11; k by held-out 284
+native|B|wordnet           k given  largest 0.15; k by held-out 263
+tale|A|A                   k 8      largest 0.64 DEGENERATE; k by held-out 8
+tale|A|A                   k 32     largest 0.37 DEGENERATE; k by held-out 8
+tale|A|C                   k 32     largest 0.10; k by held-out 64
+tale|A|C                   k 64     largest 0.08; k by held-out 64
+tale|A|D                   k 32     largest 0.07; k by held-out 96
+tale|A|D                   k 96     largest 0.02; k by held-out 96
 tale|A|E                   k 32     largest 0.06; k by held-out 32
-tale|A|moby                k given  largest 0.11; k by held-out 211
-tale|A|wordnet             k given  largest 0.13; k by held-out 203
-tale|B|A                   k 8      largest 0.62 DEGENERATE; k by held-out 8
-tale|B|A                   k 32     largest 0.35 DEGENERATE; k by held-out 8
+tale|A|moby                k given  largest 0.08; k by held-out 303
+tale|A|wordnet             k given  largest 0.12; k by held-out 286
+tale|B|A                   k 8      largest 0.58 DEGENERATE; k by held-out 8
+tale|B|A                   k 32     largest 0.34 DEGENERATE; k by held-out 8
 tale|B|C                   k 32     largest 0.08; k by held-out 48
-tale|B|C                   k 48     largest 0.09; k by held-out 48
-tale|B|D                   k 32     largest 0.06; k by held-out 96
+tale|B|C                   k 48     largest 0.07; k by held-out 48
+tale|B|D                   k 32     largest 0.07; k by held-out 96
 tale|B|D                   k 96     largest 0.03; k by held-out 96
-tale|B|E                   k 32     largest 0.07; k by held-out 32
-tale|B|moby                k given  largest 0.10; k by held-out 208
-tale|B|wordnet             k given  largest 0.11; k by held-out 198
-tragedy|A|A                k 16     largest 0.50 DEGENERATE; k by held-out 16
-tragedy|A|A                k 32     largest 0.33; k by held-out 16
-tragedy|A|C                k 32     largest 0.16; k by held-out 48
+tale|B|E                   k 24     largest 0.09; k by held-out 24
+tale|B|E                   k 32     largest 0.08; k by held-out 24
+tale|B|moby                k given  largest 0.08; k by held-out 290
+tale|B|wordnet             k given  largest 0.10; k by held-out 280
+tragedy|A|A                k 32     largest 0.32; k by held-out 32
+tragedy|A|C                k 32     largest 0.14; k by held-out 48
 tragedy|A|C                k 48     largest 0.13; k by held-out 48
-tragedy|A|D                k 32     largest 0.07; k by held-out 96
+tragedy|A|D                k 32     largest 0.08; k by held-out 96
 tragedy|A|D                k 96     largest 0.03; k by held-out 96
-tragedy|A|E                k 16     largest 0.13; k by held-out 16
-tragedy|A|E                k 32     largest 0.06; k by held-out 16
-tragedy|A|moby             k given  largest 0.08; k by held-out 210
-tragedy|A|wordnet          k given  largest 0.13; k by held-out 188
-tragedy|B|A                k 8      largest 0.59 DEGENERATE; k by held-out 8
-tragedy|B|A                k 32     largest 0.30; k by held-out 8
+tragedy|A|E                k 16     largest 0.12; k by held-out 16
+tragedy|A|E                k 32     largest 0.07; k by held-out 16
+tragedy|A|moby             k given  largest 0.07; k by held-out 256
+tragedy|A|wordnet          k given  largest 0.12; k by held-out 230
+tragedy|B|A                k 24     largest 0.35 DEGENERATE; k by held-out 24
+tragedy|B|A                k 32     largest 0.31; k by held-out 24
 tragedy|B|C                k 32     largest 0.12; k by held-out 48
-tragedy|B|C                k 48     largest 0.12; k by held-out 48
+tragedy|B|C                k 48     largest 0.13; k by held-out 48
 tragedy|B|D                k 32     largest 0.07; k by held-out 96
-tragedy|B|D                k 96     largest 0.03; k by held-out 96
-tragedy|B|E                k 32     largest 0.07; k by held-out 48
-tragedy|B|E                k 48     largest 0.04; k by held-out 48
-tragedy|B|moby             k given  largest 0.14; k by held-out 207
-tragedy|B|wordnet          k given  largest 0.17; k by held-out 198
+tragedy|B|D                k 96     largest 0.02; k by held-out 96
+tragedy|B|E                k 32     largest 0.08; k by held-out 64
+tragedy|B|E                k 64     largest 0.03; k by held-out 64
+tragedy|B|moby             k given  largest 0.13; k by held-out 274
+tragedy|B|wordnet          k given  largest 0.17; k by held-out 253

@@ -1,18 +1,18 @@
 # Leaf-L1.txt -- how much does each kind of evidence tell? Stories held out whole. Labels under Propp's card; acts, verbs and significance read without it, on event lists that were not
-## tale: ceiling hit 0.691, macro F1 0.634, NMI 0.616, kappa 0.620
+## tale: ceiling hit 0.699, macro F1 0.686, NMI 0.600, kappa 0.624
 step      reader A: hit  F1  NMI  sharereader B: hit  F1  NMI  share
-F0        0.365 0.017 0.000    3%     0.278 0.013 0.000    2%     
-F1        0.418 0.112 0.174   18%     0.307 0.096 0.167   15%     
-F2        0.493 0.276 0.341   44%     0.433 0.271 0.335   43%     
-F3        0.512 0.277 0.354   44%     0.433 0.272 0.329   43%     
-F4        0.550 0.350 0.396   55%     0.501 0.356 0.386   56%     
-F5        0.506 0.294 0.334   46%     0.459 0.274 0.334   43%     
-F6        0.505 0.299 0.340   47%     0.459 0.284 0.335   45%     
-act       0.461 0.216 0.304   34%     0.427 0.238 0.348   37%     
-wordnet   0.407 0.096 0.161   15%     0.301 0.085 0.171   13%     
-moby      0.390 0.082 0.143   13%     0.312 0.103 0.177   16%     
-across readers, A's features for the other's labels: verb F1 0.105, act F1 0.296
-across readers, B's features for the other's labels: verb F1 0.081, act F1 0.173
+F0        0.376 0.017 0.000    2%     0.285 0.013 0.000    2%     
+F1        0.436 0.136 0.177   20%     0.341 0.129 0.174   19%     
+F2        0.517 0.318 0.329   46%     0.468 0.327 0.334   48%     
+F3        0.541 0.361 0.356   53%     0.497 0.357 0.362   52%     
+F4        0.590 0.434 0.414   63%     0.533 0.403 0.399   59%     
+F5        0.555 0.374 0.367   54%     0.493 0.351 0.350   51%     
+F6        0.551 0.383 0.360   56%     0.497 0.345 0.351   50%     
+act       0.477 0.273 0.304   40%     0.447 0.296 0.337   43%     
+wordnet   0.416 0.114 0.164   17%     0.333 0.123 0.171   18%     
+moby      0.411 0.115 0.161   17%     0.333 0.128 0.167   19%     
+across readers, A's features for the other's labels: verb F1 0.136, act F1 0.307
+across readers, B's features for the other's labels: verb F1 0.118, act F1 0.209
 ## animal: ceiling hit 0.780, macro F1 0.566, NMI 0.624, kappa 0.706
 step      reader A: hit  F1  NMI  sharereader B: hit  F1  NMI  share
 F0        0.403 0.020 0.000    4%     0.459 0.022 0.000    4%     
@@ -23,38 +23,38 @@ F4        0.686 0.328 0.465   58%     0.663 0.238 0.373   42%
 F5        0.664 0.326 0.431   58%     0.656 0.246 0.353   43%     
 F6        0.661 0.320 0.426   57%     0.657 0.250 0.357   44%     
 act       0.625 0.194 0.395   34%     0.637 0.156 0.333   28%     
-wordnet   0.447 0.090 0.138   16%     0.504 0.075 0.134   13%     
-moby      0.443 0.079 0.134   14%     0.515 0.085 0.134   15%     
+wordnet   0.447 0.089 0.138   16%     0.501 0.074 0.129   13%     
+moby      0.435 0.079 0.126   14%     0.512 0.081 0.129   14%     
 across readers, A's features for the other's labels: verb F1 0.078, act F1 0.159
 across readers, B's features for the other's labels: verb F1 0.096, act F1 0.184
-## fable: ceiling hit 0.756, macro F1 0.654, NMI 0.695, kappa 0.681
+## fable: ceiling hit 0.753, macro F1 0.628, NMI 0.649, kappa 0.673
 step      reader A: hit  F1  NMI  sharereader B: hit  F1  NMI  share
-F0        0.393 0.019 0.000    3%     0.452 0.021 0.000    3%     
-F1        0.393 0.027 0.061    4%     0.457 0.032 0.049    5%     
-F2        0.502 0.093 0.274   14%     0.603 0.073 0.287   11%     
-F3        0.511 0.120 0.287   18%     0.594 0.084 0.284   13%     
-F4        0.484 0.120 0.310   18%     0.575 0.070 0.262   11%     
-F5        0.484 0.093 0.280   14%     0.539 0.062 0.208   10%     
-F6        0.498 0.090 0.271   14%     0.534 0.067 0.223   10%     
-act       0.479 0.072 0.202   11%     0.584 0.079 0.265   12%     
-wordnet   0.384 0.029 0.079    4%     0.475 0.038 0.078    6%     
-moby      0.393 0.025 0.065    4%     0.457 0.034 0.059    5%     
-across readers, A's features for the other's labels: verb F1 0.034, act F1 0.065
-across readers, B's features for the other's labels: verb F1 0.025, act F1 0.059
-## tragedy: ceiling hit 0.768, macro F1 0.612, NMI 0.544, kappa 0.643
+F0        0.418 0.020 0.000    3%     0.441 0.020 0.000    3%     
+F1        0.467 0.047 0.107    8%     0.476 0.039 0.079    6%     
+F2        0.526 0.118 0.297   19%     0.580 0.105 0.323   17%     
+F3        0.533 0.144 0.304   23%     0.582 0.103 0.331   16%     
+F4        0.545 0.184 0.325   29%     0.582 0.123 0.328   20%     
+F5        0.522 0.137 0.276   22%     0.564 0.124 0.278   20%     
+F6        0.536 0.142 0.299   23%     0.594 0.130 0.315   21%     
+act       0.517 0.114 0.303   18%     0.594 0.095 0.350   15%     
+wordnet   0.460 0.044 0.088    7%     0.480 0.041 0.101    6%     
+moby      0.451 0.042 0.094    7%     0.478 0.040 0.082    6%     
+across readers, A's features for the other's labels: verb F1 0.044, act F1 0.093
+across readers, B's features for the other's labels: verb F1 0.039, act F1 0.106
+## tragedy: ceiling hit 0.750, macro F1 0.574, NMI 0.509, kappa 0.621
 step      reader A: hit  F1  NMI  sharereader B: hit  F1  NMI  share
-F0        0.576 0.022 0.000    4%     0.558 0.022 0.000    4%     
-F1        0.587 0.052 0.089    9%     0.589 0.058 0.122    9%     
-F2        0.618 0.136 0.227   22%     0.646 0.135 0.277   22%     
-F3        0.625 0.143 0.235   23%     0.635 0.129 0.265   21%     
-F4        0.626 0.193 0.248   32%     0.648 0.180 0.286   30%     
-F5        0.614 0.155 0.211   25%     0.618 0.150 0.232   25%     
-F6        0.617 0.157 0.216   26%     0.618 0.142 0.230   23%     
-act       0.603 0.098 0.201   16%     0.632 0.111 0.264   18%     
-wordnet   0.587 0.050 0.085    8%     0.590 0.052 0.118    9%     
-moby      0.588 0.050 0.091    8%     0.594 0.059 0.130   10%     
-across readers, A's features for the other's labels: verb F1 0.067, act F1 0.124
-across readers, B's features for the other's labels: verb F1 0.048, act F1 0.066
+F0        0.576 0.021 0.000    4%     0.542 0.021 0.000    4%     
+F1        0.597 0.066 0.113   11%     0.598 0.074 0.151   13%     
+F2        0.628 0.169 0.229   29%     0.657 0.157 0.299   27%     
+F3        0.633 0.180 0.240   31%     0.649 0.165 0.291   29%     
+F4        0.640 0.228 0.266   40%     0.655 0.214 0.302   37%     
+F5        0.626 0.190 0.239   33%     0.631 0.186 0.267   32%     
+F6        0.627 0.189 0.240   33%     0.631 0.198 0.266   35%     
+act       0.615 0.125 0.207   22%     0.636 0.125 0.275   22%     
+wordnet   0.596 0.063 0.113   11%     0.579 0.067 0.136   12%     
+moby      0.593 0.060 0.103   10%     0.593 0.069 0.139   12%     
+across readers, A's features for the other's labels: verb F1 0.101, act F1 0.150
+across readers, B's features for the other's labels: verb F1 0.052, act F1 0.093
 ## native: ceiling hit 0.775, macro F1 0.674, NMI 0.577, kappa 0.664
 step      reader A: hit  F1  NMI  sharereader B: hit  F1  NMI  share
 F0        0.563 0.022 0.000    3%     0.519 0.021 0.000    3%     
@@ -66,7 +66,7 @@ F5        0.645 0.230 0.284   34%     0.560 0.192 0.227   28%
 F6        0.634 0.218 0.272   32%     0.568 0.188 0.230   28%     
 act       0.614 0.167 0.241   25%     0.569 0.162 0.240   24%     
 wordnet   0.566 0.048 0.062    7%     0.511 0.030 0.036    4%     
-moby      0.558 0.046 0.057    7%     0.515 0.032 0.041    5%     
+moby      0.557 0.046 0.057    7%     0.514 0.032 0.046    5%     
 across readers, A's features for the other's labels: verb F1 0.042, act F1 0.160
 across readers, B's features for the other's labels: verb F1 0.046, act F1 0.150
 ## eastasian: ceiling hit 0.790, macro F1 0.623, NMI 0.639, kappa 0.696
@@ -80,53 +80,53 @@ F5        0.564 0.188 0.266   30%     0.565 0.216 0.272   35%
 F6        0.577 0.193 0.281   31%     0.563 0.221 0.271   36%     
 act       0.564 0.153 0.277   25%     0.573 0.182 0.309   29%     
 wordnet   0.514 0.065 0.099   11%     0.496 0.067 0.080   11%     
-moby      0.502 0.044 0.079    7%     0.496 0.057 0.078    9%     
+moby      0.512 0.061 0.093   10%     0.490 0.058 0.075    9%     
 across readers, A's features for the other's labels: verb F1 0.061, act F1 0.191
 across readers, B's features for the other's labels: verb F1 0.055, act F1 0.163
 ## per function, wondertales: F1 by the verb, the act, F4 and F5 (reader A; reader B)
-X     n  298  verb 0.57 0.46  act 0.56 0.48  F4 0.65 0.55  F5 0.62 0.54
-A     n   43  verb 0.18 0.12  act 0.65 0.65  F4 0.84 0.80  F5 0.80 0.73
-F     n   39  verb 0.08 0.19  act 0.14 0.41  F4 0.26 0.47  F5 0.21 0.40
-η     n   36  verb 0.05 0.04  act 0.20 0.65  F4 0.45 0.62  F5 0.46 0.62
-a     n   31  verb 0.17 0.00  act 0.20 0.00  F4 0.31 0.25  F5 0.15 0.30
-K     n   31  verb 0.00 0.00  act 0.55 0.38  F4 0.44 0.48  F5 0.36 0.46
-up    n   27  verb 0.51 0.22  act 0.56 0.64  F4 0.58 0.50  F5 0.55 0.52
-W     n   26  verb 0.60 0.57  act 0.61 0.68  F4 0.76 0.74  F5 0.62 0.70
-I     n   24  verb 0.44 0.53  act 0.47 0.58  F4 0.58 0.76  F5 0.48 0.74
-Rs    n   20  verb 0.00 0.00  act 0.10 0.24  F4 0.50 0.26  F5 0.40 0.20
-D     n   20  verb 0.33 0.06  act 0.46 0.00  F4 0.62 0.29  F5 0.53 0.11
-γ     n   19  verb 0.16 0.06  act 0.09 0.13  F4 0.41 0.45  F5 0.38 0.27
-E     n   19  verb 0.30 0.08  act 0.46 0.19  F4 0.58 0.39  F5 0.51 0.36
-H     n   19  verb 0.19 0.13  act 0.10 0.40  F4 0.29 0.40  F5 0.24 0.40
-down  n   16  verb 0.00 0.00  act 0.62 0.24  F4 0.67 0.33  F5 0.55 0.11
-θ     n   16  verb 0.00 0.00  act 0.65 0.70  F4 0.41 0.67  F5 0.10 0.61
-G     n   16  verb 0.00 0.09  act 0.00 0.18  F4 0.41 0.41  F5 0.44 0.28
-M     n   14  verb 0.00 0.00  act 0.12 0.10  F4 0.22 0.30  F5 0.35 0.00
-C     n   12  verb 0.00 0.30  act 0.12 0.08  F4 0.12 0.30  F5 0.14 0.32
-B     n   11  verb 0.00 0.00  act 0.00 0.06  F4 0.12 0.31  F5 0.13 0.27
-ε     n   11  verb 0.00 0.00  act 0.00 0.00  F4 0.14 0.10  F5 0.00 0.00
-N     n   11  verb 0.00 0.13  act 0.12 0.00  F4 0.00 0.00  F5 0.00 0.00
-δ     n   11  verb 0.00 0.00  act 0.13 0.82  F4 0.17 0.75  F5 0.14 0.20
-U     n   10  verb 0.00 0.00  act 0.00 0.00  F4 0.53 0.60  F5 0.43 0.50
+X     n  612  verb 0.58 0.47  act 0.57 0.48  F4 0.66 0.55  F5 0.64 0.54
+F     n   91  verb 0.25 0.33  act 0.29 0.50  F4 0.44 0.53  F5 0.40 0.47
+A     n   84  verb 0.23 0.08  act 0.52 0.54  F4 0.74 0.71  F5 0.74 0.65
+a     n   66  verb 0.11 0.05  act 0.16 0.13  F4 0.34 0.37  F5 0.34 0.30
+I     n   66  verb 0.59 0.56  act 0.52 0.58  F4 0.71 0.79  F5 0.67 0.72
+η     n   63  verb 0.16 0.06  act 0.33 0.64  F4 0.59 0.70  F5 0.50 0.65
+up    n   53  verb 0.35 0.40  act 0.60 0.58  F4 0.66 0.57  F5 0.55 0.61
+K     n   49  verb 0.00 0.00  act 0.49 0.57  F4 0.47 0.48  F5 0.39 0.50
+W     n   45  verb 0.66 0.65  act 0.61 0.68  F4 0.78 0.81  F5 0.74 0.74
+H     n   37  verb 0.35 0.41  act 0.29 0.30  F4 0.55 0.49  F5 0.48 0.38
+γ     n   34  verb 0.45 0.04  act 0.06 0.26  F4 0.54 0.45  F5 0.44 0.29
+θ     n   34  verb 0.05 0.00  act 0.53 0.64  F4 0.58 0.66  F5 0.56 0.56
+D     n   34  verb 0.14 0.06  act 0.31 0.12  F4 0.58 0.43  F5 0.43 0.32
+E     n   33  verb 0.09 0.35  act 0.54 0.26  F4 0.57 0.56  F5 0.63 0.53
+down  n   30  verb 0.07 0.06  act 0.60 0.22  F4 0.68 0.51  F5 0.55 0.41
+Rs    n   30  verb 0.06 0.00  act 0.11 0.25  F4 0.33 0.26  F5 0.38 0.32
+M     n   29  verb 0.00 0.00  act 0.48 0.20  F4 0.49 0.21  F5 0.39 0.24
+C     n   28  verb 0.00 0.05  act 0.13 0.21  F4 0.38 0.36  F5 0.24 0.40
+G     n   27  verb 0.14 0.23  act 0.27 0.44  F4 0.54 0.61  F5 0.51 0.44
+B     n   26  verb 0.00 0.10  act 0.13 0.03  F4 0.23 0.21  F5 0.11 0.14
+ε     n   22  verb 0.00 0.07  act 0.00 0.00  F4 0.07 0.06  F5 0.00 0.00
+U     n   21  verb 0.00 0.00  act 0.00 0.18  F4 0.54 0.58  F5 0.53 0.42
+N     n   21  verb 0.00 0.07  act 0.32 0.12  F4 0.33 0.28  F5 0.36 0.31
+δ     n   17  verb 0.00 0.00  act 0.26 0.77  F4 0.53 0.63  F5 0.45 0.48
 ## transfer: macro F1, as a share of the target's ceiling
-tale       from the others A F5 F1 0.347 ( 55%) hit 0.505  A act F1 0.264 ( 42%) hit 0.476  B F5 F1 0.318 ( 50%) hit 0.452  B act F1 0.213 ( 34%) hit 0.405
-animal     from tale       A F5 F1 0.245 ( 43%) hit 0.512  A act F1 0.224 ( 40%) hit 0.593  B F5 F1 0.201 ( 35%) hit 0.512  B act F1 0.231 ( 41%) hit 0.596
-fable      from tale       A F5 F1 0.174 ( 27%) hit 0.507  A act F1 0.210 ( 32%) hit 0.539  B F5 F1 0.229 ( 35%) hit 0.521  B act F1 0.187 ( 29%) hit 0.589
-tragedy    from tale       A F5 F1 0.150 ( 25%) hit 0.599  A act F1 0.194 ( 32%) hit 0.601  B F5 F1 0.145 ( 24%) hit 0.537  B act F1 0.197 ( 32%) hit 0.575
-native     from tale       A F5 F1 0.194 ( 29%) hit 0.579  A act F1 0.210 ( 31%) hit 0.606  B F5 F1 0.214 ( 32%) hit 0.507  B act F1 0.182 ( 27%) hit 0.539
-eastasian  from tale       A F5 F1 0.185 ( 30%) hit 0.565  A act F1 0.196 ( 31%) hit 0.573  B F5 F1 0.210 ( 34%) hit 0.518  B act F1 0.196 ( 31%) hit 0.551
+tale       from the others A F5 F1 0.344 ( 50%) hit 0.517  A act F1 0.233 ( 34%) hit 0.456  B F5 F1 0.341 ( 50%) hit 0.453  B act F1 0.193 ( 28%) hit 0.390
+animal     from tale       A F5 F1 0.292 ( 52%) hit 0.550  A act F1 0.251 ( 44%) hit 0.576  B F5 F1 0.241 ( 43%) hit 0.517  B act F1 0.260 ( 46%) hit 0.589
+fable      from tale       A F5 F1 0.244 ( 39%) hit 0.566  A act F1 0.187 ( 30%) hit 0.538  B F5 F1 0.224 ( 36%) hit 0.522  B act F1 0.204 ( 32%) hit 0.573
+tragedy    from tale       A F5 F1 0.191 ( 33%) hit 0.592  A act F1 0.190 ( 33%) hit 0.602  B F5 F1 0.185 ( 32%) hit 0.529  B act F1 0.240 ( 42%) hit 0.548
+native     from tale       A F5 F1 0.230 ( 34%) hit 0.592  A act F1 0.231 ( 34%) hit 0.607  B F5 F1 0.252 ( 37%) hit 0.528  B act F1 0.246 ( 37%) hit 0.534
+eastasian  from tale       A F5 F1 0.225 ( 36%) hit 0.576  A act F1 0.212 ( 34%) hit 0.578  B F5 F1 0.246 ( 39%) hit 0.536  B act F1 0.244 ( 39%) hit 0.547
 ## the predictions (wondertales, per reader, held-out stories)
-P1 the verb alone under half the ceiling: A 18%, B 15%: HOLDS
-P2 significance and neighbours beat the act: hit F5 0.506 0.459 against F2 0.493 0.433; p A 0.2787, B 0.0710: FAILS
-P3 reader A: act hit 0.461 F1 0.216; wordnet hit 0.407 F1 0.096 (p 1.0000); moby hit 0.390 F1 0.082 (p 1.0000)
-P3 reader B: act hit 0.427 F1 0.238; wordnet hit 0.301 F1 0.085 (p 1.0000); moby hit 0.312 F1 0.103 (p 1.0000)
+P1 the verb alone under half the ceiling: A 20%, B 19%: HOLDS
+P2 significance and neighbours beat the act: hit F5 0.555 0.493 against F2 0.517 0.468; p A 0.0110, B 0.0040: HOLDS
+P3 reader A: act hit 0.477 F1 0.273; wordnet hit 0.416 F1 0.114 (p 1.0000); moby hit 0.411 F1 0.115 (p 1.0000)
+P3 reader B: act hit 0.447 F1 0.296; wordnet hit 0.333 F1 0.123 (p 1.0000); moby hit 0.333 F1 0.128 (p 1.0000)
 P3 no thesaurus beats the act: HOLDS
 ## the reasonable answer, first part: best of F2 to F5, macro F1 as a share of the wondertales' ceiling
-A 55%, B 56% (needs 80% for both): NOT met
+A 63%, B 59% (needs 80% for both): NOT met
 ## the owner's 80%, speculation, read three ways, no verdict
-tale       covered 68%; agreed 75%; transferred 52% of its ceiling (macro F1, mean of A and B)
-animal     covered 57%; agreed 86%; transferred 39% of its ceiling (macro F1, mean of A and B)
-fable      covered 59%; agreed 80%; transferred 31% of its ceiling (macro F1, mean of A and B)
-tragedy    covered 45%; agreed 81%; transferred 24% of its ceiling (macro F1, mean of A and B)
-native     covered 47%; agreed 80%; transferred 30% of its ceiling (macro F1, mean of A and B)
-eastasian  covered 52%; agreed 85%; transferred 32% of its ceiling (macro F1, mean of A and B)
+tale       covered 67%; agreed 75%; transferred 50% of its ceiling (macro F1, mean of A and B)
+animal     covered 57%; agreed 86%; transferred 47% of its ceiling (macro F1, mean of A and B)
+fable      covered 58%; agreed 78%; transferred 37% of its ceiling (macro F1, mean of A and B)
+tragedy    covered 46%; agreed 81%; transferred 33% of its ceiling (macro F1, mean of A and B)
+native     covered 47%; agreed 80%; transferred 36% of its ceiling (macro F1, mean of A and B)
+eastasian  covered 52%; agreed 85%; transferred 38% of its ceiling (macro F1, mean of A and B)
