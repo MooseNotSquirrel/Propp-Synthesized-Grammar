@@ -1,4 +1,4 @@
-# Can coding apart say no? The tragedies: protocol (DRAFT 2026-11-04, for the owner's review; nothing set up or run)
+# Can coding apart say no? The tragedies: protocol (FROZEN 2026-11-04 AT THE OWNER'S WORD, THE THREE RECOMMENDED DECISIONS TAKEN; nothing set up or run)
 
 **Asked by the owner on 2026-11-04,** after `ShuffledReport.md`. The test of events coded apart has so far said yes in two traditions. This asks whether it can say no.
 
@@ -53,6 +53,8 @@ As `ShuffledProtocol.md` section 6: every sampled event in exactly one batch; ev
 
 ## 5. Decisions for the owner
 
+**Taken 2026-11-04: the owner accepted all three recommendations.**
+
 1. **480 events.** Recommended. Near the wondertale part in size, and the same 12 subagents. 400 would save a sixth but widen the range; 600 would narrow it at a quarter more cost.
 2. **The reading's numbers (0.45, 0.50, 0.20).** Recommended. They are the keeper's judgment from the table above, set before any new label.
 3. **Run it whole, not in parts.** Recommended: there is one corpus.
@@ -61,4 +63,4 @@ As `ShuffledProtocol.md` section 6: every sampled event in exactly one batch; ev
 
 The owner's decisions and the freeze; `tragedyApartSetup.py` and the measure, committed, tests passed; the stage `lines-tragedy` at the owner's word; the report.
 
-**Cost:** readers: about the size of the wondertale part. **The cost of the earlier parts is not yet settled:** the owner's figure of 26% could be a new level after a reset, or the cost of the East Asian part. If it was the cost, this would likely take about 30 points.
+**Cost:** readers: about the size of the wondertale part. **The owner's figure: the East Asian part (376 events, 12 subagents) took 26 points of the budget,** well above the keeper's estimate of 5 to 10. So this would likely take about 30 points as designed.
