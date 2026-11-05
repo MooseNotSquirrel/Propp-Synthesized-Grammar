@@ -1,73 +1,13 @@
 # Leaf-L3-samples.txt -- 20 events from each replicating cluster (seeded), for the keeper's reading
-## tale A2~B1: [('reveal-information', 10), ('give', 10), ('other', 10)]
-tale:A141 ev 6: The bear feeds them porridge, saying he will marry whichever does not eat, and Repka alone does not eat
-tale:A127 ev 30: The tsar goes to see the garden, finds a lovely little boy in it and takes him to the palace
-tale:A127 ev 12: At the palace all marvel at the crown; the old man asks only for an eye, and the angry tsar threatens him with prison, then orders an eye cu
-tale:A162 ev 7: Ivan takes service with that kingdom's tsar
-tale:A136 ev 55: They pitch their tents in the forbidden meadows of the king of India, and the king sends his first minister to ask who they are
-tale:A143 ev 23: Nadzei meets Gorynya the warrior digging mountains with his foot and praises his strength
-tale:A156 ev 16: She feeds him and he tells her he seeks his mother
-tale:A159 ev 9: Marya Morevna meets him at her white tents and invites him to stay
-tale:A114 ev 14: Walking underground, the sister comes to a hut on chicken legs and bids it turn round to her
-tale:A143 ev 14: The bear comes out of the forest and grazes the oats, and Nadzei marvels at this strange horse
-tale:A163 ev 8: The tsar asks to see the bridegroom
-tale:A136 ev 60: The king receives Ivan-tsarevich and his brothers with honour and feasts them
-tale:A136 ev 20: Burya orders a hut on hen's legs to turn round; they go in, find a meal laid, eat and rest
-tale:A156 ev 55: On the wedding day the old woman tells Ivan the bride is being brought to church
-tale:A159 ev 8: He finds a slain army and a survivor tells him Marya Morevna destroyed it
-## tale A7~B2: [('reveal-information', 8), ('give', 8), ('respond', 5)]
-tale:A136 ev 74: In the morning Burya tells Ivan-tsarevich his wife is tamed and bids them live happily and remember him
-tale:A154 ev 23: The princess tells the king she slept peacefully
-tale:A114 ev 21: The witch has the oven heated hot
-tale:A156 ev 41: Ivan lets down his mother and the princess to his brothers
-tale:A159 ev 18: At a palace the falcon and his sister Marya greet him, and he stays three days
-tale:A101 ev 25: The mother drops from the second flock, throws off her skins, nurses the baby in tears, and says that in two days she will fly away
-tale:A153 ev 16: The princess tells the tsar she spent a quiet night
-tale:A156 ev 58: The eldest brother meets them on the way to the palace and turns back in shame
-tale:A156 ev 18: At the next house Ivan finds his mother, and they embrace and weep
-tale:A101 ev 28: The mother drops from the flock again, throws her skins on the bush, nurses the baby, says farewell and hands him back to the tutor
-tale:A156 ev 43: The brothers threaten the mother and the princess into keeping silent about Ivan
-tale:A156 ev 13: Ivan leaves his horse and gives his brothers a glass of his blood, which will blacken if he dies
-tale:A095 ev 12: The two daughters, growing cold, quarrel over which of them the groom will take
-## tale A4~B4: [('reveal-information', 14), ('forbid', 6), ('send', 5)]
-tale:A095 ev 7: Next morning the old woman sends the old man to wake the newlyweds
-tale:A159 ev 11: Marya Morevna takes him to her kingdom
-tale:A098 ev 18: Next morning the woman sends the old man to the forest, boasting of the carts and herds her daughter will bring
-tale:A152 ev 4: The peasant rejoices at his wife's return, and she tells him all about the bear and the son
-tale:A159 ev 22: Ivan reaches Marya Morevna, who reproaches him for releasing Koshchei
-tale:A101 ev 30: Ivan seizes Marya; she turns into a frog, a lizard, every kind of vermin and at last a spindle
-tale:A132 ev 37: The tailor takes the dresses to the tsar, and the princesses recognise them, guess the tsarevich is alive, and keep silent
-tale:A141 ev 9: Repka lives with the bear nearly a year and becomes pregnant
-tale:A141 ev 41: He sends up the youngest, calling her his own wife
-tale:A127 ev 7: The tsar begins to think the merchant deceived him, since his wife is witless and can do nothing
-tale:A154 ev 33: His queen praises a garden thirty versts from the city
-tale:A098 ev 9: The wife sends the old man to see what his daughter has spun
-tale:A101 ev 29: Ivan burns her skins
-## tale A1~B2: [('other', 15), ('plead', 5), ('receive', 4)]
-tale:A156 ev 11: At a steep mountain he meets his brothers and they ride on together
-tale:A132 ev 13: Neither brother can move the stone, but the youngest hurls it far away
-tale:A143 ev 3: At home his daughter helps him from his horse, and as his head aches she puts him to bed
-tale:A143 ev 6: The daughter's pregnancy advances by the hour, she gives birth to a son, and he is christened Nadzei the priest's grandson
-tale:A136 ev 38: In the morning the brothers find the hut fallen apart and the plate full of blood, search three days for Burya, decide he is dead and get re
-tale:A114 ev 12: The brother, angry, bursts open the door and finds only the dolls cuckooing for the earth to swallow his sister
-tale:A159 ev 62: Ivan and Marya Morevna visit the raven, the eagle and the falcon, who welcome them with joy
-tale:A143 ev 17: The grandfather is horrified, and they marvel; Nadzei asks what work to give the horse, and the grandfather tells him to haul firewood
-tale:A159 ev 2: Ivan buries his parents and walks in the garden with his sisters
-tale:A136 ev 16: Burya pounds the wall and threatens to break out, and the king comes to him
-tale:A141 ev 11: Repka gives birth to a son, half man and half bear, who is christened Ivashko-Medvedko
-tale:A136 ev 12: Ivan-tsarevich is angry that a cow's son should be eldest
-tale:A136 ev 54: The brothers kneel and admit their fault, and they ride on together
-## tale A5~B5: [('give', 9), ('reveal-information', 4), ('other', 4)]
-tale:A141 ev 24: Usynya tells the returning brothers he cooked nothing because of the stove fumes
-tale:A138 ev 38: The old men leave Ivan and go to the tsar
-tale:A164 ev 15: The fox has Kuzenka roast the last hen and the cock
-tale:A132 ev 23: He goes back and takes all three sisters with him, since they love him and will not part from him
-tale:A163 ev 10: On a dirty footbridge the fox pushes him into the mud and smears him with it
-tale:A141 ev 40: Ivashko takes the maidens to the hole, sends up the eldest calling her Usynya's wife, and the second calling her Gorynya's wife, and they ar
-tale:A138 ev 44: She turns back into a pin, Ivan puts it in his collar and rides on
-tale:A141 ev 29: Ivashko serves the brothers a big dinner, and they marvel that Baba Yaga did not come to him
-tale:A100 ev 14: Khavroshechka does so, going hungry rather than eating the meat and watering the bones daily
-tale:A164 ev 11: The fox has Kuzenka roast another hen and rolls in the meadows again
+## tale A34~B76: [('harm', 10), ('lose', 1), ('be-taken-in', 1)]
+tale:A137 ev 45: The witch drags Ivan Bykovich underground to her husband, an old man who cannot see for his brows and lashes
+tale:A133 ev 26: He hacks the dragon to pieces and winnows the ashes
+tale:A145 ev 17: The marksman shoots her in the left wing
+## tale A25~B14: [('receive', 11), ('escape', 2), ('forbid', 1)]
+tale:A139 ev 14: The four ride on and come to an empty two-storey house with a golden roof, stocked with food and drink, and settle there
+tale:A155 ev 59: He enters an empty white-stone palace, roasts the ducks and eats
+tale:A140 ev 10: After three months' riding they come to an empty hut by a forest and stay there
+tale:A143 ev 2: On the road home the priest sees a human head burning away to ash and puts the ash in his pocket to take home and bury
 ## animal A18~B47: [('receive', 15)]
 animal:A007 ev 32: The Fox lays in a store of chickens, keeps them under her and eats them bit by bit
 animal:A001 ev 10: The Fox gathers up the scattered fish and eats them
@@ -77,17 +17,297 @@ animal:A041 ev 13: They see the Cat gnawing a whole side of beef, purring "Not e
 animal:A018 ev 9: He finds millstones that turn out pies and porridge, eats and drinks his fill, and lies down to sleep
 animal:A003 ev 1: The Fox gets hold of some fish somewhere
 animal:A004 ev 1: The Old Man's cockerel finds an ear of wheat, and the Old Woman's hen finds a poppy head
-## tragedy A3~B27: [('harm', 17), ('lament', 1), ('plead', 1)]
-tragedy:P02 ev 17: Iolaus sees the herald Copreus coming and curses him and Eurystheus
-tragedy:P07 ev 73: The maidens curse the herald to perish in the waves.
-tragedy:P07 ev 71: The maidens curse the herald, wishing he had perished at sea.
-tragedy:P02 ev 4: Iolaus and Heracles sack Sparta
-tragedy:P01 ev 66: The charioteer curses whoever did the deed
-tragedy:P05 ev 68: The chorus curses Helen, praying she never reach home
-tragedy:P08 ev 74: Aegisthus prays to the Nymphs for his and his wife's good fortune and for harm to his enemies, Orestes and Electra
-tragedy:P07 ev 74: The maidens curse the herald to be destroyed by the Nile.
+## tragedy A42~B13: [('other', 52), ('seek-information', 2), ('deceive', 2)]
+tragedy:P03 ev 108: Oedipus vanishes, and only Theseus sees how he passes
+tragedy:P03 ev 47: Theseus was reared in exile and faced mortal perils in foreign lands
+tragedy:P02 ev 34: Demophon arms the city, holds sacrifices and consults the oracles
+tragedy:P23 ev 54: Clytaemestra dreams that she gives birth to a serpent, swaddles it and suckles it, and it draws blood with the milk
+tragedy:P15 ev 62: Evadne, Capaneus's wife, appears on the rock above her husband's pyre
+tragedy:P15 ev 42: The Thebans draw up before their walls with the disputed bodies behind them
+tragedy:P02 ev 50: Hyllus and the Athenians draw up their armies for battle
+tragedy:P22 ev 53: Heracles feasts and drinks heavily in the guest rooms, crowned with myrtle and singing, while the servants hide their grief at Admetus's bid
+tragedy:P02 ev 24: Demophon, king of Athens, arrives with his brother Acamas
+tragedy:P15 ev 41: The Athenian army draws up in three divisions by the Ismenus, with Theseus among them
+tragedy:P12 ev 44: Tyndareus arrives in mourning
+tragedy:P11 ev 101: Neoptolemus and his men spend three days at Delphi viewing the sights
+tragedy:P24 ev 82: A great wave rises from the sea and a monstrous bull comes out of it
+tragedy:P17 ev 79: Aegisthus enters with armed guards
+tragedy:P27 ev 54: Athena returns with a herald, the jury and the citizens, and Orestes takes the place of the accused
+tragedy:P06 ev 30: A whirlwind raises a storm of dust over the plain
+tragedy:P01 ev 2: The Argives light fires all night and gather noisily at Agamemnon's tent
+tragedy:P16 ev 106: The Egyptians launch the Sidonian ship
+tragedy:P14 ev 20: In the night Clytaemnestra dreamed that Agamemnon came back to the light and planted his sceptre at the hearth, and a branch grew from it th
+tragedy:P13 ev 3: The Greeks find their captured cattle and the herdsmen guarding them slaughtered
+## tragedy A53~B76: [('threaten', 31), ('test', 1), ('expose', 1)]
+tragedy:P02 ev 28: Demophon threatens to strike the herald if he touches the suppliants
+tragedy:P11 ev 55: Peleus threatens to strike Menelaus with his staff
+tragedy:P12 ev 152: Orestes demands that Menelaus persuade the Argives not to kill them, or he will kill Hermione
+tragedy:P12 ev 150: Orestes threatens to set fire to the palace and sacrifice Hermione on the fire
+tragedy:P16 ev 71: Menelaos threatens to fight Theoklymenos and, if hunted at the tomb, to kill Helen and himself there
+tragedy:P12 ev 147: Orestes declares he will kill Hermione
+tragedy:P22 ev 12: Apollo foretells that a hero sent by Eurystheus will come to the house and wrest Alcestis from Death by force
+tragedy:P12 ev 146: Orestes threatens to crush Menelaus's skull with a coping-stone if he touches the doors
+tragedy:P27 ev 66: The Furies threaten to burden the land if they are dishonored
+tragedy:P31 ev 29: Cassandra prophesies that she will kill Agamemnon and bring down the house of Atreus
+tragedy:P32 ev 1: The suitors of Helen threaten each other with bloodshed if they fail to win her
+tragedy:P12 ev 131: Orestes and Pylades draw their swords and tell Helen she must die for Menelaus's betrayal
+tragedy:P07 ev 84: The King threatens the herald if he touches the maidens.
+tragedy:P11 ev 64: Peleus threatens Menelaus unless he leaves at once with his daughter
+tragedy:P26 ev 57: Amphitryon foretells Lycus' doom and follows him in
+## tragedy A87~B12: [('harm', 24), ('plead', 3), ('win', 3)]
+tragedy:P25 ev 64: Philoctetes curses Odysseus and calls on the gods for vengeance
 tragedy:P07 ev 6: The maidens call down death at sea on the sons of Aegyptus if they lay hands on them.
-tragedy:P04 ev 39: The chorus curses Xuthus and prays that the boy may die before he comes to Athens
+tragedy:P25 ev 80: Philoctetes curses the Atreids, Odysseus and Neoptolemus
+tragedy:P12 ev 125: Ilium is destroyed through Helen's beauty
+tragedy:P13 ev 115: Teucer praises Odysseus, curses the Atreidae and declines to let him touch the corpse
+tragedy:P31 ev 85: The chorus curses Menelaus's ship, praying that a thunderbolt strike it and he never reach home
+tragedy:P07 ev 74: The maidens curse the herald to be destroyed by the Nile.
+tragedy:P02 ev 4: Iolaus and Heracles sack Sparta
+tragedy:P25 ev 44: Philoctetes curses Odysseus and the Atreids
+tragedy:P21 ev 44: Cyrus won the Lydians and Phrygians and subdued Ionia
+tragedy:P07 ev 71: The maidens curse the herald, wishing he had perished at sea.
+tragedy:P07 ev 73: The maidens curse the herald to perish in the waves.
+tragedy:P25 ev 69: Philoctetes refuses to go to Troy and curses Ilium
+tragedy:P12 ev 123: Paris draws Hellas to Troy, and Helen fills Hellas with tears
+tragedy:P25 ev 16: Philoctetes curses the Atreids and Odysseus
+tragedy:P08 ev 74: Aegisthus prays to the Nymphs for his and his wife's good fortune and for harm to his enemies, Orestes and Electra
+tragedy:P21 ev 55: Darius captured many cities and islands and held them under his rule
+## tragedy A6~B73: [('plead', 30), ('respond', 1), ('forbid', 1)]
+tragedy:P23 ev 83: The chorus prays to Zeus for Orestes' victory
+tragedy:P20 ev 17: The chorus prays to Athena, Artemis, Apollo, Zeus and Bacchus to drive the plague from Thebes
+tragedy:P29 ev 25: The chorus prays the city's gods to strike the attackers with destruction and panic
+tragedy:P12 ev 111: Pylades prays to Zeus and Justice for success, and he and Orestes go into the palace
+tragedy:P29 ev 37: The chorus prays for Megareus's good fortune and for Zeus to punish the boasting enemy
+tragedy:P04 ev 54: The chorus prays to Hecate to guide the hand that fills the cup of death
+tragedy:P18 ev 32: Jocasta prays to Zeus to save Thebes and reconcile her sons
+tragedy:P23 ev 37: Electra calls on Zeus and Earth to strike the murderers and demands justice
+tragedy:P04 ev 28: The chorus prays to Athena and Artemis that the house of Erechtheus may be granted children
+tragedy:P23 ev 72: The chorus prays to Earth, the tomb and Hermes to aid Orestes
+tragedy:P23 ev 113: The chorus prays that the god guard him
+tragedy:P29 ev 31: The chorus prays the gods to grant Melanippus success
+tragedy:P15 ev 38: The mothers pray to Zeus to champion Athens
+tragedy:P29 ev 42: The chorus prays the gods to destroy the boasting attackers
+tragedy:P23 ev 35: The chorus prays to the Fates and Zeus that murderous stroke be paid with murderous stroke
+tragedy:P29 ev 48: The chorus prays the gods to strike the invaders with the thunderbolt
+## tragedy A30~B44: [('return', 32), ('forbid', 2), ('send', 1)]
+tragedy:P12 ev 14: Menelaus lands from Troy at Nauplia after long wanderings
+tragedy:P19 ev 10: Hyllus arrives at the house
+tragedy:P30 ev 103: Agave comes home carrying Pentheus' head, believing it a lion cub's
+tragedy:P26 ev 65: Iris returns to Olympus
+tragedy:P14 ev 36: Chrysothemis comes back from the tomb
+tragedy:P22 ev 58: Admetus returns home from Alcestis's burial
+tragedy:P20 ev 7: Creon arrives back from Delphi
+tragedy:P11 ev 113: Neoptolemus's body is carried in on a bier
+tragedy:P17 ev 23: A herald arrives from the army
+tragedy:P14 ev 68: Aegisthus arrives from the country
+tragedy:P25 ev 72: Neoptolemus returns, followed by Odysseus
+tragedy:P19 ev 24: Lichas arrives with the captive maidens
+tragedy:P11 ev 57: Menelaus alone came home from Troy unhurt
+tragedy:P06 ev 18: Polyneices came back from exile to burn his city and enslave its people
+tragedy:P21 ev 12: A messenger arrives from the army
+## tragedy A85~B2: [('other', 29), ('receive', 2), ('marry', 2)]
+tragedy:P18 ev 70: Semele bears Bromius to Zeus in Thebes
+tragedy:P08 ev 38: Achilles' father, the horseman, trains Achilles on Pelion
+tragedy:P16 ev 77: Theoklymenos buries his father Proteus by the passageway of the palace
+tragedy:P19 ev 5: Children are born to Heracles and Deianeira
+tragedy:P12 ev 95: Orestes and Electra embrace
+tragedy:P18 ev 138: The dying Eteocles lays his hand on his mother
+tragedy:P29 ev 68: Antigone and Ismene come to mourn their brothers
+tragedy:P18 ev 3: Cadmus begets Polydorus; from Polydorus Labdacus is born, and from Labdacus Laius
+tragedy:P32 ev 33: Iphigenia runs to her father and embraces him
+tragedy:P12 ev 27: Electra holds Orestes to stop his leaping, and he struggles against her, taking her for a Fury
+tragedy:P08 ev 117: Electra covers her mother's corpse with a cloak
+## tragedy A26~B46: [('send', 29), ('guide', 2), ('plead', 1)]
+tragedy:P15 ev 28: Theseus sends his herald to Creon to ask leave to bury the dead, with a threat of war if refused
+tragedy:P20 ev 73: Iocasta sends a handmaid to call Oedipus
+tragedy:P31 ev 21: Talthybius arrives with fresh orders from the Greek army
+tragedy:P02 ev 52: Iolaus sends the servant for captured armour from the shrine
+tragedy:P06 ev 20: Creon has set guards over the corpse
+tragedy:P25 ev 4: Odysseus orders that the attendant be sent to keep watch
+tragedy:P10 ev 33: Iphigenia has the strangers' hands unbound and sends attendants in to prepare the rites
+tragedy:P06 ev 37: Creon condemns both sisters to death and orders Ismene brought out
+tragedy:P05 ev 63: Hecuba asks Agamemnon to give her servant safe passage and sends the servant to summon Polymestor and his sons
+tragedy:P06 ev 16: Creon has summoned the elders to a special council
+## tragedy A20~B52: [('reveal-information', 28), ('expose', 1), ('seek-information', 1)]
+tragedy:P15 ev 40: Capaneus's servant escapes and comes to the mothers with news of Theseus's victory
+tragedy:P24 ev 19: A friend washing robes at the spring tells the Chorus that the queen is sick
+tragedy:P09 ev 39: Medea reveals her plan to the Chorus: to feign reconciliation with Jason, send poisoned gifts to the bride by her children, then kill the ch
+tragedy:P13 ev 42: Tecmessa opens the door and Ajax is seen sitting among the slaughtered cattle
+tragedy:P28 ev 52: Prometheus foretells that Zeus will restore Io at Canobus, that she will bear Epaphus, that the Danaids will kill their husbands but one wil
+tragedy:P17 ev 24: The herald announces that Agamemnon has come home, having uprooted Troy
+tragedy:P17 ev 2: The signal fire flashes out in the night
+tragedy:P12 ev 62: Pylades sees the citizens assembling to put Orestes and Electra to death
+tragedy:P23 ev 76: The Nurse says Aegisthus is to come with his spearmen
+tragedy:P28 ev 48: Prometheus foretells that Zeus will be dethroned by a marriage whose son will be mightier than his father
+tragedy:P28 ev 49: Prometheus foretells that one of Io's descendants, in the thirteenth generation, will release him
+tragedy:P28 ev 56: Prometheus foretells that Zeus will be hurled from his throne by the marriage he plans, so fulfilling Cronus's curse, and that only he can s
+## tragedy A88~B6: [('forbid', 28), ('expose', 2), ('guide', 1)]
+tragedy:P15 ev 50: Theseus holds his men back from entering and sacking Thebes
+tragedy:P25 ev 66: Neoptolemus orders the chorus to stay a while, and leaves with Odysseus
+tragedy:P25 ev 10: Neoptolemus instructs the chorus to come forward and help at his signal
+tragedy:P16 ev 80: Finding the tomb empty, Theoklymenos orders his chariot to pursue Helen, then sees her in the house in mourning
+tragedy:P26 ev 52: Lycus returns and orders Amphitryon to bring out the wife and children to die
+tragedy:P24 ev 88: Theseus orders Hippolytus brought before him
+tragedy:P16 ev 111: Out from land, Menelaos tells the helmsman they have gone far enough
+tragedy:P26 ev 54: Lycus orders Amphitryon to fetch Megara from the house
+tragedy:P24 ev 60: Theseus has the doors opened and Phaedra's body is revealed
+tragedy:P24 ev 23: Phaedra comes to her senses and in shame has the Nurse cover her head again
+## tragedy A45~B7: [('plead', 27), ('return', 1), ('reveal-information', 1)]
+tragedy:P07 ev 99: The maidens pray Artemis that marriage may never be forced on them.
+tragedy:P24 ev 80: Hippolytus prays to Zeus to strike him dead if he has sinned and to let his father learn the wrong
+tragedy:P06 ev 74: Creon and his men pray to the goddess of the roads and to Pluto
+tragedy:P08 ev 56: Orestes, Electra and the old man pray to Zeus, Hera, Earth and the dead Agamemnon for victory
+tragedy:P11 ev 23: Andromache clings as a suppliant to the image of Thetis
+tragedy:P10 ev 73: Orestes lies fasting at Apollo's shrine, swearing to die there unless the god saves him
+tragedy:P27 ev 36: Orestes, having wandered over land and sea, asks Athena to receive him and awaits his trial
+tragedy:P10 ev 84: Iphigenia prays to Artemis to save her and the men and to leave for Athens
+tragedy:P16 ev 75: Helen prays to Hera for help and to Kypris not to destroy her
+tragedy:P07 ev 11: The maidens pray Zeus' virgin daughter to come and deliver them.
+tragedy:P07 ev 52: The maidens pray Zeus to ward off the men's lust and cast them into the sea.
+tragedy:P23 ev 38: Orestes calls on the powers below and the Curses of the slain to behold the outcast children
+tragedy:P23 ev 30: Orestes prays to Zeus to protect the orphaned children of the eagle and restore their house
+tragedy:P07 ev 67: The maidens cry to Zeus to protect his suppliants.
+tragedy:P23 ev 56: Orestes prays that the dream be fulfilled in him and reads it to mean that he will kill his mother
+tragedy:P07 ev 100: The maidens and their handmaidens pray Zeus to spare them marriage with a man they hate.
+tragedy:P02 ev 64: Iolaus prays to Hebe and Zeus to be young for one day
+tragedy:P07 ev 19: The maidens seat themselves on the holy ground of the altar with their boughs.
+tragedy:P03 ev 74: Oedipus calls on the goddesses to help him and fight for him
+tragedy:P03 ev 9: Oedipus prays to the goddesses to grant him the end of his life
+## tragedy A44~B86: [('plead', 22), ('forbid', 1), ('reveal-information', 1)]
+tragedy:P28 ev 61: The Oceanids urge Prometheus to give up his stubbornness and take Hermes's advice
+tragedy:P12 ev 67: Orestes asks Pylades to lead him to his father's tomb to beg his help
+tragedy:P25 ev 45: Philoctetes begs Neoptolemus to burn him in the Lemnian fire
+tragedy:P13 ev 112: Odysseus pleads with Agamemnon not to leave Ajax unburied
+tragedy:P02 ev 37: Iolaus offers to be given up to the Argives in place of the children
+tragedy:P25 ev 36: Philoctetes urges Neoptolemus to flee with him at once
+tragedy:P03 ev 114: Antigone asks to be sent to Thebes to try to stop her brothers' bloodshed
+tragedy:P25 ev 70: Philoctetes asks for a weapon to kill himself
+tragedy:P16 ev 69: Helen falls at Theonoe's knees and begs her not to tell her brother but to save them both
+tragedy:P27 ev 59: Orestes calls on Apollo to testify for him
+tragedy:P25 ev 51: Philoctetes wakes and asks to be helped to the ship
+tragedy:P25 ev 68: Philoctetes orders the chorus to leave, then begs them to stay
+## tragedy A4~B66: [('reveal-information', 21), ('repair', 1), ('recognize', 1)]
+tragedy:P14 ev 45: Orestes often sent Electra secret messages that he would come for vengeance
+tragedy:P07 ev 61: Danaus reports the vote to his daughters.
+tragedy:P28 ev 17: Themis foretells to Prometheus that those who prevail will prevail by guile, not force
+tragedy:P28 ev 53: Themis tells Prometheus this oracle
+tragedy:P26 ev 44: Amphitryon warns Heracles that Lycus has many allies and that he was seen entering the city
+tragedy:P16 ev 125: The Dioskouroi foretell that Helen will be a goddess, that an island will bear her name, and that Menelaos will dwell in the islands of the 
+tragedy:P03 ev 26: Ismene secretly brought her father the oracles given about him
+tragedy:P23 ev 89: The door is opened, showing Aegisthus' corpse and Orestes beside it
+tragedy:P14 ev 66: Orestes comes out and tells Electra that Clytaemnestra is dead
+tragedy:P12 ev 25: Electra tells Orestes that Menelaus has come, bringing Helen
+## tragedy A58~B1: [('respond', 20), ('escape', 1), ('deceive', 1)]
+tragedy:P17 ev 34: Odysseus, who had sailed against his will, served Agamemnon loyally at Troy
+tragedy:P06 ev 36: Antigone declares that she knowingly broke Creon's edict for the unwritten laws of the gods
+tragedy:P25 ev 5: The attendant goes off to watch the path
+tragedy:P17 ev 5: The elders of Argos come to the palace
+tragedy:P12 ev 133: The Phrygian servants break out and rush to help Helen
+tragedy:P10 ev 20: The chorus of Greek serving women come to the temple at Iphigenia's summons
+## tragedy A38~B55: [('plead', 20), ('reveal-information', 1)]
+tragedy:P05 ev 26: Hecuba supplicates Odysseus, claiming back the favour, and begs him to spare Polyxena and to talk the army round
+tragedy:P24 ev 34: The Nurse urges Phaedra to give way to her love rather than die
+tragedy:P20 ev 48: The chorus begs Oedipus to spare Creon
+tragedy:P05 ev 62: Hecuba asks Agamemnon only to know of her plot, keep out of it and check any uproar among the Greeks
+tragedy:P11 ev 52: Andromache begs Peleus to save her and her son
+tragedy:P05 ev 31: Hecuba offers to be put to death in Polyxena's place
+tragedy:P24 ev 27: The Nurse clasps Phaedra's hand and knees as a suppliant
+tragedy:P01 ev 63: The Chorus pleads its innocence to Hector
+tragedy:P05 ev 60: Hecuba pleads with Agamemnon to help her punish Polymestor, invoking his love for Cassandra
+## tragedy A64~B68: [('decide', 19), ('give', 1), ('leave', 1)]
+tragedy:P26 ev 114: Heracles promises to bury Amphitryon and to fetch him to Athens
+tragedy:P26 ev 47: Heracles agrees to enter the house and greet its gods
+tragedy:P18 ev 165: Antigone vows to bury Polyneices secretly though she die for it
+tragedy:P14 ev 16: Clytaemnestra and Aegisthus decided to shut Electra away in a covered chamber beyond the borders if she does not stop mourning, once Aegisth
+tragedy:P08 ev 54: Electra plots a lie: the old man is to tell Clytemnestra that she has borne a son, so that her mother will come
+tragedy:P08 ev 27: Electra declares she would kill her mother with Orestes, with the axe that killed their father
+tragedy:P03 ev 33: Both sons heard the oracle yet chose the throne over recalling their father
+tragedy:P11 ev 66: Peleus vows to raise the boy in Phthia as an enemy of the Spartans
+## tragedy A43~B29: [('threaten', 19), ('expose', 3), ('respond', 3)]
+tragedy:P30 ev 25: Pentheus threatens to hunt Ino, Agave and Autonoe from the mountains and bind them in iron fetters
+tragedy:P26 ev 75: Heracles aims his bow at his children, taking them for Eurystheus' sons, and they scatter
+tragedy:P20 ev 44: Oedipus threatens Creon with death
+tragedy:P19 ev 98: Heracles commands Hyllus to carry him to Oeta and burn him on a pyre, on pain of his curse
+tragedy:P14 ev 33: From exile Orestes made terrible threats against Clytaemnestra, charging her with his father's murder
+tragedy:P32 ev 21: Menelaus refuses to give up the letter and threatens to show it to the army
+tragedy:P14 ev 29: Clytaemnestra threatens that Electra will not escape punishment once Aegisthus returns
+tragedy:P19 ev 102: Heracles threatens Hyllus with the curse of the gods
+## tragedy A34~B62: [('reveal-information', 18)]
+tragedy:P17 ev 48: Cassandra foretells that Clytaemestra will kill her husband in the bath, trapped in a robe
+tragedy:P04 ev 31: Xuthus reports the oracle: the first man he met as he came out of the temple is his son
+tragedy:P17 ev 57: Cassandra foretells that the lioness who mates with a wolf will kill her too
+tragedy:P01 ev 76: Orpheus reveals the mysteries to Athens
+tragedy:P17 ev 55: Cassandra reveals that a cowardly lion at home plots vengeance against her returning master
+tragedy:P10 ev 99: A messenger arrives and tells the chorus that the strangers are escaping with the image by Iphigenia's plot
+tragedy:P17 ev 60: Cassandra foretells that a son of the house will return from exile to kill his mother and avenge his father
+tragedy:P16 ev 45: The old woman tells Menelaos that Helen, daughter of Zeus, lives in the house, having come from Sparta before the war
+tragedy:P07 ev 23: The maidens claim to be Argives by birth.
+tragedy:P12 ev 36: At Nauplia a sailor tells Menelaus of Clytemnestra's murder
+tragedy:P19 ev 38: Lichas declares before many witnesses that Heracles overthrew Oechalia for love of the girl
+tragedy:P17 ev 49: Cassandra foretells her own death by the sword
+tragedy:P03 ev 12: Oedipus steps out and shows himself to the elders
+tragedy:P17 ev 56: Cassandra tells the elders they will see Agamemnon dead
+## tragedy A27~B65: [('decide', 18), ('reveal-information', 3), ('threaten', 2)]
+tragedy:P12 ev 104: Pylades lays out the plan: to enter as if going to their death, hide swords in their cloaks, shut up Helen's attendants, and kill her, or el
+tragedy:P12 ev 106: Orestes resolves to take vengeance on Menelaus before he dies
+tragedy:P30 ev 64: The herdsmen, urged by a man from the city, lie in ambush to capture Agave for the king
+tragedy:P12 ev 85: Orestes wins release from stoning by promising that he and Electra will die by their own hands this day
+tragedy:P12 ev 101: Pylades schemes the whole plot of the murder
+tragedy:P18 ev 117: The armies make a truce and the generals swear to abide by it
+## tragedy A61~B79: [('harm', 18), ('fight', 1), ('recognize', 1)]
+tragedy:P26 ev 74: Amphitryon grasps Heracles' arm and questions him, and Heracles thrusts him away
+tragedy:P19 ev 86: Heracles begs Hyllus to strike him with a sword, and curses Deianeira
+tragedy:P22 ev 47: Admetus disowns his parents and swears never to bury his father
+tragedy:P26 ev 84: Amphitryon and the servants bind Heracles to a pillar
+tragedy:P09 ev 8: Medea, within, curses her children and their father
+tragedy:P03 ev 36: Oedipus prays that his sons' strife not end and that neither of them survive the war
+tragedy:P22 ev 51: Admetus curses his father and mother and renounces his father's house
+tragedy:P19 ev 73: Hyllus prays that Justice and the Erinys punish Deianeira
+## tragedy A52~B89: [('send', 17), ('other', 2), ('lament', 1)]
+tragedy:P32 ev 54: Clytemnestra calls Iphigenia out with Orestes
+tragedy:P18 ev 121: Jocasta calls Antigone out of the house
+tragedy:P30 ev 106: Agave calls the citizens to see her prey and calls for Kadmos and Pentheus to fix the head on the house
+tragedy:P09 ev 46: Medea calls the children out of the house and bids them take their father's hand
+tragedy:P09 ev 55: Medea embraces her children in farewell and sends them into the house
+tragedy:P03 ev 39: Oedipus asks one of his daughters to perform the rites for him
+tragedy:P13 ev 55: In fear of Ajax's madness, Tecmessa sends their son away from her keeping
+## tragedy A75~B16: [('plead', 14), ('give', 1)]
+tragedy:P07 ev 65: The maidens beg their father not to leave them alone.
+tragedy:P25 ev 26: Philoctetes sent pleas through visitors to his father to send a ship for him
+tragedy:P12 ev 110: Orestes, Electra and Pylades pray to Agamemnon's spirit for help, and Orestes pours libations of tears
+tragedy:P14 ev 39: Electra asks Chrysothemis to help her kill Aegisthus
+tragedy:P27 ev 42: The Furies call on their mother Night against Apollo
+tragedy:P23 ev 45: Orestes, Electra and the chorus call on their father to side with them against the foe
+tragedy:P10 ev 31: At Aulis Iphigenia pleaded with her father on her knees as he was about to kill her
+tragedy:P11 ev 47: The boy calls on his father to help
+tragedy:P12 ev 48: Clytemnestra bares her breast to plead with Orestes before he kills her
+tragedy:P08 ev 113: Clytemnestra bares her breast to Orestes at the slaughter
+tragedy:P07 ev 8: The maidens call on Epaphus to be their champion.
+tragedy:P26 ev 78: The second son begs Heracles at his knees not to kill him
+## tragedy A23~B49: [('lament', 17), ('other', 4), ('reveal-information', 2)]
+tragedy:P30 ev 117: Agave and Kadmos embrace and bid each other farewell
+tragedy:P23 ev 36: Electra and Orestes mourn their father as suppliants at his tomb
+tragedy:P08 ev 132: Orestes and Electra embrace in farewell
+tragedy:P32 ev 75: Agamemnon groans and weeps, veiling his face
+tragedy:P03 ev 110: Antigone and Ismene return lamenting their father
+tragedy:P29 ev 71: Antigone and Ismene sing a dirge over the bodies, Antigone by Polynices and Ismene by Eteocles
+tragedy:P19 ev 82: Hyllus throws himself beside his mother's body, lamenting his false accusation
+tragedy:P11 ev 114: Peleus and the chorus begin the funeral lament
+## tragedy A5~B23: [('other', 12), ('fight', 1), ('decide', 1)]
+tragedy:P30 ev 7: Dionysus stirred Thebes to his cry, first of Greek cities, in fawn-skin and with thyrsos
+tragedy:P07 ev 4: Zeus touched and breathed upon the heifer Io, from whom the maidens' race descends.
+tragedy:P24 ev 3: Hippolytus scorns Aphrodite as the vilest of goddesses, shuns love and marriage, and honours Artemis alone
+tragedy:P25 ev 90: Heracles appears above them
+tragedy:P07 ev 25: Zeus lay with Io.
+tragedy:P04 ev 93: Creusa turns her blame of Phoebus to praise
+tragedy:P02 ev 5: Hera makes Eurystheus the enemy of Heracles
+## tragedy A82~B51: [('decide', 11), ('other', 1), ('threaten', 1)]
+tragedy:P19 ev 26: Heracles vows the offering when setting out to conquer the captives' country
+tragedy:P24 ev 12: Aphrodite foretells that she will reveal the passion to Theseus, that Theseus will kill his son by his curses, and that Phaedra will die
+tragedy:P12 ev 165: Apollo promises to reconcile Orestes with the citizens, since he forced him to kill his mother
+tragedy:P12 ev 170: Apollo declares he will bring Helen to the halls of Zeus, where she will be honoured as a goddess and guard sailors
+tragedy:P13 ev 19: Ajax thanks Athena and promises to crown her with golden trophies
+tragedy:P10 ev 4: Agamemnon had once vowed to sacrifice to Artemis the most beautiful creature born that year
 ## native A7~B15: [('leave', 19), ('decide', 1), ('lament', 1)]
 native:O09 ev 17: Ictinike goes off very sad
 native:T17 ev 13: Two women go with their children to dig clams and camp in a small inlet
