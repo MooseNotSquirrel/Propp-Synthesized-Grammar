@@ -42,7 +42,7 @@ ROOT = os.path.dirname(HERE)
 SEED = 20261104
 CORPORA = ['tale', 'animal', 'fable', 'tragedy', 'native', 'eastasian']
 READERS = 'AB'
-CACHE = os.path.join(tempfile.gettempdir(), 'leaves-cache-%d.pkl' % SEED)
+CACHE = os.path.join(tempfile.gettempdir(), 'leaves-cache-v2-%d.pkl' % SEED)
 WORDNET = 'C:/Users/Steve1/nltk_wordnet'
 MOBY = 'C:/Users/Steve1/moby_thesaurus/x/files/mthesaur.txt'
 ACT_STUDIES = ['twolayer', 'problems', 'held', 'animal', 'native', 'eastasian']
@@ -91,6 +91,14 @@ def to_int(x):
         return None
 
 
+def check_counts(features):
+    for c, n in EXPECT.items():
+        for r in READERS:
+            got = len(features.get((c, r), []))
+            if got != n:
+                raise SystemExit('leaves: %s reader %s has %d stories, Coverage.txt says %d' % (c, r, got, n))
+
+
 def build_features():
     """{(corpus, reader): [(story, [event dicts in order])]}; no function label is touched here"""
     DT = tables()
@@ -126,11 +134,7 @@ def build_features():
                 ev[e]['sig'] += ['part=' + r['part'], 'value=' + r['value'], 'place=' + r['place'], 'link=' + r['link'], 'problem=' + p]
         events = [dict(e=e, **ev[e]) for e in sorted(ev)]
         out[(story.split(':')[0], reader)].append((story, events))
-    for c, n in EXPECT.items():
-        for r in READERS:
-            got = len(out.get((c, r), []))
-            if got != n:
-                raise SystemExit('leaves: %s reader %s has %d stories, Coverage.txt says %d' % (c, r, got, n))
+    check_counts(out)
     return {'features': dict(out), 'text': text}
 
 
@@ -172,7 +176,9 @@ def load():
         d = build_features()
         d['labels'], d['propp'], d['num'] = build_labels()
         pickle.dump(d, open(CACHE, 'wb'))
-    return pickle.load(open(CACHE, 'rb'))
+    d = pickle.load(open(CACHE, 'rb'))
+    check_counts(d['features'])
+    return d
 
 
 def primary(ls):
@@ -222,10 +228,9 @@ def matrix(bags, index=None, min_count=2):
                     index[t] = len(index)
     rows, cols = [], []
     for i, b in enumerate(bags):
-        for t in set(b):
-            if t in index:
-                rows.append(i)
-                cols.append(index[t])
+        for j in sorted({index[t] for t in b if t in index}):
+            rows.append(i)
+            cols.append(j)
     return sparse.csr_matrix((np.ones(len(rows)), (rows, cols)), shape=(len(bags), max(1, len(index)))), index
 
 
@@ -326,7 +331,7 @@ def thesauri(d):
     words = {}
     rows, cols = [], []
     for i, v in enumerate(have):
-        for w in syn[v] | {v}:
+        for w in sorted(syn[v] | {v}):
             rows.append(i)
             cols.append(words.setdefault(w, len(words)))
     k = len({wnc[v] for v in common if v in wnc})
