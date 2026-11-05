@@ -1,4 +1,4 @@
-# Events coded apart from their tales: protocol (DRAFT 2026-11-04, for the owner's review; nothing set up or run)
+# Events coded apart from their tales: protocol (FROZEN 2026-11-04 AT THE OWNER'S WORD, THE SIX RECOMMENDED DECISIONS TAKEN; nothing run)
 
 **Asked by the owner on 2026-11-04,** after `CardPilotReport.md`. The tale's order survived a neutral card, but both readers recognized Propp, so a reader who knows his scheme may still write his order in. This test takes away what such a reader would need: where an event falls in its tale.
 
@@ -37,7 +37,7 @@
 - **An instruction:** code each line by itself, and do not try to work out which lines belong together.
 - **At the end, one line each:** whether the card reminded them of a published scheme, and whether they could tell where events fell in their tales.
 
-**The format:** `e0413 | <entries, or X> | ? if unsure | <a short note>`.
+**The format:** `e0413 | <entries, or X> | ? if unsure | <a note of at most six words>`, so kept short for cost, after the owner's figure for part 1 of the pilot (about 60 points of the budget).
 
 ## 3. Why these are the numbers
 
@@ -99,6 +99,8 @@ Per corpus and reader:
 
 ## 7. Decisions for the owner
 
+**Taken 2026-11-04: the owner accepted all six recommendations.**
+
 1. **This in place of part 2.** Recommended. Part 2 would likely meet the same recognition. It stays set up, should you want it later.
 2. **The hero on each line.** Recommended. Functions are defined around a hero, and without one the coding would suffer. It does tell a reader which lines may share a tale, though not their order.
 3. **Names left in the lines.** Recommended. Removing them would mean rewriting the paraphrases, a new source of error. A reader could group lines by name, but with only a sixth of a tale in hand, spaced at least six apart, that gives little.
@@ -108,7 +110,7 @@ Per corpus and reader:
 
 ## 8. Order of work and cost
 
-1. The owner's review and decisions; this file frozen.
+1. The owner's review and decisions; this file frozen (done 2026-11-04).
 2. The batches, key, rules, prompts, measure and tests, in `shuffledSetup.py` and `shuffled.py`, in TaleCoding under `lines/`; committed before anything runs. The owner reads the cut rules.
 3. Part 1, then part 2, at the owner's word.
 4. The labels committed; the key applied; the measure run; the report.
